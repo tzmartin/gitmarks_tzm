@@ -1,0 +1,417 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+ <link rel="icon" type="image/vnd.microsoft.icon" href="http://www.gstatic.com/codesite/ph/images/phosting.ico">
+ 
+ <script type="text/javascript">
+ 
+ 
+ 
+ var codesite_token = null;
+ 
+ 
+ var logged_in_user_email = null;
+ 
+ 
+ var relative_base_url = "";
+ 
+ </script>
+ 
+ 
+ <title>
+ reviewscraper -
+ 
+ Project Hosting on Google Code</title>
+ <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" >
+ <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" >
+ 
+ <meta name="ROBOTS" content="NOARCHIVE">
+ 
+ <link type="text/css" rel="stylesheet" href="http://www.gstatic.com/codesite/ph/2314035420504622226/css/ph_core.css">
+ 
+ <link type="text/css" rel="stylesheet" href="http://www.gstatic.com/codesite/ph/2314035420504622226/css/ph_detail.css" >
+ 
+ 
+ 
+ 
+<!--[if IE]>
+ <link type="text/css" rel="stylesheet" href="http://www.gstatic.com/codesite/ph/2314035420504622226/css/d_ie.css" >
+<![endif]-->
+ <style type="text/css">
+ .menuIcon.off { background: no-repeat url(http://www.gstatic.com/codesite/ph/images/dropdown_sprite.gif) 0 -42px }
+ .menuIcon.on { background: no-repeat url(http://www.gstatic.com/codesite/ph/images/dropdown_sprite.gif) 0 -28px }
+ .menuIcon.down { background: no-repeat url(http://www.gstatic.com/codesite/ph/images/dropdown_sprite.gif) 0 0; }
+ 
+ 
+ 
+ .activity-level-High {
+ background:no-repeat url(http://www.gstatic.com/codesite/ph/images/activity-level.png) 0 0;
+ width: 16px;
+ height: 16px;
+ }
+ .activity-level-Low {
+ background:no-repeat url(http://www.gstatic.com/codesite/ph/images/activity-level.png) 0 -16px;
+ width: 16px;
+ height: 16px;
+ }
+ .activity-level-Medium {
+ background: no-repeat url(http://www.gstatic.com/codesite/ph/images/activity-level.png) -16px 0;
+ width: 16px;
+ height: 16px;
+ }
+ .activity-level-None {
+ background:no-repeat url(http://www.gstatic.com/codesite/ph/images/activity-level.png) -16px -16px;
+ width: 16px;
+ height: 16px;
+ }
+
+
+ </style>
+</head>
+<body class="t1">
+ <script type="text/javascript">
+ var _gaq = _gaq || [];
+ _gaq.push(
+ ['siteTracker._setAccount', 'UA-18071-1'],
+ ['siteTracker._trackPageview']);
+ 
+ (function() {
+ var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+ ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+ (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(ga);
+ })();
+ </script>
+<div class="headbg">
+ <div id="gaia">
+ 
+ <span>
+ 
+ <a href="#" id="projects-dropdown" onclick="return false;"><u>My favorites</u> <small>&#9660;</small></a>
+ | <a href="https://www.google.com/accounts/ServiceLogin?service=code&amp;ltmpl=phosting&amp;continue=http%3A%2F%2Fcode.google.com%2Fp%2Freviewscraper%2F&amp;followup=http%3A%2F%2Fcode.google.com%2Fp%2Freviewscraper%2F" onclick="_CS_click('/gb/ph/signin');"><u>Sign in</u></a>
+ 
+ </span>
+
+ </div>
+ <div class="gbh" style="left: 0pt;"></div>
+ <div class="gbh" style="right: 0pt;"></div>
+ 
+ 
+ <div style="height: 1px"></div>
+<!--[if lte IE 7]>
+<div style="text-align:center;">
+Your version of Internet Explorer is not supported. Try a browser that
+contributes to open source, such as <a href="http://www.firefox.com">Firefox</a>,
+<a href="http://www.google.com/chrome">Google Chrome</a>, or
+<a href="http://code.google.com/chrome/chromeframe/">Google Chrome Frame</a>.
+</div>
+<![endif]-->
+
+
+
+
+ <table style="padding:0px; margin: 0px 0px 10px 0px; width:100%" cellpadding="0" cellspacing="0">
+ <tr style="height: 58px;">
+ 
+ <td id="plogo">
+ <a href="/p/reviewscraper/">
+ 
+ 
+ <img src="/p/reviewscraper/logo?cct=1239994714" alt="Logo">
+ 
+ </a>
+ </td>
+ 
+ <td style="padding-left: 0.5em">
+ 
+ <div id="pname">
+ <a href="/p/reviewscraper/">reviewscraper</a>
+ </div>
+ <div id="psum">
+ <a id="project_summary_link" href="/p/reviewscraper/" >Global App Store Review Scraper for iPhone &amp; iPod Touch.</a>
+ 
+ </div>
+ 
+ </td>
+ <td style="white-space:nowrap;text-align:right; vertical-align:bottom;">
+ 
+ <form action="/hosting/search">
+ <input size="30" name="q" value="" type="text">
+ <input type="submit" name="projectsearch" value="Search projects" >
+ </form>
+ 
+ </tr>
+ </table>
+
+</div>
+
+ 
+<div id="mt" class="gtb"> 
+ <a href="/p/reviewscraper/" class="tab active">Project&nbsp;Home</a> 
+ 
+ 
+ 
+ 
+ 
+ 
+ <a href="/p/reviewscraper/w/list" class="tab ">Wiki</a>
+ 
+ 
+ 
+ 
+ 
+ <a href="/p/reviewscraper/issues/list"
+ class="tab ">Issues</a>
+ 
+ 
+ 
+ 
+ 
+ <a href="/p/reviewscraper/source/checkout"
+ class="tab ">Source</a>
+ 
+ 
+ 
+ <div class=gtbc></div>
+</div>
+<table cellspacing="0" cellpadding="0" width="100%" align="center" border="0" class="st">
+ <tr>
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ <td class="subt">
+ <div class="st1">
+ <div class="isf">
+ <span class="inst1">
+ <a href="/p/reviewscraper/">Summary</a>
+ </span>
+ 
+ 
+ &nbsp;
+ <span class="inst2">
+ <a href="/p/reviewscraper/updates/list">Updates</a>
+ </span>
+ 
+ 
+ &nbsp;
+ <span class="inst3">
+ <a href="/p/reviewscraper/people/list">People</a>
+ </span>
+ 
+ 
+ </div>
+</div>
+
+ </td>
+ 
+ 
+ <td align="right" valign="top" class="bevel-right"></td>
+ </tr>
+</table>
+<script type="text/javascript">
+ var cancelBubble = false;
+ function _go(url) { document.location = url; }
+</script>
+
+
+<div id="maincol"
+ 
+>
+
+ 
+<!-- IE -->
+
+
+
+
+
+
+
+<table width="100%">
+ <tr class="pscontent">
+ <td class="pscolumnl">
+ 
+ <div class="phead">Project Information</div>
+ 
+ 
+ <ul class="pslist">
+ 
+ 
+ <li class="psmeta">
+ <a href="updates/list">Activity</a> &nbsp;
+ <img src="http://www.gstatic.com/codesite/ph/images/cleardot.gif" class="activity-level-Medium">
+ <span>Medium</span>
+ </li>
+ <li class="psgap"/>
+ 
+ 
+ 
+ 
+ <li class="psmeta"><b>Code license</b></li>
+ </li>
+ <li class="psmeta">
+ <a href="http://www.opensource.org/licenses/bsd-license.php" rel="nofollow">New BSD License</a>
+ 
+ </li>
+ <li class="psgap"/>
+ 
+ 
+ 
+ 
+ 
+ 
+ <li class="psmeta">
+ <span id="project_labels">
+ <b>Labels</b><br/>
+ 
+ <a class="label" 
+ href="/hosting/search?q=label:appstore">appstore</a>, 
+ 
+ <a class="label" 
+ href="/hosting/search?q=label:iphone">iphone</a>, 
+ 
+ <a class="label" 
+ href="/hosting/search?q=label:ipodtouch">ipodtouch</a>, 
+ 
+ <a class="label" 
+ href="/hosting/search?q=label:itunes">itunes</a>, 
+ 
+ <a class="label" 
+ href="/hosting/search?q=label:review">review</a>, 
+ 
+ <a class="label" 
+ href="/hosting/search?q=label:scraper">scraper</a>
+ 
+ </span>
+ </li>
+ <li class="psgap"/>
+ 
+ 
+ 
+ <li class="psmeta"><b>Feeds</b></li>
+ <li class="psmeta"><a href="/p/reviewscraper/feeds">Project feeds</a>
+ <li>
+ <li class="psgap"/>
+ 
+ </ul>
+ <div class="psmeta psline"></div>
+ <div class="psicon">
+ <img height="15" width="15" src="http://www.gstatic.com/codesite/ph/images/people-y16.png"/>
+ <span><b>Owners</b></span>
+ </div>
+ <ul class="pslist">
+  
+ 
+ 
+ <li class="psmeta">
+ 
+ <li class="psmeta">
+ <a style="white-space: nowrap" href="/u/insertwittyname/">insertwittyname</a>
+ </li>
+ 
+ <li class="psgap"/>
+ 
+ <li class="psmeta"><b>Committers</b></li>
+ <li class="psmeta">
+ <a href="people/list">0 committers</a>
+ </li>
+ <li class="psgap"/>
+ 
+ <li class="psmeta"><b>Contributors</b></li>
+ <li class="psmeta">
+ <a href="people/list">0 contributors</a>
+ </li>
+ <li class="psgap"/>
+ 
+ 
+ <li class="psmeta">
+ <a href="people/list">People details &raquo;</a>
+ </li>
+ 
+ 
+ 
+ </ul>
+ 
+ </td>
+ <td id="wikicontent" class="psdescription">
+ <p>Review Scraper is the ideal app to download App Store reviews on a global scale. </p><p>Developers can easily track what people are saying about their apps and see how it ranks in all the App Store countries. </p><p>• Search for apps using a familiar interface. </p><p>• Translate app reviews into your native language (language support is limited to what the Google Translation API supports). </p><p>• Downloaded app reviews are saved and can be easily deleted. </p><p>This app was created due to my own need and an effort to learn Obj-C and Interface Builder. </p><p>I have no doubt this app and the codebase can be improved ten-fold, please contribute! </p><p>Video of the app: <a href="http://www.youtube.com/watch?v=hJ-WiuYEKrk" rel="nofollow">http://www.youtube.com/watch?v=hJ-WiuYEKrk</a> </p><p>Review Scraper is now available from Cydia. Add <a href="http://didev-studios.com/cydia" rel="nofollow">http://didev-studios.com/cydia</a> to your sources. </p><p>Donations are appreciated. </p><p><a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&amp;hosted_button_id=5640295" rel="nofollow"><img src="http://www.paypal.com/en_US/i/btn/btn_donate_LG.gif"></img></a> </p><hr/><p><img src="http://www.didev-studios.com/reviewscraper/RS05.png" /> <img src="http://www.didev-studios.com/reviewscraper/RS01.png" /> </p><p><img src="http://www.didev-studios.com/reviewscraper/RS02.png" /> <img src="http://www.didev-studios.com/reviewscraper/RS03.png" /> </p><p><img src="http://www.didev-studios.com/reviewscraper/RS04.png" /> </p>
+ </td>
+ 
+ 
+ <td class="pscolumnr">
+ 
+ 
+ <div class="phead pfeatured">Featured</div>
+ 
+ 
+ <div class="psicon">
+ <img height="15" width="15" src="http://www.gstatic.com/codesite/ph/images/paper_pencil-y16.png"/>
+ <span><b>Wiki pages</b></span>
+ </div>
+ <ul id="wikibox" class="pslist">
+ 
+ <li class="psmeta">
+ <a href="wiki/Appreciation" title="Show your appreciation"
+ >Appreciation</a>
+ </li>
+ 
+ <li class="psmeta">
+ <a href="wiki/Contributing" title="Contributing to Review Scraper"
+ >Contributing</a>
+ </li>
+ 
+ <li class="psmeta">
+ <a href="wiki/TheStory" title="All about stuff, everything and all"
+ >TheStory</a>
+ </li>
+ 
+ <li class="psmeta"><a href="w/list">Show all &raquo</a></li>
+ <li class="psgap"/>
+ </ul>
+ 
+ 
+ 
+ 
+ </td>
+ 
+ 
+ </tr>
+</table>
+<script src="http://www.gstatic.com/codesite/ph/2314035420504622226/js/prettify.js"></script>
+<script type="text/javascript">
+ prettyPrint();
+</script>
+
+ 
+ 
+ <script type="text/javascript" src="http://www.gstatic.com/codesite/ph/2314035420504622226/js/core_scripts_20081103.js"></script>
+ <script type="text/javascript" src="/js/codesite_product_dictionary_ph.pack.04102009.js"></script>
+ </div>
+<div id="footer" dir="ltr">
+ 
+ <div class="text">
+ 
+ &copy;2010 Google -
+ <a href="/projecthosting/terms.html">Terms</a> -
+ <a href="http://www.google.com/privacy.html">Privacy</a> -
+ <a href="/p/support/">Project Hosting Help</a>
+ 
+ </div>
+</div>
+
+ <div class="hostedBy" style="margin-top: -20px;">
+ <span style="vertical-align: top;">Powered by <a href="http://code.google.com/projecthosting/">Google Project Hosting</a></span>
+ </div>
+ 
+ 
+
+
+ 
+ </body>
+</html>
+
