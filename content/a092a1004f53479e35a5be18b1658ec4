@@ -1,0 +1,233 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<!-- add name to this page into title-->
+
+
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+
+
+
+<link rel="stylesheet" type="text/css" href="../assets/css/main.css" />
+<link rel="stylesheet" type="text/css" href="../assets/css/nav.css" />
+<link rel="stylesheet" href="../assets/css/thickbox.css" type="text/css" media="screen" />
+<link rel="icon" type="image/png" href="../ico.png" />
+<script type="text/javascript" src="../assets/js/jquery-1.3.2.min.js">
+</script>
+<script type="text/javascript" src="../assets/js/jquery.innerfade.js">
+</script>
+
+
+
+<script type="text/javascript" src="../assets/js/global.js">
+</script>
+
+
+<script type="text/javascript" src="../assets/js/thickbox.js"></script>
+
+<style type="text/css">
+
+.jsclass body .randomcontent{ /*Do NOT remove! CSS to hide random contents in JS enabled browsers*/
+display: none;
+}
+
+</style>
+
+<script type="text/javascript">
+
+
+if (document.getElementById)
+document.documentElement.className = 'jsclass'; //hide content for DOM capable browsers
+
+
+var randomcontentdisplay={
+	divholders:new Object(),
+	masterclass: "randomcontent",
+
+	init:function(){
+		if (!document.getElementById)
+			return
+		var alldivs=document.getElementsByTagName("div")
+		var randomcontentsearch=new RegExp(this.masterclass+"\\s+(group\\d+)", "i") //check for CSS class="randomcontent groupX" (x=integer)
+		for (var i=0; i<alldivs.length; i++){
+			if (randomcontentsearch.test(alldivs[i].className)){
+				if (typeof this.divholders[RegExp.$1]=="undefined") //if array to hold this group of divs doesn't exist yet
+					this.divholders[RegExp.$1]=new Array() //create array first
+					this.divholders[RegExp.$1].push(alldivs[i]) //add this div to the array
+			}
+		}
+	this.showone()
+	},
+
+	showone:function(){
+		for (group in this.divholders){ //loop thru each array within object
+			var chosenOne=Math.floor(Math.random()*this.divholders[group].length) //randomly pick one entry from array
+			this.divholders[group][chosenOne].style.display="block" //display content corresponding to the chosen entry
+		}
+	}
+}
+
+</script>
+
+
+<META HTTP-EQUIV="Content-type" CONTENT="text/html; charset=UTF-8">
+
+	<!--[if lte IE 7]>
+        <link rel="stylesheet" type="text/css" href="assets/css/ie.css" media="screen" />
+    <![endif]-->
+<title>Mobile Reviews | PowerReviews</title>
+<meta name="description" content="Mobile Reviews reduces the time it takes for customers to make a decision to buy, giving them the information they need, when they need it – right before they buy.">
+<meta name="keywords" content="mobile reviews, smartphones">
+
+</head>
+<!-- id for page-->
+
+<body id="mobile"  class="products">
+<div class="mainWrapper">
+  <div class="top">
+    <!-- serverside include--->
+    
+<div class="topLogo"><a href="index.php"><img src="../assets/images/top_logo_PowerReviews2.gif" alt="Power Reviews - Engage, Connect and Sell" border="0" style="margin-top:5px;"/></a></div>
+<div class="topNavWapper">
+  <div class="topNavLinks">
+    <ul>
+      <li class="metaLink"> <a href="contact-us.php">CONTACT US</a> </li>
+      <li class="metaLink"> <a href="http://blogs.powerreviews.com/"  target="_blank">BLOG</a> </li>
+      <li><a href="http://twitter.com/PowerReviews" target="_blank" class="twitterLink"></a></li>
+      <li class="phoneNumbers">866.345.1461 </li>
+    </ul>
+  </div>
+  <div class="topNavMain">
+    <ul class="dropdown">
+      <li id="topproducts"><a href="products.php" id="productsDD"><img src="assets/images/top_nav_products_on.gif" alt="products.php" border="0" /></a><ul class="topSub"><li class="topSpace"></li><li><a href="reviews.php">Reviews</a></li><li><a href="answerbox.php">AnswerBox</a></li><li><a href="seo.php">In-Line SEO</a></li><li><a href="mobile.php">Mobile</a></li><li><a href="brandconnect.php">BrandConnect</a></li><li><a href="brandshare.php">BrandShare</a></li><li><a href="services.php">Services</a></li></ul></li><li id="topsolutions"><a href="solutions.php" id="solutionsDD"><img src="assets/images/top_nav_solutions.gif" alt="solutions.php" border="0" /></a><ul class="topSub"><li class="topSpace"></li><li><a href="retailer.php">Retail</a></li><li><a href="brand.php">Brand</a></li><li><a href="small-medium-business.php">Small/Medium Business</a></li><li><a href="buzzillions.php">Buzzillions</a></li></ul></li><li id="topcompany"><a href="company.php" id="companyDD"><img src="assets/images/top_nav_company.gif" alt="company.php" border="0" /></a><ul class="topSub"><li class="topSpace"></li><li><a href="leadership.php">Leadership</a></li><li><a href="board.php">Board</a></li><li><a href="jobs.php">Jobs</a></li><li><a href="press.php">Press</a></li><li><a href="awards.php">Awards</a></li><li><a href="partners.php">Partners</a></li></ul></li><li id="topclients"><a href="clients.php" id="clientsDD"><img src="assets/images/top_nav_clients.gif" alt="clients.php" border="0" /></a><ul class="topSub"><li class="topSpace"></li><li><a href="client-perspective.php">Client Perspectives</a></li><li><a href="featured-clients.php">Featured Clients</a></li></ul></li><li id="topresources"><a href="resources.php" id="resourcesDD"><img src="assets/images/top_nav_resources.gif" alt="resources.php" border="0" /></a><ul class="topSub"><li class="topSpace"></li><li><a href="case-studies.php">Studies</a></li><li><a href="http://blogs.powerreviews.com/">Blog</a></li></ul></li>    </ul>
+  
+  </div>
+</div>
+    <!--end of server side include-->
+  </div>
+  <div class="topBar">&nbsp;</div>
+  <div class="colNav">
+
+
+
+<div class="navLeft">
+ <ul>
+
+ <li class=""><a href="reviews.php"  >Reviews</a></li><li class=""><a href="answerbox.php"  >AnswerBox</a></li><li class=""><a href="seo.php"  >In-Line SEO</a></li><li class=" open"><a href="mobile.php"   class="on" >Mobile</a></li><li class=""><a href="brandconnect.php"  >BrandConnect</a></li><li class=""><a href="brandshare.php"  >BrandShare</a></li><li class="last"><a href="services.php"  >Services</a></li> </ul> 
+</div>
+
+<!-- display content below left navigation-->
+
+<h2><p>&nbsp;<br><br><a href="http://www.powerreviewsexpress.com/expressminisite/powerreviews_express.jsp?sourceCode=corpsitenew" class="goLink">Small Retailer?</a></h2>
+ <a href="http://www.powerreviewsexpress.com/expressminisite/powerreviews_express.jsp?sourceCode=corpsitenew"><img src="../assets/images/logo_power_reviews_express1.gif" alt="Power Reviews Express" /></a>
+
+
+
+<br><br>
+<h2 class="goLink">Insider News</h2>
+<form Method="POST"  action="http://www.feedblitz.com/f/f.fbz?AddNewUserDirect">
+<input type="hidden" name="sub" value="613527">
+<input name="EMAIL" maxlength="65" type="text" size="21" value="" style="padding:2px; margin-bottom:4px; font-size:1.1em; width:93%;"><br>
+<input name="FEEDID" type="hidden" value="613527">
+<input name="PUBLISHER" type="hidden" value="20629498">
+<div style="margin-top:5px;"><font style="font-size:11px; color:#888;">Get the latest social commerce tips, trends &amp; insights - straight to your inbox.</font></div>
+<input type="submit" class="subbutton" style="float:right;">
+</form>
+
+
+
+
+  </div>
+  
+  <div class="colMain">
+  <!-- HERO AREA-->
+<div class="hero"><div class="heroText">Mobile Reviews</div><div class="heroTag clear">Customer Reviews at the point of decision.</div></div>
+  <!-- END OF HERO AREA-->
+  <div class="colContent">
+  <!--DROP YOUR CONTENT HERE -->
+
+      <p>In many  ways, shopping on-line has surpassed shopping in-store. One of the <em>big</em> ways is the ability to read customer reviews to help decide what to buy.&nbsp;&nbsp; &nbsp;</p>
+ 
+      <p>PowerReviews' <em>Mobile Reviews</em> goes a long way to  fill the gap for people shopping in stores &ndash; easy-to-use customer reviews on their  mobile devices.&nbsp; With a few keystrokes, shoppers can find the information they need to choose the right product for them. Our tag-based reviews empower your shoppers <em>and</em> associates with relevant and timely information that&rsquo;s easy to digest on mobile devices, using our at-a-glance  Review Snapshots. </p>
+
+      <p>Mobile Reviews significantly reduces the time it takes for customers to make a decision to buy, giving them the information they need, when they need it &ndash;  right before they buy (or, conversely, walk out needing to &ldquo;think about it&rdquo;). We call it a &ldquo;just-in-time&rdquo; research tool that boosts consumer confidence and helps shoppers make a decision before leaving the store, removing a major barrier to  closing the sale.</p>
+      <p>The result  &ndash; lower walk-out and higher in-store conversion &ndash; for the retailer <em>and </em>the manufacturer.</p>
+      <p><strong>Benefits</strong></p>
+      <ul>
+        <li>Provide your customers with useful and relevant information at the point of decision</li>
+        <li>Empower your customers to choose the right product</li>
+        <li>Help your associates remove key purchase obstacles</li>
+        <li>Provide better service and customer experience in the store</li>
+        <li>Net-net, increase conversion and reduce walk-out in the store</li>
+        <li>And, drive repeat purchase with a more engaging and interactive in-store experience</li>
+      </ul>
+      <p><strong>Features</strong></p>
+      <ul>
+        <li>Covers all major mobile platforms, including iPhone, Blackberry, Palm, Windows and Android</li>
+        <li>Includes at-a-glance Review  Snapshot&trade;, individual Ratings &amp; Reviews, and easy-to-use Product Search</li>
+        <li>Customer experience optimized for in-store shopping experience</li>
+      </ul>
+
+      <!-- END OF CONTENT -->
+    </div>
+    <div class="colRight">
+    <!-- buttons-->    
+    <a href="case-studies.php" title="PowerReviews: Download Stidies" class="downloadStudies"></a>
+    <a href="request-demo.php" title="PowerReviews: Request a Demo" class="demoRequest"></a>
+<!-- end of buttons-->
+<div class="hr"></div>
+<h3>Client Perspective</h3>
+<a href="assets/video/REI/rei-customers-want-reviews.html?keepThis=true&TB_iframe=true&height=420&width=500" class="thickbox"><img src="../assets/images/video/rei2.jpg" alt="Power Reviews: Customer Perspectives"/>
+Why Customer Reviews?</a>
+<div class="hr"></div>
+<h3>Featured Study</h3>
+<a href="case-page2.php?caseId=diapersstudy2&amp;titleLink=Diapers.com:%20In-Line%20SEO™%20Study" class="assetPDF"><strong>Diapers.com - </strong> In-Line SEO&trade; leads to 33% increase in search-based sales</a>
+<div class="hr"></div>
+<h3>Featured Data Sheet</h3>
+<a href="assets/docs/mobile_ds.pdf" class="assetDoc"><strong>Mobile Reviews -</strong> Customer Reviews at the point of decision.</a>
+<div class="hr"></div>    </div>
+  </div>
+  
+  <br style="clear:both;" />
+  <!-- serverside include--->
+    <div class="footer">
+	
+	<!-- Segment Pixel – Power Reviews - DO NOT MODIFY -->
+	<img src="http://ib.adnxs.com/seg?add=21954&bidder=2" width="1" height="1" />
+	<!-- End of Segment Pixel -->
+    <div class="hr6DotsFooter">&nbsp;</div>
+    <div class="footerCopy">&copy;2010 PowerReviews, Inc. All Rights Reserved.&nbsp;&nbsp;&nbsp;&nbsp;<a href="sitemap.php">Sitemap</a>
+
+		<div style="float:right; border:0;"><!-- Start SocialFollow.com Button Code -->
+		<img src="http://www.socialfollow.com/button/image/?b=2757" class="socialFollowImage" alt="Follow Me!" />
+		<script type="text/javascript" src="http://www.socialfollow.com/button/?b=2757"></script>
+		<script type="text/javascript">socialfollow.init("socialFollowImage");</script>
+		<!-- End SocialFollow.com Button Code --></div>
+
+
+
+	</div>
+
+<font style="font-size: 11px; line-height:20px; margin-bottom:5px;">PowerReviews products and services are licensed under the following U.S. patent no: <a href="http://patft.uspto.gov/netacgi/nph-Parser?Sect1=PTO2&Sect2=HITOFF&p=1&u=%2Fnetahtml%2FPTO%2Fsearch-bool.html&r=1&f=G&l=50&co1=AND&d=PTXT&s1=7,620,651&OS=7,620,651&RS=7,620,651" target="_blank" style="font-size: 11px; line-height:20px; margin-bottom:5px; color:#127197; vertical-align:baseline;">7,620,651</a>. Other patents pending.</font>
+<br><br>
+		
+		<script type="text/javascript">
+		var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+		document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+		</script>
+		<script type="text/javascript">
+		try {
+		var pageTracker = _gat._getTracker("UA-237328-1");
+		pageTracker._trackPageview();
+		} catch(err) {}</script>
+	
+		<script type="text/javascript" language="javascript">llactid=10565</script>
+		<script type="text/javascript" language="javascript" src="http://t2.trackalyzer.com/trackalyze.js"></script>
+	  </div>
+	
+  <!--end of server side include-->
+</div>
+</body>
+</html>
