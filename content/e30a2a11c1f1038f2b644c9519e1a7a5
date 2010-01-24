@@ -1,0 +1,863 @@
+
+
+
+
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+  <head>
+    
+      
+    
+
+<!-- exposes the current node for use with jstl -->
+
+
+    <title>American Booksellers Association</title>
+  
+<!--  add magnolia css and js links -->
+
+
+
+  
+
+<link rel="shortcut icon" type="image/x-icon" href="/docroot/aba/favicon.ico" />
+<link rel="stylesheet" type="text/css" href="/docroot/aba/css/home.css" />
+<style type="text/css" media="print">
+  .udm { display:none; }
+</style>
+<script type="text/javascript" src="/docroot/aba/udm-resources/style-new.js"></script>
+<script type="text/javascript" src="/docroot/aba/udm-resources/udm-control.js"></script>
+<script type="text/javascript" src="/docroot/aba/udm-resources/udm-style.js"></script>
+<script type="text/javascript">
+  function clearText(input) {
+    input.value = ""
+  }
+</script>
+
+  <script language="javascript">
+function selectImage() {
+var a, imgsrc;
+a=Math.floor(1+Math.random()*34);
+	if(a==1) {imgsrc="farleys.jpg";}
+	if(a==2) {imgsrc="villagebookshop.jpg";}
+	if(a==3) {imgsrc="seattlemystery.jpg";}
+	if(a==4) {imgsrc="bookpeople.jpg";}
+	if(a==5) {imgsrc="breathe.jpg";}
+	if(a==6) {imgsrc="wordbooks.jpg";}
+	if(a==7) {imgsrc="azizi.jpg";}
+	if(a==8) {imgsrc="books-books.jpg";}
+	if(a==9) {imgsrc="spiritsign.jpg";}
+	if(a==10) {imgsrc="esr2.jpg";}
+	if(a==11) {imgsrc="books-etc.jpg";}
+	if(a==12) {imgsrc="esr4.jpg";}
+	if(a==13) {imgsrc="esr5.jpg";}
+	if(a==14) {imgsrc="breakwater1.jpg";}
+	if(a==15) {imgsrc="snr.jpg";}
+	if(a==16) {imgsrc="nantucket_bookworks.jpg";}
+	if(a==17) {imgsrc="ib2.jpg";}
+	if(a==18) {imgsrc="ib3.jpg";}
+	if(a==19) {imgsrc="ib4.jpg";}
+	if(a==20) {imgsrc="ib5.jpg";}
+	if(a==21) {imgsrc="ib6.jpg";}
+	if(a==22) {imgsrc="andersons1.jpg";}
+	if(a==23) {imgsrc="andersons2.jpg";}
+	if(a==24) {imgsrc="andersons3.jpg";}
+	if(a==25) {imgsrc="bookpeople2.jpg";}
+	if(a==26) {imgsrc="viewpoint.jpg";}
+	if(a==27) {imgsrc="indiefriends.jpg";}
+	if(a==28) {imgsrc="alameda-books-inc.jpg";}
+	if(a==29) {imgsrc="foureyedfrog.jpg";}
+	if(a==30) {imgsrc="thirdplace.jpg";}
+	if(a==31) {imgsrc="sfsu.jpg";}
+	if(a==32) {imgsrc="bookworks.jpg";}
+	if(a==33) {imgsrc="breakwater2.jpg";}
+	if(a==34) {imgsrc="bookhouse.jpg";}
+document.randimage.src = '/files/open/graphics/indieimages/'+imgsrc;
+}
+
+// BEGIN NEW CODE TO AVOID USING BODY TAG FOR LOAD/UNLOAD
+
+function addLoadEvent(func) {
+  var oldonload = window.onload;
+  if (typeof window.onload != 'function') {
+    window.onload = func;
+  } else {
+    window.onload = function() {
+      if (oldonload) {
+        oldonload();
+      }
+      func();
+    }
+  }
+}
+
+addLoadEvent(selectImage);
+
+</script>
+
+<meta name="description" content="" />
+<meta name="keywords" content="" />
+
+
+  
+
+<meta name="priority" content="0" />
+
+  </head>
+  <body>
+    
+    
+      <!--noindex-->
+      <script type="text/javascript" src="/docroot/aba/udm-resources/udm-dom.js">//don't collapse me</script><script type="text/javascript" src="/docroot/aba/udm-resources/udm-mod-keyboard.js">//don't collapse me</script><script type="text/javascript" src="/docroot/aba/udm-resources/udm-x-sliding.js">//don't collapse me</script><table id="menu" cellspacing="0" cellpadding="0"><tr><td><ul id="udm" class="udm"><li><a href="/about">ABOUT ABA</a><ul><li><a href="/about">What is ABA?</a></li><li><a href="/about/history">ABA History</a></li><li><a href="/about/govern">Governance & Financial Info</a></li><li><a href="/about/govern/grievance">Member & Customer Grievance 
+              Policy</a></li><li><a href="/btw">Bookselling in the News</a></li><li><a href="/events">Events</a><ul><li><a href="/events/bea">BookExpo America </a><ul><li><a href="/events/bea">General Information</a></li><li><a href="/events/bea/program">Day of Education at BEA</a></li></ul></li><li><a href="/education/opening/prospective.html">Prospective 
+                  Booksellers School</a></li><li><a href="/events/forums">Bookseller Forums</a></li><li><a href="/resources/regionals">Regional Trade Shows</a></li><li><a href="/events/institute">Winter Institute</a></li></ul></li><li><a href="/about/ads">Advertising</a></li><li><a href="/ideaexchange/mvnforum/index">ABA Forums</a></li><li><a href="/wiki">ABA Wiki</a></li><li><a href="/blogs/aba/">ABA Blog</a></li><li><a href="/about/press">Press Releases & White Papers</a></li><li><a href="/about/contact">Contact Us</a></li><li><a href="/about/logos">ABA Logos</a></li></ul></li><li><a href="/indiebound">INDIEBOUND</a><ul><li><a href="/indiebound">Getting Started</a><ul><li><a href="/indiebound/booksellers/gettingstarted">Booksellers</a></li><li><a href="/indiebound/b2b">Indie Businesses</a></li><li><a href="/indiebound/customers">Consumers</a></li></ul></li><li><a href="/indiebound/booksellers">Bookseller Resources</a><ul><li><a href="/indiebound/booksellers/community-tutorial">IndieBound.org Tutorial</a></li><li><a href="/indiebound/booksellers/community-invite">Invite Your Customers to Join IndieBound.org</a></li></ul></li><li><a href="/indiebound/publishers">Publisher Resources</a><ul><li><a href="/pubpartner">Publisher Partner Program</a></li><li><a href="/indiebound/publishers/advanceaccess">Advance Access Program</a></li><li><a href="/pubpartner/tours.html">Indie Next List Authors On Tour</a></li></ul></li><li><a href="/indiebound/b2b">Business-to-Business</a></li><li><a href="/indiebound/customers">For Consumers</a></li><li><a href="/indiebound/nextlist">The Indie Next List</a><ul><li><a href="/indiebound/nextlist/nominate">Nominate</a></li><li><a href="/indiebound/nextlist/view">View</a></li><li><a href="/indiebound/nextlist/deadlines">Deadlines</a></li></ul></li><li><a href="/indiebound/bestsellers">The Indie Bestseller Lists</a><ul><li><a href="/indiebound/bestsellers/national">National</a></li><li><a href="/indiebound/bestsellers/regional">Regional</a></li><li><a href="/indiebound/bestsellers/specialty">Specialty</a></li><li><a href="/indiebound/bestsellers/reporting">Report</a></li><li><a href="/indiebound/bestsellers/archives">Archives</a></li></ul></li><li><a href="/indiebound/indiessentials">Indiessentials</a></li><li><a href="/identitymanager/index.jsp">Bookseller DIY</a></li><li><a href="/btw/awards/ICBA.html">Indies Choice Book Awards</a></li><li><a href="http://www.indiebound.org">IndieBound.org</a></li></ul></li><li><a href="/membership">MEMBERSHIP</a><ul><li><a href="/aba/members/createAccount.do">Create a BookWeb Member 
+              Account</a></li><li><a href="/membership/join">Join ABA</a></li><li><a href="/membership/benefits">Member Categories and Benefits</a></li><li><a href="/aba/account/update.do">Update Your Member Profile</a></li><li><a href="/resources/directories">Member Directories</a></li><li><a href="/membership/products">Benefit Details</a><ul><li><a href="/membership/products.html#events">Education</a></li><li><a href="/membership/products.html#industry">Industry Information</a></li><li><a href="/advocacy">Advocacy</a></li><li><a href="/membership/products.html#marketing">Marketing</a></li><li><a href="/education/operations/abacus.html">ABACUS</a></li><li><a href="/membership/products/treeline.html">Above the Treeline 
+                  Inventory Management</a></li><li><a href="/membership/products/constant.html">Constant Contact 
+                  Email Newsletters</a></li><li><a href="/membership/products/libris">LIBRIS Insurance</a></li><li><a href="/membership/products/shipping.html">Discount Shipping 
+                  Program</a></li><li><a href="/membership/products/shipping/office.html">Copying</a></li><li><a href="/membership/products/creditcard.html">Credit Card 
+                  Processing</a></li><li><a href="http://www.bookweb.org/membership/products/certegy.html">Check 
+                  Processing</a></li><li><a href="/membership/products/paper.html">W.G. Ellerkamp Paper 
+                  Company</a></li><li><a href="/membership/products/label">AAA Label</a></li><li><a href="/membership/products/scoa.html">Standard Chart of 
+                  Accounts</a></li><li><a href="/booksense/orderform">Engelbreit Gift Certificates</a></li></ul></li></ul></li><li><a href="/marketing">MARKETING</a><ul><li><a href="/indiebound/booksellers">IndieBound for Booksellers</a></li><li><a href="/solutions/giftcards">ABA Gift Card Program</a></li><li><a href="/solutions/ecommerce">IndieCommerce Program</a></li><li><a href="/indiebound/publishers">IndieBound for Publishers</a></li><li><a href="/pubpartner">Publisher Partner Program</a></li><li><a href="/indiebound/publishers/advanceaccess">Advance Access 
+              Program</a></li><li><a href="/education/marketing">General Marketing Support</a></li><li><a href="/btw/awards/ICBA.html">Indies Choice Book Awards</a></li><li><a href="/marketing#harpers">Harper's Magazine New Books Column</a></li></ul></li><li><a href="/education">EDUCATION</a><ul><li><a href="/education/curriculum">Curriculum Guide</a></li><li><a href="/education/operations/abacus">ABACUS</a></li><li><a href="/education/ecatalogs">eCatalogs</a></li><li><a href="/education/calendar">Education Calendar</a><ul><li><a href="/events/institute">Winter Institute</a></li><li><a href="/events/forums">Education Forums</a></li><li><a href="/events/bea/program">Day of Education at BEA</a></li><li><a href="http://www.bookweb.org/resources/regionals.html">Regional Trade Shows</a></li></ul></li><li><a href="/education/opening">Prospective Bookseller</a></li></ul></li><li><a href="/advocacy">ADVOCACY</a><ul><li><a href="/advocacy">Publisher Relations</a></li><li><a href="/advocacy">Trade Issues</a><ul><li><a href="/advocacy/relief">Bookseller Relief Fund</a></li></ul></li><li><a href="/advocacy/shoplocal">Shop Local</a><ul><li><a href="/advocacy/economic">Economic Studies</a></li></ul></li><li><a href="/advocacy">Public Policy</a><ul><li><a href="/advocacy/salestax">Sales Tax</a></li></ul></li><li><a href="/advocacy">Free Expression</a></li><li><a href="/advocacy/organizations">Related Organizations</a></li><li><a href="/advocacy/checklist">Take Action</a></li></ul></li><li><a href="/resources">NEWS & RESOURCES</a><ul><li><i><a href="http://news.bookweb.org">Bookselling This Week</a></i></li><li><a href="http://news.bookweb.org/mediaguide/">Books in the Media</a></li><li><a href="/btw/awards">Awards</a></li><li><a href="/about/ads">Advertising</a></li><li><a href="/about/press">Press Releases</a></li><li><a href="/resources/bbh.html">ABA Book Buyer's Handbook</a></li><li><a href="/aba/resources/browse.do">ABA Booksellers Resource Directory</a><ul><li><a href="/resources/brd.html">Vendor Data Form</a></li></ul></li><li><a href="/resources/directories.html">ABA Member Directories</a></li><li><a href="/resources">Organizations and Links</a><ul><li><a href="/resources/regionals.html">Regional Bookseller Associations</a></li><li><a href="/resources/research.html">Research and Statistics</a></li><li><a href="/resources/freespeech.html">Free Speech and Legislative 
+                  Issues</a></li><li><a href="/resources/shoplocal.html">Shop Local</a></li><li><a href="/resources/related.html">Book-related Groups</a></li><li><a href="/resources/booktrade.html">Book Trade Associations</a></li></ul></li></ul></li></ul></td></tr></table>
+      <!--/noindex-->
+    
+    <div id="header">
+      
+
+
+
+
+<img src="/files/images/homepage/header-11.jpg" border="0" alt="American Booksellers Association" />
+
+    </div>
+    <div id="container">
+      <div id="main">
+        <table width="100%" cellspacing="0" cellpadding="0">
+          <tr>
+            <td class="column">
+              <div id="leftColumn">
+                <!--noindex-->
+                <div id="tools">
+                  <img src="/docroot/aba/images/home-nav-map.gif" border="0" alt="" usemap="#Map" />
+                  
+                    <div style="clear:both;">
+                      
+                      
+<div class="tool">
+  <strong>
+
+
+  
+  
+
+
+
+
+
+
+
+
+<a href="/resources/bbh.html">Book Buyer's Handbook</a>
+
+
+</strong>
+</div>
+<div class="dottedline">&nbsp;</div>
+                    </div>
+                  
+                    <div style="clear:both;">
+                      
+                      
+<div class="tool">
+  <strong>
+
+
+  
+  
+
+
+
+
+
+
+
+
+<a href="/aba/resources/browse.do">Booksellers Resource Directory</a>
+
+
+</strong>
+</div>
+<div class="dottedline">&nbsp;</div>
+                    </div>
+                  
+                    <div style="clear:both;">
+                      
+                      
+<div class="tool">
+  <strong>
+
+
+  
+  
+
+
+
+
+
+
+
+
+<a href="/resources/directories.html">Member Directories</a>
+
+
+</strong>
+</div>
+<div class="dottedline">&nbsp;</div>
+                    </div>
+                  
+                    <div style="clear:both;">
+                      
+                      
+<div class="tool">
+  <strong>
+
+
+  
+  
+
+
+
+
+
+
+
+
+<a href="/indiebound.html">IndieBound</a>
+
+
+</strong>
+</div>
+<div class="dottedline">&nbsp;</div>
+                    </div>
+                  
+                    <div style="clear:both;">
+                      
+                      
+<div class="tool">
+  <strong>
+
+
+  
+  
+
+
+
+
+
+
+
+
+<a href="/ideaexchange/index.html">Forums</a>/<a href="/wiki/">Wiki</a>/<a href="http://news.bookweb.org/omnibus">Blog</a>
+
+
+</strong>
+</div>
+<div class="dottedline">&nbsp;</div>
+                    </div>
+                  
+                    <div style="clear:both;">
+                      
+                      
+<div class="tool">
+  <strong>
+
+
+  
+  
+
+
+
+
+
+
+
+
+<a href="/about/contact.html">Contact ABA</a>
+
+
+</strong>
+</div>
+<div class="dottedline">&nbsp;</div>
+                    </div>
+                  
+                    <div style="clear:both;">
+                      
+                      
+<div class="tool">
+  <strong>
+
+
+  
+  
+
+
+
+
+
+
+
+
+<a href="/members/createAccount.do">Create a BookWeb Account</a>
+
+
+</strong>
+</div>
+<div class="dottedline">&nbsp;</div>
+                    </div>
+                  
+                  
+                </div>
+                <!--/noindex-->
+                
+                  <div style="clear:both;">
+                    
+                    
+
+
+<div class="commontext leftColumnSection">
+  
+  
+  
+    <center><a href="mailto:kaitlin@bookweb.org,elizabethn@bookweb.org" target="_blank"><img alt="" src="http://images.bookweb.org/var/albums/mrm-graphic.jpg" /></a> </center>&nbsp;
+  
+  
+</div>
+<div class="lightblueline" style="clear:both;">&nbsp;</div>
+
+                  </div>
+                
+                
+              </div>
+            </td>
+            <td class="column">
+              <div id="middleColumn">
+                
+                
+                  <div class="pagetitle">
+                    ABA is...
+                  </div>
+                
+                
+                
+                  <div class="commontext">
+                    <p>the national trade association for independent booksellers &mdash; since 1900. ABA offers education, services and products, advocacy, and relevant business information. Look below for a selection of this month's key news and programs, or <a href="/files/open/pdf/membership/GenBro.pdf">see an overview of all ABA programs and benefits</a>.</p>
+                  </div>
+                
+                <div class="doublegrayline">&nbsp;</div>
+                
+                  <div style="clear:both;">
+                    
+                    
+
+
+<div class="commontext middleColumnSection">
+  
+  
+    <div class="sectionHeader">
+      
+          
+            
+            
+          
+
+
+
+
+
+
+
+<a href="http://news.bookweb.org/" target="_blank">The Latest Headlines From <em>Bookselling This Week</em></a>
+
+
+        
+    </div>
+  
+  
+    <ul>     <li><a href="http://news.bookweb.org/news/60-authors-join-booksellers-winter-institute">60 Authors to Join Booksellers @ Wi6</a></li>     <li><a href="http://news.bookweb.org/news/focus-first-wave-e-book-marketing">Focus on First Wave of E-book Marketing</a></li>     <li><a href="http://news.bookweb.org/news/new-diy-e-book-holiday-marketing-materials">New DIY E-book Holiday Marketing Materials</a></li>     <li><a href="http://news.bookweb.org/news/special-wi6-t-shirts-benefit-abffe">Special Wi6 T-shirts to Benefit ABFFE</a></li> </ul>&nbsp;
+  
+  
+    
+      
+      
+      
+    
+
+
+
+
+
+
+
+<a href="http://news.bookweb.org/" target="_blank">&gt;All the News</a>
+
+
+  
+</div>
+<div class="doublegrayline" style="clear:both;">&nbsp;</div>
+
+                  </div>
+                
+                  <div style="clear:both;">
+                    
+                    
+
+
+<div class="commontext middleColumnSection">
+  
+  
+    <div class="sectionHeader">
+      
+          
+            
+            
+          
+
+
+
+
+
+
+
+<a href="http://news.bookweb.org/news/independent-bookstores-now-selling-google-ebooks%E2%84%A2" target="_blank">IndieCommerce Stores Now Selling <br>Google eBooks™</a>
+
+
+        
+    </div>
+  
+  
+    <p><img hspace="5" height="104" width="125" vspace="5" border="0" align="right" alt="" src="/index/middleColumnParagraphs/01/content_files/file0/Google eBooks.gif" />On December 6, indie booksellers <a href="http://news.bookweb.org/news/indie-booksellers-google-ebooks-we%E2%80%99re-now-digital-game">truly became a part of the digital game</a> with the launch of <a href="http://news.bookweb.org/news/independent-bookstores-now-selling-google-ebooks%E2%84%A2">Google eBooks</a><a href="http://news.bookweb.org/news/independent-bookstores-now-selling-google-ebooks%E2%84%A2">&trade;</a><a href="http://news.bookweb.org/news/independent-bookstores-now-selling-google-ebooks%E2%84%A2"> on IndieCommerce websites</a>.<br /> <br /> An array of resources to help participating stores sell, market, and answer questions about e-books is now available on the new site, <a href="http://www.indiecommerce.com/">www.IndieCommerce.com</a><strong>.</strong> (An IndieCommerce user name and password is necessary to access the marketing materials.)<br /> <br /> There's also a wealth of info for ABA members interested in learning about IndieCommerce.</p> <p><strong>Learn more at <a href="http://www.IndieCommerce.com">IndieCommerce.com</a>.</strong>&nbsp;&nbsp;</p>&nbsp;
+  
+  
+</div>
+<div class="doublegrayline" style="clear:both;">&nbsp;</div>
+
+                  </div>
+                
+                  <div style="clear:both;">
+                    
+                    
+
+
+<div class="commontext middleColumnSection">
+  
+  
+    <div class="sectionHeader">
+      
+          
+            
+            
+          
+
+
+
+
+
+
+
+<a href="http://www.bookweb.org/identitymanager/2010holiday.jsp" target="_blank">Market With IndieBound Holiday Designs!</a>
+
+
+        
+    </div>
+  
+  
+    <!--[if gte mso 9]><xml> <w:WordDocument> <w:View>Normal</w:View> <w:Zoom>0</w:Zoom> <w:DoNotOptimizeForBrowser /> </w:WordDocument> </xml><![endif]--> <p><img hspace="5" height="151" width="200" vspace="5" border="0" align="right" alt="" src="/index/middleColumnParagraphs/0/content_files/file/reindeer-tag.jpg" />Dozens of new IndieBound holiday designs and updated favorites are now available in the <a href="http://www.bookweb.org/identitymanager/2010holiday.jsp">Bookseller DIY</a>. Designs for posters, gift tags, bookmarks, and a Wish List counter card can be used as is, or you can customize them with store info.<br /> <br /> A BookWeb username and password are all that&rsquo;s needed to get started. (Don&rsquo;t have a username and password? <a href="http://www.bookweb.org/membership/request/bookwebregistration">Get one now.</a>)</p>&nbsp;
+  
+  
+    
+      
+      
+      
+    
+
+
+
+
+
+
+
+<a href="http://www.bookweb.org/identitymanager/2010holiday.jsp" target="_blank">&gt;Check out the new designs.</a>
+
+
+  
+</div>
+<div class="doublegrayline" style="clear:both;">&nbsp;</div>
+
+                  </div>
+                
+                  <div style="clear:both;">
+                    
+                    
+
+
+<div class="commontext middleColumnSection">
+  
+  
+    <div class="sectionHeader">
+      
+          
+            
+            
+          
+
+
+
+
+
+
+
+<a href="http://www.bookweb.org/events/institute/wi6schedule/grid.html" target="_blank">Wi6 Fully Booked -- Waiting List Now Forming</a>
+
+
+        
+    </div>
+  
+  
+    <img hspace="5" height="145" border="0" align="right" width="150" vspace="5" src="/index/middleColumnParagraphs/04/content_files/file/wi6logo.jpg" alt="" />ABA's <a href="http://www.bookweb.org/events/institute/wi6schedule/grid.html">Annual Winter Institute</a> -- scheduled for Washington, D.C., from January 19 - 21, 2011 -- is now fully booked.&nbsp;</p> <p>ABA members who would like to add their names to a waiting list for the event or for the host hotel <a href="mailto:kaitlin@bookweb.org, elizabethn@bookweb.org?subject=Wi6%20ABA%20Member%20Waiting%20List">should e-mail ABA's Member Relationship Managers</a>. As cancellations are received, spaces will be filled on a first-come, first-served basis.<br /> <br /> Booksellers who are registered can sign up now for the <a href="http://news.bookweb.org/news/wi6%E2%80%99s-indie-store-tour-limited-25-booksellers">Indie Store Tour</a> and make appointments for the <a href="http://news.bookweb.org/news/appointments-being-scheduled-now-wi6%E2%80%99s-consultation-station">Consultation Station</a>.</p>&nbsp;
+  
+  
+    
+      
+      
+      
+    
+
+
+
+
+
+
+
+<a href="http://www.bookweb.org/events/institute/wi6schedule/grid.html" target="_blank">&gt;Here's the full update on Wi6...</a>
+
+
+  
+</div>
+<div class="doublegrayline" style="clear:both;">&nbsp;</div>
+
+                  </div>
+                
+                  <div style="clear:both;">
+                    
+                    
+
+
+<div class="commontext middleColumnSection">
+  
+  
+    <div class="sectionHeader">
+      
+          
+            
+            
+          
+
+
+
+
+
+
+
+<a href="/education/operations/abacus.html">Thanks for Participating in the <br>2010 ABACUS Survey</a>
+
+
+        
+    </div>
+  
+  
+    <img hspace="5" height="121" align="right" width="216" vspace="5" alt="" src="/index/middleColumnParagraphs/02/content_files/file/2010abacus4web.jpg" />The submission period for ABA's 2010 ABACUS Survey is now closed. Many thanks to all the booksellers who participated in this year's survey!</p> <p>For questions regarding submitted data, <a href="mailto:mlove@nacs.org?subject=2010%20ABACUS">contact Martha Love</a> at OnCampus Research; general questions about ABACUS should be addressed to <a href="mailto:len@bookweb.org?subject=2010%20ABACUS">ABA </a><a href="mailto:len@bookweb.org">COO Len Vlahos</a>.</p>&nbsp;
+  
+  
+    
+      
+      
+      
+    
+
+
+
+
+
+
+
+<a href="/education/operations/abacus.html">&gt;DETAILS</a>
+
+
+  
+</div>
+<div class="doublegrayline" style="clear:both;">&nbsp;</div>
+
+                  </div>
+                
+                
+              </div>
+            </td>
+            <td class="column">
+              <div id="search">
+                <form name="mgnlsearch" method="get" action="/search">
+                  <div>
+                    <input id="query" name="query" size="18" value="  - site search -" onclick="clearText(this)" />
+                    <input type="image" src="/docroot/aba/images/go.gif" name="search" />
+                  </div>
+                </form>                
+              </div>
+              <div id="rightColumn">
+                
+                
+                  <div class="pagetitle rightColumnSection" style="font-size:large;">
+                    <p><a href="http://www.bookweb.org/advocacy/salestax/efact.html">The E-Fairness Action Kit </a><a href="../../../../advocacy/salestax/efact.html"><img height="75" width="75" border="0" style="margin: 0pt 0pt 4px 4px; float: right;" alt="E-Fairness" src="http://news.bookweb.org/graphics/articles/generic/EF1.jpg" /></a></p>
+                  </div>
+                
+                
+                
+                  <div class="commontext rightColumnSection" style="padding-top:0;">
+                    <!--[if gte mso 9]><xml> <w:WordDocument> <w:View>Normal</w:View> <w:Zoom>0</w:Zoom> <w:Compatibility> <w:BreakWrappedTables /> <w:SnapToGridInCell /> <w:WrapTextWithPunct /> <w:UseAsianBreakRules /> </w:Compatibility> <w:BrowserLevel>MicrosoftInternetExplorer4</w:BrowserLevel> </w:WordDocument> </xml><![endif]--><!--[if !mso]><object classid="clsid:38481807-CA0E-42D2-BF39-B33AF135CC4D" id=ieooui></object> <style> st1\:*{behavior:url(#ieooui) } </style> <![endif]--><!--[if gte mso 10]> <style> /* Style Definitions */ table.MsoNormalTable {mso-style-name:"Table Normal"; mso-tstyle-rowband-size:0; mso-tstyle-colband-size:0; mso-style-noshow:yes; mso-style-parent:""; mso-padding-alt:0in 5.4pt 0in 5.4pt; mso-para-margin:0in; mso-para-margin-bottom:.0001pt; mso-pagination:widow-orphan; font-size:10.0pt; font-family:"Times New Roman";} </style> <![endif]--> <p><a href="http://www.bookweb.org/advocacy/salestax/efact.html">ABA's E-Fairness Action Kit (E-FACT)</a> provides booksellers nationwide with crucial, state-specific tools to help them in their e-fairness outreach efforts. <br /> <br /> <a href="http://www.bookweb.org/advocacy/salestax/efact.html"><strong>Find your state, and get started!</strong></a></p>
+                  </div>
+                
+                <div class="lightblueline">&nbsp;</div>
+                
+                  <div style="clear:both;">
+                    
+                    
+
+
+<div class="commontext rightColumnSection">
+  
+    <div class="sectionHeader">
+      
+          
+            
+            
+          
+
+
+
+
+
+
+
+<a href="/advocacy/health.html">Small Business Tax Credits for Health Care</a>
+
+
+        
+    </div>
+  
+  
+  
+    Qualifying small businesses can now receive a tax credit so that the cost of covering employee heath care is more affordable.</p>  <p><a href="http://www.bookweb.org/advocacy/health.html">Here's a lot more information</a> about how to know if your business qualifies and how to calculate your tax credit. And here's <a href="http://www.nytimes.com/2010/09/18/health/18patient.html">a <em>New York Times</em> story</a> about how the tax credit helped the Utah indie bookstore The King's English.</p>&nbsp;
+  
+  
+</div>
+<div class="lightblueline" style="clear:both;">&nbsp;</div>
+
+                  </div>
+                
+                  <div style="clear:both;">
+                    
+                    
+
+
+<div class="commontext rightColumnSection">
+  
+    <div class="sectionHeader">
+      
+          
+            
+            
+          
+
+
+
+
+
+
+
+<a href="http://news.bookweb.org/news/holiday-survival-guide" target="_blank">A Holiday Prep List</a>
+
+
+        
+    </div>
+  
+  
+  
+    <p><img hspace="2" height="54" width="75" vspace="2" border="0" align="right" src="/index/rightColumnParagraphs/01/content_files/file/holly2.gif" alt="" />To help you prepare for the busy holiday season ahead, we've created a checklist that covers all the bases &ndash; from merchandising and promotion to stocking supplies and using social media.</p>&nbsp;
+  
+  
+    
+      
+      
+      
+    
+
+
+
+
+
+
+
+<a href="http://news.bookweb.org/news/holiday-survival-guide" target="_blank">&gt;DETAILS</a>
+
+
+  
+</div>
+<div class="lightblueline" style="clear:both;">&nbsp;</div>
+
+                  </div>
+                
+                  <div style="clear:both;">
+                    
+                    
+
+
+<div class="commontext rightColumnSection">
+  
+    <div class="sectionHeader">
+      
+          
+            
+            
+          
+
+
+
+
+
+
+
+<a href="http://www.bookweb.org/education/curriculum">Checkout BookWeb's Curriculum Guide</a>
+
+
+        
+    </div>
+  
+  
+  
+    There are more than 100 free educational resources to help you with   everything from formulating a business plan and conducting a store   survey to creating killer events and stocking a graphic novels  section.</p>&nbsp;
+  
+  
+    
+      
+      
+      
+    
+
+
+
+
+
+
+
+<a href="http://www.bookweb.org/education/curriculum">&gt;Learn more...</a>
+
+
+  
+</div>
+<div class="lightblueline" style="clear:both;">&nbsp;</div>
+
+                  </div>
+                
+                  <div style="clear:both;">
+                    
+                    
+
+
+<div class="commontext rightColumnSection">
+  
+    <div class="sectionHeader">
+      
+          
+            
+            
+          
+
+
+
+
+
+
+
+<a href="http://www.bookweb.org/marketing"><i>Harper's Magazine</i> Reviews Now Available to ABA Members</a>
+
+
+        
+    </div>
+  
+  
+  
+    <a href="http://harpers.org/"><img src="http://images.bookweb.org/var/albums/BookWeb/harpers.jpg" alt="" /></a> <p>The literate and intelligent reviews in the <em><a href="http://harpers.org/">Harper's Magazine</a></em> &quot;New Books&quot; feature are now available to ABA member bookstores. Each month, booksellers will have access to this insightful coverage on BookWeb.org, along with an HTML version of the content, which stores can include in customer newsletters.</p>&nbsp;
+  
+  
+    
+      
+      
+      
+    
+
+
+
+
+
+
+
+<a href="http://www.bookweb.org/marketing">&gt;Learn more.</a>
+
+
+  
+</div>
+<div class="lightblueline" style="clear:both;">&nbsp;</div>
+
+                  </div>
+                
+                
+              </div>
+            </td>
+          </tr>
+        </table>
+      </div>
+    </div>
+    
+<div id="footer">
+  
+  Copyright &copy;
+  2010
+  by American Booksellers Association
+  <br />
+  BookWeb is a trademark of the American Booksellers Association. All Rights Reserved.
+  <br />
+  IMPORTANT NOTE: SEE THE <a href="/about/statement/">ABA WEBSITE STATEMENT, POLICIES, AND FORUM AGREEMENT</a>
+</div>
+
+    <map name="Map" id="Map">
+      <area shape="rect" coords="5,7,173,54" href="/aba/members/search.do" alt="Find a Local Independent Bookstore" />
+      <area shape="rect" coords="5,62,173,109" href="http://www.indiebound.org/product?affiliateId=BookWeb1" alt="Shop Online @BookSense.com" />
+      <area shape="rect" coords="5,121,173,152" alt="Bookseller Tools" />
+    </map>
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+
+
+
+<script type="text/javascript">
+var pageTracker = _gat._getTracker("UA-1486721-3");
+
+pageTracker._trackPageview();
+</script>
+  </body>
+</html>
