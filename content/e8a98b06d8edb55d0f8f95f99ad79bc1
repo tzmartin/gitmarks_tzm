@@ -687,7 +687,7 @@ It will look great on your nightstand and is also easy to use and full of clever
 <td id="right">
 
 	<div id="text-9" class="widget widget_text">			<div class="textwidget"><A HREF="http://mockapp.com/wp-login.php?action=register">Registering</A> gets you free updates and the ability to <A HREF="http://mockapp.com/iPhoneViewer/">view your mockups on your iPhone</A>.</div>
-		</div><div id="sidebar-login" class="widget widget_wp_sidebarlogin"><div class="widget-title"><h3><span>Login</span></h3></div><form method="post" action="http://mockapp.com/?_login=e11cd0caec">			<p><label for="user_login">Username:<br/><input name="log" value="" class="mid" id="user_login" type="text" /></label></p>
+		</div><div id="sidebar-login" class="widget widget_wp_sidebarlogin"><div class="widget-title"><h3><span>Login</span></h3></div><form method="post" action="http://mockapp.com/?_login=3b474693de">			<p><label for="user_login">Username:<br/><input name="log" value="" class="mid" id="user_login" type="text" /></label></p>
 			<p><label for="user_pass">Password:<br/><input name="pwd" class="mid" id="user_pass" type="password" /></label></p>			
 
 						
