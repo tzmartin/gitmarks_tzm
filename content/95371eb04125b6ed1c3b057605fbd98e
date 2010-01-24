@@ -1,0 +1,408 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head>
+  
+  <meta name="description" content='Simple, powerful tools for managing and monitoring cloud servers. Administer servers from multiple cloud providers all in one easy-to-use dashboard. Set up monitoring in under 60 seconds and get access to interactive graphs, diagnostic tools, and alerts that will let you know when your servers have a problem. Simple tools like tagging, colors, and sorting make it easy to keep track of all your infrastructure.
+' />
+<meta name="keywords" content='cloud, cloud computing, servers, cloudkick, infrastructure, management, cloud management, server management, monitoring, server monitoring, EC2 management
+' />
+
+<!--use chrome frame if available-->
+<meta http-equiv="X-UA-Compatible" content="chrome=1">
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="icon" type="image/png" href="/site_media/images/cloudkick_favicon.png"/>
+
+<link rel="stylesheet" type="text/css" media="screen"
+  href="/site_media/css/release/home.css?1292546870"/>
+<link rel="stylesheet" type="text/css" media="print" href="/site_media/css/print.css?1292546870"/>
+
+
+
+
+<title>Cloudkick | Cloud monitoring and management tools</title>
+
+<meta name="google-site-verification" content="jxxR-6JlA9ee_wluRyXUb0E1-nPOFL6JotaMQVv6jM4" />
+</head>
+
+<body class=" _  home no-sidebar static">
+<div id="wrapper">
+<div id="wrapper-inner">
+
+<div id="page">
+<div id="banner">
+  
+
+
+  <ul id="top-links">
+    <li>1-877-907-5425</li>
+    <li class="divider"></li>
+  
+    
+    <li><a class="login" href="/dashboard/">Login</a></li>
+    
+  
+    <li class="divider"></li>
+    <li><a id="rax_logo" href="http://www.rackspace.com/" target="_blank"></a></li>
+  </ul>
+ 
+  <a class="logo" href="/home"></a>
+  <div id="nav">
+  
+  
+
+        <ul class="links">
+          
+          <li><a class="features" href="/features">Product</a></li>
+          <li><a class="pricing" href="/pricing">Pricing</a></li>
+          <li><a class="clients" href="/clients">clients</a></li>
+          <li><a class="about" href="/about">Company</a></li>
+          <li><a class="contact" href="/contacts">Contact</a></li>
+        </ul>
+
+
+  
+  </div><!--/#nav-->
+  
+<div id="rax-announcement">
+  <div id="announcement-text" class="no-p-max-width">
+    <h2 class="red font-size-28">Cloudkick has been acquired by Rackspace!</h2>
+    <a href="http://www.rackspace.com" target="_blank"><img class="floatR col-160" style="margin-top:-10px;" src="/site_media/images/rackspace_logo_color_188x53.png"/></a>
+    <p class="font-size-14">We are excited to join the Rackspace family, and are confident this will allow us to offer the absolute best cloud management experience possible, for everyone. We will continue to support multiple clouds, and our users can expect to receive the same, high level of service.</p>
+    <div><a href="/blog" class="strong">Blog post</a> | <a href="/acquisition-faq" class="blue">Acquisition FAQ</a> | <a href="/free-basic-checks" class="blue">NEW: Free basic monitoring!</a> | <a href="/getting-started" class="blue">How to get started</a> | <a href="http://jobs.rackspace.com/search?q=%22san+francisco%22" class="blue" target="_blank">We're hiring</a></div>
+  </div><!--/#announcement-text-->
+</div><!--/#rax-announcement-->
+
+</div><!--/#banner-->
+  
+  
+  <div id="main" class="container">
+  <div id="topcontent">
+  
+  
+  </div>
+
+  <div id="sidebar">
+    
+      <h3>Announcements</h3>
+      <ul>
+        
+          <h4>Share your Graphs</h4>
+          
+          <p>We've enabled permalinks in graphs so you can link and share them with your colleagues.</p>
+          
+        
+          <h4>Custom Alerts</h4>
+          
+          <p>Design your own custom alerts by setting parameters that meet your needs; innovation at work!</p>
+          
+        
+          <h4>Automatic DNS</h4>
+          
+          <p>When a new node comes online, you can have Cloudkick automatically create a DNS record that makes sense. Helps ops teams to automatically keep up-to-date records for all the servers they manage.</p>
+          
+        
+          <h4>Alert History</h4>
+          
+          <p>Performance overview of what servers and monitors in your infrastructure are the most noisy (or quiet) to see yours: Dashboard / Monitor tab / Alert History sub-tab.</p>
+          
+        
+      </ul>
+    
+  </div><!--/#sidebar-->
+
+  <div id="content">
+
+  
+  
+
+  
+
+<h1 class="text-center mar-s-15" style="line-height:40px;">The best way to manage infrastructure<br><span class="font-size-30">on the cloud, or in the data center</span></h1>
+
+<ul id="quote-strip" class="clearfix">
+  <li>"Cloudkick democratizes the cloud"<br> <span class="font-size-14">- Matt Asay, CNET</span></li>
+  <li class="text-center">Best-in-Show &amp; Audience Choice<br><span class="font-size-14">- Under the Radar, 2009</span></li>
+  <li class="text-right">"It's the force behind Libcloud"<br><span class="font-size-14">- The Economist</span></li>
+</ul>
+
+<div class="container mar-n-30">
+  <div class="col col-460 mar-e-20">
+    <div style="font-size:18px; line-height:24px;">Fast set-up, robust tools, free updates, predictable pricing, and excellent service are a few reasons why thousands companies are using Cloudkick to manage their servers.</div>
+    <div class="text-center mar-n-20">
+      <a class="css-button css-button-orange font-size-18" href="/pricing" style="line-height:1em;">See Plans &amp; Pricing<br><span class="text-smaller">all accounts are free for 30 days</span></a>
+    </div>
+  </div><!--/.col-->
+  <div class="col col-460">
+    <div id="slideshow" class="border shadow"><a href="/features"><img src="site_media/images/home_slides/monitoring.png" /></a></div>
+  </div><!--/.col-->
+</div><!--/.container-->
+
+<hr class="big" style="margin-bottom:10px;">
+
+<a id="providers" href="/providers" title="Check out our cloud provider index"></a>
+
+<hr class="big" style="margin-top:10px; margin-bottom:10px;">
+
+<div class="container mar-w-20">
+  <div class="col col-220 mar-e-20">
+    <h3>Simple, powerful tools</h3>
+    <a class="zoom" href="/site_media/images/dashboard.png"><img class="shadow pad-2 mar-s-15" width="180" src="/site_media/images/home_tour/tools_palette.png" /></a>
+  </div><!--/.col-->
+  <div class="col col-220 mar-e-20">
+    <h3>Auto-scale monitoring</h3>
+    <a class="zoom" href="/site_media/images/monitoring2.png"><img class="shadow pad-2" width="180" src="/site_media/images/home_tour/nagios_page.png" /></a>
+  </div><!--/.col-->
+  <div class="col col-220 mar-e-20">
+    <h3>At-a-glance insight</h3>
+    <a class="zoom" href="/site_media/images/graphs2.png"><img class="shadow pad-2 mar-s-15" width="180" src="/site_media/images/home_tour/graphs2.png" /></a>
+  </div><!--/.col-->
+  <div class="col col-220 mar-e-20">
+    <h3>Real-time visualization</h3>
+    <a href="/viz/demo"><img class="shadow pad-2" width="180" src="/site_media/images/home_tour/viz.png" /></a>
+  </div><!--/.col-->
+  
+</div><!--/.container-->
+
+<hr class="big" style="margin:20px 0px 15px;">
+
+<div class="text-center font-size-20 italic" style="line-height:1.5em;">
+  We were amazed to find a world of innovation at Cloudkick; it was a natural fit to migrate our Fortune 500 clients. 
+  We've had increased reliability, better visibility, and true cloud portability across our deployments.
+  <br>
+  <span class="light">&ndash; Jonathan Siegel, <a href="http://www.elctech.com" target="_blank" class="light">ELC Technologies</a></span>
+</div>
+
+<hr class="big" style="margin-top:15px;">
+
+<div class="container">
+  <div class="col col-460 mar-e-20">
+    <h3>Monitor anything with custom plugins</h3>
+    <p>The Cloudkick agent gives you the ability to execute simple monitoring scripts. So, in addition to a multitude of built-in checks, you can monitor anything you want, including application-specific metrics like the number of users logged into your site.</p>
+    <p><a href="https://support.cloudkick.com/Agent/Custom_Plugins">&raquo; Custom monitoring plugin documentation</a></p>
+    <h3 class="mar-n-15">Power your app with the Cloudkick API</h3>
+    <p>Cloudkick's REST API lets you query information about your servers and monitors quickly and easily, giving you the ability to integrate Cloudkick into your existing tools and applications.</p>
+    <p><a href="https://support.cloudkick.com/API/Query">&raquo; API documentation</a></p>
+  </div><!--/.col-->
+  <div class="col col-460">
+    <h3>One million servers and counting...</h3>
+    <a id="user-logos" href="/clients"></a>
+  </div><!--/.col-->
+</div><!--/.container-->
+
+<hr class="big">
+
+<div class="text-center">
+  <a  href="/pricing" class="css-button css-button-orange font-size-24" style="padding:10px 30px;">See Plans &amp; Pricing<br><span class="text-smaller">all accounts are free for 30 days</span></a>
+</div>
+
+<hr class="big">
+
+<a id="press-logos" href="/press" title="Cloudkick in the news"></a>
+
+
+
+  </div><!--/#content-->
+
+</div><!--/#main-->
+</div><!--/#page-->
+
+
+<div class="clear"></div>
+
+<div id="loading"></div>
+
+</div><!--/#wrapper-inner-->
+
+
+
+</div><!--/#wrapper-->
+
+<div id="footer-wrapper">
+<div id="footer">
+
+
+
+
+<table width="960">
+  <tr>
+    <td class="pad-e-30">
+      <h4>Company</h4>
+      <ul>
+        <li><a href="/blog">Blog</a></li>
+        <li><a href="/about">About us</a></li>
+        <li><a href="/press">Press</a></li>
+        <li><a href="http://jobs.rackspace.com/search?q=%22san+francisco%22" target="_blank">Careers</a></li>
+        <li><a href="/labs">Labs</a></li>
+      </ul>
+    </td>
+    <td class="pad-e-30">
+      <h4>Legal</h4>
+      <ul>
+        <li><a href="/terms">Terms &amp; conditions</a></li>
+        <li><a href="/privacy">Privacy policy</a></li>
+        <li><a href="/security">Security</a></li>
+      </ul>
+    </td>
+    <td class="pad-e-30">
+      <h4>More info</h4>
+      <ul>
+        <li><a href="/providers">Cloud providers</a></li>
+        <li><a href="/windows">Windows support</a></li>
+        <li><a href="/openstack">OpenStack</a></li>
+        <li><a href="/insight">Insight</a></li>
+        <li><a href="/hybrid-cloudkick">Hybrid Cloudkick</a></li>
+        <li><a href="/cacti-nagios-alternative">Cacti, Nagios alternative</a></li>
+        <li><a href="/screencasts-and-demos">Screencasts &amp; Demos</a></li>
+      </ul>
+    </td>
+    <td>
+      <h4>Get in touch</h4>
+      <ul>
+        <li><a href="/contact">Contact us</a></li>
+        <li><a href="http://twitter.com/cloudkick" target="_blank">@cloudkick</a></li>
+      </ul>
+    </td>
+    <td class="text-right">
+      <div id="copyright-wrapper">
+        <div id="feedback-footer">I wish this page would<form method="post" action="/feedback" style="display:inline;"><div style='display:none;'><input type='hidden' id='csrfmiddlewaretoken' name='csrfmiddlewaretoken' value='e4c721ceb623f81f008d2276c1b6d36f' /></div><input type="text" onfocus="javascript:this.value='';" name="feedback" value="graph bandwidth..." /></form></div>
+        <div id="copyright">Cloudkick &copy; 2010</div>
+      </div>
+    </td>
+  </tr>
+</table>
+
+
+<img src="https://secure.adnxs.com/seg?add=79632&t=2" width="1" height="1" />
+
+</div></div><!--/#footer, #footer-wrapper -->
+
+<div id="preload">
+
+
+</div>
+
+
+
+
+
+<script type="text/javascript">
+  var active_section = "home";
+</script>
+
+
+
+  <!-- SCRIPT BASE -->
+  <script type="text/javascript">
+    function gettext(msgid) {
+      return msgid;
+    }
+    function interpolate(fmt, obj, named) {
+      if (named) {
+        return fmt.replace(/%\(\w+\)s/g, function(match){return String(obj[match.slice(2,-2)])});
+      } else {
+        return fmt.replace(/%s/g, function(match){return String(obj.shift())});
+      }
+    }
+    var deferred_javascript = [];
+  </script>
+  <script type="text/javascript" src="/site_media/js/ck.min.js?1292546870"></script>
+  
+    
+      
+    
+  
+  <script type="text/javascript">
+    var account_name = "";
+  </script>
+  <!-- closure base -->
+  
+  <script type="text/javascript">
+    deferred_javascript.push("base.js");
+    deferred_javascript.push("common.js");
+    deferred_javascript.push("analytics.js");
+    deferred_javascript.push("eventtracking.js");
+  </script>
+  <!-- END SCRIPT BASE -->
+
+<script type="text/javascript"> 
+deferred_javascript.push("jquery.slides.js");
+deferred_javascript.push("jquery.fancybox-1.2.6.pack.js");
+deferred_javascript.push("home.js");
+</script>
+<script type="text/javascript">
+  adroll_adv_id = "H2VH27PMO5DOPGWWWM5S55";
+  adroll_pix_id = "G2I5SF4ZNZG67GK3ZBPW4X";
+  (function () {
+    var oldonload = window.onload;
+    window.onload = function(){
+      __adroll_loaded=true;
+      var scr = document.createElement("script");
+      var host = (("https:" == document.location.protocol) ? "https://s.adroll.com" : "http://a.adroll.com");
+      scr.setAttribute('async', 'true');
+      scr.type = "text/javascript";
+      scr.src = host + "/j/roundtrip.js";
+      document.documentElement.firstChild.appendChild(scr);
+      if(oldonload){oldonload()}};
+  }());
+</script>
+
+
+
+<script type="text/javascript">
+
+  //Stop production from breaking when we accidentally
+  //leave a console log in the code somewhere.
+  var console;
+  if (!console) { console = {}; }
+  if (!console.log) { console.log = function () {} }
+  if (!console.dir) { console.dir = function () {} }
+  if (!console.warn) { console.warn = function () {} }
+  if (!console.info) { console.info = function () {} }
+  if (!console.error) { console.error = function () {} }
+
+  function defer_js () {
+
+    var element, i, path;
+    
+
+
+    for (i = 0; i < deferred_javascript.length; i++) {
+      path = deferred_javascript[i];
+      element = document.createElement("script");
+      element.type = "text/javascript";
+      if (path.search("static.olark") !== -1) {
+        console.log(path);
+        element.onload = function () {
+          window.setTimeout(function() {
+            wc_init();
+          }, 1000);
+        }
+      }
+      if (path.search("http") !== -1) {
+        element.src = path;
+      } else if (path.charAt(0) === "/") {
+        
+        element.src = path + "?1292546870";
+        
+      } else {
+        
+        element.src = "/site_media/js/" + path + "?1292546870";
+        
+      }
+      document.body.appendChild(element);
+    }
+  }
+  if (window.addEventListener) { //Firefox, Safari
+    window.addEventListener('load', defer_js, 'false');
+  } else if (window.attachEvent) { //IE
+    window.attachEvent('onload', defer_js);
+  } else {
+    window.onload = defer_js;
+  }
+</script>
+<script type="text/javascript" src="https://lct.salesforce.com/sfga.js"></script>
+<script type="text/javascript">__sfga();</script>
+</body>
+</html>
