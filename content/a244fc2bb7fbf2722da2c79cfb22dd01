@@ -1,0 +1,576 @@
+<!DOCTYPE HTML PUBLIC  "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+
+
+
+
+
+
+
+
+
+
+
+<head>
+
+<title>Connecting International Patent Community - patent attorney, patent innovator, patent agent - Patent Buddy</title>
+<link rel="shortcut icon" href="favicon.ico"
+	type="image/vnd.microsoft.icon">
+<link rel="icon" href="favicon.ico" type="image/x-icon">
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<meta name="keywords"
+	content="patent attorney, patent agent, patent department, innovators, law firm, corporations, patents, patent, patent lawyers, patent law, patent searchers, 
+	patent searcher, patent applications, patent search, United States, united states, U.S., US, US patent agent, US patent attorneys, US patent lawyers, US patent, Legal Jobs, legal events, IP events, groups">
+<meta name="description"
+	content="search patent attorney, patent innovator, patent agent, patent departments, patents and histories of all law firms, corporations, 
+universities, and government agencies in the United States">
+<base href='http://www.patentbuddy.com/'>
+<meta name="classification"
+	content="patent attorney, patent agent, patent department, innovators, law firm, corporations, patents, patent, patent lawyers, patent law, patent searchers, 
+	patent searcher, patent applications, patent search, United States, united states, U.S., US, Legal Jobs, legal events, IP events, groups">
+<meta name="title" content="Connecting International Patent Community - patent attorney, patent innovator, patent agent - Patent Buddy">
+<meta name="robots" content="all, index, follow">
+		<link rel="stylesheet" type="text/css" href="style/pbstyle/home.css">
+	
+
+<script type="text/javascript" src="scripts/header.js"></script>
+<script type="text/javascript">
+		function MM_preloadImages() 
+		   { 
+		      //v3.0
+		      var d=document; 
+		
+		      if(d.images)
+		      { 
+		         if(!d.MM_p)
+		            d.MM_p=new Array();
+		    
+		         var i,j=d.MM_p.length,a=MM_preloadImages.arguments; 
+		         for(i=0; i<a.length; i++)
+		         {
+		            if (a[i].indexOf("#")!=0)
+		            {
+		               d.MM_p[j]=new Image; 
+		               d.MM_p[j++].src=a[i];
+		            }
+		         }
+		      }
+		   }	
+			function clickSearchButton(evt){
+				var btn = document.getElementById('search-submit');
+				var keyCode = evt.keyCode ? evt.keyCode : evt.which ? evt.which : evt.charCode;
+				if (keyCode == 13) {					
+					btn.click();
+					return false;					
+				}
+				return true;
+			}
+			function changeUrl(val){
+				var url =document.getElementById('form1:laAdvancedsearch').href;
+				if(url.indexOf("mode") > 0){
+					url = url.substring(0,url.indexOf("mode")-1);
+				}		
+				// url = url.substring(0,);
+				if(val.value =="Search inventor"){
+					document.getElementById('form1:laAdvancedsearch').href = url+"?mode=inventor";
+				}
+				else if(val.value =="Search attorney"){
+					document.getElementById('form1:laAdvancedsearch').href = url+"?mode=attorney";
+				}
+			}
+			
+			function changeAttorney(){
+				document.getElementById('attorneyNImg').src='style/pbstyle/images/attorney_hover.jpg'
+			}
+			
+			function changeInventor(){
+				document.getElementById('inventorNImg').src='style/pbstyle/images/inventor_hover.jpg'
+			}
+		
+			function backAttorney(){
+				document.getElementById('attorneyNImg').src='style/pbstyle/images/attorneys_agents.jpg'
+			}
+			
+			function backInventor(){
+				document.getElementById('inventorNImg').src='style/pbstyle/images/inventors.jpg'
+			}
+			
+		</script>
+		<script type="text/javascript">
+		function openTAndCPopup(){
+			var tAndCWindow = window.open("termsandcondition.html","tAndC","width=550,height=280,toolbar=no,menubar=no,resizable=yes,scrollbars=yes");
+			tAndCWindow.focus();
+
+		}
+		function openSearchBox(searchFor){
+			if(searchFor == 'attorney'){
+				document.getElementById('realSearchAttorney').style.display='block';
+				document.getElementById('realSearchAttorney').focus();
+				document.getElementById('tempSearchAttorney').style.display='none';
+				document.getElementById('realSearchInventor').style.display='none';
+				document.getElementById('tempSearchInventor').style.display='block';
+			}
+			else if(searchFor == 'inventor'){
+				document.getElementById('realSearchInventor').style.display='block';
+				document.getElementById('realSearchInventor').focus();
+				document.getElementById('tempSearchInventor').style.display='none';
+				document.getElementById('tempSearchAttorney').style.display='block';
+				document.getElementById('realSearchAttorney').style.display='none';
+			}
+		}
+		function clickSignIn(btn){
+			document.getElementById(btn).click();
+			return false;
+		}	
+		function pressLoginButton(evt,btn1){
+			var btn = document.getElementById(btn1);
+			var keyCode = evt.keyCode ? evt.keyCode : evt.which ? evt.which : evt.charCode;
+			if (keyCode == 13) {					
+				btn.click();
+				return false;					
+			}
+			return true;
+		}
+		</script>
+		<style type="text/css">
+			.sprites {
+	background-image     : url(style/pbstyle/images/home_sprite.png);
+	background-color     : transparent;
+	background-repeat    : no-repeat;
+	float: left;
+	margin-right: 3px;
+ }
+
+ #sprite_0 {
+	height               : 16px;
+	width                : 16px;
+	background-position  : -0px -0px;
+ }
+ #sprite_0_0 {
+	height               : 16px;
+	width                : 16px;
+	background-position  : -0px -0px;
+ }
+
+ #sprite_1 {
+	height               : 15px;
+	width                : 16px;
+	background-position  : -16px -0px;
+ }
+
+ #sprite_2_2 {
+	height               : 21px;
+	width                : 29px;
+	background-position  : -32px -0px;
+	margin-right: 0px;
+
+	border: none;
+ }
+#sprite_1_1 {
+	height               : 15px;
+	width                : 16px;
+	background-position  : -16px -0px;
+ }
+
+ #sprite_2 {
+	height               : 21px;
+	width                : 29px;
+	background-position  : -32px -0px;
+	margin-right: 0px;
+
+	border: none;
+ }
+ #btnLoginGo1 {	
+	background-position  : -61px -0px;
+	border:medium none;
+	height:26px;
+	width:63px;
+ }
+#btnLoginGo{	
+	background-position  : -61px -0px;
+	border:medium none;
+	height:26px;
+	width:63px;
+ }
+ #sprite_4 {
+	height               : 20px;
+	width                : 21px;
+	background-position  : -125px -0px;
+ }
+
+ #sprite_5 {
+	height               : 16px;
+	width                : 16px;
+	background-position  : -146px -0px;
+ }
+
+ #sprite_6 {
+	height               : 16px;
+	width                : 16px;
+	background-position  : -162px -0px;
+ }
+ #sprite_5_5 {
+	height               : 16px;
+	width                : 16px;
+	background-position  : -146px -0px;
+ }
+
+ #sprite_6_6 {
+	height               : 16px;
+	width                : 16px;
+	background-position  : -162px -0px;
+ }
+
+ #sprite_7 {
+	height               : 63px;
+	width                : 742px;
+	background-position  : -178px -0px;
+	float: none;
+	display: block;
+	
+ }
+		</style>
+
+</head>
+<body
+	onLoad="MM_preloadImages('style/pbstyle/images/attorney_hover.jpg','style/pbstyle/images/inventor_hover.jpg')">
+
+	
+		<div><!--header starts-->
+		<center>
+		<div style="margin-top: 15px;">
+		<img class="sprites" id="sprite_7" alt="Patent Buddy - Connecting International Patent Community" src="images/spacer.gif"></div>
+		
+		</center>
+		<p class="hrz"
+			style="display: inline; width: 100%; float: left; margin-top: 10px;"></p>			
+		<p> The world's most extensive database and networking website for
+		patent
+		attorneys/agents and innovators. Research, connect, build your brand. Uncover
+		new opportunities.</p>	
+		<div class="container">	
+			<div style="float:left;width:960px;clear:left;margin-top:20px;">
+					<h1
+			style="color: #375EA1; margin: 0px; font-size: 20px; margin-top: 20px; display: inline; border-bottom:0px;">ARE
+		YOU CONNECTED?</h1></div>
+		<table style="float:left;width:960px;"><tr><td>			
+			<div style="width:470px;float:left;text-align:left;margin-top:10px;">			
+				<div style="color:#496FB8;text-align:center;width:320px;margin-bottom:10px;float:left;margin-left:115px;">					
+					<h1 style="font-size:19px;font-weight:bold;margin:0px;float:left;width:283px;">
+					<a href="AttorneyHome" style="text-decoration:none;" onmouseover="changeAttorney();"
+					onmouseout="backAttorney();">for Attorneys/Agents</a>
+					</h1>
+				</div>
+				<div style="clear:left;border-right:1px solid #4A6FB5;float:left;width:470px;">	
+								<h1 style="background-color:#E8ECF5;color:#4772A7;float:left;font-size:16px;font-weight:normal;margin-bottom:0;margin-left:0;margin-right:0;margin-top:0;text-align:left;width:189px;padding-left:7px;">
+								Search Attorney/Agent</h1>
+								<div style="float:left;width:452px;padding:5px;margin-bottom:10px;background-color:#E8ECF5;">
+								
+									
+								<select id="searchOption" name="searchOption" size="1" class="header-drop-down">	<option value="Search attorney/agent">Search attorney/agent</option>	<option value="Search organization">Search organization</option>	<option value="Search vendor organization">Search vendor organization</option>	<option value="Search offering">Search offering</option>	<option value="Search attorney/agent by keywords">Search attorney/agent by keywords</option>	<option value="Search jobs">Search jobs</option>	<option value="Search attorney/agent notes">Search attorney/agent notes</option>	<option value="Search by technical expertise">Search by technical expertise</option>	<option value="Search by legal expertise">Search by legal expertise</option>	<option value="Search by zip Code">Search by zip Code</option>	<option value="Search group by content">Search group by content</option></select>
+						<input id="realSearchAttorney" name="realSearchAttorney" type="text" value="" size="28" onkeydown="return Header.clickOnTheLinkEnterkey(event,&quot;realSearchAttorney&quot;,'false', 'http://www.patentbuddy.com');" style="display:none;padding:1px;;padding-left:20px;border-left:0px;border-right:0px;margin-left:5px;float:left;background:#ffffff url(style/pbstyle/images/corner_left.jpg) no-repeat scroll 0;" class="form" />
+										<input type="text" value="Search" size="28" id="tempSearchAttorney" onfocus="openSearchBox('attorney')"  class="form" style="padding:1px;;padding-left:20px;border-left:0px;border-right:0px;margin-left:5px;float:left;background:#ffffff url(style/pbstyle/images/corner_left.jpg) no-repeat scroll 0;"/>
+								
+								
+							<a id="attorneySearch" name="attorneySearch" href="http://localhost:8180/;jsessionid=D16408309B49AB7B49842769CD561402" onkeydown="return Header.clickSubmitButtonOnEnterkey(event);" onclick="return Header.submitQuery(3,&quot;realSearchAttorney&quot;,'false', 'http://www.patentbuddy.com')" style="text-decoration:none !important;margin-left:4px;">
+								<input type="button" id="sprite_2" class="sprites"/>
+								</a>										
+							
+									</div>		
+								<span onmouseover="changeAttorney();"
+										onmouseout="backAttorney();" style="float:left;"> <a 
+										href="AttorneyHome"><img id="attorneyNImg"
+										src="style/pbstyle/images/attorneys_agents.jpg"
+										alt="Patent Attorneys or Agents" border="0" ></a> </span>				
+									<div class="rightDivDocListBorder" style="width:300px;">					  
+									<b class="rightDivmsgBlock"><b class="rightDivmsg1"></b><b class="rightDivmsg2"></b><b
+										class="rightDivmsg3"></b><b class="rightDivmsg4"></b></b>
+									<div class="rightDivmsgContent" style="background:#E8ECF5;width:298px;height:140px;"><b class="rightDivmsg5"></b>
+									 <!-- Text container start here -->
+									
+										<div>
+									
+								    <form  method="POST" action="">
+									    <div >
+											<table style="line-height:1.7em;color:#6B6B6B;">
+												<tr ><td colspan="2" style="font-weight:bold;text-align:center;">Patent Attorneys/Agents Sign In</td>
+												</tr>
+												<tr><td class="text_table">User Name/ Email:</td>
+													<td><input id="j_username1" name="j_username" type="text" class="form" size="25" onkeydown="pressLoginButton(event,'btnLoginGo');"></td>
+												</tr>
+												<tr><td class="text_table" style="float:right;text-align:right;">Password:</td>
+													<td><input id="j_password1" name="j_password" type="password" class="form" size="25" onkeydown="pressLoginButton(event,'btnLoginGo');"></td>
+												</tr>
+												<tr><td colspan="2" align="right">
+													
+												<a id="LaBtnLogin" name="LaBtnLogin" href="javascript:;" onkeypress="return pressLoginButton(event)" onclick="return clickSignIn('btnLoginGo')" style="cursor:pointer;"><span id="getfocusImage" class="btnLoginGo1"></span></a>
+												<input id="btnLoginGo" type="submit" value="" style="float:right;" class="sprites"
+													 onclick="this.form.action='admin/j_acegi_security_check?mode=attorney';this.form.submit();"/></td>
+												</tr>
+												<tr><td colspan="2" align="right"> <a  href="trouble_login.jsf?mode=attorney" class="text_table" style="rel:no-follow">Forgot Password!</a></td>
+												</tr>
+												<tr><td colspan="2" align="right"><b style="color:#375EA1;">Not a Member?</b> <a  href="inputRegistrationNumber.jsf" class="text_table">Sign Up Now!</a></td>
+												</tr>
+											</table>
+										</div>
+							         </form>	
+									
+										</div>
+										
+											
+											
+											
+											
+												
+											
+											
+											
+												
+											
+											
+											
+										
+												  			 
+									<b class="rightDivmsg5"></b>
+									</div>
+									<b class="rightDivmsgBlock"><b class="rightDivmsg4"></b><b class="rightDivmsg3"></b><b
+										class="rightDivmsg2"></b><b class="rightDivmsg1"></b></b>							
+								</div>
+								<div style="float:left;width:470px;margin-top:10px;">
+									<div style="float:left;clear:both;width:475px;margin-bottom:5px;">
+										<span style="background-color:#E8ECF5;width:148px;float:left;padding:2px;color:#6C6C6C;clear:left; ">
+											<span class="sprites" id="sprite_1"></span>
+											<a href="patent/attorney/jobs/all/" style="text-decoration:none;color:#375EA1;font-weight:bold;">Jobs</a>
+										</span>
+										<span style="padding:2px;margin-left:10px;">New jobs posted this week:<span style="font-weight:bold;"> 2  </span></span>
+									</div><div style="float:left;clear:both;width:475px;margin-bottom:5px;">
+										<span style="background-color:#E8ECF5;width:148px;float:left;padding:2px;color:#6C6C6C;clear:left; ">
+											<span class="sprites" id="sprite_6_6"></span>
+											<a href="IPEvents/Attorney" style="text-decoration:none;color:#375EA1;font-weight:bold;">IP Events</a>
+										</span>
+										<span style="padding:2px;margin-left:10px;">Events in the next 30 days:<span style="font-weight:bold;"> 1 </span></span>
+									</div><div style="float:left;clear:both;width:475px;margin-bottom:5px;">
+										<span style="background-color:#E8ECF5;width:148px;float:left;padding:2px;color:#6C6C6C;clear:left; ">
+											<span class="sprites" id="sprite_5"></span>
+											<a href="RecentNotes/Attorney" style="text-decoration:none;color:#375EA1;font-weight:bold;">Notes</a>
+										</span>
+										<span style="padding:2px;margin-left:10px;">New notes posted this week:<span style="font-weight:bold;"> 1  </span> </span>
+									</div><div style="float:left;clear:both;width:475px;">
+										<span style="background-color:#E8ECF5;width:148px;float:left;padding:2px;color:#6C6C6C;clear:left; ">
+											<span class="sprites" id="sprite_0"></span>
+											<a href="GroupsActivity/Attorney" style="text-decoration:none;color:#375EA1;font-weight:bold;">Group Activities</a>
+										</span>
+										<span style="padding:2px;margin-left:10px;">New group activities this week:<span style="font-weight:bold;"> 0  </span></span>
+									</div>
+								</div>
+							</div>
+
+						</div>
+						</td>
+						<td>
+						<div style="width:470px;float:left;text-align:right;margin-top:10px;">
+							<div style="font-size:19px;font-weight:bold;float:left;text-align:center;width:320px;margin-bottom:10px;margin-left:160px;">
+								<h1 style="font-size:19px;font-weight:bold;margin:0px;float:left;margin-left:10px;width:150px;">
+<a href="InventorHome" style="text-decoration:none;color:#A0B117;"onmouseover="changeInventor();" onmouseout="backInventor();">for Innovators</a></h1>								
+							</div>	
+												 							
+							<div style="float:left;width:470px;text-align:left;margin-left:10px;display:inline;">
+									<h1 style="background-color:#E0E7B1;color:#A0B117;float:left;font-size:16px;font-weight:normal;margin-bottom:0;margin-left:0;margin-right:0;margin-top:0;text-align:left;width:189px;padding-left:7px;">
+								Search Innovator</h1>
+								<div style="float:left;width:452px;margin-bottom:10px;background-color:#E0E7B1;padding:5px;">
+											
+												
+											<select id="searchOptionInventor" name="searchOptionInventor" size="1" class="header-drop-down">	<option value="Search innovator by name">Search innovator by name</option>	<option value="Search innovator by Patent Owner">Search innovator by Patent Owner</option>	<option value="Search Patent Owner by name">Search Patent Owner by name</option>	<option value="Search jobs">Search jobs</option>	<option value="Search innovator notes">Search innovator notes</option>	<option value="Search group by content">Search group by content</option></select>
+
+	<input id="realSearchInventor" name="realSearchInventor" type="text" value="" size="28" onkeydown="return Header.clickOnTheInventorLinkEnterkey(event,&quot;realSearchInventor&quot;,'true', 'http://www.patentbuddy.com','searchOptionInventor');" style="display:none;padding:1px;;padding-left:20px;border-left:0px;border-right:0px;margin-left:5px;float:left;background:#ffffff url(style/pbstyle/images/corner_left.jpg) no-repeat scroll 0;" class="form" />
+									<input type="text" value="Search" size="28" id="tempSearchInventor" onfocus="openSearchBox('inventor')"  class="form" style="padding:1px;;padding-left:20px;border-left:0px;border-right:0px;margin-left:5px;float:left;background:#ffffff url(style/pbstyle/images/corner_left.jpg) no-repeat scroll 0;"/>
+								
+								
+							<a id="inventorSearch" name="inventorSearch" href="http://localhost:8180/;jsessionid=D16408309B49AB7B49842769CD561402" onkeydown="return Header.clickSubmitButtonOnEnterkey(event);" onclick="return Header.submitQuery(3,&quot;realSearchInventor&quot;,'true', 'http://www.patentbuddy.com','searchOptionInventor')" style="text-decoration:none !important;margin-left:4px;display:inline;">
+								<input type="button" id="sprite_2_2" class="sprites"/>
+								</a>										
+							
+									</div>	
+								<span onmouseover="changeInventor();" onmouseout="backInventor();"
+								style="float:left;"> <a
+								href="InventorHome"><img id="inventorNImg"
+								src="style/pbstyle/images/inventors.jpg" alt="Patent Inventors" border="0" ></a>
+							</span>
+								<div class="inventorLoginDocListBorder" style="width:300px;float:left;">					  
+								<b class="inventorLoginmsgBlock"><b class="inventorLoginmsg1"></b><b class="inventorLoginmsg2"></b><b
+									class="inventorLoginmsg3"></b><b class="inventorLoginmsg4"></b></b>
+								<div class="inventorLoginmsgContent" style="background:#E0E7B1;width:298px;height:140px;"><b class="inventorLoginmsg5"></b>
+								 <!-- Text container start here -->
+									
+										<div>
+									
+									    <form  method="POST" action="">
+									    <div >												
+											<table style="line-height:1.7em;color:#6B6B6B;">
+												<tr ><td colspan="2" style="font-weight:bold;text-align:center;">Patent Innovators Sign In</td>
+												</tr>
+												<tr><td class="text_table" style="text-align:right;">User Name/ Email:</td>
+													<td><input id="j_username" name="j_username" type="text" class="form" size="25" onkeydown="pressLoginButton(event,'btnLoginGo1');"></td>
+												</tr>
+												<tr><td class="text_table" style="float:right;text-align:right;">Password:</td>
+													<td><input id="j_password" name="j_password" type="password" class="form" size="25" onkeydown="pressLoginButton(event,'btnLoginGo1');"></td>
+												</tr>
+												<tr><td colspan="2" align="right">
+											
+													
+												<a id="LaBtnLogin2" name="LaBtnLogin2" href="javascript:;" onkeypress="return pressLoginButton(event)" onclick="return clickSignIn('btnLoginGo1')" style="cursor:pointer;"><span id="getfocusImage2" class="btnLoginGo1"></span></a>
+													<input id="btnLoginGo1" type="submit" value="" style="float:right;cursor:pointer;" class="sprites"
+													 onclick="this.form.action='admin/j_acegi_security_check?mode=inventor';this.form.submit();"/></td>
+												</tr>
+												<tr><td colspan="2" align="right"> <a  href="trouble_login.jsf?mode=inventor" class="text_table">Forgot Password!</a></td>
+												</tr>
+												<tr><td colspan="2" align="right"><b style="color:#375EA1;">Not a Member?</b> <a  href="inputPatentNumber.jsf" class="text_table">Sign Up Now!</a></td>
+												</tr>
+											</table>
+										</div>
+							         </form>	
+									
+										</div>
+										
+											
+											
+											
+											
+												
+											
+											
+											
+												
+											
+										
+										 
+									<b class="inventorLoginmsg5"></b>
+									</div>
+									<b class="inventorLoginmsgBlock"><b class="inventorLoginmsg4"></b><b class="inventorLoginmsg3"></b><b
+										class="inventorLoginmsg2"></b><b class="inventorLoginmsg1"></b></b>							
+							</div>
+							
+							</div>
+							<div style="float:left;width:470px;text-align:left;margin-left:10px;margin-top:10px;">
+							<div style="float:left;clear:both;width:475px;margin-bottom:5px;">
+									<span style="background-color:#E0E7B1;width:148px;float:left;padding:2px;color:#6C6C6C;clear:left; ">
+										<span class="sprites" id="sprite_1_1"></span>
+										<a href="patent/jobs/all/" style="text-decoration:none;color:#375EA1;font-weight:bold;">Jobs</a>
+									</span>
+									<span style="padding:2px;margin-left:10px;">New jobs posted this week:<span style="font-weight:bold;"> 0  </span></span>
+								</div><div style="float:left;clear:both;width:475px;margin-bottom:5px;">
+									<span style="background-color:#E0E7B1;width:148px;float:left;padding:2px;color:#6C6C6C;clear:left; ">
+										<span class="sprites" id="sprite_6"></span>
+										<a href="IPEvents/Inventor" style="text-decoration:none;color:#375EA1;font-weight:bold;">Events</a>
+									</span>
+									<span style="padding:2px;margin-left:10px;">Events in the next 30 days:<span style="font-weight:bold;"> 1  </span> </span>
+								</div><div style="float:left;clear:both;width:475px;margin-bottom:5px;">
+									<span style="background-color:#E0E7B1;width:148px;float:left;padding:2px;color:#6C6C6C;clear:left; ">
+										<span class="sprites" id="sprite_5_5"></span>
+										<a href="RecentNotes/Inventor" style="text-decoration:none;color:#375EA1;font-weight:bold;">Notes</a>
+									</span>
+									<span style="padding:2px;margin-left:10px;">New notes posted this week:<span style="font-weight:bold;"> 0 </span>  </span>
+								</div><div style="float:left;clear:both;width:475px;">
+									<span style="background-color:#E0E7B1;width:148px;float:left;padding:2px;color:#6C6C6C;clear:left; ">
+										<span class="sprites" id="sprite_0_0"></span>
+										<a href="GroupsActivity/Inventor" style="text-decoration:none;color:#375EA1;font-weight:bold;">Group Activities</a>
+									</span>
+									<span style="padding:2px;margin-left:10px;">New group activities this week:<span style="font-weight:bold;">0</span> </span>
+								</div>
+							</div>
+						</div>
+						</td></tr></table>
+						
+			<div class="container">
+		<div class="footerLinkDiv" style="margin-top:40px;">
+			<span style="font-weight:bold;">Attorneys/Agents</span>
+				<span style="color:#ababab;"> | </span>
+			<a id="attorneyAdSearch" name="attorneyAdSearch" href="SearchAttorneys;jsessionid=D16408309B49AB7B49842769CD561402">Search Attorneys/Agents</a>
+			<span style="color:#ababab;"> | </span>
+			<a id="attorneysByState" name="attorneysByState" href="patent/patent-attorney/firms/state/;jsessionid=D16408309B49AB7B49842769CD561402">Attorneys/Agents by State</a>
+				<span style="color:#ababab;"> | </span>
+			<a id="attorneysbyareacode" name="attorneysbyareacode" href="patent-attorneys-by-areacode;jsessionid=D16408309B49AB7B49842769CD561402">Attorneys/Agents by Area Code</a>
+			
+		</div>
+		<div class="footerLinkDiv">
+			<span style="font-weight:bold;">Law Departments/Firms</span>
+			<span style="color:#ababab;"> | </span> 
+			<a id="orgAdSearch" name="orgAdSearch" href="SearchOrganizations;jsessionid=D16408309B49AB7B49842769CD561402">Search Organization</a>
+			<span style="color:#ababab;"> | </span>
+			<a id="organizationBySize" name="organizationBySize" href="organizationBySize.jsf;jsessionid=D16408309B49AB7B49842769CD561402">Organization by Size</a>
+			<span style="color:#ababab;"> | </span>
+			<a id="organizationGrowthRate" name="organizationGrowthRate" href="organizationGrowthRate.jsf;jsessionid=D16408309B49AB7B49842769CD561402">Organization Growth Rate</a>
+			<span style="color:#ababab;"> | </span>
+			<a id="firmsByState" name="firmsByState" href="FirmByState;jsessionid=D16408309B49AB7B49842769CD561402">Organization By State</a>
+			
+			
+		</div>
+		<div class="footerLinkDiv">
+			<span style="font-weight:bold;">Innovators</span>
+			<span style="color:#ababab;"> | </span>
+			<a id="inventorAdSearch" name="inventorAdSearch" href="SearchInventors;jsessionid=D16408309B49AB7B49842769CD561402">Search Innovators</a>
+			<span style="color:#ababab;"> | </span>
+			<a id="browseInventors" name="browseInventors" href="browseinventors/byname/A/1;jsessionid=D16408309B49AB7B49842769CD561402">Innovators by Name</a>
+			<span style="color:#ababab;"> | </span>
+			<a id="browseAssignees" name="browseAssignees" href="browseAssignees/A/1;jsessionid=D16408309B49AB7B49842769CD561402">Innovators by Patent Owner</a>
+		
+		
+		</div>
+		
+		<div class="footerLinkDiv">
+			<span style="font-weight:bold;">Patent Owner</span>
+			<span style="color:#ababab;"> | </span>
+			<a id="companyAdSearch" name="companyAdSearch" href="SearchCompanies;jsessionid=D16408309B49AB7B49842769CD561402">Search Innovator by Patent Owner</a>
+		
+		</div>
+		<div class="footerLinkDiv">
+			<span style="font-weight:bold;float:left;"><span style="color:#5586C0;float:left;">Patent</span><span style="color:#A4A82F;float:left;">Buddy</span><span style="color:#23241F;float:left;">Top</span><span style="color:#BE0340;float:left;">Firms</span></span>	
+			<span style="color:#ababab;float:left;">&nbsp; |&nbsp; </span>
+			<a id="featured" name="featured" href="Featured/Sponsored/All;jsessionid=D16408309B49AB7B49842769CD561402" style="float:left;">Patent Buddy Featured Firms</a>
+			<span style="color:#ababab;float:left;">&nbsp; |&nbsp; </span>
+			
+			
+			<a id="top100" name="top100" href="Counsel/All/State/All/1/;jsessionid=D16408309B49AB7B49842769CD561402" style="float:left;cursor:pointer;"><span style="color:#5586C0;float:left;">P</span><span style="color:#A4A82F;float:left;">B</span><span style="color:#23241F;float:left;">Top</span><span style="color:#BE0340;float:left;">Firms</span></a>
+			<span style="color:#ababab;float:left;">&nbsp; |&nbsp; </span>
+			<a id="top300" name="top300" href="Top300Organization/;jsessionid=D16408309B49AB7B49842769CD561402" style="float:left;">Top 300 Organizations</a>
+			<span style="color:#ababab;float:left;">&nbsp; |&nbsp; </span>
+			<a id="othertop300" name="othertop300" href="Counsel/Other/All/20/1/;jsessionid=D16408309B49AB7B49842769CD561402" style="float:left;">Other Firms for Top 300</a>
+			
+		</div>	
+	    
+		  
+	</div>
+					
+				</div>
+			</div>
+		
+	
+
+<div id="footer" style="color: rgb(66, 114, 176); margin-top: 40px;width:100%;float:left;">
+
+<div class="bar" style="text-align:center;">		
+	<div class="container">
+					
+			<p style="text-align:center;clear:both;">
+			<a id="disclaimer" name="disclaimer" href="disclaimer.jsf;jsessionid=D16408309B49AB7B49842769CD561402">Disclaimer info</a>
+			<span style="color:#ababab;"> | </span>  
+			<a id="tnc" name="tnc" href="javascript:openTAndCPopup();">Terms of Use</a>
+			<span style="color:#ababab;"> | </span>  
+			<a id="errorpolicy" name="errorpolicy" href="policyDisclaimer.jsf;jsessionid=D16408309B49AB7B49842769CD561402">Error Correction &amp; Name Removal Policy and Procedure</a>
+			<span style="color:#ababab;"> | </span>  
+			<a id="contactusmail" name="contactusmail" href="mailto:support@patentbuddy.com">Contact us</a>
+			<span style="color:#ababab;"> | </span>  
+			<a id="privacy" name="privacy" href="privacypolicy.jsf;jsessionid=D16408309B49AB7B49842769CD561402">Privacy Policy </a>
+			  
+			
+			<br/>
+			<span style="color:#ababab;">&#169; 2007-2010 PatentBuddy.com all rights reserved</span>
+		</p>
+	</div>
+	</div>
+	</div>
+<!-- MYFACES JAVASCRIPT -->
+<script type="text/javascript"><!--
+function getScrolling(){var x = 0; var y = 0;if (self.pageXOffset || self.pageYOffset){x = self.pageXOffset;y = self.pageYOffset;} else if ((document.documentElement && document.documentElement.scrollLeft)||(document.documentElement && document.documentElement.scrollTop)){x = document.documentElement.scrollLeft;y = document.documentElement.scrollTop;} else if (document.body) {x = document.body.scrollLeft;y = document.body.scrollTop;}return x + "," + y;}
+//--></script>
+</body>
