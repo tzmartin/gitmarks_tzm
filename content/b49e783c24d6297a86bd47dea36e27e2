@@ -1,0 +1,362 @@
+
+
+<html>
+
+<head>
+<meta http-equiv="Content-Language" content="en-us">
+<meta name="GENERATOR" content="Microsoft FrontPage 4.0">
+<meta name="ProgId" content="FrontPage.Editor.Document">
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<title>Drinking Water Branch</title>
+
+<script language="JavaScript" src="JavaScript/date-picker.js"></script>
+
+<script language="JavaScript">
+
+function validate()
+	{
+		if (document.mainform.number.value != "")
+			{
+				if (document.mainform.number.value.substring(0,2).toUpperCase() != "MO")
+					{
+						document.mainform.number.value = "MO" + document.mainform.number.value;
+						return true;
+				}
+		}
+}
+
+function openpopup()
+	{
+		var popurl="Help/html_Public_Water_Supply_Sytems_Search_Paramaters.htm"
+		winpops=window.open(popurl,"","width=400,height=338,toolbar,scrollbars,menubar,resizable,")
+
+}
+
+function enableSampleSearchButton()
+	{
+		if(document.mainform.SampleType.value == "null")
+			{
+				document.mainform.action1.disabled = true;
+		}
+		else
+			{
+				document.mainform.action1.disabled = false;
+		}
+
+}
+
+function disableButton()
+	{
+		document.mainform.reset();
+		document.mainform.action1.disabled = true;
+		this.populateDefaultDate();
+
+}
+
+function populateDefaultDate()
+	{
+		var d = new Date();
+		document.mainform.end_date.value = (d.getMonth() + 1) + "/" + d.getDate() + "/" + d.getFullYear();
+		document.mainform.begin_date.value = (d.getMonth() + 1) + "/" + d.getDate() + "/" + (d.getFullYear()-2);
+
+		// Check to see if the sample search button must be enabled
+		this.enableSampleSearchButton();
+}
+</script>
+
+</head>
+
+<body bgcolor="#F7F0DE" onLoad="javascript:populateDefaultDate()">
+
+<table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse" bordercolor="#111111" width="96%" id="AutoNumber1" bgcolor="#F7F0DE">
+  <tr>
+      <td width="13%" height="61" bgcolor="#F7F0DE" valign="top" rowspan="2">
+      <p align="center">
+      <img border="0" src="Images/sdwisfaucet.jpg" alt="Sdwis Faucet" width="125" height="91"><br>
+      <b>
+      <font size="2">Version&nbsp;2.1</font>
+      </b>
+      </td>
+      <td width="76%" height="61" bgcolor="#F7F0DE">
+
+<p align="center"><img border="0" src="Images/drinking.jpg" alt="Drinking Water Watch" width="672" height="90"></td>
+    </tr>
+  <tr>
+    <td width="47%" bordercolor="#F7F0DE">
+  <blockquote style="text-align: left">
+    <blockquote>
+      <table border="0" width="88%">
+        <tr>
+          <td width="88%" align="left">
+			<form name="mainform" type="POST" action="JSP/SearchDispatch" onSubmit="return validate()">
+			   <table border="0" width="100%">
+                <tr>
+                  <td width="100%"></td>
+                </tr>
+              </table>
+              <table border="0" width="100%">
+                <tr>
+                  <td width="100%" colspan="2">
+                    <p align="left"><b><u><font size="4">Public Water Supply
+                    Systems Search Parameters
+                    </font></u></b>
+                </tr>
+                <tr>
+                  <td width="33%"></td>
+                  <td width="67%">
+              &nbsp;</td>
+                </tr>
+                <tr>
+                  <td width="33%"><b><font color="#000000" size="3">
+              <label for="number">Water System No.</label></font></b></td>
+                  <td width="67%">
+              <input id="number" type="text" name="number" size="12" value=""></td>
+                </tr>
+                <tr>
+                  <td width="33%"><b><font color="#000000" size="3">
+              <label for="name">Water System Name</label></font></b></td>
+                  <td width="67%"><input id="name" type="text" name="name" size="40" value=""></td>
+                </tr>
+                <tr>
+                  <td width="33%"><b><font color="#000000" size="3">
+              <label for="county">Principal County Served</label></font></b></td>
+                  <td width="67%"><select id="county" size="1" name="county">
+                      <option selected value="All">All</option>
+                      <option value="ADAIR"> ADAIR</option>
+<option value="ANDREW"> ANDREW</option>
+<option value="ATCHISON"> ATCHISON</option>
+<option value="AUDRAIN"> AUDRAIN</option>
+<option value="BARRY"> BARRY</option>
+<option value="BARTON"> BARTON</option>
+<option value="BATES"> BATES</option>
+<option value="BENTON"> BENTON</option>
+<option value="BOLLINGER"> BOLLINGER</option>
+<option value="BOONE"> BOONE</option>
+<option value="BUCHANAN"> BUCHANAN</option>
+<option value="BUTLER"> BUTLER</option>
+<option value="CALDWELL"> CALDWELL</option>
+<option value="CALLAWAY"> CALLAWAY</option>
+<option value="CAMDEN"> CAMDEN</option>
+<option value="CAPE GIRARDEAU"> CAPE GIRARDEAU</option>
+<option value="CARROLL"> CARROLL</option>
+<option value="CARTER"> CARTER</option>
+<option value="CASS"> CASS</option>
+<option value="CEDAR"> CEDAR</option>
+<option value="CHARITON"> CHARITON</option>
+<option value="CHRISTIAN"> CHRISTIAN</option>
+<option value="CLARK"> CLARK</option>
+<option value="CLAY"> CLAY</option>
+<option value="CLINTON"> CLINTON</option>
+<option value="COLE"> COLE</option>
+<option value="COOPER"> COOPER</option>
+<option value="CRAWFORD"> CRAWFORD</option>
+<option value="DADE"> DADE</option>
+<option value="DALLAS"> DALLAS</option>
+<option value="DAVIESS"> DAVIESS</option>
+<option value="DEKALB"> DEKALB</option>
+<option value="DENT"> DENT</option>
+<option value="DOUGLAS"> DOUGLAS</option>
+<option value="DUNKLIN"> DUNKLIN</option>
+<option value="FRANKLIN"> FRANKLIN</option>
+<option value="GASCONADE"> GASCONADE</option>
+<option value="GENTRY"> GENTRY</option>
+<option value="GREENE"> GREENE</option>
+<option value="GRUNDY"> GRUNDY</option>
+<option value="HARRISON"> HARRISON</option>
+<option value="HENRY"> HENRY</option>
+<option value="HICKORY"> HICKORY</option>
+<option value="HOLT"> HOLT</option>
+<option value="HOWARD"> HOWARD</option>
+<option value="HOWELL"> HOWELL</option>
+<option value="IRON"> IRON</option>
+<option value="JACKSON"> JACKSON</option>
+<option value="JASPER"> JASPER</option>
+<option value="JEFFERSON"> JEFFERSON</option>
+<option value="JOHNSON"> JOHNSON</option>
+<option value="KNOX"> KNOX</option>
+<option value="LACLEDE"> LACLEDE</option>
+<option value="LAFAYETTE"> LAFAYETTE</option>
+<option value="LAWRENCE"> LAWRENCE</option>
+<option value="LEWIS"> LEWIS</option>
+<option value="LINCOLN"> LINCOLN</option>
+<option value="LINN"> LINN</option>
+<option value="LIVINGSTON"> LIVINGSTON</option>
+<option value="MACON"> MACON</option>
+<option value="MADISON"> MADISON</option>
+<option value="MARIES"> MARIES</option>
+<option value="MARION"> MARION</option>
+<option value="MCDONALD"> MCDONALD</option>
+<option value="MERCER"> MERCER</option>
+<option value="MILLER"> MILLER</option>
+<option value="MISSISSIPPI"> MISSISSIPPI</option>
+<option value="MONITEAU"> MONITEAU</option>
+<option value="MONROE"> MONROE</option>
+<option value="MONTGOMERY"> MONTGOMERY</option>
+<option value="MORGAN"> MORGAN</option>
+<option value="NEW MADRID"> NEW MADRID</option>
+<option value="NEWTON"> NEWTON</option>
+<option value="NODAWAY"> NODAWAY</option>
+<option value="OREGON"> OREGON</option>
+<option value="OSAGE"> OSAGE</option>
+<option value="OZARK"> OZARK</option>
+<option value="PEMISCOT"> PEMISCOT</option>
+<option value="PERRY"> PERRY</option>
+<option value="PETTIS"> PETTIS</option>
+<option value="PHELPS"> PHELPS</option>
+<option value="PIKE"> PIKE</option>
+<option value="PLATTE"> PLATTE</option>
+<option value="POLK"> POLK</option>
+<option value="PULASKI"> PULASKI</option>
+<option value="PUTNAM"> PUTNAM</option>
+<option value="RALLS"> RALLS</option>
+<option value="RANDOLPH"> RANDOLPH</option>
+<option value="RAY"> RAY</option>
+<option value="REYNOLDS"> REYNOLDS</option>
+<option value="RIPLEY"> RIPLEY</option>
+<option value="SALINE"> SALINE</option>
+<option value="SCHUYLER"> SCHUYLER</option>
+<option value="SCOTLAND"> SCOTLAND</option>
+<option value="SCOTT"> SCOTT</option>
+<option value="SHANNON"> SHANNON</option>
+<option value="SHELBY"> SHELBY</option>
+<option value="ST CHARLES"> ST CHARLES</option>
+<option value="ST CLAIR"> ST CLAIR</option>
+<option value="ST FRANCOIS"> ST FRANCOIS</option>
+<option value="ST LOUIS"> ST LOUIS</option>
+<option value="ST LOUIS CITY"> ST LOUIS CITY</option>
+<option value="STE GENEVIEVE"> STE GENEVIEVE</option>
+<option value="STODDARD"> STODDARD</option>
+<option value="STONE"> STONE</option>
+<option value="SULLIVAN"> SULLIVAN</option>
+<option value="TANEY"> TANEY</option>
+<option value="TEXAS"> TEXAS</option>
+<option value="VERNON"> VERNON</option>
+<option value="WARREN"> WARREN</option>
+<option value="WASHINGTON"> WASHINGTON</option>
+<option value="WAYNE"> WAYNE</option>
+<option value="WEBSTER"> WEBSTER</option>
+<option value="WORTH"> WORTH</option>
+<option value="WRIGHT"> WRIGHT</option>
+
+                    </select>
+                  </td>
+                </tr>
+                <tr>
+                  <td width="33%"><b><font color="#000000" size="3"><label for="WaterSystemType">Water
+                System Type</label></font></b></td>
+                  <td width="67%"><select id="WaterSystemType" size="1" name="WaterSystemType">
+                <option value="All" selected>All</option>
+                <option value="C">Community</option>
+                <option value="NC">Non-Community</option>
+                <option value="NTNC">Non-Transient Non-Community</option>
+              </select></td>
+                </tr>
+                <tr>
+                  <td width="33%"><b><font color="#000000" size="3"><label for="SourceWaterType">Primary
+                    Source
+                Water Type</label></font></b></td>
+                  <td width="67%"><select id="SourceWaterType" size="1" name="SourceWaterType">
+                <option value="All" selected>All</option>
+                <option value="GW">GroundWater</option>
+                <option value="GWP">GroundWater Purchased</option>
+                <option value="GU">GroundWater UDI SurfaceWater</option>
+                <option value="GUP">GroundWater UDI SurfaceWater Purchased</option>
+                <option value="SW">SurfaceWater</option>
+                <option value="SWP">SurfaceWater Purchased</option>
+              </select></td>
+                </tr>
+                <tr>
+                  <td width="33%"><b><font color="#000000" size="3"><label for="PointOfContactType">Point
+                of Contact Type</label></font></b></td>
+                  <td width="67%"><select id="PointOfContactType" size="1" name="PointOfContactType">
+                <option selected value="None">None</option>
+                <option value="AC">Administrative Contact</option>
+                <option value="EC">Emergency Contact</option>
+                <option value="OW">Owner</option>
+                <option value="LE">Lead Engineer</option>
+                <option value="OP">Operator</option>
+                <option value="FC">Financial Contact</option>
+                <option value="LC">Legal Contact</option>
+                <option value="DO">Designated Op in Charge</option>
+                <option value="SA">Sampling</option>
+              </select></td>
+                </tr>
+              </table>
+               &nbsp;
+              <table border="0" width="100%">
+                <tr>
+                  <td width="100%" colspan="2">
+                    <p align="left"><b><u><font size="4">Sample Search Parameters</font></u></b></td>
+                </tr>
+                <tr>
+                  <td width="37%"></td>
+                  <td width="63%">&nbsp;</td>
+                </tr>
+                <tr>
+                  <td width="37%"><b><font color="#000000" size="3"><label for="SampleType">Sample
+                    Class&nbsp;</label></font></b></td>
+                  <td width="63%"><select id="SampleType" size="1" name="SampleType" onChange="javascript:enableSampleSearchButton()">
+                      <option selected value="null">Click to select a value...</option>
+                      <option value="ColiformSample">Coliform Samples</option>
+                      <option value="ColiformSampleDetection">Coliform Samples
+                      [Detection Only]</option>
+                      <option value="ColiformSummaries">Coliform Summaries</option>
+                      <option value="LeadandCopperSummaries">Lead and Copper
+                      Summaries</option>
+                      <option value="SummarizedFieldSampleResults">Summarized
+                      Field Sample Results</option>
+                      <option value="NonTCRAll">Non-Coliform Samples [All Samples]</option>
+                      <option value="NonTCRAnalyte">Non-Coliform Samples [By Analyte]</option>
+                      <option value="NonTCRDetection">Non-Coliform Samples [Detection
+                      Only]</option>
+                    </select></td>
+                </tr>
+                <tr>
+                  <td width="37%"><b><label for="SVFD">Sample Collection Date Range</label><font size="1"><br>
+                    <span style="font-family: Arial"><font face="Arial">(The
+                    Sample Search always produces results for the last 2 years,
+                    unless you provide a specific date range.)</font></span></font></b></td>
+                  <td width="63%">
+
+       <input type="text" name="begin_date" size="10" id="SVFD">&nbsp; <a href="javascript:show_calendar('mainform.begin_date');" title="Visit Begin Date"><img border="0" src="Images/CalendarIcon.gif" alt="Calendar" width="24" height="22"></a>&nbsp;
+          <b><label for="SVTD">To</label></b>&nbsp;&nbsp; <input type="text" name="end_date" size="10" id="SVTD">&nbsp;
+          <a href="javascript:show_calendar('mainform.end_date');" title="Visit End Date"><img border="0" src="Images/CalendarIcon.gif" alt="Calendar" width="24" height="22"></a>&nbsp;&nbsp;
+
+
+                  </td>
+                </tr>
+                <tr>
+                  <td width="37%">&nbsp;</td>
+                  <td width="63%"></td>
+                </tr>
+                <tr>
+                  <td width="100%" colspan="2">
+                    <p align="center"><input type="submit" value="Search For Water Systems" name="action">
+                    <input type="submit" value="Search For Samples" disabled name="action1">
+                    <!--  <input type="submit" value="Schedule Lookup" name="action2"> -->
+                    <input type="submit" value="CCR Report" name="action3">
+                    <input type="button" value="Clear" name="Clear" onClick="javascript:disableButton()">
+                    <input type="button" value="Glossary" name="B6" onClick="javascript:openpopup()"></td>
+                </tr>
+              </table>
+
+            </form>
+          </td>
+        </tr>
+        <tr>
+          <td width="88%" align="left">
+            <p align="left"><b><a href="Maps/Map_Template.jsp" title="Click Here for the County Map of Missouri"><font size="4" color="#0000FF">Click Here for
+the County Map of
+Missouri</font></a></b></td>
+        </tr>
+      </table>
+    </blockquote>
+  </blockquote>
+
+    </td>
+  </tr>
+</table>
+
+</body>
+
+</html>
