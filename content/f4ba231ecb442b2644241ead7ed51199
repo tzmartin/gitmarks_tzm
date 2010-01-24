@@ -1,0 +1,145 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>qTip - The jQuery tooltip plugin - Demos - Positioning and tip corners</title>
+<!--Stylesheets-->
+<link rel="shortcut icon" href="/projects/qtip/favicon.ico" />
+<link type="text/css" rel="stylesheet" href="/projects/qtip/css/master.css"  />
+<link type="text/css" rel="stylesheet" href="/projects/qtip/css/qtip.css"  />
+<link type="text/css" rel="stylesheet" href="/projects/qtip/css/demo.css"  />
+<link type="text/css" rel="stylesheet" href="/projects/qtip/css/highlight.css"  />
+<!--Meta-->
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<!--Header JavaScript-->
+<script type="text/javascript" src="/projects/qtip/packages/jquery-1.3.2.js"></script>
+</head>
+<body>
+<div id="master">
+
+
+   <div id="header">
+      <div class="center">
+         <a class="craigsworks right" href="/"><img src="/projects/qtip/images/craigsworks.png" alt="Craig Thompson Web Development" /></a>
+         <img class="bubbles right" src="/projects/qtip/images/bubbles_blue.png" alt="" />
+         
+         <h1 class="left"><a href="/projects/qtip/"><img class="logo" src="/projects/qtip/images/logo_small.png" alt="qTip - jQuery plugin" /></a></h1>
+         <div class="intro left">
+            <div class="default">
+               <p><b>qTip</b> is a tooltip plugin for the jQuery framework. It's <b>cross-browser</b>, <b>customizable</b> and <b>packed full of features</b>!</p>
+               <p>So what are you waiting for? <b>Join the qTip community!</b></p>
+            </div>
+            <div class="hover"></div>
+         </div>
+         
+         <div class="clear">&nbsp;</div>
+         
+         <ul class="nav">
+            <li><a href="/projects/qtip">Home</a></li>
+            <li><a href="/projects/qtip/features/">Features</a></li>
+            <li><a href="/projects/qtip/demos/">Demos</a></li>
+            <li><a href="/projects/qtip/download/">Download</a></li>
+            <li><a href="/projects/qtip/docs/">Documentation</a></li>
+            <li><a href="/projects/qtip/forum/">Forum</a></li>
+         </ul>
+      </div>
+   </div>
+   
+   <div id="navarrow" class="center"><div class="demos"></div></div>
+<div id="contentheader">
+<div class="center">
+   <h2><a href="/projects/qtip/demos/">Demo</a> Positioning and tip corners</h2>
+</div>
+</div>
+
+
+<div id="content" class="title">
+<div class="center" style="text-align: center">
+   <a href="#">Click me to cycle through the different corner options</a>
+</div>
+</div>
+
+<script class="example" type="text/javascript">
+// Define corners and opposites arrays
+var corners = [
+   'bottomLeft', 'bottomRight', 'bottomMiddle',
+   'topRight', 'topLeft', 'topMiddle',
+   'leftMiddle', 'leftTop', 'leftBottom',
+   'rightMiddle', 'rightBottom', 'rightTop'
+];
+var opposites = [
+   'topRight', 'topLeft', 'topMiddle',
+   'bottomLeft', 'bottomRight', 'bottomMiddle',
+   'rightMiddle', 'rightBottom', 'rightTop',
+   'leftMiddle', 'leftTop', 'leftBottom'
+];
+var i = 0;
+
+// Create the tooltips only on document load
+$(document).ready(function() 
+{
+   $('#content a')
+      .click(function()
+      {
+         // If counter reaches maximum, reset
+         if(i === corners.length) i = 0;
+         
+         // Destroy currrent tooltip if present
+         if($(this).data("qtip")) $(this).qtip("destroy");
+         
+         $(this).html(opposites[i]) // Set the links HTML to the current opposite corner
+            .qtip({
+               content: corners[i], // Set the tooltip content to the current corner
+               position: {
+                  corner: {
+                     tooltip: corners[i], // Use the corner...
+                     target: opposites[i] // ...and opposite corner
+                  }
+               },
+               show: {
+                  when: false, // Don't specify a show event
+                  ready: true // Show the tooltip when ready
+               },
+               hide: false, // Don't specify a hide event
+               style: {
+                  border: {
+                     width: 5,
+                     radius: 10
+                  },
+                  padding: 10, 
+                  textAlign: 'center',
+                  tip: true, // Give it a speech bubble tip with automatic corner detection
+                  name: 'cream' // Style it according to the preset 'cream' style
+               }
+            });
+         
+         i++; // Increase the counter
+      });
+});
+</script>
+
+
+<div id="contentheader">
+<div class="center">
+   <h3><a href="/projects/qtip/demos/">&laquo; Back to demos</a></h3>
+</div>
+</div>
+   
+   <div id="footer">
+   <div class="center">
+      <div class="right">
+         <a href="http://launchpad.net/qtip">launchpad project</a> -
+         <a href="http://plugins.jquery.com/project/qtip">jQuery plugin project</a> -
+         <a href="mailto:craig@craigsworks.com">contact me</a> 
+      </div>
+      
+      Content copyright 2009 &copy; <a href="/">Craig Thompson</a>
+   </div>
+   </div>
+</div>
+<!--Footer JavaScript-->
+<script type="text/javascript" src="/projects/qtip/packages/1.0.0-rc3/jquery.qtip-1.0.0-rc3.js"></script>
+<script type="text/javascript" src="/projects/qtip/js/highlight.js"></script>
+<script type="text/javascript" src="/projects/qtip/js/highlight/javascript.js"></script>
+<script type="text/javascript" src="/projects/qtip/js/demo.js"></script>
+</body>
+</html>
