@@ -1,0 +1,562 @@
+<!DOCTYPE html
+	PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<!-- EPA Template version 3.2.1, 28 June 2006 -->
+<head>
+	<title>EPA | Envirofacts | SDWIS | Query Form</title>
+	<meta name="DC.title" content="" />
+	<meta name="DC.description" content="" />
+	<meta name="keywords" content="" />
+	<meta name="DC.Subject" content="" />
+	<meta name="DC.type" content="" />
+	<!-- For date metadata, use the format YYYY-MM-DD -->
+	<meta name="DC.date.modified" content="" />
+	<meta name="DC.date.created" content="" />
+	<meta name="DC.date.reviewed" content="" />
+
+	<meta name="DC.language" content="en" />
+	<meta name="DC.creator" content="" />
+
+	<link rel="schema.DC" href="http://purl.org/dc/elements/1.1/" />
+	<link rel="meta" href="http://www.epa.gov/labels.rdf" type="application/rdf+xml" title="ICRA labels" />
+	<meta http-equiv="Content-Style-Type" content="text/css" />
+	<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+
+	<style type="text/css" media="screen">@import 'http://www.epa.gov/epafiles/s/epa.css';</style>
+	<!--[if lt IE 7]>
+		<link rel="stylesheet" type="text/css" href="http://www.epa.gov/epafiles/s/ie.css" />
+	<![endif]-->
+	<link rel="stylesheet" type="text/css" media="print" href="http://www.epa.gov/epafiles/s/print.css" />
+	<script type="text/javascript" src="http://www.epa.gov/epafiles/js/epa-core.js"></script>
+	<script type="text/javascript" src="http://www.epa.gov/epafiles/js/extra.js"></script>
+</head>
+<body>
+<p class="skip"><a id="skiptop" href="#content" title="Jump to main content.">Jump to main content.</a></p>
+
+<div id="header"> <!-- START EPA HEADER -->
+
+	<div id="logo"><a href="http://www.epa.gov/" title="US EPA home page"><img src="http://www.epa.gov/epafiles/images/logo_epaseal.gif" alt="[logo] US EPA" width="100" height="111" /></a></div>
+
+	<div id="areaname"> <!-- START AREA NAME -->
+		<p>Safe Drinking Water Information System (SDWIS)</p>
+	</div> <!-- END AREA NAME -->
+
+	<!-- START SEARCH CONTROLS -->
+	<form id="EPAsearch" method="get" action="http://nlquery.epa.gov/epasearch/epasearch">
+		<!-- START AREA SPECIFIC LINKS AND SEARCH BOX  -->
+		<!-- CHANGE links to point to your own recent additions and contact pages -->
+		<!-- REMOVE recent additions link if your area doesn't have one -->
+		<p><a href="/enviro/html/whats_new.html">Recent Additions</a> | <a href="/enviro/html/sdwis/sdwis_feedback.html">Contact Us</a>
+			<span class="search"><strong>Search:</strong>
+			<input name="typeofsearch" id="EPAall" type="radio" value="epa"/><label for="EPAall">All EPA</label>
+			<input name="typeofsearch" id="Areaall" type="radio" value="area" checked="checked" /><label for="Areaall">This Area</label>
+			<input name="querytext" id="searchbox" value="" />
+			<input name="submit" id="searchbutton" type="submit" value="Go" />
+			<input type="hidden" name="fld" value="envirofw" />
+			<input type="hidden" name="areaname" value="Envirofacts Data Warehouse" />
+			<input type="hidden" name="areacontacts" value="/enviro/html/ef_feedback.html" />
+			<!-- AREA ADVANCED SEARCH URL HERE (OPTIONAL) -->
+			<input type="hidden" name="areasearchurl" value="" />
+			<!-- THE REMAINING HIDDEN INPUTS ARE USED BY THE SEARCH ENGINE - DO NOT EDIT -->
+			<input type="hidden" name="result_template" value="epafiles_default.xsl" />
+			<input type="hidden" name="filter" value="samplefilt.hts" /></span>
+		</p>
+</form> <!-- END SEARCH CONTROLS -->
+
+<ul> <!-- BEGIN BREADCRUMBS -->
+		<li class="first">You are here: <a href="http://www.epa.gov/">EPA Home</a></li>
+		<!-- START AREA BREADCRUMBS -->
+		<li><a href="/enviro/index.html">Envirofacts</a></li>
+		<li><a href="/enviro/html/sdwis/">SDWIS</a></li>
+		<li>Query Form</li>
+		<!-- END AREA BREADCRUMBS -->
+</ul> <!-- END BREADCRUMBS -->
+
+</div> <!-- END EPA HEADER -->
+
+<hr class="skip" />
+
+<p class="skip"><a name="pagecontents" id="pagecontents"></a><a name="pagetop" id="pagetop"></a></p>
+
+<div id="content"> <!-- BEGIN CONTENT -->
+	<!-- EPA SITE-WIDE ANNOUNCEMENTS - DO NOT REMOVE - this code is used for emergency messages -->
+	<!-- If this page is a Sub-Office/Sub-Region/Center/Lab/Topic home page, CHANGE "sitewidec" TO "sitewideb" -->
+	<p id="sitewidec"></p>
+	<!-- BEGIN CONTENT AREA -->
+
+			<a name="pagecontents"></a>
+
+			<!-- BEGIN PAGE NAME -->
+
+
+
+			<a href="/enviro/html/sdwis/"><img src="/enviro/gif/ef_sdwis.gif" valign="bottom" align="left" alt="EF/SDWIS logo" border="0"></a>
+
+			<h1 class="epaPageName">
+
+			<!--insert Page Name here-->
+
+				Query Form</h1>
+
+			<!-- END PAGE NAME -->
+
+			<!-- BEGIN CONTENT AREA -->
+
+			<!--Insert content here-->
+
+			<font size="+1"><I>Search the SDWIS Database</I></font size="+1">
+
+<p>
+
+</CENTER>
+
+<p>
+
+The Safe Drinking Water Information System (SDWIS) contains information
+
+about public water systems and their violations of EPA's drinking water
+
+regulations, as reported to EPA by the states. These regulations
+
+establish maximum contaminant levels, treatment techniques, and
+
+monitoring and reporting requirements to ensure that water systems
+
+provide safe water to their customers. This query will help you to find
+
+your drinking water supplier and view its violations and enforcement
+
+history since 1993.
+
+<p>You may select systems either by locating systems within a <A href = "#geography">geographic area</A> or by entering the <A href = "#water_id">water system ID number</A>.<br> For more detailed information about the water you drink, contact your local water supplier directly or call your state drinking water agency.
+
+To find the phone number for your state's drinking water agency,
+
+ <A HREF="http://www.epa.gov/safewater/dwinfo.htm">click here</a> or call the Safe Drinking Water Hotline at 1-800-426-4791.
+
+<br>
+
+<p>
+
+ <br>
+
+<p>
+
+
+
+For help understanding and using the data in this system, consult the
+
+<A href="/enviro/html/sdwis/sdwis_userguide.html">User's Guide</a>. For national and state-by-state information, please see our <A HREF="http://www.epa.gov/safewater/pws/factoids.html"> drinking water facts and figures page</A>.
+
+<p><B>NOTICE:</B>&nbsp;EPA is aware of inaccuracies and underreporting of some data in
+
+the Safe Drinking Water Information System.  We are working with the
+
+states to improve the quality of the data.
+
+<BR>
+
+<P>
+
+
+
+<HR>
+
+<A NAME="geography"></A><h3>Geography Search</h3><p>
+
+Select a state to search by clicking on the map or on the <A href="#map"> text</A> links below.<p>
+
+<p>
+
+<CENTER>
+
+<IMG SRC="/enviro/gif/us_map.gif" ALT="Map of the United States, the text version is below." BORDER=0 USEMAP="#state_test">
+
+</CENTER>
+
+<MAP NAME=state_test>
+
+<AREA SHAPE=POLY COORDS="41,6,82,17,75,45,34,37,41,6,41,6" HREF="//oaspub.epa.gov/enviro/sdw_form_v2.create_page?state_abbr=WA" alt="Washington">
+
+<AREA SHAPE=POLY COORDS="27,42,13,75,64,91,72,51,27,42,27,42" HREF="//oaspub.epa.gov/enviro/sdw_form_v2.create_page?state_abbr=OR" alt="Oregon">
+
+<AREA SHAPE=POLY COORDS="45,93,37,122,72,173,82,102,45,93,45,93" HREF="//oaspub.epa.gov/enviro/sdw_form_v2.create_page?state_abbr=NV" alt="Nevada">
+
+<AREA SHAPE=POLY COORDS="86,162,72,205,113,225,124,167,86,162,86,162" HREF="//oaspub.epa.gov/enviro/sdw_form_v2.create_page?state_abbr=AZ" alt="Arizona">
+
+<AREA SHAPE=POLY COORDS="97,103,86,153,126,160,131,120,112,119,114,106,97,103,97,103" HREF="//oaspub.epa.gov/enviro/sdw_form_v2.create_page?state_abbr=UT" alt="Utah">
+
+<AREA SHAPE=POLY COORDS="86,24,73,90,114,99,118,76,100,72,86,24,86,24" HREF="//oaspub.epa.gov/enviro/sdw_form_v2.create_page?state_abbr=ID" alt="Idaho">
+
+<AREA SHAPE=POLY COORDS="96,22,111,64,176,73,180,33,96,22,96,22" HREF="//oaspub.epa.gov/enviro/sdw_form_v2.create_page?state_abbr=MT" alt="Montana">
+
+<AREA SHAPE=POLY COORDS="126,73,122,111,174,120,178,80,126,73,126,73" HREF="//oaspub.epa.gov/enviro/sdw_form_v2.create_page?state_abbr=WY" alt="Wyoming">
+
+<AREA SHAPE=POLY COORDS="137,122,133,160,191,169,191,128,137,122,137,122" HREF="//oaspub.epa.gov/enviro/sdw_form_v2.create_page?state_abbr=CO" alt="Colorado">
+
+<AREA SHAPE=POLY COORDS="132,170,125,221,176,227,180,174,132,170,132,170" HREF="//oaspub.epa.gov/enviro/sdw_form_v2.create_page?state_abbr=NM" alt="New Mexico">
+
+<AREA SHAPE=POLY COORDS="189,33,186,59,240,63,236,36,189,33,189,33" HREF="//oaspub.epa.gov/enviro/sdw_form_v2.create_page?state_abbr=ND" alt="North Dakota">
+
+<AREA SHAPE=POLY COORDS="187,69,183,97,240,101,241,71,187,69,187,69" HREF="//oaspub.epa.gov/enviro/sdw_form_v2.create_page?state_abbr=SD" alt="South Dakota">
+
+<AREA SHAPE=POLY COORDS="184,104,182,119,200,121,200,134,248,135,237,108,184,104,184,104" HREF="//oaspub.epa.gov/enviro/sdw_form_v2.create_page?state_abbr=NE" alt="Nebraska">
+
+<AREA SHAPE=POLY COORDS="199,140,196,167,257,170,254,141,199,140,199,140" HREF="//oaspub.epa.gov/enviro/sdw_form_v2.create_page?state_abbr=KS" alt="Kansas">
+
+<AREA SHAPE=POLY COORDS="186,172,186,175,212,177,214,201,259,207,259,174,186,172,186,172" HREF="//oaspub.epa.gov/enviro/sdw_form_v2.create_page?state_abbr=OK" alt="Oklahoma">
+
+<AREA SHAPE=POLY COORDS="243,36,250,92,277,92,268,65,283,46,243,36,243,36" HREF="//oaspub.epa.gov/enviro/sdw_form_v2.create_page?state_abbr=MN" alt="Minnesota">
+
+<AREA SHAPE=POLY COORDS="248,101,254,126,289,126,286,97,248,101,248,101" HREF="//oaspub.epa.gov/enviro/sdw_form_v2.create_page?state_abbr=IA" alt="Iowa">
+
+<AREA SHAPE=POLY COORDS="260,134,267,173,308,173,283,133,260,134,260,134" HREF="//oaspub.epa.gov/enviro/sdw_form_v2.create_page?state_abbr=MO" alt="Missouri">
+
+<AREA SHAPE=POLY COORDS="267,182,272,215,294,216,293,206,300,182,267,182,267,182" HREF="//oaspub.epa.gov/enviro/sdw_form_v2.create_page?state_abbr=AR" alt="Arkansas">
+
+<AREA SHAPE=POLY COORDS="274,224,277,255,307,254,307,244,290,244,291,221,274,224,274,224" HREF="//oaspub.epa.gov/enviro/sdw_form_v2.create_page?state_abbr=LA" alt="Louisiana">
+
+<AREA SHAPE=POLY COORDS="282,62,283,81,293,87,297,103,313,102,308,66,282,62,282,62" HREF="//oaspub.epa.gov/enviro/sdw_form_v2.create_page?state_abbr=WI" alt="Wisconsin">
+
+<AREA SHAPE=POLY COORDS="302,111,293,135,313,162,321,147,316,111,302,111,302,111" HREF="//oaspub.epa.gov/enviro/sdw_form_v2.create_page?state_abbr=IL" alt="Illinois">
+
+<AREA SHAPE=POLY COORDS="326,119,328,154,344,143,343,114,326,119,326,119" HREF="//oaspub.epa.gov/enviro/sdw_form_v2.create_page?state_abbr=IN" alt="Indiana">
+
+<AREA SHAPE=POLY COORDS="379,112,350,116,352,139,368,143,381,127,379,112,379,112" HREF="//oaspub.epa.gov/enviro/sdw_form_v2.create_page?state_abbr=OH" alt="Ohio">
+
+<AREA SHAPE=POLY COORDS="325,172,324,161,341,160,348,148,366,149,367,164,325,172,325,172" HREF="//oaspub.epa.gov/enviro/sdw_form_v2.create_page?state_abbr=KY" alt="Kentucky">
+
+<AREA SHAPE=POLY COORDS="315,180,311,190,355,188,372,172,315,180,315,180" HREF="//oaspub.epa.gov/enviro/sdw_form_v2.create_page?state_abbr=TN" alt="Tennessee">
+
+<AREA SHAPE=POLY COORDS="322,196,321,240,299,237,301,204,322,196,322,196" HREF="//oaspub.epa.gov/enviro/sdw_form_v2.create_page?state_abbr=MS" alt="Mississippi">
+
+<AREA SHAPE=POLY COORDS="328,196,328,236,355,235,345,195,328,196,328,196" HREF="//oaspub.epa.gov/enviro/sdw_form_v2.create_page?state_abbr=AL" alt="Alabama">
+
+<AREA SHAPE=POLY COORDS="335,240,335,244,371,242,391,259,410,293,414,279,390,238,335,240,335,240" HREF="//oaspub.epa.gov/enviro/sdw_form_v2.create_page?state_abbr=FL" alt="Florida">
+
+<AREA SHAPE=POLY COORDS="352,194,366,234,388,233,389,216,364,192,352,194,352,194" HREF="//oaspub.epa.gov/enviro/sdw_form_v2.create_page?state_abbr=GA" alt="Georgia">
+
+<AREA SHAPE=POLY COORDS="375,191,395,210,410,193,375,191,375,191" HREF="//oaspub.epa.gov/enviro/sdw_form_v2.create_page?state_abbr=SC" alt="South Carolina">
+
+<AREA SHAPE=POLY COORDS="388,171,374,181,415,186,423,166,388,171,388,171" HREF="//oaspub.epa.gov/enviro/sdw_form_v2.create_page?state_abbr=NC" alt="North Carolina">
+
+<AREA SHAPE=POLY COORDS="411,135,383,163,425,158,411,135,411,135" HREF="//oaspub.epa.gov/enviro/sdw_form_v2.create_page?state_abbr=VA" alt="Virginia">
+
+<AREA SHAPE=POLY COORDS="385,133,374,148,383,156,401,133,385,133,385,133" HREF="//oaspub.epa.gov/enviro/sdw_form_v2.create_page?state_abbr=WV" alt="West Virginia">
+
+<AREA SHAPE=POLY COORDS="386,106,388,125,428,117,425,99,386,106,386,106" HREF="//oaspub.epa.gov/enviro/sdw_form_v2.create_page?state_abbr=PA" alt="Pennsylvania">
+
+<AREA SHAPE=POLY COORDS="450,99,440,106,445,109,455,100,450,99" HREF="//oaspub.epa.gov/enviro/sdw_form_v2.create_page?state_abbr=NY" alt="New York">
+
+<AREA SHAPE=POLY COORDS="433,59,439,77,440,99,430,98,429,91,391,100,401,87,417,78,419,63,433,59" HREF="//oaspub.epa.gov/enviro/sdw_form_v2.create_page?state_abbr=NY" alt="New York">
+
+<AREA SHAPE=POLY COORDS="462,27,457,52,461,64,476,38,469,25,462,27,462,27" HREF="//oaspub.epa.gov/enviro/sdw_form_v2.create_page?state_abbr=ME" alt="Maine">
+
+<AREA SHAPE=POLY COORDS="309,56,361,61,359,107,331,110,309,56,309,56" HREF="//oaspub.epa.gov/enviro/sdw_form_v2.create_page?state_abbr=MI" alt="Michigan">
+
+<AREA SHAPE=POLY COORDS="1,235,1,309,108,309,108,235,18,235,1,235" HREF="//oaspub.epa.gov/enviro/sdw_form_v2.create_page?state_abbr=AK" alt="Alaska">
+
+<AREA SHAPE=RECT COORDS="119,269,185,312" HREF="//oaspub.epa.gov/enviro/sdw_form_v2.create_page?state_abbr=HI" alt="Hawaii">
+
+<AREA SHAPE=RECT COORDS="421,229,485,260" HREF="//oaspub.epa.gov/enviro/sdw_form_v2.create_page?state_abbr=PR" alt="Puerto Rico">
+
+<AREA SHAPE=RECT COORDS="454,272,481,307" HREF="//oaspub.epa.gov/enviro/sdw_form_v2.create_page?state_abbr=VI" alt="Virgin Islands">
+
+<AREA SHAPE=POLY COORDS="14,86,6,110,22,166,54,198,69,189,29,123,38,90,14,86,14,86" HREF="//oaspub.epa.gov/enviro/sdw_form_v2.create_page?state_abbr=CA" alt="California">
+
+<AREA SHAPE=POLY COORDS="188,180,183,235,151,230,174,258,184,250,202,254,223,292,242,263,266,252,266,216,204,205,207,181,188,180,188,180" HREF="//oaspub.epa.gov/enviro/sdw_form_v2.create_page?state_abbr=TX" alt="Texas">
+
+<AREA SHAPE=POLY COORDS="437,58,442,80,446,79,447,54,437,58,437,58" HREF="//oaspub.epa.gov/enviro/sdw_form_v2.create_page?state_abbr=VT" alt="Vermont">
+
+<AREA SHAPE=POLY COORDS="453,51,459,74,449,79,450,61,452,60,452,51,453,51,453,51" HREF="//oaspub.epa.gov/enviro/sdw_form_v2.create_page?state_abbr=NH" alt="New Hampshire">
+
+<AREA SHAPE=POLY COORDS="442,82,442,89,458,84,464,89,466,87,457,79,442,82,442,82" HREF="//oaspub.epa.gov/enviro/sdw_form_v2.create_page?state_abbr=MA" alt="Massachussetts">
+
+<AREA SHAPE=POLY COORDS="444,91,443,99,456,92,456,88,444,91,444,91" HREF="//oaspub.epa.gov/enviro/sdw_form_v2.create_page?state_abbr=CT" alt="Connecticut">
+
+<AREA SHAPE=POLY COORDS="432,102,431,109,436,114,431,121,437,125,441,111,437,111,438,103,432,102,432,102" HREF="//oaspub.epa.gov/enviro/sdw_form_v2.create_page?state_abbr=NJ" alt="New Jersey">
+
+<AREA SHAPE=POLY COORDS="458,86,457,94,461,89,458,86" HREF="//oaspub.epa.gov/enviro/sdw_form_v2.create_page?state_abbr=RI" alt="Rhode Island">
+
+<AREA SHAPE=RECT COORDS="472,100,482,110" HREF="//oaspub.epa.gov/enviro/sdw_form_v2.create_page?state_abbr=RI" alt="Rhode Island">
+
+<AREA SHAPE=RECT COORDS="471,79,488,88" HREF="//oaspub.epa.gov/enviro/sdw_form_v2.create_page?state_abbr=MA" alt="Massachussetts">
+
+<AREA SHAPE=RECT COORDS="435,27,452,36" HREF="//oaspub.epa.gov/enviro/sdw_form_v2.create_page?state_abbr=NH" alt="New Hampshire">
+
+<AREA SHAPE=RECT COORDS="416,34,430,43" HREF="//oaspub.epa.gov/enviro/sdw_form_v2.create_page?state_abbr=VT" alt="Vermont">
+
+<AREA SHAPE=RECT COORDS="450,126,464,135" HREF="//oaspub.epa.gov/enviro/sdw_form_v2.create_page?state_abbr=DE" alt="Delaware">
+
+<AREA SHAPE=POLY COORDS="428,122,433,134,436,132,430,121,428,122" HREF="//oaspub.epa.gov/enviro/sdw_form_v2.create_page?state_abbr=DE" alt="Delaware">
+
+<AREA SHAPE=RECT COORDS="465,142,483,153" HREF="//oaspub.epa.gov/enviro/sdw_form_v2.create_page?state_abbr=MD" alt="Maryland">
+
+<AREA SHAPE=RECT COORDS="445,158,460,168" HREF="//oaspub.epa.gov/enviro/sdw_form_v2.create_page?state_abbr=DC" alt="Distict of Columbia">
+
+<AREA SHAPE=POLY COORDS="397,128,426,122,432,135,437,136,431,142,419,138,420,128,411,128,409,126,397,129,397,128" HREF="//oaspub.epa.gov/enviro/sdw_form_v2.create_page?state_abbr=MD" alt="Maryland">
+
+</MAP>
+
+</A>
+
+<P>
+
+Other SDWIS sites include:<BR>
+
+<CENTER>
+
+<BLOCKQUOTE>
+
+<A HREF="//oaspub.epa.gov/enviro/sdw_form_v2.create_page?state_abbr=AS" alt=Click on a Territory>
+
+<img src=/enviro/gif/sdwis_american.gif border=0 ALT="American Samoa"</a>
+
+<A HREF="//oaspub.epa.gov/enviro/sdw_form_v2.create_page?state_abbr=FM">
+
+<img src=/enviro/gif/sdwis_federated.gif border=0 alt="Federated States of Micronesia"></a>
+
+<A HREF="//oaspub.epa.gov/enviro/sdw_form_v2.create_page?state_abbr=GU">
+
+<img src=/enviro/gif/sdwis_guam.gif border=0 alt="Guam"></a>
+
+<A HREF="//oaspub.epa.gov/enviro/sdw_form_v2.create_page?state_abbr=MH">
+
+<img src=/enviro/gif/sdwis_marshall.gif border=0  alt="Marshall Islands"></a>
+
+<A HREF="//oaspub.epa.gov/enviro/sdw_form_v2.create_page?state_abbr=MP">
+
+<img src=/enviro/gif/sdwis_mariana.gif border=0  alt="Northern Mariana Islands"></a>
+
+<A HREF="//oaspub.epa.gov/enviro/sdw_form_v2.create_page?state_abbr=PW">
+
+<img src=/enviro/gif/sdwis_republic.gif border=0 alt="Republic of Palau"></a>
+
+<br>
+
+<div align="center">
+
+<A HREF="inditribe_query.html">
+
+<img src=/enviro/gif/sdwis_indian.gif border=0 alt="Indian Tribes"></a></div>
+
+</BLOCKQUOTE>
+
+</CENTER>
+
+<HR>
+
+<CENTER><STRONG><A name="map">Text Version</A></STRONG>
+
+<BLOCKQUOTE>
+
+<A HREF="//oaspub.epa.gov/enviro/sdw_form_v2.create_page?state_abbr=AK">Alaska</a> |
+
+<A HREF="//oaspub.epa.gov/enviro/sdw_form_v2.create_page?state_abbr=AL">Alabama</a> |
+
+<A HREF="//oaspub.epa.gov/enviro/sdw_form_v2.create_page?state_abbr=AR">Arkansas</a> |
+
+<A HREF="//oaspub.epa.gov/enviro/sdw_form_v2.create_page?state_abbr=AZ">Arizona</a> |
+
+<A HREF="//oaspub.epa.gov/enviro/sdw_form_v2.create_page?state_abbr=CA">California</a> |
+
+<A HREF="//oaspub.epa.gov/enviro/sdw_form_v2.create_page?state_abbr=CO">Colorado</a> |
+
+<A HREF="//oaspub.epa.gov/enviro/sdw_form_v2.create_page?state_abbr=CT">Connecticut</a> |
+
+<A HREF="//oaspub.epa.gov/enviro/sdw_form_v2.create_page?state_abbr=DC">District of Columbia</a> |
+
+<A HREF="//oaspub.epa.gov/enviro/sdw_form_v2.create_page?state_abbr=DE">Delaware</a> |
+
+<A HREF="//oaspub.epa.gov/enviro/sdw_form_v2.create_page?state_abbr=FL">Florida</a> |
+
+<A HREF="//oaspub.epa.gov/enviro/sdw_form_v2.create_page?state_abbr=GA">Georgia</a> |
+
+<A HREF="//oaspub.epa.gov/enviro/sdw_form_v2.create_page?state_abbr=HI">Hawaii</a> |
+
+<A HREF="//oaspub.epa.gov/enviro/sdw_form_v2.create_page?state_abbr=IA">Iowa</a> |
+
+<A HREF="//oaspub.epa.gov/enviro/sdw_form_v2.create_page?state_abbr=ID">Idaho</a> |
+
+<A HREF="//oaspub.epa.gov/enviro/sdw_form_v2.create_page?state_abbr=IL">Illinois</a> |
+
+<A HREF="//oaspub.epa.gov/enviro/sdw_form_v2.create_page?state_abbr=IN">Indiana</a> |
+
+<A HREF="//oaspub.epa.gov/enviro/sdw_form_v2.create_page?state_abbr=KS">Kansas</a> |
+
+<A HREF="//oaspub.epa.gov/enviro/sdw_form_v2.create_page?state_abbr=KY">Kentucky</a> |
+
+<A HREF="//oaspub.epa.gov/enviro/sdw_form_v2.create_page?state_abbr=LA">Louisiana</a> |
+
+<A HREF="//oaspub.epa.gov/enviro/sdw_form_v2.create_page?state_abbr=ME">Maine</a> |
+
+<A HREF="//oaspub.epa.gov/enviro/sdw_form_v2.create_page?state_abbr=MD">Maryland</a> |
+
+<A HREF="//oaspub.epa.gov/enviro/sdw_form_v2.create_page?state_abbr=MA">Massachusetts</a> |
+
+<A HREF="//oaspub.epa.gov/enviro/sdw_form_v2.create_page?state_abbr=MI">Michigan</a> |
+
+<A HREF="//oaspub.epa.gov/enviro/sdw_form_v2.create_page?state_abbr=MN">Minnesota</a> |
+
+<A href="//oaspub.epa.gov/enviro/sdw_form_v2.create_page?state_abbr=MS">Mississippi</a> |
+
+<A HREF="//oaspub.epa.gov/enviro/sdw_form_v2.create_page?state_abbr=MO">Missouri</a> |
+
+<A HREF="//oaspub.epa.gov/enviro/sdw_form_v2.create_page?state_abbr=MT">Montana</a> |
+
+<A HREF="//oaspub.epa.gov/enviro/sdw_form_v2.create_page?state_abbr=NC">North Carolina</a> |
+
+<A HREF="//oaspub.epa.gov/enviro/sdw_form_v2.create_page?state_abbr=ND">North Dakota</a> |
+
+<A HREF="//oaspub.epa.gov/enviro/sdw_form_v2.create_page?state_abbr=NE">Nebraska</a> |
+
+<A HREF="//oaspub.epa.gov/enviro/sdw_form_v2.create_page?state_abbr=NV">Nevada</a> |
+
+<A HREF="//oaspub.epa.gov/enviro/sdw_form_v2.create_page?state_abbr=NH">New Hampshire</a> |
+
+<A HREF="//oaspub.epa.gov/enviro/sdw_form_v2.create_page?state_abbr=NJ">New Jersey</a> |
+
+<A HREF="//oaspub.epa.gov/enviro/sdw_form_v2.create_page?state_abbr=NM">New Mexico</a> |
+
+<A HREF="//oaspub.epa.gov/enviro/sdw_form_v2.create_page?state_abbr=NY">New York</a> |
+
+<A HREF="//oaspub.epa.gov/enviro/sdw_form_v2.create_page?state_abbr=OH">Ohio</a> |
+
+<A HREF="//oaspub.epa.gov/enviro/sdw_form_v2.create_page?state_abbr=OK">Oklahoma</a> |
+
+<A HREF="//oaspub.epa.gov/enviro/sdw_form_v2.create_page?state_abbr=OR">Oregon</a> |
+
+<A HREF="//oaspub.epa.gov/enviro/sdw_form_v2.create_page?state_abbr=PA">Pennsylvania</a> |
+
+<A HREF="//oaspub.epa.gov/enviro/sdw_form_v2.create_page?state_abbr=PR">Puerto Rico</a> |
+
+<A HREF="//oaspub.epa.gov/enviro/sdw_form_v2.create_page?state_abbr=RI">Rhode Island</a> |
+
+<A HREF="//oaspub.epa.gov/enviro/sdw_form_v2.create_page?state_abbr=SC">South Carolina</a> |
+
+<A HREF="//oaspub.epa.gov/enviro/sdw_form_v2.create_page?state_abbr=SD">South Dakota</a> |
+
+<A HREF="//oaspub.epa.gov/enviro/sdw_form_v2.create_page?state_abbr=TN">Tennessee</a> |
+
+<A HREF="//oaspub.epa.gov/enviro/sdw_form_v2.create_page?state_abbr=TX">Texas</a> |
+
+<A HREF="//oaspub.epa.gov/enviro/sdw_form_v2.create_page?state_abbr=UT">Utah</a> |
+
+<A HREF="//oaspub.epa.gov/enviro/sdw_form_v2.create_page?state_abbr=VA">Virginia</a> |
+
+<A HREF="//oaspub.epa.gov/enviro/sdw_form_v2.create_page?state_abbr=VI">Virgin Islands</a> |
+
+<A HREF="//oaspub.epa.gov/enviro/sdw_form_v2.create_page?state_abbr=VT">Vermont</a> |
+
+<A HREF="//oaspub.epa.gov/enviro/sdw_form_v2.create_page?state_abbr=WA">Washington</a> |
+
+<A HREF="//oaspub.epa.gov/enviro/sdw_form_v2.create_page?state_abbr=WI">Wisconsin</a> |
+
+<A HREF="//oaspub.epa.gov/enviro/sdw_form_v2.create_page?state_abbr=WV">West Virginia</a> |
+
+<A HREF="//oaspub.epa.gov/enviro/sdw_form_v2.create_page?state_abbr=WY">Wyoming</a> |
+
+</BLOCKQUOTE>
+
+</CENTER>
+
+<p>
+
+Other SDWIS sites include:<BR>
+
+<CENTER>
+
+<BLOCKQUOTE>
+
+<A HREF="//oaspub.epa.gov/enviro/sdw_form_v2.create_page?state_abbr=AS">American Samoa</a> |
+
+<A HREF="//oaspub.epa.gov/enviro/sdw_form_v2.create_page?state_abbr=FM">Federated States of Micronesia</a> |
+
+<A HREF="//oaspub.epa.gov/enviro/sdw_form_v2.create_page?state_abbr=GU">Guam</a> |
+
+<A HREF="//oaspub.epa.gov/enviro/sdw_form_v2.create_page?state_abbr=MH">Marshall Islands</a><br>
+
+<A HREF="//oaspub.epa.gov/enviro/sdw_form_v2.create_page?state_abbr=MP">Northern Mariana Islands</a> |
+
+<A HREF="//oaspub.epa.gov/enviro/sdw_form_v2.create_page?state_abbr=PW">Republic of Palau</a> | <a href="inditribe_query.html">Indian Tribes</a><br>
+
+</BLOCKQUOTE>
+
+</CENTER>
+
+<hr>
+
+<FORM method=POST action=//oaspub.epa.gov/enviro/sdw_query_v2.get_list>
+
+<A NAME="water_id"></A><h3>Water System ID Search</h3><p>
+
+Enter a Water System ID Number. All Water System ID numbers are nine characters in length, with the first two digits usually composed of the state abbreviation. Then, click on the "Search" button.<p>
+
+<TABLE><TD WIDTH=140><b><a href="/enviro/html/sdwis/sdwis_userguide.html#wsys_id">Water System ID:</b></a></TD><TD><INPUT TYPE=text NAME="wsys_id" LENGTH=9></TD></TABLE>
+
+<br>
+
+<INPUT TYPE=hidden NAME="wsys_name" value="">
+
+<INPUT TYPE=hidden NAME="fac_county" value="">
+
+<INPUT TYPE=hidden NAME="pop_serv" value="">
+
+<INPUT TYPE=hidden NAME="fac_state" value="">
+
+<INPUT TYPE=hidden NAME="last_fac_name" value="">
+
+<INPUT TYPE=hidden NAME="page" value="1">
+
+<INPUT TYPE=hidden NAME="query_results" value="">
+
+<INPUT TYPE=hidden NAME="fac_search" value="">
+
+<INPUT TYPE=hidden NAME="total_rows_found" value="">
+
+<INPUT TYPE=submit VALUE="Search">    <INPUT TYPE=reset VALUE="Clear">
+
+<P>
+
+</FORM>
+
+
+
+			<!-- #EndEditable --><!-- END CONTENT AREA -->
+	<!-- BEGIN AREA FOOTER - ADD text/links for area footer within this paragraph tag -->
+	<p id="areafooter"></p>
+	<!-- END AREA FOOTER -->
+</div> <!-- END CONTENT -->
+
+<hr class="skip" />
+
+<div align="left" id="area-nav"> <!-- BEGIN AREA MAIN NAVIGATION -->
+	<h3 class="skip">Local Navigation</h3>
+	<ul>
+		<li><A href="/enviro/html/sdwis/index.html" class="epaSideBarLinks">Overview</a></li>
+		<li><A href="/enviro/html/sdwis/sdwis_query.html" class="epaSideBarLinks">Query</a></li>
+		<li><A href="/enviro/html/sdwis/sdwis_subj.html" class="epaSideBarLinks">Model</a></li>
+		<li><A href="http://www.epa.gov/safewater/sdwa/index.html" class="epaSideBarLinks">Law</a></li>
+		<li><A href="/enviro/html/data_source.html" class="epaSideBarLinks">Data Source</a></li>
+		<li><a href="http://www.epa.gov/safewater/">Office of Ground Water<br>&nbsp;&nbsp; and Drinking Water</a></li>
+		<li><A href="/enviro/html/sdwis/sdwis_feedback.html" class="epaSideBarLinks">Contact Us</a></li>
+		<li><A href="/enviro/index.html" class="epaSideBarLinks">EF Home</a></li>
+	</ul>
+</div> <!-- END AREA MAIN NAVIGATION -->
+
+<hr class="skip" />
+
+<div id="footer"> <!-- BEGIN FOOTER -->
+<ul id="globalfooter">
+		<li><a href="http://www.epa.gov/">EPA Home</a></li>
+		<li><a href="http://www.epa.gov/epafiles/usenotice.htm">Privacy and Security Notice</a></li>
+		<!-- CHANGE link to point to your own contact page -->
+		<li class="last"><a href="/enviro/html/sdwis/sdwis_feedback.html">Contact Us</a></li>
+	</ul>
+</div> <!-- END FOOTER -->
+
+<p class="skip"><a id="skipbot" href="#content" title="Jump to main content.">Jump to main content.</a></p>
+</body>
+</html>
