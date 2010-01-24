@@ -1,0 +1,302 @@
+	<!DOCTYPE html>
+<html dir="ltr" lang="en-US">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Cocoanetics | My App Sales</title>
+
+<meta name="description" content="Every aspiring app developer knows this problem: if you want to know how your apps are doing you need to download every daily sales report. If you don&#8217;t, then this valuable information is lost after 7 days. Also, we can think of many more interesting uses of your time than logging into iTunes Connect multiple times a day and trying to not miss any of those elusive sales reports. I usually never tweet about other apps&#8230; but if you&#8217;re a iPhone developer. this is the best app i&#8217;ve ever bought! &#8211; Josef Mao of Kavapoint &#8220;This is the best iPhone app ever!!!  The first money a developer makes should be used to buy this app.  For the past 6 months the first thing I did everyday was to take minutes 15 minutes and log into itunes connect and look at the daily reports.  I even wrote my own app to do it, but this app is light years ahead of mine &#8211; with graphs and everything.  A MUST have for any iPhone developer. - www.scoutic.com&#8220; OH MY GOD! This Application is Extremely AMAZING! &#8221;It puts AppSales Mobile in the trash bin!&#8221; I am Flipping off at the amazing work! &#8211; Moshe Malka Best App Management tool for iPhone devs. Worth every $. This app is the shiznit. You&#8217;ll make a killing if Apple ever allows this. &#8211; Yves Gonzalez Check out his demonstration of MyAppSales: Our carefully handcrafted app &#8220;My App Sales&#8221; takes the pain out of trying to stay informed and adds total mobility! &#8220;My App Sales&#8221; provides these compelling features: Securely connect to the iTunes report site and collect available reports in your own local SQLite database on your device  *BLAZINGLY FAST* Comfortably view a report overview or dig into individual apps to see how they sell in various countries A variety of charts help you to discover trends Get at-a-glance daily income information Built-in web server for importing and exporting single reports or bulk in ZIP archives Transfer your SQLite database for backup or to analyse the data yourself All amounts conveniently converted into your favorite currency Lock your App with a convenient passcode Get translated reviews for all your apps Basic Support for Multi-Account, Multi-Vendor and In-App-Purchases  (UI support forthcoming) Security and privacy was key in designing this app. Your iTunes Connect login details are kept on the secure iPhone keychain, all communication over the internet is SSL-encrypted. The import/export server is disabled by default. And best of all, you neither need to install scripts on a web server, nor do you have to hand over your sensitive login information or data to any third party. The internal Import/Export Server looks just like a web page, because it is! Unfortunately due to section 3.3.7 of the SDK Agreement I will never be permitted to sell this app on the App Store unless I rip out it&#8217;s heart and usefullness. But you can purchase a license to look at the source code, compile it yourself, put it on all the devices you like. For just €20 you can do anything you like with the source, just not sell it or use in any other way commercially. Note: This button will take you to PayPal to make the payment. Afterwards you should get returned here for instructions on how to get the source. I depend on this app for my own reporting so you can be certain that I will keep it alive as long as possible and adapt it to any changes that Apple might do to the reports or the reporting site. Unless of course Apple itself creates a proper report aggregation app. But while downloading reports the way Apple intended keeps being a pain you can participate in this app&#8217;s development by submitting bugs and feature requests to our bug tracker. Releases MyAppSales 1.0.17 MyAppSales 1.0.16 MyAppSales 1.0.15 – “Holiday Fix” MyAppSales 1.0.14 &#8211; “Go Faster Strips” MyAppSales 1.0.13 &#8211; “Mo’ Money” MyAppSales 1.0.12 &#8211; Fixes MyAppSales 1.0.11 &#8211; Review Forwarding MyAppSales 1.0.10 &#8211; Multi-Account &#38; Push Notifications MyAppSales 1.0.9 &#8211; Review Translations MyAppSales 1.0.8 &#8211; The Review Release MyAppSales 1.0.7 &#8211; Passcode Lock MyAppSales 1.0.6 &#8211; App Overview Revamp with Sums MyAppSales 1.0.5 &#8211; Fixes MyAppSales 1.0.4 &#8211; Fixes MyAppSales 1.0.3 &#8211; Fixes MyAppSales 1.0.2 &#8211; Fixes MyAppSales 1.0.1 &#8211; &#8220;Forget the Appstore&#8221;" />
+<meta name="keywords" content="," /><meta name="robots" content="index,follow" />
+<link rel="stylesheet" href="http://www.cocoanetics.com/wp-content/themes/cocoanetics/style.css" type="text/css" media="screen,projection" />
+<link rel="stylesheet" href="http://www.cocoanetics.com/wp-content/themes/cocoanetics/css/print.css" type="text/css" media="print" />
+<link rel="shortcut icon" href="http://www.cocoanetics.com/wp-content/themes/cocoanetics/images/favicon.ico" />
+<link rel="pingback" href="http://www.cocoanetics.com/xmlrpc.php" />
+<link rel="apple-touch-icon-precomposed" href="http://www.cocoanetics.com/wp-content/themes/cocoanetics/images/touch-icon-iphone.png" />
+<link rel="apple-touch-icon-precomposed" sizes="72x72" href="http://www.cocoanetics.com/wp-content/themes/cocoanetics/images/touch-icon-ipad.png" />
+<link rel="apple-touch-icon-precomposed" sizes="114x114" href="http://www.cocoanetics.com/wp-content/themes/cocoanetics/images/touch-icon-iphone4.png" />
+
+<link rel="alternate" type="application/rss+xml" title="Cocoanetics &raquo; Feed" href="http://www.cocoanetics.com/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Cocoanetics &raquo; Comments Feed" href="http://www.cocoanetics.com/comments/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Cocoanetics &raquo; My App Sales Comments Feed" href="http://www.cocoanetics.com/my-app-sales/feed/" />
+<link rel='stylesheet' id='codebox-css'  href='http://www.cocoanetics.com/wp-content/plugins/wp-codebox/css/codebox.css?ver=0.1' type='text/css' media='screen' />
+<script type='text/javascript' src='http://api.flattr.com/js/0.6/load.js?mode=auto&#038;ver=3.0.3'></script>
+<script type='text/javascript' src='http://www.cocoanetics.com/wp-includes/js/jquery/jquery.js?ver=1.4.2'></script>
+<script type='text/javascript' src='http://www.cocoanetics.com/wp-content/themes/cocoanetics/js/superfish.js?ver=1.2.6'></script>
+<script type='text/javascript' src='http://www.cocoanetics.com/wp-content/themes/cocoanetics/js/hoverIntent.js?ver=1.2.6'></script>
+<script type='text/javascript' src='http://www.cocoanetics.com/wp-includes/js/comment-reply.js?ver=20090102'></script>
+<script type='text/javascript' src='http://www.cocoanetics.com/wp-content/plugins/simple-forum/resources/jscript/forum/sf-forum.js?ver=3.0.3'></script>
+<script type='text/javascript' src='http://www.cocoanetics.com/wp-content/plugins/wp-codebox/js/codebox.js?ver=0.1'></script>
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://www.cocoanetics.com/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://www.cocoanetics.com/wp-includes/wlwmanifest.xml" /> 
+<link rel='index' title='Cocoanetics' href='http://www.cocoanetics.com/' />
+<link rel='prev' title='LuckyWheel' href='http://www.cocoanetics.com/luckywheel/' />
+<link rel='next' title='MyAppSales &#8211; Purchase Complete' href='http://www.cocoanetics.com/my-app-sales/myappsales-purchase-complete/' />
+<meta name="generator" content="WordPress 3.0.3" />
+<script type="text/javascript" src="http://www.cocoanetics.com/wp-content/plugins/powerpress/player.js"></script>
+<script type="text/javascript">
+function powerpress_pinw(pinw){window.open('http://www.cocoanetics.com/?powerpress_pinw='+pinw, 'PowerPressPlayer','toolbar=0,status=0,resizable=1,width=360,height=320');	return false;}
+</script>
+<link rel='canonical' href='http://www.cocoanetics.com/my-app-sales/' />
+
+			<link rel="stylesheet" type="text/css" href="http://www.cocoanetics.com/index.php?ak_action=aktt_css&v=2.4" />
+			<script type="text/javascript" src="http://www.cocoanetics.com/index.php?ak_action=aktt_js&v=2.4"></script>
+		<meta http-equiv="X-XRDS-Location" content="http://www.cocoanetics.com/?xrds" />
+<meta http-equiv="X-Yadis-Location" content="http://www.cocoanetics.com/?xrds" />
+<style type="text/css">.broken_link, a.broken_link {
+	text-decoration: line-through;
+}</style>
+</head>
+
+<body class="page page-id-134 page-parent">
+<div id="adblock_header">
+	<!-- Ad code goes here -->
+	<div id="text-3" class="widget widget_text">			<div class="textwidget"><script type="text/javascript">
+window.google_analytics_uacct = "UA-260144-2";
+</script></div>
+		</div></div>
+<div id="masthead">
+  <div id="branding">
+        <div id="logo"><a href="http://www.cocoanetics.com/" title="Home">
+      Cocoanetics      </a></div>
+    <div id="description">
+      Our DNA is written in Objective-C    </div>
+      </div><!--/branding-->
+  <ul id="social_icons">
+  	<li id="youtube"><a href="http://www.youtube.com/mindpower74" title="Youtube">Youtube</a></li>
+	<li id="twitter"><a href="http://www.twitter.com/cocoanetics" title="Twitter">Twitter</a></li>
+	<li id="email_link"><a href="mailto:oliver@drobnik.com" title="Email">Email</a></li>
+	<li id="rss"><a href="http://www.cocoanetics.com/feed/" title="RSS">RSS</a></li>
+  </ul>
+  <form method="get" id="searchform" action="http://www.cocoanetics.com/">
+    <input type="text" value="" name="s" id="searchfield" />
+    <input type="image" src="http://www.cocoanetics.com/wp-content/themes/cocoanetics/images/search-icon2.png" id="searchsubmit" alt="search button" />
+  </form>
+</div><!--/masthead-->
+<div id="wrapper">
+<div id="hidden_button_jump"><a href="#copyright_footer">Jump</a></div>
+<div class="top-nav"><ul id="menu-main-menu" class="menu"><li id="menu-item-4425" class="menu-item menu-item-type-post_type menu-item-4425"><a href="http://www.cocoanetics.com/">Home</a></li>
+<li id="menu-item-4426" class="menu-item menu-item-type-post_type menu-item-4426"><a href="http://www.cocoanetics.com/blog/">Blog</a></li>
+<li id="menu-item-4325" class="menu-item menu-item-type-post_type menu-item-4325"><a href="http://www.cocoanetics.com/parts-store/">Parts Store</a></li>
+<li id="menu-item-4328" class="menu-item menu-item-type-post_type menu-item-4328"><a href="http://www.cocoanetics.com/our-apps/">Our Apps</a></li>
+<li id="menu-item-4320" class="menu-item menu-item-type-post_type menu-item-4320"><a href="http://www.cocoanetics.com/references/">Our Customers</a></li>
+<li id="menu-item-4321" class="menu-item menu-item-type-post_type menu-item-4321"><a href="http://www.cocoanetics.com/forum/">Forum</a></li>
+</ul></div><div id="main">
+
+
+	<div id="content">
+
+				
+				 <div id="post-134" class="post-134 page type-page hentry category-administrative">
+ 
+   <h1 class="posttitle">My App Sales</h1>
+  
+
+
+<div class="entry">
+
+
+	<p>Every aspiring app developer knows this problem: if you want to know how your apps are doing you need to download every daily sales report. If you don&#8217;t, then this valuable information is lost after 7 days. Also, we can think of many more interesting uses of your time than logging into iTunes Connect multiple times a day and trying to not miss any of those elusive sales reports.</p>
+<blockquote><p>I usually never tweet about other apps&#8230; but if you&#8217;re a iPhone developer. this is the best app i&#8217;ve ever bought! &#8211; <a onclick="javascript:pageTracker._trackPageview('/outgoing/twitter.com/kavapoint/status/5597561403');"  href="http://twitter.com/kavapoint/status/5597561403">Josef Mao of Kavapoint</a></p></blockquote>
+<blockquote><p>&#8220;This is the best iPhone app ever!!!  The first money a developer makes should be used to buy this app.  For the past 6 months the first thing I did everyday was to take minutes 15 minutes and log into itunes connect and look at the daily reports.  I even wrote my own app to do it, but this app is light years ahead of mine &#8211; with graphs and everything.  A MUST have for any iPhone developer. -<a onclick="javascript:pageTracker._trackPageview('/outgoing/www.scoutic.com');"  href="http://www.scoutic.com"> www.scoutic.com</a>&#8220;</p></blockquote>
+<blockquote><p>OH MY GOD! This Application is Extremely AMAZING! &#8221;It puts AppSales Mobile in the trash bin!&#8221; I am Flipping off at the amazing work! &#8211; Moshe Malka</p></blockquote>
+<blockquote><p>Best App Management tool for iPhone devs. Worth every $. This app is the shiznit. You&#8217;ll make a killing if Apple ever allows this. &#8211; Yves Gonzalez</p></blockquote>
+<p>Check out his demonstration of MyAppSales:</p>
+<p><object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" width="560" height="340" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,40,0"><param name="allowFullScreen" value="true" /><param name="allowscriptaccess" value="always" /><param name="src" value="http://www.youtube.com/v/2yOe1rKyNuU&amp;hl=en&amp;fs=1&amp;" /><param name="allowfullscreen" value="true" /><embed type="application/x-shockwave-flash" width="560" height="340" src="http://www.youtube.com/v/2yOe1rKyNuU&amp;hl=en&amp;fs=1&amp;" allowscriptaccess="always" allowfullscreen="true"></embed></object></p>
+<p>Our carefully handcrafted app &#8220;My App Sales&#8221; takes the pain out of trying to stay informed and adds total mobility!</p>
+<p>&#8220;My App Sales&#8221; provides these compelling features:</p>
+<ul>
+<li>Securely connect to the iTunes report site and collect available reports in your own local SQLite database on your device  <span style="color: #ff0000;">*BLAZINGLY FAST*</span></li>
+<li>Comfortably view a report overview or dig into individual apps to see how they sell in various countries</li>
+<li>A variety of charts help you to discover trends</li>
+<li>Get at-a-glance daily income information</li>
+<li>Built-in web server for importing and exporting single reports or bulk in ZIP archives</li>
+<li>Transfer your SQLite database for backup or to analyse the data yourself</li>
+<li>All amounts conveniently converted into your favorite currency</li>
+<li>Lock your App with a convenient passcode</li>
+<li>Get translated reviews for all your apps</li>
+<li>Basic Support for Multi-Account, Multi-Vendor and In-App-Purchases  (UI support forthcoming)</li>
+</ul>
+<p>Security and privacy was key in designing this app. Your iTunes Connect login details are kept on the secure iPhone keychain, all communication over the internet is SSL-encrypted. The import/export server is disabled by default. And best of all, you neither need to install scripts on a web server, nor do you have to hand over your sensitive login information or data to any third party.</p>
+<p><img class="alignnone size-medium wp-image-335" src="http://www.cocoanetics.com/files/myappsales-001-200x300.png" alt="MyAppSales Splash Screen" width="200" height="300" /> <img class="alignnone size-medium wp-image-336" src="http://www.cocoanetics.com/files/myappsales-002-200x300.png" alt="MyAppSales App Overview" width="200" height="300" /> <img class="alignnone size-medium wp-image-337" src="http://www.cocoanetics.com/files/myappsales-003-200x300.png" alt="MyAppSales Daily Reports" width="200" height="300" /> <img class="alignnone size-medium wp-image-338" src="http://www.cocoanetics.com/files/myappsales-004-200x300.png" alt="MyAppSales Weekly Reports" width="200" height="300" /> <img class="alignnone size-medium wp-image-339" src="http://www.cocoanetics.com/files/myappsales-005-200x300.png" alt="MyAppSales Report Overview" width="200" height="300" /> <img class="alignnone size-medium wp-image-340" src="http://www.cocoanetics.com/files/myappsales-006-200x300.png" alt="MyAppSales Report Detail" width="200" height="300" /> <img class="alignnone size-medium wp-image-341" src="http://www.cocoanetics.com/files/myappsales-007-200x300.png" alt="MyAppSales Chart Selection" width="200" height="300" /> <img class="alignnone size-medium wp-image-342" src="http://www.cocoanetics.com/files/myappsales-008-200x300.png" alt="MyAppSales Daily Sales per App" width="200" height="300" /> <img class="alignnone size-medium wp-image-343" src="http://www.cocoanetics.com/files/myappsales-009-200x300.png" alt="MyAppSales Daily Total" width="200" height="300" /> <img class="alignnone size-medium wp-image-344" src="http://www.cocoanetics.com/files/myappsales-010-200x300.png" alt="MyAppSales Settings" width="200" height="300" /></p>
+<p>The internal Import/Export Server looks just like a web page, because it is!</p>
+<p><img class="alignnone size-medium wp-image-333" src="http://www.cocoanetics.com/files/server_1-300x280.jpg" alt="MyAppSales Server 1" width="300" height="280" /> <img class="alignnone size-medium wp-image-334" src="http://www.cocoanetics.com/files/server_2-265x300.jpg" alt="MyAppSales Server 2" width="265" height="300" /></p>
+<p>Unfortunately <a href="http://www.cocoanetics.com/index.php/2009/03/apple-rejects-incredibly-useful-itunes-report-app/">due to section 3.3.7 of the SDK Agreement </a>I will never be permitted to sell this app on the App Store unless I rip out it&#8217;s heart and usefullness. But you can purchase a license to look at the source code, compile it yourself, put it on all the devices you like. For just €20 you can do anything you like with the source, just not sell it or use in any other way commercially.</p>
+<p><em>Note: This button will take you to PayPal to make the payment. Afterwards you should get returned here for instructions on how to get the source.</em></p>
+<form action="https://www.paypal.com/cgi-bin/webscr" method="post">
+<input name="cmd" type="hidden" value="_s-xclick" />
+<input name="lc" type="hidden" value="US" />
+<input name="hosted_button_id" type="hidden" value="11265521" />
+<input alt="PayPal - The safer, easier way to pay online!" name="submit" src="https://www.paypal.com/en_US/i/btn/btn_donate_LG.gif" type="image" /> <img src="https://www.paypal.com/de_DE/i/scr/pixel.gif" border="0" alt="" width="1" height="1" /><br />
+</form>
+<p>I depend on this app for my own reporting so you can be certain that I will keep it alive as long as possible and adapt it to any changes that Apple might do to the reports or the reporting site. Unless of course Apple itself creates a proper report aggregation app. But while downloading reports the way Apple intended keeps being a pain you can participate in this app&#8217;s development by submitting bugs and feature requests to our <a onclick="javascript:pageTracker._trackPageview('/outgoing/www.drobnik.com/bugs');"  href="http://www.drobnik.com/bugs" class="broken_link">bug tracker</a>.</p>
+<h3>Releases</h3>
+<ul>
+<li><a title="Permanent Link to MyAppSales 1.0.17" href="http://www.cocoanetics.com/2010/09/myappsales-1-0-17/">MyAppSales 1.0.17</a></li>
+<li><a title="Permanent Link to MyAppSales 1.0.16" href="http://www.cocoanetics.com/2010/07/myappsales-1-0-16/">MyAppSales 1.0.16 </a></li>
+<li><a title="Permanent Link to MyAppSales 1.0.15 – “Holiday Fix”" href="http://www.cocoanetics.com/2009/12/myappsales-1-0-15-holiday-fix/">MyAppSales 1.0.15 – “Holiday Fix”</a></li>
+<li><a title="Permanent Link to MyAppSales 1.0.14 “Go Faster Strips”" href="http://www.cocoanetics.com/2009/12/myappsales-1-0-14-go-faster-strips/">MyAppSales 1.0.14 &#8211; “Go Faster Strips”</a></li>
+<li><a href="http://www.cocoanetics.com/2009/11/myappsales-1-0-13-mo-money/">MyAppSales 1.0.13 &#8211; “Mo’ Money”</a></li>
+<li><a href="http://www.cocoanetics.com/2009/11/myappsales-1-0-12-fixes/">MyAppSales 1.0.12 &#8211; Fixes</a></li>
+<li><a href="http://www.cocoanetics.com/2009/11/myappsales-1-0-11-review-forwarding-and-fixes/">MyAppSales 1.0.11 &#8211; Review Forwarding</a></li>
+<li><a href="http://www.cocoanetics.com/2009/10/myappsales-1-0-10-multi-account-push-notifications/">MyAppSales 1.0.10 &#8211; Multi-Account &amp; Push Notifications</a></li>
+<li><a href="http://www.cocoanetics.com/2009/09/myappsales-1-0-9/">MyAppSales 1.0.9 &#8211; Review Translations</a></li>
+<li><a href="http://www.cocoanetics.com/2009/09/myappsales-1-0-8/">MyAppSales 1.0.8 &#8211; The Review Release</a></li>
+<li><a href="http://www.cocoanetics.com/2009/09/myappsales-1-0-7/">MyAppSales 1.0.7 &#8211; Passcode Lock</a></li>
+<li><a href="http://www.cocoanetics.com/2009/08/myappsales-1-0-6/">MyAppSales 1.0.6 &#8211; App Overview Revamp with Sums</a></li>
+<li><a href="http://www.cocoanetics.com/2009/08/myappsales-1-0-5/">MyAppSales 1.0.5 &#8211; Fixes</a></li>
+<li><a href="http://www.cocoanetics.com/2009/05/myappsales-104/">MyAppSales 1.0.4 &#8211; Fixes</a></li>
+<li><a href="http://www.cocoanetics.com/2009/05/myappsales-103/">MyAppSales 1.0.3 &#8211; Fixes</a></li>
+<li><a href="http://www.cocoanetics.com/2009/04/myappsales-102/">MyAppSales 1.0.2 &#8211; Fixes</a></li>
+<li><a href="http://www.cocoanetics.com/2009/04/myappsales-101/">MyAppSales 1.0.1 &#8211; &#8220;Forget the Appstore&#8221;</a></li>
+</ul>
+    
+	
+
+
+
+  
+
+
+ </div><!--/end entry-->
+</div><!--/end post-->
+
+        						<div class="clear"></div>
+
+<h3 id="comments">
+  23 Comments   <a href="#respond" title="Leave a comment">&raquo;</a></h3>
+<ol class="commentlist" id="singlecomments">
+  </ol>
+<div id="comment_pagination">
+  <div id="older">
+      </div>
+  <div id="newer">
+      </div>
+</div>
+<h3 id="trackbacks">
+  Trackbacks</h3>
+<ol id="trackbacklist">
+    <li class="" id="comment-51"> <cite>
+    <a onclick="javascript:pageTracker._trackPageview('/outgoing/www.drobnik.com/touch/index.php/2009/04/petition-itunes-sales-report-api/');"  href='http://www.drobnik.com/touch/index.php/2009/04/petition-itunes-sales-report-api/' rel='external nofollow' class='url'>Petition of Official iTunes Sales Report Download API | Dr. Touch</a>    </cite> </li>
+    <li class="" id="comment-52"> <cite>
+    <a onclick="javascript:pageTracker._trackPageview('/outgoing/www.drobnik.com/touch/index.php/2009/04/apple-owes-me-millions-or-lucky-women-on-top/');"  href='http://www.drobnik.com/touch/index.php/2009/04/apple-owes-me-millions-or-lucky-women-on-top/' rel='external nofollow' class='url'>Apple Owes Me Millions, or Lucky Women on Top | Dr. Touch</a>    </cite> </li>
+    <li class="" id="comment-53"> <cite>
+    <a onclick="javascript:pageTracker._trackPageview('/outgoing/www.drobnik.com/touch/index.php/2009/04/myappsales-101/');"  href='http://www.drobnik.com/touch/index.php/2009/04/myappsales-101/' rel='external nofollow' class='url'>MyAppSales 1.0.1 | Dr. Touch</a>    </cite> </li>
+    <li class="" id="comment-54"> <cite>
+    <a onclick="javascript:pageTracker._trackPageview('/outgoing/www.drobnik.com/touch/2009/05/myappsales-103/');"  href='http://www.drobnik.com/touch/2009/05/myappsales-103/' rel='external nofollow' class='url'>MyAppSales 1.0.3 @ Dr. Touch</a>    </cite> </li>
+    <li class="" id="comment-55"> <cite>
+    <a onclick="javascript:pageTracker._trackPageview('/outgoing/www.drobnik.com/touch/2009/05/my-app-rejected-while-similar-app-approved-and-featured/');"  href='http://www.drobnik.com/touch/2009/05/my-app-rejected-while-similar-app-approved-and-featured/' rel='external nofollow' class='url'>My App Rejected While Similar App Approved AND Featured @ Dr. Touch</a>    </cite> </li>
+    <li class="" id="comment-56"> <cite>
+    <a onclick="javascript:pageTracker._trackPageview('/outgoing/forums.mactalk.com.au/39/74845-awesome-app-developers-my-app-sales.html#post880819');"  href='http://forums.mactalk.com.au/39/74845-awesome-app-developers-my-app-sales.html#post880819' rel='external nofollow' class='url'>Awesome app for Developers - My App Sales - MacTalk Forums</a>    </cite> </li>
+    <li class="" id="comment-57"> <cite>
+    <a onclick="javascript:pageTracker._trackPageview('/outgoing/www.drobnik.com/touch/2009/10/daylight-savings-time-theres-an-app-for-that-now/');"  href='http://www.drobnik.com/touch/2009/10/daylight-savings-time-theres-an-app-for-that-now/' rel='external nofollow' class='url'>Daylight Savings Time &#8230; there&#8217;s an app for that (NOW)! @ Dr. Touch</a>    </cite> </li>
+    <li class="" id="comment-58"> <cite>
+    <a onclick="javascript:pageTracker._trackPageview('/outgoing/www.onlinemarketingrant.com/iphone-app-ranking-tools');"  href='http://www.onlinemarketingrant.com/iphone-app-ranking-tools' rel='external nofollow' class='url'>iPhone App Ranking Tools | Online and iPhone Marketing</a>    </cite> </li>
+    <li class="" id="comment-59"> <cite>
+    <a onclick="javascript:pageTracker._trackPageview('/outgoing/surgeworks.com/blog/iphone/itunes-connect-sales-reports-analytics-and-stats-tools-for-iphone-apps');"  href='http://surgeworks.com/blog/iphone/itunes-connect-sales-reports-analytics-and-stats-tools-for-iphone-apps' rel='external nofollow' class='url'>iTunes Connect Sales Reports Analytics and Stats Tools for iPhone Apps &#8211; Surgeworks Blog</a>    </cite> </li>
+    <li class="" id="comment-60"> <cite>
+    <a onclick="javascript:pageTracker._trackPageview('/outgoing/www.karlkraft.com/index.php/2009/10/29/a-tool-for-splitting-app-sales/');"  href='http://www.karlkraft.com/index.php/2009/10/29/a-tool-for-splitting-app-sales/' rel='external nofollow' class='url'>A tool for splitting app sales</a>    </cite> </li>
+    <li class="" id="comment-61"> <cite>
+    <a onclick="javascript:pageTracker._trackPageview('/outgoing/www.macstories.net/reviews/roundup-15-app-store-sales-tracking-apps-utilities-and-services/');"  href='http://www.macstories.net/reviews/roundup-15-app-store-sales-tracking-apps-utilities-and-services/' rel='external nofollow' class='url'>Roundup: 15 App Store Sales Tracking Apps, Utilities and Services</a>    </cite> </li>
+    <li class="" id="comment-62"> <cite>
+    <a onclick="javascript:pageTracker._trackPageview('/outgoing/applookup.com/2009/11/iphone-apps-with-special-url-shortcuts/');"  href='http://applookup.com/2009/11/iphone-apps-with-special-url-shortcuts/' rel='external nofollow' class='url'>App Lookup &raquo; iPhone apps with special url shortcuts</a>    </cite> </li>
+    <li class="" id="comment-63"> <cite>
+    <a onclick="javascript:pageTracker._trackPageview('/outgoing/www.drobnik.com/touch/2009/05/the-definitive-list-of-sales-report-tools/');"  href='http://www.drobnik.com/touch/2009/05/the-definitive-list-of-sales-report-tools/' rel='external nofollow' class='url'>The Definitive List of Sales Report Tools @ Dr. Touch</a>    </cite> </li>
+    <li class="" id="comment-64"> <cite>
+    <a onclick="javascript:pageTracker._trackPageview('/outgoing/www.drobnik.com/touch/2009/12/dr-touch-006/');"  href='http://www.drobnik.com/touch/2009/12/dr-touch-006/' rel='external nofollow' class='url'>Dr. Touch #006 &#8211; &#8220;And the Winner is&#8230;&#8221; @ Dr. Touch</a>    </cite> </li>
+    <li class="" id="comment-65"> <cite>
+    <a onclick="javascript:pageTracker._trackPageview('/outgoing/www.drobnik.com/touch/2009/12/how-to-make-a-pull-to-reload-tableview-just-like-tweetie-2/');"  href='http://www.drobnik.com/touch/2009/12/how-to-make-a-pull-to-reload-tableview-just-like-tweetie-2/' rel='external nofollow' class='url'>How to make a Pull-To-Reload TableView just like Tweetie 2 @ Dr. Touch</a>    </cite> </li>
+    <li class="" id="comment-66"> <cite>
+    <a onclick="javascript:pageTracker._trackPageview('/outgoing/www.finalpointlogic.com/?p=44');"  href='http://www.finalpointlogic.com/?p=44' rel='external nofollow' class='url'>MyAppSales &laquo; Just the Thought of It</a>    </cite> </li>
+    <li class="" id="comment-67"> <cite>
+    <a onclick="javascript:pageTracker._trackPageview('/outgoing/www.mobileorchard.com/codepromo-distribution-options/');"  href='http://www.mobileorchard.com/codepromo-distribution-options/' rel='external nofollow' class='url'>CodePromo Distribution Options</a>    </cite> </li>
+    <li class="" id="comment-68"> <cite>
+    <a onclick="javascript:pageTracker._trackPageview('/outgoing/www.alexcurylo.com/blog/2010/06/01/pull-to-reload-uitableview/');"  href='http://www.alexcurylo.com/blog/2010/06/01/pull-to-reload-uitableview/' rel='external nofollow' class='url'>Pull-To-Reload UITableView at Under The Bridge</a>    </cite> </li>
+    <li class="" id="comment-69"> <cite>
+    <a onclick="javascript:pageTracker._trackPageview('/outgoing/www.iphonedevsdk.com/forum/iphone-sdk-tools-utilities/56717-best-way-track-your-sales.html#post237214');"  href='http://www.iphonedevsdk.com/forum/iphone-sdk-tools-utilities/56717-best-way-track-your-sales.html#post237214' rel='external nofollow' class='url'>Best way to track your sales? - iPhone Dev SDK Forum</a>    </cite> </li>
+    <li class="" id="comment-578"> <cite>
+    <a onclick="javascript:pageTracker._trackPageview('/outgoing/maniacdev.com/2010/09/app-tracking-10-desktop-web-and-ios-based-tools-for-tracking-sales-and-users/');"  href='http://maniacdev.com/2010/09/app-tracking-10-desktop-web-and-ios-based-tools-for-tracking-sales-and-users/' rel='external nofollow' class='url'>App Tracking &#8211; 10 Desktop, Web And iOS Based Tools For Tracking Sales And Users | iPhone, iOS 4, iPad SDK Development Tutorial and Programming Tips</a>    </cite> </li>
+    <li class="" id="comment-1707"> <cite>
+    <a href='http://www.cocoanetics.com/2009/12/dr-touch-006/' rel='external nofollow' class='url'>Dr. Touch #006 &#8211; &quot;And the Winner is&#8230;&quot; @ Cocoanetics</a>    </cite> </li>
+    <li class="" id="comment-1742"> <cite>
+    <a href='http://www.cocoanetics.com/2010/12/how-to-spy-on-the-web-traffic-of-any-app/' rel='external nofollow' class='url'>How to Spy on the Web Traffic of any App @ Cocoanetics</a>    </cite> </li>
+    <li class="" id="comment-1762"> <cite>
+    <a href='http://www.cocoanetics.com/2009/05/myappsales-104/' rel='external nofollow' class='url'>MyAppSales 1.0.4 @ Cocoanetics</a>    </cite> </li>
+  </ol>
+<div id="respond">
+  <h3>
+    Leave a Comment  </h3>
+  <p id="cancel-comment-reply">
+    <a rel="nofollow" id="cancel-comment-reply-link" href="/my-app-sales/#respond" style="display:none;">Cancel Reply</a>  </p>
+  You must be  <a href="http://www.cocoanetics.com/wp-login.php?redirect_to=http%3A%2F%2Fwww.cocoanetics.com%2Fmy-app-sales%2F">
+  logged in  </a>
+  to post a comment.
+</div>
+		        
+    </div><!--/content-->
+
+</div>
+<!--/main-->
+	<div id="copyright_footer">
+		<div id="copyright_left">
+									<ul id="register_login_links">
+					<li><a class="sign_in_link" href="http://www.cocoanetics.com/wp-login.php?redirect_to=http%3A%2F%2Fwww.cocoanetics.com">Log In</a></li>
+					<li><a class="register_link" href="http://www.cocoanetics.com/wp-login.php?redirect_to=http%3A%2F%2Fwww.cocoanetics.com&action=register">Register</a></li>
+					</ul>
+			 
+		</div>
+		<div id="copyright_right">	&#169; 2010 <span class="url fn org">
+			<a href="http://www.drobnik.com/">Drobnik KG</a>
+			</span>
+		</div>
+	</div>
+</div>
+</div>
+<!--/wrapper-->
+
+<div id="footer">
+<div id="text-6" class="widget widget_text"><h3 class="widgettitle">Affiliates</h3>			<div class="textwidget"><p>Visit our Affiliates:<br />
+ <a href="http://bit.ly/mobfox"><img class="alignleft size-full wp-image-4227" title="mobfox" src="http://www.cocoanetics.com/files/mobfox.png" alt="" width="108" height="27" /></a><a href="http://db.tt/pUYczl6"><img class="alignleft size-full wp-image-4226" title="dropbox" src="http://www.cocoanetics.com/files/dropbox.png" alt="" width="127" height="32" /></a> </p>
+</div>
+		</div><div id="text-7" class="widget widget_text">			<div class="textwidget"></div>
+		</div><div id="text-4" class="widget widget_text"><h3 class="widgettitle">CC</h3>			<div class="textwidget"><p><a href="http://creativecommons.org/licenses/by-nc-sa/3.0/"><img class="alignleft size-full wp-image-4229" title="cc-image" src="http://www.cocoanetics.com/files/cc-image.jpg" alt="" width="88" height="31" /></a>The content on this site is protected under the Non-Commercial Attribution Creative Commons License.</p>
+</div>
+		</div></div>
+<div id="footer_footer"></div>
+<!--/footer-->
+ 
+<!-- tracker added by Ultimate Google Analytics plugin v1.6.0: http://www.oratransplant.nl/uga -->
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+var pageTracker = _gat._getTracker("UA-260144-2");
+pageTracker._initData();
+pageTracker._trackPageview();
+</script>
+		<!-- Advertising Manager v3.4.19 (0.347 seconds.) -->
+<script type="text/javascript"> 
+    jQuery(document).ready(function(){ 
+        jQuery("ul.menu").superfish(); 
+		jQuery("#searchfield").attr("value","Search...");
+		jQuery("#searchfield").focusin(function(){
+			jQuery("#searchfield").attr("value","");	
+		});
+		jQuery("#searchfield").focusout(function() {
+			var formvalue = jQuery("#searchfield").attr("value");
+			if (formvalue=="") {
+				jQuery("#searchfield").attr("value", "Search...");
+				}
+		});
+    }); 
+</script>
+<script type="text/javascript">
+		jQuery("li.cat-item a").each(function(){ // Remove Titles from wp_list_categories
+			jQuery(this).removeAttr('title');
+		})                
+		jQuery("li.page_item a").each(function(){ // Remove Titles from wp_list_pages
+			jQuery(this).removeAttr('title');
+		})
+</script>
+        
+</body>
+</html>
