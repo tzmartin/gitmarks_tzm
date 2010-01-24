@@ -1,0 +1,1379 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en" dir="ltr">
+  <head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="shortcut icon" href="/sites/default/files/images/favicon.ico" type="image/x-icon" />
+<meta name="verify-v1" content="ebklRO3dK25gKrKaZecHzRUr9U2IFoarR+yqrI32YGw=" />
+<meta name="y_key" content="1098c83a55519c85" />
+<meta name="viewport" content="width=device-width,height=device-height,user-scalable=yes" />
+    <title>How can I create ePub files from my books? | Lexcycle</title>
+    <link type="text/css" rel="stylesheet" media="all" href="/modules/aggregator/aggregator.css?t" />
+<link type="text/css" rel="stylesheet" media="all" href="/modules/node/node.css?t" />
+<link type="text/css" rel="stylesheet" media="all" href="/modules/poll/poll.css?t" />
+<link type="text/css" rel="stylesheet" media="all" href="/modules/system/defaults.css?t" />
+<link type="text/css" rel="stylesheet" media="all" href="/modules/system/system.css?t" />
+<link type="text/css" rel="stylesheet" media="all" href="/modules/system/system-menus.css?t" />
+<link type="text/css" rel="stylesheet" media="all" href="/modules/user/user.css?t" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/lightbox2/css/lightbox.css?t" />
+<link type="text/css" rel="stylesheet" media="all" href="/modules/forum/forum.css?t" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/faq/faq.css?t" />
+<link type="text/css" rel="stylesheet" media="all" href="/modules/comment/comment.css?t" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/default/files/color/garland-1b9273d7/style.css?t" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/default/files/images/lexcycle.css?t" />
+<link type="text/css" rel="stylesheet" media="print" href="/themes/garland/print.css?t" />
+<link type="text/css" rel="stylesheet" media="only screen and (max-device-width: 480px)" href="/sites/default/files/images/lexcycle-iphone.css?t" />
+    <script type="text/javascript" src="/sites/default/files/js/a08a56f2dda53749ac023708f9d7c572.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, { "basePath": "/", "lightbox2": { "rtl": 0, "file_path": "/(\\w\\w/)sites/default/files", "default_image": "/sites/all/modules/lightbox2/images/brokenimage.jpg", "border_size": 10, "font_color": "000", "box_color": "fff", "top_position": "", "overlay_opacity": 0.8, "overlay_color": "000", "disable_close_click": true, "resize_sequence": 0, "resize_speed": 400, "fade_in_speed": 400, "slide_down_speed": 600, "use_alt_layout": false, "disable_resize": false, "disable_zoom": false, "force_show_nav": false, "loop_items": false, "node_link_text": "View Image Details", "node_link_target": false, "image_count": "Image !current of !total", "video_count": "Video !current of !total", "page_count": "Page !current of !total", "lite_press_x_close": "press \x3ca href=\"#\" onclick=\"hideLightbox(); return FALSE;\"\x3e\x3ckbd\x3ex\x3c/kbd\x3e\x3c/a\x3e to close", "download_link_text": "", "enable_login": false, "enable_contact": false, "keys_close": "c x 27", "keys_previous": "p 37", "keys_next": "n 39", "keys_zoom": "z", "keys_play_pause": "32", "display_image_size": "", "image_node_sizes": "()", "trigger_lightbox_classes": "", "trigger_lightbox_group_classes": "", "trigger_slideshow_classes": "", "trigger_lightframe_classes": "", "trigger_lightframe_group_classes": "", "custom_class_handler": 0, "custom_trigger_classes": "", "disable_for_gallery_lists": true, "disable_for_acidfree_gallery_lists": true, "enable_acidfree_videos": true, "slideshow_interval": 5000, "slideshow_automatic_start": true, "slideshow_automatic_exit": true, "show_play_pause": true, "pause_on_next_click": false, "pause_on_previous_click": true, "loop_slides": false, "iframe_width": 600, "iframe_height": 400, "iframe_border": 1, "enable_video": false } });
+//--><!]]>
+</script>
+    <!--[if lt IE 7]>
+      <link type="text/css" rel="stylesheet" media="all" href="/themes/garland/fix-ie.css" />    <![endif]-->
+  </head>
+  <body class="sidebar-right">
+
+<!-- Layout -->
+  <div id="header-region" class="clear-block"><div id="block-block-15" class="clear-block block block-block">
+
+
+  <div class="content"><span style='display: block; color: #463C3C; text-align: center; margin-left: auto; margin-right: auto; font-size: 160%; font-family: garamond,Capitals,serif; text-decoration: none; font-weight: normal !important;'><b>Macworld</b>: Stanza: <em><a href='http://www.macworld.com/article/137793/bestiphoneapps_readerpicks.html'>Our Favorite iPhone Apps: Your turn</a></em></span></div>
+</div>
+</div>
+
+    <div id="wrapper">
+    <div id="container" class="clear-block">
+
+      <div id="header">
+        <div id="logo-floater">
+        <h1><a href="/" title=""><img src="/sites/default/files/images/lexcyclesiteheader.png" alt="" id="logo" /></a></h1>        </div>
+
+                  <ul class="links primary-links"><li class="menu-364 first"><a href="/iphone" title="Stanza: a Revolution in Reading">Stanza</a></li>
+<li class="menu-309"><a href="/faq" title="">FAQ</a></li>
+<li class="menu-227"><a href="/forum/stanza" title="Forums">Forums</a></li>
+<li class="menu-195"><a href="/support" title="Support">Support</a></li>
+<li class="menu-193"><a href="/news" title="Lexcycle &amp; Industry News">News</a></li>
+<li class="menu-194 last"><a href="/blog" title="Blog">Blog</a></li>
+</ul>                                  
+      </div> <!-- /header -->
+
+      
+      <div id="center"><div id="squeeze"><div class="right-corner"><div class="left-corner">
+          <div class="breadcrumb"><a href="/">Home</a> › <a href="/faq">Frequently Asked Questions</a> › <a href="/faq/7">Developers</a></div>                              <h2>How can I create ePub files from my books?</h2>                                                  <div class="clear-block">
+            <div id="node-218" class="node">
+
+
+
+      <span class="submitted">Wed, 10/21/2009 - 13:04 — marc</span>
+  
+  <div class="content clear-block">
+    <p>The native format for Stanza is ePub, which is the Open eBook standard from the International Digital Publishing Forum (<a href="http://www.idpf.org/" title="http://www.idpf.org/">http://www.idpf.org/</a>). ePub is supported in Stanza Desktop, iPhone, and iPod Touch, as well as in Adobe Digital Editions, Apple's iBooks, and the next generation of e-ink readers like the Sony Reader (PRS-505).</p>
+<p>There are a number of ways to create ePub content:</p>
+<ol>
+<li>Calibre (<a href="http://calibre-ebook.com" title="http://calibre-ebook.com">http://calibre-ebook.com</a>): a free tool for Windows, Mac OSX, and Linux that allows you to convert to ePub from a wide variety of formats. Calibre currently does a better job than Stanza Desktop at preserving styles and formatting of source documents.</li>
+<li>Adobe InDesign (<a href="http://www.adobe.com/products/indesign/" title="http://www.adobe.com/products/indesign/">http://www.adobe.com/products/indesign/</a>): InDesign is a high-end publishing tool for authors and publishers, and supports the creation of ePub files.</li>
+<li>Feedbooks (<a href="http://feedbooks.com/share/" title="http://feedbooks.com/share/">http://feedbooks.com/share/</a>): You can log into Feedbooks and create your own content, which will be made available in ePub, as well as other formats like PDF and Kindle. In addition, any books you create and share will automatically be included in the "Free Books by Feedbooks" section of Stanza's Online Catalog under the "User Created Books" area, so you don't need to download and transfer the book separately.</li>
+<li>BookGlutton API (<a href="http://www.bookglutton.com/api" title="http://www.bookglutton.com/api">http://www.bookglutton.com/api</a>): If you have your book in HTML format, you can convert it into ePub using their online conversion API</li>
+<li>ePub Tools (<a href="http://code.google.com/p/epub-tools" title="http://code.google.com/p/epub-tools">http://code.google.com/p/epub-tools</a>): Command-line tools suitable for batch processing and integration into toolchains. Includes tools for conversion from Word, RTF, DocBook, TEI, and FictionBook.</li>
+<li>Adobe PDFXML (<a href="http://labs.adobe.com/technologies/mars" title="http://labs.adobe.com/technologies/mars">http://labs.adobe.com/technologies/mars</a>) - Per <a href="http://blogs.adobe.com/digitaleditions/2008/10/a_great_tool_for_making_small.html" target="_blank">Adobe's blog</a>, this is useful for making small changes to existing EPUBs.</li>
+<li>eScape - ePub Creator (<a href="http://www.infogridpacific.com/igp/AZARDI/eScape%20-ODT2ePub" title="http://www.infogridpacific.com/igp/AZARDI/eScape%20-ODT2ePub">http://www.infogridpacific.com/igp/AZARDI/eScape%20-ODT2ePub</a>) - "It lets you instantly and effortlessly turn Open Office Writer documents (ODT) into perfect ePubs..."</li>
+<li>eCub (<a href="http://www.juliansmart.com/ecub" title="http://www.juliansmart.com/ecub">http://www.juliansmart.com/ecub</a>) - "a simple to use EPUB and MobiPocket ebook creator"</li>
+<li>Sigil (<a href="http://code.google.com/p/sigil/" title="http://code.google.com/p/sigil/">http://code.google.com/p/sigil/</a>) - "Sigil is a multi-platform WYSIWYG ebook editor. It is designed to edit books in ePub format."</li>
+<li>Easy EPUB (<a href="http://www.easypress.com/products/aqpep/" title="http://www.easypress.com/products/aqpep/">http://www.easypress.com/products/aqpep/</a>) - By simply uploading your InDesign or Quark book files, EasyEPUB will quickly produce a fully compliant EPUB version of your book within 5 minutes.</li>
+<li>DNAML's PDF2EPUB (<a href="http://www.pdftoepub.com/" title="http://www.pdftoepub.com/">http://www.pdftoepub.com/</a>) - Convert PDFs to EPUBs in 6 easy steps.  The nice thing about this software is that it can handle headers and footers which are often challenging when converting PDFs.</li>
+<li>ODFToEPub (<a href="http://www.pincette.biz/odftoepub/" title="http://www.pincette.biz/odftoepub/">http://www.pincette.biz/odftoepub/</a>) - An OpenOffice extension that lets you save a document as an ePub.</li>
+<li>Stanza Desktop (<a href="http://stanza.lexcycle.com" title="http://stanza.lexcycle.com">http://stanza.lexcycle.com</a>): Stanza allows you to convert from a large variety of formats like MS LIT, Mobipocket, Kindle, RTF, PDF, MS Word, and many more into ePub</li>
+</ol>
+<p>Ultimately, an ePub file is merely a zip file consisting of XHTML and XML metadata, so it is possible to create one "by hand" yourself. A good tutorial for this can be found at <a href="http://www.jedisaber.com/eBooks/tutorial.asp" title="http://www.jedisaber.com/eBooks/tutorial.asp">http://www.jedisaber.com/eBooks/tutorial.asp</a>.</p>
+  </div>
+
+  <div class="clear-block">
+    <div class="meta">
+          <div class="terms"><ul class="links inline"><li class="taxonomy_term_7 first last"><a href="/faq/7" rel="tag" title="">Developers</a></li>
+</ul></div>
+        </div>
+
+          <div class="links"><ul class="links inline"><li class="comment_forbidden first last"><span><a href="/user/login?destination=comment/reply/218%2523comment-form">Login</a> or <a href="/user/register?destination=comment/reply/218%2523comment-form">register</a> to post comments</span></li>
+</ul></div>
+      </div>
+
+</div>
+<div id="comments"><h2 class="comments">Comments</h2><a id="comment-15254"></a>
+<div class="comment comment-published odd">
+
+  <div class="clear-block">
+      <span class="submitted">Tue, 06/15/2010 - 05:39 — chepa</span>
+  
+  
+  <div class="picture">
+  </div>
+
+    <h3><a href="/faq/how_to_create_epub#comment-15254" class="active">Its really informative to see</a></h3>
+
+    <div class="content">
+      <p>Its really informative to see this post where we could see electronic book reader and book sharing software for the iPhone that i like to discuss more about this thanks for sharing the info.<br />
+Allison parris</p>
+          </div>
+  </div>
+
+      <div class="links"><ul class="links"><li class="comment_forbidden first last"><span><a href="/user/login?destination=comment/reply/218%2523comment-form">Login</a> or <a href="/user/register?destination=comment/reply/218%2523comment-form">register</a> to post comments</span></li>
+</ul></div>
+  </div>
+<a id="comment-15248"></a>
+<div class="comment comment-published even">
+
+  <div class="clear-block">
+      <span class="submitted">Mon, 06/14/2010 - 22:28 — kismis</span>
+  
+  
+  <div class="picture">
+  </div>
+
+    <h3><a href="/faq/how_to_create_epub#comment-15248" class="active">German Kitchens</a></h3>
+
+    <div class="content">
+      <p>German Kitchens German kitchens with FREE kitchen design service. German kitchens from Pronorm and Wentworth</p>
+          </div>
+  </div>
+
+      <div class="links"><ul class="links"><li class="comment_forbidden first last"><span><a href="/user/login?destination=comment/reply/218%2523comment-form">Login</a> or <a href="/user/register?destination=comment/reply/218%2523comment-form">register</a> to post comments</span></li>
+</ul></div>
+  </div>
+<a id="comment-15239"></a>
+<div class="comment comment-published odd">
+
+  <div class="clear-block">
+      <span class="submitted">Mon, 06/14/2010 - 12:46 — zeebra</span>
+  
+  
+  <div class="picture">
+  </div>
+
+    <h3><a href="/faq/how_to_create_epub#comment-15239" class="active">The native format for Stanza</a></h3>
+
+    <div class="content">
+      <p>The native format for Stanza is ePub, which is the Open eBook standard from the International Digital Publishing Forum. That was pretty interesting to know.<br />
+<a href="http://www.racinggames60.com/cat/2/Racing-Games/p1.htm">Racing Games</a></p>
+          </div>
+  </div>
+
+      <div class="links"><ul class="links"><li class="comment_forbidden first last"><span><a href="/user/login?destination=comment/reply/218%2523comment-form">Login</a> or <a href="/user/register?destination=comment/reply/218%2523comment-form">register</a> to post comments</span></li>
+</ul></div>
+  </div>
+<a id="comment-15238"></a>
+<div class="comment comment-published even">
+
+  <div class="clear-block">
+      <span class="submitted">Mon, 06/14/2010 - 11:37 — promotey</span>
+  
+  
+  <div class="picture">
+  </div>
+
+    <h3><a href="/faq/how_to_create_epub#comment-15238" class="active">Cool things about that ePub</a></h3>
+
+    <div class="content">
+      <p>Cool things about that <a href="http://strlinks.com/">ePub</a> sharing for &lt;&gt;ebook! thanks for post!!</p>
+          </div>
+  </div>
+
+      <div class="links"><ul class="links"><li class="comment_forbidden first last"><span><a href="/user/login?destination=comment/reply/218%2523comment-form">Login</a> or <a href="/user/register?destination=comment/reply/218%2523comment-form">register</a> to post comments</span></li>
+</ul></div>
+  </div>
+<a id="comment-15231"></a>
+<div class="comment comment-published odd">
+
+  <div class="clear-block">
+      <span class="submitted">Mon, 06/14/2010 - 02:42 — matilda7</span>
+  
+  
+  <div class="picture">
+  </div>
+
+    <h3><a href="/faq/how_to_create_epub#comment-15231" class="active">web design new york</a></h3>
+
+    <div class="content">
+      <p>Useful info. Hope to see more good posts in the future.<br />
+web design new york</p>
+          </div>
+  </div>
+
+      <div class="links"><ul class="links"><li class="comment_forbidden first last"><span><a href="/user/login?destination=comment/reply/218%2523comment-form">Login</a> or <a href="/user/register?destination=comment/reply/218%2523comment-form">register</a> to post comments</span></li>
+</ul></div>
+  </div>
+<a id="comment-15225"></a>
+<div class="comment comment-published even">
+
+  <div class="clear-block">
+      <span class="submitted">Sun, 06/13/2010 - 21:01 — PMHD</span>
+  
+  
+  <div class="picture">
+  </div>
+
+    <h3><a href="/faq/how_to_create_epub#comment-15225" class="active">Very useful</a></h3>
+
+    <div class="content">
+      <p>This article. Very useful to readers.<br />
+Thanks for sharing tutorial of creation of epub file from Book.</p>
+<p>Great info and so very useful. I want <a href="http://www.plasmahdtvnow.com/">TV</a><br />
+I love my <a href="http://www.plasmahdtvnow.com/">55" LG Infinia 55LE85000</a></p>
+          </div>
+  </div>
+
+      <div class="links"><ul class="links"><li class="comment_forbidden first last"><span><a href="/user/login?destination=comment/reply/218%2523comment-form">Login</a> or <a href="/user/register?destination=comment/reply/218%2523comment-form">register</a> to post comments</span></li>
+</ul></div>
+  </div>
+<a id="comment-15160"></a>
+<div class="comment comment-published odd">
+
+  <div class="clear-block">
+      <span class="submitted">Thu, 06/10/2010 - 00:02 — jhon78</span>
+  
+  
+  <div class="picture">
+  </div>
+
+    <h3><a href="/faq/how_to_create_epub#comment-15160" class="active">web designing</a></h3>
+
+    <div class="content">
+      <p>Web design is the skill of creating presentations of content  (usually hypertext or hypermedia) that is delivered to an end-user through the World Wide Web.<br />
+ web designing</p>
+          </div>
+  </div>
+
+      <div class="links"><ul class="links"><li class="comment_forbidden first last"><span><a href="/user/login?destination=comment/reply/218%2523comment-form">Login</a> or <a href="/user/register?destination=comment/reply/218%2523comment-form">register</a> to post comments</span></li>
+</ul></div>
+  </div>
+<a id="comment-15092"></a>
+<div class="comment comment-published even">
+
+  <div class="clear-block">
+      <span class="submitted">Tue, 06/08/2010 - 01:53 — alandsmoot</span>
+  
+  
+  <div class="picture">
+  </div>
+
+    <h3><a href="/faq/how_to_create_epub#comment-15092" class="active">Thanks dear a lot . I am</a></h3>
+
+    <div class="content">
+      <p>Thanks dear a lot . I am looking for this information.</p>
+<p>Check Hillarys blinds</p>
+          </div>
+  </div>
+
+      <div class="links"><ul class="links"><li class="comment_forbidden first last"><span><a href="/user/login?destination=comment/reply/218%2523comment-form">Login</a> or <a href="/user/register?destination=comment/reply/218%2523comment-form">register</a> to post comments</span></li>
+</ul></div>
+  </div>
+<a id="comment-15090"></a>
+<div class="comment comment-published odd">
+
+  <div class="clear-block">
+      <span class="submitted">Mon, 06/07/2010 - 23:39 — Wilmer</span>
+  
+  
+  <div class="picture">
+  </div>
+
+    <h3><a href="/faq/how_to_create_epub#comment-15090" class="active">Interesting topic. Thanks for</a></h3>
+
+    <div class="content">
+      <p>Interesting topic. Thanks for posting :)</p>
+<p><a href="http://Macinc.ca">Internet Marketing Vancouver</a></p>
+          </div>
+  </div>
+
+      <div class="links"><ul class="links"><li class="comment_forbidden first last"><span><a href="/user/login?destination=comment/reply/218%2523comment-form">Login</a> or <a href="/user/register?destination=comment/reply/218%2523comment-form">register</a> to post comments</span></li>
+</ul></div>
+  </div>
+<div class="indented"><a id="comment-15163"></a>
+<div class="comment comment-published even">
+
+  <div class="clear-block">
+      <span class="submitted">Thu, 06/10/2010 - 09:15 — rebellq</span>
+  
+  
+  <div class="picture">
+  </div>
+
+    <h3><a href="/faq/how_to_create_epub#comment-15163" class="active">Great post, so useful for us</a></h3>
+
+    <div class="content">
+      <p>Great post, so useful for us ipod users.<br />
+<a href="http://www.merchantos.com/">Point of Sale Software</a></p>
+          </div>
+  </div>
+
+      <div class="links"><ul class="links"><li class="comment_forbidden first last"><span><a href="/user/login?destination=comment/reply/218%2523comment-form">Login</a> or <a href="/user/register?destination=comment/reply/218%2523comment-form">register</a> to post comments</span></li>
+</ul></div>
+  </div>
+</div><a id="comment-15076"></a>
+<div class="comment comment-published odd">
+
+  <div class="clear-block">
+      <span class="submitted">Mon, 06/07/2010 - 06:59 — veryspeciallink</span>
+  
+  
+  <div class="picture">
+  </div>
+
+    <h3><a href="/faq/how_to_create_epub#comment-15076" class="active">Fourneau bruleur de graisse</a></h3>
+
+    <div class="content">
+      <p><a href="http://fourneaubruleurdegraisses.net" title="Fourneau bruleur de graisse">Fourneau bruleur de graisse</a> est le programme de remise en forme très populaire de nouvelles  écrites par Rob Poulos que les réclamations pour vous permettre  d'apporter un peu de matière grasse tout en exerçant seulement 45  minutes par semaine.</p>
+          </div>
+  </div>
+
+      <div class="links"><ul class="links"><li class="comment_forbidden first last"><span><a href="/user/login?destination=comment/reply/218%2523comment-form">Login</a> or <a href="/user/register?destination=comment/reply/218%2523comment-form">register</a> to post comments</span></li>
+</ul></div>
+  </div>
+<a id="comment-15072"></a>
+<div class="comment comment-published even">
+
+  <div class="clear-block">
+      <span class="submitted">Mon, 06/07/2010 - 01:24 — minervainfotech</span>
+  
+  
+  <div class="picture">
+  </div>
+
+    <h3><a href="/faq/how_to_create_epub#comment-15072" class="active">ratedpeople</a></h3>
+
+    <div class="content">
+      <p>The article about this post is fine and more informative.Really I like this.it's welcome http://www.yourworkman.co.uk</p>
+          </div>
+  </div>
+
+      <div class="links"><ul class="links"><li class="comment_forbidden first last"><span><a href="/user/login?destination=comment/reply/218%2523comment-form">Login</a> or <a href="/user/register?destination=comment/reply/218%2523comment-form">register</a> to post comments</span></li>
+</ul></div>
+  </div>
+<a id="comment-15009"></a>
+<div class="comment comment-published odd">
+
+  <div class="clear-block">
+      <span class="submitted">Sat, 06/05/2010 - 07:25 — Business Directory</span>
+  
+  
+  <div class="picture">
+  </div>
+
+    <h3><a href="/faq/how_to_create_epub#comment-15009" class="active">Dots Can be seen getting connected from top....</a></h3>
+
+    <div class="content">
+      <p>Excellent post...i Think it can create the right havoc if used wisely...Best of luck!!<br />
+<a href="http://www.ezbizdir.com/ ">Business Directory</a></p>
+          </div>
+  </div>
+
+      <div class="links"><ul class="links"><li class="comment_forbidden first last"><span><a href="/user/login?destination=comment/reply/218%2523comment-form">Login</a> or <a href="/user/register?destination=comment/reply/218%2523comment-form">register</a> to post comments</span></li>
+</ul></div>
+  </div>
+<a id="comment-15008"></a>
+<div class="comment comment-published even">
+
+  <div class="clear-block">
+      <span class="submitted">Sat, 06/05/2010 - 07:16 — diskconverter</span>
+  
+  
+  <div class="picture">
+  </div>
+
+    <h3><a href="/faq/how_to_create_epub#comment-15008" class="active">Wow! Amazing sharing!</a></h3>
+
+    <div class="content">
+      <p>Thank you so much for your share!<br />
+I must spend a whold day to check those sites one by one.</p>
+<p><a href="http://www.dynamic-disk.com/convert-dynamic-disk-to-basic.html">convert dynamic disk to basic</a></p>
+          </div>
+  </div>
+
+      <div class="links"><ul class="links"><li class="comment_forbidden first last"><span><a href="/user/login?destination=comment/reply/218%2523comment-form">Login</a> or <a href="/user/register?destination=comment/reply/218%2523comment-form">register</a> to post comments</span></li>
+</ul></div>
+  </div>
+<a id="comment-15004"></a>
+<div class="comment comment-published odd">
+
+  <div class="clear-block">
+      <span class="submitted">Sat, 06/05/2010 - 03:08 — kpenning</span>
+  
+  
+  <div class="picture">
+  </div>
+
+    <h3><a href="/faq/how_to_create_epub#comment-15004" class="active">The new HTC EVO 4G has been</a></h3>
+
+    <div class="content">
+      <p>The new <a href="http://briefmobile.com/evo-4g-the-unofficial-guide">HTC EVO 4G</a> has been released and you can already <a href="http://briefmobile.com/root-an-htc-evo-4g">root your evo 4g</a> to get froyo on it.</p>
+          </div>
+  </div>
+
+      <div class="links"><ul class="links"><li class="comment_forbidden first last"><span><a href="/user/login?destination=comment/reply/218%2523comment-form">Login</a> or <a href="/user/register?destination=comment/reply/218%2523comment-form">register</a> to post comments</span></li>
+</ul></div>
+  </div>
+<a id="comment-14995"></a>
+<div class="comment comment-published even">
+
+  <div class="clear-block">
+      <span class="submitted">Fri, 06/04/2010 - 21:29 — ruwindarshan</span>
+  
+  
+  <div class="picture">
+  </div>
+
+    <h3><a href="/faq/how_to_create_epub#comment-14995" class="active">ePub is widely used in many</a></h3>
+
+    <div class="content">
+      <p>ePub is widely used in many universities. Hope it will beat PDF.<br />
+<a href="http://barnaclesbeegone.com/">underwater boat cleaning </a></p>
+          </div>
+  </div>
+
+      <div class="links"><ul class="links"><li class="comment_forbidden first last"><span><a href="/user/login?destination=comment/reply/218%2523comment-form">Login</a> or <a href="/user/register?destination=comment/reply/218%2523comment-form">register</a> to post comments</span></li>
+</ul></div>
+  </div>
+<a id="comment-14945"></a>
+<div class="comment comment-published odd">
+
+  <div class="clear-block">
+      <span class="submitted">Thu, 06/03/2010 - 13:02 — bloodydown</span>
+  
+  
+  <div class="picture">
+  </div>
+
+    <h3><a href="/faq/how_to_create_epub#comment-14945" class="active">Epubs for online dating sites</a></h3>
+
+    <div class="content">
+      <p>Yeah, ePubs have been quite popular for <a href="http://www.onlinedatingsites.net">online dating sites</a> users. So much functionality will make everything organized and lead to some coooool features.</p>
+          </div>
+  </div>
+
+      <div class="links"><ul class="links"><li class="comment_forbidden first last"><span><a href="/user/login?destination=comment/reply/218%2523comment-form">Login</a> or <a href="/user/register?destination=comment/reply/218%2523comment-form">register</a> to post comments</span></li>
+</ul></div>
+  </div>
+<a id="comment-14938"></a>
+<div class="comment comment-published even">
+
+  <div class="clear-block">
+      <span class="submitted">Thu, 06/03/2010 - 09:25 — samjohn69</span>
+  
+  
+  <div class="picture">
+  </div>
+
+    <h3><a href="/faq/how_to_create_epub#comment-14938" class="active">Nice List</a></h3>
+
+    <div class="content">
+      <p>Like the blog, Very good list<br />
+<a href="http://ear-nose-throat.surgerythailand.com/">Nose Surgery Thailand</a></p>
+          </div>
+  </div>
+
+      <div class="links"><ul class="links"><li class="comment_forbidden first last"><span><a href="/user/login?destination=comment/reply/218%2523comment-form">Login</a> or <a href="/user/register?destination=comment/reply/218%2523comment-form">register</a> to post comments</span></li>
+</ul></div>
+  </div>
+<div class="indented"><a id="comment-14941"></a>
+<div class="comment comment-published odd">
+
+  <div class="clear-block">
+      <span class="submitted">Thu, 06/03/2010 - 11:00 — website domain names</span>
+  
+  
+  <div class="picture">
+  </div>
+
+    <h3><a href="/faq/how_to_create_epub#comment-14941" class="active">website domain names</a></h3>
+
+    <div class="content">
+      <p><a href="http://www.websitedomain-names.com">website domain names</a></p>
+          </div>
+  </div>
+
+      <div class="links"><ul class="links"><li class="comment_forbidden first last"><span><a href="/user/login?destination=comment/reply/218%2523comment-form">Login</a> or <a href="/user/register?destination=comment/reply/218%2523comment-form">register</a> to post comments</span></li>
+</ul></div>
+  </div>
+</div><a id="comment-14717"></a>
+<div class="comment comment-published even">
+
+  <div class="clear-block">
+      <span class="submitted">Tue, 06/01/2010 - 01:28 — dorris</span>
+  
+  
+  <div class="picture">
+  </div>
+
+    <h3><a href="/faq/how_to_create_epub#comment-14717" class="active">epub files</a></h3>
+
+    <div class="content">
+      <p>Thank you for sharing this ways for efficient epub creation. <a href="http://www.cheappoolproducts.com/Pool%20Lights_757~supplies.html">Pool lights</a></p>
+          </div>
+  </div>
+
+      <div class="links"><ul class="links"><li class="comment_forbidden first last"><span><a href="/user/login?destination=comment/reply/218%2523comment-form">Login</a> or <a href="/user/register?destination=comment/reply/218%2523comment-form">register</a> to post comments</span></li>
+</ul></div>
+  </div>
+<div class="indented"><a id="comment-14884"></a>
+<div class="comment comment-published odd">
+
+  <div class="clear-block">
+      <span class="submitted">Wed, 06/02/2010 - 17:46 — sit2006</span>
+  
+  
+  <div class="picture">
+  <img src="http://www.lexcycle.com/sites/default/files/pictures/picture-37859.jpg" alt="sit2006&#039;s picture" title="sit2006&#039;s picture"  /></div>
+
+    <h3><a href="/faq/how_to_create_epub#comment-14884" class="active">new hdtv on 2010</a></h3>
+
+    <div class="content">
+      <p><a href="http://un55c8000.net" target="_blank">samsung un55c8000</a> <a href="http://samsung-LN46C630.net" target="_blank">samsung LN46C630</a> <a href="http://samsungLN40C630.org" target="_blank">samsung LN40C630</a> <a href="http://samsung-LN46C650.com" target="_blank">samsung LN46C650</a> <a href="http://un46c8000.net" target="_blank">un46c8000</a> <a href="http://samsungln55c630-price.com" target="_blank">samsung ln55c630</a> <a href="http://samsungln55c650.net" target="_blank">samsung ln55c650</a> <a href="http://samsungPN50C550.org" target="_blank">samsung PN50C550</a> <a href="http://samsungPN42C450.org" target="_blank">samsung PN42C450</a> <a href="http://samsung-ln40c530.com" target="_blank">samsung ln40c530</a> <a href="http://samsung-ln46c750.com" target="_blank">samsung ln46c750</a> <a href="http://samsung-ln32c350.com" target="_blank">samsung ln32c350</a> <a href="http://samsung-ln26c450.com" target="_blank">samsung ln26c450</a> <a href="http://lg-55ld650.com" target="_blank">lg 55ld650</a> <a href="http://tcp50s2.com" target="_blank">tcp50s2</a> <a href="http://lg-50pk750.com" target="_blank">lg 50pk750</a> <a href="http://samsungPN50C430.net" target="_blank">samsung PN50C430</a> <a href="http://samsungPN42C430.net" target="_blank">samsung PN42C430</a> <a href="http://samsung-PN50C450.com" target="_blank">samsung PN50C450</a> <a href="http://samsung-UN46C6300.com" target="_blank">samsung UN46C6300</a> <a href="http://un32c4000.net" target="_blank">un32c4000</a> <a href="http://un32c5000.net" target="_blank">un32c5000</a> <a href="http://un40c5000.net" target="_blank">un40c5000</a> <a href="http://un46c5000.net" target="_blank">un46c5000</a> <a href="http://vf552xvt.net" target="_blank">vf552xvt</a> <a href="http://viorelc32vf55.com" target="_blank">viore lc32vf55</a> <a href="http://l505-gs5037.net" target="_blank">l505-gs5037</a> <a href="http://bd-c6500.info" target="_blank">bd-c6500</a> <a href="http://un40c6500.info" target="_blank">un40c6500</a> <a href="http://un46c6500.info" target="_blank">un46c6500</a> <a href="http://un46c7000.info" target="_blank">un46c7000</a> <a href="http://un55c6500.info" target="_blank">un55c6500</a> <a href="http://un55c7000.info" target="_blank">un55c7000</a> <a href="http://22dv665db.com" target="_blank">22dv665db</a> <a href="tcp50g25.org" target="_blank">tcp50g25</a></p>
+          </div>
+  </div>
+
+      <div class="links"><ul class="links"><li class="comment_forbidden first last"><span><a href="/user/login?destination=comment/reply/218%2523comment-form">Login</a> or <a href="/user/register?destination=comment/reply/218%2523comment-form">register</a> to post comments</span></li>
+</ul></div>
+  </div>
+<div class="indented"><a id="comment-14888"></a>
+<div class="comment comment-published even">
+
+  <div class="clear-block">
+      <span class="submitted">Wed, 06/02/2010 - 20:12 — SNT</span>
+  
+  
+  <div class="picture">
+  </div>
+
+    <h3><a href="/faq/how_to_create_epub#comment-14888" class="active">SNT</a></h3>
+
+    <div class="content">
+      <p>This really is a aw some post, i'm happy I recently found. I have been trying to find guest </p>
+<p>writers for my blog so if you ever decide that's something you are interested in please feel </p>
+<p>free to contact me. I will be back to look at out more of your articles later!</p>
+<p>Best Regards,</p>
+<p><a href="http://www.forgotteneden.com/" alt="The Next Information And Business Online">Information And Business Online</a>  <a href="http://www.siaksa.com/" alt="All About Computer Solution">All About Computer Solution</a> <a href="http://www.mywishstuff.com/" alt="For Your Information">For Your Information</a> <a href="http://www.sialnity.com/" alt="Information And Knowledge">Information And Knowledge</a> <a href="http://www.andesweb.net/" alt="News Technology">Technology</a> | <a href="http://www.askorhaz.net" alt="Provides Health Information, Contains Articles, News, Tips,Tricks and Frequently Asked Questions.">Healthy Living Solution</a></p>
+          </div>
+  </div>
+
+      <div class="links"><ul class="links"><li class="comment_forbidden first last"><span><a href="/user/login?destination=comment/reply/218%2523comment-form">Login</a> or <a href="/user/register?destination=comment/reply/218%2523comment-form">register</a> to post comments</span></li>
+</ul></div>
+  </div>
+</div></div><a id="comment-14683"></a>
+<div class="comment comment-published odd">
+
+  <div class="clear-block">
+      <span class="submitted">Sun, 05/30/2010 - 08:21 — Basha besh</span>
+  
+  
+  <div class="picture">
+  </div>
+
+    <h3><a href="/faq/how_to_create_epub#comment-14683" class="active">Stanza</a></h3>
+
+    <div class="content">
+      <p>As we all know The native format for Stanza is ePub, which is the Open eBook standard from the International Digital Publishing Forum (<a href="http://www.idpf.org/" title="http://www.idpf.org/">http://www.idpf.org/</a>).<br />
+As far as I know, ePub is supported in Stanza Desktop, iPhone, and iPod Touch, as well as in Adobe Digital Editions, Apple's iBooks, and the next generation of e-ink readers like the Sony Reader (PRS-505).<br />
+<a href="http://www.freeannuityrates.com/annuities/calculators/annuitycalculators.php">Annuity Calculator</a> | <a href="http://www.freeannuityrates.com/annuities/variable/variable-annuity-guide.php">Variable Annuities</a></p>
+          </div>
+  </div>
+
+      <div class="links"><ul class="links"><li class="comment_forbidden first last"><span><a href="/user/login?destination=comment/reply/218%2523comment-form">Login</a> or <a href="/user/register?destination=comment/reply/218%2523comment-form">register</a> to post comments</span></li>
+</ul></div>
+  </div>
+<a id="comment-14678"></a>
+<div class="comment comment-published even">
+
+  <div class="clear-block">
+      <span class="submitted">Sat, 05/29/2010 - 16:25 — cobain23</span>
+  
+  
+  <div class="picture">
+  </div>
+
+    <h3><a href="/faq/how_to_create_epub#comment-14678" class="active">Thanks for sharing these</a></h3>
+
+    <div class="content">
+      <p>Thanks for sharing these useful information!</p>
+<p><a href="http://www.wow-penis.com">penis enlargement</a> :: <a href="http://www.wow-penis.com">best penis enlargement</a> :: <a href="http://www.wow-penis.com">real penis enlargement</a> :: <a href="http://www.wow-penis.com">natural penis enlargement</a> :: <a href="http://www.wow-penis.com/best-male-enhancement.html">best male enhancement</a> :: <a href="http://www.best-penispills.com">penis pills</a> :: <a href="http://www.best-penispills.com">best penis pills</a> :: <a href="http://www.best-penispills.com">penis enlargement pills</a> :: <a href="http://www.best-penispills.com">penis enhancement pills</a> :: <a href="http://www.best-penispills.com">best penis enlargement pills</a> :: <a href="http://www.newvigrxplus.com">Vigrx</a> :: <a href="http://www.newvigrxplus.com">Vigrx Plus</a> :: <a href="http://www.wow-penis.com/vimaxpills.html">Vimax</a> :: <a href="http://www.best-penispills.com/vimaxpills.html">Vimax Pills</a></p>
+          </div>
+  </div>
+
+      <div class="links"><ul class="links"><li class="comment_forbidden first last"><span><a href="/user/login?destination=comment/reply/218%2523comment-form">Login</a> or <a href="/user/register?destination=comment/reply/218%2523comment-form">register</a> to post comments</span></li>
+</ul></div>
+  </div>
+<a id="comment-14662"></a>
+<div class="comment comment-published odd">
+
+  <div class="clear-block">
+      <span class="submitted">Sat, 05/29/2010 - 06:27 — bouloma</span>
+  
+  
+  <div class="picture">
+  </div>
+
+    <h3><a href="/faq/how_to_create_epub#comment-14662" class="active">good info</a></h3>
+
+    <div class="content">
+      <p>it's a good tutorial thank you</p>
+<p><a href="http://www.boulo.ma">recrutement au maroc</a></p>
+<p><a href="http://www.boulo.ma">offres d'emploi au maroc</a></p>
+          </div>
+  </div>
+
+      <div class="links"><ul class="links"><li class="comment_forbidden first last"><span><a href="/user/login?destination=comment/reply/218%2523comment-form">Login</a> or <a href="/user/register?destination=comment/reply/218%2523comment-form">register</a> to post comments</span></li>
+</ul></div>
+  </div>
+<div class="indented"><a id="comment-14956"></a>
+<div class="comment comment-published even">
+
+  <div class="clear-block">
+      <span class="submitted">Thu, 06/03/2010 - 23:18 — anne12</span>
+  
+  
+  <div class="picture">
+  </div>
+
+    <h3><a href="/faq/how_to_create_epub#comment-14956" class="active">EPUB is designed for</a></h3>
+
+    <div class="content">
+      <p>EPUB is designed for reflowable content, meaning that the text display can be optimized for the particular display device used by the reader of the EPUB-formatted book Whcih is really helpful for the students.</p>
+<p><a href="http://careerschooladvisor.com/">online degree</a></p>
+          </div>
+  </div>
+
+      <div class="links"><ul class="links"><li class="comment_forbidden first last"><span><a href="/user/login?destination=comment/reply/218%2523comment-form">Login</a> or <a href="/user/register?destination=comment/reply/218%2523comment-form">register</a> to post comments</span></li>
+</ul></div>
+  </div>
+</div><a id="comment-14660"></a>
+<div class="comment comment-published odd">
+
+  <div class="clear-block">
+      <span class="submitted">Sat, 05/29/2010 - 02:19 — fantasia</span>
+  
+  
+  <div class="picture">
+  </div>
+
+    <h3><a href="/faq/how_to_create_epub#comment-14660" class="active">cure for migraine headache</a></h3>
+
+    <div class="content">
+      <p><a href="http://cure-for-migraine-headache.blogspot.com/">cure for migraine headache </a><br />
+<a href="http://checking-account-rates.blogspot.com/"> checking account rates  </a><br />
+<a href="http://affordable-health-insurancess.blogspot.com/"> affordable health insurance </a><br />
+<a href="http://chiropractic-practice.blogspot.com/"> electronic medical records  </a><br />
+<a href="http://kill-bedbugs.blogspot.com/">  kill bedbugs </a><br />
+<a href="http://china-adoptions.blogspot.com/"> china adoption </a><br />
+<a href="http://aetna-health-insurances.blogspot.com/"> aetna health insurance  </a><br />
+<a href="http://temporary-health-insurancess.blogspot.com/"> temporary health insurance </a><br />
+<a href="http://bahamas-vacationz.blogspot.com/"> bahamas vacation </a><br />
+<a href="http://cozumel-vacation.blogspot.com/">  cozumel vacations<br />
+<a href="http://disneyworld-vacationsz.blogspot.com/"> disneyworld vacations </a><br />
+<a href="http://st-lucia-vacations.blogspot.com/"> st lucia vacations  </a><br />
+<a href="http://european-vacationsz.blogspot.com/"> european vacations </a><br />
+<a href="http://business-spaces.blogspot.com/">  Business spaces </a><br />
+<a href="http://tax-attorney-new.blogspot.com/"> Tax Attorneys </a><br />
+<a href="http://maryland-asbestos-lawyers.blogspot.com/"> Maryland asbestos lawyers   </a><br />
+<a href="http://arizon-aduiattorney.blogspot.com/"> Arizona dui attorney   </a><br />
+<a href="http://office-space-rental.blogspot.com/"> Office space rental  </a><br />
+<a href="http://los-angelesduilawyers.blogspot.com/"> Los angeles dui lawyer </a><br />
+<a href="http://domain-name-purchases.blogspot.com/"> Available domain names </a><br />
+<a href="http://brazilian-laser-hair-removals.blogspot.com/"> brazilian laser hair removal  </a><br />
+<a href="http://hair-removal-in-chicago.blogspot.com/">  hair removal in chicago </a><br />
+<a href="http://laser-hair-removal-inchicago.blogspot.com/"> laser hair removal in chicago  </a><br />
+<a href="http://laser-hair-removalschool.blogspot.com/"> laser hair removal school  </a><br />
+<a href="http://painless-laser-hair-removal.blogspot.com/"> painless laser hair removal </a><br />
+<a href="http://permanent-hair-removal-chicago.blogspot.com/"> permanent hair removal chicago </a><br />
+<a href="http://second-mortgagesz.blogspot.com/"> second mortgages  </a><br />
+<a href="http://mesothelioma-informationsz.blogspot.com/"> mesothelioma information  </a><br />
+<a href="http://malignant-mesotheliomas.blogspot.com/"> malignant mesothelioma </a><br />
+<a href="http://no-doc-home-equityloans.blogspot.com/"> no doc home equity loans </a><br />
+<a href="http://vasectomy-reversals-new.blogspot.com/"> vasectomy reversal </a><br />
+<a href="http://nonprofit-debt-consolidations.blogspot.com/"> non profit debt consolidation </a><br />
+<a href="http://studentloan-consolidation-new.blogspot.com/"> student loan consolidation  </a><br />
+<a href="http://costforlaserhairremoval.blogspot.com/"> cost for laser hair removal  </a><br />
+<a href="http://darkskin-laserhair-removal.blogspot.com/"> dark skin laser hair removal </a><br />
+<a href="http://laserhair-removal-back.blogspot.com/"> laser hair removal back  </a><br />
+<a href="http://price-laser-hair-removal.blogspot.com/"> price laser hair removal   </a><br />
+<a href="http://laser-tattoo-removal-costs.blogspot.com/"> Laser tattoo removal cost </a><br />
+<a href="http://excision-tattoo-removal.blogspot.com/">  excision tattoo removal </a><br />
+<a href="http://lasertreatment-tattoo-removal.blogspot.com/"> laser treatment tattoo removal </a><br />
+<a href="http://duncraft-birdfeeders.blogspot.com/"> duncraftbirdfeeders <a> </a></a></a></p>
+          </div>
+  </div>
+
+      <div class="links"><ul class="links"><li class="comment_forbidden first last"><span><a href="/user/login?destination=comment/reply/218%2523comment-form">Login</a> or <a href="/user/register?destination=comment/reply/218%2523comment-form">register</a> to post comments</span></li>
+</ul></div>
+  </div>
+<div class="indented"><a id="comment-14682"></a>
+<div class="comment comment-published even">
+
+  <div class="clear-block">
+      <span class="submitted">Sat, 05/29/2010 - 23:18 — contractors103</span>
+  
+  
+  <div class="picture">
+  </div>
+
+    <h3><a href="/faq/how_to_create_epub#comment-14682" class="active">Re: Ebooks</a></h3>
+
+    <div class="content">
+      <p>Great Resources, thanks.<br />
+<a href="http://www.insurancebatonrouge.org/insure/Homeowners-Insurance-Companies-In-Louisiana.html"><br />
+Home Owners Insurance Companies Louisiana</a>, <a href="http://umbrellaroofingllc.com/houston-roofing-siding-contractors.html"><br />
+Houston Roofing Contractors</a>, <a href="http://www.bnc-contractors.com/roofs/Baton%20Rouge%20Roofing%20Company.html"><br />
+Baton Rouge Roofing Company</a>, <a href="http://fishcommander.com/louisiana-fishing.html">Louisiana Fishing</a></p>
+          </div>
+  </div>
+
+      <div class="links"><ul class="links"><li class="comment_forbidden first last"><span><a href="/user/login?destination=comment/reply/218%2523comment-form">Login</a> or <a href="/user/register?destination=comment/reply/218%2523comment-form">register</a> to post comments</span></li>
+</ul></div>
+  </div>
+</div><a id="comment-14652"></a>
+<div class="comment comment-published odd">
+
+  <div class="clear-block">
+      <span class="submitted">Fri, 05/28/2010 - 21:26 — manishk.mosaic</span>
+  
+  
+  <div class="picture">
+  </div>
+
+    <h3><a href="/faq/how_to_create_epub#comment-14652" class="active">Tony Ferguson Review : If you</a></h3>
+
+    <div class="content">
+      <p><a href="http://www.youtube.com/watch?v=6ha12jVpXvk">Tony Ferguson Review</a> : If you make unrealistic goals you will be setting yourself up for failure right from the word go.  Each day write down your progress and the problems you had.  Don't be too hard on yourself.  There will be days when you go backwards but keep pushing onwards to achieve your goals. SS</p>
+<p><a href="http://www.youtube.com/watch?v=BnucgVIDOc8">Tony Ferguson Weightloss</a> : Tony Ferguson Weight Loss Centers provide you with the support, structure and strategies you need so you can lose your weight quickly, easily and without hunger! SS</p>
+<p><a href="http://www.youtube.com/watch?v=LrQIo38coFo">Tony Ferguson Review</a>  |<a href="http://www.youtube.com/watch?v=7DVZNNlH9_w" rel="dofollow">Tony Ferguson Weightloss</a> | <a href="http://www.youtube.com/watch?v=BcmWlMak7xE" rel="dofollow">Tony Ferguson Review</a></p>
+<p><a href="http://www.youtube.com/watch?v=BcmWlMak7xE">Tony Ferguson Review</a> : When you are reading magazines that show pictures of rich, creamy desserts (and other bad foods) remind yourself that these foods are revolting and so unhealthy.  Psyche yourself into believing that these unhealthy foods are not for you. SS</p>
+          </div>
+  </div>
+
+      <div class="links"><ul class="links"><li class="comment_forbidden first last"><span><a href="/user/login?destination=comment/reply/218%2523comment-form">Login</a> or <a href="/user/register?destination=comment/reply/218%2523comment-form">register</a> to post comments</span></li>
+</ul></div>
+  </div>
+<a id="comment-14650"></a>
+<div class="comment comment-published even">
+
+  <div class="clear-block">
+      <span class="submitted">Fri, 05/28/2010 - 20:36 — Revanth18</span>
+  
+  
+  <div class="picture">
+  </div>
+
+    <h3><a href="/faq/how_to_create_epub#comment-14650" class="active">Too many people try to</a></h3>
+
+    <div class="content">
+      <p>Too many people try to comment over here!</p>
+<p><a href="http://www.steamcleanerreviewss.com" />Steam Cleaner Reviews</a><br />
+<a href="http://www.kitchenfloormatss.com" />Kitchen Floor Mats</a></p>
+          </div>
+  </div>
+
+      <div class="links"><ul class="links"><li class="comment_forbidden first last"><span><a href="/user/login?destination=comment/reply/218%2523comment-form">Login</a> or <a href="/user/register?destination=comment/reply/218%2523comment-form">register</a> to post comments</span></li>
+</ul></div>
+  </div>
+<div class="indented"><a id="comment-15021"></a>
+<div class="comment comment-published odd">
+
+  <div class="clear-block">
+      <span class="submitted">Sat, 06/05/2010 - 19:31 — ardh</span>
+  
+  
+  <div class="picture">
+  </div>
+
+    <h3><a href="/faq/how_to_create_epub#comment-15021" class="active">Simple</a></h3>
+
+    <div class="content">
+      <p>That's simply. You can use computer.hehe<br />
+Hardwood Floor Vacuum|Training Resources</p>
+          </div>
+  </div>
+
+      <div class="links"><ul class="links"><li class="comment_forbidden first last"><span><a href="/user/login?destination=comment/reply/218%2523comment-form">Login</a> or <a href="/user/register?destination=comment/reply/218%2523comment-form">register</a> to post comments</span></li>
+</ul></div>
+  </div>
+</div><a id="comment-14647"></a>
+<div class="comment comment-published even">
+
+  <div class="clear-block">
+      <span class="submitted">Fri, 05/28/2010 - 16:12 — mellystones</span>
+  
+  
+  <div class="picture">
+  </div>
+
+    <h3><a href="/faq/how_to_create_epub#comment-14647" class="active">The native format for Stanza</a></h3>
+
+    <div class="content">
+      <p>The native format for Stanza is ePub, which is the Open eBook standard. Then you can parse everything in a <a href="http://www.cladgenius.com">craigslist software</a>.</p>
+<p>Melly</p>
+          </div>
+  </div>
+
+      <div class="links"><ul class="links"><li class="comment_forbidden first last"><span><a href="/user/login?destination=comment/reply/218%2523comment-form">Login</a> or <a href="/user/register?destination=comment/reply/218%2523comment-form">register</a> to post comments</span></li>
+</ul></div>
+  </div>
+<a id="comment-14638"></a>
+<div class="comment comment-published odd">
+
+  <div class="clear-block">
+      <span class="submitted">Fri, 05/28/2010 - 05:34 — youssef mzaoui</span>
+  
+  
+  <div class="picture">
+  </div>
+
+    <h3><a href="/faq/how_to_create_epub#comment-14638" class="active">NEW</a></h3>
+
+    <div class="content">
+      <p>Very interesting post - I'm definitely going to bookmark you! Thank you for your Story<br />
+selkblog<br />
+selkblog Search Engine<br />
+Mesothelioma Lawyers San Diego<br />
+houston mesothelioma lawyers<br />
+mesothelioma lawyers houston<br />
+malignant mesothelioma pleural rate survival<br />
+delaware mesothelioma lawyers<br />
+asbestos attorney illinois<br />
+mesothelioma attorneys los angeles</p>
+          </div>
+  </div>
+
+      <div class="links"><ul class="links"><li class="comment_forbidden first last"><span><a href="/user/login?destination=comment/reply/218%2523comment-form">Login</a> or <a href="/user/register?destination=comment/reply/218%2523comment-form">register</a> to post comments</span></li>
+</ul></div>
+  </div>
+<a id="comment-14628"></a>
+<div class="comment comment-published even">
+
+  <div class="clear-block">
+      <span class="submitted">Fri, 05/28/2010 - 03:27 — uu2299</span>
+  
+  
+  <div class="picture">
+  </div>
+
+    <h3><a href="/faq/how_to_create_epub#comment-14628" class="active">do you realize about the Wood</a></h3>
+
+    <div class="content">
+      <p>do you realize about the <a href="http://www.wooddoorschina.com">Wood door</a>, there of lof of <a href="http://www.wooddoorschina.com">China door</a> supplier they could offer you different form of <a href="http://www.wooddoorschina.com">MDF Door</a>, <a href="http://www.wooddoorschina.com">Mahogany door</a>, <a href="http://www.wooddoorschina.com">Oak door</a> and <a href="http://www.wooddoorschina.com">Alder door</a>. Have you actually test to buy <a title="wooden front door" href="http://www.wooddoorschina.com/tag/wooden-front-door">wooden front door</a> on the internet from any <a title="exterior wood door" href="http://www.wooddoorschina.com/tag/exterior-wood-door">exterior wood door</a> internet site? I'm suggesting you just go look at some <a href="http://www.wooddoorschina.com/type/wood-door.html">hardwood exterior door</a> store on the web, there would be some very best <a href="http://www.wooddoorschina.com/type/pvc-door.html">China Pvc door</a> and <a href="http://www.wooddoorschina.com/type/steel-door.html">China steel door</a> for the <a href="http://www.gazelle-edge.com">gazelle edge</a> selection.<br />
+More you would be interesting in: <a href="http://www.fashion4girl.net/">fashion for girls</a>,<a href="http://www.reynascookware.com/">best cookware reviews</a>,<a href="http://www.ellipticalsandtreadmills.com/">brand treadmill reviews</a>,<a href="http://www.cartierjewelryshop.net/">Cartier Jewelry</a>,<a href="http://www.usatiffanyjewelry.com/">tiffany jewelry</a>,<a href="http://www.uslinksoflondon.com/">links of london</a></p>
+          </div>
+  </div>
+
+      <div class="links"><ul class="links"><li class="comment_forbidden first last"><span><a href="/user/login?destination=comment/reply/218%2523comment-form">Login</a> or <a href="/user/register?destination=comment/reply/218%2523comment-form">register</a> to post comments</span></li>
+</ul></div>
+  </div>
+<a id="comment-14627"></a>
+<div class="comment comment-published odd">
+
+  <div class="clear-block">
+      <span class="submitted">Fri, 05/28/2010 - 03:26 — uu2299</span>
+  
+  
+  <div class="picture">
+  </div>
+
+    <h3><a href="/faq/how_to_create_epub#comment-14627" class="active">All of us adore to decorate</a></h3>
+
+    <div class="content">
+      <p>All of us adore to decorate and arrange our <a href="http://www.home-appliance-part.com/">Home appliances spare part</a> issues in your own home. We invest in unique ornaments <a href="http://www.home-appliance-part.com/">Home appliances replacement accessories</a> to generate our <a href="http://www.home-appliance-part.com/">Home appliances replace part</a> house additional lovely and <a href="http://www.home-appliance-part.com/">Home appliances accessories</a> beautiful for our prospects. Not simply that, we even invest in diverse household home equipment that individuals require <a href="http://www.home-appliance-part.com/">kitchen appliances parts</a> and <a href="http://www.home-appliance-part.com/">kitchen appliances repair parts</a> those people that individuals just prefer to screen. But then <a href="http://www.home-appliance-part.com/">kitchen appliances spare parts</a>, you can find occasions that sense lazy <a href="http://www.home-appliance-part.com/type/refrigerator-parts.html">Refrigerator spare parts</a> to thoroughly clean the devices we now have and we hardly had time to retain a few of our household home equipment. This can be not excellent due to the fact our <a href="http://www.home-appliance-part.com/type/refrigerator-parts.html">freezer accessories</a> appliance can possibly <a href="http://www.home-appliance-part.com/subtype/refrigerator-timer.html">Refrigerator timers</a> be ruined, seem aged or can even trigger accident if <a href="http://www.home-appliance-part.com/subtype/refrigerator-compres.html">Refrigerator compressor</a> not effectively maintained.<a href="http://www.home-appliance-part.com/subtype/refrigerator-protect.html">refrigerator overload protector</a> Keeping your house home equipment is <a href="http://www.home-appliance-part.com/subtype/shaded-pole-motors.html">ac shaded pole motor</a> effortless if <a href="http://www.home-appliance-part.com/subtype/shaded-pole-motors.html">Shaded pole motor</a> you realize the easy points that ought to be completed to make sure that the residence home appliances are in <a href="http://www.home-appliance-part.com/type/washing-machine-part.html">Washing machine spare parts</a> excellent operating issue and may final for the lifetime. Thus waht a lot more you may need of home appliance is <a href="http://www.home-appliance-part.com/subtype/washing-machine-timer.html">Washing machine timer</a> <a href="http://www.home-appliance-part.com/subtype/washing-machine-speed-reducer.html">Washing machine speed reducer</a> <a href="http://www.home-appliance-part.com/subtype/washing-machine-motor.html">washing machine motors</a> <a href="http://www.home-appliance-part.com/subtype/washing-machine-pulsator.html">washing machine pulsators</a> <a href="http://www.gazelle-edge.com">gazelle edge</a><br />
+More you would be interesting in: <a href="http://www.fashion4girl.net/">fashion for girls</a>,<a href="http://www.reynascookware.com/">best cookware reviews</a>,<a href="http://www.ellipticalsandtreadmills.com/">brand treadmill reviews</a>,<a href="http://www.cartierjewelryshop.net/">Cartier Jewelry</a>,<a href="http://www.usatiffanyjewelry.com/">tiffany jewelry</a>,<a href="http://www.uslinksoflondon.com/">links of london</a></p>
+          </div>
+  </div>
+
+      <div class="links"><ul class="links"><li class="comment_forbidden first last"><span><a href="/user/login?destination=comment/reply/218%2523comment-form">Login</a> or <a href="/user/register?destination=comment/reply/218%2523comment-form">register</a> to post comments</span></li>
+</ul></div>
+  </div>
+<a id="comment-14626"></a>
+<div class="comment comment-published even">
+
+  <div class="clear-block">
+      <span class="submitted">Fri, 05/28/2010 - 03:26 — uu2299</span>
+  
+  
+  <div class="picture">
+  </div>
+
+    <h3><a href="/faq/how_to_create_epub#comment-14626" class="active">Ab coaster item is every day</a></h3>
+
+    <div class="content">
+      <p><a href="http://www.fitness-ab.com/">Ab coaster</a> item is every day <a href="http://www.fitness-ab.com/">magnetic bike</a> conditioning products for the majority of <a href="http://www.fitness-ab.com/">Elliptical cross trainer</a> men and women, the <a href="http://www.fitness-ab.com/">Ab king</a> can guide to your <a href="http://www.fitness-ab.com/">fit massage</a> system, additionally you can even invest in some <a href="http://www.fitness-ab.com/">Ab equipment</a>,<a href="http://www.fitness-ab.com/">exercise bike</a>,<a href="http://www.fitness-ab.com/type/ab-machine.html">Ab physical exercise machine</a> or <a href="http://www.fitness-ab.com/subtype/ab-coaster.html">Ab coaster as viewed on tv</a> and <a href="http://www.fitness-ab.com/subtype/Ab-flyer.html">Ab flyer</a>, <a href="http://www.fitness-ab.com/subtype/ab-chair.html">Ab chair</a> also assist. To import the <a href="http://www.fitness-ab.com/subtype/Ab-king.html">ab king chair</a> product or service on the web is usually a quick way for <a href="http://www.fitness-ab.com/subtype/total-core.html">Total core</a> organization, you could find the <a href="http://www.fitness-ab.com/subtype/ab-bench.html">Ab bench</a>, <a href="http://www.fitness-ab.com/subtype/ab-roller.html">Ab roller</a>, and <a href="http://www.fitness-ab.com/subtype/p90x-bar.html">P90x bar</a> quickly by your self.<br />
+The far more right now you will find through the overseas region:<br />
+<a href="http://www.fitness-ab.com/subtype/Inversion-table.html">Inversion table</a><br />
+<a href="http://www.fitness-ab.com/subtype/leg-magic.html">Leg Magic</a><br />
+<a href="http://www.fitness-ab.com/subtype/sit-up-bench.html">Fitness Sit Up Bench</a><br />
+<a href="http://www.fitness-ab.com/subtype/ab-power.html">Ab power</a><br />
+<a href="http://www.fitness-ab.com/subtype/AB-shaper.html">Ab shaper</a><br />
+<a href="http://www.fitness-ab.com/subtype/ab-slider.html">Ab slider</a><br />
+<a href="http://www.fitness-ab.com/type/fit-massage.html">Fit massage</a><br />
+<a href="http://www.fitness-ab.com/subtype/crazy-fit-massage.html">Crazy suit massages</a><br />
+<a href="http://www.fitness-ab.com/subtype/vibration-plate.html">Vibration Plate</a><br />
+<a href="http://www.fitness-ab.com/subtype/butterfly-fit-massag.html">Butterfly suit massager</a><br />
+<a href="http://www.fitness-ab.com/type/exercise-bike.html">upright exercising bikes</a><br />
+<a href="http://www.fitness-ab.com/type/exercise-bike.html">ergometer physical exercise bike</a><br />
+<a href="http://www.fitness-ab.com/subtype/exercise-bike.html">elliptical coach workout bike</a><br />
+<a href="http://www.fitness-ab.com/subtype/exercise-bike.html">cross coach exercising bikes</a><br />
+<a href="http://www.fitness-ab.com/subtype/spin-bike.html">Spin bike</a><br />
+<a href="http://www.fitness-ab.com/subtype/spin-bike.html">spinning bikes</a><br />
+<a href="http://www.fitness-ab.com/subtype/elliptical-trainer.html">elliptical trainer</a><br />
+<a href="http://www.fitness-ab.com/type/stepper.html">mini stepper</a><br />
+<a href="http://www.fitness-ab.com/type/stepper.html">side stepper</a><br />
+<a href="http://www.fitness-ab.com/type/stepper.html">balance stepper</a><br />
+<a href="http://www.fitness-ab.com/type/stepper.html">twist stepper</a><br />
+<a href="http://www.fitness-ab.com/type/stepper.html">shape stepper</a><br />
+<a href="http://www.gazelle-edge.com">gazelle edge</a><br />
+More you would be interesting in: <a href="http://www.fashion4girl.net/">fashion for girls</a>,<a href="http://www.reynascookware.com/">best cookware reviews</a>,<a href="http://www.ellipticalsandtreadmills.com/">brand treadmill reviews</a>,<a href="http://www.cartierjewelryshop.net/">Cartier Jewelry</a>,<a href="http://www.usatiffanyjewelry.com/">tiffany jewelry</a>,<a href="http://www.uslinksoflondon.com/">links of london</a></p>
+          </div>
+  </div>
+
+      <div class="links"><ul class="links"><li class="comment_forbidden first last"><span><a href="/user/login?destination=comment/reply/218%2523comment-form">Login</a> or <a href="/user/register?destination=comment/reply/218%2523comment-form">register</a> to post comments</span></li>
+</ul></div>
+  </div>
+<a id="comment-14625"></a>
+<div class="comment comment-published odd">
+
+  <div class="clear-block">
+      <span class="submitted">Fri, 05/28/2010 - 03:25 — uu2299</span>
+  
+  
+  <div class="picture">
+  </div>
+
+    <h3><a href="/faq/how_to_create_epub#comment-14625" class="active">A garden machine supplier can</a></h3>
+
+    <div class="content">
+      <p>A <a href="http://www.bsgardenmachine.com/">garden machine</a> supplier can deliver men and women a lot of sorts of <a href="http://www.bsgardenmachine.com/">Garden electricity tools</a>, <a href="http://www.bsgardenmachine.com/">Hedge Trimmer</a>, <a href="http://www.bsgardenmachine.com/subtype/brush-cutter.html">Garden Brush Cutter</a> and <a href="http://www.bsgardenmachine.com/subtype/hedge-trimmer.html">electric hedge trimmer</a>, pay a visit to this <a href="http://www.bsgardenmachine.com/type/gerden-machine.html">garden energy tools</a> internet site you can know what sort of <a href="http://www.bsgardenmachine.com/subtype/gasoline-chain-saw.html">gasoline chain saw</a> you would like for, could possibly be you or your pal require some <a href="http://www.bsgardenmachine.com/subtype/high-pressure-cleane.html">high stress drinking water cleaner</a> and <a href="http://www.bsgardenmachine.com/subtype/concrete-vibrator.html">cordless concrete vibrator</a>, that can be an awesome <a href="http://www.bsgardenmachine.com/subtype/earth-augers.html">power earth auger</a> location for ordering <a href="http://www.bsgardenmachine.com/subtype/water-pumps.html">water pump parts</a> <a href="http://www.bsgardenmachine.com/type/other-machine.html">China Energy tools</a> and <a href="http://www.bsgardenmachine.com/subtype/generator.html">diesel generators China</a>. You'll find a lof of <a href="http://www.bsgardenmachine.com/subtype/diesel-engine.html">diesel engine parts</a>, <a href="http://www.bsgardenmachine.com/subtype/generator.html">industrial generators</a> for the <a href="http://www.bsgardenmachine.com/subtype/generator.html">power generators</a> choise, you possibly can invest in <a href="http://www.bsgardenmachine.com/">Gardening Energy Tools</a>, <a href="http://www.bsgardenmachine.com/subtype/brush-cutter.html">Garden Brush Cutter</a> from our <a href="http://www.bsgardenmachine.com/subtype/gasoline-chain-saw.html">gasoline chainsaw</a> <a href="http://www.gazelle-edge.com">gazelle edge</a> site. More you would be interesting in: <a href="http://www.fashion4girl.net/">fashion for girls</a>,<a href="http://www.reynascookware.com/">best cookware reviews</a>,<a href="http://www.ellipticalsandtreadmills.com/">brand treadmill reviews</a>,<a href="http://www.cartierjewelryshop.net/">Cartier Jewelry</a>,<a href="http://www.usatiffanyjewelry.com/">tiffany jewelry</a>,<a href="http://www.uslinksoflondon.com/">links of london</a></p>
+          </div>
+  </div>
+
+      <div class="links"><ul class="links"><li class="comment_forbidden first last"><span><a href="/user/login?destination=comment/reply/218%2523comment-form">Login</a> or <a href="/user/register?destination=comment/reply/218%2523comment-form">register</a> to post comments</span></li>
+</ul></div>
+  </div>
+<a id="comment-14624"></a>
+<div class="comment comment-published even">
+
+  <div class="clear-block">
+      <span class="submitted">Fri, 05/28/2010 - 03:25 — uu2299</span>
+  
+  
+  <div class="picture">
+  </div>
+
+    <h3><a href="/faq/how_to_create_epub#comment-14624" class="active">To locate a fine Home</a></h3>
+
+    <div class="content">
+      <p>To locate a fine <a href="http://www.treadmills-equipment.com">Home Gymnasium equipment</a> factory, you could have to uncover their <a href="http://www.treadmills-equipment.com">treadmill jogging machine</a> selling price and <a href="http://www.treadmills-equipment.com/home-treadmill.html">Home treadmill</a> excellent, this <a href="http://www.treadmills-equipment.com/commercial-treadmill.html">Commercial treadmill</a> supplier is supply far more sort of <a href="http://www.treadmills-equipment.com">running machine</a> for example <a href="http://www.treadmills-equipment.com/treadmill-equipment.html">Treadmill equipment</a>, <a href="http://www.treadmills-equipment.com">fitness treadmill</a> <a href="http://www.treadmills-equipment.com/treadmill-machine.html">treadmill machine</a> <a href="http://www.treadmills-equipment.com/Electrical-treadmill.html">Electric treadmill</a>, and some much more <a href="http://www.treadmills-equipment.com/motorized-treadmill.html">motorized treadmill</a> you'd like just like <a href="http://www.treadmills-equipment.com/exercise-treadmill.html">exercise treadmill</a> <a href="http://www.treadmills-equipment.com/foldable-treadmills.html">folding treadmill</a> and <a href="http://www.treadmills-equipment.com/running-machine.html">running machine</a> .Let you know good friends about this great top quality <a href="http://www.treadmills-equipment.com/homegymequipment.html">home gym</a> maker <a href="http://www.gazelle-edge.com">gazelle edge</a> now! More you would be interesting in: <a href="http://www.fashion4girl.net/">fashion for girls</a>,<a href="http://www.reynascookware.com/">best cookware reviews</a>,<a href="http://www.ellipticalsandtreadmills.com/">brand treadmill reviews</a>,<a href="http://www.cartierjewelryshop.net/">Cartier Jewelry</a>,<a href="http://www.usatiffanyjewelry.com/">tiffany jewelry</a>,<a href="http://www.uslinksoflondon.com/">links of london</a></p>
+          </div>
+  </div>
+
+      <div class="links"><ul class="links"><li class="comment_forbidden first last"><span><a href="/user/login?destination=comment/reply/218%2523comment-form">Login</a> or <a href="/user/register?destination=comment/reply/218%2523comment-form">register</a> to post comments</span></li>
+</ul></div>
+  </div>
+<a id="comment-14623"></a>
+<div class="comment comment-published odd">
+
+  <div class="clear-block">
+      <span class="submitted">Fri, 05/28/2010 - 01:49 — pmk2020</span>
+  
+  
+  <div class="picture">
+  </div>
+
+    <h3><a href="/faq/how_to_create_epub#comment-14623" class="active">how to lose belly fat</a></h3>
+
+    <div class="content">
+      <p>nice sharing !!!thanks good list<br />
+<a href="http://aerosrilanka.com">free communication asia</a><br />
+<a href="http://mailprasad.info">make money online </a><br />
+<a href="http://lose-belly-fat.eproductstore.info/">how to lose belly fat </a></p>
+          </div>
+  </div>
+
+      <div class="links"><ul class="links"><li class="comment_forbidden first last"><span><a href="/user/login?destination=comment/reply/218%2523comment-form">Login</a> or <a href="/user/register?destination=comment/reply/218%2523comment-form">register</a> to post comments</span></li>
+</ul></div>
+  </div>
+<a id="comment-14622"></a>
+<div class="comment comment-published even">
+
+  <div class="clear-block">
+      <span class="submitted">Fri, 05/28/2010 - 01:05 — tomz</span>
+  
+  
+  <div class="picture">
+  </div>
+
+    <h3><a href="/faq/how_to_create_epub#comment-14622" class="active">Nice tips.. worth to try,</a></h3>
+
+    <div class="content">
+      <p>Nice tips.. worth to try, thanks<br />
+--------------<br />
+<a href="http://veesmartphone.com">Smartphone Review</a></p>
+          </div>
+  </div>
+
+      <div class="links"><ul class="links"><li class="comment_forbidden first last"><span><a href="/user/login?destination=comment/reply/218%2523comment-form">Login</a> or <a href="/user/register?destination=comment/reply/218%2523comment-form">register</a> to post comments</span></li>
+</ul></div>
+  </div>
+<a id="comment-14600"></a>
+<div class="comment comment-published odd">
+
+  <div class="clear-block">
+      <span class="submitted">Wed, 05/26/2010 - 23:08 — xavier</span>
+  
+  
+  <div class="picture">
+  </div>
+
+    <h3><a href="/faq/how_to_create_epub#comment-14600" class="active">Cool Site!</a></h3>
+
+    <div class="content">
+      <p>i read your post was helpful to me..!<br />
+<a href="http://www.peat.com/">Waste To Energy</a></p>
+          </div>
+  </div>
+
+      <div class="links"><ul class="links"><li class="comment_forbidden first last"><span><a href="/user/login?destination=comment/reply/218%2523comment-form">Login</a> or <a href="/user/register?destination=comment/reply/218%2523comment-form">register</a> to post comments</span></li>
+</ul></div>
+  </div>
+<a id="comment-14594"></a>
+<div class="comment comment-published even">
+
+  <div class="clear-block">
+      <span class="submitted">Wed, 05/26/2010 - 10:06 — zeebra1</span>
+  
+  
+  <div class="picture">
+  </div>
+
+    <h3><a href="/faq/how_to_create_epub#comment-14594" class="active">Second Directory Best Online Directory </a></h3>
+
+    <div class="content">
+      <p><a href="www.seconddirectory.com">Second directory </a> is the best online free directory that having the list of all international high quality websites in suitable different categories.</p>
+          </div>
+  </div>
+
+      <div class="links"><ul class="links"><li class="comment_forbidden first last"><span><a href="/user/login?destination=comment/reply/218%2523comment-form">Login</a> or <a href="/user/register?destination=comment/reply/218%2523comment-form">register</a> to post comments</span></li>
+</ul></div>
+  </div>
+<div class="indented"><a id="comment-14595"></a>
+<div class="comment comment-published odd">
+
+  <div class="clear-block">
+      <span class="submitted">Wed, 05/26/2010 - 14:21 — reenasanam</span>
+  
+  
+  <div class="picture">
+  </div>
+
+    <h3><a href="/faq/how_to_create_epub#comment-14595" class="active">Sana Seo Company is a</a></h3>
+
+    <div class="content">
+      <p>Sana Seo Company is a <a href="http://www.sana-seo.com/">Professional SEO Company</a> where the web clients follow the widespread economizing from the Search Engine Optimization (SEO). amalgamation with us, make an ease-path to the intense interchange that is really caused to the business successions. We can terminate your services to the ROI growth of marvelous maturations; devise your website completely surrender in the World Wide Web. <a href="http://www.sana-seo.com/">Professional SEO Company</a> Sana SEO Company India New Delhi India (alibag Mumbai), providing Professional SEO Services, Link Building,  sana Web Designing India and content writing services. SEO Company India with fully Professional SEO Experts.</p>
+<p><a href="http://professionalseoservices.50webs.com/seo.html">SEO Company India</a> provides SEO Services in India . It's headquartered in Delhi , specialising in us and uk markets. It also provides search engine engine optimization for Indian companies. We take care of any translation, then our SEO will get you there. Rent the most profitable place for your business: top rankings, be it through our web marketing or through our SEO in India. SEO India a Path of The high standing of SEO segment in India is a hefty credit for SEO Company India.This reliable and authentic company <a href="http://professionalseoservices.50webs.com/seo.html">SEO Company India</a> shows its skills specially in India as there are numbers of client at India. India is also one of the centre where SEO Company India intends its service hands.</p>
+<p><a href="http://www.sana-seo-solution.50webs.com/">SEO Company Delhi</a></p>
+<p><a href="http://www.loan-mortage.50webs.com/">mortgage payment calculator</a></p>
+          </div>
+  </div>
+
+      <div class="links"><ul class="links"><li class="comment_forbidden first last"><span><a href="/user/login?destination=comment/reply/218%2523comment-form">Login</a> or <a href="/user/register?destination=comment/reply/218%2523comment-form">register</a> to post comments</span></li>
+</ul></div>
+  </div>
+</div><a id="comment-14591"></a>
+<div class="comment comment-published even">
+
+  <div class="clear-block">
+      <span class="submitted">Wed, 05/26/2010 - 08:45 — spyteen</span>
+  
+  
+  <div class="picture">
+  </div>
+
+    <h3><a href="/faq/how_to_create_epub#comment-14591" class="active">w3c web 2.0</a></h3>
+
+    <div class="content">
+      <p>my web pass w3c strict xhtml 1.0</p>
+<p><a href="http://www.sytes.in.th">แหล่งรวมออนไลน์</a><br />
+<a href="http://www.sytes.in.th/home">แบบบ้านสวย</a><br />
+<a href="http://www.sytes.in.th/submit">โปรโมทเว็บ</a><br />
+<a href="http://www.sytes.in.th/market">ตลาด</a><br />
+<a href="http://www.sytes.in.th/gameonline">เกมส์</a><br />
+<a href="http://www.sytes.in.th/tvonline">ดูทีวีออนไลน์</a></p>
+          </div>
+  </div>
+
+      <div class="links"><ul class="links"><li class="comment_forbidden first last"><span><a href="/user/login?destination=comment/reply/218%2523comment-form">Login</a> or <a href="/user/register?destination=comment/reply/218%2523comment-form">register</a> to post comments</span></li>
+</ul></div>
+  </div>
+<a id="comment-14579"></a>
+<div class="comment comment-published odd">
+
+  <div class="clear-block">
+      <span class="submitted">Wed, 05/26/2010 - 00:51 — imzie</span>
+  
+  
+  <div class="picture">
+  </div>
+
+    <h3><a href="/faq/how_to_create_epub#comment-14579" class="active">The Dallas Dwi Lawyers</a></h3>
+
+    <div class="content">
+      <p>thank you... for information --<br />
+<a href="http://www.the-dallas-dwi-lawyers.com/">dallas dwi lawyers come here</a></p>
+          </div>
+  </div>
+
+      <div class="links"><ul class="links"><li class="comment_forbidden first last"><span><a href="/user/login?destination=comment/reply/218%2523comment-form">Login</a> or <a href="/user/register?destination=comment/reply/218%2523comment-form">register</a> to post comments</span></li>
+</ul></div>
+  </div>
+<a id="comment-14562"></a>
+<div class="comment comment-published even">
+
+  <div class="clear-block">
+      <span class="submitted">Mon, 05/24/2010 - 09:48 — zeebra1</span>
+  
+  
+  <div class="picture">
+  </div>
+
+    <h3><a href="/faq/how_to_create_epub#comment-14562" class="active">Businees Cards In Affordable Rates</a></h3>
+
+    <div class="content">
+      <p><a href="http://www.printox.com">business cards</a> are cards bearing business information  about a company  or individual. They are shared during formal introductions as a convenience and a memory aid.<br />
+Affordable Rates <a href="http://www.printox.com">business cards</a></p>
+          </div>
+  </div>
+
+      <div class="links"><ul class="links"><li class="comment_forbidden first last"><span><a href="/user/login?destination=comment/reply/218%2523comment-form">Login</a> or <a href="/user/register?destination=comment/reply/218%2523comment-form">register</a> to post comments</span></li>
+</ul></div>
+  </div>
+<a id="comment-14559"></a>
+<div class="comment comment-published odd">
+
+  <div class="clear-block">
+      <span class="submitted">Mon, 05/24/2010 - 04:24 — moris.green</span>
+  
+  
+  <div class="picture">
+  </div>
+
+    <h3><a href="/faq/how_to_create_epub#comment-14559" class="active">Kindly check</a></h3>
+
+    <div class="content">
+      <p>Kindly check http://www.oleole.com/football-results/ls.asp for live scores and keep yourself updated about World Cup</p>
+          </div>
+  </div>
+
+      <div class="links"><ul class="links"><li class="comment_forbidden first last"><span><a href="/user/login?destination=comment/reply/218%2523comment-form">Login</a> or <a href="/user/register?destination=comment/reply/218%2523comment-form">register</a> to post comments</span></li>
+</ul></div>
+  </div>
+<a id="comment-14558"></a>
+<div class="comment comment-published even">
+
+  <div class="clear-block">
+      <span class="submitted">Mon, 05/24/2010 - 04:22 — moris.green</span>
+  
+  
+  <div class="picture">
+  </div>
+
+    <h3><a href="/faq/how_to_create_epub#comment-14558" class="active">Re: Epub file creation </a></h3>
+
+    <div class="content">
+      <p>Thanks for sharing tutorial of creation of epub file from Book . I may need it later.<br />
+Check Live Scores</p>
+          </div>
+  </div>
+
+      <div class="links"><ul class="links"><li class="comment_forbidden first last"><span><a href="/user/login?destination=comment/reply/218%2523comment-form">Login</a> or <a href="/user/register?destination=comment/reply/218%2523comment-form">register</a> to post comments</span></li>
+</ul></div>
+  </div>
+<a id="comment-14548"></a>
+<div class="comment comment-published odd">
+
+  <div class="clear-block">
+      <span class="submitted">Sun, 05/23/2010 - 10:04 — zeebra1</span>
+  
+  
+  <div class="picture">
+  </div>
+
+    <h3><a href="/faq/how_to_create_epub#comment-14548" class="active">Restaurant supply and restaurant equipment</a></h3>
+
+    <div class="content">
+      <p><a href="http://www.roundeyesupply.com">Restaurant Supply</a> Restaurant Equipment offers restaurant supply including range, ice maker, broiler, microwave, refrigerator and grill. Restaurant Equipment offers restaurant supply from most major brand name appliance manufacturers. Restaurant supply is available at cost effective pricing. Cresco Resco is known worldwide as a quality hotel restaurant supply store with six convenient locations.</p>
+          </div>
+  </div>
+
+      <div class="links"><ul class="links"><li class="comment_forbidden first last"><span><a href="/user/login?destination=comment/reply/218%2523comment-form">Login</a> or <a href="/user/register?destination=comment/reply/218%2523comment-form">register</a> to post comments</span></li>
+</ul></div>
+  </div>
+<div class="indented"><a id="comment-14554"></a>
+<div class="comment comment-published even">
+
+  <div class="clear-block">
+      <span class="submitted">Mon, 05/24/2010 - 01:00 — sit2006</span>
+  
+  
+  <div class="picture">
+  <img src="http://www.lexcycle.com/sites/default/files/pictures/picture-37859.jpg" alt="sit2006&#039;s picture" title="sit2006&#039;s picture"  /></div>
+
+    <h3><a href="/faq/how_to_create_epub#comment-14554" class="active">That have many e-book</a></h3>
+
+    <div class="content">
+      <p>but I very like ebook from adobe acrobat at <a href="http://un55c8000.net" target="_blank">samsung un55c8000</a><br />
+<a href="http://samsung-LN46C630.net" target="_blank">samsung LN46C630</a><br />
+<a href="http://samsungLN40C630.org" target="_blank">samsung LN40C630</a><br />
+<a href="http://samsung-LN46C650.com" target="_blank">samsung LN46C650</a></p>
+          </div>
+  </div>
+
+      <div class="links"><ul class="links"><li class="comment_forbidden first last"><span><a href="/user/login?destination=comment/reply/218%2523comment-form">Login</a> or <a href="/user/register?destination=comment/reply/218%2523comment-form">register</a> to post comments</span></li>
+</ul></div>
+  </div>
+</div><div class="item-list"><ul class="pager"><li class="pager-current first">1</li>
+<li class="pager-item"><a href="/faq/how_to_create_epub?page=1" title="Go to page 2" class="active">2</a></li>
+<li class="pager-item"><a href="/faq/how_to_create_epub?page=2" title="Go to page 3" class="active">3</a></li>
+<li class="pager-next"><a href="/faq/how_to_create_epub?page=1" title="Go to next page" class="active">next ›</a></li>
+<li class="pager-last last"><a href="/faq/how_to_create_epub?page=2" title="Go to last page" class="active">last »</a></li>
+</ul></div></div><div id="block-faq-0" class="clear-block block block-faq">
+
+  <h2>FAQ Categories</h2>
+
+  <div class="content"><div class="item-list"><ul><li class="first"><a href="/faq/3">Stanza iPhone/iPod Touch</a></li>
+<li><a href="/faq/4">Stanza Desktop</a></li>
+<li><a href="/faq/6">Troubleshooting</a></li>
+<li><a href="/faq/fictionwise">Fictionwise and eReader</a></li>
+<li><a href="/faq/2">Content</a></li>
+<li><a href="/faq/5">General</a></li>
+<li><a href="/faq/7">Developers</a></li>
+<li class="last"><a href="/faq/782">bonjour error incompatible</a></li>
+</ul></div></div>
+</div>
+          </div>
+                    <div id="footer"><div id="block-block-2" class="clear-block block block-block">
+
+
+  <div class="content"><p><a href="/about" title="About Us">About Us</a> | <a href="/sitemap" title="Site Map">Site Map</a> | <a href="/rss" title="RSS Feeds">RSS Feeds</a> | <a href="/pr" title="Media Info">Media Info</a> | <a href="/legal" title="Terms of Use">Terms of Use</a> | <a href="/privacy" title="Privacy Policy">Privacy Policy</a><br />
+<span style="vertical-align: middle;">Copyright &copy; 2009 Lexcycle, Inc. All rights reserved.</span> <img src="/sites/default/files/images/logo16x16.png" alt="Lexcycle logo" /></p>
+</div>
+</div>
+<div id="block-block-1" class="clear-block block block-block">
+
+
+  <div class="content"><script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script><script type="text/javascript">
+var pageTracker = _gat._getTracker("UA-1940143-2");
+pageTracker._trackPageview();
+</script></div>
+</div>
+<div id="block-block-12" class="clear-block block block-block">
+
+
+  <div class="content"><script type="text/javascript">
+_qoptions={
+qacct:"p-3fwFlbUsusaSw"
+};
+</script>
+<script type="text/javascript" src="http://edge.quantserve.com/quant.js"></script>
+<noscript>
+<a href="http://www.quantcast.com/p-3fwFlbUsusaSw" target="_blank"><img src="http://pixel.quantserve.com/pixel/p-3fwFlbUsusaSw.gif" style="display: none;" border="0" height="1" width="1" alt="Quantcast"/></a>
+</noscript></div>
+</div>
+</div>
+      </div></div></div></div> <!-- /.left-corner, /.right-corner, /#squeeze, /#center -->
+
+              <div id="sidebar-right" class="sidebar">
+                    <div id="block-forum-0" class="clear-block block block-forum">
+
+  <h2>Active forum topics</h2>
+
+  <div class="content"><div class="item-list"><ul><li class="first"><a href="/forums/stanza/iphone_feature_requests" title="619 comments">iPhone Feature Requests</a></li>
+<li><a href="/node/2284" title="4 comments">Bug report with Stanza 3.0 for iPhone 3GS</a></li>
+<li><a href="/node/2297" title="3 comments">Stanza 1.9.1 Downgrade</a></li>
+<li><a href="/node/344" title="4 comments">How to get books from Ipod Stanza back to the PC?</a></li>
+<li class="last"><a href="/node/705" title="7 comments">What credit card # when using micropay?</a></li>
+</ul></div><div class="more-link"><a href="/forum" title="Read the latest forum topics.">more</a></div></div>
+</div>
+<div id="block-poll-0" class="clear-block block block-poll">
+
+  <h2>Poll</h2>
+
+  <div class="content"><form action="/faq/how_to_create_epub"  accept-charset="UTF-8" method="post" id="poll-view-voting">
+<div><div class="poll">
+  <div class="vote-form">
+    <div class="choices">
+              <div class="title">Where do you do most of your reading with Stanza iPhone/iPod?:</div>
+            <div class="form-radios"><div class="form-item" id="edit-choice-0-wrapper">
+ <label class="option" for="edit-choice-0"><input type="radio" id="edit-choice-0" name="choice" value="0"   class="form-radio" /> On the bus or train</label>
+</div>
+<div class="form-item" id="edit-choice-1-wrapper">
+ <label class="option" for="edit-choice-1"><input type="radio" id="edit-choice-1" name="choice" value="1"   class="form-radio" /> On an airplane</label>
+</div>
+<div class="form-item" id="edit-choice-2-wrapper">
+ <label class="option" for="edit-choice-2"><input type="radio" id="edit-choice-2" name="choice" value="2"   class="form-radio" /> In bed</label>
+</div>
+<div class="form-item" id="edit-choice-3-wrapper">
+ <label class="option" for="edit-choice-3"><input type="radio" id="edit-choice-3" name="choice" value="3"   class="form-radio" /> At lunch or dinner</label>
+</div>
+<div class="form-item" id="edit-choice-4-wrapper">
+ <label class="option" for="edit-choice-4"><input type="radio" id="edit-choice-4" name="choice" value="4"   class="form-radio" /> At a bar or cafe</label>
+</div>
+<div class="form-item" id="edit-choice-5-wrapper">
+ <label class="option" for="edit-choice-5"><input type="radio" id="edit-choice-5" name="choice" value="5"   class="form-radio" /> In waiting areas</label>
+</div>
+<div class="form-item" id="edit-choice-6-wrapper">
+ <label class="option" for="edit-choice-6"><input type="radio" id="edit-choice-6" name="choice" value="6"   class="form-radio" /> At home</label>
+</div>
+<div class="form-item" id="edit-choice-7-wrapper">
+ <label class="option" for="edit-choice-7"><input type="radio" id="edit-choice-7" name="choice" value="7"   class="form-radio" /> At work</label>
+</div>
+</div>    </div>
+    <input type="submit" name="op" id="edit-vote" value="Vote"  class="form-submit" />
+  </div>
+    <input type="hidden" name="form_build_id" id="form-a3ccd418d540bd677ffb7230a926d6ac" value="form-a3ccd418d540bd677ffb7230a926d6ac"  />
+<input type="hidden" name="form_id" id="edit-poll-view-voting" value="poll_view_voting"  />
+</div>
+
+</div></form>
+</div>
+</div>
+<div id="block-blog-0" class="clear-block block block-blog">
+
+  <h2>Recent blog posts</h2>
+
+  <div class="content"><div class="item-list"><ul><li class="first"><a href="/content/stanza-3-now-available-with-ipad-support">Stanza 3.0 Now Available</a></li>
+<li><a href="/content/picture_book_mode">Experimental Picture Book Capability Now Available in Stanza 2.1 for iPhone, iPod Touch</a></li>
+<li><a href="/content/stanza-book-restore-tool">Restoring Stanza books from iTunes backup</a></li>
+<li><a href="/content/6_Free_Random_House_Books">6 More Books Now Available in the Random House Free Catalog on Stanza iPhone</a></li>
+<li><a href="/content/right_to_left_language_support">How to Read Right to Left Languages in Stanza iPhone</a></li>
+<li><a href="/content/oreilly_best_iphone_app">Stanza has been selected by O&#039;Reilly Media as a Best iPhone App</a></li>
+<li><a href="/content/random_house_australia_wil_anderson_promo">Wil Anderson&#039;s eBook Available for Free for Stanza iPhone / iPod Touch Users in Australia and NZ</a></li>
+<li><a href="/lexcycle_acquired_by_amazon">Lexcycle has been acquired by Amazon.com!</a></li>
+<li><a href="/content/bloomsbury">24 Hours Only - Free Download of Orange Prize Shortlist Book for UK Stanza Users</a></li>
+<li class="last"><a href="/content/2009lbf">Lexcycle at London Book Fair</a></li>
+</ul></div><div class="more-link"><a href="/blog" title="Read the latest blog entries.">more</a></div></div>
+</div>
+<div id="block-faq-2" class="clear-block block block-faq">
+
+  <h2>Random FAQs</h2>
+
+  <div class="content"><div class="item-list"><ul><li class="first"><a href="/faq/pdf_issues">I tried to read a PDF, and it is all messed up!</a></li>
+<li><a href="/node/88">Can Stanza Desktop share with Stanza iPhone if I have my firewall enabled?</a></li>
+<li><a href="/faq/bonjour_error_incompatible">I get an error saying &quot;DNS-SD Error -65551: INCOMPATIBLE&quot; when enabling sharing or launching Stanza Desktop</a></li>
+<li><a href="/faq/integrating_with_lexcycle_catalog">How can I integrate with Lexcycle&#039;s Online Catalog?</a></li>
+<li class="last"><a href="/node/58">Does Stanza run on 64-bit Macintosh?</a></li>
+</ul></div><a href="/faq">All FAQs</a></div>
+</div>
+        </div>
+      
+    </div> <!-- /container -->
+  </div>
+<!-- /layout -->
+
+    </body>
+</html>
