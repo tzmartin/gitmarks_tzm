@@ -1,0 +1,107 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>Road Runner Search</title>
+    
+    <link rel="stylesheet" type="text/css" href="/static.php?t=css&ts=1292275580&f=dns_comp.css%2Cheader_comp.css" />
+    <script type="text/javascript" src="/static.php?t=js&ts=1292275580&f=fast.js%2Cyahoo-iframe.js"></script>
+    <script type="text/javascript">
+      /* <![CDATA[ */
+var conval = 'nxd';
+var catval = 'dns';
+/* ]]> */
+    </script>
+  </head>
+  <body  id="dns" OnLoad="document.searcher.qtop.focus()"><!--qadebug-->
+    <script type="text/javascript">if (navigator.appName != 'Microsoft Internet Explorer')  document.onkeypress=kp; else document.onkeyup=function(event) {  kp(event); } </script>
+<div id="header">
+ <div class="clearfix">
+  <a href="http://www.rr.com/" id="logo"><img src="images/twcrr_res_lrb.png" alt="Road Runner High Speed Online" border="0" width="154" height="57"></a>
+    <form method="get" name="searcher" action="/" class="searchbox">
+      <input style="display: none;" name="con" value="nxd" type="hidden">
+      <label for="qs-b" class="a11y">Search the Web</label>
+      <div class="search-controls">
+        <input id="qtop" name="q" value="listiti.com" type="text">
+        <div class="btn-submit-contain">
+          <input class="btn-submit" value="Search" type="submit">
+        </div>
+      </div>
+      <div class="powered-by"><img src="images/powered_by_yahoo.png" alt="Powered by Yahoo" width="110" height="29"></div>
+      <div class="why-here" onClick="javascript:toggle('whatsthis')" onmouseover="this.style.textDecoration='underline'" onmouseout="this.style.textDecoration='none'" >Why am I here?</div>
+    </form>
+    <!--/searchbox-->
+ </div><!--/clearfix-->
+ </div>
+
+    <!-- WHAT IS THIS START -->
+    <div class="whatsthis" id="whatsthis" style="display:none">
+      <div class="whyContent">
+	<div class="whyamihere closebox" id="why-here-close" onclick="javascript:toggle('whatsthis')">[X] CLOSE</div>
+	<h1>Why Am I Here?</h1>
+	<p>You entered an unknown web address that was used to present site suggestions that you may find useful. Clicking any of these suggestions provides you with search results, which may include relevant sponsored links.</p>
+	<p>If this service is not right for you, please visit your <a href="/?cat=pref&con=dns">Preferences</a> page to opt out. At any point in time, you can opt back in to the service by visiting your <a href="/?cat=pref&con=dns">Preferences</a> page.</p>
+	<p>If you have other questions about this service, please visit our <a href="/?cat=faq&con=dns">FAQ</a>.</p>
+	<p>For further assistance, please go to <a href="http://help.rr.com" target="_blank">http://help.rr.com</a>.</p>
+      </div>
+    </div>
+    <!-- WHAT IS THIS END -->
+    <h1 id="results-title">
+      <span class="results-section">Web </span>
+    </h1>
+    <!--pref_faq-->
+    <div id="content">
+      
+      
+      <h2 id="dns-not-found">Sorry, we couldn't find <em>listiti.com</em></h2>
+      
+      <div id="results">			
+	<div class="sponsored-results">
+	<h2>Sponsored Links</h2>
+	<!--block_tag-->
+	<p class="no-results">No Sponsored Links found</p>
+</div>
+	<!--top_related-->
+	<iframe id="yhs-if" src="http://us.nc.yhs.search.yahoo.com/if?partnerid=yhs-if-timewarner&fr=yhs-if-timewarner&ei=UTF-8&p=listiti.com&YST_b=1&vm=r" style="width: 100%; overflow: hidden;" height="878" frameborder="0" scrolling="no">
+</iframe>
+		
+	<!--bottom_ads-->					
+      </div><!--results-->
+      <!--bottom_related-->
+    </div><!--content-->
+    <div class="pagination">
+      <h2 class="a11y">More Results</h2>
+      <ol>
+	
+	
+	<li class=""><a href="/?q=listiti.com&con=dns&offset=11">Next</a></li>
+	
+      </ol>
+    </div>		
+    <ul class="promos">
+      <li>Download the Free Road Runner Toolbar Now! <a href="http://www.rr.com/toolbar/download" target="_blank">Learn More!</a></li>
+    </ul><!--/promos-->
+    <div class="searchbox-contain">
+  <form method="get" action="/" class="searchbox">
+    <input style="display: none;" name="con" value="nxd" type="hidden">
+    <label for="qs-b" class="a11y">Search the Web</label>
+    <div class="search-controls">
+      <input id="qs-b" name="q" value="listiti.com" type="text">
+      <div class="btn-submit-contain">
+        <input class="btn-submit" value="Search" type="submit">
+      </div>
+    </div>
+    <div class="powered-by2"><img src="images/powered_by_yahoo.png" alt="Powered by Yahoo" width="110" height="29"></div>
+  </form>
+</div>
+     <div class="company">
+      <li class="copyright2">Copyright &copy; 2010 RoadRunner Holding Co. LLC</li>
+      <li><a href="http://content.rr.com/rr-privacy/new/web.html">Web Privacy Policy</a></li>
+      <li class="optInOut"><a href="/?cat=pref&con=dns">Opt in or Opt Out of this Service</a></li>
+    </div>
+    <div class="companyspacer"></div>
+    <div class="company2">
+Time Warner Cable is a trademark of Time Warner Inc. Used under license. Road Runner is &trade; and &copy; Warner Bros. Entertainment Inc. <br/>(s10)
+</div>
+  </body>
+</html>
