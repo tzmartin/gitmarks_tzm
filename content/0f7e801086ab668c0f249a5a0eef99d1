@@ -1,0 +1,453 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html xmlns:urlencoder="xalan://java.net.URLEncoder" xmlns:i18n="http://apache.org/cocoon/i18n/2.1" xmlns:n="http://outerx.org/daisy/1.0#navigation" xmlns:d="http://outerx.org/daisy/1.0">
+<head>
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<link href="/daisy/resources/skins/cambia-common/css/daisy.css" type="text/css" rel="stylesheet">
+<title>Patent Lens Home</title>
+<link rel="stylesheet" type="text/css" media="screen" href="/daisy/resources/skins/cambia-common/css/layout.css">
+<link rel="stylesheet" type="text/css" media="screen" href="/daisy/resources/skins/cambia-common/css/docstyle.css">
+<link rel="stylesheet" type="text/css" media="print" href="/daisy/resources/skins/cambia-common/css/print_version.css">
+<script src="/daisy/resources/skins/cambia-common/js/effects.js" type="text/javascript"></script>
+<link href="/daisy/resources/skins/cambia-common/images/favicon.ico" rel="icon">
+<link href="/daisy/resources/skins/cambia-common/images/favicon.ico" rel="SHORTCUT ICON">
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js" type="text/javascript"></script><script src="/daisy/resources/js/daisy.js" type="text/javascript"></script><script src="/daisy/resources/skins/cambia-common/js/menu.js" type="text/javascript"></script>
+</head>
+<body class="topDeco">
+<div id="pageWidthControl">
+<div id="header">
+<a name="dsy_top"></a>
+<div id="plens">
+<a href="/daisy/patentlens"><img alt="Patent Lens" src="/daisy/resources/skins/cambia-common/images/tagline_patentlens.gif"></a>
+</div>
+<p class="patentlens_description" id="siteDescription">A free public resource for patent system navigation worldwide.<b>An initiative of <a href="http://www.cambia.org/">Cambia</a></b>
+</p>
+<form action="/daisy/patentlens/search">
+<fieldset id="searchThisSite">
+<label for="searchInput">Search this website</label><input id="searchInput" name="query" type="text"> <input id="searchButton" value="Search" type="submit">
+</fieldset>
+</form>
+</div>
+<div id="documentNavigation">
+<ul class="navigation">
+<li class="navigation active-navnode">
+<a class="navigation active-navnode" href="/daisy/patentlens/patentlens.html">Home</a>
+</li>
+<li class=" navigation">
+<a href="/patentlens/structured.cgi" class=" navigation">Patent Search &amp; Tools</a>
+<ul>
+<li class=" navigation">
+<a href="/patentlens/structured.cgi" class=" navigation">Patent Search</a>
+</li>
+<li class="navigation ">
+<a class="navigation " href="/daisy/patentlens/search/search-help.html">Patent Search Help</a>
+</li>
+<li class=" navigation">
+<a href="/sequence/blast/blast.html" class=" navigation">Blast &amp; Sequence Search</a>
+</li>
+<li class="navigation ">
+<a class="navigation " href="/daisy/patentlens/search/faq-plens.html">Patent Lens FAQs</a>
+</li>
+</ul>
+</li>
+<li class="navigation ">
+<a class="navigation " href="/daisy/patentlens/landscapes-tools.html">Patent Landscapes</a>
+<ul>
+<li class="navigation ">
+<a class="navigation " href="/daisy/patentlens/landscapes-tools/explore-landscapes.html">Explore Patent Landscapes</a>
+</li>
+<li class="navigation ">
+<a class="navigation " href="/daisy/patentlens/landscapes-tools/sequences.html">Sequence Project (BLAST)</a>
+</li>
+<li class="navigation ">
+<a class="navigation " href="/daisy/patentlens/landscapes-tools/faq-landscapes.html">Patent Landscapes FAQs</a>
+</li>
+</ul>
+</li>
+<li class="navigation ">
+<a class="navigation " href="/daisy/patentlens/ip.html">Intellectual Property</a>
+<ul>
+<li class="navigation ">
+<a class="navigation " href="/daisy/patentlens/ip/tutorials.html">Patent Tutorials and FAQs</a>
+</li>
+<li class="navigation ">
+<a class="navigation " href="/daisy/patentlens/ip/policies.html">IP Policies and Practices</a>
+</li>
+<li class="navigation ">
+<a class="navigation " href="/daisy/patentlens/ip/around-the-world.html">Patent Laws Around the World</a>
+</li>
+</ul>
+</li>
+<li class="navigation ">
+<a class="navigation " href="/daisy/patentlens/media.html">Media Centre</a>
+<ul>
+<li class="navigation ">
+<a class="navigation " href="/daisy/patentlens/media/news.html">Cambia, BiOS, Patent Lens In The News</a>
+</li>
+<li class="navigation ">
+<a class="navigation " href="/daisy/patentlens/media/press_releases.html">Press Releases</a>
+</li>
+<li class="navigation ">
+<a class="navigation " href="/daisy/patentlens/media/4720.html">Audio &amp; Video</a>
+</li>
+</ul>
+</li>
+<li class="navigation ">
+<a class="navigation " href="/daisy/patentlens/about.html">About Us</a>
+<ul>
+<li class="navigation ">
+<a class="navigation " href="/daisy/patentlens/about/people.html">Our People</a>
+</li>
+<li class="navigation ">
+<a class="navigation " href="/daisy/patentlens/about/careers.html">Careers</a>
+</li>
+<li class="navigation ">
+<a class="navigation " href="/daisy/patentlens/about/contact-us.html">Contact Us</a>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+<div id="content">
+<table xmlns:daisyutil="xalan://org.outerj.daisy.frontend.util.XslUtil" xmlns:cinclude="http://apache.org/cocoon/include/1.0" xmlns:p="http://outerx.org/daisy/1.0#publisher" class="twoColumn">
+<tr>
+<td id="top_row" colspan="2"></td>
+</tr>
+<tr>
+<td style="vertical-align:top;" width="50%">
+<div class="twoColumn-left">
+
+
+<p xmlns:jx="http://apache.org/cocoon/templates/jx/1.0" xmlns:ns="http://outerx.org/daisy/1.0">Patent Lens is a worldwide, open-access, free full-text patent informatics
+resource.&nbsp; It serves as the cyberinfrastructure platform for
+the<a xmlns:lt="http://outerx.org/daisy/1.0#linktransformer" xmlns:einclude="http://outerx.org/daisy/1.0#externalinclude" href="http://www.openinnovation.org"> Initiative for Open Innovation
+(IOI)</a>. <a title="Why are we doing this?" href="/daisy/patentlens/search/faq-plens.html">Why are we doing this?</a>
+</p>
+
+
+<div class="overlay">
+
+<h1 class="daisy-document-name">
+<a href="/patentlens/structured.html">Search
+Full-Text Patents</a>
+</h1>
+
+
+<blockquote style="margin: 0pt 0px 10px 10px;">
+
+
+<form xmlns="http://outerx.org/daisy/1.0#publisher" id="dsy3495_myForm" name="myForm" action="http://www.patentlens.net/patentlens/structured.html" method="get">
+
+<blockquote>
+
+<p>
+<input name="query" class="searchBox">
+<input value="Quick Search" class="searchSubmit" type="submit">
+<a class="nowrap smallfont" href="/patentlens/structured.cgi">More Options</a>
+
+</p>
+
+</blockquote>
+
+</form>
+
+
+
+<ul>
+
+<li>Search and retrieve the full-text of over ten million patent documents from
+US, Europe, Australia and WIPO, their status and counterparts up to 70
+countries.</li>
+
+</ul>
+
+</blockquote>
+
+</div>
+
+
+<blockquote style="margin: -20px 0pt 0pt;">
+
+<div class="overlay">
+
+<img align="right" alt="sequence_search" title="sequence_search" src="/daisy/patentlens/4489/version/default/part/ImageData/data/sequence_search.gif">
+<h1 class="daisy-document-name">
+
+<a href="http://www.patentlens.net/sequence/blast/blast.html">Search
+Sequences</a>
+</h1>
+
+
+<p>
+<strong>The <a title="CAMBIA's Sequence Project" href="/daisy/patentlens/landscapes-tools/sequences.html">Patent Lens Sequence Project</a> allows you
+to search over 80 million DNA and protein sequences disclosed in
+patents.</strong>
+</p>
+
+
+<p>
+<a href="http://www.patentlens.net/sequence/blast/blast.html">&gt; Start
+searching sequences</a>
+</p>
+
+</div>
+
+</blockquote>
+
+
+<h1 class="daisy-document-name">
+<a title="Patent Tutorials and FAQs" href="/daisy/patentlens/ip.html">Understand Patents and their
+Uses</a>
+</h1>
+
+
+<blockquote style="margin: 10px 0px 10px 10px;">
+
+<ul>
+
+<li>Understand your <a title="What does &quot;Freedom to Operate&quot; mean?" href="/daisy/patentlens/2768.html">freedom to operate</a> with respect to
+<a title="Patent Laws Around the World" href="/daisy/patentlens/ip/around-the-world.html">patent laws in different parts of the world</a>, including
+<a title="Patent Tutorials and FAQs" href="/daisy/patentlens/ip.html">patent tutorials</a> and the
+<a title="IP Policies, Practices and Implications" href="/daisy/patentlens/ip/policies.html">implications of patent policies and practices</a> on
+research, development, trade and society.</li>
+
+</ul>
+
+</blockquote>
+
+
+<h1 class="daisy-document-name">
+<a title="Explore Technology Landscapes" href="/daisy/patentlens/landscapes-tools.html">Explore Patent
+Landscapes</a>
+</h1>
+
+
+<blockquote style="margin: 10px 0px 10px 10px;">
+
+<ul>
+
+<li>Landscapes are 'interpretation maps' that analyze volumes of specialized
+patent, scientific, technical and business data around particular topics into a
+more navigable form.</li>
+
+</ul>
+
+</blockquote>
+
+
+<h1 class="daisy-document-name">
+
+<a title="Sponsor our work: we welcome your contribution" href="/daisy/patentlens/3503.html"><span class="redtext">Support Patent Lens</span></a>
+</h1>
+
+
+<p>Transparency of the worldwide patent system must be an international public
+good; This is your resource, and we need <a title="Sponsor our work: we welcome your contribution" href="/daisy/patentlens/3503.html">your help</a> to
+keep it open and free.</p>
+
+
+<p>
+
+<a href="http://groups.google.com/group/patentlens">
+<br>
+</a><sup><span class="redtext">&nbsp;</span></sup>
+
+</p>
+
+
+</div>
+</td><td style="vertical-align:top;" width="50%">
+<div class="twoColumn-right">
+
+
+<table class="new-features">
+<tbody>
+
+<tr>
+
+<th>
+
+<p>Patent Lens <span class="redtext">New Features</span>
+</p>
+
+</th>
+
+</tr>
+
+<tr>
+
+<td>
+
+<ul>
+
+<li class="last">Patent search interface in Chinese (中文), English, Russian
+(Русский), and French.</li>
+
+</ul>
+
+
+<ul>
+
+<li>Full text of PCT applications now searchable in Chinese, English, French,
+German, Japanese, Korean, Russian and Spanish.</li>
+
+<li>Full text of EPO patents now searchable in English, French and German.</li>
+
+<li>Search for lapsed, abandoned or expired US Patents.</li>
+
+<li>Visualize Patent Families with new graphical trees as PDFs.</li>
+
+<li>Patent Landscapes on
+<a href="http://www.patentlens.net/daisy/influenza/">Influenza Genes</a>,
+<a href="http://www.patentlens.net/daisy/RiceGenome/">Rice Genome</a> and
+<a href="http://www.patentlens.net/daisy/adjuvants/Introduction.html">Adjuvants</a>
+now online.</li>
+
+<li>
+<a title="CAMBIA's Sequence Project" href="/daisy/patentlens/landscapes-tools/sequences.html">Protein &amp; DNA Sequence searching</a> of over 80
+million sequences from worldwide patent collections.</li>
+
+</ul>
+
+</td>
+
+</tr>
+
+<tr>
+
+<th>
+
+<p>Selected Media</p>
+
+</th>
+
+</tr>
+
+</tbody>
+<tbody>
+
+<tr>
+
+<td>
+
+<table class="borderless">
+<tbody>
+
+<tr>
+
+<td>
+
+<h4>
+<a href="/daisy/patentlens/4787">USPTO makes US Patent Data Publicly available</a>
+</h4>Open letter to Mr David Kappos, Director of USPTO, Australia<br>November&nbsp;1,&nbsp;2010<br>
+<em></em>
+<h4>
+<a href="/daisy/patentlens/4771">Richard Jefferson is interviewed by NewsClick, India</a>
+</h4>Newsclick (India), India<br>May&nbsp;8,&nbsp;2010<br>
+<em>GM Foods and Bt Brinjal: Interview with Prof. Richard Jefferson, Cambia</em>
+<h4>
+<a href="/daisy/patentlens/4769">Richard Jefferson interviewed on ABC Lateline</a>
+</h4>ABC Lateline, Australia<br>April&nbsp;13,&nbsp;2010<br>
+<em>Patent battle brewing over plant genes</em>
+<h4>
+<a href="/daisy/patentlens/4682">Patent literature and Innovation in Africa</a>
+</h4>Intellectual Property Watch, Kenya<br>October&nbsp;19,&nbsp;2009<br>
+<em></em>
+</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<p>
+<a title="Nature Biotechnology editorial page" href="/daisy/patentlens/1824/version/default/part/AttachmentData/data/nbt0506-474a.pdf">Nature Biotechnology editorial, May 2006&nbsp;</a> (<a href="/daisy/patentlens/1824.html">info</a>)</p>
+
+
+<p>
+<em>The ability to interpret and filter intellectual property (IP) has never
+been more important...CAMBIA's Patent Lens is a giant leap in the right
+direction"&nbsp;</em>
+</p>
+
+</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<p>
+<a title="Red Herring - April 17, 2006 (Open Source BioTech)" href="/daisy/patentlens/2296/version/default/part/AttachmentData/data/Red Herring - April 17, 2006.pdf">Red Herring Cover-story and editorial, April 17,
+2006</a> (<a href="/daisy/patentlens/2296.html">info</a>)</p>
+
+
+<p>
+<em>Patent transparency is the lifeblood of the new open source"
+-</em>Influential IT mag&nbsp; features CAMBIA's role in changing the face of life
+sciences innovation.
+<a target="new" class="imagelink" title="Red Herring - April 17, 2006 (Open Source BioTech)" href="/daisy/patentlens/2296/version/default/part/AttachmentData/data/Red Herring - April 17, 2006.pdf"><img align="left" width="55" height="70" alt="red_herring" title="red_herring" src="/daisy/patentlens/3526/version/default/part/ImageData/data/red_herring.jpg"></a> (<a target="new" class="imagelink" href="/daisy/patentlens/2296.html">info</a>)
+</p>
+
+</td>
+
+</tr>
+
+<tr>
+
+<td valign="top">
+
+<p align="right">&raquo; <a title="Cambia, BiOS, Patent Lens in the News" href="/daisy/patentlens/media/news.html">More News/Press items...</a>
+</p>
+
+</td>
+
+</tr>
+
+</tbody>
+</table>
+
+</td>
+
+</tr>
+
+</tbody>
+</table>
+
+
+</div>
+</td>
+</tr>
+</table>
+<div id="commentContainer">
+<div class="corner">
+<span><a onclick="document.getElementById('comments').style.display=''; document.getElementById('showCommentsLink').style.display='none'; return false;" onmouseover="window.status=''; return true;" href="#" id="showCommentsLink"> Comments
+            (0)
+          </a></span><a name="daisycomments"></a>
+<div id="comments" class="comments" style="display: none">
+<span class="commentsTitle">Comments</span> <a onclick="document.getElementById('comments').style.display='none'; document.getElementById('showCommentsLink').style.display=''; return false;" onmouseover="window.status=''; return true;" href="#">Hide</a>
+<br>There are no comments.<div class="addCommentTitle">Add a comment</div>
+<div class="addComment">Please log in to be able to add comments.</div>
+</div>
+</div>
+</div>
+</div>
+<div class="sitefooter">
+<a href="http://www.cambia.org/">A service of 
+            <img style="vertical-align: middle;" alt="CAMBIA" src="/daisy/resources/skins/cambia-common/images/cambia_tiny.gif"></a><a href="/daisy/patentlens/3503.html">Donate</a> |
+        <a href="/daisy/patentlens/2334.html">Disclaimer</a> | 
+        <a href="/daisy/patentlens/search">Site Search</a> | 
+        
+        <a href="/daisy/login?returnTo=/daisy/patentlens/patentlens.html">CAMBIA Login</a>
+<br>
+<a href="http://creativecommons.org/licenses/by-nc-sa/2.5/" target="_blank" class="imagelink"><img alt="Creative Commons License" src="/daisy/resources/skins/multipage/images/somerights20.gif"></a>
+</div>
+</div>
+</body>
+<script language="javascript">
+			if ($(".separator-left").height() > $("#content").height()) {
+				$("#content").height($(".separator-left").height()+50);
+			};
+		</script>
+</html>
