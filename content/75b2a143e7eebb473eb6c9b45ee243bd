@@ -1,0 +1,155 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+
+
+        <head>
+
+                <meta http-equiv="content-type" content="text/html;charset=utf-8" />
+
+                <meta name="generator" content="Adobe GoLive" />
+
+                <title>Rhode Island Association Member Directory</title>
+
+                <link href="untitled.css" rel="stylesheet" type="text/css" media="all" />
+		<style type="text/css" media="screen"><!--
+.class { color: black; font-size: 12px; text-decoration: none; }
+a:link { color: black; text-decoration: none; }
+a:visited { color: black; text-decoration: none; }
+a:hover { color: gray; text-decoration: none; }
+.class1 { color: #0088c9; font-size: 24px; font-family: Haettenschweiler, verdana; text-decoration: none; }
+--></style>
+		<csscriptdict>
+			<script type="text/javascript"><!--
+
+function newImage(arg) {
+	if (document.images) {
+		rslt = new Image();
+		rslt.src = arg;
+		return rslt;
+	}
+}
+
+
+function changeImagesArray(array) {
+	if (preloadFlag == true) {
+		var d = document; var img;
+		for (var i=0; i<array.length; i+=2) {
+			img = null; var n = array[i];
+			if (d.images) {img = d.images[n];}
+			if (!img && d.getElementById) {img = d.getElementById(n);}
+			if (img) {img.src = array[i+1];}
+		}
+	}
+}
+
+
+function changeImages() {
+	changeImagesArray(changeImages.arguments);
+}
+
+
+// --></script>
+		</csscriptdict>
+		<csactiondict>
+			<script type="text/javascript"><!--
+var preloadFlag = false;
+function preloadImages() {
+	if (document.images) {
+		pre_Emailover = newImage('Emailover.gif');
+		pre_Junkover = newImage('Junkover.gif');
+		pre_Recyclingover = newImage('Recyclingover.gif');
+		pre_Aboutover = newImage('Aboutover.gif');
+		pre_Membersover = newImage('Membersover.gif');
+		pre_Partsover = newImage('Partsover.gif');
+		pre_SBIover = newImage('SBIover.gif');
+		pre_Spanishover = newImage('Spanishover.gif');
+		pre_MPSover = newImage('MPSover.gif');
+		preloadFlag = true;
+	}
+}
+
+// --></script>
+		</csactiondict>
+	</head>
+
+
+
+        <body onload="preloadImages();">
+		<div style="position:relative;width:800px;height:606px;-adbe-g:m;">
+			<div style="position:absolute;top:575px;left:0px;width:236px;height:30px;-adbe-c:c">
+				<span class="copyright"><font size="-2" color="#cecece" face="Verdana, Arial, Helvetica, sans-serif">Hosted by Car-Part.com<br />
+						© 2004, Auto Recyclers of Rhode Island<br />
+					</font></span></div>
+			<div style="position:absolute;top:0px;left:0px;width:416px;height:516px;">
+				<img src="state.gif" alt="" height="516" width="416" border="0" /></div>
+			<div style="position:absolute;top:53px;left:731px;width:68px;height:50px;">
+				<img src="rdisland.gif" alt="" height="50" width="68" border="0" /></div>
+			<div style="position:absolute;top:441px;left:524px;width:171px;height:44px;">
+				<a onmouseover="changeImages('Email','Emailover.gif');return true" onmouseout="changeImages('Email','Email.gif');return true" href="mailto:paul@billsautoparts.com"><img id="Email" src="Email.gif" alt="" name="Email" height="44" width="171" border="0" /></a></div>
+			<div style="position:absolute;top:387px;left:609px;width:171px;height:44px;">
+				<a onmouseover="changeImages('Junk','Junkover.gif');return true" onmouseout="changeImages('Junk','Junk.gif');return true" href="Junk.html"><img id="Junk" src="Junk.gif" alt="" name="Junk" height="44" width="171" border="0" /></a></div>
+			<div style="position:absolute;top:387px;left:438px;width:171px;height:44px;">
+				<a onmouseover="changeImages('recycling','Recyclingover.gif');return true" onmouseout="changeImages('recycling','recycling.gif');return true" href="Recycle.html"><img id="recycling" src="recycling.gif" alt="" name="recycling" height="44" width="171" border="0" /></a></div>
+			<div style="position:absolute;top:331px;left:438px;width:171px;height:44px;">
+				<a onmouseover="changeImages('About','Aboutover.gif');return true" onmouseout="changeImages('About','About.gif');return true" href="AboutUs.html"><img id="About" src="About.gif" alt="" name="About" height="44" width="171" border="0" /></a></div>
+			<div style="position:absolute;top:331px;left:609px;width:171px;height:44px;">
+				<a onmouseover="changeImages('Home','Membersover.gif');return true" onmouseout="changeImages('Home','Members.gif');return true" href="members.html"><img id="Home" src="Members.gif" alt="" name="Home" height="44" width="171" border="0" /></a></div>
+			<div style="position:absolute;top:0px;left:496px;width:235px;height:103px;-adbe-c:c">
+				<div align="center">
+					<p><font size="6"><span class="title">Auto Recyclers of<br />
+								Rhode Island<br />
+							</span></font></p>
+				</div>
+			</div>
+			<div style="position:absolute;top:557px;left:0px;width:799px;height:8px;">
+				<hr size="1" width="799" />
+			</div>
+			<div style="position:absolute;top:103px;left:437px;width:342px;height:187px;">
+				<table width="342" border="0" cellspacing="0" cellpadding="0" bgcolor="#0088c9">
+					<tr>
+						<td colspan="2">
+							<div align="center">
+								<br />
+								<font color="black" face="Verdana, Arial, Helvetica, sans-serif"><strong>To Search for Parts from our<br />
+										Members only group, click on one<br />
+										of the links below.</strong></font><font color="black"><strong><br />
+										<br />
+									</strong></font></div>
+						</td>
+					</tr>
+					<tr>
+						<td width="171"><a onmouseover="changeImages('Parts','Partsover.gif');return true" onmouseout="changeImages('Parts','PartsAnime.gif');return true" href="http://www.ARARI.org/inventory/retail.htm"><img id="Parts" src="PartsAnime.gif" alt="" name="Parts" height="44" width="171" border="0" /></a></td>
+						<td><a onmouseover="changeImages('SBI','SBIover.gif');return true" onmouseout="changeImages('SBI','SBI.gif');return true" href="http://www.ARARI.org/inventory/selector/outside/multi2.htm"><img id="SBI" src="SBI.gif" alt="" name="SBI" height="44" width="171" border="0" /></a></td>
+					</tr>
+					<tr>
+						<td width="171"><a onmouseover="changeImages('Spanish','Spanishover.gif');return true" onmouseout="changeImages('Spanish','Spanish.gif');return true" href="http://www.ARARI.org/inventory/retailSpanish.htm"><img id="Spanish" src="Spanish.gif" alt="" name="Spanish" height="44" width="171" border="0" /></a></td>
+						<td><a onmouseover="changeImages('MPS','MPSover.gif');return true" onmouseout="changeImages('MPS','MPS.gif');return true" href="http://www.ARARI.org/inventory/shop.htm"><img id="MPS" src="MPS.gif" alt="" name="MPS" height="44" width="171" border="0" /></a></td>
+					</tr>
+				</table>
+			</div>
+			<div style="position:absolute;top:53px;left:416px;width:68px;height:50px;">
+				<img src="rdisland2.gif" alt="" height="50" width="68" border="0" /></div>
+			<div style="position:absolute;top:494px;left:447px;width:333px;height:50px;-adbe-c:c">
+				<div align="center">
+					<font size="2" color="black" face="Verdana, Arial, Helvetica, sans-serif"><strong>Auto Recyclers Association of Rhode Island<br />
+						</strong>PO Box 7118<br />
+						Cumberland, RI 02864<br />
+					</font></div>
+			</div>
+		</div>
+	</body>
+
+
+
+</html>
+
+
+
+
+
+
+
+
+
