@@ -279,7 +279,7 @@
 	</tr>
 	<tr>
 		<td>
-			<b>Human test: 0 + 6 = </b><input type="text" name="form_vars[test]" value="" size="5" />
+			<b>Human test: 1 + 5 = </b><input type="text" name="form_vars[test]" value="" size="5" />
 		</td>
 	</tr>
 	<tr>
