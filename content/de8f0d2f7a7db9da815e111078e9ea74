@@ -1,0 +1,1794 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+   "http://www.w3.org/TR/html4/loose.dtd">
+
+<html lang="en">
+<head>
+
+    <!--
+        Designed by
+
+          _|_|_|      _|_|    _|_|_|_|    _|_|    _|  _|_|
+          _|    _|  _|_|_|_|    _|      _|_|_|_|  _|_|
+          _|    _|  _|          _|      _|        _|
+          _|_|_|      _|_|_|      _|_|    _|_|_|  _|
+          _|
+          _|
+
+                      _|        _|                      _|
+          _|      _|        _|_|_|    _|_|_|  _|_|_|
+          _|      _|  _|  _|    _|  _|    _|  _|    _|  _|
+            _|  _|    _|  _|    _|  _|    _|  _|    _|  _|
+              _|      _|    _|_|_|    _|_|_|  _|    _|  _|
+
+        "Well Liked"
+        Found in Tumblr's theme garden.
+        http://www.tumblr.com/themes
+    -->
+
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>Jeff Rock</title>
+    <meta name="description" content="Co-founder of Mobelux. I love good beer and hate Zapfino. Looking for Dashboard Radio? Get it here!" />
+    <meta name="author" content="Peter Vidani">
+	<meta name="color:Accent" content="#6ea5d0" />
+	<meta name="text:Tagline" content="A Tumblr Blog" />
+	<meta name="if:Show notes" content="1" />
+	<meta name="if:Show search" content="1" />
+	<meta name="if:Show contributors" content="1" />
+	<meta name="if:Show Twitter" content="1" />
+	<meta name="if:Show recent comments" content="1" />
+	<meta name="if:Show liked posts" content="1" />
+	<meta name="tumblr-theme" content="8943" />
+    <meta name="text:Disqus Shortname" content="" />
+    <meta name="text:Email address" content="" />
+    <meta name="text:Google Analytics ID" content="" />
+    <meta name="text:Flickr ID Number" content="" />
+    <meta name="image:Header Background" content=""/>
+    <meta name="image:Header" content=""/>
+    <meta name="viewport" content="width=810" />
+    
+    <link rel="shortcut icon" href="http://25.media.tumblr.com/avatar_70949717db93_16.png" />
+    <link rel="alternate" type="application/rss+xml" title="RSS" href="http://jeffrock.com/rss"/>
+	
+	<link rel="stylesheet" href="http://static.tumblr.com/thpaaos/DIcklyl4z/reset.css" type="text/css">
+	
+	<style type="text/css">
+	    html { background: #fff; }
+	
+	    body {
+	        width: 800px;
+            color: #383838;
+            font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+            line-height: 19px;
+            background: #fff;
+            -webkit-text-stroke: 1px transparent;
+            margin: 0 auto;
+            position: relative;
+        }
+        
+            body iframe#tumblr_controls {
+                position: absolute;
+                top: 10px !important;
+                right: 10px !important;
+            }
+
+        @media only screen and (max-device-width: 480px) {
+            body {
+                -webkit-text-stroke: 0 black;
+            }
+        }
+
+        *:active, *:focus { outline-width: 0px; }
+        .content p, .content h1, .content h2, .content h3, .content h4, .content blockquote, ol.notes li, ol.notes blockquote, .content li, .content img, .content table, .content .quote { margin: 0 0 11px 0; }
+        a { text-decoration: none; }
+        a img { border-width: 0px; }
+
+        em { font-style: italic; }
+        strong { font-weight: bold; }
+
+        #container {
+            width: 800px;
+            margin: 0 auto 70px auto;
+            overflow: hidden;
+        }
+        
+            #container .black_top {
+                font-size: 11px;
+                font-weight: bold;
+                text-transform: uppercase;
+                background: #3c3c3c;
+                padding: 13px;
+                overflow: hidden;
+            }
+            
+                #container .black_top a {
+                    margin: 0 3px 0 0;
+                    display: block;
+                    float: left;
+                }
+                    
+            #container .pages {
+                height: 32px;
+                text-align: center;
+                background: #f7f7f7;
+                border-bottom: 1px solid #cfcfcf;
+            }
+            
+                #container .pages a {
+                    color: #383838;
+                    font-size: 11px;
+                    font-weight: bold;
+                    text-transform: uppercase;
+                    line-height: 32px;
+                    margin: 0 12px;
+                }
+                
+                    #container .pages a:hover {
+                        color: #6ea5d0;
+                    }
+                    
+            #container .header {
+                text-align: center;
+                
+                background: #fff !important;
+                border-bottom: 2px solid #3c3c3c;
+                margin: 0 0 2px 0;
+                padding: 100px 0;
+                padding: 0;
+            }
+
+                #container .header h1 a {
+                    color: #383838;
+                    font-size: 120px;
+                    font-family: "Futura-CondensedMedium", "MyriadPro-BoldCond", "Impact", "Arial Narrow", sans-serif;
+                    text-transform: uppercase;
+                    text-shadow: #dfdfdf 3px 3px 0px;
+                    
+                    line-height: 110px;
+                    display: inline-block;
+                    margin: 0 0 15px 0;
+                    
+                    display: none
+                }
+                
+                #container .header span.flag {
+                    color: #fff;
+                    font-size: 15px;
+                    font-style: italic;
+                    font-family: Georgia, 'Times New Roman', Times, serif;
+                    text-transform: uppercase;
+                    background: #6ea5d0;
+                    padding: 8px 50px 6px 50px;
+                    position: relative;
+                    
+                    
+                    display: none;
+                }
+                
+                    #container .header span.flag div {
+                        width: 12px;
+                        height: 32px;
+                        position: absolute;
+                        top: 0;
+                        
+                    }
+                    
+                        #container .header span.flag .left {
+                            background: url(http://static.tumblr.com/thpaaos/zAvkzjf7b/flag_tail.png);
+                            left: 0;
+                        }
+                        
+                        #container .header span.flag .right {
+                            background: url(http://static.tumblr.com/thpaaos/z2Akzjf7k/flag_head.png);
+                            right: 0;
+                        }
+            
+            #container .content {
+                font-size: 14px;
+                font-family: Georgia, 'Times New Roman', Times, serif;
+                line-height: 20px;
+            }
+            
+                #container .content a { color: #6ea5d0; }
+                #container .content a:hover { text-decoration: underline; }
+
+            #container .column.left {
+                width: 260px;
+                float: left;
+            }
+            
+                #container .section {
+                    border-bottom: 1px solid #ededed;
+                    padding: 25px 25px 25px 0;
+                }
+                
+                    #container .column.left .section:last-child { border-width: 0px; }
+                
+                    #container .section.with_title {
+                        padding: 47px 25px 25px 0;
+                        position: relative;
+                    }
+                    
+                        #container .section.with_title h3 {
+                            color: #4d4d4d;
+                            font-size: 10px;
+                            font-weight: bold;
+                            text-transform: uppercase;
+                            letter-spacing: 2px;
+                            background: #f9f9f9;
+                            border-right: 1px solid #ededed;
+                            border-bottom: 1px solid #e1e1e1;
+                            border-left: 1px solid #ededed;
+                            -webkit-border-bottom-right-radius: 5px;
+                            -webkit-border-bottom-left-radius: 5px;
+                            -moz-border-radius-bottomright: 5px;
+                            -moz-border-radius-bottomleft: 5px;
+                            border-bottom-right-radius: 5px;
+                            border-bottom-left-radius: 5px;
+                            padding: 3px 11px;
+                            position: absolute;
+                            top: 0;
+                        }
+                        
+                    #container .section.description {
+                        color: #525252;
+                        text-align: center;
+                        padding: 25px;
+                    }
+                    
+                    #container .section.contributors a.member {
+                        color: #383838;
+                        line-height: 13px;
+                        list-style-type: none;
+                        margin: 0 0 20px 0;
+                        display: block;
+                        overflow: hidden;
+                    }
+                    
+                        #container .section.contributors a.member:last-child {
+                            margin: 0;
+                        }
+                    
+                        #container .section.contributors a.member img {
+                            margin: 0 15px 0 0;
+                            float: left;
+                        }
+                        
+                        #container .section.contributors a.member span.name {
+                            color: #525252;
+                            font-size: 11px;
+                            font-weight: bold;
+                            font-family: Georgia, 'Times New Roman', Times, serif;
+                            text-transform: uppercase;
+                            letter-spacing: 2px;
+                        }
+                        
+                             #container .section.contributors a.member:hover span.name {
+                                 text-decoration: underline;
+                             }
+                        
+                        #container .section.contributors a.member span.title {
+                            color: #525252;
+                            font-size: 11px;
+                            letter-spacing: 1px;
+                            line-height: 20px;
+                        }
+                        
+                    #container .section.ask_and_submit {
+                        display: none;
+                        display: block;
+                        
+                        
+                    }
+                    
+                        #container .section.ask_and_submit a {
+                            color: #525252;
+                            letter-spacing: 1px;
+                            margin: 0 0 5px 0;
+                            padding: 0 0 0 24px;
+                            display: block;
+                        }
+                    
+                        #container .section.ask_and_submit a.ask {
+                            background: url(http://static.tumblr.com/thpaaos/saCkzsvql/icon_ask.png) 0px 3px no-repeat;
+                        }
+                        
+                        #container .section.ask_and_submit a.submit {
+                            background: url(http://static.tumblr.com/thpaaos/b5ukzswio/icon_submit.png) 0px 3px no-repeat;
+                        }
+                        
+                        #container .section.ask_and_submit a.email {
+                            background: url(http://static.tumblr.com/thpaaos/mlPkzsw7r/icon_email.png) 0px 6px no-repeat;
+                        }
+                        
+                    #container .twitter span {
+                        color: #525252;
+                        overflow: hidden;
+                        display: none;
+                    }
+                    
+                        #container .twitter span:first-child { display: block; }
+                                            
+                    #container img.dsq-widget-avatar {
+                        display: none !important;
+                    }
+
+                    #container li.dsq-widget-item {
+                        color: #525252;
+                        border-bottom: 1px solid #ededed;
+                        margin: 0 0 20px 0;
+                        padding: 0 0 20px 0;
+                        overflow: hidden;
+                    }
+                
+                        #container li.dsq-widget-item:last-child {
+                            border-width: 0px;
+                            margin: 0;
+                            padding: 0;
+                        }
+
+                    #container p.dsq-widget-meta {
+                        width: 150px;
+                        height: 16px;
+                        line-height: 1000px;
+                        margin: 3px 0 0 0;
+                        float: left;
+                        display: block;
+                        overflow: hidden;
+                        position: relative;
+                    }
+
+                    #container p.dsq-widget-meta a:last-child {
+                        line-height: 14px;
+                        font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+                        position: absolute;
+                        top: 0;
+                        left: 0;
+                    }
+
+                    #container a.dsq-widget-user {
+                        color: #525252;
+                        font-weight: bold;
+                        font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+                        margin: 0 7px 0 0;
+                    }
+                
+                    #container .likes li.like_post {
+                        width: 222px;
+                        border-bottom: 1px solid #ededed;
+                        margin: 0 0 20px 0;
+                        padding: 0 0 9px 0;
+                    }
+                    
+                        #container .likes li:last-child { border-width: 0px; }
+                    
+                        #container .likes .post_info_bottom {
+                            color: #a8a8a8;
+                            letter-spacing: 1px;
+                            font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+                            font-size: 10px;
+                            margin: 0 0 11px 0;
+                            padding: 1px 0;
+                            text-transform: uppercase;
+                            display: block !important;
+                        }
+                        
+                            #container .likes .post_info_bottom a { color: #a5a5a5; }
+                            
+                            #container .likes .post_info_bottom a:hover { color: #6b6b6b; }
+                    
+                        #container .likes li img {
+                            max-width: 214px;
+                            background: #f7f7f7;
+                            border: 1px solid #e9e9e9;
+                            padding: 3px;
+                        }
+                        
+                        #container .likes li .like_link a,
+                        #container .like_title {
+                            font-size: 15px;
+                            font-weight: bold;
+                        }
+
+                        
+                        #container .likes .like_chat {
+                            margin: 0 0 11px 0;
+                        }
+
+                            #container .likes .like_line {
+                                font-size: 13px;
+                                font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+                                background: #f9f9f9;
+                                border: 1px solid #ebebeb;
+                                -webkit-border-radius: 2px;
+                                -moz-border-radius: 2px;
+                                border-radius: 2px;
+                                margin: 0 0 2px 0;
+                                padding: 7px 13px;
+                            }
+                        
+            #container .column.right {
+                padding: 27px 0 0 0;
+                float: right;
+            }
+            
+                #container .column.right li.post {
+                    width: 500px;
+                    margin: 0 0 40px 0;
+                    padding: 0 0 0 39px;
+                    list-style-type: none;
+                    overflow: hidden;
+                }
+                
+                    #container .column.right ul li.post:last-child { margin: 0 0 20px 0; }
+                
+                    #container .column.right li.post .post_header {
+                        letter-spacing: 1px;
+                        margin: 0 0 20px 0;
+                        overflow: hidden;
+                    }
+                
+                        #container .column.right li.post .post_header a {
+                            color: #a8a8a8;
+                            font-size: 10px;
+                            text-transform: uppercase;
+                        }
+                
+                        #container .column.right li.post .post_header a:nth-child(odd) { font-weight: bold; float: left; }
+                        #container .column.right li.post .post_header a:nth-child(even) { float: right; }
+                                        
+                        #container .column.right li.post .post_header a:hover {
+                            color: #6b6b6b;
+                        }
+                    
+                    #container .column.right li.post .post_footer {
+                        color: #a8a8a8;
+                        letter-spacing: 1px;
+                        font-size: 10px;
+                        margin: 20px 0 0 0;
+                        padding: 1px 0;
+                        text-transform: uppercase;
+                        position: relative;
+                        overflow: hidden;
+                    }
+                
+                        #container .column.right li.post .post_footer a {
+                            color: #a5a5a5;
+                        }
+                        
+                        #container .column.right li.post .post_footer a.reblog_icon {
+                            width: 26px;
+                            height: 26px;
+                            background-image: url(http://static.tumblr.com/thpaaos/Wonkzsm1g/icon_reblog.png);
+                            background-repeat: no-repeat;
+                            background-color: #383838;
+                            margin: -4px 10px 0 0;
+                            display: block;
+                            float: left;
+                        }
+                        
+                            #container .column.right li.post .post_footer a.reblog_icon:hover {
+                                background-color: #6ea5d0;
+                            }
+                    
+                        #container .column.right li.post .post_footer a.note_count {
+                            border: 1px solid #e1e1e1;
+                            -webkit-border-radius: 10px;
+                            -moz-border-radius: 10px;
+                            border-radius: 10px;
+                            margin: 0 10px 0 0;
+                            padding: 3px 10px;
+                        }
+                    
+                            #container .column.right li.post .post_footer a:hover {
+                                color: #6b6b6b;
+                            }
+                    
+                            #container .column.right li.post .post_footer a.note_count:hover {
+                                color: #fff;
+                                border: 1px solid #383838;
+                                background: #383838;
+                            }
+                        
+                        #container .column.right li.post a.disqus_link {
+                            margin: 0 10px 0 0;
+                        }
+
+                        #container .column.right li.post span.tags a.tag:last-child span.tag_comma { display: none; }
+                        
+                    #container .column.right li.post .separator {
+                        width: 540px;
+                        height: 1px;
+                        background: #ededed;
+                        margin: 40px 0 0 -40px;
+                    }
+                    
+                        #container .column.right li.post .separator.secondary {
+                            margin: 20px 0 40px -40px;
+                        }
+                    
+                    #container .column.right li.post .content .search_query {
+                        font-weight: bold;
+                    }
+                    
+                    #container .column.right li.post .content h2 {
+                        font-size: 20px;
+                        line-height: 23px;
+                    }
+                    
+                        #container .column.right li.post .content h2 a.text_title {
+                            color: #383838;
+                        }
+                
+                    #container li.post .content ul,
+                    #container li.post .content ol {
+                        margin: 0 0 11px 20px;
+                    }
+                
+                    #container li.post .content ul li,
+                    #container li.post .content ol li {
+                        color: #777;
+                        margin: 0;
+                    }
+                    
+                        #container li.post .content blockquote li {
+                            margin: 0 0 0 20px;
+                        }
+                    
+                    .column.right img {
+                        max-width: 100%;
+                    }
+
+                    .column.right blockquote,
+                    .likes blockquote {
+                        font-size: 13px;
+                        border-left: 1px dotted #e1e1e1;
+                        padding: 0 0 0 20px;
+                    }
+
+                    #container li.post .content pre {
+                        font: normal normal normal 11px/normal Courier;
+                        background: #e6e6e6;
+                        padding: 10px;
+                        margin: 0 0 12px 0;
+                    }
+
+                        #container .content small.gray {
+                            color: #a8a8a8;
+                            font-size: 11px;
+                            font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+                        }
+
+                            #container .content small.gray a {
+                                color: #a8a8a8;
+                            }
+
+                                #container .content small.gray a:hover {
+                                    color: #757575;
+                                    text-decoration: none;
+                                }
+
+                            #container .content small.gray.high_res {
+                                text-align: right;
+                                margin: 0 0 12px 0;
+                                display: block;
+                            }
+
+                            #container .content small.gray a .download {
+                                width: 11px;
+                                height: 9px;
+                                background: url(http://static.tumblr.com/thpaaos/jSTkv2d7l/icon_high_resolution.png) no-repeat;
+                                margin: 0 0 0 3px;
+                                display: inline-block;
+                            }
+                        
+                            #container .content .audio small.gray {
+                                display: block;
+                            }
+                
+                    #container .column.right li.post .content .chat_line {
+                        color: #383838;
+                        list-style-type: none;
+                        font-size: 13px;
+                        font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+                        background: #f9f9f9;
+                        border: 1px solid #ebebeb;
+                        -webkit-border-radius: 2px;
+                        -moz-border-radius: 2px;
+                        border-radius: 2px;
+                        margin: 0 0 2px 0;
+                        padding: 7px 13px;
+                    }
+                
+                        #container .column.right li.post .content .chat_line + p {
+                            margin: 11px 0 0 0;
+                        }
+                
+                        #container .column.right li.post .album_case {
+                            width: 205px;
+                            height: 193px;
+                            background: url(http://static.tumblr.com/thpaaos/zXnkx16pe/album_case.png);
+                            margin: 0 30px 0 0;
+                            position: relative;
+                            z-index: 10;
+                            float: left;
+                        }
+
+                        #container .column.right li.post img.album_art {
+                            max-width: 188px !important;
+                            margin: 3px 0 0 -235px;
+                            position: relative;
+                            left: 15px;
+                            z-index: 9;
+                            float: left;
+                        }
+
+                        #container .column.right li.post .audio .audio_player {
+                            width: 207px;
+                            -webkit-opacity: 0.8;
+                            -moz-opacity: 0.8;
+                            opacity: 80%;
+                            display: inline-block;
+                        }
+                        
+                ol.notes {
+                    margin: 0 !important;
+                    padding: 0 0 20px 0;
+                }
+
+                    ol.notes img.avatar { display: none; }
+
+                    ol.notes li {
+                        color: #383838 !important;
+                        list-style-type: none;
+                        margin: 0 0 5px 0 !important;
+                    }
+                    
+                        ol.notes li:last-child {
+                            margin: 0;
+                        }
+                
+                #container #disqus_thread #dsq-content #dsq-new-post.dsq-post-area h3,
+                #container #disqus_thread #dsq-content #dsq-new-post.dsq-post-area .dsq-dc-logo,
+                #container #disqus_thread #dsq-content td.dsq-request-user-name small,
+                #container #disqus_thread #dsq-content td.dsq-request-user-stats,
+                #container #disqus_thread #dsq-content .dsq-sharing-options,
+                #container #disqus_thread #dsq-content .dsq-comments-title,
+                #container #disqus_thread #dsq-content .dsq-options,
+                #container #disqus_thread #dsq-content .dsq-thread-settings,
+                #container #disqus_thread #dsq-content .dsq-comments-title,
+                #container #disqus_thread #dsq-content .dsq-comments-title h3 {
+                    display: none;
+                }
+                        
+                #container .column.right .navigation {
+                    padding: 0 0 20px 39px;
+                    overflow: hidden;
+                }
+
+                    #container .column.right .navigation.permalink {
+                        padding: 20px 0 0 0;
+                    }
+                
+                    #container .column.right .navigation .count {
+                        float: left;
+                    }
+                    
+                    #container .column.right .navigation a {
+                        margin: 0 0 0 30px;
+                        float: right;
+                    }
+                    
+                    #container .column.right .navigation a.permalink {
+                        font-size: 18px;
+                        border-right: 1px solid #ededed;
+                        margin: 0 15px 0 0;
+                        padding: 0 15px 0 0;
+                        display: block;
+                        float: left;
+                    }
+                    
+                    #container .column.right .navigation input {
+                        width: 200px;
+                        color: #a8a8a8;
+                        line-height: 20px;
+                        border-width: 0px;
+                        margin: 0 auto;
+                    }
+                
+        .footer {
+            color: #a9a9a9;
+            font-size: 12px;
+            line-height: 54px;
+            border-top: 3px double #cfcfcf;
+        }
+        
+            .footer a {
+                color: #a9a9a9;
+            }
+        
+            #container form.search {
+                width: 215px;
+                border-right: 1px solid #ededed;
+                margin: 0 30px 0 0;
+                padding: 15px 30px 0 0;
+                
+                overflow: hidden;
+                float: left;
+                display: block;
+            }
+
+                #container form.search input.text {
+                    width: 178px;
+                    color: #383838;
+                    font-size: 12px;
+                    border: 1px solid #ccc;
+                    border-radius: 3px;
+                        -webkit-border-radius: 3px;
+                        -moz-border-radius: 3px;
+                    padding: 3px 4px;
+                    float: left;
+                }
+
+                #container form.search button {
+                    width: 18px;
+                    height: 18px;
+                    border-width: 0px;
+                    background: url(http://static.tumblr.com/thpaaos/8pCkxc79r/icon_search.png);
+                    margin: 4px 0 0 0;
+                    float: right;
+                }
+
+                    #container form.search button:hover {
+                        cursor: pointer;
+                    }
+                    
+                #container .footer span.credit {
+                
+                }
+            
+                #container .footer .copyright {
+                    float: right;
+                }
+                
+            #container .flickr {
+                height: 106px;
+                position: relative;
+            }
+
+                #container .flickr ul#flickr_feed {
+                    border-top: 1px solid #cfcfcf;
+                    position: absolute;
+                    top: 0px;
+                    left: 0px;
+                    overflow: hidden;
+                }
+            
+                    #container .flickr ul#flickr_feed li {
+                        list-style-type: none;
+                        border-right: 1px solid #ededed;
+                        margin: 0;
+                        padding: 17px 17px 0 17px;
+                        float: left;
+                    }
+                    
+                        #container .flickr ul#flickr_feed li:first-child { padding-left: 0; }
+                        #container .flickr ul#flickr_feed li:last-child {
+                            border-right-width: 0px;
+                            padding-right: 0;
+                        }
+                
+                        #container .flickr ul#flickr_feed li img {
+                            width: 132px;
+                        }
+                                                                     
+	    
+	</style>  		 	
+	
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.0/jquery.min.js"></script>
+	<script type="text/javascript" src="http://static.tumblr.com/q9z1v7k/dgEkijh8r/cufon-yui.js"></script>
+	<script type="text/javascript" src="http://static.tumblr.com/thpaaos/dp1kzhzvk/league-gothic.font.js"></script>
+    <script type="text/javascript" src="http://static.tumblr.com/thpaaos/VuCkze94z/youtube.js">/*
+    	Widescreen YouTube Embeds by Matthew Buchanan & Hayden Hunter
+    	http://matthewbuchanan.name/451892574
+    	http://blog.haydenhunter.me
+
+    	Released under a Creative Commons attribution license:
+    	http://creativecommons.org/licenses/by/3.0/nz/
+    */</script>
+    <script type="text/javascript">
+        Cufon.replace('h1', { textShadow: '#dfdfdf 3px 3px 0px' });
+    </script>
+
+    
+<meta name="robots" content="noindex"/></head>
+<body>
+    <!-- Tumblr Theme #8943 -->
+
+    <div id="container">  		 	
+        <div class="black_top">
+            <a href="http://jeffrock.com/rss"><img src="http://static.tumblr.com/thpaaos/uCikzk032/icon_rss.png" /></a>
+            <a href="/archive"><img src="http://static.tumblr.com/thpaaos/VgMkzk03o/icon_archive.png" /></a>
+        </div>
+        
+        
+        
+        <div class="header">
+            <h1><a href="/">Jeff Rock</a></h1>
+            <span class="flag">A Tumblr Blog<div class="left"></div><div class="right"></div></span>
+            <a href="/"><img src="http://static.tumblr.com/jpuh7yf/Xd7ld16wb/jeffrock.png" /></a>
+        </div>
+        
+        <div style="overflow: hidden; background: url(http://static.tumblr.com/thpaaos/WOLkzjf7w/column_line.png) repeat-y; border-top: 1px solid #cfcfcf">
+            <div class="column left">
+                <div class="section content description">
+                    Co-founder of <a href="http://mobelux.com">Mobelux</a>. I love <a href="http://jeffrock.com/tagged/beer">good beer</a> and hate <a href="http://jeffrock.com/tagged/zapfino">Zapfino</a>.<br />
+<br />
+Looking for Dashboard Radio? <a href="http://jeffrock.com/dashboardradio">Get it here!</a>
+                </div>
+                
+                
+                
+                <div class="section content ask_and_submit">
+                    <a href="/ask" class="ask">Ask me anything</a>
+                    
+                    
+                </div>
+                
+                
+                
+                
+                
+                <div class="section with_title" id="only_show_twitter_if_it_loads" style="display: none">
+                    <h3>twitter.com/jeff_rock</h3>
+                    <div class="content twitter" id="twitterwrapper"></div>
+                </div>
+                
+                
+                
+                
+                
+                
+                <div class="section with_title likes">
+                    <h3 style="text-transform:uppercase;">Liked posts</h3>
+                    <div class="content">
+                        <ul id="likes">
+<li class="like_post like_text_post">
+        
+            <div class="post_info_top" style="display:none;"><a href="http://staff.tumblr.com/post/2352354860/getting-ready-for-2011">Post</a> <span class="via">via</span> <a href="http://staff.tumblr.com/">staff</a></div>
+    
+            
+                    <div class="like_title">
+                Getting ready for 2011            </div>
+        
+        
+<p>This has been an incredible year for Tumblr. What started as a fun experiment has grown into one of the largest networks on...</p>        
+        
+            <div class="post_info_bottom" style="display:none;"><a href="http://staff.tumblr.com/post/2352354860/getting-ready-for-2011">Post</a> <span class="via">via</span> <a href="http://staff.tumblr.com/">staff</a></div>
+        
+    </li>
+<li class="like_post like_photo_post">
+        
+            <div class="post_info_top" style="display:none;"><a href="http://camh.tumblr.com/post/2351904599/a-what">Photo</a> <span class="via">via</span> <a href="http://camh.tumblr.com/">camh</a></div>
+    
+            
+                    <a href="http://camh.tumblr.com/post/2351904599/a-what">
+                    <img class="like_photo" alt=""
+                        src="http://27.media.tumblr.com/tumblr_ldlfod18cx1qzprmho1_250.png"/>
+        </a>
+        <div class="like_below_photo"></div>
+
+                    <div class="like_caption">
+                <p>A what?</p>            </div>   
+                
+        
+            <div class="post_info_bottom" style="display:none;"><a href="http://camh.tumblr.com/post/2351904599/a-what">Photo</a> <span class="via">via</span> <a href="http://camh.tumblr.com/">camh</a></div>
+        
+    </li>
+<li class="like_post like_text_post">
+        
+            <div class="post_info_top" style="display:none;"><a href="http://jephkelley.tumblr.com/post/2348973410/the-best-of-2010-part-1">Post</a> <span class="via">via</span> <a href="http://jephkelley.tumblr.com/">jephkelley</a></div>
+    
+            
+                    <div class="like_title">
+                The Best Of 2010, Part 1            </div>
+        
+        
+<p>The other day I put out a list of the <a href="http://twitter.com/#!/JephKelley/top-10-in-2010/members">Top 10 Funniest Tweeters</a>, peoples who have obviously dedicated a large part of their...</p>        
+        
+            <div class="post_info_bottom" style="display:none;"><a href="http://jephkelley.tumblr.com/post/2348973410/the-best-of-2010-part-1">Post</a> <span class="via">via</span> <a href="http://jephkelley.tumblr.com/">jephkelley</a></div>
+        
+    </li>
+<li class="like_post like_quote_post">
+        
+            <div class="post_info_top" style="display:none;"><a href="http://log.scifihifi.com/post/2348978639/by-providing-us-with-new-ways-to-share-what-were">Quote</a> <span class="via">via</span> <a href="http://log.scifihifi.com/">buzzandersen</a></div>
+    
+            <div class="like_quote">
+            <span class="like_left_quote">&#8220;</span><span class="like_quote">By providing us with new ways to share what we’re doing right now, the real-time web also captures something we might not have created otherwise: a...</span><span class="like_right_quote">&#8221;</span>
+        </div>
+
+                
+        
+            <div class="post_info_bottom" style="display:none;"><a href="http://log.scifihifi.com/post/2348978639/by-providing-us-with-new-ways-to-share-what-were">Quote</a> <span class="via">via</span> <a href="http://log.scifihifi.com/">buzzandersen</a></div>
+        
+    </li>
+<li class="like_post like_text_post">
+        
+            <div class="post_info_top" style="display:none;"><a href="http://micahtcollins.com/post/2347878061/discovered-a-touch-ui-shortcut-on-iphone-4-ipad">Post</a> <span class="via">via</span> <a href="http://micahtcollins.com/">micahtcollins</a></div>
+    
+            
+        
+        
+<p>Discovered a touch UI shortcut on iPhone 4. (iPad and iPhone 3GS don’t seem privy)</p> <p>Many probably know about tapping the status bar (I.e. The clock)...</p>        
+        
+            <div class="post_info_bottom" style="display:none;"><a href="http://micahtcollins.com/post/2347878061/discovered-a-touch-ui-shortcut-on-iphone-4-ipad">Post</a> <span class="via">via</span> <a href="http://micahtcollins.com/">micahtcollins</a></div>
+        
+    </li></ul>
+                    </div>
+                </div>
+                
+                
+                
+            </div>
+            
+            <div class="column right">
+                <ul>
+                    
+                    
+                    
+                    <li class="post">
+                        
+                        <div class="post_header">
+                            <a href="http://jeffrock.com/post/2303040384/chet">December 13, 2010</a>
+                            <a href="http://jeffrock.com/post/2303040384/chet">2:36 pm</a>
+                        </div>
+                        
+                        <div class="content">
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            <h2><a href="http://jeffrock.com/post/2303040384/chet" class="text_title">Chet</a></h2>
+                            <p><p>I&#8217;m pretty picky about where I get gas. I shouldn&#8217;t be. It&#8217;s all contributing to the same central issue. And picking one vendor over another is a lot like choosing tater tots over fries. I mean, you&#8217;re still sucking grease, right? So I pretty much stay away from BP (for obvious reasons) and any station that can&#8217;t be bothered to fill the wiper troths. But there&#8217;s a new menace in town.</p>
+
+<p>The unholy plastic abortion that is Chet<sup id="fnref:p2303040384-1"><a href="#fn:p2303040384-1" rel="footnote">1</a></sup>.</p>
+
+<p><img src="http://media.tumblr.com/tumblr_lddsxfBav31qz8acg.png" alt=""/></p>
+
+<p>I&#8217;ve recently encountered Chet at the only gas station near my house that doesn&#8217;t look like it&#8217;s run by necromancers. If you haven&#8217;t had the pleasure of experiencing Chet, let me describe the bliss. After you complete your transaction and reach for the gas gun, Chet screams into your ear at full volume. Like a close talker with Asberger&#8217;s syndrome, he has no regard for personal space or appropriate level.</p>
+
+<p>&#8220;DON&#8217;T YOU WANT A COKE? IT&#8221;S ONLY 99¢! HOW ABOUT A PORK DOG? DO YOU HAVE A MILLERMART AWESOMESAUCE REWARDS CARD? YOU&#8217;ll GET FREE EMAILS ABOUT SPECIALS ON CHEEZEBURGER-FLAVORED DORITOS AND BACON-FLAVORED CHEESE DIP!&#8221;</p>
+
+<p>You flip the little metal kickstand on the trigger into place and turn around. Desperately, you mash the mute button to make the shrieking stop. But that would be way, way too easy. As you descend into the second ring of force-fed marketing hell, you realize that they&#8217;ve figured out how to engineer a button that <em>looks</em> like a blister button, but has no down state. And it&#8217;s on a 2-3 second delay. This creates a situation where you press the button and the audio continues to spew out of the loudspeaker. Baffled, you tap mute again. Perhaps a third time. Then the audio stops. And just as you exhale, it registers the second tap and unmutes Chet. Rinse and repeat. So as you pummel the area that appears to be the only way to make it all stop, you&#8217;re actually recycling the command over, and over, and over. Pure fucking evil.</p>
+
+<p>But Chet highlights a larger issue. Chet is kind of our fault.</p>
+
+<p>We&#8217;ve let advertising invade even the most mundane and inappropriate parts of our lives. When I was a kid and you went to the movies you paid a premium for straight entertainment. $7 bought you a seat where you could chit-chat in the low light until the previews started. Not anymore. Now, for $12 the entire auditorium is force-exposed to the latest lowbrow, bro-humor light beer ad until the previews start 7 minutes late. And yet we still keep paying. In the late 70&#8217;s the idea behind cable was that for an decent fee you could buy your way out of watching ads. Over the next 3 decades the commercials not only worked their way in, but became more frequent. And yet we still keep paying. As we continue to vote with our wallets we&#8217;re letting advertisers know that it&#8217;s ok to mercilessly shill to us, no matter where we are or what we&#8217;re doing. Which leads me back to Chet. Now, anywhere we&#8217;re standing still for more than 10 seconds has become a prime marketing opportunity.</p>
+
+<p>The only glimmer of hope is in that photo. <em>Look at that mute button</em>. The plastic worn away from repetitive mashing, saturated with the grime of a thousand filthy fingertips. This is the proof that we&#8217;re not ok with this. This is what rebellion looks like. Given the chance, we choose to mute. Maybe, one day we&#8217;ll finally get angry enough to start silencing some of the white noise. I&#8217;m not sure if that day will ever come, but if it does, Chet would be a great place to start.</p>
+
+<div class="footnotes">
+<hr>
+<ol>
+<li id="fn:p2303040384-1">
+<p>Why Chet? I once met a guy that was the worst kind of douchebag. Drove an H2. Drank ultralight beer. Said &#8216;babe&#8217; a lot. He was the VP of marketing for a company that made enterprise internet filtering software. His name was Chet. <a href="#fnref:p2303040384-1" rev="footnote">↩</a></p>
+</li>
+
+</ol>
+</div></p>
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                        </div>
+                        <div class="post_footer">
+                            
+                            <a href="http://jeffrock.com/post/2303040384/chet" class="note_count" title="This post has 18 notes from other Tumblr users">18 notes</a>
+                            
+                            
+                        </div>
+                        
+                        <div class="separator"></div>
+                        
+                        
+                        
+                        
+                    </li>
+                    
+                    <li class="post">
+                        
+                        <div class="post_header">
+                            <a href="http://jeffrock.com/post/2126435833/first">December 6, 2010</a>
+                            <a href="http://jeffrock.com/post/2126435833/first">6:27 pm</a>
+                        </div>
+                        
+                        <div class="content">
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            <h2><a href="http://jeffrock.com/post/2126435833/first" class="text_title"></a></h2>
+                            <p><p>FIRST!</p></p>
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                        </div>
+                        <div class="post_footer">
+                            
+                            <a href="http://jeffrock.com/post/2126435833/first" class="note_count" title="This post has 14 notes from other Tumblr users">14 notes</a>
+                            
+                            <span class="tags">Filed under: &nbsp;<a href="http://jeffrock.com/tagged/Tumblrpocalypse" class="tag">Tumblrpocalypse<span class="tag_comma">,</span></a>.</span>
+                        </div>
+                        
+                        <div class="separator"></div>
+                        
+                        
+                        
+                        
+                    </li>
+                    
+                    <li class="post">
+                        
+                        <div class="post_header">
+                            <a href="http://jeffrock.com/post/1432339806">October 29, 2010</a>
+                            <a href="http://jeffrock.com/post/1432339806">12:03 pm</a>
+                        </div>
+                        
+                        <div class="content">
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            <h2><a href="http://chipotle.tumblr.com/post/1432038656/geek-luddites" class="link" >App Consoles <span>&rarr;</span></a></h2>
+                            <p><p><a href="http://chipotle.tumblr.com/post/1432038656/geek-luddites" class="tumblr_blog">Watts Martin</a>:</p>
+
+<blockquote>
+  <p>For the vast majority of users the model of the app console—think game console, but not just for games—is simply better. The iPad is an app console, and the Macs of next year will be, too. And the PCs of the year after that. (Any PC gamer who’s purchased things from Steam is already arguably using this model.)</p>
+  
+  <p>&#8230;</p>
+  
+  <p>Likewise, there will always be some way to program even the most console-eist app console that comes along: app consoles need programs. In fact, it’s much more important to computer/console makers to ensure this access than it is for car manufacturers. Even the iPad, for all the heat it takes on this front, isn’t that difficult for someone to write programs for.</p>
+</blockquote>
+
+<p>Great perspective. Bottom line: even in a world where the majority of computing is done on an app console there will always be a need for people and tools that make apps and consoles.</p></p>
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                        </div>
+                        <div class="post_footer" style="padding-top: 4px;">
+                            <a href="http://chipotle.tumblr.com/post/1432038656/geek-luddites" class="reblog_icon" title="Reblogged from Coyote Tracks"></a>
+                            <a href="http://jeffrock.com/post/1432339806" class="note_count" title="This post has 140 notes from other Tumblr users">140 notes</a>
+                            
+                            
+                        </div>
+                        
+                        <div class="separator"></div>
+                        
+                        
+                        
+                        
+                    </li>
+                    
+                    <li class="post">
+                        
+                        <div class="post_header">
+                            <a href="http://jeffrock.com/post/1398461265">October 25, 2010</a>
+                            <a href="http://jeffrock.com/post/1398461265">10:27 am</a>
+                        </div>
+                        
+                        <div class="content">
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            <h2><a href="http://jeffrock.com/post/1398461265" class="text_title">No More Dock Lights</a></h2>
+                            <p><p><a href="http://www.macrumors.com/2010/10/25/mac-os-x-lion-notes-ios-scroll-bars-any-corner-resizing-dock-changes/">Arnold Kim</a>:</p>
+
+<blockquote>
+  <p>A couple of other new features that Apple glossed over during the presentation was &#8220;Auto Save&#8221; and &#8220;Apps resume when launched&#8221;. As a result of these new features, it appears that Mac applications are no longer depicted as launched or unlaunched in the Mac OS X Dock.</p>
+</blockquote>
+
+<p>Interesting. So the applications in your Dock will no longer indicate state. Does that mean that Mac OS X applications are going to require default start-up images like iOS apps to convey instant-on? Looks like the Dock bounce may be going the way of the buffalo.</p></p>
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                        </div>
+                        <div class="post_footer">
+                            
+                            <a href="http://jeffrock.com/post/1398461265" class="note_count" title="This post has 7 notes from other Tumblr users">7 notes</a>
+                            
+                            
+                        </div>
+                        
+                        <div class="separator"></div>
+                        
+                        
+                        
+                        
+                    </li>
+                    
+                    <li class="post">
+                        
+                        <div class="post_header">
+                            <a href="http://jeffrock.com/post/1368154937">October 21, 2010</a>
+                            <a href="http://jeffrock.com/post/1368154937">4:26 pm</a>
+                        </div>
+                        
+                        <div class="content">
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            <div class="chat_line"><strong><a href="http://tumblrbot.tumblr.com/" class="asker">tumblrbot</a>:</strong>&nbsp;&nbsp;WHERE WOULD YOU MOST LIKE TO VISIT ON YOUR PLANET?</div>
+                            <p><p>Your secret lair. You do <em>have</em> a secret lair, don&#8217;t you?</p></p>
+                            
+                            
+                            
+                            
+                            
+                        </div>
+                        <div class="post_footer">
+                            
+                            <a href="http://jeffrock.com/post/1368154937" class="note_count" title="This post has 10 notes from other Tumblr users">10 notes</a>
+                            
+                            
+                        </div>
+                        
+                        <div class="separator"></div>
+                        
+                        
+                        
+                        
+                    </li>
+                    
+                    <li class="post">
+                        
+                        <div class="post_header">
+                            
+                            <a href="http://jeffrock.com/post/1366710567">11:37 am</a>
+                        </div>
+                        
+                        <div class="content">
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            <h2><a href="http://jeffrock.com/post/1366710567" class="text_title">Down the Memory Hole</a></h2>
+                            <p><p>During the Apple Fourth Quarter Results Conference Call, Steve Jobs made a rather curious redirection:</p>
+
+<blockquote>
+  <p><em>Audience question: Any updates on your stance on Flash?</em></p>
+  
+  <p>Jobs: Flash memory? We love flash memory.</p>
+</blockquote>
+
+<p>The gentleman that asked that question was obviously referring to Adobe Flash, which Steve Jobs infamously discredited in <a href="http://www.apple.com/hotnews/thoughts-on-flash/">an open letter</a> last spring. At a surface level, his cheeky retort seemed harmless enough. But it seems like it may not have been a joke. Check out <a href="http://www.apple.com/macbookair/">the promo pages for the new MacBook Air</a>. It&#8217;s covered with copy and images that, well, look like this:</p>
+
+<p><img src="http://media.tumblr.com/tumblr_lanbcinsTr1qz8acg.jpg" alt=""/></p>
+
+<p><img src="http://media.tumblr.com/tumblr_lanc0fNs2q1qz8acg.png" alt=""/></p>
+
+<p>Like the Ministry of Truth, it appears that Apple is deliberately attempting to usurp the meaning of the word Flash in the computing industry and redefine it. They&#8217;re tired of the word standing for an inefficient browser plugin. They&#8217;ve begun <a href="http://www.engadget.com/2010/10/20/macbook-air-all-substance-no-flash/">leaving Flash out of stock Mac OS X installs</a>. They&#8217;re dodging its implied meaning in calls and pushing what they want it to refer to. Fast, efficient storage.</p>
+
+<p>Down the memory hole, indeed.</p></p>
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                        </div>
+                        <div class="post_footer">
+                            
+                            <a href="http://jeffrock.com/post/1366710567" class="note_count" title="This post has 111 notes from other Tumblr users">111 notes</a>
+                            
+                            
+                        </div>
+                        
+                        <div class="separator"></div>
+                        
+                        
+                        
+                        
+                    </li>
+                    
+                    <li class="post">
+                        
+                        <div class="post_header">
+                            <a href="http://jeffrock.com/post/1352190641">October 19, 2010</a>
+                            <a href="http://jeffrock.com/post/1352190641">1:17 pm</a>
+                        </div>
+                        
+                        <div class="content">
+                            
+                            <a href="http://www.npr.org/templates/story/story.php?storyId=130646919&amp;sc=tumblr&amp;cc=freshair"><img src="http://27.media.tumblr.com/tumblr_lajow5btV61qd9dz2o1_500.jpg" alt="NPR Fresh Air:
+
+Director Lee Unkrich, on coming up with the idea for Toy Story 3 after he accidentally threw out his wife&rsquo;s stuffed animals: &ldquo;About a month after we moved, [my wife] asked me if I had seen her beloved   stuffed animals, and I said, &lsquo;What box were they in?&rsquo; And she said,  &lsquo;They  weren&rsquo;t in a box. They were in a garbage bag.&rsquo; And my blood  instantly ran  ice cold. I immediately realized what had  happened: I had thrown all of her  stuffed animals away in the dumpster  behind our building. I feel  terrible to this day that that happened,  but I do hope that by  immortalizing that moment in the movie, that [her  stuffed animals] have  somehow been immortalized themselves.&rdquo;
+
+From tragedy, art." style="margin: 0 0 2px 0" /></a>
+                            <small class="gray high_res"><a href="http://jeffrock.com/photo/1280/1352190641/1/tumblr_lajow5btV61qd9dz2" target="_blank">View high resolution <div class="download"></div></a></small>
+                            
+                            <p><p><a href="http://nprfreshair.tumblr.com/post/1351886986/director-lee-unkrich-on-coming-up-with-the-idea" class="tumblr_blog">NPR Fresh Air</a>:</p>
+
+<blockquote><p><strong>Director Lee Unkrich, on coming up with <a href="http://www.npr.org/templates/story/story.php?storyId=130646919&amp;sc=tumblr&amp;cc=freshair">the idea for Toy Story 3</a> after he accidentally threw out his wife’s stuffed animals:</strong> “About a month after we moved, [my wife] asked me if I had seen her beloved   stuffed animals, and I said, ‘What box were they in?’ And she said,  ‘They  weren’t in a box. They were in a garbage bag.’ And my blood  instantly ran  ice cold. I immediately realized what had  happened: I had thrown all of her  stuffed animals away in the dumpster  behind our building. I feel  terrible to this day that that happened,  but I do hope that by  immortalizing that moment in the movie, that [her  stuffed animals] have  somehow been immortalized themselves.”</p></blockquote>
+
+<p>From tragedy, art.</p></p>
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                        </div>
+                        <div class="post_footer" style="padding-top: 4px;">
+                            <a href="http://nprfreshair.tumblr.com/post/1351886986/director-lee-unkrich-on-coming-up-with-the-idea" class="reblog_icon" title="Reblogged from NPR Fresh Air"></a>
+                            <a href="http://jeffrock.com/post/1352190641" class="note_count" title="This post has 103 notes from other Tumblr users">103 notes</a>
+                            
+                            
+                        </div>
+                        
+                        <div class="separator"></div>
+                        
+                        
+                        
+                        
+                    </li>
+                    
+                    <li class="post">
+                        
+                        <div class="post_header">
+                            <a href="http://jeffrock.com/post/1306172688">October 13, 2010</a>
+                            <a href="http://jeffrock.com/post/1306172688">10:51 am</a>
+                        </div>
+                        
+                        <div class="content">
+                            
+                            <a href="http://ihomeaudio.com"><img src="http://25.media.tumblr.com/tumblr_la6y8aIXyZ1qzpetjo1_r2_500.png" alt="The Mobelux Blog:
+
+
+Mobelux Redesigns and Develops the New iHome Website
+
+And now, for something completely different. We redesigned and developed the brand new iHome website!
+
+While it was new territory for Mobelux to develop a custom CMS for a large online entity, based on prior development experience we felt like we were the right people for the job. On the design side we teamed up with the very talented Eddie Wilson to ensure world-class design and usability.
+
+Needless to say we&rsquo;re very proud of how the site came out. Go check it out for yourself!
+
+
+Great work everyone! And now for the important part. Launch party!"/></a>
+                            
+                            
+                            <p><p><a href="http://mobelux.tumblr.com/post/1306145668/mobelux-redesigns-and-develops-the-new-ihome" class="tumblr_blog">The Mobelux Blog</a>:</p>
+
+<blockquote>
+<h2>Mobelux Redesigns and Develops the New iHome Website</h2>
+
+<p>And now, for something <em>completely</em> different. We redesigned and developed the brand new iHome website!</p>
+
+<p>While it was new territory for Mobelux to develop a custom CMS for a large online entity, based on prior development experience we felt like we were the right people for the job. On the design side we teamed up with the very talented <a href="http://eddit.com">Eddie Wilson</a> to ensure world-class design and usability.</p>
+
+<p>Needless to say we’re very proud of how the site came out. <a href="http://ihomeaudio.com">Go check it out for yourself</a>!</p>
+</blockquote>
+
+<p>Great work everyone! And now for the important part. Launch party!</p></p>
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                        </div>
+                        <div class="post_footer" style="padding-top: 4px;">
+                            <a href="http://mobelux.tumblr.com/post/1306145668/mobelux-redesigns-and-develops-the-new-ihome" class="reblog_icon" title="Reblogged from Mobelux"></a>
+                            <a href="http://jeffrock.com/post/1306172688" class="note_count" title="This post has 31 notes from other Tumblr users">31 notes</a>
+                            
+                            
+                        </div>
+                        
+                        <div class="separator"></div>
+                        
+                        
+                        
+                        
+                    </li>
+                    
+                    <li class="post">
+                        
+                        <div class="post_header">
+                            <a href="http://jeffrock.com/post/1161649727">September 21, 2010</a>
+                            <a href="http://jeffrock.com/post/1161649727">10:52 am</a>
+                        </div>
+                        
+                        <div class="content">
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            <h2><a href="http://www.marco.org/1161306109" class="link" >Marco.org: Job transition <span>&rarr;</span></a></h2>
+                            <p><p><a href="http://www.marco.org/1161306109" class="tumblr_blog">Marco Arment</a>:</p>
+
+<blockquote>
+  <p>After four years of my serving as Tumblr’s lead developer, Tumblr’s technical management needs have evolved to require types of experience that I don’t have, and my independent career has offered a lot of opportunities that I haven’t had the time to take full advantage of.</p>
+  
+  <p>While Tumblr’s engineering team continues to grow, instead of continuing full-time, I’ll serve an active consulting role.</p>
+  
+  <p>It has been an invaluable experience to develop a product from just two users to one of the top 50 sites in the U.S., and I’m looking forward to staying close to this incredible team.</p>
+</blockquote>
+
+<p>In my relatively short time in the software development world, Marco is one of the most talented, intelligent people I&#8217;ve had the opportunity to meet. While I&#8217;m not sure what&#8217;s next for him, I can&#8217;t wait to see what it is.</p>
+
+<p>Good luck Marco, and congratulations!</p></p>
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                        </div>
+                        <div class="post_footer" style="padding-top: 4px;">
+                            <a href="http://www.marco.org/1161306109" class="reblog_icon" title="Reblogged from Marco.org"></a>
+                            <a href="http://jeffrock.com/post/1161649727" class="note_count" title="This post has 379 notes from other Tumblr users">379 notes</a>
+                            
+                            
+                        </div>
+                        
+                        <div class="separator"></div>
+                        
+                        
+                        
+                        
+                    </li>
+                    
+                    <li class="post">
+                        
+                        <div class="post_header">
+                            <a href="http://jeffrock.com/post/1093170824">September 9, 2010</a>
+                            <a href="http://jeffrock.com/post/1093170824">4:11 pm</a>
+                        </div>
+                        
+                        <div class="content">
+                            
+                            <a href="http://jeffrock.com/photo/1280/1093170824/1/tumblr_l8hxc1JD5M1qaqn99"><img src="http://28.media.tumblr.com/tumblr_l8hxc1JD5M1qaqn99o1_500.jpg" alt="Franklin:
+
+At the beach. Deal with it.
+
+OBX rule #1: don&amp;#8217;t mess with Frank&amp;#8217;s beach time." style="margin: 0 0 2px 0" /></a>
+                            <small class="gray high_res"><a href="http://jeffrock.com/photo/1280/1093170824/1/tumblr_l8hxc1JD5M1qaqn99" target="_blank">View high resolution <div class="download"></div></a></small>
+                            
+                            <p><p><a href="http://franklin.tumblr.com/post/1093162194/at-the-beach-deal-with-it" class="tumblr_blog">Franklin</a>:</p>
+
+<blockquote><p>At the beach. Deal with it.</p></blockquote>
+
+<p>OBX rule #1: don&#8217;t mess with Frank&#8217;s beach time.</p></p>
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                        </div>
+                        <div class="post_footer" style="padding-top: 4px;">
+                            <a href="http://franklin.tumblr.com/post/1093162194/at-the-beach-deal-with-it" class="reblog_icon" title="Reblogged from Franklin the Boston Terrier"></a>
+                            <a href="http://jeffrock.com/post/1093170824" class="note_count" title="This post has 21 notes from other Tumblr users">21 notes</a>
+                            
+                            
+                        </div>
+                        
+                        <div class="separator"></div>
+                        
+                        
+                        
+                        
+                    </li>
+                    
+                    <li class="post">
+                        
+                        <div class="post_header">
+                            <a href="http://jeffrock.com/post/1049799286">September 1, 2010</a>
+                            <a href="http://jeffrock.com/post/1049799286">5:58 pm</a>
+                        </div>
+                        
+                        <div class="content">
+                            
+                            <a href="http://consumerist.com/2010/09/when-will-the-college-tuition-bubble-burst.html"><img src="http://26.media.tumblr.com/tumblr_l82wl7InC21qzz62yo1_500.jpg" alt="markcoatney:
+
+
+publicradiointernational:
+
+swirlspice:
+
+dmdhashw:
+
+When Will The College Tuition Bubble Burst? | The Consumerist
+
+
+This seems important.&nbsp;
+
+This seems terrifying.&nbsp;
+
+
+That&amp;#8217;s because it is.
+
+We&amp;#8217;re becoming a nation full of poorly trained human capital that, quite ironically, doesn&amp;#8217;t understand the fundamentals of math.
+
+See also: Elizabeth Warren." style="margin: 0 0 2px 0" /></a>
+                            <small class="gray high_res"><a href="http://jeffrock.com/photo/1280/1049799286/1/tumblr_l82wl7InC21qzz62y" target="_blank">View high resolution <div class="download"></div></a></small>
+                            
+                            <p><p><a href="http://markcoatney.com/post/1049700781/publicradiointernational-swirlspice" class="tumblr_blog">markcoatney</a>:</p>
+
+<blockquote>
+<p><a href="http://publicradiointernational.tumblr.com/post/1049689864/swirlspice-dmdhashw-when-will-the-college">publicradiointernational</a>:</p>
+<blockquote>
+<p><a href="http://swirlspice.tumblr.com/post/1049143241/dmdhashw-when-will-the-college-tuition-bubble">swirlspice</a>:</p>
+<blockquote>
+<p><a href="http://dmdhashw.tumblr.com/post/1048698520/when-will-the-college-tuition-bubble-burst-the">dmdhashw</a>:</p>
+<blockquote>
+<p><a href="http://consumerist.com/2010/09/when-will-the-college-tuition-bubble-burst.html">When Will The College Tuition Bubble Burst? | The Consumerist</a></p>
+</blockquote>
+</blockquote>
+<p>This seems important. </p>
+</blockquote>
+<p>This seems terrifying. </p>
+</blockquote>
+
+<p>That&#8217;s because it is.</p>
+
+<p>We&#8217;re becoming a nation full of poorly trained human capital that, quite ironically, doesn&#8217;t understand the fundamentals of math.</p>
+
+<p><em>See also: <a href="http://jeffrock.com/post/1009418731/i-heart-my-art-the-coming-collapse-of-the">Elizabeth Warren</a>.</em></p></p>
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                        </div>
+                        <div class="post_footer" style="padding-top: 4px;">
+                            <a href="http://markcoatney.com/post/1049700781/publicradiointernational-swirlspice" class="reblog_icon" title="Reblogged from Still Not Going To Do This Every Day"></a>
+                            <a href="http://jeffrock.com/post/1049799286" class="note_count" title="This post has 71 notes from other Tumblr users">71 notes</a>
+                            
+                            
+                        </div>
+                        
+                        <div class="separator"></div>
+                        
+                        
+                        
+                        
+                    </li>
+                    
+                    <li class="post">
+                        
+                        <div class="post_header">
+                            
+                            <a href="http://jeffrock.com/post/1049204521">3:40 pm</a>
+                        </div>
+                        
+                        <div class="content">
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            <h2><a href="http://jeffrock.com/post/1049204521" class="text_title">The Best Thing Steve Didn&#8217;t Talk About in the Keynote</a></h2>
+                            <p><p>So you heard about AirPlay, right? Steve kind of glazed over it a little, but here&#8217;s one of the most amazing things about it: <a href="http://www.apple.com/itunes/airplay/">it&#8217;s actually a rebranded and licensed AirTunes</a>.</p>
+
+<p><img src="http://media.tumblr.com/tumblr_l832erCBhG1qz8acg.png" alt=""/></p>
+
+<p>That&#8217;s right. You don&#8217;t have to buy multiple AirPort Express basestations to support multiple speakers anymore. Now you can choose from products by JBL, iHome, Denon and others. That means your receiver can be a selectable source in iTunes, as well as the alarm clock next to your bed.</p></p>
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                        </div>
+                        <div class="post_footer">
+                            
+                            <a href="http://jeffrock.com/post/1049204521" class="note_count" title="This post has 29 notes from other Tumblr users">29 notes</a>
+                            
+                            
+                        </div>
+                        
+                        <div class="separator"></div>
+                        
+                        
+                        
+                        
+                    </li>
+                    
+                    <li class="post">
+                        
+                        <div class="post_header">
+                            <a href="http://jeffrock.com/post/1043559483">August 31, 2010</a>
+                            <a href="http://jeffrock.com/post/1043559483">2:58 pm</a>
+                        </div>
+                        
+                        <div class="content">
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            <h2><a href="http://9-bits.com/post/1043449304/i-want-a-stupid-7-inch-ipad" class="link" >I Want a Stupid 7-inch iPad <span>&rarr;</span></a></h2>
+                            <p><p><a href="http://9-bits.com/post/1043449304/i-want-a-stupid-7-inch-ipad">David Kaneda</a>:</p>
+
+<blockquote>
+  <p>If you upped the pixel density on a 7-inch iPad (132ppi) to that of a non-Retina iPhone (163 ppi), you get almost the exact same number of pixels. Put it this way: You could double the number of pixels on the current iPad, and still comfortably fit them in a Retina-display, 7-inch iPad. The current iPad’s battery, which constitutes the bulk of it’s weight/size, also lasts much longer than I need. With a smaller display, the loss of any battery space would go unnoticed.</p>
+</blockquote>
+
+<p>Put me in the camp that thinks a 7-inch iPad is a wonderful idea. But there&#8217;s not going to be a Retina Display version any time soon. That would mean the embedded hardware would be pushing nearly the same amount of pixels as the forthcoming <a href="http://www.apple.com/displays/">27-inch Cinema Display</a>. It wasn&#8217;t all that long ago that we could run a 2048 x 1536 display without a powerhouse video card.</p>
+
+<p>It&#8217;s more realistic to expect that the 10 and 7-inch iPads would share the same resolution (1024 x 768). The delta between screen sizes wouldn&#8217;t reduce tap targets too dramatically and the display would appear more dense and crisp. It would also have the added bonus of keeping developers from doing more somersaults to support yet <em>another</em> resolution standard, which all of us would appreciate greatly.</p></p>
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                        </div>
+                        <div class="post_footer" style="padding-top: 4px;">
+                            <a href="http://9-bits.com/post/1043449304/i-want-a-stupid-7-inch-ipad" class="reblog_icon" title="Reblogged from 9-Bits"></a>
+                            <a href="http://jeffrock.com/post/1043559483" class="note_count" title="This post has 28 notes from other Tumblr users">28 notes</a>
+                            
+                            <span class="tags">Filed under: &nbsp;<a href="http://jeffrock.com/tagged/iPad" class="tag">iPad<span class="tag_comma">,</span></a>.</span>
+                        </div>
+                        
+                        <div class="separator"></div>
+                        
+                        
+                        
+                        
+                    </li>
+                    
+                    <li class="post">
+                        
+                        <div class="post_header">
+                            <a href="http://jeffrock.com/post/1026822896">August 28, 2010</a>
+                            <a href="http://jeffrock.com/post/1026822896">4:17 pm</a>
+                        </div>
+                        
+                        <div class="content">
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            <div class="chat_line"><strong><a href="http://poshkitten.tumblr.com/" class="asker">poshkitten</a>:</strong>&nbsp;&nbsp;I&#039;m really confused about how dashboard radio works, so is there somewhere i can go to see how its suppose to work. Thank you :)</div>
+                            <p><ol>
+<li>Enter your Tumblr credentials in Safari &gt; Preferences &gt; Extensions tab &gt; Dashboard Radio.</li>
+<li>Click the Dashboard Radio button (it has a lowercase &#8216;r&#8217; in it).</li>
+<li>Wait for the tracks to buffer.</li>
+<li>Enjoy!</li>
+</ol>
+<p>There&#8217;s a FAQ at the bottom of this page if you&#8217;re still having issues:</p>
+
+<p><a href="http://jeffrock.com/dashboardradio">http://jeffrock.com/dashboardradio</a></p></p>
+                            
+                            
+                            
+                            
+                            
+                        </div>
+                        <div class="post_footer">
+                            
+                            <a href="http://jeffrock.com/post/1026822896" class="note_count" title="This post has 9 notes from other Tumblr users">9 notes</a>
+                            
+                            
+                        </div>
+                        
+                        <div class="separator"></div>
+                        
+                        
+                        
+                        
+                    </li>
+                    
+                    <li class="post">
+                        
+                        <div class="post_header">
+                            
+                            <a href="http://jeffrock.com/post/1026649392">3:36 pm</a>
+                        </div>
+                        
+                        <div class="content">
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            <div class="chat_line"><strong><a href="http://imho.me/" class="asker">kim</a>:</strong>&nbsp;&nbsp;The screenshots on the Staff blog of the Android Tumblr app shows Jacob liking a post by you about Last.fm. Is it about scrobbling on the Dashboard? If it is, where is it? Because I cant find it, and I want to like it.</div>
+                            <p><p>That like had to do with someone asking for Last.fm scrobbling support in the Safari Extension I wrote, <a href="http://jeffrock.com/dashboardradio">Dashboard Radio</a>. The original post it references is <a href="http://jeffrock.com/post/885962605/any-way-or-plan-to-add-last-fm-scrobbling-to-the">here</a>.</p></p>
+                            
+                            
+                            
+                            
+                            
+                        </div>
+                        <div class="post_footer">
+                            
+                            <a href="http://jeffrock.com/post/1026649392" class="note_count" title="This post has 7 notes from other Tumblr users">7 notes</a>
+                            
+                            
+                        </div>
+                        
+                        <div class="separator"></div>
+                        
+                        
+                        
+                        
+                    </li>
+                    
+                </ul>
+                
+                
+                <div class="navigation content">
+                    1 <em>of</em> 92
+                    <a href="/page/2" title="Next page">Next page</a>
+                    
+                </div>
+                
+            </div>
+        </div>
+        
+        <div class="footer">
+            
+            <form action="/search" method="get" class="search">
+                <input type="text" name="q" value="" class="text" />
+                <button type="submit"></button>
+            </form>
+            
+            
+            <span class="credit">
+                <a href="http://www.tumblr.com/theme/8943">"Well Liked"</a> by <a href="http://www.petervidani.com">Peter Vidani</a>.  For <a href="http://www.tumblr.com">Tumblr</a>.
+            </span>
+            
+            <div class="copyright">
+                &copy; 2008–2010 Jeff Rock
+            </div>
+        </div>
+        
+        
+    </div>
+    
+    
+    
+    
+    <script type="text/javascript">
+        function recent_tweets(data) {
+            for (i=0; i<data.length; i++) {
+                document.getElementById("twitterwrapper").innerHTML=document.getElementById("twitterwrapper").innerHTML+'<span>'+data[i].text+'&nbsp;<a href="http://twitter.com/jeff_rock/status/'+data[i].id+'">&rarr;</a></span>';
+            }
+            document.getElementById("only_show_twitter_if_it_loads").style.display = 'block';
+        }
+    </script>
+    <script type="text/javascript" src="/tweets.js"></script>
+    
+
+    
+    <script type="text/javascript">var gaJsHost=(("https:"==document.location.protocol)?"https://ssl.":"http://www.");document.write(unescape("%3Cscript src='"+gaJsHost+"google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));</script><script type="text/javascript">try{var pageTracker=_gat._getTracker("UA-3639606-1");pageTracker._trackPageview()}catch(err){}</script>
+    
+<!-- BEGIN TUMBLR CODE --><iframe src="http://assets.tumblr.com/iframe.html?8&src=http%3A%2F%2Fjeffrock.com%2F&amp;lang=en_US&amp;name=jeffrock&amp;brag=0" scrolling="no" width="324" height="25" frameborder="0" style="position:absolute; z-index:1337; top:0px; right:0px; border:0px; background-color:transparent; overflow:hidden;" id="tumblr_controls"></iframe><!--[if IE]><script type="text/javascript">document.getElementById('tumblr_controls').allowTransparency=true;</script><![endif]--><script type="text/javascript">_qoptions={qacct:"p-19UtqE8ngoZbM"};</script><script type="text/javascript" src="http://edge.quantserve.com/quant.js"></script><noscript><img src="http://pixel.quantserve.com/pixel/p-19UtqE8ngoZbM.gif" style="display:none; border-width:0px; height:1px; width:1px;" alt=""/></noscript><!-- END TUMBLR CODE --></body>  		 	
+<!--
+    This Tumblr Theme and all of its CSS, Javascript,
+    and media assets are subject to the "Premium Themes" 
+    agreement in Tumblr's Terms of Service:
+
+    http://www.tumblr.com/terms_of_service
+-->
+</html>
