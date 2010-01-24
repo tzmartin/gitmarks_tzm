@@ -1,0 +1,2170 @@
+ 
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+
+<title>Susan Stripling Photography</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<meta http-equiv="imagetoolbar" content="no">
+<meta name="keywords" content="blog, wedding, photography, wedding photojournalism, fahionable photojournalism, wedding, best wedding photographer, new york, brooklyn, tallahassee, florida, georgia, alabama, portraits, family portraits, portrait photography, on location, documentary, digital, online proofing, premier wedding photographer, new york, new york weddings, new york wedding photography, philadelphia, philadelphia wedding photography, philadelphia wedding, brooklyn wedding, brooklyn wedding photography, nikon, d3, d700">
+<meta name="description" content="Photo blog of the award-winning Susan Stripling Photography. Susan is available for wedding, portrait and other photographic work. Susan Stripling is based in Brooklyn, New York and is the premier fashion, photojournalistic and documentary wedding photographer in her area. She shoots weddings and portraiture throughout Florida and New York, as well as around the United States.">
+
+<link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="/rss/">
+<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+<link href="/includes/styles.css" rel="stylesheet" type="text/css">
+<script language="javascript" type="text/javascript" src="/includes/scripts.js"></script>
+<script language="javascript" type="text/javascript" src="/includes/swfobject.js"></script>
+<script language="javascript" type="text/javascript">
+function postFacebook(u,t) {
+	window.open('http://www.facebook.com/sharer.php?u='+u+'&t='+t,'sharer','toolbar=0,status=0,width=626,height=436');
+	return false;
+}
+</script>
+</head>
+<body>
+
+<table cellpadding="0" cellspacing="0"  border="0" id="categoriesSub" class="navsub" onMouseOver="clear_timeouts();" onMouseOut="popupoff();">
+<tr>
+	<td class="navsuboff" onMouseOver="this.className='navsubon';" onMouseOut="this.className='navsuboff';" onClick="location.href='/';" nowrap>View all posts</td>
+</tr>
+
+	<tr>
+		<td class="navsuboff" onMouseOver="this.className='navsubon';" onMouseOut="this.className='navsuboff';" onClick="location.href='/?catID=23&portraits';" nowrap>Portraits</td>
+	</tr>
+
+	<tr>
+		<td class="navsuboff" onMouseOver="this.className='navsubon';" onMouseOut="this.className='navsuboff';" onClick="location.href='/?catID=22&weddings';" nowrap>Weddings</td>
+	</tr>
+
+	<tr>
+		<td class="navsuboff" onMouseOver="this.className='navsubon';" onMouseOut="this.className='navsuboff';" onClick="location.href='/?catID=24&personal';" nowrap>Personal</td>
+	</tr>
+
+	<tr>
+		<td class="navsuboff" onMouseOver="this.className='navsubon';" onMouseOut="this.className='navsuboff';" onClick="location.href='/?catID=25&photographers';" nowrap>Photographers</td>
+	</tr>
+
+	<tr>
+		<td class="navsuboff" onMouseOver="this.className='navsubon';" onMouseOut="this.className='navsuboff';" onClick="location.href='/?catID=21&news';" nowrap>News</td>
+	</tr>
+
+	<tr>
+		<td class="navsuboff" onMouseOver="this.className='navsubon';" onMouseOut="this.className='navsuboff';" onClick="location.href='/?catID=26&information';" nowrap>Information</td>
+	</tr>
+
+<tr>
+	<td class="navsuboff"><img src="/images/spacer.gif" width="111" height="1" border="0"></td>
+</tr>
+</table>
+
+
+<table cellpadding="0" cellspacing="0"  border="0" id="galleriesSub" class="navsub" onMouseOver="clear_timeouts();" onMouseOut="popupoff();">
+
+	<tr>
+		<td class="navsuboff" onMouseOver="this.className='navsubon';" onMouseOut="this.className='navsuboff';" onClick="viewGallery(10);" nowrap>The Bride and Groom</td>
+	</tr>
+
+	<tr>
+		<td class="navsuboff" onMouseOver="this.className='navsubon';" onMouseOut="this.className='navsuboff';" onClick="viewGallery(3);" nowrap>Engagements</td>
+	</tr>
+
+	<tr>
+		<td class="navsuboff" onMouseOver="this.className='navsubon';" onMouseOut="this.className='navsuboff';" onClick="viewGallery(9);" nowrap>Brides</td>
+	</tr>
+
+	<tr>
+		<td class="navsuboff" onMouseOver="this.className='navsubon';" onMouseOut="this.className='navsuboff';" onClick="viewGallery(13);" nowrap>The Bride's Preparation</td>
+	</tr>
+
+	<tr>
+		<td class="navsuboff" onMouseOver="this.className='navsubon';" onMouseOut="this.className='navsuboff';" onClick="viewGallery(12);" nowrap>Ceremonies and Receptions</td>
+	</tr>
+
+	<tr>
+		<td class="navsuboff" onMouseOver="this.className='navsubon';" onMouseOut="this.className='navsuboff';" onClick="viewGallery(11);" nowrap>The Wedding Details</td>
+	</tr>
+
+	<tr>
+		<td class="navsuboff" onMouseOver="this.className='navsubon';" onMouseOut="this.className='navsuboff';" onClick="viewGallery(5);" nowrap>Wedding - New Orleans</td>
+	</tr>
+
+	<tr>
+		<td class="navsuboff" onMouseOver="this.className='navsubon';" onMouseOut="this.className='navsuboff';" onClick="viewGallery(6);" nowrap>Wedding - Martha's Vineyard</td>
+	</tr>
+
+	<tr>
+		<td class="navsuboff" onMouseOver="this.className='navsubon';" onMouseOut="this.className='navsuboff';" onClick="viewGallery(7);" nowrap>Wedding - Carolyn + Derek</td>
+	</tr>
+
+<tr>
+	<td class="navsuboff"><img src="/images/spacer.gif" width="102" height="1" border="0"></td>
+</tr>
+</table>
+
+
+<table cellpadding="0" cellspacing="0"  border="0" id="informationSub" class="navsub" onMouseOver="clear_timeouts();" onMouseOut="popupoff();">
+<tr>
+	<td class="navsuboff" onMouseOver="this.className='navsubon';" onMouseOut="this.className='navsuboff';" onClick="location.href='/?catID=30&weddings';" nowrap>Weddings</td>
+</tr>
+<tr>
+	<td class="navsuboff" onMouseOver="this.className='navsubon';" onMouseOut="this.className='navsuboff';" onClick="location.href='/?catID=31&portraits';" nowrap>Portraits</td>
+</tr>
+<tr>
+	<td class="navsuboff" onMouseOver="this.className='navsubon';" onMouseOut="this.className='navsuboff';" onClick="location.href='/?page=rates';" nowrap>Rates</td>
+</tr>
+<tr>
+	<td class="navsuboff" onMouseOver="this.className='navsubon';" onMouseOut="this.className='navsuboff';" onClick="location.href='/?catID=32&for-photographers';" nowrap>For Photographers</td>
+</tr>
+<tr>
+	<td class="navsuboff"><img src="/images/spacer.gif" width="84" height="1" border="0"></td>
+</tr>
+</table>
+
+
+
+<table width="100%" cellpadding="0" cellspacing="0" border="0">
+<tr>
+<td align="center">
+	
+		<div><script language="javascript" type="text/javascript">loadFlash("/images/ss-header4.swf?headerImages=SS2_7483.jpg", "100%", "292");</script></div>
+	
+	
+<table width="1030" cellpadding="0" cellspacing="0" border="0" align="center">
+<tr>
+	<td valign="top" background="/images/shadow-l.gif" class="alpha"><img src="/images/spacer.gif" width="15" height="1" border="0"></td>
+	<td valign="top" align="center" background="/images/body-bg.gif" bgcolor="#ffffff">
+		<table width="100%" cellpadding="0" cellspacing="0" border="0" bgcolor="#a59b93">
+		<tr>
+			<td><img src="/images/nav-l.gif" width="30" height="29" border="0"></td>
+			<td align="center">
+				<table width="940" cellpadding="0" cellspacing="0" border="0" bgcolor="#b3a9a1">
+				<tr>
+					<td>
+						<table cellpadding="0" cellspacing="0" border="0">
+						<tr>
+							<td><img src="/images/spacer.gif" width="20" height="1" border="0"></td>
+							<td><a href="javascript:;" onMouseOver="popupon('categories',55);" onMouseOut="popupoff();" style="cursor:default;"><img name="categories" src="/images/nav-categories-off.gif" width="111" height="21" border="0"></a></td>
+							<td><img src="/images/spacer.gif" width="35" height="1" border="0"></td>
+							<td><a href="javascript:;" onMouseOver="popupon('galleries',201);" onMouseOut="popupoff();" style="cursor:default;"><img name="galleries" src="/images/nav-galleries-off.gif" width="102" height="21" border="0"></a></td>
+							<td><img src="/images/spacer.gif" width="35" height="1" border="0"></td>
+							<td><a href="/?catID=28&about-susan" onMouseOver="popupon('about',0);" onMouseOut="popupoff();"><img name="about" src="/images/nav-about-off.gif" width="87" height="21" border="0"></a></td>
+							<td><img src="/images/spacer.gif" width="35" height="1" border="0"></td>
+							<td><a href="javascript:;" onMouseOver="popupon('information',460);" onMouseOut="popupoff();" style="cursor:default;"><img name="information" src="/images/nav-information-off.gif" width="84" height="21" border="0"></a></td>
+							<td><img src="/images/spacer.gif" width="35" height="1" border="0"></td>
+							<td><a href="https://secure.susanstripling.com/pickpic3/gallery/jump.php" target="_blank" onMouseOver="popupon('proofing',0);" onMouseOut="popupoff();"><img name="proofing" src="/images/nav-proofing-off.gif" width="62" height="21" border="0"></a></td>
+							<td><img src="/images/spacer.gif" width="35" height="1" border="0"></td>
+							<td><a href="/?page=contact" onMouseOver="popupon('contact',0);" onMouseOut="popupoff();"><img name="contact" src="/images/nav-contact-off.gif" width="59" height="21" border="0"></a></td>
+							
+						</tr>
+						</table>
+					</td>
+					<td align="right">
+						<table cellpadding="0" cellspacing="0" border="0">
+						<form name="searchForm" action="/index.cfm">
+						<tr>
+							<td><input type="text" name="q" size="10" maxlength="25" class="searchField" value=""></td>
+							<td><img src="/images/spacer.gif" width="14" height="1" border="0"></td>
+							<td><input type="image" src="/images/nav-search-off.gif" width="46" height="21" border="0" onMouseOver="this.src='/images/nav-search-over.gif';" onMouseOut="this.src='/images/nav-search-off.gif';"></td>
+							<td><img src="/images/spacer.gif" width="20" height="1" border="0"></td>
+						</tr>
+						</form>
+						</table>
+					</td>
+				</tr>
+				</table>
+			</td>
+			<td align="right"><img src="/images/nav-r.gif" width="30" height="29" border="0"></td>
+		</tr>
+		</table>
+		<img src="/images/spacer.gif" width="1000" height="15" border="0"><br>
+		
+		
+			<table width="900" cellpadding="0" cellspacing="0" border="0">
+			<tr>
+				<td style="font-size:11px; text-transform:lowercase;">
+					
+						&nbsp;<br>
+						
+					
+				</td>
+			</tr>
+			</table>
+			<img src="/images/spacer.gif" width="1" height="15" border="0"><br>
+			
+			
+				
+				
+				
+				
+				
+				
+				
+				
+					
+					
+					<table width="1000" cellpadding="0" cellspacing="0" border="0" bgcolor="#e0f3f7">
+					<tr>
+						<td><img src="/images/title-l.gif" width="50" height="32" border="0"></td>
+						<td>
+							<table width="900" cellpadding="0" cellspacing="0" border="0">
+							<tr>
+								<td><div id="titleText367" class="title">the think book : THE RECEPTION ISSUE available now!</div></td>
+								
+									<td align="right" class="date">09.09.10 &nbsp;:&nbsp; <a href="/?catID=25&photographers" class="date">Photographers</a></td>
+								
+							</tr>
+							</table>
+						</td>
+						<td align="right"><img src="/images/title-r.gif" width="50" height="32" border="0"></td>
+					</tr>
+					</table>
+					<img src="/images/spacer.gif" width="1" height="30" border="0"><br>
+					
+					<script language="javascript" type="text/javascript">
+					var so367 = new SWFObject("/images/titles.swf", "titleText367", "700", "32", "8", "#e0f3f7");
+					so367.addVariable("titleText", "THE%20THINK%20BOOK%20%3A%20THE%20RECEPTION%20ISSUE%20AVAILABLE%20NOW%21");
+					so367.addParam("wmode", "transparent");
+					so367.write("titleText367");
+					</script>
+					
+					
+						
+						
+					
+					
+					
+						
+							<table width="900" cellpadding="0" cellspacing="0" border="0">
+							<tr>
+								<td>i'm so pleased to introduce <b>the think book</b>, a downloadable PDF magazine for photographers...with <b>SEVEN</b> issues now available!<br><br><b><a href="http://www.e-junkie.com/susanstripling" target="_blank">to view our e-store and order click here!</a></b><br><br>you can also go to the "for photographers" page on this site and read more as well as download a small preview of issue six!  <a href="http://www.susanstriplingblog.com/?catID=32&for-photographers" target="_blank">to do so just click here!</a><br><br>this think book is different from those past because while issues one through six just deal with wedding by wedding issues, this one deals <b>only with receptions</b>.  it covers everything from reception details to on and off-camera lighting to nighttime portraits, first dances, toasts, table shots, cocktail hours, and more.  the book is 53 pages long and is $35.  you can buy all seven issues together for $225.  <br><br>ENJOY!</td>
+							</tr>
+							</table>
+							<img src="/images/spacer.gif" width="1" height="20" border="0"><br>
+						
+						
+					
+					
+					<table width="900" cellpadding="0" cellspacing="0" border="0">
+					<tr>
+						
+							
+							<td>
+								<table cellpadding="0" cellspacing="0" border="0">
+								<tr>
+									<td>
+										<div id="commentsShow367"><a href="javascript:viewComments(367);"><img src="/images/btn-view-comments-off.gif" width="109" height="19" border="0" onMouseOver="this.src='/images/btn-view-comments-over.gif';" onMouseOut="this.src='/images/btn-view-comments-off.gif';"></a></div>
+										<div id="commentsHide367" style="display:none;"><a href="javascript:viewComments(367);"><img src="/images/btn-hide-comments-off.gif" width="109" height="19" border="0" onMouseOver="this.src='/images/btn-hide-comments-over.gif';" onMouseOut="this.src='/images/btn-hide-comments-off.gif';"></a></div>
+									</td>
+									<td class="date" style="font-size:10px;color:#90bbc7;">11</td>
+								</tr>
+								</table>
+							</td>
+						
+						<td align="right">
+							<table cellpadding="0" cellspacing="0" border="0">
+							<tr>
+								
+									<td><a href="/?postID=367&the-think-book-the-reception-issue-available-now"><img src="/images/btn-link-off.gif" width="108" height="19" border="0" onMouseOver="this.src='/images/btn-link-over.gif';" onMouseOut="this.src='/images/btn-link-off.gif';"></a></td>
+								
+								<td><img src="/images/spacer.gif" width="45" height="1" border="0"></td>
+								<td><a href="mailto:?subject=Susan%20Stripling%20Photography%20Blog&body=Check%20out%20this%20post%3A%20http%3A%2F%2Fwww%2Esusanstriplingblog%2Ecom%2F%3FpostID%3D367%26the%2Dthink%2Dbook%2Dthe%2Dreception%2Dissue%2Davailable%2Dnow"><img src="/images/btn-send-off.gif" width="107" height="19" border="0" onMouseOver="this.src='/images/btn-send-over.gif';" onMouseOut="this.src='/images/btn-send-off.gif';"></a></td>
+								
+									<td><img src="/images/spacer.gif" width="45" height="1" border="0"></td>
+									<td><a href="/?catID=25&photographers"><img src="/images/btn-view-more-off.gif" width="164" height="19" border="0" onMouseOver="this.src='/images/btn-view-more-over.gif';" onMouseOut="this.src='/images/btn-view-more-off.gif';"></a></td>
+								
+								<td><img src="/images/spacer.gif" width="20" height="1" border="0"></td>
+								<td><a href="http://www.facebook.com/share.php?u=http%3A%2F%2Fwww%2Esusanstriplingblog%2Ecom%2F%3FpostID%3D367%26the%2Dthink%2Dbook%2Dthe%2Dreception%2Dissue%2Davailable%2Dnow" onclick="return postFacebook('http%3A%2F%2Fwww%2Esusanstriplingblog%2Ecom%2F%3FpostID%3D367%26the%2Dthink%2Dbook%2Dthe%2Dreception%2Dissue%2Davailable%2Dnow', 'the%20think%20book%20%3A%20THE%20RECEPTION%20ISSUE%20available%20now%21');" target="_blank" title="Post to Facebook"><img src="/images/icon-facebook.gif" width="11" height="19" border="0"></a></td>
+								<td><img src="/images/spacer.gif" width="10" height="1" border="0"></td>
+								<td><a href="http://twitter.com/home?status=the%20think%20book%20%3A%20THE%20RECEPTION%20ISSUE%20available%20now%21%3A%20http%3A%2F%2Fwww%2Esusanstriplingblog%2Ecom%2F%3FpostID%3D367%26the%2Dthink%2Dbook%2Dthe%2Dreception%2Dissue%2Davailable%2Dnow" target="_blank" title="Post to Twitter"><img src="/images/icon-twitter.gif" width="11" height="19" border="0"></a></td>
+							</tr>
+							</table>
+						</td>
+					</tr>
+					</table>
+					
+						<div id="commentDiv367" style="display:none;">
+						<table width="900" cellpadding="0" cellspacing="0" border="0">
+						<tr>
+							<td>
+								<img src="/images/spacer.gif" width="1" height="5" border="0"><br>
+								<iframe name="commentFrame367" src="/comments_view.cfm?postID=367" width="900" height="120" scrolling="auto" frameborder="0" hspace="0" vspace="0" marginheight="0" marginwidth="0">Your browser doesn't support inline comment display.  <a href="/comments_view.cfm?postID=367" target="_blank">Click here to view the comments.</a></iframe><br>
+								<img src="/images/spacer.gif" width="1" height="5" border="0"><br>
+								<a href="javascript:addComment(367);"><img src="/images/btn-add-comment-off.gif" width="102" height="19" border="0" onMouseOver="this.src='/images/btn-add-comment-over.gif';" onMouseOut="this.src='/images/btn-add-comment-off.gif';"></a><br>
+							</td>
+						</tr>
+						</table>
+						</div>
+					
+					<img src="/images/spacer.gif" width="1" height="60" border="0"><br>
+				
+					
+					
+					<table width="1000" cellpadding="0" cellspacing="0" border="0" bgcolor="#e0f3f7">
+					<tr>
+						<td><img src="/images/title-l.gif" width="50" height="32" border="0"></td>
+						<td>
+							<table width="900" cellpadding="0" cellspacing="0" border="0">
+							<tr>
+								<td><div id="titleText386" class="title">emma + livvy</div></td>
+								
+									<td align="right" class="date">12.01.10 &nbsp;:&nbsp; <a href="/?catID=24&personal" class="date">Personal</a></td>
+								
+							</tr>
+							</table>
+						</td>
+						<td align="right"><img src="/images/title-r.gif" width="50" height="32" border="0"></td>
+					</tr>
+					</table>
+					<img src="/images/spacer.gif" width="1" height="30" border="0"><br>
+					
+					<script language="javascript" type="text/javascript">
+					var so386 = new SWFObject("/images/titles.swf", "titleText386", "700", "32", "8", "#e0f3f7");
+					so386.addVariable("titleText", "EMMA%20%2B%20LIVVY");
+					so386.addParam("wmode", "transparent");
+					so386.write("titleText386");
+					</script>
+					
+					
+						
+						
+					
+					
+					
+						
+							<table width="900" cellpadding="0" cellspacing="0" border="0">
+							<tr>
+								<td>2 daughters + 1 ipad + iphone = amusing evening and unexpectedly good light.<br></td>
+							</tr>
+							</table>
+							<img src="/images/spacer.gif" width="1" height="20" border="0"><br>
+						
+						
+							
+								<div align="center" style="width:940px;height:auto;overflow:hidden;">
+								<table width="100" cellpadding="0" cellspacing="0" border="0">
+								<tr>
+									<td><img src="/images/edge-tl.gif" width="14" height="14" border="0"></td>
+									<td background="/images/edge-t.gif"><img src="/images/edge-t.gif" width="1" height="14" border="0"></td>
+									<td><img src="/images/edge-tr.gif" width="14" height="14" border="0"></td>
+								</tr>
+								<tr>
+									<td background="/images/edge-l.gif"><img src="/images/edge-l.gif" width="14" height="1" border="0"></td>
+									<td width="72"><img src="/images/content/DSC_8670.jpg" border="0" onAbort="this.src='/images/content/DSC_8670.jpg';"></td>
+									<td background="/images/edge-r.gif"><img src="/images/edge-r.gif" width="14" height="1" border="0"></td>
+								</tr>
+								<tr>
+									<td valign="top"><img src="/images/edge-bl.gif" width="14" height="14" border="0"></td>
+									<td background="/images/edge-b.gif"><img src="/images/edge-b.gif" width="1" height="14" border="0"></td>
+									<td valign="top"><img src="/images/edge-br.gif" width="14" height="14" border="0"></td>
+								</tr>
+								</table>
+								</div>
+							
+							<img src="/images/spacer.gif" width="1" height="20" border="0"><br>
+						
+					
+					
+					<table width="900" cellpadding="0" cellspacing="0" border="0">
+					<tr>
+						
+							
+							<td>
+								<table cellpadding="0" cellspacing="0" border="0">
+								<tr>
+									<td>
+										<div id="commentsShow386"><a href="javascript:viewComments(386);"><img src="/images/btn-view-comments-off.gif" width="109" height="19" border="0" onMouseOver="this.src='/images/btn-view-comments-over.gif';" onMouseOut="this.src='/images/btn-view-comments-off.gif';"></a></div>
+										<div id="commentsHide386" style="display:none;"><a href="javascript:viewComments(386);"><img src="/images/btn-hide-comments-off.gif" width="109" height="19" border="0" onMouseOver="this.src='/images/btn-hide-comments-over.gif';" onMouseOut="this.src='/images/btn-hide-comments-off.gif';"></a></div>
+									</td>
+									<td class="date" style="font-size:10px;color:#90bbc7;">5</td>
+								</tr>
+								</table>
+							</td>
+						
+						<td align="right">
+							<table cellpadding="0" cellspacing="0" border="0">
+							<tr>
+								
+									<td><a href="/?postID=386&emma-livvy"><img src="/images/btn-link-off.gif" width="108" height="19" border="0" onMouseOver="this.src='/images/btn-link-over.gif';" onMouseOut="this.src='/images/btn-link-off.gif';"></a></td>
+								
+								<td><img src="/images/spacer.gif" width="45" height="1" border="0"></td>
+								<td><a href="mailto:?subject=Susan%20Stripling%20Photography%20Blog&body=Check%20out%20this%20post%3A%20http%3A%2F%2Fwww%2Esusanstriplingblog%2Ecom%2F%3FpostID%3D386%26emma%2Dlivvy"><img src="/images/btn-send-off.gif" width="107" height="19" border="0" onMouseOver="this.src='/images/btn-send-over.gif';" onMouseOut="this.src='/images/btn-send-off.gif';"></a></td>
+								
+									<td><img src="/images/spacer.gif" width="45" height="1" border="0"></td>
+									<td><a href="/?catID=24&personal"><img src="/images/btn-view-more-off.gif" width="164" height="19" border="0" onMouseOver="this.src='/images/btn-view-more-over.gif';" onMouseOut="this.src='/images/btn-view-more-off.gif';"></a></td>
+								
+								<td><img src="/images/spacer.gif" width="20" height="1" border="0"></td>
+								<td><a href="http://www.facebook.com/share.php?u=http%3A%2F%2Fwww%2Esusanstriplingblog%2Ecom%2F%3FpostID%3D386%26emma%2Dlivvy" onclick="return postFacebook('http%3A%2F%2Fwww%2Esusanstriplingblog%2Ecom%2F%3FpostID%3D386%26emma%2Dlivvy', 'emma%20%2B%20livvy');" target="_blank" title="Post to Facebook"><img src="/images/icon-facebook.gif" width="11" height="19" border="0"></a></td>
+								<td><img src="/images/spacer.gif" width="10" height="1" border="0"></td>
+								<td><a href="http://twitter.com/home?status=emma%20%2B%20livvy%3A%20http%3A%2F%2Fwww%2Esusanstriplingblog%2Ecom%2F%3FpostID%3D386%26emma%2Dlivvy" target="_blank" title="Post to Twitter"><img src="/images/icon-twitter.gif" width="11" height="19" border="0"></a></td>
+							</tr>
+							</table>
+						</td>
+					</tr>
+					</table>
+					
+						<div id="commentDiv386" style="display:none;">
+						<table width="900" cellpadding="0" cellspacing="0" border="0">
+						<tr>
+							<td>
+								<img src="/images/spacer.gif" width="1" height="5" border="0"><br>
+								<iframe name="commentFrame386" src="/comments_view.cfm?postID=386" width="900" height="120" scrolling="auto" frameborder="0" hspace="0" vspace="0" marginheight="0" marginwidth="0">Your browser doesn't support inline comment display.  <a href="/comments_view.cfm?postID=386" target="_blank">Click here to view the comments.</a></iframe><br>
+								<img src="/images/spacer.gif" width="1" height="5" border="0"><br>
+								<a href="javascript:addComment(386);"><img src="/images/btn-add-comment-off.gif" width="102" height="19" border="0" onMouseOver="this.src='/images/btn-add-comment-over.gif';" onMouseOut="this.src='/images/btn-add-comment-off.gif';"></a><br>
+							</td>
+						</tr>
+						</table>
+						</div>
+					
+					<img src="/images/spacer.gif" width="1" height="60" border="0"><br>
+				
+					
+					
+					<table width="1000" cellpadding="0" cellspacing="0" border="0" bgcolor="#e0f3f7">
+					<tr>
+						<td><img src="/images/title-l.gif" width="50" height="32" border="0"></td>
+						<td>
+							<table width="900" cellpadding="0" cellspacing="0" border="0">
+							<tr>
+								<td><div id="titleText385" class="title">the tyson family</div></td>
+								
+									<td align="right" class="date">11.29.10 &nbsp;:&nbsp; <a href="/?catID=23&portraits" class="date">Portraits</a></td>
+								
+							</tr>
+							</table>
+						</td>
+						<td align="right"><img src="/images/title-r.gif" width="50" height="32" border="0"></td>
+					</tr>
+					</table>
+					<img src="/images/spacer.gif" width="1" height="30" border="0"><br>
+					
+					<script language="javascript" type="text/javascript">
+					var so385 = new SWFObject("/images/titles.swf", "titleText385", "700", "32", "8", "#e0f3f7");
+					so385.addVariable("titleText", "THE%20TYSON%20FAMILY");
+					so385.addParam("wmode", "transparent");
+					so385.write("titleText385");
+					</script>
+					
+					
+						
+						
+					
+					
+					
+						
+							<table width="900" cellpadding="0" cellspacing="0" border="0">
+							<tr>
+								<td>tallahassee, florida.  (i love you guys!)<br></td>
+							</tr>
+							</table>
+							<img src="/images/spacer.gif" width="1" height="20" border="0"><br>
+						
+						
+							
+								<div align="center" style="width:940px;height:auto;overflow:hidden;">
+								<table width="100" cellpadding="0" cellspacing="0" border="0">
+								<tr>
+									<td><img src="/images/edge-tl.gif" width="14" height="14" border="0"></td>
+									<td background="/images/edge-t.gif"><img src="/images/edge-t.gif" width="1" height="14" border="0"></td>
+									<td><img src="/images/edge-tr.gif" width="14" height="14" border="0"></td>
+								</tr>
+								<tr>
+									<td background="/images/edge-l.gif"><img src="/images/edge-l.gif" width="14" height="1" border="0"></td>
+									<td width="72"><img src="/images/content/ACF76B7.jpg" border="0" onAbort="this.src='/images/content/ACF76B7.jpg';"></td>
+									<td background="/images/edge-r.gif"><img src="/images/edge-r.gif" width="14" height="1" border="0"></td>
+								</tr>
+								<tr>
+									<td valign="top"><img src="/images/edge-bl.gif" width="14" height="14" border="0"></td>
+									<td background="/images/edge-b.gif"><img src="/images/edge-b.gif" width="1" height="14" border="0"></td>
+									<td valign="top"><img src="/images/edge-br.gif" width="14" height="14" border="0"></td>
+								</tr>
+								</table>
+								</div>
+							
+							<img src="/images/spacer.gif" width="1" height="20" border="0"><br>
+						
+					
+						
+						
+							
+								<div align="center" style="width:940px;height:auto;overflow:hidden;">
+								<table width="100" cellpadding="0" cellspacing="0" border="0">
+								<tr>
+									<td><img src="/images/edge-tl.gif" width="14" height="14" border="0"></td>
+									<td background="/images/edge-t.gif"><img src="/images/edge-t.gif" width="1" height="14" border="0"></td>
+									<td><img src="/images/edge-tr.gif" width="14" height="14" border="0"></td>
+								</tr>
+								<tr>
+									<td background="/images/edge-l.gif"><img src="/images/edge-l.gif" width="14" height="1" border="0"></td>
+									<td width="72"><img src="/images/content/ACF76B8.jpg" border="0" onAbort="this.src='/images/content/ACF76B8.jpg';"></td>
+									<td background="/images/edge-r.gif"><img src="/images/edge-r.gif" width="14" height="1" border="0"></td>
+								</tr>
+								<tr>
+									<td valign="top"><img src="/images/edge-bl.gif" width="14" height="14" border="0"></td>
+									<td background="/images/edge-b.gif"><img src="/images/edge-b.gif" width="1" height="14" border="0"></td>
+									<td valign="top"><img src="/images/edge-br.gif" width="14" height="14" border="0"></td>
+								</tr>
+								</table>
+								</div>
+							
+							<img src="/images/spacer.gif" width="1" height="20" border="0"><br>
+						
+					
+						
+						
+							
+								<div align="center" style="width:940px;height:auto;overflow:hidden;">
+								<table width="100" cellpadding="0" cellspacing="0" border="0">
+								<tr>
+									<td><img src="/images/edge-tl.gif" width="14" height="14" border="0"></td>
+									<td background="/images/edge-t.gif"><img src="/images/edge-t.gif" width="1" height="14" border="0"></td>
+									<td><img src="/images/edge-tr.gif" width="14" height="14" border="0"></td>
+								</tr>
+								<tr>
+									<td background="/images/edge-l.gif"><img src="/images/edge-l.gif" width="14" height="1" border="0"></td>
+									<td width="72"><img src="/images/content/ACF76B9.jpg" border="0" onAbort="this.src='/images/content/ACF76B9.jpg';"></td>
+									<td background="/images/edge-r.gif"><img src="/images/edge-r.gif" width="14" height="1" border="0"></td>
+								</tr>
+								<tr>
+									<td valign="top"><img src="/images/edge-bl.gif" width="14" height="14" border="0"></td>
+									<td background="/images/edge-b.gif"><img src="/images/edge-b.gif" width="1" height="14" border="0"></td>
+									<td valign="top"><img src="/images/edge-br.gif" width="14" height="14" border="0"></td>
+								</tr>
+								</table>
+								</div>
+							
+							<img src="/images/spacer.gif" width="1" height="20" border="0"><br>
+						
+					
+						
+						
+							
+								<div align="center" style="width:940px;height:auto;overflow:hidden;">
+								<table width="100" cellpadding="0" cellspacing="0" border="0">
+								<tr>
+									<td><img src="/images/edge-tl.gif" width="14" height="14" border="0"></td>
+									<td background="/images/edge-t.gif"><img src="/images/edge-t.gif" width="1" height="14" border="0"></td>
+									<td><img src="/images/edge-tr.gif" width="14" height="14" border="0"></td>
+								</tr>
+								<tr>
+									<td background="/images/edge-l.gif"><img src="/images/edge-l.gif" width="14" height="1" border="0"></td>
+									<td width="72"><img src="/images/content/ACF76BA.jpg" border="0" onAbort="this.src='/images/content/ACF76BA.jpg';"></td>
+									<td background="/images/edge-r.gif"><img src="/images/edge-r.gif" width="14" height="1" border="0"></td>
+								</tr>
+								<tr>
+									<td valign="top"><img src="/images/edge-bl.gif" width="14" height="14" border="0"></td>
+									<td background="/images/edge-b.gif"><img src="/images/edge-b.gif" width="1" height="14" border="0"></td>
+									<td valign="top"><img src="/images/edge-br.gif" width="14" height="14" border="0"></td>
+								</tr>
+								</table>
+								</div>
+							
+							<img src="/images/spacer.gif" width="1" height="20" border="0"><br>
+						
+					
+						
+						
+							
+								<div align="center" style="width:940px;height:auto;overflow:hidden;">
+								<table width="100" cellpadding="0" cellspacing="0" border="0">
+								<tr>
+									<td><img src="/images/edge-tl.gif" width="14" height="14" border="0"></td>
+									<td background="/images/edge-t.gif"><img src="/images/edge-t.gif" width="1" height="14" border="0"></td>
+									<td><img src="/images/edge-tr.gif" width="14" height="14" border="0"></td>
+								</tr>
+								<tr>
+									<td background="/images/edge-l.gif"><img src="/images/edge-l.gif" width="14" height="1" border="0"></td>
+									<td width="72"><img src="/images/content/ACF76BB.jpg" border="0" onAbort="this.src='/images/content/ACF76BB.jpg';"></td>
+									<td background="/images/edge-r.gif"><img src="/images/edge-r.gif" width="14" height="1" border="0"></td>
+								</tr>
+								<tr>
+									<td valign="top"><img src="/images/edge-bl.gif" width="14" height="14" border="0"></td>
+									<td background="/images/edge-b.gif"><img src="/images/edge-b.gif" width="1" height="14" border="0"></td>
+									<td valign="top"><img src="/images/edge-br.gif" width="14" height="14" border="0"></td>
+								</tr>
+								</table>
+								</div>
+							
+							<img src="/images/spacer.gif" width="1" height="20" border="0"><br>
+						
+					
+						
+						
+							
+								<div align="center" style="width:940px;height:auto;overflow:hidden;">
+								<table width="100" cellpadding="0" cellspacing="0" border="0">
+								<tr>
+									<td><img src="/images/edge-tl.gif" width="14" height="14" border="0"></td>
+									<td background="/images/edge-t.gif"><img src="/images/edge-t.gif" width="1" height="14" border="0"></td>
+									<td><img src="/images/edge-tr.gif" width="14" height="14" border="0"></td>
+								</tr>
+								<tr>
+									<td background="/images/edge-l.gif"><img src="/images/edge-l.gif" width="14" height="1" border="0"></td>
+									<td width="72"><img src="/images/content/ACF76BC.jpg" border="0" onAbort="this.src='/images/content/ACF76BC.jpg';"></td>
+									<td background="/images/edge-r.gif"><img src="/images/edge-r.gif" width="14" height="1" border="0"></td>
+								</tr>
+								<tr>
+									<td valign="top"><img src="/images/edge-bl.gif" width="14" height="14" border="0"></td>
+									<td background="/images/edge-b.gif"><img src="/images/edge-b.gif" width="1" height="14" border="0"></td>
+									<td valign="top"><img src="/images/edge-br.gif" width="14" height="14" border="0"></td>
+								</tr>
+								</table>
+								</div>
+							
+							<img src="/images/spacer.gif" width="1" height="20" border="0"><br>
+						
+					
+						
+						
+							
+								<div align="center" style="width:940px;height:auto;overflow:hidden;">
+								<table width="100" cellpadding="0" cellspacing="0" border="0">
+								<tr>
+									<td><img src="/images/edge-tl.gif" width="14" height="14" border="0"></td>
+									<td background="/images/edge-t.gif"><img src="/images/edge-t.gif" width="1" height="14" border="0"></td>
+									<td><img src="/images/edge-tr.gif" width="14" height="14" border="0"></td>
+								</tr>
+								<tr>
+									<td background="/images/edge-l.gif"><img src="/images/edge-l.gif" width="14" height="1" border="0"></td>
+									<td width="72"><img src="/images/content/ACF76BD.jpg" border="0" onAbort="this.src='/images/content/ACF76BD.jpg';"></td>
+									<td background="/images/edge-r.gif"><img src="/images/edge-r.gif" width="14" height="1" border="0"></td>
+								</tr>
+								<tr>
+									<td valign="top"><img src="/images/edge-bl.gif" width="14" height="14" border="0"></td>
+									<td background="/images/edge-b.gif"><img src="/images/edge-b.gif" width="1" height="14" border="0"></td>
+									<td valign="top"><img src="/images/edge-br.gif" width="14" height="14" border="0"></td>
+								</tr>
+								</table>
+								</div>
+							
+							<img src="/images/spacer.gif" width="1" height="20" border="0"><br>
+						
+					
+						
+						
+							
+								<div align="center" style="width:940px;height:auto;overflow:hidden;">
+								<table width="100" cellpadding="0" cellspacing="0" border="0">
+								<tr>
+									<td><img src="/images/edge-tl.gif" width="14" height="14" border="0"></td>
+									<td background="/images/edge-t.gif"><img src="/images/edge-t.gif" width="1" height="14" border="0"></td>
+									<td><img src="/images/edge-tr.gif" width="14" height="14" border="0"></td>
+								</tr>
+								<tr>
+									<td background="/images/edge-l.gif"><img src="/images/edge-l.gif" width="14" height="1" border="0"></td>
+									<td width="72"><img src="/images/content/ACF76BE.jpg" border="0" onAbort="this.src='/images/content/ACF76BE.jpg';"></td>
+									<td background="/images/edge-r.gif"><img src="/images/edge-r.gif" width="14" height="1" border="0"></td>
+								</tr>
+								<tr>
+									<td valign="top"><img src="/images/edge-bl.gif" width="14" height="14" border="0"></td>
+									<td background="/images/edge-b.gif"><img src="/images/edge-b.gif" width="1" height="14" border="0"></td>
+									<td valign="top"><img src="/images/edge-br.gif" width="14" height="14" border="0"></td>
+								</tr>
+								</table>
+								</div>
+							
+							<img src="/images/spacer.gif" width="1" height="20" border="0"><br>
+						
+					
+						
+						
+							
+								<div align="center" style="width:940px;height:auto;overflow:hidden;">
+								<table width="100" cellpadding="0" cellspacing="0" border="0">
+								<tr>
+									<td><img src="/images/edge-tl.gif" width="14" height="14" border="0"></td>
+									<td background="/images/edge-t.gif"><img src="/images/edge-t.gif" width="1" height="14" border="0"></td>
+									<td><img src="/images/edge-tr.gif" width="14" height="14" border="0"></td>
+								</tr>
+								<tr>
+									<td background="/images/edge-l.gif"><img src="/images/edge-l.gif" width="14" height="1" border="0"></td>
+									<td width="72"><img src="/images/content/ACF76BF.jpg" border="0" onAbort="this.src='/images/content/ACF76BF.jpg';"></td>
+									<td background="/images/edge-r.gif"><img src="/images/edge-r.gif" width="14" height="1" border="0"></td>
+								</tr>
+								<tr>
+									<td valign="top"><img src="/images/edge-bl.gif" width="14" height="14" border="0"></td>
+									<td background="/images/edge-b.gif"><img src="/images/edge-b.gif" width="1" height="14" border="0"></td>
+									<td valign="top"><img src="/images/edge-br.gif" width="14" height="14" border="0"></td>
+								</tr>
+								</table>
+								</div>
+							
+							<img src="/images/spacer.gif" width="1" height="20" border="0"><br>
+						
+					
+					
+					<table width="900" cellpadding="0" cellspacing="0" border="0">
+					<tr>
+						
+							
+							<td>
+								<table cellpadding="0" cellspacing="0" border="0">
+								<tr>
+									<td>
+										<div id="commentsShow385"><a href="javascript:viewComments(385);"><img src="/images/btn-view-comments-off.gif" width="109" height="19" border="0" onMouseOver="this.src='/images/btn-view-comments-over.gif';" onMouseOut="this.src='/images/btn-view-comments-off.gif';"></a></div>
+										<div id="commentsHide385" style="display:none;"><a href="javascript:viewComments(385);"><img src="/images/btn-hide-comments-off.gif" width="109" height="19" border="0" onMouseOver="this.src='/images/btn-hide-comments-over.gif';" onMouseOut="this.src='/images/btn-hide-comments-off.gif';"></a></div>
+									</td>
+									<td class="date" style="font-size:10px;color:#90bbc7;">16</td>
+								</tr>
+								</table>
+							</td>
+						
+						<td align="right">
+							<table cellpadding="0" cellspacing="0" border="0">
+							<tr>
+								
+									<td><a href="/?postID=385&the-tyson-family"><img src="/images/btn-link-off.gif" width="108" height="19" border="0" onMouseOver="this.src='/images/btn-link-over.gif';" onMouseOut="this.src='/images/btn-link-off.gif';"></a></td>
+								
+								<td><img src="/images/spacer.gif" width="45" height="1" border="0"></td>
+								<td><a href="mailto:?subject=Susan%20Stripling%20Photography%20Blog&body=Check%20out%20this%20post%3A%20http%3A%2F%2Fwww%2Esusanstriplingblog%2Ecom%2F%3FpostID%3D385%26the%2Dtyson%2Dfamily"><img src="/images/btn-send-off.gif" width="107" height="19" border="0" onMouseOver="this.src='/images/btn-send-over.gif';" onMouseOut="this.src='/images/btn-send-off.gif';"></a></td>
+								
+									<td><img src="/images/spacer.gif" width="45" height="1" border="0"></td>
+									<td><a href="/?catID=23&portraits"><img src="/images/btn-view-more-off.gif" width="164" height="19" border="0" onMouseOver="this.src='/images/btn-view-more-over.gif';" onMouseOut="this.src='/images/btn-view-more-off.gif';"></a></td>
+								
+								<td><img src="/images/spacer.gif" width="20" height="1" border="0"></td>
+								<td><a href="http://www.facebook.com/share.php?u=http%3A%2F%2Fwww%2Esusanstriplingblog%2Ecom%2F%3FpostID%3D385%26the%2Dtyson%2Dfamily" onclick="return postFacebook('http%3A%2F%2Fwww%2Esusanstriplingblog%2Ecom%2F%3FpostID%3D385%26the%2Dtyson%2Dfamily', 'the%20tyson%20family');" target="_blank" title="Post to Facebook"><img src="/images/icon-facebook.gif" width="11" height="19" border="0"></a></td>
+								<td><img src="/images/spacer.gif" width="10" height="1" border="0"></td>
+								<td><a href="http://twitter.com/home?status=the%20tyson%20family%3A%20http%3A%2F%2Fwww%2Esusanstriplingblog%2Ecom%2F%3FpostID%3D385%26the%2Dtyson%2Dfamily" target="_blank" title="Post to Twitter"><img src="/images/icon-twitter.gif" width="11" height="19" border="0"></a></td>
+							</tr>
+							</table>
+						</td>
+					</tr>
+					</table>
+					
+						<div id="commentDiv385" style="display:none;">
+						<table width="900" cellpadding="0" cellspacing="0" border="0">
+						<tr>
+							<td>
+								<img src="/images/spacer.gif" width="1" height="5" border="0"><br>
+								<iframe name="commentFrame385" src="/comments_view.cfm?postID=385" width="900" height="120" scrolling="auto" frameborder="0" hspace="0" vspace="0" marginheight="0" marginwidth="0">Your browser doesn't support inline comment display.  <a href="/comments_view.cfm?postID=385" target="_blank">Click here to view the comments.</a></iframe><br>
+								<img src="/images/spacer.gif" width="1" height="5" border="0"><br>
+								<a href="javascript:addComment(385);"><img src="/images/btn-add-comment-off.gif" width="102" height="19" border="0" onMouseOver="this.src='/images/btn-add-comment-over.gif';" onMouseOut="this.src='/images/btn-add-comment-off.gif';"></a><br>
+							</td>
+						</tr>
+						</table>
+						</div>
+					
+					<img src="/images/spacer.gif" width="1" height="60" border="0"><br>
+				
+					
+					
+					<table width="1000" cellpadding="0" cellspacing="0" border="0" bgcolor="#e0f3f7">
+					<tr>
+						<td><img src="/images/title-l.gif" width="50" height="32" border="0"></td>
+						<td>
+							<table width="900" cellpadding="0" cellspacing="0" border="0">
+							<tr>
+								<td><div id="titleText384" class="title">maureen + george</div></td>
+								
+									<td align="right" class="date">11.22.10 &nbsp;:&nbsp; <a href="/?catID=22&weddings" class="date">Weddings</a></td>
+								
+							</tr>
+							</table>
+						</td>
+						<td align="right"><img src="/images/title-r.gif" width="50" height="32" border="0"></td>
+					</tr>
+					</table>
+					<img src="/images/spacer.gif" width="1" height="30" border="0"><br>
+					
+					<script language="javascript" type="text/javascript">
+					var so384 = new SWFObject("/images/titles.swf", "titleText384", "700", "32", "8", "#e0f3f7");
+					so384.addVariable("titleText", "MAUREEN%20%2B%20GEORGE");
+					so384.addParam("wmode", "transparent");
+					so384.write("titleText384");
+					</script>
+					
+					
+						
+						
+					
+					
+					
+						
+							<table width="900" cellpadding="0" cellspacing="0" border="0">
+							<tr>
+								<td>new brunswick and cinnaminson, new jersey<br><br>wedding : <a href="http://www.saint-mary.net/" target="_blank">saint mary coptic orthodox church</a><br>reception : <a href="http://www.themerion.com" target="_blank">the merion</a><br>entertainment : <a href="http://www.platwed.com" target="_blank">platinum entertainment</a><br>floral design : <a href="http://www.twistedwillowflowers.com" target="_blank">twisted willow flowers</a><br></td>
+							</tr>
+							</table>
+							<img src="/images/spacer.gif" width="1" height="20" border="0"><br>
+						
+						
+							
+								<div align="center" style="width:940px;height:auto;overflow:hidden;">
+								<table width="100" cellpadding="0" cellspacing="0" border="0">
+								<tr>
+									<td><img src="/images/edge-tl.gif" width="14" height="14" border="0"></td>
+									<td background="/images/edge-t.gif"><img src="/images/edge-t.gif" width="1" height="14" border="0"></td>
+									<td><img src="/images/edge-tr.gif" width="14" height="14" border="0"></td>
+								</tr>
+								<tr>
+									<td background="/images/edge-l.gif"><img src="/images/edge-l.gif" width="14" height="1" border="0"></td>
+									<td width="72"><img src="/images/content/ACFF765.jpg" border="0" onAbort="this.src='/images/content/ACFF765.jpg';" alt="wedding photography the merion cinnaminson new jersey coptic church" name="wedding photography the merion cinnaminson new jersey coptic church"></td>
+									<td background="/images/edge-r.gif"><img src="/images/edge-r.gif" width="14" height="1" border="0"></td>
+								</tr>
+								<tr>
+									<td valign="top"><img src="/images/edge-bl.gif" width="14" height="14" border="0"></td>
+									<td background="/images/edge-b.gif"><img src="/images/edge-b.gif" width="1" height="14" border="0"></td>
+									<td valign="top"><img src="/images/edge-br.gif" width="14" height="14" border="0"></td>
+								</tr>
+								</table>
+								</div>
+							
+							<img src="/images/spacer.gif" width="1" height="20" border="0"><br>
+						
+					
+						
+						
+							
+								<div align="center" style="width:940px;height:auto;overflow:hidden;">
+								<table width="100" cellpadding="0" cellspacing="0" border="0">
+								<tr>
+									<td><img src="/images/edge-tl.gif" width="14" height="14" border="0"></td>
+									<td background="/images/edge-t.gif"><img src="/images/edge-t.gif" width="1" height="14" border="0"></td>
+									<td><img src="/images/edge-tr.gif" width="14" height="14" border="0"></td>
+								</tr>
+								<tr>
+									<td background="/images/edge-l.gif"><img src="/images/edge-l.gif" width="14" height="1" border="0"></td>
+									<td width="72"><img src="/images/content/ACFF766.jpg" border="0" onAbort="this.src='/images/content/ACFF766.jpg';" alt="wedding photography the merion cinnaminson new jersey coptic church" name="wedding photography the merion cinnaminson new jersey coptic church"></td>
+									<td background="/images/edge-r.gif"><img src="/images/edge-r.gif" width="14" height="1" border="0"></td>
+								</tr>
+								<tr>
+									<td valign="top"><img src="/images/edge-bl.gif" width="14" height="14" border="0"></td>
+									<td background="/images/edge-b.gif"><img src="/images/edge-b.gif" width="1" height="14" border="0"></td>
+									<td valign="top"><img src="/images/edge-br.gif" width="14" height="14" border="0"></td>
+								</tr>
+								</table>
+								</div>
+							
+							<img src="/images/spacer.gif" width="1" height="20" border="0"><br>
+						
+					
+						
+						
+							
+								<div align="center" style="width:940px;height:auto;overflow:hidden;">
+								<table width="100" cellpadding="0" cellspacing="0" border="0">
+								<tr>
+									<td><img src="/images/edge-tl.gif" width="14" height="14" border="0"></td>
+									<td background="/images/edge-t.gif"><img src="/images/edge-t.gif" width="1" height="14" border="0"></td>
+									<td><img src="/images/edge-tr.gif" width="14" height="14" border="0"></td>
+								</tr>
+								<tr>
+									<td background="/images/edge-l.gif"><img src="/images/edge-l.gif" width="14" height="1" border="0"></td>
+									<td width="72"><img src="/images/content/ACFF767.jpg" border="0" onAbort="this.src='/images/content/ACFF767.jpg';" alt="wedding photography the merion cinnaminson new jersey coptic church" name="wedding photography the merion cinnaminson new jersey coptic church"></td>
+									<td background="/images/edge-r.gif"><img src="/images/edge-r.gif" width="14" height="1" border="0"></td>
+								</tr>
+								<tr>
+									<td valign="top"><img src="/images/edge-bl.gif" width="14" height="14" border="0"></td>
+									<td background="/images/edge-b.gif"><img src="/images/edge-b.gif" width="1" height="14" border="0"></td>
+									<td valign="top"><img src="/images/edge-br.gif" width="14" height="14" border="0"></td>
+								</tr>
+								</table>
+								</div>
+							
+							<img src="/images/spacer.gif" width="1" height="20" border="0"><br>
+						
+					
+						
+						
+							
+								<div align="center" style="width:940px;height:auto;overflow:hidden;">
+								<table width="100" cellpadding="0" cellspacing="0" border="0">
+								<tr>
+									<td><img src="/images/edge-tl.gif" width="14" height="14" border="0"></td>
+									<td background="/images/edge-t.gif"><img src="/images/edge-t.gif" width="1" height="14" border="0"></td>
+									<td><img src="/images/edge-tr.gif" width="14" height="14" border="0"></td>
+								</tr>
+								<tr>
+									<td background="/images/edge-l.gif"><img src="/images/edge-l.gif" width="14" height="1" border="0"></td>
+									<td width="72"><img src="/images/content/ACFF768.jpg" border="0" onAbort="this.src='/images/content/ACFF768.jpg';" alt="wedding photography the merion cinnaminson new jersey coptic church" name="wedding photography the merion cinnaminson new jersey coptic church"></td>
+									<td background="/images/edge-r.gif"><img src="/images/edge-r.gif" width="14" height="1" border="0"></td>
+								</tr>
+								<tr>
+									<td valign="top"><img src="/images/edge-bl.gif" width="14" height="14" border="0"></td>
+									<td background="/images/edge-b.gif"><img src="/images/edge-b.gif" width="1" height="14" border="0"></td>
+									<td valign="top"><img src="/images/edge-br.gif" width="14" height="14" border="0"></td>
+								</tr>
+								</table>
+								</div>
+							
+							<img src="/images/spacer.gif" width="1" height="20" border="0"><br>
+						
+					
+						
+						
+							
+								<div align="center" style="width:940px;height:auto;overflow:hidden;">
+								<table width="100" cellpadding="0" cellspacing="0" border="0">
+								<tr>
+									<td><img src="/images/edge-tl.gif" width="14" height="14" border="0"></td>
+									<td background="/images/edge-t.gif"><img src="/images/edge-t.gif" width="1" height="14" border="0"></td>
+									<td><img src="/images/edge-tr.gif" width="14" height="14" border="0"></td>
+								</tr>
+								<tr>
+									<td background="/images/edge-l.gif"><img src="/images/edge-l.gif" width="14" height="1" border="0"></td>
+									<td width="72"><img src="/images/content/ACFF769.jpg" border="0" onAbort="this.src='/images/content/ACFF769.jpg';" alt="wedding photography the merion cinnaminson new jersey coptic church" name="wedding photography the merion cinnaminson new jersey coptic church"></td>
+									<td background="/images/edge-r.gif"><img src="/images/edge-r.gif" width="14" height="1" border="0"></td>
+								</tr>
+								<tr>
+									<td valign="top"><img src="/images/edge-bl.gif" width="14" height="14" border="0"></td>
+									<td background="/images/edge-b.gif"><img src="/images/edge-b.gif" width="1" height="14" border="0"></td>
+									<td valign="top"><img src="/images/edge-br.gif" width="14" height="14" border="0"></td>
+								</tr>
+								</table>
+								</div>
+							
+							<img src="/images/spacer.gif" width="1" height="20" border="0"><br>
+						
+					
+						
+						
+							
+								<div align="center" style="width:940px;height:auto;overflow:hidden;">
+								<table width="100" cellpadding="0" cellspacing="0" border="0">
+								<tr>
+									<td><img src="/images/edge-tl.gif" width="14" height="14" border="0"></td>
+									<td background="/images/edge-t.gif"><img src="/images/edge-t.gif" width="1" height="14" border="0"></td>
+									<td><img src="/images/edge-tr.gif" width="14" height="14" border="0"></td>
+								</tr>
+								<tr>
+									<td background="/images/edge-l.gif"><img src="/images/edge-l.gif" width="14" height="1" border="0"></td>
+									<td width="72"><img src="/images/content/ACFF76A.jpg" border="0" onAbort="this.src='/images/content/ACFF76A.jpg';" alt="wedding photography the merion cinnaminson new jersey coptic church" name="wedding photography the merion cinnaminson new jersey coptic church"></td>
+									<td background="/images/edge-r.gif"><img src="/images/edge-r.gif" width="14" height="1" border="0"></td>
+								</tr>
+								<tr>
+									<td valign="top"><img src="/images/edge-bl.gif" width="14" height="14" border="0"></td>
+									<td background="/images/edge-b.gif"><img src="/images/edge-b.gif" width="1" height="14" border="0"></td>
+									<td valign="top"><img src="/images/edge-br.gif" width="14" height="14" border="0"></td>
+								</tr>
+								</table>
+								</div>
+							
+							<img src="/images/spacer.gif" width="1" height="20" border="0"><br>
+						
+					
+						
+						
+							
+								<div align="center" style="width:940px;height:auto;overflow:hidden;">
+								<table width="100" cellpadding="0" cellspacing="0" border="0">
+								<tr>
+									<td><img src="/images/edge-tl.gif" width="14" height="14" border="0"></td>
+									<td background="/images/edge-t.gif"><img src="/images/edge-t.gif" width="1" height="14" border="0"></td>
+									<td><img src="/images/edge-tr.gif" width="14" height="14" border="0"></td>
+								</tr>
+								<tr>
+									<td background="/images/edge-l.gif"><img src="/images/edge-l.gif" width="14" height="1" border="0"></td>
+									<td width="72"><img src="/images/content/ACFF76B.jpg" border="0" onAbort="this.src='/images/content/ACFF76B.jpg';" alt="wedding photography the merion cinnaminson new jersey coptic church" name="wedding photography the merion cinnaminson new jersey coptic church"></td>
+									<td background="/images/edge-r.gif"><img src="/images/edge-r.gif" width="14" height="1" border="0"></td>
+								</tr>
+								<tr>
+									<td valign="top"><img src="/images/edge-bl.gif" width="14" height="14" border="0"></td>
+									<td background="/images/edge-b.gif"><img src="/images/edge-b.gif" width="1" height="14" border="0"></td>
+									<td valign="top"><img src="/images/edge-br.gif" width="14" height="14" border="0"></td>
+								</tr>
+								</table>
+								</div>
+							
+							<img src="/images/spacer.gif" width="1" height="20" border="0"><br>
+						
+					
+						
+						
+							
+								<div align="center" style="width:940px;height:auto;overflow:hidden;">
+								<table width="100" cellpadding="0" cellspacing="0" border="0">
+								<tr>
+									<td><img src="/images/edge-tl.gif" width="14" height="14" border="0"></td>
+									<td background="/images/edge-t.gif"><img src="/images/edge-t.gif" width="1" height="14" border="0"></td>
+									<td><img src="/images/edge-tr.gif" width="14" height="14" border="0"></td>
+								</tr>
+								<tr>
+									<td background="/images/edge-l.gif"><img src="/images/edge-l.gif" width="14" height="1" border="0"></td>
+									<td width="72"><img src="/images/content/ACFF76C.jpg" border="0" onAbort="this.src='/images/content/ACFF76C.jpg';" alt="wedding photography the merion cinnaminson new jersey coptic church" name="wedding photography the merion cinnaminson new jersey coptic church"></td>
+									<td background="/images/edge-r.gif"><img src="/images/edge-r.gif" width="14" height="1" border="0"></td>
+								</tr>
+								<tr>
+									<td valign="top"><img src="/images/edge-bl.gif" width="14" height="14" border="0"></td>
+									<td background="/images/edge-b.gif"><img src="/images/edge-b.gif" width="1" height="14" border="0"></td>
+									<td valign="top"><img src="/images/edge-br.gif" width="14" height="14" border="0"></td>
+								</tr>
+								</table>
+								</div>
+							
+							<img src="/images/spacer.gif" width="1" height="20" border="0"><br>
+						
+					
+						
+						
+							
+								<div align="center" style="width:940px;height:auto;overflow:hidden;">
+								<table width="100" cellpadding="0" cellspacing="0" border="0">
+								<tr>
+									<td><img src="/images/edge-tl.gif" width="14" height="14" border="0"></td>
+									<td background="/images/edge-t.gif"><img src="/images/edge-t.gif" width="1" height="14" border="0"></td>
+									<td><img src="/images/edge-tr.gif" width="14" height="14" border="0"></td>
+								</tr>
+								<tr>
+									<td background="/images/edge-l.gif"><img src="/images/edge-l.gif" width="14" height="1" border="0"></td>
+									<td width="72"><img src="/images/content/ACFF76D.jpg" border="0" onAbort="this.src='/images/content/ACFF76D.jpg';" alt="wedding photography the merion cinnaminson new jersey coptic church" name="wedding photography the merion cinnaminson new jersey coptic church"></td>
+									<td background="/images/edge-r.gif"><img src="/images/edge-r.gif" width="14" height="1" border="0"></td>
+								</tr>
+								<tr>
+									<td valign="top"><img src="/images/edge-bl.gif" width="14" height="14" border="0"></td>
+									<td background="/images/edge-b.gif"><img src="/images/edge-b.gif" width="1" height="14" border="0"></td>
+									<td valign="top"><img src="/images/edge-br.gif" width="14" height="14" border="0"></td>
+								</tr>
+								</table>
+								</div>
+							
+							<img src="/images/spacer.gif" width="1" height="20" border="0"><br>
+						
+					
+						
+						
+							
+								<div align="center" style="width:940px;height:auto;overflow:hidden;">
+								<table width="100" cellpadding="0" cellspacing="0" border="0">
+								<tr>
+									<td><img src="/images/edge-tl.gif" width="14" height="14" border="0"></td>
+									<td background="/images/edge-t.gif"><img src="/images/edge-t.gif" width="1" height="14" border="0"></td>
+									<td><img src="/images/edge-tr.gif" width="14" height="14" border="0"></td>
+								</tr>
+								<tr>
+									<td background="/images/edge-l.gif"><img src="/images/edge-l.gif" width="14" height="1" border="0"></td>
+									<td width="72"><img src="/images/content/ACFF76E.jpg" border="0" onAbort="this.src='/images/content/ACFF76E.jpg';" alt="wedding photography the merion cinnaminson new jersey coptic church" name="wedding photography the merion cinnaminson new jersey coptic church"></td>
+									<td background="/images/edge-r.gif"><img src="/images/edge-r.gif" width="14" height="1" border="0"></td>
+								</tr>
+								<tr>
+									<td valign="top"><img src="/images/edge-bl.gif" width="14" height="14" border="0"></td>
+									<td background="/images/edge-b.gif"><img src="/images/edge-b.gif" width="1" height="14" border="0"></td>
+									<td valign="top"><img src="/images/edge-br.gif" width="14" height="14" border="0"></td>
+								</tr>
+								</table>
+								</div>
+							
+							<img src="/images/spacer.gif" width="1" height="20" border="0"><br>
+						
+					
+						
+						
+							
+								<div align="center" style="width:940px;height:auto;overflow:hidden;">
+								<table width="100" cellpadding="0" cellspacing="0" border="0">
+								<tr>
+									<td><img src="/images/edge-tl.gif" width="14" height="14" border="0"></td>
+									<td background="/images/edge-t.gif"><img src="/images/edge-t.gif" width="1" height="14" border="0"></td>
+									<td><img src="/images/edge-tr.gif" width="14" height="14" border="0"></td>
+								</tr>
+								<tr>
+									<td background="/images/edge-l.gif"><img src="/images/edge-l.gif" width="14" height="1" border="0"></td>
+									<td width="72"><img src="/images/content/ACFF76F.jpg" border="0" onAbort="this.src='/images/content/ACFF76F.jpg';" alt="wedding photography the merion cinnaminson new jersey coptic church" name="wedding photography the merion cinnaminson new jersey coptic church"></td>
+									<td background="/images/edge-r.gif"><img src="/images/edge-r.gif" width="14" height="1" border="0"></td>
+								</tr>
+								<tr>
+									<td valign="top"><img src="/images/edge-bl.gif" width="14" height="14" border="0"></td>
+									<td background="/images/edge-b.gif"><img src="/images/edge-b.gif" width="1" height="14" border="0"></td>
+									<td valign="top"><img src="/images/edge-br.gif" width="14" height="14" border="0"></td>
+								</tr>
+								</table>
+								</div>
+							
+							<img src="/images/spacer.gif" width="1" height="20" border="0"><br>
+						
+					
+						
+						
+							
+								<div align="center" style="width:940px;height:auto;overflow:hidden;">
+								<table width="100" cellpadding="0" cellspacing="0" border="0">
+								<tr>
+									<td><img src="/images/edge-tl.gif" width="14" height="14" border="0"></td>
+									<td background="/images/edge-t.gif"><img src="/images/edge-t.gif" width="1" height="14" border="0"></td>
+									<td><img src="/images/edge-tr.gif" width="14" height="14" border="0"></td>
+								</tr>
+								<tr>
+									<td background="/images/edge-l.gif"><img src="/images/edge-l.gif" width="14" height="1" border="0"></td>
+									<td width="72"><img src="/images/content/ACFF770.jpg" border="0" onAbort="this.src='/images/content/ACFF770.jpg';" alt="wedding photography the merion cinnaminson new jersey coptic church" name="wedding photography the merion cinnaminson new jersey coptic church"></td>
+									<td background="/images/edge-r.gif"><img src="/images/edge-r.gif" width="14" height="1" border="0"></td>
+								</tr>
+								<tr>
+									<td valign="top"><img src="/images/edge-bl.gif" width="14" height="14" border="0"></td>
+									<td background="/images/edge-b.gif"><img src="/images/edge-b.gif" width="1" height="14" border="0"></td>
+									<td valign="top"><img src="/images/edge-br.gif" width="14" height="14" border="0"></td>
+								</tr>
+								</table>
+								</div>
+							
+							<img src="/images/spacer.gif" width="1" height="20" border="0"><br>
+						
+					
+						
+						
+							
+								<div align="center" style="width:940px;height:auto;overflow:hidden;">
+								<table width="100" cellpadding="0" cellspacing="0" border="0">
+								<tr>
+									<td><img src="/images/edge-tl.gif" width="14" height="14" border="0"></td>
+									<td background="/images/edge-t.gif"><img src="/images/edge-t.gif" width="1" height="14" border="0"></td>
+									<td><img src="/images/edge-tr.gif" width="14" height="14" border="0"></td>
+								</tr>
+								<tr>
+									<td background="/images/edge-l.gif"><img src="/images/edge-l.gif" width="14" height="1" border="0"></td>
+									<td width="72"><img src="/images/content/ACFF771.jpg" border="0" onAbort="this.src='/images/content/ACFF771.jpg';" alt="wedding photography the merion cinnaminson new jersey coptic church" name="wedding photography the merion cinnaminson new jersey coptic church"></td>
+									<td background="/images/edge-r.gif"><img src="/images/edge-r.gif" width="14" height="1" border="0"></td>
+								</tr>
+								<tr>
+									<td valign="top"><img src="/images/edge-bl.gif" width="14" height="14" border="0"></td>
+									<td background="/images/edge-b.gif"><img src="/images/edge-b.gif" width="1" height="14" border="0"></td>
+									<td valign="top"><img src="/images/edge-br.gif" width="14" height="14" border="0"></td>
+								</tr>
+								</table>
+								</div>
+							
+							<img src="/images/spacer.gif" width="1" height="20" border="0"><br>
+						
+					
+						
+						
+							
+								<div align="center" style="width:940px;height:auto;overflow:hidden;">
+								<table width="100" cellpadding="0" cellspacing="0" border="0">
+								<tr>
+									<td><img src="/images/edge-tl.gif" width="14" height="14" border="0"></td>
+									<td background="/images/edge-t.gif"><img src="/images/edge-t.gif" width="1" height="14" border="0"></td>
+									<td><img src="/images/edge-tr.gif" width="14" height="14" border="0"></td>
+								</tr>
+								<tr>
+									<td background="/images/edge-l.gif"><img src="/images/edge-l.gif" width="14" height="1" border="0"></td>
+									<td width="72"><img src="/images/content/ACFF772.jpg" border="0" onAbort="this.src='/images/content/ACFF772.jpg';" alt="wedding photography the merion cinnaminson new jersey coptic church" name="wedding photography the merion cinnaminson new jersey coptic church"></td>
+									<td background="/images/edge-r.gif"><img src="/images/edge-r.gif" width="14" height="1" border="0"></td>
+								</tr>
+								<tr>
+									<td valign="top"><img src="/images/edge-bl.gif" width="14" height="14" border="0"></td>
+									<td background="/images/edge-b.gif"><img src="/images/edge-b.gif" width="1" height="14" border="0"></td>
+									<td valign="top"><img src="/images/edge-br.gif" width="14" height="14" border="0"></td>
+								</tr>
+								</table>
+								</div>
+							
+							<img src="/images/spacer.gif" width="1" height="20" border="0"><br>
+						
+					
+						
+						
+							
+								<div align="center" style="width:940px;height:auto;overflow:hidden;">
+								<table width="100" cellpadding="0" cellspacing="0" border="0">
+								<tr>
+									<td><img src="/images/edge-tl.gif" width="14" height="14" border="0"></td>
+									<td background="/images/edge-t.gif"><img src="/images/edge-t.gif" width="1" height="14" border="0"></td>
+									<td><img src="/images/edge-tr.gif" width="14" height="14" border="0"></td>
+								</tr>
+								<tr>
+									<td background="/images/edge-l.gif"><img src="/images/edge-l.gif" width="14" height="1" border="0"></td>
+									<td width="72"><img src="/images/content/ACFF773.jpg" border="0" onAbort="this.src='/images/content/ACFF773.jpg';" alt="wedding photography the merion cinnaminson new jersey coptic church" name="wedding photography the merion cinnaminson new jersey coptic church"></td>
+									<td background="/images/edge-r.gif"><img src="/images/edge-r.gif" width="14" height="1" border="0"></td>
+								</tr>
+								<tr>
+									<td valign="top"><img src="/images/edge-bl.gif" width="14" height="14" border="0"></td>
+									<td background="/images/edge-b.gif"><img src="/images/edge-b.gif" width="1" height="14" border="0"></td>
+									<td valign="top"><img src="/images/edge-br.gif" width="14" height="14" border="0"></td>
+								</tr>
+								</table>
+								</div>
+							
+							<img src="/images/spacer.gif" width="1" height="20" border="0"><br>
+						
+					
+						
+						
+							
+								<div align="center" style="width:940px;height:auto;overflow:hidden;">
+								<table width="100" cellpadding="0" cellspacing="0" border="0">
+								<tr>
+									<td><img src="/images/edge-tl.gif" width="14" height="14" border="0"></td>
+									<td background="/images/edge-t.gif"><img src="/images/edge-t.gif" width="1" height="14" border="0"></td>
+									<td><img src="/images/edge-tr.gif" width="14" height="14" border="0"></td>
+								</tr>
+								<tr>
+									<td background="/images/edge-l.gif"><img src="/images/edge-l.gif" width="14" height="1" border="0"></td>
+									<td width="72"><img src="/images/content/ACFF774.jpg" border="0" onAbort="this.src='/images/content/ACFF774.jpg';" alt="wedding photography the merion cinnaminson new jersey coptic church" name="wedding photography the merion cinnaminson new jersey coptic church"></td>
+									<td background="/images/edge-r.gif"><img src="/images/edge-r.gif" width="14" height="1" border="0"></td>
+								</tr>
+								<tr>
+									<td valign="top"><img src="/images/edge-bl.gif" width="14" height="14" border="0"></td>
+									<td background="/images/edge-b.gif"><img src="/images/edge-b.gif" width="1" height="14" border="0"></td>
+									<td valign="top"><img src="/images/edge-br.gif" width="14" height="14" border="0"></td>
+								</tr>
+								</table>
+								</div>
+							
+							<img src="/images/spacer.gif" width="1" height="20" border="0"><br>
+						
+					
+					
+					<table width="900" cellpadding="0" cellspacing="0" border="0">
+					<tr>
+						
+							
+							<td>
+								<table cellpadding="0" cellspacing="0" border="0">
+								<tr>
+									<td>
+										<div id="commentsShow384"><a href="javascript:viewComments(384);"><img src="/images/btn-view-comments-off.gif" width="109" height="19" border="0" onMouseOver="this.src='/images/btn-view-comments-over.gif';" onMouseOut="this.src='/images/btn-view-comments-off.gif';"></a></div>
+										<div id="commentsHide384" style="display:none;"><a href="javascript:viewComments(384);"><img src="/images/btn-hide-comments-off.gif" width="109" height="19" border="0" onMouseOver="this.src='/images/btn-hide-comments-over.gif';" onMouseOut="this.src='/images/btn-hide-comments-off.gif';"></a></div>
+									</td>
+									<td class="date" style="font-size:10px;color:#90bbc7;">13</td>
+								</tr>
+								</table>
+							</td>
+						
+						<td align="right">
+							<table cellpadding="0" cellspacing="0" border="0">
+							<tr>
+								
+									<td><a href="/?postID=384&maureen-george"><img src="/images/btn-link-off.gif" width="108" height="19" border="0" onMouseOver="this.src='/images/btn-link-over.gif';" onMouseOut="this.src='/images/btn-link-off.gif';"></a></td>
+								
+								<td><img src="/images/spacer.gif" width="45" height="1" border="0"></td>
+								<td><a href="mailto:?subject=Susan%20Stripling%20Photography%20Blog&body=Check%20out%20this%20post%3A%20http%3A%2F%2Fwww%2Esusanstriplingblog%2Ecom%2F%3FpostID%3D384%26maureen%2Dgeorge"><img src="/images/btn-send-off.gif" width="107" height="19" border="0" onMouseOver="this.src='/images/btn-send-over.gif';" onMouseOut="this.src='/images/btn-send-off.gif';"></a></td>
+								
+									<td><img src="/images/spacer.gif" width="45" height="1" border="0"></td>
+									<td><a href="/?catID=22&weddings"><img src="/images/btn-view-more-off.gif" width="164" height="19" border="0" onMouseOver="this.src='/images/btn-view-more-over.gif';" onMouseOut="this.src='/images/btn-view-more-off.gif';"></a></td>
+								
+								<td><img src="/images/spacer.gif" width="20" height="1" border="0"></td>
+								<td><a href="http://www.facebook.com/share.php?u=http%3A%2F%2Fwww%2Esusanstriplingblog%2Ecom%2F%3FpostID%3D384%26maureen%2Dgeorge" onclick="return postFacebook('http%3A%2F%2Fwww%2Esusanstriplingblog%2Ecom%2F%3FpostID%3D384%26maureen%2Dgeorge', 'maureen%20%2B%20george');" target="_blank" title="Post to Facebook"><img src="/images/icon-facebook.gif" width="11" height="19" border="0"></a></td>
+								<td><img src="/images/spacer.gif" width="10" height="1" border="0"></td>
+								<td><a href="http://twitter.com/home?status=maureen%20%2B%20george%3A%20http%3A%2F%2Fwww%2Esusanstriplingblog%2Ecom%2F%3FpostID%3D384%26maureen%2Dgeorge" target="_blank" title="Post to Twitter"><img src="/images/icon-twitter.gif" width="11" height="19" border="0"></a></td>
+							</tr>
+							</table>
+						</td>
+					</tr>
+					</table>
+					
+						<div id="commentDiv384" style="display:none;">
+						<table width="900" cellpadding="0" cellspacing="0" border="0">
+						<tr>
+							<td>
+								<img src="/images/spacer.gif" width="1" height="5" border="0"><br>
+								<iframe name="commentFrame384" src="/comments_view.cfm?postID=384" width="900" height="120" scrolling="auto" frameborder="0" hspace="0" vspace="0" marginheight="0" marginwidth="0">Your browser doesn't support inline comment display.  <a href="/comments_view.cfm?postID=384" target="_blank">Click here to view the comments.</a></iframe><br>
+								<img src="/images/spacer.gif" width="1" height="5" border="0"><br>
+								<a href="javascript:addComment(384);"><img src="/images/btn-add-comment-off.gif" width="102" height="19" border="0" onMouseOver="this.src='/images/btn-add-comment-over.gif';" onMouseOut="this.src='/images/btn-add-comment-off.gif';"></a><br>
+							</td>
+						</tr>
+						</table>
+						</div>
+					
+					<img src="/images/spacer.gif" width="1" height="60" border="0"><br>
+				
+					
+					
+					<table width="1000" cellpadding="0" cellspacing="0" border="0" bgcolor="#e0f3f7">
+					<tr>
+						<td><img src="/images/title-l.gif" width="50" height="32" border="0"></td>
+						<td>
+							<table width="900" cellpadding="0" cellspacing="0" border="0">
+							<tr>
+								<td><div id="titleText383" class="title">carly + greg</div></td>
+								
+									<td align="right" class="date">11.10.10 &nbsp;:&nbsp; <a href="/?catID=22&weddings" class="date">Weddings</a></td>
+								
+							</tr>
+							</table>
+						</td>
+						<td align="right"><img src="/images/title-r.gif" width="50" height="32" border="0"></td>
+					</tr>
+					</table>
+					<img src="/images/spacer.gif" width="1" height="30" border="0"><br>
+					
+					<script language="javascript" type="text/javascript">
+					var so383 = new SWFObject("/images/titles.swf", "titleText383", "700", "32", "8", "#e0f3f7");
+					so383.addVariable("titleText", "CARLY%20%2B%20GREG");
+					so383.addParam("wmode", "transparent");
+					so383.write("titleText383");
+					</script>
+					
+					
+						
+						
+					
+					
+					
+						
+							<table width="900" cellpadding="0" cellspacing="0" border="0">
+							<tr>
+								<td>atlanta, georgia<br><br><i>full wedding details coming soon!</i><br></td>
+							</tr>
+							</table>
+							<img src="/images/spacer.gif" width="1" height="20" border="0"><br>
+						
+						
+							
+								<div align="center" style="width:940px;height:auto;overflow:hidden;">
+								<table width="100" cellpadding="0" cellspacing="0" border="0">
+								<tr>
+									<td><img src="/images/edge-tl.gif" width="14" height="14" border="0"></td>
+									<td background="/images/edge-t.gif"><img src="/images/edge-t.gif" width="1" height="14" border="0"></td>
+									<td><img src="/images/edge-tr.gif" width="14" height="14" border="0"></td>
+								</tr>
+								<tr>
+									<td background="/images/edge-l.gif"><img src="/images/edge-l.gif" width="14" height="1" border="0"></td>
+									<td width="72"><img src="/images/content/ACFF357.jpg" border="0" onAbort="this.src='/images/content/ACFF357.jpg';"></td>
+									<td background="/images/edge-r.gif"><img src="/images/edge-r.gif" width="14" height="1" border="0"></td>
+								</tr>
+								<tr>
+									<td valign="top"><img src="/images/edge-bl.gif" width="14" height="14" border="0"></td>
+									<td background="/images/edge-b.gif"><img src="/images/edge-b.gif" width="1" height="14" border="0"></td>
+									<td valign="top"><img src="/images/edge-br.gif" width="14" height="14" border="0"></td>
+								</tr>
+								</table>
+								</div>
+							
+							<img src="/images/spacer.gif" width="1" height="20" border="0"><br>
+						
+					
+						
+						
+							
+								<div align="center" style="width:940px;height:auto;overflow:hidden;">
+								<table width="100" cellpadding="0" cellspacing="0" border="0">
+								<tr>
+									<td><img src="/images/edge-tl.gif" width="14" height="14" border="0"></td>
+									<td background="/images/edge-t.gif"><img src="/images/edge-t.gif" width="1" height="14" border="0"></td>
+									<td><img src="/images/edge-tr.gif" width="14" height="14" border="0"></td>
+								</tr>
+								<tr>
+									<td background="/images/edge-l.gif"><img src="/images/edge-l.gif" width="14" height="1" border="0"></td>
+									<td width="72"><img src="/images/content/ACFF358.jpg" border="0" onAbort="this.src='/images/content/ACFF358.jpg';"></td>
+									<td background="/images/edge-r.gif"><img src="/images/edge-r.gif" width="14" height="1" border="0"></td>
+								</tr>
+								<tr>
+									<td valign="top"><img src="/images/edge-bl.gif" width="14" height="14" border="0"></td>
+									<td background="/images/edge-b.gif"><img src="/images/edge-b.gif" width="1" height="14" border="0"></td>
+									<td valign="top"><img src="/images/edge-br.gif" width="14" height="14" border="0"></td>
+								</tr>
+								</table>
+								</div>
+							
+							<img src="/images/spacer.gif" width="1" height="20" border="0"><br>
+						
+					
+						
+						
+							
+								<div align="center" style="width:940px;height:auto;overflow:hidden;">
+								<table width="100" cellpadding="0" cellspacing="0" border="0">
+								<tr>
+									<td><img src="/images/edge-tl.gif" width="14" height="14" border="0"></td>
+									<td background="/images/edge-t.gif"><img src="/images/edge-t.gif" width="1" height="14" border="0"></td>
+									<td><img src="/images/edge-tr.gif" width="14" height="14" border="0"></td>
+								</tr>
+								<tr>
+									<td background="/images/edge-l.gif"><img src="/images/edge-l.gif" width="14" height="1" border="0"></td>
+									<td width="72"><img src="/images/content/ACFF359.jpg" border="0" onAbort="this.src='/images/content/ACFF359.jpg';"></td>
+									<td background="/images/edge-r.gif"><img src="/images/edge-r.gif" width="14" height="1" border="0"></td>
+								</tr>
+								<tr>
+									<td valign="top"><img src="/images/edge-bl.gif" width="14" height="14" border="0"></td>
+									<td background="/images/edge-b.gif"><img src="/images/edge-b.gif" width="1" height="14" border="0"></td>
+									<td valign="top"><img src="/images/edge-br.gif" width="14" height="14" border="0"></td>
+								</tr>
+								</table>
+								</div>
+							
+							<img src="/images/spacer.gif" width="1" height="20" border="0"><br>
+						
+					
+						
+						
+							
+								<div align="center" style="width:940px;height:auto;overflow:hidden;">
+								<table width="100" cellpadding="0" cellspacing="0" border="0">
+								<tr>
+									<td><img src="/images/edge-tl.gif" width="14" height="14" border="0"></td>
+									<td background="/images/edge-t.gif"><img src="/images/edge-t.gif" width="1" height="14" border="0"></td>
+									<td><img src="/images/edge-tr.gif" width="14" height="14" border="0"></td>
+								</tr>
+								<tr>
+									<td background="/images/edge-l.gif"><img src="/images/edge-l.gif" width="14" height="1" border="0"></td>
+									<td width="72"><img src="/images/content/ACFF35A.jpg" border="0" onAbort="this.src='/images/content/ACFF35A.jpg';"></td>
+									<td background="/images/edge-r.gif"><img src="/images/edge-r.gif" width="14" height="1" border="0"></td>
+								</tr>
+								<tr>
+									<td valign="top"><img src="/images/edge-bl.gif" width="14" height="14" border="0"></td>
+									<td background="/images/edge-b.gif"><img src="/images/edge-b.gif" width="1" height="14" border="0"></td>
+									<td valign="top"><img src="/images/edge-br.gif" width="14" height="14" border="0"></td>
+								</tr>
+								</table>
+								</div>
+							
+							<img src="/images/spacer.gif" width="1" height="20" border="0"><br>
+						
+					
+						
+						
+							
+								<div align="center" style="width:940px;height:auto;overflow:hidden;">
+								<table width="100" cellpadding="0" cellspacing="0" border="0">
+								<tr>
+									<td><img src="/images/edge-tl.gif" width="14" height="14" border="0"></td>
+									<td background="/images/edge-t.gif"><img src="/images/edge-t.gif" width="1" height="14" border="0"></td>
+									<td><img src="/images/edge-tr.gif" width="14" height="14" border="0"></td>
+								</tr>
+								<tr>
+									<td background="/images/edge-l.gif"><img src="/images/edge-l.gif" width="14" height="1" border="0"></td>
+									<td width="72"><img src="/images/content/ACFF35B.jpg" border="0" onAbort="this.src='/images/content/ACFF35B.jpg';"></td>
+									<td background="/images/edge-r.gif"><img src="/images/edge-r.gif" width="14" height="1" border="0"></td>
+								</tr>
+								<tr>
+									<td valign="top"><img src="/images/edge-bl.gif" width="14" height="14" border="0"></td>
+									<td background="/images/edge-b.gif"><img src="/images/edge-b.gif" width="1" height="14" border="0"></td>
+									<td valign="top"><img src="/images/edge-br.gif" width="14" height="14" border="0"></td>
+								</tr>
+								</table>
+								</div>
+							
+							<img src="/images/spacer.gif" width="1" height="20" border="0"><br>
+						
+					
+						
+						
+							
+								<div align="center" style="width:940px;height:auto;overflow:hidden;">
+								<table width="100" cellpadding="0" cellspacing="0" border="0">
+								<tr>
+									<td><img src="/images/edge-tl.gif" width="14" height="14" border="0"></td>
+									<td background="/images/edge-t.gif"><img src="/images/edge-t.gif" width="1" height="14" border="0"></td>
+									<td><img src="/images/edge-tr.gif" width="14" height="14" border="0"></td>
+								</tr>
+								<tr>
+									<td background="/images/edge-l.gif"><img src="/images/edge-l.gif" width="14" height="1" border="0"></td>
+									<td width="72"><img src="/images/content/ACFF35C.jpg" border="0" onAbort="this.src='/images/content/ACFF35C.jpg';"></td>
+									<td background="/images/edge-r.gif"><img src="/images/edge-r.gif" width="14" height="1" border="0"></td>
+								</tr>
+								<tr>
+									<td valign="top"><img src="/images/edge-bl.gif" width="14" height="14" border="0"></td>
+									<td background="/images/edge-b.gif"><img src="/images/edge-b.gif" width="1" height="14" border="0"></td>
+									<td valign="top"><img src="/images/edge-br.gif" width="14" height="14" border="0"></td>
+								</tr>
+								</table>
+								</div>
+							
+							<img src="/images/spacer.gif" width="1" height="20" border="0"><br>
+						
+					
+						
+						
+							
+								<div align="center" style="width:940px;height:auto;overflow:hidden;">
+								<table width="100" cellpadding="0" cellspacing="0" border="0">
+								<tr>
+									<td><img src="/images/edge-tl.gif" width="14" height="14" border="0"></td>
+									<td background="/images/edge-t.gif"><img src="/images/edge-t.gif" width="1" height="14" border="0"></td>
+									<td><img src="/images/edge-tr.gif" width="14" height="14" border="0"></td>
+								</tr>
+								<tr>
+									<td background="/images/edge-l.gif"><img src="/images/edge-l.gif" width="14" height="1" border="0"></td>
+									<td width="72"><img src="/images/content/ACFF35D.jpg" border="0" onAbort="this.src='/images/content/ACFF35D.jpg';"></td>
+									<td background="/images/edge-r.gif"><img src="/images/edge-r.gif" width="14" height="1" border="0"></td>
+								</tr>
+								<tr>
+									<td valign="top"><img src="/images/edge-bl.gif" width="14" height="14" border="0"></td>
+									<td background="/images/edge-b.gif"><img src="/images/edge-b.gif" width="1" height="14" border="0"></td>
+									<td valign="top"><img src="/images/edge-br.gif" width="14" height="14" border="0"></td>
+								</tr>
+								</table>
+								</div>
+							
+							<img src="/images/spacer.gif" width="1" height="20" border="0"><br>
+						
+					
+						
+						
+							
+								<div align="center" style="width:940px;height:auto;overflow:hidden;">
+								<table width="100" cellpadding="0" cellspacing="0" border="0">
+								<tr>
+									<td><img src="/images/edge-tl.gif" width="14" height="14" border="0"></td>
+									<td background="/images/edge-t.gif"><img src="/images/edge-t.gif" width="1" height="14" border="0"></td>
+									<td><img src="/images/edge-tr.gif" width="14" height="14" border="0"></td>
+								</tr>
+								<tr>
+									<td background="/images/edge-l.gif"><img src="/images/edge-l.gif" width="14" height="1" border="0"></td>
+									<td width="72"><img src="/images/content/ACFF35E.jpg" border="0" onAbort="this.src='/images/content/ACFF35E.jpg';"></td>
+									<td background="/images/edge-r.gif"><img src="/images/edge-r.gif" width="14" height="1" border="0"></td>
+								</tr>
+								<tr>
+									<td valign="top"><img src="/images/edge-bl.gif" width="14" height="14" border="0"></td>
+									<td background="/images/edge-b.gif"><img src="/images/edge-b.gif" width="1" height="14" border="0"></td>
+									<td valign="top"><img src="/images/edge-br.gif" width="14" height="14" border="0"></td>
+								</tr>
+								</table>
+								</div>
+							
+							<img src="/images/spacer.gif" width="1" height="20" border="0"><br>
+						
+					
+						
+						
+							
+								<div align="center" style="width:940px;height:auto;overflow:hidden;">
+								<table width="100" cellpadding="0" cellspacing="0" border="0">
+								<tr>
+									<td><img src="/images/edge-tl.gif" width="14" height="14" border="0"></td>
+									<td background="/images/edge-t.gif"><img src="/images/edge-t.gif" width="1" height="14" border="0"></td>
+									<td><img src="/images/edge-tr.gif" width="14" height="14" border="0"></td>
+								</tr>
+								<tr>
+									<td background="/images/edge-l.gif"><img src="/images/edge-l.gif" width="14" height="1" border="0"></td>
+									<td width="72"><img src="/images/content/ACFF35F.jpg" border="0" onAbort="this.src='/images/content/ACFF35F.jpg';"></td>
+									<td background="/images/edge-r.gif"><img src="/images/edge-r.gif" width="14" height="1" border="0"></td>
+								</tr>
+								<tr>
+									<td valign="top"><img src="/images/edge-bl.gif" width="14" height="14" border="0"></td>
+									<td background="/images/edge-b.gif"><img src="/images/edge-b.gif" width="1" height="14" border="0"></td>
+									<td valign="top"><img src="/images/edge-br.gif" width="14" height="14" border="0"></td>
+								</tr>
+								</table>
+								</div>
+							
+							<img src="/images/spacer.gif" width="1" height="20" border="0"><br>
+						
+					
+						
+						
+							
+								<div align="center" style="width:940px;height:auto;overflow:hidden;">
+								<table width="100" cellpadding="0" cellspacing="0" border="0">
+								<tr>
+									<td><img src="/images/edge-tl.gif" width="14" height="14" border="0"></td>
+									<td background="/images/edge-t.gif"><img src="/images/edge-t.gif" width="1" height="14" border="0"></td>
+									<td><img src="/images/edge-tr.gif" width="14" height="14" border="0"></td>
+								</tr>
+								<tr>
+									<td background="/images/edge-l.gif"><img src="/images/edge-l.gif" width="14" height="1" border="0"></td>
+									<td width="72"><img src="/images/content/ACFF360.jpg" border="0" onAbort="this.src='/images/content/ACFF360.jpg';"></td>
+									<td background="/images/edge-r.gif"><img src="/images/edge-r.gif" width="14" height="1" border="0"></td>
+								</tr>
+								<tr>
+									<td valign="top"><img src="/images/edge-bl.gif" width="14" height="14" border="0"></td>
+									<td background="/images/edge-b.gif"><img src="/images/edge-b.gif" width="1" height="14" border="0"></td>
+									<td valign="top"><img src="/images/edge-br.gif" width="14" height="14" border="0"></td>
+								</tr>
+								</table>
+								</div>
+							
+							<img src="/images/spacer.gif" width="1" height="20" border="0"><br>
+						
+					
+						
+						
+							
+								<div align="center" style="width:940px;height:auto;overflow:hidden;">
+								<table width="100" cellpadding="0" cellspacing="0" border="0">
+								<tr>
+									<td><img src="/images/edge-tl.gif" width="14" height="14" border="0"></td>
+									<td background="/images/edge-t.gif"><img src="/images/edge-t.gif" width="1" height="14" border="0"></td>
+									<td><img src="/images/edge-tr.gif" width="14" height="14" border="0"></td>
+								</tr>
+								<tr>
+									<td background="/images/edge-l.gif"><img src="/images/edge-l.gif" width="14" height="1" border="0"></td>
+									<td width="72"><img src="/images/content/ACFF361.jpg" border="0" onAbort="this.src='/images/content/ACFF361.jpg';"></td>
+									<td background="/images/edge-r.gif"><img src="/images/edge-r.gif" width="14" height="1" border="0"></td>
+								</tr>
+								<tr>
+									<td valign="top"><img src="/images/edge-bl.gif" width="14" height="14" border="0"></td>
+									<td background="/images/edge-b.gif"><img src="/images/edge-b.gif" width="1" height="14" border="0"></td>
+									<td valign="top"><img src="/images/edge-br.gif" width="14" height="14" border="0"></td>
+								</tr>
+								</table>
+								</div>
+							
+							<img src="/images/spacer.gif" width="1" height="20" border="0"><br>
+						
+					
+						
+						
+							
+								<div align="center" style="width:940px;height:auto;overflow:hidden;">
+								<table width="100" cellpadding="0" cellspacing="0" border="0">
+								<tr>
+									<td><img src="/images/edge-tl.gif" width="14" height="14" border="0"></td>
+									<td background="/images/edge-t.gif"><img src="/images/edge-t.gif" width="1" height="14" border="0"></td>
+									<td><img src="/images/edge-tr.gif" width="14" height="14" border="0"></td>
+								</tr>
+								<tr>
+									<td background="/images/edge-l.gif"><img src="/images/edge-l.gif" width="14" height="1" border="0"></td>
+									<td width="72"><img src="/images/content/ACFF362.jpg" border="0" onAbort="this.src='/images/content/ACFF362.jpg';"></td>
+									<td background="/images/edge-r.gif"><img src="/images/edge-r.gif" width="14" height="1" border="0"></td>
+								</tr>
+								<tr>
+									<td valign="top"><img src="/images/edge-bl.gif" width="14" height="14" border="0"></td>
+									<td background="/images/edge-b.gif"><img src="/images/edge-b.gif" width="1" height="14" border="0"></td>
+									<td valign="top"><img src="/images/edge-br.gif" width="14" height="14" border="0"></td>
+								</tr>
+								</table>
+								</div>
+							
+							<img src="/images/spacer.gif" width="1" height="20" border="0"><br>
+						
+					
+						
+						
+							
+								<div align="center" style="width:940px;height:auto;overflow:hidden;">
+								<table width="100" cellpadding="0" cellspacing="0" border="0">
+								<tr>
+									<td><img src="/images/edge-tl.gif" width="14" height="14" border="0"></td>
+									<td background="/images/edge-t.gif"><img src="/images/edge-t.gif" width="1" height="14" border="0"></td>
+									<td><img src="/images/edge-tr.gif" width="14" height="14" border="0"></td>
+								</tr>
+								<tr>
+									<td background="/images/edge-l.gif"><img src="/images/edge-l.gif" width="14" height="1" border="0"></td>
+									<td width="72"><img src="/images/content/ACFF363.jpg" border="0" onAbort="this.src='/images/content/ACFF363.jpg';"></td>
+									<td background="/images/edge-r.gif"><img src="/images/edge-r.gif" width="14" height="1" border="0"></td>
+								</tr>
+								<tr>
+									<td valign="top"><img src="/images/edge-bl.gif" width="14" height="14" border="0"></td>
+									<td background="/images/edge-b.gif"><img src="/images/edge-b.gif" width="1" height="14" border="0"></td>
+									<td valign="top"><img src="/images/edge-br.gif" width="14" height="14" border="0"></td>
+								</tr>
+								</table>
+								</div>
+							
+							<img src="/images/spacer.gif" width="1" height="20" border="0"><br>
+						
+					
+						
+						
+							
+								<div align="center" style="width:940px;height:auto;overflow:hidden;">
+								<table width="100" cellpadding="0" cellspacing="0" border="0">
+								<tr>
+									<td><img src="/images/edge-tl.gif" width="14" height="14" border="0"></td>
+									<td background="/images/edge-t.gif"><img src="/images/edge-t.gif" width="1" height="14" border="0"></td>
+									<td><img src="/images/edge-tr.gif" width="14" height="14" border="0"></td>
+								</tr>
+								<tr>
+									<td background="/images/edge-l.gif"><img src="/images/edge-l.gif" width="14" height="1" border="0"></td>
+									<td width="72"><img src="/images/content/ACFF364.jpg" border="0" onAbort="this.src='/images/content/ACFF364.jpg';"></td>
+									<td background="/images/edge-r.gif"><img src="/images/edge-r.gif" width="14" height="1" border="0"></td>
+								</tr>
+								<tr>
+									<td valign="top"><img src="/images/edge-bl.gif" width="14" height="14" border="0"></td>
+									<td background="/images/edge-b.gif"><img src="/images/edge-b.gif" width="1" height="14" border="0"></td>
+									<td valign="top"><img src="/images/edge-br.gif" width="14" height="14" border="0"></td>
+								</tr>
+								</table>
+								</div>
+							
+							<img src="/images/spacer.gif" width="1" height="20" border="0"><br>
+						
+					
+						
+						
+							
+								<div align="center" style="width:940px;height:auto;overflow:hidden;">
+								<table width="100" cellpadding="0" cellspacing="0" border="0">
+								<tr>
+									<td><img src="/images/edge-tl.gif" width="14" height="14" border="0"></td>
+									<td background="/images/edge-t.gif"><img src="/images/edge-t.gif" width="1" height="14" border="0"></td>
+									<td><img src="/images/edge-tr.gif" width="14" height="14" border="0"></td>
+								</tr>
+								<tr>
+									<td background="/images/edge-l.gif"><img src="/images/edge-l.gif" width="14" height="1" border="0"></td>
+									<td width="72"><img src="/images/content/ACFF365.jpg" border="0" onAbort="this.src='/images/content/ACFF365.jpg';"></td>
+									<td background="/images/edge-r.gif"><img src="/images/edge-r.gif" width="14" height="1" border="0"></td>
+								</tr>
+								<tr>
+									<td valign="top"><img src="/images/edge-bl.gif" width="14" height="14" border="0"></td>
+									<td background="/images/edge-b.gif"><img src="/images/edge-b.gif" width="1" height="14" border="0"></td>
+									<td valign="top"><img src="/images/edge-br.gif" width="14" height="14" border="0"></td>
+								</tr>
+								</table>
+								</div>
+							
+							<img src="/images/spacer.gif" width="1" height="20" border="0"><br>
+						
+					
+						
+						
+							
+								<div align="center" style="width:940px;height:auto;overflow:hidden;">
+								<table width="100" cellpadding="0" cellspacing="0" border="0">
+								<tr>
+									<td><img src="/images/edge-tl.gif" width="14" height="14" border="0"></td>
+									<td background="/images/edge-t.gif"><img src="/images/edge-t.gif" width="1" height="14" border="0"></td>
+									<td><img src="/images/edge-tr.gif" width="14" height="14" border="0"></td>
+								</tr>
+								<tr>
+									<td background="/images/edge-l.gif"><img src="/images/edge-l.gif" width="14" height="1" border="0"></td>
+									<td width="72"><img src="/images/content/ACFF366.jpg" border="0" onAbort="this.src='/images/content/ACFF366.jpg';"></td>
+									<td background="/images/edge-r.gif"><img src="/images/edge-r.gif" width="14" height="1" border="0"></td>
+								</tr>
+								<tr>
+									<td valign="top"><img src="/images/edge-bl.gif" width="14" height="14" border="0"></td>
+									<td background="/images/edge-b.gif"><img src="/images/edge-b.gif" width="1" height="14" border="0"></td>
+									<td valign="top"><img src="/images/edge-br.gif" width="14" height="14" border="0"></td>
+								</tr>
+								</table>
+								</div>
+							
+							<img src="/images/spacer.gif" width="1" height="20" border="0"><br>
+						
+					
+						
+						
+							
+								<div align="center" style="width:940px;height:auto;overflow:hidden;">
+								<table width="100" cellpadding="0" cellspacing="0" border="0">
+								<tr>
+									<td><img src="/images/edge-tl.gif" width="14" height="14" border="0"></td>
+									<td background="/images/edge-t.gif"><img src="/images/edge-t.gif" width="1" height="14" border="0"></td>
+									<td><img src="/images/edge-tr.gif" width="14" height="14" border="0"></td>
+								</tr>
+								<tr>
+									<td background="/images/edge-l.gif"><img src="/images/edge-l.gif" width="14" height="1" border="0"></td>
+									<td width="72"><img src="/images/content/ACFF367.jpg" border="0" onAbort="this.src='/images/content/ACFF367.jpg';"></td>
+									<td background="/images/edge-r.gif"><img src="/images/edge-r.gif" width="14" height="1" border="0"></td>
+								</tr>
+								<tr>
+									<td valign="top"><img src="/images/edge-bl.gif" width="14" height="14" border="0"></td>
+									<td background="/images/edge-b.gif"><img src="/images/edge-b.gif" width="1" height="14" border="0"></td>
+									<td valign="top"><img src="/images/edge-br.gif" width="14" height="14" border="0"></td>
+								</tr>
+								</table>
+								</div>
+							
+							<img src="/images/spacer.gif" width="1" height="20" border="0"><br>
+						
+					
+						
+						
+							
+								<div align="center" style="width:940px;height:auto;overflow:hidden;">
+								<table width="100" cellpadding="0" cellspacing="0" border="0">
+								<tr>
+									<td><img src="/images/edge-tl.gif" width="14" height="14" border="0"></td>
+									<td background="/images/edge-t.gif"><img src="/images/edge-t.gif" width="1" height="14" border="0"></td>
+									<td><img src="/images/edge-tr.gif" width="14" height="14" border="0"></td>
+								</tr>
+								<tr>
+									<td background="/images/edge-l.gif"><img src="/images/edge-l.gif" width="14" height="1" border="0"></td>
+									<td width="72"><img src="/images/content/ACFF368.jpg" border="0" onAbort="this.src='/images/content/ACFF368.jpg';"></td>
+									<td background="/images/edge-r.gif"><img src="/images/edge-r.gif" width="14" height="1" border="0"></td>
+								</tr>
+								<tr>
+									<td valign="top"><img src="/images/edge-bl.gif" width="14" height="14" border="0"></td>
+									<td background="/images/edge-b.gif"><img src="/images/edge-b.gif" width="1" height="14" border="0"></td>
+									<td valign="top"><img src="/images/edge-br.gif" width="14" height="14" border="0"></td>
+								</tr>
+								</table>
+								</div>
+							
+							<img src="/images/spacer.gif" width="1" height="20" border="0"><br>
+						
+					
+						
+						
+							
+								<div align="center" style="width:940px;height:auto;overflow:hidden;">
+								<table width="100" cellpadding="0" cellspacing="0" border="0">
+								<tr>
+									<td><img src="/images/edge-tl.gif" width="14" height="14" border="0"></td>
+									<td background="/images/edge-t.gif"><img src="/images/edge-t.gif" width="1" height="14" border="0"></td>
+									<td><img src="/images/edge-tr.gif" width="14" height="14" border="0"></td>
+								</tr>
+								<tr>
+									<td background="/images/edge-l.gif"><img src="/images/edge-l.gif" width="14" height="1" border="0"></td>
+									<td width="72"><img src="/images/content/ACFF369.jpg" border="0" onAbort="this.src='/images/content/ACFF369.jpg';"></td>
+									<td background="/images/edge-r.gif"><img src="/images/edge-r.gif" width="14" height="1" border="0"></td>
+								</tr>
+								<tr>
+									<td valign="top"><img src="/images/edge-bl.gif" width="14" height="14" border="0"></td>
+									<td background="/images/edge-b.gif"><img src="/images/edge-b.gif" width="1" height="14" border="0"></td>
+									<td valign="top"><img src="/images/edge-br.gif" width="14" height="14" border="0"></td>
+								</tr>
+								</table>
+								</div>
+							
+							<img src="/images/spacer.gif" width="1" height="20" border="0"><br>
+						
+					
+						
+						
+							
+								<div align="center" style="width:940px;height:auto;overflow:hidden;">
+								<table width="100" cellpadding="0" cellspacing="0" border="0">
+								<tr>
+									<td><img src="/images/edge-tl.gif" width="14" height="14" border="0"></td>
+									<td background="/images/edge-t.gif"><img src="/images/edge-t.gif" width="1" height="14" border="0"></td>
+									<td><img src="/images/edge-tr.gif" width="14" height="14" border="0"></td>
+								</tr>
+								<tr>
+									<td background="/images/edge-l.gif"><img src="/images/edge-l.gif" width="14" height="1" border="0"></td>
+									<td width="72"><img src="/images/content/ACFF36A.jpg" border="0" onAbort="this.src='/images/content/ACFF36A.jpg';"></td>
+									<td background="/images/edge-r.gif"><img src="/images/edge-r.gif" width="14" height="1" border="0"></td>
+								</tr>
+								<tr>
+									<td valign="top"><img src="/images/edge-bl.gif" width="14" height="14" border="0"></td>
+									<td background="/images/edge-b.gif"><img src="/images/edge-b.gif" width="1" height="14" border="0"></td>
+									<td valign="top"><img src="/images/edge-br.gif" width="14" height="14" border="0"></td>
+								</tr>
+								</table>
+								</div>
+							
+							<img src="/images/spacer.gif" width="1" height="20" border="0"><br>
+						
+					
+					
+					<table width="900" cellpadding="0" cellspacing="0" border="0">
+					<tr>
+						
+							
+							<td>
+								<table cellpadding="0" cellspacing="0" border="0">
+								<tr>
+									<td>
+										<div id="commentsShow383"><a href="javascript:viewComments(383);"><img src="/images/btn-view-comments-off.gif" width="109" height="19" border="0" onMouseOver="this.src='/images/btn-view-comments-over.gif';" onMouseOut="this.src='/images/btn-view-comments-off.gif';"></a></div>
+										<div id="commentsHide383" style="display:none;"><a href="javascript:viewComments(383);"><img src="/images/btn-hide-comments-off.gif" width="109" height="19" border="0" onMouseOver="this.src='/images/btn-hide-comments-over.gif';" onMouseOut="this.src='/images/btn-hide-comments-off.gif';"></a></div>
+									</td>
+									<td class="date" style="font-size:10px;color:#90bbc7;">14</td>
+								</tr>
+								</table>
+							</td>
+						
+						<td align="right">
+							<table cellpadding="0" cellspacing="0" border="0">
+							<tr>
+								
+									<td><a href="/?postID=383&carly-greg"><img src="/images/btn-link-off.gif" width="108" height="19" border="0" onMouseOver="this.src='/images/btn-link-over.gif';" onMouseOut="this.src='/images/btn-link-off.gif';"></a></td>
+								
+								<td><img src="/images/spacer.gif" width="45" height="1" border="0"></td>
+								<td><a href="mailto:?subject=Susan%20Stripling%20Photography%20Blog&body=Check%20out%20this%20post%3A%20http%3A%2F%2Fwww%2Esusanstriplingblog%2Ecom%2F%3FpostID%3D383%26carly%2Dgreg"><img src="/images/btn-send-off.gif" width="107" height="19" border="0" onMouseOver="this.src='/images/btn-send-over.gif';" onMouseOut="this.src='/images/btn-send-off.gif';"></a></td>
+								
+									<td><img src="/images/spacer.gif" width="45" height="1" border="0"></td>
+									<td><a href="/?catID=22&weddings"><img src="/images/btn-view-more-off.gif" width="164" height="19" border="0" onMouseOver="this.src='/images/btn-view-more-over.gif';" onMouseOut="this.src='/images/btn-view-more-off.gif';"></a></td>
+								
+								<td><img src="/images/spacer.gif" width="20" height="1" border="0"></td>
+								<td><a href="http://www.facebook.com/share.php?u=http%3A%2F%2Fwww%2Esusanstriplingblog%2Ecom%2F%3FpostID%3D383%26carly%2Dgreg" onclick="return postFacebook('http%3A%2F%2Fwww%2Esusanstriplingblog%2Ecom%2F%3FpostID%3D383%26carly%2Dgreg', 'carly%20%2B%20greg');" target="_blank" title="Post to Facebook"><img src="/images/icon-facebook.gif" width="11" height="19" border="0"></a></td>
+								<td><img src="/images/spacer.gif" width="10" height="1" border="0"></td>
+								<td><a href="http://twitter.com/home?status=carly%20%2B%20greg%3A%20http%3A%2F%2Fwww%2Esusanstriplingblog%2Ecom%2F%3FpostID%3D383%26carly%2Dgreg" target="_blank" title="Post to Twitter"><img src="/images/icon-twitter.gif" width="11" height="19" border="0"></a></td>
+							</tr>
+							</table>
+						</td>
+					</tr>
+					</table>
+					
+						<div id="commentDiv383" style="display:none;">
+						<table width="900" cellpadding="0" cellspacing="0" border="0">
+						<tr>
+							<td>
+								<img src="/images/spacer.gif" width="1" height="5" border="0"><br>
+								<iframe name="commentFrame383" src="/comments_view.cfm?postID=383" width="900" height="120" scrolling="auto" frameborder="0" hspace="0" vspace="0" marginheight="0" marginwidth="0">Your browser doesn't support inline comment display.  <a href="/comments_view.cfm?postID=383" target="_blank">Click here to view the comments.</a></iframe><br>
+								<img src="/images/spacer.gif" width="1" height="5" border="0"><br>
+								<a href="javascript:addComment(383);"><img src="/images/btn-add-comment-off.gif" width="102" height="19" border="0" onMouseOver="this.src='/images/btn-add-comment-over.gif';" onMouseOut="this.src='/images/btn-add-comment-off.gif';"></a><br>
+							</td>
+						</tr>
+						</table>
+						</div>
+					
+					<img src="/images/spacer.gif" width="1" height="60" border="0"><br>
+				
+				
+				
+					
+				
+				
+			
+			<table width="900" cellpadding="0" cellspacing="0" border="0">
+			<tr>
+				<td width="25%">&nbsp;</td>
+				<td width="50%" align="center">
+					<table cellpadding="0" cellspacing="0" border="0">
+					<tr>
+						
+						<td class="small">Page
+							
+							
+								
+								
+								1
+							
+								
+								
+								
+							
+								
+								
+								
+							
+								
+								
+								
+							
+								
+								
+								
+							
+								
+								
+								
+							
+								
+								
+								
+							
+								
+								
+								
+							
+								
+								
+								
+							
+								
+								
+								
+							
+								
+								
+								
+							
+								
+								
+								
+							
+								
+								
+								
+							
+								
+								
+								
+							
+								
+								
+								
+							
+								
+								
+								
+							
+								
+								
+								
+							
+								
+								
+								
+							
+								
+								
+								
+							
+								
+								
+								
+							
+								
+								
+								
+							
+								
+								
+								
+							
+								
+								
+								
+							
+								
+								
+								
+							
+								
+								
+								
+							
+								
+								
+								
+							
+								
+								
+								
+							
+								
+								
+								
+							
+								
+								
+								
+							
+								
+								
+								
+							
+								
+								
+								
+							
+								
+								
+								
+							
+								
+								
+								
+							
+								
+								
+								
+							
+								
+								
+								
+							
+								
+								
+								
+							
+								
+								
+								
+							
+								
+								
+								
+							
+								
+								
+								
+							
+								
+								
+								
+							
+								
+								
+								
+							
+								
+								
+								
+							
+								
+								
+								
+							
+								
+								
+								
+							
+								
+								
+								
+							
+								
+								
+								
+							
+								
+								
+								
+							
+								
+								
+								
+							
+								
+								
+								
+							
+								
+								
+								
+							
+								
+								
+								
+							
+								
+								
+								
+							
+								
+								
+								
+							
+								
+								
+								
+							
+								
+								
+								
+							
+								
+								
+								
+							
+								
+								
+								
+							
+								
+								
+								
+							
+								
+								
+								
+							
+								
+								
+								
+							
+								
+								
+								
+							
+							of 61<br>
+						</td>
+						
+							<td><img src="/images/spacer.gif" width="16" height="1" border="0"></td>
+							<td><a href="/index.cfm?StartRow=6"><img src="/images/btn-more-off.gif" width="36" height="20" border="0" onMouseOver="this.src='/images/btn-more-over.gif';" onMouseOut="this.src='/images/btn-more-off.gif';"></a></td>
+						
+					</tr>
+					</table>
+					</td>
+				<td width="25%" align="right"><a href="/rss/" target="_blank"><img src="/images/btn-rss-off.gif" width="36" height="20" border="0" onMouseOver="this.src='/images/btn-rss-over.gif';" onMouseOut="this.src='/images/btn-rss-off.gif';"></a></td>
+			</tr>
+			</table>
+		
+		
+		<img src="/images/spacer.gif" width="1" height="30" border="0"><br>
+		
+		
+		
+		
+	</td>
+	<td valign="top" background="/images/shadow-r.gif" class="alpha"><img src="/images/spacer.gif" width="15" height="1" border="0"></td>
+</tr>
+<tr>
+	<td colspan="3"><img src="/images/footer.png" width="1030" height="50" border="0"></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+<div align="center" class="small">&copy; 2010 Susan Stripling Photography, All rights reserved. &nbsp;:&nbsp; <a href="http://www.infinetdesign.com/" target="_blank" class="small">Site by infinet design</a></div>
+<img src="/images/spacer.gif" width="1" height="15" border="0"><br>
+<script src="http://www.google-analytics.com/urchin.js" type="text/javascript"></script>
+<script type="text/javascript">
+_uacct = "UA-1152460-2";
+urchinTracker();
+</script>
+</body>
+</html>
