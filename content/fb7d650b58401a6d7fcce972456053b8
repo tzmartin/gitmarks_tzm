@@ -1,0 +1,501 @@
+
+
+<HTML>
+<HEAD>
+<TITLE>WHI Solutions; Distribution Management, eCatalog, eCommerce, & Business Intelligence</TITLE>
+<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=iso-8859-1">
+<meta name="description" content="WHI's Nexpart ebusiness Suite maximizes distribution efficiency for Manufacturers, Distributors, Retailers, and their customers.  Ebusiness suite includes Distribution Management, ecommerce, catalog, & Business Intelligence.">
+<meta name="keywords" content="enterprise, applications, software, Distribution Management, Warehouse Management, POS, Point of Sale, Ecommerce, Electronic Catalog, Business Intelligence, ebusiness, automotive Aftermarket, Hardgoods, Marine Wholesale, Electrical Wholesale. WHI, Wrenchead">
+<link rel="stylesheet" type="text/css" href="./inc/whi.css" />
+<script src="http://www.google-analytics.com/urchin.js" type="text/javascript">
+</script>
+<script type="text/javascript">
+_uacct = "UA-135905-1";
+urchinTracker();
+</script>
+
+
+<SCRIPT>
+function imgSwap(imgObj, imgFile) {
+	imageTag = document.getElementById(imgObj);
+	imageTag.src = imgFile;
+}
+function tablePop(sectionID){
+	window.open('boxcontent.asp?sectionID=' + sectionID,'whisectionpop','toolbar=0,scrollbars=1,location=0,statusbar=0,menubar=0,resizable=0,width=400,height=500');
+}
+</SCRIPT>
+<script src="./inc/swfobject.js" type="text/javascript"></script>
+</HEAD>
+<BODY BGCOLOR=#FFFFFF LEFTMARGIN=0 TOPMARGIN=0 MARGINWIDTH=0 MARGINHEIGHT=0>
+<table width="100%" height="100%" BORDER=0 CELLPADDING=0 CELLSPACING=0 class="holderTable">
+<tr>
+<td align="center" valign="middle">
+	<TABLE WIDTH=900 BORDER=0 CELLPADDING=0 CELLSPACING=0>
+		<TR>
+			<TD><IMG src="./images/spacer.gif" WIDTH=7 HEIGHT=1 ALT=""></TD>
+			<TD><IMG src="./images/spacer.gif" WIDTH=263 HEIGHT=1 ALT=""></TD>
+			<TD><IMG src="./images/spacer.gif" WIDTH=621 HEIGHT=1 ALT=""></TD>
+			<TD><IMG src="./images/spacer.gif" WIDTH=9 HEIGHT=1 ALT=""></TD>
+		</TR>
+		<TR>
+			<TD ROWSPAN=2><IMG src="./images/spacer.gif" WIDTH=7 HEIGHT=150 ALT=""></TD>
+			<TD><a href="default.asp"><IMG src="./images/secondary_logo.jpg" WIDTH=263 HEIGHT=118 ALT="" BORDER=0></a></TD>
+			<TD><IMG src="images/spacer.gif" WIDTH=591 HEIGHT=21 ALT=""></TD>
+			<TD ROWSPAN=3><IMG src="./images/spacer.gif" WIDTH=9 HEIGHT=155 ALT=""></TD>
+		</TR>
+		<TR>
+			<TD COLSPAN=2>
+								<TABLE WIDTH=884 BORDER=0 CELLPADDING=0 CELLSPACING=0>
+					<TR><div name="divMenu" id="divMenu"></div><script language="javascript" src="./inc/ypSlideOutMenus_subs.js"></script>
+					<TD><IMG ID="nav01" SRC="./images/nav_01.gif" WIDTH=81  HEIGHT=32 ALT="" onMouseOver="imgSwap('nav01','images/nav_01_roll.gif');ypSlideOutMenu.showMenu('menu1');" onMouseOut="imgSwap('nav01','images/nav_01.gif');ypSlideOutMenu.hideMenu('menu1');"></TD>
+					<TD><IMG ID="nav02" SRC="./images/nav_02.gif" WIDTH=104 HEIGHT=32 ALT="" onMouseOver="imgSwap('nav02','images/nav_02_roll.gif');ypSlideOutMenu.showMenu('menu2');" onMouseOut="imgSwap('nav02','images/nav_02.gif');ypSlideOutMenu.hideMenu('menu2');"></TD>
+					<TD><IMG ID="nav03" SRC="./images/nav_03.gif" WIDTH=114 HEIGHT=32 ALT="" onMouseOver="imgSwap('nav03','images/nav_03_roll.gif');ypSlideOutMenu.showMenu('menu3');" onMouseOut="imgSwap('nav03','images/nav_03.gif');ypSlideOutMenu.hideMenu('menu3');"></TD>
+					<TD><IMG ID="nav04" SRC="./images/nav_04.gif" WIDTH=102 HEIGHT=32 ALT="" onMouseOver="imgSwap('nav04','images/nav_04_roll.gif');ypSlideOutMenu.showMenu('menu4');" onMouseOut="imgSwap('nav04','images/nav_04.gif');ypSlideOutMenu.hideMenu('menu4');"></TD>
+					<TD><a href="content.asp?pageID=35"><IMG ID="nav05" SRC="./images/nav_05.gif" WIDTH=109 HEIGHT=32 ALT="" onMouseOver="imgSwap('nav05','images/nav_05_roll.gif');" onMouseOut="imgSwap('nav05','images/nav_05.gif');" border="0"></a></TD>
+					<TD><IMG ID="nav06" SRC="./images/nav_06.gif" WIDTH=94  HEIGHT=32 ALT="" onMouseOver="imgSwap('nav06','images/nav_06_roll.gif');ypSlideOutMenu.showMenu('menu5');" onMouseOut="imgSwap('nav06','images/nav_06.gif');ypSlideOutMenu.hideMenu('menu5');"></TD>
+					<TD><IMG ID="nav07" SRC="./images/nav_07.gif" WIDTH=91  HEIGHT=32 ALT="" onMouseOver="imgSwap('nav07','images/nav_07_roll.gif');ypSlideOutMenu.showMenu('menu6');" onMouseOut="imgSwap('nav07','images/nav_07.gif');ypSlideOutMenu.hideMenu('menu6');"></TD>
+					<TD><a href="login.asp"><IMG ID="nav08" SRC="./images/nav_08.gif" WIDTH=189 HEIGHT=32 ALT="" onMouseOver="imgSwap('nav08','images/customerro_08.jpg');" onMouseOut="imgSwap('nav08','images/nav_08.gif');" border="0"></a></TD>
+					</TR>
+				</TABLE>
+			</TD>
+		</TR>
+		<TR>
+			<TD><IMG src="./images/spacer.gif" WIDTH=7 HEIGHT=5 ALT=""></TD>
+			<TD COLSPAN=2><IMG src="./images/spacer.gif" WIDTH=884 HEIGHT=5 ALT=""></TD>
+		</TR>
+	</table>
+	<TABLE WIDTH="884" HEIGHT="600" BORDER=0 CELLPADDING=0 CELLSPACING=0>
+		<TR>
+			<TD><IMG src="./images/spacer.gif" WIDTH=420 HEIGHT=1 ALT=""></TD>
+			<TD><IMG src="./images/spacer.gif" WIDTH=253 HEIGHT=1 ALT=""></TD>
+			<TD><IMG src="./images/spacer.gif" WIDTH=22 HEIGHT=1 ALT=""></TD>
+			<TD><IMG src="./images/spacer.gif" WIDTH=189 HEIGHT=1 ALT=""></TD>
+		</TR>
+		<!--start of left column-->
+		<TR>
+
+			<TD COLSPAN="2" BGCOLOR="#FFFFFF" VALIGN="TOP" style="padding-left:0px; padding-top:21px;padding-bottom:21px;padding-right:55px" >
+			<span class="red4">Nexpart Virtual Inventory Benefits</span><br /><br />
+			<span class="defaultLeftContent">
+			
+<p><span class="blue2">Benefits</span> </p><p>Your employees simply type a website address in their Internet browser, enter a username and password, and begin ordering. There are no CD-ROMs to load, no software to update, and Nexpart is so simple and intuitive employees will be ordering in minutes with no time-consuming training issues. </p><p>Stock checks, catalog lookups and order placement are measured in seconds-even on dial-up connections! Employees can also get two things done at once. While employees are searching for and ordering parts, they can keep focused on their customers or other business needs. </p><p>Employees can save one-time orders to be used at a later time or save repeat stock orders. Employees can even import large stock orders into Nexpart - giving the customer a detailed advanced order confirmation. </p><p>Employees get the right part the first time. Eliminate misunderstandings, language barrier issues, mis-keyed part numbers or misinterpreted vehicle information. Fewer returns, less headaches, increased satisfaction. </p><p>Parts ordering after the order desk closed? No problem. Available 24 hours a day, 7 days a week, employees can place orders and have it waiting for the driver first thing the following workday. Also, orders can be placed from anywhere with an Internet connection-work, home, library, anywhere! </p><p>Perfect for fleet, government agency, dealership or installer accounts. Employees can enter your part number or the OE* part number. *if supported on your current computer system. </p><p><span class="blue2">Benefits for Distributors</span> </p><p>Customers can locate parts and order from multiple branches simultaneously, exposing more of your inventory, increasing turns and simplify part transfers </p><p>Increase your chances of getting the order, and move your business up the customer's call list by offering a convenient way to get the order to you. </p><p>Eliminate the need to verify and key in messy faxes. Customers can import their stock orders into Nexpart saving your staff hundreds of hours each month. </p><p>Extend your business hours without adding staff, paying overtime or creating more HR issues. </p><p>Home tab gives your employees online access to weekly specials, product announcements, company news, etc. </p><p>Nexpart displays your logo and can tie in with your current Internet website and link back and forth. </p><p>Optional tools like Order History, Buyer's Guide and Interchange are also available. </p><p>Order History allows users to access their account history with your company online and check the status of orders and credits. They can then print their own invoice copies saving your staff valuable time each month. </p><p>Place a manufacturer logo on the site and use co-op money to pay for the site. </p><p>Implementation at your business is a breeze with virtually no major training needed or support headaches to contend with. Your current field sales staff can easily introduce Nexpart to employees. </p><p>An integrated Lost Sale report with part vehicle application data helps keep your inventory up-t-date. </p><p>Outlined to the right are some major areas of Nexpart and how they may be addressed within your business. Share this document with your management and IT staff to assist you when making your decision to implement Nexpart. </p><p><span class="blue2">Customer Information</span> </p><p>You can grant secure customer access to Nexpart in under a minute </p><p>Distributor can allow employees to access inventory and place orders at up to five branches. Branches can also be flagged to display the available inventory, but require the user to place his order from his designated branches only. </p><p>Branches can be assigned and sorted for each customer </p><p>Customer list price and net price are retrieved from the customer file and price matrix </p><p>Employees with a PO # required or over-credit issues are handled appropriately </p><p>Changes to a customer's file such as name, pricing or credit on the distributor's system will be reflected in Nexpart automatically no extra maintenance required. </p><p><span class="blue2">Inventory Information</span> </p><p>Employees have access to every part in your vendors inventory from every line. </p><p>Quantity On Hand is retrieved from Distributor's computer system real-time with every inquiry. It can be filtered to show actual inventory, Yes if you have it or Call if you don't, or up to user requested quantity. </p><p>Any changes to the inventory file including quantities, pricing, alternates, descriptions, etc. on the distributor's computer system will be automatically reflected in Nexpart - no extra maintenance required. </p><p>Alternates, supercedes and not on file parts are clearly displayed to the user </p><p><span class="blue2">Catalog</span> </p><p>Our full-line Electronic Catalog with product images is featured on Nexpart. The WHI catalog is an industry leader in data processing speed, years of coverage, and accuracy. </p><p>You can allow Nexpart users to access catalog data for any manufacturer in the catalog. WHI updates the catalog centrally every month saving you time. No matter what brand catalog is resident on your system, Nexpart is compatible with your inventory file. Distributors can sort the catalog display for maximum exposure of higher-margin lines. </p><p><span class="blue2">Order History</span> </p><p>Users can access their account activity with the distributor online and print secure copies of invoices or credits. All account activity can be retrieve- online, phone and fax orders included. Substantially reduce the number of phone calls for invoice reprints, the status of credits each month. This is an optional feature. </p><p><span class="blue2">System Integration</span> </p><p>Nexpart can be incorporated into virtually any computer system in the marketplace including custom systems. </p><p>Nexpart uses XML technology to communicate with a distributor's system. A very small, simple, secure XML request is sent to your system, retrieved, and sent to the Nexpart server. We can also send requests in formats other than XML such as comma, tab or pipe delimited, etc. A small amount of hardware may be installed on site at the distributor to secure the transaction, while the Nexpart server itself is located in one of the nation's major web hosting facilities - the same facility used by The New York Times. </p><p>The distributor's system needs to be Nexpart-Ready. Additional costs may be payable to WHI or your system provider to integrate-ask your provider for details. If you own a custom system or have rights to access the source code, we can work with a programmer to integrate Nexpart into your system. Contact us for details. </p><p>Your connection to Nexpart is a secure one allowing valid transactions to pass back and forth. Your data will be protected from Nexpart-related security breaches using state of the art Internet and network security resources. </p><p>When the user places an order, a pick ticket is printed. Nexpart prints to default branch printers, or distributor-specified printers </p><p><span class="blue2">Distributor Requirements</span> </p><p>Broadband Internet connection at the computer system main location. Business-class DSL with 5 static IP addresses minimum. Secure network firewall </p><p>Nexpart-ready system or access to an XML programmer for those with custom systems or those where the source code is owned and accessible. </p><p><span class="blue2">Final Overview</span> </p><p>Modest startup cost can be customized to include all necessary hardware, on-site training, phone training, website customization and marketing materials. </p><p>Your implementation can include optional features such as Order History, Buyer's Guide, Interchange and Shop Management System integration. </p><p>Nexpart offers a simple monthly subscription price for each user with low user fee minimums and support costs. </p><p><b>Contact WHI to see how Nexpart™ can positively impact your business.</b> (661) 257-2120 opt #2 or contact via email at <a href="mailto:sales@whisolutions.com">sales@whisolutions.com</a> </p>
+			</span></TD>
+
+
+			<TD BGCOLOR="#FFFFFF"><IMG src="./images/spacer.gif" WIDTH=22 ALT=""></TD>
+			<TD BGCOLOR="#F0F0F2" VALIGN="TOP" style="padding-left:15px; padding-top:21px;padding-bottom:21px;padding-right:15px;">
+			<span class="defaultRightContent">
+			
+<p><span class="red2">Contact WHI to see how Nexpart™ can positively impact your business.</span></p><p>(914) 697-9400  or Contact via email: <a href="mailto:sales@whisolutions.com">sales@whisolutions.com</a></p><hr /></span>
+			</TD>
+		</TR>
+<!--end of left column-->
+		<TR>
+			<TD COLSPAN=4 class="homeCopy" align="right">Copyright 2010 WHI Solutions, Inc. | <a href="content.asp?pageID=59">Site Map</a> | <a href="content.asp?pageID=58">Privacy Policy</a></TD>
+		</TR>
+	</table>
+</TD>
+</TR>
+</TABLE>
+<!--start of Roll down section nav2-->
+<!--start of about rolldown-->
+<div id="menu1Container" style="Display:NONE;text-align:left;">
+	<div id="menu1Content"><table width="176" border="0" cellspacing="0" cellpadding="0">
+		<tr>
+			<td><IMG src="./images/navbar_rolldownSpace.jpg"></td>
+		</tr>
+		<tr>
+			<td nowrap style="width:176;height:26;" class="itemHead" onmouseover="this.className='itemRo';" onmouseout="this.className='itemHead';" onClick="document.location.href='content.asp?pageID=36';">
+			<div style="padding-left:12;"><a href="content.asp?pageID=36" class="menuStyle">News</a></div></td>
+		</tr>
+		<tr>
+			<td><IMG src="./images/navbar_rolldownSpace.jpg"></td>
+		</tr>
+		<tr>
+			<td nowrap style="width:176;height:26;" class="itemHead" onmouseover="this.className='itemRo';" onmouseout="this.className='itemHead';" onClick="document.location.href='content.asp?pageID=12';">
+			<div style="padding-left:12;"><a href="content.asp?pageID=12" class="menuStyle">Awards</a></div></td>
+		</tr>
+		<tr>
+			<td><IMG src="./images/navbar_rolldownSpace.jpg"></td>
+		</tr>
+		<tr>
+			<td nowrap style="width:176;height:26;" class="itemHead" onmouseover="this.className='itemRo';" onmouseout="this.className='itemHead';" onClick="document.location.href='content.asp?pageID=37';">
+			<div style="padding-left:12;"><a href="content.asp?pageID=37" class="menuStyle">Jobs at WHI</a></div></td>
+		</tr>
+		<tr>
+			<td><IMG src="./images/navbar_rolldownSpace.jpg"></td>
+		</tr>
+		<tr>
+			<td nowrap style="width:176;height:26;" class="itemHead" onmouseover="this.className='itemRo';" onmouseout="this.className='itemHead';" onClick="document.location.href='content.asp?pageID=2';">
+			<div style="padding-left:12;"><a href="content.asp?pageID=2"class="menuStyle">Corporate Info</a></div></td>
+		</tr>
+		<tr>
+			<td><IMG src="./images/navbar_rolldownSpace.jpg"></td>
+		</tr>
+		<tr>
+			<td nowrap style="width:176;height:26;" class="itemHead" onmouseover="this.className='itemRo';" onmouseout="this.className='itemHead';" onClick="document.location.href='content.asp?pageID=35';">
+			<div style="padding-left:12;"><a href="content.asp?pageID=35" class="menuStyle">Investors</a></div></td>
+		</tr>
+		<tr>
+			<td><IMG src="./images/navbar_rolldownSpace.jpg"></td>
+		</tr>
+		<tr>
+			<td nowrap style="width:176;height:26;" class="itemHead" onmouseover="this.className='itemRo';" onmouseout="this.className='itemHead';" onClick="document.location.href='content.asp?pageID=38';">
+			<div style="padding-left:12;"><a href="content.asp?pageID=38" class="menuStyle">Testimonials</a></div></td>
+		</tr>
+		<tr>
+			<td><IMG src="./images/navbar_rolldownSpace.jpg"></td>
+		</tr>
+	</table></div>
+</div>
+<script language="Javascript">
+//function ypSlideOutMenu(id, dir, left, top, width, height, parentid, degrade, debug)
+var myMenu1 = new ypSlideOutMenu("menu1", "down", 0, 0, 176, 177)
+myMenu1.onactivate = function() { repositionMenu(myMenu1, 0, 33); }
+menu1Container.style.display='Block';</script>
+<!--end of about rolldown-->
+<!--Start of products roll down-->
+<div id="menu2Container" style="Display:NONE;text-align:left;">
+	<div id="menu2Content"><table width="176" border="0" cellspacing="0" cellpadding="0">
+		<tr>
+			<td><IMG src="./images/navbar_rolldownSpace.jpg"></td>
+		</tr>
+		<tr>
+			<td nowrap style="width:176;height:26;" class="itemHead" onMouseOver="this.className='itemRo';ypSlideOutMenu.showMenu('menu7');" onMouseOut="this.className='itemHead';ypSlideOutMenu.hideMenu('menu7');">
+			<div class="cursorStyle" style="padding-left:12;"><span class="menuStyle">Content & Catalog</div></span></td>
+		</tr>
+		<tr>
+			<td><IMG src="./images/navbar_rolldownSpace.jpg"></td>
+		</tr>
+		<tr>
+			<td nowrap style="width:176;height:26;" class="itemHead" onmouseover="this.className='itemRo';ypSlideOutMenu.showMenu('menu8');" onmouseout="this.className='itemHead';ypSlideOutMenu.hideMenu('menu8');">
+			<div class="cursorStyle" style="padding-left:12;"><span class="menuStyle">eCommerce & <br />Supply Chain</div></span></td>
+		</tr>
+		<tr>
+			<td><IMG src="./images/navbar_rolldownSpace.jpg"></td>
+		</tr>
+		<tr>
+			<td nowrap style="width:176;height:26;" class="itemHead" onmouseover="this.className='itemRo';ypSlideOutMenu.showMenu('menu9');" onmouseout="this.className='itemHead'; ypSlideOutMenu.hideMenu('menu9');">
+			<div class="cursorStyle" style="padding-left:12;"><span class="menuStyle">Distribution Management</div></span></td>
+		</tr>
+		<tr>
+			<td><IMG src="./images/navbar_rolldownSpace.jpg"></td>
+		</tr>
+		<tr>
+			<td nowrap style="width:176;height:26;" class="itemHead" onmouseover="this.className='itemRo'; ypSlideOutMenu.showMenu('menu10');" onmouseout="this.className='itemHead';ypSlideOutMenu.hideMenu('menu10');">
+			<div class="cursorStyle" style="padding-left:12;"><span class="menuStyle">Business Intelligence</div></span></td>
+		</tr>
+		<tr>
+			<td><IMG src="./images/navbar_rolldownSpace.jpg"></td>
+		</tr>
+		<tr>
+			<td nowrap style="width:176;height:26;" class="itemHead" onmouseover="this.className='itemRo'; ypSlideOutMenu.showMenu('menu11');" onmouseout="this.className='itemHead';ypSlideOutMenu.hideMenu('menu11');">
+			<div class="cursorStyle" style="padding-left:12;"><span class="menuStyle">Collaboration Tools for <br />Independent Software Vendors</div></span></td>
+		</tr>
+		<tr>
+			<td><IMG src="./images/navbar_rolldownSpace.jpg"></td>
+		</tr>
+	</table></div>
+</div>
+<script language="Javascript">
+//function ypSlideOutMenu(id, dir, left, top, width, height, parentid, degrade, debug)
+var myMenu2 = new ypSlideOutMenu("menu2", "down", 0, 0, 176, 177)
+myMenu2.onactivate = function() { repositionMenu(myMenu2, 81, 33); }
+menu2Container.style.display='Block';</script>
+<!--end of products roll down-->
+<!--start of Industries roll down-->
+<div id="menu3Container" style="Display:NONE;text-align:left;">
+	<div id="menu3Content"><table width="176" border="0" cellspacing="0" cellpadding="0">
+		<tr>
+			<td><IMG src="./images/navbar_rolldownSpace.jpg"></td>
+		</tr>
+		<tr>
+			<td nowrap style="width:176;height:26;" class="itemHead" onmouseover="this.className='itemRo';" onmouseout="this.className='itemHead';" onClick="document.location.href='content.asp?pageID=23';">
+			<div class="cursorStyle" style="padding-left:12;"><a href="content.asp?pageID=23"class="menuStyle">Automotive</a></div></td>
+		</tr>
+		<tr>
+			<td><IMG src="./images/navbar_rolldownSpace.jpg"></td>
+		</tr>
+		<tr>
+			<td nowrap style="width:176;height:26;" class="itemHead" onmouseover="this.className='itemRo';" onmouseout="this.className='itemHead';" onClick="document.location.href='content.asp?pageID=25';">
+			<div class="cursorStyle" style="padding-left:12;"><a href="content.asp?pageID=25"class="menuStyle">Hardgoods</a></div></td>
+		</tr>
+		<tr>
+			<td><IMG src="./images/navbar_rolldownSpace.jpg"></td>
+		</tr>
+		<tr>
+			<td nowrap style="width:176;height:26;" class="itemHead" onmouseover="this.className='itemRo';" onmouseout="this.className='itemHead';" onClick="document.location.href='content.asp?pageID=26';">
+			<div class="cursorStyle" style="padding-left:12;"><a href="content.asp?pageID=26"class="menuStyle">Marine</a></div></td>
+		</tr>
+		<tr>
+			<td><IMG src="./images/navbar_rolldownSpace.jpg"></td>
+		</tr>
+		<tr>
+			<td nowrap style="width:176;height:26;" class="itemHead" onmouseover="this.className='itemRo';" onmouseout="this.className='itemHead';" onClick="document.location.href='content.asp?pageID=24';">
+			<div class="cursorStyle" style="padding-left:12;"><a href="content.asp?pageID=24"class="menuStyle">Electrical</a></div></td>
+		</tr>
+		<tr>
+			<td><IMG src="./images/navbar_rolldownSpace.jpg"></td>
+		</tr>
+	</table></div>
+</div>
+<script language="Javascript">
+//function ypSlideOutMenu(id, dir, left, top, width, height, parentid, degrade, debug)
+var myMenu3 = new ypSlideOutMenu("menu3", "down", 0, 0, 176, 177)
+myMenu3.onactivate = function() { repositionMenu(myMenu3, 185, 33); }
+menu3Container.style.display='Block';</script>
+<!--end of industries-->
+<!--start of Partners rolldown-->
+<div id="menu4Container" style="Display:NONE;text-align:left;">
+	<div id="menu4Content"><table width="176" border="0" cellspacing="0" cellpadding="0">
+		<tr>
+			<td><IMG src="./images/navbar_rolldownSpace.jpg"></td>
+		</tr>
+		<tr>
+			<td nowrap style="width:176;height:26;" class="itemHead" onmouseover="this.className='itemRo';" onmouseout="this.className='itemHead';" onClick="document.location.href='content.asp?pageID=14';">
+			<div style="padding-left:12;"><a href="content.asp?pageID=14" class="menuStyle">Integrated Shop<br />Management Systems</a></div></td>
+		</tr>
+		<tr>
+			<td><IMG src="./images/navbar_rolldownSpace.jpg"></td>
+		</tr>
+		<tr>
+			<td nowrap style="width:176;height:26;" class="itemHead" onmouseover="this.className='itemRo';" onmouseout="this.className='itemHead';" onClick="document.location.href='content.asp?pageID=6';">
+			<div style="padding-left:12;"><a href="content.asp?pageID=6" class="menuStyle">WHI Partner Program</div></a></td>
+		</tr>
+		<tr>
+			<td><IMG src="./images/navbar_rolldownSpace.jpg"></td>
+		</tr>
+	</table></div>
+</div>
+<script language="Javascript">
+//function ypSlideOutMenu(id, dir, left, top, width, height, parentid, degrade, debug)
+var myMenu4 = new ypSlideOutMenu("menu4", "down", 0, 0, 176, 177)
+myMenu4.onactivate = function() { repositionMenu(myMenu4, 299, 33); }
+menu4Container.style.display='Block';</script>
+<!--end of partners rolldown-->
+<!--start of support rolldown-->
+<div id="menu5Container" style="Display:NONE;text-align:left;">
+	<div id="menu5Content"><table width="176" border="0" cellspacing="0" cellpadding="0">
+		<tr>
+			<td><IMG src="./images/navbar_rolldownSpace.jpg"></td>
+		</tr>
+		<tr>
+			<td nowrap style="width:176;height:26;" class="itemHead" onmouseover="this.className='itemRo';" onmouseout="this.className='itemHead';" onClick="document.location.href='content.asp?pageID=39';">
+			<div style="padding-left:12;"><a href="content.asp?pageID=39" class="menuStyle">FAQ's</div></a></td>
+		</tr>
+		<tr>
+			<td><IMG src="./images/navbar_rolldownSpace.jpg"></td>
+		</tr>
+		<tr>
+			<td nowrap style="width:176;height:26;" class="itemHead" onmouseover="this.className='itemRo';" onmouseout="this.className='itemHead';" onClick="document.location.href='support.asp';">
+			<div style="padding-left:12;"><a href="support.asp" class="menuStyle">Customer Support Portal</a></div></td>
+		</tr>
+		<tr>
+			<td><IMG src="./images/navbar_rolldownSpace.jpg"></td>
+		</tr>
+		<tr>
+			<td nowrap style="width:176;height:26;" class="itemHead" onmouseover="this.className='itemRo';" onmouseout="this.className='itemHead';" onClick="document.location.href='download.asp';">
+			<div style="padding-left:12;"><a href="download.asp" class="menuStyle">Download Center</a></div></td>
+		</tr>
+		<tr>
+			<td><IMG src="./images/navbar_rolldownSpace.jpg"></td>
+		</tr>
+	</table></div>
+</div>
+<script language="Javascript">
+//function ypSlideOutMenu(id, dir, left, top, width, height, parentid, degrade, debug)
+var myMenu5 = new ypSlideOutMenu("menu5", "down", 0, 0, 176, 177)
+myMenu5.onactivate = function() { repositionMenu(myMenu5, 510, 33); }
+menu5Container.style.display='Block';</script>
+<!--end of support rolldown-->
+<!--start of support rolldown-->
+<div id="menu6Container" style="Display:NONE;text-align:left;">
+	<div id="menu6Content"><table width="176" border="0" cellspacing="0" cellpadding="0">
+		<tr>
+			<td><IMG src="./images/navbar_rolldownSpace.jpg"></td>
+		</tr>
+		<tr>
+			<td nowrap style="width:176;height:26;" class="itemHead" onmouseover="this.className='itemRo';" onmouseout="this.className='itemHead';" onClick="document.location.href='content.asp?pageID=40';">
+			<div style="padding-left:12;"><a href="content.asp?pageID=40" class="menuStyle">Sign Up for Newsletter</a></div></td>
+		</tr>
+		<tr>
+			<td><IMG src="./images/navbar_rolldownSpace.jpg"></td>
+		</tr>
+		<tr>
+			<td nowrap style="width:176;height:26;" class="itemHead" onmouseover="this.className='itemRo';" onmouseout="this.className='itemHead';" onClick="document.location.href='content.asp?pageID=9';">
+			<div style="padding-left:12;"><a href="content.asp?pageID=9" class="menuStyle">Contact</a></div></td>
+		</tr>
+		<tr>
+			<td><IMG src="./images/navbar_rolldownSpace.jpg"></td>
+		</tr>
+	</table></div>
+</div>
+<script language="Javascript">
+//function ypSlideOutMenu(id, dir, left, top, width, height, parentid, degrade, debug)
+var myMenu6 = new ypSlideOutMenu("menu6", "down", 0, 0, 176, 177)
+myMenu6.onactivate = function() { repositionMenu(myMenu6, 604, 33); }
+menu6Container.style.display='Block';</script>
+<!--end of support rolldown-->
+
+<!--start of third level rolldowns-->
+<!--catalog&content-->
+<div id="menu7Container" style="Display:NONE;text-align:left;">
+	<div id="menu7Content"><table width="185" border="0" cellspacing="0" cellpadding="0">
+		<tr>
+			<td><IMG src="./images/navbar_rolldownSpace.jpg"></td>
+		</tr>
+		<tr>
+			<td nowrap style="width:185;height:26;" class="itemHead" onmouseover="this.className='itemRo';" onmouseout="this.className='itemHead';" onClick="document.location.href='content.asp?pageID=3';">
+			<div style="padding-left:12;"><a href="content.asp?pageID=3" class="menuStyle">Nexpart eCatalog</div></a></td>
+		</tr>
+		<tr>
+			<td><IMG src="./images/navbar_rolldownSpace.jpg"></td>
+		</tr>
+		<tr>
+			<td nowrap style="width:185;height:26;" class="itemHead" onmouseover="this.className='itemRo';" onmouseout="this.className='itemHead';" onClick="document.location.href='content.asp?pageID=8';">
+			<div style="padding-left:12;"><a href="content.asp?pageID=8" class="menuStyle">Manufacturer eCatalog <br /> Subscription</div></a></td>
+		</tr>
+		<tr>
+			<td><IMG src="./images/navbar_rolldownSpace.jpg"></td>
+		</tr>
+	</table></div>
+</div>
+<script language="Javascript">
+//function ypSlideOutMenu(id, dir, left, top, width, height, parentid, degrade, debug)
+var myMenu7 = new ypSlideOutMenu("menu7", "right", 0, 0, 176, 177, "menu2")
+myMenu7.onactivate = function() { repositionMenu(myMenu7, 255, 33); }
+menu7Container.style.display='Block';</script>
+<!--end of catalog and content-->
+<!--eCommerce & Supply chain-->
+<div id="menu8Container" style="Display:NONE;text-align:left;">
+	<div id="menu8Content"><table width="185" border="0" cellspacing="0" cellpadding="0">
+		<tr>
+			<td><IMG src="./images/navbar_rolldownSpace.jpg"></td>
+		</tr>
+		<tr>
+			<td nowrap style="width:185;height:26;" class="itemHead" onmouseover="this.className='itemRo';" onmouseout="this.className='itemHead';" onClick="document.location.href='content.asp?pageID=13';">
+			<div style="padding-left:12;"><a href="content.asp?pageID=13" class="menuStyle">Nexpart eCommerce</a></div></td>
+		</tr>
+		<tr>
+			<td><IMG src="./images/navbar_rolldownSpace.jpg"></td>
+		</tr>
+		<tr>
+			<td nowrap style="width:185;height:26;" class="itemHead" onmouseover="this.className='itemRo';" onmouseout="this.className='itemHead';" onClick="document.location.href='content.asp?pageID=17';">
+			<div style="padding-left:12;"><a href="content.asp?pageID=17" class="menuStyle">Nexpart Virtual Inventory</a></div></td>
+		</tr>
+		<tr>
+			<td><IMG src="./images/navbar_rolldownSpace.jpg"></td>
+		</tr>
+		<tr>
+			<td nowrap style="width:185;height:26;" class="itemHead" onmouseover="this.className='itemRo';" onmouseout="this.className='itemHead';" onClick="document.location.href='content.asp?pageID=16';">
+			<div style="padding-left:12;"><a href="content.asp?pageID=16" class="menuStyle">Nexpart Repair</a></div></td>
+		</tr>
+		<tr>
+			<td><IMG src="./images/navbar_rolldownSpace.jpg"></td>
+		</tr>
+		<tr>
+			<td nowrap style="width:185;height:26;" class="itemHead" onmouseover="this.className='itemRo';" onmouseout="this.className='itemHead';" onClick="document.location.href='content.asp?pageID=32';">
+			<div style="padding-left:12;"><a href="content.asp?pageID=32" class="menuStyle">Nexpart Estimator</a></div></td>
+		</tr>
+		<tr>
+			<td><IMG src="./images/navbar_rolldownSpace.jpg"></td>
+		</tr>
+		<tr>
+			<td nowrap style="width:185;height:26;" class="itemHead" onmouseover="this.className='itemRo';" onmouseout="this.className='itemHead';" onClick="document.location.href='content.asp?pageID=18';">
+			<div style="padding-left:12;"><a href="content.asp?pageID=18" class="menuStyle">Nexpart Central Order</a></div></td>
+		</tr>
+		<tr>
+			<td><IMG src="./images/navbar_rolldownSpace.jpg"></td>
+		</tr>
+	</table></div>
+</div>
+<script language="Javascript">
+//function ypSlideOutMenu(id, dir, left, top, width, height, parentid, degrade, debug)
+var myMenu8 = new ypSlideOutMenu("menu8", "right", 0, 0, 176, 177, "menu2")
+myMenu8.onactivate = function() { repositionMenu(myMenu8, 255, 61); }
+menu8Container.style.display='Block';</script>
+<!--end of eCommerce & Supply chaint-->
+
+<!--Warehouse & Store Management-->
+<div id="menu9Container" style="Display:NONE;text-align:left;">
+	<div id="menu9Content"><table width="185" border="0" cellspacing="0" cellpadding="0">
+		<tr>
+			<td><IMG src="./images/navbar_rolldownSpace.jpg"></td>
+		</tr>
+		<tr>
+			<td nowrap style="width:185;height:26;" class="itemHead" onmouseover="this.className='itemRo';" onmouseout="this.className='itemHead';"onClick="document.location.href='content.asp?pageID=21';">
+			<div style="padding-left:12;"><a href="content.asp?pageID=21" class="menuStyle">Nexpart Warehouse Management</a></div></td>
+		</tr>
+		<tr>
+			<td><IMG src="./images/navbar_rolldownSpace.jpg"></td>
+		</tr>
+		<tr>
+			<td nowrap style="width:185;height:26;" class="itemHead" onmouseover="this.className='itemRo';" onmouseout="this.className='itemHead';"onClick="document.location.href='content.asp?pageID=63';">
+			<div style="padding-left:12;"><a href="content.asp?pageID=63" class="menuStyle">Nexpart Store Management</a></div></td>
+		</tr>
+		<tr>
+			<td><IMG src="./images/navbar_rolldownSpace.jpg"></td>
+		</tr>
+
+	</table></div>
+</div>
+<script language="Javascript">
+//function ypSlideOutMenu(id, dir, left, top, width, height, parentid, degrade, debug)
+var myMenu9 = new ypSlideOutMenu("menu9", "right", 0, 0, 176, 177, "menu2")
+myMenu9.onactivate = function() { repositionMenu(myMenu9, 255, 92); }
+menu9Container.style.display='Block';</script>
+<!--end of Warehouse & Store Management-->
+
+<!--Business Intelligence & Analytics-->
+<div id="menu10Container" style="Display:NONE;text-align:left;">
+	<div id="menu10Content"><table width="185" border="0" cellspacing="0" cellpadding="0">
+		<tr>
+			<td><IMG src="./images/navbar_rolldownSpace.jpg"></td>
+		</tr>
+		<tr>
+			<td nowrap style="width:185;height:26;" class="itemHead" onmouseover="this.className='itemRo';" onmouseout="this.className='itemHead';"onClick="document.location.href='content.asp?pageID=15';">
+			<div style="padding-left:12;"><a href="content.asp?pageID=15" class="menuStyle">Nexpart Inventory Optimization</div></span></td>
+		</tr>
+		<tr>
+			<td><IMG src="./images/navbar_rolldownSpace.jpg"></td>
+		</tr>
+		<tr>
+			<td nowrap style="width:185;height:26;" class="itemHead" onmouseover="this.className='itemRo';" onmouseout="this.className='itemHead';" onClick="document.location.href='content.asp?pageID=7';">
+			<div style="padding-left:12;"><a href="content.asp?pageID=7" class="menuStyle">Nexpart Business Intelligence</div></a></td>
+		</tr>
+		<tr>
+			<td><IMG src="./images/navbar_rolldownSpace.jpg"></td>
+		</tr>
+	</table></div>
+</div>
+<script language="Javascript">
+//function ypSlideOutMenu(id, dir, left, top, width, height, parentid, degrade, debug)
+var myMenu10 = new ypSlideOutMenu("menu10", "right", 0, 0, 176, 177, "menu2")
+myMenu10.onactivate = function() { repositionMenu(myMenu10, 255, 122); }
+menu10Container.style.display='Block';</script>
+<!--end of Business Intelligence & Analytics-->
+
+<!--Collaboration tools for Independent Software vendors-->
+<div id="menu11Container" style="Display:NONE;text-align:left;">
+	<div id="menu11Content"><table width="185" border="0" cellspacing="0" cellpadding="0">
+		<tr>
+			<td><IMG src="./images/navbar_rolldownSpace.jpg"></td>
+		</tr>
+		<tr>
+			<td nowrap style="width:85;height:26;" class="itemHead" onmouseover="this.className='itemRo';" onmouseout="this.className='itemHead';"onClick="document.location.href='content.asp?pageID=20';">
+			<div style="padding-left:12;"><a href="content.asp?pageID=20" class="menuStyle">Nexpart Link</div></span></td>
+		</tr>
+		<tr>
+			<td><IMG src="./images/navbar_rolldownSpace.jpg"></td>
+		</tr>
+
+	</table></div>
+</div>
+<script language="Javascript">
+//function ypSlideOutMenu(id, dir, left, top, width, height, parentid, degrade, debug)
+var myMenu11 = new ypSlideOutMenu("menu11", "right", 0, 0, 176, 177, "menu2")
+myMenu11.onactivate = function() { repositionMenu(myMenu11, 255, 152); }
+menu11Container.style.display='Block';</script>
+<!--end of Collaboration tools for Independent Software vendors-->
+</BODY>
+</HTML>
