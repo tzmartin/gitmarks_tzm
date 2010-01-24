@@ -1,0 +1,228 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en"><head><title>NPA-NXX - voip-info.org</title><meta http-equiv="content-type" content="text/html; charset=utf-8" /><meta name="generator" content="bitweaver - http://www.bitweaver.org" /><meta name="description" content="" /><meta name="keywords" content="" /><link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" /><link rel="icon" href="/favicon.ico" type="image/x-icon" /><link rel="start" title="voip-info.org Home" href="/" />
+<script type="text/javascript">LibertyContent = {};LibertyContent.CONTENT_TYPE_GUID = "bitpage";</script>
+
+<link rel="alternate" type="application/rss+xml" title="Wiki RSS" href="/wiki/wiki_rss.php?version=2" />
+<style type="text/css">
+table.switchboard {
+	border-width: 1px 1px 1px 1px;
+	border-spacing: 2px;
+	border-style: outset outset outset outset;
+	border-color: gray gray gray gray;
+	border-collapse: separate;
+	background-color: white;
+}
+table.switchboard th {
+	border-width: 1px 1px 1px 1px;
+	padding: 1px 1px 1px 1px;
+	border-style: inset inset inset inset;
+	border-color: gray gray gray gray;
+	background-color: white;
+	-moz-border-radius: 0px 0px 0px 0px;
+}
+table.switchboard td {
+	border-width: 1px 1px 1px 1px;
+	padding: 1px 1px 1px 1px;
+	border-style: inset inset inset inset;
+	border-color: gray gray gray gray;
+	background-color: white;
+	-moz-border-radius: 0px 0px 0px 0px;
+}
+</style>
+
+
+
+
+
+
+
+
+</head><body  id="wiki" ><div id="bittop">
+	<div style="float:right;text-align:right;">
+					<a href="/users/login.php">login</a>
+							| <a href="/users/register.php">register</a> 
+					
+		<br />
+
+					Sat 18 of Dec, 2010 [18:12 UTC]
+			</div>
+	<h1><a href="/">voip-info.org</a></h1>
+	<h3></h3>
+</div><ul><li><a href="#content">Page content</a></li><li><a href="#navigation">Page navigation</a></li><li><a href="#extra">Page extras</a></li></ul><div id="content">
+
+<div class="display wiki npanxx">
+			<div class="floaticon"><a href="/wiki/page_history.php?page_id=936">History</a><br /><select name="page" onchange="go(this)"><option value="/wiki/index.php?page_id=936">Backlinks...</option><option value="/index.php?content_id=3390">Numbering plans</option><option value="/index.php?content_id=4973">LERG</option><option value="/index.php?content_id=88262">NECA</option><option value="/index.php?content_id=88263">OCN</option><option value="/index.php?content_id=4356">Telecom Dictionary</option></select></div>			<div class="header">
+		<h1>NPA-NXX</h1><div class="date">Created by: <a class="username" title="Visit the userpage of: jht2" href="/users/view/jht2">jht2</a>,Last modification on Fri 27 of Aug, 2010 [10:37 UTC]&nbsp;by <a class="username" title="Visit the userpage of: shuheiy" href="/users/view/shuheiy">shuheiy</a></div>
+	</div><!-- end .header -->
+	
+	
+	<div class="body"><div class="content"><h2>North American Numbering Plan</h2><br />The North American Numbering Plan (NANP) governs the managment of telephone numbers for the Public Switched Telephone Networks in North America (Canada, USA, Carribean, and territories) within the international country code prefix '+1'.<br /><br />North American phone numbers are in the format (where N is any digit from 2-9, and X from 0-9):<br /><br /><span style="font-family:monospace;">&nbsp;&nbsp;&nbsp;NPA-NXX-XXXX</span><br /><br />Specifically:<br /><br /><span style="font-family:monospace;">&nbsp;&nbsp;&nbsp;NPA&nbsp;identifies&nbsp;the&nbsp;3-digit&nbsp;Numbering&nbsp;Plan&nbsp;Area&nbsp;(Area&nbsp;Code)&nbsp;</span><br /><span style="font-family:monospace;">&nbsp;&nbsp;&nbsp;NXX&nbsp;identifies&nbsp;the&nbsp;Central&nbsp;Office&nbsp;(aka.&nbsp;Exchange)&nbsp;within&nbsp;the&nbsp;NPA</span><br /><span style="font-family:monospace;">&nbsp;&nbsp;&nbsp;XXXX&nbsp;identifies&nbsp;the&nbsp;Station&nbsp;within&nbsp;the&nbsp;NXX&nbsp;</span><br /><br />In NPAs that do not require overlay facilities numbers of the form NXX-XXXX are colloquially refered to as <em>local</em> and numbers of the form 1-NPA-NXX-XXXX are known as <em>long distance</em>. In certain NPAs, particularly large urban areas, the maximum number of available NXX and Station code combinations has been reached, requiring additional non-toll NPA's to be assigned - these are known as overlay facilites and their presence is generally reflected by 'local' numbers taking on the form NPA-NXX-XXXX and 'long distance' the form 1-NPA-NXX-XXXX. The NANPA maintains historical assignments statistics on Station and Exchange code use within each NPA and periodically issues exhaustion projections (eg. http://www.nanpa.com/pdf/NRUF/2006-2NPA_Exhaust_Projections.pdf) which are used to advertise and plan network structure changes.<br /><br />Unlike many countries calls between the majority of <em>local</em> stations in the United States and Canada are toll-free, with only <em>long distance</em> calls incuring a toll charge. The requirement for prefixing a leading <em>1</em> to place a toll call is known as requiring <em>toll alerting</em>. The need for toll alerting varies from NPA to NPA however it is universally active in Canada and implemented for most other jurisdictions in the NANP.<br /><br />The official managment website for the NANP is <a class="external" onClick="javascript: pageTracker._trackPageview('/outgoing/wikipages/www.nanpa.com' );"        href='http://www.nanpa.com'>http://www.nanpa.com</a><br /><br /><ul><li> <a class="external" onClick="javascript: pageTracker._trackPageview('/outgoing/wikipages/www.lincmad.com/areacodemap.html' );"        href='http://www.lincmad.com/areacodemap.html'>Linkmad Areacode Map</a></li><li> <a class="external" onClick="javascript: pageTracker._trackPageview('/outgoing/wikipages/www.bennetyee.org/ucsd-pages/area.html' );"        href='http://www.bennetyee.org/ucsd-pages/area.html'>List of Area Codes</a></li></ul><br /><h2>LERG</h2>The North American numbering plan is available in a data base called the <a title="LERG" href="/wiki/view/LERG">LERG</a> maintained by <a title="Telcordia" href="/wiki/view/Telcordia">Telcordia</a>.<br />The LERG has data for every switch and central office in the North American telephone network.<br />Copies of the LERG can be purchased from <a title="Telcordia" href="/wiki/view/Telcordia">Telcordia</a>.  LERG info is constantly changing, so most users subscribe to periodic updates.<br /><br />Subsets of the information in the LERG are available free on the Web:<br /><ul><li> <a class="external" onClick="javascript: pageTracker._trackPageview('/outgoing/wikipages/www.nanpa.com/reports/reports_cocodes_assign.html' );"        href='http://www.nanpa.com/reports/reports_cocodes_assign.html'>NANPA</a> selected LERG info in Excel format</li><li> <a class="external" onClick="javascript: pageTracker._trackPageview('/outgoing/wikipages/www.telcodata.us/' );"        href='http://www.telcodata.us/'>http://www.telcodata.us/</a> LERG type info</li><li> <a class="external" onClick="javascript: pageTracker._trackPageview('/outgoing/wikipages/www.dslreports.com/coinfo' );"        href='http://www.dslreports.com/coinfo'>http://www.dslreports.com/coinfo</a> LERG info with maps</li><li> <a class="external" onClick="javascript: pageTracker._trackPageview('/outgoing/wikipages/digits.cloudvox.com/' );"        href='http://digits.cloudvox.com/'>http://digits.cloudvox.com/</a> Free API &amp; Web service for location &amp; carrier lookup</li></ul><br />A user submitted VBScript is available to quickly export the Excel data to a MySQL script. <a  href='http://www.voip-info.org/wiki/view/mysql+import+of+limited+lerg+data+provided+by+nanpa'>View</a><br /><h2>Maps</h2>Maps are available that show Central Office locations, local calling areas, and other information<br /><br />Mapquest will generate a map show the approximate Central Office location if you invoke it with a URL like this:<br /><span style="font-family:monospace;">&nbsp;&nbsp;http://www.mapquest.com/maps/map.adp?areacode=702&amp;exchange=939</span><br />change the areacode and exchange values to match the NPA-NXX you want to display.<br /><br />Other Map sources:<br /><ul><li> <a class="external" onClick="javascript: pageTracker._trackPageview('/outgoing/wikipages/www.dslreports.com/coinfo' );"        href='http://www.dslreports.com/coinfo'>http://www.dslreports.com/coinfo</a> LERG info with maps</li><li> <a class="external" onClick="javascript: pageTracker._trackPageview('/outgoing/wikipages/sd.wareonearth.com/~phil/npanxx/' );"        href='http://sd.wareonearth.com/~phil/npanxx/'>http://sd.wareonearth.com/~phil/npanxx/</a> Map and data from April 1999</li><li> <a class="external" onClick="javascript: pageTracker._trackPageview('/outgoing/wikipages/www.mapinfo.com/' );"        href='http://www.mapinfo.com/'>MapInfo</a> sells extensive and detailed LERG based Maps and Data</li></ul><br /><h2>Local Calling Area</h2><ul><li> see: <a title="Local Calling Area" href="/wiki/view/Local+Calling+Area">Local Calling Area</a></li></ul><br /><h2>Information</h2><ul><li> <a class="external" onClick="javascript: pageTracker._trackPageview('/outgoing/wikipages/www.lincmad.com/' );"        href='http://www.lincmad.com/'>Lincmad.com</a> North American Numbering Plan Information</li></ul><br /><h2>Special Use NPA</h2><ul><li> <a title="NPA 500" href="/wiki/view/NPA+500">NPA 500</a> Usage and History of area code 500</li><li> <a title="NPA 700" href="/wiki/view/NPA+700">NPA 700</a></li><li> <a title="NPA 900" href="/wiki/view/NPA+900">NPA 900</a> Usage and History of area code 900 </li></ul><br /><h2>Potentially Premium Rate NPAs</h2><ul><li> 900-NXX-XXXX--premium rate numbers, prices vary</li><li> 700-NXX-XXXX--defined by long distance carrier, one generally calls 1-700-555-4141 toll-free to identify the carrier</li><li> 500-NXX-XXXX--personal communication services (follow me)</li><li> 533-NXX-XXXX--was reserved for expansion of personal communication services, but the reservation has been withdrawn</li></ul><br /><h2>Potentially Premium Rate Exchanges</h2><ul><li> NPA-976-XXXX</li><li> NPA-950-XXXX--some reports that there may be a charge for calling these numbers.  Is this true?</li></ul><br /><h2>Toll-Free Special Use NPAs</h2><ul><li> 800-NXX-XXXX</li><li> 888-NXX-XXXX</li><li> 877-NXX-XXXX</li><li> 866-NXX-XXXX</li><li> 855-NXX-XXXX</li></ul><br /><h2>Carrier Identification Codes</h2>Also known as CIC codes, PIC codes, Dial-Around Numbers, 1010 Numbers, 101XXXX Codes, etc.<br /><ul><li> See <a title="Carrier Identification Codes" href="/wiki/view/Carrier+Identification+Codes">Carrier Identification Codes</a></li></ul><br /><h2>See Also</h2><ul><li> <a title="LERG" href="/wiki/view/LERG">LERG</a></li><li> <a title="NANPA" href="/wiki/view/NANPA">NANPA</a> North American Numbering Plan Administration &mdash; lots of good data </li><li> <a title="Numbering plans" href="/wiki/view/Numbering+plans">Numbering Plans</a></li></ul><br /><div class="clear"></div></div> <!-- end .content --></div> <!-- end .body -->
+	 
+
+	
+
+	
+	
+</div><!-- end .wiki -->
+
+	<br /><div class="display comment"><div class="header"><a name="editcomments"></a><h2>Comments</h2></div><div class="body"><div id="edit_comments" >	<a name="editcomments"></a>
+
+	
+		<form action="/wiki/index.php?page_id=936#editcomments" id="editcomment-form" method="post"  onsubmit=""><div><input type="hidden" name="tk" value="c0d377b112f4ced233e2" />
+		
+		
+		
+			<div class="clear"></div></div></form></div>					<form action="/wiki/index.php?page_id=936#editcomments" method="post"  onsubmit=""><div><input type="hidden" name="tk" value="c0d377b112f4ced233e2" />
+				<input type="hidden" name="post_comment_reply_id" value="" />
+				<input type="hidden" name="post_comment_id" value="" />
+				<table class="optionbar">
+					<caption>Comments Filter</caption>
+					<tr>
+						<td>
+							<label for="comments-maxcomm">Messages </label>
+							<select name="comments_maxComments" id="comments-maxcomm">
+								
+								<option value="1" >1</option>
+								<option value="5" >5</option>
+								<option value="10" selected="selected">10</option>
+								<option value="20" >20</option>
+								<option value="50" >50</option>
+								<option value="100" >100</option>
+								<option value="999999" >All</option>
+							</select>
+						</td>
+						<td>
+							<label for="comments-style">Style </label>
+							<select name="comments_style" id="comments-style">
+								<option value="flat" selected="selected">Flat</option>
+								<option value="threaded" >Threaded</option>
+							</select>
+						</td>
+						<td>
+							<label for="comments-sort">Sort </label>
+							<select name="comments_sort_mode" id="comments-sort">
+								<option value="commentDate_desc" selected="selected">Newest first</option>
+								<option value="commentDate_asc" >Oldest first</option>
+							</select>
+						</td>
+						<td style="text-align:right"><input type="submit" name="comments_setOptions" value="set" /></td>
+					</tr>
+				</table>
+			<div class="clear"></div></div></form>		<div id="comment_4029"></div>222
+<div style="margin-left:0px"><div class="post" id="comment_35015"><div class="floaticon"></div><div class="header"><h3>333KFR SERVICES, INC.</h3><div class="date">by <a class="username" title="Visit the userpage of: doreenr" href="/users/view/doreenr">doreenr</a>, Thursday 22 of February, 2007 [15:00:38 UTC]</div></div><div class="content">Another VERY useful site with an excellent local calling, LATA, Region and Telco NXX database.  http://www.kfrservices.com<br /></div></div><!-- end .post --><div id="comment_35015_footer"></div></div><!-- end .left margin -->222
+<div style="margin-left:0px"><div class="post" id="comment_14572"><div class="floaticon"></div><div class="header"><h3>333Numbering Plan and LERG Data Websites</h3><div class="date">by <a class="username" title="Visit the userpage of: macyh" href="/users/view/macyh">macyh</a>, Monday 13 of February, 2006 [21:33:41 UTC]</div></div><div class="content">Here is a very useful site with an excellent local calling, LATA, Region and Telco NXX database http://www.localcallingguide.com<br /><br /><br /></div></div><!-- end .post --><div id="comment_14572_footer"></div></div><!-- end .left margin --><div id="comment_4029_footer"></div></div><!-- end .body --></div><!-- end .comment -->
+</div><!-- end #content --><div id="header"></div><!-- end #header --><ul><li><a href="#content">Page content</a></li><li><a href="#navigation">Page navigation</a></li><li><a href="#extra">Page extras</a></li></ul><div id="navigation">			
+
+<div class="module ads2" id="navig19"><h3>Ads</h3><div class="boxcontent">	<div style="text-align: center; width:180px">
+<table><tr><td width=178><object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000"
+codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=7,0,19,0"
+width="125" height="125"> <param name="movie"
+value="http://www.voip-info.org/img/ad_20100216_3cx_125x125phonevoip.swf"> <param name="quality" value="high"> <embed
+src="http://www.voip-info.org/img/ad_20100216_3cx_125x125phonevoip.swf" width="125"
+height="125" quality="high"
+pluginspage="http://www.macromedia.com/go/getflashplayer"
+type="application/x-shockwave-flash" ></embed>
+</object><br />
+
+
+<div style="height: 20px; width:100%;"></div>
+<center>
+<a href="/adserver_click.php?ad=bicom"
+target="_blank"
+onClick="javascript:pageTracker._trackPageview('/outgoing/ads/bicomimg');"
+><img src="/img/bicom_banner_20100401.gif"></a>
+</center>
+<p>
+
+<style type="text/css">.AdSpeed {padding-top:10px;}</style> 
+
+<!-- AdSpeed.com Serving Code 7.9.4 for [Zone] Top Sidebar Ad 4 [Any Dimension] -->
+<script type="text/javascript" src="http://g.adspeed.net/ad.php?do=js&zid=21584&wd=-1&ht=-1&target=_top"></script>
+<!-- AdSpeed.com End -->
+<p>
+<!-- AdSpeed.com Serving Code 7.9.4 for [Zone] left3 [Any Dimension] -->
+<script type="text/javascript" src="http://g.adspeed.net/ad.php?do=js&zid=18520&wd=-1&ht=-1&target=_top"></script>
+<p>
+<!-- AdSpeed.com End -->
+
+</td></tr></table>
+</div>
+</div></div>
+			<table><tr><td width=178>
+<div class="module last-modif-pages" id="navig27"><h3>Last modif pages</h3><div class="boxcontent"><ol><li><a href="/wiki/view/Siemens+Gigaset+S675IP?utm_source=voip-info&utm_medium=module&utm_campaign=recentchanges" title="Siemens Gigaset S675IP -&nbsp;ant1, Sat 18 of Dec, 2010">Siemens Gigaset S675IP</a></li><li><a href="/wiki/view/SIP?utm_source=voip-info&utm_medium=module&utm_campaign=recentchanges" title="SIP -&nbsp;helosboing, Sat 18 of Dec, 2010">SIP</a></li><li><a href="/wiki/view/Asterisk+system+vendors?utm_source=voip-info&utm_medium=module&utm_campaign=recentchanges" title="Asterisk system vendors -&nbsp;avb, Fri 17 of Dec, 2010">Asterisk system vendors</a></li><li><a href="/wiki/view/Hash?utm_source=voip-info&utm_medium=module&utm_campaign=recentchanges" title="Hash -&nbsp;phlogistique, Fri 17 of Dec, 2010">Hash</a></li><li><a href="/wiki/view/Mera+Systems?utm_source=voip-info&utm_medium=module&utm_campaign=recentchanges" title="Mera Systems -&nbsp;dgolyanina, Fri 17 of Dec, 2010">Mera Systems</a></li><li><a href="/wiki/view/CDMA?utm_source=voip-info&utm_medium=module&utm_campaign=recentchanges" title="CDMA -&nbsp;koyoco, Fri 17 of Dec, 2010">CDMA</a></li><li><a href="/wiki/view/CSG?utm_source=voip-info&utm_medium=module&utm_campaign=recentchanges" title="CSG -&nbsp;colsolgrp, Fri 17 of Dec, 2010">CSG</a></li><li><a href="/wiki/view/FreeSwitch?utm_source=voip-info&utm_medium=module&utm_campaign=recentchanges" title="FreeSwitch -&nbsp;diegoviola, Fri 17 of Dec, 2010">FreeSwitch</a></li><li><a href="/wiki/view/Asterisk?utm_source=voip-info&utm_medium=module&utm_campaign=recentchanges" title="Asterisk -&nbsp;garydavid, Fri 17 of Dec, 2010">Asterisk</a></li><li><a href="/wiki/view/Live-Tech?utm_source=voip-info&utm_medium=module&utm_campaign=recentchanges" title="Live-Tech -&nbsp;mylivetech, Fri 17 of Dec, 2010">Live-Tech</a></li></ol><a class="more" href="/wiki/list_pages.php?sort_mode=last_modified_desc">Show More&hellip;</a></div></div></td></tr></table>
+			
+
+<div class="module revresponse9" id="navig35"><h3>Free</h3><div class="boxcontent">	<table><tr><td width=178>
+<center>
+<font  size=+1>
+<a href="http://www.3cx.com/VOIP/voip-phone.html" onClick="javascript:pageTracker._trackPageview('/outgoing/ads/3cxfreephone');">
+3CX VoIP phone - free softphone for Windows</a>
+<hr>
+<p>
+<a href="http://www.3cx.com/voip-articles/windows-pbx-advantages.html" onClick="javascript:pageTracker._trackPageview('/outgoing/ads/3cxwinadv');">
+Whitepaper - 10 advantages of a Windows PBX</a>
+<hr>
+<p>
+
+<a href="http://www.itbusinessedge.com/info/voipinfo0002.aspx" onClick="javascript:pageTracker._trackPageview('/outgoing/ads/voicedataconv');">Voice & Data Convergence Newsletter</a> 
+<br>
+<hr><p>
+
+<a href="http://www.voip-info.org/wiki/view/Free+VOIP+Publications"
+onClick="javascript:pageTracker._trackPageview('/outgoing/ads/freevoippub');"> 
+Free VOIP Publications</a>
+
+</font>
+</center>
+</td></tr></table>
+</div></div>
+			
+
+<div class="module midsidebarad" id="navig44"><h3>Ads</h3><div class="boxcontent">	
+<table>
+<tr><td width=178>
+<center>
+<!-- AdSpeed.com Serving Code 7.9.4 for [Zone] mid sidebar one [Any Dimension] -->
+<script type="text/javascript" src="http://g.adspeed.net/ad.php?do=js&zid=19735&wd=-1&ht=-1&target=_top"></script>
+<!-- AdSpeed.com End -->
+</center>
+</td></tr>
+<tr><td width=178>
+<div style="height: 10px; width:100%;"></div>
+<center>
+<!-- AdSpeed.com Serving Code 7.9.4 for [Zone] mid sidebar [Any Dimension] -->
+<script type="text/javascript" src="http://g.adspeed.net/ad.php?do=js&zid=19239&wd=-1&ht=-1&target=_top"></script>
+<!-- AdSpeed.com End -->
+</center>
+</td></tr></table>
+
+</div></div>
+			
+<div class="module loadstats" id="navig45"><h3>Server stats</h3><div class="boxcontent"><ul><li>Execution time: 0.26s</li><li>Memory usage: 2.43MB</li><li>Database queries: 32</li><li>DB time: 0.177s  67.4%</li><li>GZIP: Disabled</li><li>Server load: 2.59</li></ul></div></div>
+			
+
+<div class="module last-board-posts" id="navig45"><h3>Get Help</h3><div class="boxcontent"><font size=+1><a href="/boards/index.php?b=1&post_comment_request=1#editcomments">Ask a question</a></font><ul class="boards"><li class="odd"><a href="/boards/view/topic/21335">Ringtones on 7941 sip v9 software</a><div class="date">by <a class="username" title="Visit the userpage of: punchyp" href="/users/view/punchyp">punchyp</a> Fri 17 of Dec, 2010</div>Good morning,<br /><br />I'm using some Cisco 7941s with great success with 3cx, everything works fine apart from RINGLIST.DAT.  Now, I presume I need to specify RINGLIST.DAT in the SEPxxxxxxxxxxxx.cnf.xml file in order for it to download the tones, but I cannot work out where.  Has anyone managed to get this working?<br />...<br /></li><li class="even"><a href="/boards/view/topic/21331">Free but not so great</a><div class="date">by <a class="username" title="Visit the userpage of: radu" href="/users/view/radu">radu</a> Thu 16 of Dec, 2010</div>Somehow bad audio quality combined with other problems will just make you listen to a couple of ads and again and again...  - so yeah just call and listen to FreePhone2Phone ads - not as gtreat as advertised.<br /></li><li class="odd"><a href="/boards/view/topic/21283">Cisco 7960G and POE</a><div class="date">by <a class="username" title="Visit the userpage of: vizualfx" href="/users/view/vizualfx">vizualfx</a> Sat 11 of Dec, 2010</div>Hi, I have recently bought a Cisco7960g and wish to use it over PoE, I dont have a PoE switch but am using a PoE Injector, <br /><br />My setup is as follows and require any help with getting this to work.<br />...<br /></li></ul><a href="/boards/index.php?b=1">View More...</a></div></div>
+			
+
+<div class="module googleads2" id="navig49"><h3>Google Ads</h3><div class="boxcontent">	<div style="text-align: center;">
+<script type="text/javascript"><!--
+google_ad_client = "pub-0302472226583481";
+/* sidebar2 - 120x240, created 10/20/08 */
+google_ad_slot = "3266233683";
+google_ad_width = 120;
+google_ad_height = 240;
+//-->
+</script>
+<script type="text/javascript"
+src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script>
+</div>
+</div></div>
+	</div><!-- end #navigation --><ul><li><a href="#content">Page content</a></li><li><a href="#navigation">Page navigation</a></li><li><a href="#extra">Page extras</a></li></ul><ul><li><a href="#content">Page content</a></li><li><a href="#navigation">Page navigation</a></li><li><a href="#extra">Page extras</a></li></ul><div id="footer"><div id="bitbottom">
+	<a id="poweredby" class="external" href="http://www.bitweaver.org">Powered by bitweaver</a>
+	</div></div><!-- end #footer -->
+
+
+	
+							
+</body>
+</html>  
