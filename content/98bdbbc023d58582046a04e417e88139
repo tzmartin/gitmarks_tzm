@@ -1,0 +1,1838 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head profile="http://gmpg.org/xfn/11">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="distribution" content="global" />
+<meta name="robots" content="follow, all" />
+<meta name="language" content="en, sv" />
+
+<title>  Perfect Setup: Ubuntu Hardy+Nginx+MySQL5+PHP5+Wordress : MENSK Technologies Corporation</title>
+<meta name="generator" content="WordPress 3.0.1" />
+<!-- leave this for stats please -->
+
+<link rel="Shortcut Icon" href="http://www.mensk.com/wp-content/themes/revolution_tech-30/images/favicon.ico" type="image/x-icon" />
+<link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="http://www.mensk.com/feed/" />
+<link rel="alternate" type="text/xml" title="RSS .92" href="http://www.mensk.com/feed/rss/" />
+<link rel="alternate" type="application/atom+xml" title="Atom 0.3" href="http://www.mensk.com/feed/atom/" />
+<link rel="pingback" href="http://www.mensk.com/xmlrpc.php" />
+	<link rel='archives' title='August 2010' href='http://www.mensk.com/2010/08/' />
+	<link rel='archives' title='January 2009' href='http://www.mensk.com/2009/01/' />
+	<link rel='archives' title='December 2008' href='http://www.mensk.com/2008/12/' />
+	<link rel='archives' title='November 2008' href='http://www.mensk.com/2008/11/' />
+	<link rel='archives' title='October 2008' href='http://www.mensk.com/2008/10/' />
+	<link rel='archives' title='September 2008' href='http://www.mensk.com/2008/09/' />
+	<link rel='archives' title='August 2008' href='http://www.mensk.com/2008/08/' />
+	<link rel='archives' title='July 2008' href='http://www.mensk.com/2008/07/' />
+<link rel="alternate" type="application/rss+xml" title="MENSK Technologies Corporation &raquo; Perfect Setup: Ubuntu Hardy+Nginx+MySQL5+PHP5+Wordress Comments Feed" href="http://www.mensk.com/webmaster-toolbox/perfect-ubuntu-hardy-nginx-mysql5-php5-wordpress/feed/" />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://www.mensk.com/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://www.mensk.com/wp-includes/wlwmanifest.xml" /> 
+<link rel='index' title='MENSK Technologies Corporation' href='http://www.mensk.com/' />
+<link rel='start' title='Use ranking accelerator keywords to boost your organic ranking' href='http://www.mensk.com/seo-sem/use-ranking-accelerator-keywords-to-boost-your-organic-ranking/' />
+<link rel='prev' title='Ottawa Sales Leadership Initiative &#8211; the missing link?' href='http://www.mensk.com/happenings/ottawa-sales-leadership-initiative-the-missing-link/' />
+<link rel='next' title='How to prevent wordpress from messing up with your rich editing tags' href='http://www.mensk.com/webmaster-toolbox/wordpress/how-to-prevent-wordpress-from-changing-tags-and-text-formatting-rich-text-editor/' />
+<meta name="generator" content="WordPress 3.0.1" />
+<link rel='canonical' href='http://www.mensk.com/webmaster-toolbox/perfect-ubuntu-hardy-nginx-mysql5-php5-wordpress/' />
+<link rel='shortlink' href='http://www.mensk.com/?p=89' />
+
+<!-- All in One SEO Pack 1.6.12.1 by Michael Torbert of Semper Fi Web Design[-1,-1] -->
+<!-- /all in one seo pack -->
+<script charset="utf-8" type="text/javascript" src="http://w.sharethis.com/widget/?tabs=web%2Cpost%2Cemail&amp;charset=utf-8&amp;style=rotate&amp;publisher=647813e3-68f4-4195-82a1-47462b8fe7b1&amp;wp=3.0.1"></script><!--[if IE]><script src="http://www.mensk.com/wp-content/plugins/wp-gbcf/wp-gbcf_focus.js" type="text/javascript"></script><![endif]-->
+<!-- GBCF -->
+
+
+<style type="text/css" media="screen"><!-- @import url( http://www.mensk.com/wp-content/themes/revolution_tech-30/style.css ); --></style>
+
+<script type="text/javascript"><!--//--><![CDATA[//><!--
+sfHover = function() {
+	if (!document.getElementsByTagName) return false;
+	var sfEls = document.getElementById("nav").getElementsByTagName("li");
+
+	// if you only have one main menu - delete the line below //
+	var sfEls1 = document.getElementById("subnav").getElementsByTagName("li");
+	//
+
+	for (var i=0; i<sfEls.length; i++) {
+		sfEls[i].onmouseover=function() {
+			this.className+=" sfhover";
+		}
+		sfEls[i].onmouseout=function() {
+			this.className=this.className.replace(new RegExp(" sfhover\\b"), "");
+		}
+	}
+
+	// if you only have one main menu - delete the "for" loop below //
+	for (var i=0; i<sfEls1.length; i++) {
+		sfEls1[i].onmouseover=function() {
+			this.className+=" sfhover1";
+		}
+		sfEls1[i].onmouseout=function() {
+			this.className=this.className.replace(new RegExp(" sfhover1\\b"), "");
+		}
+	}
+	//
+
+}
+if (window.attachEvent) window.attachEvent("onload", sfHover);
+//--><!]]></script>
+
+</head>
+
+<body>
+
+<div id="wrap">
+
+<div id="top">
+	<img src="http://www.mensk.com/wp-content/themes/revolution_tech-30/images/top.gif" alt="Top" />
+</div>
+
+<div id="header">
+
+	<div class="headerleft">
+		<a href="http://www.mensk.com/"><img src="http://www.mensk.com/wp-content/themes/revolution_tech-30/images/main_logo.jpg" alt="Life and Business &#8211; on Internet and Beyond" /></a>
+	</div>
+	
+	<!--To define the 468x60 ad, go to your WP dashboard and go to Presentation -> Revolution Tech Options and enter the ad code.-->
+	
+	<div class="headerright">
+		<p><a href="http://www.mensk.com/feed/rss/"><img style="vertical-align:middle" src="http://www.mensk.com/wp-content/themes/revolution_tech-30/images/rss.gif" alt="Subscribe to MENSK Technologies Corporation" /></a><a href="http://www.mensk.com/feed/rss/">News Feed</a><a href="http://www.mensk.com/comments/feed/"><img style="vertical-align:middle;margin-left:10px;" src="http://www.mensk.com/wp-content/themes/revolution_tech-30/images/rss.gif" alt="Subscribe to MENSK Technologies Corporation" /></a><a href="http://www.mensk.com/comments/feed/">Comments</a></p>
+			</div>
+
+
+</div>
+
+<div id="navbar">
+
+	<div id="navbarleft">
+		<ul id="nav">
+			<li><a href="http://www.mensk.com">Home</a></li>
+			<li class="page_item page-item-2"><a href="http://www.mensk.com/about/" title="About">About</a></li>
+<li class="page_item page-item-17"><a href="http://www.mensk.com/ask-me/" title="Ask me!">Ask me!</a></li>
+<li class="page_item page-item-13"><a href="http://www.mensk.com/contact/" title="Contact Us">Contact Us</a></li>
+		</ul>
+	</div>
+	
+	<div id="navbarright">
+		<form id="searchform" method="get" action="/index.php">
+		<input type="text" value="Search this website..." name="s" id="s" onfocus="if (this.value == 'Search this website...') {this.value = '';}" onblur="if (this.value == '') {this.value = 'Search this website...';}" />
+		<input type="submit" id="sbutt" value="GO" /></form>
+	</div>
+	
+</div>
+
+<div id="subnavbar">
+
+	<ul id="subnav">
+			<li class="cat-item cat-item-9"><a href="http://www.mensk.com/category/seo-sem/" title="View all posts filed under Dancing with Search Engines">Dancing with Search Engines</a>
+</li>
+	<li class="cat-item cat-item-57"><a href="http://www.mensk.com/category/happenings/" title="View all posts filed under Happenings">Happenings</a>
+</li>
+	<li class="cat-item cat-item-13"><a href="http://www.mensk.com/category/internet-marketing/" title="View all posts filed under Marketing on Internet and Beyond">Marketing on Internet and Beyond</a>
+</li>
+	<li class="cat-item cat-item-6"><a href="http://www.mensk.com/category/services/" title="View all posts filed under Services">Services</a>
+</li>
+	<li class="cat-item cat-item-25"><a href="http://www.mensk.com/category/webmaster-toolbox/" title="View all posts filed under Webmaster Toolbox">Webmaster Toolbox</a>
+<ul class='children'>
+	<li class="cat-item cat-item-59"><a href="http://www.mensk.com/category/webmaster-toolbox/wordpress/" title="View all posts filed under Wordpress">Wordpress</a>
+</li>
+</ul>
+</li>
+	</ul>
+	
+</div>
+<div id="content">
+
+	<div id="contentleft">
+	
+		<div class="postarea">
+		
+		<div class="breadcrumb">
+		
+</div>			
+						<h1>Perfect Setup: Ubuntu Hardy+Nginx+MySQL5+PHP5+Wordress</h1>
+			
+			<div class="date">
+				<p>August 16, 2008 by <a href="http://www.mensk.com/author/admin/" title="Posts by admin">admin</a>&nbsp;</p>
+			</div>
+		
+			<style type="text/css">
+<!--
+pre {
+	font-family: "Courier New", Courier, monospace;
+	font-size: small;
+	background-color: #E6E6E6;
+	padding: 6px;
+	/* height: 250px; */
+	width: 600px;
+	border-top-width: 1px;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-top-style: inset;
+	border-right-style: inset;
+	border-bottom-style: inset;
+	border-left-style: inset;
+	overflow:auto
+	
+}
+.code_tag {
+	font-family: "Courier New", Courier, monospace;
+	font-size: small;
+	font-style: normal;
+	font-weight: bold;
+	background-color: #333333;
+	display: block;
+	width: 600px;
+	color: #00FF00;
+	padding-top: 2px;
+	padding-right: 2px;
+	padding-bottom: 2px;
+	padding-left: 5px;
+	margin-bottom: 12px;
+	margin-top: 2px;
+}
+.in_editor_tag, .in_editor_normal
+{
+	font-family: "Courier New", Courier, monospace;
+	font-size: small;
+	font-style: normal;
+	font-weight: bold;
+	background-color: #CCC;
+	display: inline;
+	/* width: 600px; */
+	color: #000;
+	padding-top: 1px;
+	padding-right: 5px;
+	padding-bottom: 1px;
+	padding-left: 5px;
+}
+.in_editor_normal
+{
+	font-weight: normal;
+}
+.main_text {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: small;
+}
+.main_text ul li{
+margin-left:5px;
+}
+
+.sub_heading {
+	font-size: x-large;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	margin-top: 55px;
+	margin-right: 50px;
+	margin-bottom: 10px;
+	margin-left: 20px;
+	border: 1px solid #666666;
+	padding-top: 5px;
+	padding-right: 10px;
+	padding-bottom: 5px;
+	padding-left: 10px;
+	background-color: #FFFFCC;
+	display: block;
+}
+
+-->
+</style>
+<div class="main_text">
+ <p>The Perfect Setup:</p>
+ <p> <strong><a href="http://www.ubuntu.com/getubuntu/download">Ubuntu Server 8.04.1 LTS Hardy</a> (supported to 2013) + EngineX (NGINX) Web Server built from sources + MySQL 5 + PHP 5.</strong> <br />
+ (Or <strong><em>LEMP</em></strong> )</p>
+ <p>Tested on <a href="http://www.slicehost.com/">256MB VPS slice at SliceHost</a>. Should work for other hardware.</p>
+ <p>From baremetal/barebone/empty fresh install of Ubuntu Server to shiny, fast and SEO-friendly WordPress Portal propelled by <a href="http://wordpress.org/extend/plugins/wp-super-cache/">WP Super Cache plugin</a>. <br />
+   All configured and powered by <a href="http://nginx.net/">NGinx WEB Server</a>.<br />
+ Step by step copy/paste instructions - from &quot;zero to hero&quot; with everything on a single page (albeit long one) and in the right order. Just what your granma was asking for! </p>
+ <p>Every time I need to quickly utilize new product or technology it always made me wonder &quot;why don't someone came up with a simple step by step instructions on <strong>which buttons to press</strong> to make this thing work?&quot;. So instead of waiting for someone to do it this time I decided to make one myself.</p>
+<p>After spending countless hours and days hunting for scripts, searching for clues, scrolling through misleading posts, extracting bits from articles, eliminating blubber and fluff, bugging busy geeky people for hints and getting all necessary pieces together in the right order I finally came up with this instructional post. It all boils down to step-by-step copy/paste instructions that should take you less than 1 hour to get from freshly installed Ubunty server to fully functioning, search engine optimized business-ready WordPress-powered website.</p>
+ <p>I tested it all on 256MB VPS image offered by <a href="http://www.slicehost.com/">SliceHost</a> but the same instructions should work just just fine on any real hardware as well. <br />
+ Most credits goes to <a href="http://articles.slicehost.com/ubuntu-hardy">excellent set of articles by PickedOnion at SliceHost</a> plus to some more sources, acknowledged within this post.</p>
+ <p>This article assumes your username is 'jsmith' and your domain is 'mydomain.com'.</p>
+<p>Now it's time to get our hands dirty!</p>
+<span class="sub_heading">Secure and tidy-up your fresh Ubuntu Server installation</span>  
+<ul>
+	<li>Login as root.</li>
+	<li>Change root password:
+      <br />
+      <span class="code_tag">passwd</span></li>
+  <li>Add new username -  yourself:<br />
+    <span class="code_tag">adduser jsmith<br />
+    visudo</span></li>
+	<li>Append this line to end of file (to navigate within 'vi' editor to create next line - use these: <strong>L</strong>, <strong>$</strong>, <strong>a</strong>, &lt;ENTER&gt;):<br />
+	  <span class="in_editor_tag">jsmith ALL=(ALL) ALL</span><br />
+	  To save and exit do: &lt;ESC&gt;, :wq, &lt;ENTER&gt;<br />
+	  <br />
+	</li>
+	<li>SSH configuration:<br />
+      <span class="code_tag">nano /etc/ssh/sshd_config</span> - Find <br />
+      <span class="in_editor_tag">Port 22</span> - and change number to something different (12345) to make hacking more difficult. <br />
+- Set these to: <br />
+<span class="in_editor_tag">PermitRootLogin no</span><br />
+<span class="in_editor_tag">X11Forwarding no</span> <br />
+ <span class="in_editor_tag">UsePAM no</span><br />
+	  - Append these lines to the very end:
+      <br />
+      <span class="in_editor_tag">UseDNS no</span>
+      <br />
+      <span class="in_editor_tag">AllowUsers jsmith</span><br /><br /></li>
+	<li>Secure slice with iptables
+      <br />
+      <span class="code_tag">iptables-save &gt; /etc/iptables.up.rules<br />
+      nano /etc/iptables.test.rules</span></li>
+	<li>1. Copy contents of <a href="http://articles.slicehost.com/assets/2007/9/4/iptables.txt"><strong>this file</strong></a>	   -&gt;	and paste it into '</code>iptables.test.rules'.<br />
+      2. Change port number to your port number on this line:<br />
+      ...<br />
+      <span class="in_editor_tag">-A INPUT -p tcp -m state --state NEW --dport 30000 -j ACCEPT</span><br />
+      ...<br />
+      3. Save and exit (Ctrl+O, Ctrl+X).<br />
+	  <br />
+	</li>
+	<li>Apply new iptables rules:
+      <br />
+      <span class="code_tag">iptables-restore &lt; /etc/iptables.test.rules</span></li>
+	<li>Save iptables rules permanently:
+      <br />
+      <span class="code_tag">iptables-save &gt; /etc/iptables.up.rules</span></li>
+	<li>Make sure iptables rules will apply when server is rebooted as well:
+  <span class="code_tag"> nano /etc/network/interfaces</span></li>
+	<li>Add new line after these 2:
+      <br />
+      <span class="in_editor_normal">auto lo</span>      <br />
+      <span class="in_editor_normal">iface lo inet loopback</span><br />
+      <span class="in_editor_tag">pre-up iptables-restore &lt; /etc/iptables.up.rules</span><br />
+Save and exit.</li>
+	<li>Reload SSH to use new ports and configurations:
+      <br />
+      <span class="code_tag"> /etc/init.d/ssh reload</span></li>
+	<li>Keep 'root' session running and open second session.<br />
+	  SSH login to your slice to new port, with your new username and password:
+      <br />
+      - Linux:  <span class="code_tag">ssh -p 12345 jsmith@123.45.6.78 </span>- Windows: <span class="code_tag">putty jsmith@123.45.6.78 12345</span></li>
+	<li>If you logged on successfully via your new username: 'jsmith' - you may close 'root' session now. <br />
+    If not - you still have 'root' session opened to fix problems. In the worst case - you can use web based console shell login from your manage.slicehost.com dashboard to fix issues.
+	<span class="code_tag">sudo aptitude -y install screen</span></li>
+  <li>Enter screen: <br />
+    <span class="code_tag">screen </span>Screen is the great little utility that allows your terminal session activity to keep running (say lengthy builds) even if you were cut off or disconnected. You may reenter your abandoned screen session at a later time to check progress and continue working.<br />
+- Usage notes:<br />	  
+	  - <u>new</u> screen session: <strong>screen</strong><br />	  
+	  - <u>attach</u> to existing screen session: <strong>screen -r</strong><br />
+	  - <u>list</u> all existing screen sessions: <strong>screen -list</strong> (output: <strong><em>12045</em></strong>.pts-0.MENSK (Detached), etc...)<br />	  
+	  - <u>attach</u> to existing screen session by number: <strong>screen -r 12045</strong><br />	  
+	  - <u>detach</u> from screen session and back to main terminal: <strong>Ctrl+A, D</strong><br />
+	  - to <u>rename</u> screen session from inside of it: <strong>Ctrl+A, Shift+A</strong> - and enter it's name.<br />	  
+	  - to <u>kill</u> current screen session: <strong>exit </strong>or <strong>Ctrl+A</strong><br />	  
+	  - to <u>kill all</u> screen sessions: <strong>Ctrl+A,\</strong><br />
+	  <br />
+	</li>
+	<li>Edit .bashrc file to make terminal window a bit more helpful:
+      <br />
+      <span class="code_tag">nano ~/.bashrc</span></li>
+	<li>Append these lines to the end of it:
+      <br />
+      <span class="in_editor_tag">export PS1="\[\e[32;1m\]\u\[\e[0m\]\[\e[32m\]@\h\[\e[36m\]\w \[\e[33m\]\$ \[\e[0m\]"</span><br />
+      <span class="in_editor_tag">alias ll="ls -la"      </span><br />
+      <span class="in_editor_tag">alias a2r="sudo /etc/init.d/apache2 stop &amp;&amp; sleep 2 &amp;&amp; sudo /etc/init.d/apache2 start"</span>      <br />
+      <span class="in_editor_tag">alias n2r=&quot;sudo /etc/init.d/nginx stop &amp;&amp; sleep 2 &amp;&amp; sudo /etc/init.d/nginx start&quot;</span> <br />
+      <span class="in_editor_tag">alias ver="cat /etc/lsb-release"</span><br />
+      Save and exit. <br />
+      <br />
+  </li>
+	<li>Reload .bashrc to make changes active:
+      <br />
+      <span class="code_tag">source ~/.bashrc</span></li>
+	<li>Update sources:  <span class="code_tag">sudo aptitude update</span></li>
+	<li>Set system locale:
+      <br />
+      <span class="code_tag">sudo locale-gen en_US.UTF-8<br />
+  sudo /usr/sbin/update-locale LANG=en_US.UTF-8</span></li>
+	<li>Upgrade system now:<br />
+      <span class="code_tag">sudo aptitude -y safe-upgrade<br />
+  sudo aptitude -y full-upgrade</span></li>
+</ul>
+<span class="sub_heading">Install PHP 5, Build Essentials and related libraries</span>
+<ul>
+  <li>Install Build essentials:<br />
+    <span class="code_tag">sudo aptitude -y install build-essential</span></li>
+  <li>Install PHP with php client and without apache (one long line):<br />
+    <span class="code_tag" >sudo aptitude -y install php5-common php5-dev php5-mysql php5-sqlite php5-tidy php5-xmlrpc  php5-xsl php5-cgi php5-mcrypt php5-curl php5-gd php5-memcache php5-mhash php5-pspell php5-snmp php5-sqlite libmagick9-dev php5-cli</span></li>
+  <li>Fix issues with imagick:<br />
+    <span class="code_tag">sudo aptitude -y install make php-pear<br />
+    sudo pecl install imagick</span> 
+    (Just press &lt;ENTER&gt; at prompt)<br />
+    <br />
+      </li>
+  <li>Adjust php.ini:<br /><span class="code_tag">sudo nano /etc/php5/cgi/php.ini</span>      Adjust memory limit to accomodate WordPress requirements:<br />
+    Find line:<br /> 
+    <code class="in_editor_tag">memory_limit = 16M</code> and change it to: <code class="in_editor_tag">memory_limit = 48M</code><br />
+    <br />
+    Append to the end of this file this line:<br />
+    <code class="in_editor_tag">extension=imagick.so</code><br />
+    <br />
+      </li>
+  <li>Install MySQL server, secure it and create database for wordpress (or other dynamic web app you will be using)<br />
+    <span class="code_tag">sudo aptitude -y install mysql-server mysql-client libmysqlclient15-dev</span>Secure MySQL server:<br />
+  <span class="code_tag">mysql_secure_installation</span></li>
+  <li>Install subversion (best to install and upgrade wordpress is via subversion):<br />
+    <span class="code_tag">sudo aptitude -y install subversion</span></li>
+</ul>
+<span class="sub_heading">Install Postfix to prepare e-mail capabilities for your web application</span>
+<ul>
+  <li>First - login into slicemanager at manage.slicehost.com, click &quot;DNS&quot; tab and &quot;Reverse DNS&quot;.<br />
+    Replace record with: <code class="in_editor_tag">mail.mydomain.com.</code><br />
+    </li>
+  <li><span class="code_tag">sudo nano /etc/hostname</span>      Replace <span class="in_editor_tag">slicename</span> with <span class="in_editor_tag">mail.mydomain.com</span><br />
+    <br />
+      </li>
+  <li>      <span class="code_tag">sudo nano /etc/hosts</span><br />
+    Replace <span class="in_editor_tag">127.0.0.1 slicename</span> with <span class="in_editor_tag">127.0.0.1 mail.mydomain.com</span></li>
+  <li>Reboot slice:<br />
+    <span class="code_tag">sudo reboot</span></li>
+  <li>When rebooted - check slice hostname (it must be mail.mydomain.com):<br />
+    <span class="code_tag">hostname -f</span></li>
+  <li>Install dns utils and check RDNS (by using your slice's IP address)<br />
+    <span class="code_tag">sudo aptitude -y install dnsutils</span></li>
+  <li>Check if RDNS propagated already:<br />
+    <span class="code_tag">dig -x 123.45.6.78 <br />
+    </span>If &quot;ANSWER SECTION&quot; still shows old name (or anytihng other than mail.mydomain.com) - you'll have to wait until propagation will finish before proceeding.</li>
+  <li>      <span class="code_tag">sudo aptitude -y install postfix telnet mailx</span>
+    Select &quot;Internet Site&quot;, and then for &quot;System mail name:&quot; -&gt; &quot;mail.mydomain.com&quot;.</li>
+  <li>Redirect all email destined to 'root' toward 'jsmith':<br />
+    <span class="code_tag">sudo nano /etc/aliases</span>Append this line to the end of file:<br />
+    <span class="in_editor_tag">root: jsmith</span><br />
+      </li>
+  <li>Refresh aliases database now:<br />
+    <span class="code_tag">sudo newaliases<br />
+    </span></li>
+  <li>Edit main.cf file:<br />
+    <span class="code_tag">sudo nano /etc/postfix/main.cf<br />
+    </span>- Replace: <span class="in_editor_tag">myorigin = /etc/mailname </span><br />
+    - with this: <span class="in_editor_tag">myorigin = $mydomain</span><br />
+    <br />
+    - Replace this: <span class="in_editor_tag">mydestination = mail.mydomain.com, localhost.mydomain.com, , localhost</span><br />
+    - with this: <span class="in_editor_tag">mydestination = $mydomain, localhost.$mydomain, localhost</span><br />
+    <br />
+    - Replace this: <span class="in_editor_tag">mynetworks = 127.0.0.0/8 [::ffff:127.0.0.0]/104 [::1]/128</span><br />
+    - with this: <span class="in_editor_tag">mynetworks = 127.0.0.0/8</span><br />
+    <br />
+      </li>
+  <li>Restart postfix to make changes take effect:<span class="code_tag">    sudo /etc/init.d/postfix restart</span></li>
+  <li>Test email sending capabilities. Run little php console prog to do it. Check if you receive email message.<br />
+    <span class="code_tag">php -a<br />
+    mail ('your@email.com', &quot;Hello from slice!&quot;, &quot;My email setup works!&quot;);<br />
+  exit ();</span></li>
+  <li>Follow this article if you want to <a href="http://articles.slicehost.com/2008/8/1/postfix-mx-records-and-receiving-emails">setup postfix to receive emails</a> as well (opening port 25 in firewall and configuring stuff):<br />
+    But what we've done already is enough to have hosted portal with full outgoing email capabilities.<br />
+  </li>
+</ul>
+<span class="sub_heading">Install and configure NGINX</span><br />
+<ul><li>
+    Install NGINX. Dependencies first. Check sysoev.ru website first for newer versions though.<br />
+    <span class="code_tag">sudo aptitude -y install libpcre3 libpcre3-dev libpcrecpp0 libssl-dev zlib1g-dev<br />mkdir ~/sources<br />
+    cd ~/sources/<br />
+    wget http://sysoev.ru/nginx/nginx-0.6.32.tar.gz<br />
+    tar -zxvf nginx-0.6.32.tar.gz<br />
+    cd nginx-0.6.32<br />
+    ./configure --sbin-path=/usr/local/sbin --with-http_ssl_module <br />
+    make<br />
+  sudo make install</span></li>
+</ul>
+<ul>
+  <li>Start Nginx:<br />
+    <span class="code_tag">sudo /usr/local/sbin/nginx</span></li>
+  <li>Navigate to your slice's IP address to test that it works: http://123.45.6.78</li>
+  <li>Stop Nginx:<br />
+    <span class="code_tag">sudo kill `cat /usr/local/nginx/logs/nginx.pid`</span> </li>
+  <li>Create NGINX init script<br />
+    <span class="code_tag">sudo nano /etc/init.d/nginx</span> Copy/paste this text into it:<br />
+    <pre>
+#! /bin/sh
+
+### BEGIN INIT INFO
+# Provides:          nginx
+# Required-Start:    $all
+# Required-Stop:     $all
+# Default-Start:     2 3 4 5
+# Default-Stop:      0 1 6
+# Short-Description: starts the nginx web server
+# Description:       starts nginx using start-stop-daemon
+### END INIT INFO
+
+PATH=/usr/local/sbin:/usr/local/bin:/sbin:/bin:/usr/sbin:/usr/bin
+
+
+
+
+
+DAEMON=/usr/local/sbin/nginx
+NAME=nginx
+DESC=nginx
+
+test -x $DAEMON || exit 0
+
+# Include nginx defaults if available
+if [ -f /etc/default/nginx ] ; then
+        . /etc/default/nginx
+fi
+
+set -e
+
+case "$1" in
+  start)
+        echo -n "Starting $DESC: "
+        start-stop-daemon --start --quiet --pidfile /usr/local/nginx/logs/$NAME.pid \
+                --exec $DAEMON -- $DAEMON_OPTS
+        echo "$NAME."
+        ;;
+  stop)
+        echo -n "Stopping $DESC: "
+        start-stop-daemon --stop --quiet --pidfile /usr/local/nginx/logs/$NAME.pid \
+                --exec $DAEMON
+        echo "$NAME."
+        ;;
+
+  restart|force-reload)
+        echo -n "Restarting $DESC: "
+        start-stop-daemon --stop --quiet --pidfile \
+                /usr/local/nginx/logs/$NAME.pid --exec $DAEMON
+        sleep 1
+        start-stop-daemon --start --quiet --pidfile \
+                /usr/local/nginx/logs/$NAME.pid --exec $DAEMON -- $DAEMON_OPTS
+        echo "$NAME."
+        ;;
+  reload)
+      echo -n "Reloading $DESC configuration: "
+      start-stop-daemon --stop --signal HUP --quiet --pidfile /usr/local/nginx/logs/$NAME.pid \
+          --exec $DAEMON
+      echo "$NAME."
+      ;;
+  *)
+        N=/etc/init.d/$NAME
+        echo "Usage: $N {start|stop|restart|reload|force-reload}" >&#038;2
+        exit 1
+        ;;
+esac
+
+exit 0
+</pre>
+  </li>
+  <li>Set it executable:<br />
+    <span class="code_tag">sudo chmod +x /etc/init.d/nginx</span> </li>
+  <li>Add it to the default run levels:<br />
+    <span class="code_tag">sudo /usr/sbin/update-rc.d -f nginx defaults</span> </li>
+  <li>Create folder layout:<br />
+    <span class="code_tag">sudo mkdir /usr/local/nginx/sites-available  
+    <br />
+    sudo mkdir /usr/local/nginx/sites-enabled</span>    </li>
+  <li>
+    Adjust main NGINX configuration file to look in sites-enabled folder for vhosts:<span class="code_tag">    sudo nano /usr/local/nginx/conf/nginx.conf</span>    Delete all contents of this file and replace it with this:<br />
+    <pre>
+user www-data www-data;
+worker_processes  4;
+
+events {
+    worker_connections  1024;
+}
+
+http {
+    include       mime.types;
+    default_type  application/octet-stream;
+
+    sendfile        on;
+    tcp_nopush      on;
+    tcp_nodelay     off;
+    keepalive_timeout  5;
+
+    gzip  on;
+    gzip_comp_level 2;
+    gzip_proxied any;
+    gzip_types      text/plain text/html text/css application/x-javascript text/xml application/xml
+    application/xml+rss text/javascript;
+
+    include /usr/local/nginx/sites-enabled/*;
+}
+    </pre>
+    <br />
+  </li>
+  <li>Create default vhost in 'sites-available' folder:<br />
+    <span class="code_tag">sudo nano /usr/local/nginx/sites-available/default</span>Copy/paste this text into it:<br />
+  <pre>
+server {
+    listen       80;
+    server_name  localhost;
+
+    location / {
+        root   html;
+        index  index.php index.html index.htm;
+    }
+
+
+    # redirect server error pages to the static page /50x.html
+    #
+    error_page   500 502 503 504  /50x.html;
+    location = /50x.html {
+        root   html;
+    }
+
+}
+</pre>
+  </li>
+  <li>Enable vhost by creating symlink:<br />
+    <span class="code_tag">sudo ln -s /usr/local/nginx/sites-available/mydomain.com /usr/local/nginx/sites-enabled/mydomain.com</span></li>
+  <li>Start NGINX:<br />
+  <span class="code_tag">sudo /etc/init.d/nginx start</span>  Make sure that navigating to slice IP will show &quot;Welcome to nginx!&quot; default page.<br />
+  <br />
+  </li>
+  <li>Create layouts for domains to be served.<br />
+    <span class="code_tag">sudo mkdir /home/public_html<br />
+    sudo mkdir -p /home/public_html/mydomain.com/{public,private,log,backup}</span></li>
+  <li>Setup users and groups to manage portal:<br />
+    <span class="code_tag">sudo -i<br />
+      addgroup webmasters<br />
+      usermod -G webmasters jsmith<br />
+    </span>OPTIONAL: Do it for every user who will be allowed to manage files for the portal: <br />
+    <span class="code_tag">    usermod -G webmasters user_2<br />
+    usermod -G webmasters user_3<br />
+    </span>Change ownership of main web files directory:<br />
+    <span class="code_tag">chown -R jsmith.webmasters /home/public_html<br />
+    chmod -R g+w /home/public_html<br />
+    </span>Set group id to 'webmasters' for all newly created files and dirs.<br />
+    <span class="code_tag">find /home/public_html -type d -exec chmod g+s {} \;<br />
+  exit</span></li>
+  <li>Create initial index.html file for the domain:<br />
+    <span class="code_tag">sudo nano /home/public_html/mydomain.com/public/index.php</span>Paste this into the file:<br />
+    <pre>&lt;?php echo phpinfo(); ?&gt;        </pre>
+    First - create supporting wordpress-specific configuration files. 'wordpress_params.regular' - is basic wordpress config file that allows support for nice permalinks.<br />
+    <span class="code_tag">sudo nano /usr/local/nginx/conf/wordpress_params.regular</span>...And paste into it the following contents:<br />
+    <pre>  # WordPress pretty URLs: (as per dominiek.com)
+  if (-f $request_filename) {
+  break;
+  }
+  if (-d $request_filename) {
+  break;
+  }
+  rewrite ^(.+)$ /index.php?q=$1 last;
+
+
+  # Enable nice permalinks for WordPress: (as per Yawn.it)
+  error_page  404  = //index.php?q=$uri;
+
+</pre>
+    Save and exit.<br />
+    Next - create second version of NGinx-specific WordPress config file that allows support for nice permalinks + <a href="http://wordpress.org/extend/plugins/wp-super-cache/">WP Super Cache plugin</a>. WP Super Caching gives you extra horse power and juice to handle intense traffic and getting your portal seriously ready to be DIGG-ed.<br />
+    <span class="code_tag">sudo nano /usr/local/nginx/conf/wordpress_params.super_cache</span>...And paste into it the following contents <a href="http://forum.slicehost.com/comments.php?DiscussionID=2087&amp;page=1">(Credits: Matt Stevens</a>):<br /><pre>
+# if the requested file exists, return it immediately
+if (-f $request_filename) {
+break;
+}
+
+set $supercache_file '';
+set $supercache_uri $request_uri;
+
+if ($request_method = POST) {
+set $supercache_uri '';
+}
+
+# Using pretty permalinks, so bypass the cache for any query string
+if ($query_string) {
+set $supercache_uri '';
+}
+
+if ($http_cookie ~* "comment_author_|wordpress|wp-postpass_" ) {
+set $supercache_uri '';
+}
+
+# if we haven't bypassed the cache, specify our supercache file
+if ($supercache_uri ~ ^(.+)$) {
+set $supercache_file /wp-content/cache/supercache/$http_host/$1index.html;
+}
+
+# only rewrite to the supercache file if it actually exists
+if (-f $document_root$supercache_file) {
+rewrite ^(.*)$ $supercache_file break;
+}
+
+# all other requests go to WordPress
+if (!-e $request_filename) {
+rewrite . /index.php last;
+}
+
+</pre>
+    Create vhost for domain mydomain.com:<br />
+    <span class="code_tag">sudo nano /usr/local/nginx/sites-available/mydomain.com</span>...And paste into it the following contents:<br />
+    <pre>server {
+
+            listen   80;
+            server_name  mydomain.com;
+            rewrite ^/(.*) http://www.mydomain.com/$1 permanent;
+
+           }
+
+
+server {
+
+            listen   80;
+            server_name www.mydomain.com;
+
+            access_log /home/public_html/mydomain.com/log/access.log;
+            error_log /home/public_html/mydomain.com/log/error.log;
+
+            location / {
+
+                        root   /home/public_html/mydomain.com/public/;
+                        index  index.php index.html;
+
+                        # Basic version of WordPress parameters, supporting nice permalinks.
+                        # include /usr/local/nginx/conf/wordpress_params.regular;
+                        # Advanced version of WordPress parameters supporting nice permalinks and WP Super Cache plugin
+                        include /usr/local/nginx/conf/wordpress_params.super_cache;
+                        }
+
+            # pass the PHP scripts to FastCGI server listening on 127.0.0.1:9000
+            #
+            location ~ \.php$ {
+            fastcgi_pass 127.0.0.1:9000;
+            fastcgi_index index.php;
+            include /usr/local/nginx/conf/fastcgi_params;
+            fastcgi_param SCRIPT_FILENAME /home/public_html/mydomain.com/public/$fastcgi_script_name;
+            }
+      }
+   
+  </pre>
+    Above will append 'www' to all non-www requests - all requests for http://mydomain.com/dir/page will be redirected to -&gt; http://www.mydomain.com/dir/page.<br />
+  As you can also see above we enabled 'wordpress_params.super_cache' settings. If for some reason you'll have problems - you may comment ' ....wordpress_params.super_cache' line out, disable wordpress WP Super Cache plugin via WordPress admin panel and uncomment '...wordpress_params.regular' settings (+restart Nginx). From my own test - they both works with or without WP Super Cache enabled and I'd definitely prefer WP Super Cache to be up and running.</li>
+</ul>
+<ul>
+  <li>Enable site:<br />
+    <span class="code_tag">sudo ln -s /usr/local/nginx/sites-available/mydomain.com /usr/local/nginx/sites-enabled/mydomain.com</span><br />
+  </li>
+  <li>Making NGinx to serve PHP and make it all start automatically after system restart (<a href="http://blog.zhekov.net/2007/8/15/nginx-php-fastcgi/">Credits</a>):<br />
+    <span class="code_tag">sudo aptitude -y install libfcgi0<br />
+cd /etc/default/ <br />
+sudo wget -O php-fastcgi http://www.mensk.com/uploads/php-fastcgi.txt <br />
+cd /etc/init.d/ <br />
+sudo wget -O php-fastcgi http://www.mensk.com/uploads/php-fastcgi.rc.txt <br />
+sudo chmod +x php-fastcgi <br />
+sudo /usr/sbin/update-rc.d -f php-fastcgi defaults <br />
+sudo /etc/init.d/php-fastcgi start</span> Restart NGINX:<br />
+  <span class="code_tag">n2r</span> (or <strong>sudo /etc/init.d/nginx stop</strong>, <strong>sudo /etc/init.d/nginx start</strong>)<br />
+  <br />
+  </li>
+  <li>Navigate to your website: http://mydomain.com you should be redirected to http://www.mydomain.com and then see phpinfo() screen...</li>
+  <li>Reboot your slice and make sure that after restart everything still works (NGINX &amp; Co restarts properly)
+    <br />
+    <span class="code_tag">sudo reboot</span></li>
+</ul>
+<span class="sub_heading">Install and configure WordPress + configure WP Super Cache WordPress plugin to work with NGINX</span>
+<ul><li>Install WordPress. Login to mysql console as mysql's root user:
+  <span class="code_tag">mysql -u root -p</span></li>
+  <li>Issue this command to create new username for WordPress database (replace username, password and database name with your values):<br />
+    <span class="code_tag">mysql&gt; grant all privileges on *.* to wp_user@localhost identified by &quot;wp_pa55w0rd&quot;;<br />
+    mysql&gt; create database wp_dbase;<br />
+    mysql&gt; quit</span></li>
+  <li>Get WordPress files directly from SVN repository. See this <a href="http://codex.wordpress.org/Installing/Updating_WordPress_with_Subversion">great article about using subversion to install and update WordPress</a>.<br />
+    <span class="code_tag">cd /home/public_html/mydomain.com/public<br />
+    sudo rm index.php<br />
+    svn co http://svn.automattic.com/wordpress/tags/2.6 .<br />
+    mv wp-config-sample.php wp-config.php<br />
+    sudo nano wp-config.php<br />
+    </span>Set database name, DB user name and password, Change DB prefix to something different (good security measure), save and exit.<strong><code><br />
+    <br />
+    </code></strong></li>
+  <li>Adjust permissions:<br /><span class="code_tag">sudo chmod -R 777 /home/public_html/mydomain.com/public/wp-content<br />
+    sudo chmod  666 /home/public_html/mydomain.com/public/wp-config.php</span></li>
+  <li>Access your site: http://www.mydomain.com/<br />
+    - Enter blog name, remember the password that wordpress gave you.<br />
+    - Login as admin/password<br />
+    - Click Users tab at upper right in admin panel<br />
+    - Click on 'admin' user<br />
+    - Change password to something secure and you'd remember.<br />
+    - Logoff, Logon again with your new password.<br />
+    - Goto Settings-&gt;Permalinks<br />
+    - Set (x) &quot;Custom Structure&quot; -&gt; <span class="in_editor_tag">/%category%/%postname%/</span>, [Save Changes], ignore WordPress warning: &quot;You should update your .htaccess now.&quot; - it cannot find .htaccess - we are not running apache. <br />
+  - Access your blog's &quot;About&quot; page - and voila - it should work just fine as this: http://www.mydomain.com/about/ (instead of default ugly: http://www.mydomain.com/?p=123)</li>
+  <li>Download and unzip <a href="http://wordpress.org/extend/plugins/wp-super-cache/">WP Super Cache plugin</a> into '<strong>/home/public_html/mydomain.com/public/wp-content/plugins</strong>' directory. Activate it via Admin panel.<br />
+    For FTP-ing purposes I use FileZilla configured to use SFTP. (I don't elaborate on specifics of installing and activating WordPress plugins in this document).<br />
+    - Goto Plugins, activate &quot;WP Super Cache&quot;.<br />
+    - Goto Settings-&gt;WP Super Cache and set (x) WP Super Cache Status to &quot;ON&quot;. [Update Status]. <br />
+    You'll see bunch of warnings on this page regarding &quot;mod rewrite&quot; rules and &quot;.htaccess&quot; file. Just ignore these - we are not using Apache so WP Super Cache cannot find apache specific places to write settings. We did it for WP Super Cache already inside of 'wordpress_params.super_cache' - which contains &quot;translation&quot; of caching rules from Apache to Nginx.<br />
+  Your WP Super Cache-ed blog should be up and running now at fullest speed.</li>
+  <li>Make 'wp-content' directory a bit more secure:<span class="code_tag">  sudo chmod -R 755 /home/public_html/mydomain.com/public/wp-content</span>    - Goto Manage-&gt;Categories. Create few categories with subcategories.<br />
+    - Goto Write-&gt;Post - create few posts and assign them to subcategory, publish, save.<br />
+    - Access your posts - and see that they all have nice SEO-friendly URLs, thanks to custom wordpress-specific setups we included in our '<strong>/usr/local/nginx/sites-available/mydomain.com</strong>' file.<br />
+  - This also works just fine with <a href="http://urbangiraffe.com/plugins/redirection/">John Godley's excellent redirection plugin</a> that supports flexible custom redirects with regular expressions.</li>
+  <li>Customize your theme and go wild!  </li>
+</ul>
+<span class="sub_heading">Done!</span>
+<ul><li>Enjoy your fresh shiny new WordPress blog, with nice SEO friendly permalinks enabled, ready to utilize powerful caching capabilities of <a href="http://wordpress.org/extend/plugins/wp-super-cache/">WP Super Cache plugin</a>, running under cutting edge <a href="http://nginx.net/">NGINX</a> web server, powered by top of the line <a href="http://www.ubuntu.com/getubuntu/download">Long Term Supported (up to 2013) Ubuntu 8.04 Hardy</a>, hosted by great <a href="http://www.slicehost.com/">VPS hosting team at SliceHost.com</a>!<br />
+    <br />
+  </li>
+</ul>
+</div><p><script type="text/javascript">SHARETHIS.addEntry({ title: "Perfect Setup: Ubuntu Hardy+Nginx+MySQL5+PHP5+Wordress", url: "http://www.mensk.com/webmaster-toolbox/perfect-ubuntu-hardy-nginx-mysql5-php5-wordpress/" });</script></p><div style="clear:both;"></div>
+			
+			<div class="postmeta">
+				Filed Under: <a href="http://www.mensk.com/category/webmaster-toolbox/" title="View all posts in Webmaster Toolbox" rel="category tag">Webmaster Toolbox</a><br />Tagged: <a href="http://www.mensk.com/tag/enginex/" rel="tag">enginex</a>, <a href="http://www.mensk.com/tag/mysql/" rel="tag">mysql</a>, <a href="http://www.mensk.com/tag/nginx/" rel="tag">nginx</a>, <a href="http://www.mensk.com/tag/php/" rel="tag">php</a>, <a href="http://www.mensk.com/tag/prefect-setup/" rel="tag">prefect setup</a>, <a href="http://www.mensk.com/tag/slicehost/" rel="tag">slicehost</a>, <a href="http://www.mensk.com/tag/ubuntu/" rel="tag">ubuntu</a>, <a href="http://www.mensk.com/tag/ubuntu-hardy/" rel="tag">ubuntu hardy</a>, <a href="http://www.mensk.com/tag/wordpress/" rel="tag">Wordpress</a>, <a href="http://www.mensk.com/tag/wp-super-cache-plugin/" rel="tag">wp super cache plugin</a>			</div>
+		 			
+			<!--
+			<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+			xmlns:dc="http://purl.org/dc/elements/1.1/"
+			xmlns:trackback="http://madskills.com/public/xml/rss/module/trackback/">
+		<rdf:Description rdf:about="http://www.mensk.com/webmaster-toolbox/perfect-ubuntu-hardy-nginx-mysql5-php5-wordpress/"
+    dc:identifier="http://www.mensk.com/webmaster-toolbox/perfect-ubuntu-hardy-nginx-mysql5-php5-wordpress/"
+    dc:title="Perfect Setup: Ubuntu Hardy+Nginx+MySQL5+PHP5+Wordress"
+    trackback:ping="http://www.mensk.com/webmaster-toolbox/perfect-ubuntu-hardy-nginx-mysql5-php5-wordpress/trackback/" />
+</rdf:RDF>			-->
+			
+						
+		</div>
+		
+		<div class="adsense-post">
+		
+			<!--To activate your Google AdSense ad, go to your WP dashboard and go to Presentation -> Revolution Tech Options and enter your Google Adsense Code.-->
+			
+									
+		</div>
+			
+		<div class="comments">
+	
+			<h4>Comments</h4>
+			
+<!-- You can start editing here. -->
+
+<div id="commentblock">
+	<p id="comments"><b>61 Responses to &#8220;Perfect Setup: Ubuntu Hardy+Nginx+MySQL5+PHP5+Wordress&#8221;</b></p>
+
+	<ol class="commentlist">
+
+	
+		<li class="alt" id="comment-181">
+			Tony on
+						August 14th, 2008 12:07 pm 
+			<div class="commenttext">
+			<div style="float:left;margin:0px 10px 10px 0px;"><img alt='' src='http://0.gravatar.com/avatar/00c43a6cc4e581649c4e3292951c7871?s=60&amp;d=http%3A%2F%2F0.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D60&amp;r=G' class='avatar avatar-60 photo' height='60' width='60' /></div><p>How does one go about setting up the iptables to allow postfix to work for email?</p>
+<div style="clear:both;"></div>
+			</div>
+
+		</li>
+
+	
+	
+		<li class="" id="comment-182">
+			admin on
+						August 14th, 2008 12:16 pm 
+			<div class="commenttext">
+			<div style="float:left;margin:0px 10px 10px 0px;"><img alt='' src='http://0.gravatar.com/avatar/e303dc75e98569e785d014f77453c23a?s=60&amp;d=http%3A%2F%2F0.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D60&amp;r=G' class='avatar avatar-60 photo' height='60' width='60' /></div><p>Here&#8217;s the SliceHost&#8217;s article on exactly this subject:<br />
+<a href="http://articles.slicehost.com/2008/8/1/postfix-mx-records-and-receiving-emails" rel="nofollow">http://articles.slicehost.com/2008/8/1/postfix-mx-records-and-receiving-emails</a><br />
+I think I might add this info to this article as well eventually.</p>
+<p>Gleb</p>
+<div style="clear:both;"></div>
+			</div>
+
+		</li>
+
+	
+	
+		<li class="alt" id="comment-183">
+			Tony on
+						August 14th, 2008 1:07 pm 
+			<div class="commenttext">
+			<div style="float:left;margin:0px 10px 10px 0px;"><img alt='' src='http://0.gravatar.com/avatar/00c43a6cc4e581649c4e3292951c7871?s=60&amp;d=http%3A%2F%2F0.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D60&amp;r=G' class='avatar avatar-60 photo' height='60' width='60' /></div><p>When you have this line:</p>
+<p>- Replace: myorigin = /etc/mailname<br />
+- with this: myorigin = $mydomain</p>
+<p>Do you actually mean replace it with the variable &#8220;$mydomain&#8221; or to actually put &#8220;$yahoo.com&#8221; or even just &#8220;yahoo.com&#8221; without the $ if my domain is yahoo.com</p>
+<div style="clear:both;"></div>
+			</div>
+
+		</li>
+
+	
+	
+		<li class="" id="comment-184">
+			admin on
+						August 14th, 2008 1:46 pm 
+			<div class="commenttext">
+			<div style="float:left;margin:0px 10px 10px 0px;"><img alt='' src='http://0.gravatar.com/avatar/e303dc75e98569e785d014f77453c23a?s=60&amp;d=http%3A%2F%2F0.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D60&amp;r=G' class='avatar avatar-60 photo' height='60' width='60' /></div><p>Good question &#8211; actually in this case it has to be used as is, no substitution needed. Regardless of your actual domain &#8211; this text line will have &#8220;$mydomain&#8221;.<br />
+I guess i should of come up with more clear &#8220;generic&#8221; domain, like: &#8216;myhotsite.com&#8217; or something.</p>
+<p>Here is the source for these detailed postfix configurations:<br />
+<a href="http://articles.slicehost.com/2008/7/31/postfix-basic-settings-in-main-cf" rel="nofollow">http://articles.slicehost.com/2008/7/31/postfix-basic-settings-in-main-cf</a></p>
+<p>Gleb</p>
+<div style="clear:both;"></div>
+			</div>
+
+		</li>
+
+	
+	
+		<li class="alt" id="comment-186">
+			<a href='http://pvillega.wordpress.com/2008/08/16/slicehost/' rel='external nofollow' class='url'>SliceHost &laquo; So be IT</a> on
+						August 16th, 2008 11:56 am 
+			<div class="commenttext">
+			<div style="float:left;margin:0px 10px 10px 0px;"></div><p>[...] hecho, he encontrado este manual sobre como instalar WordPress (usando nginx, una versión ligera de Apache muy eficiente) en Slicehost, incluyendo los pasos para [...]</p>
+<div style="clear:both;"></div>
+			</div>
+
+		</li>
+
+	
+	
+		<li class="" id="comment-188">
+			<a href='http://scottmotte.com/archives/253' rel='external nofollow' class='url'>Scott Motte &raquo; Blog Archive &raquo; Slicehost, nginx, mysql, php, wordpress setup</a> on
+						August 17th, 2008 1:52 pm 
+			<div class="commenttext">
+			<div style="float:left;margin:0px 10px 10px 0px;"></div><p>[...] Detailed tutorial on nginx, mysql, php, wordpress setup. [...]</p>
+<div style="clear:both;"></div>
+			</div>
+
+		</li>
+
+	
+	
+		<li class="alt" id="comment-189">
+			windexh8er on
+						August 23rd, 2008 1:52 pm 
+			<div class="commenttext">
+			<div style="float:left;margin:0px 10px 10px 0px;"><img alt='' src='http://0.gravatar.com/avatar/6f839f6c6b435872ca40b76334e7a44a?s=60&amp;d=http%3A%2F%2F0.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D60&amp;r=G' class='avatar avatar-60 photo' height='60' width='60' /></div><p>So&#8230;  I&#8217;m confused.  Why do you do this:</p>
+<p>sudo ln -s /usr/local/nginx/sites-available/mydomain.com /usr/local/nginx/sites-enabled/mydomain.com</p>
+<p>When you&#8217;re not linking to anything at this point?  Since there&#8217;s nothing in /usr/local/nginx/sites-available at that point in time you just end up with a broken symlink?!?!</p>
+<p>Thx&#8230;</p>
+<div style="clear:both;"></div>
+			</div>
+
+		</li>
+
+	
+	
+		<li class="" id="comment-190">
+			admin on
+						August 23rd, 2008 2:47 pm 
+			<div class="commenttext">
+			<div style="float:left;margin:0px 10px 10px 0px;"><img alt='' src='http://0.gravatar.com/avatar/e303dc75e98569e785d014f77453c23a?s=60&amp;d=http%3A%2F%2F0.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D60&amp;r=G' class='avatar avatar-60 photo' height='60' width='60' /></div><p>I guess I have 2 places where I do that &#8211; first one is not necessary &#8211; second is done after mydomain.com files are created. So I guess you&#8217;re right &#8211; first one could be eliminated&#8230;</p>
+<p>Gleb</p>
+<div style="clear:both;"></div>
+			</div>
+
+		</li>
+
+	
+	
+		<li class="alt" id="comment-191">
+			windexh8er on
+						August 23rd, 2008 2:50 pm 
+			<div class="commenttext">
+			<div style="float:left;margin:0px 10px 10px 0px;"><img alt='' src='http://0.gravatar.com/avatar/6f839f6c6b435872ca40b76334e7a44a?s=60&amp;d=http%3A%2F%2F0.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D60&amp;r=G' class='avatar avatar-60 photo' height='60' width='60' /></div><p>Also, can you post the actual files for the FastCGI?  The host that you are referencing in the doc is not valid anymore&#8230;</p>
+<p>Thanks!</p>
+<p>( i.e. <a href="http://zhware.net/files/nginx/" rel="nofollow">http://zhware.net/files/nginx/</a>* )</p>
+<div style="clear:both;"></div>
+			</div>
+
+		</li>
+
+	
+	
+		<li class="" id="comment-192">
+			admin on
+						August 23rd, 2008 3:01 pm 
+			<div class="commenttext">
+			<div style="float:left;margin:0px 10px 10px 0px;"><img alt='' src='http://0.gravatar.com/avatar/e303dc75e98569e785d014f77453c23a?s=60&amp;d=http%3A%2F%2F0.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D60&amp;r=G' class='avatar avatar-60 photo' height='60' width='60' /></div><p>&#8230;that&#8217;s why I never liked referring to too many other sites. It&#8217;s prone to get broken. I love having everything in one place.<br />
+Thanks for catch &#8211; fixed &#8211; files now at mensk.com &#8211; reload the page and check for new urls:<br />
+<a href="http://www.mensk.com/uploads/php-fastcgi.rc.txt" rel="nofollow">http://www.mensk.com/uploads/php-fastcgi.rc.txt</a><br />
+<a href="http://www.mensk.com/uploads/php-fastcgi.txt" rel="nofollow">http://www.mensk.com/uploads/php-fastcgi.txt</a></p>
+<p>Gleb</p>
+<div style="clear:both;"></div>
+			</div>
+
+		</li>
+
+	
+	
+		<li class="alt" id="comment-193">
+			windexh8er on
+						August 23rd, 2008 4:12 pm 
+			<div class="commenttext">
+			<div style="float:left;margin:0px 10px 10px 0px;"><img alt='' src='http://0.gravatar.com/avatar/6f839f6c6b435872ca40b76334e7a44a?s=60&amp;d=http%3A%2F%2F0.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D60&amp;r=G' class='avatar avatar-60 photo' height='60' width='60' /></div><p>Thanks for the fast update!  <img src='http://www.mensk.com/wp-includes/images/smilies/icon_smile.gif' alt=':)' class='wp-smiley' /> </p>
+<p>Another question for you&#8230;  I thought it might be due to because of the locale stuff at the beginning, because I&#8217;ve never seen this before, but whenever I paste anything into vi / nano during following the instructions a quote (&#8220;) will appear as ( ?~@~\ ) in VI and as something else in nano.  Very odd..  Even if I create the file locally on my Mac in something like TextMate (file encoding is UTF8 and LF for line endings) and SCP it over&#8230;  I have never seen that and have no idea why it would be doing it.</p>
+<p>I&#8217;m using SliceHost as well with the 8.04.1 fresh build.</p>
+<p>Thoughts?<br />
+TIA!<br />
+&#8211;windexh8er</p>
+<div style="clear:both;"></div>
+			</div>
+
+		</li>
+
+	
+	
+		<li class="" id="comment-194">
+			windexh8er on
+						August 23rd, 2008 5:12 pm 
+			<div class="commenttext">
+			<div style="float:left;margin:0px 10px 10px 0px;"><img alt='' src='http://0.gravatar.com/avatar/6f839f6c6b435872ca40b76334e7a44a?s=60&amp;d=http%3A%2F%2F0.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D60&amp;r=G' class='avatar avatar-60 photo' height='60' width='60' /></div><p>And one more thing you might want to update to the 2.6.1 trunk since it&#8217;s stable:</p>
+<p><a href="http://svn.automattic.com/wordpress/tags/2.6.1/" rel="nofollow">http://svn.automattic.com/wordpress/tags/2.6.1/</a></p>
+<div style="clear:both;"></div>
+			</div>
+
+		</li>
+
+	
+	
+		<li class="alt" id="comment-195">
+			Bob on
+						August 25th, 2008 1:15 am 
+			<div class="commenttext">
+			<div style="float:left;margin:0px 10px 10px 0px;"><img alt='' src='http://1.gravatar.com/avatar/bc5c10e8de6542756691d52ef47e0616?s=60&amp;d=http%3A%2F%2F1.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D60&amp;r=G' class='avatar avatar-60 photo' height='60' width='60' /></div><p>Mersi boku. Good idea. I&#8217;ll become <a href="http://bride-makeup.ru" rel="nofollow"></a>your  regular visitor and RSS subscriber.</p>
+<div style="clear:both;"></div>
+			</div>
+
+		</li>
+
+	
+	
+		<li class="" id="comment-196">
+			<a href='http://commandlineidiot.com' rel='external nofollow' class='url'>clidiot</a> on
+						August 25th, 2008 3:50 am 
+			<div class="commenttext">
+			<div style="float:left;margin:0px 10px 10px 0px;"><img alt='' src='http://1.gravatar.com/avatar/3d58c74e0d03f11079311d02dd0a77ef?s=60&amp;d=http%3A%2F%2F1.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D60&amp;r=G' class='avatar avatar-60 photo' height='60' width='60' /></div><p>Thank you for putting this together. When I get a few hours to try it out, I&#8217;m going to grab a new 256 slice and give it a shot.</p>
+<div style="clear:both;"></div>
+			</div>
+
+		</li>
+
+	
+	
+		<li class="alt" id="comment-198">
+			<a href='http://php-cgikeepsdying' rel='external nofollow' class='url'>boni</a> on
+						September 2nd, 2008 2:27 am 
+			<div class="commenttext">
+			<div style="float:left;margin:0px 10px 10px 0px;"><img alt='' src='http://1.gravatar.com/avatar/d9c4b3a094b6b02ef5735272b2c404f4?s=60&amp;d=http%3A%2F%2F1.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D60&amp;r=G' class='avatar avatar-60 photo' height='60' width='60' /></div><p>Hi,<br />
+Great tutorial. Followed your instruction and everythings worked fine for line 20 minutes and then php-cgi died. Tried reboot, but no success and when I restart it on the command line, still nginx does not pick it up. The only way am able to run it is more like in a debug mode. First kill all the php-cgi and then run</p>
+<p><b> /usr/bin/php-cgi -q -b localhost:9000 </b><b></p>
+<p>on the consoles. The site comes up, but again dies traffic start building up? </p>
+<p>What could I have missed?</p>
+<p>Thanks</b></p>
+<div style="clear:both;"></div>
+			</div>
+
+		</li>
+
+	
+	
+		<li class="" id="comment-199">
+			boni on
+						September 2nd, 2008 5:41 am 
+			<div class="commenttext">
+			<div style="float:left;margin:0px 10px 10px 0px;"><img alt='' src='http://1.gravatar.com/avatar/d9c4b3a094b6b02ef5735272b2c404f4?s=60&amp;d=http%3A%2F%2F1.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D60&amp;r=G' class='avatar avatar-60 photo' height='60' width='60' /></div><p>Hi again,</p>
+<p>Finally solved my problem. The problem pointed <a href="http://www.mensk.com/uploads/php-fastcgi.rc.txt." rel="nofollow">http://www.mensk.com/uploads/php-fastcgi.rc.txt.</a>. Right at the end there is a <b>:</b> after last esac. I think this was causing the script not to execute properly. Removed it and now everything works fine. This could explain why my site would be up after manual start of php-cgi and then die. My theory is that php-cgi would shut down when there are no requests and then when a request comes it would try to be started using the script but fail. That is what I suspected happened. Hope that helps somebody. Great thanks to the guys in slicehost chat rooms who helped me walk through all these scripts. Its nice that you get real tech people there who can help when it really matters</p>
+<div style="clear:both;"></div>
+			</div>
+
+		</li>
+
+	
+	
+		<li class="alt" id="comment-200">
+			revelnick on
+						September 3rd, 2008 2:59 pm 
+			<div class="commenttext">
+			<div style="float:left;margin:0px 10px 10px 0px;"><img alt='' src='http://1.gravatar.com/avatar/55b802a238052bb3bb8561f7880908f0?s=60&amp;d=http%3A%2F%2F1.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D60&amp;r=G' class='avatar avatar-60 photo' height='60' width='60' /></div><p>good tutorial, its like having a lot of great tutorials on a single page.</p>
+<p>where you have this {<br />
+Enable vhost by creating symlink:<br />
+sudo ln -s /usr/local/nginx/sites-available/mydomain.com /usr/local/nginx/sites-enabled/mydomain.com<br />
+}</p>
+<p>it should probably be {<br />
+Enable vhost by creating symlink:<br />
+sudo ln -s /usr/local/nginx/sites-available/default /usr/local/nginx/sites-enabled/default<br />
+}</p>
+<p>Then in the next step when you restart nginx, it will use the default configuration created in the previous step.</p>
+<p>@windexh8er &#8211; that&#8217;s the source of confusion</p>
+<div style="clear:both;"></div>
+			</div>
+
+		</li>
+
+	
+	
+		<li class="" id="comment-206">
+			windexh8er on
+						September 9th, 2008 11:16 am 
+			<div class="commenttext">
+			<div style="float:left;margin:0px 10px 10px 0px;"><img alt='' src='http://0.gravatar.com/avatar/6f839f6c6b435872ca40b76334e7a44a?s=60&amp;d=http%3A%2F%2F0.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D60&amp;r=G' class='avatar avatar-60 photo' height='60' width='60' /></div><p>@revelnick &#8212; yeah, it just didn&#8217;t make any sense to me at the time because I didn&#8217;t go further down in the instructions.</p>
+<p>@admin &#8212; another question for you.  With this setup if you enable:</p>
+<p>define(&#8216;FORCE_SSL_ADMIN&#8217;, true);</p>
+<p>&#8230;and then try to go to the wp-admin page you end up with an endless loop.  Any thoughts on why this is?  I tried a variety of changes to nginx to no avail.  <img src='http://www.mensk.com/wp-includes/images/smilies/icon_sad.gif' alt=':(' class='wp-smiley' /> </p>
+<div style="clear:both;"></div>
+			</div>
+
+		</li>
+
+	
+	
+		<li class="alt" id="comment-220">
+			friebly on
+						September 23rd, 2008 6:52 pm 
+			<div class="commenttext">
+			<div style="float:left;margin:0px 10px 10px 0px;"><img alt='' src='http://0.gravatar.com/avatar/0add133c04b35d42249bda7f935fd0b2?s=60&amp;d=http%3A%2F%2F0.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D60&amp;r=G' class='avatar avatar-60 photo' height='60' width='60' /></div><p>Could you use a similar method to install WordPress MU?</p>
+<div style="clear:both;"></div>
+			</div>
+
+		</li>
+
+	
+	
+		<li class="" id="comment-222">
+			admin on
+						September 24th, 2008 1:01 am 
+			<div class="commenttext">
+			<div style="float:left;margin:0px 10px 10px 0px;"><img alt='' src='http://0.gravatar.com/avatar/e303dc75e98569e785d014f77453c23a?s=60&amp;d=http%3A%2F%2F0.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D60&amp;r=G' class='avatar avatar-60 photo' height='60' width='60' /></div><p>Not sure about MU. The main &#8220;issue&#8221; with using NGinx + WordPress in general is that some plugins that use redirection, rewriting or otherwise based on Apache functionality will stop working. This is something to consider before migrating business to Nginx-based setup.</p>
+<p>Gleb</p>
+<div style="clear:both;"></div>
+			</div>
+
+		</li>
+
+	
+	
+		<li class="alt" id="comment-223">
+			friebly on
+						September 24th, 2008 1:59 pm 
+			<div class="commenttext">
+			<div style="float:left;margin:0px 10px 10px 0px;"><img alt='' src='http://0.gravatar.com/avatar/0add133c04b35d42249bda7f935fd0b2?s=60&amp;d=http%3A%2F%2F0.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D60&amp;r=G' class='avatar avatar-60 photo' height='60' width='60' /></div><p>I found a tutorial here <a href="http://wpmu.org/nginx-wordpress-26/" rel="nofollow">http://wpmu.org/nginx-wordpress-26/</a> that has a different nginx.conf file. Would I use it together with yours, or do you think I would put that into my websites vhost? It looks closer to what you said to put into the vhost but it says to put it in the nginx.conf.</p>
+<div style="clear:both;"></div>
+			</div>
+
+		</li>
+
+	
+	
+		<li class="" id="comment-235">
+			<a href='http://builder2.blogger.ph/2008/10/17/slicehost-vps-hosting/' rel='external nofollow' class='url'>builder2 &raquo; Slicehost VPS Hosting</a> on
+						October 16th, 2008 1:39 pm 
+			<div class="commenttext">
+			<div style="float:left;margin:0px 10px 10px 0px;"></div><p>[...] got my VPS running in just a few hours or so by using this excellent guide from MENSK Technologies Corporation, it was good enough for my needs with just the bare essentials: PHP, MySQL, Nginx. Yes, I opted to [...]</p>
+<div style="clear:both;"></div>
+			</div>
+
+		</li>
+
+	
+	
+		<li class="alt" id="comment-237">
+			<a href='http://www.motionstandingstill.com' rel='external nofollow' class='url'>Nahum Wild</a> on
+						October 22nd, 2008 6:39 pm 
+			<div class="commenttext">
+			<div style="float:left;margin:0px 10px 10px 0px;"><img alt='' src='http://1.gravatar.com/avatar/3b4f7d102f17b40c186134f8ae09d33e?s=60&amp;d=http%3A%2F%2F1.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D60&amp;r=G' class='avatar avatar-60 photo' height='60' width='60' /></div><p>Great post thanks, saved me heaps of time.  One thing I did different was update the ngnix site conf to add expire headers to static assets, like what they are doing at the site that friebly has posted about &#8211; but I didn&#8217;t see that until just now!</p>
+<p>I&#8217;ve posted the whole conf to my blog &#8211; <a href="http://www.motionstandingstill.com" rel="nofollow">http://www.motionstandingstill.com</a>, but all I really did was add the following location section and made sure that the &#8216;root&#8217; clause specified before this. </p>
+<p>  location ~* i.+\.(css|js|jpg|jpeg|gif|png)$<br />
+    {<br />
+    expires  7d;<br />
+    }</p>
+<div style="clear:both;"></div>
+			</div>
+
+		</li>
+
+	
+	
+		<li class="" id="comment-238">
+			<a href='http://www.dedman.com.au' rel='external nofollow' class='url'>Andrew Dedman</a> on
+						October 23rd, 2008 7:54 am 
+			<div class="commenttext">
+			<div style="float:left;margin:0px 10px 10px 0px;"><img alt='' src='http://0.gravatar.com/avatar/a78194e21a34bc12594c8dab7703a979?s=60&amp;d=http%3A%2F%2F0.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D60&amp;r=G' class='avatar avatar-60 photo' height='60' width='60' /></div><p>Thanks very much, worked perfectly : )</p>
+<div style="clear:both;"></div>
+			</div>
+
+		</li>
+
+	
+	
+		<li class="alt" id="comment-242">
+			<a href='http://commandlineidiot.com' rel='external nofollow' class='url'>clidiot</a> on
+						November 2nd, 2008 9:59 pm 
+			<div class="commenttext">
+			<div style="float:left;margin:0px 10px 10px 0px;"><img alt='' src='http://1.gravatar.com/avatar/3d58c74e0d03f11079311d02dd0a77ef?s=60&amp;d=http%3A%2F%2F1.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D60&amp;r=G' class='avatar avatar-60 photo' height='60' width='60' /></div><p>PHEW!</p>
+<p>After hours and hours of running this around and around, I tracked down a problem that was driving me insane. The config file posted has a redirect to add the www to every incoming request. My existing blog database, however, has the blog home URL listed without the www. When I got everything up and running, every incoming request would head into an infinite redirect loop between domain.com and <a href="http://www.domain.com" rel="nofollow">http://www.domain.com</a>.</p>
+<p>Thank you for dropping this all together in one place. Very useful.</p>
+<div style="clear:both;"></div>
+			</div>
+
+		</li>
+
+	
+	
+		<li class="" id="comment-245">
+			grradmin on
+						November 5th, 2008 4:02 pm 
+			<div class="commenttext">
+			<div style="float:left;margin:0px 10px 10px 0px;"><img alt='' src='http://0.gravatar.com/avatar/a2267fee2c13bf78ab1da540f5b52048?s=60&amp;d=http%3A%2F%2F0.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D60&amp;r=G' class='avatar avatar-60 photo' height='60' width='60' /></div><p>I&#8217;m having possibly the same issue as clidiot above me was talking about.  Everything is fine as long as I have Apache + WordPress on the same slice.  But as soon as I use the config on this page and through nginx into the mix it results in a redirect loop.  Firefox says &#8220;Redirect Loop &#8211; Firefox has detected that the server is redirecting the request for this address in a way that will never complete&#8221;.  I don&#8217;t use <a href="http://www.domain.com" rel="nofollow">http://www.domain.com</a> as my blog&#8217;s URL, it is <a href="http://domain.com" rel="nofollow">http://domain.com</a> instead.  I&#8217;ve gone through the redirect rules and I don&#8217;t see where it&#8217;s adding that www. though <img src='http://www.mensk.com/wp-includes/images/smilies/icon_sad.gif' alt=':(' class='wp-smiley' /> </p>
+<div style="clear:both;"></div>
+			</div>
+
+		</li>
+
+	
+	
+		<li class="alt" id="comment-254">
+			<a href='http://philwilson.org/blog/2008/11/mai-blog-it-is-back' rel='external nofollow' class='url'>philwilson.org &raquo; Blog Archive &raquo; Mai blog! It is back!</a> on
+						November 18th, 2008 6:49 pm 
+			<div class="commenttext">
+			<div style="float:left;margin:0px 10px 10px 0px;"></div><p>[...] being served from Apache+mod_php to Nginx+fastcgi (in particular I followed these instructions: Perfect Setup: Ubuntu Hardy+Nginx+MySQL5+PHP5+Wordress). I learnt a few things, although I&#8217;m sure most lessons will become apparent over the coming [...]</p>
+<div style="clear:both;"></div>
+			</div>
+
+		</li>
+
+	
+	
+		<li class="" id="comment-262">
+			<a href='http://www.railsgeek.com' rel='external nofollow' class='url'>Mikhailov Anatoly</a> on
+						December 6th, 2008 12:28 pm 
+			<div class="commenttext">
+			<div style="float:left;margin:0px 10px 10px 0px;"><img alt='' src='http://0.gravatar.com/avatar/cffe91a6cc6e6ce8213ed575821dadf7?s=60&amp;d=http%3A%2F%2F0.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D60&amp;r=G' class='avatar avatar-60 photo' height='60' width='60' /></div><p>It&#8217;s wonderful article.! Great Thanks</p>
+<div style="clear:both;"></div>
+			</div>
+
+		</li>
+
+	
+	
+		<li class="alt" id="comment-295">
+			<a href='http://paulmwatson.wordpress.com/2009/01/16/handy-guide-for-getting-php-working-unde/' rel='external nofollow' class='url'>Handy guide for getting PHP working unde &#8230; &laquo; Paul M. Watson</a> on
+						January 16th, 2009 3:38 pm 
+			<div class="commenttext">
+			<div style="float:left;margin:0px 10px 10px 0px;"></div><p>[...] pm on January 16, 2009 | # |   Tags: dev   Handy guide for getting PHP working under NGINX. Needed this page though to get the fastcgi_params file. [...]</p>
+<div style="clear:both;"></div>
+			</div>
+
+		</li>
+
+	
+	
+		<li class="" id="comment-296">
+			<a href='http://www.thinknext.net/archives/2345' rel='external nofollow' class='url'>SliceHost 迁移完毕 &laquo; 刀枪Blue</a> on
+						January 17th, 2009 5:07 am 
+			<div class="commenttext">
+			<div style="float:left;margin:0px 10px 10px 0px;"></div><p>[...] 经历了点波折，不过总算完成。绝大部分 setup 可以参考 Ubuntu Hardy+Nginx+MySQL5+PHP5+Wordress。 [...]</p>
+<div style="clear:both;"></div>
+			</div>
+
+		</li>
+
+	
+	
+		<li class="alt" id="comment-304">
+			<a href='http://agan.net' rel='external nofollow' class='url'>John Agan</a> on
+						January 30th, 2009 11:32 pm 
+			<div class="commenttext">
+			<div style="float:left;margin:0px 10px 10px 0px;"><img alt='' src='http://0.gravatar.com/avatar/6324730e2b2736a8358731ab936743d8?s=60&amp;d=http%3A%2F%2F0.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D60&amp;r=G' class='avatar avatar-60 photo' height='60' width='60' /></div><p>I love you man!!</p>
+<p>Thank you so much for this!</p>
+<div style="clear:both;"></div>
+			</div>
+
+		</li>
+
+	
+	
+		<li class="" id="comment-306">
+			Chris on
+						February 3rd, 2009 9:14 pm 
+			<div class="commenttext">
+			<div style="float:left;margin:0px 10px 10px 0px;"><img alt='' src='http://1.gravatar.com/avatar/97c17d2586ffc4e174040f451d1b5101?s=60&amp;d=http%3A%2F%2F1.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D60&amp;r=G' class='avatar avatar-60 photo' height='60' width='60' /></div><p>THANKS!!!!!!!</p>
+<p>Although for some reason I couldn&#8217;t get the same configuration to work with php-fpm, and for the life of me didn&#8217;t know why. This works just as well though so am stoked. Thanks for taking the time to document it all.</p>
+<div style="clear:both;"></div>
+			</div>
+
+		</li>
+
+	
+	
+		<li class="alt" id="comment-307">
+			Chris on
+						February 3rd, 2009 11:17 pm 
+			<div class="commenttext">
+			<div style="float:left;margin:0px 10px 10px 0px;"><img alt='' src='http://1.gravatar.com/avatar/97c17d2586ffc4e174040f451d1b5101?s=60&amp;d=http%3A%2F%2F1.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D60&amp;r=G' class='avatar avatar-60 photo' height='60' width='60' /></div><p>You could also add xcache to speed things up even more:</p>
+<p>cd ~/sources<br />
+wget <a href="http://xcache.lighttpd.net/pub/Releases/1.2.2/xcache-1.2.2.tar.gz" rel="nofollow">http://xcache.lighttpd.net/pub/Releases/1.2.2/xcache-1.2.2.tar.gz</a><br />
+tar xzvf xcache-1.2.2.tar.gz<br />
+cd xcache-1.2.2<br />
+phpize<br />
+./configure –with-php-config=/usr/local/bin/php-config –enable-xcache<br />
+make install</p>
+<p>sudo nano /etc/php5/cgi/php.ini</p>
+<p>Add line </p>
+<p>extension=xcache.so</p>
+<p>to the end of the file.</p>
+<p>You can also edit /etc/php5/cli/php.ini as well.</p>
+<div style="clear:both;"></div>
+			</div>
+
+		</li>
+
+	
+	
+		<li class="" id="comment-308">
+			Chris on
+						February 3rd, 2009 11:32 pm 
+			<div class="commenttext">
+			<div style="float:left;margin:0px 10px 10px 0px;"><img alt='' src='http://1.gravatar.com/avatar/97c17d2586ffc4e174040f451d1b5101?s=60&amp;d=http%3A%2F%2F1.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D60&amp;r=G' class='avatar avatar-60 photo' height='60' width='60' /></div><p>Last comment &#8211; </p>
+<p>php.ini edits possibly more like this:</p>
+<p>[xcache-common]<br />
+zend_extension = /usr/lib/php5/20060613+lfs/xcache.so<br />
+[xcache]<br />
+xcache.shm_scheme = &#8220;mmap&#8221;<br />
+xcache.size = 64M</p>
+<p>The directory to xcache.so is output when you run make install above.</p>
+<p>You can check it is running using phpinfo() in a script or &#8220;php -v&#8221; from command line (you need to edit the cli php.ini also) if you run php -v you should see:</p>
+<p>Zend Engine v2.2.0, Copyright (c) 1998-2007 Zend Technologies<br />
+    with XCache v1.2.2, Copyright (c) 2005-2007, by mOo</p>
+<div style="clear:both;"></div>
+			</div>
+
+		</li>
+
+	
+	
+		<li class="alt" id="comment-309">
+			<a href='http://www.agan.net/uncategorized/setting-up-the-blog-on-slicehost/' rel='external nofollow' class='url'>Setting Up The Blog On SliceHost | Agan</a> on
+						February 3rd, 2009 11:43 pm 
+			<div class="commenttext">
+			<div style="float:left;margin:0px 10px 10px 0px;"></div><p>[...] so you can setup anything you want. Me personally, I needed a WordPress / Rails slice. I found this article by MENSK Technologies a very useful starting [...]</p>
+<div style="clear:both;"></div>
+			</div>
+
+		</li>
+
+	
+	
+		<li class="" id="comment-311">
+			<a href='http://happybelly.me/uncategorized/wordpress-nginx-xcache-php5-mysql-on-ubuntu-hardy-804lts' rel='external nofollow' class='url'>Wordpress / NGINX / XCACHE / PHP5 / MYSQL on Ubuntu Hardy 8.04LTS - happybelly</a> on
+						February 5th, 2009 2:28 am 
+			<div class="commenttext">
+			<div style="float:left;margin:0px 10px 10px 0px;"></div><p>[...] Great documentation for nginx setup suitable for small VPS. See my comments at bottom to add xcache as well. Added by happybelly, on February 3, 2009.Sections: Uncategorized.   Post a comment or leave a trackback: Trackback URL.     &laquo; NGINX + PHP-FPM + XCACHE on Ubuntu 8.04 LTS [...]</p>
+<div style="clear:both;"></div>
+			</div>
+
+		</li>
+
+	
+	
+		<li class="alt" id="comment-312">
+			<a href='http://nielsvz.com/2009/02/nginx-awesomeness/' rel='external nofollow' class='url'>Nielsvz.com &raquo; Blog Archive &raquo; Nginx awesomeness</a> on
+						February 5th, 2009 7:17 am 
+			<div class="commenttext">
+			<div style="float:left;margin:0px 10px 10px 0px;"></div><p>[...] Perfect Setup: Ubuntu Hardy+Nginx+MySQL5+Wordpress [...]</p>
+<div style="clear:both;"></div>
+			</div>
+
+		</li>
+
+	
+	
+		<li class="" id="comment-319">
+			<a href='http://the.spacewaster.net' rel='external nofollow' class='url'>Gunnar</a> on
+						February 21st, 2009 1:17 pm 
+			<div class="commenttext">
+			<div style="float:left;margin:0px 10px 10px 0px;"><img alt='' src='http://0.gravatar.com/avatar/ca52e48e0878968b6bbf1ccc64a5e88b?s=60&amp;d=http%3A%2F%2F0.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D60&amp;r=G' class='avatar avatar-60 photo' height='60' width='60' /></div><p>Btw, if you just want to use postfix to send mail from PHP, there&#8217;s no need to install it, just use gmail <img src='http://www.mensk.com/wp-includes/images/smilies/icon_razz.gif' alt=':P' class='wp-smiley' /> </p>
+<div style="clear:both;"></div>
+			</div>
+
+		</li>
+
+	
+	
+		<li class="alt" id="comment-320">
+			<a href='http://blog.abstrakce.com/uncategorized/setting-up-wordpress-on-slicehost/' rel='external nofollow' class='url'>Setting up Wordpress on Slicehost | Abstrakce</a> on
+						February 23rd, 2009 3:44 pm 
+			<div class="commenttext">
+			<div style="float:left;margin:0px 10px 10px 0px;"></div><p>[...] And I would not have succeded without this extremely helpful article : <a href="http://www.mensk.com/webmaster-toolbox/perfect-ubuntu-hardy-nginx-mysql5-php5-wordpress/" rel="nofollow">http://www.mensk.com/webmaster-toolbox/perfect-ubuntu-hardy-nginx-mysql5-php5-wordpress/</a> [...]</p>
+<div style="clear:both;"></div>
+			</div>
+
+		</li>
+
+	
+	
+		<li class="" id="comment-322">
+			<a href='http://marcrue.com' rel='external nofollow' class='url'>MarcRue</a> on
+						February 25th, 2009 11:28 am 
+			<div class="commenttext">
+			<div style="float:left;margin:0px 10px 10px 0px;"><img alt='' src='http://0.gravatar.com/avatar/8090392a6b09ee1600658f49b43ca295?s=60&amp;d=http%3A%2F%2F0.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D60&amp;r=G' class='avatar avatar-60 photo' height='60' width='60' /></div><p>I&#8217;m curious about how many connections or petitions/second  can handle your setup in slicehost, did anyone try how well it performances?</p>
+<div style="clear:both;"></div>
+			</div>
+
+		</li>
+
+	
+	
+		<li class="alt" id="comment-323">
+			<a href='http://guvnr.com' rel='external nofollow' class='url'>the_guv</a> on
+						March 11th, 2009 7:41 pm 
+			<div class="commenttext">
+			<div style="float:left;margin:0px 10px 10px 0px;"><img alt='' src='http://0.gravatar.com/avatar/af2e1bf2e01a2006ba79706ebf7d80cb?s=60&amp;d=http%3A%2F%2F0.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D60&amp;r=G' class='avatar avatar-60 photo' height='60' width='60' /></div><p>@MarcRue &#8211; &#8220;50,000 simultaneous connections have been reported,&#8221; according to the nginx wiki, <a href="http://wiki.codemongers.com/NginxGettingStarted" rel="nofollow">http://wiki.codemongers.com/NginxGettingStarted</a>.</p>
+<p>Admin &#8211; why hide behind a title?  You&#8217;re a ruddy hero!  And a big cheers to PickedOnion too, John, Matt, the blessed Russian and everyone who made my week so much fun doing this.</p>
+<p>Wow &#8211; can&#8217;t wait to get off the shared host&#8230;just the email to go&#8230;</p>
+<div style="clear:both;"></div>
+			</div>
+
+		</li>
+
+	
+	
+		<li class="" id="comment-326">
+			Cal on
+						March 21st, 2009 11:00 am 
+			<div class="commenttext">
+			<div style="float:left;margin:0px 10px 10px 0px;"><img alt='' src='http://0.gravatar.com/avatar/c71c09633e07acb63cfbbcf72117d749?s=60&amp;d=http%3A%2F%2F0.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D60&amp;r=G' class='avatar avatar-60 photo' height='60' width='60' /></div><p>amazing!!<br />
+thanks for this intro!! i would never every have figured out how to do this by myself!&#8221;!</p>
+<div style="clear:both;"></div>
+			</div>
+
+		</li>
+
+	
+	
+		<li class="alt" id="comment-327">
+			<a href='http://sonnygill.net' rel='external nofollow' class='url'>Sonny</a> on
+						March 23rd, 2009 10:10 am 
+			<div class="commenttext">
+			<div style="float:left;margin:0px 10px 10px 0px;"><img alt='' src='http://0.gravatar.com/avatar/040fb172b3f13cfa310fc5989f301c51?s=60&amp;d=http%3A%2F%2F0.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D60&amp;r=G' class='avatar avatar-60 photo' height='60' width='60' /></div><p>When you do -</p>
+<p>sudo ln -s /usr/local/nginx/sites-available/mydomain.com /usr/local/nginx/sites-enabled/mydomain.com</p>
+<p>the first time, did you instead mean to create a symlink to /usr/local/nginx/sites-available/default ?</p>
+<p>Because, otherwise navigating to the slice IP after that point results in a connection refused error.</p>
+<p>I can&#8217;t thank you enough for writing this guide. It made my day. Getting the Nginx up and running the very first time was a beautiful feeling <img src='http://www.mensk.com/wp-includes/images/smilies/icon_smile.gif' alt=':)' class='wp-smiley' /> </p>
+<p>Cheers.</p>
+<div style="clear:both;"></div>
+			</div>
+
+		</li>
+
+	
+	
+		<li class="" id="comment-330">
+			<a href='http://erlanged.com/?p=45' rel='external nofollow' class='url'>Wordpress @ Slicehost - Sudarshan Acharya</a> on
+						March 25th, 2009 11:47 pm 
+			<div class="commenttext">
+			<div style="float:left;margin:0px 10px 10px 0px;"></div><p>[...] get it up and running in about an hour with all the content migrated. When there are documents like Mensk.com and Slicehost Articles, you really don&#8217;t have anything left to [...]</p>
+<div style="clear:both;"></div>
+			</div>
+
+		</li>
+
+	
+	
+		<li class="alt" id="comment-331">
+			<a href='http://builder2.blogger.ph/2009/03/27/linux-tips/' rel='external nofollow' class='url'>Linux tips | builder2</a> on
+						March 26th, 2009 12:49 pm 
+			<div class="commenttext">
+			<div style="float:left;margin:0px 10px 10px 0px;"></div><p>[...] Perfect Setup: Ubuntu Hardy+Nginx+MySQL5+PHP5+WordPress [...]</p>
+<div style="clear:both;"></div>
+			</div>
+
+		</li>
+
+	
+	
+		<li class="" id="comment-337">
+			<a href='http://devezine.com/perfect-setup-ubuntu-hardynginxmysql5php5wordress-mensk-technologies-corporation/' rel='external nofollow' class='url'>Perfect Setup: Ubuntu Hardy+Nginx+MySQL5+PHP5+Wordress | MENSK Technologies Corporation</a> on
+						April 28th, 2009 9:25 am 
+			<div class="commenttext">
+			<div style="float:left;margin:0px 10px 10px 0px;"></div><p>[...] More: Perfect Setup: Ubuntu Hardy+Nginx+MySQL5+PHP5+Wordress | MENSK Technologies Corporation [...]</p>
+<div style="clear:both;"></div>
+			</div>
+
+		</li>
+
+	
+	
+		<li class="alt" id="comment-340">
+			<a href='http://www.vinodlive.com' rel='external nofollow' class='url'>Vinod</a> on
+						May 26th, 2009 9:23 am 
+			<div class="commenttext">
+			<div style="float:left;margin:0px 10px 10px 0px;"><img alt='' src='http://0.gravatar.com/avatar/2ec6a4450673a58848f470b80cef5808?s=60&amp;d=http%3A%2F%2F0.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D60&amp;r=G' class='avatar avatar-60 photo' height='60' width='60' /></div><p>Thank you very much for the detailed instructions. I could move my blog faster to slicehost with your instructions.<br />
+Cheers.</p>
+<div style="clear:both;"></div>
+			</div>
+
+		</li>
+
+	
+	
+		<li class="" id="comment-346">
+			<a href='http://test.flapdrol.com/habari/nginx-awesomeness' rel='external nofollow' class='url'>Nginx awesomeness - Flapdrol.com</a> on
+						June 30th, 2009 5:37 pm 
+			<div class="commenttext">
+			<div style="float:left;margin:0px 10px 10px 0px;"></div><p>[...] up Nginx, PHP5, MySQL5 and WordPress was pretty easy after reading these articles:Perfect Setup: Ubuntu Hardy+Nginx+MySQL5+WordpressInstalling Nginx with PHP5 and MySQL support on Ubuntu 8.10ApacheBenchUsing ApacheBench i&#8217;ve tested [...]</p>
+<div style="clear:both;"></div>
+			</div>
+
+		</li>
+
+	
+	
+		<li class="alt" id="comment-347">
+			<a href='http://www.mikecann.co.uk/?p=607' rel='external nofollow' class='url'>MikeCann.co.uk &raquo; Blog Archive &raquo; Panic over, nginx comes to the rescue</a> on
+						July 3rd, 2009 2:58 pm 
+			<div class="commenttext">
+			<div style="float:left;margin:0px 10px 10px 0px;"></div><p>[...] I would like to give a big thank you to this article which was invaluable: <a href="http://www.mensk.com/webmaster-toolbox/perfect-ubuntu-hardy-nginx-mysql5-php5-wordpress/" rel="nofollow">http://www.mensk.com/webmaster-toolbox/perfect-ubuntu-hardy-nginx-mysql5-php5-wordpress/</a> [...]</p>
+<div style="clear:both;"></div>
+			</div>
+
+		</li>
+
+	
+	
+		<li class="" id="comment-348">
+			<a href='http://www.dlpeterson.com/' rel='external nofollow' class='url'>Luke</a> on
+						July 4th, 2009 4:04 pm 
+			<div class="commenttext">
+			<div style="float:left;margin:0px 10px 10px 0px;"><img alt='' src='http://0.gravatar.com/avatar/813a73d7279efdda53dc8cd61a2348a2?s=60&amp;d=http%3A%2F%2F0.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D60&amp;r=G' class='avatar avatar-60 photo' height='60' width='60' /></div><p>I started following your steps but had an issue when setting up the iptables.  I copied the contents of the file you mentioned and changed the port number, saved and exited, but when I apply the new iptables rules:</p>
+<p>iptables-restore &lt; /etc/iptables.test.rules</p>
+<p>It responds:<br />
+iptables-restore: line 43 failed.</p>
+<p>Line 43 is the last line of the file iptables.test.rules, it has the COMMIT statement on it.</p>
+<p>Any suggestions on how to fix this problem?</p>
+<p>Thanks,<br />
+~Luke</p>
+<div style="clear:both;"></div>
+			</div>
+
+		</li>
+
+	
+	
+		<li class="alt" id="comment-349">
+			<a href='http://www.dlpeterson.com/' rel='external nofollow' class='url'>Luke</a> on
+						July 4th, 2009 4:14 pm 
+			<div class="commenttext">
+			<div style="float:left;margin:0px 10px 10px 0px;"><img alt='' src='http://0.gravatar.com/avatar/813a73d7279efdda53dc8cd61a2348a2?s=60&amp;d=http%3A%2F%2F0.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D60&amp;r=G' class='avatar avatar-60 photo' height='60' width='60' /></div><p>On further investigation, it seems like the format of the file that is generated by iptables-save is very different from the format of the file that you provide:<br />
+# Generated by iptables-save v1.4.1.1 on Sat Jul  4 23:35:15 2009<br />
+*mangle<br />
+ <img src='http://www.mensk.com/wp-includes/images/smilies/icon_razz.gif' alt=':P' class='wp-smiley' /> REROUTING ACCEPT [992112:108459671]<br />
+:INPUT ACCEPT [992112:108459671]<br />
+:FORWARD ACCEPT [0:0]<br />
+:OUTPUT ACCEPT [1134182:178798272]<br />
+ <img src='http://www.mensk.com/wp-includes/images/smilies/icon_razz.gif' alt=':P' class='wp-smiley' /> OSTROUTING ACCEPT [1134182:178798272]<br />
+COMMIT<br />
+# Completed on Sat Jul  4 23:35:15 2009<br />
+# Generated by iptables-save v1.4.1.1 on Sat Jul  4 23:35:15 2009<br />
+*filter<br />
+:INPUT ACCEPT [992112:108459671]<br />
+:FORWARD ACCEPT [0:0]<br />
+:OUTPUT ACCEPT [1134182:178798272]<br />
+COMMIT<br />
+# Completed on Sat Jul  4 23:35:15 2009<br />
+# Generated by iptables-save v1.4.1.1 on Sat Jul  4 23:35:15 2009<br />
+*nat<br />
+ <img src='http://www.mensk.com/wp-includes/images/smilies/icon_razz.gif' alt=':P' class='wp-smiley' /> REROUTING ACCEPT [79601:4588901]<br />
+ <img src='http://www.mensk.com/wp-includes/images/smilies/icon_razz.gif' alt=':P' class='wp-smiley' /> OSTROUTING ACCEPT [114638:8397610]<br />
+:OUTPUT ACCEPT [114638:8397610]<br />
+COMMIT<br />
+# Completed on Sat Jul  4 23:35:15 2009</p>
+<p>Did the format of the file change or something?  Is there a tool to convert the file that you provide to the format that that is above?</p>
+<p>Thanks,<br />
+~Luke</p>
+<div style="clear:both;"></div>
+			</div>
+
+		</li>
+
+	
+	
+		<li class="" id="comment-350">
+			<a href='http://www.dlpeterson.com/' rel='external nofollow' class='url'>Luke</a> on
+						July 4th, 2009 4:28 pm 
+			<div class="commenttext">
+			<div style="float:left;margin:0px 10px 10px 0px;"><img alt='' src='http://0.gravatar.com/avatar/813a73d7279efdda53dc8cd61a2348a2?s=60&amp;d=http%3A%2F%2F0.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D60&amp;r=G' class='avatar avatar-60 photo' height='60' width='60' /></div><p>Sorry to flood this place with comments, but I think I&#8217;m close to figuring it out.  I exectued each line in the file you provide by doing &#8216;iptables ***&#8217; at the command line.  Each command has worked fine up to this one:<br />
+$ iptables -A INPUT -m limit &#8211;limit 5/min -j LOG &#8211;log-prefix &#8220;iptables denied: &#8221; &#8211;log-level 7</p>
+<p>iptables: No chain/target/match by that name</p>
+<p>Any ideas what this means / what to do next?</p>
+<p>Thanks,<br />
+~Luke</p>
+<div style="clear:both;"></div>
+			</div>
+
+		</li>
+
+	
+	
+		<li class="alt" id="comment-353">
+			<a href='http://millarian.com/random/switching-to-wordpress/' rel='external nofollow' class='url'>Millarian | Switching to Wordpress</a> on
+						July 9th, 2009 9:25 pm 
+			<div class="commenttext">
+			<div style="float:left;margin:0px 10px 10px 0px;"></div><p>[...] WordPress on Ubuntu, Nginx and MySQL [...]</p>
+<div style="clear:both;"></div>
+			</div>
+
+		</li>
+
+	
+	
+		<li class="" id="comment-355">
+			Vito Botta on
+						July 22nd, 2009 7:20 am 
+			<div class="commenttext">
+			<div style="float:left;margin:0px 10px 10px 0px;"><img alt='' src='http://0.gravatar.com/avatar/6ced8db448201dd29d8e7aca1d7d8998?s=60&amp;d=http%3A%2F%2F0.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D60&amp;r=G' class='avatar avatar-60 photo' height='60' width='60' /></div><p>I have a similar configuration, but I am having an issue with PHP-FPM (which is why I found this post by googling).<br />
+For some reasons, after a reboot or after manually start PHP-FPM, the website syays up for a while but then dies after some time of inactivity.</p>
+<p>Now I am testing with this init.d script you have posted, and  have removed the &#8220;:&#8221; at the end of the script as suggested by boni. A big thank you to you and boni if this works! <img src='http://www.mensk.com/wp-includes/images/smilies/icon_smile.gif' alt=':)' class='wp-smiley' /> </p>
+<p>One thing that I am not sure is, this doesn&#8217;t use PHP-FPM, does it? How does it exactly work and, in case it doesn&#8217;t use the PHP-FPM patch, are there any differences in performance?</p>
+<p>Thanks!</p>
+<div style="clear:both;"></div>
+			</div>
+
+		</li>
+
+	
+	
+		<li class="alt" id="comment-363">
+			<a href='http://buffered.io/' rel='external nofollow' class='url'>OJ</a> on
+						September 10th, 2009 12:20 am 
+			<div class="commenttext">
+			<div style="float:left;margin:0px 10px 10px 0px;"><img alt='' src='http://1.gravatar.com/avatar/f0f2ee087377182b1e7bb0057dcee4e0?s=60&amp;d=http%3A%2F%2F1.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D60&amp;r=G' class='avatar avatar-60 photo' height='60' width='60' /></div><p>Hi there,</p>
+<p>Thanks for your tutorial. It has been very helpful.</p>
+<p>One thing that I would like to point out, after chatting to the helpful guys in #nginx on freenode is that there&#8217;s a slight inefficiency in one of your examples:</p>
+<p>rewrite ^/(.*) <a href="http://www.mydomain.com/$1" rel="nofollow">http://www.mydomain.com/$1</a> permanent;</p>
+<p>This uses an unnecessary match/extract regex. Nginx already pulls the URL apart, and hence it&#8217;s already accessible directly via a variable. The above line should be changed to:</p>
+<p>rewrite ^ <a href="http://www.mydomain.com$request_uri" rel="nofollow">http://www.mydomain.com$request_uri</a> permanent;</p>
+<p>Hope that helps people squeeze that extra bit of perf out of nginx.<br />
+Cheers<br />
+OJ</p>
+<div style="clear:both;"></div>
+			</div>
+
+		</li>
+
+	
+	
+		<li class="" id="comment-364">
+			brutus on
+						September 10th, 2009 8:40 am 
+			<div class="commenttext">
+			<div style="float:left;margin:0px 10px 10px 0px;"><img alt='' src='http://0.gravatar.com/avatar/237ad6c7531e02a03a6f5eed31a15112?s=60&amp;d=http%3A%2F%2F0.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D60&amp;r=G' class='avatar avatar-60 photo' height='60' width='60' /></div><p>Hi there , </p>
+<p>Having a problem that is quite literally driving me mad, and I&#8217;ve found nothing out there that has solved my problem. Its quite simple really, I just need to change my php.ini settings for my MAX_UPLOAD_SETTINGS, currently set to 2M. When I change the value in /etc/php5/cgi/php.ini it quite simply doesnt take effect. Restarting nginx does nothing. Any ideas folks ??</p>
+<p>Brutus</p>
+<div style="clear:both;"></div>
+			</div>
+
+		</li>
+
+	
+	
+		<li class="alt" id="comment-366">
+			shadow on
+						September 24th, 2009 3:34 pm 
+			<div class="commenttext">
+			<div style="float:left;margin:0px 10px 10px 0px;"><img alt='' src='http://1.gravatar.com/avatar/77fffc386f7110a554d1e2b7f79c8a12?s=60&amp;d=http%3A%2F%2F1.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D60&amp;r=G' class='avatar avatar-60 photo' height='60' width='60' /></div><p>Hello there, thanks for the wonderful guide. However, I need some help here.<br />
+Can&#8217;t seem to get it to point to wordpress install.<br />
+It keeps going to the Welcome to Nginx page instead of the wordpress install.<br />
+Any clue why?</p>
+<div style="clear:both;"></div>
+			</div>
+
+		</li>
+
+	
+	
+		<li class="" id="comment-367">
+			<a href='http://www.bentow.com.br' rel='external nofollow' class='url'>Bentow</a> on
+						September 26th, 2009 11:45 am 
+			<div class="commenttext">
+			<div style="float:left;margin:0px 10px 10px 0px;"><img alt='' src='http://1.gravatar.com/avatar/5973206f8cce9e94d5ed5015bc00f2fe?s=60&amp;d=http%3A%2F%2F1.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D60&amp;r=G' class='avatar avatar-60 photo' height='60' width='60' /></div><p>You are the man.</p>
+<p>Everything I&#8217;ve needed.</p>
+<div style="clear:both;"></div>
+			</div>
+
+		</li>
+
+	
+	
+		<li class="alt" id="comment-374">
+			<a href='http://www.vinodlive.com/' rel='external nofollow' class='url'>Vinod</a> on
+						November 30th, 2009 4:20 pm 
+			<div class="commenttext">
+			<div style="float:left;margin:0px 10px 10px 0px;"><img alt='' src='http://0.gravatar.com/avatar/2ec6a4450673a58848f470b80cef5808?s=60&amp;d=http%3A%2F%2F0.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D60&amp;r=G' class='avatar avatar-60 photo' height='60' width='60' /></div><p>Thank you so much. I couldn&#8217;t have moved my blog to nginx without this excellent article. Thanks again.</p>
+<div style="clear:both;"></div>
+			</div>
+
+		</li>
+
+	
+	
+		<li class="" id="comment-403">
+			<a href='http://www.artfilmus.ru/' rel='external nofollow' class='url'>FrankieFilm</a> on
+						April 29th, 2010 12:28 pm 
+			<div class="commenttext">
+			<div style="float:left;margin:0px 10px 10px 0px;"><img alt='' src='http://0.gravatar.com/avatar/c08078c3acfcf997eabd28cf08fa2d2a?s=60&amp;d=http%3A%2F%2F0.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D60&amp;r=G' class='avatar avatar-60 photo' height='60' width='60' /></div><p>Долго, долго искал и вот оно&#8230; случайно наткнулся на Вашу изумительную статью</p>
+<div style="clear:both;"></div>
+			</div>
+
+		</li>
+
+	
+	
+		<li class="alt" id="comment-411">
+			<a href='http://alexsmith.im' rel='external nofollow' class='url'>Alex</a> on
+						May 24th, 2010 5:54 am 
+			<div class="commenttext">
+			<div style="float:left;margin:0px 10px 10px 0px;"><img alt='' src='http://1.gravatar.com/avatar/9ab9799c6a90bade73d3769f0c5bd6fe?s=60&amp;d=http%3A%2F%2F1.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D60&amp;r=G' class='avatar avatar-60 photo' height='60' width='60' /></div><p>With 10.04 Ubuntu you need to add one other step to this. Due to &#8220;localhost&#8221; now reffering to both 127.0.0.1 and ::1 php-fastcgi will die with the following:</p>
+<p>&#8220;Host &#8216;localhost&#8217; has multiple addresses. You must choose one explicitly!&#8221;</p>
+<p>Quickly open /etc/init.d/php-fastcgi and change<br />
+FCGI_HOST=localhost<br />
+to<br />
+FCGI_HOST=127.0.0.1</p>
+<p>Starting and restarting should now work without too many issues now.</p>
+<p>Also, you should now use</p>
+<p>sudo aptitude -y install libfcgi</p>
+<p>instead of</p>
+<p>sudo aptitude -y install libfcgi0</p>
+<div style="clear:both;"></div>
+			</div>
+
+		</li>
+
+	
+	
+	</ol>
+
+ 
+
+
+<p id="respond"><b>Feel free to leave a comment... <br />and oh, if you want a pic to show with your comment, go get a <a href="http://en.gravatar.com" >gravatar</a>!</b></p>
+
+
+<form action="http://www.mensk.com/wp-comments-post.php" method="post" id="commentform">
+
+
+<p><label for="name">Name (required)</label><br />
+<input type="text" name="author" id="name" value="" size="50" tabindex="1" /></p>
+
+<p><label for="email">Email Address (required)</label><br />
+<input type="text" name="email" id="email" value="" size="50" tabindex="2" /></p>
+
+<p><label for="url">Website</label><br />
+<input type="text" name="url" id="url" value="" size="50" tabindex="3" /></p>
+
+
+<!--<p><small><strong>XHTML:</strong> You can use these tags: &lt;a href=&quot;&quot; title=&quot;&quot;&gt; &lt;abbr title=&quot;&quot;&gt; &lt;acronym title=&quot;&quot;&gt; &lt;b&gt; &lt;blockquote cite=&quot;&quot;&gt; &lt;cite&gt; &lt;code&gt; &lt;del datetime=&quot;&quot;&gt; &lt;em&gt; &lt;i&gt; &lt;q cite=&quot;&quot;&gt; &lt;strike&gt; &lt;strong&gt; </small></p>-->
+
+<p><label for="words">Speak your mind</label><br /><textarea name="comment" id="words" cols="40" rows="10" tabindex="4"></textarea></p>
+
+<p><input name="submit" type="submit" id="submit" tabindex="5" value="Submit Comment" />
+<input type="hidden" name="comment_post_ID" value="89" /></p>
+
+
+</form>
+
+
+
+</div>			
+		</div>
+		
+	</div>
+	
+<!-- begin sidebar -->
+
+<div id="sidebar">
+
+	<div align="center" style="background:#ffd;margin: 0 0 10px;padding:0 0 5px;">
+          <p style="padding:2px;font-weight:bold;">Sign up for updates<br /><span style="color:red;font-size:120%;">Don't Miss a TIP!</span></p>
+<form method="post" action="http://www.aweber.com/scripts/addlead.pl">
+<input type="hidden" name="meta_web_form_id" value="1391534197">
+<input type="hidden" name="meta_split_id" value="">
+<input type="hidden" name="unit" value="mensk-updates">
+<input type="hidden" name="redirect" value="http://www.aweber.com/form/thankyou_vo.html" id="redirect_3778436059463a2e6520b50490a74996">
+<input type="hidden" name="meta_redirect_onlist" value="">
+<input type="hidden" name="meta_adtracking" value="">
+<input type="hidden" name="meta_message" value="1">
+<input type="hidden" name="meta_required" value="from">
+<input type="hidden" name="meta_forward_vars" value="0">
+<table>
+<tr><td colspan=2><center></center></td></tr>
+<tr><td>Name:</td><td><input type="text" name="name" value="" size="20"></td></tr>
+<tr><td>Email:</td><td><input type="text" name="from" value="" size="20"></td></tr>
+    <tr><td colspan=2><center></center></td></tr>
+<tr><td align="center" colspan="2"><input type="submit" name="submit" value="Keep me Updated!"></td></tr>
+</table>
+</form>
+        </div>
+<div align="center" style="background:#ffd;margin: 0 0 10px;padding:0 0 5px;">Supported by:<br />
+<a href="http://www.loachat.com/" title="Law of Attraction Chat Room" target="_blank">Law of Attraction Chat</a>
+<br />
+<a href="http://www.idreamcatcher.com/hooponopono/" title="Ho'oponopono" target="_blank">Hooponopono</a>
+<br />
+<a href="http://www.onepagecheckout.com/" title="One Page Checkout" target="_blank">One Page Checkout</a>
+<br />
+<a href="http://www.poodleit.com/products/dog-coats/" title="Dog Coats" target="_blank">Dog Coats</a>
+ and 
+<a href="http://www.poodleit.com/" title="Dog Rain Coats" target="_blank">Dog Raincoats</a>
+<br />
+<a href="http://www.lovetalkforum.com/" title="Love and Relationships Forum" target="_blank">Love and Relationships Forum</a>
+<br />
+<a href="http://www.hooponopono.co/" title="Ho'oponopono" target="_blank">Ho'oponopono</a>
+</div>
+
+	
+
+	<div class="widgetarea">
+	
+	<ul id="sidebarwidgeted">
+	
+			
+		
+	</ul>
+	
+	</div>
+
+		
+	<!-- begin r_sidebar -->
+
+<div id="r_sidebar">
+
+	<ul id="r_sidebarwidgeted">
+	
+	<li id="text-364724621" class="widget widget_text">			<div class="textwidget"><a target="_blank" style="position:relative;top:-10px;left:-10px;text-decoration:none;" href="http://www.memberwing.com/webdev/"><img style="border:0 none;" src="http://www.memberwing.com/webdev/MW_Web_Services_200x.png" /></a>
+
+<!-- 25PIX.COM WIDGET CODE START -->
+<div id="XXV_1_3926_wrapper"><div class="XXV_1_3926_widget_strict XXV_1_3926_widget_tbh" style="font-size:8px;" id="N6aa4419ea02aee8d"><a href="http://www.idreamcatcher.com/hooponopono/">Hooponopono</a><a href="http://www.25pix.com/">Web Widgets</a></div></div><script type="text/javascript" src="http://widgets.25pix.com/getwidget/?wid=1&wsn=3926"></script>
+<!-- 25PIX.COM WIDGET CODE END --></div>
+		</li>
+
+	</ul>
+	
+</div>
+
+<!-- end r_sidebar -->	
+</div>
+
+<!-- end sidebar -->		
+</div>
+
+<!-- The main column ends  -->
+
+<!-- begin footer -->
+
+<div style="clear:both;"></div>
+
+<div id="footer">
+
+	<div id="footerleft">
+		<p>&middot; Copyright &copy; 2008 <a href="http://www.mensk.com/">MENSK Technologies Corporation</a> &middot; </p>
+	</div>
+	
+	<div id="footerright">
+	</div>
+	
+</div>
+
+
+<div id="bottom">
+	<img src="http://www.mensk.com/wp-content/themes/revolution_tech-30/images/bottom.gif" alt="Bottom" />
+</div>
+
+</div>
+
+<script src="http://www.google-analytics.com/urchin.js" type="text/javascript">
+</script>
+<script type="text/javascript">
+_uacct = "UA-443802-2";
+urchinTracker();
+</script>
+
+</body>
+</html>
