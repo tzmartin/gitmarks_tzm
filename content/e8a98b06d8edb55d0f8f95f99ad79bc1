@@ -1,0 +1,758 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="en-US">
+<head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7" />
+<title>MockApp</title>
+<meta name="description" content="It&amp;#39;s easy to mockup iPhone apps with MockApp&amp;#39;s Keynote and PowerPoint templates. Your can create a realistic prototype or demo of an iphone app before development." />
+<meta name="keywords" content="iphone, applications, iphone app, prototyping, demo, user interface, keynote template, powerpoint template" />
+<link rel="shortcut icon" href="http://mockapp.com/wp-content/themes/atahualpa/images/favicon/mockapp.ico" />
+<link rel="alternate" type="application/rss+xml" title="MockApp RSS Feed" href="http://mockapp.com/feed/" />
+<link rel="alternate" type="application/atom+xml" title="MockApp Atom Feed" href="http://mockapp.com/feed/atom/" />
+<link rel="pingback" href="http://mockapp.com/xmlrpc.php" />
+<script type="text/javascript" src="http://mockapp.com/wp-includes/js/jquery/jquery.js?ver=1.2.6"></script>
+<link rel="stylesheet" href="http://mockapp.com/wp-content/plugins/wp125/wp125.css" type="text/css" media="screen" />
+<link rel='stylesheet' id='wp_dlmp_styles-css'  href='http://mockapp.com/wp-content/plugins/download-monitor/page-addon/styles.css?ver=3.0.1' type='text/css' media='all' />
+<link rel='stylesheet' id='wp_sidebarlogin_css_styles-css'  href='http://mockapp.com/wp-content/plugins/sidebar-login/style.css?ver=3.0.1' type='text/css' media='all' />
+<script type='text/javascript' src='http://mockapp.com/wp-content/plugins/business-directory//main.js?ver=3.0.1'></script>
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://mockapp.com/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://mockapp.com/wp-includes/wlwmanifest.xml" /> 
+<link rel='index' title='MockApp' href='http://mockapp.com/' />
+<meta name="generator" content="WordPress 3.0.1" />
+<script type='text/javascript' src='http://mockapp.com/wp-includes/js/tw-sack.js?ver=1.6.1'></script>
+		<script>
+			function bizdir_add_listing(name,email,cName,description,keywords,website,cEmail,phone) { //Add Form Ajax Call
+				//Deactivate submit button and display processing message
+				document.getElementById('bizdir_submit').disabled = true;
+				var submit_message = document.getElementById('bizdir_submit_message');
+				submit_message.className = "bizdir_message";
+				submit_message.innerHTML = "Submitting Form, Please Wait...";
+				//Clear inputs with Auto Text
+				bizdir_clearAllAutoFill();
+				//Build SACK Call
+				var mysack = new sack("http://mockapp.com/wp-content/plugins/business-directory/requests.php");
+				mysack.execute = 1;
+				mysack.method = 'POST';
+				mysack.setVar("action","AddListing");
+				mysack.setVar("category_id", document.getElementById("bizdir_category_id").value);
+				mysack.setVar("name",document.getElementById("bizdir_name").value);
+				mysack.setVar("email",document.getElementById("bizdir_email").value);
+				mysack.setVar("cName",document.getElementById("bizdir_cName").value);
+				mysack.setVar("description",document.getElementById("bizdir_description").value);
+				mysack.setVar("keywords",document.getElementById("bizdir_keywords").value);
+				mysack.setVar("website",document.getElementById("bizdir_website").value);
+				mysack.setVar("cEmail",document.getElementById("bizdir_cEmail").value);
+				mysack.setVar("phone",document.getElementById("bizdir_phone").value);
+				mysack.setVar("street1",document.getElementById("bizdir_street1").value);
+				mysack.setVar("street2",document.getElementById("bizdir_street2").value);
+				mysack.setVar("city",document.getElementById("bizdir_city").value);
+				mysack.setVar("state",document.getElementById("bizdir_state").value);
+				mysack.setVar("zip",document.getElementById("bizdir_zip").value);
+				mysack.setVar("country",document.getElementById("bizdir_country").value);
+				mysack.onError = function() { alert('An ajax error occured while adding your listing. Please reload the page and try again.') };
+				mysack.runAJAX();//excecute
+				return true;
+			}
+			
+			function bizdir_search_listings() { //Search Ajax Call
+				var search_term = document.getElementById('bizdir_search_term');
+				if(search_term.value == "" || search_term.value == null)
+					return;
+				//Deactivate submit button and display processing message
+				document.getElementById('bizdir_search').disabled = true;
+				var submit_message = document.getElementById('bizdir_messages');
+				submit_message.className = "bizdir_message";
+				submit_message.innerHTML = "Searching Listings, Please Wait...";
+				//Build SACK Call
+				var mysack = new sack("http://mockapp.com/wp-content/plugins/business-directory/requests.php");
+				mysack.execute = 1;
+				mysack.method = 'POST';
+				mysack.setVar("action","SearchListings");
+				mysack.setVar("searchTerms",search_term.value);
+				mysack.onError = function() { alert('An ajax error occured while searching. Please reload the page and try again.') };
+				mysack.runAJAX();//excecute
+				return true;
+			}
+			
+			function bizdir_change_listings_page(offset) { //Jump to the appropriate page in the directory Ajax Call
+				//Build SACK Call
+				var mysack = new sack("http://mockapp.com/wp-content/plugins/business-directory/requests.php");
+				mysack.execute = 1;
+				mysack.method = 'POST';
+				mysack.setVar("action","ChangePage");
+				mysack.setVar("offset",offset);
+				mysack.onError = function() { alert('An ajax error occured. Please reload the page and try again.') };
+				mysack.runAJAX();//excecute
+				return true;
+			}
+
+            function bizdir_sort_categories(category) { //Jump to the appropriate page in the directory Ajax Call
+				//Build SACK Call
+                var category = category.value;
+                var mysack = new sack("http://mockapp.com/wp-content/plugins/business-directory/requests.php");
+				mysack.execute = 1;
+				mysack.method = 'POST';
+				mysack.setVar("action","SearchListings");
+                mysack.setVar('category',category);
+				mysack.onError = function() { alert('An ajax error occured. Please reload the page and try again.') };
+				mysack.runAJAX();//excecute
+				return true;
+			}
+		</script>
+	<script type="text/javascript" charset="utf-8" src="http://w.sharethis.com/button/sharethis.js#publisher=c9c67895-f44e-4e17-b9a4-76a4cad364a9&amp;type=wordpress&amp;style=rotate&amp;wp=3.0.1"></script><style type="text/css">body{text-align:center;margin:0;padding:0;font-family:trebuchet MS,arial,sans-serif;font-size:0.8em;color:#000000;background:#ffffff}a:link,a:visited,a:active{color:#0000FF;font-weight:bold;text-decoration:none;}a:hover{color:#0066FF;font-weight:bold;text-decoration:underline;}ul,ol,dl,p,h1,h2,h3,h4,h5,h6{margin-top:10px;margin-bottom:10px;padding-top:0;padding-bottom:0}ul ul,ul ol,ol ul,ol ol{margin-top:0;margin-bottom:0}h1{font-size:2.15em;font-weight:bold}h2{font-size:1.85em;font-weight:bold}h3{font-size:1.6em;font-weight:bold;}h4{font-size:1.4em}h5{font-size:1.2em}h6{font-size:1em}code,pre{font-family:"Courier New",Courier,monospace;font-size:1em}pre{overflow:auto;word-wrap:normal;padding-bottom:1.5em;overflow-y:hidden;width:99%}abbr[title],acronym[title]{border-bottom:1px dotted}hr{display:block;height:2px;border:none;margin:0.5em auto;color:#cccccc;background-color:#cccccc}table{font-size:1em;}div.post,ul.commentlist li,ol.commentlist li{word-wrap:break-word;}pre,.wp_syntax{word-wrap:normal;}div#wrapper{text-align:center;margin-left:auto;margin-right:auto;display:block;width:99%}div#container{padding:0;width:auto;margin-left:auto;margin-right:auto;text-align:left;display:block}table#layout{font-size:100%;width:100%;table-layout:fixed}.colone{width:200px}.colone-inner{width:200px}.coltwo{width:100% }.colthree-inner{width:200px}.colthree{width:200px}td#header{width:auto;padding:0}table#logoarea,table#logoarea tr,table#logoarea td{margin:0;padding:0;background:none;border:0}table#logoarea{width:100%;border-spacing:0px;height:77px;background:#ffffff}img.logo{display:block;margin:0 10px 0 0}td.logoarea-logo{width:1%}h1.blogtitle,h2.blogtitle{display:block;margin:0;padding:0;letter-spacing:-1px;line-height:1.0em;font-family:tahoma,arial,sans-serif;font-size:240%}h1.blogtitle a:link,h1.blogtitle a:visited,h1.blogtitle a:active,h2.blogtitle a:link,h2.blogtitle a:visited,h2.blogtitle a:active{text-decoration:none;color:#666666;font-weight:bold}h1.blogtitle a:hover,h2.blogtitle a:hover{text-decoration:none;color:#000000;font-weight:bold}p.tagline{margin:0;padding:0;font-size:1.2em;font-weight:bold;color:#666666}td.feed-icons{white-space:nowrap;}div.rss-box{height:1%;display:block;padding:10px 0 10px 10px;margin:0;width:360px}a.comments-icon{background:transparent url(http://mockapp.com/wp-content/themes/atahualpa/images/comment-feed-small.gif) no-repeat scroll 0;height:22px;line-height:22px;margin:0 10px 0 0;padding-left:27px;display:block;text-decoration:none;float:right;white-space:nowrap}a.posts-icon{background:transparent url(http://mockapp.com/wp-content/themes/atahualpa/images/post-feed-small.gif) no-repeat scroll 0;height:22px;line-height:22px;margin:0 10px 0 0;padding-left:25px;display:block;text-decoration:none;float:right;white-space:nowrap}a.email-icon{background:transparent url(http://mockapp.com/wp-content/themes/atahualpa/images/email-feed-small.gif) no-repeat scroll 0;height:22px;line-height:22px;margin:0 10px 0 0;padding-left:28px;display:block;text-decoration:none;float:right;white-space:nowrap}td.search-box{height:1%}div.searchbox{height:35px;width:200px;margin:0;padding:0}div.searchbox-form{margin:5px 10px 5px 10px}div.horbar1,div.horbar2{font-size:1px;clear:both;display:block;position:relative;padding:0;margin:0;width:100%;}div.horbar1{height:5px;background:#ffffff;border-top:dashed 1px #cccccc}div.horbar2{height:5px;background:#ffffff;border-bottom:dashed 1px #cccccc}div.opacityleft{position:absolute;z-index:2;top:0;left:0;background-color:#FFFFFF;height:120px;width:0px;filter:alpha(opacity=40);-moz-opacity:.40;opacity:.40}div.opacityright{position:absolute;z-index:2;top:0;right:0;background-color:#FFFFFF;height:120px;width:200px;filter:alpha(opacity=40);-moz-opacity:.40;opacity:.40}div.clickable{position:absolute;top:0;left:0;z-index:3;margin:0;padding:0;width:100%;height:120px;}a.divclick:link,a.divclick:visited,a.divclick:active,a.divclick:hover{width:100%;height:100%;display:block;text-decoration:none}td#left{vertical-align:top;border-right:solid 1px #CCCCCC;padding:10px 10px 10px 10px;background:#ffffff}td#left-inner{vertical-align:top;border-right:solid 1px #CCCCCC;padding:10px 10px 10px 10px;background:#ffffff}td#right{vertical-align:top;border-left:solid 1px #CCCCCC;padding:10px 10px 10px 10px;background:#ffffff}td#right-inner{vertical-align:top;border-left:solid 1px #CCCCCC;padding:10px 10px 10px 10px;background:#ffffff}td#middle{vertical-align:top;width:100%;padding:10px 15px}td#footer{width:auto;background-color:#ffffff;border-top:solid 1px #cccccc;padding:10px;text-align:center;color:#777777;font-size:95%}td#footer a:link,td#footer a:visited,td#footer a:active{text-decoration:none;color:#777777;font-weight:normal}td#footer a:hover{text-decoration:none;color:#777777;font-weight:normal}div.widget{display:block;width:auto;margin:0 0 15px 0}div.widget-title{display:block;width:auto}div.widget-title h3,td#left h3.tw-widgettitle,td#right h3.tw-widgettitle,td#left ul.tw-nav-list,td#right ul.tw-nav-list{padding:0;margin:0;font-size:1.6em;font-weight:bold}div.widget-content{display:block;width:auto}div.widget select{width:98%;margin-top:5px;}div.widget ul{list-style-type:none;margin:0;padding:0;width:auto}div.widget ul li{display:block;margin:2px 0 2px 0px;padding:0 0 0 5px;border-left:solid 7px #cccccc}div.widget ul li:hover,div.widget ul li.sfhover{display:block;width:auto;border-left:solid 7px #000000;}div.widget ul li ul li{margin:2px 0 2px 5px;padding:0 0 0 5px;border-left:solid 7px #cccccc;}div.widget ul li ul li:hover,div.widget ul li ul li.sfhover{border-left:solid 7px #000000;}div.widget ul li ul li ul li{margin:2px 0 2px 5px;padding:0 0 0 5px;border-left:solid 7px #cccccc;}div.widget ul li ul li ul li:hover,div.widget ul li ul li ul li.sfhover{border-left:solid 7px #000000;}div.widget ul li a:link,div.widget ul li a:visited,div.widget ul li a:active{text-decoration:none;font-weight:normal;color:#666666;font-weight:normal;}div.widget ul li ul li a:link,div.widget ul li ul li a:visited,div.widget ul li ul li a:active{color:#666666;font-weight:normal;}div.widget ul li ul li ul li a:link,div.widget ul li ul li ul li a:visited,div.widget ul li ul li ul li a:active{color:#666666;font-weight:normal;}div.widget ul li a:hover{color:#000000;}div.widget ul li ul li a:hover{color:#000000;}div.widget ul li ul li ul li a:hover{color:#000000;}div.widget ul li a:link,div.widget ul li a:visited,div.widget ul li a:active,div.widget ul li a:hover{display:inline}* html div.widget ul li a:link,* html div.widget ul li a:visited,* html div.widget ul li a:active,* html div.widget ul li a:hover{height:1%;} div.widget_pages ul li,div.widget_categories ul li{border-left:0 !important;padding:0 !important}div.widget_pages ul li a:link,div.widget_pages ul li a:visited,div.widget_pages ul li a:active,div.widget_categories ul li a:link,div.widget_categories ul li a:visited,div.widget_categories ul li a:active{padding:0 0 0 5px;border-left:solid 7px #cccccc}div.widget_pages ul li a:hover,div.widget_categories ul li a:hover{border-left:solid 7px #000000;}div.widget_pages ul li ul li a:link,div.widget_pages ul li ul li a:visited,div.widget_pages ul li ul li a:active,div.widget_categories ul li ul li a:link,div.widget_categories ul li ul li a:visited,div.widget_categories ul li ul li a:active{padding:0 0 0 5px;border-left:solid 7px #cccccc}div.widget_pages ul li ul li a:hover,div.widget_categories ul li ul li a:hover{border-left:solid 7px #000000;}div.widget_pages ul li ul li ul li a:link,div.widget_pages ul li ul li ul li a:visited,div.widget_pages ul li ul li ul li a:active,div.widget_categories ul li ul li ul li a:link,div.widget_categories ul li ul li ul li a:visited,div.widget_categories ul li ul li ul li a:active{padding:0 0 0 5px;border-left:solid 7px #cccccc}div.widget_pages ul li ul li ul li a:hover,div.widget_categories ul li ul li ul li a:hover{border-left:solid 7px #000000;}div.widget_pages ul li a:link,div.widget_pages ul li a:active,div.widget_pages ul li a:visited,div.widget_pages ul li a:hover{display:block !important}div.widget_categories ul li a:link,div.widget_categories ul li a:active,div.widget_categories ul li a:visited,div.widget_categories ul li a:hover{display:inline !important}table.subscribe{width:100%}table.subscribe td.email-text{padding:0 0 5px 0;vertical-align:top}table.subscribe td.email-field{padding:0;width:100%}table.subscribe td.email-button{padding:0 0 0 5px}table.subscribe td.post-text{padding:7px 0 0 0;vertical-align:top}table.subscribe td.comment-text{padding:7px 0 0 0;vertical-align:top}div.post,div.page{display:block;margin:0 0 30px 0}div.sticky{background:#eee url(http://mockapp.com/wp-content/themes/atahualpa/images/sticky.gif) 99% 5% no-repeat;border:dashed 1px #cccccc;padding:10px}div.post-kicker{margin:0 0 5px 0}div.post-kicker a:link,div.post-kicker a:visited,div.post-kicker a:active{color:#000000;text-decoration:none;text-transform:uppercase}div.post-kicker a:hover{color:#cc0000}div.post-headline{}div.post-headline h1,div.post-headline h2{margin:0;padding:0;padding:0;margin:0}div.post-headline h2 a:link,div.post-headline h2 a:visited,div.post-headline h2 a:active,div.post-headline h1 a:link,div.post-headline h1 a:visited,div.post-headline h1 a:active{color:#666666;text-decoration:none}div.post-headline h2 a:hover,div.post-headline h1 a:hover{color:#000000;text-decoration:none}div.post-byline{margin:5px 0 10px 0}div.post-byline a:link,div.post-byline a:visited,div.post-byline a:active{}div.post-byline a:hover{}div.post-bodycopy{}div.post-bodycopy p{margin:1em 0;padding:0;display:block}div.post-pagination{}div.post-footer{clear:both;display:block;margin:0;padding:5px;background:#eeeeee;color:#666;line-height:18px}div.post-footer a:link,div.post-footer a:visited,div.post-footer a:active{color:#333;font-weight:normal;text-decoration:none}div.post-footer a:hover{color:#333;font-weight:normal;text-decoration:underline}div.post-kicker img,div.post-byline img,div.post-footer img{border:0;padding:0;margin:0 0 -1px 0;background:none}span.post-ratings{display:inline-block;width:auto;white-space:nowrap}div.navigation-top{display:block;width:100%;margin:0 0 10px 0;padding:0 0 10px 0;border-bottom:dashed 1px #cccccc}div.navigation-middle{display:block;width:100%;margin:10px 0 20px 0;padding:10px 0 10px 0;border-top:dashed 1px #cccccc;border-bottom:dashed 1px #cccccc}div.navigation-bottom{display:block;width:100%;margin:20px 0 0 0;padding:10px 0 0 0;border-top:dashed 1px #cccccc}div.navigation-comments-above{display:block;width:100%;margin:0 0 10px 0;padding:5px 0 5px 0}div.navigation-comments-below{display:block;width:100%;margin:0 0 10px 0;padding:5px 0 5px 0}div.older{float:left;width:49%;text-align:left;margin:0;padding:0}div.newer{float:right;width:49%;text-align:right;margin:0;padding:0;}div.older-home{float:left;width:45%;text-align:left;margin:0;padding:0}div.newer-home{float:right;width:45%;text-align:right;margin:0;padding:0;}div.home{float:left;width:9%;text-align:center;margin:0;padding:0}form,.feedburner-email-form{margin:0;padding:0;}fieldset{border:1px solid #cccccc;width:auto;padding:0.35em 0.625em 0.75em;display:block;}legend{color:#000000;background:#f4f4f4;border:1px solid #cccccc;padding:2px 6px;margin-bottom:15px;}form p{margin:5px 0 0 0;padding:0;}label{margin-right:0.5em;font-family:arial;cursor:pointer;}input.text,input.textbox,input.password,input.file,input.TextField,textarea{padding:3px;color:#000000;border-top:solid 1px #333333;border-left:solid 1px #333333;border-right:solid 1px #999999;border-bottom:solid 1px #cccccc;background:url(http://mockapp.com/wp-content/themes/atahualpa/images/inputbackgr.gif) top left no-repeat}textarea{width:96%;}input.inputblur{color:#777777;width:95%}input.inputfocus{color:#000000;width:95%}input.highlight,textarea.highlight{background:#e8eff7;border-color:#37699f}.button,.Button{padding:0 2px;height:24px;line-height:16px;background-color:#777777;color:#ffffff;border:solid 2px #555555;font-weight:bold}.buttonhover{padding:0 2px;cursor:pointer;background-color:#6b9c6b;color:#ffffff;border:solid 2px #496d49}form#commentform input#submit{padding:4px 10px 4px 10px;font-size:1.2em;line-height:1.5em;height:36px}table.searchform{width:100%}table.searchform td.searchfield{padding:0;width:100%}table.searchform td.searchbutton{padding:0 0 0 5px}table.searchform td.searchbutton input{padding:0 0 0 5px}blockquote{height:1%;display:block;clear:both;color:#555555;padding:1em 1em;background:#f4f4f4;border:solid 1px #e1e1e1}blockquote blockquote{height:1%;display:block;clear:both;color:#444444;padding:1em 1em;background:#e1e1e1;border:solid 1px #d3d3d3}div.post table{border-collapse:collapse;margin:10px 0}div.post table caption{width:auto;margin:0 auto;background:#eeeeee;border:#999999;padding:4px 8px;color:#666666}div.post table th{background:#888888;color:#ffffff;font-weight:bold;font-size:90%;padding:4px 8px;border:solid 1px #ffffff;text-align:left}div.post table td{padding:4px 8px;background-color:#ffffff;border-bottom:1px solid #dddddd;text-align:left}div.post table tfoot td{}div.post table tr.alt td{background:#f4f4f4}div.post table tr.over td{background:#e2e2e2}#calendar_wrap{padding:0;border:none}table#wp-calendar{width:100%;font-size:90%;border-collapse:collapse;background-color:#ffffff;margin:0 auto}table#wp-calendar caption{width:auto;background:#eeeeee;border:none;;padding:3px;margin:0 auto;font-size:1em}table#wp-calendar th{border:solid 1px #eeeeee;background-color:#999999;color:#ffffff;font-weight:bold;padding:2px;text-align:center}table#wp-calendar td{padding:0;line-height:18px;background-color:#ffffff;border:1px solid #dddddd;text-align:center}table#wp-calendar tfoot td{border:solid 1px #eeeeee;background-color:#eeeeee}table#wp-calendar td a{display:block;background-color:#eeeeee;width:100%;height:100%;padding:0}div#respond{margin:25px 0;padding:25px;background:#eee;-moz-border-radius:8px;-khtml-border-radius:8px;-webkit-border-radius:8px;border-radius:8px;}p.thesetags{margin:10px 0}h3.reply{margin:0;padding:0 0 10px 0}ol.commentlist{margin:15px 0 25px 0;list-style-type:none;padding:0;display:block;border-top:dotted 1px #cccccc}ol.commentlist li{padding:15px 10px;display:block;height:1%;margin:0;background-color:#ffffff;border-bottom:dotted 1px #cccccc}ol.commentlist li.alt{display:block;height:1%;background-color:#eeeeee;border-bottom:dotted 1px #cccccc}ol.commentlist li.authorcomment{display:block;height:1%;background-color:#ffecec}ol.commentlist span.authorname{font-weight:bold;font-size:110%}ol.commentlist span.commentdate{color:#666666;font-size:90%;margin-bottom:5px;display:block}ol.commentlist span.editcomment{display:block}ol.commentlist li p{margin:2px 0 5px 0}div.comment-number{float:right;font-size:2em;line-height:2em;font-family:georgia,serif;font-weight:bold;color:#ddd;margin:-10px 0 0 0;position:relative;height:1%}div.comment-number a:link,div.comment-number a:visited,div.comment-number a:active{color:#ccc}textarea#comment{width:98%;margin:10px 0;display:block}ul.commentlist{margin:15px 0 15px 0;list-style-type:none;padding:0;display:block;border-top:dotted 1px #cccccc}ul.commentlist ul{margin:0;border:none;list-style-type:none;padding:0}ul.commentlist li{padding:0;margin:0;display:block;clear:both;height:1%;}ul.commentlist ul.children li{margin-left:30px}ul.commentlist div.comment-container{padding:10px;margin:0}ul.children div.comment-container{background-color:transparent;border:dotted 1px #ccc;padding:10px;margin:0 10px 8px 0;-moz-border-radius:5px;-khtml-border-radius:5px;-webkit-border-radius:5px;border-radius:5px}ul.children div.bypostauthor{}ul.commentlist li.thread-even{background-color:#ffffff;border-bottom:dotted 1px #cccccc}ul.commentlist li.thread-odd{background-color:#eeeeee;border-bottom:dotted 1px #cccccc}ul.commentlist div.bypostauthor{background-color:#ffecec}ul.children div.bypostauthor{border:dotted 1px #ffbfbf}ul.commentlist span.authorname{font-size:110%}div.comment-meta a:link,div.comment-meta a:visited,div.comment-meta a:active,div.comment-meta a:hover{font-weight:normal}div#cancel-comment-reply{margin:-5px 0 10px 0}div.comment-number{float:right;font-size:2em;line-height:2em;font-family:georgia,serif;font-weight:bold;color:#ddd;margin:-10px 0 0 0;position:relative;height:1%}div.comment-number a:link,div.comment-number a:visited,div.comment-number a:active{color:#ccc}.page-numbers{padding:2px 6px;border:solid 1px #000000;-moz-border-radius:6px;-khtml-border-radius:6px;-webkit-border-radius:6px;border-radius:6px}span.current{background:#ddd}a.prev,a.next{border:none}a.page-numbers:link,a.page-numbers:visited,a.page-numbers:active{text-decoration:none;color:#0000FF;border-color:#0000FF}a.page-numbers:hover{text-decoration:none;color:#0066FF;border-color:#0066FF}div.xhtml-tags{display:none}abbr em{border:none !important;border-top:dashed 1px #aaa !important;display:-moz-inline-box !important;display:inline-block !important;background:url(http://mockapp.com/wp-content/themes/atahualpa/images/commentluv.gif) 0% 90% no-repeat;margin-top:8px;padding:5px 5px 2px 20px !important;font-style:normal}p.subscribe-to-comments{margin-bottom:10px}div#gsHeader{display:none;}div.g2_column{margin:0 !important;width:100% !important;font-size:1.2em}div#gsNavBar{border-top-width:0 !important}p.giDescription{font-size:1.2em;line-height:1 !important}p.giTitle{margin:0.3em 0 !important;font-size:1em;font-weight:normal;color:#666}div#wp-email img{border:0;padding:0}div#wp-email input,div#wp-email textarea{margin-top:5px;margin-bottom:2px}div#wp-email p{margin-bottom:10px}input#wp-email-submit{padding:0;font-size:30px;height:50px;line-height:50px;overflow:visible;}img.WP-EmailIcon{vertical-align:text-bottom !important}.tw-accordion .tw-widgettitle,.tw-accordion .tw-widgettitle:hover,.tw-accordion .tw-hovered,.tw-accordion .selected,.tw-accordion .selected:hover{background:transparent !important;background-image:none !important}.tw-accordion .tw-widgettitle span{padding-left:0 !important}.tw-accordion h3.tw-widgettitle{border-bottom:solid 1px #ccc}.tw-accordion h3.selected{border-bottom:none}td#left .without_title,td#right .without_title{margin-top:0;margin-bottom:0}ul.tw-nav-list{border-bottom:solid 1px #999;display:block;margin-bottom:5px !important}td#left ul.tw-nav-list li,td#right ul.tw-nav-list li{padding:0 0 1px 0;margin:0 0 -1px 5px;border:solid 1px #ccc;border-bottom:none;-moz-border-radius:5px;-khtml-border-radius:5px;-webkit-border-radius:5px;border-radius:5px;-moz-border-radius-bottomright:0;-moz-border-radius-bottomleft:0;-webkit-border-bottom-right-radius:0;-webkit-border-bottom-left-radius:0;border-bottom-right-radius:0;border-bottom-left-radius:0;background:#eee}td#left ul.tw-nav-list li.ui-tabs-selected,td#right ul.tw-nav-list li.ui-tabs-selected{background:none;border:solid 1px #999;border-bottom:solid 1px #fff !important}ul.tw-nav-list li a:link,ul.tw-nav-list li a:visited,ul.tw-nav-list li a:active,ul.tw-nav-list li a:hover{padding:0 8px !important;background:none;border-left:none !important;outline:none}td#left ul.tw-nav-list li.ui-tabs-selected a,td#left li.ui-tabs-selected a:hover,td#right ul.tw-nav-list li.ui-tabs-selected a,td#right li.ui-tabs-selected a:hover{color:#000000;text-decoration:none;font-weight:bold;background:none !important;outline:none}td#left .ui-tabs-panel,td#right .ui-tabs-panel{margin:0;padding:0}img{border:0}#dbem-location-map img{background:none !important}.post img{padding:5px;border:solid 1px #dddddd;background-color:#f3f3f3;-moz-border-radius:3px;-khtml-border-radius:3px;-webkit-border-radius:3px;border-radius:3px;}.post img.size-full{max-width:96%;width:auto 100%;margin:5px 0 5px 0}div.post img[class~=size-full]{height:auto;}.post img.alignleft{float:left;margin:10px 10px 5px 0;}.post img.alignright{float:right;margin:10px 0 5px 10px;}.post img.aligncenter{display:block;margin:10px auto}.aligncenter,div.aligncenter{display:block;margin-left:auto;margin-right:auto}.alignleft,div.alignleft{float:left;margin:10px 10px 5px 0}.alignright,div.alignright{float:right;margin:10px 0 5px 10px}div.archives-page img{border:0;padding:0;background:none;margin-bottom:0;vertical-align:-10%}.wp-caption{max-width:96%;width:auto 100%;height:auto;display:block;border:1px solid #dddddd;text-align:center;background-color:#f3f3f3;padding-top:4px;margin:10px 0 0 0;-moz-border-radius:3px;-khtml-border-radius:3px;-webkit-border-radius:3px;border-radius:3px;}* html .wp-caption{height:100%;}.wp-caption img{margin:0 !important;padding:0 !important;border:0 none !important}.wp-caption p.wp-caption-text{font-size:0.8em;line-height:13px;padding:2px 4px 5px;margin:0;color:#666666}img.wp-smiley{float:none;border:none !important;margin:0 1px -1px 1px;padding:0 !important;background:none !important}img.avatar{float:left;display:block;margin:0 8px 1px 0;padding:3px;border:solid 1px #ddd;background-color:#f3f3f3;-moz-border-radius:3px;-khtml-border-radius:3px;-webkit-border-radius:3px;border-radius:3px;}#comment_quicktags{text-align:left;padding:10px 0 2px 0;display:block}#comment_quicktags input.ed_button{background:#f4f4f4;border:2px solid #cccccc;color:#444444;margin:2px 4px 2px 0;width:auto;padding:0 4px;height:24px;line-height:16px}#comment_quicktags input.ed_button_hover{background:#dddddd;border:2px solid #666666;color:#000000;margin:2px 4px 2px 0;width:auto;padding:0 4px;height:24px;line-height:16px;cursor:pointer}#comment_quicktags #ed_strong{font-weight:bold}#comment_quicktags #ed_em{font-style:italic}@media print{body{background:white;color:black;margin:0;font-size:10pt !important;font-family:arial,sans-serif;}div.post-footer{line-height:normal !important;color:#555 !important;font-size:9pt !important}a:link,a:visited,a:active,a:hover{text-decoration:underline !important;color:#000}h2{color:#000;font-size:14pt !important;font-weight:normal !important}h3{color:#000;font-size:12pt !important;}#header,#footer,.colone,.colthree,.navigation,.navigation-top,.navigation-middle,.navigation-bottom,.wp-pagenavi-navigation,#comment,#respond,.remove-for-print{display:none}td#left,td#right{width:0}td#middle{width:100%}*:lang(en) td#left{display:none}*:lang(en) td#right{display:none}td#left:empty{display:none}td#right:empty{display:none}}ul.rMenu,ul.rMenu ul,ul.rMenu li,ul.rMenu a{display:block;margin:0;padding:0}ul.rMenu,ul.rMenu li,ul.rMenu ul{list-style:none}ul.rMenu ul{display:none}ul.rMenu li{position:relative;z-index:1}ul.rMenu li:hover{z-index:999}ul.rMenu li:hover > ul{display:block;position:absolute} ul.rMenu-hor li{float:left;width:auto}ul.rMenu-hRight li{float:right}ul.rMenu-ver li{float:none}div#menu1 ul.rMenu-ver,div#menu1 ul.rMenu-ver ul{width:11em}div#menu2 ul.rMenu-ver,div#menu2 ul.rMenu-ver ul{width:11em}ul.rMenu-wide{width:100%}ul.rMenu-vRight{float:right}ul.rMenu-lFloat{float:left}ul.rMenu-noFloat{float:none}div.rMenu-center ul.rMenu{float:left;position:relative;left:50%}div.rMenu-center ul.rMenu li{position:relative;left:-50%}div.rMenu-center ul.rMenu li li{left:auto}ul.rMenu-hor ul{top:auto;right:auto;left:auto;margin-top:-1px}ul.rMenu-hor ul ul{margin-top:0;margin-left:0px}ul.rMenu-ver ul{left:100%;right:auto;top:auto;top:0}ul.rMenu-vRight ul,ul.rMenu-hRight ul.rMenu-ver ul{left:-100%;right:auto;top:auto}ul.rMenu-hRight ul{left:auto;right:0;top:auto;margin-top:-1px}div#menu1 ul.rMenu{background:#FFFFFF;border:solid 1px #dddddd;border-left:none}div#menu2 ul.rMenu{background:#777777;border:solid 1px #000000;border-left:none}div#menu1 ul.rMenu li a{border:solid 1px #dddddd}div#menu2 ul.rMenu li a{border:solid 1px #000000}ul.rMenu-hor li{margin-bottom:-1px;margin-top:-1px;margin-left:-1px}ul#rmenu li{}ul#rmenu li ul li{}ul.rMenu-hor{padding-left:1px }ul.rMenu-ver li{margin-left:0;margin-top:-1px}div#menu1 ul.rMenu-ver{border-top:solid 1px #dddddd}div#menu2 ul.rMenu-ver{border-top:solid 1px #000000}div#menu1 ul.rMenu li a{padding:4px 5px}div#menu2 ul.rMenu li a{padding:4px 5px}div#menu1 ul.rMenu li a:link,div#menu1 ul.rMenu li a:hover,div#menu1 ul.rMenu li a:visited,div#menu1 ul.rMenu li a:active{text-decoration:none;margin:0;padding:4px 5px;color:#777777;text-transform:uppercase;font:11px Arial,Verdana,sans-serif}div#menu2 ul.rMenu li a:link,div#menu2 ul.rMenu li a:hover,div#menu2 ul.rMenu li a:visited,div#menu2 ul.rMenu li a:active{text-decoration:none;margin:0;padding:4px 5px;color:#ffffff;text-transform:uppercase;font:11px Arial,Verdana,sans-serif;}div#menu1 ul.rMenu li{background-color:#FFFFFF}div#menu2 ul.rMenu li{background-color:#777777}div#menu1 ul.rMenu li:hover,div#menu1 ul.rMenu li.sfhover{background-color:#DDDDDD}div#menu2 ul.rMenu li:hover,div#menu2 ul.rMenu li.sfhover{background-color:#000000}div#menu1 ul.rMenu li.current_page_item a:link,div#menu1 ul.rMenu li.current_page_item a:active,div#menu1 ul.rMenu li.current_page_item a:hover,div#menu1 ul.rMenu li.current_page_item a:visited,div#menu1 ul.rMenu li.current_page_item > a:link,div#menu1 ul.rMenu li.current_page_item > a:active,div#menu1 ul.rMenu li.current_page_item > a:hover,div#menu1 ul.rMenu li.current_page_item > a:visited,div#menu1 ul.rMenu li a:hover{background-color:#EEEEEE;color:#000000}div#menu2 ul.rMenu li.current_page_item a:link,div#menu2 ul.rMenu li.current_page_item a:active,div#menu2 ul.rMenu li.current_page_item a:hover,div#menu2 ul.rMenu li.current_page_item a:visited,div#menu2 ul.rMenu li.current_page_item > a:link,div#menu2 ul.rMenu li.current_page_item > a:active,div#menu2 ul.rMenu li.current_page_item > a:hover,div#menu2 ul.rMenu li.current_page_item > a:visited,div#menu2 ul.rMenu li a:hover{background-color:#cc0000;color:#ffffff}div#menu1 ul.rMenu li.rMenu-expand a,div#menu1 ul.rMenu li.rMenu-expand li.rMenu-expand a,div#menu1 ul.rMenu li.rMenu-expand li.rMenu-expand li.rMenu-expand a,div#menu1 ul.rMenu li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand a,div#menu1 ul.rMenu li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand a,div#menu1 ul.rMenu li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand a,div#menu1 ul.rMenu li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand a,div#menu1 ul.rMenu li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand a,div#menu1 ul.rMenu li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand a,div#menu1 ul.rMenu li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand a{padding-right:15px;padding-left:5px;background-repeat:no-repeat;background-position:100% 50%;background-image:url(http://mockapp.com/wp-content/themes/atahualpa/images/expand-right.gif)}div#menu2 ul.rMenu li.rMenu-expand a,div#menu2 ul.rMenu li.rMenu-expand li.rMenu-expand a,div#menu2 ul.rMenu li.rMenu-expand li.rMenu-expand li.rMenu-expand a,div#menu2 ul.rMenu li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand a,div#menu2 ul.rMenu li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand a,div#menu2 ul.rMenu li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand a,div#menu2 ul.rMenu li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand a,div#menu2 ul.rMenu li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand a,div#menu2 ul.rMenu li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand a,div#menu2 ul.rMenu li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand a{padding-right:15px;padding-left:5px;background-repeat:no-repeat;background-position:100% 50%;background-image:url(http://mockapp.com/wp-content/themes/atahualpa/images/expand-right-white.gif)}ul.rMenu-vRight li.rMenu-expand a,ul.rMenu-vRight li.rMenu-expand li.rMenu-expand a,ul.rMenu-vRight li.rMenu-expand li.rMenu-expand li.rMenu-expand a,ul.rMenu-vRight li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand a,ul.rMenu-vRight li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand a,ul.rMenu-vRight li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand a,ul.rMenu-vRight li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand a,ul.rMenu-vRight li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand a,ul.rMenu-vRight li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand a,ul.rMenu-vRight li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand a,ul.rMenu-hRight li.rMenu-expand a,ul.rMenu-hRight li.rMenu-expand li.rMenu-expand a,ul.rMenu-hRight li.rMenu-expand li.rMenu-expand li.rMenu-expand a,ul.rMenu-hRight li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand a,ul.rMenu-hRight li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand a,ul.rMenu-hRight li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand a,ul.rMenu-hRight li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand a,ul.rMenu-hRight li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand a,ul.rMenu-hRight li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand a,ul.rMenu-hRight li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand a{padding-right:5px;padding-left:20px;background-image:url(http://mockapp.com/wp-content/themes/atahualpa/images/expand-left.gif);background-repeat:no-repeat;background-position:-5px 50%}div#menu1 ul.rMenu-hor li.rMenu-expand a{padding-left:5px;padding-right:15px !important;background-position:100% 50%;background-image:url(http://mockapp.com/wp-content/themes/atahualpa/images/expand-down.gif)}div#menu2 ul.rMenu-hor li.rMenu-expand a{padding-left:5px;padding-right:15px !important;background-position:100% 50%;background-image:url(http://mockapp.com/wp-content/themes/atahualpa/images/expand-down-white.gif)}div#menu1 ul.rMenu li.rMenu-expand li a,div#menu1 ul.rMenu li.rMenu-expand li.rMenu-expand li a,div#menu1 ul.rMenu li.rMenu-expand li.rMenu-expand li.rMenu-expand li a,div#menu1 ul.rMenu li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand li a,div#menu1 ul.rMenu li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand li a{background-image:none;padding-right:5px;padding-left:5px}div#menu2 ul.rMenu li.rMenu-expand li a,div#menu2 ul.rMenu li.rMenu-expand li.rMenu-expand li a,div#menu2 ul.rMenu li.rMenu-expand li.rMenu-expand li.rMenu-expand li a,div#menu2 ul.rMenu li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand li a,div#menu2 ul.rMenu li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand li.rMenu-expand li a{background-image:none;padding-right:5px;padding-left:5px}* html ul.rMenu{display:inline-block;display:block;position:relative;position:static}* html ul.rMenu ul{float:left;float:none}ul.rMenu ul{}* html ul.rMenu-ver li,* html ul.rMenu-hor li ul.rMenu-ver li{width:100%;float:left;clear:left}*:first-child+html ul.rMenu-ver > li{width:100%;float:left;clear:left}ul.rMenu li a{position:relative;min-width:0}* html ul.rMenu-hor li{width:11em;width:auto}* html div.rMenu-center{position:relative;z-index:1}* html ul.rMenu ul{display:block;position:absolute}* html ul.rMenu ul,* html ul.rMenu-hor ul,* html ul.rMenu-ver ul,* html ul.rMenu-vRight ul,* html ul.rMenu-hRight ul.rMenu-ver ul,* html ul.rMenu-hRight ul{left:-10000px}* html ul.rMenu li.sfhover{z-index:999}* html ul.rMenu li.sfhover ul{left:auto}* html ul.rMenu li.sfhover ul ul,* html ul.rMenu li.sfhover ul ul ul,* html ul.rMenu li.sfhover ul ul ul ul,* html ul.rMenu li.sfhover ul ul ul ul ul,* html ul.rMenu li.sfhover ul ul ul ul ul ul{display:none}* html ul.rMenu li.sfhover ul,* html ul.rMenu li li.sfhover ul,* html ul.rMenu li li li.sfhover ul,* html ul.rMenu li li li li.sfhover ul,* html ul.rMenu li li li li li.sfhover ul{display:block}* html ul.rMenu-ver li.sfhover ul{left:100%}* html ul.rMenu-vRight li.sfhover ul,* html ul.rMenu-hRight ul.rMenu-ver li.sfhover ul{left:-100%}* html ul.rMenu iframe{position:absolute;left:0;top:0;z-index:-1}* html ul.rMenu{margin-left:1px}* html ul.rMenu ul,* html ul.rMenu ul ul,* html ul.rMenu ul ul ul,* html ul.rMenu ul ul ul ul{margin-left:0}.clearfix:after{content:".";display:block;height:0;clear:both;visibility:hidden}.clearfix{min-width:0;display:inline-block;display:block}* html .clearfix{height:1%;}.clearboth{clear:both;height:1%;font-size:1%;line-height:1%;display:block;padding:0;margin:0}</style><script type="text/javascript">/* IE5.5+ PNG Alpha Fix v2.0 Alpha: Background Tiling Support
+   (c) 2008 Angus Turnbull http://www.twinhelix.com
+
+   This is licensed under the GNU LGPL, version 2.1 or later.
+   For details, see: http://creativecommons.org/licenses/LGPL/2.1/  */
+
+   
+var IEPNGFix = window.IEPNGFix || {};
+
+IEPNGFix.tileBG = function(elm, pngSrc, ready) {
+	/* Params: A reference to a DOM element, the PNG src file pathname, and a
+	   hidden "ready-to-run" passed when called back after image preloading. */
+
+	var data = this.data[elm.uniqueID],
+		elmW = Math.max(elm.clientWidth, elm.scrollWidth),
+		elmH = Math.max(elm.clientHeight, elm.scrollHeight),
+		bgX = elm.currentStyle.backgroundPositionX,
+		bgY = elm.currentStyle.backgroundPositionY,
+		bgR = elm.currentStyle.backgroundRepeat;
+
+	/* Cache of DIVs created per element, and image preloader/data. */
+	if (!data.tiles) {
+		data.tiles = {
+			elm: elm,
+			src: '',
+			cache: [],
+			img: new Image(),
+			old: {}
+		};
+	}
+	var tiles = data.tiles,
+		pngW = tiles.img.width,
+		pngH = tiles.img.height;
+
+	if (pngSrc) {
+		if (!ready && pngSrc != tiles.src) {
+			/* New image? Preload it with a callback to detect dimensions. */
+			tiles.img.onload = function() {
+				this.onload = null;
+				IEPNGFix.tileBG(elm, pngSrc, 1);
+			};
+			return tiles.img.src = pngSrc;
+		}
+	} else {
+		/* No image? */
+		if (tiles.src) ready = 1;
+		pngW = pngH = 0;
+	}
+	tiles.src = pngSrc;
+
+	if (!ready && elmW == tiles.old.w && elmH == tiles.old.h &&
+		bgX == tiles.old.x && bgY == tiles.old.y && bgR == tiles.old.r) {
+		return;
+	}
+
+	/* Convert English and percentage positions to pixels. */
+	var pos = {
+			top: '0%',
+			left: '0%',
+			center: '50%',
+			bottom: '100%',
+			right: '100%'
+		},
+		x,
+		y,
+		pc;
+	x = pos[bgX] || bgX;
+	y = pos[bgY] || bgY;
+	if (pc = x.match(/(\d+)%/)) {
+		x = Math.round((elmW - pngW) * (parseInt(pc[1]) / 100));
+	}
+	if (pc = y.match(/(\d+)%/)) {
+		y = Math.round((elmH - pngH) * (parseInt(pc[1]) / 100));
+	}
+	x = parseInt(x);
+	y = parseInt(y);
+
+	/* Handle backgroundRepeat. */
+	var repeatX = { 'repeat': 1, 'repeat-x': 1 }[bgR],
+		repeatY = { 'repeat': 1, 'repeat-y': 1 }[bgR];
+	if (repeatX) {
+		x %= pngW;
+		if (x > 0) x -= pngW;
+	}
+	if (repeatY) {
+		y %= pngH;
+		if (y > 0) y -= pngH;
+	}
+
+	/* Go! */
+	this.hook.enabled = 0;
+	if (!({ relative: 1, absolute: 1 }[elm.currentStyle.position])) {
+		elm.style.position = 'relative';
+	}
+	var count = 0,
+		xPos,
+		maxX = repeatX ? elmW : x + 0.1,
+		yPos,
+		maxY = repeatY ? elmH : y + 0.1,
+		d,
+		s,
+		isNew;
+	if (pngW && pngH) {
+		for (xPos = x; xPos < maxX; xPos += pngW) {
+			for (yPos = y; yPos < maxY; yPos += pngH) {
+				isNew = 0;
+				if (!tiles.cache[count]) {
+					tiles.cache[count] = document.createElement('div');
+					isNew = 1;
+				}
+				var clipR = (xPos + pngW > elmW ? elmW - xPos : pngW),
+					clipB = (yPos + pngH > elmH ? elmH - yPos : pngH);
+				d = tiles.cache[count];
+				s = d.style;
+				s.behavior = 'none';
+				s.left = xPos + 'px';
+				s.top = yPos + 'px';
+				s.width = clipR + 'px';
+				s.height = clipB + 'px';
+				s.clip = 'rect(' +
+					(yPos < 0 ? 0 - yPos : 0) + 'px,' +
+					clipR + 'px,' +
+					clipB + 'px,' +
+					(xPos < 0 ? 0 - xPos : 0) + 'px)';
+				s.display = 'block';
+				if (isNew) {
+					s.position = 'absolute';
+					s.zIndex = -999;
+					if (elm.firstChild) {
+						elm.insertBefore(d, elm.firstChild);
+					} else {
+						elm.appendChild(d);
+					}
+				}
+				this.fix(d, pngSrc, 0);
+				count++;
+			}
+		}
+	}
+	while (count < tiles.cache.length) {
+		this.fix(tiles.cache[count], '', 0);
+		tiles.cache[count++].style.display = 'none';
+	}
+
+	this.hook.enabled = 1;
+
+	/* Cache so updates are infrequent. */
+	tiles.old = {
+		w: elmW,
+		h: elmH,
+		x: bgX,
+		y: bgY,
+		r: bgR
+	};
+};
+
+
+IEPNGFix.update = function() {
+	/* Update all PNG backgrounds. */
+	for (var i in IEPNGFix.data) {
+		var t = IEPNGFix.data[i].tiles;
+		if (t && t.elm && t.src) {
+			IEPNGFix.tileBG(t.elm, t.src);
+		}
+	}
+};
+IEPNGFix.update.timer = 0;
+
+if (window.attachEvent && !window.opera) {
+	window.attachEvent('onresize', function() {
+		clearTimeout(IEPNGFix.update.timer);
+		IEPNGFix.update.timer = setTimeout(IEPNGFix.update, 100);
+	});
+}
+
+
+
+/* Apply PNG fix for IE6 */
+
+ if (document.all && /MSIE (5\.5|6)/.test(navigator.userAgent) &&
+	document.styleSheets && document.styleSheets[0] && document.styleSheets[0].addRule) {
+	document.styleSheets[0].addRule('*', 'behavior: url(http://mockapp.com/wp-content/themes/atahualpa/js/iepngfix.php)');
+	/* Feel free to add rules for specific elements only, as above.
+	You have to call this once for each selector, like so:
+	document.styleSheets[0].addRule('img', 'behavior: url(http://mockapp.com/wp-content/themes/atahualpa/js/iepngfix.php)');
+	document.styleSheets[0].addRule('div', 'behavior: url(http://mockapp.com/wp-content/themes/atahualpa/js/iepngfix.php)'); */
+ }
+ 
+
+/* JQUERY */
+
+
+jQuery.noConflict();
+jQuery(document).ready(function(){  
+  
+	/* For IE6 */
+	if (jQuery.browser.msie && /MSIE 6\.0/i.test(window.navigator.userAgent) && !/MSIE 7\.0/i.test(window.navigator.userAgent)) {
+	
+		/* Max-width for images in IE6 */		
+		var centerwidth = jQuery("td#middle").width(); 
+		
+		/* Images without caption */
+		jQuery(".post img").each(function() { 
+			var maxwidth = centerwidth - 10 + 'px';
+			var imgwidth = jQuery(this).width(); 
+			var imgheight = jQuery(this).height(); 
+			var newimgheight = (centerwidth / imgwidth * imgheight) + 'px';	
+			if (imgwidth > centerwidth) { 
+				jQuery(this).css({width: maxwidth}); 
+				jQuery(this).css({height: newimgheight}); 
+			}
+		});
+		
+		/* Images with caption */
+		jQuery("div.wp-caption").each(function() { 
+			var captionwidth = jQuery(this).width(); 
+			var maxcaptionwidth = centerwidth + 'px';
+			var captionheight = jQuery(this).height();
+			var captionimgwidth =  jQuery("div.wp-caption img").width();
+			var captionimgheight =  jQuery("div.wp-caption img").height();
+			if (captionwidth > centerwidth) { 
+				jQuery(this).css({width: maxcaptionwidth}); 
+				var newcaptionheight = (centerwidth / captionwidth * captionheight) + 'px';
+				var newcaptionimgheight = (centerwidth / captionimgwidth * captionimgheight) + 'px';
+				jQuery(this).css({height: newcaptionheight}); 
+				jQuery("div.wp-caption img").css({height: newcaptionimgheight}); 
+				}
+		});
+		
+		/* sfhover for LI:HOVER support in IE6: */
+		jQuery("ul li").hover( 
+		function() {
+			jQuery(this).addClass("sfhover")
+		}, 
+		function() {
+			jQuery(this).removeClass("sfhover")
+		} 
+		); 
+
+
+	/* End IE6 */
+	}
+	
+	
+	jQuery(".post table tr").
+		mouseover(function() {
+			jQuery(this).addClass("over");
+		}).
+		mouseout(function() {
+			jQuery(this).removeClass("over");
+		});
+	
+	jQuery(".post table tr:even").
+		addClass("alt");
+	
+	jQuery("input.text, input.TextField, input.file, input.password, textarea").
+		focus(function () {  
+			jQuery(this).addClass("highlight"); 
+		}).
+		blur(function () { 
+			jQuery(this).removeClass("highlight"); 
+		})
+	
+	jQuery("input.inputblur").
+		focus(function () {  
+			jQuery(this).addClass("inputfocus"); 
+		}).
+		blur(function () { 
+			jQuery(this).removeClass("inputfocus"); 
+		})
+	
+	
+	jQuery("input.button, input.Button").
+		mouseover(function() {
+			jQuery(this).addClass("buttonhover");
+		}).
+		mouseout(function() {
+			jQuery(this).removeClass("buttonhover");
+		});
+
+	/* toggle "you can use these xhtml tags" */
+	jQuery("a.xhtmltags").
+		click(function(){ 
+			jQuery("div.xhtml-tags").slideToggle(300); 
+		});
+
+	/* For the Tabbed Widgets plugin: */
+	jQuery("ul.tw-nav-list").
+		addClass("clearfix");
+
+	/* strech short pages to full height, keep footer at bottom */
+
+});
+
+
+</script><meta name="verify-v1" content="pNT39LdaTcvde6GA+YCmBW2yyOEBBDet4AGEUJ9Zbwg=" /></head>
+<body class="home blog">
+<div id="wrapper">
+<div id="container">
+<table id="layout" border="0" cellspacing="0" cellpadding="0">
+<colgroup>
+<col class="colone" /><col class="coltwo" />
+<col class="colthree" /></colgroup> 
+	<tr>
+
+		<!-- Header -->
+		<td id="header" colspan="3">
+
+		<table id="logoarea" cellpadding="0" cellspacing="0" border="0" width="100%"><tr><td rowspan="2" valign="middle" class="logoarea-logo"><a href="http://mockapp.com/"><img class="logo" src="http://mockapp.com/wp-content/themes/atahualpa/images/mockapp_logoblue.gif" alt="MockApp" /></a></td><td rowspan="2" valign="middle" class="logoarea-title"><p class="tagline">iPhone App design for the rest of us</p></td><td class="feed-icons" valign="middle" align="right"><div class="clearfix rss-box"><a class="posts-icon" href="http://mockapp.com/feed/" title="Subscribe to the POSTS feed">RSS Feed</a></div></td></tr><tr><td valign="bottom" class="search-box" align="right"><div class="searchbox">
+				<form method="get" class="searchform" action="http://mockapp.com/">
+				<div class="searchbox-form">
+					<input type="text" class="text inputblur" onfocus="this.value=''" 
+					value="Search" onblur="this.value='Search'" name="s" /></div>
+				</form>
+			</div>
+			</td></tr></table> <div id="menu1"><ul id="rmenu2" class="clearfix rMenu-hor rMenu">
+<li class="page_item page-item-2"><a href="http://mockapp.com/about/" >About MockApp</a></li>
+<li class="page_item page-item-3"><a href="http://mockapp.com/download/" >Download</a></li>
+<li class="page_item page-item-29"><a href="http://mockapp.com/faq/" >FAQ</a></li>
+<li class="page_item page-item-64"><a href="http://mockapp.com/developers/" >Developer Directory</a></li>
+<li class="page_item page-item-71"><a href="http://mockapp.com/contact-us/" >Contact Us</a></li>
+<li class="page_item page-item-308"><a href="http://mockapp.com/advertise/" >Advertise</a></li>
+<li class="page_item page-item-330"><a href="http://mockapp.com/mockapp-demo-videos/" >Demo</a></li>
+</ul></div>
+
+		</td>
+		<!-- / Header -->
+
+	</tr>
+
+	<!-- Main Body -->	
+	<tr id="bodyrow">
+
+				<!-- Left Sidebar -->
+		<td id="left">
+
+			<div id="text-6" class="widget widget_text">			<div class="textwidget"><script type="text/javascript"><!--
+google_ad_client = "pub-2234247119632227";
+/* 180x150, created 9/26/09 */
+google_ad_slot = "8210198286";
+google_ad_width = 180;
+google_ad_height = 150;
+//-->
+</script>
+<script type="text/javascript"
+src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script></div>
+		</div><div id="text-5" class="widget widget_text"><div class="widget-title"><h3>iPhone Developers</h3></div>			<div class="textwidget"><a href="http://mockapp.com/add-me/">Get on our Developer Directory</a> for free.</div>
+		</div>		<div id="recent-posts-3" class="widget widget_recent_entries">		<div class="widget-title"><h3>Recent Posts</h3></div>		<ul>
+				<li><a href="http://mockapp.com/2010/11/11/whats-up-with-mockapp/" title="What&#8217;s up with MockApp?">What&#8217;s up with MockApp?</a></li>
+				<li><a href="http://mockapp.com/2010/07/07/the-iphone-version-of-my-app-just-hit-the-app-store-too/" title="The iPhone version of my app just hit the app store too">The iPhone version of my app just hit the app store too</a></li>
+				<li><a href="http://mockapp.com/2010/06/30/444/" title="My iPad app just hit the app store">My iPad app just hit the app store</a></li>
+				<li><a href="http://mockapp.com/2010/06/18/no-mockapp-for-ipad-at-least-for-now/" title="No Mockapp for iPad. At least for now.">No Mockapp for iPad. At least for now.</a></li>
+				<li><a href="http://mockapp.com/2010/04/20/mockapp-clock-example-comes-to-life-in-the-app-store-as-a-free-app/" title="MockApp clock example comes to life in the app store (as a free app!)">MockApp clock example comes to life in the app store (as a free app!)</a></li>
+				</ul>
+		</div><div id="linkcat-14" class="widget widget_links"><div class="widget-title"><h3>MockApp Sightings</h3></div>
+	<ul class='xoxo blogroll'>
+<li><a href="http://brainwashinc.wordpress.com/">Brainwash Inc.</a></li>
+<li><a href="http://howtomakeiphoneapps.com/2009/10/here-is-a-quick-and-free-way-to-prototype-your-next-app/">HowToMakeiPhoneApps.com</a></li>
+<li><a href="http://iphonesatwork.com/?p=982" title="Review: MockApp — iPhone App Prototyping for the Rest of Us">iPhones At Work</a></li>
+<li><a href="http://iphone.keyvisuals.com/tag/mockapp/">KeyVisuals</a></li>
+<li><a href="http://www.marketingonthebeach.com/mockapp-comment-faire-ses-maquettes-dapplications-iphone-facilement/">MarketingOnTheBeach</a></li>
+<li><a href="http://www.moongift.jp/2009/09/mockapp_template/">Moongift</a></li>
+<li><a href="http://www.tuaw.com/2009/09/16/free-iphone-keynote-and-powerpoint-templates-help-get-you-from-t" title="Free iPhone Keynote and PowerPoint templates help get you from thought to finish">TUAW</a></li>
+
+	</ul>
+</div>
+<div id="archives-3" class="widget widget_archive"><div class="widget-title"><h3>Archives</h3></div>		<select name="archive-dropdown" onchange='document.location.href=this.options[this.selectedIndex].value;'> <option value="">Select Month</option> 	<option value='http://mockapp.com/2010/11/'> November 2010 </option>
+	<option value='http://mockapp.com/2010/07/'> July 2010 </option>
+	<option value='http://mockapp.com/2010/06/'> June 2010 </option>
+	<option value='http://mockapp.com/2010/04/'> April 2010 </option>
+	<option value='http://mockapp.com/2010/01/'> January 2010 </option>
+	<option value='http://mockapp.com/2009/11/'> November 2009 </option>
+	<option value='http://mockapp.com/2009/10/'> October 2009 </option>
+	<option value='http://mockapp.com/2009/09/'> September 2009 </option>
+ </select>
+</div>
+		</td>
+		<!-- / Left Sidebar -->
+		
+				
+
+		<!-- Main Column -->
+		<td id="middle">
+
+	
+	
+
+		
+		 
+
+		<div class="post-460 post type-post hentry category-uncategorized" id="post-460">
+
+
+<div class="post-headline">		<h2>			
+			<a href="http://mockapp.com/2010/11/11/whats-up-with-mockapp/" rel="bookmark" title="Permanent Link to What&#8217;s up with MockApp?">What&#8217;s up with MockApp?			</a>		</h2>
+		</div>
+
+<div class="post-bodycopy clearfix"><p><a href="http://mockapp.com/wp-content/uploads/2010/11/gonefishing.jpg"><img class="alignright size-full wp-image-461" title="gonefishing" src="http://mockapp.com/wp-content/uploads/2010/11/gonefishing.jpg" alt="" width="259" height="226" /></a>I haven&#8217;t posted here or responded to emails for a while so I wanted to provide some clarifications and answers to your questions:</p>
+<p><strong>1) Where have you been? </strong>Since putting MockApp together in the fall of 2009, I&#8217;ve been too busy&#8230; using MockApp! I&#8217;ve used MockApp numerous times for client work but lately, I&#8217;ve decided to devote almost all my time to starting my own app development business (Lifelike Apps, Inc.) and creating/designing my own iPhone and iPad apps. <a href="http://itunes.apple.com/us/artist/postindustria/id354978750" target="_blank">I&#8217;ve already launched a couple of successful apps in joint venture with PostIndustria</a>. A handful of other apps are currently in development under Lifelike Apps as I type this. Never had this much fun. Very exciting stuff.</p>
+<p><strong>2) Why isn&#8217;t MockApp getting updated? </strong>I keep getting emails asking when MockApp will be updated to the 4.x iOS user interface, more icons, this or that missing view, etc. The short answer is: it probably won&#8217;t get updated any time soon. MockApp was my way to give back to the community and demonstrate how prototyping in Keynote or Powerpoint can make apps better. MockApp is not a business for me and I can&#8217;t justify putting more work into it.</p>
+<p><strong>3) I love MockApp but am having trouble doing x. Can you help me? </strong>You&#8217;re not going to like the answer but no. I really can&#8217;t. On the other hand, there are thousands of people using Mockapp so creating a user group where these kinds of questions could be answered may not be a bad idea&#8230; Any volunteers?</p>
+<p><strong>3) Will the current version of MockApp remain available? </strong>As long as the Google Adsense revenue from this site pays the hosting bill (which is barely does), that I don&#8217;t get a juicy offer for the domain <img src='http://mockapp.com/wp-includes/images/smilies/icon_smile.gif' alt=':-)' class='wp-smiley' />  and that people find the current version of MockApp useful, I don&#8217;t have a problem keeping the lights on. Just don&#8217;t expect anybody to be home!</p>
+<p><strong>4) Can I legally use MockApp for my company, my conference, my school, my textbook, my lectures, my book, etc.?</strong> Go for it! Consider this post your legal authorization. You don&#8217;t need to email me. MockApp is my karmic gift to the development community. I don&#8217;t expect anything from it other than good karma.</p>
+<p><script type="text/javascript">SHARETHIS.addEntry({ title: "What&#8217;s up with MockApp?", url: "http://mockapp.com/2010/11/11/whats-up-with-mockapp/" });</script></p></div>
+
+<div class="post-footer">November 11th, 2010 |  Category: <a href="http://mockapp.com/category/uncategorized/" title="View all posts in Uncategorized" rel="category tag">Uncategorized</a> | <a href="http://mockapp.com/2010/11/11/whats-up-with-mockapp/#respond" class="comments-link"  title="Comment on What&#8217;s up with MockApp?">Leave a comment</a> </div>
+</div><!-- / Post -->						
+		
+		 
+
+		<div class="post-454 post type-post hentry category-uncategorized" id="post-454">
+
+
+<div class="post-headline">		<h2>			
+			<a href="http://mockapp.com/2010/07/07/the-iphone-version-of-my-app-just-hit-the-app-store-too/" rel="bookmark" title="Permanent Link to The iPhone version of my app just hit the app store too">The iPhone version of my app just hit the app store too			</a>		</h2>
+		</div>
+
+<div class="post-bodycopy clearfix"><p><a href="http://mockapp.com/wp-content/uploads/2010/07/iphone-english.jpg"></a><br />
+My <a href="http://itunes.apple.com/app/lifelike-alarm-clock/id379895975?mt=8">Lifelike Alarm Clock for iPhone</a> just hit the app store. Just like the iPad version, I designed it entirely using Mockapp in Keynote. I implemented it in close collaboration with the kick-ass developers at PostIndustria under our joint-venture label of Lifelike Apps. You should definitely hire these guys for your mobile projects. They rock!</p>
+<p>Lifelike Alarm Clock is the most beautiful alarm clock and weather app ever designed for the iPhone.<br />
+It will look great on your nightstand and is also easy to use and full of clever features. Like gorgeous animated skies that match your current weather, a smart night mode that you access by pulling the shade and super-sized snooze buttons.</p>
+<p>Since you&#8217;re visiting Mockapp.com you must own an iPhone&#8230; so stop reading this boring post and <a href="http://itunes.apple.com/app/lifelike-alarm-clock/id379895975?mt=8">go try the app now</a>. It costs only $1.99, part of which helps me feed my family and make stuff like Mockapp. Plus I guarantee you&#8217;ll love the app and you&#8217;ll see what can be done using Mockapp. Thanks in advance for the support!</p>
+<p><script type="text/javascript">SHARETHIS.addEntry({ title: "The iPhone version of my app just hit the app store too", url: "http://mockapp.com/2010/07/07/the-iphone-version-of-my-app-just-hit-the-app-store-too/" });</script></p></div>
+
+<div class="post-footer">July 7th, 2010 |  Category: <a href="http://mockapp.com/category/uncategorized/" title="View all posts in Uncategorized" rel="category tag">Uncategorized</a> | <a href="http://mockapp.com/2010/07/07/the-iphone-version-of-my-app-just-hit-the-app-store-too/#comments" class="comments-link"  title="Comment on The iPhone version of my app just hit the app store too">One comment</a> </div>
+</div><!-- / Post -->						
+		
+		 
+
+		<div class="post-444 post type-post hentry category-uncategorized" id="post-444">
+
+
+<div class="post-headline">		<h2>			
+			<a href="http://mockapp.com/2010/06/30/444/" rel="bookmark" title="Permanent Link to My iPad app just hit the app store">My iPad app just hit the app store			</a>		</h2>
+		</div>
+
+<div class="post-bodycopy clearfix"><p>I just released the <a href="http://itunes.apple.com/app/lifelike-alarm-clock-weather/id375603179" target="_self">Lifelike Alarm Clock and Weather HD</a> entirely designed in Keynote using Mockapp (no photoshop or other tool whatsoever). I released it in collaboration with PostIndustria: amazing mobile dev firm out of Ukraine. Highly recommended if you need a mobile app built in no time at reasonable cost. Check it out in the app store and let me know what you think.</p>
+<p><a href="http://mockapp.com/wp-content/uploads/2010/06/photo-2-e1277926142546.png"></a>
+<p class="wp-caption-text">Lifelike Alarm Clock and Weather HD</p>
+<p>If you like it, please do spread the word and don&#8217;t be shy about posting your reviews. More Lifelike apps are coming. All designed using Mockapp of course.</p>
+<p>The iPhone version is coming soon (under review by Apple as I write). It was redesigned for the iPhone from the ground up&#8230; and guess what it was designed with.</p>
+<p><script type="text/javascript">SHARETHIS.addEntry({ title: "My iPad app just hit the app store", url: "http://mockapp.com/2010/06/30/444/" });</script></p></div>
+
+<div class="post-footer">June 30th, 2010 |  Category: <a href="http://mockapp.com/category/uncategorized/" title="View all posts in Uncategorized" rel="category tag">Uncategorized</a> | <a href="http://mockapp.com/2010/06/30/444/#comments" class="comments-link"  title="Comment on My iPad app just hit the app store">2 comments</a> </div>
+</div><!-- / Post -->						
+		
+		 
+
+		<div class="post-441 post type-post hentry category-uncategorized" id="post-441">
+
+
+<div class="post-headline">		<h2>			
+			<a href="http://mockapp.com/2010/06/18/no-mockapp-for-ipad-at-least-for-now/" rel="bookmark" title="Permanent Link to No Mockapp for iPad. At least for now.">No Mockapp for iPad. At least for now.			</a>		</h2>
+		</div>
+
+<div class="post-bodycopy clearfix"><p>With all the email requests I got lately, I thought I should clarify where I stand regarding releasing a version of Mockapp for iPad. The short version is not for now. My lame excuses are the following:</p>
+<p>1) The iPad is a completely different animal than the iPhone from a UI standpoint. Whereas the iPhone has a very &#8220;scripted&#8221; UI language with a lot of standard elements reused over and over in all apps, it&#8217;s not the case for the iPad. And that&#8217;s a great thing! Just look at Apple&#8217;s own apps: iBooks looks like a bookshelf and the books look like&#8230; books. Magical as Steve likes to say.  The much larger screen real estate allows app designers to take much more of a lifelike approach to app design. So I feel like giving app creators a bunch of prefabricated UI elements would limit their imagination in some way.</p>
+<p>2) For most iPad standard UI elements, you can always use the iPhone version of Mockapp. Just paste them into a 1024&#215;1024 canvas (to accomodate both landscape and portrait modes). Need to resize them? No problem: ungroup objects and resize all you want. That&#8217;s what I do for my own iPad app mockups and I&#8217;ve done quite a few lately. More on that soon, if Apple ends-up approving my apps that is.</p>
+<p>3) Mockapp &#8230;   <a href="http://mockapp.com/2010/06/18/no-mockapp-for-ipad-at-least-for-now/">Read More</a></p>
+<p><script type="text/javascript">SHARETHIS.addEntry({ title: "No Mockapp for iPad. At least for now.", url: "http://mockapp.com/2010/06/18/no-mockapp-for-ipad-at-least-for-now/" });</script></p></div>
+
+<div class="post-footer">June 18th, 2010 |  Category: <a href="http://mockapp.com/category/uncategorized/" title="View all posts in Uncategorized" rel="category tag">Uncategorized</a> | <a href="http://mockapp.com/2010/06/18/no-mockapp-for-ipad-at-least-for-now/#comments" class="comments-link"  title="Comment on No Mockapp for iPad. At least for now.">2 comments</a> </div>
+</div><!-- / Post -->						
+		
+		 
+
+		<div class="post-434 post type-post hentry category-uncategorized" id="post-434">
+
+
+<div class="post-headline">		<h2>			
+			<a href="http://mockapp.com/2010/04/20/mockapp-clock-example-comes-to-life-in-the-app-store-as-a-free-app/" rel="bookmark" title="Permanent Link to MockApp clock example comes to life in the app store (as a free app!)">MockApp clock example comes to life in the app store (as a free app!)			</a>		</h2>
+		</div>
+
+<div class="post-bodycopy clearfix"><p><a href="http://mockapp.com/wp-content/uploads/2010/04/clock1.png"></a>﻿Rich Somerfield took me up on the implementation of my MockApp desk clock example. The app is live in the app store. <a href="http://itunes.apple.com/app/desktop-clock/id368064532?mt=8">Click here to check it out</a>. It&#8217;s beautiful and best of all it&#8217;s free. Thanks Rich!</p>
+<p><script type="text/javascript">SHARETHIS.addEntry({ title: "MockApp clock example comes to life in the app store (as a free app!)", url: "http://mockapp.com/2010/04/20/mockapp-clock-example-comes-to-life-in-the-app-store-as-a-free-app/" });</script></p></div>
+
+<div class="post-footer">April 20th, 2010 |  Category: <a href="http://mockapp.com/category/uncategorized/" title="View all posts in Uncategorized" rel="category tag">Uncategorized</a> | <a href="http://mockapp.com/2010/04/20/mockapp-clock-example-comes-to-life-in-the-app-store-as-a-free-app/#respond" class="comments-link"  title="Comment on MockApp clock example comes to life in the app store (as a free app!)">Leave a comment</a> </div>
+</div><!-- / Post -->						
+		
+		 
+
+		<div class="post-431 post type-post hentry category-uncategorized" id="post-431">
+
+
+<div class="post-headline">		<h2>			
+			<a href="http://mockapp.com/2010/01/29/ipad-mockapp/" rel="bookmark" title="Permanent Link to iPad MockApp?">iPad MockApp?			</a>		</h2>
+		</div>
+
+<div class="post-bodycopy clearfix"><p>Since the iPad was announced on Wednesday, several people have emailed me asking whether there will be a MockApp for the iPad.</p>
+</p>
+<p>The answer is yes but I can&#8217;t get started quite yet: the way I made MockApp for iPhone/iPod Touch in the first place was by taking lots of screenshots of the various UI elements on my iPhone and then &#8220;drawing&#8221; over them in Keynote to ensure they were high-fidelity renderings of the real thing.</p>
+<p>I obviously can&#8217;t do that with MockApp quite yet for the obvious reason that I don&#8217;t own an iPad. I&#8217;ll be first in line at the Apple store when the iPad comes out, camping overnight if I have to but that still 58 days away (yes, I&#8217;m counting the days!).</p>
+<p>If anyone can place a good word with Steve and get me an iPad sooner, I promise I&#8217;ll whip out a MockApp for iPad in no time!  </p>
+<p>I must add that I&#8217;ve been quite annoyed with all the whiny so-called &#8220;mixed&#8221; reviews out there about the iPad, including some pretty embarrassing ones on NPR, which I otherwise adore. I guess journalists love counting features as much as Microsoft does and pretty much decide to ignore the human interaction revolution that the new format and gesture vocabulary introduce. They also have a very short memory: Go count the features &#8230;   <a href="http://mockapp.com/2010/01/29/ipad-mockapp/">Read More</a></p>
+<p><script type="text/javascript">SHARETHIS.addEntry({ title: "iPad MockApp?", url: "http://mockapp.com/2010/01/29/ipad-mockapp/" });</script></p></div>
+
+<div class="post-footer">January 29th, 2010 |  Category: <a href="http://mockapp.com/category/uncategorized/" title="View all posts in Uncategorized" rel="category tag">Uncategorized</a> | <a href="http://mockapp.com/2010/01/29/ipad-mockapp/#comments" class="comments-link"  title="Comment on iPad MockApp?">7 comments</a> </div>
+</div><!-- / Post -->						
+		
+		 
+
+		<div class="post-391 post type-post hentry category-uncategorized" id="post-391">
+
+
+<div class="post-headline">		<h2>			
+			<a href="http://mockapp.com/2009/11/02/mockapp-1-1-lets-you-view-your-iphone-app-mockups-on-your-iphone/" rel="bookmark" title="Permanent Link to MockApp 1.1 lets you view your iPhone app mockups&#8230; on your iPhone!">MockApp 1.1 lets you view your iPhone app mockups&#8230; on your iPhone!			</a>		</h2>
+		</div>
+
+<div class="post-bodycopy clearfix"><p><span style="background-color: #ffffff;">I am pleased to announce that it is now possible to view your MockApp iPhone app mockups on your iPhone. Your mockups will not only looks GORGEOUS but their hyperlinks will work too! Animations? Nah&#8230; but you can&#8217;t have everything working: it&#8217;s only a mockup, remember?</span></p>
+<p>The instructions to get your MockApp mockups on your iPhone are <a href="http://mockapp.com/iphoneviewer/">posted here</a>.</p>
+<p>As you&#8217;ll see, the process is pretty simple already but I&#8217;m still trying to simplify the process even more:</p>
+<p>So if any of you smart iPhone app developers out there want to help, <a href="mailto:dotan@mockapp.com">I&#8217;d love to collaborate</a>:</p>
+<p>Wouldn&#8217;t be cool to build a dedicated MockApp viewer app that users would sign-into and would automatically retrieve their mockups from the cloud? If we could avoid the PDF conversion, that would be sweet too: Maybe users upload their Keynote or ppt and the PDF conversion happens automatically on the server&#8230; OK, now I&#8217;m getting way to excited so I better stop.</p>
+<p>Happy mockups!</p>
+<p><script type="text/javascript">SHARETHIS.addEntry({ title: "MockApp 1.1 lets you view your iPhone app mockups&#8230; on your iPhone!", url: "http://mockapp.com/2009/11/02/mockapp-1-1-lets-you-view-your-iphone-app-mockups-on-your-iphone/" });</script></p></div>
+
+<div class="post-footer">November 2nd, 2009 |  Category: <a href="http://mockapp.com/category/uncategorized/" title="View all posts in Uncategorized" rel="category tag">Uncategorized</a> | <a href="http://mockapp.com/2009/11/02/mockapp-1-1-lets-you-view-your-iphone-app-mockups-on-your-iphone/#comments" class="comments-link"  title="Comment on MockApp 1.1 lets you view your iPhone app mockups&#8230; on your iPhone!">4 comments</a> </div>
+</div><!-- / Post -->						
+		
+		 
+
+		<div class="post-371 post type-post hentry category-uncategorized" id="post-371">
+
+
+<div class="post-headline">		<h2>			
+			<a href="http://mockapp.com/2009/10/19/google-wave-iphone-app-demo/" rel="bookmark" title="Permanent Link to Google Wave iPhone App demo">Google Wave iPhone App demo			</a>		</h2>
+		</div>
+
+<div class="post-bodycopy clearfix"><p>I know Google already made available a web app version of Wave, which is impressive given how early in the product lifecycle Wave is. Still, it comes with some usability issues given the UI limitations of web apps. So I couldn&#8217;t help but try to figure out what a real Google Wave iPhone App should to look like.</p>
+</p>
+<p>So I managed to make a half-decent mockup* using MockApp and thought it would be fun to make this mockup into a video that actually looks like there is a finished Wave App out there.</p>
+<p>Hopefully, it won&#8217;t freak people out: I&#8217;m sure Lars, Stephanie and the rest of the Wave team at Google have a good sense of humor! (I still want my Wave invite).</p>
+<p>Anyway, I hope you like it and more importantly, I hope you&#8217;ll come up with your own version of Google Wave and <a href="mailto:dotan@mockapp.com">email it in</a>. I promise to publish mockups of the best Google Wave iPhone App ideas you send me.</p>
+<p>* Considering I haven&#8217;t yet gotten a Wave invite yet, so I worked with what I had: random Flick&#8217;r screenshots and a few Youtube videos of Google Wave (a little like chasing Bigfoot). Thanks for all of you who offered to send me Google Wave invites! I did get one in the end.</p>
+<p><script type="text/javascript">SHARETHIS.addEntry({ title: "Google Wave iPhone App demo", url: "http://mockapp.com/2009/10/19/google-wave-iphone-app-demo/" });</script></p></div>
+
+<div class="post-footer">October 19th, 2009 |  Category: <a href="http://mockapp.com/category/uncategorized/" title="View all posts in Uncategorized" rel="category tag">Uncategorized</a> | <a href="http://mockapp.com/2009/10/19/google-wave-iphone-app-demo/#comments" class="comments-link"  title="Comment on Google Wave iPhone App demo">One comment</a> </div>
+</div><!-- / Post -->						
+		
+		 
+
+		<div class="post-352 post type-post hentry category-uncategorized" id="post-352">
+
+
+<div class="post-headline">		<h2>			
+			<a href="http://mockapp.com/2009/10/13/30-second-video-mockapp-for-iphone-app-design/" rel="bookmark" title="Permanent Link to 30-second video: MockApp for iPhone App Design">30-second video: MockApp for iPhone App Design			</a>		</h2>
+		</div>
+
+<div class="post-bodycopy clearfix"><p>Alright, I admit the two 9-minute-videos I cranked out yesterday are pretty detailed, which is great for you guys who want to know everything about MockApp but they may be a tad slow to sit through for your partner, your boss, your VC&#8230; you know all these people with short attention span who may not care quite as much about MockApp as you do, believe it or not.</p>
+<p>This video has the advantage of being only 30-seconds-long without a peep from me (I&#8217;m sure your partner will appreciate that too)&#8230; and you can even dance to it.</p></p>
+<p><script type="text/javascript">SHARETHIS.addEntry({ title: "30-second video: MockApp for iPhone App Design", url: "http://mockapp.com/2009/10/13/30-second-video-mockapp-for-iphone-app-design/" });</script></p></div>
+
+<div class="post-footer">October 13th, 2009 |  Category: <a href="http://mockapp.com/category/uncategorized/" title="View all posts in Uncategorized" rel="category tag">Uncategorized</a> | <a href="http://mockapp.com/2009/10/13/30-second-video-mockapp-for-iphone-app-design/#respond" class="comments-link"  title="Comment on 30-second video: MockApp for iPhone App Design">Leave a comment</a> </div>
+</div><!-- / Post -->						
+		
+		 
+
+		<div class="post-350 post type-post hentry category-uncategorized" id="post-350">
+
+
+<div class="post-headline">		<h2>			
+			<a href="http://mockapp.com/2009/10/12/new-video-demo-how-to-mockup-your-iphone-app-with-mockapp/" rel="bookmark" title="Permanent Link to New video demo: How to mockup your iPhone App with MockApp">New video demo: How to mockup your iPhone App with MockApp			</a>		</h2>
+		</div>
+
+<div class="post-bodycopy clearfix"><p>Since I&#8217;m based in LA, I figured the least I could do was to release a video of Mockapp in action. And don&#8217;t try to make me come back to Twitter like Miley Cyrus. I&#8217;m not leaving.</p>
+</p>
+<p>Please do rate the hell out if these videos (positive I hope!) and feel free to repost all over the place.</p>
+<p><script type="text/javascript">SHARETHIS.addEntry({ title: "New video demo: How to mockup your iPhone App with MockApp", url: "http://mockapp.com/2009/10/12/new-video-demo-how-to-mockup-your-iphone-app-with-mockapp/" });</script></p></div>
+
+<div class="post-footer">October 12th, 2009 |  Category: <a href="http://mockapp.com/category/uncategorized/" title="View all posts in Uncategorized" rel="category tag">Uncategorized</a> | <a href="http://mockapp.com/2009/10/12/new-video-demo-how-to-mockup-your-iphone-app-with-mockapp/#comments" class="comments-link"  title="Comment on New video demo: How to mockup your iPhone App with MockApp">4 comments</a> </div>
+</div><!-- / Post -->						
+	
+	
+
+		
+			
+<div class="navigation-bottom">
+			<div class="older"> &nbsp;</div><div class="newer">&nbsp; <a href="http://mockapp.com/page/2/" >Older Entries &raquo;</a></div><div class="clearboth"></div></div>
+
+
+</td>
+<!-- / Main Column -->
+
+
+<!-- Right Sidebar -->
+<td id="right">
+
+	<div id="text-9" class="widget widget_text">			<div class="textwidget"><A HREF="http://mockapp.com/wp-login.php?action=register">Registering</A> gets you free updates and the ability to <A HREF="http://mockapp.com/iPhoneViewer/">view your mockups on your iPhone</A>.</div>
+		</div><div id="sidebar-login" class="widget widget_wp_sidebarlogin"><div class="widget-title"><h3><span>Login</span></h3></div><form method="post" action="http://mockapp.com/?_login=e11cd0caec">			<p><label for="user_login">Username:<br/><input name="log" value="" class="mid" id="user_login" type="text" /></label></p>
+			<p><label for="user_pass">Password:<br/><input name="pwd" class="mid" id="user_pass" type="password" /></label></p>			
+
+						
+			<p class="rememberme"><label for="rememberme"><input name="rememberme" class="checkbox" id="rememberme" value="forever" type="checkbox" /> Remember me</label></p>
+			<p class="submit"><input type="submit" name="wp-submit" id="wp-submit" value="Login &raquo;" />
+			
+			<input type="hidden" name="sidebarlogin_posted" value="1" />
+			<input type="hidden" name="testcookie" value="1" /></p>
+			
+						
+			</form>
+			<ul class="sidebarlogin_otherlinks">						<li><a href="http://mockapp.com/wp-login.php?action=register" rel="nofollow">Register</a></li>
+									<li><a href="http://mockapp.com/wp-login.php?action=lostpassword" title="" rel="nofollow">Lost your password?</a></li>
+				</ul></div><div id="text-4" class="widget widget_text">			<div class="textwidget"><a href="http://mockapp.com/mockapp-demo-videos/"><img src="http://mockapp.com/wp-content/uploads/2009/10/MockApp_video_icon.png"> </a>
+<BR>
+
+
+<a href="http://mockapp.com/download/"><img src="http://mockapp.com/wp-content/uploads/2009/09/Download_Mockapp_button.png"> </a>
+<BR>
+
+<a href="http://twitter.com/mockapp"><img src="http://mockapp.com/wp-content/uploads/2009/09/Twitter-button.png"> </a>
+<BR>
+</div>
+		</div><div id="text-3" class="widget widget_text">			<div class="textwidget"><script type="text/javascript"><!--
+google_ad_client = "pub-2234247119632227";
+/* 160x600, created 9/26/09 */
+google_ad_slot = "2715351554";
+google_ad_width = 160;
+google_ad_height = 600;
+//-->
+</script>
+<script type="text/javascript"
+src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script></div>
+		</div>
+</td>
+<!-- / Right Sidebar -->
+
+</tr>
+<!-- / Main Body -->
+<tr>
+
+<!-- Footer -->
+<td id="footer" colspan="3">
+
+    <p>
+    <a rel="license" href="http://creativecommons.org/licenses/by/3.0/us/"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by/3.0/us/88x31.png" /></a><br /><span xmlns:dc="http://purl.org/dc/elements/1.1/" property="dc:title">MockApp</span> by <a xmlns:cc="http://creativecommons.org/ns#" href="mockapp.com" property="cc:attributionName" rel="cc:attributionURL">Dotan Saguy</a> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/3.0/us/">Creative Commons Attribution 3.0 United States License</a>.<br />    </p>
+    
+    
+    
+</td>
+<!-- / Footer -->
+
+</tr>
+</table><!-- / layout -->
+</div><!-- / container -->
+</div><!-- / wrapper -->
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-10783696-1");
+pageTracker._trackPageview();
+} catch(err) {}</script>
+</body>
+</html>
