@@ -1,0 +1,360 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="en">
+
+<head profile="http://gmpg.org/xfn/11">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Developing Hybrid Applications for the iPhone errata &laquo; Teton Technical</title>
+	
+	<style type="text/css" media="screen">
+		@import url( http://s0.wp.com/wp-content/themes/pub/ocadia/style.css?m=1292638056g );
+	</style>
+
+	<link rel="pingback" href="http://tetontech.wordpress.com/xmlrpc.php" />
+	
+    	<link rel='archives' title='October 2010' href='http://tetontech.wordpress.com/2010/10/' />
+	<link rel='archives' title='September 2010' href='http://tetontech.wordpress.com/2010/09/' />
+	<link rel='archives' title='August 2010' href='http://tetontech.wordpress.com/2010/08/' />
+	<link rel='archives' title='July 2010' href='http://tetontech.wordpress.com/2010/07/' />
+	<link rel='archives' title='June 2010' href='http://tetontech.wordpress.com/2010/06/' />
+	<link rel='archives' title='May 2010' href='http://tetontech.wordpress.com/2010/05/' />
+	<link rel='archives' title='April 2010' href='http://tetontech.wordpress.com/2010/04/' />
+	<link rel='archives' title='March 2010' href='http://tetontech.wordpress.com/2010/03/' />
+	<link rel='archives' title='February 2010' href='http://tetontech.wordpress.com/2010/02/' />
+	<link rel='archives' title='January 2010' href='http://tetontech.wordpress.com/2010/01/' />
+	<link rel='archives' title='December 2009' href='http://tetontech.wordpress.com/2009/12/' />
+	<link rel='archives' title='November 2009' href='http://tetontech.wordpress.com/2009/11/' />
+	<link rel='archives' title='October 2009' href='http://tetontech.wordpress.com/2009/10/' />
+	<link rel='archives' title='September 2009' href='http://tetontech.wordpress.com/2009/09/' />
+	<link rel='archives' title='August 2009' href='http://tetontech.wordpress.com/2009/08/' />
+	<link rel='archives' title='July 2009' href='http://tetontech.wordpress.com/2009/07/' />
+	<link rel='archives' title='June 2009' href='http://tetontech.wordpress.com/2009/06/' />
+	<link rel='archives' title='May 2009' href='http://tetontech.wordpress.com/2009/05/' />
+	<link rel='archives' title='April 2009' href='http://tetontech.wordpress.com/2009/04/' />
+	<link rel='archives' title='March 2009' href='http://tetontech.wordpress.com/2009/03/' />
+	<link rel='archives' title='February 2009' href='http://tetontech.wordpress.com/2009/02/' />
+	<link rel='archives' title='January 2009' href='http://tetontech.wordpress.com/2009/01/' />
+	<link rel='archives' title='December 2008' href='http://tetontech.wordpress.com/2008/12/' />
+	<link rel='archives' title='November 2008' href='http://tetontech.wordpress.com/2008/11/' />
+	<link rel='archives' title='October 2008' href='http://tetontech.wordpress.com/2008/10/' />
+	<link rel='archives' title='September 2008' href='http://tetontech.wordpress.com/2008/09/' />
+	<link rel='archives' title='August 2008' href='http://tetontech.wordpress.com/2008/08/' />
+	<link rel='archives' title='July 2008' href='http://tetontech.wordpress.com/2008/07/' />
+	<link rel='archives' title='June 2008' href='http://tetontech.wordpress.com/2008/06/' />
+	<link rel='archives' title='May 2008' href='http://tetontech.wordpress.com/2008/05/' />
+
+	<link rel="alternate" type="application/rss+xml" title="Teton Technical &raquo; Feed" href="http://tetontech.wordpress.com/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Teton Technical &raquo; Comments Feed" href="http://tetontech.wordpress.com/comments/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Teton Technical &raquo; Developing Hybrid Applications for the iPhone&nbsp;errata Comments Feed" href="http://tetontech.wordpress.com/developing-hybrid-applications-for-the-iphone-errata/feed/" />
+<script type="text/javascript">
+/* <![CDATA[ */
+function addLoadEvent(func){var oldonload=window.onload;if(typeof window.onload!='function'){window.onload=func;}else{window.onload=function(){oldonload();func();}}}
+/* ]]> */
+</script>
+<link rel="stylesheet" href="http://s0.wp.com/wp-content/themes/h4/global.css?m=1291749258g" type="text/css" />
+<script type='text/javascript' src='http://s2.wp.com/wp-includes/js/l10n.js?m=1290133841g&amp;ver=20101110'></script>
+<script type='text/javascript' src='http://s1.wp.com/wp-includes/js/jquery/jquery.js?m=1290133841g&amp;ver=1.4.4'></script>
+<script type='text/javascript' src='http://s0.wp.com/wp-includes/js/comment-reply.js?m=1244000842g&amp;ver=20090102'></script>
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://tetontech.wordpress.com/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://tetontech.wordpress.com/wp-includes/wlwmanifest.xml" /> 
+<link rel='index' title='Teton Technical' href='http://tetontech.wordpress.com/' />
+<link rel='prev' title='About' href='http://tetontech.wordpress.com/about/' />
+<meta name="generator" content="WordPress.com" />
+<link rel='canonical' href='http://tetontech.wordpress.com/developing-hybrid-applications-for-the-iphone-errata/' />
+<link rel='shortlink' href='http://wp.me/PfzlU-5C' />
+<link rel="shortcut icon" type="image/x-icon" href="http://s1.wp.com/i/favicon-stacked.ico?m=1284002170g" sizes="16x16 24x24 32x32 48x48" />
+<link rel="icon" type="image/x-icon" href="http://s1.wp.com/i/favicon-stacked.ico?m=1284002170g" sizes="16x16 24x24 32x32 48x48" />
+<link rel="apple-touch-icon" href="http://s0.wp.com/wp-content/themes/h4/i/webclip.png?m=1250548519g" />
+	<style type="text/css">
+	/* <![CDATA[ */
+				div#likes { margin-top: 15px; }
+		.like-button { border: 1px solid #eee; padding: 2px 6px; font-size: 13px; font-family: arial, tahoma, sans-serif; }
+		#wpl-likebox { clear: left; font-size: 11px; font-family: arial, tahoma, verdana, sans-serif !important; min-height: 30px; margin: 10px 0 !important; padding: 5px 0 10px 0 !important; }
+		#wpl-button { float: left; background: url( /i/buttonbg.png ) top left repeat-x; margin-right: 7px; border: 1px solid #d4d4d4; -moz-border-radius: 3px; -webkit-border-radius: 3px; border-radius: 3px; }
+		#wpl-button a { color: #666 !important; line-height: 130% !important; text-decoration: none !important; outline: none; float: left; padding: 3px 6px 2px 24px !important; font-size: 11px !important; background: url( /i/likestar.png ) 6px 49.8% no-repeat; }
+		#wpl-button.liked { background: #feffce; border: 1px solid #f3e389; }
+		#wpl-button.liked a { color: #ba871b !important; }
+		#wpl-likebox #wpl-count { min-height: 25px; line-height: 130% !important; float: left; padding-top: 4px; }
+		#wpl-likebox #wpl-avatars { clear: left; max-height: 98px; overflow: hidden; margin-top: 15px; line-height: 130% !important; }
+		#wpl-likebox #wpl-avatars img { border: none !important; }
+		#wpl-likebox #wpl-mustlogin { line-height: 14px !important; font-size: 11px; clear: left; margin-top: 5px; background: #f0f0f0; padding: 10px; width: 65%; -moz-border-radius: 3px; -webkit-border-radius: 3px; border-radius: 3px; }
+		#wpl-likebox #wpl-mustlogin a { color: #888; text-decoration: underline; }
+		#wpl-likebox #wpl-mustlogin p { margin: 5px 0; padding: 0 }
+		#wpl-likebox #wpl-mustlogin input.input { padding: 2px; background: #fff; font-size: 11px; font-family: inherit; border: 1px solid #ccc; -moz-box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1) inset; -webkit-box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1) inset; line-height: 12px; }
+		#wpl-likebox #wpl-mustlogin input#wp-submit { border: 1px solid #ccc; font-size: 11px; background: #fafafa; repeat-x; -moz-border-radius: 3px; -webkit-border-radius: 3px; border-radius: 3px; padding: 2px 4px !important; line-height: 12px; }
+		#wpl-likebox #wpl-mustlogin label { position: relative; cursor: text; }
+		#wpl-likebox #wpl-mustlogin label span { position: absolute; top: 0px; left: 5px; padding: 0 !important; }
+		#wpl-likebox #wpl-mustlogin label span { top /*\**/: -10px\9; }
+	/* ]]> */
+	</style>
+	<link rel='openid.server' href='http://tetontech.wordpress.com/?openidserver=1' />
+<link rel='openid.delegate' href='http://tetontech.wordpress.com/' />
+<link rel="search" type="application/opensearchdescription+xml" href="http://tetontech.wordpress.com/osd.xml" title="Teton Technical" />
+<link rel="search" type="application/opensearchdescription+xml" href="http://wordpress.com/opensearch.xml" title="WordPress.com" />
+<meta name="application-name" content="Teton Technical" /><meta name="msapplication-window" content="width=device-width;height=device-height" /><meta name="msapplication-tooltip" content="This blog focuses on Modular software development in a variety of languages and platforms such as the iPhone" /><meta name="msapplication-task" content="name=Subscribe;action-uri=http://tetontech.wordpress.com/feed/;icon-uri=http://s1.wp.com/i/favicon-stacked.ico" /><meta name="msapplication-task" content="name=Sign up for a free blog;action-uri=http://wordpress.com/signup/;icon-uri=http://s2.wp.com/i/favicon.ico" /><meta name="msapplication-task" content="name=WordPress.com Support;action-uri=http://support.wordpress.com/;icon-uri=http://s2.wp.com/i/favicon.ico" /><meta name="msapplication-task" content="name=WordPress.com Forums;action-uri=http://forums.wordpress.com/;icon-uri=http://s2.wp.com/i/favicon.ico" /></head>
+	
+<body>
+
+<div id="wrapper">
+
+<div id="header">
+<h1><a href="http://tetontech.wordpress.com">Teton Technical</a></h1>
+<p>This blog focuses on Modular software development in a variety of languages and platforms such as the iPhone</p>
+</div>
+
+<div id="content">
+
+    		
+		<h2 id="post-348">Developing Hybrid Applications for the iPhone&nbsp;errata</h2>
+			
+		<p>This page is a delineation of notes and publication errors found in the Developing Hybrid Applications for the iPhone book.</p>
+<h2><em><strong>Notes:</strong></em></h2>
+<ul>
+<li>Version 0.7.3 defaults to having the HTML, CSS, and JavaScript stored on the device rather than on a web server.</li>
+<li>The version of Dashcode shipped with Snow Leopard no longer allows custom templates to be displayed.  A defect report has been sent to apple.  You will need to drag the QuickConnectiPhone files and directories into one of the standard Dashcode projects until this is remedied.</li>
+<li>The version of Dashcode shipped with Snow Leopard has a different directory structure than the version covered in the book.</li>
+</ul>
+<h2><em>Publication Errors</em></h2>
+<ul>
+<li>Page 2 of the Preface, How to Use This Book, Chapter 4 title should read &#8220;GPS, Acceleration, and Other Native Functions with QuickConnect&#8221;</li>
+<li>Page 4 of the Preface, Prerequisites, 3rd line should read &#8220;Objective-C&#8221; instead of &#8220;Objecive-C&#8221;</li>
+<li>Page 10, 3rd paragraph, 1st line.  The name of the file has been changed from gap.js to phonegap.js by the phonegap developers</li>
+</ul>
+<ul>
+<li>Page 10, 3rd paragraph, 2nd line.  The name of the directory has been changed from JavaScript to javascripts by the phonegap developers</li>
+<li>Page 17 1st paragraph of Section 6 should read &#8220;Section 5&#8243; instead of &#8220;Section 4&#8243;</li>
+<li>Page 19, beginning of 1st paragraph should read &#8220;The applicationDidFinishLaunching method&#8221; instead of &#8220;The SimpleExampleAppDelegate method&#8221;</li>
+<li>Page 19, end of first paragraph should read &#8220;Section 8 and in Chapter 7&#8243; instead of &#8220;Section 9 and in Chapter 7&#8243;</li>
+<li>Page 19, after code segment should read &#8220;Section 5&#8243; instead of &#8220;Section 6&#8243;</li>
+<li>Page 21, 1st paragraph should read &#8220;line 3&#8243; instead of &#8220;line 4&#8243;</li>
+<li>Page 23, 3rd paragraph should read &#8220;&#8230; lines 10 &#8211; 12&#8243; instead of &#8220;&#8230; lines 14 and 15.</li>
+<li>Page 28, table 2.1 should read &#8220;handleRequest&#8221; instead of &#8220;handleResult&#8221;</li>
+<li>Page 28, code snippet should end with &#8220;}&#8221; instead of &#8220;=}&#8221;</li>
+<li>Page 34, 1st paragraph of section 3 should read &#8220;&#8230; consists of 23 lines &#8230;&#8221; instead of &#8220;&#8230; consists of 21 lines &#8230;&#8221;</li>
+<li>Page 25, Table 2.3 first method signature should read &#8220;&#8230; paramArray) &#8230;&#8221; inestead of &#8220;&#8230; paramArray,) &#8230;&#8221;</li>
+<li>Page 38, 1st paragraph of section 4, 4th line should read &#8220;&#8230; dispatchToValCF &#8230;&#8221; instead of &#8220;&#8230; displatchToValCF &#8230;&#8221;</li>
+<li>Page 52, last paragraph sentence 2 should read &#8220;&#8230; different transactions &#8230;&#8221; should read &#8220;&#8230; different transitions &#8230;&#8221;</li>
+<li>Page 80, last code snippet should end with &#8220;}&#8221; on the next line.</li>
+<li>Page 81, 1st paragraph last line should read &#8220;&#8230; Objective-C &#8230;&#8221; instead of &#8220;Objecive-C&#8221;</li>
+<li>Page 83, 3rd paragraph second sentence should read &#8220;As with the BCFs and VCFs discussed in Chapter 2, &#8230;&#8221; instead of &#8220;As discussed in Chapter 2, &#8230;&#8221;</li>
+<li>Page 94, last paragraph last sentence should read &#8220;&#8230; Chapter 6 &#8230;&#8221; instead of &#8220;&#8230; Chapter 8 &#8230;&#8221;</li>
+<li>Page 95, Title should read &#8220;GPS, Acceleration, and Other Native Functions with PhoneGap&#8221;</li>
+<li>Page 112, last paragraph, last line  should read &#8220;It sets up four locations: Rexburg, Idaho; Wyoming; a wilderness area; and a sandwich shop.&#8221; instead of &#8220;It sets up three locations: Rexburg, Idaho; Wyoming; a wilderness area.&#8221;</li>
+<li>Page 120, first paragraph first line should read &#8220;&#8230; for the pin to trap &#8230;&#8221; instead of &#8220;&#8230; for the pinto trap &#8230;&#8221;</li>
+<li>Page 126, Chapter 7, BrowserDBAccess is sometimes spelled browserDBAccess</li>
+<li>Page 133, second code snippet,  should read &#8220;var sampleDatabase = new &#8230;&#8221; instead of &#8220;var sampleDatabase = sampleDatabase = new &#8230;&#8221;</li>
+<li>Page 154, 4th line of Summary, &#8220;&#8230; DataAcecessObject &#8230;&#8221; should read &#8220;&#8230; DataAccessObject &#8230;&#8221;</li>
+<li>Page 155, 1st paragraph of Section 1, 4th line. &#8220;&#8230; browserAJAXAcces &#8230;&#8221; should read &#8220;&#8230; browserAJAXAccess &#8230;&#8221;</li>
+<li>Page 159, 2nd paragraph, 2nd line.  &#8221;&#8230; browserAJAX &#8230;&#8221; should read &#8220;&#8230; browserAJAXAccess &#8230;&#8221;</li>
+<li>Page 159, 5th paragraph, 2nd line.  &#8221;&#8230; iBlog &#8230;&#8221; should read &#8220;&#8230; browserAJAXAccess &#8230;&#8221;</li>
+<li>Page 164, 2nd paragraph, 1st line.  &#8221;&#8230; makeCAll &#8230;&#8221; should read &#8220;&#8230; makeCall &#8230;&#8221;</li>
+<li>Page 172, 3rd paragraph of Summary, 2nd line.  &#8221;&#8230; browserAJAXExample &#8230;&#8221; should read &#8220;&#8230; browserAJAXAccess &#8230;&#8221;</li>
+</ul>
+		
+		
+
+
+								<div id="respond">
+				<h3 id="reply-title">Leave a Reply <small><a rel="nofollow" id="cancel-comment-reply-link" href="/developing-hybrid-applications-for-the-iphone-errata/#respond" style="display:none;">Cancel reply</a></small></h3>
+									<form action="http://tetontech.wordpress.com/wp-comments-post.php" method="post" id="commentform">
+																			<p class="comment-notes">Your email address will not be published. Required fields are marked <span class="required">*</span></p>							<p class="comment-form-author"><label for="author">Name</label> <span class="required">*</span><input id="author" name="author" type="text" value="" size="30" aria-required='true' /></p>
+<p class="comment-form-email"><label for="email">Email</label> <span class="required">*</span><input id="email" name="email" type="text" value="" size="30" aria-required='true' /></p>
+<p class="comment-form-url"><label for="url">Website</label><input id="url" name="url" type="text" value="" size="30" /></p>
+												<p class="comment-form-comment"><label for="comment">Comment</label><textarea id="comment" name="comment" cols="45" rows="8" aria-required="true"></textarea></p>						<p class="form-allowed-tags">You may use these <abbr title="HyperText Markup Language">HTML</abbr> tags and attributes:  <code>&lt;a href=&quot;&quot; title=&quot;&quot;&gt; &lt;abbr title=&quot;&quot;&gt; &lt;acronym title=&quot;&quot;&gt; &lt;b&gt; &lt;blockquote cite=&quot;&quot;&gt; &lt;cite&gt; &lt;code&gt; &lt;pre&gt; &lt;del datetime=&quot;&quot;&gt; &lt;em&gt; &lt;i&gt; &lt;q cite=&quot;&quot;&gt; &lt;strike&gt; &lt;strong&gt; </code></p>						<p class="form-submit">
+							<input name="submit" type="submit" id="submit" value="Post Comment" />
+							<input type='hidden' name='comment_post_ID' value='348' id='comment_post_ID' />
+<input type='hidden' name='comment_parent' id='comment_parent' value='0' />
+						</p>
+						
+<input type="hidden" name="genseq" value="1292695652" />
+<p><input type="checkbox" name="subscribe" id="subscribe" value="subscribe" style="width: auto;" tabindex="6"/> <label class="subscribe-label" id="subscribe-label" for="subscribe">Notify me of follow-up comments via email.</label></p><p><input type="checkbox" name="subscribe_blog" id="subscribe_blog" value="subscribe" style="width: auto;" tabindex="7"/> <label class="subscribe-label" id="subscribe-blog-label" for="subscribe_blog">Subscribe to this site by email</label></p><input type="hidden" name="sub-type" value="comment-form-text2" /><p style="display: none;"><input type="hidden" id="akismet_comment_nonce" name="akismet_comment_nonce" value="ef7b25505b" /></p>					</form>
+							</div><!-- #respond -->
+						
+
+	
+</div>
+
+<div id="sidebar">
+
+<ul>
+	<li class="pagenav"><h2>Pages</h2><ul><li class="page_item page-item-2"><a href="http://tetontech.wordpress.com/about/" title="About">About</a></li>
+<li class="page_item page-item-348 current_page_item"><a href="http://tetontech.wordpress.com/developing-hybrid-applications-for-the-iphone-errata/" title="Developing Hybrid Applications for the iPhone&nbsp;errata">Developing Hybrid Applications for the iPhone&nbsp;errata</a></li>
+</ul></li>
+	<li id="archives">
+		<h2>Archives</h2>
+		<ul>
+			<li><a href='http://tetontech.wordpress.com/2010/10/' title='October 2010'>October 2010</a></li>
+	<li><a href='http://tetontech.wordpress.com/2010/09/' title='September 2010'>September 2010</a></li>
+	<li><a href='http://tetontech.wordpress.com/2010/08/' title='August 2010'>August 2010</a></li>
+	<li><a href='http://tetontech.wordpress.com/2010/07/' title='July 2010'>July 2010</a></li>
+	<li><a href='http://tetontech.wordpress.com/2010/06/' title='June 2010'>June 2010</a></li>
+	<li><a href='http://tetontech.wordpress.com/2010/05/' title='May 2010'>May 2010</a></li>
+	<li><a href='http://tetontech.wordpress.com/2010/04/' title='April 2010'>April 2010</a></li>
+	<li><a href='http://tetontech.wordpress.com/2010/03/' title='March 2010'>March 2010</a></li>
+	<li><a href='http://tetontech.wordpress.com/2010/02/' title='February 2010'>February 2010</a></li>
+	<li><a href='http://tetontech.wordpress.com/2010/01/' title='January 2010'>January 2010</a></li>
+	<li><a href='http://tetontech.wordpress.com/2009/12/' title='December 2009'>December 2009</a></li>
+	<li><a href='http://tetontech.wordpress.com/2009/11/' title='November 2009'>November 2009</a></li>
+	<li><a href='http://tetontech.wordpress.com/2009/10/' title='October 2009'>October 2009</a></li>
+	<li><a href='http://tetontech.wordpress.com/2009/09/' title='September 2009'>September 2009</a></li>
+	<li><a href='http://tetontech.wordpress.com/2009/08/' title='August 2009'>August 2009</a></li>
+	<li><a href='http://tetontech.wordpress.com/2009/07/' title='July 2009'>July 2009</a></li>
+	<li><a href='http://tetontech.wordpress.com/2009/06/' title='June 2009'>June 2009</a></li>
+	<li><a href='http://tetontech.wordpress.com/2009/05/' title='May 2009'>May 2009</a></li>
+	<li><a href='http://tetontech.wordpress.com/2009/04/' title='April 2009'>April 2009</a></li>
+	<li><a href='http://tetontech.wordpress.com/2009/03/' title='March 2009'>March 2009</a></li>
+	<li><a href='http://tetontech.wordpress.com/2009/02/' title='February 2009'>February 2009</a></li>
+	<li><a href='http://tetontech.wordpress.com/2009/01/' title='January 2009'>January 2009</a></li>
+	<li><a href='http://tetontech.wordpress.com/2008/12/' title='December 2008'>December 2008</a></li>
+	<li><a href='http://tetontech.wordpress.com/2008/11/' title='November 2008'>November 2008</a></li>
+	<li><a href='http://tetontech.wordpress.com/2008/10/' title='October 2008'>October 2008</a></li>
+	<li><a href='http://tetontech.wordpress.com/2008/09/' title='September 2008'>September 2008</a></li>
+	<li><a href='http://tetontech.wordpress.com/2008/08/' title='August 2008'>August 2008</a></li>
+	<li><a href='http://tetontech.wordpress.com/2008/07/' title='July 2008'>July 2008</a></li>
+	<li><a href='http://tetontech.wordpress.com/2008/06/' title='June 2008'>June 2008</a></li>
+	<li><a href='http://tetontech.wordpress.com/2008/05/' title='May 2008'>May 2008</a></li>
+		</ul>
+	</li>
+	
+	<li id="categories">
+		<h2>Categories</h2>
+		<ul>
+			<li class="cat-item cat-item-8277681"><a href="http://tetontech.wordpress.com/category/android-development/" title="Examples for and experience of writing Android Applications.  Specifically the Android port of the QuickConnect framework.">Android Development</a>
+</li>
+	<li class="cat-item cat-item-14485156"><a href="http://tetontech.wordpress.com/category/blackberry-development/" title="View all posts filed under Blackberry development">Blackberry development</a>
+</li>
+	<li class="cat-item cat-item-1325"><a href="http://tetontech.wordpress.com/category/classes/" title="BYu-Idaho classes that I teach.">Classes</a>
+</li>
+	<li class="cat-item cat-item-223159"><a href="http://tetontech.wordpress.com/category/erlang-development/" title="View all posts filed under erlang development">erlang development</a>
+</li>
+	<li class="cat-item cat-item-5560657"><a href="http://tetontech.wordpress.com/category/iphone-development/" title="View all posts filed under iPhone development">iPhone development</a>
+</li>
+	<li class="cat-item cat-item-38448"><a href="http://tetontech.wordpress.com/category/mac-development/" title="View all posts filed under mac development">mac development</a>
+</li>
+	<li class="cat-item cat-item-277"><a href="http://tetontech.wordpress.com/category/misc/" title="View all posts filed under misc">misc</a>
+</li>
+	<li class="cat-item cat-item-458"><a href="http://tetontech.wordpress.com/category/php/" title="View all posts filed under PHP">PHP</a>
+</li>
+	<li class="cat-item cat-item-30127"><a href="http://tetontech.wordpress.com/category/php-development/" title="View all posts filed under PHP development">PHP development</a>
+</li>
+	<li class="cat-item cat-item-1"><a href="http://tetontech.wordpress.com/category/uncategorized/" title="View all posts filed under Uncategorized">Uncategorized</a>
+</li>
+	<li class="cat-item cat-item-7123986"><a href="http://tetontech.wordpress.com/category/using-an-iphone/" title="View all posts filed under using an iPhone">using an iPhone</a>
+</li>
+ 
+		</ul>
+	</li>
+	
+	<li id="search">
+		<h2><label for="s">Search</label></h2>
+		    <div>
+    <form onsubmit="return liveSearchSubmit()" id="searchform" name="searchform" method="get" action="/?s=">
+    <p>
+    <input type="text" id="livesearch" name="s" value="search this site" onkeypress="liveSearchStart()" onblur="setTimeout('closeResults()',2000); if (this.value == '') {this.value = '';}"  onfocus="if (this.value == 'search this site') {this.value = '';}"  />
+    <input type="submit" id="searchsubmit" style="display: none;" value="Search" />
+    <div id="LSResult" style="display: none;"></p><div id="LSShadow"></div></div>
+    </form>
+    </div>
+	</li>
+	
+			
+					
+	<li id="linkcat-15999296" class="linkcat"><h2>QuickConnect Support Sites</h2>
+	<ul class='xoxo blogroll'>
+<li><a href="http://twitter.com/quickconnect" rel="me" title="Tweets related to the development of the QuickConnect family">Development Twitter</a></li>
+<li><a href="http://apps.sourceforge.net/mantisbt/quickconnect/main_page.php" rel="me">QuickConnect Defect Tracking System</a></li>
+<li><a href="http://sourceforge.net/projects/quickconnect/" title="Download QuickConnectiPhone as well as the other members of the family here">QuickConnect Downloads</a></li>
+<li><a href="http://groups.google.com/group/quickconnectiPhone" rel="me" title="Questions and answers about the QuickConnect Family">QuickConnect Google group</a></li>
+<li><a href="http://www.quickconnectfamily.org">QuickConnect Web Site</a></li>
+<li><a href="http://quickconnect.pbwiki.com/" rel="me" title="A wiki supporting the use and development of the QuickConnect family">QuickConnect Wiki</a></li>
+
+	</ul>
+</li>
+					
+	<li id="meta">
+		<h2>Meta</h2>
+		<ul>
+		<li><a href="http://tetontech.wordpress.com/wp-login.php?action=register">Register</a></li>		<li><a href="http://tetontech.wordpress.com/wp-login.php">Log in</a></li>
+		<li><a href="http://tetontech.wordpress.com/feed/" title="Syndicate this site using RSS">Entries <abbr title="Really Simple Syndication">RSS</abbr></a></li>
+		<li><a href="http://tetontech.wordpress.com/comments/feed/" title="The latest comments to all posts in RSS">Comments <abbr title="Really Simple Syndication">RSS</abbr></a></li>
+		<li><a href="http://wordpress.com/">Get a free blog at WordPress.com</a></li>
+				</ul>
+	</li>
+	
+</ul>
+
+</div>
+
+<div id="footer">
+<p>
+Theme: Ocadia by <a href="http://beccary.com" rel="designer">Beccary</a>&#183;
+<a href="http://wordpress.com/?ref=footer" rel="generator">Blog at WordPress.com</a>.
+</p>
+</div>
+
+</div>
+
+<script type="text/javascript">
+// <![CDATA[
+(function() {
+try{
+  if ( window.external &&'msIsSiteMode' in window.external) {
+    if (window.external.msIsSiteMode()) {
+      var jl = document.createElement('script');
+      jl.type='text/javascript';
+      jl.async=true;
+      jl.src='/wp-content/plugins/ie-sitemode/custom-jumplist.php';
+      var s = document.getElementsByTagName('script')[0];
+      s.parentNode.insertBefore(jl, s);
+    }
+  }
+}catch(e){}
+})();
+// ]]>
+</script><script type="text/javascript">_qoptions={qacct:'p-18-mFEk4J448M',labels:'language.en,type.wpcom'};</script>
+<script type="text/javascript" src="http://edge.quantserve.com/quant.js"></script>
+<noscript><p><img class="robots-nocontent" src="http://pixel.quantserve.com/pixel/p-18-mFEk4J448M.gif?labels=language.en%2Ctype.wpcom" style="display:none" height="1" width="1" alt="" /></p></noscript>
+<script type='text/javascript' src='http://s.gravatar.com/js/gprofiles.js?n&#038;ver=MU'></script>
+	<script type="text/javascript">	
+	// <![CDATA[
+	WPGroHo = {
+		data: {},
+		renderers: {},
+		syncProfileData: function( hash, id ) {
+			if ( !WPGroHo.data[hash] ) {
+				WPGroHo.data[hash] = {};
+				a = jQuery( 'div.grofile-hash-map-' + hash + ' span' ).each( function() {
+					WPGroHo.data[hash][this.className] = jQuery( this ).text();
+				} );
+			}
+
+			WPGroHo.appendProfileData( WPGroHo.data[hash], hash, id );
+		},
+		appendProfileData: function( data, hash, id ) {
+			for ( var key in data ) {
+				if ( jQuery.isFunction( WPGroHo.renderers[key] ) ) {
+					return WPGroHo.renderers[key]( data[key], hash, id, key );
+				}
+
+				jQuery( '#' + id ).find( 'h4' ).after( jQuery( '<p class="grav-extra ' + key + '" />' ).html( data[key] ) );
+			}
+		}
+	};
+	jQuery(document).ready(function($){
+		Gravatar.profile_cb = function( h, d ) {
+			WPGroHo.syncProfileData( h, d );
+		};
+		Gravatar.attach_profiles();
+	});
+	// ]]>
+	</script>
+	<div style="display:none">
+	</div>
+<script type="text/javascript" src="http://b.scorecardresearch.com/beacon.js"></script><script type="text/javascript">try{COMSCORE.beacon({c1:2,c2:7518284});}catch(e){}</script><noscript><p class="robots-nocontent"><img src="http://b.scorecardresearch.com/p?cj=1c1=2&#038;c2=7518284" alt="" style="display:none" width="1" height="1" /></p></noscript><script src="http://s.stats.wordpress.com/w.js?19" type="text/javascript"></script>
+<script type="text/javascript">
+st_go({'blog':'3710818','v':'wpcom','user_id':'0','post':'348','subd':'tetontech'});
+ex_go({'crypt':'RDZ8LFkxbXFSLmU4PWMvVjUtW3xhP29rYy1UaXFfOThXUDF+TmJCLC1NaVA1c0pNdjAxa0JSZW9zelgtcnBaLTVMKzNSLHpldm51QTN3NjQzSS1FWnMxN2ZuWyVCYjJnSFVEQ20vTTRxVGhkOTg2YkI/MUlWcWpWeUZWRnJLRC1rN1drL1l0P2ttQ1FfeGo4U3xuW2dUOHVQWystOXllVm8lQTB1emFF'});
+addLoadEvent(function(){linktracker_init('3710818',348);});
+	</script>
+
+</body>
+</html>
