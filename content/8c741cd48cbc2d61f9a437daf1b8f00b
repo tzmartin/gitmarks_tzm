@@ -1,0 +1,255 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Bongo International - Business Services</title>
+<meta name="description" content="Bongo International helps online retailers expand their business to international customers through innovative and cutting edge applications.">
+<meta name="keywords" content="ship internationally, package forwarding, shopping cart plugin, shipping API, international carrier">
+<link rel="stylesheet" type="text/css" href="css/style.css">
+<script type="text/javascript" src="../shoppping/js/x_slide.js"></script>
+<script type="text/javascript" src="../tools/xlib/x_core.js" ></script>
+<script type="text/javascript" src="../Scripts/swfobject_modified.js"></script>
+<script type="text/javascript" src="js/prototype.js"></script>
+<script type="text/javascript" src="js/business.js"></script>
+<script type="text/javascript" src="js/business_partner.js"></script>
+<script type="text/javascript" src="js/base64encode.js"></script>
+<script language="JavaScript" type="text/javascript">
+var mm=generateProgressID();
+var ip_cliente='';
+</script>
+<script src="../clientIp.js"></script>
+<script type="text/javascript" src="js/slide.js"></script>
+<script type="text/javascript" src="js/ajax.js"></script>
+</head>
+<body>
+<div id="wrapper">
+  <div id="top"><a href="index.php"><img src="media/toplogo.jpg" alt="Bongo International" width="359" height="130" border="0"></a></div>
+  <div id="nav"><a href="solutions.php"><img src="media/btn_solutions.jpg" width="109" border="0" height="23"></a><a href="approach.php"><img src="media/btn_aproach.jpg"  width="120" border="0" height="23"></a><a href="https://www.bongopartner.com/business/applications/applications.php"></a><a href="partners.php"><img src="media/btn_partners.jpg" width="120" border="0" height="23"></a><a href="resources.php"><img src="media/btn_resources.jpg" width="120" border="0" height="23"></a><a href="faq.php"><img src="media/btn_faq.jpg" width="125" border="0" height="23"></a><a href="aboutus.php"><img src="media/btn_about.jpg" width="109" border="0" height="23"></a>
+  </div>  <div id="flash">
+  <div style="position:relative; height:auto;">
+<a href=" https://bongous.com/business/index.php"><div id="apDiv1" onclick="location.href= 'https://bongous.com/business/' "></div></a>
+<div style="position:absolute; height:14px; width:82px; top:-48px; left:0px; font-size:10px; color:#f57126; font-weight:bold; cursor:pointer;">Business</div>
+<div style="position:absolute; left:56px; top:-48px; font-size:10px;">|</div>
+<div style="position:absolute; height:14px; width:125px; top:-48px; left:35px; font-size:10px; font-weight:bold;" class="out" onmouseover="this.className='over';" onmouseout="this.className='out';" align="center"><span onclick="location.href= '../index.php'">Consumer</span></div>
+
+<div style="position:absolute; height:14px; width:125px; top:-48px; left:455px; font-size:10px; font-weight:bold;" class="over" onmouseover="this.className='out';" onmouseout="this.className='over';" align="center"><span onclick="location.href= '../partner/'">Partner Login</span></div>
+<div style="position:absolute; left:570px; top:-48px; font-size:10px;">|</div>
+<div style="position:absolute; height:14px; width:125px; top:-48px; left:575px; font-size:10px; font-weight:bold;" class="over" onmouseover="this.className='out';" onmouseout="this.className='over';" align="center"><span onclick="location.href= '../partner/'">Forgot Password?</span></div>
+
+</div>    <object id="FlashID" classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" width="460" height="206">
+      <param name="movie" value="flash/Process_v2_GlobeFlickerFix.swf" />
+      <param name="quality" value="high" />
+      <param name="wmode" value="opaque" />
+      <param name="swfversion" value="6.0.65.0" />
+      <!-- Esta etiqueta param indica a los usuarios de Flash Player 6.0 r65 o posterior que descarguen la versión más reciente de Flash Player. Elimínela si no desea que los usuarios vean el mensaje. -->
+      <param name="expressinstall" value="../Scripts/expressInstall.swf" />
+      <!-- La siguiente etiqueta object es para navegadores distintos de IE. Ocúltela a IE mediante IECC. -->
+      <!--[if !IE]>-->
+      <object type="application/x-shockwave-flash" data="flash/Process_v2_GlobeFlickerFix.swf" width="460" height="206">
+        <!--<![endif]-->
+        <param name="quality" value="high" />
+        <param name="wmode" value="opaque" />
+        <param name="swfversion" value="6.0.65.0" />
+        <param name="expressinstall" value="../Scripts/expressInstall.swf" />
+        <!-- El navegador muestra el siguiente contenido alternativo para usuarios con Flash Player 6.0 o versiones anteriores. -->
+        <div>
+          <h4>El contenido de esta página requiere una versión más reciente de Adobe Flash Player.</h4>
+          <p><a href="https://www.adobe.com/go/getflashplayer"><img src="https://www.adobe.com/images/shared/download_buttons/get_flash_player.gif" alt="Obtener Adobe Flash Player" width="112" height="33" /></a></p>
+        </div>
+        <!--[if !IE]>-->
+      </object>
+      <!--<![endif]-->
+    </object>
+  </div>
+  <div id="login">
+    <table width="222" height="205"   border="0" cellpadding="1" cellspacing="0" id="form1">
+      <tr><td height="20" colspan="2" align="left"><strong><font color="#f57126">Get Started</font></strong></td></tr>
+      <tr><td height="9" colspan="2" align="left"><img src="media/line.jpg" width="214" height="2"></td></tr>
+      <tr>
+        <td height="24" align="right"><font color="#5f5f5f" style="font-size:11px; font-weight:bold;">Name :</font></td>
+        <td align="center"><input name="pnombre" id="pnombre"  type="text" style="width:130px; height:14px;" /></td>
+      </tr>
+      <tr>
+        <td height="24" align="right"><font color="#5f5f5f" style="font-size:11px; font-weight:bold;">E-mail :</font></td>
+        <td align="center"><input name="papellido" id="papellido"  type="text" style="width:130px; height:14px;" /></td>
+      </tr>
+      <tr>
+        <td height="24" align="right"><font color="#5f5f5f" style="font-size:11px; font-weight:bold;">Phone :</font></td>
+        <td align="center"><input name="pmail" id="pmail"  type="text" style="width:130px; height:14px;" /></td>
+      </tr>
+      <tr>
+        <td height="24" align="right"><font color="#5f5f5f" style="font-size:11px; font-weight:bold;">Website URL:</font></td>
+        <td align="center"><input name="purl" id="purl"  type="text" style="width:130px; height:14px;" /></td>
+      </tr>
+      <tr>
+        <td height="24" align="right"><font color="#5f5f5f" style="font-size:11px; font-weight:bold;">Platform:</font></td>
+        <td align="center"><select style="font-size:11px; width:135px; height:18px;" name="plataform" id="plataform"><option value="0">Select Your Platform</option>
+<option value="1shoppingcart">1shoppingcart</option>
+<option value="3dcart">3dcart</option>
+<option value="americart">americart</option>
+<option value="aspdotnetstorefront">aspdotnetstorefront</option>
+<option value="channeladvisor">channeladvisor</option>
+<option value="cubecart">cubecart</option>
+<option value="easycart">easycart</option>
+<option value="infopia">infopia</option>
+<option value="jadasite">jadasite</option>
+<option value="magentocommerce">magentocommerce</option>
+<option value="mals-e">mals-e</option>
+<option value="mercantec">mercantec</option>
+<option value="merchandizer">merchandizer</option>
+<option value="mivamerchant">mivamerchant</option>
+<option value="modularmerchant">modularmerchant</option>
+<option value="networksolutions">networksolutions</option>
+<option value="opencart">opencart</option>
+<option value="opencart">opencart</option>
+<option value="oscommerce">oscommerce</option>
+<option value="pdgsoft">pdgsoft</option>
+<option value="pinnaclecart">pinnaclecart</option>
+<option value="prostores">prostores</option>
+<option value="richmediatech">richmediatech</option>
+<option value="salescart">salescart</option>
+<option value="scsystem">scsystem</option>
+<option value="shopsite">shopsite</option>
+<option value="smallbusiness.yahoo">smallbusiness.yahoo</option>
+<option value="smartcart">smartcart</option>
+<option value="solidcactus">solidcactus</option>
+<option value="storefront.net">storefront.net</option>
+<option value="turnkeywebtools">turnkeywebtools</option>
+<option value="ubercart.org">ubercart.org</option>
+<option value="ultracart">ultracart</option>
+<option value="uniteu">uniteu</option>
+<option value="volusion">volusion</option>
+<option value="webcart.net">webcart.net</option>
+<option value="webgenie">webgenie</option>
+<option value="webmastercart">webmastercart</option>
+<option value="websiteforge">websiteforge</option>
+<option value="x-cart">x-cart</option>
+<option value="zen-cart">zen-cart</option>
+<option value="Other Platform">Other Platform</option>            
+        </select></td>
+      </tr>
+     <tr>
+        <td height="24" align="right"><font color="#5f5f5f" style="font-size:11px; font-weight:bold;">Solution:</font></td>
+        <td align="center">
+        <table cellpadding="0" cellspacing="0">
+        <tr>
+            <td><input type="checkbox" id="chk_extend" /></td>
+            <td><img src="media/ico_extend.jpg" /></td>
+            <td><font color="#5f5f5f" style="font-size:10px; font-weight:normal;">Extend&nbsp;</font></td>
+            <td><input type="checkbox" id="chk_connect" /></td>
+            <td><img src="media/ico_connect.jpg" /></td>
+            <td><font color="#5f5f5f" style="font-size:10px; font-weight:normal;">Connect</font></td>
+        </tr>
+        </table>
+        </td>
+      </tr>
+      <tr>
+        <td height="24">&nbsp;</td>
+        <td align="right" style="font-weight:bold;"><span style="color:#7A7A91;">[ </span><font onclick="SendForm()" style="color:#01CC33;"> Continue >> </font><span style="color:#7A7A91;"> ] </span></td></td>
+      </tr> 
+    </table>
+    <table id="form2" style="display:none;"><tr><td style="padding-top:20px; padding-left:15px; line-height:20px; font-size:12px; color:#5f5f5f;">Your Partner request has been submitted. A Bongo Account Manager will be contacting you shortly with your Partner Account Access information. <br />Thank you.</td></tr><tr><td align="center" style="font-weight:bold;"><span style="color:#7A7A91;">[ </span><font onclick="CloseForm2()" style="color:#01CC33;"> Close </font><span style="color:#7A7A91;"> ] </span></td></tr></table>  </div>
+  <div id="solutions">
+  <a href="extends_howitworks.php" target="_self"><img src="media/extend.jpg"  border="0" /></a>
+  <table width="221" background="media/box_1.gif" border="0" cellpadding="0" cellspacing="0" height="178">
+      <tr><td style="font-size:10px; color:#4b4a4a;"><div style=" margin-left:15px; margin-top:0px; margin-right:15px; line-height:14px;">Bongo Extend is a portable solution that's easily deployed by small to midsized businesses, and requires limited IT experience for implementation.</div>
+      <div style="margin-left:25px; margin-top:8px; line-height:15px;">
+      <font style="font-size:10px; color:#4b4a4a;"><img src="media/intro.jpg"  hspace="5" height="10" width="13" /><a href="extends_howitworks.php">How It Works</a><br />
+      <img src="media/intro.jpg" hspace="5" height="10" width="13" /><a href="extends_additional.php">Additional Features</a><br />
+      <img src="media/intro.jpg" hspace="5" height="10" width="13" /><a href="extends_viewdemo.php">View Demo</a><br />
+      <img src="media/intro.jpg" hspace="5" height="10" width="13" /><a href="extends_benefits.php">Benefits</a><br />
+      <img src="media/intro.jpg" hspace="5" height="10" width="13" /><a href="extends_supported.php">Supported Platforms<br /><br /></a></font></div>
+      </td></tr>
+  </table>
+  </div>
+  
+  <div id="technology">
+  <a href="connect_howitworks.php" target="_self"><img src="media/connect.jpg"  border="0" /></a>
+  <table width="221" background="media/box_1.gif" border="0" cellpadding="0" cellspacing="0" height="178">
+      <tr><td  style="font-size:10px; color:#4b4a4a;"><div style=" margin-left:15px; margin-top:0px; margin-right:15px; line-height:14px;">Bongo Connect is a fully integrated solution that provides a seamless experience for international consumers.</div>
+      <div style="margin-left:25px; margin-top:8px; line-height:15px;"><font  style="font-size:10px; color:#4b4a4a;"><br />
+      <img src="media/intro.jpg" hspace="5" height="10" width="13" /><a href="connect_howitworks.php">How It Works</a><br />
+      <img src="media/intro.jpg" hspace="5" height="10" width="13" /><a href="connect_additional.php">Additional Features</a><br />
+      <img src="media/intro.jpg" hspace="5" height="10" width="13" /><a href="connect_viewdemo.php">View Demo</a><br />
+      <img src="media/intro.jpg" hspace="5" height="10" width="13" /><a href="connect_benefits.php">Benefits</a><br />
+      <img src="media/intro.jpg" hspace="5" height="10" width="13" /><a href="connect_supported.php">Supported Development Languages<br /><br /></a></font></div></td></tr>
+  </table>
+  </div>
+  
+  <div id="press2"></div>
+  <div id="press">
+  <div id="titles" style="padding-top:4px;"><table align="center"><tr><td onclick="showoption(1)" id="trpress" style="color:#f57126; cursor:pointer;">Press</td><td>|</td><td onclick="showoption(2)" id="trcase" style="cursor:pointer;">Case Studies</td><td>|</td><td onclick="showoption(3)" id="trwhite" style="cursor:pointer;">White Papers</td></tr></table></div>
+  <table width="221" background="media/box_1.gif" border="0" cellpadding="0" cellspacing="0" height="178" id="tbpress">
+<tr>
+      <td style="padding-left:10px; padding-right:10px; padding-top:10px;">
+     
+      <p align="center"><font  style="font-size:10px; color:#4b4a4a;"><strong>Volusion Welcomes Bongo..</strong></font></p>
+     <p style="color:#ff6f12; font-weight:bold; font-size:8px;">October  4th, 2010</p>      
+      <p align="justify"><font  style="font-size:10px; color:#4b4a4a;">Volusion, the leading provider of ecommerce software and services for online merchants, today announced a new partnership with Bongo International at the 2010 Shop.org Annual Summit in Dallas, TX. Bongo provides the fastest growing ... 
+ <a href="http://www.prweb.com/releases/volusion/bongo/prweb4577374.htm" target="_blank" style="color:#f57126; font-size:10px; text-decoration:none;"> more>></a>.
+</font></p>
+</td>
+    </table>
+    <table width="221" background="media/box_1.gif" border="0" cellpadding="0" cellspacing="0" height="178" id="tbcase">
+    <tr>
+      <td style="padding-left:10px; padding-right:10px; padding-top:10px;">
+      <p align="center"><font  style="font-size:10px; color:#4b4a4a;"><strong>Waterskis.com to Expand its Reach</strong></font></p>
+
+
+           
+      <p align="justify"><font  style="font-size:10px; color:#4b4a4a;">Selling consumer goods to international visitors is a challenge. *This is why only 54% of U.S. Merchants sell their products internationally. Merchants have to deal with fraud, customs compliance, paperwork, and operational challenges when selling products abroad. Consumers need to deal with language barriers, lack of product availability  <a href="https://bongous.com/wp/" target="_blank" style="color:#f57126; font-size:10px; text-decoration:none;"> more>></a>.</font></p>
+</td>
+    </tr>
+    </table>
+    <table width="221" background="media/box_1.gif" border="0" cellpadding="0" cellspacing="0" height="178" id="tbwhite">
+    <tr>
+      <td style="padding-left:10px; padding-right:10px; padding-top:10px;">
+     
+      <p align="center"><font  style="font-size:10px; color:#4b4a4a;"><strong>Combating Fraud in International Shipping</strong></font></p>
+           
+      <p align="justify"><font  style="font-size:10px; color:#4b4a4a;">The demand for U.S. goods is high, but many online retailers are reluctant to ship overseas. The time and expense can seem like too much trouble, but a parcel forwarding service can offer a solution. Parcel forwarding solutions... <a href="https://bongous.com/partnerdemo/pdf/Bongo_WP_International%20Shipping%20Fraud_To%20Launch.pdf" target="_blank" style="color:#f57126; font-size:10px; text-decoration:none;"> more>></a></font></p></td>
+    </tr>
+     </table>
+</div>
+<div id="scroll" align="left"><!-- codigo del shopcart-->
+  <table cellpadding="0" cellspacing="0" border="0" background="../shoppping/images/ff.jpg" align="center">
+    <tr><td colspan="3" align="center" height="20"><strong style="color:#323232; font-size:11px;font-family:Verdana, Arial, Helvetica, sans-serif;">Bongo's applications work on the below platforms, and more ...</strong></td></tr>
+    <tr>
+    <td><img   src="../shoppping/images/back.jpg" width="13" height="107" onmouseover="scroleaDiv(1)" onmouseout="scroleaDiv(3)" style="cursor:pointer;"></td>
+    <td align="left">
+    <div id="motioncontainer" style="position:relative;overflow:hidden;width:670px; height:103px;border:solid 2px #aaa;">
+        <div id="slide_bongo" style="position:absolute;top:0px;left:0px;width:6500px; height:103px; padding-left:20px; padding-right:20px;">
+        <span style="position:absolute; top:0px; left:285px;"><img src="../shoppping/images/ajax-loader.gif" width="100" height="100" ></span>
+      </div>
+    </div>  
+    </td>
+    <td align="right"><img   src="../shoppping/images/next.jpg" width="13" height="107" onmouseover="scroleaDiv(2)" onmouseout="scroleaDiv(3)" style="cursor:pointer;"></td>
+    </tr>
+  </table>
+<!-- end shop cart-->
+</div>
+  <div id="footer"><a href="../privacy_policy.php"><font
+ color="#5f5f5f">Privacy Policy</font></a><font color="#5f5f5f"> -</font>
+ <a href="../legal.php"><font color="#5f5f5f">Legal</font></a><font
+ color="#5f5f5f"> - </font><a href="../sitemap.php"><font
+ color="#5f5f5f">Sitemap</font></a><font color="#5f5f5f"> - </font><a 
+href="../lead.php"><font color="#5f5f5f">Become a 
+Partner</font></a><font color="#5f5f5f"> - </font><a 
+href="../mail_forwarding_leaders.php"><font 
+color="#5f5f5f">Contact Us</font></a> <font color="#5f5f5f">-   
+Copyright 2007-2010 </font></div>
+
+</div>
+<script type="text/javascript">
+<!--
+swfobject.registerObject("FlashID");
+//-->
+</script>
+<script>
+setTimeout("carga()",2000);
+</script>
+<script src="https://www.google-analytics.com/urchin.js" type="text/javascript"> </script> 
+<script type="text/javascript"> 
+_uacct = "UA-2441383-1";
+urchinTracker(); 
+</script></body></html>
