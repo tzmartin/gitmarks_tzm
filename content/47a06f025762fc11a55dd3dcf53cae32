@@ -1,0 +1,400 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="en-US">
+
+<head profile="http://gmpg.org/xfn/11">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="blogcatalog" content="9BC9094820" />
+
+<title></title>
+<link rel="shortcut icon" href="http://www.w3avenue.com/wp-content/themes/w3avenueV1/images/favicon.ico" />
+
+<link rel="stylesheet" href="http://www.w3avenue.com/wp-content/themes/w3avenueV1/style.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="http://www.w3avenue.com/wp-content/themes/w3avenueV1/wp-style.css" type="text/css" media="screen" />
+
+<link rel="alternate" type="application/rss+xml" title="W3Avenue RSS Feed" href="http://www.w3avenue.com/feed/" />
+<link rel="alternate" type="application/atom+xml" title="W3Avenue Atom Feed" href="http://www.w3avenue.com/feed/atom/" />
+<link rel="pingback" href="http://www.w3avenue.com/xmlrpc.php" />
+
+<script language="JavaScript" src="http://www.w3avenue.com/wp-content/themes/w3avenueV1/CSS.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+<!--- HIDE FROM OLD BROWSERS
+
+// PRELOAD ROLLOVER IMAGES
+var im1 = new Image(280,35);
+im1.src = "http://www.w3avenue.com/wp-content/themes/w3avenueV1/images/tab-curve-left-hover.gif"
+var im2 = new Image(20,35);
+im2.src = "http://www.w3avenue.com/wp-content/themes/w3avenueV1/images/tab-curve-right-hover.gif"
+
+var im3 = new Image(150,30);
+im3.src = "http://www.w3avenue.com/wp-content/themes/w3avenueV1/images/more-link-hover.gif"
+
+var im17 = new Image(30,20);
+im17.src = "http://www.w3avenue.com/wp-content/themes/w3avenueV1/images/switch-view-grid-hover.gif"
+var im18 = new Image(30,20);
+im18.src = "http://www.w3avenue.com/wp-content/themes/w3avenueV1/images/switch-view-list-hover.gif"
+
+var im19 = new Image(142,20);
+im19.src = "http://www.w3avenue.com/wp-content/themes/w3avenueV1/images/navigation-left-hover.gif"
+var im20 = new Image(7,20);
+im20.src = "http://www.w3avenue.com/wp-content/themes/w3avenueV1/images/navigation-right-hover.gif"
+// END HIDING -->
+</script>
+
+
+
+<link rel='stylesheet' id='contact-form-7-css'  href='http://www.w3avenue.com/wp-content/plugins/contact-form-7/styles.css?ver=2.4.2' type='text/css' media='all' />
+<link rel='stylesheet' id='wp-pagenavi-css'  href='http://www.w3avenue.com/wp-content/themes/w3avenueV1/pagenavi-css.css?ver=2.70' type='text/css' media='all' />
+<script type='text/javascript' src='http://www.w3avenue.com/wp-includes/js/jquery/jquery.js?ver=1.4.2'></script>
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://www.w3avenue.com/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://www.w3avenue.com/wp-includes/wlwmanifest.xml" /> 
+<link rel='index' title='W3Avenue' href='http://www.w3avenue.com/' />
+<meta name="generator" content="WordPress 3.0.1" />
+
+<!-- All in One SEO Pack 1.6.12.2 by Michael Torbert of Semper Fi Web Design[350,440] -->
+<!-- /all in one seo pack -->
+<meta id="syntaxhighlighteranchor" name="syntaxhighlighter-version" content="3.1.0" />
+</head>
+<body>
+<!-- BuySellAds.com Ad Code -->
+<script type="text/javascript">
+(function(){
+  var bsa = document.createElement('script');
+     bsa.type = 'text/javascript';
+     bsa.setAttribute('async', 'true');
+     bsa.src = '//s3.buysellads.com/ac/bsa.js';
+  (document.getElementsByTagName('head')[0]||document.getElementsByTagName('body')[0]).appendChild(bsa);
+})();
+</script>
+<!-- END BuySellAds.com Ad Code -->
+<!-- START Google Analytics Code -->
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-2496451-7']);
+  _gaq.push(['_setDomainName', '.w3avenue.com']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+<!-- END Google Analytics Code -->
+<div id="header">
+    <div id="tabmenubar">
+        <ul>
+                <li class="cat-item"><a href="http://www.w3avenue.com"><span>Home</span></a></li>
+                	<li class="cat-item cat-item-1"><a href="http://www.w3avenue.com/topics/articles/" title="View all posts filed under Articles"><span>Articles</span></a>
+</li>
+	<li class="cat-item cat-item-505"><a href="http://www.w3avenue.com/topics/code/" title="View all posts filed under Code"><span>Code</span></a>
+</li>
+	<li class="cat-item cat-item-3"><a href="http://www.w3avenue.com/topics/components/" title="View all posts filed under Components"><span>Components</span></a>
+</li>
+	<li class="cat-item cat-item-196"><a href="http://www.w3avenue.com/topics/design/" title="View all posts filed under Design"><span>Design</span></a>
+</li>
+	<li class="cat-item cat-item-10"><a href="http://www.w3avenue.com/topics/libraries-frameworks/" title="View all posts filed under Libraries/Frameworks"><span>Libraries/Frameworks</span></a>
+</li>
+	<li class="cat-item cat-item-6"><a href="http://www.w3avenue.com/topics/sites/" title="View all posts filed under Sites"><span>Sites</span></a>
+</li>
+	<li class="cat-item cat-item-7"><a href="http://www.w3avenue.com/topics/software/" title="View all posts filed under Software"><span>Software</span></a>
+</li>
+	<li class="cat-item cat-item-8"><a href="http://www.w3avenue.com/topics/tools/" title="View all posts filed under Tools"><span>Tools</span></a>
+</li>
+        </ul>
+    </div>
+    <div id="logo" style="padding-left:35px;"><h1><a href="http://www.w3avenue.com" title="W3Avenue - Advice &amp; Resources For Rapid Web Development">W3Avenue</a></h1></div>
+    <div style="float:right;width:390px;padding-top:60px;padding-right:20px;padding-left:20px;">
+        <form method="get" action="http://www.w3avenue.com/" id="searchform">
+<input type="text" value="" name="s" id="s" />
+<input type="submit" id="searchsubmit" value="Search" />
+<!--
+<input type="image" name="search" src="http://www.w3avenue.com/wp-content/themes/w3avenueV1/images/button_search.gif" id="searchsubmit" width="100" height="30" border="0" alt="Search" />
+-->
+</form>
+    </div>
+</div>
+<div id="containermask">
+    <div id="container">
+<div id="leftcolumnwrap">
+    <div id="leftcolumn">
+
+		<h1>Sorry - Not Found</h1>
+        <div class="clear-post-title">&nbsp;</div>
+
+
+
+
+    </div>
+</div>
+
+<div id="rightcolumn">
+
+    <div class="clear" style="height:35px;">&nbsp;</div>
+        <div id="subscribeforupdates">
+            <h4>Stay Updated, Subscribe to RSS Feed</h4>
+            <div class="rsslinks">
+              <a href="http://feeds2.feedburner.com/w3avenue" target="_blank">http://feeds2.feedburner.com/w3avenue</a>
+            </div>
+        </div>
+
+        <div class="clear" style="height:10px;">&nbsp;</div>
+        <div id="sponsorsbox">
+
+            <div style="padding:0px;display:block;clear:both;">
+                <!-- Private Zone Code -->
+                <a href="http://xhtml.pixelcrayons.com" target="_blank"><img style="display:block;margin:8px;border:7px #ccc solid; -moz-border-radius: 5px; -webkit-border-radius: 5px; border-radius: 5px; background: #ccc; float:left;clear:right;" src="http://marketing.pixelcrayons.com/banners/xhtml/125x125.jpg" alt="PSD to Xhtml" width="125" height="125" border="0" /></a>
+                <a href="http://themify.me/member/go.php?r=39&i=b2" target="_blank"><img style="display:block;margin:8px;border:7px #ccc solid; -moz-border-radius: 5px; -webkit-border-radius: 5px; border-radius: 5px; background: #ccc; float:left;clear:right;" src="http://themify.me/banners/themify-125x125_3.jpg" border=0 alt="Themify WordPress Themes" ></a>
+                <!-- Private Zone Code -->
+                <!-- BuySellAds.com Zone Code -->
+                <div id="bsap_1240084" class="bsarocks" rel="bbf639ccc6d3dcf8d072dd74973437a1"></div>
+                <!-- END BuySellAds.com Zone Code -->
+            </div>
+
+        </div>
+
+
+    <div class="clear" style="height:25px;">&nbsp;</div>
+
+
+
+
+    <div class="sidebarleftcolumn">
+        <h4>Featured Posts</h4>
+        <ul>
+            <li><a href="http://www.w3avenue.com/2010/06/30/tutorials-2010-june/">Useful Tutorials You Should Have Read in June</a></li>
+            <li><a href="http://www.w3avenue.com/2010/06/05/wordpress-30-features-every-theme-developer-should-know/">WordPress 3.0 Features Every Theme Developer Should Know</a></li>
+            <li><a href="http://www.w3avenue.com/2010/05/07/html5-unleashed-tips-tricks-and-techniques/">HTML5 Unleashed: Tips, Tricks and Techniques</a></li>
+            <li><a href="http://www.w3avenue.com/2010/04/16/improve-your-css-skills-with-pure-css-ui-components/">Improve Your CSS Skills With Pure CSS UI Components</a></li>
+            <li><a href="http://www.w3avenue.com/2010/04/09/list-of-really-useful-tools-for-css3-developers/">List of Really Useful Tools For CSS3 Developers</a></li>
+        </ul>
+        <div class="clear" style="height:25px;">&nbsp;</div>
+
+        <h4>Popular Posts</h4>
+        <ul><li><a href="http://www.w3avenue.com/2009/05/04/list-of-really-useful-tools-for-css-developers/" rel="bookmark" title="May 4, 2009">List of Really Useful Tools for CSS Developers</a></li>
+
+<li><a href="http://www.w3avenue.com/2009/08/26/really-useful-tools-for-php-developers/" rel="bookmark" title="August 26, 2009">Really Useful Tools For PHP Developers</a></li>
+
+<li><a href="http://www.w3avenue.com/2010/05/07/html5-unleashed-tips-tricks-and-techniques/" rel="bookmark" title="May 7, 2010">HTML5 Unleashed: Tips, Tricks and Techniques</a></li>
+
+<li><a href="http://www.w3avenue.com/2009/05/25/list-of-really-useful-javascript-libraries/" rel="bookmark" title="May 25, 2009">List of Really Useful JavaScript Libraries</a></li>
+
+<li><a href="http://www.w3avenue.com/2009/08/11/really-useful-classes-and-libraries-for-php-developers/" rel="bookmark" title="August 11, 2009">Really Useful Classes And Libraries For PHP Developers</a></li>
+
+<li><a href="http://www.w3avenue.com/2009/04/29/definitive-list-of-css-frameworks-pick-your-style/" rel="bookmark" title="April 29, 2009">Definitive List of CSS Frameworks &#8211; Pick Your Style</a></li>
+
+<li><a href="http://www.w3avenue.com/2009/06/22/css3-unleashed-tips-tricks-and-techniques/" rel="bookmark" title="June 22, 2009">CSS3 Unleashed: Tips, Tricks and Techniques</a></li>
+
+<li><a href="http://www.w3avenue.com/2010/02/03/guidelines-tools-and-resources-for-web-wireframing/" rel="bookmark" title="February 3, 2010">Guidelines, Tools and Resources For Web Wireframing</a></li>
+
+<li><a href="http://www.w3avenue.com/2009/07/14/free-pattern-and-texture-resources-for-web-designers/" rel="bookmark" title="July 14, 2009">Free Pattern and Texture Resources For Web Designers</a></li>
+
+<li><a href="http://www.w3avenue.com/2009/07/01/list-of-really-useful-plugins-for-jquery-developers/" rel="bookmark" title="July 1, 2009">List of Really Useful Plugins For jQuery Developers</a></li>
+
+<li><a href="http://www.w3avenue.com/2009/10/07/themes-and-plugins-for-extreme-wordpress-functionality/" rel="bookmark" title="October 7, 2009">Themes and Plugins For Extreme WordPress Functionality</a></li>
+
+<li><a href="http://www.w3avenue.com/2010/04/16/improve-your-css-skills-with-pure-css-ui-components/" rel="bookmark" title="April 16, 2010">Improve Your CSS Skills With Pure CSS UI Components</a></li>
+
+<li><a href="http://www.w3avenue.com/2009/04/01/guidelines-for-developing-your-own-css-framework/" rel="bookmark" title="April 1, 2009">Guidelines for Developing Your Own CSS Framework</a></li>
+
+<li><a href="http://www.w3avenue.com/2009/09/28/definitive-list-of-free-wordpress-theme-frameworks/" rel="bookmark" title="September 28, 2009">Definitive List of Free WordPress Theme Frameworks</a></li>
+
+<li><a href="http://www.w3avenue.com/2009/05/19/list-of-really-useful-free-tools-for-javascript-developers/" rel="bookmark" title="May 19, 2009">List of Really Useful Free Tools For JavaScript Developers</a></li>
+
+<li><a href="http://www.w3avenue.com/2009/07/28/list-of-really-useful-plugins-and-resources-for-mootools/" rel="bookmark" title="July 28, 2009">List of Really Useful Plugins and Resources For MooTools</a></li>
+
+<li><a href="http://www.w3avenue.com/2010/05/11/formee-css-framework-for-forms/" rel="bookmark" title="May 11, 2010">Formee: CSS Framework For Forms</a></li>
+
+<li><a href="http://www.w3avenue.com/2009/12/19/best-resources-to-find-free-stock-photos-for-web-designers/" rel="bookmark" title="December 19, 2009">Best Resources To Find Free Stock Photos For Web Designers</a></li>
+</ul><!-- popular Posts took 74.708 ms -->        <div class="clear" style="height:25px;">&nbsp;</div>
+    </div>
+    <div class="sidebarrightcolumn">
+        <h4>Components</h4>
+        <ul>
+        	<li class="cat-item cat-item-13"><a href="http://www.w3avenue.com/topics/components/date-time-calendar/" title="View all posts filed under Date/Time/Calendar">Date/Time/Calendar</a>
+</li>
+	<li class="cat-item cat-item-15"><a href="http://www.w3avenue.com/topics/components/form-file-folder/" title="View all posts filed under Form/File/Folder">Form/File/Folder</a>
+</li>
+	<li class="cat-item cat-item-16"><a href="http://www.w3avenue.com/topics/components/gallery-carousel-slider/" title="View all posts filed under Gallery/Carousel/Slider">Gallery/Carousel/Slider</a>
+</li>
+	<li class="cat-item cat-item-73"><a href="http://www.w3avenue.com/topics/components/graphscharts/" title="View all posts filed under Graphs/Charts/Maps">Graphs/Charts/Maps</a>
+</li>
+	<li class="cat-item cat-item-17"><a href="http://www.w3avenue.com/topics/components/image-media/" title="View all posts filed under Image/Media">Image/Media</a>
+</li>
+	<li class="cat-item cat-item-19"><a href="http://www.w3avenue.com/topics/components/menu-navigation/" title="View all posts filed under Menu/Navigation">Menu/Navigation</a>
+</li>
+	<li class="cat-item cat-item-67"><a href="http://www.w3avenue.com/topics/components/miscellaneous/" title="View all posts filed under Miscellaneous">Miscellaneous</a>
+</li>
+	<li class="cat-item cat-item-415"><a href="http://www.w3avenue.com/topics/components/social-media/" title="View all posts filed under Social Media">Social Media</a>
+</li>
+	<li class="cat-item cat-item-21"><a href="http://www.w3avenue.com/topics/components/tab-accordion/" title="View all posts filed under Tab/Accordion">Tab/Accordion</a>
+</li>
+	<li class="cat-item cat-item-20"><a href="http://www.w3avenue.com/topics/components/table-grid/" title="View all posts filed under Table/Grid">Table/Grid</a>
+</li>
+	<li class="cat-item cat-item-22"><a href="http://www.w3avenue.com/topics/components/window-popup-tooltip/" title="View all posts filed under Window/Popup/Tooltip">Window/Popup/Tooltip</a>
+</li>
+	<li class="cat-item cat-item-589"><a href="http://www.w3avenue.com/topics/components/wordpress-components/" title="View all posts filed under WordPress">WordPress</a>
+</li>
+        </ul>
+        <div class="clear" style="height:25px;">&nbsp;</div>
+
+        <h4>Special Updates</h4>
+        <ul>
+            <li><a href="http://www.w3avenue.com/topics/lists/">Roundups</a></li>
+            <li><a href="http://www.w3avenue.com/topics/updates/tutorials-updates/">Monthly Tutorials</a></li>
+        </ul>
+        <div class="clear" style="height:25px;">&nbsp;</div>
+
+        <h4>W3Avenue</h4>
+        <ul>
+            <li><a href="http://www.w3avenue.com/about-us/">About W3Avenue</a></li>
+            <li><a href="http://buysellads.com/buy/detail/9283">Advertise</a></li>
+            <li><a href="http://www.w3avenue.com/contact-us/">Contact W3Avenue</a></li>
+        </ul>
+        <div class="clear" style="height:25px;">&nbsp;</div>
+
+        <a href="http://twitter.com/w3avenue" target="_blank"><img src="http://www.w3avenue.com/wp-content/themes/w3avenueV1/images/twitter_link.png" width="160" height="155" border="0" alt="Follow Us on Twitter" /></a><br />
+        <div class="clear" style="height:10px;">&nbsp;</div>
+        <a href="http://feeds2.feedburner.com/w3avenue" target="_blank"><img src="http://www.w3avenue.com/wp-content/themes/w3avenueV1/images/rss_link.png" width="160" height="140" border="0" alt="Subscribe To Our RSS Feed" /></a><br />
+        <div class="clear" style="height:10px;">&nbsp;</div>
+        <a href="http://www.facebook.com/w3avenue" target="_blank"><img src="http://www.w3avenue.com/wp-content/themes/w3avenueV1/images/facebook_link.png" width="160" height="140" border="0" alt="Follow Us on Facebook" /></a><br />
+
+    </div>
+    <div class="clear" style="height:40px;">&nbsp;</div>
+
+<!-- BuySellAds.com Zone Code -->
+<div id="bsap_1248480" class="bsarocks bsap_bbf639ccc6d3dcf8d072dd74973437a1"></div>
+<!-- END BuySellAds.com Zone Code -->
+    <div class="clear" style="height:40px;">&nbsp;</div>
+
+    <div class="sidebarleftcolumn">
+
+        <h4>Recent Posts</h4>
+        <ul><li><a href="http://www.w3avenue.com/2010/08/04/tutorials-2010-july/" rel="bookmark" title="August 4, 2010">Really Useful Tutorials You Should Have Read in July 2010</a></li>
+
+<li><a href="http://www.w3avenue.com/2010/08/03/tubeplayer-jquery-plugin-for-youtube-player-api/" rel="bookmark" title="August 3, 2010">TubePlayer: jQuery Plugin For YouTube Player API</a></li>
+
+<li><a href="http://www.w3avenue.com/2010/07/26/jqueryrotate-cross-browser-image-rotation/" rel="bookmark" title="July 26, 2010">jQueryRotate: Cross Browser Image Rotation</a></li>
+
+<li><a href="http://www.w3avenue.com/2010/07/23/pines-notify-jquery-plugin/" rel="bookmark" title="July 23, 2010">Pines Notify jQuery Plugin</a></li>
+
+<li><a href="http://www.w3avenue.com/2010/07/19/aloha-the-html5-editor/" rel="bookmark" title="July 19, 2010">Aloha: The HTML5 Editor</a></li>
+
+<li><a href="http://www.w3avenue.com/2010/07/16/css3-properties-in-ie-with-pie/" rel="bookmark" title="July 16, 2010">CSS3 Properties in IE With PIE</a></li>
+
+<li><a href="http://www.w3avenue.com/2010/07/14/cleditor-wysiwyg-html-editor-jquery-plugin/" rel="bookmark" title="July 14, 2010">CLEditor: WYSIWYG HTML Editor jQuery Plugin</a></li>
+
+<li><a href="http://www.w3avenue.com/2010/07/11/cms-tree-page-view-plugin-for-wordpress/" rel="bookmark" title="July 11, 2010">CMS Tree Page View Plugin For WordPress</a></li>
+
+<li><a href="http://www.w3avenue.com/2010/07/07/quizzy-creates-ajax-and-xml-based-quizzes/" rel="bookmark" title="July 7, 2010">Quizzy: Creates AJAX and XML Based Quizzes</a></li>
+
+<li><a href="http://www.w3avenue.com/2010/07/06/less-css-for-net/" rel="bookmark" title="July 6, 2010">LESS CSS For .NET</a></li>
+</ul><!-- Recent Posts took 28.052 ms -->        <div class="clear" style="height:25px;">&nbsp;</div>
+
+        <h4>Share/Bookmark</h4>
+        <div style="border-left:1px solid #f0f0f0;border-right:1px solid #f0f0f0;border-bottom:1px solid #f0f0f0;padding:10px;">
+            <p style="line-height:150%;">If you like W3Avenue, you can support us by bookmarking and sharing its link on your favorite sites:</p>
+            <div class="clear" style="height:5px;">&nbsp;</div>
+            <a href="http://del.icio.us/post?url=http://www.w3avenue.com&title=W3Avenue - Advice &amp; Resources For Rapid Web Development" target="_blank"><img src="http://www.w3avenue.com/wp-content/themes/w3avenueV1/images/promo_badge_delicious.png" width="150" height="35" border="0" alt="Add This Blog To Delicious Bookmarks" /></a><br />
+            <div class="clear" style="height:5px;">&nbsp;</div>
+            <a href="http://www.stumbleupon.com/submit?url=http://www.w3avenue.com&title=W3Avenue - Advice &amp; Resources For Rapid Web Development" target="_blank"><img src="http://www.w3avenue.com/wp-content/themes/w3avenueV1/images/promo_badge_stumbleupon.png" width="150" height="35" border="0" alt="Thumb Up WeAvenue On StumbleUpon" /></a><br />
+            <div class="clear" style="height:5px;">&nbsp;</div>
+            <a href="http://www.reddit.com/submit?url=http://www.w3avenue.com/" target="_blank"><img src="http://www.w3avenue.com/wp-content/themes/w3avenueV1/images/promo_badge_reddit.png" width="150" height="35" border="0" alt="Reddit" /></a><br />
+            <div class="clear" style="height:5px;">&nbsp;</div>
+            <a href="http://technorati.com/faves?sub=addfavbtn&amp;add=http://www.w3avenue.com" target="_blank"><img src="http://www.w3avenue.com/wp-content/themes/w3avenueV1/images/promo_badge_technorati.png" width="150" height="35" border="0" alt="Add This Blog To Technorati Favorites" /></a><br />
+        </div>
+        <div class="clear" style="height:25px;">&nbsp;</div>
+
+
+
+
+    </div>
+    <div class="sidebarrightcolumn">
+
+        <h4>Blogroll</h4>
+	<ul class='xoxo blogroll'>
+<li><a href="http://www.admixweb.com/" rel="friend" target="_blank">AdmixWeb</a></li>
+<li><a href="http://aext.net/" rel="friend" target="_blank">Aext.Net</a></li>
+<li><a href="http://briancray.com/" rel="friend" target="_blank">Brian Cray</a></li>
+<li><a href="http://designinformer.com/" target="_blank">Design Informer</a></li>
+<li><a href="http://designrfix.com/" rel="friend" target="_blank">Designrfix</a></li>
+<li><a href="http://blogof.francescomugnai.com/" rel="friend" target="_blank">FrancescoMugnai</a></li>
+<li><a href="http://www.marcofolio.net/" rel="friend" target="_blank">Marcofolio</a></li>
+<li><a href="http://www.moretechtips.net/" rel="friend" target="_blank">More Tech Tips</a></li>
+<li><a href="http://www.onextrapixel.com/" rel="friend" target="_blank">Onextrapixel</a></li>
+<li><a href="http://www.pvmgarage.com/en/" rel="friend" target="_blank">PV.M Garage</a></li>
+<li><a href="http://sharebrain.info/" rel="friend" target="_blank">Sharebrain</a></li>
+<li><a href="http://www.smashingmagazine.com/" target="_blank">Smashing Magazine</a></li>
+<li><a href="http://www.splashnology.com/" rel="friend" target="_blank">Splashnology</a></li>
+<li><a href="http://spyrestudios.com/" rel="friend" target="_blank">Spyre Studios</a></li>
+<li><a href="http://www.vectorsonfire.com/" rel="friend" target="_blank">Vectors On Fire</a></li>
+
+	</ul>
+
+        <div class="clear" style="height:25px;">&nbsp;</div>
+
+        <h4>Sponsored Links</h4>
+        <ul>
+<li><a href="http://www.downloadsquad.com/2010/06/05/facebook-privacy-app-from-reputationdefender-changes-your-settin/">  <b>ReputationDefender</b>  </a></li>
+<li><a href="http://bio.parkwestgallery.com/post/Looking-Forward-to-Joining-Park-West-at-Sea-July-2009">  <b>Park West at Sea</b>  </a></li>
+<li><a href="http://www.campaignmoney.com/political/contributions/daniel-straus.asp?cycle=06">  <b>Daniel E. Straus</b>  </a></li>
+<li><a href="http://www.mahalo.com/stephen-dent">  <b>Stephen Dent</b>  </a></li>
+<li><a href="http://mrwavetheory.blogspot.com/2006/10/goldman-sachs-newly-rich-partners-list.html">  <b>Richard Kimball Goldman Sachs</b>  </a></li>
+<li><a href="http://www.usa-people-search.com/Find-Brian-Johnson-Sarasota-FL.aspx">  <b>Bryan Brewer</b>  </a></li>
+<li><a href="http://institutional.fisherinvestments.com/">  <b>Fisher Investments</b>  </a></li>
+        <li>
+<script type="text/javascript">/* <![CDATA[ */
+function affiliateLink(str){ str = unescape(str); var r = ''; for(var i = 0; i < str.length; i++) r += String.fromCharCode(5^str.charCodeAt(i)); document.write(r); }
+affiliateLink('9d%25mw%60c8%27mqqu%3F**rrr+q%60%7Dq%28ilkn%28dav+fjh*%3Aw%60c873%3D%3D41%27%3BGp%7C%25Ilknv9*d%3B');
+/* ]]> */
+</script>
+        </li>
+        </ul>
+        <div class="clear" style="height:25px;">&nbsp;</div>
+
+    </div>
+    <div class="clear" style="height:25px;">&nbsp;</div>
+
+    <div class="sidebarfullbox">
+    </div>
+    <div class="clear" style="height:25px;">&nbsp;</div>
+
+</div>
+
+    </div>
+</div> 
+<div id="footer">
+	<div id="footerwrap">
+            <div class="copyrightfooter">
+        		<small>
+                    Copyright &copy;&nbsp;
+                </small>
+            </div>
+            <div class="logofooter"><b>w3avenue</b></div>
+            <div class="copyrightfooter">
+        		<small>
+                    &nbsp;For Further Information:
+                </small>
+            </div>
+            <div id="menufooter">
+                <ul>
+                    <li><a href="http://www.w3avenue.com/contact-us/">Contact Us</a></li>
+                    <li><a href="http://buysellads.com/buy/detail/9283">Advertise</a></li>
+                    <li><a href="http://www.w3avenue.com/about-us/">About Us</a></li>
+                </ul>
+            </div>
+    		<!-- 40 queries. 1.941 seconds. -->
+
+        <div class="clear" style="height:15px;">&nbsp;</div>
+	</div>
+    <div class="clear" style="height:30px;">&nbsp;</div>
+</div>
+
+
+
+<script type='text/javascript' src='http://www.w3avenue.com/wp-content/plugins/contact-form-7/jquery.form.js?ver=2.47'></script>
+<script type='text/javascript' src='http://www.w3avenue.com/wp-content/plugins/contact-form-7/scripts.js?ver=2.4.2'></script>
+</body>
+</html>
