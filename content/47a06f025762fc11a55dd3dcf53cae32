@@ -208,7 +208,7 @@ im20.src = "http://www.w3avenue.com/wp-content/themes/w3avenueV1/images/navigati
 <li><a href="http://www.w3avenue.com/2010/05/11/formee-css-framework-for-forms/" rel="bookmark" title="May 11, 2010">Formee: CSS Framework For Forms</a></li>
 
 <li><a href="http://www.w3avenue.com/2009/12/19/best-resources-to-find-free-stock-photos-for-web-designers/" rel="bookmark" title="December 19, 2009">Best Resources To Find Free Stock Photos For Web Designers</a></li>
-</ul><!-- popular Posts took 74.708 ms -->        <div class="clear" style="height:25px;">&nbsp;</div>
+</ul><!-- popular Posts took 75.707 ms -->        <div class="clear" style="height:25px;">&nbsp;</div>
     </div>
     <div class="sidebarrightcolumn">
         <h4>Components</h4>
@@ -291,7 +291,7 @@ im20.src = "http://www.w3avenue.com/wp-content/themes/w3avenueV1/images/navigati
 <li><a href="http://www.w3avenue.com/2010/07/07/quizzy-creates-ajax-and-xml-based-quizzes/" rel="bookmark" title="July 7, 2010">Quizzy: Creates AJAX and XML Based Quizzes</a></li>
 
 <li><a href="http://www.w3avenue.com/2010/07/06/less-css-for-net/" rel="bookmark" title="July 6, 2010">LESS CSS For .NET</a></li>
-</ul><!-- Recent Posts took 28.052 ms -->        <div class="clear" style="height:25px;">&nbsp;</div>
+</ul><!-- Recent Posts took 24.543 ms -->        <div class="clear" style="height:25px;">&nbsp;</div>
 
         <h4>Share/Bookmark</h4>
         <div style="border-left:1px solid #f0f0f0;border-right:1px solid #f0f0f0;border-bottom:1px solid #f0f0f0;padding:10px;">
@@ -385,7 +385,7 @@ affiliateLink('9d%25mw%60c8%27mqqu%3F**rrr+q%60%7Dq%28ilkn%28dav+fjh*%3Aw%60c873
                     <li><a href="http://www.w3avenue.com/about-us/">About Us</a></li>
                 </ul>
             </div>
-    		<!-- 40 queries. 1.941 seconds. -->
+    		<!-- 40 queries. 1.386 seconds. -->
 
         <div class="clear" style="height:15px;">&nbsp;</div>
 	</div>
