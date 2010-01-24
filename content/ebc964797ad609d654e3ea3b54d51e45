@@ -1,0 +1,622 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html
+        PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>Subversion, Git &amp; Mercurial Hosting, Project Tracking, Trac Hosting &amp; Agile Tools </title>
+
+    <meta name="description" content="Subversion, Git &amp; Mercurial Hosting, Project Tracking, Trac Hosting &amp; Agile Tools "/>
+    <meta name="keywords" content="Subversion Hosting, SVN Hosting, Trac Hosting, Hosted SVN, Hosted Trac" />
+
+    <link rel="stylesheet" href="http://static.xp-dev.com/styles/screen.css?v=6.16.1" type="text/css" media="screen, projection"/>
+    <link rel="stylesheet" href="http://static.xp-dev.com/styles/print.css?v=6.16.1" type="text/css" media="print"/>
+    <!--[if IE]><link rel="stylesheet" href="http://static.xp-dev.com/styles/ie.css?v=6.16.1" type="text/css" media="screen, projection"><![endif]-->
+
+    <link rel="stylesheet" href="http://static.xp-dev.com/styles/main.css?v=6.16.1" type="text/css"/>
+    <link rel="stylesheet" href="http://static.xp-dev.com/styles/frontpage.css?v=6.16.1" type="text/css" media="screen, projection"/>
+
+<script type="text/javascript"><!--/*--><![CDATA[/*><!--*/
+window.google_analytics_uacct = "UA-8189759-6";
+/*-->]]>*/</script>
+
+        <link rel="stylesheet" href="http://static.xp-dev.com/styles/pricing.css?v=6.16.1" type="text/css"/>
+    </head>
+<body>
+
+
+
+<div class="container">
+    <div id="topOptions" class="span-24 last">
+        <div class="span-9">
+            <a href="/"><img src="http://static.xp-dev.com/media/logo2.png?v=6.16.1" alt="XP-Dev.com"/></a>
+        </div>
+        <div id="topNavigation" class="span-15 last center">
+            <a href="./" class="selectedNavigation">Home</a>
+            <a href="features">Features</a>
+            <a href="pricing">Pricing</a>
+            <a href="blogs/1">Blog</a>
+            <a href="support/">Support</a>
+            <a href="http://docs.xp-dev.com/legal/about.html">About</a>
+            <a href="login">Login</a>
+        </div>
+    </div>
+</div>
+
+<div id="banner">
+    <div id="bannertop">&nbsp;</div>
+    <div id="bannerinner">
+        <h1>XP-Dev.com</h1>
+        <h2>Enterprise Subversion, Git &amp; Mercurial Hosting for Peanuts</h2>
+    </div>
+    <div id="bannerbottom">&nbsp;</div>
+</div>
+
+<div id="infoContainer" class="container">
+    <div class="span-24">
+        <div id="infoTelephone" class="span-8">
+            <div class="infoHeader">Inquries/Questions about our services ?</div>
+            <div>
+                <img src="http://static.xp-dev.com/media/phone_35.png?v=6.16.1" style="float:left;margin-right:5px;" alt=""/>
+                Call us: <strong>0208 1444 014</strong><br/>
+                <span id="intlTelephone">Intl: +44 208 1444 014</span>
+            </div>
+        </div>
+        <div class="prepend-1 span-15 last">
+            <div class="infoHeader" style="text-align:center">Keep in touch with <a href="/">XP-Dev.com</a></div>
+            <div class="span-4">
+                <a href="http://twitter.com/xpdev" target="_blank"><img style="float:left;" src="http://static.xp-dev.com/media/tweet_small.gif?v=6.16.1" alt=""/></a>
+                <strong>Twitter</strong><br />
+                <a href="http://twitter.com/xpdev" target="_blank">@xpdev</a>
+            </div>
+            <div class="span-6">
+                <a href="http://lists.exentriquesolutions.com/listinfo/xp-dev-newsletter" target="_blank"><img style="float:left;margin-right:5px;" src="http://static.xp-dev.com/media/mail_35.png?v=6.16.1" alt=""/></a>
+                <strong>Bi-weekly Newsletter</strong><br />
+                <a href="http://lists.exentriquesolutions.com/listinfo/xp-dev-newsletter" target="_blank">Subscribe</a>
+            </div>
+            <div class="span-5 last">
+                <a href="http://www.xp-dev.com/publicfeed/blogs/1" target="_blank"><img style="float:left;" src="http://static.xp-dev.com/media/rss_35.jpg?v=6.16.1" alt=""/></a>
+                <strong>Blog Newsfeed</strong><br />
+                <a href="http://www.xp-dev.com/publicfeed/blogs/1" target="_blank">Latest Blog Entries</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="wrapperContainer" class="container">
+
+    <div id="mainContainer" class="container">
+        <div class="prepend-2 append-2">
+            
+    <div id="frontDesc" class="span-20">
+        <p class="center">
+            XP-Dev.com provides Enterprise grade FREE and commercial<br />
+            Subversion, Git &amp; Mercurial Hosting integrated with Trac Hosting &amp; Project Tracking<br />
+            for Open Source and Proprietary projects
+        </p>
+    </div>
+
+    <div id="frontSmallDesc" class="span-20">
+        <p class="center">
+            Thousands of entrepreneurs, software developers &amp; vendors use <br />XP-Dev.com daily
+            to collaborate on projects and create better quality products
+        </p>
+        <p class="center">
+            XP-Dev.com respects the <a href="http://docs.xp-dev.com/legal/privacy-statement.html">privacy of your data</a>
+            and <br />makes a huge effort to ensure your data is <a href="features">secure</a> and <a href="features/backups">safe</a>
+        </p>
+    </div>
+
+    <p id="jumpNavi" class="center">
+       <a href="#FeatureHighlights">&darr; Feature Highlights</a>
+       <a href="#PricingPlans">&darr; Pricing Plans</a>
+       <a href="#GetStarted">&darr; Getting Started</a>
+    </p>
+
+    <div id="FeatureHighlights"class="span-20 center">
+        <h2>Feature Highlights</h2>
+    </div>
+
+
+    <div id="svn" class="span-20 last featurebox">
+        <div class="span-5">
+            <h3>Subversion, Git &amp; Mercurial Hosting</h3>
+        </div>
+
+        <div class="span-9">
+            <ul>
+                <li>Webhooks</li>
+                <li>Commit e-mails</li>
+                <li>Secure SSL access</li>
+                <li>Real-time and nightly off-site backups</li>
+                <li>Migrate easily to/from another provider</li>
+                <li>Direct File Hosting using Jekyll</li>
+                <li>WebDAV enabled</li>
+                <li>Online repository browser</li>
+                <li>
+                    Integration with <a target="_blank" href="http://www.basecamphq.com/">Basecamp</a>,
+                    <a target="_blank" href="http://www.fogcreek.com/FogBUGZ/">FogBugz</a>,
+                    <a target="_blank" href="http://lighthouseapp.com/">Lighthouse</a>,
+                    <a target="_blank" href="http://getdonedone.com/">DoneDone</a>,
+                    <a target="_blank" href="http://hedgehoglab.com/products/fixx/">Fixx</a>
+                    and <a target="_blank" href="http://twitter.com">Twitter</a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="span-6 last">
+            <a class="screen" href="features"><img src="http://screens.xp-dev.com/210/svn8.png" alt="" /></a>
+        </div>
+    </div>
+
+    <div id="pm" class="span-20 last featurebox">
+        <div class="span-5">
+            <h3>Project Management</h3>
+        </div>
+
+        <div class="span-9">
+            <ul>
+                <li>Project tracking: Iterations, Stories, Tasks and Bugs</li>
+                <li>Custom filters for bugs and stories</li>
+                <li>Burndown and velocity charts</li>
+                <li>Secure SSL access</li>
+                <li>Wiki Pages</li>
+                <li>Forums</li>
+                <li>Blogs</li>
+                <li>File Attachments</li>
+                <li>Link Subversion Commits to Stories, Tasks and Bugs</li>
+            </ul>
+        </div>
+        <div class="span-6 last">
+            <a class="screen" href="features"><img src="http://screens.xp-dev.com/210/pm3.png" alt=""/></a>
+        </div>
+    </div>
+
+
+    <div id="trac" class="span-20 last featurebox">
+        <div class="span-5">
+            <h3>Trac Hosting</h3>
+        </div>
+
+        <div class="span-9">
+            <ul>
+                <li>Fast, secure <a href="http://docs.xp-dev.com/user-guide/trac.html">Trac</a> projects</li>
+                <li>Link Subversion commits to <a href="http://docs.xp-dev.com/user-guide/trac.html">Trac</a> tickets</li>
+                <li>Change <a href="http://docs.xp-dev.com/user-guide/trac.html">Trac</a> ticket states directly from commit messages</li>
+                <li>Manage user permissions with ease</li>
+                <li>Tons of plugins enabled and ready to use</li>
+            </ul>
+        </div>
+
+        <div class="span-6 last">
+            <a class="screen" href="features"><img src="http://screens.xp-dev.com/210/trac1.png" alt="" /></a>
+        </div>
+    </div>
+
+    <div id="infra" class="span-20 last featurebox">
+        <div class="span-5">
+            <h3>Infrastructure</h3>
+        </div>
+
+        <div class="span-7">
+            <ul>
+                <li>Fast, secure datacentres</li>
+                <li>Backups on redundant, independent datacentres</li>
+            </ul>
+        </div>
+
+        <div class="span-8 last">
+            <ul>
+                <li><strong>All data hosted on dedicated servers with encrypted hard drives</strong></li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="span-20 moreinfo">
+        <p class="center">
+            <a href="features">Explore the Complete List of Features</a>
+        </p>
+        <p class="center">or</p>
+        <p class="center">
+            <a href="#GetStarted">Get Started by creating a FREE account!</a>
+        </p>
+    </div>
+
+    <div id="PricingPlans" class="span-20 center">
+        <h2>Pricing Plans</h2>
+    </div>
+
+    
+
+    <div class="span-20">
+        <table class="pricingTable">
+            <tr>
+                <th class="firstCol">Subscription Plan</th>
+                <th class="free plan0">Free</th>
+                <th class="pro plan1">Pro<br />Small</th>
+                <th class="pro plan2">Pro<br />Medium</th>
+                <th class="pro plan3">Pro<br />Large</th>
+                <th class="enterprise plan4">Enterprise<br />Small</th>
+                <th class="enterprise plan5">Enterprise<br />Medium</th>
+                <th class="enterprise plan6">Enterprise<br />Large</th>
+            </tr>
+            <tr class="noTop sizes">
+                <td class="firstCol">Space</td>
+                <td class="free plan0">200MB</td><td class="pro plan1">1GB</td><td class="pro plan2">4GB</td><td class="pro plan3">10GB</td><td class="enterprise plan4">20GB</td><td class="enterprise plan5">40GB</td><td class="enterprise plan6">100GB</td>
+            </tr>
+            <tr>
+                <td class="firstCol">Private Projects</td>
+                <td class="free plan0">2</td><td class="pro plan1">Unlimited</td><td class="pro plan2">Unlimited</td><td class="pro plan3">Unlimited</td><td class="enterprise plan4">Unlimited</td><td class="enterprise plan5">Unlimited</td><td class="enterprise plan6">Unlimited</td>
+            </tr>
+            <tr>
+                <td class="firstCol">Public Projects</td>
+                <td class="free plan0">Unlimited</td><td class="pro plan1">Unlimited</td><td class="pro plan2">Unlimited</td><td class="pro plan3">Unlimited</td><td class="enterprise plan4">Unlimited</td><td class="enterprise plan5">Unlimited</td><td class="enterprise plan6">Unlimited</td>
+            </tr>
+            <tr>
+                <td class="firstCol">Users</td>
+                <td class="free plan0">Unlimited</td><td class="pro plan1">Unlimited</td><td class="pro plan2">Unlimited</td><td class="pro plan3">Unlimited</td><td class="enterprise plan4">Unlimited</td><td class="enterprise plan5">Unlimited</td><td class="enterprise plan6">Unlimited</td>
+            </tr>
+            <tr>
+                <td class="firstCol">Git Hosting</td>
+                <td class="free plan0"><img src="http://static.xp-dev.com/media/no.png?v=6.16.1"/></td><td class="pro plan1"><img src="http://static.xp-dev.com/media/yes.png?v=6.16.1"/></td><td class="pro plan2"><img src="http://static.xp-dev.com/media/yes.png?v=6.16.1"/></td><td class="pro plan3"><img src="http://static.xp-dev.com/media/yes.png?v=6.16.1"/></td><td class="enterprise plan4"><img src="http://static.xp-dev.com/media/yes.png?v=6.16.1"/></td><td class="enterprise plan5"><img src="http://static.xp-dev.com/media/yes.png?v=6.16.1"/></td><td class="enterprise plan6"><img src="http://static.xp-dev.com/media/yes.png?v=6.16.1"/></td>
+            </tr>
+            <tr>
+                <td class="firstCol">Mercurial Hosting</td>
+                <td class="free plan0"><img src="http://static.xp-dev.com/media/no.png?v=6.16.1"/></td><td class="pro plan1"><img src="http://static.xp-dev.com/media/yes.png?v=6.16.1"/></td><td class="pro plan2"><img src="http://static.xp-dev.com/media/yes.png?v=6.16.1"/></td><td class="pro plan3"><img src="http://static.xp-dev.com/media/yes.png?v=6.16.1"/></td><td class="enterprise plan4"><img src="http://static.xp-dev.com/media/yes.png?v=6.16.1"/></td><td class="enterprise plan5"><img src="http://static.xp-dev.com/media/yes.png?v=6.16.1"/></td><td class="enterprise plan6"><img src="http://static.xp-dev.com/media/yes.png?v=6.16.1"/></td>
+            </tr>
+            <tr>
+                <td class="firstCol">Subversion Hosting</td>
+                <td class="free plan0"><img src="http://static.xp-dev.com/media/yes.png?v=6.16.1"/></td><td class="pro plan1"><img src="http://static.xp-dev.com/media/yes.png?v=6.16.1"/></td><td class="pro plan2"><img src="http://static.xp-dev.com/media/yes.png?v=6.16.1"/></td><td class="pro plan3"><img src="http://static.xp-dev.com/media/yes.png?v=6.16.1"/></td><td class="enterprise plan4"><img src="http://static.xp-dev.com/media/yes.png?v=6.16.1"/></td><td class="enterprise plan5"><img src="http://static.xp-dev.com/media/yes.png?v=6.16.1"/></td><td class="enterprise plan6"><img src="http://static.xp-dev.com/media/yes.png?v=6.16.1"/></td>
+            </tr>
+            <tr>
+                <td class="firstCol">SSL Access (secure)</td>
+                <td class="free plan0"><img src="http://static.xp-dev.com/media/no.png?v=6.16.1"/></td><td class="pro plan1"><img src="http://static.xp-dev.com/media/yes.png?v=6.16.1"/></td><td class="pro plan2"><img src="http://static.xp-dev.com/media/yes.png?v=6.16.1"/></td><td class="pro plan3"><img src="http://static.xp-dev.com/media/yes.png?v=6.16.1"/></td><td class="enterprise plan4"><img src="http://static.xp-dev.com/media/yes.png?v=6.16.1"/></td><td class="enterprise plan5"><img src="http://static.xp-dev.com/media/yes.png?v=6.16.1"/></td><td class="enterprise plan6"><img src="http://static.xp-dev.com/media/yes.png?v=6.16.1"/></td>
+            </tr>
+            <tr>
+                <td class="firstCol">WebDAV*</td>
+                <td class="free plan0"><img src="http://static.xp-dev.com/media/no.png?v=6.16.1"/></td><td class="pro plan1"><img src="http://static.xp-dev.com/media/yes.png?v=6.16.1"/></td><td class="pro plan2"><img src="http://static.xp-dev.com/media/yes.png?v=6.16.1"/></td><td class="pro plan3"><img src="http://static.xp-dev.com/media/yes.png?v=6.16.1"/></td><td class="enterprise plan4"><img src="http://static.xp-dev.com/media/yes.png?v=6.16.1"/></td><td class="enterprise plan5"><img src="http://static.xp-dev.com/media/yes.png?v=6.16.1"/></td><td class="enterprise plan6"><img src="http://static.xp-dev.com/media/yes.png?v=6.16.1"/></td>
+            </tr>
+            <tr>
+                <td class="firstCol">Advertisement Free</td>
+                <td class="free plan0"><img src="http://static.xp-dev.com/media/no.png?v=6.16.1"/></td><td class="pro plan1"><img src="http://static.xp-dev.com/media/yes.png?v=6.16.1"/></td><td class="pro plan2"><img src="http://static.xp-dev.com/media/yes.png?v=6.16.1"/></td><td class="pro plan3"><img src="http://static.xp-dev.com/media/yes.png?v=6.16.1"/></td><td class="enterprise plan4"><img src="http://static.xp-dev.com/media/yes.png?v=6.16.1"/></td><td class="enterprise plan5"><img src="http://static.xp-dev.com/media/yes.png?v=6.16.1"/></td><td class="enterprise plan6"><img src="http://static.xp-dev.com/media/yes.png?v=6.16.1"/></td>
+            </tr>
+            <tr>
+                <td class="firstCol">Real-time Backups</td>
+                <td class="free plan0"><img src="http://static.xp-dev.com/media/no.png?v=6.16.1"/></td><td class="pro plan1"><img src="http://static.xp-dev.com/media/yes.png?v=6.16.1"/></td><td class="pro plan2"><img src="http://static.xp-dev.com/media/yes.png?v=6.16.1"/></td><td class="pro plan3"><img src="http://static.xp-dev.com/media/yes.png?v=6.16.1"/></td><td class="enterprise plan4"><img src="http://static.xp-dev.com/media/yes.png?v=6.16.1"/></td><td class="enterprise plan5"><img src="http://static.xp-dev.com/media/yes.png?v=6.16.1"/></td><td class="enterprise plan6"><img src="http://static.xp-dev.com/media/yes.png?v=6.16.1"/></td>
+            </tr>
+            <tr>
+                <td class="firstCol">Nightly Off-site Encrypted Backups</td>
+                <td class="free plan0"><img src="http://static.xp-dev.com/media/no.png?v=6.16.1"/></td><td class="pro plan1"><img src="http://static.xp-dev.com/media/yes.png?v=6.16.1"/></td><td class="pro plan2"><img src="http://static.xp-dev.com/media/yes.png?v=6.16.1"/></td><td class="pro plan3"><img src="http://static.xp-dev.com/media/yes.png?v=6.16.1"/></td><td class="enterprise plan4"><img src="http://static.xp-dev.com/media/yes.png?v=6.16.1"/></td><td class="enterprise plan5"><img src="http://static.xp-dev.com/media/yes.png?v=6.16.1"/></td><td class="enterprise plan6"><img src="http://static.xp-dev.com/media/yes.png?v=6.16.1"/></td>
+            </tr>
+            <tr>
+                <td class="firstCol">Bug Tracking</td>
+                <td class="free plan0"><img src="http://static.xp-dev.com/media/yes.png?v=6.16.1"/></td><td class="pro plan1"><img src="http://static.xp-dev.com/media/yes.png?v=6.16.1"/></td><td class="pro plan2"><img src="http://static.xp-dev.com/media/yes.png?v=6.16.1"/></td><td class="pro plan3"><img src="http://static.xp-dev.com/media/yes.png?v=6.16.1"/></td><td class="enterprise plan4"><img src="http://static.xp-dev.com/media/yes.png?v=6.16.1"/></td><td class="enterprise plan5"><img src="http://static.xp-dev.com/media/yes.png?v=6.16.1"/></td><td class="enterprise plan6"><img src="http://static.xp-dev.com/media/yes.png?v=6.16.1"/></td>
+            </tr>
+            <tr>
+                <td class="firstCol">Search Filters</td>
+                <td class="free plan0">4</td><td class="pro plan1">Unlimited</td><td class="pro plan2">Unlimited</td><td class="pro plan3">Unlimited</td><td class="enterprise plan4">Unlimited</td><td class="enterprise plan5">Unlimited</td><td class="enterprise plan6">Unlimited</td>
+            </tr>
+            <tr>
+                <td class="firstCol">Wiki Pages</td>
+                <td class="free plan0"><img src="http://static.xp-dev.com/media/yes.png?v=6.16.1"/></td><td class="pro plan1"><img src="http://static.xp-dev.com/media/yes.png?v=6.16.1"/></td><td class="pro plan2"><img src="http://static.xp-dev.com/media/yes.png?v=6.16.1"/></td><td class="pro plan3"><img src="http://static.xp-dev.com/media/yes.png?v=6.16.1"/></td><td class="enterprise plan4"><img src="http://static.xp-dev.com/media/yes.png?v=6.16.1"/></td><td class="enterprise plan5"><img src="http://static.xp-dev.com/media/yes.png?v=6.16.1"/></td><td class="enterprise plan6"><img src="http://static.xp-dev.com/media/yes.png?v=6.16.1"/></td>
+            </tr>
+            <tr>
+                <td class="firstCol">Forums</td>
+                <td class="free plan0"><img src="http://static.xp-dev.com/media/yes.png?v=6.16.1"/></td><td class="pro plan1"><img src="http://static.xp-dev.com/media/yes.png?v=6.16.1"/></td><td class="pro plan2"><img src="http://static.xp-dev.com/media/yes.png?v=6.16.1"/></td><td class="pro plan3"><img src="http://static.xp-dev.com/media/yes.png?v=6.16.1"/></td><td class="enterprise plan4"><img src="http://static.xp-dev.com/media/yes.png?v=6.16.1"/></td><td class="enterprise plan5"><img src="http://static.xp-dev.com/media/yes.png?v=6.16.1"/></td><td class="enterprise plan6"><img src="http://static.xp-dev.com/media/yes.png?v=6.16.1"/></td>
+            </tr>
+            <tr>
+                <td class="firstCol">Blogs</td>
+                <td class="free plan0"><img src="http://static.xp-dev.com/media/yes.png?v=6.16.1"/></td><td class="pro plan1"><img src="http://static.xp-dev.com/media/yes.png?v=6.16.1"/></td><td class="pro plan2"><img src="http://static.xp-dev.com/media/yes.png?v=6.16.1"/></td><td class="pro plan3"><img src="http://static.xp-dev.com/media/yes.png?v=6.16.1"/></td><td class="enterprise plan4"><img src="http://static.xp-dev.com/media/yes.png?v=6.16.1"/></td><td class="enterprise plan5"><img src="http://static.xp-dev.com/media/yes.png?v=6.16.1"/></td><td class="enterprise plan6"><img src="http://static.xp-dev.com/media/yes.png?v=6.16.1"/></td>
+            </tr>
+            <tr>
+                <td class="firstCol">File Attachments</td>
+                <td class="free plan0"><img src="http://static.xp-dev.com/media/yes.png?v=6.16.1"/></td><td class="pro plan1"><img src="http://static.xp-dev.com/media/yes.png?v=6.16.1"/></td><td class="pro plan2"><img src="http://static.xp-dev.com/media/yes.png?v=6.16.1"/></td><td class="pro plan3"><img src="http://static.xp-dev.com/media/yes.png?v=6.16.1"/></td><td class="enterprise plan4"><img src="http://static.xp-dev.com/media/yes.png?v=6.16.1"/></td><td class="enterprise plan5"><img src="http://static.xp-dev.com/media/yes.png?v=6.16.1"/></td><td class="enterprise plan6"><img src="http://static.xp-dev.com/media/yes.png?v=6.16.1"/></td>
+            </tr>
+            <tr>
+                <td class="firstCol">Fast &amp; Secure <a href="http://docs.xp-dev.com/user-guide/trac.html">Trac</a> Project Hosting</td>
+                <td class="free plan0"><img src="http://static.xp-dev.com/media/yes.png?v=6.16.1"/></td><td class="pro plan1"><img src="http://static.xp-dev.com/media/yes.png?v=6.16.1"/></td><td class="pro plan2"><img src="http://static.xp-dev.com/media/yes.png?v=6.16.1"/></td><td class="pro plan3"><img src="http://static.xp-dev.com/media/yes.png?v=6.16.1"/></td><td class="enterprise plan4"><img src="http://static.xp-dev.com/media/yes.png?v=6.16.1"/></td><td class="enterprise plan5"><img src="http://static.xp-dev.com/media/yes.png?v=6.16.1"/></td><td class="enterprise plan6"><img src="http://static.xp-dev.com/media/yes.png?v=6.16.1"/></td>
+            </tr>
+            <tr>
+                <td class="firstCol">Import/Export Repositories at anytime</td>
+                <td class="free plan0"><img src="http://static.xp-dev.com/media/yes.png?v=6.16.1"/></td><td class="pro plan1"><img src="http://static.xp-dev.com/media/yes.png?v=6.16.1"/></td><td class="pro plan2"><img src="http://static.xp-dev.com/media/yes.png?v=6.16.1"/></td><td class="pro plan3"><img src="http://static.xp-dev.com/media/yes.png?v=6.16.1"/></td><td class="enterprise plan4"><img src="http://static.xp-dev.com/media/yes.png?v=6.16.1"/></td><td class="enterprise plan5"><img src="http://static.xp-dev.com/media/yes.png?v=6.16.1"/></td><td class="enterprise plan6"><img src="http://static.xp-dev.com/media/yes.png?v=6.16.1"/></td>
+            </tr>
+            <tr>
+                <td class="firstCol">
+                    Integration with  <a href="http://docs.xp-dev.com/user-guide/basecamp.html">Basecamp</a>,
+                    <a href="http://docs.xp-dev.com/user-guide/fogbugz.html">FogBugz</a>,
+                    <a href="http://docs.xp-dev.com/user-guide/lighthouse.html">Lighthouse</a>,
+                    <a href="http://docs.xp-dev.com/user-guide/donedone.html">DoneDone</a>,
+                    <a href="http://docs.xp-dev.com/user-guide/fixx.html">Fixx</a> &amp;
+                    <a href="http://docs.xp-dev.com/user-guide/twitter.html">Twitter</a>
+                </td>
+                <td class="free plan0"><img src="http://static.xp-dev.com/media/yes.png?v=6.16.1"/></td><td class="pro plan1"><img src="http://static.xp-dev.com/media/yes.png?v=6.16.1"/></td><td class="pro plan2"><img src="http://static.xp-dev.com/media/yes.png?v=6.16.1"/></td><td class="pro plan3"><img src="http://static.xp-dev.com/media/yes.png?v=6.16.1"/></td><td class="enterprise plan4"><img src="http://static.xp-dev.com/media/yes.png?v=6.16.1"/></td><td class="enterprise plan5"><img src="http://static.xp-dev.com/media/yes.png?v=6.16.1"/></td><td class="enterprise plan6"><img src="http://static.xp-dev.com/media/yes.png?v=6.16.1"/></td>
+            </tr>
+            <tr class="prices">
+                <td class="firstCol">
+                    Price<br />
+                    <span class="small">
+                        Yearly payments are <br/>entitled to a
+                        <strong>20%</strong> discount.
+                    </span>
+                </td>
+                <td class="free plan0">
+                    <span class="monthly">Free</span><br />
+                    
+                </td><td class="pro plan1">
+                    <span class="monthly">$5/month</span><br />
+                    <span class="annual">$48/year</span>
+                </td><td class="pro plan2">
+                    <span class="monthly">$15/month</span><br />
+                    <span class="annual">$144/year</span>
+                </td><td class="pro plan3">
+                    <span class="monthly">$30/month</span><br />
+                    <span class="annual">$288/year</span>
+                </td><td class="enterprise plan4">
+                    <span class="monthly">$50/month</span><br />
+                    <span class="annual">$480/year</span>
+                </td><td class="enterprise plan5">
+                    <span class="monthly">$100/month</span><br />
+                    <span class="annual">$960/year</span>
+                </td><td class="enterprise plan6">
+                    <span class="monthly">$200/month</span><br />
+                    <span class="annual">$1920/year</span>
+                </td>
+            </tr>
+            <tr class="prices noTop">
+                <td class="firstCol">&nbsp;</td>
+                <td class="free plan0">
+                    <a href="register">
+                        <img src="http://static.xp-dev.com/media/signup1.png?v=6.16.1" alt="Sign Up"/>
+                    </a>
+                </td><td class="pro plan1">
+                    <a href="upgrade/to/2">
+                        <img src="http://static.xp-dev.com/media/signup1.png?v=6.16.1" alt="Sign Up"/>
+                    </a>
+                </td><td class="pro plan2">
+                    <a href="upgrade/to/3">
+                        <img src="http://static.xp-dev.com/media/signup1.png?v=6.16.1" alt="Sign Up"/>
+                    </a>
+                </td><td class="pro plan3">
+                    <a href="upgrade/to/4">
+                        <img src="http://static.xp-dev.com/media/signup1.png?v=6.16.1" alt="Sign Up"/>
+                    </a>
+                </td><td class="enterprise plan4">
+                    <a href="upgrade/to/5">
+                        <img src="http://static.xp-dev.com/media/signup1.png?v=6.16.1" alt="Sign Up"/>
+                    </a>
+                </td><td class="enterprise plan5">
+                    <a href="upgrade/to/6">
+                        <img src="http://static.xp-dev.com/media/signup1.png?v=6.16.1" alt="Sign Up"/>
+                    </a>
+                </td><td class="enterprise plan6">
+                    <a href="upgrade/to/7">
+                        <img src="http://static.xp-dev.com/media/signup1.png?v=6.16.1" alt="Sign Up"/>
+                    </a>
+                </td>
+            </tr>
+
+            <tr class="prices noTop">
+                <td class="firstCol">
+                    <em>Optional</em>
+                    <a href="s3backup">Real-time Backups to Amazon S3</a>*
+                </td>
+                <td class="free plan0">
+                    <span class="monthly" alt="">$2/month</span><br />
+                    <span class="annual" alt="">$19.20/year</span>
+                </td><td class="pro plan1">
+                    <span class="monthly" alt="">$2/month</span><br />
+                    <span class="annual" alt="">$19.20/year</span>
+                </td><td class="pro plan2">
+                    <span class="monthly" alt="">$2/month</span><br />
+                    <span class="annual" alt="">$19.20/year</span>
+                </td><td class="pro plan3">
+                    <span class="monthly" alt="">$2/month</span><br />
+                    <span class="annual" alt="">$19.20/year</span>
+                </td><td class="enterprise plan4">
+                    <span class="monthly" alt="">$2/month</span><br />
+                    <span class="annual" alt="">$19.20/year</span>
+                </td><td class="enterprise plan5">
+                    <span class="monthly" alt="">$2/month</span><br />
+                    <span class="annual" alt="">$19.20/year</span>
+                </td><td class="enterprise plan6">
+                    <span class="monthly" alt="">$2/month</span><br />
+                    <span class="annual" alt="">$19.20/year</span>
+                </td>
+            </tr>
+        </table>
+    </div>
+
+    <div class="span-20 center">
+        <p class="small">* Feature only available on Subversion repositories</p>
+    </div>
+
+    <div class="span-20 center">
+        <p class="discount">
+            Yearly payments are entitled to a <span class="discountText"><span>20</span>% discount</span>
+        </p>
+        <p class="discount">
+            <a href="features"><strong>Have a look at our complete list of features</strong></a>
+        </p>
+    </div>
+
+    <div class="span-20 sales center">
+        <h3 class="center">Need some help deciding with plan is right for you ?<br /> Have a query about your subscription ?</h3>
+        <p>
+            Don't hesitate to get in touch and we'll get back to you as soon as possible (usually within 24hrs)
+        </p>
+
+        <div class="span-5">
+            <h4>Email</h4>
+            <p>
+                <a href="mailto:admin@xp-dev.com"><img src="http://static.xp-dev.com/media/mail_48.png?v=6.16.1" alt=""/></a><br/>
+                <a href="mailto:admin@xp-dev.com">admin@xp-dev.com</a>
+            </p>
+        </div>
+
+        <div class="span-5">
+            <h4>Twitter</h4>
+            <p>
+                <a href="http://twitter.com/xpdev">
+                    <img src="http://assets0.twitter.com/images/twitter_logo_header.png" alt="twitter"/>
+                </a><br/>
+                <a href="http://twitter.com/xpdev">@xpdev</a>
+            </p>
+        </div>
+
+        <div class="span-5">
+            <h4>Call Us</h4>
+            <p>
+                <img src="http://static.xp-dev.com/media/phone_48.png?v=6.16.1" alt=""/><br />
+                UK: 0208 1444 014<br />
+                <span class="small">Int: +44 208 1444 014</span>
+            </p>
+            <p>
+                <a href="skype:xp-dev.com?call">
+                    <img src="http://mystatus.skype.com/smallclassic/xp-dev%2Ecom" alt="My status" />
+                </a><br />
+                <a href="skype:xp-dev.com?call">xp-dev.com</a>
+            </p>
+        </div>
+
+        <div class="span-5 last">
+            <h4>Support Page</h4>
+            <p>
+                Just raise a <a href="support/">support ticket via the online form</a>
+            </p>
+        </div>
+
+    </div>
+
+    <div class="span-20">
+        <p>
+            <strong>Open Source (Public) Projects:</strong>
+            You can create unlimited open source projects on all plans, and these open
+            source projects will not be part of your account quota.
+        </p>
+        <p>
+            <strong>30 day money back guarantee:</strong>
+            All upgrades come with a 30 day money back guarantee. You can upgrade or downgrade your plan whenever you want to.
+            You can even start or stop your subscription plan whenever you want to.
+            There are no long term commitments.
+        </p>
+    </div>
+
+    
+    <div class="span-20">
+        <h3 class="center">Payment Methods</h3>
+
+        <div class="span-14">
+            <p>
+                XP-Dev.com uses <a href="https://www.paypal.com/">Paypal</a> to process payments. No
+                credit card details are stored on XP-Dev.com systems.
+            </p>
+
+            <p>
+                When payments are made, you will see the line <strong>PAYPAL *XP DEV</strong> in your bank/credit card
+                statement.
+            </p>
+
+            <p>
+                Paypal accepts most major credit cards, and <strong>you do not need a Paypal account</strong>
+                to pay for your XP-Dev.com subscription.
+            </p>
+
+        </div>
+        <div class="span-6 last">
+            <p class="center">
+                <img src="https://www.paypal.com/en_US/i/logo/PayPal_mark_180x113.gif" alt="Paypal"/>
+            </p>
+            <p class="center">
+                <img src="https://www.paypal.com/en_US/i/bnr/horizontal_solution_PPeCheck.gif" alt="Solution Graphics"/>
+            </p>
+        </div>
+    </div>
+
+
+
+    
+        <div class="span-20">
+            <h3 id="GetStarted" class="center">Get Started with Any of the Plans Above in 3 Easy Steps</h3>
+        </div>
+        <div class="prepend-2 span-16 append-2 steps">
+            <ol>
+                <li><a href="register">Create an account</a></li>
+                <li><a href="projects">Create a project</a></li>
+                <li><a href="upgrade">Upgrade to a paid plan</a> (Optional)</li>
+            </ol>
+        </div>
+    
+
+
+
+    <div class="span-20 moreinfo">
+        <p class="center">
+            <a href="pricing">Get More Information on Pricing Plans</a>
+        </p>
+    </div>
+
+
+        </div>
+
+    </div>
+</div>
+
+<div id="footer">
+    
+
+    <p id="whoami">
+        <a href="/">XP-Dev.com</a> is a service provided by <a href="http://exentriquesolutions.com/">Exentrique Solutions</a><br />
+		Registered UK Company No. 7051179. Address: 29 Finland Street, London SE16 7TP
+    </p>
+
+    <p>
+        <a href="/">Subversion Hosting</a> |
+        <a href="/">SVN Hosting</a> |
+        <a href="/">Git Hosting</a> |
+        <a href="/">Mercurial Hosting</a> |
+        <a href="http://docs.xp-dev.com/tutorials/subversion.html">Subversion Tutorial</a> |
+        <a href="resetpassword">Reset Password</a> |
+        <a href="register">Register For Free!</a>
+    </p>
+
+    <p>
+        <a href="/">Home</a> |
+        <a href="http://docs.xp-dev.com/legal/terms-of-service.html">Terms of Service</a> |
+        <a href="http://docs.xp-dev.com/legal/privacy-statement.html">Privacy Statement</a> |
+        <a href="http://docs.xp-dev.com/legal/about.html">About Us</a> |
+        <a href="http://docs.xp-dev.com/">Help</a> |
+        <a href="http://docs.xp-dev.com/user-guide/formatting.html">Text Formatting Guide</a>|
+        <a href="support/">Support</a>
+    </p>
+
+    <p>
+        <a href="sc/public">Public Repositories</a> |
+        <a href="opensource">Open Source Projects</a>
+    </p>
+
+    <p>
+        Running XP-Dev.com version <span>6.16.1</span>
+    </p>
+
+</div>
+
+<script type="text/javascript"><!--/*--><![CDATA[/*><!--*/
+var GA_WP_ID = "UA-8189759-6";
+/*-->]]>*/</script>
+
+    <script type="text/javascript">
+        var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+        document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+    </script>
+    <script type="text/javascript">
+        try {
+            var pageTracker = _gat._getTracker(GA_WP_ID);
+            pageTracker._trackPageview();
+        } catch(err) {}
+    </script>
+
+
+</body>
+</html>
