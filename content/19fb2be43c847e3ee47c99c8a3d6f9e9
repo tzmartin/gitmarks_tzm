@@ -224,8 +224,8 @@ function preloadImages() { //v3.0
 						<ul id="twitterDetails">
 							<li class="rank">
 								Rank<br />
-								<strong>1,179,466</strong>
-							<p>out of 8,259,608</p>
+								<strong>1,174,478</strong>
+							<p>out of 8,259,604</p>
 						
 							</li>
 
@@ -332,7 +332,7 @@ function preloadImages() { //v3.0
 	</div>
 </div>
 
-<!--1.3370480537415 --><script src="http://twittergrader.com/assets/js/twitter.custom.js?v=01.50.04" type="text/javascript"></script>
+<!--1.3481550216675 --><script src="http://twittergrader.com/assets/js/twitter.custom.js?v=01.50.04" type="text/javascript"></script>
 
 		</div><!--bodyContainer-->
 		<div id="footerContainer">
@@ -349,12 +349,12 @@ function preloadImages() { //v3.0
                 </ul>
 				-->
 
-				<p>Version 01.50.04 tg2 e=1.34 qc=11 qt=0.29 . Don&rsquo;t copy us, it&rsquo;s bad karma.</p>
+				<p>Version 01.50.04 tg1 e=1.35 qc=7 qt=0.07 . Don&rsquo;t copy us, it&rsquo;s bad karma.</p>
 				<p>Created by <a rel="nofollow" href="http://twitter.com/dharmesh">@dharmesh</a> &copy; 2010 HubSpot, Inc. Part of <a href="http://grader.com">grader.com tools</a> <p>
 				  
 				</p>
-				<!-- Served by IP=10.214.47.68 -->
-				<!-- st=b57affdf115ecfbf2693d6a87f345f8a -->
+				<!-- Served by IP=10.255.131.65 -->
+				<!-- st=d6878e97bb869bfc7cc31dd7d2392f01 -->
 			</div><!--footerContent-->
 		</div><!--footerContainer-->
 	</div><!--mainContainer-->
