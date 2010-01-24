@@ -1,0 +1,251 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><!-- InstanceBegin template="/Templates/main.dwt" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<!-- InstanceBeginEditable name="doctitle" -->
+<title>Bills Auto Parts - RI, Junk Car Removal, Salvage and Wrecking Yard</title>
+<meta name="description" content="Bill's Auto Parts is Rhode Island's only certified junk car recylcer and auto wrecker salvaging and selling new used and rebuilt auto parts, glass, motors and transmissions." />
+<meta name="keywords" content="Junk car removal, Junk cars, Junk yard, Auto wrecking, Auto salvage yard, Auto parts , Auto parts retail, Used and rebuilt auto parts, Used parts, Used auto parts, Auto glass, Motors, Transmissions" />
+
+<!-- InstanceEndEditable -->
+<link href="style.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="anylink.js">
+
+/***********************************************
+* AnyLink CSS Menu script- © Dynamic Drive DHTML code library (www.dynamicdrive.com)
+* This notice MUST stay intact for legal use
+* Visit Dynamic Drive at http://www.dynamicdrive.com/ for full source code
+***********************************************/
+
+</script>
+<link rel="stylesheet" type="text/css" href="anylink.css" />
+<!-- InstanceBeginEditable name="head" -->
+<script type="text/javascript">
+<!--
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+//-->
+</script>
+<!-- InstanceEndEditable -->
+</head>
+<body>
+<div id="anylinkmenu1" class="anylinkcss"> <a href="used-car-parts-search.html">Model Search</a>
+ <a href="used-car-parts-search-multipart.html">Multipart Search</a>
+  <a href="used-car-parts-search-images.html">Image Search</a> <a href="used-car-parts-search-spanish.html">En Español</a> </div>
+  <div id="anylinkmenu2" class="anylinkcss"> <a href="http://store.billsautoparts.com/autoparts.php">By Make/Model</a>
+ <a href="http://store.billsautoparts.com/search.php">Advanced Search</a>
+  <a href="http://store.billsautoparts.com/cart.php">Shopping Cart</a></div>
+<div id="wrapper">
+  <div id="header" align="center"> <div id="header-logo">
+    <img src="images/bills-auto-parts-header.jpg" alt="Bills Auto Parts Car Recylcing" width="800" height="145" /></div>
+<!--end header-logo -->
+    <div id="header-nav"> 
+	  <div align="left"><span class="nav"><a href="index.html" class="nav">Home</a> | <a href="#" style="color:#FFFFFF; padding: 0 5px 0 20px;" onClick="return clickreturnvalue()" onMouseover="dropdownmenu(this, event, 'anylinkmenu2')" class='nav' >Search New Parts</a>  | <a href="#" onClick="return clickreturnvalue()" onMouseover="dropdownmenu(this, event, 'anylinkmenu1')" class="nav" >Search Used Parts</a> | <a href="contact.html" class="nav">Contact</a> | <a href="faq.html" class="nav">FAQ</a> | <a href="about.html" class="nav">About</a></span> </div>
+    </div>
+    <!--end header-nav -->
+  </div>
+  <!--End Header-->
+ <!-- InstanceBeginEditable name="content" -->
+   <div id="content-left-about">
+     <h2>Find New Parts </h2>
+     <p>Looking for new parts? <a href="http://store.billsautoparts.com/">Click here</a> to find </p>
+     <ul>
+       <li>Door handles</li>
+       <li>Headlamps</li>
+       <li>Engine cooling motors</li>
+       <li>Manifolds</li>
+       <li>Window regulators</li>
+       <li>and much more </li>
+     </ul>
+     <p>Parts ordered will be  shipped directly to you.</p>
+     <h2>Find Used Parts </h2>
+     <p>Looking for great deals?&nbsp; </p>
+     <p>Save 40 to 60  percent off the price of new parts.&nbsp;</p>
+     <p>Choose Your Search Preference:</p>
+     <ul>
+       <li><a href="used-car-parts-search.html">Model Search </a></li>
+       <li><a href="used-car-parts-search-images.html">Image Search </a></li>
+       <li><a href="used-car-parts-search-multipart.html">Multipart Search</a> </li>
+       <li><a href="used-car-parts-search-spanish.html">Busque en Espa&ntilde;ol</a></li>
+     </ul>
+     <div class="form" align="center">
+        <form action="http://ui.constantcontact.com/d.jsp" method="post" name="ccoptin" 
+ target="_blank" id="ccoptin">
+          <h2 style="padding-bottom:15px;">Join our Email Family</h2>
+          <div align="left">
+            <input type="text"  name="ea" size="15" value="" />
+            <input type="submit" 
+ name="go" value="GO" class="submit" />
+            <input type="hidden" name="m" value="1101434160904" />
+            <input type="hidden" name="p" value="oi" />
+          </div>
+        </form>
+        <p align="left">Add your email  and stay up-to-date on the latest Bill's Auto Parts news. </p>
+     
+     </div>
+     <h2>Our Guarantee</h2>
+     <p>If you choose to return the  used parts you purchased, you can do so with no questions asked within 30 days.  The only stipulation to the 30 day &quot;no hassle&quot; warranty is that the  parts will not be accepted if there are obvious signs of tampering or  negligence to the parts and that the customer will pay the return freight  costs. Special exceptions are made if the order is for a testing procedure. <br />
+       <a href="faq.html#return">See FAQ for details.</a></p>
+       <p><a href="http://www.greenvehicledisposal.com" target="_blank"><img src="http://www.charitycar.us/images/banners/green_vehicle_disposal.gif" alt="Charity Car Donation" width="158" height="116" border="0" /></a>
+</p>
+     <p><a href="http://www.a-r-a.org/" target="_blank"><img src="images/aralogo.gif" alt="Auto Recycler's Association" width="113" height="54" border="0" style="padding-left:5px;"/></a></p>
+     <p><img src="images/car.gif" alt="Certified Auto Recylers Association" width="113" height="136" style="padding-left:4px; padding-bottom:5px;"/><img src="images/newurg5.gif" alt="URG" width="113" height="84" style="padding-left:5px;"/></p>
+     <h2>&nbsp;</h2>
+     <p>&nbsp;</p>
+     <p>&nbsp;</p>
+     <p>&nbsp;</p>
+     <p>&nbsp;</p>
+     <p>&nbsp;</p>
+     <p>&nbsp;</p>
+     <p>&nbsp;</p>
+     <p>&nbsp;</p>
+  </div>
+  <!--end content-left -->
+  <div id="content-middle-about">
+    <h1>Recycle Your Car </h1>
+   
+    <p class="gray-headline">Bill's Auto Parts Becomes an Authorized <br />
+    Greenvehicledisposal.com Treatment Facility</p>
+    <p>Bill's Auto Parts is an authorized member of GreenVehicleDisposal.com, North America&rsquo;s first solution dedicated toward the proper treatment of End-Of-Life Vehicles.<br />
+      </p>
+    <p>If you&rsquo;re a looking to sell a late model wreck or junk car, drive it in or schedule a pickup. &nbsp;We are Licensed! Insured! And Bonded!</p>
+    <p>We are the only <a href="http://www.a-r-a.org" target="_blank" rel="nofollow">A.R.A. Certified Auto Recycler</a> in Rhode Island. </p>
+    <p>We pick up cars six days a week. We handle vehicles  with extra care to protect the environment. </p>
+   <table border="0" cellspacing="0" cellpadding="0">
+      <tr>
+        <td height="14">&nbsp;</td>
+        <td height="14" colspan="4" class="style33HEADER"><span class="style341">2 Ways to Recycle</span></td>
+      </tr>
+      <tr>
+        <td height="14">&nbsp;</td>
+        <td height="14" colspan="4" class="style33HEADER">&nbsp;</td>
+      </tr>
+      <tr>
+        <td height="14" bgcolor="#3E702B">&nbsp;</td>
+        <td height="14" colspan="4" bgcolor="#3E702B" style="padding:3px;"><span class="style33HEADER">1. Sell  Your Car</span></td>
+      </tr>
+      <tr>
+        <td valign="top" style="padding-bottom:20px; padding-top:10px;">&nbsp;</td>
+        <td valign="top" style="padding-bottom:20px; padding-top:10px;"><img src="images/burst.png" alt="We Buy Cars and Trucks" width="110" height="123" /></td>
+        <td valign="top" style="padding-bottom:20px; padding-top:10px; padding-left:10px;"><div align="center"><a href="http://greenvehicledisposal.com/carpickup.cfm?aid=601" target="_blank"><img src="http://www.charitycar.us/images/banners/greenvehicledisposal_bills2.jpg" alt="Get Cash for your car!" width="151" height="122" border="0" /></a></div>        </td>
+        <td height="33" colspan="2" valign="top" style="padding-top:20px;"><div align="center">
+          <p><span class="style23"><strong>CALL US TODAY!<br />
+            401-725-1225</strong></span></p>
+          <p><strong>Top Dollars Paid for Unwanted Vehicles</strong><span class="style23"><br />
+            </span><br />
+          </p>
+        </div></td>
+      </tr>
+      
+      <tr>
+        <td valign="top" bgcolor="#3E702B" >&nbsp;</td>
+        <td colspan="4" valign="top" bgcolor="#3E702B" class="style33HEADER" style="padding:3px;">2. Donate Your Car</td>
+      </tr>
+      <tr>
+        <td valign="top">&nbsp;</td>
+        <td valign="top" class="style33HEADER" style="padding-bottom:10px;"><br />
+          <div align="center"><img src="images/USA_flag.jpg" alt="Coast to Coast USA" width="90" height="72" /></div>
+          <br />
+          <div align="center"><span class="style34">USA's Coast to Coast</span><br />
+          <a href="http://charitycar.us" target="_blank" title="Car Donation">Charity Car Program</a></div></td>
+        <td valign="middle" ><div align="center"><img src="images/Donate_to_your_Charity.jpg" width="125" height="89" alt="Car Donation" /></div></td>
+        <td colspan="2" valign="top" style="padding-top:5px; padding-bottom:"><div align="center"><a href="http://www.charitycar.us/billsautoparts.html" target="_blank"><img src="http://www.charitycar.us/images/banners/charitycar-banner_bills2.jpg" alt="Charity Car Donation" width="140" height="113" border="0" /></a></div>         </td>
+      </tr>
+      <tr>
+        <td colspan="5" valign="top" bgcolor="#3E702B">&nbsp;</td>
+      </tr>
+    </table>
+    
+
+    <h1>&nbsp;</h1>
+    <h1>About Bill's Auto Parts</h1>
+    <p align="center"><img src="images/bills-auto-parts-building.jpg" alt="Bill's Auto Parts" width="250" height="188" class="border-black" /></p>
+    <p>We are your dedicated source for quality  recycled auto parts&hellip;since 1932.&nbsp;</p>
+    <p>We recently completed construction on our new,  state-of-the-art recycling center, located 50 yards from our old facility in Cumberland, RI. <a href="#">Wait  till you see our showroom!</a> We built many customer conveniences into our new  facility, such as a hand washing station, electric sliding doors for easy  access, and a dedicated restroom. </p>
+    <p>We use modern information management tools to  inventory, inspect, warranty, and deliver a quality product.&nbsp;</p>
+    <h2>Looking for Used Auto Parts? </h2>
+    <p align="center"><a href="http://www.billsautoparts.com/used-car-parts-search.html"><img src="images/250-DSCN2476.jpg" alt="Find a Used Car Part Easily" width="250" height="188" border="0" class="border-black" /></a><br />
+      <a href="http://www.billsautoparts.com/used-car-parts-search.html"><img src="images/icon_magnify-plus.gif" alt="Click to Enlarge" width="16" height="16" border="0" style="padding-top:5px;"/></a></p>
+    <p>Tired of wasting time trying to locate the part you need in a salvage yard. You can  remove your own parts or we can pull the parts you need&mdash;the choice is  yours.&nbsp; </p>
+    <p>Our inventory is organized by row  and make of vehicle, and all vehicles are on blocks for easy access to  parts.&nbsp; We carry a  huge inventory of new and recycled auto parts. Bill&rsquo;s Auto Parts provides a  winning combination to save you time&hellip;and money.&nbsp; </p>
+    <h2>Need a Battery? </h2>
+    <p>Our used batteries are fully charged and  ready to go with a 12-month warranty&mdash;just $25 plus tax&hellip; Why buy new when used  will do?&nbsp;</p>
+    <p > Now is the time to stock up on our  new universal antifreeze, pre-mixed and ready for use in any make or model car.</p>
+    <!--end content-middle --></div>
+  <div id="content-right">
+    <div id="div3">
+       <p align="left"><a href="http://www.facebook.com/billsautoparts"><img src="images/facebook_icon.jpg" alt="Facebook" width="144" height="44" /></a></p>
+    <div style=padding-bottom:10px;"><script>var ht = (("https:" == document.location.protocol) ? "https://" : "http://");document.write(unescape('%3Cscript type="text/javascript" src="'+ht+'bongous.com/applink/loadAppLink.php?logo=7&key1=NjEw&key2=ec8654b4dfab95d667860405b8890866&url='+ht+'bongous.com"%3E%3C/script%3E'));</script></div>
+      <h2>In the News</h2>
+      <p><a href="http://vimeo.com/14094779"><img src="images/2010-08-20_1319.png" alt="Automtive Recycling" width="129" height="98" /></a>
+      
+      <p><a href="http://vimeo.com/14094779" target="_blank">Our Planet: Automotive Recycling</a> from <a href="http://vimeo.com/autorecycling">Automotive Recyclers Association</a></p>
+      <p align="left"><a href="http://www.partslocator.com/news/back.issues/as.seen.asp?issuename=365
+&amp;CustomerNb=792376"><img src="images/upcoverWI09tb.jpg" alt="Winter 2009 Locator" width="127" height="164" /></a></p>
+      <p>Paul D'Adamo from Bill's Auto Parts was featured as <em>Most Influencial Teacher</em> in the Winter, 2009 issue of <em>Locator</em> magazine. <a href="http://www.partslocator.com/news/back.issues/article.details.asp?ArticleID=WI0914a" target="_blank">Read the article</a>. </p>
+      
+      <h2>&nbsp;</h2>
+      <h2>Payment</h2>
+      <p>We  accept Visa, Mastercard and Discover. </p>
+      <p><img src="images/credit-cards.jpg" alt="mastercard, visa, discovre" width="150" height="30" /></p>
+      <p>&nbsp;</p>
+      <h2><strong>Cool Customer Cars</strong></h2>
+      <p>Check out <a href="cool-cars.html">some pics</a> from our loyal customers.</p>
+    </div>
+    <h2>&nbsp;</h2>
+    <p>&nbsp;</p>
+  </div> 
+ 
+  <!-- end content-right -->
+ 
+  <!--End Footer -->
+  <!-- InstanceEndEditable -->
+  <div class="clear"></div>
+ 
+ <div id="footer" align="center"><!-- #BeginLibraryItem "/Library/footer.lbi" -->
+    <p>&copy;2010 | <a href="links.html">Links</a> | <a href="sitemap.html">Sitemap</a> | <a href="contact.html">Contact Us</a> | <a href="employment.html">Careers</a> | <a href="contact.html#directions">Directions</a> | Hours: Mon-Fri 8-5, Sat 9-3</p>
+    <p> Site Designed by <a href="http://www.powerwebresults.com?source=billsauto" target="_blank">Powerwebresults.com</a></p><!-- #EndLibraryItem --></div>
+  <!--End Footer -->
+
+</div>
+<!--end wrapper-->
+<script src="http://www.google-analytics.com/urchin.js" type="text/javascript">
+</script>
+<script type="text/javascript">
+_uacct = "UA-81854-13";
+urchinTracker();
+</script>
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-10303998-1");
+pageTracker._trackPageview();
+} catch(err) {}</script>
+
+<!--HitTail Code--><script src="http://20136.hittail.com/mlt.js" type="text/javascript"></script><!--End HitTail Code-->
+<script type="text/javascript" src="http://cetrk.com/pages/scripts/0008/6600.js"> </script>
+</body>
+<!-- InstanceEnd --></html>
