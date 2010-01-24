@@ -1,0 +1,1479 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head profile="http://gmpg.org/xfn/11">
+
+	<title>18 Unique Uses of WordPress and the Plugin or Theme Used | Onextrapixel - Showcasing Web Treats Without A Hitch</title>
+
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<meta property="fb:admins" content="775715071" />
+	<link rel="shortcut icon" href="http://net.onextrapixel.com/wp-content/themes/onextrapixelv4/images/favicon.ico" type="image/x-icon" />
+	<link rel="stylesheet" href="http://www.onextrapixel.com/wp-content/themes/onextrapixelv4/style.css?ver=0.9.4.27" type="text/css" media="screen" />
+	<link rel="stylesheet" href="http://net.onextrapixel.com/wp-content/themes/onextrapixelv4/print-min.css?ver=0.1" type="text/css" media="print" />
+	<link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="http://www.onextrapixel.com/feed/" />
+	<link rel="pingback" href="http://www.onextrapixel.com/xmlrpc.php" />
+	
+		
+	<script type='text/javascript' src='http://net.onextrapixel.com/wp-includes/js/comment-reply.js?ver=20090102'></script>
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://www.onextrapixel.com/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://www.onextrapixel.com/wp-includes/wlwmanifest.xml" /> 
+<link rel='index' title='Onextrapixel &#8211; Showcasing Web Treats Without A Hitch' href='http://www.onextrapixel.com/' />
+<link rel='prev' title='50 Digital Fairy Tale Character Illustration Collections' href='http://www.onextrapixel.com/2010/01/14/50-digital-fairy-tale-character-illustration-collections/' />
+<link rel='next' title='Put Your eCommerce Checkout on a Diet Plan' href='http://www.onextrapixel.com/2010/01/19/put-your-ecommerce-checkout-on-a-diet-plan/' />
+<meta name="generator" content="WordPress 3.0.3" />
+<link rel='shortlink' href='http://www.onextrapixel.com/?p=3220' />
+
+<!-- All in One SEO Pack 1.6.13 by Michael Torbert of Semper Fi Web Design[208,332] -->
+<meta name="description" content="With the combination of plugins, hacks and creativity, WordPress has been often used in different unique and unconventional ways. Below we will share with you some of the different unique uses of WordPress and the plugins or themes used." />
+<meta name="keywords" content="unique use of wordpress, different use of wordpress, wordpress uses" />
+<link rel="canonical" href="http://www.onextrapixel.com/2010/01/18/18-unique-uses-of-wordpress-and-the-plugin-or-theme-used/" />
+<!-- /all in one seo pack -->
+<meta id="syntaxhighlighteranchor" name="syntaxhighlighter-version" content="3.1.0" />
+<!-- Google Analytics Tracking by Google Analyticator 6.1.1: http://ronaldheft.com/code/analyticator/ -->
+<script type="text/javascript">window.google_analytics_uacct = "pub-5606861741839360";</script>
+<script type="text/javascript">
+	var analyticsFileTypes = ['zip'];
+	var analyticsEventTracking = 'enabled';
+</script>
+<script type="text/javascript">
+	var _gaq = _gaq || [];
+	_gaq.push(['_setAccount', 'UA-8453623-1']);
+	_gaq.push(['_trackPageview']);
+
+	(function() {
+		var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+		ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+		var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+	})();
+</script>
+</head>
+<body>
+<!-- BuySellAds.com Ad Code -->
+<script type="text/javascript">
+(function(){
+  var bsa = document.createElement('script');
+     bsa.type = 'text/javascript';
+     bsa.async = true;
+     bsa.src = '//s3.buysellads.com/ac/bsa.js';
+  (document.getElementsByTagName('head')[0]||document.getElementsByTagName('body')[0]).appendChild(bsa);
+})();
+</script>
+<!-- END BuySellAds.com Ad Code -->
+<div id="home">
+<div id="wrap">
+	<div id="header">
+		<div id="tophead">
+			<ul id="catnavi">
+					<li class="cat-item cat-item-1"><a href="http://www.onextrapixel.com/category/inspiration/" title="View all posts filed under Inspiration">Inspiration</a>
+</li>
+	<li class="cat-item cat-item-3"><a href="http://www.onextrapixel.com/category/design/" title="View all posts filed under Design">Design</a>
+</li>
+	<li class="cat-item cat-item-4"><a href="http://www.onextrapixel.com/category/development/" title="View all posts filed under Development">Development</a>
+</li>
+	<li class="cat-item cat-item-6"><a href="http://www.onextrapixel.com/category/tutorials/" title="View all posts filed under Tutorials">Tutorials</a>
+</li>
+	<li class="cat-item cat-item-7"><a href="http://www.onextrapixel.com/category/freebies/" title="View all posts filed under Freebies">Freebies</a>
+</li>
+	<li class="cat-item cat-item-13"><a href="http://www.onextrapixel.com/category/css/" title="View all posts filed under CSS">CSS</a>
+</li>
+	<li class="cat-item cat-item-43"><a href="http://www.onextrapixel.com/category/wordpress/" title="View all posts filed under Wordpress">Wordpress</a>
+</li>
+	<li class="cat-item cat-item-164"><a href="http://www.onextrapixel.com/category/articles/" title="View all posts filed under Articles">Articles</a>
+</li>
+	<li class="cat-item cat-item-179"><a href="http://www.onextrapixel.com/category/resources/" title="View all posts filed under Resources">Resources</a>
+</li>
+			</ul>
+		
+			<div id="search">
+				<form action="http://www.onextrapixel.com/search" id="cse-search-box">
+	<input type="hidden" name="cx" value="partner-pub-5606861741839360:1n8h16h7cjr" />
+    <input type="hidden" name="cof" value="FORID:11" />
+    <input type="hidden" name="ie" value="UTF-8" />
+    <input type="text" name="q" size="31" id="s" value="Search OXP" onblur="if (this.value == '') {this.value = 'Search OXP';}" onfocus="if(this.value == 'Search OXP') {this.value = '';}" />
+    <input type="submit" name="sa" value="Search" class="sidebutton" />
+</form>
+
+			</div>
+		</div>
+		
+		<div id="head">
+			<a id="logo" href="/" title="Onextrapixel Home">Onextrapixel</a>
+			
+			<div id="socialtop">
+				<div id="rssfeed">
+					<div class="rsstext">
+						<h2>RSS Feed</h2>
+						<div class='feedcountdiv'><p><a href='http://feeds.feedburner.com/onextrapixel'><span class='feedcount'>
+<span class='subscribers'>9432</span>
+</span></a></p></div>					</div>
+					<a id="rsslogo" href="http://feeds.feedburner.com/onextrapixel" title="Subscribe to Our RSS Feed" rel="nofollow">Onextrapixel RSS Feed</a>
+				</div> 
+			
+				<div id="twitter">
+					<div class="twittertext">
+						<h2>Follow Us</h2>
+						<p class="feedcountdiv"><a href="http://twitter.com/onextrapixel" rel="nofollow">7764</a></p>
+					</div>
+					<a href="http://twitter.com/onextrapixel" id="twitterlogo" rel="nofollow" class="tweet-head">Follow Us On Twitter!</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div id="container">
+<div id="content">
+
+		
+	<div class="mighty">
+		<script type="text/javascript" src="http://www.mightydeals.com/widget" ></script>
+	</div>
+	
+			<div class="post" id="post-3220">
+					
+			<h2><a href="http://www.onextrapixel.com/2010/01/18/18-unique-uses-of-wordpress-and-the-plugin-or-theme-used/" rel="bookmark" title="Permanent Link to 18 Unique Uses of WordPress and the Plugin or Theme Used">18 Unique Uses of WordPress and the Plugin or Theme Used</a></h2>
+			
+			<div class="postmeta">
+				<div class="topmeta">	
+					<span class="postauthor">By: <a href="http://www.onextrapixel.com/author/terrance/" title="Posts by Terrance">Terrance</a></span> in
+					<span class="category"><a href="http://www.onextrapixel.com/category/resources/" title="View all posts in Resources" rel="category tag">Resources</a>, <a href="http://www.onextrapixel.com/category/wordpress/" title="View all posts in Wordpress" rel="category tag">Wordpress</a></span> |
+					<span class="comments"><a href="http://www.onextrapixel.com/2010/01/18/18-unique-uses-of-wordpress-and-the-plugin-or-theme-used/#comments" title="Comment on 18 Unique Uses of WordPress and the Plugin or Theme Used">89 Comments</a></span> |
+				</div>
+				<ul class="socialtop">
+					<li id="topstumble"><a href="http://www.stumbleupon.com/submit?url=http://www.onextrapixel.com/2010/01/18/18-unique-uses-of-wordpress-and-the-plugin-or-theme-used/&amp;title=18 Unique Uses of WordPress and the Plugin or Theme Used" rel="nofollow" title="Stumble It!">Stumble It!</a></li>		
+					<li id="topdeli"><a href="http://del.icio.us/post?url=http://www.onextrapixel.com/2010/01/18/18-unique-uses-of-wordpress-and-the-plugin-or-theme-used/&amp;title=18 Unique Uses of WordPress and the Plugin or Theme Used" rel="nofollow" title="Bookmark">Bookmark</a></li>
+					<li></li>
+				</ul>
+			</div>	
+
+			<div class="singletopads">
+  				<script type="text/javascript"><!--
+				google_ad_client = "pub-5606861741839360";
+				/* OXPSinglePostTop336x280 */
+				google_ad_slot = "7866829884";
+				google_ad_width = 336;
+				google_ad_height = 280;
+				//-->
+				</script>
+				<script type="text/javascript" src="http://pagead2.googlesyndication.com/pagead/show_ads.js"></script> 
+			</div>
+
+			<div class="entry">
+				<div class="postsocial">
+					<div class="tw_button">
+						<script src="http://platform.twitter.com/widgets.js" type="text/javascript"></script>
+   						<a href="http://twitter.com/share" class="twitter-share-button"
+      					data-url="http://www.onextrapixel.com/2010/01/18/18-unique-uses-of-wordpress-and-the-plugin-or-theme-used/"
+      					data-text="18 Unique Uses of WordPress and the Plugin or Theme Used"
+      					data-count="vertical"
+      					data-counturl="http://www.onextrapixel.com/2010/01/18/18-unique-uses-of-wordpress-and-the-plugin-or-theme-used/"
+      					data-via="onextrapixel">Tweet</a>
+      				</div>
+      				<div class="fb_button">
+      					<iframe src="http://www.facebook.com/plugins/like.php?href=http://www.onextrapixel.com/2010/01/18/18-unique-uses-of-wordpress-and-the-plugin-or-theme-used/&amp;layout=box_count&amp;show_faces=false&amp;width=55&amp;action=like&amp;font&amp;colorscheme=light&amp;height=60" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:55px; height:60px;" allowTransparency="true"></iframe>
+      				</div>
+				</div>
+				<p>Everyone knows that WordPress has been a popular and powerful open source blogging platform. Many people have been using WordPress because of its simplicity and user friendly blogging tool and even as a content management system (CMS).</p>
+<p>When extending WordPress functionality for your existing site, you can find dozen of plugins that can help you add-on features without the hassle of changing to another platform. All you have to do is to find the right plugin(s) that you need and install it into WordPress. With the combination of plugins, hacks and creativity, <strong>WordPress has been often used in different unique and unconventional ways</strong>.</p>
+<p><img src="http://net.onextrapixel.com/wp-content/uploads/2010/01/18wp-plugins.jpg" alt="18 Unique Uses of WordPress" title="18 Unique Uses of WordPress" width="580" height="400" class="alignnone size-full wp-image-3299" /><br />
+<span id="more-3220"></span><br />
+Below we will share with you some of the <strong>different unique uses of WordPress</strong> and the plugins or themes used.</p>
+<h2>18 Unique Uses of WordPress</h2>
+<h4>Twitter Site</h4>
+<p>If you are a twitter fan, and love to build a twitter-like site, the easiest way is to use WordPress with Prologue theme. Go to "Add New Theme" at the admin, do a search for P2 install and activate it.</p>
+<p><a href="http://wordpress.org/extend/themes/p2">WordPress P2 Theme</a><br />
+<a href="http://wordpress.org/extend/themes/p2"><img class="alignnone size-full wp-image-3223" title="P2 Twitter" src="http://net.onextrapixel.com/wp-content/uploads/2010/01/p2-twitter.jpg" alt="P2 Twitter" width="580" height="400" /></a></p>
+<h4>Forum</h4>
+<p>If you need to add a simple and light-weight forum to your existing WordPress site, you can try adding 1 of the following forums built for WordPress, instead of installing the full pledged forum which can be overkill or bloated.</p>
+<p><a href="http://bbpress.org/">Bbpress</a><br />
+<a href="http://bbpress.org/"><img class="alignnone size-full wp-image-3222" title="BBpress" src="http://net.onextrapixel.com/wp-content/uploads/2010/01/bbpress.jpg" alt="BBpress" width="580" height="400" /></a></p>
+<p><strong>More Resources:</strong></p>
+<ul>
+<li><a href="http://vasthtml.com/js/wordpress-forum-server/">WordPress Forum Server</a></li>
+<li><a href="http://simplepressforum.com/">Simplepressforum</a></li>
+</ul>
+<h4>Tumblelog</h4>
+<p>Turn WordPress into a Tumblelog which allows you to make short and quick posts like publishing posts, sharing links, videos, images or whatever little scribbles you want to make online.</p>
+<p><a href="http://web.twelvehorses.com/projects/quickpost/">Quick Post</a><br />
+<a href="http://web.twelvehorses.com/projects/quickpost/"><img class="alignnone size-full wp-image-3247" title="Tumblelog" src="http://net.onextrapixel.com/wp-content/uploads/2010/01/tumblelog.jpg" alt="Tumblelog" width="580" height="400" /></a></p>
+<p><strong>More Resources:</strong></p>
+<ul>
+<li><a href="http://themeshaper.com/mnml-a-tumblelog-style-wordpress-theme/">Tumblelog WordPress Theme</a> by Themeshaper</li>
+<li><a href="http://www.nyssajbrown.net/pockett/">Pockett</a> by Nyssa J. Brown</li>
+</ul>
+<h4>CSS Gallery</h4>
+<p>Most of the <a href="http://www.onextrapixel.com/2009/04/20/45-amazing-css-web-design-galleries/">CSS Galleries</a> you find online are powered by WordPress. It helps to collect and archive nice websites that can inspire you for your next project.</p>
+<p><a href="http://www.osdesigner.net/wordpress-themes/css-gallery-theme/">CSS Gallery Theme</a> by Os Designer<br />
+<a href="http://www.osdesigner.net/wordpress-themes/css-gallery-theme/"><img class="alignnone size-full wp-image-3245" title="CSS / Inspiration Gallery" src="http://net.onextrapixel.com/wp-content/uploads/2010/01/cssgallery.jpg" alt="CSS / Inspiration Gallery" width="580" height="400" /></a></p>
+<p><strong>More Resources:</strong></p>
+<ul>
+<li><a href="http://www.urbantrash.net/cssgallery/2008/09/13/css-gallery-theme-20-free-showcase-theme-for-wordpress/">Css Gallery Theme 2.0</a> by UrbanTrash</li>
+<li><a href="http://www.woothemes.com/2008/10/snapshot/">Snapshot</a> by WooThemes</li>
+</ul>
+<h4>Community News Site</h4>
+<p>Building a community news site that aggregate news among your niche help you bring community news to one place.</p>
+<p><a href="http://wordpress.org/extend/plugins/fv-community-news/">FV Community News</a><br />
+<a href="http://wordpress.org/extend/plugins/fv-community-news/"><img class="alignnone size-full wp-image-3246" title="Community News Site" src="http://net.onextrapixel.com/wp-content/uploads/2010/01/submission.jpg" alt="Community News Site" width="580" height="400" /></a></p>
+<p><strong>More Resources:</strong></p>
+<ul>
+<li><a href="http://wordpress.org/extend/plugins/tdo-mini-forms/">TDO Mini Forms</a></li>
+</ul>
+<h4>Photoblog</h4>
+<p>A photo speaks a thousand words. The use of a photoblog focuses on the photographs rather than text. It helps photo lovers and photographers to share their photos easily, and at the same time has the capabilities of a blog. Simple, no text!</p>
+<p><a href="http://wordpress.org/extend/plugins/yet-another-photoblog/">Yet Another Photoblog</a><br />
+<a href="http://wordpress.org/extend/plugins/yet-another-photoblog/"><img class="alignnone size-full wp-image-3240" title="Photoblog" src="http://net.onextrapixel.com/wp-content/uploads/2010/01/photoblog.jpg" alt="Photoblog" width="580" height="400" /></a></p>
+<p><strong>More Resources:</strong></p>
+<ul>
+<li><a href="http://www.whoismanu.com/photoq-wordpress-photoblog-plugin/">Photoq</a></li>
+</ul>
+<h4>eCommerce Site</h4>
+<p>WordPress is used as a blog, but what if you need to sell some products, build another eCommerce system? To save trouble, there are some great eCommerce plugins that you can integrate into your existing WordPress system and start selling right away.</p>
+<p><a href="http://www.instinct.co.nz/e-commerce/">WP e-Commerce</a><br />
+<a href="http://www.instinct.co.nz/e-commerce/"><img class="alignnone size-full wp-image-3232" title="WP e-Commerce" src="http://net.onextrapixel.com/wp-content/uploads/2010/01/e-commerce.jpg" alt="WP e-Commerce" width="580" height="400" /></a></p>
+<p><strong>More Resources:</strong></p>
+<ul>
+<li><a href="http://shopplugin.net/">Shopp</a></li>
+<li><a href="http://wordpress.org/extend/plugins/eshop/">eShop</a></li>
+</ul>
+<h4>Invoice System</h4>
+<p>As your business grows, you might need to send itemized invoices to your clients. Having an invoice system helps you to keep track of your client's billing and allows your clients to pay using their credit card.</p>
+<p><a href="http://twincitiestech.com/services/wp-invoice/">WP-Invoice</a><br />
+<a href="http://twincitiestech.com/services/wp-invoice/"><img class="alignnone size-full wp-image-3234" title="WP-Invoice" src="http://net.onextrapixel.com/wp-content/uploads/2010/01/wp-invoice.jpg" alt="WP-Invoice" width="580" height="400" /></a></p>
+<h4>Job Board</h4>
+<p>Many established blogs offer job board listing among their niche when they have huge readerships. You can turn WordPress into a Job Board that lists the available jobs, and charge job posters for posting their entry.</p>
+<p><a href="http://www.dailywp.com/jobpress-wordpress-theme/">Job Press Theme</a><br />
+<a href="http://www.dailywp.com/jobpress-wordpress-theme/"><img class="alignnone size-full wp-image-3238" title="Job Board" src="http://net.onextrapixel.com/wp-content/uploads/2010/01/job-board.jpg" alt="Job Board" width="580" height="400" /></a></p>
+<p><strong>More Resources:</strong></p>
+<ul>
+<li><a href="http://wpjobboard.net/">WP Job Board</a></li>
+</ul>
+<h4>Business Directory</h4>
+<p>Easily turn a WordPress site or blog into a simple directory where people can submit their links, and you can moderate those submissions.</p>
+<p><a href="http://businessdirectory.squarecompass.com/">Business Directory</a><br />
+<a href="http://businessdirectory.squarecompass.com/"><img class="alignnone size-full wp-image-3244" title="Business Directory" src="http://net.onextrapixel.com/wp-content/uploads/2010/01/businessdirectory.jpg" alt="Business Directory" width="580" height="400" /></a></p>
+<h4>Membership Subscription Site</h4>
+<p>To have pay-to-view, membership-oriented, subscription-based content publishing platform, you can turn a WordPress into a membership subscription site that only paid members can enter.</p>
+<p><a href="http://www.sumaplugin.com/">Sumaplugin</a><br />
+<a href="http://www.sumaplugin.com/"><img class="alignnone size-full wp-image-3241" title="Membership Site" src="http://net.onextrapixel.com/wp-content/uploads/2010/01/membersite.jpg" alt="Membership Site" width="580" height="400" /></a></p>
+<p><strong>More Resources:</strong></p>
+<ul>
+<li><a href="http://www.memberwing.com/software/wordpress-membership-site-plugin-memberwing/memberwing-user-guide/">MemberWing - Multifunctional WordPress Membership Site Plugin</a></li>
+</ul>
+<h4>Contacts and Company Manager</h4>
+<p>Turn your WordPress into a contacts and company manager to keep track of phone numbers, email addresses, websites, social networks and other types of information regarding your clients.</p>
+<p><a href="http://rolopress.com/"><img class="alignnone size-full wp-image-3236" title="Rolopress" src="http://net.onextrapixel.com/wp-content/uploads/2010/01/rolopress.jpg" alt="Rolopress" width="580" height="400" /></a></p>
+<p><strong>More Resources:</strong></p>
+<ul>
+<li><a href="http://rolopress.com/">Rolopress</a></li>
+</ul>
+<h4>Digg-like Voting Site</h4>
+<p>Like the voting system from <a href="http://www.reddit.com/">Reddit</a> of <a href="http://digg.com">Digg</a>? You can add the voting functionality to your site for visitors to use. With more changes to the themes, you can clone a Digg-like voting site.</p>
+<p><a href="http://www.tevine.com/projects/voteitup/">Vote it Up</a><br />
+<a href="http://www.tevine.com/projects/voteitup/"><img class="alignnone size-full wp-image-3237" title="Vote It Up" src="http://net.onextrapixel.com/wp-content/uploads/2010/01/voteup.jpg" alt="Vote It Up" width="580" height="400" /></a></p>
+<h4>Newsletter Mailing System</h4>
+<p>Sending Newsletters or Electronic Direct Mail has been part of online email marketing. With Feedburner or WordPress plugin you can add the newsletter mailing function into your existing WordPress System.</p>
+<p><a href="http://net.tutsplus.com/tutorials/wordpress/build-a-wordburner-email-newsletter-manager-using-wordpress-and-feedburner/">WordBurner - Newsletter Manager Using WordPress and Feedburner</a><br />
+<a href="http://net.tutsplus.com/tutorials/wordpress/build-a-wordburner-email-newsletter-manager-using-wordpress-and-feedburner/"><img class="alignnone size-full wp-image-3239" title="WordBurner" src="http://net.onextrapixel.com/wp-content/uploads/2010/01/wordburner.jpg" alt="WordBurner" width="580" height="400" /></a></p>
+<p><strong>More Resources:</strong></p>
+<ul>
+<li><a href="http://www.mailpress.org/">MailPress</a></li>
+<li><a href="http://www.satollo.net/plugins/newsletter">Newsletter</a></li>
+</ul>
+<h4>Wiki</h4>
+<p>Need a Wiki for your WordPress site? Use this plugin to transform WordPress into a custom, knowledge based application to power your documentation needs. You'll be able to add articles and frequently asked questions, rate content, show related articles, and much more!</p>
+<p><a href="http://wp-wiki.org/">WP-Wiki</a><br />
+<a href="http://wp-wiki.org/"><img class="alignnone size-full wp-image-3229" title="WP Wiki" src="http://net.onextrapixel.com/wp-content/uploads/2010/01/wp-wiki.jpg" alt="WP Wiki" width="580" height="400" /></a></p>
+<h4>Auction Site</h4>
+<p>It’s a breath of fresh air for the WordPress community. Turn WordPress into a site that hosts auctions on your blog.</p>
+<p><a href="http://www.wpauctions.com/">WP Auctions</a><br />
+<a href="http://www.wpauctions.com/"><img class="alignnone size-full wp-image-3230" title="WP Auctions" src="http://net.onextrapixel.com/wp-content/uploads/2010/01/wpauctions.jpg" alt="WP Auctions" width="580" height="400" /></a></p>
+<h4>Review site</h4>
+<p>Turn WordPress into a powerful review site engine, allowing you to easily create user-powered review sites on virtually anything – to review products, services or add star ratings to your existing website or blog.</p>
+<p><a href="http://www.wpreviewsite.com/">WP Review Site</a><br />
+<a href="http://www.wpreviewsite.com/"><img class="alignnone size-full wp-image-3231" title="WP Review Site" src="http://net.onextrapixel.com/wp-content/uploads/2010/01/wpreviewsite.jpg" alt="WP Review Site" width="580" height="400" /></a></p>
+<h4>Social Networking Site</h4>
+<p>Add a social networking layer to a new or existing installation of WordPress MU. This transforms your network of blogs into a social networking site, so each blogger can interact and get to know more about one another.</p>
+<p><a href="http://buddypress.org/">BuddyPress</a><br />
+<a href="http://buddypress.org/"><img class="alignnone size-full wp-image-3235" title="Buddypress" src="http://net.onextrapixel.com/wp-content/uploads/2010/01/buddypress.jpg" alt="Buddypress" width="580" height="400" /></a></p>
+<p><strong>More Resources:</strong></p>
+<ul>
+<li><a href="http://mu.wordpress.org/">WordPress MU</a></li>
+</ul>
+<h2>Other WordPress Use?</h2>
+<p>There are many different ways we can extend WordPress. Just note that WordPress can only help you to extend to a certain level of functionality. If you need more features, consider other alternatives for your requirements. Remember, it is still a blogging platform.</p>
+<p>Have more unique uses of WordPress? Share it in our comments section below.</p>
+			</div>
+			
+			<div class="date">Posted on: January 18th, 2010</div>
+		</div>
+		
+		<div class="bottomads">
+			<!-- BuySellAds.com Zone Code -->
+			<div id="bsap_1243619" class="bsarocks bsap_bcc688b2059ea2d9f46c4ca12eea9ac0"></div>
+			<!-- END BuySellAds.com Zone Code -->
+		</div>
+			
+		<div class="entries">
+			<h2>Related Entries</h2>
+			<ul class="related_post"><li><a href="http://www.onextrapixel.com/2010/03/19/practical-uses-for-the-post-thumbnail-function-in-wordpress-2-9/" title="Practical Uses for the Post-Thumbnail Function in WordPress 2.9">Practical Uses for the Post-Thumbnail Function in WordPress 2.9</a></li><li><a href="http://www.onextrapixel.com/2010/05/31/a-complete-to-do-list-plugins-for-wordpress-site-maintenance/" title="A Complete To-Do List &#038; Plugins for WordPress Maintenance">A Complete To-Do List &#038; Plugins for WordPress Maintenance</a></li><li><a href="http://www.onextrapixel.com/2010/01/30/13-useful-wordpress-sql-queries-you-wish-you-knew-earlier/" title="13 Useful WordPress SQL Queries You Wish You Knew Earlier">13 Useful WordPress SQL Queries You Wish You Knew Earlier</a></li><li><a href="http://www.onextrapixel.com/2009/07/17/the-autopsy-of-wordpress-as-cms-with-25-great-wp-plugins-designs/" title="The Autopsy Of WordPress As CMS With 25 Great WP Plugins &#038; Designs">The Autopsy Of WordPress As CMS With 25 Great WP Plugins &#038; Designs</a></li><li><a href="http://www.onextrapixel.com/2009/06/22/how-to-add-pagination-into-list-of-records-or-wordpress-plugin/" title="How To Add Pagination Into List Of Records Or WordPress Plugin">How To Add Pagination Into List Of Records Or WordPress Plugin</a></li></ul>		</div>
+
+		<div class="authorbox">
+			<div class="author-info">
+    			<div class="author-image">
+    				<a href="http://www.onextrapixel.com"><img alt='' src='http://1.gravatar.com/avatar/51f632e286317a29e537f12b81fe2774?s=90&amp;d=http%3A%2F%2F1.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D90&amp;r=G' class='avatar avatar-90 photo' height='90' width='90' /></a>
+   			 	</div>   
+   	 		
+   	 			<div class="author-bio">
+        			<h4><a href="http://www.onextrapixel.com/author/terrance/" title="Posts by Terrance">Terrance</a></h4>
+        			<p>Terrance is a versatile web developer and one of the chief editor of OXP. He enjoys creating functional websites and is particularly engrossed in all the tiny details mixed together to construct great user experiences. He always believe that every web user deserves the best!</p>
+        			<p class="author-links">
+        				<a href="http://www.onextrapixel.com" title="Visit my Website">Visit my Website</a> |
+        				<a href="http://twitter.com/onextrapixel" rel="nofollow" title="Follow me on Twitter">Follow me on Twitter</a>
+        			</p>
+    			</div>
+			</div>
+		</div>
+		
+		<div id="social">
+			<h2>Share This Article</h2>
+			<ul>
+				<li class='twitter'>
+					<script src="http://platform.twitter.com/widgets.js" type="text/javascript"></script>
+   					<a href="http://twitter.com/share" class="twitter-share-button"
+      				data-url="http://www.onextrapixel.com/2010/01/18/18-unique-uses-of-wordpress-and-the-plugin-or-theme-used/"
+      				data-text="18 Unique Uses of WordPress and the Plugin or Theme Used"
+      				data-count="vertical"
+      				data-counturl="http://www.onextrapixel.com/2010/01/18/18-unique-uses-of-wordpress-and-the-plugin-or-theme-used/"
+      				data-via="onextrapixel">Tweet</a>
+									</li>
+				<li><iframe src="http://www.facebook.com/plugins/like.php?href=http://www.onextrapixel.com/2010/01/18/18-unique-uses-of-wordpress-and-the-plugin-or-theme-used/&amp;layout=box_count&amp;show_faces=false&amp;width=55&amp;action=like&amp;font&amp;colorscheme=light&amp;height=60" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:55px; height:60px;" allowTransparency="true"></iframe></li>
+				<li><a class="DiggThisButton DiggMedium"></a></li>
+				<li><a id="bdeli" href="http://del.icio.us/post?url=http://www.onextrapixel.com/2010/01/18/18-unique-uses-of-wordpress-and-the-plugin-or-theme-used/&amp;title=18 Unique Uses of WordPress and the Plugin or Theme Used" rel="nofollow" title="Bookmark">Delicious</a></li>
+				<li><a id="bstumble" href="http://www.stumbleupon.com/submit?url=http://www.onextrapixel.com/2010/01/18/18-unique-uses-of-wordpress-and-the-plugin-or-theme-used/&amp;title=18 Unique Uses of WordPress and the Plugin or Theme Used" rel="nofollow" title="Stumble Upon">Stumble Upon</a></li>		
+			</ul>
+		</div>
+		
+		<ul id="twitterss">
+			<li><span class="relatedrss"></span><a class="rss-bottom" href="http://feeds2.feedburner.com/onextrapixel" title="Subscribe to Our RSS Feed" rel="nofollow">Subscribe to RSS Feed</a></li>
+			<li><span class="twitterbottom"></span><a class="tweet-bottom" href="http://twitter.com/onextrapixel" title="Follow us on Twitter" rel="nofollow">Follow us on Twitter</a></li>
+		</ul>
+		
+		<div id="comment-area">
+			<!-- Start editing here. -->
+
+	
+	<div id="comments">
+					<h3>40 Comments &amp; 49 Pingbacks | <a href="#leave" title="Add a Comment">Add a Comment</a></h3>
+			<ol class="commentlist">
+				 
+   
+   <li id="li-comment-2291" class="comment even thread-even depth-1">
+     
+     <img alt='' src='http://0.gravatar.com/avatar/0fea1490bc00556dc24b1c1e4e170717?s=75&amp;d=http%3A%2F%2F0.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D75&amp;r=G' class='avatar avatar-75 photo' height='75' width='75' />		
+     <div id="comment-2291">
+			<div class="authorinfo">
+		      	<div class="comment-author"><a href='http://www.designfollow.com/' rel='external nofollow' class='url'>designfollow</a></div>
+            	<span class="comment-date">January 18, 2010 at 4:07 pm </span>
+	      	 </div>
+	      	
+	      	      
+	      <div class="comment-text">
+	      	 	<p>thank you for the great collection.</p>
+	      	 	<div class="reply">
+	         		<a rel='nofollow' class='comment-reply-link' href='/2010/01/18/18-unique-uses-of-wordpress-and-the-plugin-or-theme-used/?replytocom=2291#respond' onclick='return addComment.moveForm("comment-2291", "2291", "respond", "3220")'>Reply</a>	      		</div>
+		  </div>
+     </div> 
+      
+</li>
+ 
+   
+   <li id="li-comment-2292" class="comment odd alt thread-odd thread-alt depth-1">
+     
+     <img alt='' src='http://1.gravatar.com/avatar/b932a2d62f8d6c0b50b43bb1a1dcf0b5?s=75&amp;d=http%3A%2F%2F1.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D75&amp;r=G' class='avatar avatar-75 photo' height='75' width='75' />		
+     <div id="comment-2292">
+			<div class="authorinfo">
+		      	<div class="comment-author"><a href='http://www.smashingshare.com' rel='external nofollow' class='url'>Smashing Share</a></div>
+            	<span class="comment-date">January 18, 2010 at 4:17 pm </span>
+	      	 </div>
+	      	
+	      	      
+	      <div class="comment-text">
+	      	 	<p>this is great roundup overall. thanks for putting them together</p>
+	      	 	<div class="reply">
+	         		<a rel='nofollow' class='comment-reply-link' href='/2010/01/18/18-unique-uses-of-wordpress-and-the-plugin-or-theme-used/?replytocom=2292#respond' onclick='return addComment.moveForm("comment-2292", "2292", "respond", "3220")'>Reply</a>	      		</div>
+		  </div>
+     </div> 
+      
+</li>
+ 
+   
+   <li id="li-comment-2293" class="comment even thread-even depth-1">
+     
+     <img alt='' src='http://0.gravatar.com/avatar/cfc8bb4f5838ec50987ae9b71f16642f?s=75&amp;d=http%3A%2F%2F0.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D75&amp;r=G' class='avatar avatar-75 photo' height='75' width='75' />		
+     <div id="comment-2293">
+			<div class="authorinfo">
+		      	<div class="comment-author"><a href='http://ntechnologies.co.cc/blog' rel='external nofollow' class='url'>Nikunj Tamboli</a></div>
+            	<span class="comment-date">January 18, 2010 at 4:23 pm </span>
+	      	 </div>
+	      	
+	      	      
+	      <div class="comment-text">
+	      	 	<p>Really nice post it would help me alot</p>
+	      	 	<div class="reply">
+	         		<a rel='nofollow' class='comment-reply-link' href='/2010/01/18/18-unique-uses-of-wordpress-and-the-plugin-or-theme-used/?replytocom=2293#respond' onclick='return addComment.moveForm("comment-2293", "2293", "respond", "3220")'>Reply</a>	      		</div>
+		  </div>
+     </div> 
+      
+</li>
+ 
+   
+   <li id="li-comment-2294" class="comment odd alt thread-odd thread-alt depth-1">
+     
+     <img alt='' src='http://1.gravatar.com/avatar/598490742d437768d46865bdca37522c?s=75&amp;d=http%3A%2F%2F1.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D75&amp;r=G' class='avatar avatar-75 photo' height='75' width='75' />		
+     <div id="comment-2294">
+			<div class="authorinfo">
+		      	<div class="comment-author"><a href='http://kovshenin.com' rel='external nofollow' class='url'>Konstantin</a></div>
+            	<span class="comment-date">January 18, 2010 at 4:42 pm </span>
+	      	 </div>
+	      	
+	      	      
+	      <div class="comment-text">
+	      	 	<p>Nice list, the auction part was new for me, hehe :) I hope the first author to come up with that idea got his work listed in the WordPress.org showcase, there's a collection of unique WordPress users.</p>
+<p>~ K.</p>
+	      	 	<div class="reply">
+	         		<a rel='nofollow' class='comment-reply-link' href='/2010/01/18/18-unique-uses-of-wordpress-and-the-plugin-or-theme-used/?replytocom=2294#respond' onclick='return addComment.moveForm("comment-2294", "2294", "respond", "3220")'>Reply</a>	      		</div>
+		  </div>
+     </div> 
+      
+</li>
+ 
+   
+   <li id="li-comment-2295" class="comment even thread-even depth-1">
+     
+     <img alt='' src='http://0.gravatar.com/avatar/82d6154dc3b0b1c61b1bfa7f65971192?s=75&amp;d=http%3A%2F%2F0.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D75&amp;r=G' class='avatar avatar-75 photo' height='75' width='75' />		
+     <div id="comment-2295">
+			<div class="authorinfo">
+		      	<div class="comment-author"><a href='http://netreview.de' rel='external nofollow' class='url'>Daniel</a></div>
+            	<span class="comment-date">January 18, 2010 at 6:23 pm </span>
+	      	 </div>
+	      	
+	      	      
+	      <div class="comment-text">
+	      	 	<p>Thx for this great list. But what's about Flash Games Site? There ist also a Plugin Suite available to transform WordPress into Online Games Portal.</p>
+<p>See here: <a href="http://netreview.de/myarcadeblogpro" rel="nofollow">http://netreview.de/myarcadeblogpro</a></p>
+<p>Best Regards<br />
+Daniel</p>
+	      	 	<div class="reply">
+	         		<a rel='nofollow' class='comment-reply-link' href='/2010/01/18/18-unique-uses-of-wordpress-and-the-plugin-or-theme-used/?replytocom=2295#respond' onclick='return addComment.moveForm("comment-2295", "2295", "respond", "3220")'>Reply</a>	      		</div>
+		  </div>
+     </div> 
+      
+<ul class='children'>
+ 
+   
+   <li id="li-comment-4075" class="comment odd alt depth-2">
+     
+     <img alt='' src='http://1.gravatar.com/avatar/b71d69c71eb789788bd1ca315bf6ea20?s=75&amp;d=http%3A%2F%2F1.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D75&amp;r=G' class='avatar avatar-75 photo' height='75' width='75' />		
+     <div id="comment-4075">
+			<div class="authorinfo">
+		      	<div class="comment-author"><a href='http://niceselfpromotion.com' rel='external nofollow' class='url'>Susan</a></div>
+            	<span class="comment-date">April 1, 2010 at 11:54 pm </span>
+	      	 </div>
+	      	
+	      	      
+	      <div class="comment-text">
+	      	 	<p>Nice self-promoition plug...</p>
+	      	 	<div class="reply">
+	         		<a rel='nofollow' class='comment-reply-link' href='/2010/01/18/18-unique-uses-of-wordpress-and-the-plugin-or-theme-used/?replytocom=4075#respond' onclick='return addComment.moveForm("comment-4075", "4075", "respond", "3220")'>Reply</a>	      		</div>
+		  </div>
+     </div> 
+      
+</li>
+</ul>
+</li>
+ 
+   
+   <li id="li-comment-2300" class="comment even thread-odd thread-alt depth-1">
+     
+     <img alt='' src='http://0.gravatar.com/avatar/6ca1a84b6c4c7e8c195addbcc30ccc40?s=75&amp;d=http%3A%2F%2F0.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D75&amp;r=G' class='avatar avatar-75 photo' height='75' width='75' />		
+     <div id="comment-2300">
+			<div class="authorinfo">
+		      	<div class="comment-author"><a href='http://www.joyoge.com' rel='external nofollow' class='url'>joyoge bookmark</a></div>
+            	<span class="comment-date">January 18, 2010 at 9:14 pm </span>
+	      	 </div>
+	      	
+	      	      
+	      <div class="comment-text">
+	      	 	<p>very important plugins, thanks for share..</p>
+	      	 	<div class="reply">
+	         		<a rel='nofollow' class='comment-reply-link' href='/2010/01/18/18-unique-uses-of-wordpress-and-the-plugin-or-theme-used/?replytocom=2300#respond' onclick='return addComment.moveForm("comment-2300", "2300", "respond", "3220")'>Reply</a>	      		</div>
+		  </div>
+     </div> 
+      
+</li>
+ 
+   
+   <li id="li-comment-2304" class="comment odd alt thread-even depth-1">
+     
+     <img alt='' src='http://0.gravatar.com/avatar/eb1c4ff684caff9e40868f7a909164a0?s=75&amp;d=http%3A%2F%2F0.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D75&amp;r=G' class='avatar avatar-75 photo' height='75' width='75' />		
+     <div id="comment-2304">
+			<div class="authorinfo">
+		      	<div class="comment-author"><a href='http://www.noahsportfolio.com' rel='external nofollow' class='url'>noah</a></div>
+            	<span class="comment-date">January 18, 2010 at 10:33 pm </span>
+	      	 </div>
+	      	
+	      	      
+	      <div class="comment-text">
+	      	 	<p>Excellent plugins list thanks for sharing</p>
+<p>~n</p>
+	      	 	<div class="reply">
+	         		<a rel='nofollow' class='comment-reply-link' href='/2010/01/18/18-unique-uses-of-wordpress-and-the-plugin-or-theme-used/?replytocom=2304#respond' onclick='return addComment.moveForm("comment-2304", "2304", "respond", "3220")'>Reply</a>	      		</div>
+		  </div>
+     </div> 
+      
+</li>
+ 
+   
+   <li id="li-comment-2305" class="comment even thread-odd thread-alt depth-1">
+     
+     <img alt='' src='http://0.gravatar.com/avatar/80b934466d9b9cd3aeff8d66d2131300?s=75&amp;d=http%3A%2F%2F0.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D75&amp;r=G' class='avatar avatar-75 photo' height='75' width='75' />		
+     <div id="comment-2305">
+			<div class="authorinfo">
+		      	<div class="comment-author"><a href='http://superlumi.nl' rel='external nofollow' class='url'>JeremyOLED</a></div>
+            	<span class="comment-date">January 18, 2010 at 10:42 pm </span>
+	      	 </div>
+	      	
+	      	      
+	      <div class="comment-text">
+	      	 	<p>I've been using WordPress to run a custom Flash games arcade for almost a year now without any particular arcade plugins. Just a flash embed plugin and everything else to make the site great and presto.</p>
+<p>You can check it out at <a href="http://physics-games.net" rel="nofollow">http://physics-games.net</a></p>
+	      	 	<div class="reply">
+	         		<a rel='nofollow' class='comment-reply-link' href='/2010/01/18/18-unique-uses-of-wordpress-and-the-plugin-or-theme-used/?replytocom=2305#respond' onclick='return addComment.moveForm("comment-2305", "2305", "respond", "3220")'>Reply</a>	      		</div>
+		  </div>
+     </div> 
+      
+</li>
+ 
+   
+   <li id="li-comment-2309" class="comment odd alt thread-even depth-1">
+     
+     <img alt='' src='http://0.gravatar.com/avatar/280d4540bcda1759ae9b641f0333e9fe?s=75&amp;d=http%3A%2F%2F0.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D75&amp;r=G' class='avatar avatar-75 photo' height='75' width='75' />		
+     <div id="comment-2309">
+			<div class="authorinfo">
+		      	<div class="comment-author">Vald</div>
+            	<span class="comment-date">January 18, 2010 at 11:37 pm </span>
+	      	 </div>
+	      	
+	      	      
+	      <div class="comment-text">
+	      	 	<p>Another example of a non standart use of wordpress. Community for artists and art lovers. Talks, discussions, ratings and so on. Check it here <a href="http://www.artstork.com" rel="nofollow">artstork.com</a></p>
+	      	 	<div class="reply">
+	         		<a rel='nofollow' class='comment-reply-link' href='/2010/01/18/18-unique-uses-of-wordpress-and-the-plugin-or-theme-used/?replytocom=2309#respond' onclick='return addComment.moveForm("comment-2309", "2309", "respond", "3220")'>Reply</a>	      		</div>
+		  </div>
+     </div> 
+      
+</li>
+ 
+   
+   <li id="li-comment-2314" class="comment even thread-odd thread-alt depth-1">
+     
+     <img alt='' src='http://0.gravatar.com/avatar/e5f1db1958d79eb8099ca8dc20ad02bb?s=75&amp;d=http%3A%2F%2F0.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D75&amp;r=G' class='avatar avatar-75 photo' height='75' width='75' />		
+     <div id="comment-2314">
+			<div class="authorinfo">
+		      	<div class="comment-author"><a href='http://pthesis.com' rel='external nofollow' class='url'>pthesis</a></div>
+            	<span class="comment-date">January 19, 2010 at 1:15 am </span>
+	      	 </div>
+	      	
+	      	      
+	      <div class="comment-text">
+	      	 	<p>Nice overview.  I wasn't aware of several of these uses for WordPress.</p>
+	      	 	<div class="reply">
+	         		<a rel='nofollow' class='comment-reply-link' href='/2010/01/18/18-unique-uses-of-wordpress-and-the-plugin-or-theme-used/?replytocom=2314#respond' onclick='return addComment.moveForm("comment-2314", "2314", "respond", "3220")'>Reply</a>	      		</div>
+		  </div>
+     </div> 
+      
+</li>
+ 
+   
+   <li id="li-comment-2315" class="comment odd alt thread-even depth-1">
+     
+     <img alt='' src='http://0.gravatar.com/avatar/e028924fe21b718697b3a288d81adb94?s=75&amp;d=http%3A%2F%2F0.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D75&amp;r=G' class='avatar avatar-75 photo' height='75' width='75' />		
+     <div id="comment-2315">
+			<div class="authorinfo">
+		      	<div class="comment-author"><a href='http://www.briskstudios.com' rel='external nofollow' class='url'>Mike</a></div>
+            	<span class="comment-date">January 19, 2010 at 1:43 am </span>
+	      	 </div>
+	      	
+	      	      
+	      <div class="comment-text">
+	      	 	<p>Dang, some good stuff on here, unique stuff too. Thanks for WordPress stuff!</p>
+	      	 	<div class="reply">
+	         		<a rel='nofollow' class='comment-reply-link' href='/2010/01/18/18-unique-uses-of-wordpress-and-the-plugin-or-theme-used/?replytocom=2315#respond' onclick='return addComment.moveForm("comment-2315", "2315", "respond", "3220")'>Reply</a>	      		</div>
+		  </div>
+     </div> 
+      
+</li>
+ 
+   
+   <li id="li-comment-2319" class="comment even thread-odd thread-alt depth-1">
+     
+     <img alt='' src='http://1.gravatar.com/avatar/5ba89a2ce585864ce73cafa7e79d114c?s=75&amp;d=http%3A%2F%2F1.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D75&amp;r=G' class='avatar avatar-75 photo' height='75' width='75' />		
+     <div id="comment-2319">
+			<div class="authorinfo">
+		      	<div class="comment-author"><a href='http://www.instinct.co.nz/e-commerce' rel='external nofollow' class='url'>Dan Milward</a></div>
+            	<span class="comment-date">January 19, 2010 at 3:58 am </span>
+	      	 </div>
+	      	
+	      	      
+	      <div class="comment-text">
+	      	 	<p>Thanks for linking to the <a href="http://www.instinct.co.nz/e-commerce" rel="nofollow">WP e-Commerce Plugin</a> &amp; the <a href="http://wp-wiki.org/" rel="nofollow">Wiki Plugin</a> that we made. Its not everyday I read a post that links to both :)</p>
+<p>Nice site. Nice article (thanks Japh &amp; my mates at AIOSEOP for the link!!)</p>
+	      	 	<div class="reply">
+	         		<a rel='nofollow' class='comment-reply-link' href='/2010/01/18/18-unique-uses-of-wordpress-and-the-plugin-or-theme-used/?replytocom=2319#respond' onclick='return addComment.moveForm("comment-2319", "2319", "respond", "3220")'>Reply</a>	      		</div>
+		  </div>
+     </div> 
+      
+</li>
+ 
+   
+   <li id="li-comment-2323" class="comment odd alt thread-even depth-1">
+     
+     <img alt='' src='http://0.gravatar.com/avatar/a88aff958fb47fb61d1cce51675ca527?s=75&amp;d=http%3A%2F%2F0.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D75&amp;r=G' class='avatar avatar-75 photo' height='75' width='75' />		
+     <div id="comment-2323">
+			<div class="authorinfo">
+		      	<div class="comment-author">James Pasion</div>
+            	<span class="comment-date">January 19, 2010 at 8:28 am </span>
+	      	 </div>
+	      	
+	      	      
+	      <div class="comment-text">
+	      	 	<p>WordPress sure has come a long way. From blogging to WP Auctions? Amazing!</p>
+	      	 	<div class="reply">
+	         		<a rel='nofollow' class='comment-reply-link' href='/2010/01/18/18-unique-uses-of-wordpress-and-the-plugin-or-theme-used/?replytocom=2323#respond' onclick='return addComment.moveForm("comment-2323", "2323", "respond", "3220")'>Reply</a>	      		</div>
+		  </div>
+     </div> 
+      
+</li>
+ 
+   
+   <li id="li-comment-2325" class="comment even thread-odd thread-alt depth-1">
+     
+     <img alt='' src='http://1.gravatar.com/avatar/909371185bf3c3cd783b9580f394bd7f?s=75&amp;d=http%3A%2F%2F1.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D75&amp;r=G' class='avatar avatar-75 photo' height='75' width='75' />		
+     <div id="comment-2325">
+			<div class="authorinfo">
+		      	<div class="comment-author"><a href='http://www.rolopress.com' rel='external nofollow' class='url'>Steve Bruner</a></div>
+            	<span class="comment-date">January 19, 2010 at 10:22 am </span>
+	      	 </div>
+	      	
+	      	      
+	      <div class="comment-text">
+	      	 	<p>Thanks for mentioning RoloPress.  We really appreciate it!  We just put up a demo site so people can see how it works: <a href="http://demo.rolopress.com" rel="nofollow">http://demo.rolopress.com</a>.</p>
+<p>Thanks again!</p>
+	      	 	<div class="reply">
+	         		<a rel='nofollow' class='comment-reply-link' href='/2010/01/18/18-unique-uses-of-wordpress-and-the-plugin-or-theme-used/?replytocom=2325#respond' onclick='return addComment.moveForm("comment-2325", "2325", "respond", "3220")'>Reply</a>	      		</div>
+		  </div>
+     </div> 
+      
+</li>
+ 
+   
+   <li id="li-comment-2329" class="comment odd alt thread-even depth-1">
+     
+     <img alt='' src='http://1.gravatar.com/avatar/fe4895bf516fa5641179fd76eb35b01f?s=75&amp;d=http%3A%2F%2F1.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D75&amp;r=G' class='avatar avatar-75 photo' height='75' width='75' />		
+     <div id="comment-2329">
+			<div class="authorinfo">
+		      	<div class="comment-author"><a href='http://beautifulshopping.com' rel='external nofollow' class='url'>Jim MacDonald</a></div>
+            	<span class="comment-date">January 19, 2010 at 12:21 pm </span>
+	      	 </div>
+	      	
+	      	      
+	      <div class="comment-text">
+	      	 	<p>Thank-you Terrance.  Was going off to bed as your website was going to be my last site to see.</p>
+<p>Wow,  interesting WordPress plug-ins. I'm now wide awake, itching to get finding out more and trying these plugins on my blogs.  Off looking over RoloPress and WordBurner to start.</p>
+<p>Thanks, Cheers</p>
+	      	 	<div class="reply">
+	         		<a rel='nofollow' class='comment-reply-link' href='/2010/01/18/18-unique-uses-of-wordpress-and-the-plugin-or-theme-used/?replytocom=2329#respond' onclick='return addComment.moveForm("comment-2329", "2329", "respond", "3220")'>Reply</a>	      		</div>
+		  </div>
+     </div> 
+      
+</li>
+ 
+   
+   <li id="li-comment-2333" class="comment even thread-odd thread-alt depth-1">
+     
+     <img alt='' src='http://1.gravatar.com/avatar/5eb9eeb21d6904f9b39e84aa1c1b9025?s=75&amp;d=http%3A%2F%2F1.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D75&amp;r=G' class='avatar avatar-75 photo' height='75' width='75' />		
+     <div id="comment-2333">
+			<div class="authorinfo">
+		      	<div class="comment-author"><a href='http://desaindigital.com' rel='external nofollow' class='url'>jeprie</a></div>
+            	<span class="comment-date">January 19, 2010 at 1:32 pm </span>
+	      	 </div>
+	      	
+	      	      
+	      <div class="comment-text">
+	      	 	<p>thanks. nice info. realy usefull</p>
+	      	 	<div class="reply">
+	         		<a rel='nofollow' class='comment-reply-link' href='/2010/01/18/18-unique-uses-of-wordpress-and-the-plugin-or-theme-used/?replytocom=2333#respond' onclick='return addComment.moveForm("comment-2333", "2333", "respond", "3220")'>Reply</a>	      		</div>
+		  </div>
+     </div> 
+      
+</li>
+ 
+   
+   <li id="li-comment-2336" class="comment odd alt thread-even depth-1">
+     
+     <img alt='' src='http://0.gravatar.com/avatar/633dd34678193aa38a73aa67f3e19a01?s=75&amp;d=http%3A%2F%2F0.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D75&amp;r=G' class='avatar avatar-75 photo' height='75' width='75' />		
+     <div id="comment-2336">
+			<div class="authorinfo">
+		      	<div class="comment-author"><a href='http://ebsoft.web.id' rel='external nofollow' class='url'>ebta</a></div>
+            	<span class="comment-date">January 19, 2010 at 2:54 pm </span>
+	      	 </div>
+	      	
+	      	      
+	      <div class="comment-text">
+	      	 	<p>Wow.. thank you<br />
+never though that wordpress can be used like that</p>
+	      	 	<div class="reply">
+	         		<a rel='nofollow' class='comment-reply-link' href='/2010/01/18/18-unique-uses-of-wordpress-and-the-plugin-or-theme-used/?replytocom=2336#respond' onclick='return addComment.moveForm("comment-2336", "2336", "respond", "3220")'>Reply</a>	      		</div>
+		  </div>
+     </div> 
+      
+</li>
+ 
+   
+   <li id="li-comment-2337" class="comment even thread-odd thread-alt depth-1">
+     
+     <img alt='' src='http://1.gravatar.com/avatar/f4487cfde3cbe323bcb73969c3d686f4?s=75&amp;d=http%3A%2F%2F1.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D75&amp;r=G' class='avatar avatar-75 photo' height='75' width='75' />		
+     <div id="comment-2337">
+			<div class="authorinfo">
+		      	<div class="comment-author"><a href='http://www.bisnisukm.com' rel='external nofollow' class='url'>Bisnis UKM</a></div>
+            	<span class="comment-date">January 19, 2010 at 2:55 pm </span>
+	      	 </div>
+	      	
+	      	      
+	      <div class="comment-text">
+	      	 	<p>Thank you...<br />
+wordpress rock.. :)</p>
+	      	 	<div class="reply">
+	         		<a rel='nofollow' class='comment-reply-link' href='/2010/01/18/18-unique-uses-of-wordpress-and-the-plugin-or-theme-used/?replytocom=2337#respond' onclick='return addComment.moveForm("comment-2337", "2337", "respond", "3220")'>Reply</a>	      		</div>
+		  </div>
+     </div> 
+      
+</li>
+ 
+   
+   <li id="li-comment-2344" class="comment odd alt thread-even depth-1">
+     
+     <img alt='' src='http://0.gravatar.com/avatar/8691e69e1c9e198f1ab2574630613a0a?s=75&amp;d=http%3A%2F%2F0.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D75&amp;r=G' class='avatar avatar-75 photo' height='75' width='75' />		
+     <div id="comment-2344">
+			<div class="authorinfo">
+		      	<div class="comment-author"><a href='http://www.dslr-test.de' rel='external nofollow' class='url'>Tom</a></div>
+            	<span class="comment-date">January 19, 2010 at 7:42 pm </span>
+	      	 </div>
+	      	
+	      	      
+	      <div class="comment-text">
+	      	 	<p>Nice list!<br />
+I didn't even know that there is  a Wiki plugin for WP!<br />
+It's great!<br />
+thanks</p>
+	      	 	<div class="reply">
+	         		<a rel='nofollow' class='comment-reply-link' href='/2010/01/18/18-unique-uses-of-wordpress-and-the-plugin-or-theme-used/?replytocom=2344#respond' onclick='return addComment.moveForm("comment-2344", "2344", "respond", "3220")'>Reply</a>	      		</div>
+		  </div>
+     </div> 
+      
+</li>
+ 
+   
+   <li id="li-comment-2348" class="comment even thread-odd thread-alt depth-1">
+     
+     <img alt='' src='http://0.gravatar.com/avatar/627412f06b317ccc85b43865555a2725?s=75&amp;d=http%3A%2F%2F0.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D75&amp;r=G' class='avatar avatar-75 photo' height='75' width='75' />		
+     <div id="comment-2348">
+			<div class="authorinfo">
+		      	<div class="comment-author"><a href='http://www.alexpaezsyll.com' rel='external nofollow' class='url'>Alex</a></div>
+            	<span class="comment-date">January 20, 2010 at 12:16 am </span>
+	      	 </div>
+	      	
+	      	      
+	      <div class="comment-text">
+	      	 	<p>Hi, I´m Looking to use wordepress like  a electronic journal, with articles/research, but I didn´t find plugins or themes for this use.<br />
+Thanks.</p>
+<p>Great Post</p>
+	      	 	<div class="reply">
+	         		<a rel='nofollow' class='comment-reply-link' href='/2010/01/18/18-unique-uses-of-wordpress-and-the-plugin-or-theme-used/?replytocom=2348#respond' onclick='return addComment.moveForm("comment-2348", "2348", "respond", "3220")'>Reply</a>	      		</div>
+		  </div>
+     </div> 
+      
+</li>
+ 
+   
+   <li id="li-comment-2350" class="comment odd alt thread-even depth-1">
+     
+     <img alt='' src='http://0.gravatar.com/avatar/a52b821d229d625ed14edb4ce0d2f7d3?s=75&amp;d=http%3A%2F%2F0.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D75&amp;r=G' class='avatar avatar-75 photo' height='75' width='75' />		
+     <div id="comment-2350">
+			<div class="authorinfo">
+		      	<div class="comment-author">Daniele</div>
+            	<span class="comment-date">January 20, 2010 at 12:55 am </span>
+	      	 </div>
+	      	
+	      	      
+	      <div class="comment-text">
+	      	 	<p>Hi, does anyone of you know if it's possible to use wordpress as project manager?</p>
+	      	 	<div class="reply">
+	         		<a rel='nofollow' class='comment-reply-link' href='/2010/01/18/18-unique-uses-of-wordpress-and-the-plugin-or-theme-used/?replytocom=2350#respond' onclick='return addComment.moveForm("comment-2350", "2350", "respond", "3220")'>Reply</a>	      		</div>
+		  </div>
+     </div> 
+      
+</li>
+ 
+   
+   <li id="li-comment-2351" class="comment even thread-odd thread-alt depth-1">
+     
+     <img alt='' src='http://0.gravatar.com/avatar/4aa6faea6e6faa3387b3f7b2ad4e0b4a?s=75&amp;d=http%3A%2F%2F0.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D75&amp;r=G' class='avatar avatar-75 photo' height='75' width='75' />		
+     <div id="comment-2351">
+			<div class="authorinfo">
+		      	<div class="comment-author"><a href='http://www.websitedesign.co.uk' rel='external nofollow' class='url'>Louise</a></div>
+            	<span class="comment-date">January 20, 2010 at 1:29 am </span>
+	      	 </div>
+	      	
+	      	      
+	      <div class="comment-text">
+	      	 	<p>One of the best list's of WP modules that I have seen in a long time, thanks for sharing.</p>
+	      	 	<div class="reply">
+	         		<a rel='nofollow' class='comment-reply-link' href='/2010/01/18/18-unique-uses-of-wordpress-and-the-plugin-or-theme-used/?replytocom=2351#respond' onclick='return addComment.moveForm("comment-2351", "2351", "respond", "3220")'>Reply</a>	      		</div>
+		  </div>
+     </div> 
+      
+</li>
+ 
+   
+   <li id="li-comment-2355" class="comment odd alt thread-even depth-1">
+     
+     <img alt='' src='http://1.gravatar.com/avatar/120006668dad4f8fdf1beefb15932841?s=75&amp;d=http%3A%2F%2F1.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D75&amp;r=G' class='avatar avatar-75 photo' height='75' width='75' />		
+     <div id="comment-2355">
+			<div class="authorinfo">
+		      	<div class="comment-author"><a href='http://www.binarymoon.co.uk' rel='external nofollow' class='url'>Ben</a></div>
+            	<span class="comment-date">January 20, 2010 at 3:12 am </span>
+	      	 </div>
+	      	
+	      	      
+	      <div class="comment-text">
+	      	 	<p>Great list and timely too - we released Accumulo today :) More info here on <a href="http://prothemedesign.com/news/accumulo-aggregator-theme-released/" rel="nofollow">the Accumulo release post</a></p>
+	      	 	<div class="reply">
+	         		<a rel='nofollow' class='comment-reply-link' href='/2010/01/18/18-unique-uses-of-wordpress-and-the-plugin-or-theme-used/?replytocom=2355#respond' onclick='return addComment.moveForm("comment-2355", "2355", "respond", "3220")'>Reply</a>	      		</div>
+		  </div>
+     </div> 
+      
+</li>
+ 
+   
+   <li id="li-comment-2377" class="comment even thread-odd thread-alt depth-1">
+     
+     <img alt='' src='http://1.gravatar.com/avatar/d7ca35bd1425b6243d78d1819cabacad?s=75&amp;d=http%3A%2F%2F1.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D75&amp;r=G' class='avatar avatar-75 photo' height='75' width='75' />		
+     <div id="comment-2377">
+			<div class="authorinfo">
+		      	<div class="comment-author"><a href='http://www.redesignyourbiz.com/' rel='external nofollow' class='url'>Maverick</a></div>
+            	<span class="comment-date">January 20, 2010 at 7:47 pm </span>
+	      	 </div>
+	      	
+	      	      
+	      <div class="comment-text">
+	      	 	<p>these are simply stunning........ these people make our lives so simple :)</p>
+<p>thanks a ton</p>
+	      	 	<div class="reply">
+	         		<a rel='nofollow' class='comment-reply-link' href='/2010/01/18/18-unique-uses-of-wordpress-and-the-plugin-or-theme-used/?replytocom=2377#respond' onclick='return addComment.moveForm("comment-2377", "2377", "respond", "3220")'>Reply</a>	      		</div>
+		  </div>
+     </div> 
+      
+</li>
+ 
+   
+   <li id="li-comment-2394" class="comment odd alt thread-even depth-1">
+     
+     <img alt='' src='http://1.gravatar.com/avatar/b85c21945f6f6f6ac5bd48566a89cef2?s=75&amp;d=http%3A%2F%2F1.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D75&amp;r=G' class='avatar avatar-75 photo' height='75' width='75' />		
+     <div id="comment-2394">
+			<div class="authorinfo">
+		      	<div class="comment-author"><a href='http://www.elatio.hr' rel='external nofollow' class='url'>PVC stolarija</a></div>
+            	<span class="comment-date">January 21, 2010 at 3:45 am </span>
+	      	 </div>
+	      	
+	      	      
+	      <div class="comment-text">
+	      	 	<p>Nice collection :-)</p>
+	      	 	<div class="reply">
+	         		<a rel='nofollow' class='comment-reply-link' href='/2010/01/18/18-unique-uses-of-wordpress-and-the-plugin-or-theme-used/?replytocom=2394#respond' onclick='return addComment.moveForm("comment-2394", "2394", "respond", "3220")'>Reply</a>	      		</div>
+		  </div>
+     </div> 
+      
+</li>
+ 
+   
+   <li id="li-comment-2438" class="comment even thread-odd thread-alt depth-1">
+     
+     <img alt='' src='http://1.gravatar.com/avatar/f170e32acb89cc504e947bcdd7f2f171?s=75&amp;d=http%3A%2F%2F1.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D75&amp;r=G' class='avatar avatar-75 photo' height='75' width='75' />		
+     <div id="comment-2438">
+			<div class="authorinfo">
+		      	<div class="comment-author"><a href='http://www.w3avenue.com/' rel='external nofollow' class='url'>Saud Khan</a></div>
+            	<span class="comment-date">January 22, 2010 at 3:21 pm </span>
+	      	 </div>
+	      	
+	      	      
+	      <div class="comment-text">
+	      	 	<p>Terrance</p>
+<p>I wrote a similar post on W3Avenue back in October: <a href="http://bit.ly/kq2nP" rel="nofollow">http://bit.ly/kq2nP</a>.</p>
+<p>WordPress is such a wonderful platform, you keep on looking for more - and the amazing part is that most of the time you succeed.</p>
+<p>Good job and best wishes.</p>
+	      	 	<div class="reply">
+	         		<a rel='nofollow' class='comment-reply-link' href='/2010/01/18/18-unique-uses-of-wordpress-and-the-plugin-or-theme-used/?replytocom=2438#respond' onclick='return addComment.moveForm("comment-2438", "2438", "respond", "3220")'>Reply</a>	      		</div>
+		  </div>
+     </div> 
+      
+</li>
+ 
+   
+   <li id="li-comment-2510" class="comment odd alt thread-even depth-1">
+     
+     <img alt='' src='http://1.gravatar.com/avatar/3d3fce9d8896a9b9c890b8b228b79fd1?s=75&amp;d=http%3A%2F%2F1.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D75&amp;r=G' class='avatar avatar-75 photo' height='75' width='75' />		
+     <div id="comment-2510">
+			<div class="authorinfo">
+		      	<div class="comment-author"><a href='http://webdesignpuertorico.com' rel='external nofollow' class='url'>Luis Rivera Colon</a></div>
+            	<span class="comment-date">January 25, 2010 at 4:27 am </span>
+	      	 </div>
+	      	
+	      	      
+	      <div class="comment-text">
+	      	 	<p>The RoloPress plugin was very nice im doing a project with that plugin, and works perfect.</p>
+	      	 	<div class="reply">
+	         		<a rel='nofollow' class='comment-reply-link' href='/2010/01/18/18-unique-uses-of-wordpress-and-the-plugin-or-theme-used/?replytocom=2510#respond' onclick='return addComment.moveForm("comment-2510", "2510", "respond", "3220")'>Reply</a>	      		</div>
+		  </div>
+     </div> 
+      
+</li>
+ 
+   
+   <li id="li-comment-2515" class="comment even thread-odd thread-alt depth-1">
+     
+     <img alt='' src='http://0.gravatar.com/avatar/2733a7e425fb475060c0257ef598dccf?s=75&amp;d=http%3A%2F%2F0.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D75&amp;r=G' class='avatar avatar-75 photo' height='75' width='75' />		
+     <div id="comment-2515">
+			<div class="authorinfo">
+		      	<div class="comment-author"><a href='http://www.webstuffshare.com' rel='external nofollow' class='url'>Hidayat Sagita</a></div>
+            	<span class="comment-date">January 25, 2010 at 1:02 pm </span>
+	      	 </div>
+	      	
+	      	      
+	      <div class="comment-text">
+	      	 	<p>Woho finally find you "FV Community News"! :D</p>
+	      	 	<div class="reply">
+	         		<a rel='nofollow' class='comment-reply-link' href='/2010/01/18/18-unique-uses-of-wordpress-and-the-plugin-or-theme-used/?replytocom=2515#respond' onclick='return addComment.moveForm("comment-2515", "2515", "respond", "3220")'>Reply</a>	      		</div>
+		  </div>
+     </div> 
+      
+</li>
+ 
+   
+   <li id="li-comment-2548" class="comment odd alt thread-even depth-1">
+     
+     <img alt='' src='http://1.gravatar.com/avatar/3a6e1097720454c2170db2e304918366?s=75&amp;d=http%3A%2F%2F1.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D75&amp;r=G' class='avatar avatar-75 photo' height='75' width='75' />		
+     <div id="comment-2548">
+			<div class="authorinfo">
+		      	<div class="comment-author"><a href='http://dinolatoga.com' rel='external nofollow' class='url'>Dino</a></div>
+            	<span class="comment-date">January 27, 2010 at 1:47 pm </span>
+	      	 </div>
+	      	
+	      	      
+	      <div class="comment-text">
+	      	 	<p>Awesome list. Very inspiring to see such unique WordPress powered sites.</p>
+	      	 	<div class="reply">
+	         		<a rel='nofollow' class='comment-reply-link' href='/2010/01/18/18-unique-uses-of-wordpress-and-the-plugin-or-theme-used/?replytocom=2548#respond' onclick='return addComment.moveForm("comment-2548", "2548", "respond", "3220")'>Reply</a>	      		</div>
+		  </div>
+     </div> 
+      
+</li>
+ 
+   
+   <li id="li-comment-2688" class="comment even thread-odd thread-alt depth-1">
+     
+     <img alt='' src='http://0.gravatar.com/avatar/c427e274e0bf9426baec3f09dc6fb8b9?s=75&amp;d=http%3A%2F%2F0.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D75&amp;r=G' class='avatar avatar-75 photo' height='75' width='75' />		
+     <div id="comment-2688">
+			<div class="authorinfo">
+		      	<div class="comment-author">bodomias</div>
+            	<span class="comment-date">February 2, 2010 at 6:09 pm </span>
+	      	 </div>
+	      	
+	      	      
+	      <div class="comment-text">
+	      	 	<p>Great round up. I miss a portfolio theme for WordPress here.</p>
+<p>Thanks</p>
+	      	 	<div class="reply">
+	         		<a rel='nofollow' class='comment-reply-link' href='/2010/01/18/18-unique-uses-of-wordpress-and-the-plugin-or-theme-used/?replytocom=2688#respond' onclick='return addComment.moveForm("comment-2688", "2688", "respond", "3220")'>Reply</a>	      		</div>
+		  </div>
+     </div> 
+      
+</li>
+ 
+   
+   <li id="li-comment-3166" class="comment odd alt thread-even depth-1">
+     
+     <img alt='' src='http://0.gravatar.com/avatar/c49beaddc312812c978e5854f4291d6d?s=75&amp;d=http%3A%2F%2F0.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D75&amp;r=G' class='avatar avatar-75 photo' height='75' width='75' />		
+     <div id="comment-3166">
+			<div class="authorinfo">
+		      	<div class="comment-author"><a href='http://www.theinsidedesign.com' rel='external nofollow' class='url'>The Inside Design</a></div>
+            	<span class="comment-date">February 23, 2010 at 3:45 pm </span>
+	      	 </div>
+	      	
+	      	      
+	      <div class="comment-text">
+	      	 	<p>Great Article and awesome collection. Thank for sharing this information.</p>
+	      	 	<div class="reply">
+	         		<a rel='nofollow' class='comment-reply-link' href='/2010/01/18/18-unique-uses-of-wordpress-and-the-plugin-or-theme-used/?replytocom=3166#respond' onclick='return addComment.moveForm("comment-3166", "3166", "respond", "3220")'>Reply</a>	      		</div>
+		  </div>
+     </div> 
+      
+</li>
+ 
+   
+   <li id="li-comment-6356" class="comment even thread-odd thread-alt depth-1">
+     
+     <img alt='' src='http://1.gravatar.com/avatar/590b7d5956fa3c8d831f087ae02848b4?s=75&amp;d=http%3A%2F%2F1.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D75&amp;r=G' class='avatar avatar-75 photo' height='75' width='75' />		
+     <div id="comment-6356">
+			<div class="authorinfo">
+		      	<div class="comment-author"><a href='http://www.ozdtasarim.com/blog' rel='external nofollow' class='url'>fireRoxy</a></div>
+            	<span class="comment-date">June 16, 2010 at 11:30 pm </span>
+	      	 </div>
+	      	
+	      	      
+	      <div class="comment-text">
+	      	 	<p>Wordpress plugins do their best jobs. I love wordpress. and this article is very useful. thank you.</p>
+	      	 	<div class="reply">
+	         		<a rel='nofollow' class='comment-reply-link' href='/2010/01/18/18-unique-uses-of-wordpress-and-the-plugin-or-theme-used/?replytocom=6356#respond' onclick='return addComment.moveForm("comment-6356", "6356", "respond", "3220")'>Reply</a>	      		</div>
+		  </div>
+     </div> 
+      
+</li>
+ 
+   
+   <li id="li-comment-6896" class="comment odd alt thread-even depth-1">
+     
+     <img alt='' src='http://1.gravatar.com/avatar/baf9391facade6c49ec20437ce34076c?s=75&amp;d=http%3A%2F%2F1.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D75&amp;r=G' class='avatar avatar-75 photo' height='75' width='75' />		
+     <div id="comment-6896">
+			<div class="authorinfo">
+		      	<div class="comment-author"><a href='http://www.healthburden.com' rel='external nofollow' class='url'>Ranjith</a></div>
+            	<span class="comment-date">July 7, 2010 at 2:31 pm </span>
+	      	 </div>
+	      	
+	      	      
+	      <div class="comment-text">
+	      	 	<p>Thanks for the amazing list. I was just wondering the "forum" plugin does it kill lot of bandwidth?</p>
+	      	 	<div class="reply">
+	         		<a rel='nofollow' class='comment-reply-link' href='/2010/01/18/18-unique-uses-of-wordpress-and-the-plugin-or-theme-used/?replytocom=6896#respond' onclick='return addComment.moveForm("comment-6896", "6896", "respond", "3220")'>Reply</a>	      		</div>
+		  </div>
+     </div> 
+      
+</li>
+ 
+   
+   <li id="li-comment-6907" class="comment even thread-odd thread-alt depth-1">
+     
+     <img alt='' src='http://0.gravatar.com/avatar/cf99adc47dcd3eab2a8aab74233c61cc?s=75&amp;d=http%3A%2F%2F0.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D75&amp;r=G' class='avatar avatar-75 photo' height='75' width='75' />		
+     <div id="comment-6907">
+			<div class="authorinfo">
+		      	<div class="comment-author"><a href='http://www.gooseneckfloorlamp.net' rel='external nofollow' class='url'>Jennifer</a></div>
+            	<span class="comment-date">July 7, 2010 at 8:24 pm </span>
+	      	 </div>
+	      	
+	      	      
+	      <div class="comment-text">
+	      	 	<p>Thank you for this list.  I have been wanting to incorporate some of these ideas into my blogs.  Now I know that I can.</p>
+	      	 	<div class="reply">
+	         		<a rel='nofollow' class='comment-reply-link' href='/2010/01/18/18-unique-uses-of-wordpress-and-the-plugin-or-theme-used/?replytocom=6907#respond' onclick='return addComment.moveForm("comment-6907", "6907", "respond", "3220")'>Reply</a>	      		</div>
+		  </div>
+     </div> 
+      
+</li>
+ 
+   
+   <li id="li-comment-7985" class="comment odd alt thread-even depth-1">
+     
+     <img alt='' src='http://1.gravatar.com/avatar/fbce4cc3ea55cc13df0a67396b51990b?s=75&amp;d=http%3A%2F%2F1.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D75&amp;r=G' class='avatar avatar-75 photo' height='75' width='75' />		
+     <div id="comment-7985">
+			<div class="authorinfo">
+		      	<div class="comment-author"><a href='http://www.secretcontents.com' rel='external nofollow' class='url'>Ret</a></div>
+            	<span class="comment-date">August 20, 2010 at 3:32 pm </span>
+	      	 </div>
+	      	
+	      	      
+	      <div class="comment-text">
+	      	 	<p>Wow...the possibilities in WordPress flatform is endless. Thank you for widening up my mind on the things that WP can do for me. I am so impressed. This is the article I am looking for.</p>
+	      	 	<div class="reply">
+	         		<a rel='nofollow' class='comment-reply-link' href='/2010/01/18/18-unique-uses-of-wordpress-and-the-plugin-or-theme-used/?replytocom=7985#respond' onclick='return addComment.moveForm("comment-7985", "7985", "respond", "3220")'>Reply</a>	      		</div>
+		  </div>
+     </div> 
+      
+</li>
+ 
+   
+   <li id="li-comment-9550" class="comment even thread-odd thread-alt depth-1">
+     
+     <img alt='' src='http://0.gravatar.com/avatar/0bc6dc6ef915e08658a7c0352870ef3f?s=75&amp;d=http%3A%2F%2F0.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D75&amp;r=G' class='avatar avatar-75 photo' height='75' width='75' />		
+     <div id="comment-9550">
+			<div class="authorinfo">
+		      	<div class="comment-author"><a href='http://www.kaliteliforum.org' rel='external nofollow' class='url'>kaliteliforum</a></div>
+            	<span class="comment-date">October 20, 2010 at 1:51 am </span>
+	      	 </div>
+	      	
+	      	      
+	      <div class="comment-text">
+	      	 	<p>thanks for sharing, really nice article..</p>
+	      	 	<div class="reply">
+	         		<a rel='nofollow' class='comment-reply-link' href='/2010/01/18/18-unique-uses-of-wordpress-and-the-plugin-or-theme-used/?replytocom=9550#respond' onclick='return addComment.moveForm("comment-9550", "9550", "respond", "3220")'>Reply</a>	      		</div>
+		  </div>
+     </div> 
+      
+</li>
+ 
+   
+   <li id="li-comment-9637" class="comment odd alt thread-even depth-1">
+     
+     <img alt='' src='http://1.gravatar.com/avatar/bb76fa5ccec31b09fa7846764e802cae?s=75&amp;d=http%3A%2F%2F1.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D75&amp;r=G' class='avatar avatar-75 photo' height='75' width='75' />		
+     <div id="comment-9637">
+			<div class="authorinfo">
+		      	<div class="comment-author"><a href='http://www.careeroutlook.in/' rel='external nofollow' class='url'>CaeerOutlook</a></div>
+            	<span class="comment-date">October 23, 2010 at 8:37 am </span>
+	      	 </div>
+	      	
+	      	      
+	      <div class="comment-text">
+	      	 	<p>This is a very powerful post, I am currently running a career site and this post is really going to help me to increase the functionality of my site.</p>
+<p>Thanks for mentioning all the job related theme &amp; plugins :)</p>
+	      	 	<div class="reply">
+	         		<a rel='nofollow' class='comment-reply-link' href='/2010/01/18/18-unique-uses-of-wordpress-and-the-plugin-or-theme-used/?replytocom=9637#respond' onclick='return addComment.moveForm("comment-9637", "9637", "respond", "3220")'>Reply</a>	      		</div>
+		  </div>
+     </div> 
+      
+</li>
+ 
+   
+   <li id="li-comment-9926" class="comment even thread-odd thread-alt depth-1">
+     
+     <img alt='' src='http://0.gravatar.com/avatar/e9cf5b19a6596f15e5647e451ee538e8?s=75&amp;d=http%3A%2F%2F0.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D75&amp;r=G' class='avatar avatar-75 photo' height='75' width='75' />		
+     <div id="comment-9926">
+			<div class="authorinfo">
+		      	<div class="comment-author"><a href='http://fosesepticeconstanta.blogspot.com/' rel='external nofollow' class='url'>fosa septica constanta</a></div>
+            	<span class="comment-date">November 3, 2010 at 6:00 pm </span>
+	      	 </div>
+	      	
+	      	      
+	      <div class="comment-text">
+	      	 	<p>buna. interesant webite. ce theme de WP folosesti? E facuta de tine?</p>
+	      	 	<div class="reply">
+	         		<a rel='nofollow' class='comment-reply-link' href='/2010/01/18/18-unique-uses-of-wordpress-and-the-plugin-or-theme-used/?replytocom=9926#respond' onclick='return addComment.moveForm("comment-9926", "9926", "respond", "3220")'>Reply</a>	      		</div>
+		  </div>
+     </div> 
+      
+</li>
+ 
+   
+   <li id="li-comment-12205" class="comment odd alt thread-even depth-1">
+     
+     <img alt='' src='http://1.gravatar.com/avatar/dc846775668d6e007eb9f79c7d522076?s=75&amp;d=http%3A%2F%2F1.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D75&amp;r=G' class='avatar avatar-75 photo' height='75' width='75' />		
+     <div id="comment-12205">
+			<div class="authorinfo">
+		      	<div class="comment-author"><a href='http://www.can-crusher.org' rel='external nofollow' class='url'>Can Crusher</a></div>
+            	<span class="comment-date">December 14, 2010 at 3:53 am </span>
+	      	 </div>
+	      	
+	      	      
+	      <div class="comment-text">
+	      	 	<p>the morning fresh air is the best, i have asthma and i love to get some fresh air .`,</p>
+	      	 	<div class="reply">
+	         		<a rel='nofollow' class='comment-reply-link' href='/2010/01/18/18-unique-uses-of-wordpress-and-the-plugin-or-theme-used/?replytocom=12205#respond' onclick='return addComment.moveForm("comment-12205", "12205", "respond", "3220")'>Reply</a>	      		</div>
+		  </div>
+     </div> 
+      
+</li>
+			</ol> 
+			</div>
+		
+	<div class="comment-navi">
+		  
+	</div>
+		
+		
+<div id="respond">
+
+
+<div class="respond-title">
+	<h3 id="leave">Add a Comment</h3> 
+	
+			<div id="cancel-comment-reply">
+			<a rel="nofollow" id="cancel-comment-reply-link" href="/2010/01/18/18-unique-uses-of-wordpress-and-the-plugin-or-theme-used/#respond" style="display:none;">Click here to cancel reply.</a>		</div>
+	</div>
+
+<p id="disclaim">Please note that comments are moderated - and rel="nofollow" is in use. Please no link dropping, no keywords or domains as names. Kindly do not spam, and do not advertise!</p>
+
+
+	<form action="http://www.onextrapixel.com/wp-comments-post.php" method="post" id="commentform">
+	<div>
+		<div class="clabel"><label for="author"><small>Name <span>(required)</span></small></label></div>
+		<input type="text" name="author" id="author" value="" size="22" tabindex="1" />
+	</div>
+	
+	<div>
+		<div class="clabel"><label for="email"><small>Email <span>(will not be revealed)</span></small></label></div>
+		<input type="text" name="email" id="email" value="" size="22" tabindex="2" />
+	</div>
+	
+	<div>
+		<div class="clabel"><label for="url"><small>Website</small></label></div>
+		<input type="text" name="url" id="url" value="" size="22" tabindex="3" />
+	</div>
+	
+<input type='hidden' name='comment_post_ID' value='3220' id='comment_post_ID' />
+<input type='hidden' name='comment_parent' id='comment_parent' value='0' />
+
+	<!-- <p><div class="htmlcode">Allowed tags: </div></p> -->
+	
+	<div class="clabel"><label for="comment"><small>Comment</small></label></div>
+	<textarea name="comment" id="comment" cols="100%" rows="10" tabindex="4"></textarea>
+	
+		 		
+	<p>
+		<div class="clabel"><label for="mcspvalue">Spam Protection: 1 + 4= ?</label></div>
+		<input type="text" name="mcspvalue" id="mcspvalue" value="" size="22" tabindex="4" />
+		<input type="hidden" name="mcspinfo" value="ae84c" />
+	</p>
+	
+		
+	<div class="commentbtn">
+		<input name="submit" type="submit" id="submit" class="submitbutton" tabindex="5" value="Submit Comment" />
+	</div>
+	
+	<input type="hidden" name="comment_post_ID" value="3220" />
+ 
+<input type="hidden" id="akismet_comment_nonce" name="akismet_comment_nonce" value="31c4042f3c" />
+
+	<p style="clear: both;" class="subscribe-to-comments">
+	<input type="checkbox" name="subscribe" id="subscribe" value="subscribe" style="width: auto;" />
+	<label for="subscribe">Notify me of followup comments via e-mail</label>
+	</p>
+
+
+ 
+</form>
+</div>	
+		</div>
+
+	</div>	
+
+<div id="sidebar">
+	<div class="sidewbox">
+		<h2>Get updates via email</h2>
+		<form action="http://feedburner.google.com/fb/a/mailverify" method="post" target="popupwindow" onsubmit="window.open('http://feedburner.google.com/fb/a/mailverify?uri=onextrapixel', 'popupwindow', 'scrollbars=yes,width=550,height=520');return true">		
+			<input type="text" name="email" id="emailtextbox" value="Subscribe via email" onblur="if (this.value == '') {this.value = 'Subscribe via email';}" onfocus="if(this.value == 'Subscribe via email') {this.value = '';}"/>
+			<input type="hidden" value="onextrapixel" name="uri"/>
+			<input type="hidden" name="loc" value="en_US"/>
+			<input type="submit" value="Send" class="emailbutton" />
+		</form>
+	</div>
+	<div id="sponsors">
+		<!-- BuySellAds.com Zone Code -->
+		<div id="bsap_1243230" class="bsarocks bsap_bcc688b2059ea2d9f46c4ca12eea9ac0"></div>
+		<!-- END BuySellAds.com Zone Code -->
+		
+		
+			<!-- BuySellAds.com Zone Code -->
+				<div id="bsap_1251302" class="bsarocks bsap_bcc688b2059ea2d9f46c4ca12eea9ac0"></div>
+			<!-- END BuySellAds.com Zone Code -->
+		
+		
+		<div class="ads125">
+			<!-- BuySellAds.com Zone Code -->
+			<div id="bsap_1242583" class="bsarocks bsap_bcc688b2059ea2d9f46c4ca12eea9ac0"></div>
+			<!-- END BuySellAds.com Zone Code -->
+		</div>
+	</div>
+
+	<h2 id="about">About OXP</h2>
+	<div class="oxplist">
+		<ul class="oxpleft">
+			<li><span id="homeicon"></span><a href="/">Home</a></li>
+			<li><span id="contacticon"></span><a href="/contact/">Contact</a></li>
+			<li><span id="abouticon"></span><a href="/about/">About</a></li>
+			<li><span id="authoricon"></span><a href="/our-regular-authors/">Regular Authors</a></li>
+			<li class="lastline"><span id="adverticon"></span><a href="/advertise-with-us/">Advertising</a></li>
+		</ul>
+		
+		<ul class="oxpright">
+			<li><span id="writeicon"></span><a href="/write-for-us/">Write for Us</a></li>
+			<li><span id="artcleicon"></span><a href="/all-articles/">All Articles</a></li>
+			<li><span id="tagicon"></span><a href="/all-tags/">All Tags</a></li>
+			<li><span id="twittericon"></span><a href="http://twitter.com/onextrapixel/" class="twitlink" rel="nonfollow">Follow us on Twitter</a></li>
+			<li class="lastline"><span id="rssicon"></span><a href="http://feeds2.feedburner.com/onextrapixel" class="rsslink" rel="nonfollow">Subscribe to RSS Feed</a></li>
+		</ul>
+	</div>
+	
+	<h2 id="fav">OXP Favourites</h2>
+		<ul class="favlist"><li><a href="http://www.onextrapixel.com/2010/02/25/80-extreme-advertisements-that-will-challenge-your-mind/" title="80 Extreme Advertisements That Will Challenge Your Mind">80 Extreme Advertisements That Will Challenge Your Mind</a></li><li><a href="http://www.onextrapixel.com/2009/07/15/the-importance-of-wireframes-in-web-design-and-9-tools-to-create-wireframes/" title="The Importance Of Wireframes In Web Design And 9 Tools To Create Wireframes">The Importance Of Wireframes In Web Design And 9 Tools To Create Wireframes</a></li><li><a href="http://www.onextrapixel.com/2010/12/07/graphics-t-shirts-giveaways-5-x-any-design-from-66thieves-up-for-grabs/" title="Graphics T-Shirts Giveaways: 5 X Any Design from 66thieves Up For Grabs!">Graphics T-Shirts Giveaways: 5 X Any Design from 66thieves Up For Grabs!</a></li><li><a href="http://www.onextrapixel.com/2010/01/30/13-useful-wordpress-sql-queries-you-wish-you-knew-earlier/" title="13 Useful WordPress SQL Queries You Wish You Knew Earlier">13 Useful WordPress SQL Queries You Wish You Knew Earlier</a></li><li><a href="http://www.onextrapixel.com/2009/07/17/the-autopsy-of-wordpress-as-cms-with-25-great-wp-plugins-designs/" title="The Autopsy Of WordPress As CMS With 25 Great WP Plugins & Designs">The Autopsy Of WordPress As CMS With 25 Great WP Plugins & Designs</a></li></ul>
+	
+	<div class="bsabox">
+		<!-- BuySellAds.com Zone Code -->
+		<div id="bsap_1243598" class="bsarocks bsap_bcc688b2059ea2d9f46c4ca12eea9ac0"></div>
+		<!-- End BuySellAds.com Zone Code -->
+	</div>
+	
+	<div class="adsbox">
+		<a href="http://www.theribaudogroup.com/" rel="nofollow" target="_blank"><img src="/oxp/theribaudogroup/bill.jpg" alt="Theribaudogroup" /></a>
+	</div>
+			
+	<h2 id="twit">Twitter</h2>
+	<div class="sidebox">
+		<div id="follow">
+			<div id="bubble"></div>
+			<div class="tweetlink"><a href="http://twitter.com/onextrapixel" rel="nofollow">Follow Us</a></div>
+		</div>
+		<ul class="tweets"><li><span class='entry-content'>New on OXP: 10 Most Bizarre Types of Typography <a href="http://su.pr/28PcNL" target="_blank">http://su.pr/28PcNL</a> (Please RT)</span> <span class='entry-meta'><span class='time-meta'><a href="http://twitter.com/onextrapixel/statuses/1.6078002832E+16" target="_blank">about 6 hours ago</a></span></span></li><li><span class='entry-content'>Winners of the Free SEO Account from My SEO Tool. <a href="http://ow.ly/3remQ" target="_blank">http://ow.ly/3remQ</a> Check out at the end of the article!</span> <span class='entry-meta'><span class='time-meta'><a href="http://twitter.com/onextrapixel/statuses/1.60597691188E+16" target="_blank">about 7 hours ago</a></span></span></li><li><span class='entry-content'>Customize Textarea Resizing with CSS <a href="http://ow.ly/3rcn5" target="_blank">http://ow.ly/3rcn5</a></span> <span class='entry-meta'><span class='time-meta'><a href="http://twitter.com/onextrapixel/statuses/1.60110323129E+16" target="_blank">about 10 hours ago</a></span></span></li><li><span class='entry-content'>DHTMLX Touch – New Framework for Mobile &#038; Touch Devices <a href="http://ow.ly/3rcmU" target="_blank">http://ow.ly/3rcmU</a></span> <span class='entry-meta'><span class='time-meta'><a href="http://twitter.com/onextrapixel/statuses/1.59932861498E+16" target="_blank">about 11 hours ago</a></span></span></li><li><span class='entry-content'>New on OXP: 26 Awesome Adobe Illustrator Brushes for Your Daily Use <a href="http://su.pr/9PJ5Aw" target="_blank">http://su.pr/9PJ5Aw</a> (Please RT)</span> <span class='entry-meta'><span class='time-meta'><a href="http://twitter.com/onextrapixel/statuses/1.57234627105E+16" target="_blank">11:02:20 AM December 17, 2010</a></span></span></li></ul>	</div>
+		
+	<div id="splitbox">
+		<div id="sideleft">
+			<h2 id="frez">Friends</h2>
+			<ul class="frezlinks">
+				<li><a href="http://10steps.sg/" rel="friend" title="Photoshop Tutorials and Design Resources" target="_blank">10Steps.SG</a></li>
+<li><a href="http://aext.net" rel="friend" title="Aext" target="_blank">Aext</a></li>
+<li><a href="http://www.printplace.com/printing/business-card-printing.aspx" rel="friend" target="_blank">Business Cards</a></li>
+<li><a href="http://creativenerds.co.uk/" rel="friend" title="Design Inspiration, Freebies and Tutorials">Creative Nerds</a></li>
+<li><a href="http://www.csswebsites.nl" rel="friend" title="CSSWebsites" target="_blank">CSSWebsites</a></li>
+<li><a href="http://designm.ag/" rel="friend" title="Web Design Blog">DesignM.ag</a></li>
+<li><a href="http://designrfix.com/" rel="friend" title="Designrfix" target="_blank">Designrfix</a></li>
+<li><a href="http://www.fudgegraphics.com/" rel="friend" title="Freebies, tutorials &amp; inspiration for design lovers">Fudgegraphics</a></li>
+<li><a href="http://www.inspiremonkey.com" rel="friend" title="Neverending Web Curiousity!" target="_blank">InspireMonkey</a></li>
+<li><a href="http://www.knowtebook.com/" rel="friend" title="A community blog about design, ideas, trends, wordpress &amp; more." target="_blank">KnowTeBook</a></li>
+<li><a href="http://naldzgraphics.net/" rel="friend" title="Naldz Graphics" target="_blank">Naldz Graphics</a></li>
+<li><a href="http://pelfusion.com" rel="friend" title="PelFusion" target="_blank">PelFusion</a></li>
+<li><a href="http://www.pvmgarage.com/en" rel="friend" title="PV.M Garage" target="_blank">PV.M Garage</a></li>
+<li><a href="http://rocketgraphs.net/" rel="friend" title="Web Resources, Tutorials, Designs, Graphics, Showcases and Freebies">Rocket Graphs</a></li>
+<li><a href="http://sixrevisions.com/" rel="friend" title="Six Revisions" target="_blank">Six Revisions</a></li>
+<li><a href="http://slodive.com" rel="friend" title="Design Resources &amp; Inspiration" target="_blank">SloDive</a></li>
+<li><a href="http://smashingapps.com/" rel="friend" title="SmashingApp">SmashingApps</a></li>
+<li><a href="http://speckyboy.com/" rel="friend" title="Speckyboy" target="_blank">Speckyboy</a></li>
+<li><a href="http://vandelaydesign.com/blog/" rel="friend" title="Web Design Blog">Vandelay Design</a></li>
+<li><a href="http://www.w3avenue.com" rel="friend" title="W3Avenue" target="_blank">W3Avenue</a></li>
+<li><a href="http://webdesignfan.com" rel="friend" title="Web Design Fan" target="_blank">Web Design Fan</a></li>
+<li><a href="http://www.webdesignerdepot.com/" rel="friend" title="Web Design Resources and Tutorials">Webdesigner Depot</a></li>
+<li><a href="http://www.wpbeginner.com/" rel="friend" title="Beginner&#8217;s Guide to WordPress" target="_blank">WPBeginner</a></li>
+			</ul>
+		</div>
+		
+		<div id="sideright">
+			<div class="sideads">
+				<script type="text/javascript">
+				google_ad_client = "pub-5606861741839360";
+				/* OXPMainSide160x600 */
+				google_ad_slot = "3648907289";
+				google_ad_width = 160;
+				google_ad_height = 600;
+				//-->
+				</script>
+				<script type="text/javascript" src="http://pagead2.googlesyndication.com/pagead/show_ads.js"></script>
+			</div>
+		</div>
+	</div>
+	<a id="smbadge" href="http://www.smashingmagazine.com/the-smashing-network/" title="Smashing Network">Smashing Network</a>
+	
+	<iframe src="http://www.facebook.com/plugins/likebox.php?href=http%3A%2F%2Fwww.facebook.com%2Fonextrapixel&amp;width=360&amp;colorscheme=light&amp;connections=6&amp;stream=false&amp;header=true&amp;height=220" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:360px; height:220px; background-color:#fff;" allowTransparency="false"></iframe>
+</div>		</div>
+	</div>
+</div>
+	<div id="footer">
+		<div id="footlist">
+			<div id="foot1" class="foot">
+				<div id="writelogo">Write for Onextrapixel</div>
+				
+				<div class="writebox">
+					<a id="writetext" href="/write-for-us/">Write for Us</a>
+					<div class="writewords">
+						<strong>Be a Contributor at Onextrapixel.</strong>
+						<p>Write an article, tutorial or provide freebies <br />to the community.</p>
+						<p class="emailus"><a href="http://www.onextrapixel.com/contact/">Contact Us</a></p>
+					</div>
+				</div>
+			</div>
+			
+			<div class="footline"></div>
+			
+			<div id="foot2" class="foot">
+				<h3>Categories</h3>
+				<ul>
+						<li class="cat-item cat-item-1"><a href="http://www.onextrapixel.com/category/inspiration/" title="View all posts filed under Inspiration">Inspiration</a>
+</li>
+	<li class="cat-item cat-item-3"><a href="http://www.onextrapixel.com/category/design/" title="View all posts filed under Design">Design</a>
+</li>
+	<li class="cat-item cat-item-4"><a href="http://www.onextrapixel.com/category/development/" title="View all posts filed under Development">Development</a>
+</li>
+	<li class="cat-item cat-item-6"><a href="http://www.onextrapixel.com/category/tutorials/" title="View all posts filed under Tutorials">Tutorials</a>
+</li>
+	<li class="cat-item cat-item-7"><a href="http://www.onextrapixel.com/category/freebies/" title="View all posts filed under Freebies">Freebies</a>
+</li>
+	<li class="cat-item cat-item-13"><a href="http://www.onextrapixel.com/category/css/" title="View all posts filed under CSS">CSS</a>
+</li>
+	<li class="cat-item cat-item-43"><a href="http://www.onextrapixel.com/category/wordpress/" title="View all posts filed under Wordpress">Wordpress</a>
+</li>
+	<li class="cat-item cat-item-164"><a href="http://www.onextrapixel.com/category/articles/" title="View all posts filed under Articles">Articles</a>
+</li>
+	<li class="cat-item cat-item-179"><a href="http://www.onextrapixel.com/category/resources/" title="View all posts filed under Resources">Resources</a>
+</li>
+				</ul>
+			</div>
+			
+			<div id="foot3" class="foot">
+				<h3>About</h3>
+				<ul>
+					<li><a href="/">Home</a></li>
+					<li><a href="/about/">About Us</a></li>
+					<li><a href="/contact/">Contact Us</a></li>
+					<li><a href="/our-regular-authors/">Regular Authors</a></li>
+					<li><a href="/advertise-with-us/">Advertising With Us</a></li>
+					<li><a href="/all-articles/">View All Articles</a></li>
+					<li><a href="/all-tags/">View All Tags</a></li>
+				</ul>
+			</div>
+			
+			<div id="foot4" class="foot">
+				<h3>Social</h3>
+				<ul>
+					<li><a rel="nofollow" href="http://feeds2.feedburner.com/onextrapixel/">RSS Feed</a></li>
+					<li><a rel="nofollow" href="http://twitter.com/onextrapixel/">Twitter</a></li>
+					<li><a rel="nofollow" href="http://www.facebook.com/onextrapixel/">Facebook</a></li>
+					<li><a rel="nofollow" href="http://digg.com/users/onextrapixel/">Digg</a></li>
+					<li><a rel="nofollow" href="http://www.stumbleupon.com/stumbler/Onextrapixel/">Stumbleupon</a></li>
+					<li><a rel="nofollow" href="http://designbump.com/user/2520">DesignBump</a></li>
+					<li><a rel="nofollow" href="http://delicious.com/onextrapixel">Delicious</a></li>
+				</ul>
+			</div>
+			
+			<div id="foot5" class="foot">
+				<div class="arrow">
+					<a class="backtotop" href="#wrap" title="Back to Top">Back to Top</a>
+					<a href="#wrap" title="Back to Top">Back to Top</a>
+				</div>
+			</div>
+		</div>
+		<div id="copy">
+			<div class="copyinner">Copyright &copy; 2009 - 2010 Onextrapixel.com. All Rights Reserved.</div>
+		</div>
+	</div>
+			<script src="http://widgets.digg.com/buttons.js" type="text/javascript"></script>
+		
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js"></script>
+	<script type="text/javascript" src="http://net.onextrapixel.com/wp-content/themes/onextrapixelv4/js/setting.min.js?ver0.5" ></script>
+	
+
+<script src="http://static.getclicky.com/js" type="text/javascript"></script>
+<script type="text/javascript">clicky.init(150075);</script>
+<noscript><p><img alt="Clicky" width="1" height="1" src="http://in.getclicky.com/150075ns.gif" /></p></noscript>
+
+</body>
+</html>
+<!-- Performance optimized by W3 Total Cache. Learn more: http://www.w3-edge.com/wordpress-plugins/
+
+Page Caching using disk (enhanced)
+Database Caching 3/12 queries in 0.008 seconds using disk
+Object Caching 1482/1581 objects using disk
+Content Delivery Network via net.onextrapixel.com
+
+Served from: www.onextrapixel.com @ 2010-12-18 16:38:02 -->
