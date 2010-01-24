@@ -1,0 +1,263 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title></title>
+  <link href="/css/blueprint/screen.css" media="screen" rel="stylesheet" type="text/css" />
+<link href="/css/print.css" media="print" rel="stylesheet" type="text/css" />
+<link href="/css/blueprint/ie.css" media="lt IE 8" rel="stylesheet" type="text/css" />
+<link href="/css/upgrade.css" media="screen" rel="stylesheet" type="text/css" />
+<link href="/css/main.css" media="screen" rel="stylesheet" type="text/css" />
+<link href="/css/slide.css" media="screen" rel="stylesheet" type="text/css" />
+<!--[if IE 6]> <link href="/css/slide_ie.css" media="screen" rel="stylesheet" type="text/css" /><![endif]-->
+<link href="/css/navmenu.css" media="screen" rel="stylesheet" type="text/css" />    					   
+  
+    
+  <script type="text/javascript" src="/js/jquery.min.js"></script>
+<script type="text/javascript" src="/js/jquery.inputhint.js"></script>
+<script type="text/javascript">
+    //<![CDATA[
+  	jQuery(document).ready(function(){
+  		jQuery('input[name=item]').inputhint({hint: 'ENTER ITEM#'});
+  		jQuery('input[name=qty]').inputhint({hint: 'QTY'});
+  		jQuery('input[name=search]').inputhint({hint: 'Search by Application or Item'});
+  		
+  		// upgrade ie6
+  		if(jQuery.browser.msie && parseInt(jQuery.browser.version) <= 6)
+  			jQuery('.upgrade').show();
+  		
+  	});
+      //]]>
+</script>
+<!--[if lt IE 7]> <script type="text/javascript" src="/js/navmenu.js"></script><![endif]-->  	
+  						 
+</head>
+	<body>
+			
+		<div class='container relative mb15 noprint' style='z-index: 40'>
+			<div id='headspace' class='span-24'>&nbsp;</div>
+			<div class='span-14'>&nbsp; <div style='float: left;margin-left: 160px; line-height: 16px; font-weight: bold;'><img style='vertical-align: top;' src='/imgs/zstore15/yahoo_mobile.png'/>1-800-528-4400</div></div>
+			<div class='span-10 last textright'>
+							Welcome. Please <a href='/login'>Sign in</a>
+						</div>
+			
+			<div class='span-24 last' id='navbar'>
+				<ul class='menu home'><li class='label'><a href='/'>Home Page</a></li>
+				<li class='container'>
+						<ul class='flyout'>
+							<li><a href='/index/contact'>Contact Us</a></li>
+							<li><a href='/index/articles'>In The Press</a></li>
+							<li class='last'><a href='/index/about'>About Brock Supply</a></li>
+						</ul>
+					</li>
+				</ul>
+				
+				<ul class='menu'><li class='label'><a href='/application'>Auto Parts</a></li></ul>
+				
+				<ul class='menu'>
+					<li class='label'><a href='/application/lookup/make/SUPPLIES'>Supplies</a></li>
+					<li class='container'>
+						<ul class='flyout'>
+							<li class='last'><a href='/index/capplugs'>Caps & Plugs</a></li>
+							<!--<li><a href='/index/heattabs'>Heat Tabs</a></li>-->
+							<!--<li class='last'><a href='/markers'>Markers</a></li>-->
+						</ul>
+					</li>
+				</ul>
+				
+				<ul class='menu'><li class='label'><a href='/specials'>Specials</a></li></ul>
+			
+				<ul class='menu'>
+					<li class='label'><a href='/myaccount'>My Account</a></li>
+					<li class='container'>
+						<ul class='flyout'>
+							<li><a href='/upload'>Upload Orders</a></li>
+							<li><a href='/orders'>Order Info</a></li>
+							<li><a href='/estatements'>E-Statements</a></li>
+							<li><a href='/payment'>Online Payment</a></li>
+							<li class='last'><a href='/reports'>Account Reports</a></li>
+						</ul>
+					</li>
+				</ul>				
+				
+				<ul class='menu'>
+					<li class='label'><a href='#'>Customer Service</a></li>
+					<li class='container'>
+						<ul class='flyout'>
+							<li><a href='/index/application'>Account Application</a></li>
+							<li><a href='/index/creditapp'>Credit Application</a></li>
+							<li><a href='/docs/TexasTaxExemptForm.pdf'>TX Tax Exempt Form</a></li>
+							<li><a href='/orders/returns'>Returns</a></li>
+							<li class='last'><a href='/application/results/make/SUPPLIES/model/COMMUNICATION+EQUIPMENT/type/2-WAY+RADIO'>Radio Programming</a></li>
+						</ul>				
+					</li>
+				</ul>				
+				
+				<img class='corner-left absolute' src='/imgs/zstore15/nav_corner_left2_a.png'/>
+				<img class='corner-right absolute' src='/imgs/zstore15/nav_corner_right2_a.png'/>
+			</div>
+			
+			<div id='' class='span-24 last'>
+				<div id='searchbar'>
+				
+					<div style='float: left; margin-left: 150px; display: inline; '>
+						<form action='/cart/add' method='get' style='display: inline;'>
+							<a href='/cart' class='button flush nocap img' style='margin-right: 0px !important;'><div>(0) Items <img src='/imgs/zstore15/cart_icon_2.png' class='pngfix'/> Shopping Cart</div></a>
+							<input type='text' name='item' class='forbutton' value='enter item#' style='text-transform: uppercase; width: 90px; font-size: 9pt !important;'/>
+							<input type='text' name='qty' class='forbutton' value='qty' style='text-transform: uppercase; width: 28px; font-size: 9pt !important;'/>
+							<button type='submit' class='flush right'><div>Add Item</div></button>
+						</form>					
+					</div>
+				
+				
+					<div style='float: right;'>
+						<form action='/search/smart' style='margin-right: 20px;'>
+							<button type='submit' class='button right flush floatright'><div>Search</div></button>
+							<input name='search' class='forbutton' value="Search by Application or Item" style='float: right; text-transform: uppercase; font-size: 9pt; width: 220px'/>
+						</form>
+					</div>
+
+				</div>
+			</div>
+			<!--fixforie6 disappearing elements--><div style='width: 1px; height: 1px;'></div><!--endfix-->
+			<img class='absolute corner-left' src='/imgs/zstore15/header_logo.png' style='z-index: 300;'/>
+			
+		</div>
+		
+		<div class='container mb15 printme' style='z-index: 30'>
+			<style type='text/css'>
+/*
+	h2 { }
+	.login { border: solid 1px #ccc; height: 0.01%; }
+	.login form { height: 340px; font-size: 14px; font-weight: bold; color: #555; margin: 5px; padding: 5px; border-right: solid 1px #ddd; float: left; }
+	.login .input { width: 200px; }
+	
+	.existing, .visitor, .supplies { height: 340px; margin: 5px; padding: 5px; float: left; width: 195px; border-right: solid 1px #ddd; line-height: 20px; }
+	.login .head { font-size: 14px; font-weight: bold; color: #555; }
+	.supplies { border: 0; }
+*/
+	#login { height: 26em; font-size: 1em; font-weight: normal; }
+	#login form { margin: 5pt; margin-top: 0; }
+	#login .column { border-right: solid 1px #ccc; margin-right: 4px; padding-right: 5px; height: 100%; }
+	#login div.last { border-right: 0; padding-right: 0; margin-right: 0; }
+	#login input.text { width: 156pt; }
+	#recover { display: none; }
+</style>
+<div id='login' class='span-24 last' style='border: solid 1px #ccc'>
+	<div class='span-6 column'>
+		<form method='post' id='signin' action='https://www.brocksupply.com/login/validate'>
+		
+			<label class='label large bold'>Username</label><br/>
+			<input class='text' type='text' name='username' value=""/><br/>
+			<br/>
+			
+			<label class='label'>Password </label><a class='small' href='javascript://' id='forgot'>forgot?</a><br/>
+			<input class='text' type='password' name='password' value=""/><br/>
+			<br/>
+			
+			<label class='label'>Remember Login?</label>
+			<input type='checkbox' value='true' name='remember'/><br/>
+			<br/>
+			
+			<label for='field'>&nbsp;</label><br/>
+			
+			<button type='submit' style='width:158pt;'><div>Sign In</div></button>
+			
+			<br style='clear: both;'/>
+		</form>
+		<form id='recover' method="GET" action="/login/resetpassword">
+			<label class='label large bold'>E-mail Address</label><br/>
+			<label class='label normal'>Enter your email address and we'll provide you with some security questions to verify your identity.</label>
+			<input type='text' class="text" name='email' value=""/><br/>
+			
+			<button type='submit'><div>Submit</div></button>
+			<button type='reset' id='cancel'><div>Cancel</div></button>
+		</form>
+	</div>
+	<div class='span-6 column'>
+		<p class='quiet'>
+		<font class='loud large bold'>Current Customers</font><br/>
+		If you already have an account with Brock Supply simply contact customer support at <b>1-800-528-4400</b> (toll free) and we will supply you with a login ID and password.
+		</p>
+	</div>
+	<div class='span-6 column'>
+		<p class='quiet'>
+		<font class='loud large bold'>New Visitors</font><br/>
+		We are an auto parts wholesaler for automotive related businesses. We also provide a free locator service for individuals looking for autoparts. <br/><br/>
+		If you are an automotive business and would like to apply for an account with Brock Supply please call us toll free at <b>1-800-528-4400</b>. <br/><br/>
+		Otherwise, Please use our <a href='/locator'>Locator Service</a> page to find one of our affiliated retailers with a store location nearest you.	
+		</p>
+	</div>
+	<div class='span-6 column last'>
+		<p class='quiet'>
+		<font class='loud large bold'>Buy Markers And Supplies</font><br/>
+		Individuals who don't have an account with Brock Supply can now purchase supplies online, with out even logging in!	<br/><br/>
+		Simply browse the <a href='supplies.html'>supplies</a> page, add an item to your cart and when you are ready click the View Cart/Checkout link below the top menus.	
+		</p>
+	</div>
+</div>
+
+<script type='text/javascript'>
+	$(document).ready(function(){
+		$('#cancel').click(function(){
+			$('#recover').hide();
+			$('#signin').show();
+		});
+		$('#forgot').click(function(){
+			$('#signin').hide();
+			$('#recover').show();
+			return false;
+		});
+	});
+</script>
+		</div>
+
+		<div class='container noprint'>
+			<a href='http://www.brocksupply.com/search/smart?search=2557-000'><img src='/imgs/axstore/shipping_regs.jpg' style='margin-bottom: 10px; border: 0;'/></a>
+			
+			<div class='span-24 affiliates last' style='border: solid 1px #cccccc;'>
+				<div class='span-3' style='text-align: center; margin: 8px 5px 0 5px; font-size: 7pt; '>
+					<img src='/index/counter/' style='margin: 0; border: 0;'/> 
+	    			<br/>Visits since 7/14/03
+	            </div>
+	            <div class='span-21 last'>
+	            	<img src='/imgs/axstore/footer.png' style='vertical-align: middle; border: 0;'/>
+	            </div>
+			</div>		
+		</div>
+		
+		<!-- browser upgrade section -->
+		<div class='upgrade'>
+			<div class='pane'>
+				<div class='text'><b>Did you know that your Internet Explorer is out of date?</b><br/> This site requires a modern browser. Upgrade using any of the links on the right.</div>
+				<a href='http://www.microsoft.com/windows/internet-explorer/worldwide-sites.aspx' style='margin-right: 0;'><img src='/imgs/browsers/IE.png'/> Internet Explorer</a>
+				<a href='http://www.opera.com/download/'><img src='/imgs/browsers/Opera.png'/>Opera</a>				
+				<a href='http://www.apple.com/safari/'><img src='/imgs/browsers/Safari.png'/> Safari</a>
+				<a href='http://www.mozilla.com/en-US/firefox/firefox.html'><img src='/imgs/browsers/Firefox.png'/> Firefox</a>				
+				<a href='http://www.google.com/chrome'><img src='/imgs/browsers/Chrome.png'/> Chrome</a>				
+				<br style='clear: bloth'/>
+			</div>
+		</div>
+		
+		<!-- google analytics plugin -->
+					 
+				<!-- Google Analytics Tracking Code -->
+				<script type="text/javascript">
+				var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+				document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+				</script>
+
+				<script type="text/javascript">
+					try 
+					{
+						var pageTracker = _gat._getTracker("UA-11415922-1");
+						// track this viewing
+						pageTracker._trackPageview();
+						
+											
+						
+						// send trans tracking
+						pageTracker._trackTrans();
+					} catch(err) {} 
+				</script>				
+					</body>
+</html><div class='noprint'><br/><br/><center>Documented processed in 0.111705064774 seconds.</center></div>
