@@ -1,0 +1,443 @@
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+    <link rel="Shortcut Icon" href="/images/favicon.ico" />
+    <title>
+    Meaningtool - Create Your Own AI</title>
+    
+        <link type="text/css" rel="stylesheet" href="http://static.meaningtool.com/css/base.css" media="screen, projection" />
+        <link type="text/css" rel="stylesheet" href="http://static.meaningtool.com/css/meaningtool.css" media="screen, projection" />
+
+    
+    <script type="text/javascript">
+        MT = {}
+        MT.Env = {
+        }
+    </script>
+
+    
+        <script type="text/javascript" src="http://static.meaningtool.com/javascript/jquery-1.3.2.js"></script>
+        <script type="text/javascript" src="http://static.meaningtool.com/javascript/mt-ui.js"></script>
+        <script type="text/javascript" src="http://static.meaningtool.com/javascript/base.js"></script>
+        <script type="text/javascript" src="http://static.meaningtool.com/javascript/meaningtool.js"></script>
+        <script type="text/javascript" src="http://static.meaningtool.com/javascript/swfobject.js"></script>
+
+</head>
+
+<body>
+    
+
+
+<div class="content-wrapper">
+    <div class="cloud header">
+        <div class="corner tl"></div><div class="edge top"></div><div class="corner tr"></div>
+        <div class="content"><div class="edge left"></div>
+            <a href="/home"><img class="logo" src="http://static.meaningtool.com/images/b.gif" title="Meaningtool" /></a>
+            
+            <ul id="main_menu" class="menu">
+                <li>
+                    
+                    <a id="menu_button_overview" href="/developers" class="">Developers</a>
+                    
+                        <a class="drop-down"><img src="http://static.meaningtool.com/images/b.gif" class="icon down" /><div class="arrow-bg"></div></a>
+                    
+                        <ul class="submenu">
+                        
+                            <li class="first"><a id="menu_button_playground" href="/developers/api/playground" class="">API Playground</a></li>
+                            
+                            <li class=""><a id="menu_button_docs" href="/developers/api" class="">API Docs</a></li>
+                            
+                            <li class=""><a id="menu_button_resources" href="/developers/api/kits" class="">Developer Kits</a></li>
+                            
+                            <li class=" last"><a id="menu_button_directory" href="/trees" class="">Tree Directory</a></li>
+                            
+                        </ul>
+                </li>
+                <li>
+                    
+                    <a id="menu_button_login" href="/#login" class="">Login</a>
+                    
+                    
+                </li>
+                <li>
+                    
+                    <a id="menu_button_signup" href="/#signup" class="">Sign up</a>
+                    
+                    
+                </li>
+            </ul>
+            
+        <div class="edge right"></div></div>
+        <div class="corner bl"></div><div class="edge bottom"></div><div class="corner br"></div>
+        
+            
+<script type="application/javascript"
+  src="http://api.recaptcha.net/js/recaptcha_ajax.js"></script>
+
+<script type="application/javascript">
+    function showRecaptcha(element, callback) {
+        Recaptcha.create('6LfDUgYAAAAAADmeeoACy8IfytaHGaAFr3jjKIFZ', element, {
+            theme: 'white',
+            lang: 'en',
+            tabindex: '0',
+            custom_theme_widget: 'null',
+            callback: callback || Recaptcha.focus_response_field
+        });
+    }
+    function destroyRecaptchaWidget() {
+        Recaptcha.destroy();
+    }
+</script>
+
+            
+    <div id="login_cloud" class="cloud dropdown hidden">
+        <div class="content" style="height:5px">
+            <div class="edge left"></div>
+                <form method="post" action="/login" style="height:5px;">
+                    <div class="error-message hidden" style="height:0;">wrong username and password combination</div>
+                    
+                    <label for="login_username">username</label>
+                    <input id="login_username" name="username" type="text" class="inputbox" tabindex="1" />
+                    
+                    <label for="login_password">password</label>
+                    <input id="login_password" name="password" type="password" class="inputbox" tabindex="2" />
+                    
+                    <input id="login_remember" name="remember_me" type="checkbox" tabindex="3" />
+                    <label for="login_remember">Remember me</label>
+                    
+                    <input type="submit" class="button" value="Login" tabindex="4" />
+                    <img class="spinner hidden" src="http://static.meaningtool.com/images/b.gif" />
+                    <br />
+                    <a href="/reset">forgot your password?</a>
+                </form>
+                
+            <div class="edge right"></div>
+        </div>
+        <div class="corner bl gray"></div><div class="edge bottom gray"></div><div class="corner br gray"></div>
+    </div>
+
+            
+    <div id="signup_cloud" class="cloud dropdown hidden">
+        <div class="content" style="height:5px;">
+            <div class="edge left"></div>
+            <h2>Sign up to create your own AI</h2>
+                <form id="profile" method="post" action="/signup" style="height:5px;">
+                    <div class="formfield formfield-username">
+                        <label for="signup_username">username</label>
+                        <label for="signup_username" class="error-message hidden"> &mdash; invalid</label>
+                        <input id="signup_username" name="username" type="text" class="inputbox" />
+                    </div>
+                    
+                    <div class="formfield formfield-email">
+                        <label for="signup_email">email</label>
+                        <label for="signup_email" class="error-message hidden"> &mdash; invalid</label>
+                        <input id="signup_email" name="email" type="text" class="inputbox" />
+                    </div>
+                    
+                    <div class="formfield formfield-password formfield-password1">
+                        <label for="signup_password1">password</label>
+                        <label for="signup_password1" class="error-message hidden"> &mdash; invalid</label>
+                        <input id="signup_password1" name="password1" type="password" class="inputbox" />
+                    </div>
+                    
+                    <div class="formfield formfield-password2">
+                        <label for="signup_password2">repeat password</label>
+                        <label for="signup_password2" class="error-message hidden"> &mdash; invalid</label>
+                        <input id="signup_password2" name="password2" type="password" class="inputbox" />
+                    </div>
+                    
+                    <div class="formfield formfield-recaptcha">
+                        <label class="error-message hidden"> &mdash; wrong words, try again please</label>
+                        <div id="recaptcha_wrapper" class="popui-recaptcha"></div>
+                    </div>
+        
+                    <div class="formfield-tos hidden">
+                        <label class="error-message hidden"> &mdash; you must accept the terms of use</label>
+                        <div>
+                            <input id="signup_tos" name="tos" type="checkbox" class="checkbox" checked />
+                            <label for="signup_tos">You have read and agree the <a href="/website/about/tos" target="_blank"> Terms of Use </a></label>
+                        </div>
+                    </div>
+                    
+                    <input id="signup_submit" class="button" type="submit" value="Sign up" />
+                    <img class="spinner hidden" src="http://static.meaningtool.com/images/b.gif" />
+                    <span class="error-message error-unknwon hidden"> &mdash; Oops... error!. Try again, please.</span>
+                </form>
+            <div class="edge right"></div>
+        </div>
+        <div class="corner bl gray"></div><div class="edge bottom gray"></div><div class="corner br gray"></div>
+    </div>
+
+    </div>
+    
+    
+
+
+
+
+
+<style type="text/css">
+    p {
+        font-size:14px;
+    }
+    
+    .special-options {
+        margin:15px 0 20px;
+        overflow:hidden;
+        text-align:center;
+        padding-left:42px;
+    }
+    
+    .special-options a.box {
+        background-color:transparent;
+        border:1px solid #FFF;
+        color:#FFF;
+        display:block;
+        float:left;
+        height:60px;
+        margin-right:30px;
+        padding:5px;
+        text-align:center;
+        width:200px;
+    }
+    
+    .special-options a.box:hover {
+        background-color:#E69355;
+        border-color:#FFF;
+    }
+    
+    .special-options h4 {
+        color:#FFF;
+        font-size:14px;
+        font-weight:bold;
+        line-height:20px;
+    }
+    
+    .special-options p {
+        font-size:12px;
+        line-height:14px;
+        margin-top:0pt;
+    }
+    
+</style>
+
+<div class="main">
+    <!-- Cloud Container -->
+    <div id="scrollable" class="cloud" style="margin-bottom:30px">
+        <div class="corner tl"></div><div class="edge top"></div><div class="corner tr"></div>
+        <div class="content"><div class="edge left"></div>
+            <div style="height:217px;overflow:visible;">
+                <div style="position:absolute">
+                    <img src="http://static.meaningtool.com/images/b.gif" style="background-image:url(http://static.meaningtool.com/images/title.png);height:36px;width:581px;" alt="The First Semantic Engine That Learns!"/>
+                    <div style="text-align:left;">
+                        <img src="http://static.meaningtool.com/images/screen.png" style="float:left;position:relative;left:2px;top:6px;" />
+                        <p style="width:368px;float:right;*float:left;font-size:18px;margin-top:20px;line-height:30px">Add a semantic flavor to your apps. With &nbsp;Meaningtool you can create your own &nbsp;&nbsp;<i style="color:#F1FA9E;font-weight:bold">Semantic Trees</i> and let its intelligence &nbsp;&nbsp;&nbsp;learn new concepts to <strong style="color:#F1FA9E;">filter and categorize</strong> &nbsp;&nbsp;&nbsp;&nbsp;websites, text and users in any language!</p>
+                    </div>
+                </div>
+                <img src="http://static.meaningtool.com/images/b.gif" style="background-image:url(http://static.meaningtool.com/images/big_head2.png);bottom:36px;float:right;height:285px;left:102px;position:relative;width:291px;z-index:999;" />
+            </div>
+        <div class="edge right"></div></div>
+        <div class="corner bl gray"></div><div class="edge bottom gray"></div><div class="corner br gray" style="z-index:-1"></div>		
+    </div>
+    
+    <!-- Cloud Container -->
+    <div class="cloud">
+        <div class="corner tl"></div><div class="edge top"></div><div class="corner tr"></div>
+        <div class="content"><div class="edge left"></div> 
+            
+            <div style="overflow:auto;width:100%;padding-top:10px;">
+                <div style="float:left; margin-left:10px;">
+                    <object width="425" height="312"><param name="allowfullscreen" value="true" /><param name="allowscriptaccess" value="always" /><param name="movie" value="http://vimeo.com/moogaloop.swf?clip_id=6975084&amp;server=vimeo.com&amp;show_title=1&amp;show_byline=1&amp;show_portrait=0&amp;color=00ADEF&amp;fullscreen=1" /><embed src="http://vimeo.com/moogaloop.swf?clip_id=6975084&amp;server=vimeo.com&amp;show_title=1&amp;show_byline=1&amp;show_portrait=0&amp;color=00ADEF&amp;fullscreen=1" type="application/x-shockwave-flash" allowfullscreen="true" allowscriptaccess="always" width="425" height="312"></embed></object>
+                </div>
+                <div style="float:left; width:307px; margin-left:25px;position:relative;bottom:7px;text-align:justify">
+                    <h2><img src="http://static.meaningtool.com/images/b.gif" class="icon star" /> <strong>It's Smart</strong></h2>
+                    <p style="margin:4px 0 9px">Categorizes websites and users based on your custom set of categories. </p>
+                    
+                    <h2><img src="http://static.meaningtool.com/images/b.gif" class="icon star" /> <strong>It's Strong</strong></h2>
+                    <p style="margin:4px 0 9px">Over 100 Million Hits per Month, adding relevance to Advertisers and Publishers.</p>
+                    
+                    <h2><img src="http://static.meaningtool.com/images/b.gif" class="icon star" /> <strong>It's Global</strong></h2>
+                    <p style="margin:4px 0 9px">Can process text written in English, Spanish, Portuguese and other major languages.</p>
+                    
+                    <h2><img src="http://static.meaningtool.com/images/b.gif" class="icon star" /> <strong>It's Simple</strong></h2>
+                    <p style="margin:4px 0 9px">Learn how easy it is to <a href="/developers">develop with our API</a>.</p>
+                </div>
+                <div style="margin-bottom:25px; font-size:18px;word-spacing:4px; letter-spacing:1px; display:none">Meaningtool is the first <strong>semantic engine</strong> that you can easily train and adapt to your own needs.</div>
+            </div>
+            
+        <div class="edge right"></div></div>
+        <div class="corner bl gray"></div><div class="edge bottom gray"></div><div class="corner br gray"></div>		
+    </div>
+    <div class="pipe" style="height: 75px; display: block;"></div>
+    <!-- Cloud Container -->
+    <div id="user-input-container1" class="cloud user-input-container">
+        <div class="corner tl"></div><div class="edge top"></div><div class="corner tr"></div>
+        <div class="content"><div class="edge left"></div>
+            
+            <div>
+                <h2 style="*line-height:normal"><strong>Play with our demo!</strong> See how Meaningtool categorizes text based on specific semantic trees.</h2>
+                
+                <div class="editor" style="margin-top:5px">
+                    <div style="font-size:14px; margin-bottom:5px;" class="tree_radios">
+                        <strong>Select a Semantic Tree: </strong>
+                            <input id="tid_212" type="radio" name="selected_tree" value="General Knowledge" 
+                                checked="checked"
+                            /><label for="tid_212">General Knowledge</label>
+                            <input id="tid_129" type="radio" name="selected_tree" value="Gadget Trends" 
+                            /><label for="tid_129">Gadget Trends</label>
+                            <input id="tid_194" type="radio" name="selected_tree" value="Advertising" 
+                            /><label for="tid_194">Advertising</label>
+                    </div>
+                    <textarea id="user_input" type="text" class="user_input">(text or a website's URL)</textarea>
+                    <input id="gimme_meaning" type="button" value="Return Meaning" class="button" style="height:70px;width:160px"/>
+                </div>
+                <div style="font-size:14px">Playful? <a class="random_article">Categorize a random site</a> <img class="rand_article_loader dotted-loader" src="http://static.meaningtool.com/images/b.gif" style="display:none;position:relative;bottom:6px;" /></div>
+                <script type="text/javascript">
+                    
+                    MT.demoArticles = {
+                        "General Knowledge":[
+                            "http://www.wired.com/gadgetlab/2009/12/apple-live-video/",
+                            "http://blog.cinemaautopsy.com/2009/12/14/film-review-avatar-2009/",
+                            "http://insider.espn.go.com/nfl/draft10/insider/news/story?id=4730972&action=login&appRedirect=http%3a%2f%2finsider.espn.go.com%2fnfl%2fdraft10%2finsider%2fnews%2fstory%3fid%3d4730972",
+                            "http://news.bbc.co.uk/2/hi/business/8391752.stm",
+                            "http://news.bbc.co.uk/2/hi/science/nature/8414798.stm",
+                            "http://edition.cnn.com/2009/WORLD/meast/12/15/uk.israel.livni/index.html",
+                            "http://edition.cnn.com/2009/SHOWBIZ/Movies/12/15/golden.globes.nominations/index.html",
+                            "http://edition.cnn.com/2009/TECH/space/12/14/wise.spacecraft.launch/index.html?iref=allsearch",
+                            "http://cameras.about.com/od/nikoncamerareviews/gr/nikon_d5000_review.htm",
+                            "http://www.lefigaro.fr/international/2009/12/10/01003-20091210ARTFIG00723-prix-nobel-la-gratitude-et-l-humilite-d-obama-.php",
+                            "http://www.eluniversal.com.mx/notas/646083.html",
+                            "http://www.eluniversal.com.mx/finanzas/75999.html",
+                            "http://news.nationalgeographic.com/news/2009/11/091112-smartest-rat-memory.html"
+                        ],
+                        "Gadget Trends": [
+                            "http://discuss.gdgt.com/slim-devices/squeezebox/v3/tips/iPod-Touch-or-iPhone-Owners-should-choose-iPeng-over-Logitech-controllers",
+                            "http://discuss.gdgt.com/samsung/moment/general/Samsung-Disapointment-/",
+                            "http://cameras.about.com/od/nikoncamerareviews/gr/nikon_d5000_review.htm"
+                        ],
+                        "Advertising": [
+                            "http://insider.espn.go.com/nfl/draft10/insider/news/story?id=4730972&action=login&appRedirect=http%3a%2f%2finsider.espn.go.com%2fnfl%2fdraft10%2finsider%2fnews%2fstory%3fid%3d4730972",
+                            "http://blog.cinemaautopsy.com/2009/12/14/film-review-avatar-2009",
+                            "http://cameras.about.com/od/nikoncamerareviews/gr/nikon_d5000_review.htm",
+                            "http://edition.cnn.com/2009/SHOWBIZ/Movies/12/15/golden.globes.nominations/index.html"
+                        ]
+                    }
+                    var idx = 0;
+                    $(".random_article").unbind();
+                    $(".random_article:last").click(function() {
+                        var tree_input = $(".user-input-container:last input[type=radio][checked]"), tree_name, tree_val = tree_input.val();
+                        if (tree_input.length != 1 || !MT.demoArticles[tree_val]) {
+                            tree_name = 'General Knowledge';
+                        } else {
+                            tree_name = tree_val;
+                        }
+                        
+                        idx = Math.floor(Math.random()*100) % MT.demoArticles[tree_name].length;
+                        $(".user_input:last").val(MT.demoArticles[tree_name][idx]);
+                    })
+                </script>
+            </div>
+            <div class="edge right"></div>
+        </div>
+        <div class="corner bl gray"></div><div class="edge bottom gray"></div><div class="corner br gray"></div>
+    </div>
+    <!-- End of Cloud Container -->
+
+    <!-- Event Minicloud Template-->
+    <table class="minicloud base" style="display:none">
+        <tr id="row1">
+            <td id="left"><td id="middle">
+            <img src="http://static.meaningtool.com/images/pixel.gif" class="face input">
+            <div class="event">
+                &nbsp;
+            </div>
+            <td id="right">
+        </tr>
+    </table>
+    <!-- End of Event Minicloud -->
+    
+</div>
+
+    <div class="dummy-footer"></div>
+</div>    
+<div class="footer">
+    <ul class="bottom-links">
+        <li><a href="mailto:contact@meaningtool.com">Contact us</a>&nbsp;&nbsp;&nbsp;|</li>
+        <li><a href="javascript:feedback_widget.show()">Feedback</a>&nbsp;&nbsp;&nbsp;|</li>
+        <li><a href="/about/faq">FAQ</a></li>
+    </ul>
+    <a href="http://popego.com" target="_blank">
+        <img src="http://static.meaningtool.com/images/b.gif">
+    </a>
+</div>
+
+
+
+
+
+
+
+    <div class="overlay hidden"></div>
+        
+    <script type="text/javascript">
+        var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-10713675-1']);
+        _gaq.push(['_trackPageview']);
+      
+        (function() {
+          var ga = document.createElement('script');
+          ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 
+              'http://www') + '.google-analytics.com/ga.js';
+          ga.setAttribute('async', 'true');
+          document.documentElement.firstChild.appendChild(ga);
+        })();
+    </script>
+
+        
+<script type="text/javascript" charset="utf-8">
+  var is_ssl = ("https:" == document.location.protocol);
+  var asset_host = is_ssl ? "https://s3.amazonaws.com/getsatisfaction.com/" : "http://s3.amazonaws.com/getsatisfaction.com/";
+  document.write(unescape("%3Cscript src='" + asset_host + "javascripts/feedback-v2.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+
+<script type="text/javascript" charset="utf-8">
+  var feedback_widget_options = {};
+
+  feedback_widget_options.display = "overlay"; 
+  feedback_widget_options.company = "meaningtool";
+  feedback_widget_options.placement = "hidden";
+  feedback_widget_options.color = "#142837";
+  feedback_widget_options.style = "question";
+ 
+  var feedback_widget = new GSFN.feedback_widget(feedback_widget_options);
+</script>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+    
+
+
