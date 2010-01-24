@@ -1,0 +1,373 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head profile="http://gmpg.org/xfn/11">
+<title>WP Wave &raquo; CMS Members WordPress Membership Plugin, WordPress PayPal Subscription Aweber Plugin - WordPress Wave </title>
+<meta http-equiv="content-type" content="text/html;charset=utf-8" />
+
+<meta name="google-site-verification" content="Nb5Vy37NYNbHssAGR9O4k_Hl4Nag5lsulBtEtTOsoK0" />
+<meta name="msvalidate.01" content="59D6EE17DB24E38892F98B64C6487168" />
+<link href="http://wpwave.com/wp-content/themes/wordpresswave-theme/style.css" rel="stylesheet" type="text/css" media="screen" />
+<link rel="alternate" type="application/rss+xml" title="Wordpress Wave Blog Feed" href="http://wpwave.com?feed=rss&cat=26" />
+
+
+
+
+<script src="http://wpwave.com/wp-content/themes/wordpresswave-theme/scripts/slider.js" language="javascript" type="text/javascript"></script>
+        <table style="position:absolute;top:-500px;left:0px;z-index:500;font-family:tahoma;font-size:11px;-moz-opacity:1;" id="preview" cellspacing=0 cellpadding=0>
+        <tr><td style="color:#000000;" id="cellpreview">
+        </table>
+        <input type="hidden" id="usepreview" value = "0">
+                <script>
+            var isIE = document.all?true:false;
+            if (!isIE) document.captureEvents(Event.MOUSEMOVE);
+            document.onmousemove = getMousePosition;
+            function getMousePosition(e) {
+            if(document.getElementById("usepreview").value == 1){
+              var _x;
+              var _y;
+              if (!isIE) {
+                _x = e.pageX;
+                _y = e.pageY;
+              }
+              if (isIE) {
+                _x = event.clientX - -document.documentElement.scrollLeft;
+                _y = event.clientY - -document.documentElement.scrollTop;
+              }
+              xnum = _x - -10;
+              ynum = _y - -15;
+        
+              document.getElementById("preview").style.top = ynum + "px"
+        
+              if((xnum - (-1 * document.getElementById("preview").scrollWidth) < (screen.width - 40))){
+              document.getElementById("preview").style.left = xnum + "px"
+              }else{
+              document.getElementById("preview").style.left = (screen.width - document.getElementById("preview").scrollWidth - 40) + "px";
+              }
+        
+              document.getElementById("preview").style.top = ynum + "px"
+        
+              return true;
+              }
+            }
+        
+            function preview(msg){
+            document.getElementById("cellpreview").innerHTML = msg;
+            document.getElementById("usepreview").value = 1;
+            }
+        
+            function hidepreview(){
+              document.getElementById("preview").style.left = "-500px";
+              document.getElementById("preview").style.top = "-500px";
+            document.getElementById("usepreview").value = 0;
+            }
+        </script>
+
+<script type="text/javascript">
+<!--
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+//-->
+</script>
+
+<script type='text/javascript' src='http://wpwave.com/wp-includes/js/jquery/jquery.js?ver=1.4.2'></script>
+<script type='text/javascript' src='http://wpwave.com/wp-content/plugins/wp-digg-this/wp-digg-this.js?ver=3.0.1'></script>
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://wpwave.com/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://wpwave.com/wp-includes/wlwmanifest.xml" /> 
+<link rel='index' title='WP Wave' href='http://wpwave.com/' />
+<link rel='up' title='Plugins' href='http://wpwave.com/plugins/' />
+<link rel='prev' title='Contact Us' href='http://wpwave.com/contact/' />
+<link rel='next' title='Fitr theme Options' href='http://wpwave.com/plugins/fitr-theme-options/' />
+<meta name="generator" content="WordPress 3.0.1" />
+<link rel='canonical' href='http://wpwave.com/plugins/cms-members/' />
+
+
+ <!-- WordPress Wave CMS Members *** http://wpwave.com -->
+ 
+<style type="text/css" media="screen">
+ /* Red Form*/ 
+ .wwm-star{color:#ff9900;font-size:18px;} 
+ #wwm-submit {width:110px;border:1px solid #ccc;background:#FF6600;color:#fff;padding:8px;-moz-border-radius:18px;-khtml-border-radius:18px;-webkit-border-radius:18px;border-radius:18px;}.wwm_register_page{padding:5px;}#wwm-members-form{text-align:left;color:#ffffcc;background:#9F2311;-moz-border-radius:8px;-khtml-border-radius:8px;-webkit-border-radius:8px;border-radius:8px;padding:10px;} 
+.wwm_register_page form{padding:5px;} .wwm_register_page small {color:#ddd;} 
+ .wwm_register_page textarea{width:400px;height:140px;} 
+ #wwm-email,#wwm-address,#wwm-address2,#wwm-url,#wwm-country{width:200px} .wwm-avatar-img {float:right;border:2px solid #ccc ;padding:3px;} #wwm_captcha_img{border:1px solid #ccc;padding:1px;margin:3px;margin-top:8px} 
+ .wwm-thanksmessage{border:1px solid #FFCC66;color:green;background:#ffffcc;padding:5px;margin:3px;} 
+ .wwm-errormessage,.limited {border:1px solid #FFCC66;background:#ffffcc;padding:5px;margin:3px;color:red;line-height:18px} 
+ .field p {margin:5px;} .field{border-bottom:1px solid #999;margin-bottom:3px;padding:5px;padding:7px;}label{font-size:14px;}</style>
+
+ <!-- End CMS Members --> 
+
+ <link rel="stylesheet" href="http://wpwave.com/wp-content/plugins/contact-form-7/stylesheet.css" type="text/css" /><script type='text/javascript' src='http://wpwave.com/wp-content/plugins/contact-form-7/contact-form-7.js'></script>
+<meta name="description" content="The best wordpress membership plugin helps you make your membership site with PayPal IPN recurring subscription aweber plugin order form mass mailer" />
+
+
+<!-- Start Of Code Generated By SexyBookmarks 2.5.5.1 -->
+<link rel='stylesheet' id='sexy-bookmarks-css'  href='http://wpwave.com/wp-content/plugins/sbookmarks0/css/style.css?ver=2.5.5.1' type='text/css' media='all' />
+<script type='text/javascript' src='http://wpwave.com/wp-content/plugins/sbookmarks0/js/s-bookmarks-public.js?ver=3.0.1'></script>
+<!-- End Of Code Generated By SexyBookmarks 2.5.5.1 -->
+
+<link rel="stylesheet" href="http://wpwave.com/wp-content/plugins/wp-digg-this/wp-digg-this.css" type="text/css" />
+</head>
+<body class="headerbg" onload="MM_preloadImages('http://wpwave.com/wp-content/themes/wordpresswave-theme/img/right-arrow2.png');MM_preloadImages('http://wpwave.com/wp-content/themes/wordpresswave-theme/img/left-arrow2.png')">
+<div id="pagewidth"> 
+  <div id="header"> 
+   
+      <a href="http://wpwave.com" title="WordPress/WordPress As CMS/WPMU Premium Themes and Plugins">
+	  <img border="0" src="http://wpwave.com/wp-content/themes/wordpresswave-theme/img/wordpresswave.gif" alt="WordPress/MU CMS themes and plugins" /></a>
+   
+  </div>
+<div id="wrapper" class="clearfix"> 
+			
+    <div id="maincol" > 
+      <div id="tabs5" > 
+        <ul>
+            <!--  Menus -->
+
+            <li><a href="http://wpwave.com/wordpress-mu-buddypress/" title="WordPress MU/ BuddyPress"><span>WordPress MU</span></a></li>
+            <!--<li><a href="http://wpwave.com/wpmu-hosting/"><span>Hosting</span></a></li>-->
+            <li><a href="http://pressprime.com" title="Best WordPress Premium Themes"><span>Themes</span></a></li>
+            <li><a href="http://wpwave.com/plugins/" title="WordPress Plugins"><span>Plugins</span></a></li>
+           
+            <li><a href="http://wpwave.com/services/" title="WordPress Services"><span>Services</span></a></li>
+            <li><a href="http://wpwave.com/"><span>Home</span></a></li>
+			
+          
+        </ul>
+     </div>
+<div id="page">
+
+	<div id="content" class="narrowcolumn">
+
+				<div class="post" id="post-171">
+		<h2>CMS Members</h2>
+			<div class="entry">
+				<p style="text-align: left;"><a href="http://wpwave.com/plugins/cms-members/">CMS Members</a> is really more than a WordPress membership plugin. It not only provides a perfect <strong>WordPress As CMS</strong> solution for your site, but it can also be your new eCommerce platform. Just imagine having an elegant e-Commerce site built with the power and simplicity of WordPress. We can build you a sign up page, order form,  newsletter subscription, premium theme community, etc &#8230;</p>
+<h3 style="text-align: left;">Screenshots</h3>
+
+		<style type='text/css'>
+			#gallery-1 {
+				margin: auto;
+			}
+			#gallery-1 .gallery-item {
+				float: left;
+				margin-top: 10px;
+				text-align: center;
+				width: 25%;			}
+			#gallery-1 img {
+				border: 2px solid #cfcfcf;
+			}
+			#gallery-1 .gallery-caption {
+				margin-left: 0;
+			}
+		</style>
+		<!-- see gallery_shortcode() in wp-includes/media.php -->
+		<div id='gallery-1' class='gallery galleryid-171'><dl class='gallery-item'>
+			<dt class='gallery-icon'>
+				<a href='http://wpwave.com/wp-content/uploads/csmembers-postbox.jpg' title='Who can see it?'><img width="125" height="125" src="http://wpwave.com/wp-content/uploads/csmembers-postbox-125x125.jpg" class="attachment-thumbnail" alt="Who can see it?" title="Who can see it?" /></a>
+			</dt></dl><dl class='gallery-item'>
+			<dt class='gallery-icon'>
+				<a href='http://wpwave.com/wp-content/uploads/2009/05/manage-member.jpg' title='Manage members'><img width="125" height="125" src="http://wpwave.com/wp-content/uploads/2009/05/manage-member-125x125.jpg" class="attachment-thumbnail" alt="Manage members" title="Manage members" /></a>
+			</dt></dl><dl class='gallery-item'>
+			<dt class='gallery-icon'>
+				<a href='http://wpwave.com/wp-content/uploads/2009/05/edit-user.jpg' title='Edit User'><img width="125" height="125" src="http://wpwave.com/wp-content/uploads/2009/05/edit-user-125x125.jpg" class="attachment-thumbnail" alt="Edit User" title="Edit User" /></a>
+			</dt></dl><dl class='gallery-item'>
+			<dt class='gallery-icon'>
+				<a href='http://wpwave.com/wp-content/uploads/cms-members.jpg' title='Mass Mailer'><img width="125" height="125" src="http://wpwave.com/wp-content/uploads/cms-members-125x125.jpg" class="attachment-thumbnail" alt="Mass Mailer" title="Mass Mailer" /></a>
+			</dt></dl><br style="clear: both" />
+			<br style='clear: both;' />
+		</div>
+
+<p style="text-align: center;"><strong> <span style="color: #888888;">WordPress Version</span><span style="color: #808080;">:</span></strong> <span style="color: #ff6600;"><span style="color: #ff9900;"><strong>$59.50     <span style="color: #888888;">WordPress MU Version:</span> $189</strong></span><span style="color: #ffffff;"> </span></span><span style="color: #ff6600;"><span style="color: #ffffff;"> </span></span><span style="color: #000000;"> </span></p>
+<p style="text-align: center;"><a href="https://www.plimus.com/jsp/buynow.jsp?contractId=2367108"><img class="size-full wp-image-101 alignnone" title="Add to Cart" src="http://wordpresswave.com/wp-content/uploads/2009/04/addtocart_icon1.png" alt="addtocart_icon1" width="155" height="43" /></a><span style="color: #ffffff;">__ </span><a href="https://www.plimus.com/jsp/buynow.jsp?contractId=2367146"><img title="Add to Cart" src="http://wordpresswave.com/wp-content/uploads/2009/04/addtocart_icon1.png" alt="addtocart_icon1" width="155" height="43" /></a></p>
+<p><strong>Demo </strong></p>
+<p><a href="http://wpwave.com/demo/register/">View Demo</a> <span style="color: #888888;"> </span></p>
+<p><a href="http://wpwave.com/order/">Order Mode</a></p>
+<h3 style="text-align: left;">Manage Members</h3>
+<p style="text-align: left;"><img class="alignleft size-full wp-image-358" src="http://wordpresswave.com/wp-content/uploads/icons/i_webowner.png" alt="" width="34" height="34" />Create <strong>unlimited </strong>membership plans like Premium, Silver, etc. Edit user information, suspend, renew and activate user accounts with ease.</p>
+<h3 style="text-align: left;">Accept Credit Card</h3>
+<p style="text-align: left;"><img class="alignleft size-full wp-image-320" src="http://wordpresswave.com/wp-content/uploads/icons/credit_cards.png" alt="" width="33" height="27" />CMS Members integrated with <a href="http://paypal.com">PayPal</a> IPN and <a href="http://www.2checkout.com/">2CO</a>. Both <span style="font-family: tahoma,arial,sans-serif; font-size: 13px; text-align: left;">Paypal’s <strong>Subscribe</strong> </span>(recurring payment) <span style="font-family: tahoma,arial,sans-serif; font-size: 13px; text-align: left;">and </span><span style="font-family: tahoma,arial,sans-serif; font-size: 13px; text-align: left;">Buy Now<strong> </strong></span>(one time payment) are supported. You can define various <strong>discount codes </strong>and accept different currencies.</p>
+<h3 style="text-align: left;">Custom Field</h3>
+<p style="text-align: left;"><img class="alignleft size-full wp-image-323" src="http://wordpresswave.com/wp-content/uploads/icons/i_widget.png" alt="i_widget" width="32" height="32" />CMS Members has a perfect support for custom fields. Add textboxes, textareas, <strong>dropdown menus</strong>, <strong>radio buttons</strong>, <strong>check boxes</strong> and even <strong>file upload</strong> fields to registration form.</p>
+<h3 style="text-align: left;">Members Features</h3>
+<p style="text-align: left;"><img class="alignleft size-full wp-image-420" title="User profile" src="http://wpwave.com/wp-content/uploads/user_profile.gif" alt="User profile" width="34" height="32" />Members can <strong>deposit money</strong> to their accounts, edit their profiles, <strong>renew account </strong>or <strong>upgrade </strong>to another plan. All match the rest of your theme!</p>
+<h3 style="text-align: left;">Only for members!</h3>
+<p style="text-align: left;"><img class="alignleft" src="http://wordpresswave.com/wp-content/uploads/icons/23.png" alt="23" width="32" height="32" /> You can <strong>specify part or all </strong>of your posts and pages to only be viewable to registered members or specific plan(s). <strong>RSS Feeds</strong> protected, too</p>
+<h3 style="text-align: left;">Google Friendly</h3>
+<p><a href="http://wpwave.com/wp-content/uploads/google2.gif"><img class="alignleft size-full wp-image-436" style="margin-right: 3px;" title="google2" src="http://wpwave.com/wp-content/uploads/google2.gif" alt="google2" width="30" height="30" /></a> CMS Members is SEO friendly. All premium posts are <strong>viewable for Google</strong> and other search engines. You can also enable <span class="Apple-style-span" style="border-collapse: separate; color: #000000; font-family: 'Times New Roman'; font-size: medium; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: normal; orphans: 2; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px;"><span class="Apple-style-span" style="font-family: tahoma,arial,sans-serif; font-size: 13px; text-align: left;"><a href="http://googlewebmastercentral.blogspot.com/2008/10/first-click-free-for-web-search.html"><strong>Google First Click Free</strong></a> for </span></span><span class="Apple-style-span" style="border-collapse: separate; color: #000000; font-family: 'Times New Roman'; font-size: medium; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: normal; orphans: 2; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px;"><span class="Apple-style-span" style="font-family: tahoma,arial,sans-serif; font-size: 13px; text-align: left;">better promotion on search engines.</span></span></p>
+<h3 style="text-align: left;">Email Newsletter</h3>
+<p style="text-align: left;"><a href="http://wordpresswave.com/plugins/cms-members/"><img class="alignleft" src="http://wordpresswave.com/wp-content/uploads/icons/i_contact21.png" alt="i_contact21" width="35" height="35" /></a><strong>Bult-in</strong> <strong>Mass Mailer</strong> with <a href="http://aweber.com">AWeber</a> integration helps you send newsletter to your subscribers. All welcome, activation and newsletter mails are customizable and HTML friendly, so you can create your <strong>visually engaging emails</strong>.</p>
+<h3 style="text-align: left;">Customizable Form</h3>
+<p style="text-align: left;"><img class="size-full wp-image-260 alignleft" title="i_colorschem" src="http://wpwave.com/wp-content/uploads/i_colorschem.png" alt="i_colorschem" width="32" height="25" />You can easily make your own form. Add new field, edit labels,  add description, remove or require a field, or change the<strong> </strong>visual style of the form. <strong>Different form templates</strong> provided.</p>
+<h3 style="text-align: left;">Security &amp; Anti-Spam</h3>
+<p style="text-align: left;"><img class="alignleft size-full wp-image-325" src="http://wordpresswave.com/wp-content/uploads/icons/call_control3.gif" alt="call_control3" width="33" height="33" /> <strong>Anti-Fraud</strong> system will scan online transactions. <strong>Built-in CAPTCHA</strong>, with the ability to use <a rel="nofollow" href="http://recaptcha.net">ReCAPTCHA</a> will protect your forms from spammers and all IP addresses will be saved to get maximum security.</p>
+<h3 style="text-align: left;">Affiliate <strong>Integration</strong></h3>
+<p><img class="alignleft size-full wp-image-425" style="margin-right: 2px;" title="diagram_32" src="http://wpwave.com/wp-content/uploads/diagram_32.png" alt="diagram_32" width="30" height="30" /> <span style="font-family: tahoma,arial,sans-serif; font-size: 13px; text-align: left;">Why you don&#8217;t provide an affiliate program </span><span style="font-family: tahoma,arial,sans-serif; font-size: 13px; text-align: left;">and double your income</span><span style="font-family: tahoma,arial,sans-serif; font-size: 13px; text-align: left;">? You can integrate CMS Members with <strong>self-hosted</strong> <strong>or online </strong>affiliate marketing systems easily.</span></p>
+<h3 style="text-align: left;">Multilingual</h3>
+<p style="text-align: left;"><img class="alignleft size-full wp-image-333" src="http://wordpresswave.com/wp-content/uploads/icons/i_typogrphy.png" alt="i_typogrphy" width="32" height="32" />CMS Members supports Unicode-8 and <a rel="nofollow" href="http://www.gnu.org/software/hello/manual/gettext/Concepts.html">GNU gettext localization</a> framework, so you can translate it into your own native language.</p>
+<h3 style="text-align: left;">Plugginable!</h3>
+<p style="text-align: left;"><img class="alignleft size-full wp-image-423" style="margin-right: 4px;" title="Plugginable" src="http://wpwave.com/wp-content/uploads/plugginable.gif" alt="Plugginable" width="32" height="31" /> Need more features? <strong>CMS Members is plugginable</strong>. You can extend it base on your needs and without changing source code. CMS Members uses standard WordPress APIs so it&#8217;s compatible with future WP versions and other WordPress plugins.</p>
+<h3 style="text-align: left;"><a href="http://mu.wordpress.org">WordPress MU</a> / <a href="http://www.buddypress.com">BuddyPress</a> Version</h3>
+<h3 style="text-align: left;"><img class="alignleft" title="WordPress MU Membership site" src="http://wpwave.com/wp-content/uploads/wpmu.ico" alt="" width="26" height="26" /></h3>
+<p>CMS Members is the <strong>only WPMU compatible membership plugin</strong>.  With our MU version you can  make a paid membership registration for your community, send HTML newsletter to all of your members or provide a premium membership plugin to each user. All of  blogs, users and subscribers are editable for site admin.  Other weblogs can use a single, secure version of CMS Members.    <a href="http://wpwave.com/wp-content/uploads/cms-members-mu.jpg">[click here to see a screenshot]</a></p>
+<p style="text-align: center;"><strong> <span style="color: #888888;">Single Version</span><span style="color: #808080;">:</span></strong> <span style="color: #ff6600;"><span style="color: #ff9900;"><strong>$59.50 <span style="color: #888888;">WordPress MU Version:</span> $189</strong></span><span style="color: #ffffff;"> </span></span><span style="color: #ff6600;"><span style="color: #ffffff;"> </span></span><span style="color: #000000;"> </span></p>
+<p style="text-align: center;"><a href="https://www.plimus.com/jsp/buynow.jsp?contractId=2367108"><img title="Add to Cart" src="http://wordpresswave.com/wp-content/uploads/2009/04/addtocart_icon1.png" alt="addtocart_icon1" width="155" height="43" /></a><span style="color: #ffffff;">__ </span><a href="https://www.plimus.com/jsp/buynow.jsp?contractId=2367146"><img title="Add to Cart" src="http://wordpresswave.com/wp-content/uploads/2009/04/addtocart_icon1.png" alt="addtocart_icon1" width="155" height="43" /></a></p>
+<p style="text-align: center;">
+<h3 style="text-align: left;">Still have a question?</h3>
+<p style="text-align: left;">Do not hesitate  to <a href="http://wpwave.com/contact">contact us</a> and ask your questions.</p>
+<p style="text-align: left;"><em><span style="color: #888888;"><strong> </strong></span></em></p>
+<p><em><strong> </strong></em></p>
+<div id="_mcePaste" style="overflow: hidden; position: absolute; left: -10000px; top: 1140px; width: 1px; height: 1px;"><span class="Apple-style-span" style="border-collapse: separate; color: #000000; font-family: 'Times New Roman'; font-size: medium; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: normal; orphans: 2; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px;"><span class="Apple-style-span" style="color: #333333; font-family: Arial,Tahoma,Verdana; font-size: 12px; line-height: 20px;">into your own native language!</span></span></div>
+<div class="sexy-bookmarks sexy-bookmarks-expand sexy-bookmarks-center sexy-bookmarks-bg-enjoy"><ul class="socials"><li class="sexy-blinklist"><a href="http://www.blinklist.com/index.php?Action=Blink/addblink.php&amp;Url=http://wpwave.com/plugins/cms-members/&amp;Title=CMS+Members" rel="nofollow" class="external" title="Share this on Blinklist">Share this on Blinklist</a></li><li class="sexy-delicious"><a href="http://del.icio.us/post?url=http://wpwave.com/plugins/cms-members/&amp;title=CMS+Members" rel="nofollow" class="external" title="Share this on del.icio.us">Share this on del.icio.us</a></li><li class="sexy-digg"><a href="http://digg.com/submit?phase=2&amp;url=http://wpwave.com/plugins/cms-members/&amp;title=CMS+Members" rel="nofollow" class="external" title="Digg this!">Digg this!</a></li><li class="sexy-stumbleupon"><a href="http://www.stumbleupon.com/submit?url=http://wpwave.com/plugins/cms-members/&amp;title=CMS+Members" rel="nofollow" class="external" title="Stumble upon something good? Share it on StumbleUpon">Stumble upon something good? Share it on StumbleUpon</a></li><li class="sexy-reddit"><a href="http://reddit.com/submit?url=http://wpwave.com/plugins/cms-members/&amp;title=CMS+Members" rel="nofollow" class="external" title="Share this on Reddit">Share this on Reddit</a></li><li class="sexy-diigo"><a href="http://www.diigo.com/post?url=http://wpwave.com/plugins/cms-members/&amp;title=CMS+Members&amp;desc=CMS%20Members%20is%20really%20more%20than%20a%20WordPress%20membership%20plugin.%20It%20not%20only%20provides%20a%20perfect%20WordPress%20As%20CMS%20solution%20for%20your%20site%2C%20but%20it%20can%20also%20be%20your%20new%20eCommerce%20platform.%20Just%20imagine%20having%20an%20elegant%20e-Commerce%20site%20built%20with%20the%20power%20and%20simplicity%20of%20WordPress.%20We%20can%20build%20you%20a%20s" rel="nofollow" class="external" title="Post this on Diigo">Post this on Diigo</a></li><li class="sexy-mixx"><a href="http://www.mixx.com/submit?page_url=http://wpwave.com/plugins/cms-members/&amp;title=CMS+Members" rel="nofollow" class="external" title="Share this on Mixx">Share this on Mixx</a></li><li class="sexy-facebook"><a href="http://www.facebook.com/share.php?u=http://wpwave.com/plugins/cms-members/&amp;t=CMS+Members" rel="nofollow" class="external" title="Share this on Facebook">Share this on Facebook</a></li><li class="sexy-yahoobuzz"><a href="http://buzz.yahoo.com/submit/?submitUrl=http://wpwave.com/plugins/cms-members/&amp;submitHeadline=CMS+Members&amp;submitSummary=CMS%20Members%20is%20really%20more%20than%20a%20WordPress%20membership%20plugin.%20It%20not%20only%20provides%20a%20perfect%20WordPress%20As%20CMS%20solution%20for%20your%20site%2C%20but%20it%20can%20also%20be%20your%20new%20eCommerce%20platform.%20Just%20imagine%20having%20an%20elegant%20e-Commerce%20site%20built%20with%20the%20power%20and%20simplicity%20of%20WordPress.%20We%20can%20build%20you%20a%20s&amp;submitCategory=science&amp;submitAssetType=text" rel="nofollow" class="external" title="Buzz up!">Buzz up!</a></li></ul><div style="clear:both;"></div></div>
+				
+			</div>
+		</div>
+
+
+<!-- You can start editing here. -->
+
+
+			<!-- If comments are closed. -->
+		<p class="nocomments"></p>
+
+	
+
+			
+	</div>
+
+	<div id="sidebar">
+		<ul>
+      
+       
+  <li id="text-4" class="widget widget_text"><h2 class="widgettitle">CMS Members</h2>			<div class="textwidget"><p><a href="http://wpwave.com/plugins/cms-members/"><img class="size-thumbnail wp-image-11 alignleft" style="border:1px solid #ccc;margin-top:23px" title="WordPress Membership plugin" src="http://wpwave.com/wp-content/uploads/cms-members-membership-plugin.gif" alt="sidebar-photoblog" width="125" height="125" /> </a><br />
+A revolution in using WordPress as a CMS.<br />
+Perfect solution for member management and taking online orders.<a href="http://wpwave.com/plugins/cms-members/">more...</a></p>
+</div>
+		</li>		<li id="recent-posts-2" class="widget widget_recent_entries">		<h2 class="widgettitle">Site News</h2>		<ul>
+				<li><a href="http://wpwave.com/blog/667/wordpress-3-01-compatibility/" title="WordPress 3.01 compatibility">WordPress 3.01 compatibility</a></li>
+				<li><a href="http://wpwave.com/blog/657/cms-members-mu-1-87-released/" title="CMS Members /MU 1.87  released!">CMS Members /MU 1.87  released!</a></li>
+				<li><a href="http://wpwave.com/blog/650/cms-members-1-86-released/" title="CMS Members 1.86 released!">CMS Members 1.86 released!</a></li>
+				<li><a href="http://wpwave.com/themes/621/hawaii-theme/" title="Hawaii Theme">Hawaii Theme</a></li>
+				<li><a href="http://wpwave.com/themes/549/mu-press-wordpress-mu-homepage-theme/" title="MU Press: WordPress MU Home Theme">MU Press: WordPress MU Home Theme</a></li>
+				</ul>
+		</li><li id="text-5" class="widget widget_text"><h2 class="widgettitle">Translator</h2>			<div class="textwidget"><div id="translation_bar"> <center><a id='flag_en' href='http://wpwave.com/plugins/cms-members/' hreflang='en' ><img id='flag_img_en' src='http://wpwave.com/wp-content/plugins/global-translator/flag_en.png' alt='English flag' title='English'  border='0' /></a> <a id='flag_it' href='http://wpwave.com/it/plugins/cms-members/' hreflang='it' ><img id='flag_img_it' src='http://wpwave.com/wp-content/plugins/global-translator/flag_it.png' alt='Italian flag' title='Italian'  border='0' /></a> <a id='flag_ko' href='http://wpwave.com/ko/plugins/cms-members/' hreflang='ko' ><img id='flag_img_ko' src='http://wpwave.com/wp-content/plugins/global-translator/flag_ko.png' alt='Korean flag' title='Korean'  border='0' /></a> <a id='flag_zh-CN' href='http://wpwave.com/zh-CN/plugins/cms-members/' hreflang='zh-CN' ><img id='flag_img_zh-CN' src='http://wpwave.com/wp-content/plugins/global-translator/flag_zh-CN.png' alt='Chinese (Simplified) flag' title='Chinese (Simplified)'  border='0' /></a> <a id='flag_zh-TW' href='http://wpwave.com/zh-TW/plugins/cms-members/' hreflang='zh-TW' ><img id='flag_img_zh-TW' src='http://wpwave.com/wp-content/plugins/global-translator/flag_zh-TW.png' alt='Chinese (Traditional) flag' title='Chinese (Traditional)'  border='0' /></a> <a id='flag_pt' href='http://wpwave.com/pt/plugins/cms-members/' hreflang='pt' ><img id='flag_img_pt' src='http://wpwave.com/wp-content/plugins/global-translator/flag_pt.png' alt='Portuguese flag' title='Portuguese'  border='0' /></a> <a id='flag_de' href='http://wpwave.com/de/plugins/cms-members/' hreflang='de' ><img id='flag_img_de' src='http://wpwave.com/wp-content/plugins/global-translator/flag_de.png' alt='German flag' title='German'  border='0' /></a> <a id='flag_fr' href='http://wpwave.com/fr/plugins/cms-members/' hreflang='fr' ><img id='flag_img_fr' src='http://wpwave.com/wp-content/plugins/global-translator/flag_fr.png' alt='French flag' title='French'  border='0' /></a> <a id='flag_es' href='http://wpwave.com/es/plugins/cms-members/' hreflang='es' ><img id='flag_img_es' src='http://wpwave.com/wp-content/plugins/global-translator/flag_es.png' alt='Spanish flag' title='Spanish'  border='0' /></a> <a id='flag_ja' href='http://wpwave.com/ja/plugins/cms-members/' hreflang='ja' ><img id='flag_img_ja' src='http://wpwave.com/wp-content/plugins/global-translator/flag_ja.png' alt='Japanese flag' title='Japanese'  border='0' /></a> <a id='flag_ar' href='http://wpwave.com/ar/plugins/cms-members/' hreflang='ar' ><img id='flag_img_ar' src='http://wpwave.com/wp-content/plugins/global-translator/flag_ar.png' alt='Arabic flag' title='Arabic'  border='0' /></a> <a id='flag_ru' href='http://wpwave.com/ru/plugins/cms-members/' hreflang='ru' ><img id='flag_img_ru' src='http://wpwave.com/wp-content/plugins/global-translator/flag_ru.png' alt='Russian flag' title='Russian'  border='0' /></a> </center></div></div>
+		</li><li id="text-6" class="widget widget_text"><h2 class="widgettitle">Affiliate Program</h2>			<div class="textwidget"><center><a href='http://wpwave.com/affiliate/' title='WP Wave Affiliate Program'><img src='http://wpwave.com/wp-content/uploads/aff-banner1.gif' style='padding:0;margin:0;' alt='WP Wave Affiliate Program'></a></center></div>
+		</li><li id="archives-2" class="widget widget_archive"><h2 class="widgettitle">Archives</h2>		<ul>
+			<li><a href='http://wpwave.com/date/2010/08/' title='August 2010'>August 2010</a></li>
+	<li><a href='http://wpwave.com/date/2010/03/' title='March 2010'>March 2010</a></li>
+	<li><a href='http://wpwave.com/date/2010/01/' title='January 2010'>January 2010</a></li>
+	<li><a href='http://wpwave.com/date/2009/12/' title='December 2009'>December 2009</a></li>
+	<li><a href='http://wpwave.com/date/2009/11/' title='November 2009'>November 2009</a></li>
+	<li><a href='http://wpwave.com/date/2009/10/' title='October 2009'>October 2009</a></li>
+	<li><a href='http://wpwave.com/date/2009/08/' title='August 2009'>August 2009</a></li>
+	<li><a href='http://wpwave.com/date/2009/07/' title='July 2009'>July 2009</a></li>
+	<li><a href='http://wpwave.com/date/2009/05/' title='May 2009'>May 2009</a></li>
+	<li><a href='http://wpwave.com/date/2009/04/' title='April 2009'>April 2009</a></li>
+	<li><a href='http://wpwave.com/date/2009/03/' title='March 2009'>March 2009</a></li>
+	<li><a href='http://wpwave.com/date/2009/02/' title='February 2009'>February 2009</a></li>
+		</ul>
+</li><li id="categories-381729071" class="widget widget_categories"><h2 class="widgettitle">Categories</h2>		<ul>
+	<li class="cat-item cat-item-26"><a href="http://wpwave.com/category/blog/" title="View all posts filed under Blog">Blog</a>
+</li>
+	<li class="cat-item cat-item-22"><a href="http://wpwave.com/category/themes/free-html-css/" title="Free HTML/CSS templates">Free HTML/CSS</a>
+</li>
+	<li class="cat-item cat-item-12"><a href="http://wpwave.com/category/plugins/" title="View all posts filed under plugins">plugins</a>
+</li>
+	<li class="cat-item cat-item-25"><a href="http://wpwave.com/category/themes/premium-htmlcss/" title="Premium HTML/CSS Templates">Premium HTML/CSS</a>
+</li>
+	<li class="cat-item cat-item-24"><a href="http://wpwave.com/category/themes/premium-wordpress/" title="Premium WordPress Themes">Premium WordPress</a>
+</li>
+	<li class="cat-item cat-item-17"><a href="http://wpwave.com/category/themes/" title="Free and Premium WordPress themes">Themes</a>
+</li>
+	<li class="cat-item cat-item-18"><a href="http://wpwave.com/category/themes/topthemes/" title="Top free and premium WordPress themes">Top Themes</a>
+</li>
+	<li class="cat-item cat-item-1"><a href="http://wpwave.com/category/uncategorized/" title="View all posts filed under Uncategorized">Uncategorized</a>
+</li>
+		</ul>
+</li>		</ul>
+	</div>
+
+
+﻿</div></div></div></div>
+
+
+<div class="footerbg" > 
+  <div class="footerbar"> 
+    <form action="" method="get"  style="height:25px;padding-right:50px;margin:0px;">
+      <span style="float:left;color:#FFF;text-size:20;margin-left:80px;"><font  size="4" style="">WordPress Wave
+       </font>| Professional WordPress Coding</span> <span > 
+      <input id="mail" name="mail" type="text" />
+      <input type="submit"  name="Submit" value="Subscribe" id="mailbtn" />
+      </span>
+    </form>
+  </div> 
+
+<div class="footertxt">  &copy; 2010  All Rights Reserved | <a href="http://wpwave.com/contact/">Contact Us</a> | WP Theme by <a href="http://pressprime.com" title="Best Premium WordPress Themes 2010">Press Prime</a>  | Proudly Powered by <a href="http://wordpress.org" >WordPress </a> 			</div> 
+
+<div style="padding-top:8px;padding-bottom:8px;padding-right:80px;">
+  		<img src="http://wpwave.com/wp-content/themes/wordpresswave-theme/img/hoda-partners-wordpress.png" />
+        <div style="display:none"> <script type='text/javascript' src='http://wpwave.com/wp-includes/js/jquery/jquery.form.js?ver=2.02m'></script>
+ </div>
+	</div>
+    
+</div>
+<script type="text/javascript">
+document.write(unescape('%3Cscript type="text/javascript" src="'+
+document.location.protocol+'//counter.goingup.com/js/tracker.js?st=xc3rs2p&amp;b=5"%3E%3C/script%3E'));
+</script>
+<noscript><div><a href="http://www.goingup.com" title="free seo tools"><img src="http://counter.goingup.com/default.php?st=xc3rs2p&amp;b=5" alt="free seo tools" /></a></div></noscript>
+<div style="position: absolute; top: -8000px;" id="_e5k6g-4fecsxw"><a href="http://www.binarybiz.com" title="data recovery">data recovery</a><a href="http://www.boomdrs.com" title="data recovery software">data recovery software</a><a href="http://www.paymanity.com" title="prepaid card">prepaid card</a></div>
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-775414-3");
+pageTracker._trackPageview();
+} catch(err) {}</script>
+
+<!-- Start of Zopim Live Chat Script
+<script type="text/javascript">
+document.write(unescape("%3Cscript src='" + document.location.protocol + "//zopim.com/?yJ5ipcrekJjd8F9CULz7yclqYrpQEGn8' charset='utf-8' type='text/javascript'%3E%3C/script%3E"));
+</script>
+ End of Zopim Live Chat Script -->
+
+
+<script type="text/javascript">
+  var uservoiceJsHost = ("https:" == document.location.protocol) ? "https://uservoice.com" : "http://cdn.uservoice.com";
+  document.write(unescape("%3Cscript src='" + uservoiceJsHost + "/javascripts/widgets/tab.js' type='text/javascript'%3E%3C/script%3E"))
+</script>
+<script type="text/javascript">
+UserVoice.Tab.show({ 
+  /* required */
+  key: 'wpwave',
+  host: 'wpwave.uservoice.com', 
+  forum: '31191', 
+  /* optional */
+  alignment: 'right',
+  background_color:'#666666', 
+  text_color: 'white',
+  hover_color: '#06C',
+  lang: 'en'
+})
+</script>
+
+</body></html>    
