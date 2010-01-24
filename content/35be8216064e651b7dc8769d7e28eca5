@@ -1,0 +1,1452 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>ARANY</title>
+<script type="text/javascript">
+<!--
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+//-->
+</script>
+<link href="style.css" rel="stylesheet" type="text/css" />
+<style type="text/css">
+<!--
+.style1 {font-weight: bold}
+
+body {
+	background-color: #7dc57d;
+	background-repeat: repeat-x;
+	background-image: url(graphics/background2.jpg);
+	text-align:center;
+	margin: 15px;
+}
+
+#container {
+	position:relative;
+	width: 800px;
+	text-align:center;
+	margin: 0 auto 0;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10pt;
+	color: #000000;
+}
+.background {
+	background-image: none;
+	background-repeat: repeat-y;
+	background-position: left top;
+}
+.copy {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 8pt;
+	color: #000000;
+}
+.text {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12pt;
+	color: #000000;
+}
+.membertext {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10pt;
+	color: #000000;
+}
+.headers {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14pt;
+	color: #000000;
+	font-weight: bold;
+}
+a:link {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10pt;
+	color: #000000;
+}
+a:visited {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10pt;
+	color: #666666;
+}
+a:hover {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10pt;
+	color: #FFFFFF;
+}
+a:active {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10pt;
+	color: #000000;
+}
+
+-->
+</style>
+</head>
+
+<body onLoad="MM_preloadImages('graphics/About-over.gif','graphics/MembershipRoster-over.gif','graphics/Contacts-over.gif','graphics/Newsletter-over.gif','graphics/Events-over.gif','graphics/Legislative-over.gif','graphics/IndustryLinks-over.gif','graphics/SearchLink-over.gif','graphics/MembersOnly-over.gif','graphics/MembershipApp-over.gif','graphics/MemberRoster-over.gif','graphics/Industry-over.gif')">
+<div id="container">
+  <table width="800" border="0" align="left" cellpadding="0" cellspacing="0">
+    <tr>
+      <td colspan="4" align="center"><a href="index.html"><img src="graphics/headerLogo.jpg" width="352" height="113" border="0" /></a></td>
+    </tr>
+    <tr>
+      <td colspan="4"><a href="about.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image2','','graphics/About-over.gif',1)"><img src="graphics/About.gif" name="Image2" width="77" height="53" border="0" id="Image2" /></a><a href="MembershipRoster.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image 3','','graphics/MemberRoster-over.gif',1)"><img src="graphics/MemberRoster.gif" name="Image 3" width="88" height="53" border="0" id="Image 3" /></a><a href="contacts.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image4','','graphics/Contacts-over.gif',1)"><img src="graphics/Contacts.gif" name="Image4" width="72" height="53" border="0" id="Image4" /></a><a href="Newsletters/NewsletterCurrent.pdf" target="_blank" onMouseOver="MM_swapImage('Image5','','graphics/Newsletter-over.gif',1)" onMouseOut="MM_swapImgRestore()"><img src="graphics/Newsletter.gif" name="Image5" width="71" height="53" border="0" id="Image5" /></a><a href="member/events.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image6','','graphics/Events-over.gif',1)"><img src="graphics/Events.gif" name="Image6" width="65" height="53" border="0" id="Image6" /></a><a href="IndustryLinks.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image8','','graphics/Industry-over.gif',1)"><img src="graphics/Industry.gif" name="Image8" width="68" height="53" border="0" id="Image8" /></a><a href="members/Legislative.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image7','','graphics/Legislative-over.gif',1)"><img src="graphics/Legislative.gif" name="Image7" width="94" height="53" border="0" id="Image7" /></a><a href="Search.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image9','','graphics/SearchLink-over.gif',1)"><img src="graphics/SearchLink.gif" name="Image9" width="76" height="53" border="0" id="Image9" /></a><a href="members/MembersOnly.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image10','','graphics/MembersOnly-over.gif',1)"><img src="graphics/MembersOnly.gif" name="Image10" width="77" height="53" border="0" id="Image10" /></a><a href="MembershipApp.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image11','','graphics/MembershipApp-over.gif',1)"><img src="graphics/MembershipApp.gif" name="Image11" width="107" height="53" border="0" id="Image11" /></a></td>
+    </tr>
+    <tr>
+      <td width="8" >&nbsp;</td>
+      <td width="774" align="left"><img src="graphics/MemberRosterheader.jpg" width="533" height="46" /></td>
+      <td width="4">&nbsp;</td>
+      <td width="14" align="center"></td>
+    </tr>
+    <tr>
+      <td rowspan="1">&nbsp;</td>
+					<td class="text" valign="top"><div align="left">
+        <table width="765" border="0" cellspacing="0" cellpadding="4" class="membertext"><tr><td  width="124"><table width="769" border="0" cellspacing="0" cellpadding="4" class="membertext">
+<tr  width="543px" height="28px" >
+												<td  id="sectiontitle" width="28" height="28"><p style="margin-top: 2; margin-bottom: 6"> </p></td>
+												<td width="244" class="headers"><div align="left">
+                <p style="margin-top: 2; margin-bottom: 6"> <strong>Company Information</strong></p>
+            </div></td>
+												<td width="130" class="headers"><div align="left">
+                <p style="margin-top: 2; margin-bottom: 6"> <strong>City</strong></p>
+            </div></td>
+												<td colspan="2" class="headers"><div align="left">
+                <p style="margin-top: 2; margin-bottom: 6"> <strong>County</strong></p>
+            </div></td>
+												<td width="164" class="headers">Phone</td>
+				</tr>
+							<tr><td><a name="#"><font size="4"><strong>#</strong></font></a></td></tr>				
+                                            
+                                            
+                                            
+                                            <tr>
+												<td width="28"><p style="margin-top: 2; margin-bottom: 6"></p></td>
+												<td width="244"><p style="margin-top: 2; margin-bottom: 6"><strong><strong><a href="http://www.2060autoparts.com/">2060 Auto Parts, Inc.</a></strong></strong></p></td>
+												<td width="130"><p style="margin-top: 2; margin-bottom: 6">Buffalo, NY</p></td>
+												<td colspan="2"><p style="margin-top: 2; margin-bottom: 6">Erie</p></td>
+												<td width="164">716-894-2060</td>
+				</tr>
+          <tr>
+												<td width="28" height="28px"  id="sectiontitle"><p style="margin-top: 2; margin-bottom: 6"><a name="A"><font size="4"><strong>A</strong></font></a></p></td>
+												<td width="244"></td>
+												<td></td>
+												<td width="74"></td>
+				  <td width="81"></td>
+												<td width="164"></td>
+				</tr>
+          <tr>
+												<td  width="28"><p style="margin-top: 2; margin-bottom: 6"></p></td>
+												<td  width="244"><strong><a href="http://www.apautoparts.com">A &amp; P Auto Parts,   Inc.</a></strong><br /></td>
+				  <td  width="130"><p style="margin-top: 2; margin-bottom: 6">Cicero, NY</p></td>
+												<td colspan="2" ><p style="margin-top: 2; margin-bottom: 6">Onondaga</p></td>
+												<td  width="164">315-699-7777</td>
+				</tr>
+          <tr>
+												<td  width="28"><p style="margin-top: 2; margin-bottom: 6"></p></td>
+												<td  width="244"><strong><strong><a href="http://www.atautoparts.com">A &amp; T Auto Parts</a></strong></strong></td>
+				  <td  width="130"><p style="margin-top: 2; margin-bottom: 6">Hype Park, NY</p></td>
+												<td colspan="2" ><p style="margin-top: 2; margin-bottom: 6">Dutchess</p></td>
+												<td  width="164">914-229-8855</td>
+				</tr>
+          <tr>
+            <td>&nbsp;</td>
+            <td valign="top">A Plus Auto Parts</td>
+            <td valign="top">Lindenhurst, NY</td>
+            <td colspan="2" valign="top" >Suffolk</td>
+            <td valign="top">631-226-0580<br />
+              888-821-7003</td>
+          </tr>
+          <tr>
+												<td  width="28"><p style="margin-top: 2; margin-bottom: 6"></p></td>
+												<td  width="244">A.W. Scrap Processors, Inc.</td>
+												<td  width="130"><p style="margin-top: 2; margin-bottom: 6">Wappingers Falls, NY</p></td>
+												<td colspan="2" ><p style="margin-top: 2; margin-bottom: 6">Dutchess</p></td>
+												<td  width="164">845-692-5741</td>
+				</tr>
+          <tr>
+												<td  width="28"><p style="margin-top: 2; margin-bottom: 6"></p></td>
+												<td  width="244"><strong><a href="http://www.aableautosalvage.com">Aable Auto Salvage, Inc.</a></strong></td>
+				  <td  width="130"><p style="margin-top: 2; margin-bottom: 6">Bay Shore, NY</p></td>
+												<td colspan="2" ><p style="margin-top: 2; margin-bottom: 6">Suffolk</p></td>
+												<td  width="164">631-665-5266</td>
+				</tr>
+          <tr>
+												<td  width="28"><p style="margin-top: 2; margin-bottom: 6"></p></td>
+												<td  width="244">AALCO</td>
+												<td  width="130"><p style="margin-top: 2; margin-bottom: 6">Poughkeepsie, NY</p></td>
+												<td colspan="2" ><p style="margin-top: 2; margin-bottom: 6">Dutchess</p></td>
+												<td  width="164">914-452-0877</td>
+				</tr>
+          <tr>
+												<td  width="28"><p style="margin-top: 2; margin-bottom: 6"></p></td>
+												<td  width="244"><strong><a href="http://www.automotiveinc.com">A-Automotive, Inc.</a></strong></td>
+				  <td  width="130"><p style="margin-top: 2; margin-bottom: 6">Mayville, NY</p></td>
+												<td colspan="2" ><p style="margin-top: 2; margin-bottom: 6">Chautaqua</p></td>
+												<td  width="164">716-753-2367</td>
+				</tr>
+          <tr>
+            <td>&nbsp;</td>
+            <td valign="top">Abe's Auto</td>
+            <td valign="top">Casseville, NY</td>
+            <td colspan="2" valign="top" >Oneida</td>
+            <td valign="top">315-822-3068</td>
+          </tr>
+          <tr>
+												<td  width="28"><p style="margin-top: 2; margin-bottom: 6"></p></td>
+												<td  width="244"><strong><a href="http://www.aceautosalvage.com">Ace Auto Salvage</a></strong></td>
+				  <td  width="130"><p style="margin-top: 2; margin-bottom: 6">Staten Island, NY</p></td>
+												<td colspan="2" ><p style="margin-top: 2; margin-bottom: 6">Richmond</p></td>
+												<td  width="164">718-273-4100</td>
+				</tr>
+          <tr>
+												<td  width="28"><p style="margin-top: 2; margin-bottom: 6"></p></td>
+												<td  width="244"><a href="http://www.aceautowreckers.com"><strong>Ace Foreign   &amp; American Auto Wreckers</strong></a></td>
+				  <td  width="130"><p style="margin-top: 2; margin-bottom: 6">Deer Park, NY</p></td>
+												<td colspan="2" ><p style="margin-top: 2; margin-bottom: 6">Suffolk</p></td>
+												<td  width="164">631-667-3331</td>
+				</tr>
+          <tr>
+            <td>&nbsp;</td>
+            <td valign="top">Act Auto Wrecking Corp.</td>
+            <td valign="top">Lindenhurst, NY</td>
+            <td colspan="2" valign="top" >Suffolk</td>
+            <td valign="top">631-225-5865</td>
+          </tr>
+          <tr>
+												<td  width="28"><p style="margin-top: 2; margin-bottom: 6"></p></td>
+												<td  width="244"><a href="http://www.actionautoparts.biz"><strong>Action   Auto Parts</strong></a></td>
+				  <td  width="130"><p style="margin-top: 2; margin-bottom: 6">Rochester, NY</p></td>
+												<td colspan="2" ><p style="margin-top: 2; margin-bottom: 6">Monroe</p></td>
+												<td  width="164">585-424-1200</td>
+				</tr>
+          <tr>
+												<td  width="28"><p style="margin-top: 2; margin-bottom: 6"></p></td>
+												<td  width="244"><strong><a href="http://www.affordableusedautoparts.com/">Affordable Used Auto   Parts</a></strong><br /></td>
+				  <td  width="130"><p style="margin-top: 2; margin-bottom: 6">Brooklyn, NY</p></td>
+												<td colspan="2" ><p style="margin-top: 2; margin-bottom: 6">Kings</p></td>
+												<td  width="164">718-497-8300</td>
+				</tr>
+          <tr>
+            <td>&nbsp;</td>
+            <td valign="top">Al Valk's Garage, Ltd.</td>
+            <td valign="top">Walden, NY</td>
+            <td colspan="2" valign="top" >Orange</td>
+            <td valign="top">845-788-3698</td>
+          </tr>
+          <tr>
+            <td>&nbsp;</td>
+            <td valign="top">Albany Metal Recycling</td>
+            <td valign="top">Albany, NY</td>
+            <td colspan="2" valign="top" >Albany</td>
+            <td valign="top">518-489-2580</td>
+          </tr>
+          <tr>
+												<td  width="28"><p style="margin-top: 2; margin-bottom: 6"></p></td>
+												<td  width="244">Alex Auto Parts, Inc.</td>
+												<td  width="130"><p style="margin-top: 2; margin-bottom: 6">Bronx, NY</p></td>
+												<td colspan="2" ><p style="margin-top: 2; margin-bottom: 6">Bronx</p></td>
+												<td  width="164">718-842-2500</td>
+				</tr>
+          <tr>
+												<td  width="28"><p style="margin-top: 2; margin-bottom: 6"></p></td>
+												<td  width="244"><strong><a href="http://www.allamericanautowreckers.com">All American Auto   Wreckers</a></strong></td>
+				  <td  width="130"><p style="margin-top: 2; margin-bottom: 6">East Patchogue, NY</p></td>
+												<td colspan="2" ><p style="margin-top: 2; margin-bottom: 6">Suffolk</p></td>
+												<td  width="164">631-286-5500</td>
+				</tr>
+          <tr>
+												<td  width="28"><p style="margin-top: 2; margin-bottom: 6"></p></td>
+												<td  width="244"><strong><a href="http://www.allianceautoparts.com">Alliance Auto Parts, Inc.</a></strong></td>
+				  <td  width="130"><p style="margin-top: 2; margin-bottom: 6">Woodside, NY</p></td>
+												<td colspan="2" ><p style="margin-top: 2; margin-bottom: 6">Queens</p></td>
+												<td  width="164">718-672-3800</td>
+				</tr>
+          <tr>
+            <td>&nbsp;</td>
+            <td><a href="http://www.altmires.com">Altmire's Used Auto Parts</a></td>
+            <td>Felt’s   Mill’s, NY</td>
+            <td colspan="2" >Jefferson</td>
+            <td>315-773-5727</td>
+          </tr>
+          <tr>
+            <td>&nbsp;</td>
+            <td valign="top">Amo's Used Auto Parts, Inc.</td>
+            <td valign="top">Taberg, NY</td>
+            <td colspan="2" valign="top" >Oneida</td>
+            <td valign="top">315-337-0759</td>
+          </tr>
+          <tr>
+												<td  width="28"><p style="margin-top: 2; margin-bottom: 6"></p></td>
+												<td  width="244"><strong><a href="http://www.AmpexAutoWreckers.com">Ampex Auto Wreckers,   Inc.</a></strong></td>
+				  <td  width="130"><p style="margin-top: 2; margin-bottom: 6">Spring Valley, NY</p></td>
+												<td colspan="2" ><p style="margin-top: 2; margin-bottom: 6">Rockland</p></td>
+												<td  width="164">845-352-5100</td>
+				</tr>
+          <tr>
+												<td  width="28"><p style="margin-top: 2; margin-bottom: 6"></p></td>
+												<td  width="244"><strong><a href="http://www.andysautopartsny.com">Andy's Auto Parts</a></strong></td>
+				  <td  width="130"><p style="margin-top: 2; margin-bottom: 6">Ontario, NY</p></td>
+												<td colspan="2" ><p style="margin-top: 2; margin-bottom: 6">Wayne</p></td>
+												<td  width="164">800-834-2957</td>
+				</tr>
+                <tr>
+                  <td>&nbsp;</td>
+                  <td valign="top">AP II</td>
+                  <td valign="top">Lindenhurst, NY</td>
+                  <td colspan="2" valign="top" >Suffolk</td>
+                  <td valign="top">631-226-0404<br />
+                    800-698-9804</td>
+                </tr>
+                <tr>
+												<td  width="28"><p style="margin-top: 2; margin-bottom: 6"></p></td>
+												<td  width="244"><a href="http://www.apexmotors.com"><strong>Apex Sales   Towing &amp; Leasing</strong><br />
+												</a></td>
+				  <td  width="130"><p style="margin-top: 2; margin-bottom: 6">New York, NY</p></td>
+												<td colspan="2" ><p style="margin-top: 2; margin-bottom: 6">Bronx</p></td>
+												<td  width="164">718-328-7200</td>
+				</tr>
+                <tr>
+												<td  width="28"><p style="margin-top: 2; margin-bottom: 6"></p></td>
+												<td  width="244"><a href="http://www.autocitybuff.com/"><strong>Auto   City of Buffalo</strong></a></td>
+				  <td  width="130"><p style="margin-top: 2; margin-bottom: 6">Buffalo, NY</p></td>
+												<td colspan="2" ><p style="margin-top: 2; margin-bottom: 6">Erie</p></td>
+												<td  width="164">716-877-4237</td>
+				</tr>
+                <tr>
+												<td  width="28"><p style="margin-top: 2; margin-bottom: 6"></p></td>
+												<td  width="244">Auto Salvage of Ithica</td>
+												<td  width="130"><p style="margin-top: 2; margin-bottom: 6">Ithica, NY</p></td>
+												<td colspan="2" ><p style="margin-top: 2; margin-bottom: 6">Tompkins</p></td>
+												<td  width="164">607-272-8061</td>
+				</tr>
+                <tr>
+                  <td>&nbsp;</td>
+                  <td valign="top"><a href="http://www.avlrecycling.com"><strong>AVL Recycling, LLC</strong></a></td>
+                  <td valign="top">Ontario, NY</td>
+                  <td colspan="2" valign="top" >Ontario</td>
+                  <td valign="top">315-333-5464</td>
+                </tr>
+                <tr>
+												<td width="28"  height="28px"  id="sectiontitle"><p style="margin-top: 2; margin-bottom: 6"><a name="B"><font size="4"><strong>B</strong></font></a></p></td>
+												<td width="244"></td>
+												<td></td>
+												<td></td>
+												<td></td>
+												<td width="164"></td>
+				</tr>
+          <tr>
+												<td  width="28"><p style="margin-top: 2; margin-bottom: 6"></p></td>
+												<td  width="244">B.R.I.M. Recyclers, Inc.</td>
+				  <td  width="130"><p style="margin-top: 2; margin-bottom: 6">Cuddebackville, NY</p></td>
+												<td colspan="2" ><p style="margin-top: 2; margin-bottom: 6">Orange</p></td>
+												<td  width="164">914-754-7671</td>
+				</tr>
+          <tr>
+												<td  width="28"><p style="margin-top: 2; margin-bottom: 6"></p></td>
+												<td  width="244"><strong><a href="http://www.bayviewautowreckers.com">Bayview Auto Wreckers,   Inc.</a></strong></td>
+				  <td  width="130"><p style="margin-top: 2; margin-bottom: 6">Staten Island, NY</p></td>
+												<td colspan="2" ><p style="margin-top: 2; margin-bottom: 6">Richmond</p></td>
+												<td  width="164">718-273-6060</td>
+				</tr>
+          <tr>
+												<td  width="28"><p style="margin-top: 2; margin-bottom: 6"></p></td>
+												<td  width="244"><strong><a href="http://www.BeckersAutoSalvage.com">Becker's Auto Salvage,   Inc</a>.</strong></td>
+				  <td  width="130"><p style="margin-top: 2; margin-bottom: 6">Palatine Bridge, NY</p></td>
+												<td colspan="2" ><p style="margin-top: 2; margin-bottom: 6">Montgomery</p></td>
+												<td  width="164">518-673-3238</td>
+				</tr>
+          <tr>
+												<td  width="28"><p style="margin-top: 2; margin-bottom: 6"></p></td>
+												<td  width="244">Bennett's Enterprises, Inc.</td>
+				  <td  width="130"><p style="margin-top: 2; margin-bottom: 6">Bath, NY</p></td>
+												<td colspan="2" ><p style="margin-top: 2; margin-bottom: 6">Steuben</p></td>
+												<td  width="164">607-776-7661</td>
+				</tr>
+          <tr>
+												<td  width="28"><p style="margin-top: 2; margin-bottom: 6"></p></td>
+												<td  width="244"><a href="http://www.benwoodautoparts.com"><strong>Benwood Auto Parts,   Inc.</strong></a><br /></td>
+				  <td  width="130"><p style="margin-top: 2; margin-bottom: 6">Baldwinsville, NY</p></td>
+												<td colspan="2" ><p style="margin-top: 2; margin-bottom: 6">Onondaga</p></td>
+												<td  width="164">315-638-2556</td>
+				</tr>
+          <tr>
+												<td  width="28"><p style="margin-top: 2; margin-bottom: 6"></p></td>
+												<td  width="244">BiCounty Auto &amp; Truck Salvage Corp.</td>
+				  <td  width="130"><p style="margin-top: 2; margin-bottom: 6">Bay Shore, NY</p></td>
+												<td colspan="2" ><p style="margin-top: 2; margin-bottom: 6">Suffolk</p></td>
+												<td  width="164">631-968-5700</td>
+				</tr>
+          <tr>
+												<td  width="28"><p style="margin-top: 2; margin-bottom: 6"></p></td>
+												<td  width="244"><a href="http://www.bigappleautoinc.com"><strong>Big Apple Auto Inc</strong></a></td>
+				  <td  width="130"><p style="margin-top: 2; margin-bottom: 6">Brooklyn, NY</p></td>
+												<td colspan="2" ><p style="margin-top: 2; margin-bottom: 6">Kings</p></td>
+												<td  width="164">718-495-1774</td>
+				</tr>
+          <tr>
+												<td  width="28"><p style="margin-top: 2; margin-bottom: 6"></p></td>
+				  <td  width="244">Bill's Auto &amp; Commercial Towing, Inc.</td>
+				  <td  width="130"><p style="margin-top: 2; margin-bottom: 6">Middleburgh, NY</p></td>
+												<td colspan="2" ><p style="margin-top: 2; margin-bottom: 6">Schoharie</p></td>
+												<td  width="164">518-827-8007</td>
+				</tr>
+          <tr>
+            <td>&nbsp;</td>
+            <td valign="top">Bill's Auto Parts, Inc.</td>
+            <td valign="top">Amsterdam, NY</td>
+            <td colspan="2" valign="top" >Montgomery</td>
+            <td valign="top">518-842-6050<br />
+              800-698-9332</td>
+          </tr>
+          <tr>
+												<td  width="28"><p style="margin-top: 2; margin-bottom: 6"></p></td>
+												<td  width="244"><span class="style1"><a href="http://www.bisontruckparts.com">Bison Truck Parts, Inc</a>.</span></td>
+				  <td  width="130"><p style="margin-top: 2; margin-bottom: 6">Buffalo, NY</p></td>
+												<td colspan="2" ><p style="margin-top: 2; margin-bottom: 6">Erie</p></td>
+												<td  width="164">800-736-5011</td>
+				</tr>
+          <tr>
+												<td  width="28"><p style="margin-top: 2; margin-bottom: 6"></p></td>
+												<td  width="244">Bob's Barnes Avenue Auto Parts, Inc.</td>
+				  <td  width="130"><p style="margin-top: 2; margin-bottom: 6">Utica, NY</p></td>
+												<td colspan="2" ><p style="margin-top: 2; margin-bottom: 6">Oneida</p></td>
+												<td  width="164">315-735-7174</td>
+				</tr>
+          <tr>
+												<td  width="28"><p style="margin-top: 2; margin-bottom: 6"></p></td>
+												<td  width="244"><strong><a href="http://www.branchautoparts.com">Branch Auto Parts</a></strong></td>
+				  <td  width="130"><p style="margin-top: 2; margin-bottom: 6">Albany, NY</p></td>
+												<td colspan="2" ><p style="margin-top: 2; margin-bottom: 6">Albany</p></td>
+												<td  width="164">518-459-2787</td>
+				</tr>
+          <tr>
+												<td  width="28"><p style="margin-top: 2; margin-bottom: 6"></p></td>
+												<td  width="244">Bryson's, Inc.</td>
+				  <td  width="130"><p style="margin-top: 2; margin-bottom: 6">Croton, NY</p></td>
+												<td colspan="2" ><p style="margin-top: 2; margin-bottom: 6">Putnam</p></td>
+												<td  width="164">914-277-3201</td>
+				</tr>
+          <tr>
+												<td  width="28"><p style="margin-top: 2; margin-bottom: 6"></p></td>
+												<td  width="244"><a href="http://recycler.car-part.com/BuffaloAuto/"><strong>Buffalo Auto Wrecking,   Inc.</strong></a></td>
+				  <td  width="130"><p style="margin-top: 2; margin-bottom: 6">Buffalo, NY</p></td>
+												<td colspan="2" ><p style="margin-top: 2; margin-bottom: 6">Erie</p></td>
+												<td  width="164">716-873-3699</td>
+				</tr>
+          <tr>
+												<td  width="28"><p style="margin-top: 2; margin-bottom: 6"></p></td>
+				  <td  width="244">Buffalo Engine Components, Inc.</td>
+				  <td  width="130"><p style="margin-top: 2; margin-bottom: 6">Buffalo, NY</p></td>
+												<td colspan="2" ><p style="margin-top: 2; margin-bottom: 6">Erie</p></td>
+												<td  width="164">716-893-2661</td>
+				</tr>
+          <tr>
+												<td width="28"  height="28px"  id="sectiontitle"><p style="margin-top: 2; margin-bottom: 6"><a name="C"><font size="4"><strong>C</strong></font></a></p></td>
+												<td width="244"></td>
+												<td></td>
+												<td></td>
+												<td></td>
+												<td width="164"></td>
+				</tr>
+          <tr>
+												<td width="28" height="21" ><p style="margin-top: 2; margin-bottom: 6"></p></td>
+												<td  width="244"><strong><a href="http://www.candhsalvage.com">C &amp;   H Salvage Corp.</a></strong></td>
+				  <td  width="130"><p style="margin-top: 2; margin-bottom: 6">Campbell Hall, NY</p></td>
+												<td colspan="2" ><p style="margin-top: 2; margin-bottom: 6">Orange</p></td>
+												<td  width="164">800-859-5998</td>
+				</tr>
+          <tr>
+												<td  width="28"><p style="margin-top: 2; margin-bottom: 6"></p></td>
+												<td  width="244"><strong><a href="http://www.CahillsGarage.com">Cahill's Garage</a></strong></td>
+				  <td  width="130"><p style="margin-top: 2; margin-bottom: 6">Hoosick, NY</p></td>
+												<td colspan="2" ><p style="margin-top: 2; margin-bottom: 6">Rensselaer</p></td>
+												<td  width="164">518-686-4481</td>
+				</tr>
+          <tr>
+												<td  width="28"><p style="margin-top: 2; margin-bottom: 6"></p></td>
+												<td  width="244">Canadice Automotive, Inc.</td>
+												<td  width="130"><p style="margin-top: 2; margin-bottom: 6">Livonia, NY</p></td>
+												<td colspan="2" ><p style="margin-top: 2; margin-bottom: 6">Ontario</p></td>
+												<td  width="164">585-229-5301</td>
+				</tr>
+          <tr>
+												<td  width="28"><p style="margin-top: 2; margin-bottom: 6"></p></td>
+												<td  width="244"><strong><a href="http://www.centralautorecycling.com">Central Auto Recycling,   Inc.</a></strong></td>
+				  <td  width="130"><p style="margin-top: 2; margin-bottom: 6">Syracuse, NY</p></td>
+												<td colspan="2" ><p style="margin-top: 2; margin-bottom: 6">Onondaga</p></td>
+												<td  width="164">315-468-3454</td>
+				</tr>
+          <tr>
+												<td  width="28"><p style="margin-top: 2; margin-bottom: 6"></p></td>
+												<td  width="244"><strong><a href="http://www.CentralCity.cc">Central   City Auto Parts</a></strong></td>
+				  <td  width="130"><p style="margin-top: 2; margin-bottom: 6">Central Square, NY</p></td>
+												<td colspan="2" ><p style="margin-top: 2; margin-bottom: 6">Onondaga</p></td>
+												<td  width="164">315-668-3533</td>
+				</tr>
+          
+          <tr>
+												<td  width="28"><p style="margin-top: 2; margin-bottom: 6"></p></td>
+												<td  width="244"><strong><a href="http://recycler.car-part.com/CornellsUsed">Cornell's Used Auto Parts &amp;   Towing </a></strong></td>
+				  <td  width="130"><p style="margin-top: 2; margin-bottom: 6">Greenfeild Center, NY</p></td>
+												<td colspan="2" ><p style="margin-top: 2; margin-bottom: 6">Saratoga</p></td>
+												<td  width="164">518-893-0151</td>
+				</tr>
+          <tr>
+												<td  width="28"><p style="margin-top: 2; margin-bottom: 6"></p></td>
+												<td  width="244"><strong><a href="http://www.aaarecycledpartssource.com">County Recovery   Systems</a></strong></td>
+				  <td  width="130"><p style="margin-top: 2; margin-bottom: 6">Wysox, PA</p></td>
+												<td colspan="2" ><p style="margin-top: 2; margin-bottom: 6">&nbsp;</p></td>
+												<td  width="164">570-265-5366</td>
+				</tr>
+          <tr>
+												<td width="28"  height="28px"  id="sectiontitle"><p style="margin-top: 2; margin-bottom: 6"><a name="D"><font size="4"><strong>D</strong></font></a></p></td>
+												<td width="244"></td>
+												<td></td>
+												<td></td>
+												<td></td>
+												<td width="164"></td>
+				</tr>
+          <tr>
+												<td  width="28"><p style="margin-top: 2; margin-bottom: 6"></p></td>
+												<td  width="244">Dave Spencer's Auto Repair</td>
+				  <td  width="130"><p style="margin-top: 2; margin-bottom: 6">Lockport, NY</p></td>
+												<td colspan="2" ><p style="margin-top: 2; margin-bottom: 6">Niagara</p></td>
+												<td  width="164">716-434-6402</td>
+				</tr>
+          <tr>
+												<td  width="28"><p style="margin-top: 2; margin-bottom: 6"></p></td>
+				  <td  width="244">David Dunn Salvage, Inc.</td>
+				  <td  width="130"><p style="margin-top: 2; margin-bottom: 6">Lyndonville, NY</p></td>
+												<td colspan="2" ><p style="margin-top: 2; margin-bottom: 6">Niagara</p></td>
+												<td  width="164">716-765-2015</td>
+				</tr>
+          <tr>
+												<td  width="28"><p style="margin-top: 2; margin-bottom: 6"></p></td>
+												<td  width="244">Demo's Truck Parts, Inc.</td>
+				  <td  width="130"><p style="margin-top: 2; margin-bottom: 6">Bergen, NY</p></td>
+												<td colspan="2" ><p style="margin-top: 2; margin-bottom: 6">Genessee</p></td>
+												<td  width="164">585-494-1341</td>
+				</tr>
+          <tr>
+												<td  width="28"><p style="margin-top: 2; margin-bottom: 6"></p></td>
+				  <td  width="244">Diamond Hurwitz Scrap</td>
+				  <td  width="130"><p style="margin-top: 2; margin-bottom: 6">Buffalo, NY</p></td>
+												<td colspan="2" ><p style="margin-top: 2; margin-bottom: 6">Erie</p></td>
+												<td  width="164">716-823-2863</td>
+				</tr>
+          <tr>
+												<td  width="28"><p style="margin-top: 2; margin-bottom: 6"></p></td>
+				  <td  width="244"><strong><a href="http://www.DonsPartSmart.com">Don's   Auto Recycling Center, Inc.</a></strong></td>
+				  <td  width="130"><p style="margin-top: 2; margin-bottom: 6">Rome, NY</p></td>
+												<td colspan="2" ><p style="margin-top: 2; margin-bottom: 6">Oneida</p></td>
+												<td  width="164">315-775-1542</td>
+				</tr>
+          <tr>
+												<td  width="28"><p style="margin-top: 2; margin-bottom: 6"></p></td>
+												<td  width="244"><a href="http://www.donsauto.com"><strong>Don's Automotive Mall, Inc.</strong></a></td>
+				  <td  width="130"><p style="margin-top: 2; margin-bottom: 6">Binghamton, NY</p></td>
+												<td colspan="2" ><p style="margin-top: 2; margin-bottom: 6">Broome</p></td>
+												<td  width="164">607-775-1542</td>
+				</tr>
+          <tr>
+												<td  width="28"><p style="margin-top: 2; margin-bottom: 6"></p></td>
+				  <td  width="244"><strong><a href="http://www.dumbleton.com">Dumbleton Used Auto Parts,   Inc.</a></strong></td>
+				  <td  width="130"><p style="margin-top: 2; margin-bottom: 6">Pavilion, NY</p></td>
+												<td colspan="2" ><p style="margin-top: 2; margin-bottom: 6">Wyoming</p></td>
+												<td  width="164">585-584-9910</td>
+				</tr>
+          <tr>
+												<td  width="28"><p style="margin-top: 2; margin-bottom: 6"></p></td>
+												<td  width="244">Dunn Auto Parts</td>
+				  <td  width="130"><p style="margin-top: 2; margin-bottom: 6">Medina, NY</p></td>
+												<td colspan="2" ><p style="margin-top: 2; margin-bottom: 6">Orleans</p></td>
+												<td  width="164">585-798-2525</td>
+				</tr>
+          <tr>
+												<td width="28"><p style="margin-top: 2; margin-bottom: 6"></p></td>
+												<td  width="244">Dunston Brothers, Inc.</td>
+				  <td  width="130"><p style="margin-top: 2; margin-bottom: 6">Voorheesville, NY</p></td>
+												<td colspan="2" ><p style="margin-top: 2; margin-bottom: 6">Albany</p></td>
+												<td  width="164">518-768-2205</td>
+				</tr>
+          <tr>
+												<td  width="28"></td>
+				  <td  width="244"><strong><a href="http://www.dutchersinc.com">Dutcher's, Inc.</a></strong> </td>
+				  <td  width="130">Morrisville, NY</td>
+												<td colspan="2" >Madison</td>
+				  <td  width="164">315-684-9212</td>
+				</tr>
+          <tr>
+												<td width="28"  height="28px"  id="sectiontitle"><p style="margin-top: 2; margin-bottom: 6"><a name="E"><font size="4"><strong>E</strong></font></a></p></td>
+												<td width="244"></td>
+												<td></td>
+												<td></td>
+												<td></td>
+												<td width="164"></td>
+				</tr>
+          <tr>
+												<td   width="28"><p style="margin-top: 2; margin-bottom: 6"></p></td>
+												<td   width="244"><a href="http://www.eastparkauto.com"><strong>East Park Auto Recycling, Inc.</strong></a></td>
+				  <td   width="130"><p style="margin-top: 2; margin-bottom: 6">Hyde Park, NY</p></td>
+												<td   colspan="2" ><p style="margin-top: 2; margin-bottom: 6">Dutchess</p></td>
+												<td   width="164">845-229-2104</td>
+				</tr>
+          <tr>
+												<td  width="28"><p style="margin-top: 2; margin-bottom: 6"></p></td>
+												<td  width="244">Eckes Auto Body</td>
+												<td  width="130"><p style="margin-top: 2; margin-bottom: 6">Sparrow Bush, NY</p></td>
+												<td colspan="2" ><p style="margin-top: 2; margin-bottom: 6">Orange</p></td>
+												<td  width="164">914-856-2302</td>
+				</tr>
+          <tr>
+												<td  width="28"><p style="margin-top: 2; margin-bottom: 6"></p></td>
+												<td  width="244"><a href="http://www.edarnoldscrap.com"><strong>Edward Arnold Scrap Processors, Inc.</strong></a></td>
+				  <td  width="130"><p style="margin-top: 2; margin-bottom: 6">Corfu, NY</p></td>
+												<td colspan="2" ><p style="margin-top: 2; margin-bottom: 6">Genessee</p></td>
+												<td  width="164">585-762-9080</td>
+				</tr>
+                <tr>
+												<td  width="28"><p style="margin-top: 2; margin-bottom: 6"></p></td>
+												<td  width="244"><strong><a href="http://www.eissbrothers.com">Eiss Brothers Auto   Parts</a><br />
+												</strong></td>
+				  <td  width="130"><p style="margin-top: 2; margin-bottom: 6">Watertown, NY</p></td>
+												<td colspan="2" ><p style="margin-top: 2; margin-bottom: 6">Jefferson</p></td>
+												<td  width="164">315-629-4370</td>
+				</tr><tr>
+												<td  width="28"><p style="margin-top: 2; margin-bottom: 6"></p></td>
+												<td  width="244"><strong><a href="http://www.eliteautoparts.com">Elite Auto   Parts, Inc.</a></strong></td>
+				  <td  width="130"><p style="margin-top: 2; margin-bottom: 6">Lindenhurst, NY</p></td>
+												<td colspan="2" ><p style="margin-top: 2; margin-bottom: 6">Suffolk</p></td>
+												<td  width="164">631-226-1003</td>
+				</tr><tr>
+												<td  width="28"><p style="margin-top: 2; margin-bottom: 6"></p></td>
+												<td  width="244"><strong><a href="http://www.empireautosalvage.com">Empire Auto   Salvage</a></strong></td>
+				  <td  width="130"><p style="margin-top: 2; margin-bottom: 6">Palmyra, NY</p></td>
+												<td colspan="2" ><p style="margin-top: 2; margin-bottom: 6">Wayne</p></td>
+												<td  width="164">315-597-9800</td>
+				</tr><tr>
+												<td  width="28"><p style="margin-top: 2; margin-bottom: 6"></p></td>
+												<td  width="244"><strong><a href="http://www.erievovo.com">Erie Vo-Vo,   Inc.</a></strong></td>
+				  <td  width="130"><p style="margin-top: 2; margin-bottom: 6">Whitesboro, NY</p></td>
+												<td colspan="2" ><p style="margin-top: 2; margin-bottom: 6">Oneida</p></td>
+												<td  width="164">800-441-3743</td>
+				</tr>
+          <tr>
+												<td width="28"  height="28px"  id="sectiontitle"><p style="margin-top: 2; margin-bottom: 6"><a name="F"><font size="4"><strong>F</strong></font></a></p></td>
+												<td width="244"></td>
+												<td></td>
+												<td></td>
+												<td></td>
+												<td width="164"></td>
+				</tr>
+          <tr>
+												<td  width="28"><p style="margin-top: 2; margin-bottom: 6"></p></td>
+												<td  width="244">F &amp; S Auto Parts, Inc.</td>
+				  <td  width="130"><p style="margin-top: 2; margin-bottom: 6">Garden City Park, NY</p></td>
+												<td colspan="2" ><p style="margin-top: 2; margin-bottom: 6">Nassau</p></td>
+												<td  width="164">516-747-0250</td>
+				</tr>
+          <tr>
+												<td  width="28"><p style="margin-top: 2; margin-bottom: 6"></p></td>
+				  <td  width="244">Fast Eddies Auto Wreckers</td>
+				  <td  width="130"><p style="margin-top: 2; margin-bottom: 6">Monticello, NY</p></td>
+												<td colspan="2" ><p style="margin-top: 2; margin-bottom: 6">Sullivan</p></td>
+												<td  width="164">845-794-5098</td>
+				</tr>
+          <tr>
+            <td>&nbsp;</td>
+            <td>Freeport Auto Parts &amp; Wrecking Corp.</td>
+            <td>Freeport, NY</td>
+            <td colspan="2" >Nassau</td>
+            <td>516-868-2524</td>
+          </tr>
+          <tr>
+												<td  width="28"><p style="margin-top: 2; margin-bottom: 6"></p></td>
+				  <td  width="244"><strong><a href="http://www.floridaauto.com">Florida   Auto Parts, Inc.</a></strong></td>
+				  <td  width="130"><p style="margin-top: 2; margin-bottom: 6">Amsterdamn, NY</p></td>
+												<td colspan="2" ><p style="margin-top: 2; margin-bottom: 6">Montgomery</p></td>
+												<td  width="164">518-882-9983</td>
+				</tr>
+          <tr>
+												<td  width="28"><p style="margin-top: 2; margin-bottom: 6"></p></td>
+												<td  width="244"><strong><a href="http://www.fredsautoparts.com">Fred's Used Auto Parts</a></strong></td>
+				  <td  width="130"><p style="margin-top: 2; margin-bottom: 6">Oswego, NY</p></td>
+												<td colspan="2" ><p style="margin-top: 2; margin-bottom: 6">Oswego</p></td>
+												<td  width="164">315-343-2064</td>
+				</tr>
+          <tr>
+												<td  width="28"><p style="margin-top: 2; margin-bottom: 6"></p></td>
+												<td  width="244">Frontier Auto Wrecking, Inc.</td>
+				  <td  width="130"><p style="margin-top: 2; margin-bottom: 6">Tonawanda, NY</p></td>
+												<td colspan="2" ><p style="margin-top: 2; margin-bottom: 6">Erie</p></td>
+												<td  width="164">716-693-2240</td>
+				</tr>
+          <tr>
+												<td  width="28"><p style="margin-top: 2; margin-bottom: 6"></p></td>
+				  <td  width="244">Fugle's, Inc.</td>
+				  <td  width="130"><p style="margin-top: 2; margin-bottom: 6">Livonia, NY</p></td>
+												<td colspan="2" ><p style="margin-top: 2; margin-bottom: 6">Livingston</p></td>
+												<td  width="164">585-346-3658</td>
+				</tr>
+          <tr>
+												<td width="28"  height="28px"  id="sectiontitle"><p style="margin-top: 2; margin-bottom: 6"><a name="G"><font size="4"><strong>G</strong></font></a></p></td>
+												<td width="244"></td>
+												<td></td>
+												<td></td>
+												<td></td>
+												<td width="164"></td>
+				</tr>
+          <tr>
+            <td>&nbsp;</td>
+            <td valign="top">Garlock's Auto Parts, Inc.</td>
+            <td valign="top">Niagara Falls, NY</td>
+            <td colspan="2" valign="top" >Niagara</td>
+            <td valign="top">716-828-6551</td>
+          </tr>
+          <tr>
+            <td>&nbsp;</td>
+            <td valign="top">Garrett Auto Salvage</td>
+            <td valign="top">Copiague, NY</td>
+            <td colspan="2" valign="top" >Suffolk</td>
+            <td valign="top">631-841-4040</td>
+          </tr>
+          <tr>
+												<td  width="28"><p style="margin-top: 2; margin-bottom: 6"></p></td>
+												<td  width="244"><strong><a href="http://www.garysautoparts.com">Gary's Auto Parts</a></strong></td>
+				  <td  width="130"><p style="margin-top: 2; margin-bottom: 6">Oneida, NY</p></td>
+												<td colspan="2" ><p style="margin-top: 2; margin-bottom: 6">Madison</p></td>
+												<td  width="164">315-363-2240</td>
+				</tr>
+          <tr>
+												<td   width="28"><p style="margin-top: 2; margin-bottom: 6"></p></td>
+				  <td   width="244"><a href="http://www.garysupullit.com"><strong>Gary's   U-Pull-It, Inc.<br />
+				  </strong></a></td>
+				  <td   width="130"><p style="margin-top: 2; margin-bottom: 6">Binghamton, NY</p></td>
+												<td   colspan="2" ><p style="margin-top: 2; margin-bottom: 6">Broome</p></td>
+												<td   width="164">607-775-1900</td>
+				</tr>
+          <tr>
+            <td  height="28px"  id="sectiontitle20">&nbsp;</td>
+            <td valign="top">George Moore Truck &amp; Equipment Corp.</td>
+            <td valign="top">Keeseville, NY</td>
+            <td colspan="2" valign="top">Clinton</td>
+            <td valign="top">518-834-7571</td>
+          </tr>
+          <tr>
+												<td  width="28"><p style="margin-top: 2; margin-bottom: 6"></p></td>
+												<td  width="244"><a href="http://www.gerauameristeel.com"><strong>Gerdau Ameristeel Buffalo Metals   Recycling</strong></a></td>
+				  <td  width="130"><p style="margin-top: 2; margin-bottom: 6">Buffalo, NY</p></td>
+												<td colspan="2" ><p style="margin-top: 2; margin-bottom: 6">Erie</p></td>
+												<td  width="164">716-847-6200</td>
+				</tr>
+                 <tr>
+												<td  width="28"><p style="margin-top: 2; margin-bottom: 6"></p></td>
+												<td  width="244"><strong><a href="http://www.goldwingsaab.com">Goldwing SAAB Parts</a></strong></td>
+				  <td  width="130"><p style="margin-top: 2; margin-bottom: 6">Hastings, NY</p></td>
+												<td colspan="2" ><p style="margin-top: 2; margin-bottom: 6">Oswego</p></td>
+												<td  width="164">315-625-7969</td>
+				</tr>
+          <tr>
+												<td width="28"  height="28px"  id="sectiontitle"><p style="margin-top: 2; margin-bottom: 6"><a name="H"><font size="4"><strong>H</strong></font></a></p></td>
+												<td width="244"></td>
+												<td></td>
+												<td></td>
+												<td></td>
+												<td width="164"></td>
+				</tr>
+          <tr>
+												<td width="28"><p style="margin-top: 2; margin-bottom: 6"></p></td>
+												<td width="244"><strong><a href="http://www.hardysauto.com">Hardy's   Auto Parts, LLC</a></strong></td>
+				  <td width="130"><p style="margin-top: 2; margin-bottom: 6">Bernhards Bay, NY</p></td>
+												<td colspan="2" ><p style="margin-top: 2; margin-bottom: 6">Oswego</p></td>
+												<td width="164">315-675-3006</td>
+				</tr>
+          <tr>
+												<td  width="28"><p style="margin-top: 2; margin-bottom: 6"></p></td>
+				  <td  width="244"><a href="http://www.harmonyautoparts.com"><strong>Harmony Auto Parts</strong></a><br /></td>
+				  <td  width="130"><p style="margin-top: 2; margin-bottom: 6">Ashville, NY</p></td>
+												<td colspan="2" ><p style="margin-top: 2; margin-bottom: 6">Chautaqua</p></td>
+												<td  width="164">716-763-9957</td>
+				</tr>
+          <tr>
+            <td>&nbsp;</td>
+            <td>Hesh's Auto Recycling</td>
+            <td>West Babylon, NY</td>
+            <td colspan="2" >Suffolk</td>
+            <td>631-420-1111</td>
+          </tr>
+          <tr>
+												<td  width="28"><p style="margin-top: 2; margin-bottom: 6"></p></td>
+												<td  width="244"><a href="http://www.hilltopautosalvage.com"><strong>Hilltop Auto Salvage,   Inc.<br />
+												</strong></a></td>
+				  <td  width="130"><p style="margin-top: 2; margin-bottom: 6">Bronx, NY</p></td>
+												<td colspan="2" ><p style="margin-top: 2; margin-bottom: 6">Bronx</p></td>
+												<td  width="164">718-324-0706</td>
+				</tr>
+          <tr>
+												<td  width="28"><p style="margin-top: 2; margin-bottom: 6"></p></td>
+												<td  width="244"><strong><a href="http://www.HornersAutomotive.net">Horner's Automotive</a></strong></td>
+				  <td  width="130"><p style="margin-top: 2; margin-bottom: 6">Phoenix, NY</p></td>
+												<td colspan="2" ><p style="margin-top: 2; margin-bottom: 6">Onondaga</p></td>
+												<td  width="164">315-678-1415</td>
+				</tr>
+          <tr>
+												<td  width="28"><p style="margin-top: 2; margin-bottom: 6"></p></td>
+				  <td  width="244">Horseheads Automotive Recycling</td>
+				  <td  width="130"><p style="margin-top: 2; margin-bottom: 6">Elmira, NY</p></td>
+												<td colspan="2" ><p style="margin-top: 2; margin-bottom: 6">Chemung</p></td>
+												<td  width="164">607-739-3851</td>
+				</tr>
+          <tr>
+												<td  width="28"><p style="margin-top: 2; margin-bottom: 6"></p></td>
+				  <td  width="244">HowBill Auto Parts, Inc.</td>
+				  <td  width="130"><p style="margin-top: 2; margin-bottom: 6">Chafeee, NY</p></td>
+												<td colspan="2" ><p style="margin-top: 2; margin-bottom: 6">Erie</p></td>
+												<td  width="164">800-884-5491</td>
+				</tr>
+                 <tr>
+												<td width="28"  height="28px"  id="sectiontitle"><p style="margin-top: 2; margin-bottom: 6"><a name="I"><font size="4"><strong>I</strong></font></a></p></td>
+												<td width="244"></td>
+												<td></td>
+												<td></td>
+												<td></td>
+												<td width="164"></td>
+				</tr>
+          <tr>
+												<td width="28"><p style="margin-top: 2; margin-bottom: 6"></p></td>
+												<td width="244"><strong><a href="http://www.InterstateAutoParts.com">Interstate Auto   Parts</a></strong></td>
+                  <td width="130"><p style="margin-top: 2; margin-bottom: 6">Tioga Center, NY</p></td>
+												<td colspan="2" ><p style="margin-top: 2; margin-bottom: 6">Tioga</p></td>
+												<td width="164">607-754-4358</td>
+				</tr>
+                  <tr>
+												<td width="28"><p style="margin-top: 2; margin-bottom: 6"></p></td>
+												<td width="244">Islip Car & Truck Recycling, Inc.</td>
+				                                <td width="130"><p style="margin-top: 2; margin-bottom: 6">Islip, NY</p></td>
+												<td colspan="2" ><p style="margin-top: 2; margin-bottom: 6">Suffolk</p></td>
+												<td width="164">631-277-2100</td>
+				</tr>
+          <tr>
+												<td width="28"  height="28px"  id="sectiontitle"><p style="margin-top: 2; margin-bottom: 6"><a name="J"><font size="4"><strong>J</strong></font></a></p></td>
+												<td width="244"></td>
+												<td></td>
+												<td></td>
+												<td></td>
+												<td width="164"></td>
+				</tr>
+          <tr>
+            <td>&nbsp;</td>
+            <td valign="top"><a href="http://www.jandcautosalvage.com"><strong>J &amp; C Auto Salvage</strong></a></td>
+            <td valign="top">Lindenhurst, NY</td>
+            <td colspan="2" valign="top" >Suffolk</td>
+            <td valign="top">631-669-0220</td>
+          </tr>
+          <tr>
+												<td  width="28"><p style="margin-top: 2; margin-bottom: 6"></p></td>
+												<td  width="244">J &amp; T Auto Salvage</td>
+												<td  width="130"><p style="margin-top: 2; margin-bottom: 6">Youngstown, NY</p></td>
+												<td colspan="2" ><p style="margin-top: 2; margin-bottom: 6">Niagara</p></td>
+												<td  width="164">716-745-3973</td>
+				</tr>
+          <tr>
+												<td  width="28"><p style="margin-top: 2; margin-bottom: 6"></p></td>
+                              <td  width="244">J.B. Car Services, Inc.</td>
+				                                <td  width="130"><p style="margin-top: 2; margin-bottom: 6">West Coxsackie, NY</p></td>
+												<td colspan="2" ><p style="margin-top: 2; margin-bottom: 6">Greene</p></td>
+												<td  width="164">518-756-2191</td>
+				</tr>
+          <tr>
+				  <td  width="28"><p style="margin-top: 2; margin-bottom: 6"></p></td>
+												<td  width="244"><strong><a href="http://www.jbap.com">Jerry Brown's Auto Parts Center</a></strong> </td>
+				  <td  width="130"><p style="margin-top: 2; margin-bottom: 6">Queensbury, NY</p></td>
+												<td colspan="2" ><p style="margin-top: 2; margin-bottom: 6">Warren</p></td>
+												<td  width="164">518-798-8141</td>
+				</tr>
+          <tr>
+												<td  width="28"><p style="margin-top: 2; margin-bottom: 6"></p></td>
+                              <td  width="244">Joe's Auto Wreckers, Inc.</td>
+				                                <td  width="130"><p style="margin-top: 2; margin-bottom: 6">Mt. Vernon, NY</p></td>
+												<td colspan="2" ><p style="margin-top: 2; margin-bottom: 6">Westchester</p></td>
+												<td  width="164">914-644-7874</td>
+				</tr>
+          <tr>
+												<td  width="28"><p style="margin-top: 2; margin-bottom: 6"></p></td>
+												<td  width="244"><strong><a href="http://www.julianosautoparts.com">Juliano's Auto Parts, Inc</a><a href="http://www.julianosautoparts.com">.</a></strong></td>
+				  <td  width="130"><p style="margin-top: 2; margin-bottom: 6">Sodus</p></td>
+												<td colspan="2" ><p style="margin-top: 2; margin-bottom: 6">Wayne</p></td>
+												<td  width="164">315-483-4607</td>
+				</tr>
+          <tr>
+												<td width="28"  height="28px"  id="sectiontitle"><p style="margin-top: 2; margin-bottom: 6"><a name="K"><font size="4"><strong>K</strong></font></a></p></td>
+												<td width="244"></td>
+												<td></td>
+												<td></td>
+												<td></td>
+												<td width="164"></td>
+				</tr>
+          <tr>
+												<td  width="28"><p style="margin-top: 2; margin-bottom: 6"></p></td>
+												<td  width="244">Kacz's Auto Recycling</td>
+												<td  width="130"><p style="margin-top: 2; margin-bottom: 6">Amsterdam, NY</p></td>
+												<td colspan="2" ><p style="margin-top: 2; margin-bottom: 6">Montgomery</p></td>
+												<td  width="164">518-842-7810</td>
+				</tr>
+          <tr>
+												<td  width="28"><p style="margin-top: 2; margin-bottom: 6"></p></td>
+												<td  width="244">Kafine's Used Auto Parts</td>
+												<td  width="130"><p style="margin-top: 2; margin-bottom: 6">Lowville, NY</p></td>
+												<td colspan="2" ><p style="margin-top: 2; margin-bottom: 6">Lewis</p></td>
+												<td  width="164">315-376-2885</td>
+				</tr>
+          <tr>
+												<td  width="28"><p style="margin-top: 2; margin-bottom: 6"></p></td>
+												<td  width="244"><strong><a href="http://www.keeganautoparts.com">Keegan Brothers</a></strong></td>
+				  <td  width="130"><p style="margin-top: 2; margin-bottom: 6">Kinderhook, NY</p></td>
+												<td colspan="2" ><p style="margin-top: 2; margin-bottom: 6">Columbia</p></td>
+												<td  width="164">518-758-6565</td>
+				</tr>
+          <tr>
+												<td  width="28"><p style="margin-top: 2; margin-bottom: 6"></p></td>
+												<td  width="244"><a href="http://www.kloiberauto.com"><strong>Kloiber Atuo Wrecking</strong></a></td>
+				  <td  width="130"><p style="margin-top: 2; margin-bottom: 6">Holland, NY</p></td>
+												<td colspan="2" ><p style="margin-top: 2; margin-bottom: 6">Erie</p></td>
+												<td  width="164">716-655-4012</td>
+				</tr>
+          <tr>
+												<td  width="28"><p style="margin-top: 2; margin-bottom: 6"></p></td>
+												<td  width="244"><a href="http://www.kubisauto.com"><strong>Kubis Auto Parts</strong></a></td>
+				  <td  width="130"><p style="margin-top: 2; margin-bottom: 6">Auburn, NY</p></td>
+												<td colspan="2" ><p style="margin-top: 2; margin-bottom: 6">Cayuga</p></td>
+												<td  width="164">315-253-4400</td>
+				</tr>
+          <tr>
+												<td width="28"  height="28px"  id="sectiontitle"><p style="margin-top: 2; margin-bottom: 6"><a name="L"><font size="4"><strong>L</strong></font></a></p></td>
+												<td width="244"></td>
+												<td></td>
+												<td></td>
+												<td></td>
+												<td width="164"></td>
+				</tr>
+          <tr>
+            <td  height="28px"  id="sectiontitle6">&nbsp;</td>
+            <td valign="top"><a href="http://www.lakeautoparts.com"><strong>Lake Auto Parts, Inc.</strong></a></td>
+            <td valign="top">Ballston Lake, NY</td>
+            <td colspan="2" valign="top">Saratoga</td>
+            <td valign="top">518-399-9797<br />
+              888-399-9919</td>
+          </tr>
+          <tr>
+												<td  width="28"><p style="margin-top: 2; margin-bottom: 6"></p></td>
+												<td  width="244"><strong><a href="http://www.lakewoodautoparts.com">Lakewood Used Auto Parts</a></strong></td>
+				  <td  width="130"><p style="margin-top: 2; margin-bottom: 6">North Lindenhurst, NY</p></td>
+												<td colspan="2" ><p style="margin-top: 2; margin-bottom: 6">Suffolk</p></td>
+												<td  width="164">631-957-3200</td>
+				</tr>
+          <tr>
+            <td>&nbsp;</td>
+            <td><a href="http://www.lkqcorp.com" class="style1">LKQ   Broadway</a></td>
+            <td>Stuyvesant,   NY</td>
+            <td colspan="2" >Columbia</td>
+            <td>518-799-2245</td>
+          </tr>
+          <tr>
+												<td  width="28"><p style="margin-top: 2; margin-bottom: 6"></p></td>
+												<td  width="244"><strong><a href="http://www.lkqcorp.com">LKQ Hunts Point Auto Parts</a></strong></td>
+				  <td  width="130"><p style="margin-top: 2; margin-bottom: 6">Bronx, NY</p></td>
+												<td colspan="2" ><p style="margin-top: 2; margin-bottom: 6">Bronx</p></td>
+												<td  width="164">718-589-4444</td>
+				</tr>
+          <tr>
+												<td width="28"  height="28px"  id="sectiontitle"><p style="margin-top: 2; margin-bottom: 6"><a name="M"><font size="4"><strong>M</strong></font></a></p></td>
+												<td width="244"></td>
+												<td></td>
+												<td></td>
+												<td></td>
+												<td width="164"></td>
+				</tr>
+          <tr>
+												<td  width="28"></td>
+												<td  width="244"><a href="http://www.marksautoparts.com/"><strong>Marks Auto Parts</strong></a></td>
+				  <td  width="130">Buffalo, NY</td>
+												<td colspan="2" >Erie</td>
+												<td  width="164">716-896-1616</td>
+				</tr>
+          <tr>
+            <td></td>
+            <td>Medford   Auto Wreckers, Inc</td>
+            <td>Medford,   NY</td>
+            <td colspan="2" >Suffolk </td>
+            <td>631-420-1111</td>
+          </tr>
+          <tr>
+												<td width="28"><p style="margin-top: 2; margin-bottom: 6"></p></td>
+												<td width="244"><strong><a href="http://www.metroautosalvage.com/">Metro Auto Salvage,   Inc.</a></strong></td>
+				  <td width="130"><p style="margin-top: 2; margin-bottom: 6">Ridgewood, NY</p></td>
+												<td colspan="2"><p style="margin-top: 2; margin-bottom: 6">Queens</p></td>
+												<td width="164">718-381-9090</td>
+				</tr>
+          <tr>
+												<td  width="28" ><p style="margin-top: 2; margin-bottom: 6"></p></td>
+												<td  width="244" >Middle Country Auto Wrecker, Inc.</td>
+												<td  width="130" ><p style="margin-top: 2; margin-bottom: 6">Centereach, NY</p></td>
+												<td colspan="2"  ><p style="margin-top: 2; margin-bottom: 6">Suffolk</p></td>
+												<td  width="164" >631-698-1550</td>
+				</tr>
+          <tr>
+												<td width="28"><p style="margin-top: 2; margin-bottom: 6"></p></td>
+												<td width="244">Mid-Island Auto Wreckers</td>
+												<td width="130"><p style="margin-top: 2; margin-bottom: 6">Deer Park, NY</p></td>
+												<td colspan="2"><p style="margin-top: 2; margin-bottom: 6">Suffolk</p></td>
+												<td width="164">631-586-6632</td>
+				</tr>
+          <tr>
+												<td  width="28" ><p style="margin-top: 2; margin-bottom: 6"></p></td>
+												<td  width="244" ><a href="http://www.moltsusedautoparts.com"><strong>Molt's Used Auto Parts, Inc.</strong></a></td>
+				  <td  width="130" ><p style="margin-top: 2; margin-bottom: 6">Hype Park, NY</p></td>
+												<td colspan="2"  ><p style="margin-top: 2; margin-bottom: 6">Dutchess</p></td>
+												<td  width="164" >941-471-2377</td>
+				</tr>
+          <tr>
+            <td  height="28px"  id="sectiontitle10">&nbsp;</td>
+            <td valign="top">Mor-Tons Recycled</td>
+            <td valign="top">Woodridge, NY</td>
+            <td colspan="2" valign="top">Sullivan</td>
+            <td valign="top">845-436-7272</td>
+          </tr>
+          <tr>
+												<td width="28"  height="28px"  id="sectiontitle"><p style="margin-top: 2; margin-bottom: 6"><a name="N"><font size="4"><strong>N</strong></font></a></p></td>
+												<td width="244"></td>
+												<td></td>
+												<td></td>
+												<td></td>
+												<td width="164"></td>
+				</tr>
+          <tr>
+            <td>&nbsp;</td>
+            <td valign="top">Newburgh Auto Auction</td>
+            <td valign="top">Newburgh, NY</td>
+            <td colspan="2" valign="top" >Orange</td>
+            <td valign="top">845-567-8400</td>
+          </tr>
+          <tr>
+            <td>&nbsp;</td>
+            <td valign="top"><a href="http://www.usedparts4less.com"><strong>Northside Salvage Yard, Inc.</strong></a></td>
+            <td valign="top">East Rochester, NY</td>
+            <td colspan="2" valign="top" >Monroe</td>
+            <td valign="top">585-381-9667</td>
+          </tr>
+          <tr>
+												<td  width="28"><p style="margin-top: 2; margin-bottom: 6"></p></td>
+												<td  width="244"><a href="http://www.nuwerautoparts.com/"><strong>Nuwer Auto Parts, Inc.</strong></a></td>
+				  <td  width="130"><p style="margin-top: 2; margin-bottom: 6">Holland, NY</p></td>
+												<td colspan="2" ><p style="margin-top: 2; margin-bottom: 6">Erie</p></td>
+												<td  width="164">716-537-2800</td>
+				</tr>
+          <tr>
+												<td width="28"  height="28px"  id="sectiontitle"><p style="margin-top: 2; margin-bottom: 6"><a name="O"><font size="4"><strong>O</strong></font></a></p></td>
+												<td width="244"></td>
+												<td></td>
+												<td></td>
+												<td></td>
+												<td width="164"></td>
+				</tr>
+          <tr>
+												<td  width="28"><p style="margin-top: 2; margin-bottom: 6"></p></td>
+												<td  width="244">Ostego Auto Crushers</td>
+												<td  width="130"><p style="margin-top: 2; margin-bottom: 6">Oneotna, NY</p></td>
+												<td colspan="2" ><p style="margin-top: 2; margin-bottom: 6">Delaware</p></td>
+												<td  width="164">607-432-2375</td>
+				</tr>
+          <tr>
+												<td width="28"  height="28px"  id="sectiontitle"><p style="margin-top: 2; margin-bottom: 6"><a name="P"><font size="4"><strong>P</strong></font></a></p></td>
+												<td width="244"></td>
+												<td></td>
+												<td></td>
+												<td></td>
+												<td width="164"></td>
+				</tr>
+          <tr>
+            <td>&nbsp;</td>
+            <td valign="top">Peconic Auto Wreckers, Inc.</td>
+            <td valign="top">Speonk, NY</td>
+            <td   colspan="2" valign="top" >Suffolk</td>
+            <td valign="top">631-325-0022</td>
+          </tr>
+          <tr>
+												<td   width="28"><p style="margin-top: 2; margin-bottom: 6"></p></td>
+												<td   width="244"><strong><a href="http://www.phoenixautoparts.com">Phoenix Foreign &amp; American Auto   Parts</a></strong></td>
+				  <td   width="130"><p style="margin-top: 2; margin-bottom: 6">Bay Shore, NY</p></td>
+												<td   colspan="2" ><p style="margin-top: 2; margin-bottom: 6">Suffolk</p></td>
+												<td   width="164">631-666-0630</td>
+				</tr>
+          <tr>
+												<td width="28"><p style="margin-top: 2; margin-bottom: 6"></p></td>
+												<td width="244">Pick-N-Pull Auto Parts</td>
+												<td width="130"><p style="margin-top: 2; margin-bottom: 6">Auburn, NY</p></td>
+												<td colspan="2" ><p style="margin-top: 2; margin-bottom: 6">Caygua</p></td>
+												<td width="164">716-496-5174</td>
+				</tr>
+          <tr>
+												<td  width="28"><p style="margin-top: 2; margin-bottom: 6"></p></td>
+												<td  width="244"><strong><a href="http://www.pjs4lkq.com">PJ's Auto   Parts, Inc.</a></strong> </td>
+				  <td  width="130"><p style="margin-top: 2; margin-bottom: 6">Caledonia, NY</p></td>
+												<td colspan="2" ><p style="margin-top: 2; margin-bottom: 6">Livingston</p></td>
+												<td  width="164">585-538-2391</td>
+				</tr>
+          <tr>
+												<td  width="28"><p style="margin-top: 2; margin-bottom: 6"></p></td>
+												<td  width="244">Pond Hill Road Salvage</td>
+												<td  width="130"><p style="margin-top: 2; margin-bottom: 6">Rensselaerville, NY</p></td>
+												<td colspan="2" ><p style="margin-top: 2; margin-bottom: 6">Albany</p></td>
+												<td  width="164">518-797-3414</td>
+				</tr>
+          <tr>
+												<td  width="28"><p style="margin-top: 2; margin-bottom: 6"></p></td>
+												<td  width="244">Post Bros. Auto Parts, Inc.</td>
+												<td  width="130"><p style="margin-top: 2; margin-bottom: 6">Catskill, NY</p></td>
+												<td colspan="2" ><p style="margin-top: 2; margin-bottom: 6">Greene</p></td>
+												<td  width="164">518-943-4800</td>
+				</tr>
+                <tr>
+												<td  width="28"><p style="margin-top: 2; margin-bottom: 6"></p></td>
+												<td  width="244">Previty Auto Wrecking, Inc.</td>
+												<td  width="130"><p style="margin-top: 2; margin-bottom: 6">Freedom, NY</p></td>
+												<td colspan="2" ><p style="margin-top: 2; margin-bottom: 6">Cattaraugus</p></td>
+												<td  width="164">716-496-5174</td>
+				</tr>
+                <tr>
+												<td width="28"  height="28px"  id="sectiontitle"><p style="margin-top: 2; margin-bottom: 6"><a name="Q"><font size="4"><strong>Q</strong></font></a></p></td>
+												<td width="244"></td>
+												<td></td>
+												<td></td>
+												<td></td>
+												<td width="164"></td>
+				</tr>
+          <tr>
+												<td width="28"  height="28px"  id="sectiontitle"><p style="margin-top: 2; margin-bottom: 6"><a name="R"><font size="4"><strong>R</strong></font></a></p></td>
+												<td width="244"></td>
+												<td></td>
+												<td></td>
+												<td></td>
+												<td width="164"></td>
+				</tr>
+          <tr>
+				  <td   width="28"><p style="margin-top: 2; margin-bottom: 6"></p></td>
+												<td   width="244">R &amp; S Auto Parts</td>
+												<td  width="130"><p style="margin-top: 2; margin-bottom: 6">Frankfort, NY</p></td>
+												<td  colspan="2" ><p style="margin-top: 2; margin-bottom: 6">Herkimer</p></td>
+												<td   width="164">315-733-4614</td>
+				</tr>
+          <tr>
+            <td>&nbsp;</td>
+            <td>Ray   Lantz Garage</td>
+            <td>Maine,   NY</td>
+            <td  colspan="2" >Broome</td>
+            <td><p>607-862-3350</p>              </td>
+          </tr>
+          <tr>
+												<td width="28"><p style="margin-top: 2; margin-bottom: 6"></p></td>
+												<td width="244"><a href="http://www.redlsauto.com"><strong>Redl's Parkway Auto Parts, Inc.</strong></a></td>
+				  <td width="130"><p style="margin-top: 2; margin-bottom: 6">Poughkeepsie, NY</p></td>
+												<td colspan="2" ><p style="margin-top: 2; margin-bottom: 6">Dutchess</p></td>
+												<td width="164">914-452-7715</td>
+				</tr>
+          <tr>
+												<td   width="28"><p style="margin-top: 2; margin-bottom: 6"></p></td>
+												<td   width="244"><strong><a href="http://recycler.car-part.com/RJsAuto">RJ's Auto Parts</a></strong></td>
+				  <td   width="130"><p style="margin-top: 2; margin-bottom: 6">North Bay, NY</p></td>
+												<td  colspan="2" ><p style="margin-top: 2; margin-bottom: 6">Onieda</p></td>
+												<td   width="164">315-762-4331</td>
+				</tr>
+          <tr>
+            <td  height="28px"  id="sectiontitle21">&nbsp;</td>
+            <td valign="top">Roadway of Oneonta</td>
+            <td valign="top"><p style="margin-top: 2; margin-bottom: 6">Oneotna, NY</p></td>
+            <td colspan="2" valign="top" ><p style="margin-top: 2; margin-bottom: 6">Delaware</p></td>
+            <td valign="top">800-562-0014</td>
+          </tr>
+          <tr>
+            <td height="28px"  id="sectiontitle23">&nbsp;</td>
+            <td valign="top">Roth's Auto Wrecking, Inc.</td>
+            <td valign="top">Springfield Gardens, NY</td>
+            <td colspan="2" valign="top">Nassau</td>
+            <td valign="top">718-525-6200</td>
+          </tr>
+          <tr>
+												<td  width="28"><p style="margin-top: 2; margin-bottom: 6"></p></td>
+												<td  width="244"><strong><a href="http://www.rubins.com">Rubin Auto Parts</a></strong></td>
+				  <td  width="130"><p style="margin-top: 2; margin-bottom: 6">Pine City, NY</p></td>
+												<td colspan="2" ><p style="margin-top: 2; margin-bottom: 6">Chemung</p></td>
+												<td  width="164">607-733-5557</td>
+				</tr>
+          <tr>
+												<td width="28"  height="28px"  id="sectiontitle"><p style="margin-top: 2; margin-bottom: 6"><a name="S"><font size="4"><strong>S</strong></font></a></p></td>
+												<td width="244"></td>
+												<td></td>
+												<td></td>
+												<td></td>
+												<td width="164"></td>
+				</tr>
+          <tr>
+												<td  width="28"><p style="margin-top: 2; margin-bottom: 6"></p></td>
+												<td  width="244">Saw Mill Auto Wreckers, Inc.</td>
+												<td  width="130"><p style="margin-top: 2; margin-bottom: 6">Yonkers, NY</p></td>
+												<td colspan="2" ><p style="margin-top: 2; margin-bottom: 6">Westchester</p></td>
+												<td  width="164">914-968-5300</td>
+				</tr>
+          <tr>
+												<td width="28"><p style="margin-top: 2; margin-bottom: 6"></p></td>
+												<td width="244"><strong><a href="http://www.shokan.com">Shokan Coachworks, Inc.</a></strong><br /></td>
+				  <td width="130"><p style="margin-top: 2; margin-bottom: 6">West Shokan, NY</p></td>
+												<td colspan="2" ><p style="margin-top: 2; margin-bottom: 6">Ulster</p></td>
+												<td width="164">845-657-8049</td>
+				</tr>
+          <tr>
+												<td  width="28"><p style="margin-top: 2; margin-bottom: 6"></p></td>
+												<td  width="244">Simon Auto Wreckers</td>
+												<td  width="130"><p style="margin-top: 2; margin-bottom: 6">Brewster, NY</p></td>
+												<td colspan="2" ><p style="margin-top: 2; margin-bottom: 6">Putnam</p></td>
+												<td  width="164">914-279-2988</td>
+				</tr>
+          <tr>
+												<td  width="28"><p style="margin-top: 2; margin-bottom: 6"></p></td>
+												<td  width="244">Skyway Auto Parts</td>
+												<td  width="130"><p style="margin-top: 2; margin-bottom: 6">Buffalo, NY</p></td>
+												<td colspan="2" ><p style="margin-top: 2; margin-bottom: 6">Erie</p></td>
+												<td  width="164">716-824-4348</td>
+				</tr>
+          <tr>
+												<td  width="28"><p style="margin-top: 2; margin-bottom: 6"></p></td>
+												<td  width="244">Slate Valley Automotive Recycling</td>
+												<td  width="130"><p style="margin-top: 2; margin-bottom: 6">Granville, NY</p></td>
+												<td colspan="2" ><p style="margin-top: 2; margin-bottom: 6">Washington</p></td>
+												<td  width="164">518-798-8141</td>
+				</tr>
+          <tr>
+												<td  width="28"><p style="margin-top: 2; margin-bottom: 6"></p></td>
+												<td  width="244">Specht's Garage, Inc.</td>
+												<td  width="130"><p style="margin-top: 2; margin-bottom: 6">Warwick, NY</p></td>
+												<td colspan="2" ><p style="margin-top: 2; margin-bottom: 6">Orange</p></td>
+												<td  width="164">914-986-3191</td>
+				</tr>
+          <tr>
+												<td  width="28"><p style="margin-top: 2; margin-bottom: 6"></p></td>
+												<td  width="244"><a href="http://www.standardautowreckers.com" target="_blank"><strong>Standard Auto Wreckers</strong></a></td>
+				  <td  width="130"><p style="margin-top: 2; margin-bottom: 6">Niagara Falls, NY</p></td>
+												<td colspan="2" ><p style="margin-top: 2; margin-bottom: 6">Niagara</p></td>
+												<td  width="164">716-282-8212</td>
+				</tr>
+          <tr>
+            <td  height="28px"  id="sectiontitle8">&nbsp;</td>
+            <td valign="top">Suffolk Auto Recycing</td>
+            <td valign="top">Lindenhurst, NY</td>
+            <td colspan="2" valign="top">Suffolk</td>
+            <td valign="top">631-589-2384</td>
+          </tr>
+          <tr>
+												<td width="28"  height="28px"  id="sectiontitle"><p style="margin-top: 2; margin-bottom: 6"><a name="T"><font size="4"><strong>T</strong></font></a></p></td>
+												<td width="244"></td>
+												<td></td>
+												<td></td>
+												<td></td>
+												<td width="164"></td>
+				</tr>
+          <tr>
+												<td width="28" ><p style="margin-top: 2; margin-bottom: 6"></p></td>
+												<td width="244" ><strong><a href="http://www.theboneyardsalvage.com">The Bone   Yard</a></strong></td>
+				  <td ><p style="margin-top: 2; margin-bottom: 6">Dansville, NY</p></td>
+												<td colspan="2" ><p style="margin-top: 2; margin-bottom: 6">Livingston</p></td>
+												<td width="164" >585-335-6750</td>
+				</tr>
+          <tr>
+												<td   width="28"><p style="margin-top: 2; margin-bottom: 6"></p></td>
+												<td   width="244"><strong><a href="http://www.tolpas.com">Tolpa's Auto   Parts</a></strong><br /></td>
+				  <td   width="130"><p style="margin-top: 2; margin-bottom: 6">Remsen, NY</p></td>
+												<td  colspan="2" ><p style="margin-top: 2; margin-bottom: 6">Onedia</p></td>
+												<td   width="164">315-831-3886</td>
+				</tr>
+          <tr>
+												<td width="28"><p style="margin-top: 2; margin-bottom: 6"></p></td>
+												<td width="244">Town Line Auto Parts</td>
+												<td width="130"><p style="margin-top: 2; margin-bottom: 6">Jamestown, NY</p></td>
+												<td colspan="2"><p style="margin-top: 2; margin-bottom: 6">Chautaqua</p></td>
+												<td width="164">716-484-2353</td>
+				</tr>
+          <tr>
+            <td  height="28px"  id="sectiontitle22">&nbsp;</td>
+            <td valign="top"><a href="http://www.tvrdepew.com"><strong>Twin Village Recycling, Inc.</strong></a></td>
+            <td valign="top">Depew, NY</td>
+            <td colspan="2" valign="top">Erie</td>
+            <td valign="top">716-683-5373</td>
+          </tr>
+          <tr>
+												<td width="28"  height="28px"  id="sectiontitle"><p style="margin-top: 2; margin-bottom: 6"><a name="U"><font size="4"><strong>U</strong></font></a></p></td>
+												<td width="244"></td>
+												<td></td>
+												<td></td>
+												<td></td>
+												<td width="164"></td>
+				</tr>
+          <tr>
+            <td  height="28px"  id="sectiontitle4">&nbsp;</td>
+            <td valign="top"><a href="http://www.u-pullu-save.com"><strong>U-Pull U-Save Auto Parts, Inc.</strong></a></td>
+            <td valign="top">East Syracuse, NY</td>
+            <td colspan="2" valign="top"><span style="margin-top: 2; margin-bottom: 6">Onondaga</span></td>
+            <td valign="top">315-656-7533</td>
+          </tr>
+          <tr>
+            <td  height="28px"  id="sectiontitle2">&nbsp;</td>
+            <td valign="top"><p><a href="http://www.upstateshredding.com" class="style1">Upstate   Shredding</a></p></td>
+            <td valign="top">Owego,   NY </td>
+            <td colspan="2" valign="top">Tioga </td>
+            <td valign="top">607-687-7777</td>
+          </tr>
+          <tr>
+												<td width="28"  height="28px"  id="sectiontitle"><p style="margin-top: 2; margin-bottom: 6"><a name="V"><font size="4"><strong>V</strong></font></a></p></td>
+												<td width="244"></td>
+												<td></td>
+												<td></td>
+												<td></td>
+												<td width="164"></td>
+				</tr>
+          <tr>
+												<td  width="28"><p style="margin-top: 2; margin-bottom: 6"></p></td>
+												<td  width="244">Vince's Auto Wrecking &amp; Sales, Inc.</td>
+												<td  width="130"><p style="margin-top: 2; margin-bottom: 6">Lockport, NY</p></td>
+												<td colspan="2" ><p style="margin-top: 2; margin-bottom: 6">Niagara</p></td>
+												<td  width="164">716-434-6238</td>
+				</tr>
+          <tr>
+				  <td  width="28"><p style="margin-top: 2; margin-bottom: 6"></p></td>
+												<td  width="244">Vince's U-Pull-It</td>
+												<td  width="130"><p style="margin-top: 2; margin-bottom: 6">Marcy, NY</p></td>
+												<td colspan="2" ><p style="margin-top: 2; margin-bottom: 6">Oneida</p></td>
+												<td  width="164">315-768-9265</td>
+				</tr>
+          <tr>
+												<td width="28"  height="28px"  id="sectiontitle"><p style="margin-top: 2; margin-bottom: 6"><a name="W"><font size="4"><strong>W</strong></font></a></p></td>
+												<td width="244"></td>
+												<td></td>
+												<td></td>
+												<td></td>
+												<td width="164"></td>
+				</tr>
+          <tr>
+												<td  width="28"><p style="margin-top: 2; margin-bottom: 6"></p></td>
+												<td  width="244"><strong><a href="http://www.wside.net">West Side Auto Supply</a></strong></td>
+				  <td  width="130"><p style="margin-top: 2; margin-bottom: 6">Glens Falls, NY</p></td>
+												<td colspan="2" ><p style="margin-top: 2; margin-bottom: 6">Warren</p></td>
+												<td  width="164">518-792-5826</td>
+				</tr>
+          <tr>
+												<td  width="28"><p style="margin-top: 2; margin-bottom: 6"></p></td>
+												<td  width="244"><strong><a href="http://www.wilbertsgmparts.com">Wilbert's, Inc.</a></strong></td>
+				  <td  width="130"><p style="margin-top: 2; margin-bottom: 6">Webster, NY</p></td>
+												<td colspan="2" ><p style="margin-top: 2; margin-bottom: 6">Monroe</p></td>
+												<td  width="164">585-872-1540</td>
+				</tr>
+          <tr>
+												<td  width="28"><p style="margin-top: 2; margin-bottom: 6"></p></td>
+												<td  width="244"><strong><a href="http://www.willswrecker.com">Wills   Wreckers</a></strong></td>
+				  <td  width="130"><p style="margin-top: 2; margin-bottom: 6">LaFargeville, NY</p></td>
+												<td colspan="2" ><p style="margin-top: 2; margin-bottom: 6">Jefferson</p></td>
+												<td  width="164">315-482-2084</td>
+				</tr>
+          <tr>
+												<td  width="28"><p style="margin-top: 2; margin-bottom: 6"></p></td>
+												<td  width="244">Wood's Auto</td>
+												<td  width="130"><p style="margin-top: 2; margin-bottom: 6">Harpursville, NY</p></td>
+												<td colspan="2" ><p style="margin-top: 2; margin-bottom: 6">Broome</p></td>
+												<td  width="164">607-693-1124</td>
+				</tr>
+          <tr>
+												<td  width="28"><p style="margin-top: 2; margin-bottom: 6"><strong> </strong></p></td>
+												<td  width="244"><strong><a href="http://www.woosmansautoparts.com">Woosman's Auto   Parts &amp; Recycling</a></strong></td>
+				  <td  width="130"><p style="margin-top: 2; margin-bottom: 6">Hallstead, PA</p></td>
+												<td colspan="2" ><p style="margin-top: 2; margin-bottom: 6">&nbsp;</p></td>
+												<td  width="164">570-879-4836</td>
+				</tr>
+                <tr>
+												<td width="28"  height="28px"  id="sectiontitle"><p style="margin-top: 2; margin-bottom: 6"><a name="X"><font size="4"><strong>X</strong></font></a></p></td>
+												<td width="244"></td>
+												<td></td>
+												<td></td>
+												<td></td>
+												<td width="164"></td>
+				</tr>
+          <tr>
+												<td width="28"  height="28px"  id="sectiontitle"><p style="margin-top: 2; margin-bottom: 6"><a name="Y"><font size="4"><strong>Y</strong></font></a></p></td>
+												<td width="244"></td>
+												<td></td>
+												<td></td>
+												<td></td>
+												<td width="164"></td>
+				</tr>
+                <tr>
+				  <td width="28"  height="28px"  id="sectiontitle"><p style="margin-top: 2; margin-bottom: 6"><a name="Z"><font size="4"><strong>Z</strong></font></a></p></td>
+												<td width="244"></td>
+												<td></td>
+												<td></td>
+												<td></td>
+												<td width="164"></td>
+				</tr>
+                <tr>
+                  <td height="28px"  id="sectiontitle3">&nbsp;</td>
+                  <td valign="top">Zabel's Auto Repair</td>
+                  <td valign="top">Feura Bush, NY</td>
+                  <td colspan="2" valign="top">Albany</td>
+                  <td valign="top">518-768-2671</td>
+                </tr>
+                <tr>
+												<td  width="28"><p style="margin-top: 2; margin-bottom: 6"><strong> </strong></p></td>
+												<td  width="244">Zerniak Auto Parts</td>
+												<td  width="130"><p style="margin-top: 2; margin-bottom: 6">Brockport, NY</p></td>
+												<td colspan="2" ><p style="margin-top: 2; margin-bottom: 6">Monroe</p></td>
+												<td  width="164">585-637-3392</td>
+				</tr>
+        </table>          
+        <p style="margin-top: 2; margin-bottom: 6"></td>
+									</tr>
+      </table>    </td>
+				</tr>
+  </table>
+</div></td>
+      <td rowspan="1" width="6"></td>
+      <td rowspan="1" align="center" valign="top"></td>
+    </tr>
+    <tr>
+      <td width="8" valign="top"></td>
+    </tr>
+
+    <tr>
+      <td>&nbsp;</td>
+      <td colspan="3"><div align="center" class="copy"><br />
+        Copyright © 2007 Automotive Recyclers Association of New York (ARANY)<br />
+        194 Washington Ave., Suite 305, Albany, NY 12210 | Phone:   1.800.944.PART (7278) | Fax: 518.463.7952 | Email: info@ARANY.com </div>
+          <div align="center" class="copy"></div></td>
+    </tr>
+    <tr>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td align="center"><div align="center" class="copy"></div></td>
+    </tr>
+</body>
+</html>
