@@ -1,0 +1,262 @@
+<!DOCTYPE html
+     PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+     "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<!-- EPA Template version 3.2.1, 28 June 2006 -->
+<head>
+	<title>EPA | Envirofacts | Data Source</title>
+	<meta name="DC.title" content="" />
+	<meta name="DC.description" content="" />
+	<meta name="keywords" content="" />
+	<meta name="DC.Subject" content="" />
+	<meta name="DC.type" content="" />
+	<!-- For date metadata, use the format YYYY-MM-DD -->
+	<meta name="DC.date.modified" content="" />
+	<meta name="DC.date.created" content="" />
+	<meta name="DC.date.reviewed" content="" />
+
+	<meta name="DC.language" content="en" />
+	<meta name="DC.creator" content="" />
+
+	<link rel="schema.DC" href="http://purl.org/dc/elements/1.1/" />
+	<link rel="meta" href="http://www.epa.gov/labels.rdf" type="application/rdf+xml" title="ICRA labels" />
+	<meta http-equiv="Content-Style-Type" content="text/css" />
+	<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+
+	<style type="text/css" media="screen">@import 'http://www.epa.gov/epafiles/s/epa.css';</style>
+	<!--[if lt IE 7]>
+		<link rel="stylesheet" type="text/css" href="http://www.epa.gov/epafiles/s/ie.css" />
+	<![endif]-->
+	<link rel="stylesheet" type="text/css" media="print" href="http://www.epa.gov/epafiles/s/print.css" />
+	<script type="text/javascript" src="http://www.epa.gov/epafiles/js/epa-core.js"></script>
+	<script type="text/javascript" src="http://www.epa.gov/epafiles/js/extra.js"></script>
+</head>
+
+<body>
+<p class="skip"><a id="skiptop" href="#content" title="Jump to main content.">Jump to main content.</a></p>
+
+<div id="header"> <!-- START EPA HEADER -->
+
+	<div id="logo"><a href="http://www.epa.gov/" title="US EPA home page"><img src="http://www.epa.gov/epafiles/images/logo_epaseal.gif" alt="[logo] US EPA" width="100" height="111" /></a></div>
+
+	<div id="areaname"> <!-- START AREA NAME -->
+		<p>Envirofacts Data Warehouse</p>
+	</div> <!-- END AREA NAME -->
+
+	<!-- START SEARCH CONTROLS -->
+	<form id="EPAsearch" method="get" action="http://nlquery.epa.gov/epasearch/epasearch">
+		<!-- START AREA SPECIFIC LINKS AND SEARCH BOX  -->
+		<!-- CHANGE links to point to your own recent additions and contact pages -->
+		<!-- REMOVE recent additions link if your area doesn't have one -->
+		<p><a href="/enviro/html/whats_new.html">Recent	Additions</a> | <a href="/enviro/html/ef_feedback.html">Contact Us</a>
+			<span class="search"><strong>Search:</strong>
+			<input name="typeofsearch" id="EPAall" type="radio" value="epa"/><label for="EPAall">All EPA</label>
+			<input name="typeofsearch" id="Areaall" type="radio" value="area" checked="checked" /><label for="Areaall">This Area</label>
+			<input name="querytext" id="searchbox" value="" />
+			<input name="submit" id="searchbutton" type="submit" value="Go" />
+			<input type="hidden" name="fld" value="envirofw" />
+			<input type="hidden" name="areaname" value="Envirofacts Data Warehouse" />
+			<input type="hidden" name="areacontacts" value="/enviro/html/ef_feedback.html" />
+			<!-- AREA ADVANCED SEARCH URL HERE (OPTIONAL) -->
+			<input type="hidden" name="areasearchurl" value="" />
+			<!-- THE REMAINING HIDDEN INPUTS ARE USED BY THE SEARCH ENGINE - DO NOT EDIT -->
+			<input type="hidden" name="result_template" value="epafiles_default.xsl" />
+ 			<input type="hidden" name="filter" value="samplefilt.hts" /></span>
+		</p>
+	</form> <!-- END SEARCH CONTROLS -->
+
+	<ul> <!-- BEGIN BREADCRUMBS -->
+		<li class="first">You are here: <a href="http://www.epa.gov/">EPA Home</a></li>
+		<!-- START AREA BREADCRUMBS -->
+		<li><a href="/enviro/">Envirofacts</a></li>
+		<li>Data Source</li>
+		<!-- END AREA BREADCRUMBS -->
+	</ul> <!-- END BREADCRUMBS -->
+
+</div> <!-- END EPA HEADER -->
+
+<hr class="skip" />
+
+<p class="skip"><a name="pagecontents" id="pagecontents"></a><a name="pagetop" id="pagetop"></a></p>
+
+<div id="content"> <!-- BEGIN CONTENT -->
+	<!-- EPA SITE-WIDE ANNOUNCEMENTS - DO NOT REMOVE - this code is used for emergency messages -->
+	<!-- If this page is a Sub-Office/Sub-Region/Center/Lab/Topic home page, CHANGE "sitewidec" TO "sitewideb" -->
+	<p id="sitewidec"></p>
+
+	<!-- BEGIN PAGE NAME -->
+
+	<!-- END PAGE NAME -->
+
+	<!-- BEGIN CONTENT AREA -->
+	<a name="pagecontents"></a>
+			<!-- BEGIN PAGE NAME -->
+                        <h1 class="epaPageName">
+						<a href="/enviro/">
+						<img src="/enviro/gif/ef_EF.gif" align="left" alt="EF Logo" border="0" valign="bottom"></a>
+				Data Source</h1>
+			<!-- END PAGE NAME -->
+			<!-- BEGIN CONTENT AREA -->
+			<!--Insert content here-->
+			<!-- BEGIN CONTENT AREA -->
+			<div align="center"><a href="#skip_links"><img src="/enviro/gif/space.gif" alt="Skip list of links" border="0"></a>	</div>
+<blockquote>
+<p align="center"><a name="main"></a> <a href=#Superfund>Superfund</a> | <a href=#Safe>Safe Drinking Water Information</a> | <a href=#Hazardous>Hazardous Waste Data</a> | <a href=#TRI>Toxics Release Inventory</a> | <a href=#Facility>Facility Registry System</a> | <a href=#Water>Water Discharge Permits</a> |  <a href=#Air>Air Releases</a> | <a href=#Brownfields>Brownfields</a> | <a href=#Grants>Grants Information</a> | <a href=#EMCI>Master Chemical Integrator</a> | <a href=#NCOD>National Drinking Water Contaminant Occurrence Database</a> | <a href=#ICR>Drinking Water Microbial and Disinfection Byproduct Info</a> | <a href=#Locational>Locational Information</a> | <a href=#MULTISYS>Multisystem</a> | <a href=#ERAMS>RadNet, formerly Environmental Radiation Ambient Monitoring System (ERAMS)</a>
+</p></blockquote>
+<a name="skip_links"></a>
+<img src="/enviro/gif/data_source_graphic.gif" width=257 height=132 alt="Data Source Graphic" border="0" align="right">
+<p>
+The Envirofacts database is composed of several individual EPA databases, which are administered by "program system" offices.  In many cases, industry is required to report information to the state in which it operates; in some cases, information is collected at the federal level.
+<p>
+Envirofacts provides data source information so that you can trace the origin of the information.
+<p>
+<table><tr><td height=24  width=550 bgcolor="88b9ef" valign="top">
+<a name="Superfund"></a><b>Superfund Data</b></td></tr></table>
+<p>
+Superfund sites are those uncontrolled hazardous waste sites designated  by the federal government to be cleaned up.  You can find information about these sites  in the Comprehensive Environmental Response, Compensation, and Liability Information System
+(<a href=http://cfpub.epa.gov/supercpad/cursites/srchsites.cfm
+>CERCLIS</a>), which has been integrated into Envirofacts.  For more information, read about <a href=http://www.epa.gov/superfund/about.htm>Superfund</a>.  Superfund uses <a href=http://www.epa.gov/superfund/sites/siteinfo.htm>several databases</a> to track information about these hazardous waste sites.
+<p>
+<table><tr><td   height=24  width=550 bgcolor="88b9ef" valign="top">
+<a name="Safe"></a><b>Safe Drinking Water Information</b></td></tr></table>
+<p>
+Safe Drinking Water Information is stored in the Safe Drinking Water Information System (SDWIS).  The federal database contains information reported to EPA by Regions and States; the State database helps States run their drinking water programs.  Envirofacts currently contains information from the federal database.  <a href="http://www.epa.gov/safewater/databases/index.html">Read more</a> about the SDWIS database.
+<p>
+<table><tr><td   height=24  width=550 bgcolor="88b9ef" valign="top">
+<a name="Hazardous"></a><b>Hazardous Waste Data</b></td></tr></table>
+<p>
+Hazardous waste generators, transporters, treaters, storers and disposers of hazardous waste are required to provide information on their activities to state environmental agencies.  These agencies then provide the information to regional and national US Environmental Protection Agency (EPA) offices through the Resource Conservation and Recovery Act Information (RCRAInfo) System.  Information on cleaning up after accidents or other activities that result in a release of hazardous materials to the water, air or land must also be reported through RCRAInfo.  More information on
+<a href=http://www.epa.gov/epawaste/index.htm>RCRAInfo</a>.
+
+<p>
+<table><tr><td   height=24  width=550 bgcolor="88b9ef" valign="top">
+<a name="TRI"></a><b>Toxics Release Inventory</b></td></tr></table>
+<p>
+Toxics Release Inventory data are reported by individual facilities, who send yearly reports to federal EPA on a form called "Form R".  EPA converts these forms into an electronic database.  A facility must report to TRI if the facility:
+<p>
+<ul>
+        <li>Has 10 or more full-time employees, and
+        <p>
+        <li>Manufactures or processes over 25,000 pounds of the approximately 600 designated chemicals or 28 chemical categories specified in the
+regulations, or uses more than 10,000 pounds of any designated chemical or category, and
+        <p>
+        <li>Engages in certain manufacturing operations in the industry groups specified in the U.S. Government Standard Industrial Classification
+Codes (SIC) 20 through 39, or
+        <p>
+        <li>Is a federal facility which are all now required to report per the August, 1995 Executive Order signed by President Clinton.
+</ul>
+<p>
+This reported information is available from the <a href=http://www.epa.gov/tri/>Toxics Release Inventory</a>.
+<p>
+<table><tr><td   height=24  width=550 bgcolor="88b9ef" valign="top">
+<a name="Facility"></a><b>Facility Registry System</b></td></tr></table>
+<p>
+The Facility Registry System (FRS) is a centrally managed database that identifies facilities, sites or places subject to environmental regulations or of environmental interest. FRS creates high-quality, accurate, and authoritative facility identification records through rigorous verification and management procedures that incorporate information from program national systems, state master facility records, data collected from EPA's Central Data Exchange registrations and data management personnel.
+<p>
+<table><tr><td   height=24  width=550 bgcolor="88b9ef" valign="top">
+<a name="Water"></a><b>Water Discharge Permits</b></td></tr></table>
+<p>
+Water Discharge Permits are tracked through the Permit Compliance System (PCS). Facilities report their compliance and status information by submitting Compliance Schedule Reports and Discharge Monitoring Reports (DMR) to Regions or delegated States, which enter the information into the system.  Inspection and enforcement information is collected and entered by Regions and/or delegated States.  <a href=http://www.epa.gov/compliance/>More Permit Compliance System Information</a>.
+<p>
+<table><tr><td   height=24  width=550 bgcolor="88b9ef" valign="top">
+<a name="Air"></a><b>Air Releases</b></td></tr></table>
+<p>
+Air information is compiled from <a href="http://www.epa.gov/air/data/index.html">Source Reports</a>, from electric power plants, steel mills, factories, and universities.
+<p>
+<table><tr><td   height=24  width=550 bgcolor="88b9ef" valign="top">
+<a name="Brownfields"></a><b>Brownfields</b></td></tr></table>
+<p>
+The Brownfields Management System (BMS) stores information reported by EPA
+Brownfields grant recipients on brownfields properties assessed or cleaned up with grant funding.  In addition, fact sheets about <a href=http://www.epa.gov/swerosps/bf/bfwhere.htm>Brownfields Where You Live</a>  are available.  More information on the <a href=http://www.epa.gov/swerosps/bf/index.html>Brownfields</a>.
+<p>
+<table><tr><td   height=24  width=550 bgcolor="88b9ef" valign="top">
+<a name="Grants"></a><b>Grants Information</b></td></tr></table>
+<p>
+The Grants Information and Control System (GICS) contains information about EPA awarded grants.  Read more about EPA's <a href="http://www.epa.gov/ogd/index.htm">Grants Information</a>.
+<p>
+<table><tr><td   height=24 width=550 bgcolor="88b9ef" valign="top">
+<a name="EMCI"></a><b>Master Chemical Integrator</b></td></tr></table>
+<p>
+Envirofacts Master Chemical Integrator (EMCI) is used to integrate the varied chemical identifications used in four program system components currently in Envirofacts. EMCI uses an internal identification system based on Chemical Abstract Service (CAS) numbers and names as a cross reference to link chemicals in the AIRS Facility Subsystem, Permit Compliance System, Resource Conservation and Recovery Act Information (RCRAInfo), and the Toxics Release Inventory.
+<p>
+ <table><tr><td   height=24 width=550 bgcolor="88b9ef" valign="top">
+<a name="NCOD"></a><b>National Drinking Water Contaminant Occurrence Database</b></td></tr></table>
+<p>
+<a href="http://www.epa.gov/safewater/data/ncod.html">The National Drinking Water Contaminant Occurrence Database (NCOD)</a> contains occurrence data provided by Public Water Systems and other sources (like the U.S. Geological Survey National Water Information System) on physical, chemical, microbial and radiological contaminants for both detections and non-detects.
+<p>
+<table><tr><td   height=24 width=550 bgcolor="88b9ef" valign="top">
+<a name="ICR"></a><b>Drinking Water Microbial and Disinfection Byproduct Information</b></td></tr></table>
+<p>
+The Information Collection Rule (ICR) required water systems serving 100,000 people or
+         more to collect samples and report on microbial (source water) and disinfection byproduct
+         (treated water) levels for 18 months (July 1997-December 1998). This Drinking Water Microbial and Disinfection Byproduct Information is stored in the Information Collection Rule Auxiliary 1 database; a copy of this database is stored in Envirofacts Oracle tables.
+<p>
+<table><tr><td  height=24 width=550 bgcolor="88b9ef" valign="top">
+<b><a name="Locational">Locational Information</a></b></td></tr></table>
+<p>
+<a href="/enviro/html/locational/index.html">Locational information </a>for EPA-regulated facilities in Envirofacts is cultivated from many sources, including EPA federal program systems, EPA regional offices, and the states. This information is used for Envirofacts query and map applications.
+
+<p>
+<table><tr><td  height=24 width=550 bgcolor="88b9ef" valign="top">
+<b><a name="MULTISYS">Multisystem</a></b></td></tr></table>
+<p>
+<a href="/enviro/html/multisystem_query_java.html">Multisystem </a>contains multiple environmental databases for facility information, including toxic chemical releases, water discharge permit compliance, hazardous waste handling processes, Superfund status, and air emission estimates.
+
+<p>
+<table><tr><td  height=24 width=580 bgcolor="88b9ef" valign="top">
+<b><a name="ERAMS">RadNet, formerly Environmental Radiation Ambient Monitoring System (ERAMS)</a></b></td></tr></table>
+<p>
+<a href="/enviro/html/erams/overview.html">RadNet </a>data provides a means to estimate levels of radioactivity in the environment, including background radiation as well as radioactive fallout from atomic weapons testing, nuclear accidents, and other intrusions of radioactive materials. RadNet also provides the historical data needed to estimate long-term trends in environmental radiation levels.
+
+
+	<!-- BEGIN AREA FOOTER - ADD text/links for area footer within this paragraph tag -->
+	<p id="areafooter"></p>
+	<!-- END AREA FOOTER -->
+</div> <!-- END CONTENT -->
+
+<hr class="skip" />
+
+<div align="left" id="area-nav"> <!-- BEGIN AREA MAIN NAVIGATION -->
+	<h3 class="skip">Local Navigation</h3>
+	<ul>
+		<li><a href="/enviro/html/ef_overview.html" class="epaSideBarLinks">EF Overview</a></li>
+		<li><a href="/enviro/html/qmr.html" class="epaSideBarLinks">Queries, Maps &<br /> &nbsp;&nbsp; Reports</a></li>
+		<li><a href="http://oaspub.epa.gov/enviro/data_update_v2" class="epaSideBarLinks">Data Update</a></li>
+		<li><a href="/enviro/html/technical.html" class="epaSideBarLinks">Technical User</a></li>
+		<li><a href="/enviro/html/sitemap.html" class="epaSideBarLinks">Site Map</a></li>
+		<li><a href="/enviro/html/ef_feedback.html" class="epaSideBarLinks">Contact Us</a></li>
+	</ul>
+
+	<form action="http://oaspub.epa.gov/enviro/ef_home3.html" method="get"> <font face="arial" size="2" color="#33cc33"> <i><b>Quick Start!</b></i></font><i>
+        <br>
+        <font color="#FFFFFF" face="arial" size="2"><label for="Enter information">View environmental information for any ZIP code, city, or county.<br>Use State Abbreviations.</label></font>
+        </i>
+        <font face="arial" size="2">
+		<input type="text" size="8" name="p_zipcode" id="zipcode"><br>
+        <input type="radio" name="p_type" value="zip" checked id="zip code"><font color="#33cc33"><label for="zip code">ZIP Code</label><BR>
+        <input type="radio" name="p_type" value="city" id="city and state"><font color="#33cc33"><label for="city and state">City, State Abbr</label><BR>
+        <input type="radio" name="p_type" value="county" id="county"><font color="#33cc33" id="county and state"><label for="county and state">County, State Abbr</label><br>
+		<INPUT type=image src="/enviro/gif/goleft.gif" border="0" alt="Search button" value=Search id="Search button">
+
+ </font>   </font></font></font></form>												<!-- END SIDEBAR NAVIGATION -->
+						</epasidebar> </td>
+				</tr>
+			</table>
+
+</div> <!-- END AREA MAIN NAVIGATION -->
+
+<hr class="skip" />
+
+<div id="footer"> <!-- BEGIN FOOTER -->
+	<ul id="globalfooter">
+		<li><a href="http://www.epa.gov/">EPA Home</a></li>
+		<li><a href="http://www.epa.gov/epafiles/usenotice.htm">Privacy and Security Notice</a></li>
+		<!-- CHANGE link to point to your own contact page -->
+		<li class="last"><a href="/enviro/html/ef_feedback.html">Contact Us</a></li>
+	</ul>
+</div> <!-- END FOOTER -->
+
+<p class="skip"><a id="skipbot" href="#content" title="Jump to main content.">Jump to main content.</a></p>
+</body>
+</html>
