@@ -1,0 +1,348 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head profile="http://gmpg.org/xfn/11">
+
+    <title>Open Publishing Lab</title>
+    
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <link rel="shortcut icon" href="http://opl.rit.edu/wp-content/uploads/2010/04/opal_favicon.png" type="image/x-icon" />
+    <link rel="stylesheet" type="text/css" href="http://opl.rit.edu/wp-content/themes/metamorphosis/style.css" media="screen" />
+    <link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="http://opl.rit.edu/feed/" />
+    <link rel="pingback" href="http://opl.rit.edu/xmlrpc.php" />
+
+	<!-- IE7 emulation on IE8 for footer widgets to work properly -->
+	<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7" />
+       
+    <!--[if IE 6]>
+    <script type="text/javascript" src="http://opl.rit.edu/wp-content/themes/metamorphosis/includes/js/pngfix.js"></script>
+    <script type="text/javascript" src="http://opl.rit.edu/wp-content/themes/metamorphosis/includes/js/menu.js"></script>
+    <link rel="stylesheet" type="text/css" href="http://opl.rit.edu/wp-content/themes/metamorphosis/ie6.css" media="screen" />
+    <![endif]-->
+    
+    <!--[if lt IE 8]>
+    <style type="text/css">
+	.socialWrap {
+	    margin-left: -10px;
+	}        
+	    .socialLinks {
+		display: inline-block;
+		float: left;
+		margin-left: 10px;
+		padding: 0;
+	    }
+		.socialLinks a {
+		    text-decoration: none;
+		}
+	       .socialLinks img {
+		    border: none;
+		}
+    </style>
+    <![endif]-->
+
+
+    <script type="text/javascript" src="http://opl.rit.edu/wp-content/themes/metamorphosis/includes/js/cufon-yui.js"></script>
+    <script type="text/javascript" src="http://opl.rit.edu/wp-content/themes/metamorphosis/includes/js/external_links.js"></script>
+    <script type="text/javascript" src="http://opl.rit.edu/wp-content/themes/metamorphosis/includes/js/Delicious.font.js"></script>
+	<script type="text/javascript">
+    	Cufon.replace('h2');
+    	Cufon.replace('h3');
+    </script>
+    
+    
+       
+        				
+	<script type="text/javascript">//<![CDATA[
+	// Google Analytics for WordPress by Yoast v4.06 | http://yoast.com/wordpress/google-analytics/
+	var _gaq = _gaq || [];
+	_gaq.push(['_setAccount','UA-4364785-1']);
+	_gaq.push(['_trackPageview']);
+	(function() {
+		var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+		ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+		var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+	})();
+	// End of Google Analytics for WordPress by Yoast v4.0
+	//]]></script>
+	
+<link rel='stylesheet' id='wp-pagenavi-css'  href='http://opl.rit.edu/wp-content/plugins/wp-pagenavi/pagenavi-css.css?ver=2.70' type='text/css' media='' />
+<script type='text/javascript' src='http://opl.rit.edu/wp-content/plugins/myeasybackup/js/myeasybackup.js.php?ver=20100313'></script>
+<script type='text/javascript' src='http://opl.rit.edu/wp-content/plugins/myeasybackup/js/ajax_ro.js?ver=20100123'></script>
+<script type='text/javascript' src='http://opl.rit.edu/wp-includes/js/jquery/jquery.js?ver=1.3.2'></script>
+<script type='text/javascript' src='http://opl.rit.edu/wp-content/plugins/easily-navigate-pages-on-your-dashboard/easily-navigate-pages-on-dashboard.js?ver=2.9.2'></script>
+<script type='text/javascript' src='http://opl.rit.edu/wp-content/plugins/countdown-timer/js/fergcorp_countdownTimer_java.js?ver=2.4.2'></script>
+<script type='text/javascript' src='http://opl.rit.edu/wp-content/plugins/countdown-timer/js/webtoolkit.sprintf.js?ver=2.4.2'></script>
+<script type='text/javascript' src='http://opl.rit.edu/wp-content/themes/metamorphosis/includes/js/jquery.easing.min.js?ver=2.9.2'></script>
+<script type='text/javascript' src='http://opl.rit.edu/wp-content/themes/metamorphosis/includes/js/loopedSlider.js?ver=2.9.2'></script>
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://opl.rit.edu/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://opl.rit.edu/wp-includes/wlwmanifest.xml" /> 
+<link rel='index' title='Open Publishing Lab' href='http://opl.rit.edu' />
+<meta name="generator" content="WordPress 2.9.2" />
+
+<!-- All in One SEO Pack 1.6.12.2 by Michael Torbert of Semper Fi Web Design[215,274] -->
+<meta name="description" content="The Open Publishing Lab is a cross-disciplinary center dedicated to researching and developing innovative, open source applications for publishing across various media, at Rochester Institute of Technology." />
+<meta name="keywords" content="Publishing, OPL, RIT, Rochester Institute of Technology, open source, Open Publishing Laboratory, collaboration, software engineering, computer science, information technology, design, publishing, open publishing" />
+<link rel="canonical" href="http://opl.rit.edu" />
+<!-- /all in one seo pack -->
+<meta name="generator" content="Meta-Morphosis 1.2.4" />
+<meta name="generator" content="Woo Framework Version 2.6.1" />
+<link href="http://opl.rit.edu/wp-content/themes/metamorphosis/styles/colors.css" rel="stylesheet" type="text/css" />
+<link href="http://opl.rit.edu/wp-content/themes/metamorphosis/custom.css" rel="stylesheet" type="text/css" />
+<meta name="google-site-verification" content="mn3qNuGVTdEHPwszeZWvZ9O4Q4NRUdKKophuRgvFa9s" />
+</head>
+
+<body class="custom">
+
+<div id="wrap">
+    <div id="top">
+
+        <!-- PAGE NAVIGATION -->
+   
+        <!-- Page Nav Ends -->
+        
+        <!-- HEADER -->
+        <div id="header">
+            <a href="http://opl.rit.edu" title="extend. enable. empower"><img class="title" src="http://oplstaging.cias.rit.edu/wp-content/uploads/2010/04/banner2.png" alt="Open Publishing Lab" /></a>
+            <h1><a href="http://opl.rit.edu">Open Publishing Lab</a></h1>
+            
+            <!-- TOP AD -->
+                        
+        </div>
+        <!-- end #header -->        
+
+        <!-- MAIN MENU -->
+		<div id="menu">
+        	<ul id="catnav"> <!-- used to be "catnav" -->
+				<li class="page_item page-item-3 current_page_item"><a href="http://opl.rit.edu" title=""></a></li>
+<li class="page_item page-item-68"><a href="http://opl.rit.edu/about/" title="About">About</a>
+<ul>
+	<li class="page_item page-item-974"><a href="http://opl.rit.edu/about/what-is-open-publishing/" title="What is Open Publishing?">What is Open Publishing?</a></li>
+</ul>
+</li>
+<li class="page_item page-item-50"><a href="http://opl.rit.edu/projects/" title="Projects">Projects</a>
+<ul>
+	<li class="page_item page-item-149"><a href="http://opl.rit.edu/projects/drop2print/" title="Drop2Print">Drop2Print</a></li>
+	<li class="page_item page-item-151"><a href="http://opl.rit.edu/projects/innovation-news/" title="Innovation News">Innovation News</a></li>
+	<li class="page_item page-item-153"><a href="http://opl.rit.edu/projects/insight/" title="Insight">Insight</a></li>
+	<li class="page_item page-item-156"><a href="http://opl.rit.edu/projects/meetu/" title="Meetü">Meetü</a></li>
+	<li class="page_item page-item-158"><a href="http://opl.rit.edu/projects/open-publishing-guide/" title="Open Publishing Guide">Open Publishing Guide</a></li>
+	<li class="page_item page-item-160"><a href="http://opl.rit.edu/projects/page2pub/" title="Page2Pub">Page2Pub</a>
+	<ul>
+		<li class="page_item page-item-988"><a href="http://opl.rit.edu/projects/page2pub/download-page2pub/" title="Download Page2Pub">Download Page2Pub</a></li>
+	</ul>
+</li>
+</ul>
+</li>
+<li class="page_item page-item-523"><a href="http://opl.rit.edu/download/" title="Downloads">Downloads</a></li>
+<li class="page_item page-item-28"><a href="http://opl.rit.edu/researchers/" title="Researchers">Researchers</a>
+<ul>
+	<li class="page_item page-item-81"><a href="http://opl.rit.edu/researchers/faculty/" title="Faculty">Faculty</a>
+	<ul>
+		<li class="page_item page-item-145"><a href="http://opl.rit.edu/researchers/faculty/patricia-albanese/" title="Patricia Albanese">Patricia Albanese</a></li>
+		<li class="page_item page-item-89"><a href="http://opl.rit.edu/researchers/faculty/matthew-bernius/" title="Matthew Bernius">Matthew Bernius</a></li>
+		<li class="page_item page-item-147"><a href="http://opl.rit.edu/researchers/faculty/tona-henderson/" title="Tona Henderson">Tona Henderson</a></li>
+		<li class="page_item page-item-143"><a href="http://opl.rit.edu/researchers/faculty/michael-riordan/" title="Michael Riordan">Michael Riordan</a></li>
+	</ul>
+</li>
+	<li class="page_item page-item-93"><a href="http://opl.rit.edu/researchers/staff/" title="Staff">Staff</a>
+	<ul>
+		<li class="page_item page-item-95"><a href="http://opl.rit.edu/researchers/staff/rachael-gootnick/" title="Rachael Gootnick">Rachael Gootnick</a></li>
+	</ul>
+</li>
+	<li class="page_item page-item-85"><a href="http://opl.rit.edu/researchers/students/" title="Students">Students</a>
+	<ul>
+		<li class="page_item page-item-113"><a href="http://opl.rit.edu/researchers/students/jeanette-bredsten/" title="Jeanette Bredsten">Jeanette Bredsten</a></li>
+		<li class="page_item page-item-131"><a href="http://opl.rit.edu/researchers/students/sean-conklin/" title="Sean Conklin">Sean Conklin</a></li>
+		<li class="page_item page-item-116"><a href="http://opl.rit.edu/researchers/students/jesse-friedlander/" title="Jesse Friedlander">Jesse Friedlander</a></li>
+		<li class="page_item page-item-118"><a href="http://opl.rit.edu/researchers/students/john-karahalis/" title="John Karahalis">John Karahalis</a></li>
+		<li class="page_item page-item-127"><a href="http://opl.rit.edu/researchers/students/ryan-langille/" title="Ryan Langille">Ryan Langille</a></li>
+		<li class="page_item page-item-133"><a href="http://opl.rit.edu/researchers/students/steve-mancini/" title="Steve Mancini">Steve Mancini</a></li>
+		<li class="page_item page-item-125"><a href="http://opl.rit.edu/researchers/students/mike-norman/" title="Mike Norman">Mike Norman</a></li>
+		<li class="page_item page-item-461"><a href="http://opl.rit.edu/researchers/students/seppi-patoprsty/" title="Seppi Patoprsty">Seppi Patoprsty</a></li>
+		<li class="page_item page-item-75"><a href="http://opl.rit.edu/researchers/students/matt-rogers/" title="Matt Rogers">Matt Rogers</a></li>
+		<li class="page_item page-item-768"><a href="http://opl.rit.edu/researchers/students/patrul-sanwal/" title="Patrul Sanwal">Patrul Sanwal</a></li>
+		<li class="page_item page-item-129"><a href="http://opl.rit.edu/researchers/students/sam-shaffer/" title="Sam Shaffer">Sam Shaffer</a></li>
+		<li class="page_item page-item-102"><a href="http://opl.rit.edu/researchers/students/ben-vanderberg/" title="Ben Vanderberg">Ben Vanderberg</a></li>
+		<li class="page_item page-item-111"><a href="http://opl.rit.edu/researchers/students/jacob-weigand/" title="Jacob Weigand">Jacob Weigand</a></li>
+		<li class="page_item page-item-98"><a href="http://opl.rit.edu/researchers/students/alex-wright/" title="Alex Wright">Alex Wright</a></li>
+		<li class="page_item page-item-106"><a href="http://opl.rit.edu/researchers/students/haizhen-zhang/" title="Haizhen Zhang">Haizhen Zhang</a></li>
+	</ul>
+</li>
+</ul>
+</li>
+<li class="page_item page-item-441"><a href="http://opl.rit.edu/news/" title="News+">News+</a></li>
+<li class="page_item page-item-182"><a href="http://opl.rit.edu/affiliates/" title="Affiliates">Affiliates</a></li>
+<li class="page_item page-item-54"><a href="http://opl.rit.edu/contact/" title="Contact Us">Contact Us</a></li>
+            </ul>
+            
+             <!-- SEARCH -->  
+             <form method="get" id="searchform" action="http://opl.rit.edu/">                
+                <div id="search">
+                    <input type="text" value="search" onfocus="if (this.value == 'search') {this.value = '';}" onblur="if (this.value == '') {this.value = 'search';}" name="s" id="s" />
+                    <input name="" type="hidden" value="Go" class="btn"  />
+                </div>                                                
+            </form>
+            <!-- end search -->  
+
+        </div>
+        <!-- end #menu -->        
+                
+    </div>
+    <!-- end #top -->
+       
+    <!-- Content Starts -->
+    <div id="content" class="white">
+	
+	<div id="main-full">
+	    
+	    	                                                              
+		<!-- Post Starts -->
+		<div class="post wrap">
+		    <h1>
+			<a href="http://opl.rit.edu" rel="bookmark" title=""></a>
+		    </h1>
+		    
+		    <h1 style="margin-top: -30px;"><img class="aligncenter" title="bulb" src="/wp-content/themes/metamorphosis/images/OPL_Lightbulb.png" alt="" width="675" height="525" /></h1>
+		</div>
+		<!-- Post Ends -->
+	      
+		<!-- Side Bar Starts -->
+		<div id="sidebar">
+		    	<!-- start Widget slider -->
+    <div id="loopedSlider">
+        <div id="slider-top"></div>
+        <div id="slider-block">
+                        <div class="container">
+		
+                                        <div id="slide-1" class="slide">
+                    	<ul class="widget"><h3>Announcements</h3>			<div class="textwidget"><p>The new Meetü game platform is now available as RC2 <a href='http://drupal.org/project/meetu' onclick='javascript:_gaq.push(['_trackEvent','outbound-widget','drupal.org']);'>Download now! </a></p>
+<p>Download the 2010 OPL Year in Review! <a href='http://opl.rit.edu/wp-content/uploads/2010/03/OPL_Year_In_Review_2010.pdf' onclick='javascript:_gaq.push(['_trackEvent','download','opl.rit.edu/wp-content/uploads/2010/03/OPL_Year_In_Review_2010.pdf']);'>Get it here!</a></p></div>
+		<h3>Downloads</h3>			<div class="textwidget"><p><a href='http://drupal.org/project/meetu' onclick='javascript:_gaq.push(['_trackEvent','outbound-widget','drupal.org']);'>Meetü</a></p>
+<p><a href='http://oplstaging.cias.rit.edu/projects/page2pub/download-page2pub' onclick='javascript:_gaq.push(['_trackEvent','outbound-widget','oplstaging.cias.rit.edu']);'>Page2Pub</a></p>
+<p><a href='http://drupal.org/project/innovationnewsprofile' onclick='javascript:_gaq.push(['_trackEvent','outbound-widget','drupal.org']);'>Innovation News</a></p></div>
+		<h3>Social Media</h3>			<div class="textwidget"><ul class="socialWrap">
+
+        <li class="socialLinks"><a href='http://www.facebook.com/group.php?sid=d6990561b28aaa94cd4c11614938f555&gid=10325593186' onclick='javascript:_gaq.push(['_trackEvent','outbound-widget','www.facebook.com']);' rel="external"><img src="http://cias-opl.rit.edu/mainRedesign/wp-content/themes/metamorphosis/images/facebook_32.png" alt="facebook icon" /></a></li>
+
+        <li class="socialLinks"><a href='http://flickr.com/photos/ritopl/' onclick='javascript:_gaq.push(['_trackEvent','outbound-widget','flickr.com']);' rel="external"><img src="http://cias-opl.rit.edu/mainRedesign/wp-content/themes/metamorphosis/images/flickr_32.png" alt="flickr icon" /></a></li>
+        <li class="socialLinks"><a href='http://twitter.com/ritopl' onclick='javascript:_gaq.push(['_trackEvent','outbound-widget','twitter.com']);' rel="external"><img src="http://cias-opl.rit.edu/mainRedesign/wp-content/themes/metamorphosis/images/twitter_32.png" alt="twitter icon" /></a></li>
+        <li class="socialLinks"><a href='http://www.vimeo.com/user1295106/videos' onclick='javascript:_gaq.push(['_trackEvent','outbound-widget','www.vimeo.com']);' rel="external"><img src="http://cias-opl.rit.edu/mainRedesign/wp-content/themes/metamorphosis/images/vimeo_32.png" alt="vimeo icon" /></a></li>
+         <li class="socialLinks"><a href='http://youtube.com/ritopl' onclick='javascript:_gaq.push(['_trackEvent','outbound-widget','youtube.com']);' rel="external"><img src="http://cias-opl.rit.edu/mainRedesign/wp-content/themes/metamorphosis/images/youtube_32.png" alt="youtube icon" /></a></li>
+    </ul>
+
+<br />
+</div>
+		</ul>
+			
+						
+                    </div>
+                                                            		      
+                    
+            </div>
+        </div>
+        <div id="slider-bot"></div>
+    </div>    
+    <!-- end Widget slider -->
+
+	
+	
+</div>
+<script type='text/javascript' src='http://opl.rit.edu/wp-includes/js/jquery/ui.core.js?ver=1.7.1'></script>
+<script type='text/javascript' src='http://opl.rit.edu/wp-includes/js/jquery/ui.tabs.js?ver=1.7.1'></script>
+<script type="text/javascript">
+<!--
+var getOptions = new Array();
+getOptions['showYear'] = 1;
+getOptions['showMonth'] = 1;
+getOptions['showWeek'] = 0;
+getOptions['showDay'] = 1;
+getOptions['showHour'] = 1;
+getOptions['showMinute'] = 1;
+getOptions['showSecond'] = 0;
+getOptions['stripZero'] = 1;
+var fergcorp_countdownTimer_js_language = new Array();
+fergcorp_countdownTimer_js_language['year'] = '%d year, ';
+fergcorp_countdownTimer_js_language['years'] = '%d years, ';
+fergcorp_countdownTimer_js_language['month'] = '%d month, ';
+fergcorp_countdownTimer_js_language['months'] = '%d months, ';
+fergcorp_countdownTimer_js_language['week'] = '%d week, ';
+fergcorp_countdownTimer_js_language['weeks'] = '%d weeks, ';
+fergcorp_countdownTimer_js_language['day'] = '%d day, ';
+fergcorp_countdownTimer_js_language['days'] = '%d days, ';
+fergcorp_countdownTimer_js_language['hour'] = '%d hour, ';
+fergcorp_countdownTimer_js_language['hours'] = '%d hours, ';
+fergcorp_countdownTimer_js_language['minute'] = '%d minute, ';
+fergcorp_countdownTimer_js_language['minutes'] = '%d minutes, ';
+fergcorp_countdownTimer_js_language['second'] = '%d second, ';
+fergcorp_countdownTimer_js_language['seconds'] = '%d seconds, ';
+fergcorp_countdownTimer_js_language['ago'] = '%s ago';
+fergcorp_countdownTimer_js_language['in'] = 'in %s';
+var fergcorp_countdownTimer_js_events = new Array();
+fergcorp_countdownTimer_js();
+//-->
+</script>
+<div class='rpx_comment_hint' id='rpx_comment_hint' style='display:none;'><a href='http://opl.rit.edu/wp-login.php' class='rpxnow' id='rpx_comment_hint_link'>Leave a verified comment using</a> <span id='rpx_provider_wrap'><a href='http://opl.rit.edu/wp-login.php' class='rpxnow'><img src='http://opl.rit.edu/wp-content/plugins/rpx/images/aol.png' class='rpx_provider_image' style='padding:5px;padding-bottom:0;'/></a><a href='http://opl.rit.edu/wp-login.php' class='rpxnow'><img src='http://opl.rit.edu/wp-content/plugins/rpx/images/facebook.png' class='rpx_provider_image' style='padding:5px;padding-bottom:0;'/></a><a href='http://opl.rit.edu/wp-login.php' class='rpxnow'><img src='http://opl.rit.edu/wp-content/plugins/rpx/images/google.png' class='rpx_provider_image' style='padding:5px;padding-bottom:0;'/></a><a href='http://opl.rit.edu/wp-login.php' class='rpxnow'><img src='http://opl.rit.edu/wp-content/plugins/rpx/images/twitter.png' class='rpx_provider_image' style='padding:5px;padding-bottom:0;'/></a><a href='http://opl.rit.edu/wp-login.php' class='rpxnow'><img src='http://opl.rit.edu/wp-content/plugins/rpx/images/myspace.png' class='rpx_provider_image' style='padding:5px;padding-bottom:0;'/></a><a href='http://opl.rit.edu/wp-login.php' class='rpxnow'><img src='http://opl.rit.edu/wp-content/plugins/rpx/images/openid.png' class='rpx_provider_image' style='padding:5px;padding-bottom:0;'/></a><a href='http://opl.rit.edu/wp-login.php' class='rpxnow'><img src='http://opl.rit.edu/wp-content/plugins/rpx/images/live.png' class='rpx_provider_image' style='padding:5px;padding-bottom:0;'/></a><a href='http://opl.rit.edu/wp-login.php' class='rpxnow'><img src='http://opl.rit.edu/wp-content/plugins/rpx/images/yahoo.png' class='rpx_provider_image' style='padding:5px;padding-bottom:0;'/></a></span> </div><script src="https://rpxnow.com/openid/v2/widget" type="text/javascript"></script>
+<script type="text/javascript">
+RPXNOW.token_url = "http://opl.rit.edu/?rpx_response=1&redirect_to=http%3A%2F%2Fopl.rit.edu%2F";
+RPXNOW.realm = "opl-overlay-login.rpxnow.com";
+RPXNOW.overlay = true;
+RPXNOW.ssl = true;
+RPXNOW.language_preference = 'en';
+</script>
+<script type="text/javascript">
+var rpx_hint = document.getElementById("rpx_comment_hint");
+var respond_div = document.getElementById("commentformbox");
+if (!respond_div) {
+  respond_div = document.getElementById("respond");
+}
+
+if (respond_div) {
+  respond_div.innerHTML = "<h3>Leave a Reply</h3>";
+  respond_div.appendChild(rpx_hint);
+  rpx_hint.style.display='block';
+}
+</script><script type="text/javascript"> Cufon.now(); </script>
+
+<!-- rpx login here -->
+<script type="text/javascript">
+  var rpxJsHost = (("https:" == document.location.protocol) ? "https://" : "http://static.");
+  document.write(unescape("%3Cscript src='" + rpxJsHost +
+"rpxnow.com/js/lib/rpx.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+  RPXNOW.overlay = true;
+  RPXNOW.language_preference = 'en';
+</script>
+		</div>
+		<!-- Side Bar Ends -->  
+                                 
+	    	    
+            <div class="more_entries wrap">
+                            </div> 
+            
+        </div><!-- main-full ends -->
+	
+    </div>
+    
+    <div id="content-bot"></div>
+    
+    <!-- copyright notice -->
+    <!-- copyright notice -->
+     <div id="blackbox" class="footerBox">
+	<p>
+	    <a href="http://opl.rit.edu">Home</a> |
+	    <a href="http://cias.rit.edu/printmedia/" title="" target="_blank">School of Print Media</a> |
+	    <a class="rpxnow" onclick="return false;" href="https://opl-overlay-login.rpxnow.com/openid/v2/signin?token_url=http%3A%2F%2Fcias-opl.rit.edu%2FmainRedesign%2F">OPL Login</a> |
+	    <a href="http://www.rit.edu/" title="" target="_blank">Rochester Institute of Technology</a> | <a href="/contact" title="">Contact</a>
+	</p>
+	
+	<p>
+	    <a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/us/" target="_blank">
+		<img alt="Creative Commons License" style="border-width:0; margin: 0 auto;" src="http://i.creativecommons.org/l/by-sa/3.0/us/88x31.png" />
+	    </a> This work is licensed under a
+	    <a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/us/" target="_blank">Creative Commons Attribution-Share Alike 3.0 United States License</a>
+	</p>
+    </div>
+    
+    </body>
+    
+</html>
