@@ -111,7 +111,7 @@
 				<div id="twitter">
 					<div class="twittertext">
 						<h2>Follow Us</h2>
-						<p class="feedcountdiv"><a href="http://twitter.com/onextrapixel" rel="nofollow">7764</a></p>
+						<p class="feedcountdiv"><a href="http://twitter.com/onextrapixel" rel="nofollow">7765</a></p>
 					</div>
 					<a href="http://twitter.com/onextrapixel" id="twitterlogo" rel="nofollow" class="tweet-head">Follow Us On Twitter!</a>
 				</div>
@@ -1234,9 +1234,9 @@ Thanks.</p>
 	
 		 		
 	<p>
-		<div class="clabel"><label for="mcspvalue">Spam Protection: 1 + 4= ?</label></div>
+		<div class="clabel"><label for="mcspvalue">Spam Protection: 3 + 9= ?</label></div>
 		<input type="text" name="mcspvalue" id="mcspvalue" value="" size="22" tabindex="4" />
-		<input type="hidden" name="mcspinfo" value="ae84c" />
+		<input type="hidden" name="mcspinfo" value="9d56e" />
 	</p>
 	
 		
@@ -1327,7 +1327,7 @@ Thanks.</p>
 			<div id="bubble"></div>
 			<div class="tweetlink"><a href="http://twitter.com/onextrapixel" rel="nofollow">Follow Us</a></div>
 		</div>
-		<ul class="tweets"><li><span class='entry-content'>New on OXP: 10 Most Bizarre Types of Typography <a href="http://su.pr/28PcNL" target="_blank">http://su.pr/28PcNL</a> (Please RT)</span> <span class='entry-meta'><span class='time-meta'><a href="http://twitter.com/onextrapixel/statuses/1.6078002832E+16" target="_blank">about 6 hours ago</a></span></span></li><li><span class='entry-content'>Winners of the Free SEO Account from My SEO Tool. <a href="http://ow.ly/3remQ" target="_blank">http://ow.ly/3remQ</a> Check out at the end of the article!</span> <span class='entry-meta'><span class='time-meta'><a href="http://twitter.com/onextrapixel/statuses/1.60597691188E+16" target="_blank">about 7 hours ago</a></span></span></li><li><span class='entry-content'>Customize Textarea Resizing with CSS <a href="http://ow.ly/3rcn5" target="_blank">http://ow.ly/3rcn5</a></span> <span class='entry-meta'><span class='time-meta'><a href="http://twitter.com/onextrapixel/statuses/1.60110323129E+16" target="_blank">about 10 hours ago</a></span></span></li><li><span class='entry-content'>DHTMLX Touch – New Framework for Mobile &#038; Touch Devices <a href="http://ow.ly/3rcmU" target="_blank">http://ow.ly/3rcmU</a></span> <span class='entry-meta'><span class='time-meta'><a href="http://twitter.com/onextrapixel/statuses/1.59932861498E+16" target="_blank">about 11 hours ago</a></span></span></li><li><span class='entry-content'>New on OXP: 26 Awesome Adobe Illustrator Brushes for Your Daily Use <a href="http://su.pr/9PJ5Aw" target="_blank">http://su.pr/9PJ5Aw</a> (Please RT)</span> <span class='entry-meta'><span class='time-meta'><a href="http://twitter.com/onextrapixel/statuses/1.57234627105E+16" target="_blank">11:02:20 AM December 17, 2010</a></span></span></li></ul>	</div>
+		<ul class="tweets"><li><span class='entry-content'>New on OXP: 10 Most Bizarre Types of Typography <a href="http://su.pr/28PcNL" target="_blank">http://su.pr/28PcNL</a> (Please RT)</span> <span class='entry-meta'><span class='time-meta'><a href="http://twitter.com/onextrapixel/statuses/1.6078002832E+16" target="_blank">about 8 hours ago</a></span></span></li><li><span class='entry-content'>Winners of the Free SEO Account from My SEO Tool. <a href="http://ow.ly/3remQ" target="_blank">http://ow.ly/3remQ</a> Check out at the end of the article!</span> <span class='entry-meta'><span class='time-meta'><a href="http://twitter.com/onextrapixel/statuses/1.60597691188E+16" target="_blank">about 9 hours ago</a></span></span></li><li><span class='entry-content'>Customize Textarea Resizing with CSS <a href="http://ow.ly/3rcn5" target="_blank">http://ow.ly/3rcn5</a></span> <span class='entry-meta'><span class='time-meta'><a href="http://twitter.com/onextrapixel/statuses/1.60110323129E+16" target="_blank">about 12 hours ago</a></span></span></li><li><span class='entry-content'>DHTMLX Touch – New Framework for Mobile &#038; Touch Devices <a href="http://ow.ly/3rcmU" target="_blank">http://ow.ly/3rcmU</a></span> <span class='entry-meta'><span class='time-meta'><a href="http://twitter.com/onextrapixel/statuses/1.59932861498E+16" target="_blank">about 13 hours ago</a></span></span></li><li><span class='entry-content'>New on OXP: 26 Awesome Adobe Illustrator Brushes for Your Daily Use <a href="http://su.pr/9PJ5Aw" target="_blank">http://su.pr/9PJ5Aw</a> (Please RT)</span> <span class='entry-meta'><span class='time-meta'><a href="http://twitter.com/onextrapixel/statuses/1.57234627105E+16" target="_blank">11:02:20 AM December 17, 2010</a></span></span></li></ul>	</div>
 		
 	<div id="splitbox">
 		<div id="sideleft">
@@ -1472,8 +1472,8 @@ Thanks.</p>
 <!-- Performance optimized by W3 Total Cache. Learn more: http://www.w3-edge.com/wordpress-plugins/
 
 Page Caching using disk (enhanced)
-Database Caching 3/12 queries in 0.008 seconds using disk
-Object Caching 1482/1581 objects using disk
+Database Caching 4/13 queries in 0.009 seconds using disk
+Object Caching 1479/1582 objects using disk
 Content Delivery Network via net.onextrapixel.com
 
-Served from: www.onextrapixel.com @ 2010-12-18 16:38:02 -->
+Served from: www.onextrapixel.com @ 2010-12-18 18:53:25 -->
