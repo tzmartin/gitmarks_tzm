@@ -1,0 +1,111 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head><meta http-equiv="content-type" content="text/html; charset=iso-8859-1" /><meta name="description" content="Your description goes here..." /><meta name="keywords" content="your,keywords,goes,here" /><meta name="author" content="Your Name / Design by Andreas Viklund - http://andreasviklund.com/" /><link rel="stylesheet" type="text/css" href="800px.css" title="800px style" media="screen,projection" /><title>
+	Pro Class Auto & Cycle Salvage
+</title></head>
+
+<body>
+<form name="mainform" method="post" action="Default.aspx" id="mainform">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUJMTA5NjAxNTA4D2QWAgIDD2QWAgIBDw8WAh4EVGV4dAUbU2F0dXJkYXksIERlY2VtYmVyIDE4LCAyMDEwZGRkNxtv7Cv//Ql5sJeM+mjQMrFu9R8=" />
+
+
+<div id="wrap">
+
+<div id="header">
+<p id="toplinks"> 
+    &nbsp;<span id="Label1"><font size="3">Saturday, December 18, 2010</font></span>
+    &nbsp; &nbsp; &nbsp; &nbsp;Phone us @ 440.748.1470 &nbsp;&nbsp; Visit us @ 11470
+    Hawke Road, Columbia Station, OH 44028</p>
+<h1>
+    <img id="Image1" class="topimage" src="images/tplogo.jpg" align="top" border="0" />&nbsp;
+</h1>
+</div>
+
+<div id="content">
+<h2>
+    Earn a few extra $$ - Sell us your junk car!</h2>
+    <em></em>
+    <address>
+        <em></em>
+    </address>
+    <p>
+        Call our new junk car hotline at 440-678-JUNK.&nbsp; We pay top $ for your junk
+        car, truck, SUV, or recreational vehicle.&nbsp; We'll even tow it away for you.</p>
+
+<h2>
+    Now on eBay! - Visit our new online store</h2>
+<p>
+    We have been working hard to post our inventory online at eBay.com so you can easily
+    purchase parts online.&nbsp;
+</p>
+    <p>
+        Visit our store online at:<a href="http://www.proclassauto.com/ebay"> http://www.proclassauto.com/ebay
+        </a>&nbsp;
+    </p>
+    <h2>
+        On-Site Installation and Repair</h2>
+    <p>
+        We can install your part right here at our shop.&nbsp;
+    Our on-site repair facility
+        offers complete auctomotive repair services at very competitve rates.
+    </p>
+    <h2>
+        Pro Class Auto is Environmentally Friendly</h2>
+    <p>
+        Unlike most parts and salvage facilities, Pro Class Auto is dedicated to proper
+        disposal of recycleable materials as well as keeping the ground free of oil and
+        debris.&nbsp; We are commited to keeping our facility environmentally safe.&nbsp;</p>
+    <h2>
+        &nbsp;Save time and $ - use car-part.com</h2>
+    <p>
+        We're now apart of the car-part community, listing thousands of parts online.&nbsp;
+        Car-Part.com is a search engine for millions of auto parts from facilities around
+        the world.</p>
+    <h2>
+        Student Discounts</h2>
+    <p>
+        Bring your school ID and automatically get an extra 10% off!&nbsp; -- 
+    </p>
+</div>
+
+<div id="sidebar">
+<h2>Welcome!</h2>
+<p>Pro
+        Class
+    Auto is your #1 source for OEM automotive and motorcycle parts and accessories.
+    &nbsp; We stock thousands of parts and have a unique part-locator service for those
+    unique and hard-to-find parts. &nbsp;</p>
+
+<h2>
+    Questions?</h2>
+<p>
+    If you have any questions , we're here to help -- give us a call
+    or e-mail anytime.</p>
+    <p>
+        440.748.1470</p>
+    <p>
+        <a href="mailto:service@proclassauto.com"><span style="font-size: 10pt">service@proclassauto.com</span></a></p>
+
+<h2>
+    Hours:</h2>
+<ul class="links">
+<li>Warehouse Open: &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; </li>&nbsp; 
+    <li>Monday-Friday</li>
+    <li>9am to 5pm</li>
+</ul>
+    <p>
+        After Hours and Weekends by Appointment.</p>
+</div>
+
+<div id="footer">
+<p><a href="contact.aspx">Contact Us</a> | <a href="map.aspx">
+        Driving Directions</a> | <a href="links.aspx">Links</a> | <a href="rp.aspx">Return Policy</a> | <a href="#header">Back to top</a><br />
+&copy; 2008 Pro Class Auto Cycle Salvage <a href="redirect.aspx?page=iictg">
+    </a></p>
+</div>
+
+</div>
+</form>
+</body>
+</html>
