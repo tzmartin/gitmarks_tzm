@@ -1,0 +1,1779 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html dir='ltr' xmlns='http://www.w3.org/1999/xhtml' xmlns:b='http://www.google.com/2005/gml/b' xmlns:data='http://www.google.com/2005/gml/data' xmlns:expr='http://www.google.com/2005/gml/expr'>
+<head>
+<meta content='text/html; charset=UTF-8' http-equiv='Content-Type'/>
+<script type="text/javascript">(function() { var a=window;function c(b){this.t={};this.tick=function(d,i,e){e=e?e:(new Date).getTime();this.t[d]=[e,i]};this.tick("start",null,b)}var f=new c;a.jstiming={Timer:c,load:f};try{var g=null;if(a.chrome&&a.chrome.csi)g=Math.floor(a.chrome.csi().pageT);if(g==null)if(a.gtbExternal)g=a.gtbExternal.pageT();if(g==null)if(a.external)g=a.external.pageT;if(g)a.jstiming.pt=g}catch(h){};a.tickAboveFold=function(b){b=b;var d=0;if(b.offsetParent){do d+=b.offsetTop;while(b=b.offsetParent)}b=d;b<=750&&a.jstiming.load.tick("aft")};var j=false;function k(){if(!j){j=true;a.jstiming.load.tick("firstScrollTime")}}a.addEventListener?a.addEventListener("scroll",k,false):a.attachEvent("onscroll",k);
+ })();</script>
+<meta content='true' name='MSSmartTagsPreventParsing'/>
+<meta content='blogger' name='generator'/>
+<link href='http://www.blogger.com/favicon.ico' rel='icon' type='image/vnd.microsoft.icon'/>
+<link href='http://publishingguru.blogspot.com/2009/08/thumbs-down-list-of-vanity-publishers.html' rel='canonical'/>
+<link rel="alternate" type="application/atom+xml" title="Ask the Publishing Guru - Atom" href="http://publishingguru.blogspot.com/feeds/posts/default" />
+<link rel="alternate" type="application/rss+xml" title="Ask the Publishing Guru - RSS" href="http://publishingguru.blogspot.com/feeds/posts/default?alt=rss" />
+<link rel="service.post" type="application/atom+xml" title="Ask the Publishing Guru - Atom" href="http://www.blogger.com/feeds/3311552286893704284/posts/default" />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://www.blogger.com/rsd.g?blogID=3311552286893704284" />
+<link rel="alternate" type="application/atom+xml" title="Ask the Publishing Guru - Atom" href="http://publishingguru.blogspot.com/feeds/7223007085036800375/comments/default" />
+<!--[if IE]> <script> (function() { var html5 = ("abbr,article,aside,audio,canvas,datalist,details," + "figure,footer,header,hgroup,mark,menu,meter,nav,output," + "progress,section,time,video").split(','); for (var i = 0; i < html5.length; i++) { document.createElement(html5[i]); } })(); </script> <![endif]-->
+<title>Ask the Publishing Guru: The Thumbs Down List of Vanity Publishers</title>
+<link type='text/css' rel='stylesheet' href='http://www.blogger.com/static/v1/widgets/1743847221-widget_css_bundle.css' />
+ <link rel="stylesheet" type="text/css" href="http://www.blogger.com/dyn-css/authorization.css?targetBlogID=3311552286893704284&zx=09168409-f542-4148-bff3-68292377a67c"/>
+<style type="text/css">#navbar-iframe { display:block }
+</style>
+
+<style id='page-skin-1' type='text/css'><!--
+/*
+-----------------------------------------------
+Blogger Template Style
+Name:     Minima
+Date:     26 Feb 2004
+Updated by: Blogger Team
+----------------------------------------------- */
+/* Variable definitions
+====================
+<Variable name="bgcolor" description="Page Background Color"
+type="color" default="#fff">
+<Variable name="textcolor" description="Text Color"
+type="color" default="#333">
+<Variable name="linkcolor" description="Link Color"
+type="color" default="#58a">
+<Variable name="pagetitlecolor" description="Blog Title Color"
+type="color" default="#666">
+<Variable name="descriptioncolor" description="Blog Description Color"
+type="color" default="#999">
+<Variable name="titlecolor" description="Post Title Color"
+type="color" default="#c60">
+<Variable name="bordercolor" description="Border Color"
+type="color" default="#ccc">
+<Variable name="sidebarcolor" description="Sidebar Title Color"
+type="color" default="#999">
+<Variable name="sidebartextcolor" description="Sidebar Text Color"
+type="color" default="#666">
+<Variable name="visitedlinkcolor" description="Visited Link Color"
+type="color" default="#999">
+<Variable name="bodyfont" description="Text Font"
+type="font" default="normal normal 100% Georgia, Serif">
+<Variable name="headerfont" description="Sidebar Title Font"
+type="font"
+default="normal normal 78% 'Trebuchet MS',Trebuchet,Arial,Verdana,Sans-serif">
+<Variable name="pagetitlefont" description="Blog Title Font"
+type="font"
+default="normal normal 200% Georgia, Serif">
+<Variable name="descriptionfont" description="Blog Description Font"
+type="font"
+default="normal normal 78% 'Trebuchet MS', Trebuchet, Arial, Verdana, Sans-serif">
+<Variable name="postfooterfont" description="Post Footer Font"
+type="font"
+default="normal normal 78% 'Trebuchet MS', Trebuchet, Arial, Verdana, Sans-serif">
+<Variable name="startSide" description="Side where text starts in blog language"
+type="automatic" default="left">
+<Variable name="endSide" description="Side where text ends in blog language"
+type="automatic" default="right">
+*/
+/* Use this with templates/template-twocol.html */
+body {
+background:#ffffff;
+margin:0;
+color:#333333;
+font:x-small Georgia Serif;
+font-size/* */:/**/small;
+font-size: /**/small;
+text-align: center;
+}
+a:link {
+color:#5588aa;
+text-decoration:none;
+}
+a:visited {
+color:#999999;
+text-decoration:none;
+}
+a:hover {
+color:#cc6600;
+text-decoration:underline;
+}
+a img {
+border-width:0;
+}
+/* Header
+-----------------------------------------------
+*/
+#header-wrapper {
+width:660px;
+margin:0 auto 10px;
+border:1px solid #cccccc;
+}
+#header-inner {
+background-position: center;
+margin-left: auto;
+margin-right: auto;
+}
+#header {
+margin: 5px;
+border: 1px solid #cccccc;
+text-align: center;
+color:#666666;
+}
+#header h1 {
+margin:5px 5px 0;
+padding:15px 20px .25em;
+line-height:1.2em;
+text-transform:uppercase;
+letter-spacing:.2em;
+font: normal normal 200% Georgia, Serif;
+}
+#header a {
+color:#666666;
+text-decoration:none;
+}
+#header a:hover {
+color:#666666;
+}
+#header .description {
+margin:0 5px 5px;
+padding:0 20px 15px;
+max-width:700px;
+text-transform:uppercase;
+letter-spacing:.2em;
+line-height: 1.4em;
+font: normal normal 78% 'Trebuchet MS', Trebuchet, Arial, Verdana, Sans-serif;
+color: #999999;
+}
+#header img {
+margin-left: auto;
+margin-right: auto;
+}
+/* Outer-Wrapper
+----------------------------------------------- */
+#outer-wrapper {
+width: 660px;
+margin:0 auto;
+padding:10px;
+text-align:left;
+font: normal normal 100% Georgia, Serif;
+}
+#main-wrapper {
+width: 410px;
+float: left;
+word-wrap: break-word; /* fix for long text breaking sidebar float in IE */
+overflow: hidden;     /* fix for long non-text content breaking IE sidebar float */
+}
+#sidebar-wrapper {
+width: 220px;
+float: right;
+word-wrap: break-word; /* fix for long text breaking sidebar float in IE */
+overflow: hidden;      /* fix for long non-text content breaking IE sidebar float */
+}
+/* Headings
+----------------------------------------------- */
+h2 {
+margin:1.5em 0 .75em;
+font:normal normal 78% 'Trebuchet MS',Trebuchet,Arial,Verdana,Sans-serif;
+line-height: 1.4em;
+text-transform:uppercase;
+letter-spacing:.2em;
+color:#999999;
+}
+/* Posts
+-----------------------------------------------
+*/
+h2.date-header {
+margin:1.5em 0 .5em;
+}
+.post {
+margin:.5em 0 1.5em;
+border-bottom:1px dotted #cccccc;
+padding-bottom:1.5em;
+}
+.post h3 {
+margin:.25em 0 0;
+padding:0 0 4px;
+font-size:140%;
+font-weight:normal;
+line-height:1.4em;
+color:#cc6600;
+}
+.post h3 a, .post h3 a:visited, .post h3 strong {
+display:block;
+text-decoration:none;
+color:#cc6600;
+font-weight:normal;
+}
+.post h3 strong, .post h3 a:hover {
+color:#333333;
+}
+.post-body {
+margin:0 0 .75em;
+line-height:1.6em;
+}
+.post-body blockquote {
+line-height:1.3em;
+}
+.post-footer {
+margin: .75em 0;
+color:#999999;
+text-transform:uppercase;
+letter-spacing:.1em;
+font: normal normal 78% 'Trebuchet MS', Trebuchet, Arial, Verdana, Sans-serif;
+line-height: 1.4em;
+}
+.comment-link {
+margin-left:.6em;
+}
+.post img, table.tr-caption-container {
+padding:4px;
+border:1px solid #cccccc;
+}
+.tr-caption-container img {
+border: none;
+padding: 0;
+}
+.post blockquote {
+margin:1em 20px;
+}
+.post blockquote p {
+margin:.75em 0;
+}
+/* Comments
+----------------------------------------------- */
+#comments h4 {
+margin:1em 0;
+font-weight: bold;
+line-height: 1.4em;
+text-transform:uppercase;
+letter-spacing:.2em;
+color: #999999;
+}
+#comments-block {
+margin:1em 0 1.5em;
+line-height:1.6em;
+}
+#comments-block .comment-author {
+margin:.5em 0;
+}
+#comments-block .comment-body {
+margin:.25em 0 0;
+}
+#comments-block .comment-footer {
+margin:-.25em 0 2em;
+line-height: 1.4em;
+text-transform:uppercase;
+letter-spacing:.1em;
+}
+#comments-block .comment-body p {
+margin:0 0 .75em;
+}
+.deleted-comment {
+font-style:italic;
+color:gray;
+}
+#blog-pager-newer-link {
+float: left;
+}
+#blog-pager-older-link {
+float: right;
+}
+#blog-pager {
+text-align: center;
+}
+.feed-links {
+clear: both;
+line-height: 2.5em;
+}
+/* Sidebar Content
+----------------------------------------------- */
+.sidebar {
+color: #666666;
+line-height: 1.5em;
+}
+.sidebar ul {
+list-style:none;
+margin:0 0 0;
+padding:0 0 0;
+}
+.sidebar li {
+margin:0;
+padding-top:0;
+padding-right:0;
+padding-bottom:.25em;
+padding-left:15px;
+text-indent:-15px;
+line-height:1.5em;
+}
+.sidebar .widget, .main .widget {
+border-bottom:1px dotted #cccccc;
+margin:0 0 1.5em;
+padding:0 0 1.5em;
+}
+.main .Blog {
+border-bottom-width: 0;
+}
+/* Profile
+----------------------------------------------- */
+.profile-img {
+float: left;
+margin-top: 0;
+margin-right: 5px;
+margin-bottom: 5px;
+margin-left: 0;
+padding: 4px;
+border: 1px solid #cccccc;
+}
+.profile-data {
+margin:0;
+text-transform:uppercase;
+letter-spacing:.1em;
+font: normal normal 78% 'Trebuchet MS', Trebuchet, Arial, Verdana, Sans-serif;
+color: #999999;
+font-weight: bold;
+line-height: 1.6em;
+}
+.profile-datablock {
+margin:.5em 0 .5em;
+}
+.profile-textblock {
+margin: 0.5em 0;
+line-height: 1.6em;
+}
+.profile-link {
+font: normal normal 78% 'Trebuchet MS', Trebuchet, Arial, Verdana, Sans-serif;
+text-transform: uppercase;
+letter-spacing: .1em;
+}
+/* Footer
+----------------------------------------------- */
+#footer {
+width:660px;
+clear:both;
+margin:0 auto;
+padding-top:15px;
+line-height: 1.6em;
+text-transform:uppercase;
+letter-spacing:.1em;
+text-align: center;
+}
+
+--></style>
+<script type="text/javascript">
+if (window.jstiming) window.jstiming.load.tick('headEnd');
+</script></head>
+<body>
+<div class='navbar section' id='navbar'><div class='widget Navbar' id='Navbar1'><script type="text/javascript">
+    function setAttributeOnload(object, attribute, val) {
+      if(window.addEventListener) {
+        window.addEventListener("load",
+          function(){ object[attribute] = val; }, false);
+      } else {
+        window.attachEvent('onload', function(){ object[attribute] = val; });
+      }
+    }
+  </script>
+<iframe src="http://www.blogger.com/navbar.g?targetBlogID=3311552286893704284&amp;blogName=Ask+the+Publishing+Guru&amp;publishMode=PUBLISH_MODE_BLOGSPOT&amp;navbarType=BLUE&amp;layoutType=LAYOUTS&amp;searchRoot=http%3A%2F%2Fpublishingguru.blogspot.com%2Fsearch&amp;blogLocale=en&amp;homepageUrl=http%3A%2F%2Fpublishingguru.blogspot.com%2F&amp;targetPostID=7223007085036800375" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" height="30px" width="100%" id="navbar-iframe" allowtransparency="true" title="Blogger Navigation and Search"></iframe>
+<div></div></div></div>
+<div id='outer-wrapper'><div id='wrap2'>
+<!-- skip links for text browsers -->
+<span id='skiplinks' style='display:none;'>
+<a href='#main'>skip to main </a> |
+      <a href='#sidebar'>skip to sidebar</a>
+</span>
+<div id='header-wrapper'>
+<div class='header section' id='header'><div class='widget Header' id='Header1'>
+<div id='header-inner' style='background-image: url("http://4.bp.blogspot.com/_D1dCGL7dJa4/S-Ok91xLp5I/AAAAAAAAAFE/PnCsnF_XFYE/S1600-R/vladstudio_googlelibrary_header.jpg"); background-position: left; min-height: 119px; _height: 119px; background-repeat: no-repeat; '>
+<div class='titlewrapper' style='background: transparent'>
+<h1 class='title' style='background: transparent; border-width: 0px'>
+<a href='http://publishingguru.blogspot.com/'>Ask the Publishing Guru</a>
+</h1>
+</div>
+<div class='descriptionwrapper'>
+<p class='description'><span>Writers have questions. I provide answers.</span></p>
+</div>
+</div>
+</div></div>
+</div>
+<div id='content-wrapper'>
+<div id='crosscol-wrapper' style='text-align:center'>
+<div class='crosscol section' id='crosscol'></div>
+</div>
+<div id='main-wrapper'>
+<div class='main section' id='main'><div class='widget Blog' id='Blog1'>
+<div class='blog-posts hfeed'>
+<!-- google_ad_section_start(name=default) -->
+
+          <div class="date-outer">
+        
+<h2 class='date-header'><span>Tuesday, August 18, 2009</span></h2>
+
+          <div class="date-posts">
+        
+<div class='post-outer'>
+<div class='post hentry uncustomized-post-template'>
+<a name='7223007085036800375'></a>
+<h3 class='post-title entry-title'>
+<a href='http://publishingguru.blogspot.com/2009/08/thumbs-down-list-of-vanity-publishers.html'>The Thumbs Down List of Vanity Publishers</a>
+</h3>
+<div class='post-header-line-1'></div>
+<div class='post-body entry-content'>
+<div class="separator" style="clear: both; text-align: center;"><a href="http://i462.photobucket.com/albums/qq347/davetevet/thumbs_down.jpg" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><span class="Apple-style-span" style="font-family: Georgia, 'Times New Roman', serif;"><img border="0" src="http://i462.photobucket.com/albums/qq347/davetevet/thumbs_down.jpg" /></span></a></div><div class="separator" style="clear: both; text-align: center;"><span class="Apple-style-span" style="font-family: Georgia, 'Times New Roman', serif;"><br />
+</span></div><span class="Apple-style-span" style="font-family: Georgia, 'Times New Roman', serif;">by Todd Rutherford</span><br />
+<span class="Apple-style-span" style="font-family: Georgia, 'Times New Roman', serif;"><br />
+</span><br />
+<span class="Apple-style-span" style="font-family: Georgia, 'Times New Roman', serif;">As I monitor the Twitterverse throughout the day, I see so many authors talking about so called self-publishing companies they are considering.  I know that they are really talking about a company that is a vanity publisher disguising themselves as a self-publishing company.  In an effort to help educate authors about the difference, I have compiled this list of companies you should avoid and why.</span><br />
+<span class="Apple-style-span" style="font-family: Georgia, 'Times New Roman', serif;"><br />
+</span><br />
+<span class="Apple-style-span" style="font-family: Georgia, 'Times New Roman', serif;">I define a </span><i><span class="Apple-style-span" style="font-family: Georgia, 'Times New Roman', serif;">vanity publisher</span></i><span class="Apple-style-span" style="font-family: Georgia, 'Times New Roman', serif;"> as a company that has one or more of the following abusive practices:</span><br />
+<span class="Apple-style-span" style="font-family: Georgia, 'Times New Roman', serif;"><br />
+</span><br />
+<span class="Apple-style-span" style="font-family: Georgia, 'Times New Roman', serif;">1. Charging fees for publishing related services and not paying the author 100% of the profit from their book sales.</span><br />
+<span class="Apple-style-span" style="font-family: Georgia, 'Times New Roman', serif;">2. Charging a fee and then tying up authors rights to their book.</span><br />
+<span class="Apple-style-span" style="font-family: Georgia, 'Times New Roman', serif;">3. Claiming to be a commercial publisher yet never commercially publishing anyone.</span><br />
+<span class="Apple-style-span" style="font-family: Georgia, 'Times New Roman', serif;">4. Publishing anything without warning authors that a book that is not properly edited, designed, distributed, and marketed will not have a chance of doing well.</span><br />
+<span class="Apple-style-span" style="font-family: Georgia, 'Times New Roman', serif;">5. Charging a fee for publishing services and not providing the author with source files for their book upon request at no additional charge.</span><br />
+<span class="Apple-style-span" style="font-family: Georgia, 'Times New Roman', serif;">6. Claiming to be a traditional publisher and providing poor editing, design and then simply setting up a book with Lightning Source.</span><br />
+<span class="Apple-style-span" style="font-family: Georgia, 'Times New Roman', serif;">7. Charging authors more than they can print books direct with Lightning Source or another reputable printer.</span><br />
+<span class="Apple-style-span" style="font-family: Georgia, 'Times New Roman', serif;"><br />
+</span><br />
+<span class="Apple-style-span" style="font-family: Georgia, 'Times New Roman', serif;"><b>Vanity Publishers</b>: (Based on my research)</span><br />
+<span class="Apple-style-span" style="font-family: Georgia, 'Times New Roman', serif;"><br />
+</span><br />
+<span class="Apple-style-span" style="font-family: Georgia, 'Times New Roman', serif;">Author Solutions and any form thereof</span><br />
+<div><span class="Apple-style-span" style="font-family: Georgia, 'Times New Roman', serif;">Tate Publishing</span><br />
+<span class="Apple-style-span" style="font-family: Georgia, 'Times New Roman', serif;">Publish America</span><br />
+<span class="Apple-style-span" style="font-family: Georgia, 'Times New Roman', serif;">Xulon Press</span><br />
+<span class="Apple-style-span" style="font-family: Georgia, 'Times New Roman', serif;">Author House</span><br />
+<span class="Apple-style-span" style="font-family: Georgia, 'Times New Roman', serif;">Lulu</span><br />
+<span class="Apple-style-span" style="font-family: Georgia, 'Times New Roman', serif;">Outskirts Press</span><br />
+<span class="Apple-style-span" style="font-family: Georgia, 'Times New Roman', serif;">Arbor Books</span><br />
+<span class="Apple-style-span" style="font-family: Georgia, 'Times New Roman', serif;">Authorhouse</span><br />
+<span class="Apple-style-span" style="font-family: Georgia, 'Times New Roman', serif;">The Beckham Publications Group</span><br />
+<span class="Apple-style-span" style="font-family: Georgia, 'Times New Roman', serif;">Dorrance Publishing</span><br />
+<span class="Apple-style-span" style="font-family: Georgia, 'Times New Roman', serif;">E-Booktime</span><br />
+<span class="Apple-style-span" style="font-family: Georgia, 'Times New Roman', serif;">Holy Fire Publishing</span><br />
+<span class="Apple-style-span" style="font-family: Georgia, 'Times New Roman', serif;">Indypublish</span><br />
+<span class="Apple-style-span" style="font-family: Georgia, 'Times New Roman', serif;">Inkwater Press</span><br />
+<span class="Apple-style-span" style="font-family: Georgia, 'Times New Roman', serif;">Ithica Press</span><br />
+<span class="Apple-style-span" style="font-family: Georgia, 'Times New Roman', serif;">iUniverse</span><br />
+<span class="Apple-style-span" style="font-family: Georgia, 'Times New Roman', serif;">Literary Architects</span><br />
+<span class="Apple-style-span" style="font-family: Georgia, 'Times New Roman', serif;">Pagefree Publishing</span><br />
+<span class="Apple-style-span" style="font-family: Georgia, 'Times New Roman', serif;">Pleasant Word</span><br />
+<span class="Apple-style-span" style="font-family: Georgia, 'Times New Roman', serif;">Publish to Go</span><br />
+<span class="Apple-style-span" style="font-family: Georgia, 'Times New Roman', serif;">Sirius Publications</span><br />
+<span class="Apple-style-span" style="font-family: Georgia, 'Times New Roman', serif;">Trafford Publishing</span><br />
+<span class="Apple-style-span" style="font-family: Georgia, 'Times New Roman', serif;">Wings Press</span><br />
+<span class="Apple-style-span" style="font-family: Georgia, 'Times New Roman', serif;">Xlibris</span><br />
+<span class="Apple-style-span" style="font-family: Georgia, 'Times New Roman', serif;">Arbor Books</span><br />
+<div><span class="Apple-style-span" style="font-family: Georgia, 'Times New Roman', serif;">West Bow Press</span></div><div><span class="Apple-style-span" style="font-family: Georgia, 'Times New Roman', serif;">New World Media</span></div><div><span class="Apple-style-span" style="font-family: Georgia, 'Times New Roman', serif;">American Book Publishing</span></div><div><span class="Apple-style-span" style="font-family: Georgia, 'Times New Roman', serif;">Durban House Publishing</span></div><div><span class="Apple-style-span" style="font-family: Georgia, 'Times New Roman', serif;">Harbor House</span></div><div><span class="Apple-style-span" style="font-family: Georgia, 'Times New Roman', serif;">Sterling House</span></div><div><span class="Apple-style-span" style="font-family: Georgia, 'Times New Roman', serif;">Helm Publishing</span></div><div><span class="Apple-style-span" style="font-family: Georgia, 'Times New Roman', serif;">AEG Publishing Group</span></div><div><span class="Apple-style-span" style="font-family: Georgia, 'Times New Roman', serif;">Archebooks Publishing</span><br />
+<span class="Apple-style-span" style="font-family: Georgia, 'Times New Roman', serif;">Whitmore Publishing</span></div><div><span class="Apple-style-span" style="font-family: Georgia, 'Times New Roman', serif;">Royal Fireworks Press</span></div><div><span class="Apple-style-span" style="font-family: Georgia, 'Times New Roman', serif;">Silk Label Books</span></div><div><span class="Apple-style-span" style="font-family: Georgia, 'Times New Roman', serif;">Oaktree Press</span></div><div><span class="Apple-style-span" style="font-family: Georgia, 'Times New Roman', serif;">Hillard and Harris</span></div><div><span class="Apple-style-span" style="font-family: Georgia, 'Times New Roman', serif;">Infinity Publishing</span></div><div><span class="Apple-style-span" style="font-family: Georgia, 'Times New Roman', serif;"><br />
+</span></div><div><span class="Apple-style-span" style="font-family: Georgia, 'Times New Roman', serif;">A true self-publishing service provider will charge reasonable fees for editing, design, printing set up, distribution set up, marketing, and publicity while allowing the author to retain control and 100% of the profit from the sales of their book.</span><br />
+<span class="Apple-style-span" style="font-family: Georgia, 'Times New Roman', serif;"><br />
+</span><br />
+<span class="Apple-style-span" style="font-family: Georgia, 'Times New Roman', serif;">I would like to add that you should be careful with the following additional companies because they are resellers of </span><a href="http://www.lightningsource.com/"><span class="Apple-style-span" style="font-family: Georgia, 'Times New Roman', serif;">Lighting Source</span></a><span class="Apple-style-span" style="font-family: Georgia, 'Times New Roman', serif;"> (LSI) and you can deal directly with Lightning Source which will allow you to print a B&amp;W interior book for $.015 per page and $.90 for the cover, or a full color interior book for $.05 per page and $1.00 for the cover, and provide you with distribution through 25,000 bookstores and libraries via their parent company Ingram for a $75 set up fee.  You will need to provide LSI with press ready files.  You can follow their guideline, or hire a reputable book design service provider to handle this for you.</span><br />
+<span class="Apple-style-span" style="font-family: Georgia, 'Times New Roman', serif;"><br />
+</span><br />
+<span class="Apple-style-span" style="font-family: Georgia, 'Times New Roman', serif;">Click here for list of Lighting Source Resellers</span><br />
+<span class="Apple-style-span" style="font-family: Georgia, 'Times New Roman', serif;"><br />
+</span><br />
+<a href="http://lightningsource.com/links.aspx#AuthorServicesLinks"><span class="Apple-style-span" style="font-family: Georgia, 'Times New Roman', serif;">http://lightningsource.com/links.aspx#AuthorServicesLinks</span></a><br />
+<span class="Apple-style-span" style="font-family: Georgia, 'Times New Roman', serif;"><br />
+</span><br />
+<span class="Apple-style-span" style="font-family: Georgia, 'Times New Roman', serif;">There are many legitimate companies out there that will help you with ghostwriting, writing coaching, editing, book design, and book marketing if you want to pursue the self-publishing path.</span><br />
+<span class="Apple-style-span" style="font-family: Georgia, 'Times New Roman', serif;"><br />
+</span><br />
+<span class="Apple-style-span" style="color: #29303b;"><span class="Apple-style-span" style="font-family: Georgia, 'Times New Roman', serif;">If you qualify, we will publish your book at our expense. Submit your <a href="http://www.yorkshirepublishing.com/">book proposal</a> to us for consideration.</span></span></div><div><span class="Apple-style-span" style="color: #29303b; font-family: Georgia, 'Times New Roman', sans-serif;"><span class="Apple-style-span" style="font-size: medium;"><br />
+</span></span></div></div>
+<div style='clear: both;'></div>
+</div>
+<div class='post-footer'>
+<div class='post-footer-line post-footer-line-1'>
+<span class='post-author vcard'>
+Posted by
+<span class='fn'>Todd Rutherford</span>
+</span>
+<span class='post-timestamp'>
+at
+<a class='timestamp-link' href='http://publishingguru.blogspot.com/2009/08/thumbs-down-list-of-vanity-publishers.html' rel='bookmark' title='permanent link'><abbr class='published' title='2009-08-18T19:26:00-05:00'>7:26 PM</abbr></a>
+</span>
+<span class='reaction-buttons'>
+<table border='0' cellpadding='0' cellspacing='0' width='100%'><tr>
+<td class='reactions-label-cell' nowrap='nowrap' valign='top' width='1%'>
+<span class='reactions-label'>
+Reactions:</span>&#160;</td>
+<td><iframe allowtransparency='true' class='reactions-iframe' frameborder='0' name='reactions' scrolling='no' src='http://www.blogger.com/blog-post-reactions.g?options=%5Bfunny%2C+interesting%2C+cool%5D&amp;textColor=%23333333#http://publishingguru.blogspot.com/2009/08/thumbs-down-list-of-vanity-publishers.html'></iframe></td>
+</tr></table>
+</span>
+<span class='star-ratings'>
+</span>
+<span class='post-comment-link'>
+</span>
+<span class='post-backlinks post-comment-link'>
+</span>
+<span class='post-icons'>
+<span class='item-action'>
+<a href='http://www.blogger.com/email-post.g?blogID=3311552286893704284&postID=7223007085036800375' title='Email Post'>
+<img alt='' class='icon-action' height='13' src='http://www.blogger.com/img/icon18_email.gif' width='18'/>
+</a>
+</span>
+<span class='item-control blog-admin pid-243026662'>
+<a href='http://www.blogger.com/post-edit.g?blogID=3311552286893704284&postID=7223007085036800375' title='Edit Post'>
+<img alt='' class='icon-action' height='18' src='http://img2.blogblog.com/img/icon18_edit_allbkg.gif' width='18'/>
+</a>
+</span>
+</span>
+</div>
+<div class='post-footer-line post-footer-line-2'>
+<span class='post-labels'>
+Labels:
+<a href='http://publishingguru.blogspot.com/search/label/Publishing' rel='tag'>Publishing</a>,
+<a href='http://publishingguru.blogspot.com/search/label/Self-Publishing' rel='tag'>Self-Publishing</a>
+</span>
+</div>
+<div class='post-footer-line post-footer-line-3'>
+<span class='post-location'>
+</span>
+</div>
+</div>
+</div>
+<div class='comments' id='comments'>
+<a name='comments'></a>
+<h4>
+21
+comments:
+        
+</h4>
+<div id='Blog1_comments-block-wrapper'>
+<dl class='avatar-comment-indent' id='comments-block'>
+<dt class='comment-author ' id='c7329575065725092678'>
+<a name='c7329575065725092678'></a>
+<div class="avatar-image-container vcard"><span dir="ltr"><a href="http://www.blogger.com/profile/16801562153128951524" rel="nofollow" onclick="" class="avatar-hovercard" id="av-0-16801562153128951524"><img src="http://img1.blogblog.com/img/blank.gif" width="35" height="35" alt="" class="delayLoad" style="display: none;" longdesc="http://2.bp.blogspot.com/_Ts11oico6XY/SeNf-IB8HnI/AAAAAAAAAEc/vjqc4AQ8G_8/S45/leslie_80x120.jpg" title="Leslie Smith">
+
+<noscript><img src="http://2.bp.blogspot.com/_Ts11oico6XY/SeNf-IB8HnI/AAAAAAAAAEc/vjqc4AQ8G_8/S45/leslie_80x120.jpg" width="35" height="35" class="photo" alt=""></noscript></a></span></div>
+<a href='http://www.blogger.com/profile/16801562153128951524' rel='nofollow'>Leslie Smith</a>
+said...
+</dt>
+<dd class='comment-body' id='Blog1_cmt-7329575065725092678'>
+<p>
+So good to know. I know of someone who used PublishAmerica and someone who used Tate. Neither have admitted anything not being above board. Perhaps they do not know any different. Thanks for enlightening us.
+</p>
+</dd>
+<dd class='comment-footer'>
+<span class='comment-timestamp'>
+<a href='http://publishingguru.blogspot.com/2009/08/thumbs-down-list-of-vanity-publishers.html?showComment=1250654592708#c7329575065725092678' title='comment permalink'>
+August 18, 2009 11:03 PM
+</a>
+<span class='item-control blog-admin pid-625093129'>
+<a class='comment-delete' href='http://www.blogger.com/delete-comment.g?blogID=3311552286893704284&postID=7329575065725092678' title='Delete Comment'>
+<img src='//www.blogger.com/img/icon_delete13.gif'/>
+</a>
+</span>
+</span>
+</dd>
+<dt class='comment-author ' id='c4006426554064386639'>
+<a name='c4006426554064386639'></a>
+<div class="avatar-image-container vcard"><span dir="ltr"><a href="http://www.blogger.com/profile/09373678955007426557" rel="nofollow" onclick="" class="avatar-hovercard" id="av-1-09373678955007426557"><img src="http://img1.blogblog.com/img/blank.gif" width="35" height="35" alt="" class="delayLoad" style="display: none;" longdesc="http://4.bp.blogspot.com/_h3z5nYAfACs/SYvUQbDRViI/AAAAAAAAAAw/L91ZbR-98C8/S45/lb7james.jpg" title="James C. Wallace II">
+
+<noscript><img src="http://4.bp.blogspot.com/_h3z5nYAfACs/SYvUQbDRViI/AAAAAAAAAAw/L91ZbR-98C8/S45/lb7james.jpg" width="35" height="35" class="photo" alt=""></noscript></a></span></div>
+<a href='http://www.blogger.com/profile/09373678955007426557' rel='nofollow'>James C. Wallace II</a>
+said...
+</dt>
+<dd class='comment-body' id='Blog1_cmt-4006426554064386639'>
+<p>
+I know two other very reputable non-vanity self-publishing companies.<br /><br />Lulu.com<br />Createspace.com<br /><br />They have served me well.
+</p>
+</dd>
+<dd class='comment-footer'>
+<span class='comment-timestamp'>
+<a href='http://publishingguru.blogspot.com/2009/08/thumbs-down-list-of-vanity-publishers.html?showComment=1250656994790#c4006426554064386639' title='comment permalink'>
+August 18, 2009 11:43 PM
+</a>
+<span class='item-control blog-admin pid-1561016454'>
+<a class='comment-delete' href='http://www.blogger.com/delete-comment.g?blogID=3311552286893704284&postID=4006426554064386639' title='Delete Comment'>
+<img src='//www.blogger.com/img/icon_delete13.gif'/>
+</a>
+</span>
+</span>
+</dd>
+<dt class='comment-author blog-author' id='c1515835812742294469'>
+<a name='c1515835812742294469'></a>
+<div class="avatar-image-container vcard"><span dir="ltr"><a href="http://www.blogger.com/profile/02593340500680812181" rel="nofollow" onclick="" class="avatar-hovercard" id="av-2-02593340500680812181"><img src="http://img1.blogblog.com/img/blank.gif" width="35" height="35" alt="" class="delayLoad" style="display: none;" longdesc="http://4.bp.blogspot.com/_D1dCGL7dJa4/SkYkFW36NfI/AAAAAAAAAAk/hkZU-WxnyJk/S45/sig_logo.gif" title="Todd Rutherford, Vice-President, Yorkshire Publishing">
+
+<noscript><img src="http://4.bp.blogspot.com/_D1dCGL7dJa4/SkYkFW36NfI/AAAAAAAAAAk/hkZU-WxnyJk/S45/sig_logo.gif" width="35" height="35" class="photo" alt=""></noscript></a></span></div>
+<a href='http://www.blogger.com/profile/02593340500680812181' rel='nofollow'>Todd Rutherford, Vice-President, Yorkshire Publishing</a>
+said...
+</dt>
+<dd class='comment-body' id='Blog1_cmt-1515835812742294469'>
+<p>
+James - In my opinion, Lulu is a vanity publisher because they are a reseller of LSI and they mark up the printing and keep some of the money on the back end and they don&#39;t do anything to deserve it.<br /><br />CreateSpace.com is a legitimate company owned by Amazon.com that offers great quality printing, best price, but distribution is limited to Amazon.com.  I recommend to my clients that we set their book up with LSI and CreateSpace.
+</p>
+</dd>
+<dd class='comment-footer'>
+<span class='comment-timestamp'>
+<a href='http://publishingguru.blogspot.com/2009/08/thumbs-down-list-of-vanity-publishers.html?showComment=1250657456643#c1515835812742294469' title='comment permalink'>
+August 18, 2009 11:50 PM
+</a>
+<span class='item-control blog-admin pid-243026662'>
+<a class='comment-delete' href='http://www.blogger.com/delete-comment.g?blogID=3311552286893704284&postID=1515835812742294469' title='Delete Comment'>
+<img src='//www.blogger.com/img/icon_delete13.gif'/>
+</a>
+</span>
+</span>
+</dd>
+<dt class='comment-author ' id='c2363834942466722608'>
+<a name='c2363834942466722608'></a>
+<div class="avatar-image-container avatar-stock"><span dir="ltr"><a href="http://www.angelasagelarsen.com" rel="nofollow" onclick=""><img src="http://img1.blogblog.com/img/blank.gif" width="16" height="16" alt="" title="Angela">
+
+</a></span></div>
+<a href='http://www.angelasagelarsen.com' rel='nofollow'>Angela</a>
+said...
+</dt>
+<dd class='comment-body' id='Blog1_cmt-2363834942466722608'>
+<p>
+Thanks for this fantastic post...been trying to collect all this info for a friend who is being &quot;pursued&quot; (yuck) by PublishAmerica and trying to explain to her and on my blog the deal with vanity presses. I independently published my book...literally hired my own editors, book designer, warehouse fulfillment service and 4-press printer and haven&#39;t looked back. It&#39;s been an awesome experience. The vanity presses sound like a nightmare. Thanks again for this VERY helpful info!
+</p>
+</dd>
+<dd class='comment-footer'>
+<span class='comment-timestamp'>
+<a href='http://publishingguru.blogspot.com/2009/08/thumbs-down-list-of-vanity-publishers.html?showComment=1250703141584#c2363834942466722608' title='comment permalink'>
+August 19, 2009 12:32 PM
+</a>
+<span class='item-control blog-admin pid-1609847847'>
+<a class='comment-delete' href='http://www.blogger.com/delete-comment.g?blogID=3311552286893704284&postID=2363834942466722608' title='Delete Comment'>
+<img src='//www.blogger.com/img/icon_delete13.gif'/>
+</a>
+</span>
+</span>
+</dd>
+<dt class='comment-author ' id='c2664849680246657472'>
+<a name='c2664849680246657472'></a>
+<div class="avatar-image-container avatar-stock"><span dir="ltr"><a href="http://www.blogger.com/profile/01038114256868212983" rel="nofollow" onclick="" class="avatar-hovercard" id="av-4-01038114256868212983"><img src="http://img2.blogblog.com/img/b16-rounded.gif" width="16" height="16" alt="" title="claudia">
+
+</a></span></div>
+<a href='http://www.blogger.com/profile/01038114256868212983' rel='nofollow'>claudia</a>
+said...
+</dt>
+<dd class='comment-body' id='Blog1_cmt-2664849680246657472'>
+<p>
+Excellent post!  At first I was worried, but whew, I feel better now. We are a small publishing company.  We use CreateSpace for our POD services.  After the publishing process is complete we return the accounts (Amazon, dtp, Mobipocket) to the author.  We do not manage or take royalties.  Although, we will answer questions to help our customers with some marketing issues, that is not our expertise.  Our focus is publishing a quality product for a reasonable price and taking care of our customers.<br /><br />I&#39;m glad to have met you PublishingGuru.  Not only are you incredibly helpful, I may need to send some customers to you.
+</p>
+</dd>
+<dd class='comment-footer'>
+<span class='comment-timestamp'>
+<a href='http://publishingguru.blogspot.com/2009/08/thumbs-down-list-of-vanity-publishers.html?showComment=1250784772711#c2664849680246657472' title='comment permalink'>
+August 20, 2009 11:12 AM
+</a>
+<span class='item-control blog-admin pid-1327040341'>
+<a class='comment-delete' href='http://www.blogger.com/delete-comment.g?blogID=3311552286893704284&postID=2664849680246657472' title='Delete Comment'>
+<img src='//www.blogger.com/img/icon_delete13.gif'/>
+</a>
+</span>
+</span>
+</dd>
+<dt class='comment-author ' id='c9106029501556629597'>
+<a name='c9106029501556629597'></a>
+<div class="avatar-image-container avatar-stock"><span dir="ltr"><a href="http://thealternativepoetry.blog.co.uk" rel="nofollow" onclick=""><img src="http://img1.blogblog.com/img/blank.gif" width="16" height="16" alt="" title="Michele Brenton/aka banana_the_poet">
+
+</a></span></div>
+<a href='http://thealternativepoetry.blog.co.uk' rel='nofollow'>Michele Brenton/aka banana_the_poet</a>
+said...
+</dt>
+<dd class='comment-body' id='Blog1_cmt-9106029501556629597'>
+<p>
+Hello :)<br />One question I have is about ISBN numbers.  I think I&#39;m right that CreateSpace provide an ISBN number for each book that goes through them &#39;free of charge&#39; - but does that ISBN number then mean that the book is technically speaking published by CreateSpace and not really self published by the author?<br /><br />I am about to publish with Lightning Source and I am buying my own ISBN numbers and setting up my own publishing company.<br /><br />What are the ramifications regarding owning your own ISBN numbers and using one provided by a publisher?<br /><br />I have a &#39;gut&#39; feeling it is better to own my own ISBN numbers but is that true or not?
+</p>
+</dd>
+<dd class='comment-footer'>
+<span class='comment-timestamp'>
+<a href='http://publishingguru.blogspot.com/2009/08/thumbs-down-list-of-vanity-publishers.html?showComment=1251093206496#c9106029501556629597' title='comment permalink'>
+August 24, 2009 12:53 AM
+</a>
+<span class='item-control blog-admin pid-1687783657'>
+<a class='comment-delete' href='http://www.blogger.com/delete-comment.g?blogID=3311552286893704284&postID=9106029501556629597' title='Delete Comment'>
+<img src='//www.blogger.com/img/icon_delete13.gif'/>
+</a>
+</span>
+</span>
+</dd>
+<dt class='comment-author ' id='c8824502191312388036'>
+<a name='c8824502191312388036'></a>
+<div class="avatar-image-container vcard"><span dir="ltr"><a href="http://www.blogger.com/profile/06173502263172128410" rel="nofollow" onclick="" class="avatar-hovercard" id="av-6-06173502263172128410"><img src="http://img1.blogblog.com/img/blank.gif" width="35" height="35" alt="" class="delayLoad" style="display: none;" longdesc="http://1.bp.blogspot.com/_mvUJCpyt6e8/SmvhYQPauFI/AAAAAAAAAKY/34kUODVODBc/S45/nita.JPG" title="Anita C. McCants">
+
+<noscript><img src="http://1.bp.blogspot.com/_mvUJCpyt6e8/SmvhYQPauFI/AAAAAAAAAKY/34kUODVODBc/S45/nita.JPG" width="35" height="35" class="photo" alt=""></noscript></a></span></div>
+<a href='http://www.blogger.com/profile/06173502263172128410' rel='nofollow'>Anita C. McCants</a>
+said...
+</dt>
+<dd class='comment-body' id='Blog1_cmt-8824502191312388036'>
+<p>
+Very informative!<br />I will share your link<br />on Twitter. :~)
+</p>
+</dd>
+<dd class='comment-footer'>
+<span class='comment-timestamp'>
+<a href='http://publishingguru.blogspot.com/2009/08/thumbs-down-list-of-vanity-publishers.html?showComment=1251314457856#c8824502191312388036' title='comment permalink'>
+August 26, 2009 2:20 PM
+</a>
+<span class='item-control blog-admin pid-1754599197'>
+<a class='comment-delete' href='http://www.blogger.com/delete-comment.g?blogID=3311552286893704284&postID=8824502191312388036' title='Delete Comment'>
+<img src='//www.blogger.com/img/icon_delete13.gif'/>
+</a>
+</span>
+</span>
+</dd>
+<dt class='comment-author ' id='c6224657956868908696'>
+<a name='c6224657956868908696'></a>
+<div class="avatar-image-container vcard"><span dir="ltr"><a href="http://www.blogger.com/profile/06200834208007553317" rel="nofollow" onclick="" class="avatar-hovercard" id="av-7-06200834208007553317"><img src="http://img1.blogblog.com/img/blank.gif" width="35" height="35" alt="" class="delayLoad" style="display: none;" longdesc="http://4.bp.blogspot.com/_BvFamGg9rmM/SXo7X0ewtcI/AAAAAAAAALs/dJNi9zvzuq0/S45/Senior%2BStuff%2Bn%2Bschool%2Bstuff%2Bn%2Brandom%2B09022.jpg" title="J.J. Day">
+
+<noscript><img src="http://4.bp.blogspot.com/_BvFamGg9rmM/SXo7X0ewtcI/AAAAAAAAALs/dJNi9zvzuq0/S45/Senior%2BStuff%2Bn%2Bschool%2Bstuff%2Bn%2Brandom%2B09022.jpg" width="35" height="35" class="photo" alt=""></noscript></a></span></div>
+<a href='http://www.blogger.com/profile/06200834208007553317' rel='nofollow'>J.J. Day</a>
+said...
+</dt>
+<dd class='comment-body' id='Blog1_cmt-6224657956868908696'>
+<p>
+This is really helpful, thanks.<br /><br />I will be coming back here.<br /><br />God Bless :)
+</p>
+</dd>
+<dd class='comment-footer'>
+<span class='comment-timestamp'>
+<a href='http://publishingguru.blogspot.com/2009/08/thumbs-down-list-of-vanity-publishers.html?showComment=1251401214446#c6224657956868908696' title='comment permalink'>
+August 27, 2009 2:26 PM
+</a>
+<span class='item-control blog-admin pid-1898987310'>
+<a class='comment-delete' href='http://www.blogger.com/delete-comment.g?blogID=3311552286893704284&postID=6224657956868908696' title='Delete Comment'>
+<img src='//www.blogger.com/img/icon_delete13.gif'/>
+</a>
+</span>
+</span>
+</dd>
+<dt class='comment-author ' id='c7905051096042098473'>
+<a name='c7905051096042098473'></a>
+<div class="avatar-image-container vcard"><span dir="ltr"><a href="http://www.blogger.com/profile/14572325935572298962" rel="nofollow" onclick="" class="avatar-hovercard" id="av-8-14572325935572298962"><img src="http://img1.blogblog.com/img/blank.gif" width="35" height="35" alt="" class="delayLoad" style="display: none;" longdesc="http://3.bp.blogspot.com/_bKXlng-gpg0/SZ5i2rAgMsI/AAAAAAAAEwM/kVZqvTVcOtk/S45/mnm-baby-phone.jpg" title="Michael">
+
+<noscript><img src="http://3.bp.blogspot.com/_bKXlng-gpg0/SZ5i2rAgMsI/AAAAAAAAEwM/kVZqvTVcOtk/S45/mnm-baby-phone.jpg" width="35" height="35" class="photo" alt=""></noscript></a></span></div>
+<a href='http://www.blogger.com/profile/14572325935572298962' rel='nofollow'>Michael</a>
+said...
+</dt>
+<dd class='comment-body' id='Blog1_cmt-7905051096042098473'>
+<p>
+To James...<br /><br />Lulu has published the absolutely worst book I&#39;ve ever read. The company has no standards and terrible customer support. The Lulu boss said, &#8220;We publish a huge number of really bad books.&#8221; If he knows they&#8217;re really bad books,  he shouldn&#8217;t publish them.<br /><br />---------<br /><br />To Michelle...<br /><br />If a book does not have _your_ ISBN, you are not the publisher, and therefore not a self-publisher.<br /><br />Just as no one can take a bath for you or eat lunch for you, no one can self-publish for you.<br /><br />Michael N. Marcus, author of &quot;Become a Real Self-Publisher&quot; -- due in September.<br /><br />http://BookMakingBlog.blogspot.com
+</p>
+</dd>
+<dd class='comment-footer'>
+<span class='comment-timestamp'>
+<a href='http://publishingguru.blogspot.com/2009/08/thumbs-down-list-of-vanity-publishers.html?showComment=1251557046717#c7905051096042098473' title='comment permalink'>
+August 29, 2009 9:44 AM
+</a>
+<span class='item-control blog-admin pid-1151591815'>
+<a class='comment-delete' href='http://www.blogger.com/delete-comment.g?blogID=3311552286893704284&postID=7905051096042098473' title='Delete Comment'>
+<img src='//www.blogger.com/img/icon_delete13.gif'/>
+</a>
+</span>
+</span>
+</dd>
+<dt class='comment-author blog-author' id='c308045163727960427'>
+<a name='c308045163727960427'></a>
+<div class="avatar-image-container vcard"><span dir="ltr"><a href="http://www.blogger.com/profile/02593340500680812181" rel="nofollow" onclick="" class="avatar-hovercard" id="av-9-02593340500680812181"><img src="http://img1.blogblog.com/img/blank.gif" width="35" height="35" alt="" class="delayLoad" style="display: none;" longdesc="http://4.bp.blogspot.com/_D1dCGL7dJa4/SkYkFW36NfI/AAAAAAAAAAk/hkZU-WxnyJk/S45/sig_logo.gif" title="Todd Rutherford, Vice-President, Yorkshire Publishing">
+
+<noscript><img src="http://4.bp.blogspot.com/_D1dCGL7dJa4/SkYkFW36NfI/AAAAAAAAAAk/hkZU-WxnyJk/S45/sig_logo.gif" width="35" height="35" class="photo" alt=""></noscript></a></span></div>
+<a href='http://www.blogger.com/profile/02593340500680812181' rel='nofollow'>Todd Rutherford, Vice-President, Yorkshire Publishing</a>
+said...
+</dt>
+<dd class='comment-body' id='Blog1_cmt-308045163727960427'>
+<p>
+I concur with Michael regarding the ISBN issue.  We allow our clients to use one of ours or use their own.  If you use one of ours, we can list your name as an &quot;imprint&quot;.  100% pure self-publishing would require you to have your own ISBN.  We can&#39;t self-publish for you, however we can assist you with the process.
+</p>
+</dd>
+<dd class='comment-footer'>
+<span class='comment-timestamp'>
+<a href='http://publishingguru.blogspot.com/2009/08/thumbs-down-list-of-vanity-publishers.html?showComment=1251561539686#c308045163727960427' title='comment permalink'>
+August 29, 2009 10:58 AM
+</a>
+<span class='item-control blog-admin pid-243026662'>
+<a class='comment-delete' href='http://www.blogger.com/delete-comment.g?blogID=3311552286893704284&postID=308045163727960427' title='Delete Comment'>
+<img src='//www.blogger.com/img/icon_delete13.gif'/>
+</a>
+</span>
+</span>
+</dd>
+<dt class='comment-author ' id='c789831132030446361'>
+<a name='c789831132030446361'></a>
+<div class="avatar-image-container avatar-stock"><span dir="ltr"><a href="http://www.millerdesignstudio.net/" rel="nofollow" onclick=""><img src="http://img1.blogblog.com/img/blank.gif" width="16" height="16" alt="" title="Tim Miller">
+
+</a></span></div>
+<a href='http://www.millerdesignstudio.net/' rel='nofollow'>Tim Miller</a>
+said...
+</dt>
+<dd class='comment-body' id='Blog1_cmt-789831132030446361'>
+<p>
+Although Lulu could probably be called a vanity press, they do make the process very easy for an author with a limited budget and limited audience. For example, a former English teacher of mine published her book on Lulu and has made about $500 so far selling it to friends and former students. However, on a fixed income she couldn&#39;t afford to pay upfront for the printing, so she was willing to take a smaller cut of the profits. CreateSpace was just getting started then, and I have been very impressed with their offerings, as well.
+</p>
+</dd>
+<dd class='comment-footer'>
+<span class='comment-timestamp'>
+<a href='http://publishingguru.blogspot.com/2009/08/thumbs-down-list-of-vanity-publishers.html?showComment=1252689886485#c789831132030446361' title='comment permalink'>
+September 11, 2009 12:24 PM
+</a>
+<span class='item-control blog-admin pid-1718345336'>
+<a class='comment-delete' href='http://www.blogger.com/delete-comment.g?blogID=3311552286893704284&postID=789831132030446361' title='Delete Comment'>
+<img src='//www.blogger.com/img/icon_delete13.gif'/>
+</a>
+</span>
+</span>
+</dd>
+<dt class='comment-author blog-author' id='c7626444110017061974'>
+<a name='c7626444110017061974'></a>
+<div class="avatar-image-container vcard"><span dir="ltr"><a href="http://www.blogger.com/profile/02593340500680812181" rel="nofollow" onclick="" class="avatar-hovercard" id="av-11-02593340500680812181"><img src="http://img1.blogblog.com/img/blank.gif" width="35" height="35" alt="" class="delayLoad" style="display: none;" longdesc="http://4.bp.blogspot.com/_D1dCGL7dJa4/SkYkFW36NfI/AAAAAAAAAAk/hkZU-WxnyJk/S45/sig_logo.gif" title="Todd Rutherford, Vice-President, Yorkshire Publishing">
+
+<noscript><img src="http://4.bp.blogspot.com/_D1dCGL7dJa4/SkYkFW36NfI/AAAAAAAAAAk/hkZU-WxnyJk/S45/sig_logo.gif" width="35" height="35" class="photo" alt=""></noscript></a></span></div>
+<a href='http://www.blogger.com/profile/02593340500680812181' rel='nofollow'>Todd Rutherford, Vice-President, Yorkshire Publishing</a>
+said...
+</dt>
+<dd class='comment-body' id='Blog1_cmt-7626444110017061974'>
+<p>
+It appears that Lulu was the best solution that your English teacher was aware of at the time.  The problem I have is that if she had known that Lulu is nothing but a shell wrapped over LightningSource.com(LSI), she could have worked directly with LSI and and had all the same benefits with more profit.
+</p>
+</dd>
+<dd class='comment-footer'>
+<span class='comment-timestamp'>
+<a href='http://publishingguru.blogspot.com/2009/08/thumbs-down-list-of-vanity-publishers.html?showComment=1252727583213#c7626444110017061974' title='comment permalink'>
+September 11, 2009 10:53 PM
+</a>
+<span class='item-control blog-admin pid-243026662'>
+<a class='comment-delete' href='http://www.blogger.com/delete-comment.g?blogID=3311552286893704284&postID=7626444110017061974' title='Delete Comment'>
+<img src='//www.blogger.com/img/icon_delete13.gif'/>
+</a>
+</span>
+</span>
+</dd>
+<dt class='comment-author ' id='c5700274056279991169'>
+<a name='c5700274056279991169'></a>
+<div class="avatar-image-container avatar-stock"><span dir="ltr"><img src="http://img1.blogblog.com/img/blank.gif" width="16" height="16" alt="" title="Anonymous">
+
+</span></div>
+Anonymous
+said...
+</dt>
+<dd class='comment-body' id='Blog1_cmt-5700274056279991169'>
+<p>
+Thank you for this post.  This is so informative.  I have been trying to decide which way to go, even though, I am a long way from ready to publish.  However, this certainly gives me great insight and will help with my decision when the time comes.<br />Warm Regards,
+</p>
+</dd>
+<dd class='comment-footer'>
+<span class='comment-timestamp'>
+<a href='http://publishingguru.blogspot.com/2009/08/thumbs-down-list-of-vanity-publishers.html?showComment=1254141484579#c5700274056279991169' title='comment permalink'>
+September 28, 2009 7:38 AM
+</a>
+<span class='item-control blog-admin pid-1501004022'>
+<a class='comment-delete' href='http://www.blogger.com/delete-comment.g?blogID=3311552286893704284&postID=5700274056279991169' title='Delete Comment'>
+<img src='//www.blogger.com/img/icon_delete13.gif'/>
+</a>
+</span>
+</span>
+</dd>
+<dt class='comment-author ' id='c3869848806146016463'>
+<a name='c3869848806146016463'></a>
+<div class="avatar-image-container vcard"><span dir="ltr"><a href="http://www.blogger.com/profile/14572325935572298962" rel="nofollow" onclick="" class="avatar-hovercard" id="av-13-14572325935572298962"><img src="http://img1.blogblog.com/img/blank.gif" width="35" height="35" alt="" class="delayLoad" style="display: none;" longdesc="http://3.bp.blogspot.com/_bKXlng-gpg0/SZ5i2rAgMsI/AAAAAAAAEwM/kVZqvTVcOtk/S45/mnm-baby-phone.jpg" title="Michael">
+
+<noscript><img src="http://3.bp.blogspot.com/_bKXlng-gpg0/SZ5i2rAgMsI/AAAAAAAAEwM/kVZqvTVcOtk/S45/mnm-baby-phone.jpg" width="35" height="35" class="photo" alt=""></noscript></a></span></div>
+<a href='http://www.blogger.com/profile/14572325935572298962' rel='nofollow'>Michael</a>
+said...
+</dt>
+<dd class='comment-body' id='Blog1_cmt-3869848806146016463'>
+<p>
+Todd said: &gt;&gt; Lulu is nothing but a shell wrapped over LightningSource.com&lt;&lt;<br /><br />It appears that Lulu may use printers other than Lulu. I had Lulu print one test book for me. The markings on the last page are not like those in LS books, and the packaging and shipping address were different, too.<br /><br />Strangely, Lulu&#39;s photographic reproduction was MUCH better than LS&#39;s.<br /><br />Unfortunately, Lulu printed on wrinkled paper (which I&#39;ve never seen in LS books), and text disappeared into the wrinkles.<br /><br />Michael N. Marcus<br />author of &quot;Become a Real Self-Publisher,&quot; due soon<br /><br />http://BookMakingBlog.blogspot.com&#39;<br />http://www.SilverSandsBooks.com
+</p>
+</dd>
+<dd class='comment-footer'>
+<span class='comment-timestamp'>
+<a href='http://publishingguru.blogspot.com/2009/08/thumbs-down-list-of-vanity-publishers.html?showComment=1255013776475#c3869848806146016463' title='comment permalink'>
+October 8, 2009 9:56 AM
+</a>
+<span class='item-control blog-admin pid-1151591815'>
+<a class='comment-delete' href='http://www.blogger.com/delete-comment.g?blogID=3311552286893704284&postID=3869848806146016463' title='Delete Comment'>
+<img src='//www.blogger.com/img/icon_delete13.gif'/>
+</a>
+</span>
+</span>
+</dd>
+<dt class='comment-author ' id='c999660326235960110'>
+<a name='c999660326235960110'></a>
+<div class="avatar-image-container vcard"><span dir="ltr"><a href="http://www.blogger.com/profile/07152826970185134084" rel="nofollow" onclick="" class="avatar-hovercard" id="av-14-07152826970185134084"><img src="http://img1.blogblog.com/img/blank.gif" width="35" height="35" alt="" class="delayLoad" style="display: none;" longdesc="http://2.bp.blogspot.com/_qf3HhAm37y8/SXqI_nh7bvI/AAAAAAAAAAk/jKidZ77BJSM/S45/typewriter.jpg" title="Henry Baum">
+
+<noscript><img src="http://2.bp.blogspot.com/_qf3HhAm37y8/SXqI_nh7bvI/AAAAAAAAAAk/jKidZ77BJSM/S45/typewriter.jpg" width="35" height="35" class="photo" alt=""></noscript></a></span></div>
+<a href='http://www.blogger.com/profile/07152826970185134084' rel='nofollow'>Henry Baum</a>
+said...
+</dt>
+<dd class='comment-body' id='Blog1_cmt-999660326235960110'>
+<p>
+Lulu has no upfront costs and allows you to publish immediately.  Yes, books are too expensive, but they&#39;re a highly-useful service.  <br /><br />I published with Lulu for my first book, LSI for my second.  Obviously think LSI is superior, but you can&#39;t totally knock the convenience Lulu offers, and you pay for that convenience.
+</p>
+</dd>
+<dd class='comment-footer'>
+<span class='comment-timestamp'>
+<a href='http://publishingguru.blogspot.com/2009/08/thumbs-down-list-of-vanity-publishers.html?showComment=1263936302636#c999660326235960110' title='comment permalink'>
+January 19, 2010 3:25 PM
+</a>
+<span class='item-control blog-admin pid-1816998572'>
+<a class='comment-delete' href='http://www.blogger.com/delete-comment.g?blogID=3311552286893704284&postID=999660326235960110' title='Delete Comment'>
+<img src='//www.blogger.com/img/icon_delete13.gif'/>
+</a>
+</span>
+</span>
+</dd>
+<dt class='comment-author blog-author' id='c8932558823370683421'>
+<a name='c8932558823370683421'></a>
+<div class="avatar-image-container vcard"><span dir="ltr"><a href="http://www.blogger.com/profile/02593340500680812181" rel="nofollow" onclick="" class="avatar-hovercard" id="av-15-02593340500680812181"><img src="http://img1.blogblog.com/img/blank.gif" width="35" height="35" alt="" class="delayLoad" style="display: none;" longdesc="http://4.bp.blogspot.com/_D1dCGL7dJa4/SkYkFW36NfI/AAAAAAAAAAk/hkZU-WxnyJk/S45/sig_logo.gif" title="Todd Rutherford, Vice-President of Yorkshire Publishing">
+
+<noscript><img src="http://4.bp.blogspot.com/_D1dCGL7dJa4/SkYkFW36NfI/AAAAAAAAAAk/hkZU-WxnyJk/S45/sig_logo.gif" width="35" height="35" class="photo" alt=""></noscript></a></span></div>
+<a href='http://www.blogger.com/profile/02593340500680812181' rel='nofollow'>Todd Rutherford, Vice-President of Yorkshire Publishing</a>
+said...
+</dt>
+<dd class='comment-body' id='Blog1_cmt-8932558823370683421'>
+<p>
+Henry,<br /><br />In my opinion, if an author has no money and wants to self-publish their book using an online template system, CreateSpace.com is a better solution than Lulu.  All the same benefits but dealing directly with the printer versus a reseller.<br /><br />I am bothered by the reality of 1000&#39;s of ill-informed authors signing up with Lulu in ignorance.  If an author is properly educated about their options and still chooses Lulu, then que sera sera.
+</p>
+</dd>
+<dd class='comment-footer'>
+<span class='comment-timestamp'>
+<a href='http://publishingguru.blogspot.com/2009/08/thumbs-down-list-of-vanity-publishers.html?showComment=1263937594458#c8932558823370683421' title='comment permalink'>
+January 19, 2010 3:46 PM
+</a>
+<span class='item-control blog-admin pid-243026662'>
+<a class='comment-delete' href='http://www.blogger.com/delete-comment.g?blogID=3311552286893704284&postID=8932558823370683421' title='Delete Comment'>
+<img src='//www.blogger.com/img/icon_delete13.gif'/>
+</a>
+</span>
+</span>
+</dd>
+<dt class='comment-author ' id='c8982458861533591576'>
+<a name='c8982458861533591576'></a>
+<div class="avatar-image-container vcard"><span dir="ltr"><a href="http://www.blogger.com/profile/09373678955007426557" rel="nofollow" onclick="" class="avatar-hovercard" id="av-16-09373678955007426557"><img src="http://img1.blogblog.com/img/blank.gif" width="35" height="35" alt="" class="delayLoad" style="display: none;" longdesc="http://4.bp.blogspot.com/_h3z5nYAfACs/SYvUQbDRViI/AAAAAAAAAAw/L91ZbR-98C8/S45/lb7james.jpg" title="James C. Wallace II">
+
+<noscript><img src="http://4.bp.blogspot.com/_h3z5nYAfACs/SYvUQbDRViI/AAAAAAAAAAw/L91ZbR-98C8/S45/lb7james.jpg" width="35" height="35" class="photo" alt=""></noscript></a></span></div>
+<a href='http://www.blogger.com/profile/09373678955007426557' rel='nofollow'>James C. Wallace II</a>
+said...
+</dt>
+<dd class='comment-body' id='Blog1_cmt-8982458861533591576'>
+<p>
+With book two, Shadow Demon of Oz still on track for a March 21st release date, I have decided to go with CreateSpace.com once more. I am curious now that Lulu.com no longer provides a resource for purchasing your own ISBN #, where can I go to purchase my own ISBN #? I prefer that over using CS ISBN #.
+</p>
+</dd>
+<dd class='comment-footer'>
+<span class='comment-timestamp'>
+<a href='http://publishingguru.blogspot.com/2009/08/thumbs-down-list-of-vanity-publishers.html?showComment=1263938714124#c8982458861533591576' title='comment permalink'>
+January 19, 2010 4:05 PM
+</a>
+<span class='item-control blog-admin pid-1561016454'>
+<a class='comment-delete' href='http://www.blogger.com/delete-comment.g?blogID=3311552286893704284&postID=8982458861533591576' title='Delete Comment'>
+<img src='//www.blogger.com/img/icon_delete13.gif'/>
+</a>
+</span>
+</span>
+</dd>
+<dt class='comment-author blog-author' id='c236479939500955915'>
+<a name='c236479939500955915'></a>
+<div class="avatar-image-container vcard"><span dir="ltr"><a href="http://www.blogger.com/profile/02593340500680812181" rel="nofollow" onclick="" class="avatar-hovercard" id="av-17-02593340500680812181"><img src="http://img1.blogblog.com/img/blank.gif" width="35" height="35" alt="" class="delayLoad" style="display: none;" longdesc="http://4.bp.blogspot.com/_D1dCGL7dJa4/SkYkFW36NfI/AAAAAAAAAAk/hkZU-WxnyJk/S45/sig_logo.gif" title="Todd Rutherford, Vice-President of Yorkshire Publishing">
+
+<noscript><img src="http://4.bp.blogspot.com/_D1dCGL7dJa4/SkYkFW36NfI/AAAAAAAAAAk/hkZU-WxnyJk/S45/sig_logo.gif" width="35" height="35" class="photo" alt=""></noscript></a></span></div>
+<a href='http://www.blogger.com/profile/02593340500680812181' rel='nofollow'>Todd Rutherford, Vice-President of Yorkshire Publishing</a>
+said...
+</dt>
+<dd class='comment-body' id='Blog1_cmt-236479939500955915'>
+<p>
+James,<br /><br />https://www.myidentifiers.com/
+</p>
+</dd>
+<dd class='comment-footer'>
+<span class='comment-timestamp'>
+<a href='http://publishingguru.blogspot.com/2009/08/thumbs-down-list-of-vanity-publishers.html?showComment=1263941337635#c236479939500955915' title='comment permalink'>
+January 19, 2010 4:48 PM
+</a>
+<span class='item-control blog-admin pid-243026662'>
+<a class='comment-delete' href='http://www.blogger.com/delete-comment.g?blogID=3311552286893704284&postID=236479939500955915' title='Delete Comment'>
+<img src='//www.blogger.com/img/icon_delete13.gif'/>
+</a>
+</span>
+</span>
+</dd>
+<dt class='comment-author ' id='c5584692436107156709'>
+<a name='c5584692436107156709'></a>
+<div class="avatar-image-container vcard"><span dir="ltr"><a href="http://www.blogger.com/profile/06215165006327644688" rel="nofollow" onclick="" class="avatar-hovercard" id="av-18-06215165006327644688"><img src="http://img1.blogblog.com/img/blank.gif" width="35" height="35" alt="" class="delayLoad" style="display: none;" longdesc="http://4.bp.blogspot.com/_eVEuq34oyns/Stv9SMQuxmI/AAAAAAAAAGw/8zxCnJEJj18/S45/t192.png" title="kael nevets">
+
+<noscript><img src="http://4.bp.blogspot.com/_eVEuq34oyns/Stv9SMQuxmI/AAAAAAAAAGw/8zxCnJEJj18/S45/t192.png" width="35" height="35" class="photo" alt=""></noscript></a></span></div>
+<a href='http://www.blogger.com/profile/06215165006327644688' rel='nofollow'>kael nevets</a>
+said...
+</dt>
+<dd class='comment-body' id='Blog1_cmt-5584692436107156709'>
+<p>
+Tell me what you think of Print on demand companies?<br /><br />By the way so far have enjoyed your posts,and agree with you that so many Authors are ignorant of the Vanity company&#39;s, indeed they seem so proud to be using Vanity I read of them often on Facebook.<br /><br />Something else that bothers me is the &#39;kindle&#39; so called book publishing that Amazon is pushing.<br /><br />All the best.<br /><br />nevetskael
+</p>
+</dd>
+<dd class='comment-footer'>
+<span class='comment-timestamp'>
+<a href='http://publishingguru.blogspot.com/2009/08/thumbs-down-list-of-vanity-publishers.html?showComment=1267069281593#c5584692436107156709' title='comment permalink'>
+February 24, 2010 9:41 PM
+</a>
+<span class='item-control blog-admin pid-1596519616'>
+<a class='comment-delete' href='http://www.blogger.com/delete-comment.g?blogID=3311552286893704284&postID=5584692436107156709' title='Delete Comment'>
+<img src='//www.blogger.com/img/icon_delete13.gif'/>
+</a>
+</span>
+</span>
+</dd>
+<dt class='comment-author blog-author' id='c3849056616687343049'>
+<a name='c3849056616687343049'></a>
+<div class="avatar-image-container vcard"><span dir="ltr"><a href="http://www.blogger.com/profile/02593340500680812181" rel="nofollow" onclick="" class="avatar-hovercard" id="av-19-02593340500680812181"><img src="http://img1.blogblog.com/img/blank.gif" width="35" height="35" alt="" class="delayLoad" style="display: none;" longdesc="http://4.bp.blogspot.com/_D1dCGL7dJa4/SkYkFW36NfI/AAAAAAAAAAk/hkZU-WxnyJk/S45/sig_logo.gif" title="Todd Rutherford, Vice-President of Yorkshire Publishing">
+
+<noscript><img src="http://4.bp.blogspot.com/_D1dCGL7dJa4/SkYkFW36NfI/AAAAAAAAAAk/hkZU-WxnyJk/S45/sig_logo.gif" width="35" height="35" class="photo" alt=""></noscript></a></span></div>
+<a href='http://www.blogger.com/profile/02593340500680812181' rel='nofollow'>Todd Rutherford, Vice-President of Yorkshire Publishing</a>
+said...
+</dt>
+<dd class='comment-body' id='Blog1_cmt-3849056616687343049'>
+<p>
+Kael,<br /><br />Your definition of a POD company may be different than mine. Many of the Vanity publishers I listed in this post use POD.<br /><br />Using a printer that has a POD system (LightningSource.com for example)to get started as a self-published author is what I recommend for most clients.<br /><br />What bothers you about Amazon&#39;s self-publishing platform for the Kindle?
+</p>
+</dd>
+<dd class='comment-footer'>
+<span class='comment-timestamp'>
+<a href='http://publishingguru.blogspot.com/2009/08/thumbs-down-list-of-vanity-publishers.html?showComment=1267113845380#c3849056616687343049' title='comment permalink'>
+February 25, 2010 10:04 AM
+</a>
+<span class='item-control blog-admin pid-243026662'>
+<a class='comment-delete' href='http://www.blogger.com/delete-comment.g?blogID=3311552286893704284&postID=3849056616687343049' title='Delete Comment'>
+<img src='//www.blogger.com/img/icon_delete13.gif'/>
+</a>
+</span>
+</span>
+</dd>
+<dt class='comment-author ' id='c6560885044471068422'>
+<a name='c6560885044471068422'></a>
+<div class="avatar-image-container avatar-stock"><span dir="ltr"><a href="http://www.resume-service.biz" rel="nofollow" onclick=""><img src="http://img1.blogblog.com/img/blank.gif" width="16" height="16" alt="" title="Resume Writing Service">
+
+</a></span></div>
+<a href='http://www.resume-service.biz' rel='nofollow'>Resume Writing Service</a>
+said...
+</dt>
+<dd class='comment-body' id='Blog1_cmt-6560885044471068422'>
+<p>
+It appears that Lulu was the best solution that your English teacher was aware of at the time.I published with Lulu for my first book, LSI for my second.
+</p>
+</dd>
+<dd class='comment-footer'>
+<span class='comment-timestamp'>
+<a href='http://publishingguru.blogspot.com/2009/08/thumbs-down-list-of-vanity-publishers.html?showComment=1282037077315#c6560885044471068422' title='comment permalink'>
+August 17, 2010 4:24 AM
+</a>
+<span class='item-control blog-admin pid-1834200838'>
+<a class='comment-delete' href='http://www.blogger.com/delete-comment.g?blogID=3311552286893704284&postID=6560885044471068422' title='Delete Comment'>
+<img src='//www.blogger.com/img/icon_delete13.gif'/>
+</a>
+</span>
+</span>
+</dd>
+</dl>
+</div>
+<p class='comment-footer'>
+<div class='comment-form'>
+<a name='comment-form'></a>
+<h4 id='comment-post-message'>Post a Comment</h4>
+<p>
+</p>
+<a href='http://www.blogger.com/comment-iframe.g?blogID=3311552286893704284&postID=7223007085036800375' id='comment-editor-src'></a>
+<iframe allowtransparency='true' class='blogger-iframe-colorize blogger-comment-from-post' frameborder='0' height='410' id='comment-editor' name='comment-editor' src='' width='100%'></iframe>
+<script type="text/javascript">
+        if (!window.google || !google.friendconnect) {
+          document.write('<script type="text/javascript"' +
+              'src="http://www.google.com/friendconnect/script/friendconnect.js">' +
+              '</scr' + 'ipt>');
+        }
+      </script>
+<script type="text/javascript">
+      if (!window.registeredBloggerCallbacks) {
+        window.registeredBloggerCallbacks = true;
+
+        
+
+        
+        gadgets.rpc.register('requestReload', function() {
+          document.location.reload();
+        });
+
+        
+        gadgets.rpc.register('requestSignOut', function(siteId) {
+          
+          google.friendconnect.container.openSocialSiteId = siteId;
+          google.friendconnect.requestSignOut();
+        });
+      }
+    </script>
+<script type="text/javascript">
+    
+    function registerGetBlogUrls() {
+      gadgets.rpc.register('getBlogUrls', function() {
+        var holder = {};
+        
+          
+            
+            
+              holder.currentPost = "http://www.blogger.com/feeds/3311552286893704284/posts/default/7223007085036800375";
+            
+            
+            
+              holder.currentComments = "http://www.blogger.com/feeds/3311552286893704284/7223007085036800375/comments/default";
+            
+            holder.currentPostUrl = "";
+            holder.currentPostId = 7223007085036800375
+          
+          
+          
+            holder.postFeed = "http://www.blogger.com/feeds/3311552286893704284/posts/default";
+          
+          
+          
+            holder.commentFeed = "http://www.blogger.com/feeds/3311552286893704284/comments/default";
+          
+          holder.currentBlogUrl = "http://publishingguru.blogspot.com/";
+          holder.currentBlogId = "3311552286893704284";
+        
+        return holder;
+      });
+    }
+  </script>
+<script type="text/javascript">
+  if (!window.registeredCommonBloggerCallbacks) {
+    window.registeredCommonBloggerCallbacks = true;
+
+    gadgets.rpc.register('resize_iframe', function(height) {
+      var el = document.getElementById(this['f']);
+      if (el) {
+        el.style.height = height + 'px';
+      }
+    });
+
+    
+    gadgets.rpc.register('set_pref', function() {});
+
+    registerGetBlogUrls();
+  }
+  </script>
+<script type="text/javascript" src="http://www.blogger.com/static/v1/jsbin/528630121-comment_from_post_iframe.js"></script>
+<script type='text/javascript'>
+      BLOG_CMT_createIframe('http://www.blogger.com/rpc_relay.html', '00495802801906163759');
+    </script>
+</div>
+</p>
+<div id='backlinks-container'>
+<div id='Blog1_backlinks-container'>
+</div>
+</div>
+</div>
+</div>
+<div id="latency-7223007085036800375"></div><script type="text/javascript">if (window['tickAboveFold']) {window['tickAboveFold'](document.getElementById("latency-7223007085036800375")); } </script>
+
+        </div></div>
+      
+<!-- google_ad_section_end -->
+</div>
+<div class='blog-pager' id='blog-pager'>
+<span id='blog-pager-newer-link'>
+<a class='blog-pager-newer-link' href='http://publishingguru.blogspot.com/2009/08/why-i-have-problem-with-lulu.html' id='Blog1_blog-pager-newer-link' title='Newer Post'>Newer Post</a>
+</span>
+<span id='blog-pager-older-link'>
+<a class='blog-pager-older-link' href='http://publishingguru.blogspot.com/2009/08/timelines-schedules-and-distractions.html' id='Blog1_blog-pager-older-link' title='Older Post'>Older Post</a>
+</span>
+<a class='home-link' href='http://publishingguru.blogspot.com/'>Home</a>
+</div>
+<div class='clear'></div>
+<div class='post-feeds'>
+<div class='feed-links'>
+Subscribe to:
+<a class='feed-link' href='http://publishingguru.blogspot.com/feeds/7223007085036800375/comments/default' target='_blank' type='application/atom+xml'>Post Comments (Atom)</a>
+</div>
+</div>
+</div></div>
+</div>
+<div id='sidebar-wrapper'>
+<div class='sidebar section' id='sidebar'><div class='widget HTML' id='HTML2'>
+<h2 class='title'>Free Daily Posts via E-Mail</h2>
+<div class='widget-content'>
+<form style="text-align:center;" action="http://feedburner.google.com/fb/a/mailverify" method="post" target="popupwindow" onsubmit="window.open('http://feedburner.google.com/fb/a/mailverify?uri=AskThePublishingGuru', 'popupwindow', 'scrollbars=yes,width=550,height=520');return true"><input name="email" onblur="if (this.value == &quot;&quot;) {this.value = &quot;Enter your email address&quot;;}" onfocus="if (this.value == &quot;Enter your email address&quot;) {this.value = &quot;&quot;}" style="width: 205px;" type="text" value="Enter your email address" /><input type="hidden" value="AskThePublishingGuru" name="uri" /><input type="hidden" name="loc" value="en_US" /><input type="submit" value="Subscribe" /><p>Delivered by <a href="http://feedburner.google.com" target="_blank">FeedBurner</a></p></form>
+</div>
+<div class='clear'></div>
+<span class='widget-item-control'>
+<span class='item-control blog-admin'>
+<a class='quickedit' href='http://www.blogger.com/rearrange?blogID=3311552286893704284&widgetType=HTML&widgetId=HTML2&action=editWidget' onclick='return _WidgetManager._PopupConfig(document.getElementById("HTML2"));' target='configHTML2' title='Edit'>
+<img alt='' height='18' src='http://img1.blogblog.com/img/icon18_wrench_allbkg.png' width='18'/>
+</a>
+</span>
+</span>
+<div class='clear'></div>
+</div><div class='widget HTML' id='HTML4'>
+<div class='widget-content'>
+<script type="text/javascript" language="JavaScript" src="http://twittercounter.com/embed/?username=PublishingGuru&style=bird"></script>
+</div>
+<div class='clear'></div>
+<span class='widget-item-control'>
+<span class='item-control blog-admin'>
+<a class='quickedit' href='http://www.blogger.com/rearrange?blogID=3311552286893704284&widgetType=HTML&widgetId=HTML4&action=editWidget' onclick='return _WidgetManager._PopupConfig(document.getElementById("HTML4"));' target='configHTML4' title='Edit'>
+<img alt='' height='18' src='http://img1.blogblog.com/img/icon18_wrench_allbkg.png' width='18'/>
+</a>
+</span>
+</span>
+<div class='clear'></div>
+</div><div class='widget HTML' id='HTML1'>
+<div class='widget-content'>
+<a href="http://twitter.grader.com/publishingguru"><img border="0" src="http://badge.twittergrader.com/twitterbadge.php?u=publishingguru&amp;s=1" /></a>
+</div>
+<div class='clear'></div>
+<span class='widget-item-control'>
+<span class='item-control blog-admin'>
+<a class='quickedit' href='http://www.blogger.com/rearrange?blogID=3311552286893704284&widgetType=HTML&widgetId=HTML1&action=editWidget' onclick='return _WidgetManager._PopupConfig(document.getElementById("HTML1"));' target='configHTML1' title='Edit'>
+<img alt='' height='18' src='http://img1.blogblog.com/img/icon18_wrench_allbkg.png' width='18'/>
+</a>
+</span>
+</span>
+<div class='clear'></div>
+</div><div class='widget Profile' id='Profile1'>
+<div class='widget-content'>
+<a href='http://www.blogger.com/profile/02593340500680812181'><img alt='My Photo' class='profile-img' height='80' src='http://2.bp.blogspot.com/_D1dCGL7dJa4/S-ApOPHXiII/AAAAAAAAADs/ufzCziZar-8/S220/MeAndJack.jpg' width='45'/></a>
+<dl class='profile-datablock'>
+<dt class='profile-data'>Todd Rutherford</dt>
+<dd class='profile-textblock'>From shooting rubber bands in the warehouse to running a publishing company, I know enough about everything to be dangerous.</dd>
+</dl>
+<a class='profile-link' href='http://www.blogger.com/profile/02593340500680812181'>View my complete profile</a>
+<div class='clear'></div>
+<span class='widget-item-control'>
+<span class='item-control blog-admin'>
+<a class='quickedit' href='http://www.blogger.com/rearrange?blogID=3311552286893704284&widgetType=Profile&widgetId=Profile1&action=editWidget' onclick='return _WidgetManager._PopupConfig(document.getElementById("Profile1"));' target='configProfile1' title='Edit'>
+<img alt='' height='18' src='http://img1.blogblog.com/img/icon18_wrench_allbkg.png' width='18'/>
+</a>
+</span>
+</span>
+<div class='clear'></div>
+</div>
+</div><div class='widget LinkList' id='LinkList1'>
+<div class='widget-content'>
+<ul>
+<li><a href='http://publishingguru.blogspot.com/2009/12/loading.html'>Contact Me</a></li>
+</ul>
+<div class='clear'></div>
+<span class='widget-item-control'>
+<span class='item-control blog-admin'>
+<a class='quickedit' href='http://www.blogger.com/rearrange?blogID=3311552286893704284&widgetType=LinkList&widgetId=LinkList1&action=editWidget' onclick='return _WidgetManager._PopupConfig(document.getElementById("LinkList1"));' target='configLinkList1' title='Edit'>
+<img alt='' height='18' src='http://img1.blogblog.com/img/icon18_wrench_allbkg.png' width='18'/>
+</a>
+</span>
+</span>
+<div class='clear'></div>
+</div>
+</div><div class='widget Label' id='Label1'>
+<h2>Subjects</h2>
+<div class='widget-content list-label-widget-content'>
+<ul>
+<li>
+<a dir='ltr' href='http://publishingguru.blogspot.com/search/label/Writing'>Writing</a>
+<span dir='ltr'>(231)</span>
+</li>
+<li>
+<a dir='ltr' href='http://publishingguru.blogspot.com/search/label/Book%20Marketing'>Book Marketing</a>
+<span dir='ltr'>(67)</span>
+</li>
+<li>
+<a dir='ltr' href='http://publishingguru.blogspot.com/search/label/Publishing'>Publishing</a>
+<span dir='ltr'>(32)</span>
+</li>
+</ul>
+<div class='clear'></div>
+<span class='widget-item-control'>
+<span class='item-control blog-admin'>
+<a class='quickedit' href='http://www.blogger.com/rearrange?blogID=3311552286893704284&widgetType=Label&widgetId=Label1&action=editWidget' onclick='return _WidgetManager._PopupConfig(document.getElementById("Label1"));' target='configLabel1' title='Edit'>
+<img alt='' height='18' src='http://img1.blogblog.com/img/icon18_wrench_allbkg.png' width='18'/>
+</a>
+</span>
+</span>
+<div class='clear'></div>
+</div>
+</div><div class='widget Gadget' id='Gadget2'>
+<h2 class='title'>Free Daily Posts via RSS</h2>
+<div class='widget-content'>
+<script type="text/javascript">
+        if (!window.gadgets || !gadgets.rpc) {
+          document.write('<script type="text/javascript"' +
+                  'src="//www-blogger-opensocial.googleusercontent.com/gadgets/js/rpc.js?container\x3dblogger\x26nocache\x3d0\x26debug\x3d0\x26c\x3d1\x26v\x3def294db3cd1123c6ced2d19f6b1410b3\x26sv\x3d1">' +
+                  '</scr' + 'ipt>');
+        }
+      </script>
+<script type="text/javascript">
+    
+    function registerGetBlogUrls() {
+      gadgets.rpc.register('getBlogUrls', function() {
+        var holder = {};
+        
+          
+            
+            
+              holder.currentPost = "http://www.blogger.com/feeds/3311552286893704284/posts/default/7223007085036800375";
+            
+            
+            
+              holder.currentComments = "http://www.blogger.com/feeds/3311552286893704284/7223007085036800375/comments/default";
+            
+            holder.currentPostUrl = "";
+            holder.currentPostId = 7223007085036800375
+          
+          
+          
+            holder.postFeed = "http://www.blogger.com/feeds/3311552286893704284/posts/default";
+          
+          
+          
+            holder.commentFeed = "http://www.blogger.com/feeds/3311552286893704284/comments/default";
+          
+          holder.currentBlogUrl = "http://publishingguru.blogspot.com/";
+          holder.currentBlogId = "3311552286893704284";
+        
+        return holder;
+      });
+    }
+  </script>
+<script type="text/javascript">
+  if (!window.registeredCommonBloggerCallbacks) {
+    window.registeredCommonBloggerCallbacks = true;
+
+    gadgets.rpc.register('resize_iframe', function(height) {
+      var el = document.getElementById(this['f']);
+      if (el) {
+        el.style.height = height + 'px';
+      }
+    });
+
+    
+    gadgets.rpc.register('set_pref', function() {});
+
+    registerGetBlogUrls();
+  }
+  </script>
+<iframe src="//www-blogger-opensocial.googleusercontent.com/gadgets/ifr?url=http%3A%2F%2Fwww.getrank.org%2Ffiles%2Ffeedburner%2Ffeedburner.xml&amp;container=blogger&amp;view=default&amp;lang=en&amp;country=ALL&amp;v=ca7433acdc986d36&amp;libs=com.google.gadgets.analytics%3Acore%3Adynamic-height%3Askins&amp;parent=http%3A%2F%2Fpublishingguru.blogspot.com%2F&amp;up_feedburnerid=askthepublishingguru&amp;up_alignment=center&amp;up_style=10&amp;mid=2#up_alignment=center&amp;up_feedburnerid=askthepublishingguru&amp;up_style=10&amp;st=e%3DAFlCd0VdTJCw7l3SiFsDC7fWY6BV5cWz4KFHIZcJIBqOU5njGH0Gju6g5ynBotwjo8kPtjrNKNC8cK%252F5mJfWAJpkI3HVKeUKyepNWKjKGAYX52PZ3EcWeXZizz6AafUfi8y1%252F1ap6I5h%26c%3Dblogger&amp;rpctoken=-447840218672245454" frameborder="0" style="width: 100%; display: block" height="130" id="sidebar-gadget2" name="sidebar-gadget2"></iframe>
+<script type="text/javascript">
+        gadgets.rpc.setRelayUrl("sidebar-gadget2", '//www-blogger-opensocial.googleusercontent.com/gadgets/files/container/rpc_relay.html');
+        gadgets.rpc.setAuthToken("sidebar-gadget2", "-447840218672245454");
+      </script>
+</div>
+<div class='clear'></div>
+<span class='widget-item-control'>
+<span class='item-control blog-admin'>
+<a class='quickedit' href='http://www.blogger.com/rearrange?blogID=3311552286893704284&widgetType=Gadget&widgetId=Gadget2&action=editWidget' onclick='return _WidgetManager._PopupConfig(document.getElementById("Gadget2"));' target='configGadget2' title='Edit'>
+<img alt='' height='18' src='http://img1.blogblog.com/img/icon18_wrench_allbkg.png' width='18'/>
+</a>
+</span>
+</span>
+<div class='clear'></div>
+</div><div class='widget BlogArchive' id='BlogArchive1'>
+<h2>Blog Archive</h2>
+<div class='widget-content'>
+<div id='ArchiveList'>
+<div id='BlogArchive1_ArchiveList'>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+          &#9658;&#160;
+        
+</span>
+</a>
+<a class='post-count-link' href='http://publishingguru.blogspot.com/search?updated-min=2010-01-01T00%3A00%3A00-06%3A00&updated-max=2011-01-01T00%3A00%3A00-06%3A00&max-results=50'>2010</a>
+<span class='post-count' dir='ltr'>(150)</span>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+          &#9658;&#160;
+        
+</span>
+</a>
+<a class='post-count-link' href='http://publishingguru.blogspot.com/2010_12_01_archive.html'>December</a>
+<span class='post-count' dir='ltr'>(2)</span>
+<ul class='posts'>
+<li><a href='http://publishingguru.blogspot.com/2010/12/5-writing-exercises-you-can-do-every.html'>5 Writing Exercises You Can Do Every Day</a></li>
+<li><a href='http://publishingguru.blogspot.com/2010/12/3-easy-ways-to-improve-your-writing.html'>3 Easy Ways to Improve Your Writing Skills</a></li>
+</ul>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+          &#9658;&#160;
+        
+</span>
+</a>
+<a class='post-count-link' href='http://publishingguru.blogspot.com/2010_11_01_archive.html'>November</a>
+<span class='post-count' dir='ltr'>(3)</span>
+<ul class='posts'>
+<li><a href='http://publishingguru.blogspot.com/2010/11/james-pattersona-best-selling-author.html'>James Patterson&#8212;A Best-Selling Author from Whom Yo...</a></li>
+<li><a href='http://publishingguru.blogspot.com/2010/11/what-character.html'>What a Character!</a></li>
+<li><a href='http://publishingguru.blogspot.com/2010/11/create-writing-life-you-want.html'>Create the Writing Life You Want</a></li>
+</ul>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+          &#9658;&#160;
+        
+</span>
+</a>
+<a class='post-count-link' href='http://publishingguru.blogspot.com/2010_10_01_archive.html'>October</a>
+<span class='post-count' dir='ltr'>(9)</span>
+<ul class='posts'>
+<li><a href='http://publishingguru.blogspot.com/2010/10/how-war-of-words-is-won.html'>How the War of Words is Won</a></li>
+<li><a href='http://publishingguru.blogspot.com/2010/10/effective-media-interviews-generate.html'>Effective Media Interviews Generate Book Sales</a></li>
+<li><a href='http://publishingguru.blogspot.com/2010/10/lost-for-words-tips-for-overcoming.html'>Lost For Words? Tips For Overcoming Writer&#39;s Block...</a></li>
+<li><a href='http://publishingguru.blogspot.com/2010/10/start-your-book.html'>Start Your Book</a></li>
+<li><a href='http://publishingguru.blogspot.com/2010/10/20-formatting-essentials-for-your.html'>20 Formatting Essentials For Your Manuscript</a></li>
+<li><a href='http://publishingguru.blogspot.com/2010/10/incitement-of-repressed-honor-physics.html'>Incitement of a Repressed Honor Physics Student</a></li>
+<li><a href='http://publishingguru.blogspot.com/2010/10/successful-interview-or-bust.html'>Successful Interview Or Bust</a></li>
+<li><a href='http://publishingguru.blogspot.com/2010/10/writing-is-occasional-writing-pauses.html'>Writing is Occasional Writing Pauses</a></li>
+<li><a href='http://publishingguru.blogspot.com/2010/10/how-kobe-bryant-flunked-personal.html'>How Kobe Bryant Flunked the Personal Branding Game...</a></li>
+</ul>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+          &#9658;&#160;
+        
+</span>
+</a>
+<a class='post-count-link' href='http://publishingguru.blogspot.com/2010_09_01_archive.html'>September</a>
+<span class='post-count' dir='ltr'>(19)</span>
+<ul class='posts'>
+<li><a href='http://publishingguru.blogspot.com/2010/09/time-management-how-to-find-time-to.html'>Time Management - How to Find Time to Write Your B...</a></li>
+<li><a href='http://publishingguru.blogspot.com/2010/09/write-fantasy-that-sells.html'>Write Fantasy That Sells!</a></li>
+<li><a href='http://publishingguru.blogspot.com/2010/09/5-writing-tips-from-professional.html'>5 Writing Tips From Professional Nonfiction Writer...</a></li>
+<li><a href='http://publishingguru.blogspot.com/2010/09/my-blog-post-writing-process.html'>My Blog Post Writing Process</a></li>
+<li><a href='http://publishingguru.blogspot.com/2010/09/do-you-have-good-negritude.html'>Do You Have a Good Negritude?</a></li>
+<li><a href='http://publishingguru.blogspot.com/2010/09/pr-for-beginners.html'>PR For Beginners</a></li>
+<li><a href='http://publishingguru.blogspot.com/2010/09/twitters-grammar-police.html'>Twitter&#39;s Grammar Police</a></li>
+<li><a href='http://publishingguru.blogspot.com/2010/09/tips-for-bloggers-generating-blog-post.html'>Tips for Bloggers - Generating Blog Post Ideas</a></li>
+<li><a href='http://publishingguru.blogspot.com/2010/09/writing-in-first-person-point-of-view.html'>Writing in the First Person Point of View</a></li>
+<li><a href='http://publishingguru.blogspot.com/2010/09/search-engine-marketing-basics-for.html'>Search Engine Marketing Basics for Blogging Author...</a></li>
+<li><a href='http://publishingguru.blogspot.com/2010/09/commonly-misused-word-pairs.html'>Commonly Misused Word Pairs</a></li>
+<li><a href='http://publishingguru.blogspot.com/2010/09/secret-of-writing-really-good-blog.html'>The Secret of Writing a Really Good Blog</a></li>
+<li><a href='http://publishingguru.blogspot.com/2010/09/press-release-creates-44-million-media.html'>Press Release Creates 4.4 Million Media Impression...</a></li>
+<li><a href='http://publishingguru.blogspot.com/2010/09/seven-steps-to-strong-paragraph.html'>Seven Steps to a Strong Paragraph</a></li>
+<li><a href='http://publishingguru.blogspot.com/2010/09/should-you-start-your-story-at.html'>Should You Start Your Story at the Beginning?</a></li>
+<li><a href='http://publishingguru.blogspot.com/2010/09/backstory-fictions-foundation.html'>The Backstory - Fiction&#39;s Foundation</a></li>
+<li><a href='http://publishingguru.blogspot.com/2010/09/success-secrets-of-highest-paid-authors.html'>The Success Secrets of the Highest Paid Authors</a></li>
+<li><a href='http://publishingguru.blogspot.com/2010/09/secret-to-getting-great-book-reviews-on.html'>The Secret to Getting Great Book Reviews on Amazon...</a></li>
+<li><a href='http://publishingguru.blogspot.com/2010/09/how-to-prepare-for-nanowrimo.html'>How To Prepare For NaNoWriMo</a></li>
+</ul>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+          &#9658;&#160;
+        
+</span>
+</a>
+<a class='post-count-link' href='http://publishingguru.blogspot.com/2010_08_01_archive.html'>August</a>
+<span class='post-count' dir='ltr'>(17)</span>
+<ul class='posts'>
+<li><a href='http://publishingguru.blogspot.com/2010/08/ereaders-demise-of-printed-book.html'>eReaders: The Demise of the Printed Book?</a></li>
+<li><a href='http://publishingguru.blogspot.com/2010/08/how-do-i-find-paying-writing-jobs.html'>How Do I Find Paying Writing Jobs?</a></li>
+<li><a href='http://publishingguru.blogspot.com/2010/08/read-books-to-children.html'>Read Books to Children</a></li>
+<li><a href='http://publishingguru.blogspot.com/2010/08/quit-your-whining-and-start-writing.html'>Quit Your Whining and Start Writing</a></li>
+<li><a href='http://publishingguru.blogspot.com/2010/08/you-can-write.html'>You Can Write</a></li>
+<li><a href='http://publishingguru.blogspot.com/2010/08/human-mind-written-words.html'>The Human Mind &amp; Written Words</a></li>
+<li><a href='http://publishingguru.blogspot.com/2010/08/five-fallacies-to-remove-in-your.html'>Five Fallacies to Remove in Your Writing</a></li>
+<li><a href='http://publishingguru.blogspot.com/2010/08/publicizing-your-book-13-rules-for.html'>Publicizing Your Book: 13 Rules For Getting the Mo...</a></li>
+<li><a href='http://publishingguru.blogspot.com/2010/08/using-strong-verbs-for-strong-writing.html'>Using Strong Verbs for Strong Writing</a></li>
+<li><a href='http://publishingguru.blogspot.com/2010/08/sentence-fragments-its-everyones.html'>Sentence Fragments - It&#39;s Everyone&#39;s Problem</a></li>
+<li><a href='http://publishingguru.blogspot.com/2010/08/criteria-to-consider-when-choosing.html'>Criteria to Consider When Choosing a Royalty-Free ...</a></li>
+<li><a href='http://publishingguru.blogspot.com/2010/08/four-ways-to-personalize-your-content.html'>Four Ways to Personalize Your Content and Capture ...</a></li>
+<li><a href='http://publishingguru.blogspot.com/2010/08/right-write-idea.html'>The Right Write Idea</a></li>
+<li><a href='http://publishingguru.blogspot.com/2010/08/your-author-photo-how-to-project-right.html'>Your Author Photo &#8211; How to Project the Right Image...</a></li>
+<li><a href='http://publishingguru.blogspot.com/2010/08/editor-before-editor.html'>The Editor Before the Editor</a></li>
+<li><a href='http://publishingguru.blogspot.com/2010/08/10-quick-tips-for-proofreading-your.html'>10 Quick Tips for Proofreading Your Writing</a></li>
+<li><a href='http://publishingguru.blogspot.com/2010/08/open-doors-along-journey-of-writing.html'>Open Doors Along the Journey of Writing</a></li>
+</ul>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+          &#9658;&#160;
+        
+</span>
+</a>
+<a class='post-count-link' href='http://publishingguru.blogspot.com/2010_07_01_archive.html'>July</a>
+<span class='post-count' dir='ltr'>(18)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+          &#9658;&#160;
+        
+</span>
+</a>
+<a class='post-count-link' href='http://publishingguru.blogspot.com/2010_06_01_archive.html'>June</a>
+<span class='post-count' dir='ltr'>(20)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+          &#9658;&#160;
+        
+</span>
+</a>
+<a class='post-count-link' href='http://publishingguru.blogspot.com/2010_05_01_archive.html'>May</a>
+<span class='post-count' dir='ltr'>(20)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+          &#9658;&#160;
+        
+</span>
+</a>
+<a class='post-count-link' href='http://publishingguru.blogspot.com/2010_04_01_archive.html'>April</a>
+<span class='post-count' dir='ltr'>(22)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+          &#9658;&#160;
+        
+</span>
+</a>
+<a class='post-count-link' href='http://publishingguru.blogspot.com/2010_03_01_archive.html'>March</a>
+<span class='post-count' dir='ltr'>(9)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+          &#9658;&#160;
+        
+</span>
+</a>
+<a class='post-count-link' href='http://publishingguru.blogspot.com/2010_02_01_archive.html'>February</a>
+<span class='post-count' dir='ltr'>(3)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+          &#9658;&#160;
+        
+</span>
+</a>
+<a class='post-count-link' href='http://publishingguru.blogspot.com/2010_01_01_archive.html'>January</a>
+<span class='post-count' dir='ltr'>(8)</span>
+</li>
+</ul>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate expanded'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy toggle-open'>&#9660;&#160;</span>
+</a>
+<a class='post-count-link' href='http://publishingguru.blogspot.com/search?updated-min=2009-01-01T00%3A00%3A00-06%3A00&updated-max=2010-01-01T00%3A00%3A00-06%3A00&max-results=50'>2009</a>
+<span class='post-count' dir='ltr'>(177)</span>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+          &#9658;&#160;
+        
+</span>
+</a>
+<a class='post-count-link' href='http://publishingguru.blogspot.com/2009_12_01_archive.html'>December</a>
+<span class='post-count' dir='ltr'>(10)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+          &#9658;&#160;
+        
+</span>
+</a>
+<a class='post-count-link' href='http://publishingguru.blogspot.com/2009_11_01_archive.html'>November</a>
+<span class='post-count' dir='ltr'>(5)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+          &#9658;&#160;
+        
+</span>
+</a>
+<a class='post-count-link' href='http://publishingguru.blogspot.com/2009_10_01_archive.html'>October</a>
+<span class='post-count' dir='ltr'>(5)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+          &#9658;&#160;
+        
+</span>
+</a>
+<a class='post-count-link' href='http://publishingguru.blogspot.com/2009_09_01_archive.html'>September</a>
+<span class='post-count' dir='ltr'>(18)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate expanded'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy toggle-open'>&#9660;&#160;</span>
+</a>
+<a class='post-count-link' href='http://publishingguru.blogspot.com/2009_08_01_archive.html'>August</a>
+<span class='post-count' dir='ltr'>(28)</span>
+<ul class='posts'>
+<li><a href='http://publishingguru.blogspot.com/2009/08/how-to-prepare-your-manuscript-for.html'>How To Prepare Your Manuscript for Publication</a></li>
+<li><a href='http://publishingguru.blogspot.com/2009/08/book-size-how-it-affects-everything.html'>Book Size: How It Affects &#8230;.Everything</a></li>
+<li><a href='http://publishingguru.blogspot.com/2009/08/cover-design-how-right-cover-design.html'>Cover Design: How The Right Cover Design Affects S...</a></li>
+<li><a href='http://publishingguru.blogspot.com/2009/08/how-to-incorporate-illustrations-charts.html'>How To Incorporate Illustrations, Charts and Table...</a></li>
+<li><a href='http://publishingguru.blogspot.com/2009/08/how-to-create-index.html'>How To Create an Index</a></li>
+<li><a href='http://publishingguru.blogspot.com/2009/08/manuscript-preparation-what-goes-in.html'>Manuscript Preparation: What Goes In The Front of ...</a></li>
+<li><a href='http://publishingguru.blogspot.com/2009/08/why-i-have-problem-with-lulu.html'>Why I Have a Problem with Lulu</a></li>
+<li><a href='http://publishingguru.blogspot.com/2009/08/thumbs-down-list-of-vanity-publishers.html'>The Thumbs Down List of Vanity Publishers</a></li>
+<li><a href='http://publishingguru.blogspot.com/2009/08/timelines-schedules-and-distractions.html'>Timelines, Schedules, and Distractions - Questions...</a></li>
+<li><a href='http://publishingguru.blogspot.com/2009/08/why-you-shouldnt-have-your-books-in.html'>Why You Shouldn&#39;t Have Your Books in Major Booksto...</a></li>
+<li><a href='http://publishingguru.blogspot.com/2009/08/getting-into-bookstores.html'>Getting Into Bookstores</a></li>
+<li><a href='http://publishingguru.blogspot.com/2009/08/how-to-get-books-into-bookstores.html'>How to Get Books into Bookstores</a></li>
+<li><a href='http://publishingguru.blogspot.com/2009/08/how-to-stay-motivated-as-writer.html'>How to Stay Motivated As a Writer</a></li>
+<li><a href='http://publishingguru.blogspot.com/2009/08/5-little-mistakes-that-may-stamp-stale.html'>5 Little Mistakes That May Stamp STALE On Your Boo...</a></li>
+<li><a href='http://publishingguru.blogspot.com/2009/08/using-pen-names-5-good-reasons-why-you.html'>Using Pen Names - 5 Good Reasons Why You Should Do...</a></li>
+<li><a href='http://publishingguru.blogspot.com/2009/08/make-your-writing-readable.html'>Make Your Writing Readable</a></li>
+<li><a href='http://publishingguru.blogspot.com/2009/08/how-to-improve-your-writing.html'>How to Improve Your Writing - Constructing Main Pl...</a></li>
+<li><a href='http://publishingguru.blogspot.com/2009/08/viewpoints-in-fiction-writing.html'>Viewpoints in Fiction Writing</a></li>
+<li><a href='http://publishingguru.blogspot.com/2009/08/writing-its-all-in-conflict.html'>Writing - It&#39;s All in the Conflict</a></li>
+<li><a href='http://publishingguru.blogspot.com/2009/08/how-to-build-writers-marketing-platform.html'>How to Build a Writer&#39;s Marketing Platform</a></li>
+<li><a href='http://publishingguru.blogspot.com/2009/08/secrets-of-amazon-best-seller-list.html'>Secrets Of The Amazon Best-Seller List</a></li>
+<li><a href='http://publishingguru.blogspot.com/2009/08/five-techniques-necessary-to-good.html'>Five Techniques Necessary to Good Writing</a></li>
+<li><a href='http://publishingguru.blogspot.com/2009/08/think-like-soap-opera-writer-to-create.html'>Think Like a Soap Opera Writer to Create Compellin...</a></li>
+<li><a href='http://publishingguru.blogspot.com/2009/08/how-to-write-like-journalist-4-key.html'>How To Write Like A Journalist &#8211; 4 Key Elements</a></li>
+<li><a href='http://publishingguru.blogspot.com/2009/08/finding-freelance-journalism-work.html'>Finding Freelance Journalism Work</a></li>
+<li><a href='http://publishingguru.blogspot.com/2009/08/whats-your-favorite-solution-to-writers.html'>What&#39;s Your Favorite Solution to Writer&#39;s Block?</a></li>
+<li><a href='http://publishingguru.blogspot.com/2009/08/plotting-in-storytelling.html'>Plotting in Storytelling</a></li>
+<li><a href='http://publishingguru.blogspot.com/2009/08/how-to-format-fiction-manuscript.html'>How to Format a Fiction Manuscript</a></li>
+</ul>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+          &#9658;&#160;
+        
+</span>
+</a>
+<a class='post-count-link' href='http://publishingguru.blogspot.com/2009_07_01_archive.html'>July</a>
+<span class='post-count' dir='ltr'>(110)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+          &#9658;&#160;
+        
+</span>
+</a>
+<a class='post-count-link' href='http://publishingguru.blogspot.com/2009_06_01_archive.html'>June</a>
+<span class='post-count' dir='ltr'>(1)</span>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+<div class='clear'></div>
+<span class='widget-item-control'>
+<span class='item-control blog-admin'>
+<a class='quickedit' href='http://www.blogger.com/rearrange?blogID=3311552286893704284&widgetType=BlogArchive&widgetId=BlogArchive1&action=editWidget' onclick='return _WidgetManager._PopupConfig(document.getElementById("BlogArchive1"));' target='configBlogArchive1' title='Edit'>
+<img alt='' height='18' src='http://img1.blogblog.com/img/icon18_wrench_allbkg.png' width='18'/>
+</a>
+</span>
+</span>
+<div class='clear'></div>
+</div>
+</div></div>
+</div>
+<!-- spacer for skins that want sidebar and main to be the same height-->
+<div class='clear'>&#160;</div>
+</div>
+<!-- end content-wrapper -->
+<div id='footer-wrapper'>
+<div class='footer section' id='footer'></div>
+</div>
+</div></div>
+<!-- end outer-wrapper -->
+<script type='text/javascript'>
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type='text/javascript'>
+try{
+var pageTracker = _gat._getTracker("UA-9719298-1");
+pageTracker._trackPageview();
+} catch(err) {}</script>
+<a href='http://www.wholinks2me.com/' title='Click here to see who\'s linking to my site.'>Who links to my website?</a>
+<script type="text/javascript">
+if (window.jstiming) window.jstiming.load.tick('widgetJsBefore');
+</script><script type="text/javascript" src="http://www.blogger.com/static/v1/widgets/512629240-widgets.js"></script>
+<script type='text/javascript'>
+if (typeof(BLOG_attachCsiOnload) != 'undefined' && BLOG_attachCsiOnload != null) { window['blogger_templates_experiment_id'] = "templatesV1";window['blogger_blog_id'] = '3311552286893704284';BLOG_attachCsiOnload('item_'); }_WidgetManager._Init('http://www.blogger.com/rearrange?blogID=3311552286893704284','http://publishingguru.blogspot.com/2009/08/thumbs-down-list-of-vanity-publishers.html','3311552286893704284');
+_WidgetManager._SetPageActionUrl('http://www.blogger.com/display?blogID=3311552286893704284','smwpbrbaNkobDFY1N0-8WyfD_wE:1292679680749','AOuZoY7FqCdCUdto5_3EKAkfppO6l3GjxA:1292679680749');
+_WidgetManager._SetDataContext([{'name': 'blog', 'data': {'title': 'Ask the Publishing Guru', 'pageType': 'item', 'url': 'http://publishingguru.blogspot.com/2009/08/thumbs-down-list-of-vanity-publishers.html', 'canonicalUrl': 'http://publishingguru.blogspot.com/2009/08/thumbs-down-list-of-vanity-publishers.html', 'homepageUrl': 'http://publishingguru.blogspot.com/', 'enabledCommentProfileImages': true, 'searchLabel': '', 'searchQuery': '', 'pageName': 'The Thumbs Down List of Vanity Publishers', 'pageTitle': 'Ask the Publishing Guru: The Thumbs Down List of Vanity Publishers', 'encoding': 'UTF-8', 'locale': 'en', 'isPrivate': false, 'isMobile': false, 'mobileClass': '', 'languageDirection': 'ltr', 'feedLinks': '\74link rel\75\42alternate\42 type\75\42application/atom+xml\42 title\75\42Ask the Publishing Guru - Atom\42 href\75\42http://publishingguru.blogspot.com/feeds/posts/default\42 /\76\n\74link rel\75\42alternate\42 type\75\42application/rss+xml\42 title\75\42Ask the Publishing Guru - RSS\42 href\75\42http://publishingguru.blogspot.com/feeds/posts/default?alt\75rss\42 /\76\n\74link rel\75\42service.post\42 type\75\42application/atom+xml\42 title\75\42Ask the Publishing Guru - Atom\42 href\75\42http://www.blogger.com/feeds/3311552286893704284/posts/default\42 /\76\n\74link rel\75\42EditURI\42 type\75\42application/rsd+xml\42 title\75\42RSD\42 href\75\42http://www.blogger.com/rsd.g?blogID\0753311552286893704284\42 /\76\n\74link rel\75\42alternate\42 type\75\42application/atom+xml\42 title\75\42Ask the Publishing Guru - Atom\42 href\75\42http://publishingguru.blogspot.com/feeds/7223007085036800375/comments/default\42 /\76\n', 'meTag': '', 'openIdOpTag': '', 'imageSrcTag': '', 'latencyHeadScript': '\74script type\75\42text/javascript\42\76(function() { var a\75window;function c(b){this.t\75{};this.tick\75function(d,i,e){e\75e?e:(new Date).getTime();this.t[d]\75[e,i]};this.tick(\42start\42,null,b)}var f\75new c;a.jstiming\75{Timer:c,load:f};try{var g\75null;if(a.chrome\46\46a.chrome.csi)g\75Math.floor(a.chrome.csi().pageT);if(g\75\75null)if(a.gtbExternal)g\75a.gtbExternal.pageT();if(g\75\75null)if(a.external)g\75a.external.pageT;if(g)a.jstiming.pt\75g}catch(h){};a.tickAboveFold\75function(b){b\75b;var d\0750;if(b.offsetParent){do d+\75b.offsetTop;while(b\75b.offsetParent)}b\75d;b\74\075750\46\46a.jstiming.load.tick(\42aft\42)};var j\75false;function k(){if(!j){j\75true;a.jstiming.load.tick(\42firstScrollTime\42)}}a.addEventListener?a.addEventListener(\42scroll\42,k,false):a.attachEvent(\42onscroll\42,k);\n })();\74/script\076', 'mobileHeadScript': ''}}]);
+_WidgetManager._RegisterWidget('_HTMLView', new _WidgetInfo('HTML2', 'sidebar', null, document.getElementById('HTML2'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_HTMLView', new _WidgetInfo('HTML4', 'sidebar', null, document.getElementById('HTML4'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_HTMLView', new _WidgetInfo('HTML1', 'sidebar', null, document.getElementById('HTML1'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_ProfileView', new _WidgetInfo('Profile1', 'sidebar', null, document.getElementById('Profile1'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_LinkListView', new _WidgetInfo('LinkList1', 'sidebar', null, document.getElementById('LinkList1'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_LabelView', new _WidgetInfo('Label1', 'sidebar', null, document.getElementById('Label1'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_GadgetView', new _WidgetInfo('Gadget2', 'sidebar', null, document.getElementById('Gadget2'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_BlogArchiveView', new _WidgetInfo('BlogArchive1', 'sidebar', null, document.getElementById('BlogArchive1'), {'languageDirection': 'ltr'}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_HeaderView', new _WidgetInfo('Header1', 'header'));
+_WidgetManager._RegisterWidget('_NavbarView', new _WidgetInfo('Navbar1', 'navbar'));
+_WidgetManager._RegisterWidget('_BlogView', new _WidgetInfo('Blog1', 'main', null, document.getElementById('Blog1'), {'cmtInteractionsEnabled': false, 'commentInteractionIframeUrl': 'http://www.blogger.com/comment-interaction-iframe.g?blogId\0753311552286893704284', 'mobile': false}, 'displayModeFull'));
+</script>
+</body>
+</html>
