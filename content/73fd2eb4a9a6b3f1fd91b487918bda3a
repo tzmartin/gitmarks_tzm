@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8" />
+		
+	<title>Cameron.io
+		
+	</title>
+	
+	<meta name="generator" content="Jekyll" />
+	<link rel="Shortcut Icon" href="/favicon.png" />
+	
+	<meta name="description" content="A blog written by Cameron Kenley Hunt about technology and other nerdery." />
+	<meta name="keywords" content="cameron hunt apple iphone css web design technology imac iphone programming" />
+	
+	<link rel="stylesheet" href="/css/print.css" type="text/css" media="print" charset="utf-8" />
+	<link rel="stylesheet" href="/css/style.css" type="text/css" media="screen" charset="utf-8" />
+	
+	<link rel="alternate" type="application/atom+xml" title="Cameron.io Everything" href="/atom.xml" />
+	
+	<!--[if IE]>
+		<script>
+			document.createElement("header");
+			document.createElement("nav");
+			document.createElement("section");
+			document.createElement("aside");
+			document.createElement("article");
+			document.createElement("footer");
+		</script>
+	<![endif]-->
+	<!-- That's right, IE. You my bitch. Eat my HTML5. -->
+	
+	</head>
+	<body>
+	
+		<section id="column1">
+			<a href="/" id="logo">Cameron.io logo</a>
+			
+			<nav>
+	<ul>
+		<li id="home"><a href="/">Home</a></li>
+		<li id="about"><a href="/about">About</a></li>
+		<li id="projects"><a href="/projects">Projects</a></li>
+	</ul>
+</nav>
+			
+			<a href="http://birdhouseapp.com/" id="birdhouse" title="Created by Adam Lisagor and Cameron Hunt">Birdhouse: A notepad for Twitter</a>
+		</section>
+		
+		<section id="column2">
+			<header>
+				<h1><a href="/"><strong>Cameron.io &mdash;</strong> <em>website of</em> Mr. <span class="uppercase">Cameron Kenley Hunt</span></a></h1>
+			</header>
+			
+			<section id="content">
+
+			
+	<article class="article">				
+		<h2 class="title"><a href="/the-spot-followup" rel="bookmark" title="Permanent link to post &quot;The Spot Followup&quot;">The Spot Followup</a></h2>
+		<time datetime=""><a href="/the-spot-followup" rel="bookmark" class="date">Jul 19, 2010</a></time>
+		
+		<br /><br />
+		
+		<p><a href="http://vimeo.com/12864890">My video</a> about the iPhone attenuation has about a hundred fifty thousand views. A lot of tech news sites picked it up after John Gruber linked to it, most of them citing it as a evidence of a huge problem.</p>
+
+<p>I presented the video &lsquo;as is&rsquo; without any opinion or commentary. I&rsquo;ve been happy with my iPhone 4. The fact is, it&rsquo;s better than the 3GS across the board. Falling short of absolute perfect reception (which, apparently no smartphone achieves) is understandable.</p>
+
+<p>A few notes:</p>
+
+<ul>
+<li>My brother was not able to reproduce the signal where he lives, however, he was able to reproduce it at my apartment. Seems I live in a reception black hole.</li>
+<li>I cannot reproduce the &ldquo;weak spot&rdquo; practically everywhere else I&rsquo;ve tried in and around downtown Portland.</li>
+<li>I&rsquo;ve had calls in my apartment with people in New York; theirs is the side that dropped.</li>
+<li>After the 4.0.1 update, my iPhone now displays four or three bars regularly and drops to one bar when I touch the &ldquo;weak spot&rdquo;. I can still pause a webpage while loading by touching it.</li>
+<li>I refuse to hide the industrial design with a case. Since I posted my video, I&rsquo;ve used it without a case and have experienced no reception issues day-to-day.</li>
+</ul>
+
+
+<p>Furthermore, some people are disappointed that Apple cannot conquer psychics and completely fix the widespread attenuation problem. Perhaps those are the people who should be called fanboy.</p>
+
+	</article>
+
+	<article class="article">				
+		<h2 class="title"><a href="/tinkering-for-the-rest-of-us" rel="bookmark" title="Permanent link to post &quot;Tinkering for the Rest of Us&quot;">Tinkering for the Rest of Us</a></h2>
+		<time datetime=""><a href="/tinkering-for-the-rest-of-us" rel="bookmark" class="date">Apr 02, 2010</a></time>
+		
+		<br /><br />
+		
+		<blockquote><p>So what does Marvel do to &ldquo;enhance&rdquo; its comics? They take away the right to give, sell or loan your comics. What an improvement. Way to take the joyous, marvellous sharing and bonding experience of comic reading and turn it into a passive, lonely undertaking that isolates, rather than unites.</p></blockquote>
+
+<p>Ah, yes. Now I remember <a href="http://gizmodo.com/5508130/why-i-wont-buy-an-ipad-and-think-you-shouldnt-either">why I dislike Cory Doctorow</a>.</p>
+
+<p>God forbid people actually share their comics on the iPad in real life. No, that would never happen. You know, like physical comics. It&rsquo;s better to make sensationalist and hyperbolic statements about a device and application you&rsquo;ve never used.</p>
+
+<p>The above quote is from Doctorow&rsquo;s article on why he won&rsquo;t get an iPad, how Apple is evil, DRM is evil, etc. The rest of the article is the same crazed sentimentality expressed in <a href="http://diveintomark.org/archives/2010/01/29/tinkerers-sunset">Tinkerer&rsquo;s Sunset</a>. Supposedly Apple making one platform &mdash; one &mdash; that does not allow you to run your own code by default somehow endangers the thousands of devices and platform that do.</p>
+
+<p>I grew up tinkering without programming. I took apart VCRs, I dabbled in HTML, I played in Photoshop. I&rsquo;m excited as hell for the iPad. Tinkering is more than being able to run your own software. Tinkering is an interest in how things work, and how to reproduce or alter that.</p>
+
+<p>Doctorow&rsquo;s and Mark Pilgrim&rsquo;s view of tinkering is painfully limited by their own experience. What about the thousands of children who will tinker with digital painting? Music? Sound mixing? Writing? Video? Photography? Illustration? Even HTML and Javascript authoring?</p>
+
+<p>Maybe having one device &mdash; one &mdash; for the <em>other</em> tinkerers isn&rsquo;t so terrible.</p>
+
+	</article>
+
+	<article class="article">				
+		<h2 class="title"><a href="/apples-buttons" rel="bookmark" title="Permanent link to post &quot;Apple&#8217;s Buttons&quot;">Apple&#8217;s Buttons</a></h2>
+		<time datetime=""><a href="/apples-buttons" rel="bookmark" class="date">Feb 01, 2010</a></time>
+		
+		<br /><br />
+		
+		<p>There&rsquo;s an odd sentiment among nerds that Steve Jobs (and the fine people at Apple) hate buttons. I have a different theory: they absolutely love buttons.</p>
+
+<p>Would you say to someone, &ldquo;Wow, you must hate dogs. You only have one. You enjoy his company and playing with him, but seriously, only one? What do you have against dogs?&rdquo;.</p>
+
+<p>No, you wouldn&rsquo;t say that. Because it&rsquo;s a stupid thing to say.</p>
+
+<p>The shallow assumption of Apple&rsquo;s buttons is they hate buttons, the deeper conclusion is they <em>love the shit</em> out of a few important buttons. I bet they obsess over the placement, color, label, push-back and feel of every single button on every Apple device.</p>
+
+<p>Why is the appropriate and careful use of buttons hateful? Love is shown in quality, not in wanton misuse.</p>
+
+	</article>
+
+	<article class="article">				
+		<h2 class="title"><a href="/no-chance" rel="bookmark" title="Permanent link to post &quot;No Chance&quot;">No Chance</a></h2>
+		<time datetime=""><a href="/no-chance" rel="bookmark" class="date">Dec 07, 2009</a></time>
+		
+		<br /><br />
+		
+		<p>About a week ago, <a href="http://daringfireball.net/linked/2009/12/01/iphone-claim-chowder">John Gruber linked</a> to an &ldquo;iPhone Death Watch&rdquo;. An interesting quote from Steve Ballmer was included; an unusually insightful prediction, and a predictably stupid conclusion.</p>
+
+<p>Here&rsquo;s the quote from the <a href="http://www.usatoday.com/money/companies/management/2007-04-29-ballmer-ceo-forum-usat_N.htm">original USA Today article</a>:</p>
+
+<blockquote><p>There&rsquo;s no chance that the iPhone is going to get any significant market share. No chance. It&rsquo;s a $500 subsidized item. They may make a lot of money. But if you actually take a look at the 1.3 billion phones that get sold, I&rsquo;d prefer to have our software in 60% or 70% or 80% of them, than I would to have 2% or 3%, which is what Apple might get.</p></blockquote>
+
+<p>His market share prediction seems more-or-less accurate. Two or three percent seems very reasonable since Apple was <a href="http://www.electronista.com/articles/09/10/30/phone.sales.to.bounce.back.in.fall/">recently reported</a> to have roughly 2.5% percent of  of the worldwide cell phone market. Ballmer, of course, overestimates Windows Mobile (which peaked at 11%). But it&rsquo;s less interesting Balmer continues to be wrong about Microsoft, and more interesting that he&rsquo;s absolutely right about Apple.</p>
+
+<p>&ldquo;They may make a lot of money&rdquo;. That is the nugget. That&rsquo;s solid gold. Because now, almost three years from the original iPhone announcement, Apple is <em>murdering</em> everyone else in profit.</p>
+
+<p>What surprises me is how Ballmer shrugs it off. So what if they make all the money in the world? It strikes me that Balmer isn&rsquo;t stupid, but deely in love with market share. Why not? It&rsquo;s what propelled Microsoft to fame.</p>
+
+	</article>
+
+	
+			</section>
+	
+			<aside>
+				<div id="ad">
+	<script type="text/javascript">
+	    /* <![CDATA[ */
+	    document.write('<scr' + 'ipt type="text/javascript" src="http://adn.fusionads.net/www/pull/get.php?zoneid=4&charset=UTF-8&withtext=1&cb=' + Math.floor(Math.random() * 99999999999) + '"></scr' + 'ipt>');
+	    /* ]]> */
+    </script>
+	
+	<a href="http://fusionads.net" class="fusionpowered" title="Powered by Fusion">POWERED <em>BY</em> FUSION</a>
+</div>
+			</aside>
+			
+			
+		
+			<footer>
+				<p class="copyright">Copyright <span class="dates">2007 - 2010</span> <strong>Cameron Kenley Hunt</strong> <em>(except where cited)</em></p>
+				<p class="meta">
+					<span class="generated">Generated <em>by</em> <strong><a href="http://github.com/mojombo/jekyll">Jekyll</a></strong></span>
+					<span class="hosted">Hosted <em>on</em> <strong><a href="https://www.nearlyfreespeech.net/">NFS.net</a></strong></span>
+					<span class="built">Built <em>with</em> <strong><a href="http://www.panic.com/coda/">Coda</a></strong></span>
+				</p>
+			</footer>
+		</section>
+
+	</body>
+</html>
