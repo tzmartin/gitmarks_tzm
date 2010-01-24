@@ -1,0 +1,174 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<!-- 
+********************* ATTENTION ******************
+
+Please do not run automated scripts against this
+site, we have put steps in place to disallow this.
+
+Most of this data can be directly downloaded with
+a paid subscription, and if you need anything that
+you can not get with a paid subscription, please
+contact support@telcodata.us to setup an arrangement.
+
+Also, if you really want an API, we're working on
+one. If you want to help shape it, get in now.
+
+And while you're at it, find a person today
+you wouldn't ordinarily talk to, and smile at them
+and say hi. Make sure you mean it when you smile.
+
+You have the power to brighten someone's day.
+
+**************************************************
+-->
+<html>
+  <head>
+    <meta name="description" content="Telcodata.US - The Telecommunications Database" />
+    <meta name="keywords" content="telecommunications database, telcodata, npa/nxx, ratecenter, wirecenter, centeral office, ocn, switch lookup, lata, tandem lookup" />
+    <title>TelcoData.US: View Switches in LATA</title>
+    <link rel="stylesheet" type="text/css" href="/css/telcodata.css" />
+  </head>
+  <body style="background-color: #EFEFEF;">
+
+  <!-- <body style="background-color: #88DD88;"> -->
+    <div id="logo" class="TelcoDataLogo">
+      <img src="/images/telcodata.jpg" alt="TelcoData.US - Telecommunications Database" width="340" height="70" /><br>
+      <p style="margin-top: -6px; padding: 0px; font-size: 10pt;">
+     Are you ready for IPv6? <a href="http://www.ipv6chicken.com/">Ask my chicken</a><br>
+Last Updated: Fri Dec 17 01:06:15 2010<br>
+
+      </p>
+    </div>
+    <div id="Menu" class="menu">
+      <div id="TelcoData" class="menulist">TelcoData.us</div>
+      <div id="TelcoData-Options" class="menulist">
+        <ul class="menulinks">
+           <li><a href="http://www.telcodata.us/">Main Page</a></li>
+           <li><a href="http://www.telcodata.us/faq">Frequently Asked Questions</a></li>
+           <li><a href="http://status.telcodata.us">Status Weblog</a></li>
+        </ul>
+      </div>
+     <br>
+      <div id="Subscription" class="menulist">Subscription Services</div>
+      <div id="Subscription-Options" class="menulist">
+        <ul class="menulinks">
+           <li><a href="https://www.telcodata.us/login">Login/Subscriber Menu</a></li>
+           <li><a href="https://www.telcodata.us/logout">Logout</a></li>
+           <li><a href="https://www.telcodata.us/signup">Signup</a></li>
+           <li><a href="http://www.telcodata.us/data-downloads">Downloads</a></li>
+           <li><a href="http://www.telcodata.us/query-by-csv-upload">CSV Upload Query</a></li>
+        </ul>
+      </div>
+     <br>
+      <div id="AreaCodeExchangeListing" class="menulist">Area Code / Exchange Listings By</div>
+      <div id="AreaCodeExchangeListing-Options" class="menulist">
+        <ul class="menulinks">
+           <li><a href="http://www.telcodata.us/search-area-code-exchange-detail">Area Code / Exchange</a></li>
+           <li><a href="http://www.telcodata.us/search-area-code-exchange-by-clli">CLLI</a></li>
+           <li><a href="http://www.telcodata.us/search-area-code-exchange-by-company-state">Company Name & State</a></li>
+           <li><a href="http://www.telcodata.us/search-area-code-exchange-by-ratecenter-state">Rate Center & State</a></li>
+           <li><a href="http://www.telcodata.us/search-area-code-exchange-by-ocn">OCN</a></li>
+           <li><a href="http://www.telcodata.us/search-area-code-exchange-by-lata">LATA</a></li>
+        </ul>
+      </div>
+     <br>
+      <div id="SwitchListing" class="menulist">Switch Listings By</div>
+      <div id="SwitchListing-Options" class="menulist">
+        <ul class="menulinks">
+           <li><a href="http://www.telcodata.us/search-switches-by-clli-code">CLLI</a></li>
+           <li><a href="http://www.telcodata.us/search-switches-by-tandem-clli">Tandem CLLI</a></li>
+           <li><a href="http://www.telcodata.us/search-switches-by-switch-type">Type</a></li>
+           <li><a href="http://www.telcodata.us/search-switches-by-lata">LATA</a></li>
+           <li><a href="http://www.telcodata.us/search-switches-by-city-state">City, State</a></li>
+           <li><a href="http://www.telcodata.us/search-switches-by-zip-code">Zip Code</a></li>
+        </ul>
+      </div>
+     <br>
+      <div id="OtherListing" class="menulist">Other Listings</div>
+      <div id="OtherListing-Options" class="menulist">
+        <ul class="menulinks">
+           <li><a href="http://www.telcodata.us/view-switch-detail-by-clli">Switch Detail by CLLI</a></li>
+           <li><a href="http://www.telcodata.us/search-cic-acna-tenten-info">CIC/ACNA Code Lookup</a></li>
+           <li><a href="http://www.telcodata.us/search-companies-by-area-code">Companies by Area Code</a></li>
+           <li><a href="http://www.telcodata.us/search-companies-by-state">Companies by State</a></li>
+           <li><a href="http://www.telcodata.us/search-area-codes-by-state">Area Codes by State</a></li>
+           <li><a href="http://www.telcodata.us/search-switches-companies-by-ratecenter-state">Switches & Companies by Rate Center & State</a></li>
+        </ul>
+      </div>
+     <br>
+      <div id="Reports" class="menulist">Reports</div>
+      <div id="Reports-Options" class="menulist">
+        <ul class="menulinks">
+           <li><a href="http://www.telcodata.us/new-exchanges-report">New Exchanges</a></li>
+        </ul>
+      </div>
+    </div>
+    <div id="Content" class="content">
+
+    <form>
+	LATA Number: <input name="lata" value="4178257808" size="3" maxlength="3" /><input type="submit" value="Search" /><br />
+	
+		If you were a <a href="https://www.telcodata.us/signup">paid member</a>, you could be loading this into any version of Excel or Access (or any other software that understands CSV) right now for less than you paid for your breakfast or lunch today. If you are a member please <a href="https://www.telcodata.us/login">login</a> to access this and other functionality.
+	
+</form>
+
+
+
+
+	Need a valid LATA
+
+
+    
+    </div>
+
+    <div id="WSPadding" style="width: auto; clear: both">
+    </div>
+    <div class="footer">
+      This information is not guaranteed to be accurate. User assumes all risk for any loss or gain resulting from use of this data.<br />
+      Although I strive for accuracy and prompt updates of changed information, it is possible that there may be errors. If you see one, could you please report it?<br />
+      Please report all errors, flames, questions, suggestions, and thanks to <a href="mailto:support@telcodata.us">Paul Timmins</a><br />
+
+      Please see the <a href="/faq.html">Frequently Asked Questions</a> page if you have any questions.<br />
+      Copyright &copy;2010, <a href="http://www.timmins.net/">Paul Timmins/Timmins Technologies, LLC.</a> All rights reserved<br />
+      Website Design and User Interface &copy;2010, <a href="http://www.revsolns.com/">Adam Botbyl/Revolutionary Solutions, LLC.</a><br />
+
+      Colocation generously provided by <a href="http://www.clearrate.com/">Clear Rate Communications, Inc</a><br />
+      Has this site changed your life? Made your job easier? I always love <a href="mailto:support@telcodata.us">Fanmail and Suggestions</a>.<br />
+    </div>
+    <!-- Start Quantcast tag -->
+    <script type="text/javascript">
+    _qoptions={
+    qacct:"p-e5KjneNH2Hx7g"
+    };
+    </script>
+    <script type="text/javascript" src="http://edge.quantserve.com/quant.js"></script>
+
+    <noscript>
+    <img src="http://pixel.quantserve.com/pixel/p-e5KjneNH2Hx7g.gif" style="display: none;" border="0" height="1" width="1" alt="Quantcast"/>
+    </noscript>
+    <!-- End Quantcast tag -->
+    <img src="http://ipv6.telcodata.us/images/ipv6test.gif" height=1 width=1/><!-- this is to see how many people are capable of using transitional technology like teredo -->
+    <a href="http://6bone.informatik.uni-leipzig.de/ipv6/stats/stats.php3"><img src="http://6bone.informatik.uni-leipzig.de/ipv6/stats/log.php3?URL=www.telcodata.us&ImageId=4&AltV4=7" border="0"></a>
+    <div id=ipv6_enabled_www_test_logo></div>
+<script language="JavaScript" type="text/javascript">
+    	var Ipv6_Js_Server = (("https:" == document.location.protocol) ? "https://" : "http://");
+	document.write(unescape("%3Cscript src='" + Ipv6_Js_Server + "www.ipv6forum.com/ipv6_enabled/sa/SA1.php?id=339' type='text/javascript'%3E%3C/script%3E"));
+</script>
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-15518466-3']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
+  </body>
+</html>
+
