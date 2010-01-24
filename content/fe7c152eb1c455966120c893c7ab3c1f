@@ -1,0 +1,439 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/transitional.dtd">
+<html>
+<head>
+
+<link rel="stylesheet" href="/claysite/templates/event_drop/basic/cstyle.css" type="text/css" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>Book Conference and Events | Book Industry Study Group</title>
+<meta name="keywords" content="book conference">
+<meta name="description" content="BISG hosts a number of book conference and industry-wide meetings each year to help foster communication in our industry.">
+
+<link href="/css/main.css" rel="stylesheet" type="text/css">
+<script type="text/javascript" src="/js/preload.js"></script>
+
+<!-- CALENDAR RENDERING -->
+<script type="text/javascript" src="/js/jquery-1.2.6.pack.js"></script>
+<script src="/js/jquery-events.js" type="text/javascript"></script>
+<!-- CALENDAR RENDERING -->
+
+<!-- FONT RENDERING -->
+<script src="/js/font/cufon-yui.js"></script>
+<script src="/js/font/Gotham.font.js"></script>
+<script src="/js/font/Gotham_bold.font.js"></script>
+<script src="/js/font/cufon-replace.js"></script>
+<!--<link rel="stylesheet" href="/css/font/stylesheet.css" type="text/css" charset="utf-8">-->
+<!-- FONT RENDERING -->
+</head>
+
+<body>
+
+
+
+
+<!-- Site Wrap - DO NOT DELETE -->
+<div id="mainWrap" class="typeface-js">
+<!-- Site Wrap - DO NOT DELETE -->
+<script type="text/javascript">
+function searchSite(){
+	document.getElementById('searchForm').submit();
+}; 
+
+sfHover = function() {
+	var sfEls = document.getElementById("nav").getElementsByTagName("LI");
+	for (var i=0; i<sfEls.length; i++) {
+		sfEls[i].onmouseover=function() {
+			this.className+=" sfhover";
+		}
+		sfEls[i].onmouseout=function() {
+			this.className=this.className.replace(new RegExp(" sfhover\\b"), "");
+		}
+	}
+}
+if (window.attachEvent) window.attachEvent("onload", sfHover);
+
+</script>
+<div id="hdr">
+<div id="search">
+   <a href="javascript:searchSite()"><img src="/images/find-btn.gif" alt="find" title="find" align="right" /></a> <form action="/search.php" id="searchForm" name="searchForm"><input name="kw" id="kw" type="text" style="overflow:hidden;" value=""/><img src="/images/bg-search-end.gif" class="endcap" /> </form>
+  </div>
+<a href="/"><img src="/images/logo.gif" width="231" height="103" alt="BISG | Book Industry Study Group" title="BISG | Book Industry Study Group" align="left" /></a>
+
+<a href="/members-area/"><img src="/images/button-members.gif" alt="members" title="members" class="members-button" /></a>
+<div class="hdr-links"><a href="/">HOME</a> <a href="/rss/">RSS FEED</a> <a href="/contact/">CONTACT</a>
+
+   
+</div>
+<div class="icons"><a href="http://twitter.com/BISG" target="_blank"><img src="/images/icon-twitter.gif" height="25" /></a> <a href="/rss/index.php"><img src="/images/icon-rss.gif" height="25" /></a> <!--<a href="#"><img src="/images/icon-flicker.gif" /></a> <a href="#"><img src="/images/icon-dopplr.gif" /></a> <a href="#"><img src="/images/icon-delicious.gif" /></a>--></div>
+</div><div id="navTop">
+ 
+  <!-- -->
+<ul id="nav">
+
+<li><a href="/become-member/book-organization.php" onMouseOut="swapImgRestore()" onMouseOver="swapImage('become','','/images/nav/nav-become-a-member-hover.gif',1)"><img src="/images/nav/nav-become-a-member.gif" alt="Become a Member" name="become" border="0"></a>
+<ul>
+<li><a href="/become-member/book-suppliers.php">Benefits</a></li>
+<li><a href="/directory/">Member Directory</a></li>
+<li><a href="/become-member/testimonials.php">Testimonials</a></li>
+<li class="end"><a href="/become-member/application.php">Application</a></li>
+</ul>
+</li>
+
+<li><a href="/about/book-association.php" onMouseOut="swapImgRestore()" onMouseOver="swapImage('about','','/images/nav/nav-about-us-hover.gif',1)"><img src="/images/nav/nav-about-us.gif" alt="About Us" name="about" border="0"></a>
+<ul>
+<li><a href="/directory/">Member Directory</a></li>
+<li><a href="/about/book-publishing.php">History</a></li>
+<li><a href="/about/board.php">Board of Directors</a></li>
+<li><a href="/about/book-publishing-industry.php">Corporate Documents</a></li>
+<li><a href="/rss/">RSS Feed</a></li>
+<li class="end"><a href="/contact/">Contact Us</a></li>
+</ul>
+</li>
+
+<li><a href="/activities-programs/" onMouseOut="swapImgRestore()" onMouseOver="swapImage('what','','/images/nav/nav-what-we-do-hover.gif',1)"><img src="/images/nav/nav-what-we-do.gif" alt="What We Do" name="what" border="0"></a>
+<ul>
+<li ><a href="/what-we-do-cat-2-standards-best-practices.php">Standards & Best Practices</a></li><li ><a href="/what-we-do-cat-9-benchmarking.php">Benchmarking</a></li><li ><a href="/what-we-do-cat-3-certification.php">Certification</a></li><li class="end"><a href="/what-we-do-cat-4-policy-statements.php">Policy Statements</a></li></ul>
+</li>
+
+<li><a href="/committees/" onMouseOut="swapImgRestore()" onMouseOver="swapImage('committees','','/images/nav/nav-committees-hover.gif',1)"><img src="/images/nav/nav-committees.gif" alt="Committees" name="committees" border="0"></a>
+<ul>
+<li><a href="committee-cat-1-bisg-committees.php">BISG Committees</a></li>
+<li class="end"><a href="committee-cat-2-bisac-committees.php">BISAC Committees</a></li>
+</ul>
+</li>
+
+<li><a href="/publications/category.php?c=437" onMouseOut="swapImgRestore()" onMouseOver="swapImage('publications','','/images/nav/nav-publications-hover.gif',1)"><img src="/images/nav/nav-publications.gif" alt="Publications" name="publications" border="0"></a>
+<ul>
+<li class="end"><a href="/contentweb/">Discussion Papers</a></li>
+</ul>
+</li>
+</li>
+
+<li><a href="/resources/book-resources.php" onMouseOut="swapImgRestore()" onMouseOver="swapImage('resources','','/images/nav/nav-resources-hover.gif',1)"><img src="/images/nav/nav-resources.gif" alt="Resources" name="resources" border="0"></a>
+<ul>
+<li ><a href="/resources-0-20-book-trade-associations.php">Book Trade Associations</a></li><li class="end"><a href="/resources-0-22-research-statistics.php">Research & Statistics</a></li></ul>
+</li>
+
+<li><a href="/events/book-conference.php" onMouseOut="swapImgRestore()" onMouseOver="swapImage('events','','/images/nav/nav-events-hover.gif',1)"><img src="/images/nav/nav-events.gif" alt="Events" name="events" border="0"></a>
+<ul>
+<li ><a href="event-cat-1-committee-meetings.php">Committee Meetings</a></li><li ><a href="event-cat-3-annual-members-meeting.php">Annual Members Meeting</a></li><li ><a href="event-cat-4-making-information-pay.php">Making Information Pay</a></li><li ><a href="event-cat-5-other-industry-events.php">Other Industry Events</a></li><li class="end"><a href="event-cat-6-webcasts.php">Webcasts</a></li></ul>
+</li>
+
+<li><a href="/news/book-industry-news.php" onMouseOut="swapImgRestore()" onMouseOver="swapImage('news','','/images/nav/nav-news-hover.gif',1)"><img src="/images/nav/nav-news.gif" alt="News" name="news" border="0"></a>
+<ul>
+<li ><a href="/news-cat-2-bisg-in-the-news.php">BISG in the news </a></li><li ><a href="/news-cat-5-press-releases.php">Press Releases </a></li><li class="end"><a href="/news-cat-1-bisg-bulletins.php">BISG Bulletins </a></li></ul>
+</li>
+</ul>
+  
+  
+</div><div id="inTitle"><h1>Events</h1></div>
+<table id="inBody">
+<tr>
+<td id="left">
+<div id="subnav">
+<ul>
+<li ><a href="/events/book-conference.php">All Upcoming Events</a></li><li ><a href="event-cat-1-committee-meetings.php">Committee Meetings</a></li><li ><a href="event-cat-3-annual-members-meeting.php">Annual Members Meeting</a></li><li ><a href="event-cat-4-making-information-pay.php">Making Information Pay</a></li><li ><a href="event-cat-5-other-industry-events.php">Other Industry Events</a></li><li class="current"><a href="event-cat-6-webcasts.php">Webcasts</a></li></ul>
+</div>
+
+<a href="/members-area/"><img src="/images/go-to-members-area.gif" alt="Go to Members Area" title="Go to Members Area" /></a>
+</td>
+<td id="middle">
+<div class="middle">
+<div class="content">
+<div class="floatRight"><form action='' method='get'><select name='d' onchange='this.form.submit()'><option value='1291194061' >December, 2010</option><option value='1293872461' >January, 2011</option><option value='1296550861' >February, 2011</option><option value='1298970061' >March, 2011</option><option value='1301644861' >April, 2011</option><option value='1304236861' >May, 2011</option><option value='1306915261' >June, 2011</option><option value='1309507261' >July, 2011</option><option value='1312185661' >August, 2011</option><option value='1314864061' >September, 2011</option><option value='1317456061' >October, 2011</option><option value='1320134461' >November, 2011</option><option value=''>-=-=-=-=-=-=-=-=-</option><option value='next3' SELECTED>Next Three Months</option><option value='next6' >Next Six Months</option></select></form></div>
+<span class="title" style="padding-left:0">Webcasts</span>
+
+<div class="line"></div>
+<big>BISG Webcasts have been designed to provide expert instruction on important and sometimes complex issues in a manageable time period and attractive format.</big><br>
+<br>
+<b><a href="/event-cat-6-webcasts.php#upcoming">UPCOMING WEBCASTS</a><br>
+<a href="/event-cat-6-webcasts.php#previous">PREVIOUS WEBCASTS</a></b><br>
+<br>
+<br>
+<a name="upcoming"></a><h2>UPCOMING BISG WEBCASTS</h2><hr><br>
+<b><big><a href="/events-6-614-bisg-webcastdigital-books-a-new-chapter-for-reader-privacy.php">Digital Books: A New Chapter for Reader Privacy</a></b></big><br>
+<small>Presented by <a href="/events-6-614-bisg-webcastdigital-books-a-new-chapter-for-reader-privacy.php#ozer" target="_blank">Nicole A . Ozer, Esq.</a>, ACLU of Northern California</small><br>
+<b>Thursday, January 27, 2011 1:00 PM ET to 2:00 PM ET</b><br>
+<br>
+<img src="/images/ozer_nicole.jpg" align="right" Hspace="5" style="border: 1px solid #454545; padding: 1px;" /> Drawing on <a href="http://www.dotrights.org/digital-books-new-chapter-reader-privacy" target="_blank">Digital Books: A New Chapter for Reader Privacy</a>, this 60-minute BISG Webcast will discuss the history of reading privacy and explore opportunities for book industry professionals, policymakers, and public interest groups to work together to create a climate for digital books that is good for business and good for reading.<br>
+<a href="/events-6-614-bisg-webcastdigital-books-a-new-chapter-for-reader-privacy.php"><img src="/images/register-now-gold.gif" vspace="10"></a><br>
+<br>
+<hr><br>
+<b><big><a href="/events-0-619-bisg-webcastselling-in-a-digital-world-promoting-an-even-playing-field-with-on-sale-date-compliance.php">Selling in a Digital World: Promoting an Even Playing Field with On-Sale Date Compliance</a></b></big><br>
+<small>Presented by <a href="/events-0-619-bisg-webcastselling-in-a-digital-world-promoting-an-even-playing-field-with-on-sale-date-compliance.php#stouras" target="_blank">Tom Stouras</a>, Macmillan and <a href="/events-0-619-bisg-webcastselling-in-a-digital-world-promoting-an-even-playing-field-with-on-sale-date-compliance.php#smith" target="_blank">Marcella Ann Smith</a>, Barnes & Noble, Inc.</small><br>
+<b>Thursday, February 24, 2011 1:00 PM ET to 2:00 PM ET</b><br>
+<br>
+<img src="/images/smith_marcella.jpg" align="right" Hspace="5" style="border: 1px solid #454545; padding: 1px;" /><img src="/images/stouras_tom.jpg" align="right" Hspace="5" style="border: 1px solid #454545; padding: 1px;" /> While exploring the history and current use of on sale dates in the book industry, this 60-minute BISG Webcast will review highlights from BISG's best practice document entitled <i><a href="http://www.bisg.org/what-we-do-12-143-on-sale-date-compliance-recommended-best-practices.php" target="_blank">On-Sale Date Compliance: Recommended Best Practices</a></i>. It will also provide recommendations for the unified definition and transmission of on sale dates, as well as examples of what happens when this important month/day/year combo is misused.<br>
+<a href="/events-0-619-bisg-webcastselling-in-a-digital-world-promoting-an-even-playing-field-with-on-sale-date-compliance.php"><img src="/images/register-now-gold.gif" vspace="10"></a><br>
+<br>
+<br>
+<br>
+<a name="previous"></a><h2>PREVIOUS BISG WEBCASTS</h2><hr><br>
+<b><big><a href="/events-6-613-bisg-webcastthe-new-bisac-subject-headings-list-connecting-books-to-readers.php">The NEW BISAC Subject Headings List:<br>
+Connecting Books to Readers</a></b></big><br>
+<small>Presented by <a href="/events-6-613-bisg-webcastthe-new-bisac-subject-headings-list-connecting-books-to-readers.php#harbison" target="_blank">Connie Harbison</a>, Baker & Taylor and <a href="/events-6-613-bisg-webcastthe-new-bisac-subject-headings-list-connecting-books-to-readers.php#bole" target="_blank">Angela Bole</a>, Book Industry Study Group, Inc.</small><br>
+<b>Thursday, December 9, 2010 1:00 PM ET to 2:00 PM ET</b><br>
+<br>
+<img src="/images/Bole_Angela.jpg" align="right" Hspace="5" style="border: 1px solid #454545; padding: 1px;" /><img src="/images/not_available.jpg" align="right" Hspace="5" style="border: 1px solid #454545; padding: 1px;" /> This 60-minute BISG Webcast will cover:<br>
+<ul class="list"><li>What's new in the 2010 Edition of the <a href="http://www.bisg.org/publications/product.php?p=14" target="_blank">BISAC Subject Headings List</a>.</li><li>Best practices for choosing BISAC Codes for your book; what distributors and retailers are looking for.</li><li>What you should do if you can't find the BISAC Code you want.</li><li>What's on the agenda for the 2011 Edition.</li></ul>Participants will also have the opportunity to test their knowledge by "coding" several sample titles based on their marketing descriptions. <small>(<a href="/events-6-613-bisg-webcastthe-new-bisac-subject-headings-list-connecting-books-to-readers.php">MORE INFORMATION</a>)</small><br>
+<br>
+<hr><br>
+<b><big><a href="/events-0-622-facebook-driving-traffic-with-tips-tactics-applications-for-publishers-and-authorsbest-practices-for-the-book-industry.php">Facebook: Driving Traffic with Tips, Tactics & Applications for Publishers and Authors</a></b></big><br>
+<small>Presented by <a href="http://www.bookexpoamerica.com/Show-Info/" target="_blank">BookExpo America</a>, in partnership with BISG</small><br>
+<b>Tuesday, December 7, 2010 12:00 PM ET to 1:00 PM ET</b><br>
+<br>
+<img src="/images/bea_sm.jpg" align="right" Hspace="5" style="border: 1px solid #454545; padding: 1px;" />Social Networking sites are rapidly replacing traditional media. Facebook, with more than 500 million users, claims to be one of most trafficked sites in the world and is the dominant site for social networking.<br>
+<br>
+This one-hour live BEA Webinar is targeted to members of the book industry -- publishers and authors -- who want to engage readers, expand their fan base and tap into this ever-growing influential social networking site. <small>(<a href="http://www.bisg.org/events-0-622-facebook-driving-traffic-with-tips-tactics-applications-for-publishers-and-authorsbest-practices-for-the-book-industry.php">MORE INFORMATION</a>)</small><br>
+<br>
+<hr><br>
+<b><big><a href="/events-6-601-bisg-webcastmarketing-books-in-a-digital-world.php">Marketing "Books" in a Digital World</a></b></big><br>
+<small>Presented by <a href="/events-6-601-bisg-webcastmarketing-books-in-a-digital-world.php#milburn" target="_blank">Peter Milburn</a>, Wiley Global Finance and <a href="/events-6-601-bisg-webcastmarketing-books-in-a-digital-world.php#goodman" target="_blank">Rob Goodman</a>, Simon & Schuster</small><br>
+<b>Wednesday, October 27, 2010 1:00 PM ET to 2:00 PM ET</b><br>
+<br>
+<img src="/images/milburn_peter.jpg" align="right" Hspace="5" style="border: 1px solid #454545; padding: 1px;" /><img src="/images/goodman_rob.png" align="right" Hspace="5" style="border: 1px solid #454545; padding: 1px;" /> This 60-minute BISG Webcast focused on the marketing experiences and successes of two major publishers: Simon & Schuster and John Wiley & Sons. Representatives from each company discussed how they're confronting the challenges to traditional book marketing and what steps they're taking to embrace new opportunities. <small>(<a href="/events-6-601-bisg-webcastmarketing-books-in-a-digital-world.php">MORE INFORMATION</a>)</small><br>
+<br>
+<hr><br>
+<b><big><a href="/events-6-565-bisg-webcastbook-consumer-empowerment-through-smart-phones.php">Book Consumer Empowerment Through Smart Phones</a></b></big><br>
+<small>Presented by <a href="/events-6-565-bisg-webcastbook-consumer-empowerment-through-smart-phones.php#clarkson" target="_blank">Tom Clarkson</a>, Cumberland Systems Review Group</small><br>
+<b>Thursday, September 16, 2010 1:00 PM ET to 2:00 PM ET</b><br>
+<br>
+<img src="/images/clarkson_tom.jpg" align="right" Hspace="5" style="border: 1px solid #454545; padding: 1px;" /> The advent of smart phone applications that initiate action based on information encoded in bar code symbols has provided a wide array of new opportunities to inform and empower consumers. During this Webcast, we described examples of applications for the general public that are in use in locations around the world, including some appearing in the United States, followed by applications developed by booksellers. <small>(<a href="/events-6-565-bisg-webcastbook-consumer-empowerment-through-smart-phones.php">DOWNLOAD PRESENTATION</a>)</small><br>
+<br>
+<hr><br>
+<b><big><a href="/events-6-578-bisg-webcastbetween-hype-and-hope-design-and-content-offerings-for-tomorrows-reading-devices.php">Between Hype and Hope: Design and Content Offerings for Tomorrow's Reading Devices</a></b></big><br>
+<small>Presented by <a href="/events-6-578-bisg-webcastbetween-hype-and-hope-design-and-content-offerings-for-tomorrows-reading-devices.php#ressmann" target="_blank">Ralf Ressmann</a>, Information Architects</small><br>
+<b>Thursday, September 2, 2010 1:00 PM ET to 2:00 PM ET</b><br>
+<br>
+<img src="/images/ressmann_ralf.jpg" align="right" Hspace="5" style="border: 1px solid #454545; padding: 1px;" /> Smartphones, e-book readers and tablet PCs are used in different situations and for different types of content. Publishing for these devices constitutes more than generating a smart xml feed out of your existing content holdings. A tablet PC like the <b>iPad</b>, in particular, creates some serious design process challenges. Print and web designers are struggling to come up with the best solutions. <small>(<a href="/events-6-578-bisg-webcastbetween-hype-and-hope-design-and-content-offerings-for-tomorrows-reading-devices.php">DOWNLOAD PRESENTATION</a> )</small><br>
+<br>
+<b>In partnership with:</b><br>
+<a href="http://www.idpf.org/" target="_blank"><img src="http://www.idpf.org/images/idpflogo_index_web.gif"></a><br>
+<br>
+<hr><br>
+<b><big><a href="/events-6-562-bisg-webcastunderstanding-the-impact-of-independent-publishers-on-the-us-book-market.php">Understanding the Impact of Independent Publishers<br>
+on the U.S. Book Market</a></b></big><br>
+<small>Presented by <a href="/events-6-562-bisg-webcastunderstanding-the-impact-of-independent-publishers-on-the-us-book-market.php#carter" target="_blank">Jamie Carter</a>, Publisher Alley: A Division of Baker & Taylor, and <a href="/events-6-562-bisg-webcastunderstanding-the-impact-of-independent-publishers-on-the-us-book-market.php#kichler" target="_blank">Florrie Binford-Kichler</a>, IBPA & Patria Press</small><br>
+<b>Thursday, July 22, 2010 1:00 PM ET to 2:00 PM ET</b><br>
+<br>
+<img src="/images/carter_jamie.jpg" align="right" Hspace="5" style="border: 1px solid #454545; padding: 1px;" /><img src="/images/kichler_florrie.jpg" align="right" Hspace="5" style="border: 1px solid #454545; padding: 1px;" /> During this Webcast, Jamie Carter (Operations Manager, Publisher Alley) presented sales trends and other data related to the output of independent publishers in the Baker & Taylor wholesale channel. Popular subject areas were revealed, both by title count and units sold. In addition, Jamie discussed the market areas (retail, library, etc.) most receptive to independent publisher output. Finally, Florrie Binford-Kichler (President, Independent Book Publishers Association) described cases where she's witnessed indie pub success and described the most common paths to achievement among IBPA members.<br>
+<small>(<a href="/events-6-562-bisg-webcastunderstanding-the-impact-of-independent-publishers-on-the-us-book-market.php">DOWNLOAD PRESENTATION</a>)</small><br>
+<br>
+<hr><br>
+<b><big><a href="/events-6-526-bisg-webcastpractical-e-book-formatting-limitations-and-optimizations.php">Practical E-Book Formatting: Limitations and Optimizations</a></b></big><br>
+<small>Presented by Joshua Tallent, eBook Architects</small><br>
+<b>Tuesday, May 11, 2010 1:00 PM to 2:00 PM</b><br>
+<br>
+<img src="http://assets.en.oreilly.com/1/eventprovider/1/_@user_33838.jpg" align="right" Hspace="5" style="border: 1px solid #454545; padding: 1px;" /> The e-book market is booming and the number of devices that can read e-books is growing fast. Join this BISG Webcast to find out what formatting works and what doesn't on different platforms, with specific suggestions for making your e-books look great no matter where your consumers read them.<br>
+<small>(<a href="/events-6-526-bisg-webcastpractical-e-book-formatting-limitations-and-optimizations.php">DOWNLOAD PRESENTATION</a>)</small><br>
+<br>
+<hr><br>
+<b><big><a href="/events-0-492-bisg-webcastdigital-book-printingwhat-can-digital-do-or-not-do-for-you.php">Digital Book Printing:<br>
+What Can Digital Do (or Not Do) for You?</a></b></big><br>
+<small>Presented by <a href="/what-we-do-0-84-speaker-bios.php#biedler" target="_blank">Kurt Biedler</a> and <a href="/what-we-do-0-84-speaker-bios.php#terhune" target="_blank">Lynn Terhune</a> and <a href="/what-we-do-0-84-speaker-bios.php#davis" target="_blank">Sara Davis</a></small><br>
+<b>Thursday, January 28, 2010 2:00 PM to 3:00 PM</b><br>
+<br>
+<img src="/images/Davis_Sara.jpg" align="right" Hspace="5" style="border: 1px solid #454545; padding: 1px;" /><img src="/images/Terhune_Lynn.jpg" align="right" Hspace="5" style="border: 1px solid #454545; padding: 1px;" /><img src="/images/Biedler_Kurt.jpg" align="right" Hspace="5" style="border: 1px solid #454545; padding: 1px;" /> Much has been written about the benefits of print on demand and ultra short run printing, including reduced inventory investment, increased speed to market and the end of out-of-print titles. Although certainly valuable for these reasons, taking advantage of print on demand technology is a significant business decision that must be made on a title-by-title basis. So how do you decide if the move to digital printing is right for you and your company? Participants in this 60-minute webcast explored the answers to that question, and more! <small>(<a href="/events-0-492-bisg-webcastdigital-book-printingwhat-can-digital-do-or-not-do-for-you.php">DOWNLOAD PRESENTATION</a>)</small><br>
+<br>
+<b>sponsored by:</b><br>
+<br>
+<a href="http://www.oce.com" target="_blank"><img src="/images/oce.jpg"></a><br>
+<br>
+<hr><br>
+<b><big><a href="/events-0-491-bisg-webcastunderstanding-bookserverthe-power-to-find-buy-or-borrow-any-digital-book-in-any-format-at-any-time.php">Understanding BookServer: The Power to Find, Buy or Borrow Any Digital Book in Any Format at Any Time</a></b></big><br>
+<small>Presented by <a href="/what-we-do-0-84-speaker-bios.php#fahlgren" target="_blank">Keith Fahlgren</a></small><br>
+<b>Tuesday, January 19, 2010 1:00 PM to 2:00 PM</b><br>
+<br>
+<img src="/images/Fahlgren_Keith.jpg" align="right" Hspace="5" style="border: 1px solid #454545; padding: 1px;" />As the audience for digital books grows, we can evolve from an environment of single devices connected to single sources into a distributed system where readers can find books from sources across the Web to read on whatever device they have. In answer to this, <b>BookServer</b> has been developed as an open system for vending and lending digital books over the Internet. During this presentation, one of the those closest to the BookServer project explained its genesis and vision, discussed the components of the BookServer architecture, and highlighted opportunities across the supply chain. <small>(<a href="/events-0-491-bisg-webcastunderstanding-bookserverthe-power-to-find-buy-or-borrow-any-digital-book-in-any-format-at-any-time.php">DOWNLOAD PRESENTATION</a>)</small><br>
+<br>
+<hr><br>
+<b><big><a href="/events-6-478-bisg-webcastbisac-subject-headingsconnecting-books-and-readers.php">BISAC Subject Headings:<br>
+Connecting Books and Readers</a></b></big><br>
+<small>Presented by <a href="/what-we-do-0-84-speaker-bios.php#harbison" target="_blank">Connie Harbison</a> and <a href="/what-we-do-0-84-speaker-bios.php#bole" target="_blank">Angela Bole</a></small><br>
+<b>Wednesday, December 9, 2009 3:00 PM to 4:00 PM</b><br>
+<br>
+<img src="/images/Bole_Angela.jpg" align="right" Hspace="5" style="border: 1px solid #454545; padding: 1px;" />Organizations across the publishing supply chain use BISAC Subject Headings to determine where books are shelved in a brick and mortar store or the genre under which they can be searched for in an internal or online database. Putting the correct BISAC Code on your book can ensure that it efficiently finds its way into the hands of a happy reader; conversely, an incorrectly coded book can end up in a forgotten corner of the store or website, surrounded by dissimilar titles. Download the presentation to learn more about how to get your books to their intended readers! <small>(<a href="/events-6-478-bisg-webcastbisac-subject-headingsconnecting-books-and-readers.php">DOWNLOAD PRESENTATION</a>)</small><br>
+<br>
+<b>sponsored by:</b><br>
+<br>
+<a href="http://www.oclc.org" target="_blank"><img src="/images/oclc.jpg"></a><br>
+<br>
+<hr><br>
+<b><big><a href="/events-0-470-bisg-webcastradio-frequency-identificationtaking-hold-of-emerging-opportunities.php">Radio Frequency Identification:<br>
+Exploring Publishing's New Supply & Demand</a></b></big><br>
+<small>Presented by <a href="/what-we-do-0-84-speaker-bios.php#lichtenberg" target="_blank">Jim Lichtenberg</a> and <a href="/what-we-do-0-84-speaker-bios.php#southall" target="_blank">Michele Southall</a> and <a href="/what-we-do-0-84-speaker-bios.php#javick" target="_blank">Patrick Javick</a></small><br>
+<b>Tuesday, October 20, 2009 3:00 PM to 4:00 PM</b><br>
+<br>
+<img src="/images/Lichtenberg_Jim.gif" align="right" hspace="5" style="border: 1px solid #454545; padding: 1px;" /><img src="/images/Southall_Michele.jpg" align="right" Hspace="5" style="border: 1px solid #454545; padding: 1px;" /><img src="/images/Javick_Patrick.jpg" align="right" style="border: 1px solid #454545; padding: 1px;" />Since 2003, when RFID first came to the collective attention of BISG and the book industry, the focus has been on the evolution of a technology rather than the development of a business case. This was a mistake.<br>
+<br>
+During this FREE 60-minute Webcast, Jim Lichtenberg from BISG's RFID Interest Group and Michele Southall and Patrick Javick from GS1 US tied together the possibilities inherent in this fascinating technology with a business case that promised to cuts costs and increase visibility. What's next in the far-flung network of the book industry's new supply and demand? View the presentation to find out! <small>(<a href="/events-0-470-bisg-webcastradio-frequency-identificationtaking-hold-of-emerging-opportunities.php">DOWNLOAD PRESENTATION</a>)</small><br>
+<br>
+<hr><br>
+<b><big><a href="/events-0-469-bisg-webcastonix-30-an-introductionencore-presentation.php">ONIX for Books 3.0:<br>
+Supporting New Metadata for eBooks</a></b></big><br>
+<small>Presented by <a href="/what-we-do-0-84-speaker-bios.php#martin" target="_blank">David Martin</a> and <a href="/what-we-do-0-84-speaker-bios.php#green" target="_blank">Brian Green</a></small><br>
+<b>Wednesday, October 7, 2009 11:00 AM to 12:00 PM</b><br>
+<br>
+<img src="/images/Martin_David.jpg" align="right" style="border: 1px solid #454545; padding: 1px;" /><img src="/images/Green_Brian.jpg" align="right" Hspace="5" style="border: 1px solid #454545; padding: 1px;" /> In partnership with the International Digital Publishing Forum (IDPF), BISG presented the third in a series of ONIX 3.0 educational webcasts. During this session, David Martin from EDItEUR's ONIX Support Team and Brian Green, Executive Director of the International ISBN Agency, focused on how ONIX 3.0 provides new support for digital publishing, along with requirements for identifying ebooks in our industry's complex new supply chain. <small>(<a href="/events-0-469-bisg-webcastonix-30-an-introductionencore-presentation.php">DOWNLOAD PRESENTATION</a>)</small><br>
+<br>
+<b>In partnership with:</b><br>
+<br>
+<img src="http://www.idpf.org/images/idpflogo_index_web.gif"><br>
+<br>
+<hr><br>
+<b><big><a href="/events-6-463-bisg-webcastidentification-and-digital-publications-exploring-the-emerging-standards-landscape.php">Identification and Digital Publications:<br>
+Exploring the Emerging Standards Landscape</a></b></big><br>
+<small>Presented by <a href="/what-we-do-0-84-speaker-bios.php#bide" target="_blank">Mark Bide</a></small><br>
+<b>Tuesday, September 15, 2009 11:00 AM to 12:00 AM</b><br>
+<br>
+<img src="/images/Bide_Mark.jpg" align="right" style="border: 1px solid #454545; padding: 1px;" /> The book industry has had the ISBN for nearly 40 years; there has been little cause for excitement. Now, suddenly the whole subject of "identifiers" has become a hot topic, particularly when it comes to digital books and other online resources. <small>(<a href="/events-6-463-bisg-webcastidentification-and-digital-publications-exploring-the-emerging-standards-landscape.php">DOWNLOAD PRESENTATION</a>)</small><br>
+<br>
+<br>
+<b>sponsored by:</b><br>
+<br>
+<img src="/images/ISBN_RGB.gif"><br>
+<br>
+<hr><br>
+<b><big><a href="/events-6-439-bisg-webcastonix-30-best-practices-for-implementation.php">ONIX for Books 3.0: Best Practices for Implementation</a></b></big><br>
+<small>Presented by <a href="/what-we-do-0-84-speaker-bios.php#stark" target="_blank">Richard Stark</a></small><br>
+<b>Tuesday, August 4, 2009 11:00 AM to 12:00 AM</b><br>
+<br>
+<img src="/images/Stark_Richard.jpg" align="right" style="border: 1px solid #454545; padding: 1px;" /> In April 2009, EDItEUR announced the release of a major new version of the ONIX for Books standard: ONIX 3.0. During this 60-minute webcast, Richard Stark, Director of Product Data for Barnes & Noble, Inc. and Chair of BISAC's Metadata Committee, described best practices for implementing this important data standard. <small>(<a href="/events-6-439-bisg-webcastonix-30-best-practices-for-implementation.php">DOWNLOAD PRESENTATION</a>)</small><br>
+<br>
+<br>
+<hr><br>
+<b><big><a href="/events-6-438-bisg-webcastonix-30-an-introduction.php">ONIX for Books 3.0: An Introduction</a></b></big><br>
+<small>Presented by <a href="/what-we-do-0-84-speaker-bios.php#bide" target="_blank">Mark Bide</a> and <a href="/what-we-do-0-84-speaker-bios.php#martin" target="_blank">David Martin</a></small><br>
+<b>Wednesday, July 29, 2009 11:00 AM to 12:00 AM</b><br>
+<br>
+<img src="/images/Martin_David.jpg" align="right" style="border: 1px solid #454545; padding: 1px;" /> <img src="/images/Bide_Mark.jpg" align="right" Hspace="5" style="border: 1px solid #454545; padding: 1px;" /> During this 60-minute webcast, Mark Bide, Executive Director of EDItEUR, and David Martin, from EDItEUR's ONIX Support Team, answered four key questions about ONIX for Books 3.0. <small>(<a href="/events-6-438-bisg-webcastonix-30-an-introduction.php">DOWNLOAD PRESENTATION</a>)</small><br>
+<br>
+<br>
+<br>
+
+
+<div class="event-month">December</div><table class="event-list"><tr>
+<td class="event-date">
+<span>Dec</span><br>07
+</td>
+<td><a href="/events-6-622-live-webcastfacebook-driving-traffic-with-tips-tactics-applications-for-publishers-and-authors.php"><small>LIVE WEBCAST:</small><br>Facebook: Driving Traffic with Tips, Tactics & Applications for Publishers and Authors</a></td>
+</tr><tr>
+<td class="event-date">
+<span>Dec</span><br>09
+</td>
+<td><a href="/events-6-613-bisg-webcastthe-new-bisac-subject-headings-list-connecting-books-to-readers.php"><small>BISG WEBCAST:</small><br>The NEW BISAC Subject Headings List: Connecting Books to Readers</a></td>
+</tr></table><div class="event-month">January</div><table class="event-list"><tr>
+<td class="event-date">
+<span>Jan</span><br>27
+</td>
+<td><a href="/events-6-614-bisg-webcastdigital-books-a-new-chapter-for-reader-privacy.php"><small>BISG WEBCAST:</small><br>Digital Books: A New Chapter for Reader Privacy</a></td>
+</tr></table><div class="event-month">February</div><table class="event-list"><tr>
+<td class="event-date">
+<span>Feb</span><br>24
+</td>
+<td><a href="/events-6-619-bisg-webcastselling-in-a-digital-world-promoting-an-even-playing-field-with-on-sale-date-compliance.php"><small>BISG WEBCAST:</small><br>Selling in a Digital World: Promoting an Even Playing Field with On-Sale Date Compliance</a></td>
+</tr></table>
+</div>
+</div>
+</td>
+<td id="right">
+<div class="info">RELATED INFO</div>
+
+
+<!--make sure to include jquery-1.2.6.pack.js and jquery-events.js in teh header of every page this enclude is on -->
+
+<h4>EVENTS</h4>
+<div name=eventCal id=eventCal><table id="calendar">
+					<tr class="month">
+					<td><a href="JavaScript:loadMonth('/classes/events/eventsCal.php?m=11&y=2010')"><img src="/images/event-arrow-left.gif"></a></td>
+					<td colspan="5">December 2010</td>
+					<td><a href="JavaScript:loadMonth('/classes/events/eventsCal.php?m=1&y=2011')"><img src="/images/event-arrow-right.gif"></a></td>
+					<tr class="week">
+					<td>S</td>
+					<td>M</td>
+					<td>T</td>
+					<td>W</td>
+					<td>T</td>
+					<td>F</td>
+					<td>S</td>
+					</tr><tr><td></td>
+					<td></td>
+					<td></td>
+					<td >1</td>
+					<td >2</td>
+					<td >3</td>
+					<td >4</td>
+					</tr><tr><td >5</td>
+					<td >6</td>
+					<td class="event"><a href="/events/book-conference.php?dm=day&m=12&day=7&y=2010">7</a></td>
+					<td >8</td>
+					<td class="event"><a href="/events/book-conference.php?dm=day&m=12&day=9&y=2010">9</a></td>
+					<td >10</td>
+					<td >11</td>
+					</tr><tr><td >12</td>
+					<td >13</td>
+					<td >14</td>
+					<td >15</td>
+					<td class="event"><a href="/events/book-conference.php?dm=day&m=12&day=16&y=2010">16</a></td>
+					<td >17</td>
+					<td ><strong class="currentdate">18</strong></td>
+					</tr><tr><td >19</td>
+					<td >20</td>
+					<td >21</td>
+					<td >22</td>
+					<td >23</td>
+					<td >24</td>
+					<td >25</td>
+					</tr><tr><td >26</td>
+					<td >27</td>
+					<td >28</td>
+					<td >29</td>
+					<td >30</td>
+					<td >31</td>
+					<td></td></tr></table></div><br><br>
+<div class="info">NEXT EVENTS</div>
+<ul><li>
+						<a href="/events-0-618-twitter-hourmip-for-higher-ed-twitter-chat.php">TWITTER HOUR:<br>MIP for Higher Ed Twitter Chat</a><br>
+						<b>Jan, 07</b>  at  <b>11:00am</b>
+						</li><li>
+						<a href="/events-0-627-bisg-research-committee.php">BISG Research Committee</a><br>
+						<b>Jan, 10</b>  at  <b>1:30pm</b>
+						</li><li>
+						<a href="/events-0-624-identification-committeeidentification-of-e-books-working-group.php">IDENTIFICATION COMMITTEE<br>Identification of E-Books Working Group</a><br>
+						<b>Jan, 13</b>  at  <b>2:30pm</b>
+						</li></ul><a href="/events" class="all-link">> view all</a>
+<div class="line"></div>
+<h4>LATEST IN</h4>
+<h3>News</h3>
+<ul><li class="lighter-bg"><a href="/news-1-597-bisg-bulletin---november-2010.php">BISG Bulletin - November 2010</a></li><li class="darker-bg"><a href="/news-2-598-e-book-buyers-are-buying-more-but-spending-less-says-bisg-study.php">E-Book Buyers are Buying More but Spending Less, says BISG Study</a></li><li class="lighter-bg"><a href="/news-2-600-e-book-buyers-are-buying-more-but-spending-less-says-bisg-study.php">E-Book Buyers are Buying More but Spending Less, says BISG Study </a></li></ul><a href="/news/book-industry-news.php" class="all-link">> view all</a>
+<br><br><br>
+</td>
+</tr>
+</table>
+
+
+<!-- Site Wrap - DO NOT DELETE -->
+</div>
+<!-- Site Wrap - DO NOT DELETE -->
+<div id="ftr">
+<div id="ftrContainer">
+
+<div class="copyright">Book Industry Study Group, Inc. &copy; 2010<br />
+&nbsp;<a href="http://www.redclayinteractive.com/website-design/web-design.php" target="_blank" class="claylink">Website Design by:</a> <a href="http://www.redclayinteractive.com/" target="_blank" class="claylink"> Red Clay Interactive</a></div>
+
+<a href="/sitemap.php">Site Map</a> <a href="/privacy.php">Privacy Policy</a> <a href="/contact/">Contact</a>
+
+</div>
+</div>
+<!--Begin Tracking Code-->
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-6647667-1");
+pageTracker._trackPageview();
+} catch(err) {}</script>
+<!--End Tracking Code-->
+</body>
+</html>
