@@ -1,0 +1,72 @@
+
+
+<!doctype html><html><head><title>AgileZen &ndash; Project management gets lean</title><link rel="stylesheet" type="text/css"  href="/content/css/bundle/external-58667F831C5E34EFB82277E81B1674B4.css" /><link rel="shortcut icon" href="/content/images/favicon.ico" type="image/x-icon"/><meta name="description" content="A simple, flexible, and cost-effective web-based project management application built on ideas from lean manufacturing."/><meta name="google-site-verification" content="_DjkcZf5lqEi1LZ301z8sUgFZGBDY7gIa4ixDJWbjwE"/></head><body class="home"><div id="header" class="container_12"><div class="grid_7"><ul id="navigation"><li class="current"><a href="/">Home</a></li><li><a href="/tour">Tour</a></li><li><a href="/pricing">Pricing</a></li><li><a href="/company">Company</a></li><li><a href="http://help.agilezen.com/">Support</a></li><li><a href="http://blog.agilezen.com/">Blog</a></li><li><a href="/login">Log In</a></li></ul><div id="splash"><a id="logo" href="/">AgileZen</a><h1><a href="/">Project management gets lean</a></h1></div></div><div class="grid_5"><div id="bonsai"></div></div></div><div id="crossbar"><div class="container_12"><div class="grid_3"><a class="thumbnail hover-effect" href="/content/images/external/screenshots/ready-blocked.png"><img src="/content/images/external/screenshots/ready-blocked-thumbnail.png"/></a></div><div class="grid_3"><a class="thumbnail hover-effect" href="/content/images/external/screenshots/story.png"><img src="/content/images/external/screenshots/story-thumbnail.png"/></a></div><div class="grid_3"><a class="thumbnail hover-effect" href="/content/images/external/screenshots/performance.png"><img src="/content/images/external/screenshots/performance-thumbnail.png"/></a></div><div class="grid_3"><a class="thumbnail hover-effect" href="/content/images/external/screenshots/filter.png"><img src="/content/images/external/screenshots/filter-thumbnail.png"/></a></div></div></div><div id="content" class="container_12"><div class="grid_12"><div class="banner"><h1>
+				AgileZen is a simple, flexible, and cost-effective way to manage your work. With an easy-to-use web interface,
+				and by drawing on ideas from lean manufacturing, we help you stay organized, focused, and on target.
+			</h1></div></div><div class="grid_12"><div class="tour-header"><p>
+				Take our <a href="/tour">video tour</a> to see how AgileZen can help you:
+			</p></div></div><div class="grid_6"><div class="tour-section"><h2><a href="/tour/visualize">Visualize your work</a> &raquo;
+			</h2><p>
+				AgileZen organizes your work visually, letting you see the big picture, but stay focused on the tasks at hand.
+			</p></div></div><div class="grid_6"><div class="tour-section"><h2><a href="/tour/organize">Get organized</a> &raquo;
+			</h2><p>
+				AgileZen helps you become more organized and efficient, whether you're on a team or flying solo.
+			</p></div></div><div class="grid_6"><div class="tour-section"><h2><a href="/tour/communicate">Communicate with your team</a> &raquo;
+			</h2><p>
+				AgileZen keeps everyone in your team on the same page, through visual indicators and a powerful messaging system.
+			</p></div></div><div class="grid_6"><div class="tour-section"><h2><a href="/tour/improve">Find ways to improve</a> &raquo;
+			</h2><p>
+				AgileZen helps you understand how well you're doing, and can be customized as you find better ways to work.
+			</p></div></div><div class="grid_12"><div class="signup"><div class="signup-text">
+			AgileZen is available for a simple, easy-to-understand monthly cost. We don't charge per-user fees,
+			setup fees, or cancellation fees, and you can easily upgrade, downgrade, or cancel your account
+			whenever you like.
+		</div><div class="signup-button"><a href="/pricing" class="hover-effect">
+				30 day money-back guarantee &mdash; 30 second signup
+			</a></div></div></div><div class="grid_12"><div id="testimonials"><blockquote><p>
+					I've tried other solutions but found them overly complicated. AgileZen is the only one that just works and lets me focus on building my product.
+				</p><cite>
+					&mdash; James Avery, Founder, <a href="http://adzerk.com/" target="_blank">adzerk</a></cite></blockquote><blockquote><p>
+					AgileZen is the perfect tool for the way I work. It's flexible, easy to use and and doesn't get in my way. It beats everything else on the market.
+				</p><cite>
+					&mdash; Michael Eaton, Principal Consultant, <a href="http://validussolutions.com/" target="_blank">Validus Solutions</a></cite></blockquote><blockquote><p>
+					I've never used, or even seen, a simpler and more powerful means of managing my projects. The intuitive user interface
+					means no time is wasted for my customer to understand what is going on.
+				</p><cite>
+					&mdash; Bernhard Hofmann, Director, <a href="http://www.bluebearsoftware.co.uk/" target="_blank">Blue Bear Software Ltd.</a></cite></blockquote></div></div><div class="grid_6"><div class="communication"><img src="http://assets.agilezen.com/images/twitter.png"/><h4><a href="http://twitter.com/agilezen" target="_blank">Follow us on Twitter (@agilezen)</a> &raquo;
+			</h4><p>
+				Want to follow what we're up to, or have a quick question? Get in touch with us on Twitter!
+			</p></div></div><div class="grid_6"><div class="communication"><img src="http://assets.agilezen.com/images/rss.png"/><h4><a href="http://blog.agilezen.com/" target="_blank">Read our blog</a> &raquo;
+			</h4><p>
+				Get news, announcements, product updates, and some ideas on keeping things simple.
+			</p></div></div></div><div id="footer" class="container_12"><div class="grid_12"><div class="footer-container"><a class="rally hover-effect" href="http://rallydev.com/" rel="external">Rally Software - Agile Project Management</a><div class="footer-content"><p>
+							Copyright &copy;2010 Rally Software Development Corp.
+						</p><p><a href="http://help.agilezen.com/faqs/policies/terms-of-service" target="_blank">Terms of Service</a> &ndash;
+							<a href="http://help.agilezen.com/faqs/policies/privacy-policy" target="_blank">Privacy Policy</a> &ndash;
+							<a href="http://help.agilezen.com/faqs/policies/billing-policy" target="_blank">Billing Policy</a> &ndash;
+							<a href="http://help.agilezen.com/faqs/api" target="_blank">Developer API</a></p></div></div></div></div><script type="text/javascript" src="/content/js/bundle/external-EAB5231522630362384B349EB224011E.js"></script><script type="text/javascript" src="/content/js/routes.js"></script><script type="text/javascript">
+		$(function() {
+			$("#crossbar .thumbnail").fancybox({
+				padding: 0,
+				zoomSpeedIn: 600,
+				zoomSpeedOut: 500,
+				easingIn: "easeInOutCirc",
+				easingOut: "easeInOutCirc"
+			});
+			$("#testimonials").cycle({
+				timeout: 7000,
+				speed: 1000,
+				pause: true
+			});
+		});
+	</script><script type="text/javascript">
+	var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+	document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script><script type="text/javascript">
+	try {
+		var pageTracker = _gat._getTracker("UA-501149-7");
+		
+		pageTracker._trackPageview();
+		
+	} catch (err) { }
+</script></body></html>
