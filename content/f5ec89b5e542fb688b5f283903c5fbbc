@@ -1,0 +1,89 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+	<head>
+		<meta http-equiv="content-type" content="text/html;charset=utf-8" />
+		<meta name="generator" content="Adobe GoLive" />
+		<title>Junction Auto Parts</title>
+		<style type="text/css" media="screen"><!--
+#layer2 { height: 60px; width: 330px; left: 267px; top: 290px; position: absolute; visibility: visible; }
+#layer3 { height: 30px; width: 170px; left: 70px; top: 380px; position: absolute; visibility: visible; }
+.copy { font-size: 10pt; font-weight: bold; }
+#layer1 { height: 330px; width: 210px; left: 610px; top: 90px; position: absolute; visibility: visible; }
+.bold { color: #fff; font-weight: bold; }
+--></style>
+		<csscriptdict import="import">
+			<script type="text/javascript" src="CSScriptLib.js"></script>
+		</csscriptdict>
+		<csactiondict>
+			<script type="text/javascript"><!--
+var preloadFlag = false;
+function preloadImages() {
+	if (document.images) {
+		pre_partsearch = newImage('rollover/partsearch.gif');
+		pre_email = newImage('rollover/email.gif');
+		preloadFlag = true;
+	}
+}
+
+// --></script>
+		</csactiondict>
+	</head>
+
+	<body onload="preloadImages();" bgcolor="black">
+		<div align="left">
+			<div style="position:relative;width:750px;height:431px;background-image:url(background.gif);-adbe-g:p;">
+				<div style="position:absolute;top:101px;left:181px;width:322px;height:176px;">
+					<img src="onepagers2_11-home_over.jpg" alt="" width="322" height="176" border="0" /></div>
+				<div style="position:absolute;top:272px;left:29px;width:120px;height:81px;">
+					<img src="ATRI.gif" alt="" width="120" height="81" border="0" /></div>
+				<div style="position:absolute;top:368px;left:287px;width:55px;height:35px;">
+					<img src="visa9.gif" alt="" width="55" height="35" border="0" /></div>
+				<div style="position:absolute;top:368px;left:342px;width:55px;height:35px;">
+					<img src="disce9.gif" alt="" width="55" height="35" border="0" /></div>
+				<div style="position:absolute;top:368px;left:232px;width:55px;height:35px;">
+					<img src="Mast9.gif" alt="" width="55" height="35" border="0" /></div>
+				<div style="position:absolute;top:368px;left:397px;width:55px;height:35px;">
+					<img src="amex9.gif" alt="" width="55" height="35" border="0" /></div>
+				<div style="position:absolute;top:147px;left:15px;width:134px;height:21px;">
+					<a onmouseover="changeImages('buttons_02','rollover/partsearch.gif');return true" onmouseout="changeImages('buttons_02','buttons/partsearch.gif');return true" href="http://www.JunctionAutoParts.com/inventory/retailB.htm"><img id="buttons_02" src="buttons/partsearch.gif" alt="" name="buttons_02" width="134" height="21" border="0" /></a></div>
+				<div style="position:absolute;top:192px;left:15px;width:134px;height:22px;">
+					<a onmouseover="changeImages('buttons_07','rollover/email.gif');return true" onmouseout="changeImages('buttons_07','buttons/email.gif');return true" href="mailto:sales@JunctionAutoParts.com"><img id="buttons_07" src="buttons/email.gif" alt="" name="buttons_07" width="134" height="22" border="0" /></a></div>
+				<div style="position:absolute;top:16px;left:173px;width:338px;height:50px;">
+					<img src="titlelong.gif" alt="" width="338" height="50" border="0" /></div>
+			</div>
+			<div id="layer3">
+				<div align="right">
+					<span class="copy"><span>© 2007 Car-Part.com</span></span></div>
+			</div>
+			<div id="layer1">
+				<div align="center">
+					<font size="4" color="white">Junction Auto Parts<br />
+						4557 Route 173<br />
+						P.O. Box 173<br />
+						Caledonia, IL 61011</font>
+					<center>
+						<font size="2" color="white" face="Geneva,Arial"><b><br />
+							</b></font></center>
+					<p><font color="white" face="Geneva,Arial"><b>Phone: 815-765-2731<br />
+								Toll Free: 800-325-8909<br />
+								Fax: 815-765-3130<br />
+							</b></font></p>
+					<p><font size="2" color="white" face="Geneva,Arial"><b>Hours: Monday-Friday<br />
+								8:00 a.m. - 6:00 p.m. CST<br />
+							</b></font></p>
+					<p></p>
+					<p><span class="bold">60 Day and Extended Warranties Available</span></p>
+				</div>
+			</div>
+			<div id="layer2">
+				<div align="center">
+					<br />
+					<font size="6" color="white">Established in 1985</font></div>
+			</div>
+		</div>
+		<p align="left"></p>
+	</body>
+
+</html>
