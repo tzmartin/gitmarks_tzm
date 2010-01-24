@@ -1,0 +1,110 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta name="Description" content="Threepress Consulting Inc. provides strategy, software and innovation in digital publishing and ebooks. "/>
+    <meta name="Keywords" content="ebook epub ereader bookworm threepress liza daly keith fahlgren ibis reader html5" />
+    <title>Validate EPUB documents Threepress Consulting Inc.</title>
+    <link rel="stylesheet" type="text/css" href="/static/base.css"/>
+    <link rel="stylesheet" type="text/css" media="print" href="/static/print.css"/>
+    <script type="text/javascript" src="http://use.typekit.com/unq0ivo.js"></script>
+    <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+
+
+<!--[if IE]>
+<link rel="stylesheet" type="text/css" href="/static/ie-only.css" />
+<![endif]-->
+
+    
+<link rel="stylesheet" href="/static/subpage.css"></link>
+<style type="text/css">
+#main dl { color: grey; font-size: x-small; }
+dt { font-weight: bold; color: #2E4560;}
+dd { margin:0 0 1em 0; padding:0 10px 0 0; }
+#main li { padding-bottom: .5em; font-size: small; }
+#main img {
+ float:right;
+ margin-left: 20px;
+}
+</style>
+
+  </head>
+  <body>
+    <!-- Header -->
+
+    <div id="header">
+      <h1><a href="/"><img src="http://3press-blog.s3.amazonaws.com/threepress-logo.png" alt="Threepress Consulting Inc." width="465" height="127" /></a></h1>
+      <h2 class="logo">Digital tools for twenty-first century publishing.</h2>
+      <div id="header_nav">
+        <a class="second-level" href="/about/">about</a>
+        <a class="second-level" href="/speaking/">speaking</a>
+        <a class="second-level" href="/tools/">tools</a>
+        <a class="second-level" href="/contact/">contact</a>
+        <a class="second-level" href="http://blog.threepress.org/">blog</a>
+      </div>
+    <div class="clear">&#160;</div>
+    </div>
+    <div id="main">
+      
+
+<div id="container" class="subpage">
+
+
+  <div id="sidebar">
+    <p>If you are creating commercial EPUBs in volume, you should <a href="http://blog.threepress.org/2010/12/16/running-epubcheck-on-your-computer/">install epubcheck</a> instead of using this tool.</p>
+
+    <p>This validator uses <a href="http://code.google.com/p/epubcheck/">epubcheck 1.1 and epubpreflight 0.1.0</a></p>
+    <p>Once you have validated your document, consider uploading it to <a href="http://ibisreader.com/">Ibis Reader</a> to view it in our highly-conformant EPUB reader.
+    </p>
+    <p>More about <a href="/about/">Threepress Consulting</a>.</p>
+    
+    
+  </div>
+
+  <h2>Validate EPUB documents</h2>
+
+
+  
+
+  
+  
+  
+  
+  <p>
+    
+    <img width="120" src="/static/images/epub/epub_logo_color.jpg" alt="EPUB logo" />
+    
+  
+
+     
+    Upload a DRM-free EPUB document to validate it against the schemas supplied with the <a href="http://code.google.com/p/epubcheck/">epubcheck</a> tool.  Documents are not permanently stored on the system but take care not to upload any sensitive documents.
+  </p>
+  <form action="/document/epub-validate/" method="post" enctype="multipart/form-data">
+    <div>
+      <input type="file" name="epub" id="id_epub" />
+      <input type="submit" value="validate" />
+    </div>
+  </form>
+
+
+
+</div>
+
+    </div>
+    <!-- Footer -->
+    <div id="footer">
+      <p>
+        Contact Threepress:  <a href="mailto:liza@threepress.org">liza@threepress.org</a> 
+      </p>
+    </div>
+    <script type="text/javascript">
+      var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+      document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+    </script>
+    <script type="text/javascript">
+      var pageTracker = _gat._getTracker("UA-162955-2");
+      pageTracker._initData();
+      pageTracker._trackPageview();
+    </script>
+  </body>
+</html>
