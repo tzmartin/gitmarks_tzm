@@ -1,0 +1,453 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+  <head>
+    
+      
+    
+
+<!-- exposes the current node for use with jstl -->
+
+
+    <title>ABA: Regional Booksellers Associations</title>
+  
+<!--  add magnolia css and js links -->
+
+
+
+<link rel="shortcut icon" type="image/x-icon" href="/docroot/aba/favicon.ico" />
+<link rel="stylesheet" type="text/css" href="/docroot/aba/css/style.css" />
+<style type="text/css" media="print">
+  .udm { display:none; }
+</style>
+<script type="text/javascript" src="/docroot/aba/udm-resources/style-new.js"></script>
+<script type="text/javascript" src="/docroot/aba/udm-resources/udm-control.js"></script>
+<script type="text/javascript" src="/docroot/aba/udm-resources/udm-style.js"></script>
+<script type="text/javascript">
+  function clearText(input) {
+    input.value = ""
+  }
+</script>
+
+<meta name="description" content="" />
+<meta name="keywords" content="" />
+
+
+  
+
+<meta name="priority" content="-1" />
+
+  </head>
+  <body>
+    
+    
+      <!--noindex-->
+      <script type="text/javascript" src="/docroot/aba/udm-resources/udm-dom.js">//don't collapse me</script><script type="text/javascript" src="/docroot/aba/udm-resources/udm-mod-keyboard.js">//don't collapse me</script><script type="text/javascript" src="/docroot/aba/udm-resources/udm-x-sliding.js">//don't collapse me</script><table id="menu" cellspacing="0" cellpadding="0"><tr><td><ul id="udm" class="udm"><li><a href="/about">ABOUT ABA</a><ul><li><a href="/about">What is ABA?</a></li><li><a href="/about/history">ABA History</a></li><li><a href="/about/govern">Governance & Financial Info</a></li><li><a href="/about/govern/grievance">Member & Customer Grievance 
+              Policy</a></li><li><a href="/btw">Bookselling in the News</a></li><li><a href="/events">Events</a><ul><li><a href="/events/bea">BookExpo America </a><ul><li><a href="/events/bea">General Information</a></li><li><a href="/events/bea/program">Day of Education at BEA</a></li></ul></li><li><a href="/education/opening/prospective.html">Prospective 
+                  Booksellers School</a></li><li><a href="/events/forums">Bookseller Forums</a></li><li><a href="/resources/regionals">Regional Trade Shows</a></li><li><a href="/events/institute">Winter Institute</a></li></ul></li><li><a href="/about/ads">Advertising</a></li><li><a href="/ideaexchange/mvnforum/index">ABA Forums</a></li><li><a href="/wiki">ABA Wiki</a></li><li><a href="/blogs/aba/">ABA Blog</a></li><li><a href="/about/press">Press Releases & White Papers</a></li><li><a href="/about/contact">Contact Us</a></li><li><a href="/about/logos">ABA Logos</a></li></ul></li><li><a href="/indiebound">INDIEBOUND</a><ul><li><a href="/indiebound">Getting Started</a><ul><li><a href="/indiebound/booksellers/gettingstarted">Booksellers</a></li><li><a href="/indiebound/b2b">Indie Businesses</a></li><li><a href="/indiebound/customers">Consumers</a></li></ul></li><li><a href="/indiebound/booksellers">Bookseller Resources</a><ul><li><a href="/indiebound/booksellers/community-tutorial">IndieBound.org Tutorial</a></li><li><a href="/indiebound/booksellers/community-invite">Invite Your Customers to Join IndieBound.org</a></li></ul></li><li><a href="/indiebound/publishers">Publisher Resources</a><ul><li><a href="/pubpartner">Publisher Partner Program</a></li><li><a href="/indiebound/publishers/advanceaccess">Advance Access Program</a></li><li><a href="/pubpartner/tours.html">Indie Next List Authors On Tour</a></li></ul></li><li><a href="/indiebound/b2b">Business-to-Business</a></li><li><a href="/indiebound/customers">For Consumers</a></li><li><a href="/indiebound/nextlist">The Indie Next List</a><ul><li><a href="/indiebound/nextlist/nominate">Nominate</a></li><li><a href="/indiebound/nextlist/view">View</a></li><li><a href="/indiebound/nextlist/deadlines">Deadlines</a></li></ul></li><li><a href="/indiebound/bestsellers">The Indie Bestseller Lists</a><ul><li><a href="/indiebound/bestsellers/national">National</a></li><li><a href="/indiebound/bestsellers/regional">Regional</a></li><li><a href="/indiebound/bestsellers/specialty">Specialty</a></li><li><a href="/indiebound/bestsellers/reporting">Report</a></li><li><a href="/indiebound/bestsellers/archives">Archives</a></li></ul></li><li><a href="/indiebound/indiessentials">Indiessentials</a></li><li><a href="/identitymanager/index.jsp">Bookseller DIY</a></li><li><a href="/btw/awards/ICBA.html">Indies Choice Book Awards</a></li><li><a href="http://www.indiebound.org">IndieBound.org</a></li></ul></li><li><a href="/membership">MEMBERSHIP</a><ul><li><a href="/aba/members/createAccount.do">Create a BookWeb Member 
+              Account</a></li><li><a href="/membership/join">Join ABA</a></li><li><a href="/membership/benefits">Member Categories and Benefits</a></li><li><a href="/aba/account/update.do">Update Your Member Profile</a></li><li><a href="/resources/directories">Member Directories</a></li><li><a href="/membership/products">Benefit Details</a><ul><li><a href="/membership/products.html#events">Education</a></li><li><a href="/membership/products.html#industry">Industry Information</a></li><li><a href="/advocacy">Advocacy</a></li><li><a href="/membership/products.html#marketing">Marketing</a></li><li><a href="/education/operations/abacus.html">ABACUS</a></li><li><a href="/membership/products/treeline.html">Above the Treeline 
+                  Inventory Management</a></li><li><a href="/membership/products/constant.html">Constant Contact 
+                  Email Newsletters</a></li><li><a href="/membership/products/libris">LIBRIS Insurance</a></li><li><a href="/membership/products/shipping.html">Discount Shipping 
+                  Program</a></li><li><a href="/membership/products/shipping/office.html">Copying</a></li><li><a href="/membership/products/creditcard.html">Credit Card 
+                  Processing</a></li><li><a href="http://www.bookweb.org/membership/products/certegy.html">Check 
+                  Processing</a></li><li><a href="/membership/products/paper.html">W.G. Ellerkamp Paper 
+                  Company</a></li><li><a href="/membership/products/label">AAA Label</a></li><li><a href="/membership/products/scoa.html">Standard Chart of 
+                  Accounts</a></li><li><a href="/booksense/orderform">Engelbreit Gift Certificates</a></li></ul></li></ul></li><li><a href="/marketing">MARKETING</a><ul><li><a href="/indiebound/booksellers">IndieBound for Booksellers</a></li><li><a href="/solutions/giftcards">ABA Gift Card Program</a></li><li><a href="/solutions/ecommerce">IndieCommerce Program</a></li><li><a href="/indiebound/publishers">IndieBound for Publishers</a></li><li><a href="/pubpartner">Publisher Partner Program</a></li><li><a href="/indiebound/publishers/advanceaccess">Advance Access 
+              Program</a></li><li><a href="/education/marketing">General Marketing Support</a></li><li><a href="/btw/awards/ICBA.html">Indies Choice Book Awards</a></li><li><a href="/marketing#harpers">Harper's Magazine New Books Column</a></li></ul></li><li><a href="/education">EDUCATION</a><ul><li><a href="/education/curriculum">Curriculum Guide</a></li><li><a href="/education/operations/abacus">ABACUS</a></li><li><a href="/education/ecatalogs">eCatalogs</a></li><li><a href="/education/calendar">Education Calendar</a><ul><li><a href="/events/institute">Winter Institute</a></li><li><a href="/events/forums">Education Forums</a></li><li><a href="/events/bea/program">Day of Education at BEA</a></li><li><a href="http://www.bookweb.org/resources/regionals.html">Regional Trade Shows</a></li></ul></li><li><a href="/education/opening">Prospective Bookseller</a></li></ul></li><li><a href="/advocacy">ADVOCACY</a><ul><li><a href="/advocacy">Publisher Relations</a></li><li><a href="/advocacy">Trade Issues</a><ul><li><a href="/advocacy/relief">Bookseller Relief Fund</a></li></ul></li><li><a href="/advocacy/shoplocal">Shop Local</a><ul><li><a href="/advocacy/economic">Economic Studies</a></li></ul></li><li><a href="/advocacy">Public Policy</a><ul><li><a href="/advocacy/salestax">Sales Tax</a></li></ul></li><li><a href="/advocacy">Free Expression</a></li><li><a href="/advocacy/organizations">Related Organizations</a></li><li><a href="/advocacy/checklist">Take Action</a></li></ul></li><li><a href="/resources">NEWS & RESOURCES</a><ul><li><i><a href="http://news.bookweb.org">Bookselling This Week</a></i></li><li><a href="http://news.bookweb.org/mediaguide/">Books in the Media</a></li><li><a href="/btw/awards">Awards</a></li><li><a href="/about/ads">Advertising</a></li><li><a href="/about/press">Press Releases</a></li><li><a href="/resources/bbh.html">ABA Book Buyer's Handbook</a></li><li><a href="/aba/resources/browse.do">ABA Booksellers Resource Directory</a><ul><li><a href="/resources/brd.html">Vendor Data Form</a></li></ul></li><li><a href="/resources/directories.html">ABA Member Directories</a></li><li><a href="/resources">Organizations and Links</a><ul><li><a href="/resources/regionals.html">Regional Bookseller Associations</a></li><li><a href="/resources/research.html">Research and Statistics</a></li><li><a href="/resources/freespeech.html">Free Speech and Legislative 
+                  Issues</a></li><li><a href="/resources/shoplocal.html">Shop Local</a></li><li><a href="/resources/related.html">Book-related Groups</a></li><li><a href="/resources/booktrade.html">Book Trade Associations</a></li></ul></li></ul></li></ul></td></tr></table>
+      <!--/noindex-->
+    
+    <div id="header">
+      <a href="/"><img src="/docroot/aba/images/sub-header.jpg" border="0" alt="American Booksellers Association" /></a>
+    </div>
+    <div id="container">
+      <div id="main">
+        <table width="100%" cellspacing="0" cellpadding="0">
+          <tr>
+            <td class="column">
+              <!--noindex-->
+              
+
+
+
+
+
+
+
+
+
+<div id="sidenav">
+  
+    
+  
+  
+  <div id="search">
+    <form id="mgnlsearch" method="get" action="/search">
+      <div>
+        <input id="query" name="query" size="15" value="  - site search -" onclick="clearText(this)" />
+        <input type="image" src="/docroot/aba/images/go2.gif" name="search" />
+      </div>
+    </form>
+  </div>
+  <div style="background:#02406b;height:1px;">&nbsp;</div>
+  <div style="background:#ffffff;height:1px;">&nbsp;</div>
+  <div class="lightblueline2">&nbsp;</div>
+  <div style="background:#ffffff;height:1px;">&nbsp;</div>
+  <div class="toolsHeader">
+    Bookseller Tools
+  </div>
+  <div class="lightblueline2">&nbsp;</div>
+  <div style="background:#e7f3ff;height:2px;">&nbsp;</div>
+  <div class="dottedline">&nbsp;</div>
+  <div id="tools">
+    
+      
+      
+<div class="tool">
+  <strong>
+
+
+  
+  
+
+
+
+
+
+
+
+
+<a href="/resources/bbh.html">ABA Book Buyer's Handbook</a>
+
+
+</strong>
+</div>
+<div class="dottedline">&nbsp;</div>
+    
+      
+      
+<div class="tool">
+  <strong>
+
+
+  
+  
+
+
+
+
+
+
+
+
+<a href="/aba/resources/browse.do">ABA Booksellers Resource Directory</a>
+
+
+</strong>
+</div>
+<div class="dottedline">&nbsp;</div>
+    
+      
+      
+<div class="tool">
+  <strong>
+
+
+  
+  
+
+
+
+
+
+
+
+
+<a href="/resources/directories.html">ABA Member Directories</a>
+
+
+</strong>
+</div>
+<div class="dottedline">&nbsp;</div>
+    
+      
+      
+<div class="tool">
+  <strong>
+
+
+  
+  
+
+
+
+
+
+
+
+
+<a href="/education.html">Education</a>
+
+
+</strong>
+</div>
+<div class="dottedline">&nbsp;</div>
+    
+      
+      
+<div class="tool">
+  <strong>
+
+
+  
+  
+
+
+
+
+
+
+
+
+<a href="/advocacy.html">Advocacy</a>
+
+
+</strong>
+</div>
+<div class="dottedline">&nbsp;</div>
+    
+      
+      
+<div class="tool">
+  <strong>
+
+
+  
+  
+
+
+
+
+
+
+
+
+<a href="/ideaexchange/index.html">Forums</a>/<a href="/wiki/">Wiki</a>/<a href="/blogs/aba/">Blog</a>
+
+
+</strong>
+</div>
+<div class="dottedline">&nbsp;</div>
+    
+      
+      
+<div class="tool">
+  <strong>
+
+
+  
+  
+
+
+
+
+
+
+
+
+<a href="/about/contact.html">Contact ABA</a>
+
+
+</strong>
+</div>
+<div class="dottedline">&nbsp;</div>
+    
+  </div>
+  
+  
+    
+  
+</div>
+
+              <!--/noindex-->
+            </td>
+            <td class="column">
+              <div id="content">
+                <!--noindex-->
+                <div class="commontext" style="padding-bottom:3px;">
+                  <a href="/">Home</a>
+                  
+                  
+                    &gt; <a href="/resources.html">Resources</a>
+                  
+                  &gt;
+                </div>
+                <!--/noindex-->
+                
+                
+                  
+                
+                <div class="pagetitle">Regional Booksellers Associations</div>
+                
+                
+                  <div class="pagesubtitle">
+                    Although the regional associations are not a part of the ABA, we do work quite    closely with them and encourage you to join them as well. The regional associations    provide a local focus, voice, and promotional and networking opportunities.
+                  </div>
+                
+                <div class="doublegrayline">&nbsp;</div>
+                
+                  <div style="clear:both;">
+                    
+                    
+
+
+<div class="commontext section" style="padding-bottom:10px;">
+  
+  
+    <div class="sectionHeader">
+      
+          
+            
+            
+          
+
+
+
+
+
+
+
+<a href="/files/open/pdf/Regional_Guide.pdf">Regional Booksellers Association Guide</a>
+
+
+        
+    </div>
+  
+  <div style="vertical-align:top;">
+    
+      Here's an overview of the nine regional booksellers associations, their programs and services, and key information.
+    
+    
+      <div style="padding-top:10px;">
+        
+          
+          
+          
+        
+
+
+
+
+
+
+
+<a href="/files/open/pdf/Regional_Guide.pdf">&gt;Download pdf guide.</a>
+
+
+      </div>
+    
+  </div>
+</div>
+
+                  </div>
+                
+                  <div style="clear:both;">
+                    
+                    
+
+
+<div class="commontext section" style="padding-bottom:10px;">
+  
+  
+  <div style="vertical-align:top;">
+    
+      <p><a name="top"></a></p> <table cellpadding="2" border="1" width="100%">     <tbody>         <tr>             <td colspan="2">             <div align="center"><strong>At a Glance<br />             </strong>Click on Regional Booksellers Association below <br />             to link directly to specific information.</div>             </td>         </tr>         <tr>             <td align="center"><a href="#glba">Great Lakes Independent Booksellers Association</a></td>             <td>             <div align="center"><a href="#mba">Midwest Booksellers Association</a></div>             </td>         </tr>         <tr>             <td>             <div align="center"><a href="#mpiba">Mountains &amp; Plains Independent          Booksellers Association</a></div>             </td>             <td>             <div align="center" id="{D03ACFFC-EF04-49F4-ADFA-5E7F283E168C}"><a href="#naiba">New Atlantic Independent Booksellers          Association</a></div>             </td>         </tr>         <tr>             <td>             <div align="center"><a href="#neiba">New England Independent Booksellers          Association</a></div>             </td>             <td>             <div align="center" id="{C1C5766C-50AE-4B5D-A4C5-995ACCF7E3CD}"><a href="#nogsba">New Orleans-Gulf South Booksellers          Association</a></div>             </td>         </tr>         <tr>             <td>             <div align="center"><a href="#nciba">Northern California Independent Booksellers          Association</a></div>             </td>             <td align="center"><a href="#pnba">Pacific Northwest Booksellers Association</a></td>         </tr>         <tr>             <td>             <div align="center"><a href="#scba">Southern California Independent Booksellers          Association</a></div>             </td>             <td align="center"><a href="#siba">Southern Independent Booksellers Alliance</a></td>         </tr>     </tbody> </table>
+    
+    
+  </div>
+</div>
+
+                  </div>
+                
+                  <div style="clear:both;">
+                    
+                    
+
+
+<div class="commontext section" style="padding-bottom:10px;">
+  
+  
+  <div style="vertical-align:top;">
+    
+      <div id="{D96CF249-6F9D-4605-B84D-EA1E4BFE6D14}" style="vertical-align: top;"> <p><a name="glba"></a></p> <hr /> <table width="100%" cellpadding="5" border="0" bgcolor="#663366">     <tbody>         <tr>             <td><strong><a href="http://www.gliba.org/"><font color="#ffffff">Great          Lakes Independent Booksellers Association</font> </a></strong></td>         </tr>     </tbody> </table> <p><strong> </strong><span class="style1">Sally Bulthuis</span> (President)<br /> Pooh&rsquo;s Corner<br /> 1886 &frac12; Breton Road SE<br /> Grand Rapids MI 49506<br /> (616) 942-9887<br /> Fax: (616) 942-9432<br /> E-Mail: <a href="mailto:poohs@iserv.net">poohs@iserv.net</a></p> <p>Deborah Leonard (Executive Director)<br /> 208 Franklin St.<br /> P.O. Box 901<br /> Grand Haven, MI 49417<br /> (800) 745-2460, (616) 847-2460<br /> Fax: (616) 842-0051<br /> E-Mail: <a href="mailto:deb@gliba.org">deb@gliba.org</a></p> <p><a href="#top">Back to top</a></p> <p><a name="mba"></a></p> <hr /> <table width="100%" cellpadding="5" border="0" bgcolor="#663366">     <tbody>         <tr>             <td><strong><a href="http://www.midwestbooksellers.org"><font color="#ffffff">Midwest          Booksellers Association</font></a></strong></td>         </tr>     </tbody> </table> <p>&nbsp;</p> <p>Chris Livingston (President)<br /> The Book Shelf<br /> 162 West 2nd Street<br /> Winona, MN 55987<br /> (507) 474-1880<br /> E-Mail:<a href="mailto:chris@bookshelfwinona.com"> chris@bookshelfwinona.com</a></p> <p>Susan Walker (Executive Director)<br /> Kati Gallagher (Assistant Director)<br /> <span style="color: rgb(255, 0, 0);"><span style="color: rgb(0, 0, 0);">2355 Louisiana Avenue North, Suite A<br /> Golden Valley, MN 55427<br /> (800) 784-7522, (763) 544-2993<br /> Fax: (763) 544-2266</span></span><br /> E-Mail:&nbsp; <a href="mailto:susan@midwestbooksellers.org">susan@midwestbooksellers.org</a><br /> <a href="mailto:kati@midwestbooksellers.org">kati@midwestbooksellers.org</a></p> <p><a href="#top">Back to top</a></p> <p><a name="mpiba"></a></p> <hr /> <table width="100%" cellpadding="5" border="0" bgcolor="#663366">     <tbody>         <tr>             <td><strong><a href="http://www.mountainsplains.org/"><font color="#ffffff">Mountains          &amp; Plains Independent Booksellers Association</font></a></strong></td>         </tr>     </tbody> </table> <strong><br /> </strong>Meghan Goel (President)<br /> BookPeople Bookstore<br /> 603 North Lamar Boulevard<br /> Austin, TX 78703<br /> (512) 472-5050 <br /> (Fax) 512-482-8495<br /> E-Mail: <a href="mailto:kids_buyer@bookpeople.com">kids_buyer@bookpeople.com</a><br /> <p>Lisa Knudsen (Executive Director)<br /> 19 Old Town Square, Suite 238<br /> Fort Collins, CO 80524<br /> (970) 484-5856<br /> Fax: (970) 407-1479<br /> E-Mail: <a href="mailto:lisa@mountainsplains.org">lisa@mountainsplains.org</a></p> <p><a href="#top">Back to top</a></p> <p><a name="naiba"></a></p> <p>&nbsp;</p> <hr /> <table width="100%" cellpadding="5" border="0" bgcolor="#663366">     <tbody>         <tr>             <td><strong><a href="http://www.newatlanticbooks.com/"><font color="#ffffff">New          Atlantic Independent Booksellers Association<br />             </font></a></strong></td>         </tr>     </tbody> </table> <strong><br /> </strong>Lucy Kogler (President)<br /> Talking Leaves Inc.<br /> 951 Elmwood Ave.<br /> Buffalo, NY 14222<br /> (716) 884-9524<br /> Fax (716) 332-3625<br /> E-Mail: <a href="mailto:lucyk@tleavesbooks.com">lucyk@tleavesbooks.com</a> <p>&nbsp;Eileen Dengler (Executive Director)<br /> 2667 Hyacinth St.<br /> Westbury, NY 11590<br /> (516) 333-0681<br /> Fax: (516) 333-0689<br /> E-Mail: <a href="mailto:info@naiba.com">info@naiba.com</a></p> <p><a href="#top">Back to top</a></p> <p><a name="neiba"></a></p> <hr /> <table width="100%" cellpadding="5" border="0" bgcolor="#663366">     <tbody>         <tr>             <td><strong><a href="http://www.newenglandbooks.org/"><font color="#ffffff">New          England Independent Booksellers Association</font></a></strong></td>         </tr>     </tbody> </table> <p>Dick Hermans (President)<br /> Oblong Books &amp; Music <br /> PO Box 482 <br /> 6422 Montgomery St.<br /> Rhinebeck, NY 12572-0482<br /> (845) 876-0500 <br /> E-Mail: <a href="mailto:dick@oblongbooks.com">dick@oblongbooks.com</a></p> <p>Steve Fischer (Executive Director)<br /> 297 Broadway, #212<br /> Arlington, MA 02474<br /> (781) 316-8894<br /> Fax: (781) 316-2605<br /> E-Mail: <a href="mailto:steve@neba.org">steve@neba.org</a></p> <p><a href="#top">Back to top</a></p> <p><a name="nogsba"></a></p> <hr /> <table width="100%" cellpadding="5" border="0" bgcolor="#663366">     <tbody>         <tr>             <td><strong><a href="http://www.nogsba.org"><font color="#ffffff">New Orleans-Gulf          South Booksellers Association</font></a></strong></td>         </tr>     </tbody> </table> <p>Britton Trice (Chair)<br /> Garden District Bookshop<br /> 2727 Prytania St.<br /> New Orleans, LA 70130<br /> (504) 895-2266<br /> Fax: (504) 895-0111<br /> E-Mail: <a href="mailto:betbooks@aol.com">betbooks@aol.com</a></p> <p><a href="#top">Back to top</a></p> <p><a name="nciba"></a></p> <hr /> <table width="100%" cellpadding="5" border="0" bgcolor="#663366">     <tbody>         <tr>             <td><strong><a href="http://www.nciba.com/"><font color="#ffffff">Northern          California Independent Booksellers Association</font></a></strong></td>         </tr>     </tbody> </table> <p>Mike Barnard (President)<br /> Rakestraw Books<br /> 522 Hartz Avenue<br /> Danville, CA 94526-3808<br /> (925) 837-7337</p> <p>Hut Landon (Executive Director)<br /> The Presidio<br /> P.O. Box 29169 (mail)<br /> 37 Graham St. (delivery)<br /> San Francisco, CA 94129<br /> (415) 561-7686<br /> Fax: (415) 561-7685<br /> E-Mail: <a href="mailto:office@nciba.com">office@nciba.com</a></p> <p><a href="#top">Back to top</a></p> <p><a name="pnba"></a></p> <hr /> <table width="100%" cellpadding="5" border="0" bgcolor="#663366">     <tbody>         <tr>             <td><strong><a href="http://www.pnba.org/"><font color="#ffffff">Pacific          Northwest Booksellers Association</font></a></strong></td>         </tr>     </tbody> </table> <p><a href="mailto:riverwalk@nwi.net"> <meta http-equiv="Content-Type" content="text/html; charset=utf-8"> <meta name="ProgId" content="Word.Document"> <meta name="Generator" content="Microsoft Word 9"> <meta name="Originator" content="Microsoft Word 9"> <link rel="File-List" href="file:///C:/DOCUME~1/r-hawkin/LOCALS~1/Temp/msoclip1/01/clip_filelist.xml" /><!--[if gte mso 9]><xml> <w:WordDocument> <w:View>Normal</w:View> <w:Zoom>0</w:Zoom> <w:DoNotOptimizeForBrowser /> </w:WordDocument> </xml><![endif]--><style type="text/css"> <!--  /* Style Definitions */ p.MsoNormal, li.MsoNormal, div.MsoNormal 	{mso-style-parent:""; 	margin:0in; 	margin-bottom:.0001pt; 	mso-pagination:widow-orphan; 	font-size:12.0pt; 	font-family:"Times New Roman"; 	mso-fareast-font-family:"Times New Roman";} @page Section1 	{size:8.5in 11.0in; 	margin:1.0in 1.25in 1.0in 1.25in; 	mso-header-margin:.5in; 	mso-footer-margin:.5in; 	mso-paper-source:0;} div.Section1 	{page:Section1;} --></style>                                                </meta> </meta> </meta> </meta> </a></p> Sylla McClellan (President)<br /> Third Street Books<br /> 334 NE Third Street<br /> McMinneville, OR 97128<br /> (503) 472-7786<br /> Fax: (503) 472-3948 <p>Thom Chambliss (Executive Director)<br /> 338 West 11th Ave., #108<br /> Eugene, OR 97401-3062<br /> (541) 683-4363<br /> Fax: (541) 683-3910<br /> E-Mail: <a href="mailto:info@pnba.org">info@pnba.org</a></p> <p><a href="#top">Back to top</a></p> <p><a name="scba"></a></p> <hr /> <table width="100%" cellpadding="5" border="0" bgcolor="#663366">     <tbody>         <tr>             <td><strong><a href="http://www.scibabooks.org"><font color="#ffffff">Southern          California Independent Booksellers Association</font></a></strong></td>         </tr>     </tbody> </table> <p>Andrea Vuleta (President) <br /> Mrs. Nelson's Toy and Book Shop<br /> 1030 Bonita Avenue<br /> La Verne, California 91750-5108<br /> (909) 599-4558</p> <p>Jennifer Bigelow (Executive Director)<br /> 133 N. Altadena Drive<br /> Pasadena, California 91107<br /> (626) 793-7403<br /> Fax: (626) 792-1402<br /> E-Mail: <a href="mailto:office@scibabooks.org">office@scibabooks.org</a></p> <p><a href="#top">Back to top</a></p> <p><a name="siba"></a></p> <hr /> <table width="100%" cellpadding="5" border="0" bgcolor="#663366">     <tbody>         <tr>             <td><strong><a href="http://www.sibaweb.com/"><font color="#ffffff">Southern          Independent Booksellers Alliance</font></a></strong></td>         </tr>     </tbody> </table> <p>Kelly Justice (President)<br /> Fountain Bookstore<br /> Historic Shockoe Slip<br /> 1312 E. Cary St.<br /> Richmond, VA 23219<br /> (804) 788-1594<br /> Fax: (804) 788-0445<br /> E-Mail: <a href="mailto:fountain.bookstore@verizon.net">fountain.bookstore@verizon.net</a><span style="display: none;">This e-mail address is being protected from spam bots, you need JavaScript enabled to view it </span></p> <p>Wanda Jewell (Executive Director)<br /> Southern Independent Booksellers Alliance <br /> 3806 Yale Ave.<br /> Columbia, SC 29205<br /> (803) 994-9530<br /> Fax: (803) 779-0113<br /> E-Mail: <a href="mailto:info@sibaweb.com">info@sibaweb.com</a></p> <p><a href="#top">Back to top</a></p> <hr /> <p><font size="-1"><em>Updated: 12/10</em></font></p> </div>
+    
+    
+  </div>
+</div>
+
+                  </div>
+                
+                
+                
+                
+                  
+                  
+                    <div class="commontext" style="padding-top:20px;">
+                      Topics:
+                      
+                        <a href="/topic.html?topic=regionaltradeassociations">Regional Trade Associations</a>, 
+                      
+                        <a href="/topic.html?topic=resources">Resources</a>
+                      
+                    </div>
+                  
+                
+              </div>
+            </td>
+          </tr>
+        </table>
+      </div>
+    </div>
+    
+<div id="footer">
+  
+  Copyright &copy;
+  2010
+  by American Booksellers Association
+  <br />
+  BookWeb is a trademark of the American Booksellers Association. All Rights Reserved.
+  <br />
+  IMPORTANT NOTE: SEE THE <a href="/about/statement/">ABA WEBSITE STATEMENT, POLICIES, AND FORUM AGREEMENT</a>
+</div>
+
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+
+
+
+<script type="text/javascript">
+var pageTracker = _gat._getTracker("UA-1486721-3");
+
+pageTracker._trackPageview();
+</script>
+  </body>
+</html>
+
