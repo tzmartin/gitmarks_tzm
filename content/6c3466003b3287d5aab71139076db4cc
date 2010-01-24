@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+	<head>
+		<title>  iPhone Webapps 101: make your buttons feel native | rakaz</title>
+
+		<meta name="author" content="Niels Leenheer" />
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+		<!--[if lte IE 8]>
+		<script src="http://rakaz.nl/wp-content/themes/rakaz/html5.js" type="text/javascript"></script>
+		<![endif]-->
+
+		<link rel="stylesheet" href="http://rakaz.nl/wp-content/themes/rakaz/style.css" type="text/css" media="screen" />
+		<!--[if lte IE 6]>
+		<link rel="stylesheet" href="http://rakaz.nl/wp-content/themes/rakaz/ie6.css" type="text/css" media="screen" />
+		<![endif]-->
+
+		<link rel="alternate" type="application/atom+xml" title="rakaz Atom Feed" href="http://rakaz.nl/feed/atom" />
+		<link rel="pingback" href="http://rakaz.nl/xmlrpc.php" />
+
+<script type='text/javascript' src='http://rakaz.nl/wp-includes/js/prototype.js?ver=1.6.1'></script>
+<script type='text/javascript' src='http://rakaz.nl/wp-includes/js/scriptaculous/wp-scriptaculous.js?ver=1.8.3'></script>
+<script type='text/javascript' src='http://rakaz.nl/wp-includes/js/scriptaculous/effects.js?ver=1.8.3'></script>
+<script type='text/javascript' src='http://rakaz.nl/wp-content/plugins/lightbox-2/lightbox-resize.js?ver=1.8'></script>
+<script type='text/javascript' src='http://rakaz.nl/wp-includes/js/jquery/jquery.js?ver=1.4.2'></script>
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://rakaz.nl/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://rakaz.nl/wp-includes/wlwmanifest.xml" /> 
+<link rel='index' title='rakaz' href='http://rakaz.nl' />
+<link rel='start' title='Finally&#8230;' href='http://rakaz.nl/2004/05/finally.html' />
+<link rel='prev' title='iPhone Webapps 101: detecting essential information about your iPhone' href='http://rakaz.nl/2009/09/iphone-webapps-101-detecting-essential-information-about-your-iphone.html' />
+<link rel='next' title='Apple introduces new Macs… but more importantly, it now uses HTML5 video on their website' href='http://rakaz.nl/2009/10/apple-introduces-new-macs%e2%80%a6-but-more-importantly-it-now-uses-html5-video-on-their-website.html' />
+<meta name="generator" content="WordPress 3.0" />
+<link rel='canonical' href='http://rakaz.nl/2009/10/iphone-webapps-101-make-your-buttons-feel-native.html' />
+<link rel='shortlink' href='http://rakaz.nl/?p=655' />
+<script type="text/javascript" src="http://rakaz.nl/wp-content/plugins/degradable-html5-audio-and-video/incl/audio-player.js"></script>
+<script type="text/javascript">
+	AudioPlayer.setup("http://rakaz.nl/wp-content/plugins/degradable-html5-audio-and-video/incl/player.swf", {
+		/* Format the player by inserting lines here. See http://wpaudioplayer.com/standalone */
+		width: 290,
+		initialvolume: 80
+	});
+</script>
+	<!-- begin lightbox scripts -->
+	<script type="text/javascript">
+    //<![CDATA[
+    document.write('<link rel="stylesheet" href="http://rakaz.nl/wp-content/plugins/lightbox-2/Themes/White/lightbox.css" type="text/css" media="screen" />');
+    //]]>
+    </script>
+	<!-- end lightbox scripts -->
+<!-- WP-Archives 0.8 by unijimpe -->
+
+	</head>
+
+	<body>
+		<div id="page">
+			<header>
+				<p class="blogtitle"><a class="hidelink" href="http://rakaz.nl/">rakaz</a></p>
+				<p class="description">about standards, webdesign, usability and open source</p>
+			</header>
+
+	<div id="content" class="narrowcolumn">
+
+		
+		<div class="post" id="post-655">
+		
+			
+			<h1>iPhone Webapps 101: make your buttons feel native</h1>
+			<p class="postdate">Wednesday, 14 October 2009</p>
+
+			<div class="entry">
+				<p>If you have read the first tutorial in this series you’ll know that an iPhone web app is just a regular web page. I explained how you could get rid of some of the default behaviours of Safari and how to make the app run full screen. Unfortunately this is just the beginning. Even if you recreate the look of a native app as accurate as possible, it will still not feel like a native app.</p>
+<p><span id="more-655"></span></p>
+<h3>Mouse events on a touch screen</h3>
+<p>The cause of this problem; mouse events are handled differently on an iPhone. This shouldn’t be a surprise. We don’t use a mouse on the iPhone, we use our finger to tap and move on the screen. The native touch screen events are quite a bit different from the normal mouse events that we are used to.</p>
+<p>Luckily normal web developers won’t have to deal with these native touch events. Safari will translate them to regular mouse events. While these translated mouse events are good enough for maintaining compatibility with regular websites, they are too crude for any real interaction.</p>
+<p>Take for example a simple tap on the screen. In theory this could translate perfectly to a <code>mousedown</code> event, a <code>mouseup</code> event and finally a <code>click</code> event. The <code>mousedown</code> event would fire when your finger touches the screen, the <code>mouseup</code> event will fire when you release your finger. If the <code>mousedown</code> and <code>mouseup</code> events have the same target these events are followed by a <code>click</code> event. This is how it works with a regular mouse and how it ideally would be translated. In reality all three events are dispatched at the same time: after you have released your finger. To make matters worse there is a small delay between releasing your finger and the moment the events are dispatched.</p>
+<p>The simultaneous dispatch of the events is a real problem for our buttons. Most native buttons have multiple states. Take for example a simple toolbar button at the top of the screen. If you hold down your finger on the button it will become darker. Or take a look at an icon in the bottom toolbar of the Mail app or the playback controls of the iPod app. If you hold down your finger a white glow around the icon will appear. Normally we would trigger the alternative state using the <code>mousedown</code> event and restore the original state using the <code>mouseup</code> event. Unfortunately these states are not possible to recreate with a webapp because the <code>mousedown</code> and <code>mouseup</code> events are dispatched at the same time.</p>
+<h3>Using native touch events</h3>
+<p>There is one thing we can do to solve this mess. The iPhone will also expose its native touch events to web apps. If we use the native touch events we can detect exactly when the user holds down his finger on a button and when he releases his finger.</p>
+<p>The iPhone will dispatch three different touch related events: <code>touchstart</code>, <code>touchmove</code> and <code>touchend</code>. The first event is dispatched when a finger or multiple fingers touch the screen. The second is dispatched when one of those fingers move over the screen and the last event is dispatched when all fingers have left the screen. Without even knowing more about these events we can already make our first prototype.</p>
+<p>The idea is to change the state of the button by toggling a class. If the button has no class it will show the regular button, but if the class is active it will show the darker button instead. So all we have to do is set the class to active as soon as we notice that the <code>touchstart</code> event is dispatched to our button and remove the class as soon as we notice either the <code>touchmove</code> or the <code>touchend</code> event.</p>
+<p style="text-align: left; ">Use an iPhone or iPod touch to see how the <a href="http://rakaz.nl/projects/iphone101/buttons/prototypes/1.html">first prototype</a> works.</p>
+<h3>Dispatching the click event ourselves</h3>
+<p>There is one more addition we want to make to the prototype. There is still the delay between releasing your finger and dispatching the <code>click</code> event. Our button feels sluggish compared to a native button. We want to prevent Safari from dispatching its own <code>click</code> event. It turns that is exactly what will happen if you use <code>preventDefault()</code> to prevent the default action of the <code>touchstart</code> event. It will disable Safari’s own conversion of touch events to a <code>click</code> event.</p>
+<p>To make our prototype work again we just have to create our own <code>click</code> event and dispatch it to the button. Of course we only need to do this if our finger hasn’t moved. The easiest way to check this would be to look at the class of our button. If our finger moved we remove the active class. So if the active class is still present we need to dispatch the event and if is not present we can safely ignore the event.</p>
+<p>Use an iPhone or iPod touch to see how the <a href="http://rakaz.nl/projects/iphone101/buttons/prototypes/2.html">second prototype</a> works.</p>
+<h3>Emulating the behaviour of a native button</h3>
+<p>The second prototype will actually work quite well, but there are still differences compared to native buttons. If you look closer at native buttons you’ll notice that you can actually move your finger away from the button and it will still retain its active state. There is a 100 pixel radius around the button and only if you move your finger outside of that radius it will loose its active state. Move your finger back into the radius and it will become active again. And even more importantly if you release your finger and the button is active it will dispatch the <code>click</code> event – even if your finger is not strictly on the button.</p>
+<p>The solution to this problem is actually quite simple. We need to measure the dimensions and determine the location of the button on the screen. Using this information we can calculate the location of the 100 pixel radius. The <code>touchmove</code> event listener checks if the location of your finger is within the radius and will remove the class if it isn’t. If it is in the radius again, it will add the class again.</p>
+<p>So how can we determine the location of the finger on the screen? If we were using mouse events we could look at the event object passed to the event handler. There are two properties called <code>clientX</code> and <code>clientY</code> which would contain the coordinates of the mouse relative to the page. Touch events work similar, but instead of just a single <code>clientX</code> and <code>clientY</code> property we have separate properties for every finger. The event object contains an array called <code>targetTouches</code> which holds all of those properties. If we assume that we are just working with a single finger we only have to look at the first element of the <code>targetTouches</code> array and compare its <code>clientX</code> and <code>clientY</code> to the location of the 100 pixel radius.</p>
+<p>Just like the previous version of the prototype we want to dispatch our own <code>click</code> event. And just like before we can simply look at the class of the button to see if we need to dispatch our <code>click</code> event. If the class is set to active, our finger is within the 100 pixel radius and we need to dispatch the event. If the class is not set, we can just ignore the event.</p>
+<p>Use an iPhone or iPod touch to see how the <a href="http://rakaz.nl/projects/iphone101/buttons/prototypes/3.html">third prototype</a> works.</p>
+<h3>How to make your icon glow?</h3>
+<p>As discussed earlier in this article, the iPhone has different types of native buttons and the example above is just one. Some native applications will also show clickable icons instead of actual buttons. If you hold down your finger on such an icon it will not show an alternative state. Instead it will show a white glow around the icon. If you move your finger away from the icon, the glow will disappear. Move your finger back on the icon it will appear again.</p>
+<p>So how do we make an icon glow? The glow is little more than a simple radial gradient. The inner part of the gradient is plain white, the outer part is transparent. Using the <code>canvas</code> element it is almost trivial to create such a gradient and position it on top of the icon.</p>
+<p>That is exactly what we need to do. As soon as we receive the <code>touchstart</code> event we create our canvas and draw a gradient. Using the same logic we already wrote for regular buttons we determine if our finger is within the 100 pixel radius. If it is we simply show the gradient, if is not, we hide the gradient. That is basically all there is to it.</p>
+<p>To make the effect a bit more fluent, I also added a CSS transition. Transitions are a great way to create small animations using only CSS. You don’t need to write a complicated animation script using JavaScript and event handler. You just specify the CSS property that you want to be animated and specify the duration of the animation. If you change the property it will create a small animation from the state of the property how it used to be to the state you set it to be.</p>
+<p>In my example I used the CSS opacity property for a transition. By default the opacity is set to 1, which means it is completely visible. If I hide the gradient I set it to 0 which should make the gradient completely transparent. Without transitions this would be immediate. One moment you see the gradient, the next it is invisible. However, if I add a transition it will slowly fade out and I can specify the exact number of milliseconds that that transition should last.</p>
+<p>Use an iPhone or iPod touch to see how the <a href="http://rakaz.nl/projects/iphone101/buttons/prototypes/4.html">final prototype</a> works.</p>
+<h3>Download</h3>
+<p>The result is also available as a <a href="http://rakaz.nl/projects/iphone101/buttons/iphone101-buttons.zip">zip file</a> and contains the ActiveOnTouch and GlowOnTouch classes, an example and all four prototypes. These classes are based on the Prototype Lite library which is also included in the zip file. Finally, I want to thank Matteo Spinelli from <a href="http://cubiq.org/">cubiq.org</a> whose articles inspired the code I wrote for this article.</p>
+<h3>More about iPhone webapp development</h3>
+<p>This is the third part of an ongoing series of articles called <em>iPhone Webapps 101</em>. The other installments are:</p>
+<ul>
+<li><a href="http://rakaz.nl/2009/09/iphone-webapps-101-getting-safari-out-of-the-way.html">Getting Safari out of the way</a></li>
+<li><a href="http://rakaz.nl/2009/09/iphone-webapps-101-detecting-essential-information-about-your-iphone.html">Detecting essential information about your iPhone</a></li>
+</ul>
+				
+							</div>
+
+					</div>
+
+			
+	<div class='comments'>
+
+
+  		<!-- If comments are closed. -->
+		<p class="nocomments">Comments are closed.</p>
+		
+	
+
+
+</div>
+	    
+		<div class="entry other-posts">
+					</div>
+			
+		<div class="navigation">
+			<div><span>Next: </span><a href="http://rakaz.nl/2009/10/apple-introduces-new-macs%e2%80%a6-but-more-importantly-it-now-uses-html5-video-on-their-website.html" rel="next">Apple introduces new Macs… but more importantly, it now uses HTML5 video on their website</a></div>
+			<div><span>Previous: </span><a href="http://rakaz.nl/2009/09/iphone-webapps-101-detecting-essential-information-about-your-iphone.html" rel="prev">iPhone Webapps 101: detecting essential information about your iPhone</a></div>
+		</div>
+
+	
+	</div>
+
+	<div id="sidebar">
+		<div class="menu"><ul><li ><a href="http://rakaz.nl/" title="Home">Home</a></li><li class="page_item page-item-174"><a href="http://rakaz.nl/archive" title="Archive">Archive</a></li><li class="page_item page-item-525"><a href="http://rakaz.nl/populair" title="Popular">Popular</a></li><li class="page_item page-item-151 current_page_parent"><a href="http://rakaz.nl/about" title="About">About</a></li><li class="page_item page-item-149"><a href="http://rakaz.nl/code" title="Code">Code</a><ul class='children'><li class="page_item page-item-462"><a href="http://rakaz.nl/code/combine" title="Combine">Combine</a></li><li class="page_item page-item-465"><a href="http://rakaz.nl/code/feedparser" title="Feedparser">Feedparser</a></li><li class="page_item page-item-470"><a href="http://rakaz.nl/code/nucleus" title="Nucleus">Nucleus</a></li><li class="page_item page-item-473"><a href="http://rakaz.nl/code/scrub" title="Scrub">Scrub</a></li><li class="page_item page-item-475"><a href="http://rakaz.nl/code/zenphoto" title="Zenphoto">Zenphoto</a></li></ul></li></ul></div>
+ 
+		
+		        <ul>
+					</ul>
+		     </div>
+
+		</div>
+
+
+<!-- Google Analytics for WordPress | http://yoast.com/wordpress/google-analytics/ -->
+<script type="text/javascript">
+	var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+	document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+	try {
+		var pageTracker = _gat._getTracker("UA-68192-1");
+		// Cookied already: 
+		pageTracker._trackPageview();
+	} catch(err) {}
+</script>
+<!-- End of Google Analytics code -->
+
+	</body>
+</html>
