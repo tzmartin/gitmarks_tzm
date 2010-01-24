@@ -1,0 +1,377 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+  <title>Page Not Found - Yext</title>
+  <meta name="description" content="" />
+  <meta name="keywords" content="" />
+  <link rel="shortcut icon" href="/static/images/favicon.ico" />
+  <link rel="stylesheet" href="/static/global.css" type="text/css" charset="utf-8" />
+  <link rel="stylesheet" href="/static/yextdirectory.css" type="text/css" charset="utf-8" />
+  <script type="text/javascript">
+  <!--
+    if (typeof XMLHttpRequest == "undefined")
+    {
+      XMLHttpRequest = function() {
+        try { return new ActiveXObject("Msxml2.XMLHTTP.6.0") } catch(e) {}
+        try { return new ActiveXObject("Msxml2.XMLHTTP.3.0") } catch(e) {}
+        try { return new ActiveXObject("Msxml2.XMLHTTP") } catch(e) {}
+        try { return new ActiveXObject("Microsoft.XMLHTTP") } catch(e) {}
+        throw new Error( "This browser does not support XMLHttpRequest." );
+      };
+    }
+    function elem(id)
+    {
+      return document.getElementById(id);
+    }
+    function hide(id)
+    {
+      var e = elem(id);
+      if (e) e.style.display = "none";
+    }
+    function show(id, opt_display)
+    {
+      var display = "";
+      if (typeof opt_display != "undefined") display = opt_display;
+      var e = elem(id);
+      if (e) e.style.display = display;
+    }
+    function fixEvent(e)
+    {
+       if ( e.pageX == null && e.clientX != null ) {
+          var de = document.documentElement, b = document.body;
+          e.pageX = e.clientX + (de && de.scrollLeft || b.scrollLeft || 0);
+          e.pageY = e.clientY + (de && de.scrollTop || b.scrollTop || 0);
+       }
+       return e;
+    }
+    function showTooltip(e, s)
+    {
+      var t = elem("tooltip");
+      t.innerHTML = "<b>" + s + "</b>";
+      e = fixEvent(e || window.event);
+      t.style.top = (e.pageY + 2) + "px";
+      t.style.left = (e.pageX + 2) + "px";
+      show("tooltip");
+    }
+    function hideTooltip()
+    {
+      hide("tooltip");
+    }
+    function clearZip()
+    {
+      if (document.getElementById('zip').value == "zip code")
+      {
+        document.getElementById('zip').value = "";
+        document.getElementById('zip').maxLength = 5;
+        document.getElementById('zip').style.color = "#54534A";
+      }
+    }
+    function changeDropdown()
+    {
+      document.getElementById('industry').style.color = "#54534A";
+    }
+    function validate()
+    {
+      if (document.getElementById('industry').selectedIndex == 0) return false;
+      var zipFilter = /^([0-9]{5})$/;
+      if (!zipFilter.test(document.getElementById('zip').value)) return false;
+      return true;
+    }
+    function go(industry, zip)
+    {
+      document.location.href = "/" + elem(industry).value + "/search?zip=" + elem(zip).value;
+    }
+  //-->
+  </script>
+  
+</head>
+<body>
+<div id="container">
+  <div id="tooltip" style="display:none;position:absolute;background:white;padding:10px;border:1px solid black"></div>
+  <div id="header">
+    <div id="logo"><a id="logolink" href="/directory/"><img src="/static/images/logo_yext.png" alt="Yext&trade;" /></a></div>
+    <div id="nextyellow"><img src="/static/images/next-yellow.png" width="230" height="18" alt="The Next Yellow Pages&trade;" /></div>
+  </div>
+  <div id="content">
+    <div id="left">
+      <div class="box">
+        <div class="inside">
+          <h3>Page Not Found</h3>
+          <p>The page you were looking for could not be found. Enter your zip code to find local businesses.</p>
+          <form onsubmit="if (validate()) { go('industry', 'zip'); } return false;">
+            <table id="searchinside" cellpadding="0" cellspacing="0">
+              <tr valign="middle">
+                <td class="text">find</td>
+                <td>
+                  <select name="industry" id="industry" onfocus="javascript:changeDropdown();">
+                    <option>select a category</option>
+                    <option value="appliancerepair">appliance repair</option>
+                    <option value="autobody">auto body shops</option>
+                    <option value="autoglass">auto glass repair</option>
+                    <option value="autorepair">auto repair</option>
+                    <option value="carpenters">carpenters</option>
+                    <option value="carservice">car service</option>
+                    <option value="chiropractors">chiropractors</option>
+                    <option value="cleaningservice">cleaning services</option>
+                    <option value="computerrepair">computer repair</option>
+                    <option value="copierrepair">copier repair</option>
+                    <option value="countertops">countertops</option>
+                    <option value="dermatologists">dermatologists</option>
+                    <option value="drivingschools">driving schools</option>
+                    <option value="electricians">electricians</option>
+                    <option value="eyecare">eye care</option>
+                    <option value="flooring">flooring service</option>
+                    <option value="furniturerepair">furniture repair</option>
+                    <option value="gyms">gyms</option>
+                    <option value="hvac">hvac contractors</option>
+                    <option value="locksmiths">locksmiths</option>
+                    <option value="physicaltherapists">physical therapists</option>
+                    <option value="plumbers">plumbers</option>
+                    <option value="podiatrists">podiatrists</option>
+                    <option value="spas">spas</option>
+                    <option value="stoneshops">stone shops</option>
+                    <option value="towing">towing service</option>
+                    <option value="tvrepair">tv repair</option>
+                    <option value="vacuumrepair">vacuum repair</option>
+                    <option value="vets">vets</option>
+                    <option value="windowtinting">window tinting</option>
+                  </select>
+                </td>
+                <td class="text">in</td>
+                <td><input type="text" name="zip" id="zip" onfocus="javascript:clearZip();" value="zip code" /></td>
+                <td><input type="image" name="submit" id="submit" src="/static/images/button-go.png"/></td>
+              </tr>
+            </table>
+          </form>
+        </div>
+        <div class="bottom"><!-- spacer --></div>
+      </div>
+      <div class="box">
+        <div class="inside">
+          <h3>
+            Yext Directory
+          </h3>
+          <img src="/static/images/statemap.png" width="621" height="373" border="0" class="statemap" usemap="#usastatemap" alt="">
+          <map name="usastatemap" id="usastatemap">
+            <area onmouseover="showTooltip(event, 'Hawaii')" onmouseout="hideTooltip()" shape="poly" coords="162,296,178,302,197,310,208,316,213,323,229,338,233,354,222,353,213,346,208,337,209,332,207,322,192,319,184,312,178,308,163,301,159,303,149,304,146,301,150,297,155,295" href="/directory/hi/" alt="Hawaii">
+            <area onmouseover="showTooltip(event, 'Alaska')" onmouseout="hideTooltip()" shape="poly" coords="116,257,108,252,106,253,88,248,70,241,55,250,43,261,38,266,56,285,48,285,45,281,40,285,35,288,33,295,21,303,29,308,55,294,57,303,44,306,18,323,54,334,68,335,60,347,6,371,29,368,64,352,82,342,85,330,97,325,106,326,120,328,130,340,140,355,149,354,152,348,142,338,134,328,117,323" href="/directory/ak/" alt="Alaska">
+            <area onmouseover="showTooltip(event, 'California')" onmouseout="hideTooltip()" shape="poly" coords="10,113,53,113,54,157,110,205,115,216,110,229,111,236,85,240,83,231,73,223,58,215,48,214,46,205,33,191,35,184,29,181,23,166,16,154,10,134" href="/directory/ca/" alt="California">
+            <area onmouseover="showTooltip(event, 'Nevada')" onmouseout="hideTooltip()" shape="poly" coords="54,114,117,113,116,192,109,193,111,205,55,156" href="/directory/nv/" alt="Nevada">
+            <area onmouseover="showTooltip(event, 'Oregon')" onmouseout="hideTooltip()" shape="poly" coords="20,49,12,52,7,99,9,113,85,112,84,77,91,62,87,54,68,54,39,58,30,61" href="/directory/or/" alt="Oregon">
+            <area onmouseover="showTooltip(event, 'Washington')" onmouseout="hideTooltip()" shape="poly" coords="28,5,85,7,85,40,86,53,67,53,43,58,29,59,22,49,14,50,12,40,4,17,22,21,20,12" href="/directory/wa/" alt="Washington">
+            <area onmouseover="showTooltip(event, 'Idaho')" onmouseout="hideTooltip()" shape="poly" coords="86,7,96,8,97,24,114,46,112,59,118,61,123,69,131,77,149,75,149,112,86,112,87,81,84,77,92,62,89,57,87,53" href="/directory/id/" alt="Idaho">
+            <area onmouseover="showTooltip(event, 'Utah')" onmouseout="hideTooltip()" shape="poly" coords="118,113,117,181,170,181,170,128,149,128,149,113" href="/directory/ut/" alt="Utah">
+            <area onmouseover="showTooltip(event, 'Arizona')" onmouseout="hideTooltip()" shape="poly" coords="117,182,170,182,170,253,148,253,109,240,112,235,110,229,116,217,112,210,109,194,117,195" href="/directory/az/" alt="Arizona">
+            <area onmouseover="showTooltip(event, 'New Mexico')" onmouseout="hideTooltip()" shape="poly" coords="171,182,234,182,234,246,197,246,197,247,180,250,180,254,171,253" href="/directory/nm/" alt="New Mexico">
+            <area onmouseover="showTooltip(event, 'Colorado')" onmouseout="hideTooltip()" shape="poly" coords="171,128,245,127,246,181,171,181" href="/directory/co/" alt="Colorado">
+            <area onmouseover="showTooltip(event, 'Wyoming')" onmouseout="hideTooltip()" shape="poly" coords="150,70,224,69,223,126,150,127" href="/directory/wy/" alt="Wyoming">
+            <area onmouseover="showTooltip(event, 'Montana')" onmouseout="hideTooltip()" shape="poly" coords="96,8,224,8,224,68,152,68,148,75,130,77,119,61,112,59,115,45,108,40,97,23" href="/directory/mt/" alt="Montana">
+            <area onmouseover="showTooltip(event, 'North Dakota')" onmouseout="hideTooltip()" shape="poly" coords="225,8,296,8,304,55,225,54" href="/directory/nd/" alt="North Dakota">
+            <area onmouseover="showTooltip(event, 'South Dakota')" onmouseout="hideTooltip()" shape="poly" coords="225,55,225,97,285,99,303,103,305,68,300,58,303,55" href="/directory/sd/" alt="South Dakota">
+            <area onmouseover="showTooltip(event, 'Nebraska')" onmouseout="hideTooltip()" shape="poly" coords="225,98,225,126,246,127,246,140,316,140,302,104,296,101,282,100" href="/directory/ne/" alt="Nebraska">
+            <area onmouseover="showTooltip(event, 'Kansas')" onmouseout="hideTooltip()" shape="poly" coords="246,160,247,181,323,181,324,155,320,145,317,141,246,141" href="/directory/ks/" alt="Kansas">
+            <area onmouseover="showTooltip(event, 'Oklahoma')" onmouseout="hideTooltip()" shape="poly" coords="234,182,323,182,326,202,324,223,312,222,293,221,269,215,268,188,236,188" href="/directory/ok/" alt="Oklahoma">
+            <area onmouseover="showTooltip(event, 'Texas')" onmouseout="hideTooltip()" shape="poly" coords="235,247,196,248,216,265,222,278,233,283,240,274,252,275,257,279,263,291,271,299,272,304,281,316,295,320,298,319,295,309,296,301,307,290,317,284,324,278,331,274,335,260,330,246,331,226,319,222,298,222,268,215,267,189,234,189" href="/directory/tx/" alt="Texas">
+            <area onmouseover="showTooltip(event, 'New Jersey')" onmouseout="hideTooltip()" shape="rect" coords="601,158,617,170" href="/directory/nj/" alt="New Jersey">
+            <area onmouseover="showTooltip(event, 'Massachusetts')" onmouseout="hideTooltip()" shape="rect" coords="599,115,619,127" href="/directory/ma/" alt="Massachusetts">
+            <area onmouseover="showTooltip(event, 'Connecticut')" onmouseout="hideTooltip()" shape="rect" coords="599,144,618,156" href="/directory/ct/" alt="Connecticut">
+            <area onmouseover="showTooltip(event, 'Arkansas')" onmouseout="hideTooltip()" shape="poly" coords="326,189,327,201,326,225,331,226,333,232,360,231,361,224,376,196,370,195,370,189" href="/directory/ar/" alt="Arkansas">
+            <area onmouseover="showTooltip(event, 'Louisiana')" onmouseout="hideTooltip()" shape="poly" coords="331,232,359,232,361,244,357,257,376,259,375,267,369,269,380,271,383,280,383,282,361,280,352,274,348,277,336,274,331,274,335,260,331,247" href="/directory/la/" alt="Louisiana">
+            <area onmouseover="showTooltip(event, 'Mississippi')" onmouseout="hideTooltip()" shape="poly" coords="393,208,372,208,361,224,362,243,358,256,377,258,378,267,390,267,388,250" href="/directory/ms/" alt="Mississippi">
+            <area onmouseover="showTooltip(event, 'Tennessee')" onmouseout="hideTooltip()" shape="poly" coords="380,188,461,187,432,207,426,207,372,207" href="/directory/tn/" alt="Tennessee">
+            <area onmouseover="showTooltip(event, 'Alabama')" onmouseout="hideTooltip()" shape="poly" coords="419,208,394,208,390,251,391,266,401,267,398,256,426,257,425,240,423,235" href="/directory/al/" alt="Alabama">
+            <area onmouseover="showTooltip(event, 'Florida')" onmouseout="hideTooltip()" shape="poly" coords="399,258,403,266,420,269,425,275,438,270,442,274,452,284,449,296,457,309,466,323,471,329,476,329,480,317,478,305,472,290,463,262,459,262,459,265,430,263,426,258" href="/directory/fl/" alt="Florida">
+            <area onmouseover="showTooltip(event, 'Georgia')" onmouseout="hideTooltip()" shape="poly" coords="444,210,447,208,421,208,423,232,427,239,425,249,428,261,458,265,458,262,464,261,470,246" href="/directory/ga/" alt="Georgia">
+            <area onmouseover="showTooltip(event, 'South Carolina')" onmouseout="hideTooltip()" shape="poly" coords="444,210,470,245,488,232,498,222,483,211,472,212,468,205,451,207" href="/directory/sc/" alt="South Carolina">
+            <area onmouseover="showTooltip(event, 'North Carolina')" onmouseout="hideTooltip()" shape="poly" coords="463,187,449,195,435,206,447,207,457,203,469,205,472,210,484,210,495,221,499,222,518,211,519,204,527,197,523,188" href="/directory/nc/" alt="North Carolina">
+            <area onmouseover="showTooltip(event, 'Missouri')" onmouseout="hideTooltip()" shape="poly" coords="313,132,321,144,324,155,324,188,372,188,370,193,377,194,381,183,378,173,369,165,371,157,364,155,355,134" href="/directory/mo/" alt="Missouri">
+            <area onmouseover="showTooltip(event, 'Kentucky')" onmouseout="hideTooltip()" shape="poly" coords="451,163,429,155,415,168,396,172,390,180,380,181,383,182,379,187,403,187,443,186,457,175,452,169" href="/directory/ky/" alt="Kentucky">
+            <area onmouseover="showTooltip(event, 'Iowa')" onmouseout="hideTooltip()" shape="poly" coords="304,92,304,104,311,131,358,134,366,119,371,112,360,97,359,91" href="/directory/ia/" alt="Iowa">
+            <area onmouseover="showTooltip(event, 'Minnesota')" onmouseout="hideTooltip()" shape="poly" coords="351,41,377,23,340,12,324,10,321,0,318,7,298,8,304,54,300,58,305,66,304,91,360,90,354,82,344,73,343,58" href="/directory/mn/" alt="Minnesota">
+            <area onmouseover="showTooltip(event, 'Wisconsin')" onmouseout="hideTooltip()" shape="poly" coords="361,42,351,44,344,59,345,72,359,84,361,99,369,106,397,105,395,88,404,66,399,67,396,58" href="/directory/wi/" alt="Wisconsin">
+            <area onmouseover="showTooltip(event, 'Illinois')" onmouseout="hideTooltip()" shape="poly" coords="368,105,371,112,357,141,367,156,373,156,370,165,379,172,379,179,389,180,393,172,394,168,399,158,399,115,395,106" href="/directory/il/" alt="Illinois">
+            <area onmouseover="showTooltip(event, 'Indiana')" onmouseout="hideTooltip()" shape="poly" coords="428,117,400,117,400,159,394,171,416,167,429,153" href="/directory/in/" alt="Indiana">
+            <area onmouseover="showTooltip(event, 'Michigan')" onmouseout="hideTooltip()" shape="poly" coords="410,116,445,116,449,106,454,100,450,82,439,91,438,85,445,81,444,64,430,56,443,54,426,41,409,46,391,37,396,29,370,45,395,56,399,66,411,58,421,53,430,56,424,64,414,74,410,87,415,100" href="/directory/mi/" alt="Michigan">
+            <area onmouseover="showTooltip(event, 'Ohio')" onmouseout="hideTooltip()" shape="poly" coords="445,116,429,117,430,154,439,159,452,162,461,153,462,149,469,147,470,142,474,133,474,114,463,119,459,120,450,120" href="/directory/oh/" alt="Ohio">
+            <area onmouseover="showTooltip(event, 'West Virginia')" onmouseout="hideTooltip()" shape="poly" coords="485,146,476,146,474,133,471,141,470,147,463,151,458,156,451,164,456,173,465,179,476,174,481,164,488,161,498,150,503,151,500,147,487,152" href="/directory/wv/" alt="West Virginia">
+            <area onmouseover="showTooltip(event, 'Virginia')" onmouseout="hideTooltip()" shape="poly" coords="504,149,503,153,498,150,488,163,484,162,476,175,466,179,458,177,444,186,523,188,518,168,508,161,510,157" href="/directory/va/" alt="Virginia">
+            <area onmouseover="showTooltip(event, 'Maryland')" onmouseout="hideTooltip()" shape="poly" coords="533,164,523,179,521,157,516,163,507,152,499,146,486,152,485,146,489,145,524,145,527,162" href="/directory/md/" alt="Maryland">
+            <area onmouseover="showTooltip(event, 'Delaware')" onmouseout="hideTooltip()" shape="poly" coords="526,143,525,149,528,161,533,163,534,162,531,154,528,143" href="/directory/de/" alt="Delaware">
+            <area onmouseover="showTooltip(event, 'New Jersey')" onmouseout="hideTooltip()" shape="poly" coords="535,123,531,131,534,140,528,143,530,151,536,154,540,146,545,140,542,136,545,128" href="/directory/nj/" alt="New Jersey">
+            <area onmouseover="showTooltip(event, 'Pennsylvania')" onmouseout="hideTooltip()" shape="poly" coords="482,114,481,110,475,114,475,145,526,143,533,139,531,131,535,121,529,113" href="/directory/pa/" alt="Pennsylvania">
+            <area onmouseover="showTooltip(event, 'New York')" onmouseout="hideTooltip()" shape="poly" coords="546,128,544,132,554,132,563,127,565,124,548,128,550,66,531,70,521,83,520,89,510,95,501,93,491,94,491,101,482,113,529,112,536,122" href="/directory/ny/" alt="New York">
+            <area onmouseover="showTooltip(event, 'Connecticut')" onmouseout="hideTooltip()" shape="poly" coords="549,114,549,127,566,123,567,111" href="/directory/ct/" alt="Connecticut">
+            <area onmouseover="showTooltip(event, 'Rhode Island')" onmouseout="hideTooltip()" shape="poly" coords="568,114,567,119,566,124,577,119,567,113" href="/directory/ri/" alt="Rhode Island">
+            <area onmouseover="showTooltip(event, 'Massachusetts')" onmouseout="hideTooltip()" shape="poly" coords="549,102,548,114,567,111,580,123,591,115,582,109,579,100,573,101" href="/directory/ma/" alt="Massachusetts">
+            <area onmouseover="showTooltip(event, 'Vermont')" onmouseout="hideTooltip()" shape="poly" coords="570,67,551,68,550,102,559,100,560,88" href="/directory/vt/" alt="Vermont">
+            <area onmouseover="showTooltip(event, 'New Hampshire')" onmouseout="hideTooltip()" shape="poly" coords="573,64,578,91,578,100,560,101,559,92" href="/directory/nh/" alt="New Hampshire">
+            <area onmouseover="showTooltip(event, 'Maine')" onmouseout="hideTooltip()" shape="poly" coords="575,66,578,98,595,83,610,77,618,72,614,63,611,54,607,33,597,33,592,35,584,46,585,56,580,62" href="/directory/me/" alt="Maine">
+            <area onmouseover="showTooltip(event, 'District of Columbia')" onmouseout="hideTooltip()" shape="poly" coords="511,158,509,161,514,164,513,161" href="/directory/dc/" alt="District of Columbia">
+            <area onmouseover="showTooltip(event, 'District of Columbia')" onmouseout="hideTooltip()" shape="rect" coords="600,201,618,213" href="/directory/dc/" alt="District of Columbia">
+            <area onmouseover="showTooltip(event, 'Maryland')" onmouseout="hideTooltip()" shape="rect" coords="599,187,619,199" href="/directory/md/" alt="Maryland">
+            <area onmouseover="showTooltip(event, 'Delaware')" onmouseout="hideTooltip()" shape="rect" coords="600,172,619,184" href="/directory/de/" alt="Delaware">
+            <area onmouseover="showTooltip(event, 'Rhode Island')" onmouseout="hideTooltip()" shape="rect" coords="601,129,618,141" href="/directory/ri/" alt="Rhode Island">
+          </map>
+          <p>
+            <strong>Browse By Popular Location</strong>
+          </p>
+          <table class="browsecity" cellspacing="0" cellpadding="0">
+            <tr valign="top">
+              <td>
+                <ul>
+                  <li><a href="/directory/nm/albuquerque/">Albuquerque</a></li>
+                  <li><a href="/directory/ga/atlanta/">Atlanta</a></li>
+                  <li><a href="/directory/tx/austin/">Austin</a></li>
+                  <li><a href="/directory/md/baltimore/">Baltimore</a></li>
+                  <li><a href="/directory/ma/boston/">Boston</a></li>
+                  <li><a href="/directory/ny/bronx/">Bronx</a></li>
+                  <li><a href="/directory/ny/brooklyn/">Brooklyn</a></li>
+                  <li><a href="/directory/pa/bucks-county/">Bucks County</a></li>
+                  <li><a href="/directory/il/chicago/">Chicago</a></li>
+                  <li><a href="/directory/oh/cincinnati/">Cincinnati</a></li>
+                  <li><a href="/directory/co/colorado-springs/">Colorado Springs</a></li>
+                  <li><a href="/directory/tx/dallas/">Dallas</a></li>
+                  <li><a href="/directory/co/denver/">Denver</a></li>
+                  <li><a href="/directory/tx/fort-worth/">Fort Worth</a></li>
+                  <li><a href="/directory/tx/houston/">Houston</a></li>
+                </ul>
+              </td>
+              <td>
+                <ul>
+                  <li><a href="/directory/in/indianapolis/">Indianapolis</a></li>
+                  <li><a href="/directory/fl/jacksonville/">Jacksonville</a></li>
+                  <li><a href="/directory/mo/kansas-city/">Kansas City</a></li>
+                  <li><a href="/directory/nv/las-vegas/">Las Vegas</a></li>
+                  <li><a href="/directory/ny/long-island/">Long Island</a></li>
+                  <li><a href="/directory/ca/los-angeles/">Los Angeles</a></li>
+                  <li><a href="/directory/az/mesa/">Mesa</a></li>
+                  <li><a href="/directory/fl/miami/">Miami</a></li>
+                  <li><a href="/directory/wi/milwaukee/">Milwaukee</a></li>
+                  <li><a href="/directory/mn/minneapolis/">Minneapolis</a></li>
+                  <li><a href="/directory/tn/nashville/">Nashville</a></li>
+                  <li><a href="/directory/ny/new-york/">NYC</a></li>
+                  <li><a href="/directory/ok/oklahoma-city/">OKC</a></li>
+                  <li><a href="/directory/ne/omaha/">Omaha</a></li>
+                  <li><a href="/directory/ca/orange-county/">Orange County</a></li>
+                </ul>
+              </td>
+              <td class="last">
+                <ul>
+                  <li><a href="/directory/fl/orlando/">Orlando</a></li>
+                  <li><a href="/directory/pa/philadelphia/">Philadelphia</a></li>
+                  <li><a href="/directory/az/phoenix/">Phoenix</a></li>
+                  <li><a href="/directory/pa/pittsburgh/">Pittsburgh</a></li>
+                  <li><a href="/directory/ny/queens/">Queens</a></li>
+                  <li><a href="/directory/nc/raleigh/">Raleigh</a></li>
+                  <li><a href="/directory/ca/sacramento/">Sacramento</a></li>
+                  <li><a href="/directory/tx/san-antonio/">San Antonio</a></li>
+                  <li><a href="/directory/ca/san-diego/">San Diego</a></li>
+                  <li><a href="/directory/ca/san-francisco/">San Francisco</a></li>
+                  <li><a href="/directory/wa/seattle/">Seattle</a></li>
+                  <li><a href="/directory/fl/tampa/">Tampa</a></li>
+                  <li><a href="/directory/az/tucson/">Tucson</a></li>
+                  <li><a href="/directory/ok/tulsa/">Tulsa</a></li>
+                  <li><a href="/directory/va/virginia-beach/">Virginia Beach</a></li>
+                </ul>
+              </td>
+            </tr>
+          </table>
+        </div>
+        <div class="bottom"><!-- spacer --></div>
+      </div>
+    </div>
+    <div id="right"><!-- spacer --></div>
+  </div>
+</div>
+<div id="footer">
+  <div id="footerinside">
+    <div id="footertop">
+      <div id="browsebycity">
+        <h2>Businesses in Your State</h2>
+        <table cellspacing="0" cellpadding="0">
+          <tr valign="top">
+            <td>
+              <a href="/directory/al/">Alabama</a>
+              <a href="/directory/ak/">Alaska</a>
+              <a href="/directory/az/">Arizona</a>
+              <a href="/directory/ar/">Arkansas</a>
+              <a href="/directory/ca/">California</a>
+              <a href="/directory/co/">Colorado</a>
+              <a href="/directory/ct/">Connecticut</a>
+            </td>
+            <td>
+              <a href="/directory/dc/">DC</a>
+              <a href="/directory/de/">Delaware</a>
+              <a href="/directory/fl/">Florida</a>
+              <a href="/directory/ga/">Georgia</a>
+              <a href="/directory/hi/">Hawaii</a>
+              <a href="/directory/id/">Idaho</a>
+              <a href="/directory/il/">Illinois</a>
+            </td>
+            <td>
+              <a href="/directory/in/">Indiana</a>
+              <a href="/directory/ia/">Iowa</a>
+              <a href="/directory/ks/">Kansas</a>
+              <a href="/directory/ky/">Kentucky</a>
+              <a href="/directory/la/">Louisiana</a>
+              <a href="/directory/me/">Maine</a>
+              <a href="/directory/md/">Maryland</a>
+            </td>
+            <td>
+              <a href="/directory/ma/">Massachusetts</a>
+              <a href="/directory/mi/">Michigan</a>
+              <a href="/directory/mn/">Minnesota</a>
+              <a href="/directory/ms/">Mississippi</a>
+              <a href="/directory/mo/">Missouri</a>
+              <a href="/directory/mt/">Montana</a>
+            </td>
+            <td>
+              <a href="/directory/ne/">Nebraska</a>
+              <a href="/directory/nv/">Nevada</a>
+              <a href="/directory/nh/">New Hampshire</a>
+              <a href="/directory/nj/">New Jersey</a>
+              <a href="/directory/nm/">New Mexico</a>
+              <a href="/directory/ny/">New York</a>
+            </td>
+            <td>
+              <a href="/directory/nc/">North Carolina</a>
+              <a href="/directory/nd/">North Dakota</a>
+              <a href="/directory/oh/">Ohio</a>
+              <a href="/directory/ok/">Oklahoma</a>
+              <a href="/directory/or/">Oregon</a>
+              <a href="/directory/pa/">Pennsylvania</a>
+            </td>
+            <td>
+              <a href="/directory/ri/">Rhode Island</a>
+              <a href="/directory/sc/">South Carolina</a>
+              <a href="/directory/sd/">South Dakota</a>
+              <a href="/directory/tn/">Tennessee</a>
+              <a href="/directory/tx/">Texas</a>
+              <a href="/directory/ut/">Utah</a>
+            </td>
+            <td>
+              <a href="/directory/vt/">Vermont</a>
+              <a href="/directory/va/">Virginia</a>
+              <a href="/directory/wa/">Washington</a>
+              <a href="/directory/wv/">West Virginia</a>
+              <a href="/directory/wi/">Wisconsin</a>
+              <a href="/directory/wy/">Wyoming</a>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div id="getlisted">
+        <div class="heading">Get Your Business Listed</div>
+        <p>It is free to get listed on Yext and takes just minutes to connect. Reach customers in your area today!</p>
+        <a href="/ads/">Learn More</a>
+      </div>
+    </div>
+    <div id="footerbottom">
+      <p id="links"><a href="http://www.yext.com/">Yext Home</a> <span>|</span> <a href="https://www.yext.com/apps/login">Yext Login</a> <span>|</span> <a href="/terms">Terms and Conditions</a> <span>|</span> <a href="/privacypolicy">Privacy Policy</a></p>
+      <p class="copyright">Copyright &copy; 2010 Yext, Inc. All Rights Reserved.</p>
+    </div>
+  </div>
+</div>
+</body>
+</html>
