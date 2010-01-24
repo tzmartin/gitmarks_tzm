@@ -1,0 +1,1407 @@
+
+
+
+
+
+
+
+
+
+
+<HTML>
+<head>
+    
+
+
+
+<!-- go get the javascript magic... -->
+
+
+<script type="text/javascript" src="/mc/javascript/jquery-1.3.2.js"></script>
+<script type="text/javascript">jQuery.noConflict();</script>
+
+<script type="text/javascript" src="/mc/javascript/jquery.tablednd-0.5.js"></script>
+
+<!-- Includes: ui-dialog, ui-draggable, ui-droppable, ui-resizeable, ui-sortable, ui-accordion
+               ui-slider, ui-tabs, ui-datepicker, ui-effects -->
+<script type="text/javascript" src="/mc/javascript/jquery-ui-1.7.2.custom.js"></script>
+<script type="text/javascript" src="/mc/javascript/jquery.bgiframe-2.1.1.js"></script>
+
+<link rel="stylesheet" href="/mc/styles/themes/base/ui.all.css">
+<link rel="stylesheet" href="/mc/styles/jqueryui.css">
+
+<script type="text/javascript">
+
+jQuery( function()
+{
+    // error dialog
+    jQuery('#errorDialog').dialog(
+    {
+        bgiframe: true,
+        autoOpen: false,
+        resizable: false,
+        modal: true,
+        overlay:
+        {
+            backgroundColor: '#000',
+            opacity: 0.5
+        },
+        buttons:
+        {
+            OK: function()
+            {
+                jQuery(this).dialog('close');
+            }
+        }
+    });
+
+    // alert dialog
+    jQuery('#alertDialog').dialog(
+    {
+        bgiframe: true,
+        autoOpen: false,
+        resizable: false,
+        modal: true,
+        overlay:
+        {
+            backgroundColor: '#000',
+            opacity: 0.5
+        },
+        buttons:
+        {
+            OK: function()
+            {
+                jQuery(this).dialog('close');
+            }
+        }
+    });
+});
+
+function displayAlertDialog( title, alertText )
+{
+    var alertTextPrefix = '<span class="ui-icon ui-icon-alert" style="float: left; margin-right: .3em;"></span>';
+    jQuery('#alertDialog').html( alertTextPrefix + alertText );
+    jQuery('#alertDialog').dialog('option', 'title', title);
+    openDialog( jQuery('#alertDialog') );
+}
+
+function displayErrorDialog( errorText )
+{
+    var errorTextPrefix = '<span class="ui-icon ui-icon-alert" style="float: left; margin-right: .3em;"></span>Error: ';
+    jQuery('#errorDialog').html( errorTextPrefix + errorText );
+    openDialog( jQuery('#errorDialog') );
+}
+
+(function(jQuery)
+{
+    checkBlank = function( id, textId, text )
+    {
+        if( isWhitespace( jQuery(id).val() ) )
+        {
+            jQuery( id ).addClass( 'ui-state-error' );
+            jQuery( textId ).text( text );
+            return false;
+        }
+        else
+        {
+            jQuery( id ).removeClass('ui-state-error');
+            return true;
+        }
+    };
+
+    validEmail = function( str )
+    {
+        var at = "@"
+        var dot = "."
+        var lat = str.indexOf(at)
+        var lstr = str.length
+        var ldot = str.indexOf(dot)
+
+        if( str.indexOf(at) == -1 )
+        {
+            return false
+        }
+
+        if( str.indexOf(at) == -1 || str.indexOf(at) == 0 || str.indexOf(at) == lstr )
+        {
+            return false
+        }
+
+        if( str.indexOf(dot) == -1 || str.indexOf(dot) == 0 || str.indexOf(dot) == lstr )
+        {
+            return false
+        }
+
+        if( str.indexOf(at, (lat + 1)) != -1 )
+        {
+            return false
+        }
+
+        if( str.substring(lat - 1, lat) == dot || str.substring(lat + 1, lat + 2) == dot )
+        {
+            return false
+        }
+
+        if( str.indexOf(dot, (lat + 2)) == -1 )
+        {
+            return false
+        }
+
+        if( str.indexOf(" ") != -1 )
+        {
+            return false
+        }
+
+        return true
+    };
+
+    checkValidEmail = function( id, textId, text )
+    {
+        if( !isWhitespace( jQuery(id).val() ) )
+        {
+            if( !validEmail( jQuery(id).val() ) )
+            {
+                jQuery( id ).addClass( 'ui-state-error' );
+                jQuery( textId ).text( text );
+                return false;
+            }
+            else
+            {
+                return true;
+            }
+        }
+        else
+        {
+            return false;
+        }
+    };
+}
+)(jQuery);
+
+function openDialog( dialog )
+{
+
+    // open the dialog box
+    dialog.dialog('open');
+
+}
+
+function getBrowserWidth()
+{
+    return window.parent.innerWidth || document.documentElement.clientWidth || document.body.clientWidth;
+}
+
+function getBrowserHeight()
+{
+    return window.innerHeight || document.documentElement.clientHeight || document.body.clientHeight;
+}
+
+function getParentBrowserWidth()
+{
+    return parent.window.parent.innerWidth || parent.document.documentElement.clientWidth || parent.document.body.clientWidth;
+}
+
+function getParentBrowserHeight()
+{
+    return parent.window.innerHeight || parent.document.documentElement.clientHeight || parent.document.body.clientHeight;
+}
+
+// Reset the modal dialog in the center of the browser.
+// This method is called when the modal dialog is inside an IFrame on the page.
+// There can be a header area before the IFrame.
+// The IFrame ID is "mcFrame".
+function centerDialogInParent( dialog )
+{
+    if( dialog != null )
+    {
+        // get the current scroll y offset
+        var scrollY = parent.document.documentElement.scrollTop || parent.document.body.scrollTop;
+
+        // open the dialog so we can determine the height of the window
+        dialog.dialog('open');
+
+        // reset the scroll y offset in case dialog open changed it automatically
+        if( parent.document.documentElement.scrollTop )
+        {
+            parent.document.documentElement.scrollTop = scrollY;
+        }
+        else
+        {
+            parent.document.body.scrollTop = scrollY;
+        }
+
+        // default y position
+        var y = 0;
+
+        // get the browser height
+        var browserHeight = getParentBrowserHeight();
+
+        // get the modal window height (100 is added for title bar and buttons)
+        var windowHeight = dialog.height() + 100;
+
+        // calculate the center y position
+        var heightDiff = browserHeight - windowHeight;
+        if( heightDiff > 0 )
+        {
+            y = ( heightDiff / 2 );
+        }
+        else
+        {
+            y = 0;
+        }
+
+        // get the height of the header before the IFrame
+        var headerHeight = 0;
+        if( parent.document.getElementById('mcFrame') != null )
+        {
+            headerHeight = parent.document.getElementById('mcFrame').offsetTop;
+        }
+
+        // get the y scroll offset
+        scrollY = parent.document.documentElement.scrollTop || parent.document.body.scrollTop;
+
+        // calculate the header offset taking into account the amount of vertical scroll
+        y -= ( headerHeight - scrollY );
+
+        // reset the y position if past the upper limit
+        if( y <= 0 )
+        {
+            y = 0;
+        }
+
+        // get the height of the IFrame
+        var iFrameHeight = document.getElementById('bodyDiv').scrollHeight;
+
+        // reset the y position if the y modal window plus buffer is past the bottom limit
+        // buffer allows the modal window to grow for error messages or upload result
+        var bufferHeight = 50;
+        if( ( y + windowHeight + bufferHeight ) > iFrameHeight )
+        {
+            y = iFrameHeight - ( windowHeight + bufferHeight );
+        }
+
+        // reset the y position if past the upper limit
+        if( y <= 0 )
+        {
+            y = 0;
+        }
+
+        // set the dialog position
+        dialog.dialog( 'option', 'position', ['center', y] );
+    }
+}
+
+</script>
+
+
+
+<script type="text/javascript">
+// session timeout dialog, requires corresponding div just prior to the body tag in the template
+jQuery( function() {
+    jQuery('#sessionExpiredDialog').dialog(
+    {
+        bgiframe: true,
+        title: 'Attention!',
+        autoOpen: false,
+        draggable: false,
+        closeOnEscape: false,
+        close: function(event, ui) { if ( jQuery("#adminSessionRefreshText").length ) { sendSession(); startTheClock(); } },
+        resizable: false,
+        modal: true,
+        zIndex: 999999,
+        overlay:
+        {
+            backgroundColor: '#000',
+            opacity: 0.5
+        }
+    });
+});
+</script>
+
+ <!-- planet : mcweb03.memberclicks.prod --> 
+
+<META HTTP-EQUIV="Pragma" CONTENT="no-cache">
+<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=UTF-8">
+
+
+
+
+    <title>Alliance of Automotive Service Providers of Minnesota  - Directory Search</title>
+
+
+<!-- Javascript functions -->
+<script type="text/javascript" src="/mc/javascript/common.js"></script>
+<script type="text/javascript" src="/mc/javascript/dates.js"></script>
+<script type="text/javascript" src="/mc/javascript/profile.js"></script>
+<script type="text/javascript" src="/mc/javascript/validateForm.js"></script>
+
+
+
+<script type="text/javascript">
+
+function submitSelectProfileForm( action ) {
+  if ( document.frmSelectProfile ) {
+    document.frmSelectProfile.action = action;
+    document.frmSelectProfile.submit();
+  }
+  else {
+    document.frmMastHead.action = action;
+    document.frmMastHead.submit();
+  }
+}
+
+function myProfile()
+{
+
+    window.location.href="/mc/profile/viewMyProfile.do?userId=0";
+
+}
+
+function getUserId()
+{
+    return "0";
+}
+
+var browserVer=parseInt(navigator.appVersion);   //test for NS4
+if ((navigator.appName=="Netscape")&&(browserVer=="4")) {
+    var browser="evil"; }
+  else if ((navigator.userAgent.indexOf("Mac")!=-1)&&(navigator.appName=="Microsoft Internet Explorer")) {
+      var browser="annoying"; }
+  else {
+    var browser="good"; }
+
+function reloadPage(init) {  //reloads the window if NS4 is resized
+  if (init==true) with (navigator) {if ((appName=="Netscape")&&(parseInt(appVersion)==4)) {
+    document.MM_pgW=innerWidth; document.MM_pgH=innerHeight; onresize=reloadPage; }}
+  else if (innerWidth!=document.MM_pgW || innerHeight!=document.MM_pgH) location.reload();
+}
+reloadPage(true);
+
+function findObj(n, d) {
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function autoLayers() {  //generates the drop-down menu functionality
+ var g,b,k,f,args=autoLayers.arguments;a=parseInt(args[0]);if(isNaN(a))a=0;
+ if(!document.p7setc){p7c=new Array();document.p7setc=true;for(var u=0;u<10;u++){
+ p7c[u]=new Array();}}for(k=0;k<p7c[a].length;k++){if((g=findObj(p7c[a][k]))!=null){
+ b=(document.layers)?g:g.style;b.visibility="hidden";}}for(k=1;k<args.length;k++){
+ if((g=findObj(args[k]))!=null){b=(document.layers)?g:g.style;b.visibility="visible";f=false;
+ for(var j=0;j<p7c[a].length;j++){if(args[k]==p7c[a][j]) {f=true;}}
+ if(!f){p7c[a][p7c[a].length++]=args[k];}}}
+}
+
+function Snap() {  //snaps drop-down menus into place if they are resized or moved
+ var x,y,ox,bx,oy,p,tx,a,b,k,d,da,e,el,tw,q0,xx,yy,w1,pa='px',args=Snap.arguments;a=parseInt(a);
+ if(document.layers||window.opera){pa='';}for(k=0;k<(args.length);k+=4){
+ if((g=findObj(args[k]))!=null){if((el=findObj(args[k+1]))!=null){
+ a=parseInt(args[k+2]);b=parseInt(args[k+3]);x=0;y=0;ox=0;oy=0;p="";tx=1;
+ da="document.all['"+args[k]+"']";if(document.getElementById){
+ d="document.getElementsByName('"+args[k]+"')[0]";if(!eval(d)){
+ d="document.getElementById('"+args[k]+"')";if(!eval(d)){d=da;}}
+ }else if(document.all){d=da;}if(document.all||document.getElementById){while(tx==1){
+ p+=".offsetParent";if(eval(d+p)){x+=parseInt(eval(d+p+".offsetLeft"));y+=parseInt(eval(d+p+".offsetTop"));
+ }else{tx=0;}}ox=parseInt(g.offsetLeft);oy=parseInt(g.offsetTop);tw=x+ox+y+oy;
+ if(tw==0||(navigator.appVersion.indexOf("MSIE 4")>-1&&navigator.appVersion.indexOf("Mac")>-1)){
+  ox=0;oy=0;if(g.style.left){x=parseInt(g.style.left);y=parseInt(g.style.top);}else{
+  w1=parseInt(el.style.width);bx=(a<0)?-5-w1:-10;a=(Math.abs(a)<1000)?0:a;b=(Math.abs(b)<1000)?0:b;
+  x=document.body.scrollLeft+event.clientX+bx;y=document.body.scrollTop+event.clientY;}}
+ }else if(document.layers){x=g.x;y=g.y;q0=document.layers,dd="";for(var s=0;s<q0.length;s++){
+  dd='document.'+q0[s].name;if(eval(dd+'.document.'+args[k])){x+=eval(dd+'.left');y+=eval(dd+'.top');
+  break;}}}e=(document.layers)?el:el.style;xx=parseInt(x+ox+a),yy=parseInt(y+oy+b);
+ if(navigator.appVersion.indexOf("MSIE 5")>-1 && navigator.appVersion.indexOf("Mac")>-1){
+  xx+=parseInt(document.body.leftMargin);yy+=parseInt(document.body.topMargin);}
+ e.left=xx+pa;e.top=yy+pa;}}}
+}
+
+// snaps drop-down menus into place if they are resized or moved
+// create an iframe behind the div to display
+function snapWithShim()
+{
+    var x,y,ox,bx,oy,p,tx,a,b,k,d,da,e,el,tw,q0,xx,yy,w1;
+    var pa = 'px';
+    var args = snapWithShim.arguments;
+    a = parseInt(a);
+
+    if( document.layers || window.opera )
+    {
+        pa = '';
+    }
+
+    for( k = 0; k < (args.length); k += 4 )
+    {
+        if( (g = findObj(args[k])) != null )
+        {
+            if( (el = findObj(args[k + 1])) != null )
+            {
+                a = parseInt(args[k + 2]);
+                b = parseInt(args[k + 3]);
+                x = 0;
+                y = 0;
+                ox = 0;
+                oy = 0;
+                p = "";
+                tx = 1;
+                da = "document.all['" + args[k] + "']";
+                if( document.getElementById )
+                {
+                    d = "document.getElementsByName('" + args[k] + "')[0]";
+                    if( !eval(d) )
+                    {
+                        d = "document.getElementById('" + args[k] + "')";
+                        if( !eval(d) )
+                        {
+                            d = da;
+                        }
+                    }
+                }
+                else if( document.all )
+                {
+                    d = da;
+                }
+
+                if( document.all || document.getElementById )
+                {
+                    while( tx == 1 )
+                    {
+                        p += ".offsetParent";
+                        if( eval(d + p) )
+                        {
+                            x += parseInt(eval(d + p + ".offsetLeft"));
+                            y += parseInt(eval(d + p + ".offsetTop"));
+                        }
+                        else
+                        {
+                            tx = 0;
+                        }
+                    }
+                    ox = parseInt(g.offsetLeft);
+                    oy = parseInt(g.offsetTop);
+                    tw = x + ox + y + oy;
+                    if( tw == 0 || (navigator.appVersion.indexOf("MSIE 4") > -1 && navigator.appVersion.indexOf("Mac") > -1) )
+                    {
+                        ox = 0;
+                        oy = 0;
+                        if( g.style.left )
+                        {
+                            x = parseInt(g.style.left);
+                            y = parseInt(g.style.top);
+                        }
+                        else
+                        {
+                            w1 = parseInt(el.style.width);
+                            bx = (a < 0) ? -5 - w1 : -10;
+                            a = (Math.abs(a) < 1000) ? 0 : a;
+                            b = (Math.abs(b) < 1000) ? 0 : b;
+                            x = document.body.scrollLeft + event.clientX + bx;
+                            y = document.body.scrollTop + event.clientY;
+                        }
+                    }
+                }
+                else if( document.layers )
+                {
+                    x = g.x;
+                    y = g.y;
+                    q0 = document.layers;
+                    dd = "";
+                    for( var s = 0; s < q0.length; s++ )
+                    {
+                        dd = 'document.' + q0[s].name;
+                        if( eval(dd + '.document.' + args[k]) )
+                        {
+                            x += eval(dd + '.left');
+                            y += eval(dd + '.top');
+                            break;
+                        }
+                    }
+                }
+
+                e = (document.layers) ? el : el.style;
+                xx = parseInt(x + ox + a);
+                yy = parseInt(y + oy + b);
+                if( navigator.appVersion.indexOf("MSIE 5") > -1 && navigator.appVersion.indexOf("Mac") > -1 )
+                {
+                    xx += parseInt(document.body.leftMargin);
+                    yy += parseInt(document.body.topMargin);
+                }
+                e.left = xx + pa;
+                e.top = yy + pa;
+
+                if( k == 4 )
+                {
+                    var ie = ( navigator.appVersion.indexOf("MSIE") != -1 );
+
+                    // get the old shimmer
+                    var oldShimmer = document.getElementById( 'shimmer' );
+
+                    // create the new shimmer
+                    var shimmer = document.createElement( 'iframe' );
+                    shimmer.id = 'shimmer';
+                    shimmer.style.position = 'absolute';
+                    shimmer.style.width = el.offsetWidth;
+                    shimmer.style.height = parseInt( el.offsetHeight ) - parseInt( el.style.borderBottomWidth );
+                    shimmer.style.left = a + 'px';
+                    shimmer.style.zIndex = el.style.zIndex - 1;
+                    shimmer.setAttribute('frameborder', '0');       // for Firefox
+
+                    if( ie )
+                    {
+                        shimmer.style.top = (0 - b) + 'px';
+                    }
+                    else
+                    {
+                        shimmer.style.top = (b + 18) + 'px';
+                    }
+
+                    if( oldShimmer != null )
+                    {
+                        // remove the old shimmer and add the new shimmer only if they are different to prevent flickering
+                        if( oldShimmer.style.width != shimmer.style.width ||
+                            oldShimmer.style.height != shimmer.style.height ||
+                            oldShimmer.style.left != shimmer.style.left ||
+                            oldShimmer.style.top != shimmer.style.top )
+                        {
+                            removeShimFromElement( 'adminShimmerDiv' );
+
+                            var shimmerDiv = document.getElementById( 'adminShimmerDiv' );
+                            shimmerDiv.appendChild( shimmer );
+                        }
+                    }
+                    else
+                    {
+                        var shimmerDiv = document.getElementById( 'adminShimmerDiv' );
+                        shimmerDiv.appendChild( shimmer );
+                    }
+                }
+            }
+            else
+            {
+                removeShimFromElement( 'adminShimmerDiv' );
+            }
+        }
+    }
+}
+
+// remove the iframe shim from element
+function removeShimFromElement( element )
+{
+    var el = document.getElementById( element );
+    if( el != null )
+    {
+        for( var child = el.firstChild; child != null; child = child.nextSibling)
+        {
+            if( child != null && child.id.indexOf('shimmer') == 0 )
+            {
+                el.removeChild( child );
+            }
+        }
+    }
+}
+
+function checkForExpiration() {
+    if ( document.getElementById("adminSessionRefreshText") ) {
+        jQuery("#adminSessionRefreshText").replaceWith("<span class=\"adminRegularText\"><b>Your login has expired.</b><br><br><a href=\'/mc/prelogin.do?hidOrgID=aaspm\'><b>Click here</b></a> to log in again.<br><br></span>");
+        jQuery('#sessionExpiredDialog').unbind('dialogclose');
+        jQuery('#sessionExpiredDialog').bind('dialogclose', function(event, ui) { document.location.href = '/mc/prelogin.do?hidOrgID=aaspm'; });
+    } else {
+    }
+}
+
+function sendSession() {
+    document.getElementById('sessionFrame').src="/mc/refreshSession.do";
+}
+
+function openRefreshingWindow() {
+
+    jQuery('#sessionExpiredDialog').html('<span id=\"adminSessionRefreshText\" class=\"visDiv\"><span class=\"adminRegularText\">Your login will expire in the next five minutes due to inactivity.  Please click the link below to refresh your login.<br><br><br><center><a href=\'javascript:void(0);\' onClick=\'jQuery("#sessionExpiredDialog").dialog("close");\'><b>Refresh my login</b></a></center><br></span></span>');
+    jQuery('#sessionExpiredDialog').dialog('open');
+
+    setTimeout('checkForExpiration()',300000);
+}
+
+function openSessionExpiredWindow()
+{
+    jQuery("#sessionExpiredDialog").html("<span class=\"adminRegularText\"><b>Your login has expired.</b><br><br>" +
+        "<a href=\"/\" target=\"_parent\"><b>Click here</b></a> to log in again.<br><br></span>");
+
+    jQuery('#sessionExpiredDialog').unbind('dialogclose');
+    jQuery('#sessionExpiredDialog').bind('dialogclose',
+        function(event, ui)
+        {
+            parent.location.href = '/';
+        }
+    );
+
+    openDialog( jQuery('#sessionExpiredDialog') );
+}
+
+function startTheClock() {
+
+}
+
+function showHelp( uri )
+{
+    
+    window.open( "",
+                 "HelpCenter",
+                 "height=680,width=840,resizable=yes,scrollbars=yes,status=yes,menubar=no,location=no,personalbar=no,toolbar=no,titlebar=yes");
+    document.helpCenterForm.helpUri.value = uri;
+    document.helpCenterForm.submit();
+}
+
+function showVideo( uri )
+{
+    window.open( uri, "OnlineTrainingVideos",
+            "height=720,width=950,resizable=yes,scrollbars=yes,status=yes,menubar=no,location=no,personalbar=no,toolbar=no,titlebar=yes");
+}
+
+
+
+function createHelpToolbarButton( parent )
+{
+    var helpButton = parent.document.createElement('td');
+    helpButton.id = 'toolbar-help';
+    helpButton.className = 'button';
+    var helpLink = parent.document.createElement('a');
+    helpLink.className = 'toolbar';
+    helpLink.href = '/mc/admin/zenDesk.do?article=&mcID=';
+    helpLink.target = '_blank';
+    var helpSpan = parent.document.createElement('span');
+    helpSpan.className = 'icon-32-help';
+    helpSpan.title='Help';
+    helpLink.appendChild(helpSpan);
+    helpLink.appendChild(parent.document.createTextNode('Help'));
+    helpButton.appendChild(helpLink);
+    return helpButton;
+}
+
+function insertHelpLink()
+{
+
+}
+
+function resizeIFrame()
+{
+
+}
+
+</script>
+<!-- end JS Functions -->
+
+<link rel="stylesheet" href="/mc/styles/memberclicks.css">
+<link rel="stylesheet" href="http://data.memberclicks.com/site/aaspm/aaspm.css">
+<!-- end styles -->
+
+
+</head>
+
+<body class="topcolor" id="mcnarrowsearch" style="margin:0px;color:#000000;" onLoad="startTheClock();">
+
+<div id="errorDialog" title="Error" class="ui-state-error" style="display:none;"></div>
+<div id="alertDialog" title="Alert" class="ui-state-highlight" style="display:none;"></div>
+<div id="sessionExpiredDialog" style="display: none;"></div>
+
+<!-- code for the masthead begins here -->
+
+
+
+
+
+
+
+
+
+
+<form name="frmMastHead" action="/mc/Gateway" method="get"></form>
+
+
+<form name="helpCenterForm" method="post" action="/mc/admin/helpCenter.do;jsessionid=2B70487DD00E4885AB10A95FFFF18393.mc0" target="HelpCenter">
+    <input type="hidden" name="helpUri" value=""/>
+</form>
+
+<script type="text/javascript">
+var ie = ( navigator.appVersion.indexOf("MSIE") != -1 );
+if( ie )
+{
+    removeShimFromElement( "adminShimmerDivTopBar" );
+}
+</script>
+
+
+<div id="scrollableContainer" >
+
+<!-- Sponsor Ad Display -->
+
+
+<table cellpadding="0" cellspacing="0" border="0" width="100%">
+
+<!-- table 1 - row 1 - -->
+
+<tr><td>
+<table cellpadding="0" cellspacing="0" border="0" width="100%">
+
+<!-- table 2 - row 1/2 - spacer background row -->
+
+
+
+  
+
+ <tr><td valign="top" class="regularText"><span class="topcolor"><table cellspacing="0" border="0" width="100%" cellpadding="0">
+<tr>
+<td style="background: url(https://data.memberclicks.com/site/aaspm/aaspm_img_new_header_2.jpg) repeat-x;"><img src="https://data.memberclicks.com/site/aaspm/spacer.gif" width="1" alt="" height="120" /></td>
+</tr>
+</table></span></td></tr>
+
+
+
+ 
+    
+
+
+
+
+
+
+<!-- table 2 - row 3 - main navigation and quick search -->
+ <tr class="topnavcolor">
+    <td>
+
+    <table cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td align="left">
+        <table cellpadding="0" cellspacing="0" border="0">
+      <tr>
+
+      <td width="10" height="20" align="right"><a href="javascript:;" onMouseOver="autoLayers(0); setStatus('');return true;" onMouseOut="javascript: resetStatus();return true;" style="cursor:default;"><img src="http://s3.memberclicks.com/images/spacer.gif" height="20" width="10" border="0"></img></a></td>
+
+        <!-- <b>Contact&nbsp;Us</b> Begin -->
+<td height="20" valign="bottom" style="padding-right:10px;">
+<a href="/mc/page.do?sitePageId=37969&orgId=aaspm" onMouseOver="autoLayers(0); setStatus('<b>Contact Us</b>'); return true;" onMouseOut="javascript: resetStatus(); return true;" class="nav"><img src="http://s3.memberclicks.com/images/spacer.gif" width="1" height="20" border="0" align="absmiddle" alt="<b>Contact&nbsp;Us</b>">&nbsp;<b>Contact&nbsp;Us</b>&nbsp;&nbsp;&nbsp;</a>
+</td>
+
+<!-- <b>Contact&nbsp;Us</b> End -->
+
+
+
+
+
+    </tr>
+    </table>
+    </td>
+    <td align="right">
+        <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+
+
+
+        </tr>
+        </table>
+      </td>
+
+      </tr>
+      <tr>
+        <td colspan="2" class="bordercolor" height="1"><img src="http://s3.memberclicks.com/images/spacer.gif" height="1" width="1" border="0"></img></td>
+      </tr>
+    </table>
+    </td>
+ </tr>
+
+<!-- end of subnavigation layer definitions -->
+ 
+
+</table>
+</td></tr>
+
+<!-- end table 2 -->
+<!-- table 1 - row 2 - separator line -->
+
+</table>
+
+<!-- end table 1 -->
+
+
+<!-- tables 3.5 and 4 - definition for the light border at the top left side of the masthead -->
+
+<table cellpadding="0" cellspacing="0" border="0" width="100%" bgcolor="#FFFFFF">
+<tr><td>
+
+<table cellpadding="0" cellspacing="0" border="0">
+    <tr>
+        <td height="100%" align="left" valign="top" class="sidenavcolor">
+
+            <br>
+
+
+            <!-- <b>AASP-MN&nbsp;Home&nbsp;</b> Begin -->
+
+<a class="sidenav" style="padding:0px;text-indent:10px;" href="/mc/page.do?sitePageId=34903&orgId=aaspm" onMouseOver="autoLayers(0);"><b>AASP-MN&nbsp;Home&nbsp;</b>&nbsp;</a>
+
+<!-- <b>AASP-MN&nbsp;Home&nbsp;</b> End -->
+<!-- <b>Neighborhood&nbsp;Auto&nbsp;Pro</b> Begin -->
+
+<a class="sidenav" style="padding:0px;text-indent:10px;" href="/mc/page.do?sitePageId=93865&orgId=aaspm" onMouseOver="autoLayers(0);"><b>Neighborhood&nbsp;Auto&nbsp;Pro</b>&nbsp;</a>
+
+<!-- <b>Neighborhood&nbsp;Auto&nbsp;Pro</b> End -->
+<!-- <b>Members&nbsp;Only&nbsp;Resource&nbsp;Center</b> Begin -->
+
+<a class="sidenav" style="padding:0px;text-indent:10px;" href="/mc/prelogin.do?orgId=aaspm" onMouseOver="autoLayers(0);"><b>Members&nbsp;Only&nbsp;Resource&nbsp;Center</b>&nbsp;</a>
+
+<!-- <b>Members&nbsp;Only&nbsp;Resource&nbsp;Center</b> End -->
+<!-- <b>AASP&nbsp;e-News</b> Begin -->
+
+<a class="sidenav" style="padding:0px;text-indent:10px;" href="/mc/page.do?sitePageId=44481&orgId=aaspm" onMouseOver="autoLayers(0);"><b>AASP&nbsp;e-News</b>&nbsp;</a>
+
+<!-- <b>AASP&nbsp;e-News</b> End -->
+<!-- <b>Membership&nbsp;Info</b> Begin -->
+
+<a class="sidenav" style="padding:0px;text-indent:10px;" href="/mc/page.do?sitePageId=37641&orgId=aaspm" onMouseOver="Snap('151374anchor','rolloff',1,-40,'151374anchor','151374DropDown',1,-1);autoLayers(0,'151374DropDown','rolloff'); "><b>Membership&nbsp;Info</b>&nbsp;<b>&rsaquo;&nbsp;</b><img src="http://s3.memberclicks.com/images/spacer.gif" alt="<b>Membership&nbsp;Info</b>" name="151374anchor" width="1" height="24" border="0" align="absmiddle" id="151374anchor"></a>
+ <!-- 151374DropDownsubnav Begin -->
+ <div id="151374DropDown" style="position:absolute; left:0px; top:0px; width:150px; z-index:2; visibility: hidden;">
+<table width="150" border="0" cellspacing="0" cellpadding="0" class="sidenavcolor">
+<tr><td colspan="3" class="bordercolor"><img src="http://s3.memberclicks.com/images/spacer.gif" border="0" height="1" width="1" alt="" /></td></tr>
+<tr><td width="1" class="bordercolor"><img src="http://s3.memberclicks.com/images/spacer.gif" border="0" height="1" width="1" alt="" /></td>
+<td><table width="149" border="0" cellspacing="0" cellpadding="0" class="sidenavcolor">
+<tr><td width="149">
+<a class="sidenav" style="text-align:left;padding:0px;text-indent:10px;" href="/mc/page.do?sitePageId=60807&orgId=aaspm" onClick="document.body.style.cursor='wait'; autoLayers(0);">&nbsp;Benefits Overview</a>
+<a class="sidenav" style="text-align:left;padding:0px;text-indent:10px;" href="/mc/page.do?sitePageId=37960&orgId=aaspm" onClick="document.body.style.cursor='wait'; autoLayers(0);">&nbsp;Education and Training</a>
+<a class="sidenav" style="text-align:left;padding:0px;text-indent:10px;" href="/mc/page.do?sitePageId=37961&orgId=aaspm" onClick="document.body.style.cursor='wait'; autoLayers(0);">&nbsp;Savings</a>
+<a class="sidenav" style="text-align:left;padding:0px;text-indent:10px;" href="/mc/page.do?sitePageId=37958&orgId=aaspm" onClick="document.body.style.cursor='wait'; autoLayers(0);">&nbsp;Advocacy</a>
+<a class="sidenav" style="text-align:left;padding:0px;text-indent:10px;" href="/mc/page.do?sitePageId=38383&orgId=aaspm" onClick="document.body.style.cursor='wait'; autoLayers(0);">&nbsp;Info & Networking</a>
+<a class="sidenav" style="text-align:left;padding:0px;text-indent:10px;" href="/mc/page.do?sitePageId=37962&orgId=aaspm" onClick="document.body.style.cursor='wait'; autoLayers(0);">&nbsp;Additional Benefits</a>
+</td></tr></table></td><td width="1" class="bordercolor"><img src="http://s3.memberclicks.com/images/spacer.gif" border="0" height="1" width="1" alt="" /></td>
+<tr><td colspan="3" class="bordercolor"><img src="http://s3.memberclicks.com/images/spacer.gif" border="0" height="1" width="1" alt="" /></td></tr></table>
+</div>
+<!-- 151374DropDown subnav End -->
+
+
+<!-- <b>Membership&nbsp;Info</b> End -->
+<!-- <b>Industry&nbsp;Training&nbsp;and&nbsp;Events</b> Begin -->
+
+<a class="sidenav" style="padding:0px;text-indent:10px;" href="/mc/page.do?sitePageId=37972&orgId=aaspm" onMouseOver="autoLayers(0);"><b>Industry&nbsp;Training&nbsp;and&nbsp;Events</b>&nbsp;</a>
+
+<!-- <b>Industry&nbsp;Training&nbsp;and&nbsp;Events</b> End -->
+<!-- <b>Legislative&nbsp;Activities</b> Begin -->
+
+<a class="sidenav" style="padding:0px;text-indent:10px;" href="/mc/page.do?sitePageId=37973&orgId=aaspm" onMouseOver="autoLayers(0);"><b>Legislative&nbsp;Activities</b>&nbsp;</a>
+
+<!-- <b>Legislative&nbsp;Activities</b> End -->
+<!-- <b>Classifieds</b> Begin -->
+
+<a class="sidenav" style="padding:0px;text-indent:10px;" href="/mc/page.do?sitePageId=37964&orgId=aaspm" onMouseOver="autoLayers(0);"><b>Classifieds</b>&nbsp;</a>
+
+<!-- <b>Classifieds</b> End -->
+<!-- <b>Lights&nbsp;on&nbsp;for&nbsp;Safety</b> Begin -->
+
+<a class="sidenav" style="padding:0px;text-indent:10px;" href="/mc/page.do?sitePageId=37974&orgId=aaspm" onMouseOver="autoLayers(0);"><b>Lights&nbsp;on&nbsp;for&nbsp;Safety</b>&nbsp;</a>
+
+<!-- <b>Lights&nbsp;on&nbsp;for&nbsp;Safety</b> End -->
+<!-- <b>Consumer&nbsp;Info</b> Begin -->
+
+<a class="sidenav" style="padding:0px;text-indent:10px;" href="/mc/page.do?sitePageId=37968&orgId=aaspm" onMouseOver="autoLayers(0);"><b>Consumer&nbsp;Info</b>&nbsp;</a>
+
+<!-- <b>Consumer&nbsp;Info</b> End -->
+<!-- <b>Find&nbsp;a&nbsp;Member</b> Begin -->
+
+<a class="sidenav" style="padding:0px;text-indent:10px;" href="#" onMouseOver="Snap('145275anchor','rolloff',1,-40,'145275anchor','145275DropDown',1,-1);autoLayers(0,'145275DropDown','rolloff'); "><b>Find&nbsp;a&nbsp;Member</b>&nbsp;<b>&rsaquo;&nbsp;</b><img src="http://s3.memberclicks.com/images/spacer.gif" alt="<b>Find&nbsp;a&nbsp;Member</b>" name="145275anchor" width="1" height="24" border="0" align="absmiddle" id="145275anchor"></a>
+ <!-- 145275DropDownsubnav Begin -->
+ <div id="145275DropDown" style="position:absolute; left:0px; top:0px; width:150px; z-index:2; visibility: hidden;">
+<table width="150" border="0" cellspacing="0" cellpadding="0" class="sidenavcolor">
+<tr><td colspan="3" class="bordercolor"><img src="http://s3.memberclicks.com/images/spacer.gif" border="0" height="1" width="1" alt="" /></td></tr>
+<tr><td width="1" class="bordercolor"><img src="http://s3.memberclicks.com/images/spacer.gif" border="0" height="1" width="1" alt="" /></td>
+<td><table width="149" border="0" cellspacing="0" cellpadding="0" class="sidenavcolor">
+<tr><td width="149">
+<a class="sidenav" style="text-align:left;padding:0px;text-indent:10px;" href="/mc/directory/viewnarrowsearch.do?orgId=aaspm" onClick="document.body.style.cursor='wait'; autoLayers(0);">&nbsp;Search Directory</a>
+<a class="sidenav" style="text-align:left;padding:0px;text-indent:10px;" href="/mc/directory/viewallmembers.do?orgId=aaspm&masthead=true" onClick="document.body.style.cursor='wait'; autoLayers(0);">&nbsp;View Entire Directory</a>
+</td></tr></table></td><td width="1" class="bordercolor"><img src="http://s3.memberclicks.com/images/spacer.gif" border="0" height="1" width="1" alt="" /></td>
+<tr><td colspan="3" class="bordercolor"><img src="http://s3.memberclicks.com/images/spacer.gif" border="0" height="1" width="1" alt="" /></td></tr></table>
+</div>
+<!-- 145275DropDown subnav End -->
+
+
+<!-- <b>Find&nbsp;a&nbsp;Member</b> End -->
+<!-- <b>Careers&nbsp;And&nbsp;Scholarships</b> Begin -->
+
+<a class="sidenav" style="padding:0px;text-indent:10px;" href="/mc/page.do?sitePageId=38382&orgId=aaspm" onMouseOver="Snap('155397anchor','rolloff',1,-40,'155397anchor','155397DropDown',1,-1);autoLayers(0,'155397DropDown','rolloff'); "><b>Careers&nbsp;And&nbsp;Scholarships</b>&nbsp;<b>&rsaquo;&nbsp;</b><img src="http://s3.memberclicks.com/images/spacer.gif" alt="<b>Careers&nbsp;And&nbsp;Scholarships</b>" name="155397anchor" width="1" height="24" border="0" align="absmiddle" id="155397anchor"></a>
+ <!-- 155397DropDownsubnav Begin -->
+ <div id="155397DropDown" style="position:absolute; left:0px; top:0px; width:150px; z-index:2; visibility: hidden;">
+<table width="150" border="0" cellspacing="0" cellpadding="0" class="sidenavcolor">
+<tr><td colspan="3" class="bordercolor"><img src="http://s3.memberclicks.com/images/spacer.gif" border="0" height="1" width="1" alt="" /></td></tr>
+<tr><td width="1" class="bordercolor"><img src="http://s3.memberclicks.com/images/spacer.gif" border="0" height="1" width="1" alt="" /></td>
+<td><table width="149" border="0" cellspacing="0" cellpadding="0" class="sidenavcolor">
+<tr><td width="149">
+<a class="sidenav" style="text-align:left;padding:0px;text-indent:10px;" href="/mc/page.do?sitePageId=60811&orgId=aaspm" onClick="document.body.style.cursor='wait'; autoLayers(0);">&nbsp;Overview</a>
+<a class="sidenav" style="text-align:left;padding:0px;text-indent:10px;" href="/mc/page.do?sitePageId=39165&orgId=aaspm" onClick="document.body.style.cursor='wait'; autoLayers(0);">&nbsp;Careers </a>
+<a class="sidenav" style="text-align:left;padding:0px;text-indent:10px;" href="/mc/page.do?sitePageId=37986&orgId=aaspm" onClick="document.body.style.cursor='wait'; autoLayers(0);">&nbsp;Scholarships</a>
+<a class="sidenav" style="text-align:left;padding:0px;text-indent:10px;" href="/mc/page.do?sitePageId=37971&orgId=aaspm" onClick="document.body.style.cursor='wait'; autoLayers(0);">&nbsp;Automotive Exploring</a>
+<a class="sidenav" style="text-align:left;padding:0px;text-indent:10px;" href="/mc/page.do?sitePageId=37984&orgId=aaspm" onClick="document.body.style.cursor='wait'; autoLayers(0);">&nbsp;MN Technical Colleges</a>
+</td></tr></table></td><td width="1" class="bordercolor"><img src="http://s3.memberclicks.com/images/spacer.gif" border="0" height="1" width="1" alt="" /></td>
+<tr><td colspan="3" class="bordercolor"><img src="http://s3.memberclicks.com/images/spacer.gif" border="0" height="1" width="1" alt="" /></td></tr></table>
+</div>
+<!-- 155397DropDown subnav End -->
+
+
+<!-- <b>Careers&nbsp;And&nbsp;Scholarships</b> End -->
+<!-- <b>Links</b> Begin -->
+
+<a class="sidenav" style="padding:0px;text-indent:10px;" href="/mc/page.do?sitePageId=37975&orgId=aaspm" onMouseOver="autoLayers(0);"><b>Links</b>&nbsp;</a>
+
+<!-- <b>Links</b> End -->
+<!-- <b>Contact&nbsp;Us</b> Begin -->
+
+<a class="sidenav" style="padding:0px;text-indent:10px;" href="/mc/page.do?sitePageId=37969&orgId=aaspm" onMouseOver="autoLayers(0);"><b>Contact&nbsp;Us</b>&nbsp;</a>
+
+<!-- <b>Contact&nbsp;Us</b> End -->
+
+            <a href="#" onMouseOver="autoLayers(0);" style="text-decoration:none;"><span style="display: block;margin:0px;padding:0px;width:100%;text-align:right;font-family: Verdana, sans-serif;font-size:8pt;">&nbsp;</span></a>
+
+            <br><br>
+        </td>
+        <td width="570" align="right" bgcolor="#FFFFFF">
+        <table cellspacing="0" cellpadding="0" border="0" width="570">
+          <tr><td><img src="http://s3.memberclicks.com/images/spacer.gif" height="5" width="270" border="0" alt=""></img><br></td>
+            <td><img src="http://s3.memberclicks.com/images/spacer.gif" height="5" width="300" border="0" alt=""></img><br></td>
+          </tr>
+
+          <tr>
+              <td align="left" valign="top" style="padding-left:5px;"><font class="regularText" style="font-size:8pt; color:#666666;">
+
+                Directory > Directory Search&nbsp;
+
+              </font></td>
+              <td align="right" valign="top" class="bbforumtext" style="padding-right:3px;">
+
+            &nbsp;
+
+            <a href="/mc/prelogin.do?hidOrgID=aaspm" onMouseOver="setStatus('Log In.');return true;" onMouseOut="resetStatus();return true;"><!--<img src="http://s3.memberclicks.com/images/login.gif" align="top" border="0" alt="Login"></img>--> Login</a>&nbsp;&nbsp;
+
+<!--
+        
+-->
+            </td>
+          </tr>
+
+          <tr>
+          <td colspan="2" style="padding-left:15px;"><img src="http://s3.memberclicks.com/images/spacer.gif" height="10" width="15" border="0" alt=""></img><br>
+                                
+                    
+
+
+
+
+
+
+
+<script type="text/javascript">
+var browser = navigator.appName;
+var version = parseInt( navigator.appVersion );
+var browse;
+if( browser == "Netscape" && version >= 4 )
+{
+    browse = "n4";
+}
+else if( browser == "Microsoft Internet Explorer" && version >= 4 )
+{
+    browse = "ie4";
+}
+else
+{
+    browse = "n3";
+}
+
+function changeHTML( spanID, htmlContent )
+{
+    dynamicText = document.getElementById( spanID );
+    dynamicText.innerHTML = htmlContent;
+}
+</script>
+
+
+
+            <div align="justify" valign="absbottom" class="regularText" style="font-size:8pt; padding-right:3px;">
+                <p><span style=" color: #ff0000;">To find an AASP-MN member in your area, enter city or zip code.</span></p>
+            </div>
+
+          </td></tr>
+          <tr><td colspan="2" style="color:#000000;">
+
+
+<!-- INSERT PAGE BODY -->
+
+            
+
+
+
+
+
+
+
+
+<style type="text/css">
+
+div.row {
+    padding-bottom: 3px;
+}
+
+div.label {
+    width: 103px;
+    float: left;
+    padding-top: 2px;
+}
+    
+</style>
+
+<script type="text/javascript">
+
+function setActionTaskValuesOverRide(form, action)
+{
+    form.action = action;
+    form.submit();
+}
+</script>
+
+<form name="searchCriteriaForm" method="post" action="/mc/directory/simplesearch.do;jsessionid=2B70487DD00E4885AB10A95FFFF18393.mc0">
+
+<input type="hidden" name="adminTemplate" value="false">
+
+<div class="pageContainer pageWidth" id="narrowsearch">
+
+<table cellpadding="0" cellspacing="0" border="0" width="100%">
+<tr><td>
+
+<h1 class="headerarea"><span class="headertext h1FontClass">SEARCH</span></h1>
+
+
+
+<div align="right">
+<table cellpadding="0" cellspacing="0" border="0">
+<tr><td class="regularText">
+                    <a href="/mc/directory/viewsimplesearch.do" class="iconLink"><img src="http://s3.memberclicks.com/images/icons/link.gif" height="17" width="10" align="absmiddle" border="0" style="margin-right:3px;" alt="Simple Search"></img>Simple Search</a>&nbsp;
+                        
+                                | <a href="javascript: setActionTaskValuesOverRide(document.searchCriteriaForm, '/mc/directory/viewallmembers.do')" onMouseOver="setStatus('View the Entire Directory'); return true;" onMouseOut="resetStatus(); return true;" class="iconLink"><img src="http://s3.memberclicks.com/images/icons/link.gif" height="17" width="10" align="absmiddle" border="0" style="margin-right:3px;" alt="View Entire Directory"></img>View Entire Directory</a>&nbsp;
+                        
+                        </td>
+ </tr></table>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+<!--  Error Message Section -->
+
+
+<div class="container">
+    <h2 class="subheadtext bordercolor">Narrow Your Search</h2>
+
+    <div class="innerContainer regularText bordercolor">
+
+        <div class="blockContainer">
+        <h3>Enter your search terms</h3>
+        <div class="blockInstructions">
+            Look for profiles that have specific criteria.<br>
+        </div>
+
+        <div class="innerBlockContainer">
+
+                    <table cellpadding="0" cellspacing="0" border="0">
+                    <tr>
+                        <td class="regularText" align="right">
+                            <b>Enter your search terms:</b>&nbsp;
+                        </td>
+                        <td class="regularText" align="left">
+                            <input type="text" name="keyword" size="30" value="" class="inputBox">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="regularText" align="right" valign="top" style="padding-top:5px;">
+                            <b>Find results with:</b>&nbsp;
+                        </td>
+                        <td class="regularText" align="left" valign="top">
+                            <input type="radio" name="matchSelection" value="any" checked>ANY of these words<br>
+                            <input type="radio" name="matchSelection" value="all">ALL of these words<br>
+                        </td>
+                    </tr>
+                    </table>
+
+        </div>
+        </div>
+
+
+
+
+
+        <div class="blockContainer">
+        <h3>Filters</h3>
+        <div class="blockInstructions">
+            Hold down the control key to select or deselect more than one item per list.<br>
+        </div>
+
+        <div class="innerBlockContainer">
+
+<table cellpadding="0" cellspacing="0" border="0" width="508">
+<tr>
+
+<!-- Iterate through the list of search attributes -->
+
+
+<td align="left" valign="top" class="regularText" nowrap  colspan="2"><b>Primary Business Type:</b>&nbsp;<br>
+
+
+    <select name="selx248475" multiple size="5 " class="selectionBox">
+        <option value="Collision Repair">Collision Repair</option>
+<option value="General Business Vendor">General Business Vendor</option>
+<option value="Industry Vendor">Industry Vendor</option>
+<option value="Mechanical Repair">Mechanical Repair</option>
+<option value="|EMPTY|"></option>
+
+    </select>
+
+
+
+&nbsp;<br><br></td>
+
+
+</tr>
+<tr><td colspan="2"><img src="http://s3.memberclicks.com/images/spacer.gif" height="2" width="1" border="0" alt=""></img></td></tr>
+
+
+
+<!-- End search attribute iteration -->
+
+
+<td align="left" valign="top" class="regularText" nowrap  colspan="2"><b>Vehicle Specialties:</b>&nbsp;<br>
+
+
+    <select name="selx248480" multiple size="6 " class="selectionBox">
+        <option value="Asian">Asian</option>
+<option value="Diesel">Diesel</option>
+<option value="Domestic">Domestic</option>
+<option value="European">European</option>
+<option value="Hybrid">Hybrid</option>
+<option value="Other">Other</option>
+<option value="|EMPTY|"></option>
+
+    </select>
+
+
+
+&nbsp;<br><br></td>
+
+
+</tr>
+<tr><td colspan="2"><img src="http://s3.memberclicks.com/images/spacer.gif" height="2" width="1" border="0" alt=""></img></td></tr>
+
+
+
+<!-- End search attribute iteration -->
+
+
+<td align="left" valign="top" class="regularText" nowrap ><b>Shop Capabilities - Collision:</b>&nbsp;<br>
+
+
+    <select name="selx252694" multiple size="10" class="selectionBox">
+        <option value="Alignment">Alignment</option>
+<option value="Custom Paint">Custom Paint</option>
+<option value="In House Glass">In House Glass</option>
+<option value="In House Mechanical">In House Mechanical</option>
+<option value="Manufacturers Certified Programs">Manufacturers Certified Programs</option>
+<option value="Oversize Vehicles">Oversize Vehicles</option>
+<option value="Restoration">Restoration</option>
+<option value="Sandblasting">Sandblasting</option>
+<option value="Other">Other</option>
+<option value="|EMPTY|"></option>
+
+    </select>
+
+
+
+&nbsp;<br><br></td>
+
+
+
+<!-- End search attribute iteration -->
+
+
+<td align="left" valign="top" class="regularText" nowrap ><b>Shop Capabilities - Mechanical:</b>&nbsp;<br>
+
+
+    <select name="selx248484" multiple size="10" class="selectionBox">
+        <option value="Alignment">Alignment</option>
+<option value="Computer re-flashing">Computer re-flashing</option>
+<option value="Custom tire service">Custom tire service</option>
+<option value="Diesel">Diesel</option>
+<option value="Heavy Duty">Heavy Duty</option>
+<option value="Transmission rebuilds">Transmission rebuilds</option>
+<option value="Other">Other</option>
+<option value="|EMPTY|"></option>
+
+    </select>
+
+
+
+&nbsp;<br><br></td>
+
+
+</tr>
+<tr><td colspan="2"><img src="http://s3.memberclicks.com/images/spacer.gif" height="2" width="1" border="0" alt=""></img></td></tr>
+
+
+
+<!-- End search attribute iteration -->
+
+
+<td align="left" valign="top" class="regularText" nowrap ><b>Additional Locations:</b>&nbsp;<br>
+
+
+    <select name="selx291551" multiple size="2 " class="selectionBox">
+        <option value="No">No</option>
+<option value="Yes, see website">Yes, see website</option>
+<option value="|EMPTY|"></option>
+
+    </select>
+
+
+
+&nbsp;<br><br></td>
+
+
+
+<!-- End search attribute iteration -->
+
+
+        </table>
+        </div>
+        </div>
+
+
+
+
+
+
+<!-- end checkboxes -->
+
+
+
+
+        <div class="blockContainer">
+        <h3>Display Options</h3>
+        <div class="blockInstructions">
+
+        </div>
+
+        <div class="innerBlockContainer">
+
+            <div class="row">
+                <div class="label"><b>View Template:</b></div>
+          
+                <select name="selectedSearchTemplateSettingId" class="selectionBox"><option value="40700">Member Card</option>
+<option value="40699">Phone List</option></select>
+            </div>
+
+
+            <div class="row">
+                <div class="label"><b>Sort results by:</b></div>
+
+                
+                    <select name="selectedSortAtt" class="selectionBox"><option value="248336">Company Name</option></select>
+                    
+                        
+                    
+                
+            </div>
+
+                    <input type="hidden" name="hiddenNumberTypes" value="">
+
+                    
+                    
+                        <input type="checkbox" name="randomSort" value="true"> Random Sort Order<br>
+                    
+                    <br>
+
+            </div>
+            </div>
+
+<a href="javascript: setActionTaskValuesOverRide(document.searchCriteriaForm, '/mc/directory/simplesearch.do')" onMouseOver="setStatus('Search'); return true;" onMouseOut="resetStatus(); return true;"><img src="http://s3.memberclicks.com/images/styles/2/search.gif" align="center" border="0" alt="Search"></img></a>
+<a href="javascript: clearSearchCriteria( document.searchCriteriaForm );" onMouseOver="setStatus('Click this button to reset all the fields on this page.'); return true;" onMouseOut="resetStatus(); return true;"><img src="http://s3.memberclicks.com/images/styles/2/clear.gif" align="absmiddle" border="0" alt="Clear"></img></a>
+
+</form>
+
+
+</div>
+</div>
+</td></tr>
+</table>
+</div>
+
+<!-- END PAGE BODY -->
+<br>
+<table cellpadding="0" cellspacing="0" border="0" width="100%">
+<tr>
+    <td align="left">
+        <a href="mailto:jodi@aaspmn.org" style="text-decoration:none;" onMouseOver="setStatus('Contact Administrator');return true;" onMouseOut="resetStatus();return true;"><img src="http://s3.memberclicks.com/images/contactadmin.gif" align="baseline" border="0" style="margin-left:10px"/></a>
+    </td>
+    <td align="right">
+        <a href="http://www.memberclicks.com" target="_blank" style="text-decoration:none;"><img src="http://s3.memberclicks.com/images/powbymc.gif" align="middle" border="0"/></a>
+        
+    </td>
+</tr>
+</table>
+
+            </td>
+            </tr>
+        </table></td>
+    </tr>
+</table>
+</td></tr>
+</table>
+
+<!-- footer begins below -->
+<font class="regularText"><span class="topcolor">
+<p align="center"><span style=" color: #000000;"><strong>Copyright (c) 2009 Alliance of Automotive Service Providers, &reg;</strong></span></p><p><span style=" color: #000000;">All material published electronically in the Alliance of Automotive Service Providers of Minnesota (AASP-MN)&nbsp;Web Site is the property of AASP-MN and may not be reproduced for sale or distribution of any kind. Nor may it be used in the creation of any other publications, online services, or World Wide Web sites without the express written consent of AASP-MN.</span></p>
+</span></font>
+<!-- Sponsor Ad Display -->
+<br>
+
+<!-- BACKGROUND Layer for rolloffs -->
+
+
+<!-- BACKGROUND Layer for rolloffs -->
+<div id="rolloff" style="position:absolute; left:0px; top:101px; margin-top:30; _margin-top:0px; width:300px; z-index:1; visibility: hidden;">
+  <a href="javascript:;" onMouseOver="autoLayers(0);autoLayers(1); setStatus('');return true;" onMouseOut="resetStatus();return true;"><img src="http://s3.memberclicks.com/images/spacer.gif" name="rollanchor" height="300" width="500" border="0" id="rollanchor"></img></a>
+</div>
+
+
+<div id="refreshSession" class="hidDiv" style="position:absolute;left:0px; top:100px; width:100%; z-index:10;">
+<center><div style="border:3px double black;background-color:#FFFFCF;padding:10px;width:350px;">
+<font face='Arial,sans-serif' size='3' color='red'><center><b><u>ATTENTION!</u></b></center></font>
+<font face='Verdana,sans-serif' size='1'><span id="refreshText">Your login will expire in the next five minutes due to inactivity.  Please click the link below to refresh your login.<br><br>
+<center><font size="2"><b><a href='javascript:void(0);' onClick='hideDiv("refreshSession");window.location.href="/mc/refreshSession.do";startTheClock();'>Refresh my login</a></b></font></center></span></font>
+</div></center>
+</div>
+
+</div>
+
+
+
+
+
+
+
+<iframe style="width:1px;height:1px;margin:0px;padding:0px;" name="sessionFrame" id="sessionFrame" src="https://web.memberclicks.com/mc/common/blank.html" scrolling="no" frameborder="0" align="left" hspace="0" vspace="0"></iframe>
+
+
+
+
+</body>
+</HTML>
