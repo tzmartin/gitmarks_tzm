@@ -53,7 +53,7 @@ function addLoadEvent(func){var oldonload=window.onload;if(typeof window.onload!
 <link rel="stylesheet" href="http://s0.wp.com/wp-content/themes/h4/global.css?m=1291749258g" type="text/css" />
 <script type='text/javascript' src='http://s2.wp.com/wp-includes/js/l10n.js?m=1290133841g&amp;ver=20101110'></script>
 <script type='text/javascript' src='http://s1.wp.com/wp-includes/js/jquery/jquery.js?m=1290133841g&amp;ver=1.4.4'></script>
-<script type='text/javascript' src='http://s0.wp.com/wp-includes/js/comment-reply.js?m=1244000842g&amp;ver=20090102'></script>
+<script type='text/javascript' src='http://s0.wp.com/wp-includes/js/comment-reply.js?m=1235253117g&amp;ver=20090102'></script>
 <link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://tetontech.wordpress.com/xmlrpc.php?rsd" />
 <link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://tetontech.wordpress.com/wp-includes/wlwmanifest.xml" /> 
 <link rel='index' title='Teton Technical' href='http://tetontech.wordpress.com/' />
@@ -165,8 +165,8 @@ function addLoadEvent(func){var oldonload=window.onload;if(typeof window.onload!
 <input type='hidden' name='comment_parent' id='comment_parent' value='0' />
 						</p>
 						
-<input type="hidden" name="genseq" value="1292695652" />
-<p><input type="checkbox" name="subscribe" id="subscribe" value="subscribe" style="width: auto;" tabindex="6"/> <label class="subscribe-label" id="subscribe-label" for="subscribe">Notify me of follow-up comments via email.</label></p><p><input type="checkbox" name="subscribe_blog" id="subscribe_blog" value="subscribe" style="width: auto;" tabindex="7"/> <label class="subscribe-label" id="subscribe-blog-label" for="subscribe_blog">Subscribe to this site by email</label></p><input type="hidden" name="sub-type" value="comment-form-text2" /><p style="display: none;"><input type="hidden" id="akismet_comment_nonce" name="akismet_comment_nonce" value="ef7b25505b" /></p>					</form>
+<input type="hidden" name="genseq" value="1292698351" />
+<p><input type="checkbox" name="subscribe" id="subscribe" value="subscribe" style="width: auto;" tabindex="6"/> <label class="subscribe-label" id="subscribe-label" for="subscribe">Notify me of follow-up comments via email.</label></p><p><input type="checkbox" name="subscribe_blog" id="subscribe_blog" value="subscribe" style="width: auto;" tabindex="7"/> <label class="subscribe-label" id="subscribe-blog-label" for="subscribe_blog">Subscribe by email to this site</label></p><input type="hidden" name="sub-type" value="comment-form-text1" /><p style="display: none;"><input type="hidden" id="akismet_comment_nonce" name="akismet_comment_nonce" value="ef7b25505b" /></p>					</form>
 							</div><!-- #respond -->
 						
 
@@ -352,7 +352,7 @@ try{
 <script type="text/javascript" src="http://b.scorecardresearch.com/beacon.js"></script><script type="text/javascript">try{COMSCORE.beacon({c1:2,c2:7518284});}catch(e){}</script><noscript><p class="robots-nocontent"><img src="http://b.scorecardresearch.com/p?cj=1c1=2&#038;c2=7518284" alt="" style="display:none" width="1" height="1" /></p></noscript><script src="http://s.stats.wordpress.com/w.js?19" type="text/javascript"></script>
 <script type="text/javascript">
 st_go({'blog':'3710818','v':'wpcom','user_id':'0','post':'348','subd':'tetontech'});
-ex_go({'crypt':'RDZ8LFkxbXFSLmU4PWMvVjUtW3xhP29rYy1UaXFfOThXUDF+TmJCLC1NaVA1c0pNdjAxa0JSZW9zelgtcnBaLTVMKzNSLHpldm51QTN3NjQzSS1FWnMxN2ZuWyVCYjJnSFVEQ20vTTRxVGhkOTg2YkI/MUlWcWpWeUZWRnJLRC1rN1drL1l0P2ttQ1FfeGo4U3xuW2dUOHVQWystOXllVm8lQTB1emFF'});
+ex_go({'crypt':'RDZ8LFkxbXFSLmU4PWMvVjUtW3xhP29rYy1UaXFfQnF0aFJFUGpEazV5Rn4wLXVIeVo4Z2pJSXpWNlB1N3k5OXF5SkxYcWlSZGZRNUtJakNuZVFZcys4ckszQ3JEJnw1ZFRoW2QlS05zLWF5LVBGJnQzTj1xdWJzbWpsaWh2aixxRDYrNjQlTUE/PXNkRS9HXUtdOC1zRUFbRyxKa194fnQvTFhnTUR+'});
 addLoadEvent(function(){linktracker_init('3710818',348);});
 	</script>
 
