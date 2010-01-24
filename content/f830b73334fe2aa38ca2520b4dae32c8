@@ -1,0 +1,318 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head id="head">
+  <title>#648973 - Pastie</title>
+  <link href="http://assets0.pastie.org/stylesheets/display.css?1289430470" media="screen" rel="stylesheet" type="text/css" />
+	<link href="http://assets2.pastie.org/stylesheets/clean.css?1289430470" media="screen" rel="alternate stylesheet" title="clean" type="text/css" />
+<link href="http://assets0.pastie.org/stylesheets/all_hallows_eve.css?1289430470" media="screen" rel="alternate stylesheet" title="all_hallows_eve" type="text/css" />
+<link href="http://assets1.pastie.org/stylesheets/blackboard.css?1289430470" media="screen" rel="alternate stylesheet" title="blackboard" type="text/css" />
+<link href="http://assets3.pastie.org/stylesheets/brilliance_black.css?1289430470" media="screen" rel="alternate stylesheet" title="brilliance_black" type="text/css" />
+<link href="http://assets3.pastie.org/stylesheets/cobalt.css?1289430470" media="screen" rel="alternate stylesheet" title="cobalt" type="text/css" />
+<link href="http://assets3.pastie.org/stylesheets/expreso_libre.css?1289430470" media="screen" rel="alternate stylesheet" title="expreso_libre" type="text/css" />
+<link href="http://assets1.pastie.org/stylesheets/idle.css?1289430470" media="screen" rel="alternate stylesheet" title="idle" type="text/css" />
+<link href="http://assets1.pastie.org/stylesheets/mac_classic.css?1289430470" media="screen" rel="alternate stylesheet" title="mac_classic" type="text/css" />
+<link href="http://assets0.pastie.org/stylesheets/magicwb_amiga.css?1289430470" media="screen" rel="alternate stylesheet" title="magicwb_amiga" type="text/css" />
+<link href="http://assets0.pastie.org/stylesheets/pastels_on_dark.css?1289430470" media="screen" rel="alternate stylesheet" title="pastels_on_dark" type="text/css" />
+<link href="http://assets1.pastie.org/stylesheets/slate.css?1289430470" media="screen" rel="alternate stylesheet" title="slate" type="text/css" />
+<link href="http://assets2.pastie.org/stylesheets/slush_and_poppies.css?1289430470" media="screen" rel="alternate stylesheet" title="slush_and_poppies" type="text/css" />
+<link href="http://assets1.pastie.org/stylesheets/sunburst.css?1289430470" media="screen" rel="alternate stylesheet" title="sunburst" type="text/css" />
+<link href="http://assets0.pastie.org/stylesheets/sunburst_josh.css?1289430470" media="screen" rel="alternate stylesheet" title="sunburst_josh" type="text/css" />
+<link href="http://assets2.pastie.org/stylesheets/twilight.css?1289430470" media="screen" rel="alternate stylesheet" title="twilight" type="text/css" />
+<link href="http://assets2.pastie.org/stylesheets/vibrant_ink.css?1289430470" media="screen" rel="alternate stylesheet" title="vibrant_ink" type="text/css" />
+	
+	<script src="http://assets0.pastie.org/javascripts/application.js?1289430470" type="text/javascript"></script>
+	
+	<link href="/pastes.atom" rel="alternate" title="ATOM" type="application/atom+xml" />
+	<link rel="icon" type="image/gif" href="/images/pastie.gif">
+	<link rel="SHORTCUT ICON" type="image/gif" href="/images/pastie.gif">
+</head>
+<body id="show">
+
+<div id="topnews" style="display:none;">
+<p>
+		 Pastie now <a href="http://pastie.caboo.se/8763" class="subtle">auto-senses</a> if line-wrap is a bad or good idea.  <a href="http://beast.caboo.se/forums/4">Feedback?</a>
+	</p>
+</div>
+
+
+
+<div id="header">
+
+     <img alt="Pastie" src="http://assets0.pastie.org/images/pastie.gif?1289430470" />
+    <!-- <h1>
+     -->    <!-- Pastie  -->
+
+  
+  <!--
+      <span class="sub">What'cha want for Christmas?</span>
+    <span class="count"> pasties and counting</span>  
+  -->
+    <!-- </h1> -->
+
+
+  <span class="blog">
+    <!-- <a href='http://www.pledgie.com/campaign/show/16'>Support Pastie</a> 
+    <span class="pipe">|</span> -->
+  <a href="http://blog.pastie.org/">Pastie &lt;&lt; self Blog</a>
+  </span>
+
+	<ul id="nav">
+	  <li class="home"><a class="" href="/">Pastie</a></li>
+		<li class=""><a href="/pastes/new">New</a></li>
+		<li class='active'>
+			<a href="/pastes">Pastes</a>
+		</li>
+		<li >
+		  <a href="/search/">Search</a>
+		</li>
+		<li ><a href="/help/">Help</a></li>
+		<li ><a href="/about/">About</a></li>
+		
+    <!--  -->
+	</ul>
+
+	<div style="clear:both"></div>
+	
+</div>
+
+<!-- <div id="news">
+<p style="margin-bottom:0;">Now powered by <a href="http://www.sphinxsearch.com/">Sphinx</a>... Search doesn't suck anymore. :-)  Give it a spin.</p> 
+</div> -->
+
+<div id="container">
+
+<div id="content">
+	
+
+	
+
+
+
+
+<!--
+
+-->
+
+<!--
+<p class="private psmall" id="private">
+	<img src="/images/icons/mini/locked.gif" />
+	This paste is private.
+</p>
+-->
+
+
+
+
+
+
+
+<!-- only for someone who's logged in -->
+<p class="smallutils" id="wrapoptions" style="display:none;">
+
+  <a href="http://pastie.org/648973/wrap">Wrap text</a>
+
+</p>
+
+<script language="javascript">
+logged_in_setup();
+if (logged_in_user && logged_in_user=="")
+	{ $('wrapoptions').show(); }	
+</script>
+
+
+<div style="position:absolute; font-size:0.6em; color:#999; z-index:100; right:5px; top:4px;">
+<label style="font-size:1em; color:#aaa">Theme:</label>
+<select onchange="setActiveStyleSheet(this.value);" id="tm_theme_picker">
+	<option value="clean">Clean (Pastie)</option>
+<option value="all_hallows_eve">All Hallow's Eve</option>
+<option value="blackboard">Blackboard</option>
+<option value="brilliance_black">Brilliance Black</option>
+<option value="cobalt">Cobalt</option>
+<option value="expreso_libre">Espresso Libre</option>
+<option value="idle">IDLE</option>
+<option value="mac_classic">Mac Classic</option>
+<option value="magicwb_amiga">MagicWB (Amiga)</option>
+<option value="pastels_on_dark">Pastels on Dark</option>
+<option value="slate">Slate</option>
+<option value="slush_and_poppies">Slush and Poppies</option>
+<option value="sunburst">Sunburst</option>
+<option value="sunburst_josh">Sunburst (Josh)</option>
+<option value="twilight">Twilight</option>
+<option value="vibrant_ink">Vibrant Ink</option>
+</select>
+</div>
+
+<p class="abuse">
+  <a href="/pastes/648973/abuse">Report abuse</a>
+</p>
+
+
+
+
+
+
+
+
+
+
+	
+	<div class="allcode">
+		<table cellpadding="0" cellspacing="0" border="0">
+		<tr>
+			<td>
+				
+				<pre class="textmate-source-numbers">1
+2
+3
+4
+5
+6
+7
+8
+</pre>
+			</td>
+		<td>
+		<pre class="textmate-source"><pre class="sunburst">Titanium<span class='meta meta_delimiter meta_delimiter_method meta_delimiter_method_period meta_delimiter_method_period_js'>.</span>UI<span class='meta meta_delimiter meta_delimiter_method meta_delimiter_method_period meta_delimiter_method_period_js'>.</span>currentWindow<span class='meta meta_delimiter meta_delimiter_method meta_delimiter_method_period meta_delimiter_method_period_js'>.</span>addEventListener<span class='meta meta_brace meta_brace_round meta_brace_round_js'>(</span><span class='string string_quoted string_quoted_single string_quoted_single_js'>'my_event'</span><span class='meta meta_delimiter meta_delimiter_object meta_delimiter_object_comma meta_delimiter_object_comma_js'>,</span><span class='storage storage_type storage_type_js'>function</span><span class='meta meta_brace meta_brace_round meta_brace_round_js'>(</span>data<span class='meta meta_brace meta_brace_round meta_brace_round_js'>)</span> <span class='meta meta_brace meta_brace_curly meta_brace_curly_js'>{</span>
+  <span class='comment comment_line comment_line_double-slash comment_line_double-slash_js'>//do stuff with the data payload -- WINNAR!</span>
+<span class='meta meta_brace meta_brace_curly meta_brace_curly_js'>}</span><span class='meta meta_brace meta_brace_round meta_brace_round_js'>)</span>;
+
+<span class='comment comment_line comment_line_double-slash comment_line_double-slash_js'>//fire event</span>
+<span class='support support_class support_class_js'>document</span><span class='meta meta_delimiter meta_delimiter_method meta_delimiter_method_period meta_delimiter_method_period_js'>.</span><span class='support support_function support_function_dom support_function_dom_js'>getElementById</span><span class='meta meta_brace meta_brace_round meta_brace_round_js'>(</span><span class='string string_quoted string_quoted_single string_quoted_single_js'>'button'</span><span class='meta meta_brace meta_brace_round meta_brace_round_js'>)</span><span class='meta meta_delimiter meta_delimiter_method meta_delimiter_method_period meta_delimiter_method_period_js'>.</span><span class='meta meta_function meta_function_js'><span class='entity entity_name entity_name_function entity_name_function_js'>onclick</span> <span class='keyword keyword_operator keyword_operator_js'>=</span> <span class='storage storage_type storage_type_function storage_type_function_js'>function</span>()</span> <span class='meta meta_brace meta_brace_curly meta_brace_curly_js'>{</span>
+  Titanium<span class='meta meta_delimiter meta_delimiter_method meta_delimiter_method_period meta_delimiter_method_period_js'>.</span>UI<span class='meta meta_delimiter meta_delimiter_method meta_delimiter_method_period meta_delimiter_method_period_js'>.</span>currentWindow<span class='meta meta_delimiter meta_delimiter_method meta_delimiter_method_period meta_delimiter_method_period_js'>.</span>fireEvent<span class='meta meta_brace meta_brace_round meta_brace_round_js'>(</span><span class='string string_quoted string_quoted_single string_quoted_single_js'>'my_event'</span><span class='meta meta_delimiter meta_delimiter_object meta_delimiter_object_comma meta_delimiter_object_comma_js'>, </span><span class='meta meta_brace meta_brace_curly meta_brace_curly_js'>{</span>eventData:<span class='string string_quoted string_quoted_single string_quoted_single_js'>'My event data'</span><span class='meta meta_brace meta_brace_curly meta_brace_curly_js'>}</span><span class='meta meta_brace meta_brace_round meta_brace_round_js'>)</span>;
+<span class='meta meta_brace meta_brace_curly meta_brace_curly_js'>}</span>;
+</pre></pre>
+		</td>
+		</tr>
+		</table>
+	
+	</div>
+
+
+
+
+
+
+<script src="http://ads.mocra.com/sites/pastie.js"></script>
+</div>
+
+<div id="right">
+	
+
+
+
+
+<div style="margin:0.5em 0 0em; font-size:0.75em;">
+  <div style="float:left">
+<a href="http://pastie.org/pastes/648973/text" class="utility"><img alt="View" src="http://assets3.pastie.org/images/view.png?1289430470" style="vertical-align:middle" title="View the raw source of this pastie" /></a>
+  </div>
+<div style="padding-top:2px; margin-left:70px">
+<span style="color:#999">or</span>
+<a href="/pastes/648973/download" class="utility or">Download</a>	
+</div>
+</div>
+
+
+
+
+  <p style="margin-top:1.5em">
+  <label>Pasted</label><br />
+  <span class="typo_date" title="Fri, 09 Oct 2009 21:49:18 GMT" id='paste_date'>October 09, 2009<br /> 5:49PM EDT</span>
+  <script language="javascript">
+  	e=$('paste_date');
+  	e.innerHTML=get_local_time_for_date(e.title);
+  </script>
+
+  </p>
+
+
+  
+
+
+
+
+
+
+
+<p>
+<label>Embed</label><br />
+<input type="text" value="<script src='http://pastie.org/648973.js'></script>" onclick="this.select();" size="22">
+</p>
+
+
+
+  <p style="margin-top:1.5em;">
+        
+    
+    <a href="/pastes/648973/reply">paste again</a>	
+    
+  </p>
+
+
+<!-- <p style="margin-top:3em; font-size:0.6em;">
+  
+</p> -->
+
+
+
+<div class="sponsor">
+<label>Sponsored and hosted by:</label>
+<a href="http://www.railsmachine.com"><img alt="Rm_badge" src="http://assets1.pastie.org/images/rm_badge.png?1289430470" /></a>
+</div>
+
+<div class="ads" style="margin:0 0 1.5em">
+<label>Advertising from <a href="http://rubyrow.net/">RubyRow</a>:</label>
+
+<div id="adzerk">
+    <div id="adzerk_ad_div">
+        <script type="text/javascript" src="http://engine.rubyrow.net/Server/RUBY/PASTIE/HORIZ"></script>
+    </div>
+    <p id="adzerk_by">
+        <a href='http://rubyrow.net'>Ads from Ruby Row</a>
+    </p>
+</div>
+</div>
+
+
+
+
+
+
+</div>
+
+<br style="clear:both;" />
+
+<div id="footer">
+<p class="disclaim">
+<strong>
+	
+	Use Pastie in your quest to save humanity, not in your evil plots to take over the world!
+	</strong>
+<br />
+<a href="/legal/" style="color:#369;">Legal</a>
+</p>
+
+<p class="credit">
+  Created by <br />
+  <a href="http://blog.pastie.org/">Josh Goebel</a>
+</p>
+<p class="credit2">
+	Monitored by<br />
+  <a href="http://www.newrelic.com/?utm_source=pastie&amp;utm_medium=text&amp;utm_campaign=monitoredby">
+	New Relic</a>
+</p>
+<br style="clear:both;" />
+</div>
+
+</div>
+
+
+
+<script src="http://assets3.pastie.org/javascripts/prototype.js?1289430470" type="text/javascript"></script>
+<script src="http://www.google-analytics.com/urchin.js" type="text/javascript">
+</script>
+<script type="text/javascript">
+_uacct = "UA-413537-1";
+urchinTracker();
+</script>
+</body>
+</html>
