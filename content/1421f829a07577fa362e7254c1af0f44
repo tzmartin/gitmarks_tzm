@@ -1,0 +1,938 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="en-US">
+
+<head profile="http://gmpg.org/xfn/11">
+
+<title>PubSubHubbub + Wordpress + Feedburner + FriendFeed = Realtime Awesomeness — jungleG</title>
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="alternate" type="application/rss+xml" title="jungleG &raquo; PubSubHubbub + WordPress + Feedburner + FriendFeed = Realtime Awesomeness Comments Feed" href="http://jungleg.com/2009/07/27/pubsubhubbub-wordpress-feedburner-friendfeed-realtime-awesomeness/feed/" />
+<script type='text/javascript' src='http://jungleg.com/wp-includes/js/comment-reply.js?ver=20090102'></script>
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://jungleg.com/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://jungleg.com/wp-includes/wlwmanifest.xml" /> 
+<link rel='prev' title='The Audience/Complexity Ratio and Your Ideal Point of Broadcast' href='http://jungleg.com/2009/07/24/the-audience-complexity-ratio-and-your-ideal-point-of-broadcast/' />
+<link rel='next' title='An Adventure Unfollowing All The People I Followed on Twitter (Without a Happy Ending)' href='http://jungleg.com/2009/08/03/an-adventure-unfollowing-all-the-people-i-followed-on-twitter-without-a-happy-ending/' />
+<link rel='canonical' href='http://jungleg.com/2009/07/27/pubsubhubbub-wordpress-feedburner-friendfeed-realtime-awesomeness/' />
+<link rel='shortlink' href='http://jungleg.com/?p=891' />
+<script type="text/javascript" charset="utf-8" src="http://w.sharethis.com/button/sharethis.js#publisher=51d18aa9-1ea7-4c87-8444-a423bc4442c0&amp;type=website&amp;post_services=friendfeed%2Ctwitter%2Cfacebook%2Cemail%2Cdelicious%2Cdigg%2Cstumbleupon%2Creddit%2Ctechnorati"></script><meta name="tweetmeme-title" content="PubSubHubbub + WordPress + Feedburner + FriendFeed = Realtime Awesomeness" />
+<link rel="canonical" href="http://jungleg.com/2009/07/27/pubsubhubbub-wordpress-feedburner-friendfeed-realtime-awesomeness/" />
+<meta name="description" content="&lt;a title=&quot;pubsubhubbub&quot; href=&quot;http://code.google.com/p/pubsubhubbub/&quot;&gt;PubSubHubbub&lt;/a&gt; is a fancy name for a rather new protocol being promoted by various services like FriendFeed, which allows you to receive updates of RSS feeds without polling.
+
+Basically it will allow blogs and readers to communicate real time, in a push-like method, like instant messaging, and not via pulls like the way it happens now (which can take minutes or even hours).
+
+The cool thing about PubSubHubbub is that it works on top of existing protocols (in this case Atom) so readers and source don&#039;t have to change much. The only thing you need is to notify a server that you published and the clients have to be subscribed to that server. Dave Winer has a good, deeper, explanation of &lt;a title=&quot;Google&#039;s Pubsubhubbub&quot; href=&quot;http://www.scripting.com/stories/2009/07/10/googlesPubsubhubbub.html&quot;&gt;how it works&lt;/a&gt;.
+
+In this tutorial I will show you how to implement PubSubHubbub in a self-hosted installation of Wordpress, using Feedburner for feed distribution and FriendFeed as the receiving client. With this system in place, your blog posts will appear in your FriendFeed in a matter of seconds." />
+<meta name="keywords" content="howto, pubsubhubbub" />
+<meta name="wp_theme" content="Thesis 1.6" />
+
+<link rel="stylesheet" href="http://jungleg.com/wp-content/themes/thesis_16/style.css?101409-222152" type="text/css" media="screen, projection" />
+<link rel="stylesheet" href="http://jungleg.com/wp-content/themes/thesis_16/custom/layout.css?021210-00147" type="text/css" media="screen, projection" />
+<!--[if lte IE 7]><link rel="stylesheet" href="http://jungleg.com/wp-content/themes/thesis_16/lib/css/ie.css?090809-235006" type="text/css" media="screen, projection" /><![endif]-->
+<link rel="stylesheet" href="http://jungleg.com/wp-content/themes/thesis_16/custom/custom.css?021210-04218" type="text/css" media="screen, projection" />
+
+<link rel="alternate" type="application/rss+xml" title="jungleG RSS Feed" href="http://feeds.feedburner.com/jungleg" />
+<link rel="pingback" href="http://jungleg.com/xmlrpc.php" />
+
+<!-- PUT THIS TAG IN THE head SECTION -->
+<script type="text/javascript" src="http://partner.googleadservices.com/gampad/google_service.js">
+</script>
+<script type="text/javascript">
+  GS_googleAddAdSenseService("ca-pub-5302056726893137");
+  GS_googleEnableAllServices();
+</script>
+<script type="text/javascript">
+  GA_googleAddSlot("ca-pub-5302056726893137", "Jungleg_160_600");
+</script>
+<script type="text/javascript">
+  GA_googleFetchAds();
+</script>
+<!-- END OF TAG FOR head SECTION -->
+<meta name="google-site-verification" content="nwbjcDNrCpSkQ9eyWAymLi9N5Dgo5wYPIdzDhWTGKbc" />
+<!-- Google Analytics Tracking by Google Analyticator 6.1.1: http://ronaldheft.com/code/analyticator/ -->
+<script type="text/javascript">window.google_analytics_uacct = "pub-5302056726893137";</script>
+<script type="text/javascript">
+	var analyticsFileTypes = [''];
+	var analyticsEventTracking = 'enabled';
+</script>
+<script type="text/javascript">
+	var _gaq = _gaq || [];
+	_gaq.push(['_setAccount', 'UA-2410531-1']);
+	_gaq.push(['_trackPageview']);
+
+	(function() {
+		var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+		ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+		var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+	})();
+</script>
+
+</head>
+
+<body class="custom">
+
+<div id="container">
+<div id="page">
+<ul class="menu">
+<li class="tab tab-home"><a href="http://jungleg.com">Home</a></li>
+<li class="tab tab-1"><a href="http://jungleg.com/about/" title="About Me">About</a></li>
+<li class="tab tab-2"><a href="http://jungleg.com/services/" title="Services">Services</a></li>
+<li class="rss"><a href="http://feeds.feedburner.com/jungleg" title="jungleG RSS Feed" rel="nofollow">Subscribe</a></li>
+</ul>
+	<div id="header">
+    <p id="logo">
+    <a href="http://jungleg.com">
+    <img src="/wp-content/images/logo_final_66.png" alt="jungleG" title="jungleG"/>
+    </a>    
+    </p>
+    <p id="tagline">Life is a Startup</p>
+    <div id="social-icons">
+       <a href="http://jungleg.com/feed" >
+          <img src="/wp-content/images/social-icons/rss.png" title="Subscribe to the RSS Feed" alt="Subscribe to the RSS Feed" />
+       </a>
+       <a href="http://twitter.com/jungleg" >
+          <img src="/wp-content/images/social-icons/twitter.png" title="Follow me on Twitter" alt="Follow me on Twitter" />
+       </a>
+      <a href="http://www.google.com/reader/shared/jorescobar">
+          <img src="/wp-content/images/social-icons/greader.png" title="My Google Reader shares" alt="My Google Reader shares" />
+       </a>
+      <a href="http://www.facebook.com/pages/jungleG/231277380443">
+          <img src="/wp-content/images/social-icons/facebook.png" title="My Facebook page" alt="My Facebook page" />
+       </a>
+       <p><a href="http://feeds.feedburner.com/jungleg"><img src="http://feeds.feedburner.com/~fc/jungleg?bg=99CCFF&amp;fg=444444&amp;anim=1" height="26" width="88" style="border:0" alt="" /></a></p>
+    </div>
+	</div>
+	<div id="content_box">
+		<div id="content" class="hfeed">
+
+			<div class="post-891 post type-post hentry category-blogging category-friendfeed category-google category-internet-101 tag-howto tag-pubsubhubbub post_box top" id="post-891">
+				<div class="headline_area">
+<img class="post_image alignnone frame" src="http://jungleg.com/wp-content/uploads/2009/07/pubsubhubbub.png" width="264" height="200" alt="Post image for PubSubHubbub + WordPress + Feedburner + FriendFeed = Realtime Awesomeness" />
+					<h1 class="entry-title">PubSubHubbub + WordPress + Feedburner + FriendFeed = Realtime Awesomeness</h1>
+					<p class="headline_meta">by <span class="author vcard fn">Jorge Escobar</span> on <abbr class="published" title="2009-07-27">July 27, 2009</abbr></p>
+				</div>
+				<div class="format_text entry-content">
+<div class="tweetmeme_button" style="float: right; margin-left: 10px;"><iframe src="http://api.tweetmeme.com/button.js?url=http%3A%2F%2Fjungleg.com%2F2009%2F07%2F27%2Fpubsubhubbub-wordpress-feedburner-friendfeed-realtime-awesomeness%2F&amp;style=normal&amp;b=2" height="61" width="50" frameborder="0" scrolling="no"></iframe></div>
+<p><a title="pubsubhubbub" href="http://code.google.com/p/pubsubhubbub/">PubSubHubbub</a> is a fancy name for a rather new protocol being promoted by various services like FriendFeed, which allows you to receive updates of RSS feeds without polling.</p>
+<p>Basically it will allow blogs and readers to communicate real time, in a push-like method, like instant messaging, and not via pulls like the way it happens now, which can take minutes or even hours (for an explanation of push and pull technologies, <a title="Push Technology is the Core of the Real Time Web" href="/2009/07/07/push-technology-is-the-core-of-the-real-time-web/">you can read my previous post about it</a>).</p>
+<p>The cool thing about PubSubHubbub is that it works on top of existing protocols (in this case Atom) so readers and source don&#8217;t have to change much. The only thing you need is to notify a server that you published and the clients have to be subscribed to that server. Dave Winer has a good, deeper, explanation of <a title="Google's Pubsubhubbub" href="http://www.scripting.com/stories/2009/07/10/googlesPubsubhubbub.html">how it works</a>.</p>
+<p>In this tutorial I will show you how to implement PubSubHubbub in a self-hosted installation of WordPress, using Feedburner for feed distribution and FriendFeed as the receiving client. With this system in place, your blog posts will appear in your FriendFeed in a matter of seconds.</p>
+<p>Let&#8217;s start with WordPress. You need to make sure that your auto-discovery RSS feed is pointing to feedburner instead of your own blog&#8217;s feed.</p>
+<p>The way to check for that is to do a view source of your blog. On the header, you must see this:</p>
+<p>&lt;link <span>rel</span>=&#8221;<span>alternate</span>&#8220; <span>type</span>=&#8221;<span>application/rss+xml</span>&#8220; <span>title</span>=&#8221;<span>jungleG RSS Feed</span>&#8220;<span>href</span>=&#8221;<a class=" " href="http://feeds.feedburner.com/jungleg" target="_blank">http://feeds.feedburner.com/jungleg</a>&#8221; /&gt;</p>
+<p>Be careful, as some themes do not handle this properly, so you might need to manually edit the &#8220;header.php&#8221; or similar template and hardcode the Feedburner address.</p>
+<p>I use a plugin to handle all my Feedburner chores called <a title="FD Feedburner Plugin" href="http://wordpress.org/extend/plugins/feedburner-plugin/">FD Feedburner</a>.</p>
+<p>Even though my blog&#8217;s feed is located at jungleg.com/feed, I don&#8217;t want the services to subscribe to this, as WordPress won&#8217;t be able to ping the clients subscribed to the blog. We want to leave that to Feedburner, which has implemented this properly.</p>
+<p>For the images on your blog to show up in FriendFeed, I have enabled the <a title="MediaRSS" href="http://wordpress.org/extend/plugins/mrss/">MediaRSS plugin</a>, but that might not be necessary, as Feedburner pulls those fine. But if images aren&#8217;t showing up for you, try installing it.</p>
+<p>We now move to Feedburner. Make sure you have the Ping Shot option checked:</p>
+<p><img class="alignnone size-full wp-image-896" title="feedburner-pingshot" src="http://jungleg.com/wp-content/uploads/2009/07/feedburner-pingshot.png" alt="feedburner-pingshot" width="725" height="494" /></p>
+<p>This allows Feedburner to ping FriendFeed or any other subscribers that you have posted new content.</p>
+<p>Last, but not least, you will need to configure FriendFeed. What you want to do is setup your feed to point to the Feedburner RSS feed URL (in my case <a class=" " href="http://feeds.feedburner.com/jungleg" target="_blank">http://feeds.feedburner.com/jungleg</a>) and <strong>not</strong> your regular blog URL or regular feed URL. That way FriendFeed is directly pinged by Feedburner instead of waiting for our blog to do so, which as I said earlier won&#8217;t work.</p>
+<p>If you want the excerpts to show, you might want to setup your feed as a Custom RSS/Atom feed and check the &#8221;Include entry description as a comment&#8221; option (thanks <a title="Ivan Zuzak" href="http://friendfeed.com/izuzak">Ivan</a> for the tip).</p>
+<p>You&#8217;re all set. You should now be able to see your posts come up in FriendFeed as soon as the WordPress Cron (wp-cron) process is run by your blog. This might be immediate or take a minute or two to be triggered (if you&#8217;re seeing your apache logs real time, you&#8217;ll something come up like the line below (click on the line to see it in full).</p>
+<p><a href="http://jungleg.com/wp-content/uploads/2009/07/wp-cron.png"><img class="alignnone size-full wp-image-897" title="wp-cron" src="http://jungleg.com/wp-content/uploads/2009/07/wp-cron.png" alt="wp-cron" width="1166" height="16" /></a></p>
+<p>I want to give a special thanks to <a title="Brett Slatkin" href="http://friendfeed.com/brett">Brett Slatkin</a> for always being there for me throughout this process.</p>
+<p>Now let&#8217;s see how this post goes up realtime on FriendFeed.</p>
+<p><script type="text/javascript">SHARETHIS.addEntry({ title: "PubSubHubbub + WordPress + Feedburner + FriendFeed = Realtime Awesomeness", url: "http://jungleg.com/2009/07/27/pubsubhubbub-wordpress-feedburner-friendfeed-realtime-awesomeness/" });</script></p><!-- <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+			xmlns:dc="http://purl.org/dc/elements/1.1/"
+			xmlns:trackback="http://madskills.com/public/xml/rss/module/trackback/">
+		<rdf:Description rdf:about="http://jungleg.com/2009/07/27/pubsubhubbub-wordpress-feedburner-friendfeed-realtime-awesomeness/"
+    dc:identifier="http://jungleg.com/2009/07/27/pubsubhubbub-wordpress-feedburner-friendfeed-realtime-awesomeness/"
+    dc:title="PubSubHubbub + WordPress + Feedburner + FriendFeed = Realtime Awesomeness"
+    trackback:ping="http://jungleg.com/2009/07/27/pubsubhubbub-wordpress-feedburner-friendfeed-realtime-awesomeness/trackback/" />
+</rdf:RDF> -->
+					<p class="post_tags">Tagged as:
+						<a href="http://jungleg.com/tag/howto/" rel="tag nofollow">howto</a>, 
+						<a href="http://jungleg.com/tag/pubsubhubbub/" rel="tag nofollow">pubsubhubbub</a>
+					</p>
+				</div>
+			</div>
+
+<p class="btc-summary"> <img src="http://jungleg.com/wp-content/plugins/backtype-connect/images/friendfeed-16.gif" alt=""/> <a href="http://www.backtype.com/connect/jungleg.com%252f2009%252f07%252f27%252fpubsubhubbub-wordpress-feedburner-friendfeed-realtime-awesomeness%252f?src=friendfeed" title="17 comments on friendfeed">17 Comments</a> <img src="http://jungleg.com/wp-content/plugins/backtype-connect/images/twitter-16.gif" style="margin-left:1em" alt=""/> <a href="http://www.backtype.com/connect/jungleg.com%252f2009%252f07%252f27%252fpubsubhubbub-wordpress-feedburner-friendfeed-realtime-awesomeness%252f/tweets" title="22 tweets on twitter">22 Tweets</a> <img src="http://jungleg.com/wp-content/plugins/backtype-connect/images/blog-16.gif" style="margin-left:1em" alt=""/> <a href="http://www.backtype.com/connect/jungleg.com%252f2009%252f07%252f27%252fpubsubhubbub-wordpress-feedburner-friendfeed-realtime-awesomeness%252f?src=blog" title="11 comments on other sites">11 Other Comments</a></p>			<div id="comments">
+				<div class="comments_intro">
+					<p><span class="bracket">{</span> <span>8</span> trackbacks <span class="bracket">}</span></p>
+				</div>
+
+				<dl id="trackback_list">
+					<dt><a href='http://revjim.net/2009/08/05/pubsubhubbub/' rel='external nofollow' class='url'>PubSubHubbub &#8211; revjim.net</a></dt>
+					<dd><span>August 5, 2009 at 10:32 pm</span></dd>
+					<dt><a href='http://www.lifehacker.com.au/2009/08/the-pushbutton-web-now-in-google-reader/' rel='external nofollow' class='url'>The Pushbutton Web Now In Google Reader | Lifehacker Australia</a></dt>
+					<dd><span>August 6, 2009 at 1:17 am</span></dd>
+					<dt><a href='http://news.kikil.com/5218/the-pushbutton-web-now-in-google-reader-google-reader.aspx' rel='external nofollow' class='url'>The Pushbutton Web Now in Google Reader [Google Reader] - Kikil News</a></dt>
+					<dd><span>August 6, 2009 at 1:30 am</span></dd>
+					<dt><a href='http://www.tanglang.info/2009/08/06/realtime-awsomeness-in-my-blog/' rel='external nofollow' class='url'>stories of a neuromancer &raquo; Blog Archive &raquo; Realtime Awsomeness in my Blog</a></dt>
+					<dd><span>August 6, 2009 at 9:27 am</span></dd>
+					<dt><a href='http://pauljacobson.org/2009/08/09/trying-stuff-out-you-can-ignore-this/' rel='external nofollow' class='url'>Trying stuff out (you can ignore this) | Paul Jacobson</a></dt>
+					<dd><span>August 9, 2009 at 10:25 am</span></dd>
+					<dt><a href='http://mvalente.eu/2009/08/23/lifestream-events-for-august-23rd/' rel='external nofollow' class='url'>Lifestream events for August 23rd &laquo; mvalente.eu/mv.*</a></dt>
+					<dd><span>August 23, 2009 at 5:03 pm</span></dd>
+					<dt><a href='http://www.kanal14.de/2009/09/16/wochenschau-folge-15-beginn-der-neuen-saison-mit-facebook-internet-manifest-rsscloud-und-mehr/' rel='external nofollow' class='url'>Wochenschau Folge 15: Beginn der neuen Saison mit Facebook, Internet Manifest, RSSCloud und mehr</a></dt>
+					<dd><span>September 16, 2009 at 2:57 am</span></dd>
+					<dt><a href='http://civ2boss.weblogs.us/archives/2009/12/17/pubsubhubbub-instant-blogging/' rel='external nofollow' class='url'>In My Life &raquo; PubSubHubbub &#8211; instant blogging?</a></dt>
+					<dd><span>December 17, 2009 at 2:59 pm</span></dd>
+				</dl>
+				<div class="comments_intro">
+					<p><span class="bracket">{</span> <span>50</span> comments&#8230; read them below or <a href="#respond" rel="nofollow">add one</a> <span class="bracket">}</span></p>
+				</div>
+
+				<div id="comment_nav_1" class="prev_next">
+					<p class="previous"><a href="http://jungleg.com/2009/07/27/pubsubhubbub-wordpress-feedburner-friendfeed-realtime-awesomeness/comment-page-1/#comments" >&larr; Previous Comments</a></p>
+				</div>
+
+				<dl id="comment_list">
+					<dt class="comment even thread-even depth-1 btc-comment btc-twitter" id="comment-2222">
+						<span class="avatar"><a href="http://twitter.com/jungleg" rel="nofollow"><img alt='' src='http://img.tweetimag.es/i/jungleg_n' class='avatar avatar-44 photo' height='44' width='44' /></a></span>
+						<span class="comment_author"><a href='http://twitter.com/jungleg' rel='external nofollow' class='url'>jungleg</a></span> <span class="comment_time"><a href="#comment-2222" title="Permalink to this comment" rel="nofollow">July 27, 2009 at 2:29 pm</a></span>
+					</dt>
+					<dd class="comment even thread-even depth-1 btc-comment btc-twitter">
+						<div class="format_text" id="comment-body-2222">
+<p>PubSubHubbub + WordPress + Feedburner + FriendFeed = Realtime Awesomeness &#8211; New blog post  <a href="http://bit.ly/xkD9g" rel="nofollow">http://bit.ly/xkD9g</a> #howto #wordpress #realtime</p>
+<p><i>This comment was originally posted on <a href="http://twitter.com/jungleg/statuses/2875824579" rel="nofollow">Twitter</a></i></p>
+							<p class="reply"><a rel='nofollow' class='comment-reply-link' href='/2009/07/27/pubsubhubbub-wordpress-feedburner-friendfeed-realtime-awesomeness/?replytocom=2222#respond' onclick='return addComment.moveForm("comment-body-2222", "2222", "respond", "891")'>Reply</a> &nbsp; <a href="http://twitter.com/jungleg">More from author</a></p>
+						</div>
+					</dd>
+					<dt class="comment odd alt thread-odd thread-alt depth-1 btc-comment btc-friendfeed" id="comment-2223">
+						<span class="avatar"><a href="http://friendfeed.com/brett" rel="nofollow"><img alt='' src='http://friendfeed.com/brett/picture?size=medium' class='avatar avatar-44 photo' height='44' width='44' /></a></span>
+						<span class="comment_author"><a href='http://friendfeed.com/brett' rel='external nofollow' class='url'>Brett Slatkin</a></span> <span class="comment_time"><a href="#comment-2223" title="Permalink to this comment" rel="nofollow">July 27, 2009 at 2:41 pm</a></span>
+					</dt>
+					<dd class="comment odd alt thread-odd thread-alt depth-1 btc-comment btc-friendfeed">
+						<div class="format_text" id="comment-body-2223">
+<p>Great how-to guide on using WordPress, FeedBurner, and PubSubHubbub together.</p>
+<p><i>This comment was originally posted on <a href="http://friendfeed.com/e/0c05f7c9-f36e-4fa5-41c9-6318f6b3307a#15dfe86b-c4c5-4f53-a72d-16764a2decbe" rel="nofollow">FriendFeed</a></i></p>
+							<p class="reply"><a rel='nofollow' class='comment-reply-link' href='/2009/07/27/pubsubhubbub-wordpress-feedburner-friendfeed-realtime-awesomeness/?replytocom=2223#respond' onclick='return addComment.moveForm("comment-body-2223", "2223", "respond", "891")'>Reply</a> &nbsp; <a href="http://friendfeed.com/brett/comments">More from author</a></p>
+						</div>
+					</dd>
+					<dt class="comment even thread-even depth-1 btc-comment btc-twitter" id="comment-2225">
+						<span class="avatar"><a href="http://twitter.com/apoapostolov" rel="nofollow"><img alt='' src='http://img.tweetimag.es/i/apoapostolov_n' class='avatar avatar-44 photo' height='44' width='44' /></a></span>
+						<span class="comment_author"><a href='http://twitter.com/apoapostolov' rel='external nofollow' class='url'>apoapostolov</a></span> <span class="comment_time"><a href="#comment-2225" title="Permalink to this comment" rel="nofollow">July 27, 2009 at 2:58 pm</a></span>
+					</dt>
+					<dd class="comment even thread-even depth-1 btc-comment btc-twitter">
+						<div class="format_text" id="comment-body-2225">
+<p>Liked &#8220;PubSubHubbub + WordPress + Feedburner + FriendFeed = Realtime Awesomeness &#8211; Thoughts on social media, the&#8230;&#8221; <a href="http://ff.im/-5Nlk0" rel="nofollow">http://ff.im/-5Nlk0</a></p>
+<p><i>This comment was originally posted on <a href="http://twitter.com/apoapostolov/statuses/2876298686" rel="nofollow">Twitter</a></i></p>
+							<p class="reply"><a rel='nofollow' class='comment-reply-link' href='/2009/07/27/pubsubhubbub-wordpress-feedburner-friendfeed-realtime-awesomeness/?replytocom=2225#respond' onclick='return addComment.moveForm("comment-body-2225", "2225", "respond", "891")'>Reply</a> &nbsp; <a href="http://twitter.com/apoapostolov">More from author</a></p>
+						</div>
+					</dd>
+					<dt class="comment odd alt thread-odd thread-alt depth-1" id="comment-2224">
+						<span class="avatar"><a href="http://www.joshfraser.com" rel="nofollow"><img alt='' src='http://1.gravatar.com/avatar/b74c7d5fe032eea1289b5a7b832dd059?s=44&amp;d=identicon&amp;r=G' class='avatar avatar-44 photo' height='44' width='44' /></a></span>
+						<span class="comment_author"><a href='http://www.joshfraser.com' rel='external nofollow' class='url'>Josh Fraser</a></span> <span class="comment_time"><a href="#comment-2224" title="Permalink to this comment" rel="nofollow">July 27, 2009 at 3:00 pm</a></span>
+					</dt>
+					<dd class="comment odd alt thread-odd thread-alt depth-1">
+						<div class="format_text" id="comment-body-2224">
+<p>Great post and explanation of PSH.  I also wrote a WP plugin for anyone who wants to publish directly to a hub without relying on Feedburner.  You can check it out here:</p>
+<p><a href="http://wordpress.org/extend/plugins/pubsubhubbub" rel="nofollow">http://wordpress.org/extend/plugins/pubsubhubbub</a></p>
+							<p class="reply"><a rel='nofollow' class='comment-reply-link' href='/2009/07/27/pubsubhubbub-wordpress-feedburner-friendfeed-realtime-awesomeness/?replytocom=2224#respond' onclick='return addComment.moveForm("comment-body-2224", "2224", "respond", "891")'>Reply</a> &nbsp; <a href="http://www.backtype.com/url/www.joshfraser.com">More from author</a></p>
+						</div>
+					</dd>
+					<dt class="comment even thread-even depth-1 btc-comment btc-friendfeed" id="comment-2231">
+						<span class="avatar"><a href="http://friendfeed.com/holdenpage" rel="nofollow"><img alt='' src='http://friendfeed.com/holdenpage/picture?size=medium' class='avatar avatar-44 photo' height='44' width='44' /></a></span>
+						<span class="comment_author"><a href='http://friendfeed.com/holdenpage' rel='external nofollow' class='url'>Holden</a></span> <span class="comment_time"><a href="#comment-2231" title="Permalink to this comment" rel="nofollow">July 27, 2009 at 3:24 pm</a></span>
+					</dt>
+					<dd class="comment even thread-even depth-1 btc-comment btc-friendfeed">
+						<div class="format_text" id="comment-body-2231">
+<p>you share jungleg so much I am gonna give them a look</p>
+<p><i>This comment was originally posted on <a href="http://friendfeed.com/e/f28e5cda-e5aa-47e4-2318-221bb7127333#4a2e5825-78b6-4a0a-9234-2473d718c87d" rel="nofollow">FriendFeed</a></i></p>
+							<p class="reply"><a rel='nofollow' class='comment-reply-link' href='/2009/07/27/pubsubhubbub-wordpress-feedburner-friendfeed-realtime-awesomeness/?replytocom=2231#respond' onclick='return addComment.moveForm("comment-body-2231", "2231", "respond", "891")'>Reply</a> &nbsp; <a href="http://friendfeed.com/holdenpage/comments">More from author</a></p>
+						</div>
+					</dd>
+					<dt class="comment odd alt thread-odd thread-alt depth-1 btc-comment btc-friendfeed" id="comment-2230">
+						<span class="avatar"><a href="http://friendfeed.com/davehod" rel="nofollow"><img alt='' src='http://friendfeed.com/davehod/picture?size=medium' class='avatar avatar-44 photo' height='44' width='44' /></a></span>
+						<span class="comment_author"><a href='http://friendfeed.com/davehod' rel='external nofollow' class='url'>Dave Hodson</a></span> <span class="comment_time"><a href="#comment-2230" title="Permalink to this comment" rel="nofollow">July 27, 2009 at 3:27 pm</a></span>
+					</dt>
+					<dd class="comment odd alt thread-odd thread-alt depth-1 btc-comment btc-friendfeed">
+						<div class="format_text" id="comment-body-2230">
+<p>@Louis &#8211; what I am missing here? He justs points everything to Feedburner and turns on Pingshot??</p>
+<p><i>This comment was originally posted on <a href="http://friendfeed.com/e/f28e5cda-e5aa-47e4-2318-221bb7127333#e6e218d3-3ace-472f-9d2f-6187d899e14e" rel="nofollow">FriendFeed</a></i></p>
+							<p class="reply"><a rel='nofollow' class='comment-reply-link' href='/2009/07/27/pubsubhubbub-wordpress-feedburner-friendfeed-realtime-awesomeness/?replytocom=2230#respond' onclick='return addComment.moveForm("comment-body-2230", "2230", "respond", "891")'>Reply</a> &nbsp; <a href="http://friendfeed.com/davehod/comments">More from author</a></p>
+						</div>
+					</dd>
+					<dt class="comment even thread-even depth-1 btc-comment btc-twitter" id="comment-2229">
+						<span class="avatar"><a href="http://twitter.com/joefrey" rel="nofollow"><img alt='' src='http://img.tweetimag.es/i/joefrey_n' class='avatar avatar-44 photo' height='44' width='44' /></a></span>
+						<span class="comment_author"><a href='http://twitter.com/joefrey' rel='external nofollow' class='url'>joefrey</a></span> <span class="comment_time"><a href="#comment-2229" title="Permalink to this comment" rel="nofollow">July 27, 2009 at 3:39 pm</a></span>
+					</dt>
+					<dd class="comment even thread-even depth-1 btc-comment btc-twitter">
+						<div class="format_text" id="comment-body-2229">
+<p>PubSubHubbub + WordPress + Feedburner + FriendFeed = Realtime &#8230; <a href="http://bit.ly/12Ff2v" rel="nofollow">http://bit.ly/12Ff2v</a></p>
+<p><i>This comment was originally posted on <a href="http://twitter.com/joefrey/statuses/2876994706" rel="nofollow">Twitter</a></i></p>
+							<p class="reply"><a rel='nofollow' class='comment-reply-link' href='/2009/07/27/pubsubhubbub-wordpress-feedburner-friendfeed-realtime-awesomeness/?replytocom=2229#respond' onclick='return addComment.moveForm("comment-body-2229", "2229", "respond", "891")'>Reply</a> &nbsp; <a href="http://twitter.com/joefrey">More from author</a></p>
+						</div>
+					</dd>
+					<dt class="comment odd alt thread-odd thread-alt depth-1 btc-comment btc-twitter" id="comment-2233">
+						<span class="avatar"><a href="http://twitter.com/andrewbadera" rel="nofollow"><img alt='' src='http://img.tweetimag.es/i/andrewbadera_n' class='avatar avatar-44 photo' height='44' width='44' /></a></span>
+						<span class="comment_author"><a href='http://twitter.com/andrewbadera' rel='external nofollow' class='url'>andrewbadera</a></span> <span class="comment_time"><a href="#comment-2233" title="Permalink to this comment" rel="nofollow">July 27, 2009 at 3:42 pm</a></span>
+					</dt>
+					<dd class="comment odd alt thread-odd thread-alt depth-1 btc-comment btc-twitter">
+						<div class="format_text" id="comment-body-2233">
+<p>GReading: PubSubHubbub + WordPress + Feedburner + FriendFeed = Realtime Awesomeness &#8211; Thoughts on socia.. <a href="http://bit.ly/zOgPD" rel="nofollow">http://bit.ly/zOgPD</a></p>
+<p><i>This comment was originally posted on <a href="http://twitter.com/andrewbadera/statuses/2877046962" rel="nofollow">Twitter</a></i></p>
+							<p class="reply"><a rel='nofollow' class='comment-reply-link' href='/2009/07/27/pubsubhubbub-wordpress-feedburner-friendfeed-realtime-awesomeness/?replytocom=2233#respond' onclick='return addComment.moveForm("comment-body-2233", "2233", "respond", "891")'>Reply</a> &nbsp; <a href="http://twitter.com/andrewbadera">More from author</a></p>
+						</div>
+					</dd>
+					<dt class="comment even thread-even depth-1 btc-comment btc-friendfeed" id="comment-2232">
+						<span class="avatar"><a href="http://friendfeed.com/louisgray" rel="nofollow"><img alt='' src='http://friendfeed.com/louisgray/picture?size=medium' class='avatar avatar-44 photo' height='44' width='44' /></a></span>
+						<span class="comment_author"><a href='http://friendfeed.com/louisgray' rel='external nofollow' class='url'>Louis Gray</a></span> <span class="comment_time"><a href="#comment-2232" title="Permalink to this comment" rel="nofollow">July 27, 2009 at 3:43 pm</a></span>
+					</dt>
+					<dd class="comment even thread-even depth-1 btc-comment btc-friendfeed">
+						<div class="format_text" id="comment-body-2232">
+<p>Holden, Jungleg is a great blog. Dave, if you are a FeedBurner user, turn on Pingshot, which notifies many services at once and supports Pubsubhubbub. I have this enabled as well.</p>
+<p><i>This comment was originally posted on <a href="http://friendfeed.com/e/f28e5cda-e5aa-47e4-2318-221bb7127333#c105b789-dba8-47f1-9053-5d5ab8819977" rel="nofollow">FriendFeed</a></i></p>
+							<p class="reply"><a rel='nofollow' class='comment-reply-link' href='/2009/07/27/pubsubhubbub-wordpress-feedburner-friendfeed-realtime-awesomeness/?replytocom=2232#respond' onclick='return addComment.moveForm("comment-body-2232", "2232", "respond", "891")'>Reply</a> &nbsp; <a href="http://friendfeed.com/louisgray/comments">More from author</a></p>
+						</div>
+					</dd>
+					<dt class="comment odd alt thread-odd thread-alt depth-1 btc-comment btc-friendfeed" id="comment-2234">
+						<span class="avatar"><a href="http://friendfeed.com/jungleg" rel="nofollow"><img alt='' src='http://friendfeed.com/jungleg/picture?size=medium' class='avatar avatar-44 photo' height='44' width='44' /></a></span>
+						<span class="comment_author"><a href='http://friendfeed.com/jungleg' rel='external nofollow' class='url'>Jorge Escobar</a></span> <span class="comment_time"><a href="#comment-2234" title="Permalink to this comment" rel="nofollow">July 27, 2009 at 3:50 pm</a></span>
+					</dt>
+					<dd class="comment odd alt thread-odd thread-alt depth-1 btc-comment btc-friendfeed">
+						<div class="format_text" id="comment-body-2234">
+<p>@Dave, what looks really easy for some, may be difficult for others. I am a coder with many years of web experience and even I had a hard time making all the pieces work. Thanks Louis for the constant support, BTW!</p>
+<p><i>This comment was originally posted on <a href="http://friendfeed.com/e/f28e5cda-e5aa-47e4-2318-221bb7127333#a7189631-1428-4ff4-8013-5deb0d971a52" rel="nofollow">FriendFeed</a></i></p>
+							<p class="reply"><a rel='nofollow' class='comment-reply-link' href='/2009/07/27/pubsubhubbub-wordpress-feedburner-friendfeed-realtime-awesomeness/?replytocom=2234#respond' onclick='return addComment.moveForm("comment-body-2234", "2234", "respond", "891")'>Reply</a> &nbsp; <a href="http://friendfeed.com/jungleg/comments">More from author</a></p>
+						</div>
+					</dd>
+					<dt class="comment even thread-even depth-1 btc-comment btc-friendfeed" id="comment-2235">
+						<span class="avatar"><a href="http://friendfeed.com/davehod" rel="nofollow"><img alt='' src='http://friendfeed.com/davehod/picture?size=medium' class='avatar avatar-44 photo' height='44' width='44' /></a></span>
+						<span class="comment_author"><a href='http://friendfeed.com/davehod' rel='external nofollow' class='url'>Dave Hodson</a></span> <span class="comment_time"><a href="#comment-2235" title="Permalink to this comment" rel="nofollow">July 27, 2009 at 3:55 pm</a></span>
+					</dt>
+					<dd class="comment even thread-even depth-1 btc-comment btc-friendfeed">
+						<div class="format_text" id="comment-body-2235">
+<p>@Jorge &#8211; exactly my point, as in, &quot;hey this is freaking easy&quot;!</p>
+<p><i>This comment was originally posted on <a href="http://friendfeed.com/e/f28e5cda-e5aa-47e4-2318-221bb7127333#6b74e8df-d361-4cec-ab97-4904f19ede96" rel="nofollow">FriendFeed</a></i></p>
+							<p class="reply"><a rel='nofollow' class='comment-reply-link' href='/2009/07/27/pubsubhubbub-wordpress-feedburner-friendfeed-realtime-awesomeness/?replytocom=2235#respond' onclick='return addComment.moveForm("comment-body-2235", "2235", "respond", "891")'>Reply</a> &nbsp; <a href="http://friendfeed.com/davehod/comments">More from author</a></p>
+						</div>
+					</dd>
+					<dt class="comment odd alt thread-odd thread-alt depth-1 btc-comment btc-friendfeed" id="comment-2237">
+						<span class="avatar"><a href="http://friendfeed.com/bwana" rel="nofollow"><img alt='' src='http://friendfeed.com/bwana/picture?size=medium' class='avatar avatar-44 photo' height='44' width='44' /></a></span>
+						<span class="comment_author"><a href='http://friendfeed.com/bwana' rel='external nofollow' class='url'>Bwana</a></span> <span class="comment_time"><a href="#comment-2237" title="Permalink to this comment" rel="nofollow">July 27, 2009 at 4:21 pm</a></span>
+					</dt>
+					<dd class="comment odd alt thread-odd thread-alt depth-1 btc-comment btc-friendfeed">
+						<div class="format_text" id="comment-body-2237">
+<p>My latest post took 2 minutes to show up&#8230; pubsubhub still has a ways to go, but it&#8217;s a good start</p>
+<p><i>This comment was originally posted on <a href="http://friendfeed.com/e/f28e5cda-e5aa-47e4-2318-221bb7127333#3d24802e-9b47-4016-8ce0-057148da0437" rel="nofollow">FriendFeed</a></i></p>
+							<p class="reply"><a rel='nofollow' class='comment-reply-link' href='/2009/07/27/pubsubhubbub-wordpress-feedburner-friendfeed-realtime-awesomeness/?replytocom=2237#respond' onclick='return addComment.moveForm("comment-body-2237", "2237", "respond", "891")'>Reply</a> &nbsp; <a href="http://friendfeed.com/bwana/comments">More from author</a></p>
+						</div>
+					</dd>
+					<dt class="comment even thread-even depth-1 btc-comment btc-friendfeed" id="comment-2236">
+						<span class="avatar"><a href="http://friendfeed.com/brett" rel="nofollow"><img alt='' src='http://friendfeed.com/brett/picture?size=medium' class='avatar avatar-44 photo' height='44' width='44' /></a></span>
+						<span class="comment_author"><a href='http://friendfeed.com/brett' rel='external nofollow' class='url'>Brett Slatkin</a></span> <span class="comment_time"><a href="#comment-2236" title="Permalink to this comment" rel="nofollow">July 27, 2009 at 4:25 pm</a></span>
+					</dt>
+					<dd class="comment even thread-even depth-1 btc-comment btc-friendfeed">
+						<div class="format_text" id="comment-body-2236">
+<p>Bwana: What&#8217;s the burned feed url? I can try to help debug from the FeedBurner Hub&#8217;s viewpoint. Otherwise, be sure to check your Apache logs. The WordPress cronjob can be very slow sometimes, taking quite a while before it actually sends the pings.</p>
+<p><i>This comment was originally posted on <a href="http://friendfeed.com/e/f28e5cda-e5aa-47e4-2318-221bb7127333#888b5f28-9fa2-489f-a698-b4383528b054" rel="nofollow">FriendFeed</a></i></p>
+							<p class="reply"><a rel='nofollow' class='comment-reply-link' href='/2009/07/27/pubsubhubbub-wordpress-feedburner-friendfeed-realtime-awesomeness/?replytocom=2236#respond' onclick='return addComment.moveForm("comment-body-2236", "2236", "respond", "891")'>Reply</a> &nbsp; <a href="http://friendfeed.com/brett/comments">More from author</a></p>
+						</div>
+					</dd>
+					<dt class="comment odd alt thread-odd thread-alt depth-1 btc-comment btc-friendfeed" id="comment-2238">
+						<span class="avatar"><a href="http://friendfeed.com/jungleg" rel="nofollow"><img alt='' src='http://friendfeed.com/jungleg/picture?size=medium' class='avatar avatar-44 photo' height='44' width='44' /></a></span>
+						<span class="comment_author"><a href='http://friendfeed.com/jungleg' rel='external nofollow' class='url'>Jorge Escobar</a></span> <span class="comment_time"><a href="#comment-2238" title="Permalink to this comment" rel="nofollow">July 27, 2009 at 4:32 pm</a></span>
+					</dt>
+					<dd class="comment odd alt thread-odd thread-alt depth-1 btc-comment btc-friendfeed">
+						<div class="format_text" id="comment-body-2238">
+<p>Bwana: Indeed, the lag is usually the wp-cron script that might be set to run every 2 &#8211; 3 minutes. Per my post, the moment this cron runs and notifies Feedburner there&#8217;s new content, FriendFeed publishes immediately.</p>
+<p><i>This comment was originally posted on <a href="http://friendfeed.com/e/f28e5cda-e5aa-47e4-2318-221bb7127333#0e390a39-e37d-4607-a7da-c954b5f86e18" rel="nofollow">FriendFeed</a></i></p>
+							<p class="reply"><a rel='nofollow' class='comment-reply-link' href='/2009/07/27/pubsubhubbub-wordpress-feedburner-friendfeed-realtime-awesomeness/?replytocom=2238#respond' onclick='return addComment.moveForm("comment-body-2238", "2238", "respond", "891")'>Reply</a> &nbsp; <a href="http://friendfeed.com/jungleg/comments">More from author</a></p>
+						</div>
+					</dd>
+					<dt class="comment even thread-even depth-1 btc-comment btc-twitter" id="comment-2239">
+						<span class="avatar"><a href="http://twitter.com/Leshtanski" rel="nofollow"><img alt='' src='http://img.tweetimag.es/i/Leshtanski_n' class='avatar avatar-44 photo' height='44' width='44' /></a></span>
+						<span class="comment_author"><a href='http://twitter.com/Leshtanski' rel='external nofollow' class='url'>Leshtanski</a></span> <span class="comment_time"><a href="#comment-2239" title="Permalink to this comment" rel="nofollow">July 27, 2009 at 4:38 pm</a></span>
+					</dt>
+					<dd class="comment even thread-even depth-1 btc-comment btc-twitter">
+						<div class="format_text" id="comment-body-2239">
+<p>Liked &#8220;PubSubHubbub + WordPress + Feedburner + FriendFeed = Realtime Awesomeness &#8211; Thoughts on social media, the&#8230;&#8221; <a href="http://ff.im/-5NqnY" rel="nofollow">http://ff.im/-5NqnY</a></p>
+<p><i>This comment was originally posted on <a href="http://twitter.com/Leshtanski/statuses/2877972943" rel="nofollow">Twitter</a></i></p>
+							<p class="reply"><a rel='nofollow' class='comment-reply-link' href='/2009/07/27/pubsubhubbub-wordpress-feedburner-friendfeed-realtime-awesomeness/?replytocom=2239#respond' onclick='return addComment.moveForm("comment-body-2239", "2239", "respond", "891")'>Reply</a> &nbsp; <a href="http://twitter.com/Leshtanski">More from author</a></p>
+						</div>
+					</dd>
+					<dt class="comment odd alt thread-odd thread-alt depth-1 btc-comment btc-twitter" id="comment-2263">
+						<span class="avatar"><a href="http://twitter.com/TM_Wordpress" rel="nofollow"><img alt='' src='http://img.tweetimag.es/i/TM_Wordpress_n' class='avatar avatar-44 photo' height='44' width='44' /></a></span>
+						<span class="comment_author"><a href='http://twitter.com/TM_Wordpress' rel='external nofollow' class='url'>TM_Wordpress</a></span> <span class="comment_time"><a href="#comment-2263" title="Permalink to this comment" rel="nofollow">July 27, 2009 at 4:45 pm</a></span>
+					</dt>
+					<dd class="comment odd alt thread-odd thread-alt depth-1 btc-comment btc-twitter">
+						<div class="format_text" id="comment-body-2263">
+<p>PubSubHubbub   WordPress   Feedburner   FriendFeed = Realtime Awesomeness &#8211; Thoughts on social m&#8230; <a href="http://tinyurl.com/nltfrz" rel="nofollow">http://tinyurl.com/nltfrz</a> (via @jungleg)</p>
+<p><i>This comment was originally posted on <a href="http://twitter.com/TM_Wordpress/statuses/2878084770" rel="nofollow">Twitter</a></i></p>
+							<p class="reply"><a rel='nofollow' class='comment-reply-link' href='/2009/07/27/pubsubhubbub-wordpress-feedburner-friendfeed-realtime-awesomeness/?replytocom=2263#respond' onclick='return addComment.moveForm("comment-body-2263", "2263", "respond", "891")'>Reply</a> &nbsp; <a href="http://twitter.com/TM_Wordpress">More from author</a></p>
+						</div>
+					</dd>
+					<dt class="comment even thread-even depth-1 btc-comment btc-friendfeed" id="comment-2240">
+						<span class="avatar"><a href="http://friendfeed.com/bwana" rel="nofollow"><img alt='' src='http://friendfeed.com/bwana/picture?size=medium' class='avatar avatar-44 photo' height='44' width='44' /></a></span>
+						<span class="comment_author"><a href='http://friendfeed.com/bwana' rel='external nofollow' class='url'>Bwana</a></span> <span class="comment_time"><a href="#comment-2240" title="Permalink to this comment" rel="nofollow">July 27, 2009 at 4:52 pm</a></span>
+					</dt>
+					<dd class="comment even thread-even depth-1 btc-comment btc-friendfeed">
+						<div class="format_text" id="comment-body-2240">
+<p>I&#8217;ll check my cron</p>
+<p><i>This comment was originally posted on <a href="http://friendfeed.com/e/f28e5cda-e5aa-47e4-2318-221bb7127333#a124eca3-4f50-4ef7-8dc2-e64c6411bd0c" rel="nofollow">FriendFeed</a></i></p>
+							<p class="reply"><a rel='nofollow' class='comment-reply-link' href='/2009/07/27/pubsubhubbub-wordpress-feedburner-friendfeed-realtime-awesomeness/?replytocom=2240#respond' onclick='return addComment.moveForm("comment-body-2240", "2240", "respond", "891")'>Reply</a> &nbsp; <a href="http://friendfeed.com/bwana/comments">More from author</a></p>
+						</div>
+					</dd>
+					<dt class="comment odd alt thread-odd thread-alt depth-1 btc-comment btc-twitter" id="comment-2242">
+						<span class="avatar"><a href="http://twitter.com/isaacz" rel="nofollow"><img alt='' src='http://img.tweetimag.es/i/isaacz_n' class='avatar avatar-44 photo' height='44' width='44' /></a></span>
+						<span class="comment_author"><a href='http://twitter.com/isaacz' rel='external nofollow' class='url'>isaacz</a></span> <span class="comment_time"><a href="#comment-2242" title="Permalink to this comment" rel="nofollow">July 27, 2009 at 5:37 pm</a></span>
+					</dt>
+					<dd class="comment odd alt thread-odd thread-alt depth-1 btc-comment btc-twitter">
+						<div class="format_text" id="comment-body-2242">
+<p>&#8220;PubSubHubbub + WordPress + Feedburner + FriendFeed = Realtime Awesomeness&#8221; <a href="http://ff.im/-5NiNH" rel="nofollow">http://ff.im/-5NiNH</a> hey @jakemonO take a look</p>
+<p><i>This comment was originally posted on <a href="http://twitter.com/isaacz/statuses/2878905612" rel="nofollow">Twitter</a></i></p>
+							<p class="reply"><a rel='nofollow' class='comment-reply-link' href='/2009/07/27/pubsubhubbub-wordpress-feedburner-friendfeed-realtime-awesomeness/?replytocom=2242#respond' onclick='return addComment.moveForm("comment-body-2242", "2242", "respond", "891")'>Reply</a> &nbsp; <a href="http://twitter.com/isaacz">More from author</a></p>
+						</div>
+					</dd>
+					<dt class="comment even thread-even depth-1 btc-comment btc-twitter" id="comment-2241">
+						<span class="avatar"><a href="http://twitter.com/morganb" rel="nofollow"><img alt='' src='http://img.tweetimag.es/i/morganb_n' class='avatar avatar-44 photo' height='44' width='44' /></a></span>
+						<span class="comment_author"><a href='http://twitter.com/morganb' rel='external nofollow' class='url'>morganb</a></span> <span class="comment_time"><a href="#comment-2241" title="Permalink to this comment" rel="nofollow">July 27, 2009 at 5:40 pm</a></span>
+					</dt>
+					<dd class="comment even thread-even depth-1 btc-comment btc-twitter">
+						<div class="format_text" id="comment-body-2241">
+<p>PubSubHubbub + WordPress + Feedburner + FriendFeed = Realtime Awesomeness &#8211; Thoughts on social media, the web and&#8230; <a href="http://ff.im/-5NJUF" rel="nofollow">http://ff.im/-5NJUF</a></p>
+<p><i>This comment was originally posted on <a href="http://twitter.com/morganb/statuses/2878951124" rel="nofollow">Twitter</a></i></p>
+							<p class="reply"><a rel='nofollow' class='comment-reply-link' href='/2009/07/27/pubsubhubbub-wordpress-feedburner-friendfeed-realtime-awesomeness/?replytocom=2241#respond' onclick='return addComment.moveForm("comment-body-2241", "2241", "respond", "891")'>Reply</a> &nbsp; <a href="http://twitter.com/morganb">More from author</a></p>
+						</div>
+					</dd>
+					<dt class="comment odd alt thread-odd thread-alt depth-1 btc-comment btc-twitter" id="comment-2245">
+						<span class="avatar"><a href="http://twitter.com/eperception" rel="nofollow"><img alt='' src='http://img.tweetimag.es/i/eperception_n' class='avatar avatar-44 photo' height='44' width='44' /></a></span>
+						<span class="comment_author"><a href='http://twitter.com/eperception' rel='external nofollow' class='url'>eperception</a></span> <span class="comment_time"><a href="#comment-2245" title="Permalink to this comment" rel="nofollow">July 27, 2009 at 5:46 pm</a></span>
+					</dt>
+					<dd class="comment odd alt thread-odd thread-alt depth-1 btc-comment btc-twitter">
+						<div class="format_text" id="comment-body-2245">
+<p>PubSubHubbub + WordPress + Feedburner + FriendFeed = Realtime &#8230; <a href="http://bit.ly/EGse4" rel="nofollow">http://bit.ly/EGse4</a></p>
+<p><i>This comment was originally posted on <a href="http://twitter.com/eperception/statuses/2879047509" rel="nofollow">Twitter</a></i></p>
+							<p class="reply"><a rel='nofollow' class='comment-reply-link' href='/2009/07/27/pubsubhubbub-wordpress-feedburner-friendfeed-realtime-awesomeness/?replytocom=2245#respond' onclick='return addComment.moveForm("comment-body-2245", "2245", "respond", "891")'>Reply</a> &nbsp; <a href="http://twitter.com/eperception">More from author</a></p>
+						</div>
+					</dd>
+					<dt class="comment even thread-even depth-1 btc-comment btc-twitter" id="comment-2244">
+						<span class="avatar"><a href="http://twitter.com/allWordpress" rel="nofollow"><img alt='' src='http://img.tweetimag.es/i/allWordpress_n' class='avatar avatar-44 photo' height='44' width='44' /></a></span>
+						<span class="comment_author"><a href='http://twitter.com/allWordpress' rel='external nofollow' class='url'>allWordpress</a></span> <span class="comment_time"><a href="#comment-2244" title="Permalink to this comment" rel="nofollow">July 27, 2009 at 6:05 pm</a></span>
+					</dt>
+					<dd class="comment even thread-even depth-1 btc-comment btc-twitter">
+						<div class="format_text" id="comment-body-2244">
+<p>PubSubHubbub + WordPress + Feedburner + FriendFeed = Realtime &#8230; <a href="http://bit.ly/EGse4" rel="nofollow">http://bit.ly/EGse4</a></p>
+<p><i>This comment was originally posted on <a href="http://twitter.com/allWordpress/statuses/2879346949" rel="nofollow">Twitter</a></i></p>
+							<p class="reply"><a rel='nofollow' class='comment-reply-link' href='/2009/07/27/pubsubhubbub-wordpress-feedburner-friendfeed-realtime-awesomeness/?replytocom=2244#respond' onclick='return addComment.moveForm("comment-body-2244", "2244", "respond", "891")'>Reply</a> &nbsp; <a href="http://twitter.com/allWordpress">More from author</a></p>
+						</div>
+					</dd>
+					<dt class="comment odd alt thread-odd thread-alt depth-1 btc-comment btc-twitter" id="comment-2249">
+						<span class="avatar"><a href="http://twitter.com/andray" rel="nofollow"><img alt='' src='http://img.tweetimag.es/i/andray_n' class='avatar avatar-44 photo' height='44' width='44' /></a></span>
+						<span class="comment_author"><a href='http://twitter.com/andray' rel='external nofollow' class='url'>andray</a></span> <span class="comment_time"><a href="#comment-2249" title="Permalink to this comment" rel="nofollow">July 27, 2009 at 7:07 pm</a></span>
+					</dt>
+					<dd class="comment odd alt thread-odd thread-alt depth-1 btc-comment btc-twitter">
+						<div class="format_text" id="comment-body-2249">
+<p>&#8220;PubSubHubbub + WordPress + Feedburner + FriendFeed = Realtime Awesomeness&#8221; <a href="http://ff.im/-5NiNH" rel="nofollow">http://ff.im/-5NiNH</a></p>
+<p><i>This comment was originally posted on <a href="http://twitter.com/andray/statuses/2880304774" rel="nofollow">Twitter</a></i></p>
+							<p class="reply"><a rel='nofollow' class='comment-reply-link' href='/2009/07/27/pubsubhubbub-wordpress-feedburner-friendfeed-realtime-awesomeness/?replytocom=2249#respond' onclick='return addComment.moveForm("comment-body-2249", "2249", "respond", "891")'>Reply</a> &nbsp; <a href="http://twitter.com/andray">More from author</a></p>
+						</div>
+					</dd>
+					<dt class="comment even thread-even depth-1 btc-comment btc-twitter" id="comment-2262">
+						<span class="avatar"><a href="http://twitter.com/gretaeagan" rel="nofollow"><img alt='' src='http://img.tweetimag.es/i/gretaeagan_n' class='avatar avatar-44 photo' height='44' width='44' /></a></span>
+						<span class="comment_author"><a href='http://twitter.com/gretaeagan' rel='external nofollow' class='url'>gretaeagan</a></span> <span class="comment_time"><a href="#comment-2262" title="Permalink to this comment" rel="nofollow">July 27, 2009 at 8:10 pm</a></span>
+					</dt>
+					<dd class="comment even thread-even depth-1 btc-comment btc-twitter">
+						<div class="format_text" id="comment-body-2262">
+<p>The wave of the future in social media&#8230; perhaps, perhaps, perhaps. #fb <a href="http://bit.ly/BOndR" rel="nofollow">http://bit.ly/BOndR</a></p>
+<p><i>This comment was originally posted on <a href="http://twitter.com/gretaeagan/statuses/2881305600" rel="nofollow">Twitter</a></i></p>
+							<p class="reply"><a rel='nofollow' class='comment-reply-link' href='/2009/07/27/pubsubhubbub-wordpress-feedburner-friendfeed-realtime-awesomeness/?replytocom=2262#respond' onclick='return addComment.moveForm("comment-body-2262", "2262", "respond", "891")'>Reply</a> &nbsp; <a href="http://twitter.com/gretaeagan">More from author</a></p>
+						</div>
+					</dd>
+					<dt class="comment odd alt thread-odd thread-alt depth-1 btc-comment btc-twitter" id="comment-2253">
+						<span class="avatar"><a href="http://twitter.com/ProSmartDesign" rel="nofollow"><img alt='' src='http://img.tweetimag.es/i/ProSmartDesign_n' class='avatar avatar-44 photo' height='44' width='44' /></a></span>
+						<span class="comment_author"><a href='http://twitter.com/ProSmartDesign' rel='external nofollow' class='url'>ProSmartDesign</a></span> <span class="comment_time"><a href="#comment-2253" title="Permalink to this comment" rel="nofollow">July 28, 2009 at 1:21 am</a></span>
+					</dt>
+					<dd class="comment odd alt thread-odd thread-alt depth-1 btc-comment btc-twitter">
+						<div class="format_text" id="comment-body-2253">
+<p>PubSubHubbub + WordPress + Feedburner + FriendFeed = Realtime &#8230;: PubSubHubbub is a fancy name for a rather new.. <a href="http://bit.ly/EGse4" rel="nofollow">http://bit.ly/EGse4</a></p>
+<p><i>This comment was originally posted on <a href="http://twitter.com/ProSmartDesign/statuses/2885695353" rel="nofollow">Twitter</a></i></p>
+							<p class="reply"><a rel='nofollow' class='comment-reply-link' href='/2009/07/27/pubsubhubbub-wordpress-feedburner-friendfeed-realtime-awesomeness/?replytocom=2253#respond' onclick='return addComment.moveForm("comment-body-2253", "2253", "respond", "891")'>Reply</a> &nbsp; <a href="http://twitter.com/ProSmartDesign">More from author</a></p>
+						</div>
+					</dd>
+					<dt class="comment even thread-even depth-1 btc-comment btc-twitter" id="comment-2252">
+						<span class="avatar"><a href="http://twitter.com/pubsub_topsy" rel="nofollow"><img alt='' src='http://img.tweetimag.es/i/pubsub_topsy_n' class='avatar avatar-44 photo' height='44' width='44' /></a></span>
+						<span class="comment_author"><a href='http://twitter.com/pubsub_topsy' rel='external nofollow' class='url'>pubsub_topsy</a></span> <span class="comment_time"><a href="#comment-2252" title="Permalink to this comment" rel="nofollow">July 28, 2009 at 1:25 am</a></span>
+					</dt>
+					<dd class="comment even thread-even depth-1 btc-comment btc-twitter">
+						<div class="format_text" id="comment-body-2252">
+<p>PubSubHubbub + WordPress + Feedburner + FriendFeed = Realtime Awesomeness &#8211; Thoughts <a href="http://ff.im/-5NiNH" rel="nofollow">http://ff.im/-5NiNH</a> #pubsubhubbub (via @publiciscp)</p>
+<p><i>This comment was originally posted on <a href="http://twitter.com/pubsub_topsy/statuses/2885734869" rel="nofollow">Twitter</a></i></p>
+							<p class="reply"><a rel='nofollow' class='comment-reply-link' href='/2009/07/27/pubsubhubbub-wordpress-feedburner-friendfeed-realtime-awesomeness/?replytocom=2252#respond' onclick='return addComment.moveForm("comment-body-2252", "2252", "respond", "891")'>Reply</a> &nbsp; <a href="http://twitter.com/pubsub_topsy">More from author</a></p>
+						</div>
+					</dd>
+					<dt class="comment odd alt thread-odd thread-alt depth-1 btc-comment btc-twitter" id="comment-2254">
+						<span class="avatar"><a href="http://twitter.com/matjazl" rel="nofollow"><img alt='' src='http://img.tweetimag.es/i/matjazl_n' class='avatar avatar-44 photo' height='44' width='44' /></a></span>
+						<span class="comment_author"><a href='http://twitter.com/matjazl' rel='external nofollow' class='url'>matjazl</a></span> <span class="comment_time"><a href="#comment-2254" title="Permalink to this comment" rel="nofollow">July 28, 2009 at 2:01 am</a></span>
+					</dt>
+					<dd class="comment odd alt thread-odd thread-alt depth-1 btc-comment btc-twitter">
+						<div class="format_text" id="comment-body-2254">
+<p>&#8220;PubSubHubbub + WordPress + Feedburner + FriendFeed = Realtime Awesomeness&#8221; <a href="http://ff.im/-5NiNH" rel="nofollow">http://ff.im/-5NiNH</a> via @andray</p>
+<p><i>This comment was originally posted on <a href="http://twitter.com/matjazl/statuses/2886109112" rel="nofollow">Twitter</a></i></p>
+							<p class="reply"><a rel='nofollow' class='comment-reply-link' href='/2009/07/27/pubsubhubbub-wordpress-feedburner-friendfeed-realtime-awesomeness/?replytocom=2254#respond' onclick='return addComment.moveForm("comment-body-2254", "2254", "respond", "891")'>Reply</a> &nbsp; <a href="http://twitter.com/matjazl">More from author</a></p>
+						</div>
+					</dd>
+					<dt class="comment even thread-even depth-1 btc-comment btc-twitter" id="comment-2255">
+						<span class="avatar"><a href="http://twitter.com/apoapostolov" rel="nofollow"><img alt='' src='http://img.tweetimag.es/i/apoapostolov_n' class='avatar avatar-44 photo' height='44' width='44' /></a></span>
+						<span class="comment_author"><a href='http://twitter.com/apoapostolov' rel='external nofollow' class='url'>apoapostolov</a></span> <span class="comment_time"><a href="#comment-2255" title="Permalink to this comment" rel="nofollow">July 28, 2009 at 5:56 am</a></span>
+					</dt>
+					<dd class="comment even thread-even depth-1 btc-comment btc-twitter">
+						<div class="format_text" id="comment-body-2255">
+<p>Liked &#8220;PubSubHubbub + WordPress + Feedburner + FriendFeed = Realtime Awesomeness&#8221; <a href="http://ff.im/-5P6LU" rel="nofollow">http://ff.im/-5P6LU</a></p>
+<p><i>This comment was originally posted on <a href="http://twitter.com/apoapostolov/statuses/2888110479" rel="nofollow">Twitter</a></i></p>
+							<p class="reply"><a rel='nofollow' class='comment-reply-link' href='/2009/07/27/pubsubhubbub-wordpress-feedburner-friendfeed-realtime-awesomeness/?replytocom=2255#respond' onclick='return addComment.moveForm("comment-body-2255", "2255", "respond", "891")'>Reply</a> &nbsp; <a href="http://twitter.com/apoapostolov">More from author</a></p>
+						</div>
+					</dd>
+					<dt class="comment odd alt thread-odd thread-alt depth-1 btc-comment btc-friendfeed" id="comment-2260">
+						<span class="avatar"><a href="http://friendfeed.com/otto42" rel="nofollow"><img alt='' src='http://friendfeed.com/otto42/picture?size=medium' class='avatar avatar-44 photo' height='44' width='44' /></a></span>
+						<span class="comment_author"><a href='http://friendfeed.com/otto42' rel='external nofollow' class='url'>Samuel Wood</a></span> <span class="comment_time"><a href="#comment-2260" title="Permalink to this comment" rel="nofollow">July 28, 2009 at 9:49 am</a></span>
+					</dt>
+					<dd class="comment odd alt thread-odd thread-alt depth-1 btc-comment btc-friendfeed">
+						<div class="format_text" id="comment-body-2260">
+<p>I should write up an article on how to do this sort of thing without FeedBurner. It&#8217;s possible, you just need a bit of extra software.</p>
+<p><i>This comment was originally posted on <a href="http://friendfeed.com/e/a88b9b67-d9a7-478b-a59b-25428e63351e#6189a42e-14eb-4cf8-bc85-4b0d398eecef" rel="nofollow">FriendFeed</a></i></p>
+							<p class="reply"><a rel='nofollow' class='comment-reply-link' href='/2009/07/27/pubsubhubbub-wordpress-feedburner-friendfeed-realtime-awesomeness/?replytocom=2260#respond' onclick='return addComment.moveForm("comment-body-2260", "2260", "respond", "891")'>Reply</a> &nbsp; <a href="http://friendfeed.com/otto42/comments">More from author</a></p>
+						</div>
+					</dd>
+					<dt class="comment even thread-even depth-1 btc-comment btc-friendfeed" id="comment-2259">
+						<span class="avatar"><a href="http://friendfeed.com/otto42" rel="nofollow"><img alt='' src='http://friendfeed.com/otto42/picture?size=medium' class='avatar avatar-44 photo' height='44' width='44' /></a></span>
+						<span class="comment_author"><a href='http://friendfeed.com/otto42' rel='external nofollow' class='url'>Samuel Wood</a></span> <span class="comment_time"><a href="#comment-2259" title="Permalink to this comment" rel="nofollow">July 28, 2009 at 9:50 am</a></span>
+					</dt>
+					<dd class="comment even thread-even depth-1 btc-comment btc-friendfeed">
+						<div class="format_text" id="comment-body-2259">
+<p>Oh, also, on your article, your &quot;check&quot; value is exposed on the wp-cron.php call. You should blur that out, the check variable is supposed to be private. It&#8217;s there to prevent a possible DOS attack against your site.</p>
+<p><i>This comment was originally posted on <a href="http://friendfeed.com/e/a88b9b67-d9a7-478b-a59b-25428e63351e#44db86d6-43f3-40dc-b70d-030cd311087c" rel="nofollow">FriendFeed</a></i></p>
+							<p class="reply"><a rel='nofollow' class='comment-reply-link' href='/2009/07/27/pubsubhubbub-wordpress-feedburner-friendfeed-realtime-awesomeness/?replytocom=2259#respond' onclick='return addComment.moveForm("comment-body-2259", "2259", "respond", "891")'>Reply</a> &nbsp; <a href="http://friendfeed.com/otto42/comments">More from author</a></p>
+						</div>
+					</dd>
+					<dt class="comment odd alt thread-odd thread-alt depth-1 btc-comment btc-friendfeed" id="comment-2258">
+						<span class="avatar"><a href="http://friendfeed.com/brett" rel="nofollow"><img alt='' src='http://friendfeed.com/brett/picture?size=medium' class='avatar avatar-44 photo' height='44' width='44' /></a></span>
+						<span class="comment_author"><a href='http://friendfeed.com/brett' rel='external nofollow' class='url'>Brett Slatkin</a></span> <span class="comment_time"><a href="#comment-2258" title="Permalink to this comment" rel="nofollow">July 28, 2009 at 9:51 am</a></span>
+					</dt>
+					<dd class="comment odd alt thread-odd thread-alt depth-1 btc-comment btc-friendfeed">
+						<div class="format_text" id="comment-body-2258">
+<p>Indeed, you can use PubSubHubbub directly if you don&#8217;t use FeedBurner. There&#8217;s already a plug-in here that works with WordPress: <a href="http://wordpress.org/extend/plugins/pubsubhubbub/" rel="nofollow">http://wordpress.org/extend/plugins/pubsubhubbub/</a></p>
+<p><i>This comment was originally posted on <a href="http://friendfeed.com/e/a88b9b67-d9a7-478b-a59b-25428e63351e#09c034c3-f534-4227-88d1-cc176a5374a4" rel="nofollow">FriendFeed</a></i></p>
+							<p class="reply"><a rel='nofollow' class='comment-reply-link' href='/2009/07/27/pubsubhubbub-wordpress-feedburner-friendfeed-realtime-awesomeness/?replytocom=2258#respond' onclick='return addComment.moveForm("comment-body-2258", "2258", "respond", "891")'>Reply</a> &nbsp; <a href="http://friendfeed.com/brett/comments">More from author</a></p>
+						</div>
+					</dd>
+					<dt class="comment even thread-even depth-1 btc-comment btc-friendfeed" id="comment-2257">
+						<span class="avatar"><a href="http://friendfeed.com/jungleg" rel="nofollow"><img alt='' src='http://friendfeed.com/jungleg/picture?size=medium' class='avatar avatar-44 photo' height='44' width='44' /></a></span>
+						<span class="comment_author"><a href='http://friendfeed.com/jungleg' rel='external nofollow' class='url'>Jorge Escobar</a></span> <span class="comment_time"><a href="#comment-2257" title="Permalink to this comment" rel="nofollow">July 28, 2009 at 9:53 am</a></span>
+					</dt>
+					<dd class="comment even thread-even depth-1 btc-comment btc-friendfeed">
+						<div class="format_text" id="comment-body-2257">
+<p>@Samuel thanks</p>
+<p><i>This comment was originally posted on <a href="http://friendfeed.com/e/a88b9b67-d9a7-478b-a59b-25428e63351e#6adff684-a2b1-416b-b505-f1976833224b" rel="nofollow">FriendFeed</a></i></p>
+							<p class="reply"><a rel='nofollow' class='comment-reply-link' href='/2009/07/27/pubsubhubbub-wordpress-feedburner-friendfeed-realtime-awesomeness/?replytocom=2257#respond' onclick='return addComment.moveForm("comment-body-2257", "2257", "respond", "891")'>Reply</a> &nbsp; <a href="http://friendfeed.com/jungleg/comments">More from author</a></p>
+						</div>
+					</dd>
+					<dt class="comment odd alt thread-odd thread-alt depth-1 btc-comment btc-twitter" id="comment-2256">
+						<span class="avatar"><a href="http://twitter.com/chrisloft" rel="nofollow"><img alt='' src='http://img.tweetimag.es/i/chrisloft_n' class='avatar avatar-44 photo' height='44' width='44' /></a></span>
+						<span class="comment_author"><a href='http://twitter.com/chrisloft' rel='external nofollow' class='url'>chrisloft</a></span> <span class="comment_time"><a href="#comment-2256" title="Permalink to this comment" rel="nofollow">July 28, 2009 at 9:56 am</a></span>
+					</dt>
+					<dd class="comment odd alt thread-odd thread-alt depth-1 btc-comment btc-twitter">
+						<div class="format_text" id="comment-body-2256">
+<p>Liked &#8220;PubSubHubbub + WordPress + Feedburner + FriendFeed = Realtime Awesomeness &#8211; Thoughts on social media, the&#8230;&#8221; <a href="http://ff.im/-5NM1f" rel="nofollow">http://ff.im/-5NM1f</a></p>
+<p><i>This comment was originally posted on <a href="http://twitter.com/chrisloft/statuses/2891003573" rel="nofollow">Twitter</a></i></p>
+							<p class="reply"><a rel='nofollow' class='comment-reply-link' href='/2009/07/27/pubsubhubbub-wordpress-feedburner-friendfeed-realtime-awesomeness/?replytocom=2256#respond' onclick='return addComment.moveForm("comment-body-2256", "2256", "respond", "891")'>Reply</a> &nbsp; <a href="http://twitter.com/chrisloft">More from author</a></p>
+						</div>
+					</dd>
+					<dt class="comment even thread-even depth-1" id="comment-2261">
+						<span class="avatar"><a href="http://superfeedr.com" rel="nofollow"><img alt='' src='http://1.gravatar.com/avatar/f0e83d72bbff02e6ff85c6aad6dd2299?s=44&amp;d=identicon&amp;r=G' class='avatar avatar-44 photo' height='44' width='44' /></a></span>
+						<span class="comment_author"><a href='http://superfeedr.com' rel='external nofollow' class='url'>Julien</a></span> <span class="comment_time"><a href="#comment-2261" title="Permalink to this comment" rel="nofollow">July 28, 2009 at 10:13 am</a></span>
+					</dt>
+					<dd class="comment even thread-even depth-1">
+						<div class="format_text" id="comment-body-2261">
+<p>An this will not only help FriendFeed, but also Superfeedr and any other service. By the way, how many hubs do you reference, and which ones?</p>
+							<p class="reply"><a rel='nofollow' class='comment-reply-link' href='/2009/07/27/pubsubhubbub-wordpress-feedburner-friendfeed-realtime-awesomeness/?replytocom=2261#respond' onclick='return addComment.moveForm("comment-body-2261", "2261", "respond", "891")'>Reply</a> &nbsp; <a href="http://www.backtype.com/url/superfeedr.com">More from author</a></p>
+						</div>
+					</dd>
+					<dt class="comment odd alt thread-odd thread-alt depth-1 btc-comment btc-twitter" id="comment-2277">
+						<span class="avatar"><a href="http://twitter.com/michaelcraignet" rel="nofollow"><img alt='' src='http://img.tweetimag.es/i/michaelcraignet_n' class='avatar avatar-44 photo' height='44' width='44' /></a></span>
+						<span class="comment_author"><a href='http://twitter.com/michaelcraignet' rel='external nofollow' class='url'>michaelcraignet</a></span> <span class="comment_time"><a href="#comment-2277" title="Permalink to this comment" rel="nofollow">August 3, 2009 at 8:34 am</a></span>
+					</dt>
+					<dd class="comment odd alt thread-odd thread-alt depth-1 btc-comment btc-twitter">
+						<div class="format_text" id="comment-body-2277">
+<p>I just configured WordPress + Feedburner + FriendFeed realtime awesomeness following this article: <a href="http://tr.im/vh8C" rel="nofollow">http://tr.im/vh8C</a>. Now just need to blog!</p>
+<p><i>This comment was originally posted on <a href="http://twitter.com/michaelcraignet/statuses/3104074004" rel="nofollow">Twitter</a></i></p>
+							<p class="reply"><a rel='nofollow' class='comment-reply-link' href='/2009/07/27/pubsubhubbub-wordpress-feedburner-friendfeed-realtime-awesomeness/?replytocom=2277#respond' onclick='return addComment.moveForm("comment-body-2277", "2277", "respond", "891")'>Reply</a> &nbsp; <a href="http://twitter.com/michaelcraignet">More from author</a></p>
+						</div>
+					</dd>
+					<dt class="comment even thread-even depth-1 btc-comment" id="comment-2323">
+						<span class="avatar"><a href="http://smarterware.org/?fbconnect_action=myhome&#038;userid=1279" rel="nofollow"><img alt='' src='http://0.gravatar.com/avatar/?d=identicon&amp;s=44' class='avatar avatar-44 photo' height='44' width='44' /></a></span>
+						<span class="comment_author"><a href='http://smarterware.org/?fbconnect_action=myhome&#038;userid=1279' rel='external nofollow' class='url'>dashes.com/anil/</a></span> <span class="comment_time"><a href="#comment-2323" title="Permalink to this comment" rel="nofollow">August 6, 2009 at 12:54 am</a></span>
+					</dt>
+					<dd class="comment even thread-even depth-1 btc-comment">
+						<div class="format_text" id="comment-body-2323">
+<p>Aw, you&#8217;re too kind! I am excited about this evolution for Reader, but in looking at Chrome&#8217;s bookmark synching, I find myself wishing it was using PSHB tech instead of XMPP. That way I could start to use (for example) sharing links in Reader as a way to add bookmarks to my Chrome bookmark list. Right now, the XMPP-based synching system just isn&#8217;t that hackable.</p>
+<p>I wonder if we can convince Google to collaborate internally by talking to them from the outside.</p>
+<p><i>This comment was originally posted on <a href="http://smarterware.org/2665/the-pushbutton-web-now-in-google-reader/#comment-820" rel="nofollow" title="&#8220;The Pushbutton Web Now in Google Reader&#8221; (<a href="http://smarterware.org/)" rel="nofollow">http://smarterware.org/)</a>&#8220;>Smarterware</i></p>
+							<p class="reply"><a rel='nofollow' class='comment-reply-link' href='/2009/07/27/pubsubhubbub-wordpress-feedburner-friendfeed-realtime-awesomeness/?replytocom=2323#respond' onclick='return addComment.moveForm("comment-body-2323", "2323", "respond", "891")'>Reply</a> &nbsp; <a href="http://www.backtype.com/url/smarterware.org%252f%3Ffbconnect_action%3Dmyhome%2526%23038%3Buserid%3D1279">More from author</a></p>
+						</div>
+					</dd>
+					<dt class="comment odd alt thread-odd thread-alt depth-1 btc-comment" id="comment-2324">
+						<span class="avatar"><a href="http://smarterware.org/?fbconnect_action=myhome&#038;userid=2" rel="nofollow"><img alt='' src='http://0.gravatar.com/avatar/?d=identicon&amp;s=44' class='avatar avatar-44 photo' height='44' width='44' /></a></span>
+						<span class="comment_author"><a href='http://smarterware.org/?fbconnect_action=myhome&#038;userid=2' rel='external nofollow' class='url'>Gina Trapani</a></span> <span class="comment_time"><a href="#comment-2324" title="Permalink to this comment" rel="nofollow">August 6, 2009 at 1:15 am</a></span>
+					</dt>
+					<dd class="comment odd alt thread-odd thread-alt depth-1 btc-comment">
+						<div class="format_text" id="comment-body-2324">
+<p>I wonder if we can convince Google to collaborate internally by talking to them from the outside.</p>
+<p>Sounds like a challenge worth taking on!</p>
+<p>So both Wave and Chrome bookmark synching use XMPP to avoid polling. Hmm. Would Brad go to bat for PSHB support in Chromium? I may have to fly up to 6A&#8217;s office tomorrow for the meetup to ask him!</p>
+<p><i>This comment was originally posted on <a href="http://smarterware.org/2665/the-pushbutton-web-now-in-google-reader/#comment-821" rel="nofollow" title="&#8220;The Pushbutton Web Now in Google Reader&#8221; (<a href="http://smarterware.org/)" rel="nofollow">http://smarterware.org/)</a>&#8220;>Smarterware</i></p>
+							<p class="reply"><a rel='nofollow' class='comment-reply-link' href='/2009/07/27/pubsubhubbub-wordpress-feedburner-friendfeed-realtime-awesomeness/?replytocom=2324#respond' onclick='return addComment.moveForm("comment-body-2324", "2324", "respond", "891")'>Reply</a> &nbsp; <a href="http://www.backtype.com/url/smarterware.org%252f%3Ffbconnect_action%3Dmyhome%2526%23038%3Buserid%3D2">More from author</a></p>
+						</div>
+					</dd>
+					<dt class="comment even thread-even depth-1 btc-comment" id="comment-2325">
+						<span class="avatar"><a href="http://smarterware.org/?fbconnect_action=myhome&#038;userid=1280" rel="nofollow"><img alt='' src='http://0.gravatar.com/avatar/?d=identicon&amp;s=44' class='avatar avatar-44 photo' height='44' width='44' /></a></span>
+						<span class="comment_author"><a href='http://smarterware.org/?fbconnect_action=myhome&#038;userid=1280' rel='external nofollow' class='url'>google.com/accounts/o8…</a></span> <span class="comment_time"><a href="#comment-2325" title="Permalink to this comment" rel="nofollow">August 6, 2009 at 1:57 am</a></span>
+					</dt>
+					<dd class="comment even thread-even depth-1 btc-comment">
+						<div class="format_text" id="comment-body-2325">
+<p>Anil: Collaboration like that sounds good to me. =)</p>
+<p>Gina: Please contact me if you&#8217;re seeing any issues with Reader to FriendFeed updates. It&#8217;s working great for everyone I&#8217;ve been talking to. Perhaps there&#8217;s something funny about your setup? Let&#8217;s get to the bottom of it!</p>
+<p><i>This comment was originally posted on <a href="http://smarterware.org/2665/the-pushbutton-web-now-in-google-reader/#comment-822" rel="nofollow" title="&#8220;The Pushbutton Web Now in Google Reader&#8221; (<a href="http://smarterware.org/)" rel="nofollow">http://smarterware.org/)</a>&#8220;>Smarterware</i></p>
+							<p class="reply"><a rel='nofollow' class='comment-reply-link' href='/2009/07/27/pubsubhubbub-wordpress-feedburner-friendfeed-realtime-awesomeness/?replytocom=2325#respond' onclick='return addComment.moveForm("comment-body-2325", "2325", "respond", "891")'>Reply</a> &nbsp; <a href="http://www.backtype.com/url/smarterware.org%252f%3Ffbconnect_action%3Dmyhome%2526%23038%3Buserid%3D1280">More from author</a></p>
+						</div>
+					</dd>
+					<dt class="comment odd alt thread-odd thread-alt depth-1 btc-comment" id="comment-2326">
+						<span class="avatar"><a href="http://smarterware.org/?fbconnect_action=myhome&#038;userid=2" rel="nofollow"><img alt='' src='http://0.gravatar.com/avatar/?d=identicon&amp;s=44' class='avatar avatar-44 photo' height='44' width='44' /></a></span>
+						<span class="comment_author"><a href='http://smarterware.org/?fbconnect_action=myhome&#038;userid=2' rel='external nofollow' class='url'>Gina Trapani</a></span> <span class="comment_time"><a href="#comment-2326" title="Permalink to this comment" rel="nofollow">August 6, 2009 at 2:42 am</a></span>
+					</dt>
+					<dd class="comment odd alt thread-odd thread-alt depth-1 btc-comment">
+						<div class="format_text" id="comment-body-2326">
+<p>Thanks Brett!</p>
+<p> FriendFeed. Both are super-fast.</p>
+<p>It&#8217;s Smarterware posts showing up immediately in Google Reader that doesn&#8217;t seem to happen for me (like in the CrunchUp demo). But I&#8217;m not clear about whether or not GReader has full-on hub/subscriber support built-in (yet).</p>
+<p><i>This comment was originally posted on <a href="http://smarterware.org/2665/the-pushbutton-web-now-in-google-reader/#comment-823" rel="nofollow" title="&#8220;The Pushbutton Web Now in Google Reader&#8221; (<a href="http://smarterware.org/)" rel="nofollow">http://smarterware.org/)</a>&#8220;>Smarterware</i></p>
+							<p class="reply"><a rel='nofollow' class='comment-reply-link' href='/2009/07/27/pubsubhubbub-wordpress-feedburner-friendfeed-realtime-awesomeness/?replytocom=2326#respond' onclick='return addComment.moveForm("comment-body-2326", "2326", "respond", "891")'>Reply</a> &nbsp; <a href="http://www.backtype.com/url/smarterware.org%252f%3Ffbconnect_action%3Dmyhome%2526%23038%3Buserid%3D2">More from author</a></p>
+						</div>
+					</dd>
+					<dt class="comment even thread-even depth-1 btc-comment" id="comment-2327">
+						<span class="avatar"><a href="http://smarterware.org/?fbconnect_action=myhome&#038;userid=1280" rel="nofollow"><img alt='' src='http://0.gravatar.com/avatar/?d=identicon&amp;s=44' class='avatar avatar-44 photo' height='44' width='44' /></a></span>
+						<span class="comment_author"><a href='http://smarterware.org/?fbconnect_action=myhome&#038;userid=1280' rel='external nofollow' class='url'>google.com/accounts/o8…</a></span> <span class="comment_time"><a href="#comment-2327" title="Permalink to this comment" rel="nofollow">August 6, 2009 at 3:09 am</a></span>
+					</dt>
+					<dd class="comment even thread-even depth-1 btc-comment">
+						<div class="format_text" id="comment-body-2327">
+<p>Ah okay great, happy it&#8217;s working! Otherwise, what you say here makes sense. At the CrunchUp we showed a prototype of Reader as a full Hubbub subscriber. This feature does not yet exist in the Reader that everyone out there uses. So that&#8217;s the source of the confusion. Obviously, we&#8217;d like Reader to fully support subscription for all feeds on all hubs out there. We&#8217;ll get there!  </p>
+<p>(also, sorry for my awful open ID url&#8230; another thing that needs to be fixed)</p>
+<p><i>This comment was originally posted on <a href="http://smarterware.org/2665/the-pushbutton-web-now-in-google-reader/#comment-824" rel="nofollow" title="&#8220;The Pushbutton Web Now in Google Reader&#8221; (<a href="http://smarterware.org/)" rel="nofollow">http://smarterware.org/)</a>&#8220;>Smarterware</i></p>
+							<p class="reply"><a rel='nofollow' class='comment-reply-link' href='/2009/07/27/pubsubhubbub-wordpress-feedburner-friendfeed-realtime-awesomeness/?replytocom=2327#respond' onclick='return addComment.moveForm("comment-body-2327", "2327", "respond", "891")'>Reply</a> &nbsp; <a href="http://www.backtype.com/url/smarterware.org%252f%3Ffbconnect_action%3Dmyhome%2526%23038%3Buserid%3D1280">More from author</a></p>
+						</div>
+					</dd>
+					<dt class="comment odd alt thread-odd thread-alt depth-1 btc-comment btc-friendfeed" id="comment-2322">
+						<span class="avatar"><a href="http://friendfeed.com/rnhv" rel="nofollow"><img alt='' src='http://friendfeed.com/rnhv/picture?size=medium' class='avatar avatar-44 photo' height='44' width='44' /></a></span>
+						<span class="comment_author"><a href='http://friendfeed.com/rnhv' rel='external nofollow' class='url'>Robert Higgins</a></span> <span class="comment_time"><a href="#comment-2322" title="Permalink to this comment" rel="nofollow">August 6, 2009 at 5:29 am</a></span>
+					</dt>
+					<dd class="comment odd alt thread-odd thread-alt depth-1 btc-comment btc-friendfeed">
+						<div class="format_text" id="comment-body-2322">
+<p>nice cant wait till i have a moment to spare to do this</p>
+<p><i>This comment was originally posted on <a href="http://friendfeed.com/e/a88b9b67-d9a7-478b-a59b-25428e63351e#060ac18b-a9f3-48ee-86ba-c0ed9cec8d21" rel="nofollow">FriendFeed</a></i></p>
+							<p class="reply"><a rel='nofollow' class='comment-reply-link' href='/2009/07/27/pubsubhubbub-wordpress-feedburner-friendfeed-realtime-awesomeness/?replytocom=2322#respond' onclick='return addComment.moveForm("comment-body-2322", "2322", "respond", "891")'>Reply</a> &nbsp; <a href="http://friendfeed.com/rnhv/comments">More from author</a></p>
+						</div>
+					</dd>
+					<dt class="comment even thread-even depth-1 btc-comment btc-friendfeed" id="comment-2321">
+						<span class="avatar"><a href="http://friendfeed.com/maplestar" rel="nofollow"><img alt='' src='http://friendfeed.com/maplestar/picture?size=medium' class='avatar avatar-44 photo' height='44' width='44' /></a></span>
+						<span class="comment_author"><a href='http://friendfeed.com/maplestar' rel='external nofollow' class='url'>Scott of Two Countries</a></span> <span class="comment_time"><a href="#comment-2321" title="Permalink to this comment" rel="nofollow">August 6, 2009 at 5:47 am</a></span>
+					</dt>
+					<dd class="comment even thread-even depth-1 btc-comment btc-friendfeed">
+						<div class="format_text" id="comment-body-2321">
+<p>I&#8217;m using WP SUP right now. Is there any reason to switch from that to PubSubHubbub?</p>
+<p><i>This comment was originally posted on <a href="http://friendfeed.com/e/a88b9b67-d9a7-478b-a59b-25428e63351e#1da23e7e-c478-4579-8573-3d974e611f9d" rel="nofollow">FriendFeed</a></i></p>
+							<p class="reply"><a rel='nofollow' class='comment-reply-link' href='/2009/07/27/pubsubhubbub-wordpress-feedburner-friendfeed-realtime-awesomeness/?replytocom=2321#respond' onclick='return addComment.moveForm("comment-body-2321", "2321", "respond", "891")'>Reply</a> &nbsp; <a href="http://friendfeed.com/maplestar/comments">More from author</a></p>
+						</div>
+					</dd>
+					<dt class="comment odd alt thread-odd thread-alt depth-1 btc-comment btc-friendfeed" id="comment-2331">
+						<span class="avatar"><a href="http://friendfeed.com/otto42" rel="nofollow"><img alt='' src='http://friendfeed.com/otto42/picture?size=medium' class='avatar avatar-44 photo' height='44' width='44' /></a></span>
+						<span class="comment_author"><a href='http://friendfeed.com/otto42' rel='external nofollow' class='url'>Samuel Wood</a></span> <span class="comment_time"><a href="#comment-2331" title="Permalink to this comment" rel="nofollow">August 6, 2009 at 9:12 am</a></span>
+					</dt>
+					<dd class="comment odd alt thread-odd thread-alt depth-1 btc-comment btc-friendfeed">
+						<div class="format_text" id="comment-body-2331">
+<p>PubSubHubbub is more generic than WP-SUP (which is basically FriendFeed specific). Any system can use PubSubHubbub.</p>
+<p><i>This comment was originally posted on <a href="http://friendfeed.com/e/a88b9b67-d9a7-478b-a59b-25428e63351e#3d608e6d-86b2-4cee-a0ae-5523cc3e33a3" rel="nofollow">FriendFeed</a></i></p>
+							<p class="reply"><a rel='nofollow' class='comment-reply-link' href='/2009/07/27/pubsubhubbub-wordpress-feedburner-friendfeed-realtime-awesomeness/?replytocom=2331#respond' onclick='return addComment.moveForm("comment-body-2331", "2331", "respond", "891")'>Reply</a> &nbsp; <a href="http://friendfeed.com/otto42/comments">More from author</a></p>
+						</div>
+					</dd>
+					<dt class="comment even thread-even depth-1 btc-comment" id="comment-2441">
+						<span class="avatar"><a href="http://pubsubhubbub.googlecode.com/" rel="nofollow"><img alt='' src='http://0.gravatar.com/avatar/?d=identicon&amp;s=44' class='avatar avatar-44 photo' height='44' width='44' /></a></span>
+						<span class="comment_author"><a href='http://pubsubhubbub.googlecode.com/' rel='external nofollow' class='url'>Brett Slatkin</a></span> <span class="comment_time"><a href="#comment-2441" title="Permalink to this comment" rel="nofollow">August 7, 2009 at 10:48 am</a></span>
+					</dt>
+					<dd class="comment even thread-even depth-1 btc-comment">
+						<div class="format_text" id="comment-body-2441">
+<p>Wooh! Very cool! Happy it&#8217;s working for you.</p>
+<p><i>This comment was originally posted on <a href="http://revjim.net/2009/08/05/pubsubhubbub/#comment-14073385" rel="nofollow" title="&#8220;PubSubHubbub&#8221; (<a href="http://revjim.net/)" rel="nofollow">http://revjim.net/)</a>&#8220;>revjim.net</i></p>
+							<p class="reply"><a rel='nofollow' class='comment-reply-link' href='/2009/07/27/pubsubhubbub-wordpress-feedburner-friendfeed-realtime-awesomeness/?replytocom=2441#respond' onclick='return addComment.moveForm("comment-body-2441", "2441", "respond", "891")'>Reply</a> &nbsp; <a href="http://www.backtype.com/url/pubsubhubbub.googlecode.com%252f">More from author</a></p>
+						</div>
+					</dd>
+					<dt class="comment odd alt thread-odd thread-alt depth-1 btc-comment" id="comment-2442">
+						<span class="avatar"><a href="http://revjim.net/" rel="nofollow"><img alt='' src='http://0.gravatar.com/avatar/?d=identicon&amp;s=44' class='avatar avatar-44 photo' height='44' width='44' /></a></span>
+						<span class="comment_author"><a href='http://revjim.net/' rel='external nofollow' class='url'>Jim Reverend</a></span> <span class="comment_time"><a href="#comment-2442" title="Permalink to this comment" rel="nofollow">August 7, 2009 at 10:48 am</a></span>
+					</dt>
+					<dd class="comment odd alt thread-odd thread-alt depth-1 btc-comment">
+						<div class="format_text" id="comment-body-2442">
+<p>I&#8217;m not entirely sure that you care, either. I think it&#8217;s quite nice to see feeds update in my Google Reader and on Friend Feed mere seconds after authors hit the publish button. I&#8217;d like it a lot if your feed did that too.</p>
+<p>This feature is more for your readers/feed consumers than it is for you.</p>
+<p>I&#8217;m using the FD Feedburner plug in and some feedburner features to take care of the two small tasks involved with enabling PubSubHubbub. But, it could just as easily be done manually. It really requires very little from the publisher. It&#8217;s the Hub and the consumers that have to change things. And, thankfully, those bits have been done for us.</p>
+<p><i>This comment was originally posted on <a href="http://revjim.net/2009/08/05/pubsubhubbub/#comment-14339180" rel="nofollow" title="&#8220;PubSubHubbub&#8221; (<a href="http://revjim.net/)" rel="nofollow">http://revjim.net/)</a>&#8220;>revjim.net</i></p>
+							<p class="reply"><a rel='nofollow' class='comment-reply-link' href='/2009/07/27/pubsubhubbub-wordpress-feedburner-friendfeed-realtime-awesomeness/?replytocom=2442#respond' onclick='return addComment.moveForm("comment-body-2442", "2442", "respond", "891")'>Reply</a> &nbsp; <a href="http://www.backtype.com/url/revjim.net%252f">More from author</a></p>
+						</div>
+					</dd>
+					<dt class="comment even thread-even depth-1 btc-comment" id="comment-2443">
+						<span class="avatar"><a href="http://twitter.com/FarrisGoldstein" rel="nofollow"><img alt='' src='http://0.gravatar.com/avatar/?d=identicon&amp;s=44' class='avatar avatar-44 photo' height='44' width='44' /></a></span>
+						<span class="comment_author"><a href='http://twitter.com/FarrisGoldstein' rel='external nofollow' class='url'>FarrisGoldstein</a></span> <span class="comment_time"><a href="#comment-2443" title="Permalink to this comment" rel="nofollow">August 7, 2009 at 10:48 am</a></span>
+					</dt>
+					<dd class="comment even thread-even depth-1 btc-comment">
+						<div class="format_text" id="comment-body-2443">
+<p>I&#8217;ve read a bunch of HubBub about this, but still don&#8217;t really know if I care. You know me better than most on the webzisses. Do I need to use this, or will it eventually just use me?</p>
+<p><i>This comment was originally posted on <a href="http://revjim.net/2009/08/05/pubsubhubbub/#comment-14049488" rel="nofollow" title="&#8220;PubSubHubbub&#8221; (<a href="http://revjim.net/)" rel="nofollow">http://revjim.net/)</a>&#8220;>revjim.net</i></p>
+							<p class="reply"><a rel='nofollow' class='comment-reply-link' href='/2009/07/27/pubsubhubbub-wordpress-feedburner-friendfeed-realtime-awesomeness/?replytocom=2443#respond' onclick='return addComment.moveForm("comment-body-2443", "2443", "respond", "891")'>Reply</a> &nbsp; <a href="http://www.backtype.com/url/twitter.com%252fFarrisGoldstein">More from author</a></p>
+						</div>
+					</dd>
+					<dt class="comment odd alt thread-odd thread-alt depth-1 btc-comment btc-twitter" id="comment-2345">
+						<span class="avatar"><a href="http://twitter.com/jonas28" rel="nofollow"><img alt='' src='http://img.tweetimag.es/i/jonas28_n' class='avatar avatar-44 photo' height='44' width='44' /></a></span>
+						<span class="comment_author"><a href='http://twitter.com/jonas28' rel='external nofollow' class='url'>jonas28</a></span> <span class="comment_time"><a href="#comment-2345" title="Permalink to this comment" rel="nofollow">August 8, 2009 at 10:25 am</a></span>
+					</dt>
+					<dd class="comment odd alt thread-odd thread-alt depth-1 btc-comment btc-twitter">
+						<div class="format_text" id="comment-body-2345">
+<p>WordPress mit Feedburner, PubSubHubbub und FriendFeed ans Realtimeweb anschließen. <a href="http://bit.ly/Dg3DR" rel="nofollow">http://bit.ly/Dg3DR</a></p>
+<p><i>This comment was originally posted on <a href="http://twitter.com/jonas28/statuses/3193965103" rel="nofollow">Twitter</a></i></p>
+							<p class="reply"><a rel='nofollow' class='comment-reply-link' href='/2009/07/27/pubsubhubbub-wordpress-feedburner-friendfeed-realtime-awesomeness/?replytocom=2345#respond' onclick='return addComment.moveForm("comment-body-2345", "2345", "respond", "891")'>Reply</a> &nbsp; <a href="http://twitter.com/jonas28">More from author</a></p>
+						</div>
+					</dd>
+					<dt class="comment even thread-even depth-1 btc-comment" id="comment-2348">
+						<span class="avatar"><a href="http://smarterware.org/?fbconnect_action=myhome&#038;userid=362" rel="nofollow"><img alt='' src='http://0.gravatar.com/avatar/?d=identicon&amp;s=44' class='avatar avatar-44 photo' height='44' width='44' /></a></span>
+						<span class="comment_author"><a href='http://smarterware.org/?fbconnect_action=myhome&#038;userid=362' rel='external nofollow' class='url'>Jonathan</a></span> <span class="comment_time"><a href="#comment-2348" title="Permalink to this comment" rel="nofollow">August 9, 2009 at 7:35 pm</a></span>
+					</dt>
+					<dd class="comment even thread-even depth-1 btc-comment">
+						<div class="format_text" id="comment-body-2348">
+<p>For people using WordPress without Feedburner, there&#8217;s a plugin that will enable this on your blog: <a href="http://wordpress.org/extend/plugins/wp-pubsubhubbub/" rel="nofollow">http://wordpress.org/extend/plugins/wp-pubsubhubbub/</a></p>
+<p><i>This comment was originally posted on <a href="http://smarterware.org/2665/the-pushbutton-web-now-in-google-reader/#comment-854" rel="nofollow" title="&#8220;The Pushbutton Web Now in Google Reader&#8221; (<a href="http://smarterware.org/)" rel="nofollow">http://smarterware.org/)</a>&#8220;>Smarterware</i></p>
+							<p class="reply"><a rel='nofollow' class='comment-reply-link' href='/2009/07/27/pubsubhubbub-wordpress-feedburner-friendfeed-realtime-awesomeness/?replytocom=2348#respond' onclick='return addComment.moveForm("comment-body-2348", "2348", "respond", "891")'>Reply</a> &nbsp; <a href="http://www.backtype.com/url/smarterware.org%252f%3Ffbconnect_action%3Dmyhome%2526%23038%3Buserid%3D362">More from author</a></p>
+						</div>
+					</dd>
+					<dt class="comment odd alt thread-odd thread-alt depth-1 btc-comment btc-twitter" id="comment-2352">
+						<span class="avatar"><a href="http://twitter.com/SebastianJ" rel="nofollow"><img alt='' src='http://img.tweetimag.es/i/SebastianJ_n' class='avatar avatar-44 photo' height='44' width='44' /></a></span>
+						<span class="comment_author"><a href='http://twitter.com/SebastianJ' rel='external nofollow' class='url'>SebastianJ</a></span> <span class="comment_time"><a href="#comment-2352" title="Permalink to this comment" rel="nofollow">August 10, 2009 at 5:50 am</a></span>
+					</dt>
+					<dd class="comment odd alt thread-odd thread-alt depth-1 btc-comment btc-twitter">
+						<div class="format_text" id="comment-body-2352">
+<p>PubSubHubbub + WordPress + Feedburner + FriendFeed = Realtime Awesomeness &#8211; Thoughts&#8230; <a href="http://bit.ly/AyQJ9" rel="nofollow">http://bit.ly/AyQJ9</a> #friendfeed</p>
+<p><i>This comment was originally posted on <a href="http://twitter.com/SebastianJ/statuses/3223213979" rel="nofollow">Twitter</a></i></p>
+							<p class="reply"><a rel='nofollow' class='comment-reply-link' href='/2009/07/27/pubsubhubbub-wordpress-feedburner-friendfeed-realtime-awesomeness/?replytocom=2352#respond' onclick='return addComment.moveForm("comment-body-2352", "2352", "respond", "891")'>Reply</a> &nbsp; <a href="http://twitter.com/SebastianJ">More from author</a></p>
+						</div>
+					</dd>
+					<dt class="comment even thread-even depth-1" id="comment-2505">
+						<span class="avatar"><a href="http://infoseccollaboration.blogspot.com/" rel="nofollow"><img alt='' src='http://0.gravatar.com/avatar/0a4ea8bd1a47e48b3f8d40fd719f51ab?s=44&amp;d=identicon&amp;r=G' class='avatar avatar-44 photo' height='44' width='44' /></a></span>
+						<span class="comment_author"><a href='http://infoseccollaboration.blogspot.com/' rel='external nofollow' class='url'>Chris</a></span> <span class="comment_time"><a href="#comment-2505" title="Permalink to this comment" rel="nofollow">August 23, 2009 at 9:28 am</a></span>
+					</dt>
+					<dd class="comment even thread-even depth-1">
+						<div class="format_text" id="comment-body-2505">
+<p>Newbie, I set this up (correctly I believe) w/ Blogger, Feedburner, and Friendfeed (tried Google reader but then read pubsub is not supported yet). So far seeing response times of 17 and 10 minutes to see my blog updates in my FriendFeed. Is this normal at this early stage or do I need to tweak?</p>
+							<p class="reply"><a rel='nofollow' class='comment-reply-link' href='/2009/07/27/pubsubhubbub-wordpress-feedburner-friendfeed-realtime-awesomeness/?replytocom=2505#respond' onclick='return addComment.moveForm("comment-body-2505", "2505", "respond", "891")'>Reply</a> &nbsp; <a href="http://www.backtype.com/url/infoseccollaboration.blogspot.com%252f">More from author</a></p>
+						</div>
+					</dd>
+					<dt class="comment odd alt thread-odd thread-alt depth-1" id="comment-2507">
+						<span class="avatar"><a href="http://infoseccollaboration.blogspot.com/" rel="nofollow"><img alt='' src='http://0.gravatar.com/avatar/0a4ea8bd1a47e48b3f8d40fd719f51ab?s=44&amp;d=identicon&amp;r=G' class='avatar avatar-44 photo' height='44' width='44' /></a></span>
+						<span class="comment_author"><a href='http://infoseccollaboration.blogspot.com/' rel='external nofollow' class='url'>Chris</a></span> <span class="comment_time"><a href="#comment-2507" title="Permalink to this comment" rel="nofollow">August 23, 2009 at 6:34 pm</a></span>
+					</dt>
+					<dd class="comment odd alt thread-odd thread-alt depth-1">
+						<div class="format_text" id="comment-body-2507">
+<p>Last test came in at 45 seconds, not sure what was going on earlier with the 17 and 10 min response times but I did not change a thing</p>
+							<p class="reply"><a rel='nofollow' class='comment-reply-link' href='/2009/07/27/pubsubhubbub-wordpress-feedburner-friendfeed-realtime-awesomeness/?replytocom=2507#respond' onclick='return addComment.moveForm("comment-body-2507", "2507", "respond", "891")'>Reply</a> &nbsp; <a href="http://www.backtype.com/url/infoseccollaboration.blogspot.com%252f">More from author</a></p>
+						</div>
+					</dd>
+				</dl>
+				<div id="respond">
+					<div id="respond_intro">
+<a rel="nofollow" id="cancel-comment-reply-link" href="/2009/07/27/pubsubhubbub-wordpress-feedburner-friendfeed-realtime-awesomeness/#respond" style="display:none;">Cancel reply</a>
+						<p>Leave a Comment</p>
+					</div>
+
+					<form action="http://jungleg.com/wp-comments-post.php" method="post" id="commentform">
+						<p><input class="text_input" type="text" name="author" id="author" value="" tabindex="1" aria-required="true" /><label for="author">Name <span class="required" title="Required">*</span></label></p>
+						<p><input class="text_input" type="text" name="email" id="email" value="" tabindex="2" aria-required="true" /><label for="email">E-mail <span class="required" title="Required">*</span></label></p>
+						<p><input class="text_input" type="text" name="url" id="url" value="" tabindex="3" /><label for="url">Website</label></p>
+						<p class="comment_box">
+							<textarea name="comment" id="comment" tabindex="4" cols="40" rows="8"></textarea>
+						</p>
+						
+
+	<p style="clear: both;" class="subscribe-to-comments">
+	<input type="checkbox" name="subscribe" id="subscribe" value="subscribe" style="width: auto;" />
+	<label for="subscribe">Notify me of followup comments via e-mail</label>
+	</p>
+
+
+						<p>
+							<input name="submit" class="form_submit" type="submit" id="submit" tabindex="5" value="Submit" />
+							<input type='hidden' name='comment_post_ID' value='891' id='comment_post_ID' />
+<input type='hidden' name='comment_parent' id='comment_parent' value='0' />
+						</p>
+						
+					</form>
+				</div>
+
+			</div><p class="btc-powered">Additional comments powered by <a href="http://www.backtype.com/search?q=http://jungleg.com/2009/07/27/pubsubhubbub-wordpress-feedburner-friendfeed-realtime-awesomeness/">BackType</a></p>					<div class="prev_next post_nav">
+						<p class="previous">Previous post: <a href="http://jungleg.com/2009/07/24/the-audience-complexity-ratio-and-your-ideal-point-of-broadcast/" rel="prev">The Audience/Complexity Ratio and Your Ideal Point of Broadcast</a></p>
+						<p>Next post: <a href="http://jungleg.com/2009/08/03/an-adventure-unfollowing-all-the-people-i-followed-on-twitter-without-a-happy-ending/" rel="next">An Adventure Unfollowing All The People I Followed on Twitter (Without a Happy Ending)</a></p>
+					</div>
+		</div>
+
+		<div id="sidebars">
+			<div id="sidebar_1" class="sidebar">
+				<ul class="sidebar_list">
+<li class="widget widget_text" id="text-224531571"><h3>About jungleG</h3>			<div class="textwidget"><p>Jorge Escobar is a technologist, blogger, writer and media junkie living in New York City</p>
+
+<p>Follow him on <a href="http://twitter.com/jungleg">Twitter</a>, <a href="http://www.facebook.com/pages/jungleG/231277380443">Facebook</a>, <a href="mailto:jorge@jungleg.com">email him</a> or call him at<br />(646) 736-2655.</p></div>
+		</li><li class="widget widget_categories" id="categories-223586561"><h3>Categories</h3>		<ul>
+	<li class="cat-item cat-item-20"><a href="http://jungleg.com/category/blogging/" title="View all posts filed under Blogging">Blogging</a>
+</li>
+	<li class="cat-item cat-item-147"><a href="http://jungleg.com/category/browsers/" title="View all posts filed under Browsers">Browsers</a>
+</li>
+	<li class="cat-item cat-item-134"><a href="http://jungleg.com/category/cloud-computing/" title="View all posts filed under Cloud Computing">Cloud Computing</a>
+</li>
+	<li class="cat-item cat-item-11"><a href="http://jungleg.com/category/community/" title="View all posts filed under Community">Community</a>
+</li>
+	<li class="cat-item cat-item-181"><a href="http://jungleg.com/category/cool-apps/" title="View all posts filed under Cool Apps">Cool Apps</a>
+</li>
+	<li class="cat-item cat-item-130"><a href="http://jungleg.com/category/development/" title="View all posts filed under Development">Development</a>
+</li>
+	<li class="cat-item cat-item-13"><a href="http://jungleg.com/category/facebook/" title="View all posts filed under Facebook">Facebook</a>
+</li>
+	<li class="cat-item cat-item-97"><a href="http://jungleg.com/category/friendfeed/" title="View all posts filed under FriendFeed">FriendFeed</a>
+</li>
+	<li class="cat-item cat-item-12"><a href="http://jungleg.com/category/google/" title="View all posts filed under Google">Google</a>
+</li>
+	<li class="cat-item cat-item-18"><a href="http://jungleg.com/category/humor/" title="View all posts filed under Humor">Humor</a>
+</li>
+	<li class="cat-item cat-item-182"><a href="http://jungleg.com/category/internet-101/" title="View all posts filed under Internet 101">Internet 101</a>
+</li>
+	<li class="cat-item cat-item-61"><a href="http://jungleg.com/category/media/" title="View all posts filed under Media">Media</a>
+</li>
+	<li class="cat-item cat-item-1"><a href="http://jungleg.com/category/personal/" title="View all posts filed under Personal">Personal</a>
+</li>
+	<li class="cat-item cat-item-135"><a href="http://jungleg.com/category/productivity/" title="View all posts filed under Productivity">Productivity</a>
+</li>
+	<li class="cat-item cat-item-52"><a href="http://jungleg.com/category/scalability/" title="View all posts filed under Scalability">Scalability</a>
+</li>
+	<li class="cat-item cat-item-133"><a href="http://jungleg.com/category/social-media/" title="View all posts filed under Social Media">Social Media</a>
+</li>
+	<li class="cat-item cat-item-110"><a href="http://jungleg.com/category/startups/" title="View all posts filed under Startups">Startups</a>
+</li>
+	<li class="cat-item cat-item-26"><a href="http://jungleg.com/category/twitter/" title="View all posts filed under Twitter">Twitter</a>
+</li>
+		</ul>
+</li><li class="widget widget_text" id="text-348217491"><h3>Advertising</h3>			<div class="textwidget"><script type="text/javascript">
+  GA_googleFillSlot("Jungleg_160_600");
+</script>
+
+</div>
+		</li><li class="widget widget_archive" id="archives-2"><h3>Archives</h3>		<ul>
+			<li><a href='http://jungleg.com/2010/10/' title='October 2010'>October 2010</a>&nbsp;(3)</li>
+	<li><a href='http://jungleg.com/2010/09/' title='September 2010'>September 2010</a>&nbsp;(1)</li>
+	<li><a href='http://jungleg.com/2010/07/' title='July 2010'>July 2010</a>&nbsp;(1)</li>
+	<li><a href='http://jungleg.com/2010/04/' title='April 2010'>April 2010</a>&nbsp;(1)</li>
+	<li><a href='http://jungleg.com/2010/02/' title='February 2010'>February 2010</a>&nbsp;(1)</li>
+	<li><a href='http://jungleg.com/2010/01/' title='January 2010'>January 2010</a>&nbsp;(1)</li>
+	<li><a href='http://jungleg.com/2009/12/' title='December 2009'>December 2009</a>&nbsp;(1)</li>
+	<li><a href='http://jungleg.com/2009/11/' title='November 2009'>November 2009</a>&nbsp;(6)</li>
+	<li><a href='http://jungleg.com/2009/10/' title='October 2009'>October 2009</a>&nbsp;(9)</li>
+	<li><a href='http://jungleg.com/2009/09/' title='September 2009'>September 2009</a>&nbsp;(5)</li>
+	<li><a href='http://jungleg.com/2009/08/' title='August 2009'>August 2009</a>&nbsp;(5)</li>
+	<li><a href='http://jungleg.com/2009/07/' title='July 2009'>July 2009</a>&nbsp;(11)</li>
+	<li><a href='http://jungleg.com/2009/06/' title='June 2009'>June 2009</a>&nbsp;(8)</li>
+	<li><a href='http://jungleg.com/2009/05/' title='May 2009'>May 2009</a>&nbsp;(2)</li>
+	<li><a href='http://jungleg.com/2009/04/' title='April 2009'>April 2009</a>&nbsp;(7)</li>
+	<li><a href='http://jungleg.com/2009/03/' title='March 2009'>March 2009</a>&nbsp;(5)</li>
+	<li><a href='http://jungleg.com/2009/02/' title='February 2009'>February 2009</a>&nbsp;(9)</li>
+	<li><a href='http://jungleg.com/2009/01/' title='January 2009'>January 2009</a>&nbsp;(3)</li>
+	<li><a href='http://jungleg.com/2008/12/' title='December 2008'>December 2008</a>&nbsp;(3)</li>
+	<li><a href='http://jungleg.com/2008/11/' title='November 2008'>November 2008</a>&nbsp;(6)</li>
+	<li><a href='http://jungleg.com/2008/10/' title='October 2008'>October 2008</a>&nbsp;(6)</li>
+	<li><a href='http://jungleg.com/2008/09/' title='September 2008'>September 2008</a>&nbsp;(3)</li>
+	<li><a href='http://jungleg.com/2008/08/' title='August 2008'>August 2008</a>&nbsp;(1)</li>
+	<li><a href='http://jungleg.com/2008/07/' title='July 2008'>July 2008</a>&nbsp;(4)</li>
+	<li><a href='http://jungleg.com/2008/06/' title='June 2008'>June 2008</a>&nbsp;(3)</li>
+		</ul>
+</li>				</ul>
+			</div>
+			<div id="sidebar_2" class="sidebar">
+				<ul class="sidebar_list">
+<li class="widget thesis_widget_search" id="search">
+<h3>Search</h3>
+<form method="get" class="search_form" action="http://jungleg.com/">
+	<p>
+		<input class="text_input" type="text" value="To search, type and hit enter" name="s" id="s" onfocus="if (this.value == 'To search, type and hit enter') {this.value = '';}" onblur="if (this.value == '') {this.value = 'To search, type and hit enter';}" />
+		<input type="hidden" id="searchsubmit" value="Search" />
+	</p>
+</form>
+</li>
+<li class="widget widget_text" id="text-357873791"><h3>Google Reader Shared Items</h3>			<div class="textwidget"><script type="text/javascript" src="http://www.google.com/reader/ui/publisher-en.js"></script>
+<script type="text/javascript" src="http://www.google.com/reader/public/javascript/user/00303823932296768805/state/com.google/broadcast?n=8&callback=GRC_p(%7Bc%3A%22blue%22%2Ct%3A%22jungleg%5C's%20shared%20items%22%2Cs%3A%22true%22%2Cb%3A%22false%22%7D)%3Bnew%20GRC"></script></div>
+		</li><li class="widget widget_rss" id="rss-351409291"><h3><a class='rsswidget' href='http://friendfeed.com/jungleg?format=atom' title='Syndicate this content'><img style='border:0' width='14' height='14' src='http://jungleg.com/wp-includes/images/rss.png' alt='RSS' /></a> <a class='rsswidget' href='http://friendfeed.com/jungleg' title=''>My Latest Activity</a></h3><ul><li><a class='rsswidget' href='http://twitter.com/jungleG/statuses/15774616999956482' title='Jorge EscobarFacebook as your registration front end - Making registration simple and social in just a few steps - Facebook Devs - http://developers.facebook.com/blog...19 hours ago from Twitter - Comment - Like [&hellip;]'>Facebook as your registration front end - Making registration simple and social in just a few steps - Facebook Devs - http://goo.gl/S90hy</a> <span class="rss-date">December 17, 2010</span></li><li><a class='rsswidget' href='http://twitter.com/jungleG/statuses/15604323346030592' title='Jorge EscobarRT @isalara: #SOSinternetVE is worldwide TT, read why: &quot;Venezuela media bills would harm freedom of expression&quot; http://cpj.org/2010... (via @pressfreedom)Thursday from Twitter - Comment - Like [&hellip;]'>RT @isalara: #SOSinternetVE is worldwide TT, read why: &quot;Venezuela media bills would harm freedom of expression&quot; http://bit.ly/htUFZa (via @pressfreedom)</a> <span class="rss-date">December 17, 2010</span></li><li><a class='rsswidget' href='http://feedproxy.google.com/~r/blogspot/MKuf/~3/tL1e-MXg3AA/next-generation-of-mobile-maps.html' title='Jorge EscobarThe next generation of mobile maps - http://googleblog.blogspot.com/2010...Thursday from Google Reader - Comment - LikeSkyler Call liked this [&hellip;]'>The next generation of mobile maps</a> <span class="rss-date">December 17, 2010</span></li><li><a class='rsswidget' href='http://twitter.com/jungleG/statuses/15522346504814592' title='Jorge EscobarCitibank Opens &quot;Bank of the Future&quot; in New York (and blocks from my office!) - http://mashable.com/2010...Thursday from Twitter - Comment - Like [&hellip;]'>Citibank Opens &quot;Bank of the Future&quot; in New York (and blocks from my office!) - http://goo.gl/uRUuh</a> <span class="rss-date">December 16, 2010</span></li><li><a class='rsswidget' href='http://twitter.com/jungleG/statuses/15521057586814977' title='Jorge EscobarRT @newmediajim: RT @mashable Facebook Goes Down Amid Rollout of New Brand Pages - http://mashable.com/2010...Thursday from Twitter - Comment - Like [&hellip;]'>RT @newmediajim: RT @mashable Facebook Goes Down Amid Rollout of New Brand Pages - http://on.mash.to/hDXfpu</a> <span class="rss-date">December 16, 2010</span></li><li><a class='rsswidget' href='http://twitter.com/jungleG/statuses/15519150608748545' title='Jorge EscobarI bet Assange brought down Facebook as soon as he got released for not getting &quot;Time Person of the Year&quot; #fb#justbeingsillyThursday from Twitter - Comment - Like [&hellip;]'>I bet Assange brought down Facebook as soon as he got released for not getting &quot;Time Person of the Year&quot; #fb #justbeingsilly</a> <span class="rss-date">December 16, 2010</span></li><li><a class='rsswidget' href='http://twitter.com/jungleG/statuses/15499277312724992' title='Jorge Escobar(Looks like it is) Is Yahoo Shutting Down Del.icio.us? - http://techcrunch.com/2010...Thursday from Twitter - Comment - LikeThis was my main bookmarking service. Sucks big time. - Jorge Escobar [&hellip;]'>(Looks like it is) Is Yahoo Shutting Down Del.icio.us? - http://goo.gl/eAtMn</a> <span class="rss-date">December 16, 2010</span></li><li><a class='rsswidget' href='http://twitter.com/jungleG/statuses/15429318901501952' title='Jorge EscobarInteresting discussion -&gt;Perhaps the reason startups are struggling to hire in NYC is... - http://news.ycombinator.com/item... /via Hacker News #fb#inThursday from Twitter - Comment - Like [&hellip;]'>Interesting discussion -&gt;Perhaps the reason startups are struggling to hire in NYC is... - http://goo.gl/2FddK /via Hacker News #fb #in</a> <span class="rss-date">December 16, 2010</span></li><li><a class='rsswidget' href='http://feedproxy.google.com/~r/nosql/~3/IAokMLi-5u8/2335288905' title='Jorge EscobarNoSQL Databases Genealogy - http://nosql.mypopescu.com/post...Thursday from Google Reader - Comment - Like [&hellip;]'>NoSQL Databases Genealogy</a> <span class="rss-date">December 16, 2010</span></li><li><a class='rsswidget' href='http://www.thegrayeffect.com/2010/12/all-my-husband-wants-for-christmas-is.html' title='Jorge EscobarAll My Husband Wants for Christmas is... - http://www.thegrayeffect.com/2010...Thursday from Google Reader - Comment - Like [&hellip;]'>All My Husband Wants for Christmas is...</a> <span class="rss-date">December 16, 2010</span></li></ul></li><li class="widget widget_tag_cloud" id="tag_cloud-3"><h3>Tag Cloud</h3><div><a href='http://jungleg.com/tag/api/' class='tag-link-126' title='2 topics' style='font-size: 11.230769230769pt;'>api</a>
+<a href='http://jungleg.com/tag/apple/' class='tag-link-38' title='3 topics' style='font-size: 13.384615384615pt;'>Apple</a>
+<a href='http://jungleg.com/tag/application/' class='tag-link-149' title='2 topics' style='font-size: 11.230769230769pt;'>application</a>
+<a href='http://jungleg.com/tag/applications/' class='tag-link-50' title='2 topics' style='font-size: 11.230769230769pt;'>applications</a>
+<a href='http://jungleg.com/tag/aws/' class='tag-link-136' title='3 topics' style='font-size: 13.384615384615pt;'>aws</a>
+<a href='http://jungleg.com/tag/blogging/' class='tag-link-20' title='3 topics' style='font-size: 13.384615384615pt;'>Blogging</a>
+<a href='http://jungleg.com/tag/business/' class='tag-link-92' title='3 topics' style='font-size: 13.384615384615pt;'>business</a>
+<a href='http://jungleg.com/tag/chrome/' class='tag-link-49' title='3 topics' style='font-size: 13.384615384615pt;'>chrome</a>
+<a href='http://jungleg.com/tag/cloud/' class='tag-link-42' title='4 topics' style='font-size: 15.179487179487pt;'>cloud</a>
+<a href='http://jungleg.com/tag/community/' class='tag-link-11' title='2 topics' style='font-size: 11.230769230769pt;'>Community</a>
+<a href='http://jungleg.com/tag/data/' class='tag-link-191' title='2 topics' style='font-size: 11.230769230769pt;'>data</a>
+<a href='http://jungleg.com/tag/economy/' class='tag-link-55' title='2 topics' style='font-size: 11.230769230769pt;'>economy</a>
+<a href='http://jungleg.com/tag/facebook/' class='tag-link-13' title='4 topics' style='font-size: 15.179487179487pt;'>Facebook</a>
+<a href='http://jungleg.com/tag/fail/' class='tag-link-28' title='4 topics' style='font-size: 15.179487179487pt;'>fail</a>
+<a href='http://jungleg.com/tag/firefox/' class='tag-link-148' title='2 topics' style='font-size: 11.230769230769pt;'>firefox</a>
+<a href='http://jungleg.com/tag/friendfeed/' class='tag-link-97' title='3 topics' style='font-size: 13.384615384615pt;'>FriendFeed</a>
+<a href='http://jungleg.com/tag/future/' class='tag-link-60' title='5 topics' style='font-size: 16.615384615385pt;'>future</a>
+<a href='http://jungleg.com/tag/google/' class='tag-link-12' title='6 topics' style='font-size: 17.871794871795pt;'>Google</a>
+<a href='http://jungleg.com/tag/googlebuzz/' class='tag-link-218' title='2 topics' style='font-size: 11.230769230769pt;'>googlebuzz</a>
+<a href='http://jungleg.com/tag/gtd/' class='tag-link-65' title='2 topics' style='font-size: 11.230769230769pt;'>gtd</a>
+<a href='http://jungleg.com/tag/howto/' class='tag-link-120' title='6 topics' style='font-size: 17.871794871795pt;'>howto</a>
+<a href='http://jungleg.com/tag/issues/' class='tag-link-94' title='2 topics' style='font-size: 11.230769230769pt;'>issues</a>
+<a href='http://jungleg.com/tag/media/' class='tag-link-61' title='2 topics' style='font-size: 11.230769230769pt;'>Media</a>
+<a href='http://jungleg.com/tag/microsoft/' class='tag-link-207' title='2 topics' style='font-size: 11.230769230769pt;'>microsoft</a>
+<a href='http://jungleg.com/tag/mobile/' class='tag-link-5' title='4 topics' style='font-size: 15.179487179487pt;'>mobile</a>
+<a href='http://jungleg.com/tag/networking/' class='tag-link-102' title='3 topics' style='font-size: 13.384615384615pt;'>networking</a>
+<a href='http://jungleg.com/tag/ning/' class='tag-link-10' title='3 topics' style='font-size: 13.384615384615pt;'>ning</a>
+<a href='http://jungleg.com/tag/realtime/' class='tag-link-183' title='2 topics' style='font-size: 11.230769230769pt;'>realtime</a>
+<a href='http://jungleg.com/tag/reference/' class='tag-link-25' title='2 topics' style='font-size: 11.230769230769pt;'>reference</a>
+<a href='http://jungleg.com/tag/rss/' class='tag-link-127' title='6 topics' style='font-size: 17.871794871795pt;'>rss</a>
+<a href='http://jungleg.com/tag/scalability/' class='tag-link-52' title='3 topics' style='font-size: 13.384615384615pt;'>Scalability</a>
+<a href='http://jungleg.com/tag/security/' class='tag-link-160' title='2 topics' style='font-size: 11.230769230769pt;'>security</a>
+<a href='http://jungleg.com/tag/service/' class='tag-link-27' title='2 topics' style='font-size: 11.230769230769pt;'>service</a>
+<a href='http://jungleg.com/tag/social/' class='tag-link-90' title='11 topics' style='font-size: 22pt;'>social</a>
+<a href='http://jungleg.com/tag/startups/' class='tag-link-110' title='3 topics' style='font-size: 13.384615384615pt;'>Startups</a>
+<a href='http://jungleg.com/tag/technology/' class='tag-link-56' title='2 topics' style='font-size: 11.230769230769pt;'>technology</a>
+<a href='http://jungleg.com/tag/tips/' class='tag-link-21' title='4 topics' style='font-size: 15.179487179487pt;'>tips</a>
+<a href='http://jungleg.com/tag/tools/' class='tag-link-41' title='2 topics' style='font-size: 11.230769230769pt;'>tools</a>
+<a href='http://jungleg.com/tag/twitter/' class='tag-link-26' title='6 topics' style='font-size: 17.871794871795pt;'>Twitter</a>
+<a href='http://jungleg.com/tag/upgrades/' class='tag-link-108' title='2 topics' style='font-size: 11.230769230769pt;'>upgrades</a>
+<a href='http://jungleg.com/tag/video/' class='tag-link-107' title='4 topics' style='font-size: 15.179487179487pt;'>video</a>
+<a href='http://jungleg.com/tag/web/' class='tag-link-24' title='2 topics' style='font-size: 11.230769230769pt;'>web</a>
+<a href='http://jungleg.com/tag/welcome/' class='tag-link-4' title='1 topic' style='font-size: 8pt;'>welcome</a>
+<a href='http://jungleg.com/tag/writing/' class='tag-link-22' title='3 topics' style='font-size: 13.384615384615pt;'>writing</a>
+<a href='http://jungleg.com/tag/youtube/' class='tag-link-105' title='5 topics' style='font-size: 16.615384615385pt;'>youtube</a></div>
+</li>				</ul>
+			</div>
+		</div>
+	</div>
+	<div id="footer">
+		<p>Get smart with the <a href="http://diythemes.com/thesis/">Thesis WordPress Theme</a> from DIYthemes.</p>
+		<p><a href="http://jungleg.com/wp-admin/">WordPress Admin</a></p>
+	</div>
+</div>
+</div>
+<!--[if lte IE 7]>
+<div id="ie_clear"></div>
+<![endif]-->
+<!-- Start Quantcast tag -->
+<script type="text/javascript">
+_qoptions={
+qacct:"p-5dOwGA2u8jUBA"
+};
+</script>
+<script type="text/javascript" src="http://edge.quantserve.com/quant.js"></script>
+<noscript>
+<img src="http://pixel.quantserve.com/pixel/p-5dOwGA2u8jUBA.gif" style="display: none;" border="0" height="1" width="1" alt="Quantcast"/>
+</noscript>
+<!-- End Quantcast tag -->
+
+</body>
+</html>
