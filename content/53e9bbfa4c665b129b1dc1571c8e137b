@@ -38,7 +38,7 @@ jQuery.extend(Drupal.settings, { "basePath": "/", "lightbox2": { "rtl": 0, "file
   <div id="header-region" class="clear-block"><div id="block-block-15" class="clear-block block block-block">
 
 
-  <div class="content"><span style='display: block; color: #463C3C; text-align: center; margin-left: auto; margin-right: auto; font-size: 160%; font-family: garamond,Capitals,serif; text-decoration: none; font-weight: normal !important;'><b>The New York Times</b>: Stanza: &ldquo;The iPhone or iPod Touch can act as an electronic book reader.&rdquo; <br />&mdash; <em><a href='http://www.nytimes.com/2008/11/13/technology/personaltech/13askk-003.html'>Tip of the Week: Turn Your iPhone Into an e-Book</a></em></span></div>
+  <div class="content"><span style='display: block; color: #463C3C; text-align: center; margin-left: auto; margin-right: auto; font-size: 160%; font-family: garamond,Capitals,serif; text-decoration: none; font-weight: normal !important;'><b>148apps.com BestAppEver</b>: &ldquo;Stanza has redefined how everyone thinks about reading on a mobile device.&rdquo; <br />&mdash; <em><a href='http://bestappever.com/awards/2008/fapp'>2008 Best Free App</a></em></span></div>
 </div>
 </div>
 
@@ -156,7 +156,7 @@ jQuery.extend(Drupal.settings, { "basePath": "/", "lightbox2": { "rtl": 0, "file
 
   <h2>Comment viewing options</h2>
 
-  <div class="content"><div class="container-inline"><input type="hidden" name="form_build_id" id="form-a88663c9b0fba05bff1dc7e7401cc01a" value="form-a88663c9b0fba05bff1dc7e7401cc01a"  />
+  <div class="content"><div class="container-inline"><input type="hidden" name="form_build_id" id="form-12f2841e0e96bb86366bdb70ccf9593f" value="form-12f2841e0e96bb86366bdb70ccf9593f"  />
 <input type="hidden" name="form_id" id="edit-comment-controls" value="comment_controls"  />
 <div class="form-item" id="edit-mode-wrapper">
  <select name="mode" class="form-select" id="edit-mode" ><option value="1">Flat list - collapsed</option><option value="2">Flat list - expanded</option><option value="3">Threaded list - collapsed</option><option value="4" selected="selected">Threaded list - expanded</option></select>
@@ -255,7 +255,7 @@ qacct:"p-3fwFlbUsusaSw"
 </div>    </div>
     <input type="submit" name="op" id="edit-vote" value="Vote"  class="form-submit" />
   </div>
-    <input type="hidden" name="form_build_id" id="form-0a307905a92904741c486684ab7e03f8" value="form-0a307905a92904741c486684ab7e03f8"  />
+    <input type="hidden" name="form_build_id" id="form-67fa44d342acafb1354210531bb3b47e" value="form-67fa44d342acafb1354210531bb3b47e"  />
 <input type="hidden" name="form_id" id="edit-poll-view-voting" value="poll_view_voting"  />
 </div>
 
@@ -282,11 +282,11 @@ qacct:"p-3fwFlbUsusaSw"
 
   <h2>Random FAQs</h2>
 
-  <div class="content"><div class="item-list"><ul><li class="first"><a href="/faq/change_title_or_author">How do I change the title or author of my book when sharing it with Stanza iPhone?</a></li>
-<li><a href="/node/58">Does Stanza run on 64-bit Macintosh?</a></li>
-<li><a href="/faq/iphone_instability">My iPhone becomes unstable after installing Stanza, causing lockups or data loss</a></li>
-<li><a href="/node/969">I accidentally told Stanza to never allow sharing!  How do I fix this?</a></li>
-<li class="last"><a href="/faq/stanza_on_linux">Will Stanza be available for Linux or Solaris?</a></li>
+  <div class="content"><div class="item-list"><ul><li class="first"><a href="/faq/stanza_on_windows">Is Stanza available for Microsoft Windows?</a></li>
+<li><a href="/faq/stanza_crash_on_10_4">Stanza Desktop on Mac OS 10.4 crashes on startup</a></li>
+<li><a href="/node/975">Is the Online Catalog available for Stanza Desktop?</a></li>
+<li><a href="/faq/pdf_doesnt_display">I tried to read a PDF, and nothing shows up at all</a></li>
+<li class="last"><a href="/faq/chapter_listing_issues">My chapter listings don&#039;t make any sense!</a></li>
 </ul></div><a href="/faq">All FAQs</a></div>
 </div>
         </div>
