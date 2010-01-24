@@ -1,0 +1,134 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html lang="en">
+    <head>
+		<title>Telcordia Routing Administration - Related Web Sites</title>
+		<meta name="keywords" content="LERG,TPM,global,country codes,routing,network,TRA, numbering,rating,NNAG,NNACL,ACSED,central office,code,NPA,NXX,NANPA,GDCD, related links, related sites, related, international,switch,CLLI,prefix,routing guide,Telcordia">
+		<meta name="description" content="The following sites are highly correlated with the aspects of telephony that are supported by Telcordia Routing Administration (TRA).">
+				<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+		<meta http-equiv="Content-Script-Type" content="text/javascript">
+		
+		<link rel="stylesheet" href="/css/main.css" type="text/css">
+
+		
+		<!--[if IE]>
+			<script type="text/javascript" src="/java/menu-ie.js"></script>
+		<![endif]-->
+
+
+    </head>
+	<body>
+		<div id="wrapper"> <!-- Begin Div which center the page -->
+	<!-- BEGIN RED HEADER -->
+        <div id="header">
+        	        <div id="headerlogo">
+
+                    	<a href="http://www.telcordia.com/index.html"><img src="/images/logo_redblack_transparent.gif" width="166" height="44" alt="Telcordia Technologies"></a> </div>               
+					<!--
+                    <div id="headernav">
+                        <div><a href="/index.html">Home</a>|<a href="/notfound.html">Link 1</a>|<a href="/notfound.html">Link 2</a>|<a href="/notfound.html">Link 3</a></div>
+			       </div>
+				   -->
+					<br class="clear">
+        </div>
+	<!-- END RED HEADER -->
+
+
+		<div id="globalnav">
+			<ul id="nav">
+				<li><a id="gn1" href="/products_services/tra/index.html">Home</a></li>
+
+				<li><a id="gn2" href="/products_services/tra/aboutus.html">About TRA</a></li>
+				<li><a id="gn3" href="/products_services/tra/catalog.html">Catalog</a></li>
+				<li><a id="gn4" href="/products_services/tra/documents.html">Documents</a></li>
+				<li><a id="gn5" href="/products_services/tra/contact.html">Contact TRA</a></li>
+				<li><a id="gn6" href="/products_services/tra/workshop.html">Workshops</a></li>
+				<li><a id="gn7" href="/products_services/tra/news.html">News</a></li>
+
+				<li><a id="gn8" href="/products_services/tra/links.html">Related Sites</a></li>
+			</ul>
+    	</div>
+
+		    <table id="bodytable" cellspacing="0" cellpadding="0" border="0">
+            <tr>
+          		<td class="bodytable_left">
+            		<div id="leftsidebar">
+                        <ul id="pagenav">                  	
+   		                	<li><a href="/products_services/tra/index.html">Overview</a></li>
+
+							<li><a href="/products_services/tra/aboutus.html">About TRA</a></li>
+							<li><a href="/products_services/tra/catalog.html">Catalog/Products</a></li>
+							<li><a href="/products_services/tra/documents.html">Documents</a></li>
+							<!--<li><a href="/products_services/tra/contact.html">Contact TRA</a></li>-->
+							<!--<li><a href="/products_services/trainfo/nnagonly.html">NNAG/OCNlist</a></li>-->
+							<li><a href="/products_services/tra/workshop.html">Workshops</a></li>
+							<li><a href="/products_services/tra/news.html">News</a></li>
+
+							<li><a href="/products_services/tra/links.html">Related Sites</a></li>
+							<li><a href="/products_services/tra/register.html">TRA Mailing List</a></li>
+							<li>Downloads
+							<ul>
+								<li><a href="/products_services/tra/downloads/tra_catalog.pdf">TRA Catalog of Products</a></li>
+								<li><a href="/products_services/tra/orderreq.html">Order Request Form</a></li>
+							</ul>
+
+                        </ul>        
+                    </div>
+    	        </td>
+        	    <td class="bodytable_middle">
+                <div id="middle_norightsidebar">
+                    <!--<div id="printready">
+                	    <a onclick="this.target='_printready'" href="/printready.jsp" ><img src="/images/common/printready.gif" alt="Print-Ready Version"></a>
+                    </div>
+					-->
+					<!--<div class="crumb">
+						<b><a href="/services/index.html">Services</a></b> &gt;												
+					</div>-->
+        		    <div id="content">	
+					
+
+					<h1>Telcordia<span class="sup">&reg;</span> Routing Administration</h1>
+
+					<p>The industry recognized source for routing and rating data</p>
+					
+					<div style="padding: 3px; background-color: #CCC;">
+					<div style="background-color: #CCC; padding: 3px; border: 1px solid #000; text-align: center; font-weight: bold;">
+						<p>http://www.trainfo.com site has been recently redesigned.</p>	
+						<p>The &quot;look and feel&quot; of the site may have changed, but page content remains the same.</p>
+					</div>
+					</div>
+					
+
+					<h2>Error Page</H4>
+					<p>
+					Welcome.
+					www.trainfo.com, the Traffic Routing Adminstration (TRA) web site, has recently moved.
+					As a result, some of your older bookmarks may not be working. 
+					<p>
+					Follow this link to the <a href="/">TRA home page</a> or click on any of the links to the left or above, and then please take a moment of your time to rebookmark your frequently visited pages.
+
+
+					   </div><!-- closes id="content" -->
+                </div><!-- closes id="middle" -->
+  	        	</td>
+            </tr>
+        </table>
+	
+	<!-- BEGIN GLOBAL FOOTER -->
+	 <div id="footer">
+
+			
+            <div id="copyright">
+           	    <a href="http://www.telcordia.com/legal/trademark.html">&copy; Telcordia Technologies, Inc.</a>
+            </div>
+           
+        </div>
+	<!-- END GLOBAL FOOTER -->
+</div> <!-- END WRAPPER DIV WHICH CENTERS THE PAGE -->
+
+	</body>
+
+</html>
+
+
+
+
