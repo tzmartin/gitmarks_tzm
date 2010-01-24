@@ -43,7 +43,7 @@ table.switchboard td {
 					
 		<br />
 
-					Sat 18 of Dec, 2010 [18:12 UTC]
+					Sat 18 of Dec, 2010 [18:57 UTC]
 			</div>
 	<h1><a href="/">voip-info.org</a></h1>
 	<h3></h3>
@@ -67,11 +67,11 @@ table.switchboard td {
 	<br /><div class="display comment"><div class="header"><a name="editcomments"></a><h2>Comments</h2></div><div class="body"><div id="edit_comments" >	<a name="editcomments"></a>
 
 	
-		<form action="/wiki/index.php?page_id=936#editcomments" id="editcomment-form" method="post"  onsubmit=""><div><input type="hidden" name="tk" value="c0d377b112f4ced233e2" />
+		<form action="/wiki/index.php?page_id=936#editcomments" id="editcomment-form" method="post"  onsubmit=""><div><input type="hidden" name="tk" value="78183307300fb4cc82e5" />
 		
 		
 		
-			<div class="clear"></div></div></form></div>					<form action="/wiki/index.php?page_id=936#editcomments" method="post"  onsubmit=""><div><input type="hidden" name="tk" value="c0d377b112f4ced233e2" />
+			<div class="clear"></div></div></form></div>					<form action="/wiki/index.php?page_id=936#editcomments" method="post"  onsubmit=""><div><input type="hidden" name="tk" value="78183307300fb4cc82e5" />
 				<input type="hidden" name="post_comment_reply_id" value="" />
 				<input type="hidden" name="post_comment_id" value="" />
 				<table class="optionbar">
@@ -197,7 +197,7 @@ Free VOIP Publications</a>
 
 </div></div>
 			
-<div class="module loadstats" id="navig45"><h3>Server stats</h3><div class="boxcontent"><ul><li>Execution time: 0.26s</li><li>Memory usage: 2.43MB</li><li>Database queries: 32</li><li>DB time: 0.177s  67.4%</li><li>GZIP: Disabled</li><li>Server load: 2.59</li></ul></div></div>
+<div class="module loadstats" id="navig45"><h3>Server stats</h3><div class="boxcontent"><ul><li>Execution time: 0.23s</li><li>Memory usage: 2.43MB</li><li>Database queries: 32</li><li>DB time: 0.167s  72.2%</li><li>GZIP: Disabled</li><li>Server load: 3.18</li></ul></div></div>
 			
 
 <div class="module last-board-posts" id="navig45"><h3>Get Help</h3><div class="boxcontent"><font size=+1><a href="/boards/index.php?b=1&post_comment_request=1#editcomments">Ask a question</a></font><ul class="boards"><li class="odd"><a href="/boards/view/topic/21335">Ringtones on 7941 sip v9 software</a><div class="date">by <a class="username" title="Visit the userpage of: punchyp" href="/users/view/punchyp">punchyp</a> Fri 17 of Dec, 2010</div>Good morning,<br /><br />I'm using some Cisco 7941s with great success with 3cx, everything works fine apart from RINGLIST.DAT.  Now, I presume I need to specify RINGLIST.DAT in the SEPxxxxxxxxxxxx.cnf.xml file in order for it to download the tones, but I cannot work out where.  Has anyone managed to get this working?<br />...<br /></li><li class="even"><a href="/boards/view/topic/21331">Free but not so great</a><div class="date">by <a class="username" title="Visit the userpage of: radu" href="/users/view/radu">radu</a> Thu 16 of Dec, 2010</div>Somehow bad audio quality combined with other problems will just make you listen to a couple of ads and again and again...  - so yeah just call and listen to FreePhone2Phone ads - not as gtreat as advertised.<br /></li><li class="odd"><a href="/boards/view/topic/21283">Cisco 7960G and POE</a><div class="date">by <a class="username" title="Visit the userpage of: vizualfx" href="/users/view/vizualfx">vizualfx</a> Sat 11 of Dec, 2010</div>Hi, I have recently bought a Cisco7960g and wish to use it over PoE, I dont have a PoE switch but am using a PoE Injector, <br /><br />My setup is as follows and require any help with getting this to work.<br />...<br /></li></ul><a href="/boards/index.php?b=1">View More...</a></div></div>
