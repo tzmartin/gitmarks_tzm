@@ -1,0 +1,69 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd"><html><head><link rel="shortcut icon" href="http://www.google.com/images/spreadsheets/forms/favicon.ico" type="image/x-icon">
+<meta http-equiv="Content-type" content="text/html; charset=utf-8">
+<title>iPhone Developers on Twitter</title>
+
+<link href='/client/css/4176578971-published_form_compiled.css' type='text/css' rel='stylesheet'>
+<link href='/client/css/4176578971-published_form_compiled.css' type='text/css' rel='stylesheet'>
+</head>
+<body class="ss-base-body" dir="ltr"><div class="ss-form-container">
+<div class="ss-form-heading"><h1 class="ss-form-title">iPhone Developers on Twitter</h1>
+<p></p>
+<div class="ss-form-desc ss-no-ignore-whitespace">Finally, an easy way to hook up with iPhone Developers on twitter.  Just enter your twitter url, apps you have published, and a shoutout if you want to make one.  You can see a list of devs here: <a href="http://is.gd/hlhV" target="_blank">http://is.gd/hlhV</a></div>
+<p></p>
+
+<hr class="ss-email-break" style="display:none;">
+<div class="ss-required-asterisk">* Required</div></div>
+<div class="ss-form"><form action="http://spreadsheets.google.com/formResponse?key=p3LA_Q08eM-VAAyq03ZSjYQ&amp;ifq" method="POST" id="ss-form">
+
+<br>
+<div class="errorbox-good">
+<div class="ss-item ss-item-required ss-text"><div class="ss-form-entry"><label class="ss-q-title" for="entry_1">Twitter URL
+<span class="ss-required-asterisk">*</span></label>
+<label class="ss-q-help" for="entry_1">Include the full url with http:// so it&#39;ll be clickable in the google doc.  i.e. I&#39;m http://twitter.com/timhaines</label>
+<input type="text" name="entry.1.single" value="" class="ss-q-short" id="entry_1"></div></div></div>
+<br> <div class="errorbox-good">
+<div class="ss-item  ss-text"><div class="ss-form-entry"><label class="ss-q-title" for="entry_2">Apps
+</label>
+<label class="ss-q-help" for="entry_2">Name of your apps.  Text only (not links), comma seperated</label>
+<input type="text" name="entry.2.single" value="" class="ss-q-short" id="entry_2"></div></div></div>
+<br> <div class="errorbox-good">
+<div class="ss-item  ss-text"><div class="ss-form-entry"><label class="ss-q-title" for="entry_3">Shoutout
+</label>
+<label class="ss-q-help" for="entry_3">say hi, drop a note, or whatever.  Optional.</label>
+<input type="text" name="entry.3.single" value="" class="ss-q-short" id="entry_3"></div></div></div>
+<br>
+<input type="hidden" name="pageNumber" value="0">
+<input type="hidden" name="backupCache" value="">
+
+<div class="ss-item ss-navigate"><div class="ss-form-entry">
+<input type="submit" name="submit" value="Submit"></div></div></form>
+<script type="text/javascript">
+      
+      (function() {
+var divs = document.getElementById('ss-form').
+getElementsByTagName('div');
+var numDivs = divs.length;
+for (var j = 0; j < numDivs; j++) {
+if (divs[j].className == 'errorbox-bad') {
+divs[j].lastChild.firstChild.lastChild.focus();
+return;
+}
+}
+for (var i = 0; i < numDivs; i++) {
+var div = divs[i];
+if (div.className == 'ss-form-entry' &&
+div.firstChild &&
+div.firstChild.className == 'ss-q-title') {
+div.lastChild.focus();
+return;
+}
+}
+})();
+      </script></div>
+<div class="ss-footer"><div class="ss-attribution"></div>
+<div class="ss-legal"><span class="ss-powered-by">Powered by <a href="http://docs.google.com">Google Docs</a></span>
+<span class="ss-terms"><small><a href="http://spreadsheets.google.com/reportabuse?key=p3LA_Q08eM-VAAyq03ZSjYQ&amp;source=http%253A%252F%252Fspreadsheets.google.com%252Fviewform%253Fkey%253Dp3LA_Q08eM-VAAyq03ZSjYQ">Report Abuse</a>
+-
+<a href="http://www.google.com/accounts/TOS">Terms of Service</a>
+-
+<a href="http://www.google.com/google-d-s/terms.html">Additional Terms</a></small></span></div></div></div></body></html>
