@@ -1,0 +1,3968 @@
+
+		 
+	
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+<head>
+<link rel="icon" href="favicon.ico" type="image/ico" />
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta http-equiv="imagetoolbar" content="false" />
+
+
+
+	<meta name="Keywords" content="">
+	<meta name="Description" content="">
+	<meta name="date" content="2008-09-22 00:00:00.0">
+	<title>ALA | Home - American Library Association</title>
+
+
+<!-- Styles -->
+<link rel="stylesheet" type="text/css" href="css/ala_v2/screen.css" media="screen" />
+<!--[if lte IE 6]><link rel="stylesheet" type="text/css" href="css/ala_v2/screen/ie6.css" media="screen" /><![endif]-->
+<link rel="stylesheet" type="text/css" href="css/ala_v2/print.css" media="print" />
+<!-- /Styles -->
+<!-- Javascript -->
+<script type="text/javascript" src="js/main.js"></script>
+
+		<script type="text/javascript" src="js/jquery.js"></script>
+		<script type="text/javascript" src="js/jquery.cycle.all.pack.js"></script>
+		<script>
+		$(function() {
+
+		$('#ss')
+		.after('<div id="navWrapper"><div id="prev"></div><div id="nav"></div><div id="next"></div></div>')
+		.cycle({
+			fx:    'scrollLeft',
+			speed:   300,
+			timeout: 10000,
+			pager:  '#nav',
+			next:   '#next',
+			random: 1
+			
+		});
+
+		});
+		</script>
+	
+<!-- /Javascript -->
+</head>
+
+<body id='twoColumn'>
+
+<div id="pageBounds">
+	<div class="bounds">
+		<div class="skipper"> Skip to: <a href="#mainContent">Content</a><br />
+			Skip to: <a href="#sNav">Section Navigation</a><br />
+			Skip to: <a href="#mNav">Site Navigation</a><br />
+			Skip to: <a href="#search">Search</a><br />
+			<div class="hr">
+				<hr />
+			</div> <!-- // hr -->
+		</div>
+		 <!-- // skipper -->
+		<div id="mastHead" class="clearfix">
+			<div class="bounds">
+				<div id="lNav" class="clearfix">
+        	
+          
+              
+
+<ul class="clearfix">          	
+  <li><a href="http://www.ala.org/ala/membership/joinala/index.cfm">Join</a></li>
+  <li><a href="http://www.ala.org/ala/membership/whyala/renewmembers/index.cfm">Renew</a></li>  
+  <li><a href="http://www.ala.org/ala/aboutala/contactus/index.cfm">Contact Us</a></li>
+  <li><a href="http://www.ala.org/Template.cfm?Section=alafaq&template=/cfapps/faq/faq.cfm">FAQs</a></li>
+   
+ <li><a href="http://www.ala.org/cfapps/donations_rsm/index.cfm">giveALA</a></li>
+  
+   <li><a href="http://capwiz.com/ala/home/">Take action!</a></li>
+  
+	<li class="last"><a href="http://www.ala.org/Template.cfm?Section=login&template=/security/universalentry.cfm" >Log in</a></li>
+
+  
+</ul>
+            
+				</div>
+				<!-- /lNav -->
+				<div id="logo"><a href="http://www.ala.org/index.cfm"><img src="gfx/ala_v2/shell/alaPrintLog.png" alt="American Library Association" /></a></div>
+        <!-- url -->
+
+        <div id="pageurl">
+		 </div>
+		 
+        <!-- /url -->
+			</div>
+			<!-- /bounds-->
+		</div>
+		<!-- /mastHead -->
+		<div id="mNav" class="clearfix">
+			<div  class="bounds clearfix">
+				
+						<ul id="dropDowns">
+
+	
+      <li><a href="http://www.ala.org/ala/mgrps/divs/index.cfm">Divisions</a>
+        
+            <ul>
+            
+              <li><a href="http://www.ala.org/ala/mgrps/divs/aasl/index.cfm">American Association of School Librarians (AASL)</a></li>
+            
+              <li><a href="http://www.ala.org/ala/mgrps/divs/alcts/index.cfm">Assn. for Library Collections and Technical Services (ALCTS)</a></li>
+            
+              <li><a href="http://www.ala.org/ala/mgrps/divs/alsc/index.cfm">Assn. for Library Service to Children (ALSC)</a></li>
+            
+              <li><a href="http://www.ala.org/ala/mgrps/divs/acrl/index.cfm">Assn. of College & Research Libraries (ACRL)</a></li>
+            
+              <li><a href="http://www.ala.org/ala/mgrps/divs/altaff/index.cfm">Assn. of Library Trustees, Advocates, Friends & Foundations</a></li>
+            
+              <li><a href="http://www.ala.org/ala/mgrps/divs/ascla/ascla.cfm">Assn. of Specialized & Cooperative Library Agencies (ASCLA)</a></li>
+            
+              <li><a href="http://www.ala.org/ala/mgrps/divs/lita/index.cfm">Library & Information Technology Assn.</a></li>
+            
+              <li><a href="http://www.ala.org/ala/mgrps/divs/llama/index.cfm">Library Leadership & Management Assn. (LLAMA)</a></li>
+            
+              <li><a href="http://www.ala.org/ala/mgrps/divs/pla/index.cfm">Public Library Assn. (PLA)</a></li>
+            
+              <li><a href="http://www.ala.org/ala/mgrps/divs/rusa/index.cfm">Reference & User Services Assn. (RUSA)</a></li>
+            
+              <li><a href="http://www.ala.org/ala/mgrps/divs/yalsa/yalsa.cfm">The Young Adult Library Services Assn. (YALSA)</a></li>
+            </ul>
+          </li>
+  	
+
+	<!-- no section matches the select key: '2'-->
+
+	<!-- no section matches the select key: '2'-->
+
+	<!-- no section matches the select key: '2'-->
+
+	<!-- no section matches the select key: '2'-->
+
+	<!-- no section matches the select key: '2'-->
+
+	<!-- no section matches the select key: '2'-->
+
+	<!-- no section matches the select key: '2'-->
+
+	<!-- no section matches the select key: '2'-->
+
+	<!-- no section matches the select key: '2'-->
+
+	<!-- no section matches the select key: '2'-->
+
+	<!-- no section matches the select key: '2'-->
+
+	
+      <li><a href="http://www.ala.org/ala/aboutala/offices/index.cfm">Offices</a>
+        
+            <ul>
+            
+              <li><a href="http://www.ala.org/ala/aboutala/offices/cro/index.cfm">Chapter Relations Office (CRO)</a></li>
+            
+              <li><a href="http://www.ala.org/ala/aboutala/offices/dev/index.cfm">Development</a></li>
+            
+              <li><a href="http://www.ala.org/ala/aboutala/offices/governance/index.cfm">Governance</a></li>
+            
+              <li><a href="http://www.ala.org/ala/aboutala/offices/iro/index.cfm">International Relations Office (IRO)</a></li>
+            
+              <li><a href="http://www.ala.org/ala/aboutala/offices/library/index.cfm">Library</a></li>
+            
+              <li><a href="http://www.ala.org/ala/aboutala/offices/ogr/index.cfm">Office of Government Relations (OGR)</a></li>
+            
+              <li><a href="http://www.ala.org/ala/aboutala/offices/accreditation/index.cfm">Office for Accreditation</a></li>
+            
+              <li><a href="http://www.ala.org/ala/aboutala/offices/diversity/index.cfm">Office for Diversity</a></li>
+            
+              <li><a href="http://www.ala.org/ala/aboutala/offices/hrdr/index.cfm">Office for Human Resource Development and Recruitment (HRDR)</a></li>
+            
+              <li><a href="http://www.ala.org/ala/aboutala/offices/oif/index.cfm">Office for Intellectual Freedom (OIF)</a></li>
+            
+              <li><a href="http://www.ala.org/ala/aboutala/offices/oitp/index.cfm">Office for Information Technology Policy (OITP)</a></li>
+            
+              <li><a href="http://www.ala.org/ala/aboutala/offices/ola/index.cfm">Office for Library Advocacy (OLA)</a></li>
+            
+              <li><a href="http://www.ala.org/ala/aboutala/offices/olos/index.cfm">Office for Literacy & Outreach (OLOS)</a></li>
+            
+              <li><a href="http://www.ala.org/ala/aboutala/offices/ors/index.cfm">Office for Research & Statistics (ORS)</a></li>
+            
+              <li><a href="http://www.ala.org/ala/aboutala/offices/pio/index.cfm">Public Information Office</a></li>
+            
+              <li><a href="http://www.ala.org/ala/aboutala/offices/ppo/index.cfm">Public Programs Office (PPO)</a></li>
+            
+              <li><a href="http://www.ala.org/ala/aboutala/offices/wo/index.cfm">Washington Office</a></li>
+            
+              <li><a href="http://www.ala.org/quicklinks-relatedsites/moreoffices.cfm">More Offices</a></li>
+            </ul>
+          </li>
+  	
+
+	<!-- no section matches the select key: '2'-->
+
+	<!-- no section matches the select key: '2'-->
+
+	<!-- no section matches the select key: '2'-->
+
+	<!-- no section matches the select key: '2'-->
+
+	<!-- no section matches the select key: '2'-->
+
+	<!-- no section matches the select key: '2'-->
+
+	<!-- no section matches the select key: '2'-->
+
+	<!-- no section matches the select key: '2'-->
+
+	<!-- no section matches the select key: '2'-->
+
+	<!-- no section matches the select key: '2'-->
+
+	<!-- no section matches the select key: '2'-->
+
+	<!-- no section matches the select key: '2'-->
+
+	<!-- no section matches the select key: '2'-->
+
+	<!-- no section matches the select key: '2'-->
+
+	<!-- no section matches the select key: '2'-->
+
+	<!-- no section matches the select key: '2'-->
+
+	<!-- no section matches the select key: '2'-->
+
+	<!-- no section matches the select key: '2'-->
+
+	<!-- no section matches the select key: '3'-->
+
+	<!-- no section matches the select key: '3'-->
+
+	<!-- no section matches the select key: '3'-->
+
+	<!-- no section matches the select key: '3'-->
+
+	<!-- no section matches the select key: '3'-->
+
+	<!-- no section matches the select key: '3'-->
+
+	<!-- no section matches the select key: '3'-->
+
+	<!-- no section matches the select key: '3'-->
+
+	
+      <li><a href="http://www.ala.org/ala/mgrps/rts/round_tables.cfm">Round Tables</a>
+        
+            <ul>
+            
+              <li><a href="http://www.ala.org/ala/mgrps/rts/emiert/index.cfm">Ethnic & Multicultural Information Exchange RT (EMIERT)</a></li>
+            
+              <li><a href="http://www.ala.org/ala/mgrps/rts/ert/index.cfm">Exhibits Round Table (ERT)</a></li>
+            
+              <li><a href="http://www.ala.org/ala/mgrps/rts/faflrt/index.cfm">Federal and Armed Forces Libraries (FAFLRT)</a></li>
+            
+              <li><a href="http://www.ala.org/ala/mgrps/rts/glbtrt/index.cfm">Gay, Lesbian, Bisexual, and Transgendered Round Table (GLBTRT)</a></li>
+            
+              <li><a href="http://www.ala.org/ala/mgrps/rts/godort/index.cfm">Government Documents (GODORT)</a></li>
+            
+              <li><a href="http://www.ala.org/ala/mgrps/rts/ifrt/index.cfm">Intellectual Freedom Round Table (IFRT)</a></li>
+            
+              <li><a href="http://www.ala.org/ala/mgrps/rts/irrt/index.cfm">International Relations (IRRT)</a></li>
+            
+              <li><a href="http://www.ala.org/ala/mgrps/rts/clenert/index.cfm">Learning RT (LearnRT, formerly CLENERT)</a></li>
+            
+              <li><a href="http://www.ala.org/ala/mgrps/rts/lhrt/index.cfm">Library History (LHRT)</a></li>
+            
+              <li><a href="http://www.ala.org/ala/mgrps/rts/lirt/index.cfm">Library Instruction Round Table (LIRT)</a></li>
+            
+              <li><a href="http://www.ala.org/ala/mgrps/rts/lrrt/index.cfm">Library Research (LRRT)</a></li>
+            
+              <li><a href="http://www.ala.org/ala/mgrps/rts/lssirt/index.cfm">Library Support Staff Interests (LSSIRT)</a></li>
+            
+              <li><a href="http://www.ala.org/ala/mgrps/rts/magert/index.cfm">Map and Geography (MAGERT)</a></li>
+            
+              <li><a href="http://www.ala.org/ala/mgrps/rts/nmrt/index.cfm">New Members Round Table (NMRT)</a></li>
+            
+              <li><a href="http://www.ala.org/ala/mgrps/rts/rmrt/index.cfm">Retired Members Round Table (RMRT)</a></li>
+            
+              <li><a href="http://www.ala.org/ala/mgrps/mcoms/assemblies/ala-mpsrt.cfm">Round Table Coordinating Assembly</a></li>
+            
+              <li><a href="http://www.ala.org/ala/mgrps/rts/srrt/srrt.cfm">Social Responsibilities Round Table (SRRT)</a></li>
+            
+              <li><a href="http://www.ala.org/ala/mgrps/rts/sort/index.cfm">Staff Organizations (SORT)</a></li>
+            
+              <li><a href="http://www.ala.org/ala/mgrps/rts/vrt/index.cfm">Video Round Table (VRT)</a></li>
+            </ul>
+          </li>
+  	
+
+	<!-- no section matches the select key: '2'-->
+
+	<!-- no section matches the select key: '2'-->
+
+	<!-- no section matches the select key: '2'-->
+
+	<!-- no section matches the select key: '2'-->
+
+	<!-- no section matches the select key: '2'-->
+
+	<!-- no section matches the select key: '2'-->
+
+	<!-- no section matches the select key: '2'-->
+
+	<!-- no section matches the select key: '2'-->
+
+	<!-- no section matches the select key: '2'-->
+
+	<!-- no section matches the select key: '2'-->
+
+	<!-- no section matches the select key: '2'-->
+
+	<!-- no section matches the select key: '2'-->
+
+	<!-- no section matches the select key: '2'-->
+
+	<!-- no section matches the select key: '2'-->
+
+	<!-- no section matches the select key: '2'-->
+
+	<!-- no section matches the select key: '2'-->
+
+	<!-- no section matches the select key: '2'-->
+
+	<!-- no section matches the select key: '2'-->
+
+	<!-- no section matches the select key: '2'-->
+
+	
+      <li><a href="http://www.ala.org/ala/mgrps/committees/index.cfm">Committees</a>
+        
+            <ul>
+            
+              <li><a href="http://www.ala.org/ala/mgrps/committees/ala/index.cfm">ALA & Council Committees</a></li>
+            
+              <li><a href="http://www.ala.org/ala/mgrps/committees/div/index.cfm">Division Committees</a></li>
+            
+              <li><a href="http://www.ala.org/ala/mgrps/committees/joint/index.cfm">Joint Committees</a></li>
+            
+              <li><a href="http://www.ala.org/ala/mgrps/committees/rts/index.cfm">Round Table Committees</a></li>
+            
+              <li><a href="http://www.ala.org/ala/mgrps/committees/special/index.cfm">Special Committees</a></li>
+            
+              <li><a href="http://www.ala.org/ala/mgrps/getinvolved/volunteerforms/index.cfm">Volunteer Forms</a></li>
+            </ul>
+          </li>
+  	
+
+	<!-- no section matches the select key: '2'-->
+
+	<!-- no section matches the select key: '2'-->
+
+	<!-- no section matches the select key: '2'-->
+
+	<!-- no section matches the select key: '2'-->
+
+	<!-- no section matches the select key: '2'-->
+
+	<!-- no section matches the select key: '2'-->
+
+	
+      <li><a href="http://www.ala.org/ala/professionalresources/publications/index.cfm">Publications</a>
+        
+            <ul>
+            
+              <li><a href="http://www.ala.org/ala/awardsgrants/seals/index.cfm">ALA Award & Notable Seals</a></li>
+            
+              <li><a href="http://www.ala.org/ala/aboutala/offices/publishing/default.cfm">ALA Books, Posters & Promotional Items</a></li>
+            
+              <li><a href="http://www.ala.org/ala/aboutala/contactus/marketing/mail_list_rental/index.cfm">ALA Mail List Rental</a></li>
+            
+              <li><a href="http://www.ala.org/ala/aboutala/offices/publishing/productsandpublications/periodicals/periodicals.cfm">ALA Periodicals</a></li>
+            
+              <li><a href="http://www.ala.org/al/default.cfm">American Libraries Magazine</a></li>
+            
+              <li><a href="http://www.ala.org/ala/aboutala/offices/publishing/productsandpublications/publicationspages.cfm">Publications from ALA Divisions, Round Tables and Offices</a></li>
+            
+              <li><a href="http://www.ala.org/ala/aboutala/offices/library/alaperiodicals/redirect-suborderfor.cfm">Subscription Order Form</a></li>
+            </ul>
+          </li>
+  	
+
+	<!-- no section matches the select key: '2'-->
+
+	<!-- no section matches the select key: '2'-->
+
+	<!-- no section matches the select key: '2'-->
+
+	<!-- no section matches the select key: '2'-->
+
+	<!-- no section matches the select key: '2'-->
+
+	<!-- no section matches the select key: '2'-->
+
+	<!-- no section matches the select key: '2'-->
+
+	
+      <li><a href="http://www.ala.org/quicklinks-relatedsites/default.cfm">Related</a>
+        
+            <ul>
+            
+              <li><a href="http://www.ala.org/quicklinks-relatedsites/atyourlibrarydotorg.cfm">@ your library</a></li>
+            
+              <li><a href="http://www.ala.org/quicklinks-relatedsites/ala-apa.cfm">ALA-Allied Professional Association</a></li>
+            
+              <li><a href="http://www.ala.org/quicklinks-relatedsites/buyguide.cfm">American Libraries Buyers Guide</a></li>
+            
+              <li><a href="http://www.ala.org/ala/aboutala/offices/dev/giveala/giveala.cfm">Donate (giveALA)</a></li>
+            
+              <li><a href="http://www.ala.org/ala/mgrps/affiliates/relatedgroups/freedomtoreadfoundation/index.cfm">Freedom to Read Foundation</a></li>
+            
+              <li><a href="http://www.ala.org/quicklinks-relatedsites/ilovelibraries.cfm">I Love Libraries</a></li>
+            
+              <li><a href="http://www.ala.org/quicklinks-relatedsites/lac.cfm">Legislative Action Center</a></li>
+            
+              <li><a href="http://www.ala.org/ala/educationcareers/careers/librarycareerssite/home.cfm">LibraryCareers.org</a></li>
+            
+              <li><a href="http://www.ala.org/quicklinks-relatedsites/programminglibrarian.cfm">Programming Librarian</a></li>
+            
+              <li><a href="http://www.ala.org/rwc/index.cfm">Read Write Connect</a></li>
+            </ul>
+          </li>
+  	
+
+	<!-- no section matches the select key: '2'-->
+
+	<!-- no section matches the select key: '2'-->
+
+	<!-- no section matches the select key: '2'-->
+
+	<!-- no section matches the select key: '2'-->
+
+	<!-- no section matches the select key: '2'-->
+
+	<!-- no section matches the select key: '2'-->
+
+	<!-- no section matches the select key: '2'-->
+
+	<!-- no section matches the select key: '2'-->
+
+	<!-- no section matches the select key: '2'-->
+
+	<!-- no section matches the select key: '2'-->
+</ul>
+
+					
+				<form name="gs" id="search" method="GET" action="http://search.ala.org/search?site=default_collection&client=default_frontend&output=xml_no_dtd&proxystylesheet=ALA/search">
+<label for="searchTextBox">Search ala.org:</label> <input type="text" name="q" size="15" maxlength="256" value="" id="searchTextBox"><input class="go" name="GO" type="image" alt="Go" style="margin-left: 2px; width: 29px; height: 18px;" src="gfx/ala_v2/shell/btn_go.gif" /><input type="hidden" name="output" value="xml"> <input type="hidden" name="sort" value="date:D:L:d1"> <input type="hidden" name="client" value="default_frontend"> <input type="hidden" name="num" value="10"> <input type="hidden" name="oe" value="UTF-8"> <input type="hidden" name="ie" value="UTF-8"> <input type="hidden" name="site" value="default_collection"> <input type="hidden" name="proxyreload" value="1"> <input type="hidden" name="proxystylesheet" value="ALA"> </form>
+			</div>
+			<!-- /bounds -->
+		</div>
+		<!-- /mNav -->
+		<div id="bNav" class="clearfix">
+			<ul class="clearfix">
+       
+				
+						
+									
+							
+					
+        
+			</ul>
+		</div><!-- /bNav -->
+		<div id="contentBounds" class="clearfix">
+			<div id="sNav">
+            
+      
+          <!-- Prod.  Deploy Folder_struct.site -->
+          
+            
+            <!-- Defined: application.Deploy Folder_nav_query -->
+              
+                <!-- Not Defined: cNav -->
+                			
+	
+    
+    
+    
+    
+	
+  
+  
+  
+	
+	
+  
+  
+	
+	
+  
+
+		
+		
+    
+    
+		
+			
+			
+			
+		
+		
+		
+    
+		
+		
+
+		
+		
+		
+    	
+			
+				
+        
+			
+		
+    
+		
+
+    
+    
+     
+      
+    
+
+    			
+    
+		
+			    
+		  	
+    
+		
+		
+		
+			
+		
+		
+    
+		
+		
+			
+			
+			
+		
+		
+
+		
+			
+		
+		
+		
+			
+			
+			
+        
+        
+      
+      
+      	
+      
+      			
+		
+
+		<h3 id="navTitle"><a href="/index.cfm">Home - American Library Association</a></h3> 
+    
+		
+		
+ 		
+		
+				
+		 
+		 
+		 
+    
+			 
+    
+		
+		
+		
+			
+			
+			
+			
+			
+			
+				
+		
+		
+		
+    
+		
+		
+
+		
+		
+		
+    	
+			
+				
+        
+			
+		
+    
+		
+
+    
+    
+     
+      
+    
+
+    			
+    
+		
+			
+			
+      
+
+			 
+				     
+		  	
+    
+		
+		
+		
+			
+		
+		
+    
+		
+			
+			
+				
+					
+		
+		
+			
+			
+			
+				
+				
+					
+				
+			
+		
+		
+
+		
+			
+		
+		
+		
+    
+    
+    
+    	
+    
+		
+		
+			
+		
+	
+		
+    	
+			 
+				
+			
+			
+			
+			
+			
+			
+			
+			
+			
+
+			
+				
+        
+			
+			
+			
+			
+				  		
+			    
+					 
+            
+                   
+         
+    
+    	
+    
+    
+    
+    	
+        
+      
+      
+    
+    
+
+    
+            
+          
+
+  
+   
+                 
+		
+          
+           
+		   
+            
+            
+            	
+            
+                        
+          
+          
+          
+            
+			
+            
+            
+            	
+              
+                
+              
+            
+
+				
+            
+      
+				 
+			
+		
+    
+    	
+			 
+				
+			
+			
+			
+			
+			
+			
+			
+			
+			
+
+			
+				
+        
+			
+			
+			
+			
+				  		
+			    
+					
+
+  
+   
+                 
+		
+          
+           
+		   
+            
+            
+            	
+            
+                        
+          
+          
+          
+            
+			
+            
+            
+            	
+              
+                
+              
+            
+
+				
+            
+      
+				 
+					
+    
+		
+		
+ 		
+		
+				
+		 
+		 
+		 
+    
+		
+		
+		
+		
+		
+    
+    
+    
+    	
+    
+		
+		
+			
+		
+	
+		
+    	
+			 
+				
+			
+			
+			
+			
+			
+			
+			
+			
+			
+
+			
+				
+        
+			
+			
+			
+			
+				  		
+			    
+					
+
+  
+   
+                 
+		
+          
+           
+		              
+          	
+              
+                                            
+          
+          
+          
+            
+			
+                    
+              
+                
+			
+                  
+            
+             
+              
+              
+            
+            
+             
+            
+            
+            
+            
+             
+						
+            
+            
+            
+             	
+               
+               
+						
+
+				
+            
+      
+				 
+					
+    
+		
+		
+ 		
+		
+				
+		 
+		 
+		 
+    
+		
+		
+		
+		
+		
+    
+    
+    
+    	
+    
+		
+		
+			
+		
+	
+		
+    	
+			 
+				
+			
+			
+			
+			
+			
+			
+			
+			
+			
+
+			
+				
+        
+			
+			
+			
+			
+			
+		
+    
+    	
+			 
+				
+			
+			
+			
+			
+			
+			
+			
+			
+			
+
+			
+				
+        
+			
+			
+			
+			
+			
+		
+    
+    	
+			 
+				
+			
+			
+			
+			
+			
+			
+			
+			
+			
+
+			
+				
+        
+			
+			
+			
+			
+			
+		
+    
+    	
+			 
+				
+			
+			
+			
+			
+			
+			
+			
+			
+			
+
+			
+				
+        
+			
+			
+			
+			
+			
+		
+    
+    	
+			 
+				
+			
+			
+			
+			
+			
+			
+			
+			
+			
+
+			
+				
+        
+			
+			
+			
+			
+			
+		
+    
+    		
+						
+				 
+			
+		
+    
+    	
+			 
+				
+			
+			
+			
+			
+			
+			
+			
+			
+			
+
+			
+				
+        
+			
+			
+			
+			
+				  		
+			    
+					
+
+  
+   
+                 
+		
+          
+           
+		              
+          	
+                       			
+						
+              
+                                            
+          
+          
+          
+            
+			
+                    
+              
+                
+			
+                  
+            
+            
+            
+             
+            
+            
+            
+            
+             
+						
+            
+            
+            
+             	
+               
+               
+						
+
+				
+            
+      
+				 
+					
+    
+		
+		
+ 		
+		
+				
+		 
+		 
+		 
+    
+		
+		
+		
+		
+		
+    
+    
+    
+    	
+    
+		
+		
+			
+		
+	
+		
+    	
+			 
+				
+			
+			
+			
+			
+			
+			
+			
+			
+			
+
+			
+				
+        
+			
+			
+			
+			
+			
+		
+    
+    	
+			 
+				
+			
+			
+			
+			
+			
+			
+			
+			
+			
+
+			
+				
+        
+			
+			
+			
+			
+			
+		
+    
+    	
+			 
+				
+			
+			
+			
+			
+			
+			
+			
+			
+			
+
+			
+				
+        
+			
+			
+			
+			
+			
+		
+    
+    	
+			 
+				
+			
+			
+			
+			
+			
+			
+			
+			
+			
+
+			
+				
+        
+			
+			
+			
+			
+			
+		
+    
+    	
+			 
+				
+			
+			
+			
+			
+			
+			
+			
+			
+			
+
+			
+				
+        
+			
+			
+			
+			
+			
+		
+    
+    	
+			 
+				
+			
+			
+			
+			
+			
+			
+			
+			
+			
+
+			
+				
+        
+			
+			
+			
+			
+			
+		
+    
+    	
+			 
+				
+			
+			
+			
+			
+			
+			
+			
+			
+			
+
+			
+				
+        
+			
+			
+			
+			
+			
+		
+    
+    	
+			 
+				
+			
+			
+			
+			
+			
+			
+			
+			
+			
+
+			
+				
+        
+			
+			
+			
+			
+			
+		
+    
+    		
+						
+				 
+			
+		
+    
+    	
+			 
+				
+			
+			
+			
+			
+			
+			
+			
+			
+			
+
+			
+				
+        
+			
+			
+			
+			
+				  		
+			    
+					
+
+  
+   
+                 
+		
+          
+           
+		              
+          	
+                       			
+						
+              
+                                            
+          
+          
+          
+            
+			
+                    
+              
+                
+			
+                  
+            
+            
+            
+             
+            
+            
+            
+            
+             
+						
+            
+            
+            
+             	
+               
+               
+						
+
+				
+            
+      
+				 
+					
+    
+		
+		
+ 		
+		
+				
+		 
+		 
+		 
+    
+		
+		
+		
+		
+		
+    
+    
+    
+    	
+    
+		
+		
+			
+		
+	
+		
+    	
+			 
+				
+			
+			
+			
+			
+			
+			
+			
+			
+			
+
+			
+				
+        
+			
+			
+			
+			
+			
+		
+    
+    	
+			 
+				
+			
+			
+			
+			
+			
+			
+			
+			
+			
+
+			
+				
+        
+			
+			
+			
+			
+			
+		
+    
+    	
+			 
+				
+			
+			
+			
+			
+			
+			
+			
+			
+			
+
+			
+				
+        
+			
+			
+			
+			
+			
+		
+    
+    	
+			 
+				
+			
+			
+			
+			
+			
+			
+			
+			
+			
+
+			
+				
+        
+			
+			
+			
+			
+			
+		
+    
+    	
+			 
+				
+			
+			
+			
+			
+			
+			
+			
+			
+			
+
+			
+				
+        
+			
+			
+			
+			
+			
+		
+    
+    		
+						
+				 
+			
+		
+    
+    	
+			 
+				
+			
+			
+			
+			
+			
+			
+			
+			
+			
+
+			
+				
+        
+			
+			
+			
+			
+				  		
+			    
+					
+
+  
+   
+                 
+		
+          
+           
+		              
+          	
+                       			
+						
+              
+                                            
+          
+          
+          
+            
+			
+                    
+              
+                
+			
+                  
+            
+            
+            
+             
+            
+            
+            
+            
+             
+						
+            
+            
+            
+             	
+               
+               
+						
+
+				
+            
+      
+				 
+					
+    
+		
+		
+ 		
+		
+				
+		 
+		 
+		 
+    
+		
+		
+		
+		
+		
+    
+    
+    
+    	
+    
+		
+		
+			
+		
+	
+		
+    	
+			 
+				
+			
+			
+			
+			
+			
+			
+			
+			
+			
+
+			
+				
+        
+			
+			
+			
+			
+			
+		
+    
+    	
+			 
+				
+			
+			
+			
+			
+			
+			
+			
+			
+			
+
+			
+				
+        
+			
+			
+			
+			
+			
+		
+    
+    	
+			 
+				
+			
+			
+			
+			
+			
+			
+			
+			
+			
+
+			
+				
+        
+			
+			
+			
+			
+			
+		
+    
+    	
+			 
+				
+			
+			
+			
+			
+			
+			
+			
+			
+			
+
+			
+				
+        
+			
+			
+			
+			
+			
+		
+    
+    	
+			 
+				
+			
+			
+			
+			
+			
+			
+			
+			
+			
+
+			
+				
+        
+			
+			
+			
+			
+			
+		
+    
+    	
+			 
+				
+			
+			
+			
+			
+			
+			
+			
+			
+			
+
+			
+				
+        
+			
+			
+			
+			
+			
+		
+    
+    		
+						
+				 
+			
+		
+    
+    	
+			 
+				
+			
+			
+			
+			
+			
+			
+			
+			
+			
+
+			
+				
+        
+			
+			
+			
+			
+				  		
+			    
+					
+
+  
+   
+                 
+		
+          
+           
+		              
+          	
+                       			
+						
+              
+                                            
+          
+          
+          
+            
+			
+                    
+              
+                
+			
+                  
+            
+            
+            
+             
+            
+            
+            
+            
+             
+						
+            
+            
+            
+             	
+               
+               
+						
+
+				
+            
+      
+				 
+					
+    
+		
+		
+ 		
+		
+				
+		 
+		 
+		 
+    
+		
+		
+		
+		
+		
+    
+    
+    
+    	
+    
+		
+		
+			
+		
+	
+		
+    	
+			 
+				
+			
+			
+			
+			
+			
+			
+			
+			
+			
+
+			
+				
+        
+			
+			
+			
+			
+			
+		
+    
+    	
+			 
+				
+			
+			
+			
+			
+			
+			
+			
+			
+			
+
+			
+				
+        
+			
+			
+			
+			
+			
+		
+    
+    	
+			 
+				
+			
+			
+			
+			
+			
+			
+			
+			
+			
+
+			
+				
+        
+			
+			
+			
+			
+			
+		
+    
+    	
+			 
+				
+			
+			
+			
+			
+			
+			
+			
+			
+			
+
+			
+				
+        
+			
+			
+			
+			
+			
+		
+    
+    	
+			 
+				
+			
+			
+			
+			
+			
+			
+			
+			
+			
+
+			
+				
+        
+			
+			
+			
+			
+			
+		
+    
+    	
+			 
+				
+			
+			
+			
+			
+			
+			
+			
+			
+			
+
+			
+				
+        
+			
+			
+			
+			
+			
+		
+    
+    	
+			 
+				
+			
+			
+			
+			
+			
+			
+			
+			
+			
+
+			
+				
+        
+			
+			
+			
+			
+			
+		
+    
+    	
+			 
+				
+			
+			
+			
+			
+			
+			
+			
+			
+			
+
+			
+				
+        
+			
+			
+			
+			
+			
+		
+    
+    	
+			 
+				
+			
+			
+			
+			
+			
+			
+			
+			
+			
+
+			
+				
+        
+			
+			
+			
+			
+			
+		
+    
+    	
+			 
+				
+			
+			
+			
+			
+			
+			
+			
+			
+			
+
+			
+				
+        
+			
+			
+			
+			
+			
+		
+    
+    	
+			 
+				
+			
+			
+			
+			
+			
+			
+			
+			
+			
+
+			
+				
+        
+			
+			
+			
+			
+			
+		
+    
+    	
+			 
+				
+			
+			
+			
+			
+			
+			
+			
+			
+			
+
+			
+				
+        
+			
+			
+			
+			
+			
+		
+    
+    		
+						
+				 
+			
+		
+    
+    	
+			 
+				
+			
+			
+			
+			
+			
+			
+			
+			
+			
+
+			
+				
+        
+			
+			
+			
+			
+				  		
+			    
+					
+
+  
+   
+                 
+		
+          
+           
+		              
+          	
+                       			
+						
+              
+                                            
+          
+          
+          
+            
+			
+                    
+              
+                
+			
+                  
+            
+            
+            
+             
+            
+            
+            
+            
+             
+						
+            
+            
+            
+             	
+               
+               
+						
+
+				
+            
+      
+				 
+					
+    
+		
+		
+ 		
+		
+				
+		 
+		 
+		 
+    
+		
+		
+		
+		
+		
+    
+    
+    
+    	
+    
+		
+		
+			
+		
+	
+		
+    	
+			 
+				
+			
+			
+			
+			
+			
+			
+			
+			
+			
+
+			
+				
+        
+			
+			
+			
+			
+			
+		
+    
+    	
+			 
+				
+			
+			
+			
+			
+			
+			
+			
+			
+			
+
+			
+				
+        
+			
+			
+			
+			
+			
+		
+    
+    	
+			 
+				
+			
+			
+			
+			
+			
+			
+			
+			
+			
+
+			
+				
+        
+			
+			
+			
+			
+			
+		
+    
+    	
+			 
+				
+			
+			
+			
+			
+			
+			
+			
+			
+			
+
+			
+				
+        
+			
+			
+			
+			
+			
+		
+    
+    	
+			 
+				
+			
+			
+			
+			
+			
+			
+			
+			
+			
+
+			
+				
+        
+			
+			
+			
+			
+			
+		
+    
+    	
+			 
+				
+			
+			
+			
+			
+			
+			
+			
+			
+			
+
+			
+				
+        
+			
+			
+			
+			
+			
+		
+    
+    	
+			 
+				
+			
+			
+			
+			
+			
+			
+			
+			
+			
+
+			
+				
+        
+			
+			
+			
+			
+			
+		
+    
+    	
+			 
+				
+			
+			
+			
+			
+			
+			
+			
+			
+			
+
+			
+				
+        
+			
+			
+			
+			
+			
+		
+    
+    	
+			 
+				
+			
+			
+			
+			
+			
+			
+			
+			
+			
+
+			
+				
+        
+			
+			
+			
+			
+			
+		
+    
+    		
+						
+				 
+			
+		
+    
+    	
+			 
+				
+			
+			
+			
+			
+			
+			
+			
+			
+			
+
+			
+				
+        
+			
+			
+			
+			
+				  		
+			    
+					
+
+  
+   
+                 
+		
+          
+           
+		              
+          	
+                       			
+						
+              
+                                            
+          
+          
+          
+            
+			
+                    
+              
+                
+			
+                  
+            
+            
+            
+             
+            
+            
+            
+            
+             
+						
+            
+            
+            
+             	
+               
+               
+						
+
+				
+            
+      
+				 
+					
+    
+		
+		
+ 		
+		
+				
+		 
+		 
+		 
+    
+		
+		
+		
+		
+		
+    
+    
+    
+    	
+    
+		
+		
+			
+		
+	
+		
+    	
+			 
+				
+			
+			
+			
+			
+			
+			
+			
+			
+			
+
+			
+				
+        
+			
+			
+			
+			
+			
+		
+    
+    	
+			 
+				
+			
+			
+			
+			
+			
+			
+			
+			
+			
+
+			
+				
+        
+			
+			
+			
+			
+			
+		
+    
+    	
+			 
+				
+			
+			
+			
+			
+			
+			
+			
+			
+			
+
+			
+				
+        
+			
+			
+			
+			
+			
+		
+    
+    	
+			 
+				
+			
+			
+			
+			
+			
+			
+			
+			
+			
+
+			
+				
+        
+			
+			
+			
+			
+			
+		
+    
+    	
+			 
+				
+			
+			
+			
+			
+			
+			
+			
+			
+			
+
+			
+				
+        
+			
+			
+			
+			
+			
+		
+    
+    	
+			 
+				
+			
+			
+			
+			
+			
+			
+			
+			
+			
+
+			
+				
+        
+			
+			
+			
+			
+			
+		
+    
+    	
+			 
+				
+			
+			
+			
+			
+			
+			
+			
+			
+			
+
+			
+				
+        
+			
+			
+			
+			
+			
+		
+    
+    	
+			 
+				
+			
+			
+			
+			
+			
+			
+			
+			
+			
+
+			
+				
+        
+			
+			
+			
+			
+			
+		
+    
+    	
+			 
+				
+			
+			
+			
+			
+			
+			
+			
+			
+			
+
+			
+				
+        
+			
+			
+			
+			
+			
+		
+    
+    	
+			 
+				
+			
+			
+			
+			
+			
+			
+			
+			
+			
+
+			
+				
+        
+			
+			
+			
+			
+			
+		
+    
+    	
+			 
+				
+			
+			
+			
+			
+			
+			
+			
+			
+			
+
+			
+				
+        
+			
+			
+			
+			
+			
+		
+    
+    		
+						
+				 
+			
+		
+    
+    	
+			 
+				
+			
+			
+			
+			
+			
+			
+			
+			
+			
+
+			
+				
+        
+			
+			
+			
+			
+				  		
+			    
+					
+
+  
+   
+                 
+		
+          
+           
+		              
+          	
+                       			
+						
+              
+                                            
+          
+          
+          
+            
+			
+                    
+              
+                
+			
+                  
+            
+            
+            
+             
+            
+            
+            
+            
+             
+						
+            
+            
+            
+             	
+               
+               
+						
+
+				
+            
+      
+				 
+					
+    
+		
+		
+ 		
+		
+				
+		 
+		 
+		 
+    
+		
+		
+		
+		
+		
+    
+    
+    
+    	
+    
+		
+		
+			
+		
+	
+		
+    	
+			 
+				
+			
+			
+			
+			
+			
+			
+			
+			
+			
+
+			
+				
+        
+			
+			
+			
+			
+			
+		
+    
+    	
+			 
+				
+			
+			
+			
+			
+			
+			
+			
+			
+			
+
+			
+				
+        
+			
+			
+			
+			
+			
+		
+    
+    	
+			 
+				
+			
+			
+			
+			
+			
+			
+			
+			
+			
+
+			
+				
+        
+			
+			
+			
+			
+			
+		
+    
+    		
+						
+				 
+			
+		
+    
+    	
+			 
+				
+			
+			
+			
+			
+			
+			
+			
+			
+			
+
+			
+				
+        
+			
+			
+			
+			
+				  		
+			    
+					
+
+  
+   
+                 
+		
+          
+           
+		              
+          	
+                       			
+						
+              
+                                            
+          
+          
+          
+            
+			
+                    
+              
+                
+			
+                  
+            
+            
+            
+             
+            
+            
+            
+            
+             
+						
+            
+            
+            
+             	
+               
+               
+						
+
+				
+            
+      
+				 
+					
+    
+		
+		
+ 		
+		
+				
+		 
+		 
+		 
+    
+		
+		
+		
+		
+		
+    
+    
+    
+    	
+    
+		
+		
+			
+		
+	
+		
+    	
+			 
+				
+			
+			
+			
+			
+			
+			
+			
+			
+			
+
+			
+				
+        
+			
+			
+			
+			
+			
+		
+    
+    	
+			 
+				
+			
+			
+			
+			
+			
+			
+			
+			
+			
+
+			
+				
+        
+			
+			
+			
+			
+			
+		
+    
+    	
+			 
+				
+			
+			
+			
+			
+			
+			
+			
+			
+			
+
+			
+				
+        
+			
+			
+			
+			
+			
+		
+    
+    	
+			 
+				
+			
+			
+			
+			
+			
+			
+			
+			
+			
+
+			
+				
+        
+			
+			
+			
+			
+			
+		
+    
+    	
+			 
+				
+			
+			
+			
+			
+			
+			
+			
+			
+			
+
+			
+				
+        
+			
+			
+			
+			
+			
+		
+    
+    	
+			 
+				
+			
+			
+			
+			
+			
+			
+			
+			
+			
+
+			
+				
+        
+			
+			
+			
+			
+			
+		
+    
+    	
+			 
+				
+			
+			
+			
+			
+			
+			
+			
+			
+			
+
+			
+				
+        
+			
+			
+			
+			
+			
+		
+    
+    	
+			 
+				
+			
+			
+			
+			
+			
+			
+			
+			
+			
+
+			
+				
+        
+			
+			
+			
+			
+			
+		
+    
+    		
+						
+				 
+			
+		
+    
+    	
+			 
+				
+			
+			
+			
+			
+			
+			
+			
+			
+			
+
+			
+				
+        
+			
+			
+			
+			
+				  		
+			    
+					
+
+  
+   
+                 
+		
+          
+           
+		              
+          	
+                       			
+						
+              
+                                            
+          
+          
+          
+            
+			
+                    
+              
+                
+			
+                  
+            
+            
+            
+             
+            
+            
+            
+            
+             
+						
+            
+            
+            
+             	
+               
+               
+						
+
+				
+            
+      
+				 
+					
+    
+		
+		
+ 		
+		
+				
+		 
+		 
+		 
+    
+		
+		
+		
+		
+		
+    
+    
+    
+    	
+    
+		
+		
+			
+		
+	
+		
+    	
+			 
+				
+			
+			
+			
+			
+			
+			
+			
+			
+			
+
+			
+				
+        
+			
+			
+			
+			
+			
+		
+    
+    	
+			 
+				
+			
+			
+			
+			
+			
+			
+			
+			
+			
+
+			
+				
+        
+			
+			
+			
+			
+			
+		
+    
+    	
+			 
+				
+			
+			
+			
+			
+			
+			
+			
+			
+			
+
+			
+				
+        
+			
+			
+			
+			
+			
+		
+    
+    	
+			 
+				
+			
+			
+			
+			
+			
+			
+			
+			
+			
+
+			
+				
+        
+			
+			
+			
+			
+			
+		
+    
+    	
+			 
+				
+			
+			
+			
+			
+			
+			
+			
+			
+			
+
+			
+				
+        
+			
+			
+			
+			
+			
+		
+    
+    	
+			 
+				
+			
+			
+			
+			
+			
+			
+			
+			
+			
+
+			
+				
+        
+			
+			
+			
+			
+			
+		
+    
+    		
+						
+				 
+			
+		
+    
+    	
+			 
+				
+			
+			
+			
+			
+			
+			
+			
+			
+			
+
+			
+				
+        
+			
+			
+			
+			
+				  		
+			    
+					
+
+  
+   
+                 
+		
+          
+           
+		              
+          	
+                       			
+						
+              
+                                            
+          
+          
+          
+            
+			
+                    
+              
+                
+			
+                  
+            
+            
+            
+             
+            
+            
+            
+            
+             
+						
+            
+            
+            
+             	
+               
+               
+						
+
+				
+            
+      
+				 
+					
+    
+		
+		
+ 		
+		
+				
+		 
+		 
+		 
+    
+		
+		
+		
+		
+		
+    
+    
+    
+    	
+    
+		
+		
+			
+		
+	
+		
+    	
+			 
+				
+			
+			
+			
+			
+			
+			
+			
+			
+			
+
+			
+				
+        
+			
+			
+			
+			
+			
+		
+    
+    	
+			 
+				
+			
+			
+			
+			
+			
+			
+			
+			
+			
+
+			
+				
+        
+			
+			
+			
+			
+			
+		
+    
+    	
+			 
+				
+			
+			
+			
+			
+			
+			
+			
+			
+			
+
+			
+				
+        
+			
+			
+			
+			
+			
+		
+    
+    		
+						
+				 
+			
+		
+    
+    		
+						
+				 
+			
+		
+    
+    		
+		<ul><ul><li class='first ' id='492083'><a class='SideNavSelectedTitle' title='About ALA' href='/ala/aboutala/index.cfm'>About ALA</a>  </li><li class='' id='436555'><a class='SideNavSelectedTitle' title='Awards & Grants' href='/ala/awardsgrants/index.cfm'>Awards & Grants</a>  </li><li class='' id='492754'><a class='SideNavSelectedTitle' title='Conferences & Events' href='/ala/conferencesevents/index.cfm'>Conferences & Events</a>  </li><li class='' id='354719'><a class='SideNavSelectedTitle' title='Education & Careers' href='/ala/educationcareers/index.cfm'>Education & Careers</a>  </li><li class='' id='493336'><a class='SideNavSelectedTitle' title='Issues & Advocacy' href='/ala/issuesadvocacy/index.cfm'>Issues & Advocacy</a>  </li><li class='' id='492561'><a class='SideNavSelectedTitle' title='Member Groups & Communities' href='/ala/mgrps/index.cfm'>Member Groups & Communities</a>  </li><li class='' id='490659'><a class='SideNavSelectedTitle' title='Membership' href='/ala/membership/index.cfm'>Membership</a>  </li><li class='' id='493175'><a class='SideNavSelectedTitle' title='News & Press Center' href='/ala/newspresscenter/index.cfm'>News & Press Center</a>  </li><li class='' id='582127'><a class='SideNavSelectedTitle' title='Online Learning' href='/ala/onlinelearning/index.cfm'>Online Learning</a>  </li><li class='' id='493445'><a class='SideNavSelectedTitle' title='Professional Resources' href='/ala/professionalresources/index.cfm'>Professional Resources</a>  </li><li class='' id='554742'><a class='SideNavSelectedTitle' title='Research & Statistics' href='/ala/research/index.cfm'>Research & Statistics</a>  </li></ul> 
+	
+	<div id="utilities">
+		<form action="apps/cf/SendToFriend.cfm" method="post" class="clearfix">
+        	<input value="submit" type="image" src="gfx/ala_v2/shell/emailIcon.gif" alt="Email this Page" class="email" />
+			<input type="hidden" name="PageLinkStatic" value="http://www.ala.org/index.cfm">
+		</form>
+    
+	<a href="ALA_print_layout_cfm_1_470112_470112.cfm" target="_blank" class="print">Print</a>
+			
+			
+		<form action="/ala/cite.cfm" method="post" class="clearfix">
+        	<input value="submit" type="image" src="gfx/ala_v2/shell/citeIcon.gif" alt="Cite" class="cite" />
+			<input type="hidden" name="PageLinkStatic" value="http://www.ala.org/index.cfm">
+			<input type="hidden" name="Title" value="ALA | American Library Association">
+			<input type="hidden" name="docid" value="470112">
+			<input type="hidden" name="dtpub" value="April 23, 2008">
+			<input type="hidden" name="HTMLHead" value="">
+		</form>
+	</div><!-- /utilities -->
+
+
+				<p><script type="text/javascript">addthis_pub  = 'robcarlson';</script>
+				<a class="btnShare" href="http://www.addthis.com/bookmark.php" onMouseOver="return addthis_open(this, '', '[URL]', '[TITLE]')" onFocus="return addthis_open(this, '', '[URL]', '[TITLE]')" onMouseOut="addthis_close()" onBlur="addthis_close()" onClick="return addthis_sendto()"><img src="http://s9.addthis.com/button0-share.gif" width="83" height="16" border="0" alt="Share" align="center" /></a><script type="text/javascript" src="http://s7.addthis.com/js/152/addthis_widget.js"></script></p>
+			<!-- /utilities -->
+			</div>
+ 			<!-- /sNav -->
+			<div id="mainContent" class="clearfix">
+				<div id="mainColumn" class="clearfix">
+					
+	<div>
+	<div id="slideShow" class="clearfix">
+<div id="ss" class="clearfix">
+  
+    
+    
+          <div>
+      <a href="http://www.ilovelibraries.org/ilovemylibrarian">
+      <IMG class="" height=174 alt="Read about the winners." src="homepage_highlights/pio-lovelibrarian.jpg" width=467 border=0 >
+                  <div class="text">
+                    <h3>2010 I Love My Librarian award winners announced</h3>
+          <p>
+            Congratulations to the 2010 winners of Carnegie Corporation of New York/The New York Times I Love My Librarian award. Read about the winners. 
+          </p>
+                  </div>
+            </a>
+    </div>
+    
+          <div>
+      <a href="http://www.ala.org/ala/mgrps/divs/ascla/asclaevents/virtualconvergence/virtualconverg.cfm">
+      <IMG border=0 alt="ASCLA Online Learning webinar series" src="homepage_highlights/ascla-online-learning.jpg" width=467 height=174 >
+                  <div class="text">
+                    <h3>Plug into online learning with ASCLA&rsquo;s webinar series!</h3>
+          <p>
+            Prioritize your professional development with the Virtual Convergence, a week of webinars covering topics such as customer service in libraries, access to information, grant writing, and so much more! 
+          </p>
+                  </div>
+            </a>
+    </div>
+    
+          <div>
+      <a href="http://www.ala.org/ala/mgrps/divs/acrl/events/national/2011/">
+      <IMG border=0 alt="ACRL 2011 Conference" src="homepage_highlights/acrl2011.png" width=467 height=174 >
+                  <div class="text">
+                    <h3>2011 ACRL Conference</h3>
+          <p>
+            ACRL 2011 is the premier event for academic librarians and staff, featuring more than 300 innovative, peer-reviewed programs.&nbsp; Register by February 4, 2011, and save more than 20%! 
+          </p>
+                  </div>
+            </a>
+    </div>
+    
+          <div>
+      <a href="http://www.ala.org/ala/onlinelearning">
+      <IMG border=0 alt="Explore and grow professionally with ALA Online Learning" src="homepage_highlights/onlinelearninghighlight.png" width=467 height=174 >
+                  <div class="text">
+                    <h3>Explore and grow professionally with ALA Online Learning</h3>
+          <p>
+            Access ALA&rsquo;s library-related online learning&ndash;covering fundamentals, advances, trends &amp; hot topics!&nbsp;&nbsp;Find webinars, webcasts, e-courses &amp; e-forums offered by ALA divisions &amp; offices. 
+          </p>
+                  </div>
+            </a>
+    </div>
+    
+          <div>
+      <a href="http://www.ala.org/midwinter">
+      <IMG class="" height=174 alt="Midwinter Meeting logo" src="homepage_highlights/midwinter-meeting-im.png" width=467 border=0 >
+                  <div class="text">
+                    <h3>ALA 2011 Midwinter Meeting, January 7-11, 2011</h3>
+          <p>
+            <P  >Midwinter Meeting is in sunny San Diego, CA at the San Diego Convention Center.&nbsp;Bundled registration available during September; advance registration opens October 1, 2010.</p> 
+          </p>
+                  </div>
+            </a>
+    </div>
+    
+    
+</div><!-- end #ss -->
+</div><!-- end #slideShow -->
+
+	
+		
+  
+  </div><br /><br />
+
+	
+	  
+
+	<h2>Libraries in the News</h2>
+		<div class="tabs clearfix">
+			<ul class="clearfix">
+			
+				<li class="current"><a href="index.cfm?news=n">ALA</a><span><a class="rssSubscribe" href="http://americanlibrariesmagazine.org/pioproxy/rss.xml"><img src="gfx/spacer.gif" alt="ALA RSS" width="20px" height="10px" /></a></span></li>
+				<li ><a href="index.cfm?news=w">Legislation &amp; Advocacy</a><span><a class="rssSubscribe" href="http://www.wo.ala.org/districtdispatch/?feed=rss2"><img src="gfx/spacer.gif" alt="Legislation & Advocacy RSS" width="20px" height="10px" /></a></span></li>
+				<li ><a href="index.cfm?news=a">US &amp; World</a><span><a class="rssSubscribe" href="http://feeds.feedburner.com/AmericanLibrariesMagazine"><img src="gfx/spacer.gif" alt="U.S. & World News RSS" width="20px" height="10px" /></a></span></li>
+			
+			</ul>
+		</div>
+        
+          
+					
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
+
+
+		
+		
+		
+		
+		
+		
+
+					<ul class="libNews clearfix">
+					
+							<li><a href="http://ala.org/ala/newspresscenter/news/pr.cfm?id=5866" title="ALA: Museum and Library Services Act on its way to President’s desk">ALA: Museum and Library Services Act on its way to President’s desk</a></li>
+					
+							<li><a href="http://ala.org/ala/newspresscenter/news/pr.cfm?id=5859" title="ALA relays concerns about upcoming net neutrality order to FCC">ALA relays concerns about upcoming net neutrality order to FCC</a></li>
+					
+							<li><a href="http://ala.org/ala/newspresscenter/news/pr.cfm?id=5867" title="Application deadline for ALTAFF Trustee awards extended to Jan. 5">Application deadline for ALTAFF Trustee awards extended to Jan. 5</a></li>
+					
+							<li><a href="http://ala.org/ala/newspresscenter/news/pr.cfm?id=5846" title="AASL offers position on ESEA reauthorization">AASL offers position on ESEA reauthorization</a></li>
+					
+							<li><a href="http://ala.org/ala/newspresscenter/news/pr.cfm?id=5860" title="Sign up for RUSA genealogy workshop by Dec. 29">Sign up for RUSA genealogy workshop by Dec. 29</a></li>
+					
+							<li><a href="http://ala.org/ala/newspresscenter/news/pr.cfm?id=5854" title="Significant price drop for ASCLA “Consulting Toolkit” workshop">Significant price drop for ASCLA “Consulting Toolkit” workshop</a></li>
+					
+							<li><a href="http://ala.org/ala/newspresscenter/news/pr.cfm?id=5857" title="Applications available for ALA President’s Award for Advocacy, sponsored by ALTAFF">Applications available for ALA President’s Award for Advocacy, sponsored by ALTAFF</a></li>
+					
+					</ul>
+          
+		<p><a href="http://www.ala.org/ala/newspresscenter/news/insideala/index.cfm" title="More">More ALA</a></p>
+
+        
+	
+        </div><!-- /mainColumn -->
+        
+        
+          	<div id="sideColumn">
+              
+                  
+                  
+                  
+                    	 <!-- /right_nav_pods/builder.cfm -->
+                       
+
+	<div class="clearfix">
+		
+				<h3>2011 Midwinter Meeting</h3>
+					
+				<div class="left"><a class="" href="http://www.ala.org/midwinter" target="_self" title=""><img vspace="0px" border="0" hspace="0" alt="2011 Midwinter Meeting logo" width="69" src="http://www.ala.org/right_nav_pods/midwinter_pod_image.png" class="" height="49"></a></div> <!-- //left -->
+				<P>Join us! San Diego, CA January 7-11. <A class="" title="ALA Midwinter Meeting 2011" href="http://www.ala.org/midwinter" target=_self>More info ...</A></P>
+				
+			
+	</div> <!-- //clearfix -->
+
+	<div class="clearfix">
+		
+				<h3>Introducing ALA Online Learning!</h3>
+					
+				<div class="left"><a target="_self" href="http://www.ala.org/ala/onlinelearning/about/index.cfm" class="" title="About ALA Online Learning"><img border="0" width="69" alt="Online Learning" src="http://www.ala.org/right_nav_pods/pod-onlinelearning.png" height="49"></a></div> <!-- //left -->
+				Online courses, e-forums, webinars &amp; webcasts from ALA. <A class="" title="" href="http://www.ala.org/ala/onlinelearning/about/index.cfm" target=_self>Explore</A> the opportunities!
+				
+			
+	</div> <!-- //clearfix -->
+
+	<div class="clearfix">
+		
+				<h3>ALA Online Store</h3>
+					
+				<div class="left"><a target="_self" href="http://www.alastore.ala.org" class="" title="ALA Store"><img border="0" width="69" alt="ALA Store" src="http://www.ala.org/right_nav_pods/store.jpg" class="" height="49"></a></div> <!-- //left -->
+				Books, posters, graphics, CDs, clothing &amp; more!
+				
+						<p><a target="_self" href="http://www.alastore.ala.org" class="" title="ALA Store">Shop!</a></p>
+					
+			
+	</div> <!-- //clearfix -->
+
+	<div class="clearfix">
+		
+				<h3>ALA JobLIST</h3>
+					
+				<div class="left"><a target="_self" href="http://joblist.ala.org" class="" title="ALA Joblist"><img border="0" width="69" alt="ALA JobList" src="http://www.ala.org/right_nav_pods/joblist.png" class="" height="49"></a></div> <!-- //left -->
+				Library jobs &amp; career development resources.
+				
+						<p><a target="_self" href="http://joblist.ala.org" class="" title="ALA Joblist">View listings &amp; more&nbsp;...</a></p>
+					
+			
+	</div> <!-- //clearfix -->
+
+	<div class="clearfix">
+		
+				<h3>ALA Connect</h3>
+					
+				<div class="left"><a target="_self" href="http://connect.ala.org" title=""><img border="0" width="69" alt="ALA Connect" src="http://www.ala.org/right_nav_pods/alaconnect_pod.png" height="49"></a></div> <!-- //left -->
+				Find your ALA groups;&nbsp;start new communities. <A href="http://connect.ala.org"><FONT size=4>&rarr;</FONT></A>
+				
+			
+	</div> <!-- //clearfix -->
+
+                
+            </div><!-- /sideColumn -->
+          
+        
+			</div><!-- /mainContent -->
+		</div><!-- /contentBounds -->
+		<div id="footer" class="clearfix">
+						<p>American Library Association | 50 E. Huron, Chicago IL 60611 | 1.800.545.2433</p>
+			<div id="fNav">
+				<ul>
+					<li><a href="http://www.ala.org/ala/footer/copyright.cfm">Copyright Statement</a></li>
+					<li><a href="http://www.ala.org/ala/footer/privacypolicy.cfm">Privacy Policy</a></li>
+					<li><a href="http://ala.org/Template.cfm?Section=Home&Template=/CFApps/feedback/default.cfm">Feedback</a></li>
+				</ul>
+			</div>
+			<!-- /fNav -->
+			<div id="copyright"> 2010 &copy; American Library Association</div>
+			
+					<script type="text/javascript">
+					var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+					document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+					</script>
+					<script type="text/javascript">
+					var pageTracker = _gat._getTracker("UA-466934-4");
+					pageTracker._initData();
+					pageTracker._trackPageview();
+					</script>
+				
+		</div>
+		<!-- /footer -->
+	</div><!--/bounds -->
+</div><!-- /pageBounds -->
+
+
+
+		
+	
+
+
+
+</body>
+</html>
+
