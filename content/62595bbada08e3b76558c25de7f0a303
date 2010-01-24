@@ -1,0 +1,1317 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head profile="http://gmpg.org/xfn/11"><link rel="stylesheet" href="http://catfood.net/catfood.css" type="text/css" /><link rel="shortcut icon" type="image/png" href="/c.png" /><meta property="fb:admins" content="663740522" /><meta property="og:site_name" content="Catfood Software Blog" /><meta property="og:image" content="http://catfood.net/images/catfood-software-logo.png" /><meta name="keywords" content="Follower,Tools,Twitter" /><meta name="author" content="Rob" /><link rel="last" title="Earthquakes in November 2010" href="/blog/post/Earthquakes-in-November-2010.aspx" /><link rel="first" title="Old News" href="/blog/post/Old-News.aspx" /><link type="application/rss+xml" rel="alternate" title="Automatically follow and unfollow on Twitter with Catfood Follower (RSS)" href="/blog/post/feed/Automatically-follow-and-unfollow-on-Twitter-with-Catfood-Follower.aspx?format=ATOM" /><link type="application/rss+xml" rel="alternate" title="Automatically follow and unfollow on Twitter with Catfood Follower (ATOM)" href="/blog/post/feed/Automatically-follow-and-unfollow-on-Twitter-with-Catfood-Follower.aspx?format=ATOM" /><link rel="contents" title="Archive" href="/blog/archive.aspx" /><link rel="start" title="Catfood Software Blog" href="/blog/" /><link type="application/rdf+xml" rel="meta" title="SIOC" href="http://catfood.net/blog/sioc.axd" /><link type="application/apml+xml" rel="meta" title="APML" href="http://catfood.net/blog/apml.axd" /><link type="application/rdf+xml" rel="meta" title="FOAF" href="http://catfood.net/blog/foaf.axd" /><link type="application/rss+xml" rel="alternate" title="Catfood Software Blog" href="http://feeds.feedburner.com/CatfoodSoftwareBlog" /><link type="application/rsd+xml" rel="edituri" title="RSD" href="http://catfood.net/blog/rsd.axd" /><meta http-equiv="content-type" content="text/html; charset=utf-8" /><link type="application/opensearchdescription+xml" rel="search" title="Catfood Software Blog" href="http://catfood.net/blog/opensearch.axd" /><meta property="og:type" content="article" /><meta property="og:title" content="Automatically follow and unfollow on Twitter with Catfood Follower" /><meta property="og:url" content="http://catfood.net/blog/post.aspx?id=dd7a54ef-547a-4094-b552-3656da8f1870" /><title>
+	Catfood Software Blog | Automatically follow and unfollow on Twitter with Catfood Follower
+</title></head>
+<body>
+<form name="aspnetForm" method="post" action="/blog/post/Automatically-follow-and-unfollow-on-Twitter-with-Catfood-Follower.aspx" id="aspnetForm" class="body">
+<div>
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUIMzE3OTQ5NzYPZBYCZg9kFgICAw9kFgpmDxYCHgRUZXh0BdsKPGxpIGNsYXNzPSIgY3NzTWVudWkiPjxhIGNsYXNzPSIgIGNzc01lbnVpIiBocmVmPSIvcHJvZHVjdHMvY2Ftc2F2ZXIiPkNhbVNhdmVyPC9hPjwvbGk+DQo8bGkgY2xhc3M9IiBjc3NNZW51aSI+PGEgY2xhc3M9IiAgY3NzTWVudWkiIGhyZWY9Ii9wcm9kdWN0cy9jb250cmFjdGlvbi10aW1lciI+Q29udHJhY3Rpb24gVGltZXI8L2E+PC9saT4NCjxsaSBjbGFzcz0iIGNzc01lbnVpIj48YSBjbGFzcz0iICBjc3NNZW51aSIgaHJlZj0iL3Byb2R1Y3RzL2VhcnRoLyI+RWFydGg8L2E+PC9saT4NCjxsaSBjbGFzcz0iIGNzc01lbnVpIj48YSBjbGFzcz0iICBjc3NNZW51aSIgaHJlZj0iL3Byb2R1Y3RzL2ZvbGxvd2VyLyI+Rm9sbG93ZXI8L2E+PC9saT4NCjxsaSBjbGFzcz0iIGNzc01lbnVpIj48YSBjbGFzcz0iICBjc3NNZW51aSIgaHJlZj0iL3Byb2R1Y3RzL2ZvcnR1bmUvIj5Gb3J0dW5lIENvb2tpZXM8L2E+PC9saT4NCjxsaSBjbGFzcz0iIGNzc01lbnVpIj48YSBjbGFzcz0iICBjc3NNZW51aSIgaHJlZj0iL3Byb2R1Y3RzL2Z0cC8iPkZUUDwvYT48L2xpPg0KPGxpIGNsYXNzPSIgY3NzTWVudWkiPjxhIGNsYXNzPSIgIGNzc01lbnVpIiBocmVmPSIvcHJvZHVjdHMvbWFpbC8iPk1haWw8L2E+PC9saT4NCjxsaSBjbGFzcz0iIGNzc01lbnVpIj48YSBjbGFzcz0iICBjc3NNZW51aSIgaHJlZj0iL3Byb2R1Y3RzL25vc2xlZXAvIj5Ob3NsZWVwPC9hPjwvbGk+DQo8bGkgY2xhc3M9IiBjc3NNZW51aSI+PGEgY2xhc3M9IiAgY3NzTWVudWkiIGhyZWY9Ii9wcm9kdWN0cy9ucHJmaW5kZXIvIj5OUFIgRmluZGVyPC9hPjwvbGk+DQo8bGkgY2xhc3M9IiBjc3NNZW51aSI+PGEgY2xhc3M9IiAgY3NzTWVudWkiIGhyZWY9Ii9wcm9kdWN0cy9wZGZzY2FuIj5QZGZTY2FuPC9hPjwvbGk+DQo8bGkgY2xhc3M9IiBjc3NNZW51aSI+PGEgY2xhc3M9IiAgY3NzTWVudWkiIGhyZWY9Ii9wcm9kdWN0cy90ZXh0c2hpcHMvIj5UZXh0U2hpcHM8L2E+PC9saT4NCjxsaSBjbGFzcz0iIGNzc01lbnVpIj48YSBjbGFzcz0iICBjc3NNZW51aSIgaHJlZj0iL3Byb2R1Y3RzL3RyYWNrZXIvIj5UcmFja2VyPC9hPjwvbGk+DQo8bGkgY2xhc3M9IiBjc3NNZW51aSI+PGEgY2xhc3M9IiAgY3NzTWVudWkiIGhyZWY9Ii9wcm9kdWN0cy90d2l0dGVyLXNjcmVlbnNhdmVyLyI+VHdpdHRlciBTY3JlZW5zYXZlcjwvYT48L2xpPg0KPGxpIGNsYXNzPSIgY3NzTWVudWkiPjxhIGNsYXNzPSIgIGNzc01lbnVpIiBocmVmPSIvcHJvZHVjdHMvd2VhdGhlciI+V2VhdGhlcjwvYT48L2xpPg0KPGxpIGNsYXNzPSIgY3NzTWVudWkiPjxhIGNsYXNzPSIgIGNzc01lbnVpIiBocmVmPSIvcHJvZHVjdHMvd2ViY2Ftc2F2ZXIvIj5XZWJDYW1TYXZlcjwvYT48L2xpPg0KZAIBDxYCHwAFZjxhIGhyZWY9Ii9ibG9nLyI+Q2F0Zm9vZCBCbG9nPC9hPiA+IEF1dG9tYXRpY2FsbHkgZm9sbG93IGFuZCB1bmZvbGxvdyBvbiBUd2l0dGVyIHdpdGggQ2F0Zm9vZCBGb2xsb3dlcmQCAw9kFgQCCQ8WAh4HVmlzaWJsZWdkAg0PFgIfAWhkAgQPFgIfAAWUATxmYjpsaWtlIGhyZWY9Imh0dHA6Ly9jYXRmb29kLm5ldC9ibG9nL3Bvc3QuYXNweD9pZD1kZDdhNTRlZi01NDdhLTQwOTQtYjU1Mi0zNjU2ZGE4ZjE4NzAiIGxheW91dD0iYnV0dG9uX2NvdW50IiB3aWR0aD0iMTEwIiBmb250PSJ0YWhvbWEiPjwvZmI6bGlrZT5kAgcPFgIfAAUEMjAxMGRkz09Z9REVI0mQy6j0QswvKWYcXEo=" />
+</div>
+
+    <div id="wrapper">
+        <div id="header">
+            <a href="/" title="Home"><img class="middleimg" src="/images/catfood-software-logo.png" width="67" height="52" alt="Catfood Software" /></a> <span id="logotext"> <a href="/" title="Home">Catfood Software</a></span>
+            <div id="headerutil">
+            <ul class="cssMenu cssMenum">
+                <li class=" cssMenui"><a class="  cssMenui" href="/About.aspx">About Catfood</a></li>
+	            <li class=" cssMenui"><a class="  cssMenui" href="/Products/"><span>Products</span><![if gt IE 6]></a><![endif]><!--[if lte IE 6]><table><tr><td><![endif]-->
+	            <ul class=" cssMenum">
+                    <li class=" cssMenui"><a class="  cssMenui" href="/products/camsaver">CamSaver</a></li>
+<li class=" cssMenui"><a class="  cssMenui" href="/products/contraction-timer">Contraction Timer</a></li>
+<li class=" cssMenui"><a class="  cssMenui" href="/products/earth/">Earth</a></li>
+<li class=" cssMenui"><a class="  cssMenui" href="/products/follower/">Follower</a></li>
+<li class=" cssMenui"><a class="  cssMenui" href="/products/fortune/">Fortune Cookies</a></li>
+<li class=" cssMenui"><a class="  cssMenui" href="/products/ftp/">FTP</a></li>
+<li class=" cssMenui"><a class="  cssMenui" href="/products/mail/">Mail</a></li>
+<li class=" cssMenui"><a class="  cssMenui" href="/products/nosleep/">Nosleep</a></li>
+<li class=" cssMenui"><a class="  cssMenui" href="/products/nprfinder/">NPR Finder</a></li>
+<li class=" cssMenui"><a class="  cssMenui" href="/products/pdfscan">PdfScan</a></li>
+<li class=" cssMenui"><a class="  cssMenui" href="/products/textships/">TextShips</a></li>
+<li class=" cssMenui"><a class="  cssMenui" href="/products/tracker/">Tracker</a></li>
+<li class=" cssMenui"><a class="  cssMenui" href="/products/twitter-screensaver/">Twitter Screensaver</a></li>
+<li class=" cssMenui"><a class="  cssMenui" href="/products/weather">Weather</a></li>
+<li class=" cssMenui"><a class="  cssMenui" href="/products/webcamsaver/">WebCamSaver</a></li>
+
+	            </ul>
+	            <!--[if lte IE 6]></td></tr></table></a><![endif]--></li>
+	            <li class=" cssMenui"><a class="  cssMenui" href="https://catfood.net/store/"><span>Store</span><![if gt IE 6]></a><![endif]><!--[if lte IE 6]><table><tr><td><![endif]-->
+	            <ul class=" cssMenum">
+		            <li class=" cssMenui"><a class="  cssMenui" href="https://catfood.net/store/Order.aspx?id=30344521872">Earth</a></li>
+		            <li class=" cssMenui"><a class="  cssMenui" href="https://catfood.net/store/Order.aspx?id=30344273814">FTP</a></li>
+		            <li class=" cssMenui"><a class="  cssMenui" href="https://catfood.net/store/Order.aspx?id=30344928113">WebCamSaver</a></li>
+	            </ul>
+	            <!--[if lte IE 6]></td></tr></table></a><![endif]--></li>
+	            <li class=" cssMenui"><a class="  cssMenui" href="/Contact.aspx">Contact Catfood</a></li>
+	            <li class=" cssMenui"><a class="  cssMenui" href="/blog/">Catfood Blog</a></li>
+            </ul>
+            </div>
+        </div>
+        
+        <div id="main">
+            <div id="breadcrumbs"><a href="/">Home</a> > <a href="/blog/">Catfood Blog</a> > Automatically follow and unfollow on Twitter with Catfood Follower</div>
+            <h1 class="quietlink"><a href="/blog/">Catfood Software Blog</a></h1>
+            
+            
+  
+  
+
+  
+  
+  
+
+<div class="post xfolkentry" id="post0">
+  <h2 class="quietlink"><a href="/blog/post/Automatically-follow-and-unfollow-on-Twitter-with-Catfood-Follower.aspx" class="taggedlink">Automatically follow and unfollow on Twitter with Catfood Follower</a></h2>
+    <div class="text"><p>Catfood Follower is a desktop Twitter tool for following new friends that follow you and removing friends that don't follow you back. Follower supports Windows XP and Vista.<span id="oneforty.i.1472"> </span><br /><br /><a onclick="javascript:urchinTracker ('/downloads/follower');" href="http://www.catfood.net/products/CatfoodFollowerSetup.exe">Download Catfood Follower</a> (Current version: 1.30.0051)</p>
+<p><strong>After installing please read </strong><a href="http://catfood.net/blog/post/Getting-the-most-out-of-Catfood-Follower.aspx"><strong>Getting the most out of Catfood Follower</strong></a><strong>.</strong><br /><br /><a href="http://www.catfood.net/blog/uploaded_images/follower-744344.png" onblur="try {parent.deselectBloggerImageGracefully();} catch(e) {}"><img style="cursor: hand; width: 400px; height: 345px;" src="http://www.catfood.net/blog/uploaded_images/follower-744342.png" border="0" alt="Catfood Follower Screenshot" /></a><br /><br /><strong>Why auto-follow?</strong><br /><br />I have multiple twitter accounts. My personal account (<a href="http://twitter.com/abfo">@abfo</a>) doesn't auto-follow. If you look interesting and not obviously spammy then I'll probably follow you back. Catfood Software (<a href="http://twitter.com/CatfoodSoftware">@CatfoodSoftware</a>) will follow you backup using Catfood Follower. I've no idea if followers are Catfood customers or not so I want to follow everyone that signs up for Catfood updates. <br /><br /><strong>Why auto-remove?</strong><br /><br />Twitter makes it hard to tell when someone you're following removes you. The auto-remove feature of Follower checks for friends who don't follow back and removes them. You can exclude users who you want to follow regardless. <br /><br /><strong>How to use Catfood Follower</strong><br /><br />Follower supports multiple twitter accounts. For each account you can decide if you want to auto-follow, auto-remove or both. The screenshot above shows the settings for a single account.<br /><br />You can add exclusions for both auto-follow and auto-remove. For auto-remove you can also set how many days to wait before removing a friend who is no longer following you. This prevents Follower from automatically removing new friends who haven't had a chance to follow you back yet.<br /><br />Once you've entered rules for each account click the Test button on the main window. You can run the rules in test mode to see who would get followed and removed, or run in live mode to actually process the rules.<br /><br />You can just run Follower manually when you want to run the rules, or you can use Task Scheduler to run it automatically. To schedule Follower (on Vista) run Control Panel -&gt; Administrative Tools -&gt; Task Scheduler. Click <em>Create a Basic Task</em> and follow the Wizard to set the schedule (i.e. once a day). If you accepted the defaults during installation then the path to Follower is <em>"C:\Program Files\Catfood Software\Catfood Follower\Follower.exe"</em>. Running Follower with no arguments will automatically process the rules that you entered in Catfood Follower Settings. There is no display when Follower is running automatically.<br /><br /><strong>Need Help?</strong><br /><br />If you have any problems or questions send me an <a href="http://www.catfood.net/contact.asp">email</a>. If you have any feature suggestions please leave a comment below.<br /><br />(<strong>Updated 2009-05-04 to 1.00.0108:</strong> Fixed a problem where new exceptions for an account were not processed, this led to Follower auto-removing exceptions. Also, the installer is now digitally signed.)<br /><br />(<strong>Updated 2009-06-25 to 1.00.0122:</strong> Handle a twitter API bug with returning the correct number of friends/followers per page <strong>this is a critical update</strong>, added logging.)<br /><br />(<strong>Updated 2009-07-21:</strong> Note that Follower does not follow new users for you. If you're looking to do this check out <a href="http://twiogle.com/blog/twiogle-twitter-friend-adder/">Twiogle Twitter Friend Adder</a>.)<br /><br />(<strong>Updated 2009-12-12 to 1.10.0061:</strong> Improved API limit handling, progress window during automatic processing, can now cancel and update. See <a href="http://www.catfood.net/blog/2009/12/catfood-follower-110.asp">Catfood Follower 1.10</a> for more information.)<br /><br />(<strong>Updated 2010-03-16 to 1.20.0019:</strong> Fixed a bug related to location data in tweets. Added follow/unfollow limits to account settings. See <a href="http://www.catfood.net/blog/2010/03/catfood-follower-120.asp">Catfood Follower 1.20</a> for more information.)</p>
+<p>(<strong>Updated 2010-09-02 to 1.30.0051</strong>: Updated from basic auth to XAuth - <strong>this is a critical update</strong>, added manual step for removing followers (unfollowing).)</p></div>
+    <div class="bottom">
+    
+    <p class="tags">Tags: <a href="/blog/?tag=/Follower" rel="tag">Follower</a>, <a href="/blog/?tag=/Tools" rel="tag">Tools</a>, <a href="/blog/?tag=/Twitter" rel="tag">Twitter</a></p>
+    <p class="categories"><a href="/blog/category/Follower.aspx">Follower</a> | <a href="/blog/category/Tools.aspx">Tools</a> | <a href="/blog/category/Twitter.aspx">Twitter</a></p>
+    
+    </div>
+
+    <div class="postfooter">    
+    
+    <a rel="bookmark" href="http://catfood.net/blog/post.aspx?id=dd7a54ef-547a-4094-b552-3656da8f1870" title="Automatically follow and unfollow on Twitter with Catfood Follower">#</a> |
+    by <a href="/blog/author/Rob.aspx">Rob</a>
+    on April 12, 2009 |
+    <a rel="nofollow" href="/blog/post/Automatically-follow-and-unfollow-on-Twitter-with-Catfood-Follower.aspx#comment">Comments (48)</a>
+    </div>
+</div>
+  
+  
+    <!-- 
+    <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:trackback="http://madskills.com/public/xml/rss/module/trackback/">
+      <rdf:Description rdf:about="http://catfood.net/blog/post/Automatically-follow-and-unfollow-on-Twitter-with-Catfood-Follower.aspx" dc:identifier="http://catfood.net/blog/post/Automatically-follow-and-unfollow-on-Twitter-with-Catfood-Follower.aspx" dc:title="Automatically follow and unfollow on Twitter with Catfood Follower" trackback:ping="http://catfood.net/blog/trackback.axd?id=dd7a54ef-547a-4094-b552-3656da8f1870" />
+    </rdf:RDF>
+    -->
+  
+  
+  <div id="relatedPosts"><p>Related posts</p><div><a href="/blog/post/Getting-the-most-out-of-Catfood-Follower.aspx">Getting the most out of Catfood Follower</a><span>Catfood Follower 1.30 introduced some changes to removing traitors: followers who have stopped follo...</span><a href="/blog/post/Twitter-Screensaver-and-Catfood-Follower-Updates.aspx">Twitter Screensaver and Catfood Follower Updates</a><span>I've just posted an update to the Twitter Public Timeline Screensaver - by popular request you can n...</span><a href="/blog/post/Catfood-Follower-130.aspx">Catfood Follower 1.30</a><span>If you use Catfood Follower then from August 31, 2010 you must upgrade to at least 1.30 as Twitter i...</span></div></div>
+  
+  
+<p id="comment">Comments</p>
+
+
+<div id="commentlist" >
+  
+
+<div id="id_1af5670c-dfc1-4c91-a341-dbfc7333e26d" class="vcard comment">
+  <p class="date">5/3/2009 11:12:00 PM <a href="#id_1af5670c-dfc1-4c91-a341-dbfc7333e26d">#</a></p>
+  <p class="gravatar"><img class="photo" src="http://www.gravatar.com/avatar/41dc3e007986c35dc46763689fa93174.jpg?s=80&amp;d=wavatar" alt="Anonymous" /></p>
+  <p class="content">ExcepT list doesn't seem to work at all when you run a test or live test. It removes everyone regardless of if they are in the Except lisr</p>
+  <p class="author">
+    <span class="fn">Anonymous</span>
+    
+     | 
+    <a href="javascript:void(0);" class="reply-to-comment" onclick="BlogEngine.replyToComment('1af5670c-dfc1-4c91-a341-dbfc7333e26d');">Reply</a>    
+    
+  </p>
+  
+  <div class="comment-replies" id="replies_1af5670c-dfc1-4c91-a341-dbfc7333e26d"  style="display:none;">
+	
+  </div>
+  
+</div>
+
+<div id="id_ada50db3-95d3-44ca-8c70-6f2ca5ed115e" class="vcard comment self">
+  <p class="date">5/3/2009 11:38:39 PM <a href="#id_ada50db3-95d3-44ca-8c70-6f2ca5ed115e">#</a></p>
+  <p class="gravatar"><img class="photo" src="http://www.gravatar.com/avatar/744a244569d5698e3701ec0510f42bd1.jpg?s=80&amp;d=wavatar" alt="Rob" /></p>
+  <p class="content">Anonymous: Get in touch at <a href="http://www.catfood.net/contact.asp" rel="nofollow">http://www.catfood.net/contact.asp</a> and I'll help you figure out what the problem is.</p>
+  <p class="author">
+    <a href="http://www.blogger.com/profile/11817661291817449323" rel="nofollow" class="url fn">Rob</a>
+    
+     | 
+    <a href="javascript:void(0);" class="reply-to-comment" onclick="BlogEngine.replyToComment('ada50db3-95d3-44ca-8c70-6f2ca5ed115e');">Reply</a>    
+    
+  </p>
+  
+  <div class="comment-replies" id="replies_ada50db3-95d3-44ca-8c70-6f2ca5ed115e"  style="display:none;">
+	
+  </div>
+  
+</div>
+
+<div id="id_19c338b5-caec-4c66-a8cd-b50e41c59f80" class="vcard comment">
+  <p class="date">5/28/2009 11:53:06 AM <a href="#id_19c338b5-caec-4c66-a8cd-b50e41c59f80">#</a></p>
+  <p class="gravatar"><img class="photo" src="http://www.gravatar.com/avatar/41dc3e007986c35dc46763689fa93174.jpg?s=80&amp;d=wavatar" alt="Stormy" /></p>
+  <p class="content">Look good and helpful, hope everything working fine, thanks</p>
+  <p class="author">
+    <a href="http://www.blogger.com/profile/11120298450588078000" rel="nofollow" class="url fn">Stormy</a>
+    
+     | 
+    <a href="javascript:void(0);" class="reply-to-comment" onclick="BlogEngine.replyToComment('19c338b5-caec-4c66-a8cd-b50e41c59f80');">Reply</a>    
+    
+  </p>
+  
+  <div class="comment-replies" id="replies_19c338b5-caec-4c66-a8cd-b50e41c59f80"  style="display:none;">
+	
+  </div>
+  
+</div>
+
+<div id="id_e9e3fbf0-80f2-426c-b3e2-b481f940d4ed" class="vcard comment">
+  <p class="date">5/28/2009 2:56:48 PM <a href="#id_e9e3fbf0-80f2-426c-b3e2-b481f940d4ed">#</a></p>
+  <p class="gravatar"><img class="photo" src="http://www.gravatar.com/avatar/41dc3e007986c35dc46763689fa93174.jpg?s=80&amp;d=wavatar" alt="Stormy" /></p>
+  <p class="content">Tested loading members list failed</p>
+  <p class="author">
+    <a href="http://www.blogger.com/profile/11120298450588078000" rel="nofollow" class="url fn">Stormy</a>
+    
+     | 
+    <a href="javascript:void(0);" class="reply-to-comment" onclick="BlogEngine.replyToComment('e9e3fbf0-80f2-426c-b3e2-b481f940d4ed');">Reply</a>    
+    
+  </p>
+  
+  <div class="comment-replies" id="replies_e9e3fbf0-80f2-426c-b3e2-b481f940d4ed"  style="display:none;">
+	
+  </div>
+  
+</div>
+
+<div id="id_8ff59097-4361-4c87-a5ee-dcecda6b45be" class="vcard comment self">
+  <p class="date">5/28/2009 3:07:47 PM <a href="#id_8ff59097-4361-4c87-a5ee-dcecda6b45be">#</a></p>
+  <p class="gravatar"><img class="photo" src="http://www.gravatar.com/avatar/744a244569d5698e3701ec0510f42bd1.jpg?s=80&amp;d=wavatar" alt="Rob" /></p>
+  <p class="content">Stormy: for support send me an email at <a href="http://www.catfood.net/contact.asp" rel="nofollow">http://www.catfood.net/contact.asp</a> and I'll see if I can help you.</p>
+  <p class="author">
+    <a href="http://www.blogger.com/profile/11817661291817449323" rel="nofollow" class="url fn">Rob</a>
+    
+     | 
+    <a href="javascript:void(0);" class="reply-to-comment" onclick="BlogEngine.replyToComment('8ff59097-4361-4c87-a5ee-dcecda6b45be');">Reply</a>    
+    
+  </p>
+  
+  <div class="comment-replies" id="replies_8ff59097-4361-4c87-a5ee-dcecda6b45be"  style="display:none;">
+	
+  </div>
+  
+</div>
+
+<div id="id_c3f9fef3-4efe-4ca0-8057-555563ff6a9f" class="vcard comment">
+  <p class="date">6/5/2009 6:23:09 PM <a href="#id_c3f9fef3-4efe-4ca0-8057-555563ff6a9f">#</a></p>
+  <p class="gravatar"><img class="photo" src="http://www.gravatar.com/avatar/41dc3e007986c35dc46763689fa93174.jpg?s=80&amp;d=wavatar" alt="Tom" /></p>
+  <p class="content">Does not log on to my account, I&#39;m using tweetdeck but I logged off and still does not log on. Any ideas?</p>
+  <p class="author">
+    <a href="http://www.blogger.com/profile/16115597242359846851" rel="nofollow" class="url fn">Tom</a>
+    
+     | 
+    <a href="javascript:void(0);" class="reply-to-comment" onclick="BlogEngine.replyToComment('c3f9fef3-4efe-4ca0-8057-555563ff6a9f');">Reply</a>    
+    
+  </p>
+  
+  <div class="comment-replies" id="replies_c3f9fef3-4efe-4ca0-8057-555563ff6a9f"  style="display:none;">
+	
+  </div>
+  
+</div>
+
+<div id="id_5be1f77e-a33b-4c36-81f3-c224de792b4d" class="vcard comment self">
+  <p class="date">6/5/2009 6:59:00 PM <a href="#id_5be1f77e-a33b-4c36-81f3-c224de792b4d">#</a></p>
+  <p class="gravatar"><img class="photo" src="http://www.gravatar.com/avatar/744a244569d5698e3701ec0510f42bd1.jpg?s=80&amp;d=wavatar" alt="Rob" /></p>
+  <p class="content">Tom: It could be that your firewall is the problem. Make sure that follower.exe is allowed to access the Internet. If this doesn&#39;t help send me a message at <a href="http://www.catfood.net/contact.asp." rel="nofollow">http://www.catfood.net/contact.asp.</a></p>
+  <p class="author">
+    <a href="http://www.blogger.com/profile/11817661291817449323" rel="nofollow" class="url fn">Rob</a>
+    
+     | 
+    <a href="javascript:void(0);" class="reply-to-comment" onclick="BlogEngine.replyToComment('5be1f77e-a33b-4c36-81f3-c224de792b4d');">Reply</a>    
+    
+  </p>
+  
+  <div class="comment-replies" id="replies_5be1f77e-a33b-4c36-81f3-c224de792b4d"  style="display:none;">
+	
+  </div>
+  
+</div>
+
+<div id="id_63a2c892-3fa7-4f90-ad4f-9c5c029c0b47" class="vcard comment">
+  <p class="date">6/14/2009 5:39:36 PM <a href="#id_63a2c892-3fa7-4f90-ad4f-9c5c029c0b47">#</a></p>
+  <p class="gravatar"><img class="photo" src="http://www.gravatar.com/avatar/41dc3e007986c35dc46763689fa93174.jpg?s=80&amp;d=wavatar" alt="KINGLIFER" /></p>
+  <p class="content">Can this work with sprnch aka twitteradvanced?<br /><br />Thanks.</p>
+  <p class="author">
+    <a href="http://www.blogger.com/profile/10748801859244940084" rel="nofollow" class="url fn">KINGLIFER</a>
+    
+     | 
+    <a href="javascript:void(0);" class="reply-to-comment" onclick="BlogEngine.replyToComment('63a2c892-3fa7-4f90-ad4f-9c5c029c0b47');">Reply</a>    
+    
+  </p>
+  
+  <div class="comment-replies" id="replies_63a2c892-3fa7-4f90-ad4f-9c5c029c0b47"  style="display:none;">
+	
+  </div>
+  
+</div>
+
+<div id="id_b3a9ea7b-f701-4479-892d-1c9beba6d287" class="vcard comment self">
+  <p class="date">6/14/2009 11:18:37 PM <a href="#id_b3a9ea7b-f701-4479-892d-1c9beba6d287">#</a></p>
+  <p class="gravatar"><img class="photo" src="http://www.gravatar.com/avatar/744a244569d5698e3701ec0510f42bd1.jpg?s=80&amp;d=wavatar" alt="Rob" /></p>
+  <p class="content">KINGLIFER: Follower just follows/unfollows twitter friends based on the rules that you set. It doesn&#39;t handle any other services, just twitter.</p>
+  <p class="author">
+    <a href="http://www.blogger.com/profile/11817661291817449323" rel="nofollow" class="url fn">Rob</a>
+    
+     | 
+    <a href="javascript:void(0);" class="reply-to-comment" onclick="BlogEngine.replyToComment('b3a9ea7b-f701-4479-892d-1c9beba6d287');">Reply</a>    
+    
+  </p>
+  
+  <div class="comment-replies" id="replies_b3a9ea7b-f701-4479-892d-1c9beba6d287"  style="display:none;">
+	
+  </div>
+  
+</div>
+
+<div id="id_854ef150-eee0-40bb-bd1d-ddfadd9b6c02" class="vcard comment">
+  <p class="date">6/23/2009 1:26:01 PM <a href="#id_854ef150-eee0-40bb-bd1d-ddfadd9b6c02">#</a></p>
+  <p class="gravatar"><img class="photo" src="http://www.gravatar.com/avatar/41dc3e007986c35dc46763689fa93174.jpg?s=80&amp;d=wavatar" alt="Eddy" /></p>
+  <p class="content">It is showing th ewrong amount of friends and followers for my account. Anything I shoudl do ?</p>
+  <p class="author">
+    <span class="fn">Eddy</span>
+    
+     | 
+    <a href="javascript:void(0);" class="reply-to-comment" onclick="BlogEngine.replyToComment('854ef150-eee0-40bb-bd1d-ddfadd9b6c02');">Reply</a>    
+    
+  </p>
+  
+  <div class="comment-replies" id="replies_854ef150-eee0-40bb-bd1d-ddfadd9b6c02"  style="display:none;">
+	
+  </div>
+  
+</div>
+
+<div id="id_0bd42764-d490-4540-9187-dd01c74bd9d6" class="vcard comment self">
+  <p class="date">6/23/2009 1:51:36 PM <a href="#id_0bd42764-d490-4540-9187-dd01c74bd9d6">#</a></p>
+  <p class="gravatar"><img class="photo" src="http://www.gravatar.com/avatar/744a244569d5698e3701ec0510f42bd1.jpg?s=80&amp;d=wavatar" alt="Rob" /></p>
+  <p class="content">Eddy, possibly it&#39;s running out of API requests before it can list all of your friends. How many friends and followers do you have? Please get in touch at <a href="http://www.catfood.net/contact.asp." rel="nofollow">http://www.catfood.net/contact.asp.</a></p>
+  <p class="author">
+    <a href="http://www.blogger.com/profile/11817661291817449323" rel="nofollow" class="url fn">Rob</a>
+    
+     | 
+    <a href="javascript:void(0);" class="reply-to-comment" onclick="BlogEngine.replyToComment('0bd42764-d490-4540-9187-dd01c74bd9d6');">Reply</a>    
+    
+  </p>
+  
+  <div class="comment-replies" id="replies_0bd42764-d490-4540-9187-dd01c74bd9d6"  style="display:none;">
+	
+  </div>
+  
+</div>
+
+<div id="id_4367d734-4eb8-4458-ba68-9296252219a5" class="vcard comment self">
+  <p class="date">6/25/2009 4:24:16 PM <a href="#id_4367d734-4eb8-4458-ba68-9296252219a5">#</a></p>
+  <p class="gravatar"><img class="photo" src="http://www.gravatar.com/avatar/744a244569d5698e3701ec0510f42bd1.jpg?s=80&amp;d=wavatar" alt="Rob" /></p>
+  <p class="content">I just posted a critical update for Eddy&#39;s problem - make sure you have 1.00.0122 or later. There is a Twitter bug that causes problems loading multiple pages of friends and followers. Follower now handles this bug.</p>
+  <p class="author">
+    <a href="http://www.blogger.com/profile/11817661291817449323" rel="nofollow" class="url fn">Rob</a>
+    
+     | 
+    <a href="javascript:void(0);" class="reply-to-comment" onclick="BlogEngine.replyToComment('4367d734-4eb8-4458-ba68-9296252219a5');">Reply</a>    
+    
+  </p>
+  
+  <div class="comment-replies" id="replies_4367d734-4eb8-4458-ba68-9296252219a5"  style="display:none;">
+	
+  </div>
+  
+</div>
+
+<div id="id_2c7c6959-3eb1-4441-8b1e-b507059044bd" class="vcard comment">
+  <p class="date">7/1/2009 11:30:35 PM <a href="#id_2c7c6959-3eb1-4441-8b1e-b507059044bd">#</a></p>
+  <p class="gravatar"><img class="photo" src="http://www.gravatar.com/avatar/41dc3e007986c35dc46763689fa93174.jpg?s=80&amp;d=wavatar" alt="Anonymous" /></p>
+  <p class="content">Your catfood installer failed to launch saying error 1603. Fix that up please.</p>
+  <p class="author">
+    <span class="fn">Anonymous</span>
+    
+     | 
+    <a href="javascript:void(0);" class="reply-to-comment" onclick="BlogEngine.replyToComment('2c7c6959-3eb1-4441-8b1e-b507059044bd');">Reply</a>    
+    
+  </p>
+  
+  <div class="comment-replies" id="replies_2c7c6959-3eb1-4441-8b1e-b507059044bd"  style="display:none;">
+	
+  </div>
+  
+</div>
+
+<div id="id_d55fafd8-cec0-4390-bc6d-0651e16b3c1b" class="vcard comment self">
+  <p class="date">7/1/2009 11:43:33 PM <a href="#id_d55fafd8-cec0-4390-bc6d-0651e16b3c1b">#</a></p>
+  <p class="gravatar"><img class="photo" src="http://www.gravatar.com/avatar/744a244569d5698e3701ec0510f42bd1.jpg?s=80&amp;d=wavatar" alt="Rob" /></p>
+  <p class="content">Anonymous - <a href="<a href="http://www.catfood.net/contact.asp" rel="nofollow">http://www.catfood.net/contact.asp</a>" rel="nofollow">email</a> me and I&#39;ll help diagnose the problem.</p>
+  <p class="author">
+    <a href="http://www.blogger.com/profile/11817661291817449323" rel="nofollow" class="url fn">Rob</a>
+    
+     | 
+    <a href="javascript:void(0);" class="reply-to-comment" onclick="BlogEngine.replyToComment('d55fafd8-cec0-4390-bc6d-0651e16b3c1b');">Reply</a>    
+    
+  </p>
+  
+  <div class="comment-replies" id="replies_d55fafd8-cec0-4390-bc6d-0651e16b3c1b"  style="display:none;">
+	
+  </div>
+  
+</div>
+
+<div id="id_54c6021e-cf91-4ea3-a91b-16bbf1f1e5fd" class="vcard comment">
+  <p class="date">9/23/2009 2:33:30 AM <a href="#id_54c6021e-cf91-4ea3-a91b-16bbf1f1e5fd">#</a></p>
+  <p class="gravatar"><img class="photo" src="http://www.gravatar.com/avatar/41dc3e007986c35dc46763689fa93174.jpg?s=80&amp;d=wavatar" alt="internet marketing results" /></p>
+  <p class="content">this software rocks! you did an awesome job, I use it everyday.<br /><br />Whish you had a aut responder as well.<br /><br />Thank you for putting in the work and building a geat tool I reccommend to everyone i know.<br /><br />Thomas Becks<br />internet-marketing-results.com</p>
+  <p class="author">
+    <a href="http://internet-marketing-results.com/" rel="nofollow" class="url fn">internet marketing results</a>
+    
+     | 
+    <a href="javascript:void(0);" class="reply-to-comment" onclick="BlogEngine.replyToComment('54c6021e-cf91-4ea3-a91b-16bbf1f1e5fd');">Reply</a>    
+    
+  </p>
+  
+  <div class="comment-replies" id="replies_54c6021e-cf91-4ea3-a91b-16bbf1f1e5fd"  style="display:none;">
+	
+  </div>
+  
+</div>
+
+<div id="id_4b09da2c-1ce4-444b-8303-b3896c42af69" class="vcard comment self">
+  <p class="date">9/23/2009 2:49:01 PM <a href="#id_4b09da2c-1ce4-444b-8303-b3896c42af69">#</a></p>
+  <p class="gravatar"><img class="photo" src="http://www.gravatar.com/avatar/744a244569d5698e3701ec0510f42bd1.jpg?s=80&amp;d=wavatar" alt="Rob" /></p>
+  <p class="content">Thanks Thomas.<br /><br />There&#39;s no auto-responder because I hate this practice - getting an impersonal DM immediately after you follow someone is pretty spammy. I understand that it can be useful but it&#39;s just not something that I want to encourage.</p>
+  <p class="author">
+    <a href="http://www.blogger.com/profile/11817661291817449323" rel="nofollow" class="url fn">Rob</a>
+    
+     | 
+    <a href="javascript:void(0);" class="reply-to-comment" onclick="BlogEngine.replyToComment('4b09da2c-1ce4-444b-8303-b3896c42af69');">Reply</a>    
+    
+  </p>
+  
+  <div class="comment-replies" id="replies_4b09da2c-1ce4-444b-8303-b3896c42af69"  style="display:none;">
+	
+  </div>
+  
+</div>
+
+<div id="id_e941db9b-a28f-4182-95b3-d8f0d765bcea" class="vcard comment">
+  <p class="date">9/29/2009 11:20:46 AM <a href="#id_e941db9b-a28f-4182-95b3-d8f0d765bcea">#</a></p>
+  <p class="gravatar"><img class="photo" src="http://www.gravatar.com/avatar/41dc3e007986c35dc46763689fa93174.jpg?s=80&amp;d=wavatar" alt="Anonymous" /></p>
+  <p class="content">trying to run 18 accounts, most of time i get the error:<br /><br />cant load friendlist<br /><br />can u built in 4 multiple account handling, only unique user in all accounts?</p>
+  <p class="author">
+    <span class="fn">Anonymous</span>
+    
+     | 
+    <a href="javascript:void(0);" class="reply-to-comment" onclick="BlogEngine.replyToComment('e941db9b-a28f-4182-95b3-d8f0d765bcea');">Reply</a>    
+    
+  </p>
+  
+  <div class="comment-replies" id="replies_e941db9b-a28f-4182-95b3-d8f0d765bcea"  style="display:none;">
+	
+  </div>
+  
+</div>
+
+<div id="id_b3ea8af9-6988-442a-8c39-a667626b4a43" class="vcard comment self">
+  <p class="date">9/29/2009 2:43:48 PM <a href="#id_b3ea8af9-6988-442a-8c39-a667626b4a43">#</a></p>
+  <p class="gravatar"><img class="photo" src="http://www.gravatar.com/avatar/744a244569d5698e3701ec0510f42bd1.jpg?s=80&amp;d=wavatar" alt="Rob" /></p>
+  <p class="content">Anonymous - eighteen accounts is a lot. I suspect that you&#39;re running out of Twitter API requests before Follower can load all of the account details. I need to improve this so that the process can be spread out over time for people with lots of accounts (or just large friend/follower counts).<br /><br />I don&#39;t understand the second point. Could you explain what you want to do in more detail? Leave another comment or send me an <a href="<a href="http://www.catfood.net/contact.asp" rel="nofollow">http://www.catfood.net/contact.asp</a>" rel="nofollow">email</a>.</p>
+  <p class="author">
+    <a href="http://www.blogger.com/profile/11817661291817449323" rel="nofollow" class="url fn">Rob</a>
+    
+     | 
+    <a href="javascript:void(0);" class="reply-to-comment" onclick="BlogEngine.replyToComment('b3ea8af9-6988-442a-8c39-a667626b4a43');">Reply</a>    
+    
+  </p>
+  
+  <div class="comment-replies" id="replies_b3ea8af9-6988-442a-8c39-a667626b4a43"  style="display:none;">
+	
+  </div>
+  
+</div>
+
+<div id="id_7e9bbc9a-809c-4cdf-a743-af2f42b77f31" class="vcard comment">
+  <p class="date">9/29/2009 4:31:13 PM <a href="#id_7e9bbc9a-809c-4cdf-a743-af2f42b77f31">#</a></p>
+  <p class="gravatar"><img class="photo" src="http://www.gravatar.com/avatar/41dc3e007986c35dc46763689fa93174.jpg?s=80&amp;d=wavatar" alt="Zoltan/Anonymous" /></p>
+  <p class="content">no i dont &quot; running out of Twitter API requests before Follower can load all of the account details.&quot; cause follower load one after another, but if it loaded the first users followers the error comes &quot;cant load friendlist&quot; or &quot;cant load followerslist, but not every time, the second i need to have, if its posieble that you can count the request into twitter and if its run near to 100 or max 120 per hour you make a sleep(with a sign that prog is working and not hang) to the end of hour.<br /><br />the wish for unique users(followers) means, that no user(followers) from first user-account is in other user-accounts followers and when than unfollow this in all otheruser-accounts, so you can have more followers at all.<br /><br />by the way im scripting on a similar prog - in AHK - ;)<br /><br />sory my bad english but its not my native language.</p>
+  <p class="author">
+    <span class="fn">Zoltan/Anonymous</span>
+    
+     | 
+    <a href="javascript:void(0);" class="reply-to-comment" onclick="BlogEngine.replyToComment('7e9bbc9a-809c-4cdf-a743-af2f42b77f31');">Reply</a>    
+    
+  </p>
+  
+  <div class="comment-replies" id="replies_7e9bbc9a-809c-4cdf-a743-af2f42b77f31"  style="display:none;">
+	
+  </div>
+  
+</div>
+
+<div id="id_b66ded13-c885-4ff2-b51f-9e5f22ebe36c" class="vcard comment">
+  <p class="date">9/29/2009 4:32:44 PM <a href="#id_b66ded13-c885-4ff2-b51f-9e5f22ebe36c">#</a></p>
+  <p class="gravatar"><img class="photo" src="http://www.gravatar.com/avatar/41dc3e007986c35dc46763689fa93174.jpg?s=80&amp;d=wavatar" alt="Zoltan/Anonymous" /></p>
+  <p class="content">Oh with these 18 accounts, i go &gt;45 000 in 2 month!!</p>
+  <p class="author">
+    <span class="fn">Zoltan/Anonymous</span>
+    
+     | 
+    <a href="javascript:void(0);" class="reply-to-comment" onclick="BlogEngine.replyToComment('b66ded13-c885-4ff2-b51f-9e5f22ebe36c');">Reply</a>    
+    
+  </p>
+  
+  <div class="comment-replies" id="replies_b66ded13-c885-4ff2-b51f-9e5f22ebe36c"  style="display:none;">
+	
+  </div>
+  
+</div>
+
+<div id="id_e705c858-c536-4ec8-a6d4-aea3d18bf965" class="vcard comment self">
+  <p class="date">9/29/2009 4:40:07 PM <a href="#id_e705c858-c536-4ec8-a6d4-aea3d18bf965">#</a></p>
+  <p class="gravatar"><img class="photo" src="http://www.gravatar.com/avatar/744a244569d5698e3701ec0510f42bd1.jpg?s=80&amp;d=wavatar" alt="Rob" /></p>
+  <p class="content">Zoltan - thanks for the clarification. Yes, I&#39;m planning to add a &quot;sleep&quot; function so that the API limit doesn&#39;t interfere with large batches.<br /><br />I get the second request, I&#39;ll add it to the wish list.<br /><br />If you do publish something let me know and I&#39;ll link to it here.</p>
+  <p class="author">
+    <a href="http://www.blogger.com/profile/11817661291817449323" rel="nofollow" class="url fn">Rob</a>
+    
+     | 
+    <a href="javascript:void(0);" class="reply-to-comment" onclick="BlogEngine.replyToComment('e705c858-c536-4ec8-a6d4-aea3d18bf965');">Reply</a>    
+    
+  </p>
+  
+  <div class="comment-replies" id="replies_e705c858-c536-4ec8-a6d4-aea3d18bf965"  style="display:none;">
+	
+  </div>
+  
+</div>
+
+<div id="id_b78dadd8-e30d-4a73-a2f2-c022d34e792f" class="vcard comment">
+  <p class="date">10/19/2009 7:08:16 PM <a href="#id_b78dadd8-e30d-4a73-a2f2-c022d34e792f">#</a></p>
+  <p class="gravatar"><img class="photo" src="http://www.gravatar.com/avatar/41dc3e007986c35dc46763689fa93174.jpg?s=80&amp;d=wavatar" alt="Anonymous" /></p>
+  <p class="content">I think twitter just changed the API because it stopped loading friends and followers lately. Has anyone else had this problem ?</p>
+  <p class="author">
+    <span class="fn">Anonymous</span>
+    
+     | 
+    <a href="javascript:void(0);" class="reply-to-comment" onclick="BlogEngine.replyToComment('b78dadd8-e30d-4a73-a2f2-c022d34e792f');">Reply</a>    
+    
+  </p>
+  
+  <div class="comment-replies" id="replies_b78dadd8-e30d-4a73-a2f2-c022d34e792f"  style="display:none;">
+	
+  </div>
+  
+</div>
+
+<div id="id_aa9913b2-6ebd-4064-9d31-878f98f28737" class="vcard comment self">
+  <p class="date">10/20/2009 12:10:18 AM <a href="#id_aa9913b2-6ebd-4064-9d31-878f98f28737">#</a></p>
+  <p class="gravatar"><img class="photo" src="http://www.gravatar.com/avatar/744a244569d5698e3701ec0510f42bd1.jpg?s=80&amp;d=wavatar" alt="Rob" /></p>
+  <p class="content">Anonymous - I&#39;m not seeing a problem. Possibly you&#39;re hitting an API limit, possibly there was a problem with Twitter earlier and I can&#39;t reproduce the problem now.<br /><br />How many friends/followers do you have? Do you get the same problem if you try again now? Feel free to <a href="<a href="http://www.catfood.net/contact.asp" rel="nofollow">http://www.catfood.net/contact.asp</a>" rel="nofollow">email me</a> or just post another comment.</p>
+  <p class="author">
+    <a href="http://www.blogger.com/profile/11817661291817449323" rel="nofollow" class="url fn">Rob</a>
+    
+     | 
+    <a href="javascript:void(0);" class="reply-to-comment" onclick="BlogEngine.replyToComment('aa9913b2-6ebd-4064-9d31-878f98f28737');">Reply</a>    
+    
+  </p>
+  
+  <div class="comment-replies" id="replies_aa9913b2-6ebd-4064-9d31-878f98f28737"  style="display:none;">
+	
+  </div>
+  
+</div>
+
+<div id="id_a0dd41c9-ce16-4d48-99a3-b65f0e62fc64" class="vcard comment">
+  <p class="date">10/20/2009 8:08:13 PM <a href="#id_a0dd41c9-ce16-4d48-99a3-b65f0e62fc64">#</a></p>
+  <p class="gravatar"><img class="photo" src="http://www.gravatar.com/avatar/41dc3e007986c35dc46763689fa93174.jpg?s=80&amp;d=wavatar" alt="Anonymous" /></p>
+  <p class="content">I have 2 accounts with a little over 2000 followers each.It could possibly be a twitter problem and its been happening for about a week. It just worked fine yesterday.<br />Thank You <br />Fred</p>
+  <p class="author">
+    <span class="fn">Anonymous</span>
+    
+     | 
+    <a href="javascript:void(0);" class="reply-to-comment" onclick="BlogEngine.replyToComment('a0dd41c9-ce16-4d48-99a3-b65f0e62fc64');">Reply</a>    
+    
+  </p>
+  
+  <div class="comment-replies" id="replies_a0dd41c9-ce16-4d48-99a3-b65f0e62fc64"  style="display:none;">
+	
+  </div>
+  
+</div>
+
+<div id="id_fec48802-a10b-4273-bbf3-cbc2860764a8" class="vcard comment">
+  <p class="date">10/30/2009 12:24:50 PM <a href="#id_fec48802-a10b-4273-bbf3-cbc2860764a8">#</a></p>
+  <p class="gravatar"><img class="photo" src="http://www.gravatar.com/avatar/41dc3e007986c35dc46763689fa93174.jpg?s=80&amp;d=wavatar" alt="Jessicae" /></p>
+  <p class="content">Downloaded the program to my laptop running vista.<br /><br />Put in my twitter account details and tried to login<br /><br />&quot;login failed&quot;<br /><br />???</p>
+  <p class="author">
+    <a href="http://www.ukhandbags.com/" rel="nofollow" class="url fn">Jessicae</a>
+    
+     | 
+    <a href="javascript:void(0);" class="reply-to-comment" onclick="BlogEngine.replyToComment('fec48802-a10b-4273-bbf3-cbc2860764a8');">Reply</a>    
+    
+  </p>
+  
+  <div class="comment-replies" id="replies_fec48802-a10b-4273-bbf3-cbc2860764a8"  style="display:none;">
+	
+  </div>
+  
+</div>
+
+<div id="id_3499b65b-735f-4b59-b42e-22310fde4a0d" class="vcard comment self">
+  <p class="date">10/30/2009 1:52:17 PM <a href="#id_3499b65b-735f-4b59-b42e-22310fde4a0d">#</a></p>
+  <p class="gravatar"><img class="photo" src="http://www.gravatar.com/avatar/744a244569d5698e3701ec0510f42bd1.jpg?s=80&amp;d=wavatar" alt="Rob" /></p>
+  <p class="content">Jessicae - I just replied to your email. <br /><br />The most likely problem is that your firewall is blocking Catfood Follower.<br /><br />If the firewall isn&#39;t a problem check that you can access your account using the same username and password at twitter.com. <br /><br />It&#39;s also possible that the Twitter API is temporarily unavailable in which case trying again later might help.</p>
+  <p class="author">
+    <a href="http://www.blogger.com/profile/11817661291817449323" rel="nofollow" class="url fn">Rob</a>
+    
+     | 
+    <a href="javascript:void(0);" class="reply-to-comment" onclick="BlogEngine.replyToComment('3499b65b-735f-4b59-b42e-22310fde4a0d');">Reply</a>    
+    
+  </p>
+  
+  <div class="comment-replies" id="replies_3499b65b-735f-4b59-b42e-22310fde4a0d"  style="display:none;">
+	
+  </div>
+  
+</div>
+
+<div id="id_850bf181-9f8c-4157-8bf0-203ec689e1b2" class="vcard comment self">
+  <p class="date">10/30/2009 1:52:18 PM <a href="#id_850bf181-9f8c-4157-8bf0-203ec689e1b2">#</a></p>
+  <p class="gravatar"><img class="photo" src="http://www.gravatar.com/avatar/744a244569d5698e3701ec0510f42bd1.jpg?s=80&amp;d=wavatar" alt="Rob" /></p>
+  <p class="content">Jessicae - I just replied to your email. <br /><br />The most likely problem is that your firewall is blocking Catfood Follower.<br /><br />If the firewall isn&#39;t a problem check that you can access your account using the same username and password at twitter.com. <br /><br />It&#39;s also possible that the Twitter API is temporarily unavailable in which case trying again later might help.</p>
+  <p class="author">
+    <a href="http://www.blogger.com/profile/11817661291817449323" rel="nofollow" class="url fn">Rob</a>
+    
+     | 
+    <a href="javascript:void(0);" class="reply-to-comment" onclick="BlogEngine.replyToComment('850bf181-9f8c-4157-8bf0-203ec689e1b2');">Reply</a>    
+    
+  </p>
+  
+  <div class="comment-replies" id="replies_850bf181-9f8c-4157-8bf0-203ec689e1b2"  style="display:none;">
+	
+  </div>
+  
+</div>
+
+<div id="id_ba91fd0f-dff0-4284-a2fb-232b24075d9e" class="vcard comment">
+  <p class="date">12/5/2009 6:07:17 PM <a href="#id_ba91fd0f-dff0-4284-a2fb-232b24075d9e">#</a></p>
+  <p class="gravatar"><img class="photo" src="http://www.gravatar.com/avatar/4153c46681f0d85d125d1ae5d586bdd0.jpg?s=80&amp;d=wavatar" alt="gnatelise" /></p>
+  <p class="content">Anon that was happening to me too. It worked fine for about 2 weeks and now it refuses to load my friends. <br /><br />It says: Login failed.<br /><br />I can login to twitter.com so I know my passwords are correct. I also run the program as admin just in case, so I&#39;m not sure whats going on.</p>
+  <p class="author">
+    <a href="http://www.blogger.com/profile/14263896139110435093" rel="nofollow" class="url fn">gnatelise</a>
+    
+     | 
+    <a href="javascript:void(0);" class="reply-to-comment" onclick="BlogEngine.replyToComment('ba91fd0f-dff0-4284-a2fb-232b24075d9e');">Reply</a>    
+    
+  </p>
+  
+  <div class="comment-replies" id="replies_ba91fd0f-dff0-4284-a2fb-232b24075d9e"  style="display:none;">
+	
+  </div>
+  
+</div>
+
+<div id="id_a8db665c-6ef0-44bf-ad33-e8680d7973a7" class="vcard comment self">
+  <p class="date">12/5/2009 9:29:22 PM <a href="#id_a8db665c-6ef0-44bf-ad33-e8680d7973a7">#</a></p>
+  <p class="gravatar"><img class="photo" src="http://www.gravatar.com/avatar/744a244569d5698e3701ec0510f42bd1.jpg?s=80&amp;d=wavatar" alt="Rob" /></p>
+  <p class="content">gnatelise: it&#39;s most likely a problem with API limits. I&#39;ll be working on an update to improve this soon.</p>
+  <p class="author">
+    <a href="http://www.blogger.com/profile/11817661291817449323" rel="nofollow" class="url fn">Rob</a>
+    
+     | 
+    <a href="javascript:void(0);" class="reply-to-comment" onclick="BlogEngine.replyToComment('a8db665c-6ef0-44bf-ad33-e8680d7973a7');">Reply</a>    
+    
+  </p>
+  
+  <div class="comment-replies" id="replies_a8db665c-6ef0-44bf-ad33-e8680d7973a7"  style="display:none;">
+	
+  </div>
+  
+</div>
+
+<div id="id_c7c3139a-e0b1-430f-8739-4fdc57bf4485" class="vcard comment self">
+  <p class="date">12/12/2009 8:33:03 PM <a href="#id_c7c3139a-e0b1-430f-8739-4fdc57bf4485">#</a></p>
+  <p class="gravatar"><img class="photo" src="http://www.gravatar.com/avatar/744a244569d5698e3701ec0510f42bd1.jpg?s=80&amp;d=wavatar" alt="Rob" /></p>
+  <p class="content">I just released an update - 1.10.0061. This is much better at handling API limits. I&#39;d recommend that everyone upgrades to the new version.</p>
+  <p class="author">
+    <a href="http://www.blogger.com/profile/11817661291817449323" rel="nofollow" class="url fn">Rob</a>
+    
+     | 
+    <a href="javascript:void(0);" class="reply-to-comment" onclick="BlogEngine.replyToComment('c7c3139a-e0b1-430f-8739-4fdc57bf4485');">Reply</a>    
+    
+  </p>
+  
+  <div class="comment-replies" id="replies_c7c3139a-e0b1-430f-8739-4fdc57bf4485"  style="display:none;">
+	
+  </div>
+  
+</div>
+
+<div id="id_4731f2bf-5395-4704-bf9d-85553f03cecb" class="vcard comment">
+  <p class="date">1/1/2010 8:17:22 PM <a href="#id_4731f2bf-5395-4704-bf9d-85553f03cecb">#</a></p>
+  <p class="gravatar"><img class="photo" src="http://www.gravatar.com/avatar/41dc3e007986c35dc46763689fa93174.jpg?s=80&amp;d=wavatar" alt="Anonymous" /></p>
+  <p class="content">installed upgraded catfood follower. has error with windows xp on 2 computers.<br />fred</p>
+  <p class="author">
+    <span class="fn">Anonymous</span>
+    
+     | 
+    <a href="javascript:void(0);" class="reply-to-comment" onclick="BlogEngine.replyToComment('4731f2bf-5395-4704-bf9d-85553f03cecb');">Reply</a>    
+    
+  </p>
+  
+  <div class="comment-replies" id="replies_4731f2bf-5395-4704-bf9d-85553f03cecb"  style="display:none;">
+	
+  </div>
+  
+</div>
+
+<div id="id_5de1beba-5616-4d2e-8619-099dc4d98ed9" class="vcard comment self">
+  <p class="date">1/2/2010 3:48:45 PM <a href="#id_5de1beba-5616-4d2e-8619-099dc4d98ed9">#</a></p>
+  <p class="gravatar"><img class="photo" src="http://www.gravatar.com/avatar/744a244569d5698e3701ec0510f42bd1.jpg?s=80&amp;d=wavatar" alt="Rob" /></p>
+  <p class="content">Anonymous - could you let me know the exact error? Or <a href="<a href="http://www.catfood.net/contact.asp" rel="nofollow">http://www.catfood.net/contact.asp</a>" rel="nofollow">send me a message</a> and I can help you via email.</p>
+  <p class="author">
+    <a href="http://www.blogger.com/profile/11817661291817449323" rel="nofollow" class="url fn">Rob</a>
+    
+     | 
+    <a href="javascript:void(0);" class="reply-to-comment" onclick="BlogEngine.replyToComment('5de1beba-5616-4d2e-8619-099dc4d98ed9');">Reply</a>    
+    
+  </p>
+  
+  <div class="comment-replies" id="replies_5de1beba-5616-4d2e-8619-099dc4d98ed9"  style="display:none;">
+	
+  </div>
+  
+</div>
+
+<div id="id_632e7d57-400f-4d21-83c9-174a9004f67a" class="vcard comment">
+  <p class="date">1/3/2010 12:19:11 AM <a href="#id_632e7d57-400f-4d21-83c9-174a9004f67a">#</a></p>
+  <p class="gravatar"><img class="photo" src="http://www.gravatar.com/avatar/41dc3e007986c35dc46763689fa93174.jpg?s=80&amp;d=wavatar" alt="Anonymous" /></p>
+  <p class="content">A dialog box pops up and it just says windows encountered a problem and needs to close. thats it no error codes nothing.</p>
+  <p class="author">
+    <span class="fn">Anonymous</span>
+    
+     | 
+    <a href="javascript:void(0);" class="reply-to-comment" onclick="BlogEngine.replyToComment('632e7d57-400f-4d21-83c9-174a9004f67a');">Reply</a>    
+    
+  </p>
+  
+  <div class="comment-replies" id="replies_632e7d57-400f-4d21-83c9-174a9004f67a"  style="display:none;">
+	
+  </div>
+  
+</div>
+
+<div id="id_afb44059-3c73-4572-9e40-8af440755d3c" class="vcard comment self">
+  <p class="date">1/3/2010 3:04:25 PM <a href="#id_afb44059-3c73-4572-9e40-8af440755d3c">#</a></p>
+  <p class="gravatar"><img class="photo" src="http://www.gravatar.com/avatar/744a244569d5698e3701ec0510f42bd1.jpg?s=80&amp;d=wavatar" alt="Rob" /></p>
+  <p class="content">Anonymous - an immediate crash is most likely a problem with the .NET framework (a component that Follower depends on). Try running Windows Update and installing all .NET 2.0 and 3.5 updates. You may need to do this a few times if you haven&#39;t updated in a while. If this doesn&#39;t work find the .NET 2.0 framework in Control Panel -&gt; Add/Remove Programs and choose the repair option.</p>
+  <p class="author">
+    <a href="http://www.blogger.com/profile/11817661291817449323" rel="nofollow" class="url fn">Rob</a>
+    
+     | 
+    <a href="javascript:void(0);" class="reply-to-comment" onclick="BlogEngine.replyToComment('afb44059-3c73-4572-9e40-8af440755d3c');">Reply</a>    
+    
+  </p>
+  
+  <div class="comment-replies" id="replies_afb44059-3c73-4572-9e40-8af440755d3c"  style="display:none;">
+	
+  </div>
+  
+</div>
+
+<div id="id_9c0dddde-c82c-4b04-a6ce-147beb836324" class="vcard comment">
+  <p class="date">2/23/2010 5:12:02 PM <a href="#id_9c0dddde-c82c-4b04-a6ce-147beb836324">#</a></p>
+  <p class="gravatar"><img class="photo" src="http://www.gravatar.com/avatar/41dc3e007986c35dc46763689fa93174.jpg?s=80&amp;d=wavatar" alt="Shan" /></p>
+  <p class="content">With reagrds to the unfollowing - can you add a feature so we can set the delay and inbetween time of unfollows? I had an account suspended because I unfollowed 800 people in one day (using another tool)- yeah I know, an extreme and I just thought it would be good if there was a delay set eg unfollow people between -- secs and -- seconds so you can set it to say 30 - 75 and it unfollows people at those intervals - just so it doesn&#39;t trip any Twitter alarms! Thanks!</p>
+  <p class="author">
+    <span class="fn">Shan</span>
+    
+     | 
+    <a href="javascript:void(0);" class="reply-to-comment" onclick="BlogEngine.replyToComment('9c0dddde-c82c-4b04-a6ce-147beb836324');">Reply</a>    
+    
+  </p>
+  
+  <div class="comment-replies" id="replies_9c0dddde-c82c-4b04-a6ce-147beb836324"  style="display:none;">
+	
+  </div>
+  
+</div>
+
+<div id="id_ae1f9a7a-fffa-407b-a847-e9fa23ae1b7e" class="vcard comment self">
+  <p class="date">2/23/2010 5:29:38 PM <a href="#id_ae1f9a7a-fffa-407b-a847-e9fa23ae1b7e">#</a></p>
+  <p class="gravatar"><img class="photo" src="http://www.gravatar.com/avatar/744a244569d5698e3701ec0510f42bd1.jpg?s=80&amp;d=wavatar" alt="Rob" /></p>
+  <p class="content">Shan, good suggestion. I&#39;ve added this to the wish list for the next update.</p>
+  <p class="author">
+    <a href="http://www.blogger.com/profile/11817661291817449323" rel="nofollow" class="url fn">Rob</a>
+    
+     | 
+    <a href="javascript:void(0);" class="reply-to-comment" onclick="BlogEngine.replyToComment('ae1f9a7a-fffa-407b-a847-e9fa23ae1b7e');">Reply</a>    
+    
+  </p>
+  
+  <div class="comment-replies" id="replies_ae1f9a7a-fffa-407b-a847-e9fa23ae1b7e"  style="display:none;">
+	
+  </div>
+  
+</div>
+
+<div id="id_d11f98d2-c558-4a42-9078-8854affce240" class="vcard comment">
+  <p class="date">2/27/2010 1:09:46 PM <a href="#id_d11f98d2-c558-4a42-9078-8854affce240">#</a></p>
+  <p class="gravatar"><img class="photo" src="http://www.gravatar.com/avatar/41dc3e007986c35dc46763689fa93174.jpg?s=80&amp;d=wavatar" alt="Tony" /></p>
+  <p class="content">I have installed the program on XP but when accessing, the processing rules window flashes for a second and nothing happens then, no program starts. How can it be fixed?</p>
+  <p class="author">
+    <span class="fn">Tony</span>
+    
+     | 
+    <a href="javascript:void(0);" class="reply-to-comment" onclick="BlogEngine.replyToComment('d11f98d2-c558-4a42-9078-8854affce240');">Reply</a>    
+    
+  </p>
+  
+  <div class="comment-replies" id="replies_d11f98d2-c558-4a42-9078-8854affce240"  style="display:none;">
+	
+  </div>
+  
+</div>
+
+<div id="id_da82947c-b884-4a2b-9028-c93c3d63aeef" class="vcard comment self">
+  <p class="date">2/27/2010 2:25:11 PM <a href="#id_da82947c-b884-4a2b-9028-c93c3d63aeef">#</a></p>
+  <p class="gravatar"><img class="photo" src="http://www.gravatar.com/avatar/744a244569d5698e3701ec0510f42bd1.jpg?s=80&amp;d=wavatar" alt="Rob" /></p>
+  <p class="content">Tony, are you running Follower.exe directly? Try using the shortcut in the Start menu. This will allow you to configure rules for Follower.</p>
+  <p class="author">
+    <a href="http://www.blogger.com/profile/11817661291817449323" rel="nofollow" class="url fn">Rob</a>
+    
+     | 
+    <a href="javascript:void(0);" class="reply-to-comment" onclick="BlogEngine.replyToComment('da82947c-b884-4a2b-9028-c93c3d63aeef');">Reply</a>    
+    
+  </p>
+  
+  <div class="comment-replies" id="replies_da82947c-b884-4a2b-9028-c93c3d63aeef"  style="display:none;">
+	
+  </div>
+  
+</div>
+
+<div id="id_906ea039-0323-4731-97ca-8ddf2312b6bf" class="vcard comment">
+  <p class="date">3/11/2010 8:38:10 PM <a href="#id_906ea039-0323-4731-97ca-8ddf2312b6bf">#</a></p>
+  <p class="gravatar"><img class="photo" src="http://www.gravatar.com/avatar/41dc3e007986c35dc46763689fa93174.jpg?s=80&amp;d=wavatar" alt="Anonymous" /></p>
+  <p class="content">To eliminate problem with flashing app just for a couple of seconds -- make shortcut and set the attribute /settings in options<br /><br />anyway, programm doesn&#39;t work givin 502 error</p>
+  <p class="author">
+    <span class="fn">Anonymous</span>
+    
+     | 
+    <a href="javascript:void(0);" class="reply-to-comment" onclick="BlogEngine.replyToComment('906ea039-0323-4731-97ca-8ddf2312b6bf');">Reply</a>    
+    
+  </p>
+  
+  <div class="comment-replies" id="replies_906ea039-0323-4731-97ca-8ddf2312b6bf"  style="display:none;">
+	
+  </div>
+  
+</div>
+
+<div id="id_2a4f00fc-1f24-42ed-956c-3ea791e5fdeb" class="vcard comment self">
+  <p class="date">3/11/2010 9:09:38 PM <a href="#id_2a4f00fc-1f24-42ed-956c-3ea791e5fdeb">#</a></p>
+  <p class="gravatar"><img class="photo" src="http://www.gravatar.com/avatar/744a244569d5698e3701ec0510f42bd1.jpg?s=80&amp;d=wavatar" alt="Rob" /></p>
+  <p class="content">Anonymous, there is already a shortcut for settings in Start -&gt; All Programs -&gt; Catfood Software -&gt; Catfood Follower.<br /><br />A 502 error indicates that twitter is temporarily down / unavailable. If you get this consistently check that your account is configured correctly. If that doesn&#39;t help <a href="<a href="http://www.catfood.net/contact.asp" rel="nofollow">http://www.catfood.net/contact.asp</a>" rel="nofollow">get in touch</a>.</p>
+  <p class="author">
+    <a href="http://www.blogger.com/profile/11817661291817449323" rel="nofollow" class="url fn">Rob</a>
+    
+     | 
+    <a href="javascript:void(0);" class="reply-to-comment" onclick="BlogEngine.replyToComment('2a4f00fc-1f24-42ed-956c-3ea791e5fdeb');">Reply</a>    
+    
+  </p>
+  
+  <div class="comment-replies" id="replies_2a4f00fc-1f24-42ed-956c-3ea791e5fdeb"  style="display:none;">
+	
+  </div>
+  
+</div>
+
+<div id="id_620fbdc3-503b-4a1b-8ca7-abdda31203a7" class="vcard comment self">
+  <p class="date">3/16/2010 5:14:28 PM <a href="#id_620fbdc3-503b-4a1b-8ca7-abdda31203a7">#</a></p>
+  <p class="gravatar"><img class="photo" src="http://www.gravatar.com/avatar/744a244569d5698e3701ec0510f42bd1.jpg?s=80&amp;d=wavatar" alt="Rob" /></p>
+  <p class="content">I just released 1.20. This fixes a bug caused by the location data that was recently added to tweets. Everyone should update to this version.</p>
+  <p class="author">
+    <a href="http://www.blogger.com/profile/11817661291817449323" rel="nofollow" class="url fn">Rob</a>
+    
+     | 
+    <a href="javascript:void(0);" class="reply-to-comment" onclick="BlogEngine.replyToComment('620fbdc3-503b-4a1b-8ca7-abdda31203a7');">Reply</a>    
+    
+  </p>
+  
+  <div class="comment-replies" id="replies_620fbdc3-503b-4a1b-8ca7-abdda31203a7"  style="display:none;">
+	
+  </div>
+  
+</div>
+
+<div id="id_d5a91732-afa2-4e08-8405-e2033f433279" class="vcard comment">
+  <p class="date">4/6/2010 3:26:44 AM <a href="#id_d5a91732-afa2-4e08-8405-e2033f433279">#</a></p>
+  <p class="gravatar"><img class="photo" src="http://www.gravatar.com/avatar/41dc3e007986c35dc46763689fa93174.jpg?s=80&amp;d=wavatar" alt="Chris" /></p>
+  <p class="content">this doesnt seem to work for me... i run the unfollow and it seems to run right but i check my account and no one has been unfollowed. and yes more than enough days have gone by.</p>
+  <p class="author">
+    <a href="http://www.cbwholesalers.com/" rel="nofollow" class="url fn">Chris</a>
+    
+     | 
+    <a href="javascript:void(0);" class="reply-to-comment" onclick="BlogEngine.replyToComment('d5a91732-afa2-4e08-8405-e2033f433279');">Reply</a>    
+    
+  </p>
+  
+  <div class="comment-replies" id="replies_d5a91732-afa2-4e08-8405-e2033f433279"  style="display:none;">
+	
+  </div>
+  
+</div>
+
+<div id="id_f342ddd2-4b66-41e2-a511-ae7412c27379" class="vcard comment self">
+  <p class="date">4/6/2010 3:50:52 PM <a href="#id_f342ddd2-4b66-41e2-a511-ae7412c27379">#</a></p>
+  <p class="gravatar"><img class="photo" src="http://www.gravatar.com/avatar/744a244569d5698e3701ec0510f42bd1.jpg?s=80&amp;d=wavatar" alt="Rob" /></p>
+  <p class="content">Chris - Follower generates a log which you can check for more information. On Vista or 7 the log will be at &quot;C:\Users\[YOU]\AppData\Roaming\Catfood Software\Catfood Follower\follower.log&quot;. If this doesn&#39;t help <a href="<a href="http://www.catfood.net/contact.asp" rel="nofollow">http://www.catfood.net/contact.asp</a>" rel="nofollow">email me</a>.</p>
+  <p class="author">
+    <a href="http://www.blogger.com/profile/11817661291817449323" rel="nofollow" class="url fn">Rob</a>
+    
+     | 
+    <a href="javascript:void(0);" class="reply-to-comment" onclick="BlogEngine.replyToComment('f342ddd2-4b66-41e2-a511-ae7412c27379');">Reply</a>    
+    
+  </p>
+  
+  <div class="comment-replies" id="replies_f342ddd2-4b66-41e2-a511-ae7412c27379"  style="display:none;">
+	
+  </div>
+  
+</div>
+
+<div id="id_30e2a00a-0188-49d4-926d-dfa67e0ed91a" class="vcard comment">
+  <p class="date">8/31/2010 5:49:34 PM <a href="#id_30e2a00a-0188-49d4-926d-dfa67e0ed91a">#</a></p>
+  <p class="gravatar"><img class="thumb" src="http://images.websnapr.com/?url=http%3a%2f%2ftwittersoftware.org%2fcatfood-software-blog-automatically-follow-and-unfollow-on.html&amp;size=t" alt="pingback" /></p>
+  <p class="content">Pingback from twittersoftware.org<br /><br />Catfood Software Blog | Automatically follow and unfollow on &#8230; | Twitter Software</p>
+  <p class="author">
+    <a href="http://twittersoftware.org/catfood-software-blog-automatically-follow-and-unfollow-on.html" rel="nofollow" class="url fn">twittersoftware.org</a>
+    
+     | 
+    <a href="javascript:void(0);" class="reply-to-comment" onclick="BlogEngine.replyToComment('30e2a00a-0188-49d4-926d-dfa67e0ed91a');">Reply</a>    
+    
+  </p>
+  
+  <div class="comment-replies" id="replies_30e2a00a-0188-49d4-926d-dfa67e0ed91a"  style="display:none;">
+	
+  </div>
+  
+</div>
+
+<div id="id_e628e0bf-b4ba-4fbc-bee2-a8e98e6263e7" class="vcard comment">
+  <p class="date">9/25/2010 4:06:46 PM <a href="#id_e628e0bf-b4ba-4fbc-bee2-a8e98e6263e7">#</a></p>
+  <p class="gravatar"><img class="photo" src="http://www.gravatar.com/avatar/d6e2fe1a2f32b5cc60df8e4e97534823.jpg?s=80&amp;d=wavatar" alt="Raju Kumar" /></p>
+  <p class="content">When I am trying to install to my machine,it is prematurely installed and end.Error is windows service pack 2 or windows7 not available.But I am using windows xp professional service pack2.</p>
+  <p class="author">
+    <a href="http://www.onlinework4all.com/" rel="nofollow" class="url fn">Raju Kumar</a>
+    <span class="adr"><img src="/blog/pics/flags/in.png" class="country-name flag" title="India" alt="India" /></span>
+     | 
+    <a href="javascript:void(0);" class="reply-to-comment" onclick="BlogEngine.replyToComment('e628e0bf-b4ba-4fbc-bee2-a8e98e6263e7');">Reply</a>    
+    
+  </p>
+  
+  <div class="comment-replies" id="replies_e628e0bf-b4ba-4fbc-bee2-a8e98e6263e7" >
+	
+
+<div id="id_3bfa7fc5-d134-4776-8e49-dceeeed03a21" class="vcard comment self">
+  <p class="date">9/25/2010 4:38:03 PM <a href="#id_3bfa7fc5-d134-4776-8e49-dceeeed03a21">#</a></p>
+  <p class="gravatar"><img class="photo" src="http://www.gravatar.com/avatar/744a244569d5698e3701ec0510f42bd1.jpg?s=80&amp;d=wavatar" alt="Rob" /></p>
+  <p class="content">You need to install XP SP3 (from Windows Update). I'd recommend installing .NET 4 at the same time before trying to install Follower again.</p>
+  <p class="author">
+    <a href="http://catfood.net/" rel="nofollow" class="url fn">Rob</a>
+    <span class="adr"><img src="/blog/pics/flags/us.png" class="country-name flag" title="United States" alt="United States" /></span>
+     | 
+    <a href="javascript:void(0);" class="reply-to-comment" onclick="BlogEngine.replyToComment('3bfa7fc5-d134-4776-8e49-dceeeed03a21');">Reply</a>    
+    
+  </p>
+  
+  <div class="comment-replies" id="replies_3bfa7fc5-d134-4776-8e49-dceeeed03a21"  style="display:none;">
+	
+  </div>
+  
+</div>
+  </div>
+  
+</div>
+
+<div id="id_2b3d47a4-0811-4099-a615-c645fae33c37" class="vcard comment">
+  <p class="date">12/4/2010 4:19:34 PM <a href="#id_2b3d47a4-0811-4099-a615-c645fae33c37">#</a></p>
+  <p class="gravatar"><img class="photo" src="http://www.gravatar.com/avatar/c815a8771349c44aa4d7eacaab177089.jpg?s=80&amp;d=wavatar" alt="POed" /></p>
+  <p class="content">A big pain in the butt to install.</p>
+  <p class="author">
+    <span class="fn">POed</span>
+    <span class="adr"><img src="/blog/pics/flags/us.png" class="country-name flag" title="United States" alt="United States" /></span>
+     | 
+    <a href="javascript:void(0);" class="reply-to-comment" onclick="BlogEngine.replyToComment('2b3d47a4-0811-4099-a615-c645fae33c37');">Reply</a>    
+    
+  </p>
+  
+  <div class="comment-replies" id="replies_2b3d47a4-0811-4099-a615-c645fae33c37" >
+	
+
+<div id="id_fdae69dc-7e7f-47c5-85ac-20c3d40483a0" class="vcard comment self">
+  <p class="date">12/4/2010 4:25:29 PM <a href="#id_fdae69dc-7e7f-47c5-85ac-20c3d40483a0">#</a></p>
+  <p class="gravatar"><img class="photo" src="http://www.gravatar.com/avatar/744a244569d5698e3701ec0510f42bd1.jpg?s=80&amp;d=wavatar" alt="Rob" /></p>
+  <p class="content">What went wrong?</p>
+  <p class="author">
+    <a href="http://catfood.net/" rel="nofollow" class="url fn">Rob</a>
+    <span class="adr"><img src="/blog/pics/flags/us.png" class="country-name flag" title="United States" alt="United States" /></span>
+     | 
+    <a href="javascript:void(0);" class="reply-to-comment" onclick="BlogEngine.replyToComment('fdae69dc-7e7f-47c5-85ac-20c3d40483a0');">Reply</a>    
+    
+  </p>
+  
+  <div class="comment-replies" id="replies_fdae69dc-7e7f-47c5-85ac-20c3d40483a0"  style="display:none;">
+	
+  </div>
+  
+</div>
+  </div>
+  
+</div>  
+</div>
+
+
+
+<div id="comment-form">
+
+	<img src="/blog/pics/ajax-loader.gif" alt="Saving the comment" style="display:none" id="ajaxLoader" />  
+	<span id="status"></span>
+
+	<div class="commentForm">
+	  <p id="addcomment">Add comment</p>
+
+	  <input type="hidden" name="ctl00$cphBody$CommentView1$hiddenReplyTo" id="ctl00_cphBody_CommentView1_hiddenReplyTo" />
+		<p id="cancelReply" style="display:none;"><a href="javascript:void(0);" onclick="BlogEngine.cancelReply();">Cancel reply to comment</a></p>
+	  
+
+	  <label for="txtName634282709535587520">Name*</label>
+	  <input type="text" name="txtName634282709535587520" id="txtName634282709535587520" tabindex="2" value="" />
+	  <span id="spnNameRequired" style="color:Red;display:none;"> Required</span>
+	  <span id="spnChooseOtherName" style="color:Red;display:none;"> Please choose another name</span><br />
+
+	  <label for="ctl00_cphBody_CommentView1_txtEmail">E-mail*</label>
+	  <input name="ctl00$cphBody$CommentView1$txtEmail" type="text" id="ctl00_cphBody_CommentView1_txtEmail" tabindex="3" />
+	  <span id="gravatarmsg">
+	  
+	  (Will show your <a href="http://www.gravatar.com" target="_blank">Gravatar</a> icon)
+	  
+	  </span>
+	  <br />
+
+	  <label for="ctl00_cphBody_CommentView1_txtWebsite">Website</label>
+	  <input name="ctl00$cphBody$CommentView1$txtWebsite" type="text" id="ctl00_cphBody_CommentView1_txtWebsite" tabindex="4" /><br />
+	  
+	  
+	  <label for="ctl00_cphBody_CommentView1_ddlCountry">Country</label>
+	  <select name="ctl00$cphBody$CommentView1$ddlCountry" id="ctl00_cphBody_CommentView1_ddlCountry" tabindex="5" onchange="BlogEngine.setFlag(this.value)">
+	<option value="">[Not specified]</option>
+	<option value="al">Albania</option>
+	<option value="dz">Algeria</option>
+	<option value="ar">Argentina</option>
+	<option value="am">Armenia</option>
+	<option value="au">Australia</option>
+	<option value="at">Austria</option>
+	<option value="az">Azerbaijan</option>
+	<option value="bh">Bahrain</option>
+	<option value="bd">Bangladesh</option>
+	<option value="by">Belarus</option>
+	<option value="be">Belgium</option>
+	<option value="bz">Belize</option>
+	<option value="bo">Bolivia</option>
+	<option value="ba">Bosnia and Herzegovina</option>
+	<option value="br">Brazil</option>
+	<option value="bn">Brunei Darussalam</option>
+	<option value="bg">Bulgaria</option>
+	<option value="ca">Canada</option>
+	<option value="029">Caribbean</option>
+	<option value="cl">Chile</option>
+	<option value="co">Colombia</option>
+	<option value="cr">Costa Rica</option>
+	<option value="hr">Croatia</option>
+	<option value="cz">Czech Republic</option>
+	<option value="dk">Denmark</option>
+	<option value="do">Dominican Republic</option>
+	<option value="ec">Ecuador</option>
+	<option value="eg">Egypt</option>
+	<option value="sv">El Salvador</option>
+	<option value="ee">Estonia</option>
+	<option value="fo">Faroe Islands</option>
+	<option value="fi">Finland</option>
+	<option value="fr">France</option>
+	<option value="ge">Georgia</option>
+	<option value="de">Germany</option>
+	<option value="gr">Greece</option>
+	<option value="gt">Guatemala</option>
+	<option value="hn">Honduras</option>
+	<option value="hk">Hong Kong S.A.R.</option>
+	<option value="hu">Hungary</option>
+	<option value="is">Iceland</option>
+	<option value="in">India</option>
+	<option value="id">Indonesia</option>
+	<option value="ir">Iran</option>
+	<option value="iq">Iraq</option>
+	<option value="ie">Ireland</option>
+	<option value="pk">Islamic Republic of Pakistan</option>
+	<option value="il">Israel</option>
+	<option value="it">Italy</option>
+	<option value="jm">Jamaica</option>
+	<option value="jp">Japan</option>
+	<option value="jo">Jordan</option>
+	<option value="kz">Kazakhstan</option>
+	<option value="ke">Kenya</option>
+	<option value="kr">Korea</option>
+	<option value="kw">Kuwait</option>
+	<option value="kg">Kyrgyzstan</option>
+	<option value="lv">Latvia</option>
+	<option value="lb">Lebanon</option>
+	<option value="ly">Libya</option>
+	<option value="li">Liechtenstein</option>
+	<option value="lt">Lithuania</option>
+	<option value="lu">Luxembourg</option>
+	<option value="mo">Macao S.A.R.</option>
+	<option value="mk">Macedonia (FYROM)</option>
+	<option value="my">Malaysia</option>
+	<option value="mv">Maldives</option>
+	<option value="mt">Malta</option>
+	<option value="mx">Mexico</option>
+	<option value="mn">Mongolia</option>
+	<option value="ma">Morocco</option>
+	<option value="nl">Netherlands</option>
+	<option value="nz">New Zealand</option>
+	<option value="ni">Nicaragua</option>
+	<option value="no">Norway</option>
+	<option value="om">Oman</option>
+	<option value="pa">Panama</option>
+	<option value="py">Paraguay</option>
+	<option value="cn">People's Republic of China</option>
+	<option value="pe">Peru</option>
+	<option value="ph">Philippines</option>
+	<option value="pl">Poland</option>
+	<option value="pt">Portugal</option>
+	<option value="mc">Principality of Monaco</option>
+	<option value="pr">Puerto Rico</option>
+	<option value="qa">Qatar</option>
+	<option value="ph">Republic of the Philippines</option>
+	<option value="ro">Romania</option>
+	<option value="ru">Russia</option>
+	<option value="sa">Saudi Arabia</option>
+	<option value="cs">Serbia</option>
+	<option value="sg">Singapore</option>
+	<option value="sk">Slovakia</option>
+	<option value="si">Slovenia</option>
+	<option value="za">South Africa</option>
+	<option value="es">Spain</option>
+	<option value="se">Sweden</option>
+	<option value="ch">Switzerland</option>
+	<option value="sy">Syria</option>
+	<option value="tw">Taiwan</option>
+	<option value="th">Thailand</option>
+	<option value="tt">Trinidad and Tobago</option>
+	<option value="tn">Tunisia</option>
+	<option value="tr">Turkey</option>
+	<option value="ae">U.A.E.</option>
+	<option value="ua">Ukraine</option>
+	<option value="gb">United Kingdom</option>
+	<option selected="selected" value="us">United States</option>
+	<option value="uy">Uruguay</option>
+	<option value="uz">Uzbekistan</option>
+	<option value="ve">Venezuela</option>
+	<option value="vn">Vietnam</option>
+	<option value="ye">Yemen</option>
+	<option value="zw">Zimbabwe</option>
+
+</select>&nbsp;
+	  <img id="ctl00_cphBody_CommentView1_imgFlag" src="/blog/pics/flags/us.png" alt="Country flag" style="height:11px;width:16px;border-width:0px;" /><br /><br />
+	  
+
+	  <span class="bbcode" title="BBCode tags"><a title="[b][/b]" href="javascript:void(BlogEngine.addBbCode('b'))">b</a><a title="[i][/i]" href="javascript:void(BlogEngine.addBbCode('i'))">i</a><a title="[u][/u]" href="javascript:void(BlogEngine.addBbCode('u'))">u</a><a title="[quote][/quote]" href="javascript:void(BlogEngine.addBbCode('quote'))">quote</a></span>
+	  <br />
+
+	    
+	  <ul id="commentMenu">
+		<li id="compose" class="selected" onclick="BlogEngine.composeComment()">Comment</li>
+		<li id="preview" onclick="BlogEngine.showCommentPreview()">Preview</li>
+	  </ul>
+	  
+	  <div id="commentCompose">
+			<label for="ctl00_cphBody_CommentView1_txtContent" style="display:none">Comment</label>
+		<textarea name="ctl00$cphBody$CommentView1$txtContent" rows="10" cols="50" id="ctl00_cphBody_CommentView1_txtContent" tabindex="6"></textarea>
+	  </div>
+	  <div id="commentPreview">
+		<img src="/blog/pics/ajax-loader.gif" alt="Loading" />  
+	  </div>
+	  
+	  <br />
+	  <input type="checkbox" id="cbNotify" style="width: auto" tabindex="7" />
+	  <label for="cbNotify" style="width:auto;float:none;display:inline">Notify me when new comments are added</label><br /><br />
+ 
+	 <script type="text/javascript" src="http://api.recaptcha.net/js/recaptcha_ajax.js" defer="defer">
+
+</script><span id="spnCaptchaIncorrect" style="color:Red;display:none;">The captcha text was not valid. Please try again.
+</span><div id="recaptcha_placeholder">
+
+</div><script type="text/javascript">
+	function showRecaptcha() {
+	Recaptcha.create('6LeoGAEAAAAAAKVsOZM53wk554kK5NUZ3SuYCI8n', 'recaptcha_placeholder', {
+	theme: 'white',
+	tabindex: 8
+	})
+	}
+	var rc_oldonload = window.onload;
+	if (typeof window.onload != 'function') {
+	window.onload = showRecaptcha;
+	}
+	else {
+	window.onload = function() {
+	rc_oldonload();
+	showRecaptcha();
+	}
+	}
+
+</script>
+
+	  <input type="button" id="btnSaveAjax" style="margin-top:10px" value="Save comment" onclick="return BlogEngine.validateAndSubmitCommentForm()" tabindex="7" />
+	  <!--<input type="button" id="btnSaveAjax" value="Save comment" onclick="return validateWithRecaptcha()" tabindex="9" />-->
+	  <input type="hidden" name="ctl00$cphBody$CommentView1$hfCaptcha" id="ctl00_cphBody_CommentView1_hfCaptcha" value="641396b1-04c1-4692-be1f-8926fc07bb32" />
+	</div>
+
+</div>
+
+<script type="text/javascript">
+<!--//
+function registerCommentBox(){
+	BlogEngine.comments.flagImage = BlogEngine.$("ctl00_cphBody_CommentView1_imgFlag");
+	BlogEngine.comments.contentBox = BlogEngine.$("ctl00_cphBody_CommentView1_txtContent");
+	BlogEngine.comments.moderation = true;
+	BlogEngine.comments.checkName = true;
+	BlogEngine.comments.postAuthor = "Rob";
+	BlogEngine.comments.nameBox = BlogEngine.$("txtName634282709535587520");
+	BlogEngine.comments.emailBox = BlogEngine.$("ctl00_cphBody_CommentView1_txtEmail");
+	BlogEngine.comments.websiteBox = BlogEngine.$("ctl00_cphBody_CommentView1_txtWebsite");
+	BlogEngine.comments.countryDropDown = BlogEngine.$("ctl00_cphBody_CommentView1_ddlCountry"); 
+	BlogEngine.comments.captchaField = BlogEngine.$('ctl00_cphBody_CommentView1_hfCaptcha');
+	BlogEngine.comments.controlId = 'ctl00$cphBody$CommentView1';
+	BlogEngine.comments.replyToId = BlogEngine.$("ctl00_cphBody_CommentView1_hiddenReplyTo"); 
+}
+//-->
+</script>
+
+
+
+
+
+  
+  
+
+        </div>
+        
+        <div id="side">
+        
+            <div id="sidesearch">
+                <div id="ssInput"><input type="text" name="q" id="q" size="25" onkeypress="if(event.keyCode==13) return SearchPage()" /></div> <div id="ssIcon"><input type="image" src="/images/search-18.png" alt="Search" onclick="return SearchPage()" /></div>
+                <div class="clear"></div>
+                <script type="text/javascript">      
+                    //<![CDATA[
+                    function SearchPage() {
+                        var searchTerm = encodeURIComponent(document.getElementById('q').value);
+                        location.href = 'http://catfood.net/Search.aspx?q=' + searchTerm;
+                        return false;
+                    }
+                    //]]>
+                </script> 
+            </div>             
+        
+            <h3>Follow Catfood</h3>
+            <p>Subscribe to the <a href="/blog/">Catfood Blog</a> by <a href="http://feeds.feedburner.com/CatfoodSoftwareBlog" onclick="javascript: pageTracker._trackPageview('/social/rss');">feed</a> 
+            or <a href="http://feedburner.google.com/fb/a/mailverify?uri=CatfoodSoftwareBlog&amp;loc=en_US" onclick="javascript: pageTracker._trackPageview('/social/email');">email</a>. 
+            You can also keep up to date with Catfood on <a href="http://twitter.com/CatfoodSoftware" onclick="javascript: pageTracker._trackPageview('/social/twitter');">Twitter</a> 
+            and <a href="http://www.facebook.com/pages/Catfood-Software/133113542011" onclick="javascript: pageTracker._trackPageview('/social/facebook');">Facebook</a>.</p>
+            
+            <a href="http://feeds.feedburner.com/CatfoodSoftwareBlog" id="socialRss" title="Subscribe to the Catfood Software Blog Feed" onclick="javascript: pageTracker._trackPageview('/social/rss');"><span>Subscribe to the Catfood Software Blog Feed</span></a>
+            <a href="http://feedburner.google.com/fb/a/mailverify?uri=CatfoodSoftwareBlog&amp;loc=en_US" id="socialEmail" title="Subscribe to the Catfood Blog via email" onclick="javascript: pageTracker._trackPageview('/social/email');"><span>Subscribe to the Catfood Blog via email</span></a>
+            <a href="http://twitter.com/CatfoodSoftware" id="socialTwitter" title="Follow Catfood Software on Twitter" onclick="javascript: pageTracker._trackPageview('/social/twitter');"><span>Follow Catfood Software on Twitter</span></a>
+            <a href="http://www.facebook.com/pages/Catfood-Software/133113542011" id="socialFacebook" title="Follow Catfood Software on Facebook" onclick="javascript: pageTracker._trackPageview('/social/facebook');"><span>Follow Catfood Software on Facebook</span></a>
+            
+            <h3>Share This Page</h3>
+            
+            <div id="fblike">
+                <fb:like href="http://catfood.net/blog/post.aspx?id=dd7a54ef-547a-4094-b552-3656da8f1870" layout="button_count" width="110" font="tahoma"></fb:like>                
+            </div>
+            
+            <div id="tweetb">
+                <a href="http://twitter.com/share" class="twitter-share-button" data-count="horizontal" data-via="CatfoodSoftware" data-url="http://catfood.net/blog/post.aspx?id=dd7a54ef-547a-4094-b552-3656da8f1870" data-text="Catfood Software Blog | Automatically follow and unfollow on Twitter with Catfood Follower" data-related="abfo:Robert Ellison">Tweet</a><script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script>
+            </div>
+            
+            <a class="a2a_dd" href="http://www.addtoany.com/share_save"><img src="http://static.addtoany.com/buttons/share_save_171_16.png" width="171" height="16" alt="Share/Bookmark"/></a>
+            <script type="text/javascript">
+            
+            a2a_show_title = 1;
+            a2a_track_links='ga';
+            a2a_color_main="FFFFFF";
+            a2a_color_border="D1D1C3";
+            a2a_color_link_text="FF0000";
+            a2a_color_link_text_hover="333333";
+            a2a_templates = {
+                twitter: "${title}: ${link} (from @CatfoodSoftware)"
+            }
+            </script>
+            <script type="text/javascript" src="http://static.addtoany.com/menu/page.js"></script>
+            
+            <div id="widgetzone_be_WIDGET_ZONE" class="widgetzone"><div class="widget mostpopularfromga" id="widget0ce851af-8b71-424c-ad7d-618af90e4053"><h4>Most Popular</h4><div class="content"><ul class="mostPopularFromGa">
+<li class="mostPopularFromGa"><a href="/blog/post/Windows-Mobile-GPS-Tracking-and-Google-Earth.aspx">Windows Mobile GPS Tracking and Google Earth</a></li><li class="mostPopularFromGa"><a href="/blog/post/Automatically-follow-and-unfollow-on-Twitter-with-Catfood-Follower.aspx">Automatically follow and unfollow on Twitter with Catfood Follower</a></li><li class="mostPopularFromGa"><a href="/blog/post/Auto-Avatar-for-Skype.aspx">Auto Avatar for Skype</a></li><li class="mostPopularFromGa"><a href="/blog/post/Twitter-Public-Timeline-Screensaver.aspx">Twitter Public Timeline Screensaver</a></li><li class="mostPopularFromGa"><a href="/blog/post/Catfood-Contraction-Timer-for-Android.aspx">Catfood Contraction Timer for Android</a></li><li class="mostPopularFromGa"><a href="/blog/post/Catfood-Follower-130.aspx">Catfood Follower 1.30</a></li><li class="mostPopularFromGa"><a href="/blog/post/Catfood-PdfScan-100.aspx">Catfood PdfScan 1.00</a></li><li class="mostPopularFromGa"><a href="/blog/post/Winter-Solstice-2009-in-Catfood-Earth.aspx">Winter Solstice 2009 in Catfood Earth</a></li><li class="mostPopularFromGa"><a href="/blog/post/Getting-the-most-out-of-Catfood-Follower.aspx">Getting the most out of Catfood Follower</a></li><li class="mostPopularFromGa"><a href="/blog/post/Spring-Equinox-2010-in-Catfood-Earth.aspx">Spring Equinox 2010 in Catfood Earth</a></li></ul>
+</div></div><div class="widget recentposts" id="widgeta6529a80-9775-4476-8dc0-baeabac1f480"><h4>Recent Posts</h4><div class="content"><ul class="recentPosts" id="recentPosts"><li><a href="/blog/post/Earthquakes-in-November-2010.aspx">Earthquakes in November 2010</a></li><li><a href="/blog/post/Follower-failing-with-(401)-Unauthorized.aspx">Follower failing with (401) Unauthorized</a></li><li><a href="/blog/post/Autumnal-Equinox-2010-in-Catfood-Earth.aspx">Autumnal Equinox 2010 in Catfood Earth</a></li><li><a href="/blog/post/Catfood-PdfScan-100.aspx">Catfood PdfScan 1.00</a></li><li><a href="/blog/post/Getting-the-most-out-of-Catfood-Follower.aspx">Getting the most out of Catfood Follower</a></li><li><a href="/blog/post/Catfood-Follower-130.aspx">Catfood Follower 1.30</a></li><li><a href="/blog/post/Catfood-Contraction-Timer-for-Android.aspx">Catfood Contraction Timer for Android</a></li><li><a href="/blog/post/New-Catfood-Site.aspx">New Catfood Site</a></li><li><a href="/blog/post/Summer-Solstice-2010-in-Catfood-Earth.aspx">Summer Solstice 2010 in Catfood Earth</a></li><li><a href="/blog/post/LooseLips-alpha-a-post-only-Twitter-client.aspx">LooseLips alpha - a post only Twitter client</a></li></ul></div></div><div class="widget tagcloud" id="widget76dfb6eb-1931-47b6-bece-167a7d0a0b79"><h4>Tag Cloud</h4><div class="content"><ul id="ctl00_76dfb6eb193147b6bece167a7d0a0b79_ulTags"><li><a href="/blog/?tag=/autumn" class="smallest" title="Tag: autumn">autumn</a> </li><li><a href="/blog/?tag=/Earth" class="smallest" title="Tag: Earth">Earth</a> </li><li><a href="/blog/?tag=/earthquake" class="smallest" title="Tag: earthquake">earthquake</a> </li><li><a href="/blog/?tag=/follow" class="smallest" title="Tag: follow">follow</a> </li><li><a href="/blog/?tag=/Follower" class="smallest" title="Tag: Follower">Follower</a> </li><li><a href="/blog/?tag=/GPS" class="smallest" title="Tag: GPS">GPS</a> </li><li><a href="/blog/?tag=/History" class="smallest" title="Tag: History">History</a> </li><li><a href="/blog/?tag=/KML" class="smallest" title="Tag: KML">KML</a> </li><li><a href="/blog/?tag=/screensaver" class="smallest" title="Tag: screensaver">screensaver</a> </li><li><a href="/blog/?tag=/summer" class="smallest" title="Tag: summer">summer</a> </li><li><a href="/blog/?tag=/Tools" class="medium" title="Tag: Tools">Tools</a> </li><li><a href="/blog/?tag=/twitter" class="small" title="Tag: twitter">twitter</a> </li><li><a href="/blog/?tag=/unfollow" class="smallest" title="Tag: unfollow">unfollow</a> </li><li><a href="/blog/?tag=/webcam" class="biggest" title="Tag: webcam">webcam</a> </li><li><a href="/blog/?tag=/WebCamSaver" class="smallest" title="Tag: WebCamSaver">WebCamSaver</a> </li><li><a href="/blog/?tag=/WindowsMobile" class="smallest" title="Tag: WindowsMobile">WindowsMobile</a> </li></ul></div></div><div class="widget recentcomments" id="widgeta0454ea2-ef08-419d-a8f6-bdb0b2900f39"><h4>Recent Comments</h4><div class="content"><ul id="recentComments" class="recentComments"><li><a href="/blog/post/Automatically-follow-and-unfollow-on-Twitter-with-Catfood-Follower.aspx" class="postTitle">Automatically follow and unfollow on Twitter with Catfood Follower</a> (48)<br /><a href="http://catfood.net/" rel="nofollow">Rob</a> wrote: What went wrong? <a href="/blog/post/Automatically-follow-and-unfollow-on-Twitter-with-Catfood-Follower.aspx#id_fdae69dc-7e7f-47c5-85ac-20c3d40483a0" class="moreLink">[More]</a></li><li><a href="/blog/post/Automatically-follow-and-unfollow-on-Twitter-with-Catfood-Follower.aspx" class="postTitle">Automatically follow and unfollow on Twitter with Catfood Follower</a> (48)<br />POed wrote: A big pain in the butt to install. <a href="/blog/post/Automatically-follow-and-unfollow-on-Twitter-with-Catfood-Follower.aspx#id_2b3d47a4-0811-4099-a615-c645fae33c37" class="moreLink">[More]</a></li><li><a href="/blog/post/World-Webcams-Gadget-Update.aspx" class="postTitle">World Webcams Gadget Update</a> (1)<br />Charles Balok wrote: thank you. <a href="/blog/post/World-Webcams-Gadget-Update.aspx#id_5320012f-cf9c-4ade-bdd4-84d19da6ca32" class="moreLink">[More]</a></li><li><a href="/blog/post/WebCamSaver-300-Beta-and-Free-License-Offer.aspx" class="postTitle">WebCamSaver 3.00 Beta and Free License Offer</a> (5)<br />art wrote: hi would like to help me please
+i would like to h... <a href="/blog/post/WebCamSaver-300-Beta-and-Free-License-Offer.aspx#id_c1a840bd-3508-4b29-af50-f4bb12023365" class="moreLink">[More]</a></li><li><a href="/blog/post/Autumnal-Equinox-2010-in-Catfood-Earth.aspx" class="postTitle">Autumnal Equinox 2010 in Catfood Earth</a> (1)<br />MissBillie wrote: Don't know how I found you but love the equinox pi... <a href="/blog/post/Autumnal-Equinox-2010-in-Catfood-Earth.aspx#id_f3b7a9d5-9433-445b-a0cf-e2c900ef596d" class="moreLink">[More]</a></li></ul><a href="/blog/syndication.axd?comments=true">Comment RSS <img src="/blog/pics/rssButton.gif" alt="" /></a></div></div><div class="widget blogroll" id="widgetf3f65f28-8110-4eff-89ea-5428bc86c823"><h4>Blogroll</h4><div class="content"><div id="blogroll">
+<ul class="xoxo"><li><a href="http://feeds.feedburner.com/IThoughtHeCameWithYou"><img src="/blog/pics/rssButton.gif" alt="RSS feed for I Thought He Came With You" /></a><a href="http://ithoughthecamewithyou.com/" rel="me">I Thought He Came With...</a></li><li><a href="http://feeds.feedburner.com/Hikes"><img src="/blog/pics/rssButton.gif" alt="RSS feed for Hikes" /></a><a href="http://catfood.net/hikes/" rel="me">Hikes</a></li><li><a href="http://feeds.feedburner.com/WebcamUpdates"><img src="/blog/pics/rssButton.gif" alt="RSS feed for WebCam Updates" /></a><a href="http://catfood.net/webcam-updates/" rel="me">WebCam Updates</a></li></ul>
+</div>
+
+  <a href="http://catfood.net/blog/opml.axd" style="display:block;text-align:right" title="Download OPML file" >Download OPML file <img src="http://catfood.net/blog/pics/opml.png" alt="OPML" /></a></div></div><div class="widget twitter" id="widgete260a4ba-f359-4bcc-89f3-c73181f64a75"><h4>Recent Tweets</h4><div class="content">
+    <img src="/blog/widgets/twitter/twitter.ico" alt="Twitter" />
+    <span id="ctl00_e260a4baf3594bcc89f3c73181f64a75_repItems_ctl00_lblDate" style="color:gray">December 12. 04:14</span><br />
+    <span id="ctl00_e260a4baf3594bcc89f3c73181f64a75_repItems_ctl00_lblItem"> New Cams: Webcam Updates for Sunday, December 12, 2010 <a href="http://goo.gl/fb/ace4q" rel="nofollow">http://goo.gl/fb/ace4q</a></span><br /><br />
+  
+    <img src="/blog/widgets/twitter/twitter.ico" alt="Twitter" />
+    <span id="ctl00_e260a4baf3594bcc89f3c73181f64a75_repItems_ctl01_lblDate" style="color:gray">December 5. 05:37</span><br />
+    <span id="ctl00_e260a4baf3594bcc89f3c73181f64a75_repItems_ctl01_lblItem"> New Cams: Webcam Updates for Sunday, December 5, 2010 <a href="http://goo.gl/fb/JR7DS" rel="nofollow">http://goo.gl/fb/JR7DS</a></span><br /><br />
+  
+    <img src="/blog/widgets/twitter/twitter.ico" alt="Twitter" />
+    <span id="ctl00_e260a4baf3594bcc89f3c73181f64a75_repItems_ctl02_lblDate" style="color:gray">December 2. 13:18</span><br />
+    <span id="ctl00_e260a4baf3594bcc89f3c73181f64a75_repItems_ctl02_lblItem"> Blog: Earthquakes in November 2010: The video below shows earthquakes of magnitude 2.5 or… <a href="http://goo.gl/fb/A3jbF" rel="nofollow">http://goo.gl/fb/A3jbF</a></span><br /><br />
+  
+    <img src="/blog/widgets/twitter/twitter.ico" alt="Twitter" />
+    <span id="ctl00_e260a4baf3594bcc89f3c73181f64a75_repItems_ctl03_lblDate" style="color:gray">December 2. 13:14</span><br />
+    <span id="ctl00_e260a4baf3594bcc89f3c73181f64a75_repItems_ctl03_lblItem"> I uploaded a YouTube video -- Earthquakes in November 2010 <a href="http://youtu.be/vztoi0dfckY?a" rel="nofollow">http://youtu.be/vztoi0dfckY?a</a></span><br /><br />
+  
+
+<a id="ctl00_e260a4baf3594bcc89f3c73181f64a75_hlTwitterAccount" rel="me" href="http://twitter.com/CatfoodSoftware">Follow @CatfoodSoftware</a></div></div><div class="widget categorylist" id="widget68aa606a-d7b7-467b-9cc7-b47fbbc39ee2"><h4>Categories</h4><div class="content"><ul id="categorylist"><li><a href="/blog/category/feed/Alpha.aspx" rel="nofollow"><img src="/blog/pics/rssButton.gif" alt="RSS feed for Alpha" class="rssButton" /></a><a href="/blog/category/Alpha.aspx" title="Category: Alpha">Alpha</a></li><li><a href="/blog/category/feed/Android.aspx" rel="nofollow"><img src="/blog/pics/rssButton.gif" alt="RSS feed for Android" class="rssButton" /></a><a href="/blog/category/Android.aspx" title="Category: Android">Android</a></li><li><a href="/blog/category/feed/Beta.aspx" rel="nofollow"><img src="/blog/pics/rssButton.gif" alt="RSS feed for Beta" class="rssButton" /></a><a href="/blog/category/Beta.aspx" title="Category: Beta">Beta</a></li><li><a href="/blog/category/feed/ContractionTimer.aspx" rel="nofollow"><img src="/blog/pics/rssButton.gif" alt="RSS feed for ContractionTimer" class="rssButton" /></a><a href="/blog/category/ContractionTimer.aspx" title="Category: ContractionTimer">ContractionTimer</a></li><li><a href="/blog/category/feed/Earth.aspx" rel="nofollow"><img src="/blog/pics/rssButton.gif" alt="RSS feed for Earth" class="rssButton" /></a><a href="/blog/category/Earth.aspx" title="Category: Earth">Earth</a></li><li><a href="/blog/category/feed/Equinox.aspx" rel="nofollow"><img src="/blog/pics/rssButton.gif" alt="RSS feed for Equinox" class="rssButton" /></a><a href="/blog/category/Equinox.aspx" title="Category: Equinox">Equinox</a></li><li><a href="/blog/category/feed/Follower.aspx" rel="nofollow"><img src="/blog/pics/rssButton.gif" alt="RSS feed for Follower" class="rssButton" /></a><a href="/blog/category/Follower.aspx" title="Category: Follower">Follower</a></li><li><a href="/blog/category/feed/FTP.aspx" rel="nofollow"><img src="/blog/pics/rssButton.gif" alt="RSS feed for FTP" class="rssButton" /></a><a href="/blog/category/FTP.aspx" title="Category: FTP">FTP</a></li><li><a href="/blog/category/feed/Gadgets.aspx" rel="nofollow"><img src="/blog/pics/rssButton.gif" alt="RSS feed for Gadgets" class="rssButton" /></a><a href="/blog/category/Gadgets.aspx" title="Category: Gadgets">Gadgets</a></li><li><a href="/blog/category/feed/Games.aspx" rel="nofollow"><img src="/blog/pics/rssButton.gif" alt="RSS feed for Games" class="rssButton" /></a><a href="/blog/category/Games.aspx" title="Category: Games">Games</a></li><li><a href="/blog/category/feed/History.aspx" rel="nofollow"><img src="/blog/pics/rssButton.gif" alt="RSS feed for History" class="rssButton" /></a><a href="/blog/category/History.aspx" title="Category: History">History</a></li><li><a href="/blog/category/feed/LooseLips.aspx" rel="nofollow"><img src="/blog/pics/rssButton.gif" alt="RSS feed for LooseLips" class="rssButton" /></a><a href="/blog/category/LooseLips.aspx" title="Category: LooseLips">LooseLips</a></li><li><a href="/blog/category/feed/Nosleep.aspx" rel="nofollow"><img src="/blog/pics/rssButton.gif" alt="RSS feed for Nosleep" class="rssButton" /></a><a href="/blog/category/Nosleep.aspx" title="Category: Nosleep">Nosleep</a></li><li><a href="/blog/category/feed/NPRStationFinder.aspx" rel="nofollow"><img src="/blog/pics/rssButton.gif" alt="RSS feed for NPRStationFinder" class="rssButton" /></a><a href="/blog/category/NPRStationFinder.aspx" title="Category: NPRStationFinder">NPRStationFinder</a></li><li><a href="/blog/category/feed/PdfScan.aspx" rel="nofollow"><img src="/blog/pics/rssButton.gif" alt="RSS feed for PdfScan" class="rssButton" /></a><a href="/blog/category/PdfScan.aspx" title="Category: PdfScan">PdfScan</a></li><li><a href="/blog/category/feed/Skype.aspx" rel="nofollow"><img src="/blog/pics/rssButton.gif" alt="RSS feed for Skype" class="rssButton" /></a><a href="/blog/category/Skype.aspx" title="Category: Skype">Skype</a></li><li><a href="/blog/category/feed/Solstice.aspx" rel="nofollow"><img src="/blog/pics/rssButton.gif" alt="RSS feed for Solstice" class="rssButton" /></a><a href="/blog/category/Solstice.aspx" title="Category: Solstice">Solstice</a></li><li><a href="/blog/category/feed/TextShips.aspx" rel="nofollow"><img src="/blog/pics/rssButton.gif" alt="RSS feed for TextShips" class="rssButton" /></a><a href="/blog/category/TextShips.aspx" title="Category: TextShips">TextShips</a></li><li><a href="/blog/category/feed/Tools.aspx" rel="nofollow"><img src="/blog/pics/rssButton.gif" alt="RSS feed for Tools" class="rssButton" /></a><a href="/blog/category/Tools.aspx" title="Category: Tools">Tools</a></li><li><a href="/blog/category/feed/Tracker.aspx" rel="nofollow"><img src="/blog/pics/rssButton.gif" alt="RSS feed for Tracker" class="rssButton" /></a><a href="/blog/category/Tracker.aspx" title="Category: Tracker">Tracker</a></li><li><a href="/blog/category/feed/Twitter.aspx" rel="nofollow"><img src="/blog/pics/rssButton.gif" alt="RSS feed for Twitter" class="rssButton" /></a><a href="/blog/category/Twitter.aspx" title="Category: Twitter">Twitter</a></li><li><a href="/blog/category/feed/TwitterScreensaver.aspx" rel="nofollow"><img src="/blog/pics/rssButton.gif" alt="RSS feed for TwitterScreensaver" class="rssButton" /></a><a href="/blog/category/TwitterScreensaver.aspx" title="Category: TwitterScreensaver">TwitterScreensaver</a></li><li><a href="/blog/category/feed/WebCamSaver.aspx" rel="nofollow"><img src="/blog/pics/rssButton.gif" alt="RSS feed for WebCamSaver" class="rssButton" /></a><a href="/blog/category/WebCamSaver.aspx" title="Category: WebCamSaver">WebCamSaver</a></li><li><a href="/blog/category/feed/WindowsMobile.aspx" rel="nofollow"><img src="/blog/pics/rssButton.gif" alt="RSS feed for WindowsMobile" class="rssButton" /></a><a href="/blog/category/WindowsMobile.aspx" title="Category: WindowsMobile">WindowsMobile</a></li></ul>
+</div></div><div class="widget monthlist" id="widgetab2b8c27-02c4-46ab-a78f-28939c2a1a09"><h4>Archives</h4><div class="content"><ul id="monthList"><li class="year" onclick="BlogEngine.toggleMonth('year2010')">2010<ul id="year2010" class="open"><li><a href="/blog/2010/12/default.aspx">December (1)</a></li><li><a href="/blog/2010/11/default.aspx">November (1)</a></li><li><a href="/blog/2010/09/default.aspx">September (5)</a></li><li><a href="/blog/2010/08/default.aspx">August (1)</a></li><li><a href="/blog/2010/06/default.aspx">June (1)</a></li><li><a href="/blog/2010/04/default.aspx">April (1)</a></li><li><a href="/blog/2010/03/default.aspx">March (2)</a></li><li><a href="/blog/2010/02/default.aspx">February (1)</a></li><li><a href="/blog/2010/01/default.aspx">January (1)</a></li></ul></li><li class="year" onclick="BlogEngine.toggleMonth('year2009')">2009<ul id="year2009"><li><a href="/blog/2009/12/default.aspx">December (5)</a></li><li><a href="/blog/2009/11/default.aspx">November (2)</a></li><li><a href="/blog/2009/10/default.aspx">October (1)</a></li><li><a href="/blog/2009/09/default.aspx">September (3)</a></li><li><a href="/blog/2009/07/default.aspx">July (4)</a></li><li><a href="/blog/2009/06/default.aspx">June (5)</a></li><li><a href="/blog/2009/05/default.aspx">May (8)</a></li><li><a href="/blog/2009/04/default.aspx">April (6)</a></li><li><a href="/blog/2009/03/default.aspx">March (5)</a></li><li><a href="/blog/2009/02/default.aspx">February (5)</a></li><li><a href="/blog/2009/01/default.aspx">January (6)</a></li></ul></li><li class="year" onclick="BlogEngine.toggleMonth('year2008')">2008<ul id="year2008"><li><a href="/blog/2008/12/default.aspx">December (11)</a></li></ul></li></ul>
+</div></div></div>
+            
+        </div>
+        
+        <div id="footer">
+            &copy; 2010 Catfood Software | 
+            <a href="/Map.aspx">Site Map</a> |
+            <a href="/distributors.aspx">Distributors</a> |
+            <a href="/privacy.aspx">Privacy</a>
+        </div>
+    </div>
+
+<div>
+
+	<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="/wEWeQL9icUJAuCph44OAtXl96MMAq7i5MYMAv7m368FAsGJ5cAJAsKJ3d8JAsGJvcAJAsGJ6cAJAsGJicAJAsGJhcAJAsGJ3d8JAsCJlcAJAsCJxcAJAsCJ2d8JAsCJycAJAsCJ3d8JAsCJ8cAJAsCJ+cAJAsCJvcAJAsCJ7cAJAsCJ0cAJAsOJ+cAJApOr64oBAsOJ5cAJAsOJ8cAJAsOJvcAJAraJvcAJAsOJ3d8JAsKJ4cAJAsKJ8cAJAsWJwcAJAsWJ0cAJArOJjcAJAsWJycAJAsSJ8cAJAsSJmcAJAsSJvcAJAseJycAJAsKJycAJAseJvcAJAseJhcAJAraJ7cAJAraJ4cAJAraJicAJArmJgcAJArmJ7cAJArmJxcAJArmJvcAJArmJucAJArmJycAJAq6J4cAJArmJ5cAJArmJhcAJAriJ6cAJAriJtcAJAriJ8cAJAruJ3d8JAruJycAJAruJvcAJAruJkcAJAruJ0cAJArqJjcAJArqJ/cAJArqJ2d8JArqJmcAJArqJhcAJArqJicAJAr2J8cAJAr2J4cAJAr2J2d8JAr2JjcAJAr2JhcAJAr2J1d8JAr2J7cAJAr2J+cAJAryJ5cAJAryJ3d8JAryJmcAJAryJ8cAJAr+J6cAJAq6J+cAJAq6J2d8JAsOJ7cAJAq6JycAJAq6JlcAJAq6J5cAJAq6JhcAJAr2JwcAJAq6JvcAJArGJ+cAJAq6JlcAJArCJ8cAJArCJicAJArOJ+cAJAsOJgcAJArOJ0cAJArOJ4cAJArOJmcAJAqiJ+cAJAsWJgcAJArOJycAJAsOJlcAJArOJ2d8JArKJkcAJArKJlcAJArKJhcAJArKJ7cAJArKJvcAJAsGJycAJArWJ+cAJAseJ/cAJArWJgcAJArWJ2d8JArWJ3d8JArSJycAJArSJ7cAJAqmJycAJAqiJkcAJArm0/OcDAu+pvcgMz33BsUzdJML2hYjtIc6zGyrOShs=" />
+</div>
+
+<script type="text/javascript">
+//<![CDATA[
+function registerVariables(){BlogEngine.webRoot='/blog/';BlogEngine.i18n.hasRated='You already rated this post';BlogEngine.i18n.savingTheComment='Saving the comment...';BlogEngine.i18n.comments='Comments';BlogEngine.i18n.commentWasSaved='The comment was saved. Thank you for the feedback';BlogEngine.i18n.commentWaitingModeration='Thank you for the feedback. The comment is now awaiting moderation';BlogEngine.i18n.cancel='Cancel';BlogEngine.i18n.filter='Filter';BlogEngine.i18n.apmlDescription='Enter the URL to your website or to your APML document';BlogEngine.i18n.beTheFirstToRate='Be the first to rate this post';BlogEngine.i18n.currentlyRated='Currently rated {0} by {1} people';BlogEngine.i18n.ratingHasBeenRegistered='Your rating has been registered. Thank you!';BlogEngine.i18n.rateThisXStars='Rate this {0} star{1} out of 5';};//]]>
+</script>
+<script type="text/javascript" defer="defer" src="/blog/js.axd?path=%2fblog%2fblog.js&amp;v=1.6.1.0"></script>
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+    </script>
+
+    <script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-245433-1");
+pageTracker._trackPageview();
+} catch(err) {}</script></form>
+
+<script src="http://connect.facebook.net/en_US/all.js#xfbml=1"></script>  
+</body>
+</html>
