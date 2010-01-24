@@ -1,0 +1,390 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns:og="http://opengraphprotocol.org/schema/"
+      xmlns:fb="http://www.facebook.com/2008/fbml">
+
+<head>
+
+<meta property="fb:admins" content="740000108" />
+
+<meta property="og:type" content="website" />
+<meta property="og:title" content="Measure your internet marketing | Grader.com" />
+<meta property="og:url" content="http://grader.com" />
+<meta property="og:image" content="http://www.grader.com/images/grader-logo-v2.png" />
+<meta property="og:site_name" content="Grader.com" />
+<meta property="fb:admins" content="740000108" />
+
+
+<script type="text/javascript">var Context_Root = "http://twittergrader.com";var UserName = "tz";</script><title>tz | Twitter Grader </title><meta name="description" content="株式会社エアリー代表取締役。嘉悦大学非常勤講師。明治学院大学非常勤講師。メディアアートユニットh.oテクニカルディレクター。情報のビジネス・教育・アートを全部やっちゃおうとい"><meta name="robots" content="noindex">
+	<link rel="shortcut icon" href="http://www.hubspot.com/favicon.ico" type="image/x-icon" />
+    <link rel="alternate" type="application/rss+xml" title="HubSpot's Inbound Internet Marketing Blog" href="http://feeds.feedburner.com/hubspot"/>
+
+	<!--
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+	-->
+
+	<script src="http://twittergrader.com/assets/js/grader.base.js"></script>
+
+	<!--<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.3/jquery.min.js"></script> -->
+
+	<!-- This is for Colorbox plugin control -->
+	<!--
+	<link href="http://twittergrader.com/assets/colorbox/colorbox.css?v=1.0" rel="stylesheet" type="text/css" media="screen" />
+	<script src="http://twittergrader.com/assets/colorbox/jquery.colorbox.js" type="text/javascript" charset="utf-8"></script>    
+	-->
+
+    <link href="http://twittergrader.com/assets/css/twitterusergrid.css?v=01.50.04" rel="stylesheet" type="text/css" />
+    <link href="http://twittergrader.com/assets/css/messagebox.css?v=01.50.04" rel="stylesheet" type="text/css" />
+	<link href="http://twittergrader.com/assets/css/style.css?v=1.0" rel="stylesheet" type="text/css" media="screen" />
+	<link href="http://twittergrader.com/assets/css/dropdown.css" rel="stylesheet" type="text/css" media="screen" />
+	<link href="http://twittergrader.com/assets/css/buttons.css" rel="stylesheet" type="text/css" media="screen" />
+
+	<script type="text/javascript" src="http://twittergrader.com/assets/js/dropdown.js"></script>
+
+	<!--[if ie 6]>
+		<link rel="stylesheet" href="assets/css/ie6.css" type="text/css" media="screen" />
+	<![endif]-->
+
+  
+
+
+	<!-- This is for Facebook Tagging control -->
+	<link href="http://twittergrader.com/assets/facebookcomplete/style.css?v=1.0" rel="stylesheet" type="text/css" media="screen" />
+	<script src="http://twittergrader.com/assets/facebookcomplete/jquery.fcbkcomplete.js" type="text/javascript" charset="utf-8"></script>    
+
+    <script type="text/javascript">
+		var twitterUserName = "";
+	</script>
+
+	<script 
+		src="http://twittergrader.uservoice.com/pages/general/widgets/tab.js?alignment=left&amp;color=FFFFFF" 
+		type="text/javascript">
+	</script>
+	
+
+
+<script type="text/javascript">
+
+
+$(document).ready(function(){
+$("#loginFields").hide();
+	$("#theLoginLink").click(function(){
+		//$(this).parents("#loginLink").animate({ opacity: "hide" }, "slow");
+		$('#loginLink').fadeOut('fast'); 
+		$('#loginFields').fadeIn('slow'); 
+	});
+
+});
+
+function preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.p) d.p=new Array();
+    var i,j=d.p.length,a=preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.p[j]=new Image; d.p[j++].src=a[i];}}
+}
+</script>
+
+<SCRIPT LANGUAGE="Javascript" SRC="http://twittergrader.com/fc/FusionCharts.js"></SCRIPT>
+
+</head>
+
+<body onload="preloadImages('/assets/img/hubspotWidget.gif', '/assets/img/fade.jpg')">
+
+	<div id="fb-root"></div>
+	<script>
+	  window.fbAsyncInit = function() {
+		FB.init({appId: 'your app id', status: true, cookie: true,
+				 xfbml: true});
+	  };
+	  (function() {
+		var e = document.createElement('script'); e.async = true;
+		e.src = document.location.protocol +
+		  '//connect.facebook.net/en_US/all.js';
+		document.getElementById('fb-root').appendChild(e);
+	  }());
+	</script>
+
+	<div id="mainContainer">
+		<div id="headerContainer">
+			<div id="headerLogo">
+            	<h1><a href="/"><img src="http://twittergrader.com/assets/img/logo.jpg" alt="Twitter Grader" /></a></h1>
+            </div><!-- headerLogo -->
+            <div id="topContent">
+            	<div id="loginContent">
+            		<ul>
+            			<li id="loginFields" style="display: none;">
+            				<form id="login" action="index.php">
+							    <input type="hidden" name="Action" value="TwitterLogin">
+            					<p>
+            					<label for="loginUsername">Username: </label>
+            					<input type="text" id="loginUsername" class="input">
+            					<label for="loginPassword">Password: </label>
+            					<input type="password" id="loginPassword" class="input">
+            					<input type="submit" id="loginSubmit" class="topLoginButton" value="Submit">
+            					</p>
+            				</form>
+               			</li>
+
+						<!--
+               			<li class="login" id="loginLink">
+						    <a href="#" id="theLoginLink">Login</a>            			</li>
+						-->
+
+						<!--
+            			<li class="searchItem">
+            				<form action="/search" method="GET">
+            				<p>
+            					<input type="text" id="topSearchBox" value="">
+            					<input type="button" id="topSearchButton" value="Search">
+            				</p>
+            				</form>
+            			</li>
+						-->
+
+            		</ul>
+            	</div><!-- loginContent -->
+            </div><!-- topContent -->            
+            <div id="headerNav">
+            	<ul id="nav">
+					<li class="firstItem"><a href="http://twittergrader.com"><span>Home</span></a></li>
+					<li><a href="#"><span>Twitter Elite</span></a>
+						<ul>
+							<li><a href="http://twittergrader.com/top/users">Top Users</a></li>
+							<li><a href="http://twittergrader.com/top/women">Top Women</a></li>
+							<li><a href="http://twittergrader.com/top/brands">Top Brands</a></li>
+							<!-- <li><a href="http://twittergrader.com/location">Top In Location</a></li> -->
+							<li><a href="http://twittergrader.com/top/cities">Top Cities</a></li>
+							<!--<li><a href="http://twittergrader.com/top/usstates">Top U.S. States</a></li>-->
+							<!--<li class="lastItem"><a href="http://twittergrader.com/top/countries">Top Countries</a></li>-->
+						</ul>
+					</li>
+					<li><a href="http://twittergrader.com/go/search"><span>Search</span></a></li>
+
+					<li><a href="#"><span>Tools</span></a>
+						<ul>
+							<li><a href="http://twittergrader.com/go/whotweetsyou"><span>Who Tweets You?</span></a></li>
+							<li><a href="http://twittergrader.com/go/tweetingsince"><span>Tweeting Since</span></a></li>
+							<li><a href="http://twittergrader.com/twitsnip"><span>TwitSnip</span></a></li>
+							<li><a href="http://twittergrader.com/tweetit"><span>TweetIt</span></a></li>
+							<li><a href="http://twittergrader.com/groups"><span>Groups</span></a></li>
+
+							<!-- <li><a href="http://twittergrader.com/twitopml"><span>TwitOPML Tool</span></a></li> -->
+
+                            <li><a href="http://twittergrader.com/subscriptions"><span>Email Subscriptions</span></a></li>
+
+							<li class="lastItem"><a href="http://twittergrader.com/badge"><span>Badge</span></a></li>
+							
+
+
+						</ul>
+					</li>
+
+					<li><a href="http://twittergrader.com/accessrequestform"><span>API</span></a></li>
+
+					<li><a href="http://graderblog.grader.com"><span>Blog</span></a></li>
+
+					<li>
+					<a href="http://twittergrader.com/go/security/loginredirect"><span>Login/Register</span></a>					</li>
+
+                </ul>
+            </div><!-- headerNav -->
+
+			<div id="headerContent">
+				<p>
+				<fb:like href="http://grader.com" ></fb:like>				</p>
+			</div>
+
+		</div><!-- headerContainer -->
+		<div id="bodyContainer">
+
+
+
+
+
+
+<div id="profile">
+			<div id="bodyContent">
+				<div id="bodyTop">
+					<div id="gradeRank">
+						<div id="grade">
+							<h3>Grade</h3>
+							<strong>86</strong>
+							<p>Out of 100</p>
+
+						</div>
+					</div>
+					<div id="graderBox">
+					<img src="http://a3.twimg.com/profile_images/326232101/n1132993462_7252_1__normal.jpg" alt="図子泰三" class="left" />
+						<form action="index.php" method="POST" id="TwitterForm" name="getGrade">
+							<p>
+								<input type="text" id="UserText" value="tz" /> 
+								<a href="javascript:document.getGrade.submit();" id="TwitterMainformProcess">Grade</a>
+	
+							</p>
+						</form>
+						<ul id="twitterDetails">
+							<li class="rank">
+								Rank<br />
+								<strong>1,179,466</strong>
+							<p>out of 8,259,608</p>
+						
+							</li>
+
+							<li class="followers">
+								Followers<br />
+								<strong><a href="http://twittergrader.com/followers/tz">217</a></strong>
+							</li>
+							<li class="following">
+								Following<br />
+								<strong><a href="http://twittergrader.com/following/tz">173</a></strong>
+							</li>
+							<li class="updates">
+								Updates<br />
+								<strong>507</strong>
+							</li>
+						</ul>
+						
+					</div><!-- gradeBox -->
+
+								<p align="center">
+									<br><br><font size=-1><a target="_new" href="http://graderblog.grader.com/twitter-grader-api/bid/19046/How-Does-Twitter-Grader-Calculate-Twitter-Rankings">How It Works</a></font>
+								</p>
+
+				</div><!-- bodyTop -->
+
+
+
+				<br style="clear: both;" />
+
+
+				<br style="clear: both;" />
+					<div id="twitterLocation">
+
+					    <div id="report-content"><div class="results"><div class="section"><h4>Account Summary</h4><div class="sectionBody">							<ul>
+								<li>
+									<strong>Full Name:</strong> <a rel="nofollow" href="http://twitter.com/tz">図子泰三</a>
+								</li>
+								<li>
+									<strong>Bio:</strong> 株式会社エアリー代表取締役。嘉悦大学非常勤講師。明治学院大学非常勤講師。メディアアートユニットh.oテクニカルディレクター。情報のビジネス・教育・アートを全部やっちゃおうとい.
+								</li>
+								<li>
+									<strong>Location:</strong> Tokyo  <a href=http://twittergrader.com/index.php?Action=TwitterUsersByLocation&City=TOKYO&State=40&Country=JP> [TOKYO]</a>  <a href=http://twittergrader.com/index.php?Action=TwitterUsersByLocation&State=40&Country=JP> [Tokyo]</a>  <a href=http://twittergrader.com/index.php?Action=TwitterUsersByLocation&Country=JP> [Japan]</a>								</li>
+
+								<li>
+									<strong>Followers:</strong> 217 <!-- (<a href="http://twittergrader.com/followers/tz">analyze followers</a>) -->
+								</li>
+
+								<li>
+									<strong>Following:</strong> 173 <!-- (<a href="http://twittergrader.com/following/tz">analyze following</a>) -->
+								</li>
+
+								<li>
+									<strong>Website:</strong> <a href="http://www.aery.jp" rel="nofollow">http://www.aery.jp</a>
+								</li>
+
+								<li>
+									<strong>Tweeting Since:</strong> 2007-04-17 05:53:01 (3 years, 8 months, 6 days) <a href="http://twitter.com/home?status=I%27ve+been+tweeting+for+3+years%2C+8+months%2C+6+days.+How+about+you%3F+%23TweetingSince+%28from+http%3A%2F%2Ftwitter.grader.com%2Ftz%29">[tweet this]</a>
+								</li>
+
+								<li>
+									<strong>Who else?</strong>Find out <a href="http://twittergrader.com/go/tweetingsince?UserName=tz">who started on twitter the same day as <b>@tz</b></a>
+								</li>
+
+
+								
+
+							    <li class="tweetIt">
+								    <a href="http://twitter.com/home?status=%40tz+got+a+grade+of+86%2F100+on+%40grader.++Check+it+out%3A+ http%3A%2F%2Ftwitter.grader.com%2Ftz&source=TwitterGrader" rel="nofollow"><img border="0" src="http://twittergrader.com/assets/img/tweetit-transparent.gif"></a> Tweet this report. <a href="http://twitter.com/home?status=%40tz+got+a+grade+of+86%2F100+on+%40grader.++Check+it+out%3A+ http%3A%2F%2Ftwitter.grader.com%2Ftz&source=TwitterGrader" rel="nofollow">Share it on twitter</a>								</li>
+							</ul>
+						<div class="followerHistory">
+                        <div class="sub-section"><h5>Follower History</h5>						    <p>To see how a graph of trends for <b>tz</b>, <a href="http://twittergrader.com/history/tz">view user history</a></p>
+						</div>	
+						</div>
+						</div><!--section body--></div></div></div>
+
+						</div><!-- twitterLocation -->
+
+
+											
+
+						
+						<div id="report-content"><div class="results"><div class="section"><h4>Quick Follower Check</h4><div class="sectionBody"><p>Enter a Twitter username to see if they are following you:<br /></p><form action="api.php" name="findFollower" id="findFollower" method="get"><input type="hidden" name="Action" value="TwitterIsFollower" /><input type="hidden" name="UserName" id="UserName" value="" />User name: <input type="text" name="Follower" id="Follower" size="22" /><input type="submit" id="checkFollowerButton" name="checkFollowerButton" value="Check if they follow you" />&nbsp;&nbsp;<span id="checkFollowerResponse"></span></form><br>To get additional features, please <a href=http://twitter.com/grader>follow @grader on twitter.</a></div><!--sectionBody--></div></div></div>
+						<div id="report-content"><div class="results"><div class="section"><h4>Tweet Cloud</h4>--No tags found--</div></div></div>
+						<div id="report-content"><div class="results"><div class="section"><h4>Tips and Suggestions</h4><div class="message correct">Congratulations!  We could not find any areas of concern with this twitter account.  Tweet on!</div><div class="message info">Like this tool? So do many others.  Please click Like ->	<fb:like href="http://grader.com" layout="button_count"></fb:like></div><div class="message correct">Want to know if that new Twitter Follower is worth following back?  Try our <a href='http://alerts.grader.com' target='_blank'>Alerts Grader</a> service.</div></div></div></div>
+
+					  <div id="report-content"><div class="results"><div class="section"><h4>Need More Traffic and Leads?</h4><br><table border=0><tr><td><a href=http://www.hubspot.com/social-media-marketing-kit-a><img src=images/social-media-marketing-kit-125.png></a></td><td align=left>HubSpot's free <a href=http://www.hubspot.com/social-media-marketing-kit-a>Social Media Marketing Kit</a> provides useful tips on how to get the most out of social media sites like Twitter.</td></tr></table></div></div></div>
+				<br style="clear: both;" />
+                                   				</div>
+
+			</div><!--bodyContent-->
+</div><!-- profile -->
+		</div><!--bodyContainer-->
+<!-- end of twitter-report -->
+
+
+
+
+
+
+<div class="TB_overlayBG" id="TB_overlay" style="display:none;"></div>
+<div style="display: none" id="TB_window">
+	<div class="loading">
+        <p id="statusMessage">Off to the races...</p>
+	</div>
+</div>
+
+<!--1.3370480537415 --><script src="http://twittergrader.com/assets/js/twitter.custom.js?v=01.50.04" type="text/javascript"></script>
+
+		</div><!--bodyContainer-->
+		<div id="footerContainer">
+			<div id="footerContent">
+				<p class="hubspotBlock"><a href="http://hubspot.com" class="hubspot">HubSpot</a></p>
+
+				<!--
+            	<ul>
+					<li><a href="http://twittergrader.com">Home</a></li>
+					<li><a href="http://twittergrader.com/top/users">Twitter Elite</a></li>
+					<li><a href="http://twittergrader.com/search">Search</a></li>
+					<li><a href="http://twittergrader.com/twitsnip">TwitSnip</a></li>
+					<li class="lastItem"><a href="http://twittergrader.com/tweetit">TweetIt Button</a></li>
+                </ul>
+				-->
+
+				<p>Version 01.50.04 tg2 e=1.34 qc=11 qt=0.29 . Don&rsquo;t copy us, it&rsquo;s bad karma.</p>
+				<p>Created by <a rel="nofollow" href="http://twitter.com/dharmesh">@dharmesh</a> &copy; 2010 HubSpot, Inc. Part of <a href="http://grader.com">grader.com tools</a> <p>
+				  
+				</p>
+				<!-- Served by IP=10.214.47.68 -->
+				<!-- st=b57affdf115ecfbf2693d6a87f345f8a -->
+			</div><!--footerContent-->
+		</div><!--footerContainer-->
+	</div><!--mainContainer-->
+
+    <!-- KISSinsights for twittergrader.com -->
+<script type="text/javascript">
+  var _kiq = _kiq || [];
+  (function(u){
+    var s = document.createElement('script'), f = document.getElementsByTagName('script')[0];
+    s.type = 'text/javascript'; s.async = true;
+    s.src = '//s3.amazonaws.com/j.kissinsights.com/u/' + u + '.js?' + (5*Math.floor(new Date().getMinutes()/5));
+    f.parentNode.insertBefore(s, f);
+  })('496/7f017954baa53371df4e52984dd2cb7f7b20901e');
+</script>
+
+</body>
+<!-- Start of HubSpot Logging Code  -->
+<script type="text/javascript" language="javascript">
+var hs_portalid=11782; 
+var hs_salog_version = "2.00";
+var hs_ppa = "grader.hubspot.com"
+document.write(unescape("%3Cscript src='" + document.location.protocol + "//" + hs_ppa + "/salog.js.aspx' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<!-- End of HubSpot Logging Code -->
+
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+var pageTracker = _gat._getTracker("UA-164170-10");
+pageTracker._trackPageview();
+</script>
