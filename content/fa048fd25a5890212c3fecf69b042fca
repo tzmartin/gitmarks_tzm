@@ -1,0 +1,77 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+        "http://www.w3.org/TR/1999/REC-html401-19991224/loose.dtd">
+<html>
+<head>
+	<title>PCalc</title>
+	<link rel="stylesheet" href="front.css" type="text/css">
+	<meta http-equiv="content-type" content="text/html;charset=ISO-8859-1">
+	<meta name="resource-type" content="document">
+	<meta name="keywords" content="PCalc, iPhone, calculator, RPN, iPod, Mac OS X, Macintosh, DragThing, James Thomson">
+	<meta name="distribution" content="global">
+    <style type="text/css">
+<!--
+.style1 {color: #FF0000}
+.style2 {color: red}
+.style3 {color: #000000}
+.style6 {font-size: 15px; }
+.style7 {font-size: 13px}
+-->
+    </style>
+</head>
+<body>
+<div id="mainbox">
+<div id="content">
+  <div id="icons" align="center">
+    <table width="480" border="0" cellpadding="0">
+          <tr>
+          <td align="center" valign="middle">
+            <div align="center">
+              <p><a href="english/about.html" ><img src="http://s3.amazonaws.com/pcalc/images/PCalcIcon128.png" alt="PCalc Icon" name="Image2" width="128" height="128" border="0" id="Image2"></a><a class="headings" href="english/about.html"><br>
+              </a></p>
+          </div></td>
+          <td valign="middle">
+            <div align="left" class="style6" id="description">
+              <p><a class="headings" href="english/about.html">PCalc for Mac OS X</a></p>
+              <p class="style7">A fully featured scientific calculator with support for hexadecimal, octal and binary calculations, as well as an RPN mode, parentheses, programmable functions, and an extensive set of unit conversions.</p>
+            </div>            </td>
+        </tr>
+      </table>   
+      <div align="center">
+        <span class="style7"><a href="english/about.html" class="smallheadings">About</a> / <a href="english/whatsnew.html" class="smallheadings">What's New?</a> / <a href="english/download.html" class="smallheadings">Download</a> / <a href="english/register.html" class="smallheadings">Buy Now</a> / <a href="english/support.html" class="smallheadings">Get Support</a></span><br>
+</div>  
+    </div>
+  </div> 
+</div><br>
+<div id="mainbox">
+<div id="content">
+  <div id="icons" align="center">
+      <table width="480" border="0" cellpadding="0">
+          <tr>
+          <td align="center" valign="middle">
+            <div align="center">
+              <p><a href="iphone/index.html"><img src="http://s3.amazonaws.com/pcalc/iphone/images/SmallIcon.png" alt="PCalc Icon" name="Image3" width="128" height="128" border="0" id="Image3"></a><a class="headings" href="english/about.html"><br>
+              </a></p>
+          </div></td>
+          <td valign="middle">
+            <div id="description" align="left">
+              <p class="style6"><a class="headings" href="iphone/index.html">PCalc for the iPad, iPhone, and iPod touch</a></p>
+              <p class="style7">Based on our popular calculator for the Macintosh, PCalc has been redesigned from the ground up to give the best handheld experience.</p>
+              <p class="style7">It's PCalc at your fingertips!</p>
+            </div>		  
+            </td>
+         </tr>
+      </table>
+      <div align="center">
+       <span class="style7"><a href="iphone/index.html" class="smallheadings">About</a> / <a href="iphone/whatsnew.html" class="smallheadings">What's New?</a> / <a href="http://www.pcalc.com/itunes_store_link/tlasystems" class="smallheadings">Buy Now</a> / <a href="iphone/support.html" class="smallheadings">Get Support</a></span></div>
+   </div>
+  </div>
+</div><br>
+<div id="mainbox">
+<div id="content">
+  <div id="icons" align="center">
+    <div align="center" class="smallheadings"><a href="http://www.dragthing.com/pcalc-forums" target="_blank" class="smallheadings">Visit the Forums</a> / <a href="http://www.dragthing.com/blog/" class="smallheadings"></a><a href="http://www.dragthing.com/blog/" target="_blank" class="smallheadings">Read the Developer Blog</a> / <a href="http://www.twitter.com/jamesthomson" target="_blank" class="smallheadings">Follow us on Twitter</a></div>
+   </div>
+  </div>
+</div>
+</body>
+</html>
