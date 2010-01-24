@@ -1,0 +1,501 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+   "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en"  style="height:100%;">
+ <head>
+   <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+   
+   <meta name="author" content="AppExplorer" />
+   <meta name="keywords" content="iphone apps, ipad apps, app search, appstore stats, app store statistics, mobile apps, mobile applications, app explorer"/>
+   <meta name="description" content="App Stats: iPhone / iPad App Store by the numbers - statistics, breakdowns by category, price, ratings, and developers | AppExplorer.com" />
+   <link rel="Shortcut Icon" type="image/x-icon" href="http://m5.appexplorer.com/s/pix/favicon.ico" />	
+   <link rel="search" type="application/opensearchdescription+xml" href="/opensearch.xml" title="AppExplorer">	
+  <link rel="stylesheet" type="text/css" href="http://m5.appexplorer.com/s/css/autocomplete28.css">
+   <style type="text/css" media="all">@import "http://m5.appexplorer.com/s/css/expl.css";</style>
+   <title>App Stats: the iPhone / iPad App Store by the numbers | AppExplorer</title>
+
+<script src="http://m5.appexplorer.com/s/js/AC_OETags.js" language="javascript"></script>
+<script language="JavaScript" type="text/javascript">
+<!--
+// Version of Flash required
+var requiredMajorVersion = 9;
+var requiredMinorVersion = 0;
+var requiredRevision = 124;
+// -->
+</script>
+ </head>
+
+<body onload="$AE('id_q').focus();" scroll="no" style="height:100%;">
+
+<center>
+ <table width="760"><tr><td>
+    <span id="id_signed_in" style="display:none">
+     <a href="javascript:acct_sh()">My Profile</a> &nbsp; &middot; &nbsp;
+     <a href="javascript:void(acct_so())">Sign out</a>
+    </span>
+    <span id="id_signed_out" style="display:inline">
+     <a href="javascript:void(acct_si())">Sign in</a>
+     &nbsp; &middot; &nbsp; <a href="javascript:sign_up('/cap/')">Sign up</a>  
+    </span>
+    &nbsp; &middot; &nbsp; <a href="javascript:void(show_fb('/cap/'));">Contact</a>
+    &nbsp; &middot; &nbsp; <a href="/info/about/">About AppExplorer</a>
+   </td><td align="right">
+    
+    <a style="font-style:italic;font-size:110%"; href="/stats/">App&nbsp;Stats</a> &nbsp;
+ </td></tr></table>
+ <br />
+ <div class="yui_spot">
+ <form id="srch_frm" method="get" action="/">
+  <input id="srch_so" type="hidden" name="so" value="" />
+  <table cellspacing="0" cellpadding="0">
+   <tr>
+    <td valign="middle">
+     <a href="/"><img src="http://m5.appexplorer.com/s/pix/appexpl264.png" width="264" height="36" border="0" alt="" /></a>
+    </td><td valign="middle">
+     <input id="id_q" name="q" type="text" size="36" maxlength="80" value="" title="Search" />
+     <div id="acbox"></div>
+    </td><td valign="middle">
+     <input id="q_btn" type="submit" value="Search" />
+   </td></tr>
+     
+  </table>
+ </form> 
+ </div>
+</center>
+ <br />
+
+<div style="width:100%; height:92%;">
+<script language="JavaScript" type="text/javascript">
+<!--
+// Version check for the Flash Player that has the ability to start Player Product Install (6.0r65)
+var hasProductInstall = DetectFlashVer(6, 0, 65);
+
+// Version check based upon the values defined in globals
+var hasRequestedVersion = DetectFlashVer(requiredMajorVersion, requiredMinorVersion, requiredRevision);
+
+if ( hasProductInstall && !hasRequestedVersion ) {
+	// DO NOT MODIFY THE FOLLOWING FOUR LINES
+	// Location visited after installation is complete if installation is required
+	var MMPlayerType = (isIE == true) ? "ActiveX" : "PlugIn";
+	var MMredirectURL = window.location;
+    document.title = document.title.slice(0, 47) + " - Flash Player Installation";
+    var MMdoctitle = document.title;
+
+	AC_FL_RunContent(
+		"src", "playerProductInstall",
+		"FlashVars", "MMredirectURL="+MMredirectURL+'&MMplayerType='+MMPlayerType+'&MMdoctitle='+MMdoctitle+"",
+		"width", "100%",
+		"height", "100%",
+		"align", "middle",
+		"id", "flex_stats1",
+		"quality", "high",
+		"bgcolor", "#869ca7",
+		"name", "flex_stats1",
+		"allowScriptAccess","sameDomain",
+		"type", "application/x-shockwave-flash",
+		"pluginspage", "http://www.adobe.com/go/getflashplayer"
+	);
+} else if (hasRequestedVersion) {
+	// if we've detected an acceptable version
+	// embed the Flash Content SWF when all tests are passed
+	AC_FL_RunContent(
+			"src", "http://fl.appexplorer.com/fl/fl_stats_4u.swf",
+			"width", "100%",
+			"height", "100%",
+			"align", "middle",
+			"id", "flex_stats1",
+			"quality", "high",
+			"bgcolor", "#869ca7",
+			"name", "fl_stats_4u",
+			"allowScriptAccess","always",
+			"type", "application/x-shockwave-flash",
+			"pluginspage", "http://www.adobe.com/go/getflashplayer",
+			"wmode", "transparent",
+			"flashvars", "env=p"
+	);
+  } else {  // flash is too old or we can't detect the plugin
+    var alternateContent = 'Alternate HTML content should be placed here. '
+  	+ 'This content requires the Adobe Flash Player. '
+   	+ '<a href=http://www.adobe.com/go/getflash/>Get Flash</a>';
+    document.write(alternateContent);  // insert non-flash content
+  }
+// -->
+</script>
+<noscript>
+
+  	<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000"
+			id="flex_stats1" width="100%" height="100%"
+			codebase="http://fpdownload.macromedia.com/get/flashplayer/current/swflash.cab">
+			<param name="movie" value="fl_stats_4u.swf" />
+			<param name="quality" value="high" />
+			<param name="bgcolor" value="#869ca7" />
+			<param name="allowScriptAccess" value="sameDomain" />
+			<param name="wmode" value="transparent">
+			<param name="flashvars" value="env=p" />
+			<embed src="http://fl.appexplorer.com/fl/fl_stats_4u.swf" quality="high" bgcolor="#869ca7"
+				width="100%" height="100%" name="fl_stats_4u" align="middle"
+				play="true"
+				loop="false"
+				quality="high"
+				allowScriptAccess="always"
+				type="application/x-shockwave-flash"
+				pluginspage="http://www.adobe.com/go/getflashplayer">
+			</embed>
+	</object>
+
+</noscript>
+ 
+</div>
+ 
+ 
+
+
+ 
+
+
+ <br clear="all" />
+ <table id="footer" cellpadding="0" cellspacing="0"><tr><td align="left" valign="top">
+  AppExplorer: find mobile apps that match your interests; receive price drop and new app alerts
+ </td><td align="right">
+  Copyright &copy; 2010, Blue Indigo, LLC. All rights reserved. 
+  <a href="/info/tos/">Terms of service.</a></td></tr>
+  <tr><td align="center" colspan="2">
+  "appexplorer", "App Stats" and appexplorer graphics are trademarks of Blue Indigo, LLC;
+  iPod, iPhone, iPad, and
+  <a style="color:gray;font-family:Arial,sans-serif;" 
+     href="http://click.linksynergy.com/fs-bin/click?id=Q4tySOyEGAI&offerid=146261.10000007&type=3&subid=0">iTunes</a>
+  are trademarks of Apple Inc. App images provided courtesy of iTunes.
+  AppExplorer.com is not affiliated with Apple Inc.
+  Other names are registered trademarks or trademarks of their respective companies.
+ </td></tr></table>
+ 
+
+
+<div id="mdl_sh"></div> 
+
+<div id="m_acct_sh" class="m_base" style="width:700px;">
+   <div class="mdl_ti">
+   <span class="cl_mdl_ti">&nbsp;Profile</span>
+   <span class="mdl_tix"><a href="javascript:void(unshow_modal())">Close <img src="http://m5.appexplorer.com/s/pix/xbox10w.gif" width="10" height="10" width="10" height="10" border="0" alt="" /></a></span>
+   </div>
+   <div id='m_acct_shc'>
+    <div>
+     <div id="id_acctsh_email" style="float:right;font-weight:bold;"></div>
+   </div>
+<hr color="#555588" />
+<div class="m_sect">
+<span style="font-size:14px;font-weight: bold;color:#555588">Price alerts</span><br />
+ <input style="display:none" type="checkbox" name="rt_alert" id="id_rt_alert" onchange="rt_alert_changed()"
+         >
+
+<table style="margin-left:50px;width:80%;" cellspacing="2">
+ <tr>
+  <td valign="top">
+   <div style='text-align:center;border:1px solid #aaa;padding:3px;'>
+    Get an alert when paid apps become free in up to two categories:<br /><br />
+    Category 1:
+    <select name="catalert1" id="id_catalert1" onchange="cat_alert_changed()">
+     <option value="0"  style="font-style: italic;">None</option>
+    </select> &nbsp; 
+    Category 2:
+    <select name="catalert2" id="id_catalert2" onchange="cat_alert_changed()">
+     <option value="0" style="font-style: italic;">None</option>
+    </select> 
+    <br />Pick <b>None</b> to remove a selection
+    <br /><br />Apps must have 
+    <select name="catalertstars" id="id_catalertstars" onchange="cat_alert_changed()">
+     <option value="0">any rating</option>
+     <option value="1">at least 1 star</option>
+     <option value="2">at least 2 stars</option>
+     <option value="3">at least 3 stars</option>
+     <option value="4">at least 4 stars</option>
+     <option value="5">at least 5 stars</option>
+    </select> to issue an alert
+    <span id="id_alertstars" style="display:none"></span> 
+   </div>
+
+   <div id="id_acct_pr_al"></div>
+  </td>
+ </tr><tr>
+  <td colspan="2" align="center">
+  <div id="id_acct_pr_al2"></div>
+  </td>
+ </tr>
+</table>
+</div>
+<hr color="#555588" />
+<div class="m_sect">
+<span style="font-size:14px;font-weight: bold;color:#555588">New App alerts</span><br />
+<table style="margin-left:50px;width:80%;" cellspacing="2">
+ <tr>
+  <td align="center">
+   <div style="font-style:italic; color:#202040;" id="id_acct_na_al2"></div>
+  </td>
+ </tr><tr>
+  <td valign="top">
+   <div id="id_acct_na_al"></div>
+  </td>
+ </tr><tr>
+<td>
+   <div id="id_acct_na_al3" style="text-align:center;"></div>
+  </td>
+ </tr>
+</table>
+</div>
+<hr color="#555588" />
+<div class="m_sect"><table width="100%"><tr><td>
+<span style="font-size:14px;font-weight: bold;color:#555588">Apps you own</span>
+</td>
+<td align="right" valign="top" style="font-style:italic;">
+
+<a href='javascript:void(alert("Coming soon..."))'>Share your app list</a></td>
+</tr></table>
+  <div id="id_owned_apps" style="margin-left:50px; text-align:center;"></div>
+</div>
+<hr color="#555588" />
+<div class="m_sect"><table width="100%"><tr><td>
+<span style="font-size:14px;font-weight: bold;color:#555588">Wish list</span>
+
+</td>
+<td align="right" valign="top" style="font-style:italic;">
+<a href='javascript:void(alert("Coming soon..."))'>Share your wish list</a></td>
+</tr></table>
+  <div id="id_acct_fave" style="margin-left:50px; text-align:center;"></div>
+</div>
+<hr color="#555588" />
+</div>
+ <div id="apsh_ftr">
+  <a class="mdl_tix2" style="float:right;vertical-align:bottom;"  href="javascript:void(unshow_modal());">Close</a>
+ </div>
+</div>
+
+
+<div id="m_acct_si" class="m_base" style="width:460px;">
+   <div class="mdl_ti">
+   <span class="cl_mdl_ti">Sign in</span>
+    <span class="mdl_tix"><a href="javascript:void(close_siu());">Close <img src="http://m5.appexplorer.com/s/pix/xbox10w.gif" width="10" height="10" border="0" alt="" /></a></span>
+   </div>
+   <div id='m_acct_sic'>
+    <form method="POST" onsubmit="return sign_in();"> 
+     <table style="margin:1px auto;">
+      <tr>
+       <td align="right">Email:</td>
+       <td align="left"><input id="id_email" name="email" type="text" size="32" maxlength="50"  /></td>
+      </tr><tr>
+       <td align="right">Password:</td>
+       <td align="left"><input id="id_pw" name="pw" type="password" size="32" maxlength="50" /></td>
+      </tr><tr>
+       <td>&nbsp;</td>
+       <td align="right"><input id="id_ssub2" type="submit" value="Sign in" />
+       <a href="javascript:void(close_siu());">Cancel</a></td>
+      </tr>
+     </table>
+     </form>
+
+     <table width="100%" style="position:absolute; left: 0;bottom: 1px;border-top: 1px solid #ccc;"><tr>
+      <td align="left">Forgot your password? <a style="font-style:italic;" href="javascript:void(pw_reset('/ajx/acct/resetpw/', '/'));">reset it</a></td>
+	  <td align="right">Not registered? <a class="keytext" href="javascript:void(sign_up('/cap/'))">Sign up</a></td>
+	 </tr></table>
+   </div>
+</div>
+
+<div id="m_acct_su" class="m_base" style="width:500px;">
+   <div class="mdl_ti">
+   <span class="cl_mdl_ti">Sign up</span>
+    <span class="mdl_tix"><a href="javascript:void(close_siu());">Close <img src="http://m5.appexplorer.com/s/pix/xbox10w.gif" width="10" height="10" border="0" alt="" /></a></span>
+   </div>
+   <div id='m_acct_suc'>
+    <form method="POST" onsubmit="return sign_up2('/ajx/acct/su/');"> 
+     <table style="margin:1px auto;">
+      <tr>
+       <td width="220" align="right">Name or nickname:</td>
+       <td align="left"><input id="id_nnsu" tabindex="1" name="nick" type="text" size="20" maxlength="50"  /></td>
+      </tr><tr>
+       <td align="right">Email:<br />(used for signing in)</td>
+       <td align="left"><input id="id_emailsu" tabindex="2" name="email" type="text" size="28" maxlength="50"  /></td>
+      </tr><tr>
+       <td align="right">Password:</td>
+       <td align="left"><input id="id_pwsu" tabindex="3" name="pw" type="password" size="28" maxlength="50" /></td>
+      </tr><tr>
+       <td align="right">Password (again):</td>
+       <td align="left"><input id="id_pwsu2" tabindex="4" name="pw2" type="password" size="28" maxlength="50" /></td>
+      </tr><tr>
+       <td width="220" height="60" align="right"><label for="id_captcha"><img id="id_captcha_img" alt="test word"/></label></td>
+       <td align="left" valign="top"><input id="id_captcha" tabindex="6" type="text" name="captcha" maxlength="30" />
+        <br />Enter test word shown at left
+       </td>
+      </tr><tr>
+       <td>&nbsp;</td>
+       <td align="right"><input tabindex="7" type="submit" value="Sign up" />
+       <a href="javascript:void(close_siu());">Cancel</a></td>
+      </tr>
+      <tr><td colspan="2" align="right" style="font-size:11px">By clicking the "Sign up" button, you agree to the <a href="/info/tos/">terms of service</a></td></tr>
+     </table>
+     </form>
+
+     <table width="100%" style="position:absolute; left: 0;bottom: 1px;border-top: 1px solid #ccc;"><tr>
+      <td>&nbsp;</td>
+	  <td align="right">Already registered? <a class="keytext" href="javascript:void(acct_si())">Sign in</a></td>
+	 </tr></table>
+   </div>
+</div>
+
+<div id="m_fb" class="m_base" style="width:560px;">
+   <div class="mdl_ti">
+   <span class="cl_mdl_ti"> AppExplorer Feedback</span>
+    <span class="mdl_tix"><a href="javascript:void(close_fb());">Close <img src="http://m5.appexplorer.com/s/pix/xbox10w.gif" width="10" height="10" border="0" alt="" /></a></span>
+   </div>
+   <div id='m_acct_fbc'>
+    <form method="POST" onsubmit="return send_fb('/feedback/');"> 
+     <table style="margin:1px auto;">
+      <tr>
+       <td align="right" valign="top">Email (if you wish a reply):</td>
+       <td align="left"><input id="id_emailfb" name="email" type="text" size="32" maxlength="50"  /></td>
+      </tr><tr>
+       <td align="right" valign="top">Your comments, questions, suggestions:</td>
+       <td align="left"><textarea id="id_fb" rows="8" cols="38" name="message"></textarea></td>
+      </tr><tr>
+       <td width="220" height="55" align="right"><label for="id_capfb"><img id="fb_cap" alt="test word" /></label></td>
+       <td align="left" valign="top"><input id="id_capfb" type="text" name="captcha" maxlength="30" />
+        <br />Enter test word shown at left</td>
+      </tr><tr>
+       <td>&nbsp;</td>
+       <td align="right"><input id="id_ssub3" type="submit" value="Send feedback" />
+       <a href="javascript:void(close_fb());">Cancel</a></td>
+      </tr>
+     </table>
+     </form>
+   </div>
+</div>
+
+<div id="m_al_pr" class="m_base" style="width:560px;">
+ <form id="id_nprf" method="POST" onsubmit="return new_pr_al();">
+ <table width="100%" cellspacing="0">
+  <tr class="mdl_ti_tr">
+   <td>Get price alert - <span id="is_al_pr_nm" style="font-weight:bold;"></span></td>
+   <td class="mdl_tix_td" align="right" width="60">
+    <a href="javascript:$AE('id_nprf').reset();void(unshow_modal());">Close <img src="http://m5.appexplorer.com/s/pix/xbox10w.gif" width="10" height="10" border="0" alt="" /></a>   
+   </td>
+  </tr>
+  </table>
+    <input id="id_pr_nm" type="hidden" name="app" /> 
+    <table style="margin:30px auto;">
+      <tr height="24">
+       <td id="is_al_pr_nm2" colspan="2" align="center" style="font-weight:bold;"></td>
+      </tr><tr> 
+       <td align="right" valign="top"> Send me email:</td>
+       <td align="left" style="border:1px solid #ccc;padding:2px 4px;line-height:20px;">
+    <input id="id_pr_change" type="radio" name="alert_type" value="change" /><label for="id_pr_change">if price changes</label><br />
+    <input id="id_pr_free" type="radio" name="alert_type" value="free" /><label for="id_pr_free">only if app becomes free</label>
+ 
+       </td>
+      </tr><tr>
+       <td>&nbsp;</td>
+       <td align="right"><br /><input id="id_ssub4" type="submit" value="Add alert" />
+       <a href="javascript:$AE('id_nprf').reset();void(unshow_modal());">Cancel</a>
+       </td>
+      </tr>
+     </table>
+  <div style="width:90%;text-align:center;margin:0 auto 5px;color:#444;font-style:italic;">
+   If you are using a junk mail filter you may need to add <b>appexplorer.com</b> to your approved list.
+   Please note that while we try to deliver alerts in a timely fashion, alerts may be delayed or not be delivered 
+   at all in some cases.
+  </div>
+  </form>
+</div>
+
+<div id="m_shar" class="m_base" style="width:560px;">
+   <div class="mdl_ti">
+   <span class="cl_mdl_ti"> Share app with a friend</span>
+    <span class="mdl_tix"><a href="javascript:void(unshow_modal());">Close <img src="http://m5.appexplorer.com/s/pix/xbox10w.gif" width="10" height="10" border="0" alt="" /></a></span>
+   </div>
+   <div id='m_shar_app'>
+    <form method="POST" onsubmit="return share_app('/ajx/shar/2/');"> 
+     <table style="margin:1px auto;">
+      <tr><td colspan="2" align="center">Tell a friend about <b><span id="id_sh_app"></span></b></td></tr>
+      <tr>
+       <td align="right" valign="top">Friend's email address:<br />
+        <span style="color:#404040;font-style:italic;">Only one address please</span></td>
+       <td align="left"><input id="id_sh_email" name="email" type="text" size="32" maxlength="50"  /></td>
+      </tr><tr>
+       <td>&nbsp;</td>
+       <td><input type="checkbox" id="id_smc" name="smc" /><label for="id_smc">Send me a copy of the message</label></td>
+      </tr><tr>
+       <td align="right" valign="top">Message to include:</td>
+       <td align="left"><textarea id="id_sh_msg" rows="5" cols="38" name="msg"></textarea></td>
+      </tr><tr>
+       <td width="220" height="55" align="right"><label for="id_capshar"><img id="shar_cap" alt="test word" /></label></td>
+       <td align="left" valign="top"><input id="id_capshar" type="text" name="captcha" maxlength="30" />
+        <br />Enter test word shown at left</td>
+      </tr><tr>
+      <td colspan="2" align="center" style="font-style:italic;color:#444;height:20px;border-bottom:1px solid #ccc;margin-bottom:8px;">
+       Message will indicate that it was sent by <span style="font-weight:bold" id="id_sharer"></span><br /></td>
+      </tr><tr>
+       <td>&nbsp;</td>
+       <td align="right"><input id="id_ssub5" type="submit" value="Share app" />
+       <a href="javascript:void(unshow_modal());">Cancel</a></td>
+      </tr>
+     </table>
+     </form>
+   </div>
+</div>
+
+<div id="m_charts" class="m_base" style="width:530px;" onclick="void(unshow_modal());">
+   <div class="mdl_ti">
+    <span id="id_charts" class="cl_mdl_ti">Price and popularity history</span>
+    <span class="mdl_tix"><a href="javascript:void(unshow_modal());">Close <img src="http://m5.appexplorer.com/s/pix/xbox10w.gif" width="10" height="10" border="0" alt="" /></a></span>
+   </div>
+   <div>
+    <br />
+    <div id="m_rnk_cht" style="display:none;">
+     <img id="m_rnk_img" style="display:block" />
+     <div id="m_rnk_msg" class="chart_msg"></div>
+    </div>
+    <br />
+    <div id="m_prc_cht" style="display:none;">
+     <img id="m_prc_img" style="display:block" />
+     <div id="m_prc_msg" class="chart_msg"></div>
+    </div>
+   </div>
+</div>
+
+<div id="m_catal" class="m_base" style="width:560px;">
+   <div class="mdl_ti">
+   <span class="cl_mdl_ti"> Free app alerts</span>
+    <span class="mdl_tix"><a href="javascript:void(close_catal());">Close <img src="http://m5.appexplorer.com/s/pix/xbox10w.gif" width="10" height="10" border="0" alt="" /></a></span>
+   </div>
+   <div id='m_acct_catal'>
+    <form method="POST" onsubmit="return send_catal();"> 
+     <table style="margin:1px auto;">
+      <tr>
+       <td align="right" valign="top">Category:</td>
+       <td align="left"><input id="id_catal1" name="email" type="text" size="32" maxlength="50"  /></td>
+      </tr><tr>
+       <td>&nbsp;</td>
+       <td align="right"><input id="id_sub_pa" type="submit" value="Add alerts" />
+       <a href="javascript:void(close_catal());">Cancel</a></td>
+      </tr>
+     </table>
+     </form>
+   </div>
+</div>
+
+<script type="text/javascript" src="http://m5.appexplorer.com/s/js/yui-kit28.js"></script>
+  <script type="text/javascript" src="http://m5.appexplorer.com/s/js/expl.js"></script>
+  <script type="text/javascript" src="http://m5.appexplorer.com/s/js/expl_ac.js"></script>
+ <script type="text/javascript" src="http://m5.appexplorer.com/s/js/json2.js"></script>
+ <script type="text/javascript">
+  init_acct_js(false, 'http://m5.appexplorer.com/s/');
+  AEXP.search.ac('id_q', 'acbox', '/ac/', '');
+ </script>
+<script type="text/javascript">
+ var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+ document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+ try {
+ var pageTracker = _gat._getTracker("UA-6555787-8");
+ pageTracker._trackPageview();
+ } catch(err) {}
+</script>
+ </body>
+</html>
