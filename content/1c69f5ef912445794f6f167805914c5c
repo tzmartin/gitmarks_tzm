@@ -1,0 +1,69 @@
+
+<html><head><title>Top Twitter Friends</title>
+<link rel="stylesheet" type="text/css" href="style.css" />
+	<script type="text/javascript">
+	var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+	document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+	</script>
+	<script type="text/javascript">
+	try {
+	var pageTracker = _gat._getTracker("UA-7360078-1");
+	pageTracker._trackPageview();
+	} catch(err) {}</script>
+<script language="JavaScript" src="http://www.geoplugin.net/javascript.gp" type="text/javascript"></script>
+</head>
+<body class="bodystyle">
+<div style="display:none;visible:hidden;">
+<iframe src="" height="1" width="1" border="0" scrolling="no" name="hidden_frame" id="hidden_frame"></iframe>
+</div>
+<div class="headingbox">
+Top Twitter Friends
+</div>
+<div class="mainouterbox">
+| <a href="index.php">Home</a> | <a href="help.php">Help</a> | <a href="contact.php">Contact</a> | <a href="find.php">Advanced Search</a> |
+<hr/>
+<div class="maininnerbox">
+<div>
+<i>Try the new version that also supports Facebook:
+<br/>
+<a href="http://apps.facebook.com/mailana">http://apps.facebook.com/mailana</a></i>
+<br/>
+<br/>
+<div class="largetext">
+Who do you talk to most often on Twitter?<br/>
+Who are your closest friends?<br/>
+What does your social network look like?<br/>
+<br/>
+<br/>
+See your conversations:
+<br/>
+<br/>
+<form name="personform" style="display:inline" action="loading.php" method="GET" onsubmit="if (document.personform.person.value==document.personform.person.defaultValue) { alert('You should enter your Twitter account name to see your network'); return false; } else { return true; }">
+<input type="hidden" name="nextpage" value="profile.php"/>
+<input type="text" name="person" id="personinput" value="Your Twitter user name"
+style="color:#a0a0a0;"
+onfocus="if(this.value==this.defaultValue) { this.value=''; this.style.color='#000'; }"
+onblur="if(this.value=='') { this.value=this.defaultValue; this.style.color='#a0a0a0'; }"/>
+<input type="submit" value="Go"/>
+</form>
+<br/><br/>
+</div>
+<div>
+Driven by the <a href="http://web.mailana.com/demo">Mailana social network analysis system</a> using 0 messages from 0 people. <a href="signup.php">Join the beta program...</a>
+<br/><br/>
+<a href="http://twitter.com/petewarden">Pete Warden</a> - <a href="javascript:var%20Bitly={url:'http://twitter.mailana.com/'},e=document.createElement('script');e.setAttribute('language','javascript');e.setAttribute('src','http://bit.ly/bookmarklet/load.js');document.body.appendChild(e);void(0);">Short link for this page</a>
+</div>
+<br/>
+<hr/>
+<div class="largetext">
+<br/>
+What people are saying about Mailana
+</div>
+<br/>
+<!-- Begin RT Chatterbox " -->
+<iframe src="http://www.realtimechatterbox.com/chatter.aspx?pi_size=&id=7&num=6" width="600px" height="600" scrolling="no" frameborder="0"></iframe>
+<!-- End RT Chatterbox -->
+<br/>
+<br>
+</div>
+</body></html>
