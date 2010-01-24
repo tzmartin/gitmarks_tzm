@@ -58,7 +58,7 @@
 <link rel="canonical" href="http://guipulp.com/" />
 <!-- /all in one seo pack -->
 
-<!-- Bad Behavior 2.0.38 run time: 2.579 ms -->
+<!-- Bad Behavior 2.0.38 run time: 2.698 ms -->
 <script type="text/javascript">
 <!--
 function bb2_addLoadEvent(func) {
@@ -79,7 +79,7 @@ bb2_addLoadEvent(function() {
 			var myElement = document.createElement('input');
 			myElement.setAttribute('type', 'hidden');
 			myElement.name = 'bb2_screener_';
-			myElement.value = '1292694909 67.252.164.28';
+			myElement.value = '1292697604 67.252.164.28';
 			document.forms[i].appendChild(myElement);
 		}
 	}
