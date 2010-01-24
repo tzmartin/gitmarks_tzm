@@ -1,0 +1,291 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="en-US">
+
+<head profile="http://gmpg.org/xfn/11">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="google-site-verification" content="oQdGnYUFwCNI57jiRhDEE3L8R5X2aJUIWUPTvXvdmx8" />
+<title>We Love Icons: Mac, Windows and Linux PNG icons of the finest quality!</title>
+<meta name="description" content="The icon site for icon connoisseurs. Featuring only the highest quality freeware icons for Mac, Windows and Linux.">
+<meta name="keywords" content="we love icons, mac icons, png icons, windows icons, vista icons, linux icons, free icons, desktop icons, buddy icons, aim icons, we heart icons, weloveicons">
+
+<link rel="stylesheet" href="http://weloveicons.com/wp-content/themes/wliv01/style.css?1284589821" type="text/css" media="screen" />
+<link rel="alternate" type="application/rss+xml" title="We Love Icons RSS Feed" href="http://feeds2.feedburner.com/all_icons" />
+<!-- <link rel="alternate" type="application/atom+xml" title="We Love Icons Atom Feed" href="http://weloveicons.com/feed/atom/" /> -->
+<link rel="pingback" href="http://weloveicons.com/xmlrpc.php" />
+<script defer type="text/javascript" src="http://weloveicons.com/wp-content/themes/wliv01/rollover.js"></script>
+<!--[if lt IE 7.]>
+<script defer type="text/javascript" src="http://weloveicons.com/wp-content/themes/wliv01/pngfix.js"></script>
+<![endif]-->
+
+<script type="text/javascript">
+// Pre load images for rollover
+if (document.images) {
+	filter_all_0 = new Image
+	filter_all_1 = new Image
+	filter_mac_0 = new Image
+	filter_mac_1 = new Image
+	filter_win_0 = new Image
+	filter_win_1 = new Image
+	filter_png_0 = new Image
+	filter_png_1 = new Image
+	btn_browse_0 = new Image
+	btn_browse_1 = new Image
+	btn_tell_us_0 = new Image
+	btn_tell_us_1 = new Image
+ 
+
+	filter_all_0.src = "http://weloveicons.com/wp-content/themes/wliv01/images/filter_all_0.gif"
+	filter_all_1.src = "http://weloveicons.com/wp-content/themes/wliv01/images/filter_all_1.gif"
+	filter_mac_0.src = "http://weloveicons.com/wp-content/themes/wliv01/images/filter_mac_0.gif"
+	filter_mac_1.src = "http://weloveicons.com/wp-content/themes/wliv01/images/filter_mac_1.gif"
+	filter_win_0.src = "http://weloveicons.com/wp-content/themes/wliv01/images/filter_win_0.gif"
+	filter_win_1.src = "http://weloveicons.com/wp-content/themes/wliv01/images/filter_win_1.gif"
+	filter_png_0.src = "http://weloveicons.com/wp-content/themes/wliv01/images/filter_png_0.gif"
+	filter_png_1.src = "http://weloveicons.com/wp-content/themes/wliv01/images/filter_png_1.gif"
+	btn_browse_0.src = "http://weloveicons.com/wp-content/themes/wliv01/images/btn_browse_0.gif"
+	btn_browse_1.src = "http://weloveicons.com/wp-content/themes/wliv01/images/btn_browse_1.gif"
+	btn_tell_us_0.src = "http://weloveicons.com/wp-content/themes/wliv01/images/btn_tell_us_0.gif"
+	btn_tell_us_1.src = "http://weloveicons.com/wp-content/themes/wliv01/images/btn_tell_us_1.gif"
+}
+
+
+function swapImage(thisImage,newImage) {
+	if (document.images) {
+	 document[thisImage].src = eval(newImage + ".src")
+	}
+}
+
+</script>
+
+
+
+<link rel='stylesheet' id='contact-form-7-css'  href='http://weloveicons.com/wp-content/plugins/contact-form-7/styles.css?ver=2.3.1' type='text/css' media='all' />
+<script type='text/javascript' src='http://weloveicons.com/wp-includes/js/jquery/jquery.js?ver=1.4.2'></script>
+</head>
+<body>
+  <div id="top_nav">
+   <!-- <a href="http://iconhandbook.com" onMouseOver="swapImage('tab_icon_handbook','tab_icon_handbook_1')" onMouseOut="swapImage('tab_icon_handbook','tab_icon_handbook_0')"><img src="http://weloveicons.com/wp-content/themes/wliv01/images/tab_icon_handbook_0.gif" name="tab_icon_handbook" alt="Icon Handbook" class="tab"/></a>--> 
+   <a href="/"><img src="http://weloveicons.com/wp-content/themes/wliv01/images/tab_get_icons_0.gif" class="tab"/></a>
+   <a href="http://weconverticons.com" onMouseOver="swapImage('tab_convert_icons','tab_convert_icons_1')" onMouseOut="swapImage('tab_convert_icons','tab_convert_icons_0')"><img src="http://weloveicons.com/wp-content/themes/wliv01/images/tab_convert_icons_0.gif" name="tab_convert_icons" alt="Convert Icons" class="tab"/></a>
+   
+   <div id="social">
+   <img src="http://weloveicons.com/wp-content/themes/wliv01/images/top_nav_get_updates.gif" alt="Get Updates"/>
+   <a href="http://twitter.com/weloveicons" target="_blank"><img src="http://weloveicons.com/wp-content/themes/wliv01/images/icon_top_twitter.gif" class="icon_top" alt="twitter" title="Follow us on Twitter"/></a>
+   <a href="/rss-feeds"><img src="http://weloveicons.com/wp-content/themes/wliv01/images/icon_top_rss.gif" class="icon_top" alt="RSS" title="Get updates via RSS"/></a>
+   <a href="/email-updates"><img alt="Email Updates" src="http://weloveicons.com/wp-content/themes/wliv01/images/icon_top_email_updates.png" class="icon_top" title="Get updates via email"/></a>
+
+   </div>
+   
+  </div>
+  
+<div id="page">
+	<!--  
+		-->
+	
+	 
+	<!-- <a href="http://iconfest.com" title="Iconfest!" target="_blank"><img src="http://weloveicons.com/wp-content/themes/wliv01/images/iconfest_teaser.gif" style="float:right; clear:both; margin-top:170px; border:0;"/></a>-->
+		
+  <div id="page_content">
+    <div id="box_top">   
+      <div id="main_nav">
+      <a href="/"><img alt="We Love Icons Logo" src="http://weloveicons.com/wp-content/themes/wliv01/images/logo.gif" /></a><a href="/" ><img alt="Browse" src="http://weloveicons.com/wp-content/themes/wliv01/images/btn_browse_1.gif" style="margin:0 0 0 90px;" name="btn_browse"/></a><a href="/tell-us" onMouseOver="swapImage('btn_tell_us','btn_tell_us_1')" onMouseOut="swapImage('btn_tell_us','btn_tell_us_0')"><img alt="Tell Us" src="http://weloveicons.com/wp-content/themes/wliv01/images/btn_tell_us_0.gif" name="btn_tell_us"/></a>
+      </div>
+      <div id="secondary_nav">
+        <div id="filter_box">
+          <a href="/" ><img alt="ALL" src="http://weloveicons.com/wp-content/themes/wliv01/images/filter_all_0.gif" name="all"/></a>
+          <a href="/category/mac/" onMouseOver="swapImage('mac','filter_mac_0')" onMouseOut="swapImage('mac','filter_mac_1')"><img alt="MAC" src="http://weloveicons.com/wp-content/themes/wliv01/images/filter_mac_1.gif" name="mac"/></a>
+          <a href="/category/png/" onMouseOver="swapImage('png','filter_png_0')" onMouseOut="swapImage('png','filter_png_1')"><img alt="PNG" src="http://weloveicons.com/wp-content/themes/wliv01/images/filter_png_1.gif" name="png"/></a> 
+          <a href="/category/win/" onMouseOver="swapImage('win','filter_win_0')" onMouseOut="swapImage('win','filter_win_1')"><img alt="WIN" src="http://weloveicons.com/wp-content/themes/wliv01/images/filter_win_1.gif" name="win"/></a>     
+        </div>
+        <div id="search_box">
+        <form method="get" id="searchForm" action="http://weloveicons.com"/>
+	
+	<input type="text" value="Search Icons" name="s" id="s" onclick="this.value=''"/><button name="submit" type="submit" id="searchsubmit"><img src="http://weloveicons.com/wp-content/themes/wliv01/images/btn_go.png" alt="submit search form"  width="48" height="34"/></button>
+  
+</form>
+
+        </div>
+      </div>
+    </div>
+
+
+	<div id="box_mid">
+	  
+	  	    <div id="content_box_top">&nbsp;</div>
+      <div id="content_box_mid_blurb"><p class="home_blurb">All icons listed are free for personal use. <a href="/about">About We &hearts; Icons &raquo;</p></a></div>
+	    <div id="content_box_bot">&nbsp;</div>
+	      
+
+	
+		  	  <div id="icon_post">
+  	    <a href="http://pixelresort.com/goodies/" title="Get Safari Set" onClick="javascript: pageTracker._trackPageview('/outgoing/Safari Set');" target="_blank">
+  	    <img src="http://weloveicons.s3.amazonaws.com/icons/101130_safari3.png" height="128" width="128" class="icon" alt="Safari Set"/>
+  	    </a>
+    
+			<div class="post-2290 post type-post hentry category-mac category-win tag-browser tag-safari" id="post-2290">
+			  <div class="format_icons"><a href="http://weloveicons.com/category/mac/" title="MAC"><img src="http://weloveicons.com/wp-content/uploads//mac.gif" width="21" height="18" alt="" title="MAC" /></a><a href="http://weloveicons.com/category/win/" title="WIN"><img src="http://weloveicons.com/wp-content/uploads//win.gif" width="25" height="18" alt="" title="WIN" /></a></div>
+			  <div class="icon_text">
+			    <div class="icon_text_text">
+  				<h2><a href="http://weloveicons.com/2010/11/safari-set/" rel="bookmark" title="Safari Set">Safari Set</a></h2>
+  				<h3>10  Icons</h3>
+  				<h4>BY: <a href="http://pixelresort.com" onClick="javascript: pageTracker._trackPageview('/outgoing/Michael Flarup');" title="Michael Flarup" target="_blank">
+  				Michael Flarup  				</a></h4>
+  				</div>
+				<a href="http://pixelresort.com/goodies/" target="_blank" onClick="javascript: pageTracker._trackPageview('/outgoing/Safari Set');">
+				   
+				  				    <img src="http://weloveicons.com/wp-content/themes/wliv01/images/btn_get_icons.png" width="134" height="42" style="margin-top:10px;border:0;"/>
+				   				</a>
+        </div>
+        
+				<div class="entry">
+					<!--  -->
+				</div>
+
+				<p class="postmetadata">  <!-- Nov 30th, 2010 |   by danwiersema --> <a href="http://weloveicons.com/2010/11/safari-set/#respond" title="Comment on Safari Set">No Comments</a> <!-- No Comments --> | <a href="http://weloveicons.com/2010/11/safari-set/#respond" rel="bookmark" title="Comment on Safari Set">Leave a Comment</a></p>
+				</div>
+				</div>
+        
+        
+		  	  <div id="icon_post">
+  	    <a href="http://rasmusnielsen.dk/goodies/" title="Get Safari" onClick="javascript: pageTracker._trackPageview('/outgoing/Safari');" target="_blank">
+  	    <img src="http://weloveicons.s3.amazonaws.com/icons/101130_safari2.png" height="128" width="128" class="icon" alt="Safari"/>
+  	    </a>
+    
+			<div class="post-2293 post type-post hentry category-mac tag-safari" id="post-2293">
+			  <div class="format_icons"><a href="http://weloveicons.com/category/mac/" title="MAC"><img src="http://weloveicons.com/wp-content/uploads//mac.gif" width="21" height="18" alt="" title="MAC" /></a></div>
+			  <div class="icon_text">
+			    <div class="icon_text_text">
+  				<h2><a href="http://weloveicons.com/2010/11/safari/" rel="bookmark" title="Safari">Safari</a></h2>
+  				<h3>1  Icon</h3>
+  				<h4>BY: <a href="http://rasmusnielsen.dk" onClick="javascript: pageTracker._trackPageview('/outgoing/Rasmus Nielsen');" title="Rasmus Nielsen" target="_blank">
+  				Rasmus Nielsen  				</a></h4>
+  				</div>
+				<a href="http://rasmusnielsen.dk/goodies/" target="_blank" onClick="javascript: pageTracker._trackPageview('/outgoing/Safari');">
+				   
+				  				    <img src="http://weloveicons.com/wp-content/themes/wliv01/images/btn_get_icon.png" width="134" height="42" style="margin-top:10px;border:0;"/>
+				  				</a>
+        </div>
+        
+				<div class="entry">
+					<!--  -->
+				</div>
+
+				<p class="postmetadata">  <!-- Nov 30th, 2010 |   by danwiersema --> <a href="http://weloveicons.com/2010/11/safari/#respond" title="Comment on Safari">No Comments</a> <!-- No Comments --> | <a href="http://weloveicons.com/2010/11/safari/#respond" rel="bookmark" title="Comment on Safari">Leave a Comment</a></p>
+				</div>
+				</div>
+        
+        
+		  	  <div id="icon_post">
+  	    <a href="http://Gianluca75.deviantart.com/art/Safari-replacement-icon-186000687" title="Get Safari" onClick="javascript: pageTracker._trackPageview('/outgoing/Safari');" target="_blank">
+  	    <img src="http://weloveicons.s3.amazonaws.com/icons/101130_safari1.png" height="128" width="128" class="icon" alt="Safari"/>
+  	    </a>
+    
+			<div class="post-2296 post type-post hentry category-mac category-png category-win tag-browser tag-safari" id="post-2296">
+			  <div class="format_icons"><a href="http://weloveicons.com/category/mac/" title="MAC"><img src="http://weloveicons.com/wp-content/uploads//mac.gif" width="21" height="18" alt="" title="MAC" /></a><a href="http://weloveicons.com/category/png/" title="PNG"><img src="http://weloveicons.com/wp-content/uploads//png.gif" width="25" height="18" alt="" title="PNG" /></a><a href="http://weloveicons.com/category/win/" title="WIN"><img src="http://weloveicons.com/wp-content/uploads//win.gif" width="25" height="18" alt="" title="WIN" /></a></div>
+			  <div class="icon_text">
+			    <div class="icon_text_text">
+  				<h2><a href="http://weloveicons.com/2010/11/safari-2/" rel="bookmark" title="Safari">Safari</a></h2>
+  				<h3>1  Icon</h3>
+  				<h4>BY: <a href="http://gianluca75.deviantart.com" onClick="javascript: pageTracker._trackPageview('/outgoing/Gianluca Divisi');" title="Gianluca Divisi" target="_blank">
+  				Gianluca Divisi  				</a></h4>
+  				</div>
+				<a href="http://Gianluca75.deviantart.com/art/Safari-replacement-icon-186000687" target="_blank" onClick="javascript: pageTracker._trackPageview('/outgoing/Safari');">
+				   
+				  				    <img src="http://weloveicons.com/wp-content/themes/wliv01/images/btn_get_icon.png" width="134" height="42" style="margin-top:10px;border:0;"/>
+				  				</a>
+        </div>
+        
+				<div class="entry">
+					<!--  -->
+				</div>
+
+				<p class="postmetadata">  <!-- Nov 30th, 2010 |   by danwiersema --> <a href="http://weloveicons.com/2010/11/safari-2/#comments" title="Comment on Safari">1 Comment</a> <!-- 1 Comment --> | <a href="http://weloveicons.com/2010/11/safari-2/#respond" rel="bookmark" title="Comment on Safari">Leave a Comment</a></p>
+				</div>
+				</div>
+        
+        
+		
+
+
+		
+</div>
+
+
+
+
+<div id="box_bot">
+		  
+		  <div class="page_num">
+		    
+		      
+<code></code>
+
+<!-- START PAGE NUMS -->
+<div class="page_num_together">
+	<div class="page_num_left">&nbsp;</div>
+	<div id="wp_page_numbers">
+		<ul>
+							<li> &laquo; Prev</li>
+			
+				
+				<li><a href="http://weloveicons.com/page/2/" >Next &raquo;</a></li>
+					</ul>
+		<div style="float: none; clear: both;"/>&nbsp;</div>
+		</div>
+	<div class="page_num_right">&nbsp;</div>
+</div>
+
+
+<!-- END PAGE NUMS -->
+
+
+
+  <div id="show" class="show_more" onmouseover="this.className='show_more_hover'" onmouseout="this.className='show_more'" title="Show 25 icons per page" onclick="location.href='/page/1/?show=25'";><a href="/page/1/?show=25">Show 25</a></div>
+      </div>
+      
+<div id="footer">
+<div id="copyright">&copy; 2010 <span class="footer_copy"><a href="http://danwiersema.com" target="_blank">D. Wiersema</a></span></div>
+  <div id='navcontainer'>
+    
+    <ul>
+      <!--
+      <li>
+        <span class="footer_feeds"><a href="/rss-feeds" style="padding-right:2px;margin-right:0"><img alt="RSS" src="http://weloveicons.com/wp-content/themes/wliv01/images/footer_rss.png"/> Feeds</a></span>
+      </li>
+    -->
+      <li>
+        <span class="footer_contact"><a href="/contact"><img alt="Contact" src="http://weloveicons.com/wp-content/themes/wliv01/images/footer_contact.png" /> Contact</a></span>
+      </li>
+      <!--<li>
+        <span class="footer_contact"><a href="/top-5"><img alt="Top 5" src="http://weloveicons.com/wp-content/themes/wliv01/images/footer_trophy.png" /> Top 5</a></span>
+
+      </li>-->
+      <li>
+        <span class="footer_howto "><a href="/how-to"><img alt="How-To" src="http://weloveicons.com/wp-content/themes/wliv01/images/footer_guide.png" /> How-To</a></span>
+      </li>
+    <li>
+      <span class="footer_about"><a href="/about"><img alt="About" src="http://weloveicons.com/wp-content/themes/wliv01/images/footer_about.png" /> About</a></span>
+    </li>
+
+
+
+    </ul>
+  
+  </div>
+
+		</div>
+		</div>
+		</div>
+    </div>
+    </div>
+    <script type="text/javascript">
+    var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+    document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+    </script>
+    <script type="text/javascript">
+    try {
+    var pageTracker = _gat._getTracker("UA-1923523-3");
+    pageTracker._trackPageview();
+    } catch(err) {}</script>
+</body>
+</html>
