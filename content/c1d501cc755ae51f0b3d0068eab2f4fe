@@ -1,0 +1,428 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head id="head">
+  <title>#692837 - Pastie</title>
+  <link href="http://assets0.pastie.org/stylesheets/display.css?1289430470" media="screen" rel="stylesheet" type="text/css" />
+	<link href="http://assets2.pastie.org/stylesheets/clean.css?1289430470" media="screen" rel="alternate stylesheet" title="clean" type="text/css" />
+<link href="http://assets0.pastie.org/stylesheets/all_hallows_eve.css?1289430470" media="screen" rel="alternate stylesheet" title="all_hallows_eve" type="text/css" />
+<link href="http://assets1.pastie.org/stylesheets/blackboard.css?1289430470" media="screen" rel="alternate stylesheet" title="blackboard" type="text/css" />
+<link href="http://assets3.pastie.org/stylesheets/brilliance_black.css?1289430470" media="screen" rel="alternate stylesheet" title="brilliance_black" type="text/css" />
+<link href="http://assets3.pastie.org/stylesheets/cobalt.css?1289430470" media="screen" rel="alternate stylesheet" title="cobalt" type="text/css" />
+<link href="http://assets3.pastie.org/stylesheets/expreso_libre.css?1289430470" media="screen" rel="alternate stylesheet" title="expreso_libre" type="text/css" />
+<link href="http://assets1.pastie.org/stylesheets/idle.css?1289430470" media="screen" rel="alternate stylesheet" title="idle" type="text/css" />
+<link href="http://assets1.pastie.org/stylesheets/mac_classic.css?1289430470" media="screen" rel="alternate stylesheet" title="mac_classic" type="text/css" />
+<link href="http://assets0.pastie.org/stylesheets/magicwb_amiga.css?1289430470" media="screen" rel="alternate stylesheet" title="magicwb_amiga" type="text/css" />
+<link href="http://assets0.pastie.org/stylesheets/pastels_on_dark.css?1289430470" media="screen" rel="alternate stylesheet" title="pastels_on_dark" type="text/css" />
+<link href="http://assets1.pastie.org/stylesheets/slate.css?1289430470" media="screen" rel="alternate stylesheet" title="slate" type="text/css" />
+<link href="http://assets2.pastie.org/stylesheets/slush_and_poppies.css?1289430470" media="screen" rel="alternate stylesheet" title="slush_and_poppies" type="text/css" />
+<link href="http://assets1.pastie.org/stylesheets/sunburst.css?1289430470" media="screen" rel="alternate stylesheet" title="sunburst" type="text/css" />
+<link href="http://assets0.pastie.org/stylesheets/sunburst_josh.css?1289430470" media="screen" rel="alternate stylesheet" title="sunburst_josh" type="text/css" />
+<link href="http://assets2.pastie.org/stylesheets/twilight.css?1289430470" media="screen" rel="alternate stylesheet" title="twilight" type="text/css" />
+<link href="http://assets2.pastie.org/stylesheets/vibrant_ink.css?1289430470" media="screen" rel="alternate stylesheet" title="vibrant_ink" type="text/css" />
+	
+	<script src="http://assets0.pastie.org/javascripts/application.js?1289430470" type="text/javascript"></script>
+	
+	<link href="/pastes.atom" rel="alternate" title="ATOM" type="application/atom+xml" />
+	<link rel="icon" type="image/gif" href="/images/pastie.gif">
+	<link rel="SHORTCUT ICON" type="image/gif" href="/images/pastie.gif">
+</head>
+<body id="show">
+
+<div id="topnews" style="display:none;">
+<p>
+		 Pastie now <a href="http://pastie.caboo.se/8763" class="subtle">auto-senses</a> if line-wrap is a bad or good idea.  <a href="http://beast.caboo.se/forums/4">Feedback?</a>
+	</p>
+</div>
+
+
+
+<div id="header">
+
+     <img alt="Pastie" src="http://assets0.pastie.org/images/pastie.gif?1289430470" />
+    <!-- <h1>
+     -->    <!-- Pastie  -->
+
+  
+  <!--
+      <span class="sub">What'cha want for Christmas?</span>
+    <span class="count"> pasties and counting</span>  
+  -->
+    <!-- </h1> -->
+
+
+  <span class="blog">
+    <!-- <a href='http://www.pledgie.com/campaign/show/16'>Support Pastie</a> 
+    <span class="pipe">|</span> -->
+  <a href="http://blog.pastie.org/">Pastie &lt;&lt; self Blog</a>
+  </span>
+
+	<ul id="nav">
+	  <li class="home"><a class="" href="/">Pastie</a></li>
+		<li class=""><a href="/pastes/new">New</a></li>
+		<li class='active'>
+			<a href="/pastes">Pastes</a>
+		</li>
+		<li >
+		  <a href="/search/">Search</a>
+		</li>
+		<li ><a href="/help/">Help</a></li>
+		<li ><a href="/about/">About</a></li>
+		
+    <!--  -->
+	</ul>
+
+	<div style="clear:both"></div>
+	
+</div>
+
+<!-- <div id="news">
+<p style="margin-bottom:0;">Now powered by <a href="http://www.sphinxsearch.com/">Sphinx</a>... Search doesn't suck anymore. :-)  Give it a spin.</p> 
+</div> -->
+
+<div id="container">
+
+<div id="content">
+	
+
+	
+
+
+
+
+<!--
+
+-->
+
+<!--
+<p class="private psmall" id="private">
+	<img src="/images/icons/mini/locked.gif" />
+	This paste is private.
+</p>
+-->
+
+
+
+
+
+
+
+<!-- only for someone who's logged in -->
+<p class="smallutils" id="wrapoptions" style="display:none;">
+
+  <a href="http://pastie.org/692837/wrap">Wrap text</a>
+
+</p>
+
+<script language="javascript">
+logged_in_setup();
+if (logged_in_user && logged_in_user=="")
+	{ $('wrapoptions').show(); }	
+</script>
+
+
+<div style="position:absolute; font-size:0.6em; color:#999; z-index:100; right:5px; top:4px;">
+<label style="font-size:1em; color:#aaa">Theme:</label>
+<select onchange="setActiveStyleSheet(this.value);" id="tm_theme_picker">
+	<option value="clean">Clean (Pastie)</option>
+<option value="all_hallows_eve">All Hallow's Eve</option>
+<option value="blackboard">Blackboard</option>
+<option value="brilliance_black">Brilliance Black</option>
+<option value="cobalt">Cobalt</option>
+<option value="expreso_libre">Espresso Libre</option>
+<option value="idle">IDLE</option>
+<option value="mac_classic">Mac Classic</option>
+<option value="magicwb_amiga">MagicWB (Amiga)</option>
+<option value="pastels_on_dark">Pastels on Dark</option>
+<option value="slate">Slate</option>
+<option value="slush_and_poppies">Slush and Poppies</option>
+<option value="sunburst">Sunburst</option>
+<option value="sunburst_josh">Sunburst (Josh)</option>
+<option value="twilight">Twilight</option>
+<option value="vibrant_ink">Vibrant Ink</option>
+</select>
+</div>
+
+<p class="abuse">
+  <a href="/pastes/692837/abuse">Report abuse</a>
+</p>
+
+
+
+
+
+
+
+
+
+
+	
+	<div class="allcode">
+		<table cellpadding="0" cellspacing="0" border="0">
+		<tr>
+			<td>
+				
+				<pre class="textmate-source-numbers">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+50
+51
+52
+53
+54
+55
+56
+57
+58
+59
+60
+61
+62
+63
+</pre>
+			</td>
+		<td>
+		<pre class="textmate-source"><pre class="sunburst"><span class='meta meta_tag meta_tag_structure meta_tag_structure_any meta_tag_structure_any_html'>&lt;<span class='entity entity_name entity_name_tag entity_name_tag_structure entity_name_tag_structure_any entity_name_tag_structure_any_html'>html</span>&gt;</span>
+<span class='meta meta_tag meta_tag_structure meta_tag_structure_any meta_tag_structure_any_html'>&lt;<span class='entity entity_name entity_name_tag entity_name_tag_structure entity_name_tag_structure_any entity_name_tag_structure_any_html'>head</span>&gt;</span>
+<span class='source source_js source_js_embedded source_js_embedded_html'>    &lt;<span class='entity entity_name entity_name_tag entity_name_tag_script entity_name_tag_script_html'>script</span> <span class='entity entity_other entity_other_attribute-name entity_other_attribute-name_html'>type</span>=<span class='string string_quoted string_quoted_double string_quoted_double_html'>&quot;text/javascript&quot;</span> <span class='entity entity_other entity_other_attribute-name entity_other_attribute-name_html'>src</span>=<span class='string string_quoted string_quoted_double string_quoted_double_html'>&quot;jquery-1.3.2.js&quot;</span>&gt;&lt;/<span class='entity entity_name entity_name_tag entity_name_tag_script entity_name_tag_script_html'>script</span>&gt;</span>
+
+<span class='source source_js source_js_embedded source_js_embedded_html'>    &lt;<span class='entity entity_name entity_name_tag entity_name_tag_script entity_name_tag_script_html'>script</span> <span class='entity entity_other entity_other_attribute-name entity_other_attribute-name_html'>type</span>=<span class='string string_quoted string_quoted_double string_quoted_double_html'>&quot;text/javascript&quot;</span>&gt;</span>
+<span class="EmbeddedSourceBright">        <span class='meta meta_function meta_function_js'><span class='storage storage_type storage_type_function storage_type_function_js'>function</span> <span class='entity entity_name entity_name_function entity_name_function_js'>escapeHTML</span>(<span class='variable variable_parameter variable_parameter_function variable_parameter_function_js'>str</span>)</span> <span class='meta meta_brace meta_brace_curly meta_brace_curly_js'>{</span></span>
+<span class="EmbeddedSourceBright">            <span class='storage storage_type storage_type_js'>var</span> div <span class='keyword keyword_operator keyword_operator_js'>=</span> <span class='support support_class support_class_js'>document</span><span class='meta meta_delimiter meta_delimiter_method meta_delimiter_method_period meta_delimiter_method_period_js'>.</span><span class='support support_function support_function_dom support_function_dom_js'>createElement</span><span class='meta meta_brace meta_brace_round meta_brace_round_js'>(</span><span class='string string_quoted string_quoted_single string_quoted_single_js'>'div'</span><span class='meta meta_brace meta_brace_round meta_brace_round_js'>)</span>;</span>
+<span class="EmbeddedSourceBright">            <span class='storage storage_type storage_type_js'>var</span> text <span class='keyword keyword_operator keyword_operator_js'>=</span> <span class='support support_class support_class_js'>document</span><span class='meta meta_delimiter meta_delimiter_method meta_delimiter_method_period meta_delimiter_method_period_js'>.</span><span class='support support_function support_function_dom support_function_dom_js'>createTextNode</span><span class='meta meta_brace meta_brace_round meta_brace_round_js'>(</span>str<span class='meta meta_brace meta_brace_round meta_brace_round_js'>)</span>;</span>
+<span class="EmbeddedSourceBright">            div<span class='meta meta_delimiter meta_delimiter_method meta_delimiter_method_period meta_delimiter_method_period_js'>.</span><span class='support support_function support_function_dom support_function_dom_js'>appendChild</span><span class='meta meta_brace meta_brace_round meta_brace_round_js'>(</span>text<span class='meta meta_brace meta_brace_round meta_brace_round_js'>)</span>;</span>
+<span class="EmbeddedSourceBright">            <span class='keyword keyword_control keyword_control_js'>return</span> div<span class='meta meta_delimiter meta_delimiter_method meta_delimiter_method_period meta_delimiter_method_period_js'>.</span>innerHTML;</span>
+<span class="EmbeddedSourceBright">        <span class='meta meta_brace meta_brace_curly meta_brace_curly_js'>}</span></span>
+<span class="EmbeddedSourceBright"></span>
+<span class="EmbeddedSourceBright">        <span class='storage storage_type storage_type_js'>var</span> propCount <span class='keyword keyword_operator keyword_operator_js'>=</span> <span class='constant constant_numeric constant_numeric_js'>0</span>;</span>
+<span class="EmbeddedSourceBright">        <span class='meta meta_function meta_function_js'><span class='storage storage_type storage_type_function storage_type_function_js'>function</span> <span class='entity entity_name entity_name_function entity_name_function_js'>appendProperty</span>(<span class='variable variable_parameter variable_parameter_function variable_parameter_function_js'>property, value, selector</span>)</span> <span class='meta meta_brace meta_brace_curly meta_brace_curly_js'>{</span></span>
+<span class="EmbeddedSourceBright">            propCount<span class='keyword keyword_operator keyword_operator_js'>++</span>;</span>
+<span class="EmbeddedSourceBright">            <span class='storage storage_type storage_type_js'>var</span> propId <span class='keyword keyword_operator keyword_operator_js'>=</span> <span class='string string_quoted string_quoted_single string_quoted_single_js'>'prop'</span> <span class='keyword keyword_operator keyword_operator_js'>+</span> propCount;</span>
+<span class="EmbeddedSourceBright">            </span>
+<span class="EmbeddedSourceBright">            <span class='keyword keyword_control keyword_control_js'>if</span> <span class='meta meta_brace meta_brace_round meta_brace_round_js'>(</span><span class='keyword keyword_operator keyword_operator_js'>!</span>selector<span class='meta meta_brace meta_brace_round meta_brace_round_js'>)</span> <span class='meta meta_brace meta_brace_curly meta_brace_curly_js'>{</span></span>
+<span class="EmbeddedSourceBright">                selector <span class='keyword keyword_operator keyword_operator_js'>=</span> <span class='string string_quoted string_quoted_single string_quoted_single_js'>'ul#props'</span>;</span>
+<span class="EmbeddedSourceBright">            <span class='meta meta_brace meta_brace_curly meta_brace_curly_js'>}</span></span>
+<span class="EmbeddedSourceBright"></span>
+<span class="EmbeddedSourceBright">            <span class='keyword keyword_control keyword_control_js'>if</span> <span class='meta meta_brace meta_brace_round meta_brace_round_js'>(</span><span class='keyword keyword_operator keyword_operator_js'>typeof</span><span class='meta meta_brace meta_brace_round meta_brace_round_js'>(</span>value<span class='meta meta_brace meta_brace_round meta_brace_round_js'>)</span> <span class='keyword keyword_operator keyword_operator_js'>==</span> <span class='string string_quoted string_quoted_single string_quoted_single_js'>'object'</span><span class='meta meta_brace meta_brace_round meta_brace_round_js'>)</span> <span class='meta meta_brace meta_brace_curly meta_brace_curly_js'>{</span></span>
+<span class="EmbeddedSourceBright">                <span class='storage storage_type storage_type_js'>var</span> propString <span class='keyword keyword_operator keyword_operator_js'>=</span> <span class='string string_quoted string_quoted_single string_quoted_single_js'>'&lt;strong&gt;'</span> <span class='keyword keyword_operator keyword_operator_js'>+</span> escapeHTML<span class='meta meta_brace meta_brace_round meta_brace_round_js'>(</span>property<span class='meta meta_brace meta_brace_round meta_brace_round_js'>)</span> <span class='keyword keyword_operator keyword_operator_js'>+</span> <span class='string string_quoted string_quoted_single string_quoted_single_js'>'&lt;/strong&gt;: &lt;ul&gt;&lt;/ul&gt;'</span>;</span>
+<span class="EmbeddedSourceBright">            <span class='meta meta_brace meta_brace_curly meta_brace_curly_js'>}</span> <span class='keyword keyword_control keyword_control_js'>else</span> <span class='keyword keyword_control keyword_control_js'>if</span> <span class='meta meta_brace meta_brace_round meta_brace_round_js'>(</span><span class='keyword keyword_operator keyword_operator_js'>typeof</span><span class='meta meta_brace meta_brace_round meta_brace_round_js'>(</span>value<span class='meta meta_brace meta_brace_round meta_brace_round_js'>)</span> <span class='keyword keyword_operator keyword_operator_js'>==</span> <span class='string string_quoted string_quoted_single string_quoted_single_js'>'function'</span><span class='meta meta_brace meta_brace_round meta_brace_round_js'>)</span> <span class='meta meta_brace meta_brace_curly meta_brace_curly_js'>{</span></span>
+<span class="EmbeddedSourceBright">                <span class='storage storage_type storage_type_js'>var</span> propString <span class='keyword keyword_operator keyword_operator_js'>=</span> <span class='string string_quoted string_quoted_single string_quoted_single_js'>'&lt;strong&gt;'</span> <span class='keyword keyword_operator keyword_operator_js'>+</span> escapeHTML<span class='meta meta_brace meta_brace_round meta_brace_round_js'>(</span>property<span class='meta meta_brace meta_brace_round meta_brace_round_js'>)</span> <span class='keyword keyword_operator keyword_operator_js'>+</span> <span class='string string_quoted string_quoted_single string_quoted_single_js'>'&lt;/strong&gt;: '</span>;</span>
+<span class="EmbeddedSourceBright">                <span class='keyword keyword_control keyword_control_js'>if</span> <span class='meta meta_brace meta_brace_round meta_brace_round_js'>(</span>value<span class='meta meta_delimiter meta_delimiter_method meta_delimiter_method_period meta_delimiter_method_period_js'>.</span><span class='support support_function support_function_js'>toString</span><span class='meta meta_brace meta_brace_round meta_brace_round_js'>(</span><span class='meta meta_brace meta_brace_round meta_brace_round_js'>)</span><span class='meta meta_delimiter meta_delimiter_method meta_delimiter_method_period meta_delimiter_method_period_js'>.</span><span class='support support_function support_function_js'>indexOf</span><span class='meta meta_brace meta_brace_round meta_brace_round_js'>(</span><span class='string string_quoted string_quoted_single string_quoted_single_js'>'KMethod'</span><span class='meta meta_brace meta_brace_round meta_brace_round_js'>)</span> <span class='keyword keyword_operator keyword_operator_js'>==</span> <span class='keyword keyword_operator keyword_operator_js'>-</span><span class='constant constant_numeric constant_numeric_js'>1</span><span class='meta meta_brace meta_brace_round meta_brace_round_js'>)</span> <span class='meta meta_brace meta_brace_curly meta_brace_curly_js'>{</span></span>
+<span class="EmbeddedSourceBright">                    propString <span class='keyword keyword_operator keyword_operator_js'>+</span><span class='keyword keyword_operator keyword_operator_js'>=</span> <span class='string string_quoted string_quoted_single string_quoted_single_js'>'&lt;em&gt;'</span> <span class='keyword keyword_operator keyword_operator_js'>+</span> escapeHTML<span class='meta meta_brace meta_brace_round meta_brace_round_js'>(</span>value<span class='meta meta_delimiter meta_delimiter_method meta_delimiter_method_period meta_delimiter_method_period_js'>.</span><span class='support support_function support_function_js'>toString</span><span class='meta meta_brace meta_brace_round meta_brace_round_js'>(</span><span class='meta meta_brace meta_brace_round meta_brace_round_js'>)</span><span class='meta meta_delimiter meta_delimiter_method meta_delimiter_method_period meta_delimiter_method_period_js'>.</span><span class='support support_function support_function_js'>substr</span><span class='meta meta_brace meta_brace_round meta_brace_round_js'>(</span><span class='constant constant_numeric constant_numeric_js'>0</span><span class='meta meta_delimiter meta_delimiter_object meta_delimiter_object_comma meta_delimiter_object_comma_js'>, </span>value<span class='meta meta_delimiter meta_delimiter_method meta_delimiter_method_period meta_delimiter_method_period_js'>.</span><span class='support support_function support_function_js'>toString</span><span class='meta meta_brace meta_brace_round meta_brace_round_js'>(</span><span class='meta meta_brace meta_brace_round meta_brace_round_js'>)</span><span class='meta meta_delimiter meta_delimiter_method meta_delimiter_method_period meta_delimiter_method_period_js'>.</span><span class='support support_function support_function_js'>indexOf</span><span class='meta meta_brace meta_brace_round meta_brace_round_js'>(</span><span class='string string_quoted string_quoted_single string_quoted_single_js'>'{'</span><span class='meta meta_brace meta_brace_round meta_brace_round_js'>)</span><span class='meta meta_brace meta_brace_round meta_brace_round_js'>)</span><span class='meta meta_brace meta_brace_round meta_brace_round_js'>)</span> <span class='keyword keyword_operator keyword_operator_js'>+</span> <span class='string string_quoted string_quoted_single string_quoted_single_js'>'&lt;/em&gt;'</span>;</span>
+<span class="EmbeddedSourceBright">                <span class='meta meta_brace meta_brace_curly meta_brace_curly_js'>}</span> <span class='keyword keyword_control keyword_control_js'>else</span> <span class='meta meta_brace meta_brace_curly meta_brace_curly_js'>{</span></span>
+<span class="EmbeddedSourceBright">                    propString <span class='keyword keyword_operator keyword_operator_js'>+</span><span class='keyword keyword_operator keyword_operator_js'>=</span> <span class='string string_quoted string_quoted_single string_quoted_single_js'>'&lt;em&gt;'</span> <span class='keyword keyword_operator keyword_operator_js'>+</span> escapeHTML<span class='meta meta_brace meta_brace_round meta_brace_round_js'>(</span>value<span class='meta meta_brace meta_brace_round meta_brace_round_js'>)</span> <span class='keyword keyword_operator keyword_operator_js'>+</span> <span class='string string_quoted string_quoted_single string_quoted_single_js'>'&lt;/em&gt;'</span>;</span>
+<span class="EmbeddedSourceBright">                <span class='meta meta_brace meta_brace_curly meta_brace_curly_js'>}</span></span>
+<span class="EmbeddedSourceBright">            <span class='meta meta_brace meta_brace_curly meta_brace_curly_js'>}</span> <span class='keyword keyword_control keyword_control_js'>else</span> <span class='meta meta_brace meta_brace_curly meta_brace_curly_js'>{</span></span>
+<span class="EmbeddedSourceBright">                <span class='storage storage_type storage_type_js'>var</span> propString <span class='keyword keyword_operator keyword_operator_js'>=</span> <span class='string string_quoted string_quoted_single string_quoted_single_js'>'&lt;strong&gt;'</span> <span class='keyword keyword_operator keyword_operator_js'>+</span> escapeHTML<span class='meta meta_brace meta_brace_round meta_brace_round_js'>(</span>property<span class='meta meta_brace meta_brace_round meta_brace_round_js'>)</span> <span class='keyword keyword_operator keyword_operator_js'>+</span> <span class='string string_quoted string_quoted_single string_quoted_single_js'>'&lt;/strong&gt;: '</span> </span>
+<span class="EmbeddedSourceBright">                               <span class='keyword keyword_operator keyword_operator_js'>+</span> <span class='string string_quoted string_quoted_single string_quoted_single_js'>'&lt;em&gt;'</span> <span class='keyword keyword_operator keyword_operator_js'>+</span> escapeHTML<span class='meta meta_brace meta_brace_round meta_brace_round_js'>(</span>value<span class='meta meta_brace meta_brace_round meta_brace_round_js'>)</span> <span class='keyword keyword_operator keyword_operator_js'>+</span> <span class='string string_quoted string_quoted_single string_quoted_single_js'>'&lt;/em&gt;'</span>;</span>
+<span class="EmbeddedSourceBright">            <span class='meta meta_brace meta_brace_curly meta_brace_curly_js'>}</span></span>
+<span class="EmbeddedSourceBright">            </span>
+<span class="EmbeddedSourceBright">            <span class='keyword keyword_operator keyword_operator_js'>$</span><span class='meta meta_brace meta_brace_round meta_brace_round_js'>(</span><span class='string string_quoted string_quoted_single string_quoted_single_js'>'&lt;li id=&quot;'</span> <span class='keyword keyword_operator keyword_operator_js'>+</span> propId <span class='keyword keyword_operator keyword_operator_js'>+</span> <span class='string string_quoted string_quoted_single string_quoted_single_js'>'&quot;&gt;'</span> <span class='keyword keyword_operator keyword_operator_js'>+</span> propString <span class='keyword keyword_operator keyword_operator_js'>+</span> <span class='string string_quoted string_quoted_single string_quoted_single_js'>'&lt;/li&gt;'</span><span class='meta meta_brace meta_brace_round meta_brace_round_js'>)</span><span class='meta meta_delimiter meta_delimiter_method meta_delimiter_method_period meta_delimiter_method_period_js'>.</span>appendTo<span class='meta meta_brace meta_brace_round meta_brace_round_js'>(</span>selector<span class='meta meta_brace meta_brace_round meta_brace_round_js'>)</span>;</span>
+<span class="EmbeddedSourceBright">            </span>
+<span class="EmbeddedSourceBright">            <span class='keyword keyword_control keyword_control_js'>if</span> <span class='meta meta_brace meta_brace_round meta_brace_round_js'>(</span><span class='keyword keyword_operator keyword_operator_js'>typeof</span><span class='meta meta_brace meta_brace_round meta_brace_round_js'>(</span>value<span class='meta meta_brace meta_brace_round meta_brace_round_js'>)</span> <span class='keyword keyword_operator keyword_operator_js'>==</span> <span class='string string_quoted string_quoted_single string_quoted_single_js'>'object'</span><span class='meta meta_brace meta_brace_round meta_brace_round_js'>)</span> <span class='meta meta_brace meta_brace_curly meta_brace_curly_js'>{</span></span>
+<span class="EmbeddedSourceBright">                <span class='storage storage_type storage_type_js'>var</span> selector <span class='keyword keyword_operator keyword_operator_js'>=</span> <span class='string string_quoted string_quoted_single string_quoted_single_js'>'li#'</span> <span class='keyword keyword_operator keyword_operator_js'>+</span> propId <span class='keyword keyword_operator keyword_operator_js'>+</span> <span class='string string_quoted string_quoted_single string_quoted_single_js'>' &gt; ul'</span>;</span>
+<span class="EmbeddedSourceBright">                <span class='keyword keyword_operator keyword_operator_js'>$</span><span class='meta meta_delimiter meta_delimiter_method meta_delimiter_method_period meta_delimiter_method_period_js'>.</span>each<span class='meta meta_brace meta_brace_round meta_brace_round_js'>(</span>value<span class='meta meta_delimiter meta_delimiter_object meta_delimiter_object_comma meta_delimiter_object_comma_js'>, </span><span class='storage storage_type storage_type_js'>function</span><span class='meta meta_brace meta_brace_round meta_brace_round_js'>(</span>key<span class='meta meta_delimiter meta_delimiter_object meta_delimiter_object_comma meta_delimiter_object_comma_js'>, </span>value<span class='meta meta_brace meta_brace_round meta_brace_round_js'>)</span><span class='meta meta_brace meta_brace_curly meta_brace_curly_js'>{</span></span>
+<span class="EmbeddedSourceBright">                    appendProperty<span class='meta meta_brace meta_brace_round meta_brace_round_js'>(</span>key<span class='meta meta_delimiter meta_delimiter_object meta_delimiter_object_comma meta_delimiter_object_comma_js'>, </span>value<span class='meta meta_delimiter meta_delimiter_object meta_delimiter_object_comma meta_delimiter_object_comma_js'>, </span>selector<span class='meta meta_brace meta_brace_round meta_brace_round_js'>)</span>;</span>
+<span class="EmbeddedSourceBright">                <span class='meta meta_brace meta_brace_curly meta_brace_curly_js'>}</span><span class='meta meta_brace meta_brace_round meta_brace_round_js'>)</span>;</span>
+<span class="EmbeddedSourceBright">            <span class='meta meta_brace meta_brace_curly meta_brace_curly_js'>}</span></span>
+<span class="EmbeddedSourceBright">        <span class='meta meta_brace meta_brace_curly meta_brace_curly_js'>}</span></span>
+<span class="EmbeddedSourceBright"></span>
+<span class="EmbeddedSourceBright">        <span class='keyword keyword_operator keyword_operator_js'>$</span><span class='meta meta_brace meta_brace_round meta_brace_round_js'>(</span><span class='support support_class support_class_js'>document</span><span class='meta meta_brace meta_brace_round meta_brace_round_js'>)</span><span class='meta meta_delimiter meta_delimiter_method meta_delimiter_method_period meta_delimiter_method_period_js'>.</span>ready<span class='meta meta_brace meta_brace_round meta_brace_round_js'>(</span><span class='storage storage_type storage_type_js'>function</span><span class='meta meta_brace meta_brace_round meta_brace_round_js'>(</span><span class='meta meta_brace meta_brace_round meta_brace_round_js'>)</span><span class='meta meta_brace meta_brace_curly meta_brace_curly_js'>{</span></span>
+<span class="EmbeddedSourceBright">            <span class='keyword keyword_operator keyword_operator_js'>$</span><span class='meta meta_delimiter meta_delimiter_method meta_delimiter_method_period meta_delimiter_method_period_js'>.</span>each<span class='meta meta_brace meta_brace_round meta_brace_round_js'>(</span>Titanium<span class='meta meta_delimiter meta_delimiter_object meta_delimiter_object_comma meta_delimiter_object_comma_js'>, </span><span class='storage storage_type storage_type_js'>function</span><span class='meta meta_brace meta_brace_round meta_brace_round_js'>(</span>key<span class='meta meta_delimiter meta_delimiter_object meta_delimiter_object_comma meta_delimiter_object_comma_js'>, </span>value<span class='meta meta_brace meta_brace_round meta_brace_round_js'>)</span><span class='meta meta_brace meta_brace_curly meta_brace_curly_js'>{</span></span>
+<span class="EmbeddedSourceBright">                appendProperty<span class='meta meta_brace meta_brace_round meta_brace_round_js'>(</span>key<span class='meta meta_delimiter meta_delimiter_object meta_delimiter_object_comma meta_delimiter_object_comma_js'>, </span>value<span class='meta meta_brace meta_brace_round meta_brace_round_js'>)</span>;</span>
+<span class="EmbeddedSourceBright">            <span class='meta meta_brace meta_brace_curly meta_brace_curly_js'>}</span><span class='meta meta_brace meta_brace_round meta_brace_round_js'>)</span>;</span>
+<span class="EmbeddedSourceBright">        <span class='meta meta_brace meta_brace_curly meta_brace_curly_js'>}</span><span class='meta meta_brace meta_brace_round meta_brace_round_js'>)</span>;</span>
+<span class="EmbeddedSourceBright">    &lt;/<span class='entity entity_name entity_name_tag entity_name_tag_script entity_name_tag_script_html'>script</span>&gt;</span>
+<span class='meta meta_tag meta_tag_structure meta_tag_structure_any meta_tag_structure_any_html'>&lt;/<span class='entity entity_name entity_name_tag entity_name_tag_structure entity_name_tag_structure_any entity_name_tag_structure_any_html'>head</span>&gt;</span>
+<span class='meta meta_tag meta_tag_structure meta_tag_structure_any meta_tag_structure_any_html'>&lt;<span class='entity entity_name entity_name_tag entity_name_tag_structure entity_name_tag_structure_any entity_name_tag_structure_any_html'>body</span> <span class='entity entity_other entity_other_attribute-name entity_other_attribute-name_html'>style</span>=<span class='string string_quoted string_quoted_double string_quoted_double_html'>&quot;background-color:white;padding:20px 0px 20px 20px&quot;</span>&gt;</span>
+
+    <span class='meta meta_tag meta_tag_block meta_tag_block_any meta_tag_block_any_html'>&lt;<span class='entity entity_name entity_name_tag entity_name_tag_block entity_name_tag_block_any entity_name_tag_block_any_html'>h1</span>&gt;</span>
+        Titanium API Dump
+    <span class='meta meta_tag meta_tag_block meta_tag_block_any meta_tag_block_any_html'>&lt;/<span class='entity entity_name entity_name_tag entity_name_tag_block entity_name_tag_block_any entity_name_tag_block_any_html'>h1</span>&gt;</span>
+
+    <span class='meta meta_tag meta_tag_block meta_tag_block_any meta_tag_block_any_html'>&lt;<span class='entity entity_name entity_name_tag entity_name_tag_block entity_name_tag_block_any entity_name_tag_block_any_html'>ul</span> <span class='meta meta_attribute-with-value meta_attribute-with-value_id meta_attribute-with-value_id_html'><span class='entity entity_other entity_other_attribute-name entity_other_attribute-name_id entity_other_attribute-name_id_html'>id</span>=<span class='string string_quoted string_quoted_double string_quoted_double_html'>&quot;<span class='meta meta_toc-list meta_toc-list_id meta_toc-list_id_html'>props</span>&quot;</span></span>&gt;</span>
+    <span class='meta meta_tag meta_tag_block meta_tag_block_any meta_tag_block_any_html'>&lt;/<span class='entity entity_name entity_name_tag entity_name_tag_block entity_name_tag_block_any entity_name_tag_block_any_html'>ul</span>&gt;</span>
+
+<span class='meta meta_tag meta_tag_structure meta_tag_structure_any meta_tag_structure_any_html'>&lt;/<span class='entity entity_name entity_name_tag entity_name_tag_structure entity_name_tag_structure_any entity_name_tag_structure_any_html'>body</span>&gt;</span>
+<span class='meta meta_tag meta_tag_structure meta_tag_structure_any meta_tag_structure_any_html'>&lt;/<span class='entity entity_name entity_name_tag entity_name_tag_structure entity_name_tag_structure_any entity_name_tag_structure_any_html'>html</span>&gt;</span>
+</pre></pre>
+		</td>
+		</tr>
+		</table>
+	
+	</div>
+
+
+
+
+
+
+<script src="http://ads.mocra.com/sites/pastie.js"></script>
+</div>
+
+<div id="right">
+	
+
+
+
+
+<div style="margin:0.5em 0 0em; font-size:0.75em;">
+  <div style="float:left">
+<a href="http://pastie.org/pastes/692837/text" class="utility"><img alt="View" src="http://assets3.pastie.org/images/view.png?1289430470" style="vertical-align:middle" title="View the raw source of this pastie" /></a>
+  </div>
+<div style="padding-top:2px; margin-left:70px">
+<span style="color:#999">or</span>
+<a href="/pastes/692837/download" class="utility or">Download</a>	
+</div>
+</div>
+
+
+
+
+  <p style="margin-top:1.5em">
+  <label>Pasted</label><br />
+  <span class="typo_date" title="Tue, 10 Nov 2009 22:43:01 GMT" id='paste_date'>November 10, 2009<br /> 5:43PM EDT</span>
+  <script language="javascript">
+  	e=$('paste_date');
+  	e.innerHTML=get_local_time_for_date(e.title);
+  </script>
+
+  </p>
+
+
+  
+
+
+
+
+
+
+
+<p>
+<label>Embed</label><br />
+<input type="text" value="<script src='http://pastie.org/692837.js'></script>" onclick="this.select();" size="22">
+</p>
+
+
+
+  <p style="margin-top:1.5em;">
+        
+    
+    <a href="/pastes/692837/reply">paste again</a>	
+    
+  </p>
+
+
+<!-- <p style="margin-top:3em; font-size:0.6em;">
+  
+</p> -->
+
+
+
+<div class="sponsor">
+<label>Sponsored and hosted by:</label>
+<a href="http://www.railsmachine.com"><img alt="Rm_badge" src="http://assets1.pastie.org/images/rm_badge.png?1289430470" /></a>
+</div>
+
+<div class="ads" style="margin:0 0 1.5em">
+<label>Advertising from <a href="http://rubyrow.net/">RubyRow</a>:</label>
+
+<div id="adzerk">
+    <div id="adzerk_ad_div">
+        <script type="text/javascript" src="http://engine.rubyrow.net/Server/RUBY/PASTIE/HORIZ"></script>
+    </div>
+    <p id="adzerk_by">
+        <a href='http://rubyrow.net'>Ads from Ruby Row</a>
+    </p>
+</div>
+</div>
+
+
+
+
+
+
+</div>
+
+<br style="clear:both;" />
+
+<div id="footer">
+<p class="disclaim">
+<strong>
+	
+	Be nice. :-) Use Pastie for good, not evil.
+	</strong>
+<br />
+<a href="/legal/" style="color:#369;">Legal</a>
+</p>
+
+<p class="credit">
+  Created by <br />
+  <a href="http://blog.pastie.org/">Josh Goebel</a>
+</p>
+<p class="credit2">
+	Monitored by<br />
+  <a href="http://www.newrelic.com/?utm_source=pastie&amp;utm_medium=text&amp;utm_campaign=monitoredby">
+	New Relic</a>
+</p>
+<br style="clear:both;" />
+</div>
+
+</div>
+
+
+
+<script src="http://assets3.pastie.org/javascripts/prototype.js?1289430470" type="text/javascript"></script>
+<script src="http://www.google-analytics.com/urchin.js" type="text/javascript">
+</script>
+<script type="text/javascript">
+_uacct = "UA-413537-1";
+urchinTracker();
+</script>
+</body>
+</html>
