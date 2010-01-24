@@ -1,0 +1,651 @@
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>Slope to angle? - GameDev.Net Discussion Forums</title>
+<meta name="Keywords" content="game development, game programming, game jobs, video game jobs, games jobs, graphics programming, OpenGL, DirectX, Direct3D, AI, artificial intelligence, game design, game, gamedev, development, programming, c++, games, program, create, design, gouraud, shading, tutorial, art, gdnet">
+<meta name="Description" content="Gamedev.net is the leading resource for game developers, featuring daily news updates, over 1500 featured articles and tutorials, and the most active game development forums anywhere!"> 
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1"/>
+<link rel="stylesheet" type="text/css" href="/community/forums/themes/theme1/theme.css"/>
+<script type="text/javascript" src="http://partner.googleadservices.com/gampad/google_service.js"></script>
+<script type="text/javascript">
+  GS_googleAddAdSenseService("ca-pub-3167291168602081");
+  GS_googleEnableAllServices();
+</script>
+<script type="text/javascript">
+GA_googleAddSlot("ca-pub-3167291168602081", "Forum_Mini");
+GA_googleAddSlot("ca-pub-3167291168602081", "Banner_Main");
+</script>
+<script type="text/javascript">
+  GA_googleFetchAds();
+</script>
+<!--[if IE]>
+<style>
+.source {background: #ffffff; border: solid 2px; font-family: Courier New; color: black; font-size: 9pt; width: 95%; height: 250px; overflow: auto; padding: 3px;}
+</style>
+<script type="text/javascript" src="/include/menu.js"></script>
+<![endif]-->
+<script type="text/javascript">
+var _gaq = _gaq || []; _gaq.push(['_setAccount', 'UA-279474-1']); _gaq.push(['_trackPageview']);
+(function () {
+  var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+  ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+  var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+})();
+</script>
+<script type="text/javascript" language="javascript" src="/community/forums/include/forum.js"></script>
+</head>
+<body>
+<div id="header">
+<div class="logo"><a href="/"></a></div>
+<div class="sponsor"></div>
+<div class="banner">
+<script type="text/javascript">
+GA_googleFillSlot("Banner_Main");
+</script></div>
+<div class="nav"><ul id="lw_menu">
+<li id="l1f">Features
+<ul>
+<li id="l2fa"><a href="/gamejobs/">Game Jobs</a></li>
+<li id="l2fb"><a href="/features/reviews/">Product Reviews</a></li>
+<li id="l2fc"><a href="/community/contest/">Contests</a></li>
+<li id="l2fd"><a href="/community/gds/">GD Showcase</a></li>
+<li id="l2fe"><a href="/info/newsletter.asp">Newsletter</a></li>
+</ul>
+</li>
+<li id="l1r">Resources
+<ul>
+<li id="l2ra"><a href="/reference/">Articles & Resources</a></li>
+<li id="l2rb"><a href="/columns/">Columns</a></li>
+<li id="l2rc"><a href="/columns/books/">Books</a></li>
+<li id="l2rd"><a href="/reference/start_here/">For Beginners</a></li>
+<li id="l2re"><a href="/dict/">Game Dictionary</a></li>
+<li id="l2rf"><a href="http://wiki.gamedev.net/">Wiki</a></li>
+</ul>
+</li>
+<li id="l1c">Community
+<ul>
+<li id="l2ca"><a href="/community/forums/">Forums</a></li>
+<li id="l2cb"><a href="/community/gathering/">GD Gathering</a></li>
+<li id="l2cc"><a href="/community/chat/">Online Chat</a></li>
+<li id="l2cd"><a href="/community/forums/?cid=17,11&nofavs=t">Workshops</a></li>
+</ul>
+</li>
+<li id="l1m">Members
+<ul>
+<li id="l2ma"><a href="/community/forums/cpanel.asp">Control Panel</a></li>
+<li id="l2mb"><a href="/subscribe/">GDNet+ Signups</a></li>
+<li id="l2mc"><a href="/community/journals/">Developer Journals</a></li>
+<li id="l2md"><a href="/profile/">Member Search</a></li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+
+<script language="Javascript">
+	startList();
+</script>
+
+<div class="contextNav" style="width: 95%">
+<div class="hdrbreadcrumbs"><a href="/">Home</a> &raquo; <a href="/community">Community</a> &raquo; <a href="/community/forums/">Forums</a> &raquo; <a href="/community/forums/forum.asp?forum_id=20">Math and Physics</a> &raquo; <strong>Slope to angle?</strong></div>
+    <div class="hdrSearchBox"><form action="/community/forums/search.asp">
+        <img src="/template/search_sponsor.png" alt="Intel"> sponsors gamedev.net search:
+        <input type="text" size="20" name="terms" class="searchinput"/>
+        <input type="image" src="/pics/hdr3srchbtn.gif" class="searchbutton"/>
+        <input type="hidden" name="area" value="site">
+    </form></div>
+</div>
+
+<div class="centrist">
+<p align="center"><a href="http://www.qwarq.com/developers"><b>Qwarq®: Enables cool wireless P2P multiplayer features in your games</b></a>
+<TABLE BORDER=0 CELLPADDING=2 CELLSPACING=0 WIDTH=95%>
+  <TR valign="top">
+    <TD width="120">
+	  <script type="text/javascript">
+GA_googleFillSlot("Forum_Mini");
+</script>
+    </TD>
+    <TD align="right">
+      <table border=0 cellspacing=0 cellpadding=0>
+<tr id="forumnav"><td>
+
+	<a href="http://www.gamedev.net/community/forums/logincheck.asp" class="img_login" title="Log in to the site.">Login</a> 
+
+</td>
+<td><a href="http://www.gamedev.net/community/forums/cpanel.asp" class="img_panel" title="Access your control panel.">Control Panel</a></td>
+
+<td><a href="http://www.gamedev.net/community/forums/register.asp" class="img_register" title="Register a new user account.">Register</a></td>
+
+<td><a href="http://www.gamedev.net/community/forums/track.asp" class="img_bookmarks" title="View bookmarks.">Bookmarks</a></td>
+<td><a href="http://www.gamedev.net/community/forums/activeusers.asp" class="img_whosonline" title="View who is currently online">Who's Online</a></td>
+<td><a href="http://www.gamedev.net/community/forums/activetopics.asp" class="img_activetopics" title="View the most recently active topics">Active Topics</a></td>
+<td><a href="http://www.gamedev.net/community/forums/activestats.asp" class="img_stats" title="View our forum stats">Stats</a></td>
+<td><a href="http://www.gamedev.net/community/forums/faq.asp" class="img_faq" title="Frequently Asked Questions">FAQ</a></td>
+<td><a href="http://www.gamedev.net/community/forums/search.asp" class="img_search" title="Perform a search by keyword, date, or name.">Search</a></td>
+</td>
+</tr>
+
+<tr>
+<td colspan = "8" class="smallfont" align="right">
+
+<script language="Javascript">init_jiggle();</script>
+</td>
+</tr>
+</table>
+
+    </TD>
+  </TR>
+</TABLE>
+<table border="0" width="95%">
+<tr valign="bottom">
+<td width="99%" nowrap="" align="left"><span class="smallfont"><br><b><a href="favorites.asp?mode=addforum&amp;forum_id=20&amp;gforum_id=0" title="Add Forum to Favorites">Add Forum to Favorites</a></b> | 
+<a href="post_page.asp?page=http://www.gamedev.net/community/forums/topic.asp?topic%5Fid%3D80533%26whichpage%3D1%26%23402738"><b>Send Topic To a Friend</b></a>&nbsp;|&nbsp;<a href="showfaq.asp?forum_id=20"><b>View Forum FAQ</b></a> | <a href="track.asp?topic_id=80533"><b>Track this topic</b></a></span><br><span class="smallfont"></span></td>
+<td width="1%" align="center" nowrap=""><span class="smallfont"><br><a href="goto.asp?topic_id=80533&amp;forum_id=20&amp;gforum_id=0&amp;move=prev"><img src="/pics/clear.gif" class="img_post_prevarrow" border="0">&nbsp;<u>Last Thread</u></a>&nbsp;<a href="goto.asp?topic_id=80533&amp;forum_id=20&amp;gforum_id=0&amp;move=next"><u>Next Thread</u>&nbsp;<img src="/pics/clear.gif" class="img_post_nextarrow" border="0"></a></span></td>
+</tr>
+</table>
+<table border="0" width="95%" cellspacing="0" cellpadding="2">
+<tr id="threadTitleHeader" valign="middle">
+<td class="head" width="96%">&nbsp;<span class="regularfont"><b>Slope to angle?</b></span><br></td>
+<td class="head">
+<table border="0" width="100%" cellspacing="0" cellpadding="0">
+<td><a href="post.asp?forum_id=20&amp;gforum_id=0&amp;method=post"><img src="/pics/clear.gif" class="img_post_newthread" border="0" alt="Post New Topic"></a>&nbsp;</td>
+<td><a href="post.asp?forum_id=20&amp;method=reply&amp;topic_id=80533"><img src="/pics/clear.gif" class="img_post_postreply" border="0" alt="Post Reply"></a>&nbsp;</td>
+</table>
+</td>
+</tr>
+</table><a name="-1"></a><table border="0" width="95%" cellspacing="0" cellpadding="2">
+<tr valign="middle">
+<td rowspan="2" width="54" height="50" class="post_dateline" nowrap="" align="center"><img src="images/avatars/default.png" border="0"></td>
+<td class="post_author" width="100%" valign="middle"><a href="post.asp?method=reply&amp;topic_id=80533&amp;Quote=2"><img src="/pics/clear.gif" class="img_post_quote" alt="Reply Quoting This Message" border="0" align="right"></a><a href="post.asp?method=editTopic&amp;topic_id=80533"><img src="/pics/clear.gif" class="img_post_edit" alt="Edit Message" border="0" align="right"></a><a href="profile.asp?mode=display&amp;id=17059" TARGET="_new"><span class="regularfont">&nbsp;<b>Roof Top Pew Wee</b></span>&nbsp;<span class="regularfont">&nbsp;<b></b></span></a><span class="smallfont">&nbsp;&nbsp;<b>Member since:</b>&nbsp;5/18/2001&nbsp;&nbsp;<b>From:</b>&nbsp;Ogden, UT, United States</span></td>
+</tr>
+<tr>
+<td class="post_dateline" colspan="1" width="100%">
+<table border="0" cellspacing="0" cellpadding="0" align="right"><tr><td><span class="smallfont"></span></td></tr></table><img src="images/icons/icon1.gif" border="0" alt="" align="left">&nbsp;Posted - 2/16/2002 3:59:03 PM</td>
+</tr>
+<tr>
+<td class="post_body" colspan="2">I feel bad asking this because it even seems easy to myself, but I can't seem to come up with the solution.  If I have the slope of a line, how do I get the angle for it?<BR>
+<BR>
+--Vic--<br><br><x x=""></x><x x=""></x></td>
+</tr>
+<tr>
+<td class="post_trailer" colspan="2" width="100%">
+<table border="0" cellspacing="0" cellpadding="0" width="100%">
+<tr valign="middle">
+<td nowrap="">&nbsp;<span class="smallfont">User Rating:  <strong>1082</strong>&nbsp;&nbsp;
+							| &nbsp;<a href="moderateuser.asp?userid=17059">Rate This User</a></span>&nbsp;</td>
+<td width="90%" align="left"><a href="pmcompose.asp?sendto=17059"><img src="/pics/clear.gif" class="img_post_pm" border="0" alt="Send Private Message"></a><a href="profile.asp?mode=display&amp;id=17059"><img src="/pics/clear.gif" class="img_post_profile" border="0" alt="View Profile"></a></td>
+<td align="right" nowrap=""><span class="smallfont"><a href="flagpost.asp?topic_id=80533">Report this Post to a Moderator</a>&nbsp;| <a href="topic.asp?topic_id=80533">Link</a></span></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+<div class="post_separator"><br></div><a name="402738"></a><table border="0" width="95%" cellspacing="0" cellpadding="2">
+<tr valign="middle">
+<td rowspan="2" width="54" height="50" class="post_dateline" nowrap="" align="center"><img src="images/avatars/470.gif" border="0"></td>
+<td class="post_author" width="100%" valign="middle"><a href="post.asp?method=reply&amp;topic_id=80533&amp;Quote=1&amp;reply_id=402738"><img src="/pics/clear.gif" class="img_post_quote" alt="Reply Quoting This Message" border="0" align="right"></a><a href="post.asp?method=editreply&amp;reply_id=402738&amp;topic_id=80533"><img src="/pics/clear.gif" class="img_post_edit" alt="Edit Message" border="0" align="right"></a><a href="profile.asp?mode=display&amp;id=470" TARGET="_new"><span class="regularfont">&nbsp;<b>Michalson</b></span>&nbsp;<span class="staff">&nbsp;<b>Staff</b></span></a><span class="smallfont">&nbsp;&nbsp;<b>Member since:</b>&nbsp;9/29/1999&nbsp;&nbsp;<b>From:</b>&nbsp;Toronto, Canada</span></td>
+</tr>
+<tr>
+<td class="post_dateline" colspan="1" width="100%">
+<table border="0" cellspacing="0" cellpadding="0" align="right"><tr><td><span class="smallfont"></span></td></tr></table><img src="images/icons/icon501.gif" border="0" alt="" align="left">&nbsp;Posted - 2/16/2002 4:23:34 PM</td>
+</tr>
+<tr>
+<td class="post_body" colspan="2">Just throwing what I remember from HS math clases out (shouldn't having been sleeping so much). But I do remember the word "SoaCahToh". Basically its all the basic trig functions you need for a right angle triangle. <BR>
+<BR>
+ (Insert image of a right triangle with corners labeled A, B and C)<BR>
+ <BR>
+First think of what angle you want, the angel of A, B or C. Then label the three sides as (h)ypotenuse (the side opposite the right angle), (o)pposite (either the side opposite the point, or if that is the hypotenuse then pick a remaining side) and (a)djacent (the last side).<BR>
+  <BR>
+<BR>
+Now use SoaCahToh to make a formula and solve it for the unknown.<BR>
+<BR>
+Sin(Angle)=opposite/adjacent<BR>
+Cos(Angle)=adjacent/hypotenuse<BR>
+Tan(Angle)=opposite/hypotenuse<BR>
+<BR>
+<BR>
+<BR>
+Edited by - Michalson on February 16, 2002 4:27:23 PM<br><br><x x=""></x><x x=""></x></td>
+</tr>
+<tr>
+<td class="post_trailer" colspan="2" width="100%">
+<table border="0" cellspacing="0" cellpadding="0" width="100%">
+<tr valign="middle">
+<td nowrap="">&nbsp;<span class="smallfont">User Rating:  <strong>2038</strong>&nbsp;&nbsp;
+							| &nbsp;<a href="moderateuser.asp?userid=470">Rate This User</a></span>&nbsp;</td>
+<td width="90%" align="left"><a href="pmcompose.asp?sendto=470"><img src="/pics/clear.gif" class="img_post_pm" border="0" alt="Send Private Message"></a><a href="profile.asp?mode=display&amp;id=470"><img src="/pics/clear.gif" class="img_post_profile" border="0" alt="View Profile"></a><a href="mod/journal/journal.asp?userid=470"><img src="/pics/clear.gif" class="img_post_journal" border="0" alt="View Journal"></a></td>
+<td align="right" nowrap=""><span class="smallfont"><a href="flagpost.asp?reply_id=402738">Report this Post to a Moderator</a>&nbsp;| <a href="viewreply.asp?ID=402738">Link</a></span></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+<div class="post_separator"><br></div><a name="402742"></a><table border="0" width="95%" cellspacing="0" cellpadding="2">
+<tr valign="middle">
+<td rowspan="2" width="54" height="50" class="post_dateline" nowrap="" align="center"><img src="images/avatars/default.png" border="0"></td>
+<td class="post_author" width="100%" valign="middle"><a href="post.asp?method=reply&amp;topic_id=80533&amp;Quote=1&amp;reply_id=402742"><img src="/pics/clear.gif" class="img_post_quote" alt="Reply Quoting This Message" border="0" align="right"></a><a href="post.asp?method=editreply&amp;reply_id=402742&amp;topic_id=80533"><img src="/pics/clear.gif" class="img_post_edit" alt="Edit Message" border="0" align="right"></a><a href="profile.asp?mode=display&amp;id=17059" TARGET="_new"><span class="regularfont">&nbsp;<b>Roof Top Pew Wee</b></span>&nbsp;<span class="regularfont">&nbsp;<b></b></span></a><span class="smallfont">&nbsp;&nbsp;<b>Member since:</b>&nbsp;5/18/2001&nbsp;&nbsp;<b>From:</b>&nbsp;Ogden, UT, United States</span></td>
+</tr>
+<tr>
+<td class="post_dateline" colspan="1" width="100%">
+<table border="0" cellspacing="0" cellpadding="0" align="right"><tr><td><span class="smallfont"></span></td></tr></table><img src="images/icons/icon1.gif" border="0" alt="" align="left">&nbsp;Posted - 2/16/2002 4:30:53 PM</td>
+</tr>
+<tr>
+<td class="post_body" colspan="2">I'm an idiot.  Forgive me for even posting this.  I don't know why I didn't think of it before.  I realized I just need the inverse sin and so on.  Does Math.h have this function, and if so, what is it called?<BR>
+<BR>
+--Vic--<BR>
+<BR>
+Edited by - Roof Top Pew Wee on February 16, 2002 4:31:51 PM<br><br><x x=""></x><x x=""></x></td>
+</tr>
+<tr>
+<td class="post_trailer" colspan="2" width="100%">
+<table border="0" cellspacing="0" cellpadding="0" width="100%">
+<tr valign="middle">
+<td nowrap="">&nbsp;<span class="smallfont">User Rating:  <strong>1082</strong>&nbsp;&nbsp;
+							| &nbsp;<a href="moderateuser.asp?userid=17059">Rate This User</a></span>&nbsp;</td>
+<td width="90%" align="left"><a href="pmcompose.asp?sendto=17059"><img src="/pics/clear.gif" class="img_post_pm" border="0" alt="Send Private Message"></a><a href="profile.asp?mode=display&amp;id=17059"><img src="/pics/clear.gif" class="img_post_profile" border="0" alt="View Profile"></a></td>
+<td align="right" nowrap=""><span class="smallfont"><a href="flagpost.asp?reply_id=402742">Report this Post to a Moderator</a>&nbsp;| <a href="viewreply.asp?ID=402742">Link</a></span></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+<div class="post_separator"><br></div><a name="402896"></a><table border="0" width="95%" cellspacing="0" cellpadding="2">
+<tr valign="middle">
+<td rowspan="2" width="54" height="50" class="post_dateline" nowrap="" align="center"><img src="images/avatars/default.png" border="0"></td>
+<td class="post_author" width="100%" valign="middle"><a href="post.asp?method=reply&amp;topic_id=80533&amp;Quote=1&amp;reply_id=402896"><img src="/pics/clear.gif" class="img_post_quote" alt="Reply Quoting This Message" border="0" align="right"></a><a href="post.asp?method=editreply&amp;reply_id=402896&amp;topic_id=80533"><img src="/pics/clear.gif" class="img_post_edit" alt="Edit Message" border="0" align="right"></a><a href="profile.asp?mode=display&amp;id=20025" TARGET="_new"><span class="regularfont">&nbsp;<b>JohnPC</b></span>&nbsp;<span class="regularfont">&nbsp;<b></b></span></a><span class="smallfont">&nbsp;&nbsp;<b>Member since:</b>&nbsp;8/5/2001&nbsp;&nbsp;<b>From:</b>&nbsp;Kuala Belait, Brunei</span></td>
+</tr>
+<tr>
+<td class="post_dateline" colspan="1" width="100%">
+<table border="0" cellspacing="0" cellpadding="0" align="right"><tr><td><span class="smallfont"></span></td></tr></table><img src="images/icons/icon1.gif" border="0" alt="" align="left">&nbsp;Posted - 2/16/2002 7:02:38 PM</td>
+</tr>
+<tr>
+<td class="post_body" colspan="2">If I remember right, you could always use the inverse of tan. I'm sure math.h has that, instead of inverse sin..<BR>
+<BR>
+Rather than using adj, hyp and inverse sin, you would use adj, opp and inverse tan.<BR>
+<BR>
+Oh, and I believe it's SohCahToa. <img src="wink.gif" width=15 height=15 align=middle><br><br><x x=""></x><x x=""></x></td>
+</tr>
+<tr>
+<td class="post_trailer" colspan="2" width="100%">
+<table border="0" cellspacing="0" cellpadding="0" width="100%">
+<tr valign="middle">
+<td nowrap="">&nbsp;<span class="smallfont">User Rating:  <strong>1015</strong>&nbsp;&nbsp;
+							| &nbsp;<a href="moderateuser.asp?userid=20025">Rate This User</a></span>&nbsp;</td>
+<td width="90%" align="left"><a href="pmcompose.asp?sendto=20025"><img src="/pics/clear.gif" class="img_post_pm" border="0" alt="Send Private Message"></a><a href="profile.asp?mode=display&amp;id=20025"><img src="/pics/clear.gif" class="img_post_profile" border="0" alt="View Profile"></a></td>
+<td align="right" nowrap=""><span class="smallfont"><a href="flagpost.asp?reply_id=402896">Report this Post to a Moderator</a>&nbsp;| <a href="viewreply.asp?ID=402896">Link</a></span></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+<div class="post_separator"><br></div><a name="403037"></a><table border="0" width="95%" cellspacing="0" cellpadding="2">
+<tr valign="middle">
+<td rowspan="2" width="54" height="50" class="post_dateline" nowrap="" align="center"><img src="images/avatars/default.png" border="0"></td>
+<td class="post_author" width="100%" valign="middle"><a href="post.asp?method=reply&amp;topic_id=80533&amp;Quote=1&amp;reply_id=403037"><img src="/pics/clear.gif" class="img_post_quote" alt="Reply Quoting This Message" border="0" align="right"></a><a href="post.asp?method=editreply&amp;reply_id=403037&amp;topic_id=80533"><img src="/pics/clear.gif" class="img_post_edit" alt="Edit Message" border="0" align="right"></a><a href="profile.asp?mode=display&amp;id=17113" TARGET="_new"><span class="regularfont">&nbsp;<b>Strange Monkey</b></span>&nbsp;<span class="regularfont">&nbsp;<b></b></span></a><span class="smallfont">&nbsp;&nbsp;<b>Member since:</b>&nbsp;5/20/2001&nbsp;&nbsp;<b>From:</b>&nbsp;Ile Bizard, Canada</span></td>
+</tr>
+<tr>
+<td class="post_dateline" colspan="1" width="100%">
+<table border="0" cellspacing="0" cellpadding="0" align="right"><tr><td><span class="smallfont"></span></td></tr></table><img src="images/icons/icon31.gif" border="0" alt="" align="left">&nbsp;Posted - 2/16/2002 10:36:00 PM</td>
+</tr>
+<tr>
+<td class="post_body" colspan="2">JohnPC is right. To find the slope, you probably divide Y by X. That's what Tan(angle) is. So to find the angle, you just need to do atan(slope).<br><br><x x=""></x><x x=""></x></td>
+</tr>
+<tr>
+<td class="post_trailer" colspan="2" width="100%">
+<table border="0" cellspacing="0" cellpadding="0" width="100%">
+<tr valign="middle">
+<td nowrap="">&nbsp;<span class="smallfont">User Rating:  <strong>1015</strong>&nbsp;&nbsp;
+							| &nbsp;<a href="moderateuser.asp?userid=17113">Rate This User</a></span>&nbsp;</td>
+<td width="90%" align="left"><a href="pmcompose.asp?sendto=17113"><img src="/pics/clear.gif" class="img_post_pm" border="0" alt="Send Private Message"></a><a href="profile.asp?mode=display&amp;id=17113"><img src="/pics/clear.gif" class="img_post_profile" border="0" alt="View Profile"></a></td>
+<td align="right" nowrap=""><span class="smallfont"><a href="flagpost.asp?reply_id=403037">Report this Post to a Moderator</a>&nbsp;| <a href="viewreply.asp?ID=403037">Link</a></span></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+<div class="post_separator"><br></div><a name="408952"></a><table border="0" width="95%" cellspacing="0" cellpadding="2">
+<tr valign="middle">
+<td rowspan="2" width="54" height="50" class="post_dateline" nowrap="" align="center"><img src="images/avatars/default.png" border="0"></td>
+<td class="post_author" width="100%" valign="middle"><a href="post.asp?method=reply&amp;topic_id=80533&amp;Quote=1&amp;reply_id=408952"><img src="/pics/clear.gif" class="img_post_quote" alt="Reply Quoting This Message" border="0" align="right"></a><a href="post.asp?method=editreply&amp;reply_id=408952&amp;topic_id=80533"><img src="/pics/clear.gif" class="img_post_edit" alt="Edit Message" border="0" align="right"></a><a href="profile.asp?mode=display&amp;id=22409" TARGET="_new"><span class="regularfont">&nbsp;<b>shizik</b></span>&nbsp;<span class="regularfont">&nbsp;<b></b></span></a><span class="smallfont">&nbsp;&nbsp;<b>Member since:</b>&nbsp;10/17/2001</span></td>
+</tr>
+<tr>
+<td class="post_dateline" colspan="1" width="100%">
+<table border="0" cellspacing="0" cellpadding="0" align="right"><tr><td><span class="smallfont"></span></td></tr></table><img src="images/icons/icon1.gif" border="0" alt="" align="left">&nbsp;Posted - 2/22/2002 5:38:33 PM</td>
+</tr>
+<tr>
+<td class="post_body" colspan="2">just in case someone does not know this:<BR>
+<BR>
+Michalson is wrong with his formulas<BR>
+its acutally "sohcahtoa"<BR>
+<BR>
+sin(angle) = opposite/hypotenuse<BR>
+cos(angles)= adjacent/hypotenuse<BR>
+tan(angle) = opposite/adjacent<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<br><br><x x=""></x><x x=""></x></td>
+</tr>
+<tr>
+<td class="post_trailer" colspan="2" width="100%">
+<table border="0" cellspacing="0" cellpadding="0" width="100%">
+<tr valign="middle">
+<td nowrap="">&nbsp;<span class="smallfont">User Rating:  <strong>1015</strong>&nbsp;&nbsp;
+							| &nbsp;<a href="moderateuser.asp?userid=22409">Rate This User</a></span>&nbsp;</td>
+<td width="90%" align="left"><a href="pmcompose.asp?sendto=22409"><img src="/pics/clear.gif" class="img_post_pm" border="0" alt="Send Private Message"></a><a href="profile.asp?mode=display&amp;id=22409"><img src="/pics/clear.gif" class="img_post_profile" border="0" alt="View Profile"></a></td>
+<td align="right" nowrap=""><span class="smallfont"><a href="flagpost.asp?reply_id=408952">Report this Post to a Moderator</a>&nbsp;| <a href="viewreply.asp?ID=408952">Link</a></span></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+<div class="post_separator"><br></div><a name="408976"></a><table border="0" width="95%" cellspacing="0" cellpadding="2">
+<tr valign="middle">
+<td rowspan="2" width="54" height="50" class="post_dateline" nowrap="" align="center"><img src="images/avatars/default.png" border="0"></td>
+<td class="post_author" width="100%" valign="middle"><a href="post.asp?method=reply&amp;topic_id=80533&amp;Quote=1&amp;reply_id=408976"><img src="/pics/clear.gif" class="img_post_quote" alt="Reply Quoting This Message" border="0" align="right"></a><a href="post.asp?method=editreply&amp;reply_id=408976&amp;topic_id=80533"><img src="/pics/clear.gif" class="img_post_edit" alt="Edit Message" border="0" align="right"></a><a href="profile.asp?mode=display&amp;id=13694" TARGET="_new"><span class="regularfont">&nbsp;<b>TerranFury</b></span>&nbsp;<span class="regularfont">&nbsp;<b></b></span></a><span class="smallfont">&nbsp;&nbsp;<b>Member since:</b>&nbsp;2/19/2001</span></td>
+</tr>
+<tr>
+<td class="post_dateline" colspan="1" width="100%">
+<table border="0" cellspacing="0" cellpadding="0" align="right"><tr><td><span class="smallfont"></span></td></tr></table><img src="images/icons/icon1.gif" border="0" alt="" align="left">&nbsp;Posted - 2/22/2002 6:05:17 PM</td>
+</tr>
+<tr>
+<td class="post_body" colspan="2">There's a nice function in math.h called atan2.  It takes two arguments - first deltaY, then deltaX, and returns the angle.  If you just use atan, you need to then add a multiple of 90 degrees that corresponds to the quadrant indicated by the combination of signs.  Also note that there are single-precision versions of most of the math functions.  Just put an f at the end of each.  Example: sinf() instead of sin().<br><br><x x=""></x><x x=""></x></td>
+</tr>
+<tr>
+<td class="post_trailer" colspan="2" width="100%">
+<table border="0" cellspacing="0" cellpadding="0" width="100%">
+<tr valign="middle">
+<td nowrap="">&nbsp;<span class="smallfont">User Rating:  <strong>1028</strong>&nbsp;&nbsp;
+							| &nbsp;<a href="moderateuser.asp?userid=13694">Rate This User</a></span>&nbsp;</td>
+<td width="90%" align="left"><a href="pmcompose.asp?sendto=13694"><img src="/pics/clear.gif" class="img_post_pm" border="0" alt="Send Private Message"></a><a href="profile.asp?mode=display&amp;id=13694"><img src="/pics/clear.gif" class="img_post_profile" border="0" alt="View Profile"></a></td>
+<td align="right" nowrap=""><span class="smallfont"><a href="flagpost.asp?reply_id=408976">Report this Post to a Moderator</a>&nbsp;| <a href="viewreply.asp?ID=408976">Link</a></span></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+<div class="post_separator"><br></div><a name="408981"></a><table border="0" width="95%" cellspacing="0" cellpadding="2">
+<tr valign="middle">
+<td rowspan="2" width="54" height="50" class="post_dateline" nowrap="" align="center"><img src="images/avatars/23496.png" border="0"></td>
+<td class="post_author" width="100%" valign="middle"><a href="post.asp?method=reply&amp;topic_id=80533&amp;Quote=1&amp;reply_id=408981"><img src="/pics/clear.gif" class="img_post_quote" alt="Reply Quoting This Message" border="0" align="right"></a><a href="post.asp?method=editreply&amp;reply_id=408981&amp;topic_id=80533"><img src="/pics/clear.gif" class="img_post_edit" alt="Edit Message" border="0" align="right"></a><a href="profile.asp?mode=display&amp;id=23496" TARGET="_new"><span class="regularfont">&nbsp;<b>Fruny</b></span>&nbsp;<span class="moderator">&nbsp;<b>Moderator</b></span></a><span class="smallfont">&nbsp;&nbsp;<b>Member since:</b>&nbsp;11/16/2001&nbsp;&nbsp;<b>From:</b>&nbsp;Paris, France</span></td>
+</tr>
+<tr>
+<td class="post_dateline" colspan="1" width="100%">
+<table border="0" cellspacing="0" cellpadding="0" align="right"><tr><td><span class="smallfont"></span></td></tr></table><img src="images/icons/icon1.gif" border="0" alt="" align="left">&nbsp;Posted - 2/22/2002 6:09:46 PM</td>
+</tr>
+<tr>
+<td class="post_body" colspan="2">If you have both x and y, don't do <tt>atan(x/y)</tt>, but <tt>atan2(x,y)</tt>.<br><br><x x=""></x><x x=""></x></td>
+</tr>
+<tr>
+<td class="post_trailer" colspan="2" width="100%">
+<table border="0" cellspacing="0" cellpadding="0" width="100%">
+<tr valign="middle">
+<td nowrap="">&nbsp;<span class="smallfont">User Rating:  <strong>2027</strong>&nbsp;&nbsp;
+							| &nbsp;<a href="moderateuser.asp?userid=23496">Rate This User</a></span>&nbsp;</td>
+<td width="90%" align="left"><a href="pmcompose.asp?sendto=23496"><img src="/pics/clear.gif" class="img_post_pm" border="0" alt="Send Private Message"></a><a href="profile.asp?mode=display&amp;id=23496"><img src="/pics/clear.gif" class="img_post_profile" border="0" alt="View Profile"></a></td>
+<td align="right" nowrap=""><span class="smallfont"><a href="flagpost.asp?reply_id=408981">Report this Post to a Moderator</a>&nbsp;| <a href="viewreply.asp?ID=408981">Link</a></span></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+<div class="post_separator"><br></div><a name="409005"></a><table border="0" width="95%" cellspacing="0" cellpadding="2">
+<tr valign="middle">
+<td rowspan="2" width="54" height="50" class="post_dateline" nowrap="" align="center"><img src="images/avatars/default.png" border="0"></td>
+<td class="post_author" width="100%" valign="middle"><a href="post.asp?method=reply&amp;topic_id=80533&amp;Quote=1&amp;reply_id=409005"><img src="/pics/clear.gif" class="img_post_quote" alt="Reply Quoting This Message" border="0" align="right"></a><a href="post.asp?method=editreply&amp;reply_id=409005&amp;topic_id=80533"><img src="/pics/clear.gif" class="img_post_edit" alt="Edit Message" border="0" align="right"></a><a href="profile.asp?mode=display&amp;id=11079" TARGET="_new"><span class="regularfont">&nbsp;<b>Beer Hunter</b></span>&nbsp;<span class="regularfont">&nbsp;<b></b></span></a><span class="smallfont">&nbsp;&nbsp;<b>Member since:</b>&nbsp;11/22/2000&nbsp;&nbsp;<b>From:</b>&nbsp;Canberra</span></td>
+</tr>
+<tr>
+<td class="post_dateline" colspan="1" width="100%">
+<table border="0" cellspacing="0" cellpadding="0" align="right"><tr><td><span class="smallfont"></span></td></tr></table><img src="images/icons/icon1.gif" border="0" alt="" align="left">&nbsp;Posted - 2/22/2002 6:27:54 PM</td>
+</tr>
+<tr>
+<td class="post_body" colspan="2">I found it a lot easier to memorise the unit circle than the "sohcahtoa" mnemonic.<br><br><x x=""></x><x x=""></x></td>
+</tr>
+<tr>
+<td class="post_trailer" colspan="2" width="100%">
+<table border="0" cellspacing="0" cellpadding="0" width="100%">
+<tr valign="middle">
+<td nowrap="">&nbsp;<span class="smallfont">User Rating:  <strong>1408</strong>&nbsp;&nbsp;
+							| &nbsp;<a href="moderateuser.asp?userid=11079">Rate This User</a></span>&nbsp;</td>
+<td width="90%" align="left"><a href="pmcompose.asp?sendto=11079"><img src="/pics/clear.gif" class="img_post_pm" border="0" alt="Send Private Message"></a><a href="profile.asp?mode=display&amp;id=11079"><img src="/pics/clear.gif" class="img_post_profile" border="0" alt="View Profile"></a></td>
+<td align="right" nowrap=""><span class="smallfont"><a href="flagpost.asp?reply_id=409005">Report this Post to a Moderator</a>&nbsp;| <a href="viewreply.asp?ID=409005">Link</a></span></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+<div class="post_separator"><br></div>
+<table border="0" width="95%">
+<tr valign="top">
+<td width="50%" align="left" valign="top"><span class="smallfont">All times are ET (US)</span><br><br><a href="post.asp?method=reply&amp;topic_id=80533"><img src="/pics/clear.gif" class="img_post_postreply" border="0" alt="Post Reply"></a></td>
+<td width="60%" align="right" valign="top" nowrap=""><span class="smallfont"><a href="goto.asp?topic_id=80533&amp;forum_id=20&amp;gforum_id=0&amp;move=prev"><img src="/pics/clear.gif" class="img_post_prevarrow" border="0">&nbsp;<u>Last Thread</u></a>&nbsp;<a href="goto.asp?topic_id=80533&amp;forum_id=20&amp;gforum_id=0&amp;move=next"><u>Next Thread</u>&nbsp;<img src="/pics/clear.gif" class="img_post_nextarrow" border="0"></a></span><br></td>
+</tr>
+</table>
+
+
+<center>
+<table border=0 width=95%>
+  <tr valign="top">
+    <td width="50%" align="left" valign="top" class="smallfont">
+
+<table border=0 cellspacing=0 cellpadding=4>
+<tr><td>
+<span class="smallfont">
+<b>Forum Rules:</b>
+</span>
+</td></tr>
+<tr><td class="forumrules">
+You <b>may not</b> post new threads<br>
+You <b>may not</b> post replies<br>
+You <b>may not</b> edit your posts<br>
+You <b>may not</b> use HTML in your posts<br>
+</td>
+</tr>
+</table>
+
+    </td>
+    <td width="60%" align="right" valign="top" nowrap>
+<form action="goto.asp" method="GET">
+<table border=0>
+<tr><td>
+<font face="" size="2">
+<B>Jump To:</B>
+<select name="redir" size=1>
+<option value="default.asp" selected>Specific Forum</option>
+		<option value="default.asp"></option>
+
+		<option value="default.asp">Active Workshops</option>
+
+		<option value="default.asp">--------------------------</option>
+
+		<option value="goto.asp?redir=forum%2Easp%3Fforum%5Fid%3D83">C# Workshop (old forum)</option>
+
+		<option value="default.asp">               </option>
+
+		<option value="default.asp">               </option>
+
+		<option value="default.asp">    The Technical Side</option>
+
+		<option value="default.asp">--------------------------</option>
+
+		<option value="goto.asp?redir=forum%2Easp%3Fforum%5Fid%3D31">For Beginners</option>
+
+		<option value="goto.asp?redir=forum%2Easp%3Fforum%5Fid%3D34">Software Engineering</option>
+
+		<option value="goto.asp?redir=forum%2Easp%3Fforum%5Fid%3D39">Consoles, PDAs, and Cell Phones</option>
+
+		<option value="goto.asp?redir=forum%2Easp%3Fforum%5Fid%3D41">Scripting Languages and Game Mods</option>
+
+		<option value="goto.asp?redir=forum%2Easp%3Fforum%5Fid%3D61">Alternative Game Libraries</option>
+
+		<option value="goto.asp?redir=forum%2Easp%3Fforum%5Fid%3D9">Artificial Intelligence</option>
+
+		<option value="goto.asp?redir=forum%2Easp%3Fforum%5Fid%3D10">DirectX and XNA</option>
+
+		<option value="goto.asp?redir=forum%2Easp%3Fforum%5Fid%3D11">Game Programming</option>
+
+		<option value="goto.asp?redir=forum%2Easp%3Fforum%5Fid%3D12">Graphics Programming and Theory</option>
+
+		<option value="goto.asp?redir=forum%2Easp%3Fforum%5Fid%3D13">Isometric Land</option>
+
+		<option value="goto.asp?redir=forum%2Easp%3Fforum%5Fid%3D15">Multiplayer and Network Programming</option>
+
+		<option value="goto.asp?redir=forum%2Easp%3Fforum%5Fid%3D20">Math and Physics</option>
+
+		<option value="goto.asp?redir=forum%2Easp%3Fforum%5Fid%3D21">General Programming</option>
+
+		<option value="goto.asp?redir=forum%2Easp%3Fforum%5Fid%3D25">OpenGL</option>
+
+		<option value="default.asp">               </option>
+
+		<option value="default.asp">  Community Interaction</option>
+
+		<option value="default.asp">--------------------------</option>
+
+		<option value="goto.asp?redir=forum%2Easp%3Fforum%5Fid%3D2">Article Proposals and Requests</option>
+
+		<option value="goto.asp?redir=forum%2Easp%3Fforum%5Fid%3D3">GDNet Lounge</option>
+
+		<option value="goto.asp?redir=forum%2Easp%3Fforum%5Fid%3D4">GDNet Comments, Suggestions and Ideas</option>
+
+		<option value="goto.asp?redir=forum%2Easp%3Fforum%5Fid%3D5">The Business and Law of Game Development</option>
+
+		<option value="goto.asp?redir=forum%2Easp%3Fforum%5Fid%3D6">Your Announcements</option>
+
+		<option value="goto.asp?redir=forum%2Easp%3Fforum%5Fid%3D8">Help Wanted</option>
+
+		<option value="goto.asp?redir=forum%2Easp%3Fforum%5Fid%3D70">GD Gathering Forums</option>
+
+		<option value="default.asp">               </option>
+
+		<option value="default.asp">   The Creative Side</option>
+
+		<option value="default.asp">--------------------------</option>
+
+		<option value="goto.asp?redir=forum%2Easp%3Fforum%5Fid%3D17">Game Design</option>
+
+		<option value="goto.asp?redir=forum%2Easp%3Fforum%5Fid%3D18">Visual Arts</option>
+
+		<option value="goto.asp?redir=forum%2Easp%3Fforum%5Fid%3D19">Music and Sound</option>
+
+		<option value="goto.asp?redir=forum%2Easp%3Fforum%5Fid%3D32">Writing for Games</option>
+
+		<option value="default.asp">               </option>
+
+		<option value="default.asp"> Special Interest</option>
+
+		<option value="default.asp">--------------------------</option>
+
+		<option value="goto.asp?redir=forum%2Easp%3Fforum%5Fid%3D101">Breaking into the Games Industry</option>
+
+		<option value="goto.asp?redir=forum%2Easp%3Fforum%5Fid%3D14">Everything Unix</option>
+
+		<option value="goto.asp?redir=forum%2Easp%3Fforum%5Fid%3D24">Java Development</option>
+
+		<option value="goto.asp?redir=forum%2Easp%3Fforum%5Fid%3D58">.NET</option>
+
+		<option value="goto.asp?redir=forum%2Easp%3Fforum%5Fid%3D59">Web Development</option>
+
+		<option value="goto.asp?redir=forum%2Easp%3Fforum%5Fid%3D82">Hardware Discussion</option>
+
+		<option value="goto.asp?redir=forum%2Easp%3Fforum%5Fid%3D68">Eating fondue while sipping Gato Negro and listening to Vaya Con Dios</option>
+
+		<option value="default.asp">               </option>
+
+		<option value="default.asp">Affiliates</option>
+
+		<option value="default.asp">--------------------------</option>
+
+		<option value="goto.asp?redir=forum%2Easp%3Fforum%5Fid%3D16">Power Render API</option>
+
+		<option value="goto.asp?redir=forum%2Easp%3Fforum%5Fid%3D27">NeHe Productions</option>
+
+		<option value="goto.asp?redir=forum%2Easp%3Fforum%5Fid%3D30">turbo</option>
+
+		<option value="goto.asp?redir=forum%2Easp%3Fforum%5Fid%3D36">Real Soon Now</option>
+
+		<option value="goto.asp?redir=forum%2Easp%3Fforum%5Fid%3D40">NeXe</option>
+
+		<option value="goto.asp?redir=forum%2Easp%3Fforum%5Fid%3D49">AngelCode</option>
+
+		<option value="goto.asp?redir=forum%2Easp%3Fforum%5Fid%3D67">Gamedev: The comic / Gamedev: Humour Portal</option>
+
+		<option value="goto.asp?redir=forum%2Easp%3Fforum%5Fid%3D102">Events for Gamers</option>
+
+		<option value="default.asp">               </option>
+
+		<option value="default.asp">Interactive Discussion</option>
+
+		<option value="default.asp">--------------------------</option>
+
+		<option value="goto.asp?redir=forum%2Easp%3Fforum%5Fid%3D62">Image of the Day</option>
+
+		<option value="goto.asp?redir=forum%2Easp%3Fforum%5Fid%3D71">GDNet Contests</option>
+
+		<option value="goto.asp?redir=forum%2Easp%3Fforum%5Fid%3D74">Nehe News</option>
+
+		<option value="goto.asp?redir=forum%2Easp%3Fforum%5Fid%3D81">Developer Journals v2</option>
+
+		<option value="goto.asp?redir=forum%2Easp%3Fforum%5Fid%3D35">Article Feedback</option>
+
+		<option value="goto.asp?redir=forum%2Easp%3Fforum%5Fid%3D53">Developer Journals</option>
+
+		<option value="goto.asp?redir=forum%2Easp%3Fforum%5Fid%3D52">GDS</option>
+
+		<option value="goto.asp?redir=forum%2Easp%3Fforum%5Fid%3D55">News Discussion</option>
+
+		<option value="goto.asp?redir=forum%2Easp%3Fforum%5Fid%3D56">GDS News</option>
+
+		<option value="goto.asp?redir=forum%2Easp%3Fforum%5Fid%3D57">Book Discussion</option>
+
+		<option value="goto.asp?redir=forum%2Easp%3Fforum%5Fid%3D80">4E5 Entries</option>
+
+		<option value="goto.asp?redir=forum%2Easp%3Fforum%5Fid%3D100">4E6 Entries</option>
+
+		<option value="default.asp">               </option>
+
+		<option value="default.asp">Completed Workshops</option>
+
+		<option value="default.asp">--------------------------</option>
+
+		<option value="goto.asp?redir=forum%2Easp%3Fforum%5Fid%3D76">CPP Workshop</option>
+
+		<option value="goto.asp?redir=forum%2Easp%3Fforum%5Fid%3D84">C# Workshop</option>
+
+		<option value="goto.asp?redir=forum%2Easp%3Fforum%5Fid%3D78">Freehand Drawing Workshop</option>
+
+		<option value="goto.asp?redir=forum%2Easp%3Fforum%5Fid%3D33">Hands-On Interactive Game Development</option>
+
+		<option value="goto.asp?redir=forum%2Easp%3Fforum%5Fid%3D79">SICP Workshop</option>
+
+		<option value="default.asp">               </option>
+
+</select>
+<input type="Submit" value="Go">
+</font>
+</td></tr></table>
+</form>
+
+
+<form action="modpost.asp" name="modpost" method="get">
+<span class="smallfont"><b>Administrative Options:</b><br>
+<input type="hidden" name="topic_id" value="80533">
+<select name="method" onchange="document.modpost.submit();"  class="smallfont">
+<option value="showintro" selected>--- Topic Options ---
+<option value="closetopic">Open / Close Topic
+<option value="movetopic">Move Topic
+<option value="deletetopic">Delete Topic
+<option value="stick">Stick / Unstick Topic
+</select>
+</span>
+    </td>
+	</form>
+  </tr>
+</table>
+</center>
+
+	</div><P>
+
+<p align=center class=smallfont>                 
