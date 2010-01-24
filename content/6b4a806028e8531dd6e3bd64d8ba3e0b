@@ -1,0 +1,331 @@
+
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+<script type="text/javascript">var _sf_startpt=(new Date()).getTime()</script>
+<title>&mdash; MOTOR's Database Licensing &mdash; | MOTOR Information Systems</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="description" content="">
+
+<meta name="keywords" content="cars, trucksAutomotive service and repair articles, Service and repair, Engine service, repair, Brake service, Domestic, Import, Truck service and repair, Mechanics, Technicians, Automotive Service and Repair magazines, Aftermarket Service and Repair magazines, Diagnostic repair, Cooling Systems, Air Conditioning service and repair, Fuel Systems, Suspension, Suspension systems, Automotive Electrical, Chek Chart, Check Chart, Oil Lube, Lubrication, Heavy Truck, Cars, Air Bags, Timing Belt, Fuel Filter, Engine Performance, Troubleshooting, Motor Magazine, Articles"&mdash; MOTOR's Database Licensing &mdash;, oem">
+
+<link rel="stylesheet" href="css/main.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="css/lightbox.css" type="text/css" media="screen" />
+<!--[if lt IE 7]><link rel="stylesheet" href="css/ie.css" type="text/css" media="screen" /><![endif]-->
+<!--[if IE 7]><link rel="stylesheet" href="css/ie7.css" type="text/css" media="screen" /><![endif]-->
+
+
+<script type='text/javascript' src='js/prototype.js'></script>
+<script type='text/javascript' src='js/scriptaculous.js'></script>
+<script type="text/javascript" src="js/basic.js"></script>
+<!--<script type='text/javascript' src='js/accordion.js'></script>-->
+<script type='text/javascript' src='js/show_hide.js'></script>
+<script type='text/javascript' src='js/lightbox.js'></script>
+<!--[if IE]><script type="text/javascript" src="js/suckerfish.js"></script><![endif]-->
+<!--[if lt IE 7]><script type="text/javascript" src="js/bgsleight.js"></script><![endif]-->
+<!--<script type="text/javascript" src="js/yellow_fade.js"></script>-->
+<!--<script language="javascript" type="text/javascript" src="firebug/firebugx.js"></script>-->
+
+<script language="javascript" type="text/javascript">
+
+function toggleCheck(name, status, type) { 
+	
+	var formElements;
+
+	if(status == 'check') { 
+		$(name).descendants().each(function(item) {
+			if(item.type == 'checkbox') {
+				item.checked = true;
+			}
+		});
+	} else if (status == 'uncheck') { 
+		$(name).descendants().each(function(item) {
+			if(item.type == 'checkbox') {
+				item.checked = false;
+			}
+		});
+	} 
+
+}
+
+</script>
+
+
+</head>
+<body id="body">
+	<div class="header">
+		<div class="header_nav">
+			<form id="search" action="search.asp" method="get">
+				<p class="search_box"><input type="image" class="search_icon" src="images/icons/search.gif" /><input type="text" name="search_terms" id="search_box_form" value="Search"/></p>
+			</form>
+			<ul>
+				<li><a href="index.asp">Home</a></li>
+				<li><a href="customer_service.asp">Customer Service</a></li>
+				<li><a href="distributor_lookup.asp">Purchase<br/>MOTOR Products</a></li>
+				<li><a href="https://epm.motor.com/mtrall/">MOTOR&trade; / ALLDATA&reg;<br/> Secure Payments</a></li>
+				<li><a href="https://epm.motor.com/fleetcross/">FLEETCROSS&reg;<br/> Secure Payments</a></li>
+				
+			</ul>
+		</div>
+		
+		<div class="header_background">
+<a href="http://www.motor.com/index.asp">
+<!--[if !IE]><!--><img src="./images/logos/motor_logo_sm.png" alt="" class="motor_logo" /><!--<![endif]-->
+<!--[if IE 7]><img src="./images/logos/motor_logo_sm.png" alt="" class="motor_logo" /><![endif]-->
+<!--[if IE 8]><img src="./images/logos/motor_logo_sm.png" alt="" class="motor_logo" /><![endif]-->
+<!--[if IE 6]><img src="./images/format/blank.gif" alt="" class="motor_logo" style="filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='./images/logos/motor_logo_sm.png', sizingMethod='crop');" /><![endif]-->
+</a>
+	<div id="nav">
+		<ul>
+			<li class="custom_print" id="top_level_nav_height"><a href="category.asp?category=custom_print_data">CUSTOM PRINT<br /> &amp; DATA SERVICES</a>
+				<ul class="custom_print">
+					<li>
+							<a href="page.asp?page_ID=85">About Us</a>
+						</li>
+					<li>
+							<a href="page.asp?page_ID=100">Databases</a>
+						</li>
+					<li>
+							<a href="page.asp?page_ID=125">OEM Parts Research</a>
+						</li>
+					<li>
+							<a href="page.asp?page_ID=102">Publications</a>
+						</li>
+					<li>
+							<a href="page.asp?page_ID=193">Sales Team</a>
+						</li>
+					<li>
+							<a href="page.asp?page_ID=127">Truck Group</a>
+						</li>
+					<li>
+							<a href="page.asp?page_ID=101">Vehicle Information Library</a>
+						</li>
+
+				<li><a href="contact_custom.asp">Contact Us</a></li>
+				</ul>
+			</li>
+			<li class="shop_products" id="top_level_nav_height"><a href="category.asp?category=repair_collision">REPAIR / COLLISION<br /> SHOP PRODUCTS</a>
+				<ul class="shop_products">
+						<li>
+								<a href="page.asp?page_ID=9">Collision Products</a>
+							</li>
+						<li>
+								<a href="page.asp?page_ID=123">e-Tech Online</a>
+							</li>
+						<li>
+								<a href="page.asp?page_ID=19">Engine Performance / Emissions</a>
+							</li>
+						<li>
+								<a href="page.asp?page_ID=27">Estimating / Mechanical Repair</a>
+							</li>
+						<li>
+								<a href="page.asp?page_ID=33">MOTOR™ / ALLDATA&reg;</a>
+							</li>
+						<li>
+								<a href="page.asp?page_ID=34">Shop Management</a>
+							</li>
+						<li>
+								<a href="page.asp?page_ID=38">Specialty Products</a>
+							</li>
+						<li>
+								<a href="page.asp?page_ID=58">Specifications / Quick Reference</a>
+							</li>
+						<li>
+								<a href="page.asp?page_ID=64">Vehicle Repair</a>
+							</li>
+
+					<li><a href="product_updates.asp">Product Updates</a></li>
+					<li><a href="distributor_lookup.asp">Purchase MOTOR Products</a></li>
+				</ul>
+			</li>
+			<li class="motor_mag_nav" id="top_level_nav_height"><a href="category.asp?category=magazine">MOTOR<br /> MAGAZINE</a>
+				<ul class="motor_mag_nav">
+					<li><a href="category.asp?category=magazine">Articles</a></li>
+						<li>
+							<a href="page.asp?page_ID=82">Media Kit</a>
+							</li>
+						<li>
+							<a href="page.asp?page_ID=71">Meet the Editors</a>
+							</li>
+						<li>
+							<a href="page.asp?page_ID=91">MOTOR China</a>
+							</li>
+						<li>
+							<a href="page.asp?page_ID=149">Sales & Production Staff</a>
+							</li>
+						<li>
+							<a href="page.asp?page_ID=103">Top 20 Tools</a>
+							</li>
+						<li>
+							<a href="page.asp?page_ID=104">Top Shelf Products</a>
+							</li>
+
+					<li><a href="http://digital.motormagazine.com/DigitalAnywhere/viewer.aspx?id=34&pageId=49&refid=20441&s=hds">Source Guide</a></li>
+					<li><a href="subscriptions.asp">Subscriptions</a></li>
+					<li><a href="feedback.asp">Feedback</a></li>
+				</ul>
+			</li>
+		</ul>
+	</div>
+<h1>Databases</h1>
+</div>
+<p class="clear"></p>
+
+	</div>
+	<script language="javascript" type="text/javascript">
+
+		Event.observe(
+			'search_box_form', 
+			'click', 
+			function() { 
+				if($('search_box_form').getValue() == 'Search') {
+					$('search_box_form').value = '';
+				}
+				
+			});
+
+		Event.observe(
+			'search_box_form', 
+			'mouseout', 
+			function() { 
+
+				if($('search_box_form').getValue() == '' || $('search_box_form').getValue().length == 0) { 
+					$('search_box_form').value = 'Search';
+				}
+
+			});
+	</script>
+	<div class="wrapper">
+	
+
+<div class="content">
+<h2 class="page_name">
+<span class="custom_contact_link"><a href="contact_custom.asp" class="point_out">Contact Us Now</a></span>
+				
+				<span class="custom_text_size">adjust text size:
+					<a href="#body" id="resize_text_small"><img src="images/icons/text_size_small.gif"></a> 
+					<a href="#body" id="resize_text_medium"><img src="images/icons/text_size_medium.gif"></a> 
+					<a href="#body" id="resize_text_large"><img src="images/icons/text_size_large.gif"></a></span>
+				<span id="page_name_h2">&mdash; MOTOR's Database Licensing &mdash;</span>
+			</h2>
+				<p class="our_approach">Our approach to your data solutions is a three step process</p>
+				<div class="data_process">
+					<div class="data_process_step">
+						<p>Step 1: Discovery</p>
+						<p><span>Discussion of project scope</span></p>
+					</div>
+					<div class="data_process_step">
+						<p>Step 2: Meeting</p>
+						<p><span>Proposal and outline of project</span></p>
+					</div>
+					<div class="data_process_step_3">
+						<p>Step 3: Delivery</p>
+						<p><span>Development & Delivery</span></p>
+					</div>
+					<p class="clear"></p>
+				</div>
+
+
+	<div class="content_container ">	
+		
+				<div class="product_image">
+					<p><img src="images/products/databases.jpg" /></p>
+				</div>
+<div class="description_long"><p>From YMME (Year/Make/Model/Engine) to VIN; OEM to Aftermarket, MOTOR can provide for all your data needs.</p>
+<p>Our customizable data can be as much, or little, as you require.  Whether you want just one data type or a full catalog, MOTOR can provide you the information critical to your success.</p>
+
+		</div>
+
+		<p class="clear"></p>
+		
+<div>
+		</div>
+	</div>
+	<ul class="subnav" id="pages">
+					<li>
+							<a href="page.asp?page_ID=100" class="active">&mdash; MOTOR's Database Licensing &mdash;</a>
+</li>
+					<li>
+							<a href="page.asp?page_ID=159">Data Formats</a>
+</li>
+					<li>
+							<a href="page.asp?page_ID=209">Data Samples</a>
+</li>
+					<li>
+							<a href="page.asp?page_ID=160">Graphics</a>
+</li>
+					<li>
+							<a href="page.asp?page_ID=161">Labor</a>
+</li>
+					<li>
+							<a href="page.asp?page_ID=155">Parts</a>
+</li>
+					<li>
+							<a href="page.asp?page_ID=156">Preventive Maintenance</a>
+</li>
+					<li>
+							<a href="page.asp?page_ID=157">Procedures</a>
+</li>
+					<li>
+							<a href="page.asp?page_ID=158">Specifications</a>
+</li>
+<!--<li><a href="about_timeline.asp">MOTOR Timeline</a></li>-->
+	</ul>
+	<div id="tooltip" style="display: none"></div>
+</div>
+
+		<p class="footer"></p>
+	</div>
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-7670459-1");
+pageTracker._trackPageview();
+} catch(err) {}
+</script>
+
+
+
+<div>
+<table width="100%" align="center" cellpadding="0" cellspacing="0">
+	<tr>
+		<td align="center">
+			<hr color="#3399ff">
+		</td>
+	</tr>
+	<tr>
+		<td align="center" class="Note1">
+			<script type="text/javascript">
+			    var d = new Date();
+			    document.write("Copyright \u00a9 " + d.getFullYear() + " Hearst Business Media - All Rights Reserved." + "&nbsp;&nbsp;<a href='PrivacyPolicy.htm' target='_blank'>Hearst Corporation Privacy Statement</a>");
+			</script>
+		</td>
+	</tr>
+</table>
+</div>
+
+<script type="text/javascript">  
+var _sf_async_config={uid:13006,domain:"motor.com"};
+ (function(){ 
+ function loadChartbeat() { 
+ window._sf_endpt=(new Date()).getTime(); 
+ var e = document.createElement('script'); 
+ e.setAttribute('language', 'javascript'); 
+ e.setAttribute('type', 'text/javascript'); 
+ e.setAttribute('src', 
+ (("_https:" == document.location.protocol) ? "_https://s3.amazonaws.com/" : "_http://") + 
+ "static.chartbeat.com/js/chartbeat.js"); 
+ document.body.appendChild; 
+ } 
+ var oldonload = window.onload; 
+ window.onload = (typeof window.onload != 'function') ? 
+ loadChartbeat : function() { oldonload(); loadChartbeat(); }; 
+ })(); 
+ </script>  
+
+</body>
+</html>
