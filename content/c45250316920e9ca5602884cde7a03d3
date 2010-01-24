@@ -1,0 +1,107 @@
+
+<html>
+<head>
+	<title>Twitter Background Checker &laquo; twtbg.me &raquo;</title>
+	<link href="style.css" type="text/css" rel="stylesheet"></link>
+	<link rel="icon" href="img/favicon.png">
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js"></script>
+</head>
+<body>
+
+<div id="wrap">
+<div id="header">
+<h1>Twitter Background Checker</h1>
+<h2>Does your nifty Twitter background look like poo with smaller or bigger screen resolutions? Find out right now.</h2>
+</div>
+	<div id="main">
+	<div id="check"></div>
+	<div id="bg1" class="layer"></div>
+	<div id="bg2" class="layer"></div>
+	<div id="bg3" class="layer"></div>
+	<div id="bg4" class="layer"></div>
+	<div id="bg5" class="layer"></div>
+	</div>
+	
+	<div id="footer">
+	<p>Made by <a href="http://twitter.com/ozh">@Ozh</a>.
+		Find this cute, ugly, fun, boring, pointless or useful? Share!
+		<a href="http://twitter.com/home?status=Check%20your%20Twitter%20profile%20with%20different%20screen%20size:%20http://twtbg.me/" title="Tweet this!" onclick="share('twitter');return false"><img src="img/twitter.png" alt="twitter"/></a>
+		<a href="http://www.stumbleupon.com/submit?url=http://twtbg.me/&amp;title=twtbg.me" title="Review on StumbleUpon" onclick="share('stumble');return false;"><img src="img/stumbleupon.png" alt="stumble"/></a>
+		<a href="http://www.facebook.com/share.php?u=http://twtbg.me/" title="Share on Facebook" onclick="share('facebook');return false;"><img src="img/facebook.png" alt="facebook"/></a>
+		<a href="http://friendfeed.com/?url=http://twtbg.me/&amp;title=Check%20your%20Twitter%20profile%20with%20different%20screen%20size:%20http://twtbg.me/" title="Share on Friendfeed" onclick="javascript:share('ff');return false;"><img src="img/friendfeed.png" alt="friendfeed"/></a>
+		<a href="http://delicious.com/save" title="Bookmark on del.icio.us" onclick="share('delicious');return false;"><img src="img/delicious.png" alt="delicious"/></a><small id="delbooks"></small>
+	</p>
+	<small>(yeah, I'll probably update this for #newtwitter, when I get it. This said, I'm <a href="http://planetozh.com/blog/2010/09/into-plugins-you-will-love-this-plugindevbook/">quite busy</a> at the moment, so don't hold your breath!)</small>
+	</div>
+</div>
+
+<div id="source" class="control">
+	<div class="label">1</div>
+	<div class="content">
+		<p>Twitter username: @<input type="text" id="twitter" value="" size="10" /> <span id="twitter_check" class="button">Check</span></p>
+		<p>or: direct URL of an image to check as a Twitter background:<br/>
+		<input type="text" id="src" size="40" value="" /> <span id="src_check" class="button">Check</span> <input type="checkbox" id="tile"/>Tile</p>
+	</div>
+</div>
+
+<div id="resolution" class="control">
+	<div class="label">2</div>
+	<div class="content">
+		<p>Check with the following resolutions:</p>
+		<p>
+		<span id="ctrl_1" class="ctrl_layer button">1024x768</span>
+		<span id="ctrl_2" class="ctrl_layer button">1280x1024</span>
+		<span id="ctrl_3" class="ctrl_layer button">1680x1050</span>
+		<span id="ctrl_4" class="ctrl_layer button">1900x1200</span>
+		<span id="ctrl_5" class="ctrl_layer button">hide</span>
+		</p>
+		<p>Important stuff hidden at lower resolutions? White space with higher sizes? Not good!</p>
+	</div>
+</div>
+
+<div id="brag" class="control">
+	<div class="label">3&nbsp;</div>
+	<div class="content">
+		<p>Pleased? Horrified by what you see? Say it!</p>
+		<p id="brag_text">@<span id="brag_name">Ozh</span>, your Twitter page looks like <label><input type="radio" name="brag_cool" value=":)" checked="checked"/>:)</label> <label><input type="radio" name="brag_cool" value=":("/>:(</label>
+		on <label><input type="radio" name="brag_res" value="big"/>big</label> <label><input type="radio" name="brag_res" value="small"/>small</label> <label><input type="radio" name="brag_res" checked="checked" value="all"/>all</label> resolutions! Check it out: <a id="brag_url" href="#">http://twtbg.me/?t=<span id="brag_name_2">ozh</span></a></p>
+		<p class="center"><a id="brag_button" href="http://" class="button" target="_new">Tweet this</a> <small>(you'll be sent to Twitter to confirm)</small></p>
+	</div>
+</div>
+
+<div id="wtf" class="control">
+	<div class="label">&nbsp;?!</div>
+	<div class="content">
+		<small>Click on the fun splashes, following steps 1, 2 then 3. Want to craft a better Twitter background? Get the <a href="http://planetozh.com/blog/2009/03/pixel-perfect-background-photoshop-template-for-twitter/">Pixel Perfect Twitter Background Photoshop Template</a>.
+		<small>Twitter bird from <a href="http://www.iconspedia.com/icon/twitter-bird-5-63.html">iconspedia</a>. Javascript powered by <a href="http://jQuery.com/">jQuery</a>. Designed to work on Firefox, might goo moo with other browsers. Sorry MSIE!
+		<small>Ironically enough, this site best viewed with bigger screen resolutions.
+		</small></small></small>
+		
+	</div>
+</div>
+<script type="text/javascript" src="script.js"></script>
+<noscript>
+<style>div {display:none;}</style>
+<span id="noscript">C'mon. You need to enable Javascript if you want to play with this awesome little site.</span>
+</noscript>
+
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-55088-7");
+pageTracker._trackPageview();
+} catch(err) {}</script>
+
+<div id="preload">
+	<!-- ooooh, ugly -->
+	<img src="img/1024x768.png" width="1" height="1" alt="1" />
+	<img src="img/1280x1024.png" width="1" height="1" alt="1" />
+	<img src="img/1680x1050.png" width="1" height="1" alt="1" />
+	<img src="img/1900x1200.png" width="1" height="1" alt="1" />
+</div>
+
+</body>
+</html>
