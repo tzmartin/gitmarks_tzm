@@ -1,0 +1,202 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+  <head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Open Publishing Guide | Open Publishing Guide</title>
+    <meta name="verify-v1" content="UWHZKLZDTeDFUiX83Efx5fzDV2rPjAwlQbDo5K+R+Js=" />
+	<link rel="shortcut icon" href="/sites/default/files/favicon.ico" type="image/x-icon" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://opg.cias.rit.edu/blogapi/rsd" />
+<link rel="alternate" type="application/rss+xml" title="Front page feed" href="/rss.xml" />
+    <link type="text/css" rel="stylesheet" media="all" href="/sites/default/files/css/css_b46e268e0f46f37a5e4e6ca66c827204.css" />
+<link type="text/css" rel="stylesheet" media="print" href="/sites/default/files/css/css_c375d164f290a20e728a8ba0c09283e0.css" />
+    <script type="text/javascript" src="/sites/default/files/js/js_ce89d7a055bd0ec367ef2c25e15f5b27.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, { "basePath": "/", "googleanalytics": { "trackOutgoing": 1, "trackMailto": 1, "trackDownload": 1, "trackDownloadExtensions": "7z|aac|avi|csv|doc|exe|flv|gif|gz|jpe?g|js|mp(3|4|e?g)|mov|pdf|phps|png|ppt|rar|sit|tar|torrent|txt|wma|wmv|xls|xml|zip" }, "views": { "ajax_path": "/views/ajax", "ajaxViews": [ { "view_name": "frontpage", "view_display_id": "page", "view_args": "", "view_path": "frontpage", "view_base_path": "frontpage", "view_dom_id": 1, "pager_element": 0 } ] } });
+//--><!]]>
+</script>
+    <!--[if IE 7]>
+    	<link type="text/css" rel="stylesheet" media="all" href="/sites/all/themes/framework_opgtheme/fix-ie.css" />   	<![endif]-->
+    <!--[if lt IE 7]>
+    	<link type="text/css" rel="stylesheet" media="all" href="/sites/all/themes/framework_opgtheme/fix-ie6.css" />   	<![endif]-->
+	<meta name="google-site-verification" content="mn3qNuGVTdEHPwszeZWvZ9O4Q4NRUdKKophuRgvFa9s" />
+  </head>
+  <body class="sidebar-right" onload="onLoad()">
+<!-- Layout -->
+		
+
+    <div id="wrapper">
+		<div id="header-region" class="clear-block"></div>
+      <div id="header">
+		<form action="/"  accept-charset="UTF-8" method="post" id="search-theme-form">
+<div><div id="search" class="container-inline">
+  <div class="form-item" id="edit-search-theme-form-1-wrapper">
+ <label for="edit-search-theme-form-1">Search this site: </label>
+ <input type="text" maxlength="128" name="search_theme_form" id="edit-search-theme-form-1" size="15" value="" title="Enter the terms you wish to search for." class="form-text" />
+</div>
+<input type="submit" name="op" id="edit-submit" value="Search"  class="form-submit" />
+<input type="hidden" name="form_build_id" id="form-09dadd0d70aef19bf0c34c5f43872dd1" value="form-09dadd0d70aef19bf0c34c5f43872dd1"  />
+<input type="hidden" name="form_id" id="edit-search-theme-form" value="search_theme_form"  />
+</div>
+
+</div></form>
+<a href="/" title=""><img src="/sites/all/themes/framework_opgtheme/logo.png" alt="" id="logo" /><span id="slogan"></span></a>        <div class="clear"></div>
+      </div><!--END OF HEADER-->
+			<div class="nav-left"></div>
+    	<div class="nav-right"></div>
+			<div id="Custom_Nav" class="clear-block"><div id="block-nice_menus-1" class="block block-nice_menus">
+
+  
+  <div class="content">
+    <ul class="nice-menu nice-menu-down" id="nice-menu-1"><li id="menu-254" class="menuparent menu-path-node-20"><a href="/about" title="">About</a><ul><li id="menu-928" class="menu-path-node-20"><a href="/about" title="">About Us</a></li>
+<li id="menu-4740" class="menu-path-node-453"><a href="/content/contact-us" title="">Contact Us</a></li>
+<li id="menu-5072" class="menu-path-sitemap"><a href="/sitemap" title="">Sitemap</a></li>
+</ul>
+</li>
+<li id="menu-895" class="menuparent menu-path-library-marketing-resources"><a href="/library/marketing-resources" title="">Resources</a><ul><li id="menu-4741" class="menu-path-library-marketing-resources"><a href="/library/marketing-resources" title="">Marketing Resources</a></li>
+<li id="menu-4742" class="menu-path-library-copyright"><a href="/library/copyright" title="">Copyright Resources</a></li>
+<li id="menu-4743" class="menu-path-library-public-domain-resources"><a href="/library/public-domain-resources" title="">Public Domain Resources</a></li>
+<li id="menu-959" class="menu-path-library-tools"><a href="/library/tools" title="">Free Software Tools</a></li>
+<li id="menu-4744" class="menu-path-library-reference-resources"><a href="/library/reference-resources" title="">References</a></li>
+<li id="menu-4745" class="menu-path-library-glossary"><a href="/library/glossary" title="">Glossary</a></li>
+<li id="menu-5079" class="menu-path-library-instructional-booklets"><a href="/library/instructional-booklets" title="">Instructional Booklets</a></li>
+<li id="menu-5247" class="menu-path-node-2226"><a href="/battling-cancer-grace-publishing-perspective" title="Battling Cancer with Grace: A Publishing Perspective">Author Testimonials</a></li>
+</ul>
+</li>
+<li id="menu-4731" class="menuparent menu-path-node-482"><a href="/community-0" title="">Community</a><ul><li id="menu-4746" class="menu-path-latest-news"><a href="/latest-news" title="">Latest News</a></li>
+<li id="menu-4747" class="menu-path-forum-59"><a href="/forums/connect-and-share" title="">Forums</a></li>
+<li id="menu-4748" class="menu-path-author-communities"><a href="/author-communities" title="">Author Communities</a></li>
+<li id="menu-4749" class="menu-path-node-469"><a href="/content/feedback-form" title="">Feedback</a></li>
+</ul>
+</li>
+<li id="menu-4732" class="menuparent menu-path-node-146"><a href="/self-publishing-advisor" title="">Self-Publishing Advisor</a><ul><li id="menu-4750" class="menu-path-node-146"><a href="/self-publishing-advisor" title="">Self-Publishing Advisor</a></li>
+<li id="menu-4751" class="menu-path-library-podprofiles"><a href="/library/podprofiles" title="">Print On Demand Profiles</a></li>
+<li id="menu-4752" class="menu-path-node-469"><a href="/content/feedback-form" title="">Feedback</a></li>
+</ul>
+</li>
+<li id="menu-291" class="menuparent menu-path-node-72"><a href="/what-publishing-step-step" title="">Publishing Step By Step</a><ul><li id="menu-4728" class="menu-path-node-72"><a href="/what-publishing-step-step" title="">What is Publishing Step By Step?</a></li>
+<li id="menu-4729" class="menu-path-publishing-step-step-planning"><a href="/publishing-step-step-planning" title="">Planning</a></li>
+<li id="menu-4730" class="menu-path-publishing-step-step-creating"><a href="/publishing-step-step-creating" title="">Creating</a></li>
+<li id="menu-4753" class="menu-path-publishing-step-step-layout-design"><a href="/publishing-step-step-layout-design" title="">Layout &amp; Design</a></li>
+<li id="menu-4754" class="menu-path-publishing-step-step-publishing"><a href="/publishing-step-step-publishing" title="">Publishing</a></li>
+</ul>
+</li>
+</ul>
+  </div>
+
+</div>
+</div>
+			
+      <div id="container">
+   
+        <div id="center">
+                                           
+							<div id="page-title"><div class="header-side-left"></div>
+								<h2>Open Publishing Guide</h2>
+								<div class="header-side-right"></div></div>
+			
+                                        
+          <div class="view view-frontpage view-id-frontpage view-display-id-page view-dom-id-1">
+        <div class="view-header">
+      <div id="frontpage-mainheader">
+<div id="frontpage_mainText">
+<p class="header-text">
+The Open Publishing Guide has everything you need to know to publish your work. 
+</p>
+<p class="header-text">
+Watch your idea become a reality. From a concept to a tangible item, we guide you through the publishing process.
+</p>
+</div>
+<p id="slideshowUpper"><img height="180" width="270" alt="" src="/sites/default/files/images/homepage_main/couple_book.png" />    <img height="180" width="270" alt="" src="/sites/default/files/images/homepage_main/dadSon_book.png" />    <img height="180" width="270" alt="" src="/sites/default/files/images/homepage_main/tower_book.png" />    <img height="180" width="270" alt="" src="/sites/default/files/images/homepage_main/woman_book.png" /></p>
+</div>
+
+<div id="sub-page-title">
+<div class="header-side-left"></div>
+<h2><a href="/what-publishing-step-step">Learn The Publishing Basics In Four Easy Steps</a></h2>
+
+<div class="header-side-right"></div>
+</div>
+
+<p id="slideshow"><img height="250" width="540" alt="" class="active" src="/sites/default/files/images/homepage_main/homepage_planning.jpg" />    <img height="250" width="540" alt="" src="/sites/default/files/images/homepage_main/homepage_creating.jpg" />    <img height="250" width="540" alt="" src="/sites/default/files/images/homepage_main/homepage_designing.jpg" />    <img height="250" width="540" alt="" src="/sites/default/files/images/homepage_main/homepage_publishing.jpg" /></p>    </div>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+</div> 
+        </div> <!-- /#center -->
+  
+                <div id="sidebar-right" class="sidebar">
+          <div id="block-block-5" class="block block-block">
+
+  
+  <div class="content">
+    <h2><a href="http://opg.cias.rit.edu/self-publishing-advisor">Self-Publishing Advisor</a></h2>
+<div id="chooserProjectHP"></div><br /><p>Can't decide which self-publisher is best for your project? Use our questionnaire to narrow down your options. <a href="/self-publishing-advisor">more</a></p><div class="block-bottom"></div>  </div>
+
+</div>
+<div id="block-block-6" class="block block-block">
+
+  
+  <div class="content">
+        <h2><a href="/latest-news">Latest News</a></h2>
+
+<p>Read up on tips and hints about self-publishing and all the resources that are available to you. Check back occasionally for updated posts. <a href="http://opg.cias.rit.edu/latest-news">more</a>
+</p>
+<div class="block-bottom">&nbsp;</div>  </div>
+
+</div>
+        </div> <!-- /#sidebar-right -->
+        
+        <div id="footer" class="clear">
+          <div id="block-block-2" class="block block-block">
+
+  
+  <div class="content">
+    <div id="footerLeftCurve">&nbsp;</div>
+<div id="footerRightCurve">&nbsp;</div>
+<ul id="footerNavList" class="clear-block">
+    <li class="footerListText"><a href="/content/contact-us">Contact Us</a></li>
+    <li class="footerListText"><a href="/about">About Us</a></li>
+    <li class="footerListText"><a href="/sitemap">Site Map</a></li>
+    <li class="footerListText"><a href="http://opl.rit.edu">OPL</a></li>
+    <li class="footerListTextSub">
+    <ul class="footerSubListText">
+        <li>Share:</li>
+        <li><a href="http://digg.com/submit?url=http://opg.cias.rit.edu/"><img alt="digg" src="/sites/all/themes/framework_opgtheme/images/digg.gif" />&nbsp;Digg</a></li>
+        <li><a href="http://www.facebook.com/share.php?u=http://opg.cias.rit.edu/"><img height="13" alt="facebook" src="/sites/all/themes/framework_opgtheme/images/facebook_share_icon.gif" />&nbsp;facebook</a></li>
+        <li><a href="http://del.icio.us/post?url=http://opg.cias.rit.edu/"><img height="12" alt="del.icio.us" src="/sites/all/themes/framework_opgtheme/images/delicious.gif" />&nbsp;Del.icio.us</a></li>
+    </ul>
+    </li>
+</ul>
+<p>&nbsp;</p>
+<p style="text-align: center;">Open Publishing Lab, CIAS School of Print Media, Rochester Institute of Technology <br />
+55 Lomb Memorial Drive, Rochester, NY 14623-5608 <br />
+&copy; <a href="http://www.rit.edu/">Rochester Institute of Technology</a>. All Rights Reserved | <a href="http://www.rit.edu/disclaimer.html">Disclaimer</a> | <a href="http://www.rit.edu/copyright.html">Copyright Infringement</a>. Telephone: 585-475-2728</p>  </div>
+
+</div>
+        </div>
+
+      </div> <!-- /container -->
+    </div><!--END OF WRAPPER-->
+<!-- /layout -->
+
+  <script type="text/javascript" src="/sites/default/files/js/js_3c6c9016795fcc404e822b039cda0cd7.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+//--><!]]>
+</script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+try{var pageTracker = _gat._getTracker("UA-4364785-3");pageTracker._trackPageview();} catch(err) {}
+//--><!]]>
+</script>
+
+  </body>
+</html>
