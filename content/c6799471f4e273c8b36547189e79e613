@@ -1,0 +1,564 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"> 
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<title>The Wisdom of Crowds: Implementing a Smart Ranking Algorithm : LeeDumond.com</title>
+	<link rel="stylesheet" href="/files/themes/LeesTheme/style.css" type="text/css" media="screen" />
+	<link rel="stylesheet" href="/files/themes/LeesTheme/custom.css" type="text/css" media="screen" />
+	
+<meta name="generator" content="Graffiti CMS 1.2 (build 1.2.0.2308)" />
+<meta name="description" content="From blog posts to books, sorting a list of items by user rating is a very common task. In this blog post, we discover how the writings of an obscure 18th-century British minister lets us implement a &amp;ldquo;smart&amp;rdquo; ranking algorithm that takes into account" />
+<meta name="keywords" content="algorithm" />
+<meta name="robots" content="index,follow" />
+
+<link rel="alternate" type="application/rss+xml" title="Rss Feed" href="http://feeds2.feedburner.com/leedumond" />
+<link rel="alternate" type="application/rss+xml" title="Blog Rss Feed" href="http://leedumond.com/blog/feed/" />
+
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://leedumond.com/api/rsd.ashx" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" title="WLWManifest" href="http://leedumond.com/api/wlwmanifest.ashx" />
+
+<script type="text/javascript" src="/__utility/js/prototype.js" ></script>
+<script type="text/javascript" src="/__utility/js/graffiti.js" ></script>
+
+<link rel="shortcut icon" href="/__utility/img/favicon.ico" type="image/x-icon" />
+
+
+	<link rel="icon" href="/__utility/img/animated_favicon1.gif" type="image/gif" />
+</head>
+<body>
+<div class="top">
+	<div class="header">
+		<div class="left">
+		    <h1><a href="/" title="LeeDumond.com">LeeDumond.com</a></h1>
+		</div>
+		<div class="right">
+		    <div style="display: table; height: 150px; #position: relative; overflow: hidden; width: 100%;">
+		        <div style="#position: absolute; #top: 50%;display: table-cell; vertical-align: middle; width: 100%;">
+		            <div class="rightHeader" style="#position: relative; #top: -50%; width: 100%;">
+			            <div class="SiteDescription">
+				            My musings about .NET and what not
+			            </div>
+			            <form method="get" id="search_form" action="/search/">
+				            <input type="text" style="width: 225px;" value="search..." name="q" id="q" onfocus="if (this.value == 'search...') {this.value = '';}" onblur="if (this.value == '') {this.value = 'search...';}" />
+				            <span class="searchButton"><input type="submit" value="" class="SearchButton" /></span>
+				            <input type="hidden" id="searchsubmit" value="Search" />
+			            </form>
+			                                </div>
+                </div>
+            </div>
+		</div>
+	</div>
+</div>
+
+<div class="container">	
+
+    <div class="navigation">
+                            <a href="/">Home</a>
+                                    <a href="/contact/">Contact Me</a>
+                        <div class="clearer"><span></span></div>
+    </div>
+    
+	<div id="main" class="main" runat="server">
+		<div id="content" class="content" runat="server">
+			<div class="post">
+
+<!-- stuff for syntax formatting -->
+	<script type="text/javascript" src="../../syntax_format/scripts/shCore.js"></script>
+	<script type="text/javascript" src="../../syntax_format/scripts/shBrushBash.js"></script>
+	<script type="text/javascript" src="../../syntax_format/scripts/shBrushCpp.js"></script>
+	<script type="text/javascript" src="../../syntax_format/scripts/shBrushCSharp.js"></script>
+	<script type="text/javascript" src="../../syntax_format/scripts/shBrushCss.js"></script>
+	<script type="text/javascript" src="../../syntax_format/scripts/shBrushDelphi.js"></script>
+	<script type="text/javascript" src="../../syntax_format/scripts/shBrushDiff.js"></script>
+	<script type="text/javascript" src="../../syntax_format/scripts/shBrushGroovy.js"></script>
+	<script type="text/javascript" src="../../syntax_format/scripts/shBrushJava.js"></script>
+	<script type="text/javascript" src="../../syntax_format/scripts/shBrushJScript.js"></script>
+	<script type="text/javascript" src="../../syntax_format/scripts/shBrushPhp.js"></script>
+	<script type="text/javascript" src="../../syntax_format/scripts/shBrushPlain.js"></script>
+	<script type="text/javascript" src="../../syntax_format/scripts/shBrushPython.js"></script>
+	<script type="text/javascript" src="../../syntax_format/scripts/shBrushRuby.js"></script>
+	<script type="text/javascript" src="../../syntax_format/scripts/shBrushScala.js"></script>
+	<script type="text/javascript" src="../../syntax_format/scripts/shBrushSql.js"></script>
+	<script type="text/javascript" src="../../syntax_format/scripts/shBrushVb.js"></script>
+	<script type="text/javascript" src="../../syntax_format/scripts/shBrushXml.js"></script>
+	<link type="text/css" rel="stylesheet" href="../../syntax_format/styles/shCore.css"/>
+	<link type="text/css" rel="stylesheet" href="../../syntax_format/styles/shThemeDefault.css"/>
+	<script type="text/javascript">
+		SyntaxHighlighter.config.clipboardSwf = '../../syntax_format/scripts/clipboard.swf';
+		SyntaxHighlighter.defaults['font-size'] = '200%';		
+		SyntaxHighlighter.all();
+	</script>
+
+
+
+
+	<h2><a href="/blog/the-wisdom-of-crowds-implementing-a-smart-ranking-algorithm/" rel="bookmark" title="The Wisdom of Crowds: Implementing a Smart Ranking Algorithm">The Wisdom of Crowds: Implementing a Smart Ranking Algorithm</a></h2>
+	<div class="entry">
+		<p>From blog posts to books, sorting a list of items by user rating is a very common task. In this blog post, we discover how the writings of an obscure 18th-century British minister lets us implement a &ldquo;smart&rdquo; ranking algorithm that takes into account the &ldquo;wisdom of the crowd&rdquo;, and presents a fairer and more accurate representation of results.</p><hr />
+<h3>The Rating Problem</h3>
+<p>Let&rsquo;s pretend for the moment that you&rsquo;ve hankerin&rsquo; to pick up a few fresh tips on ASP.NET 3.5. You visit a bookstore and type &ldquo;ASP.NET 3.5&rdquo; into the search box. You obtain the results shown in Figure 1.<sup>1</sup></p>
+<p><img alt="screenshot 1" width="600" height="1021" src="/files/media/image/WindowsLiveWriter/TheIntelligenceofCrowdsImplementingaSmar_D050/screenshot1.png" /></p>
+<p class="figureCaption">Figure 1</p>
+<p>This site, like many others, allows users to rate products on a scale of 1 to 5. The average customer rating is displayed when browsing these products. (I&rsquo;ve included both image-based and numerical displays for the purposes of this discussion). By sorting the results in order of customer rating as shown, you hope to discover which books are most popular among your peers.<sup>2</sup></p>
+<p>Examining Figure 1, it would appear that <em>ASP.NET 3.5 Website Programming: Problem - Design &ndash; Solution</em> is the most popular among these books, with a perfect 5-star rating; and that <em>Pro ASP.NET 3.5 in C# 2008</em> is the least popular among the rated books, with but a single star to call its own. But, as I&rsquo;m sure you already suspect, <strong>the average rating alone doesn&rsquo;t tell us the whole story.</strong></p>
+<p>Of course, e-commerce sites understand this too. That&rsquo;s why you&rsquo;ll almost always find, in addition to the average customer rating, the number of customers who contributed to that rating, as shown in Figure 2.</p>
+<p><img style="border-bottom: 0px; border-left: 0px; display: inline; border-top: 0px; border-right: 0px" title="image" border="0" alt="image" width="604" height="1017" src="http://leedumond.com/files/media/image/WindowsLiveWriter/TheIntelligenceofCrowdsImplementingaSmar_D050/screenshot2.png" /></p>
+<p class="figureCaption">Figure 2</p>
+<h3>Leveraging the Wisdom of the Crowd</h3>
+<p>Knowing the number of times an item has been rated makes the results much more meaningful to us &ndash; but have you stopped to consider exactly <em>why</em> this is so? <strong>Why do we lend more weight to a rating when an item has been rated by more individuals?</strong> This may appear to the casual observer as the manifestation of a &ldquo;bandwagon effect&rdquo; of some kind, but that&rsquo;s not really the case. As it turns out, <strong>this is the result of an intuitive mental calculation that mirrors an actual real-word phenomenon</strong> - a true example of crowd intelligence in action. What&rsquo;s more, as we shall soon see,<strong> this phenomenon can be modeled in software.</strong></p>
+<p>We see from Figure 2 that <em>ASP.NET 3.5 Website Programming: Problem - Design &ndash; Solution</em> has the highest average customer rating, and therefore resides at the top of the list. However, <em>since it has only been rated once, we are less inclined to trust this result.</em> Intuitively, we understand that with a small number of ratings, the probability of an anomalous rating (an &ldquo;outlier&rdquo; in statistical terms) having a significant impact on the average is greatly increased. In other words, a small number of ratings increases the chance that the overall average rating may be &ldquo;inaccurate&rdquo; &ndash; not <em>arithmetically</em> inaccurate of course, but inaccurate in the sense that the data doesn&rsquo;t reflect a true consensus of typical, unbiased readers.</p>
+<p>Now take a look at some of the other results. We see that <em>ASP.NET 3.5 Unleashed</em> appears lower on the list by virtue of its lower average rating of 4.8. Nevertheless, <em>we instinctively lend much more weight to its rating data, because far more customers have rated it.</em> If we&rsquo;re laying down our hard-earned money, it would appear that <em>ASP.NET 3.5 Unleashed</em> is the surer bet (all other things being equal, of course). That 4.8 rating may not be the highest on the list, but a rational observer would invariably conclude that this is a <em>more reliable figure</em>, based on the relatively large proportion of the &ldquo;crowd&rdquo; which contributed to it.</p>
+<p>Including the number of ratings lets us evaluate the average rating data of each individual item not only on its own, but in relation to all the other items. <strong>The more times an item has been rated, the <em>more believable</em> the data, and thus the <em>more relative weight</em> we place upon its average rating.</strong></p>
+<p>Wouldn&rsquo;t it be great if we could somehow leverage the intelligence of the crowd, and reflect it in the results? What if we could <strong>rank and sort the results based not solely on the raw average rating, but on the <em>believability</em> of the average rating? </strong>Such a ranking algorithm would more accurately reflect how we perceive each item&rsquo;s ratings in relation to each other. Using this algorithm, an item which received a single 5-star rating wouldn&rsquo;t immediately jump to the top of the list; likewise, an item that received a single poor rating wouldn&rsquo;t immediately be forced to the bottom. The &ldquo;good stuff&rdquo; (items which receive mostly high ratings from a relatively large proportion of the crowd) would appear near the top, while the &ldquo;not-so-good&rdquo; (again, as determined by the crowd) would be pushed lower.</p>
+<h3>Bayes&rsquo; Theorem</h3>
+<p><img style="border-bottom: 0px; border-left: 0px; margin: 0px 0px 15px 15px; display: inline; border-top: 0px; border-right: 0px" title="Thomas_Bayes" border="0" alt="Thomas_Bayes" align="right" width="154" height="164" src="http://leedumond.com/files/media/image/WindowsLiveWriter/TheIntelligenceofCrowdsImplementingaSmar_D050/Thomas_Bayes_thumb.gif" /> As it turns out, we can develop such an algorithm with the help of an 18th-century British Presbyterian minister named Thomas Bayes.</p>
+<p>Like many learned men of his day, Reverend Bayes harbored a keen interest in mathematics. In an essay discovered and published in 1764 &ndash; three years after his death &ndash; he presents a special case of what eventually came to be known as <a target="_blank" href="http://en.wikipedia.org/wiki/Bayes%27_theorem">Bayes&rsquo; theorem</a>. Today, Bayes theorem is widely accepted among most statisticians. Applications of it can be found throughout many fields in science and engineering, from the evaluation of drug test results, to predicting the outcome of elections, to the development of spam-filtering software.</p>
+<p>Bayes&rsquo; theorem states in part that probabilities are <em>rationally coherent degrees of belief</em>, or a <em>degree of belief in a proposition given a body of well-specified information</em>.<sup>3</sup> Therefore, <strong>Bayes' theorem can be thought of as a representation of how an ideally rational individual would interpret the believability of an outcome, based on a series of prior outcomes.</strong></p>
+<p>Bayes&rsquo; theorem can be stated mathematically in terms of how the probability of an outcome A given B, is related to the converse probability of outcome B given A.</p>
+<h3>Applying Bayes&rsquo; Theorem to the Rating Problem</h3>
+<p>A <a target="_blank" href="http://en.wikipedia.org/wiki/Bayesian_average">Bayesian average</a> is a method of calculating the mean of a set of data that is consistent with Bayes&rsquo; theorem.</p>
+<p><img style="border-right-width: 0px; margin: 10px 0px 0px; display: inline; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px" title="bayesian average" border="0" alt="bayesian average" width="157" height="43" src="http://leedumond.com/files/media/image/WindowsLiveWriter/TheIntelligenceofCrowdsImplementingaSmar_D050/bayesian%20average_thumb.png" /></p>
+<p>Where:</p>
+<ul>
+    <li><em>C</em> is a &ldquo;weighting&rdquo; constant, proportional to the typical size of the data set</li>
+    <li><em>m</em> is the arithmetic mean taken over all known data</li>
+    <li><em>n</em> is the size of the current data set</li>
+</ul>
+<p>For our particular purposes, we can calculate the Bayesian average of each of our books by applying the formula above. This lets us derive a rating that is based on the &ldquo;believability&rdquo; of the raw data.</p>
+<p><strong>BA = ((AvgNumOfRatingsForAll * AvgRatingForAll) + TotalRating) / (RateCount + AvgNumOfRatingsForAll)</strong></p>
+<p>Where:</p>
+<ul>
+    <li><strong>RateCount</strong> is the number of ratings given to <em>this</em> book</li>
+    <li><strong>TotalRating</strong> is the sum of all ratings given to <em>this</em> book</li>
+    <li><strong>AvgNumOfRatingsForAll</strong> is the average number of ratings for <em>all</em> books shown (where RateCount &gt; 0)</li>
+    <li><strong>AvgRatingForAll</strong> is the average unweighted rating for <em>all</em> books shown (where RateCount &gt; 0)</li>
+</ul>
+<p>In Figure 3, the results are now sorted by their Bayesian average. The star displays also reflect the calculated Bayesian average.</p>
+<p><img style="border-bottom: 0px; border-left: 0px; display: inline; border-top: 0px; border-right: 0px" title="image" border="0" alt="image" width="604" height="1017" src="http://leedumond.com/files/media/image/WindowsLiveWriter/TheIntelligenceofCrowdsImplementingaSmar_D050/screenshot3.png" /></p>
+<p class="figureCaption">Figure 3</p>
+<p>If you compare these results to those shown in Figure 2, several conclusions can be drawn:</p>
+<ol>
+    <li>The Bayesian average is a truer reflection of how the books are rated <em>in relation to each other</em>.</li>
+    <li>The Bayesian rank for books with a relatively <em>small</em> number of ratings tends to gravitate toward the average rating of <em>all</em> books.</li>
+    <li>The more ratings a book has received, the more &ldquo;believable&rdquo; the ratings are. Therefore, when a book has received a relatively <em>large </em>number of ratings, its Bayesian rank gravitates toward its unweighted average rating.</li>
+</ol>
+<h3>Keeping it Fair</h3>
+<p>As pointed out, the Bayesian average formula uses a constant <em>C</em> that determines how much &ldquo;correction&rdquo; is applied to the raw, unweighted average. By examining the formula, you&rsquo;ll note that <em>C</em> is a &ldquo;dampening&rdquo; value that determines the &ldquo;sensitivity&rdquo; of the calculation.</p>
+<p>This means that <em>the higher the value of C, the more customer ratings it will take to influence the Bayesian average.</em> In other words, <em>C</em> can be thought of as the number of ratings it will take to have a significant impact on the relative&nbsp;ranking of an item. Higher values of <em>C</em> make the results <em>less sensitive to the determination of the crowd</em>, while lower values of <em>C</em> do the opposite. This is something you might want to take into account when determining what value to use for <em>C</em>.</p>
+<p>In practice, this value should be proportional to the typical size of the data set. In our example, we used the average number of ratings given to all rated items in the search result. This works well in most cases in which new items are added on a regular and&nbsp;ongoing basis, such as an inventory of retail items, blog posts, songs, videos, downloadable applications,&nbsp;and the like.</p>
+<p>However, consider the case in which new items are added relatively infrequently. When the <em>existing</em> items already have a <em>high number of ratings</em>, a <em>new</em> item will have to receive many ratings in order to move up or down in the list. In your particular application, if you want to give new items a chance to move more quickly, you can reduce the value of C by a given factor, like so:</p>
+<p><strong>BA = ((AvgNumOfRatingsForAll * 0.75 * AvgRatingForAll) + TotalRating) / (RateCount + (AvgNumOfRatingsForAll * 0.75))</strong></p>
+<h3>Summary</h3>
+<p>When sorting a list of items by the &ldquo;raw&rdquo; average of the ratings it has received, <strong>we often get a distorted view.</strong> Results are easily skewed by a small number of ratings (or even a single rating) given to any particular item.</p>
+<p>In order to provide a more accurate picture, <strong>we need a smarter rating system &ndash; one that can accurately quantify the &ldquo;wisdom of the crowd.&rdquo;</strong> This is something we naturally do when the size of the &ldquo;crowd&rdquo; is known to us. When an item has received many ratings, that data should be considered more &ldquo;reliable,&rdquo; and therefore its ranking in the list should more closely reflect the crowd&rsquo;s decision. When an item has received very few ratings, its ranking should approximate the average rating for all the items shown.</p>
+<p>We can use Bayes&rsquo; theorem to derive a smart rating algorithm to accomplish this task. Furthermore, the weighting applied by the Bayesian average formula can be adjusted to suit different purposes, thus making new items more sensitive to the influence of the crowd.</p>
+<h3>Download the Code</h3>
+<p>If you&rsquo;re interested in playing around with this on your own, you can <a target="_blank" href="/files/downloads/BayesianRankingSample.zip">download the solution/database</a> I used to create the screenshots in this post. You can mess around with the database values and/or the weighting constant in order to see how different scenarios affect the results.</p>
+<div class="footnotes">
+<p>1. Book cover images courtesy of <a target="_blank" href="http://amazon.com/">Amazon.com</a>.</p>
+<p>2. All screenshots are for illustrative purposes only, and should not be construed as an actual reflection of the popularity or quality of these titles in &ldquo;real life,&rdquo; okay?</p>
+<p>3. From <a title="http://en.wikipedia.org/wiki/Bayes%27_theorem" href="http://en.wikipedia.org/wiki/Bayes%27_theorem">http://en.wikipedia.org/wiki/Bayes%27_theorem</a></p>
+</div>
+<p>&nbsp;</p>		
+	
+	<p id="subscribe">
+      <a class="feed" href="http://feeds2.feedburner.com/leedumond/">Subscribe to this blog for more cool content like this!</a>
+	</p>
+	<p>
+	   <a rel="nofollow" href="http://twitter.com/home?status=Just+read+%40LeeDumond+The+Wisdom+of+Crowds%3a+Implementing+a+Smart+Ranking+Algorithm+http%3a%2f%2fbit.ly%2f3jSReE" target="_blank" title="Tweet this blog post"><img src="http://leedumond.com/files/themes/leestheme/i/tweetthis.gif" alt="Tweet this blog post" /></a>		
+	</p>
+    <p>
+           <!-- <a href="http://www.dotnetkicks.com/kick/?url=http%3a%2f%2fleedumond.com/blog/the-wisdom-of-crowds-implementing-a-smart-ranking-algorithm/"><img src="http://www.dotnetkicks.com/Services/Images/KickItImageGenerator.ashx?url=http%3a%2f%2fleedumond.com/blog/the-wisdom-of-crowds-implementing-a-smart-ranking-algorithm/" border="0" alt="kick it on DotNetKicks.com" /></a> -->
+       <a href="http://www.dotnetkicks.com/submit/?url=http%3a%2f%2fleedumond.com%2fblog%2fthe-wisdom-of-crowds-implementing-a-smart-ranking-algorithm%2f&title=The+Wisdom+of+Crowds%3a+Implementing+a+Smart+Ranking+Algorithm&description=From blog posts to books, sorting a list of items by user rating is a very common task. In this blog post, we discover how the writings of an obscure 18th-century British minister lets us implement a &ldquo;smart&rdquo; ranking algorithm that takes into account the &ldquo;wisdom of the crowd&rdquo;, and presents a fairer and more accurate representation of results." target="_blank" title="kick it on DotNetKicks.com" ><img src="http://www.dotnetkicks.com/Services/Images/KickItImageGenerator.ashx?url=http%3a%2f%2fleedumond.com%2fblog%2fthe-wisdom-of-crowds-implementing-a-smart-ranking-algorithm%2f" border="0" alt="kick it on DotNetKicks.com" /></a>          
+    </p>
+    
+    <p>
+    	<a rev="vote-for" href="http://www.dotnetshoutout.com/submit?url=http%3a%2f%2fleedumond.com%2fblog%2fthe-wisdom-of-crowds-implementing-a-smart-ranking-algorithm%2f&title=The+Wisdom+of+Crowds%3a+Implementing+a+Smart+Ranking+Algorithm" target="_blank" title="shout it on DotNetShoutOut.com" ><img src="http://www.dotnetshoutout.com/image.axd?url=http%3a%2f%2fleedumond.com%2fblog%2fthe-wisdom-of-crowds-implementing-a-smart-ranking-algorithm%2f" style="border: 0px;" alt="shout it on DotNetShoutOut.com" /></a>
+    </p>
+    
+
+    <!-- <div class="shoutIt"><a rev="vote-for" href="http://dotnetshoutout.com/Submit?url=http%3a%2f%2fleedumond.com%2fblog%2fthe-wisdom-of-crowds-implementing-a-smart-ranking-algorithm%2f&amp;title=The+Wisdom+of+Crowds%3a+Implementing+a+Smart+Ranking+Algorithm"><img alt="Shout it" src="http://dotnetshoutout.com/image.axd?url=http://leedumond.com/blog/the-wisdom-of-crowds-implementing-a-smart-ranking-algorithm/" style="border:0px"/></a></div> -->
+    
+    <!-- Had to remove this, widget is too slow!
+    <p>
+    	<a href="http://www.dotnetburner.com/vote?url=http%3a%2f%2fleedumond.com%2fblog%2fthe-wisdom-of-crowds-implementing-a-smart-ranking-algorithm%2f&title=The+Wisdom+of+Crowds%3a+Implementing+a+Smart+Ranking+Algorithm&desc=From blog posts to books, sorting a list of items by user rating is a very common task. In this blog post, we discover how the writings of an obscure 18th-century British minister lets us implement a &ldquo;smart&rdquo; ranking algorithm that takes into account the &ldquo;wisdom of the crowd&rdquo;, and presents a fairer and more accurate representation of results." target="_blank" title="burn it on DotNetBurner.com" ><img src="http://www.dotnetburner.com/image.axd?url=http%3a%2f%2fleedumond.com%2fblog%2fthe-wisdom-of-crowds-implementing-a-smart-ranking-algorithm%2f" border="0" alt="burn it on DotNetBurner.com" /></a>
+    </p>
+    -->
+    
+    <p>
+    	<a href="http://webdevvote.com/submit/?url=http%3a%2f%2fleedumond.com%2fblog%2fthe-wisdom-of-crowds-implementing-a-smart-ranking-algorithm%2f&title=The+Wisdom+of+Crowds%3a+Implementing+a+Smart+Ranking+Algorithm&description=From blog posts to books, sorting a list of items by user rating is a very common task. In this blog post, we discover how the writings of an obscure 18th-century British minister lets us implement a &ldquo;smart&rdquo; ranking algorithm that takes into account the &ldquo;wisdom of the crowd&rdquo;, and presents a fairer and more accurate representation of results." target="_blank" title="vote it on WebDevVote.com"><img src="http://webdevvote.com/Services/Images/KickItImageGenerator.ashx?url=http%3a%2f%2fleedumond.com%2fblog%2fthe-wisdom-of-crowds-implementing-a-smart-ranking-algorithm%2f" border="0" alt="vote it on WebDevVote.com" /></a>
+    </p>
+    
+
+    <p>
+    <!-- <script type="text/javascript">var dzone_style = '2';</script>
+       <script type="text/javascript" src="http://widgets.dzone.com/widgets/zoneit.js"></script> -->
+       <script type="text/javascript">var dzone_blurb = 'From blog posts to books, sorting a list of items by user rating is a very common task. In this blog post, we discover how the writings of an obscure 18th-century British minister lets us implement a &ldquo;smart&rdquo; ranking algorithm that takes into account the &ldquo;wisdom of the crowd&rdquo;, and presents a fairer and more accurate representation of results.';</script><script type="text/javascript">var dzone_style = '2';</script><script type="text/javascript" src="http://widgets.dzone.com/widgets/zoneit.js"></script> 
+    </p>    
+    
+
+<h3 id="shareheader">Bookmark / Share</h3>
+           <ul id="SocialButtonsPlace"></ul>
+           <script type="text/javascript">
+function SocialBookmarks(){
+var holder = document.getElementById("SocialButtonsPlace");
+if (!holder) return;
+
+var title = encodeURIComponent(document.title);
+var url = encodeURIComponent(location.href);
+/* these are the social bookmaking sites' icons ,ordered by rank, you can remove a line
+but don't change the 'pos' so icon would show up correctly */
+var socials = [
+{'name':'Yahoo','pos':-16,'url':'http://myweb2.search.yahoo.com/myresults/bookmarklet?t='+title+'&u='+url},
+{'name':'Google','pos':-32,'url':'http://www.google.com/bookmarks/mark?op=edit&bkmk='+url+'&title='+title},
+{'name':'Live','pos':-48,'url':'https://favorites.live.com/quickadd.aspx?url='+url+'&title='+title},
+{'name':'Facebook','pos':-64,'url':'http://www.facebook.com/sharer.php?u='+url+'&t='+title},
+{'name':'Digg','pos':-80,'url':'http://digg.com/submit?phase=2&url='+url+'&title='+title},
+{'name':'Ask','pos':-96,'url':'http://myjeeves.ask.com/mysearch/BookmarkIt?v=1.2&t=webpages&url='+url+'&title='+title},
+{'name':'Technorati','pos':-112,'url':'http://technorati.com/faves?sub=addfavbtn&add='+url+'&title='+title},
+{'name':'Delicious','pos':-128,'url':'http://del.icio.us/post?url='+url+'&title='+title},
+{'name':'StumbleUpon','pos':-144,'url':'http://www.stumbleupon.com/submit?url='+url+'&title='+title},
+{'name':'Squidoo','pos':-160,'url':'http://www.squidoo.com/lensmaster/bookmark?'+url},
+{'name':'Propeller','pos':-176,'url':'http://www.propeller.com/submit/?U='+url+'&T='+title+'&C='+title},
+{'name':'Slashdot','pos':-192,'url':'http://slashdot.org/bookmark.pl?url='+url+'&title='+title},
+{'name':'Reddit','pos':-208,'url':'http://reddit.com/submit?url='+url+'&title='+title},
+{'name':'Fark','pos':-224,'url':'http://cgi.fark.com/cgi/fark/submit.pl?new_url='+url+'&new_comment='+title+'&linktype='},
+{'name':'Newsvine','pos':-240,'url':'http://www.newsvine.com/_wine/save?u='+url+'&h='+title},
+{'name':'Furl','pos':-256,'url':'http://www.furl.net/storeIt.jsp?t='+title+'&u='+url},
+{'name':'Blinklist','pos':-272,'url':'http://www.blinklist.com/index.php?Action=Blink/addblink.php&Url='+url+'&Title='+title},
+/*{'name':'dzone','pos':-288,'url':'http://www.dzone.com/links/add.html?url='+url+'&title='+title},*/
+{'name':'Magnolia','pos':-304,'url':'http://ma.gnolia.com/bookmarklet/add?url='+url+'&title='+title},
+{'name':'SWiK','pos':-320,'url':'http://stories.swik.net/?submitUrl&url='+url}
+];
+
+for(var i=0; i<socials.length; i++)
+holder.innerHTML = holder.innerHTML + '<li><a style=\'background-position:0 '+socials[i].pos+'px\' href=\''+socials[i].url+'\' title=\''+socials[i].name+'\' target=\'_blank\'> </a></li>';
+}
+//This call can be placed in body onload event!
+SocialBookmarks();
+</script>
+
+
+	</div>
+
+	<div class="postInfo">
+		<div>
+		    <span class="dateIcon"><a href="/blog/the-wisdom-of-crowds-implementing-a-smart-ranking-algorithm/">November 09 2009</a></span>
+		    <span class="personIcon">Lee Dumond</span>
+		    		        <span class="commentIcon"><a href="/blog/the-wisdom-of-crowds-implementing-a-smart-ranking-algorithm/#comments" >11 Comments</a></span>
+		    		</div>
+		
+	        		<div>
+		        Filed under: <a href="/blog/">Blog</a>
+    		</div>
+	    	        		<div>
+		        Tagged as: <a rel="tag" href="/tags/algorithm/">algorithm</a>
+    		</div>
+	    		<span class="clearer"></span>
+	</div>
+</div>
+
+
+    <h3 id="similarPostsHeader">&#187; Similar Posts</h3>
+    <ol id="similarPosts">
+    <li><a href="/blog/defensive-programming-or-why-exception-handling-is-like-car-insurance/" title="What can driving a car teach us about exception handling? Apparently, quite a lot. If you drive a car">Defensive Programming, or Why Exception Handling Is Like Car Insurance</a></li>
+    <li><a href="/blog/open-source-or-die-the-real-future-of-graffiti/" title="Telligent&rsquo;s Graffiti hasn&rsquo;t quite flatlined yet, but the signs aren&rsquo;t looking too good">Open Source or Die – The *Real* Future of Graffiti?</a></li>
+    <li><a href="/blog/balsamiq-its-not-just-for-salad-anymore/" title="A true balsamic vinegar &ndash; the traditional, top-shelf, aged for 12 years stuff &ndash; is highly">Balsamiq – It’s Not Just For Salad Anymore</a></li>
+    </ol>
+
+<script src="http://feeds.feedburner.com/~s/leedumond?i=http%3a%2f%2fleedumond.com/blog/the-wisdom-of-crowds-implementing-a-smart-ranking-algorithm/" type="text/javascript" charset="utf-8"></script>
+
+
+
+<div class="PostComments">
+    <a name="comments"></a>
+    <h3 class="commentsHeader">&#187; Trackbacks &amp; Pingbacks</h3>
+    <ol class="commentlist">
+                <li>
+            <a href="#comment-564" title="Permalink to this trackback"></a>
+            <p>Thank you for submitting this cool story - Trackback from DotNetShoutout</p>
+
+            
+		    <div class="commentby">
+			    <cite><a href="http://dotnetshoutout.com/The-Wisdom-of-Crowds-Implementing-a-Smart-Ranking-Algorithm">The Wisdom of Crowds: Implementing a Smart Ranking Algorithm</a> &#8212; November 9, 2009 10:03 AM</cite>
+                		    </div>
+        </li>
+                <li>
+            <a href="#comment-565" title="Permalink to this trackback"></a>
+            <p>You've been kicked (a good thing) - Trackback from DotNetKicks.com</p>
+
+            
+		    <div class="commentby">
+			    <cite><a href="http://www.dotnetkicks.com/architecture/The_Wisdom_of_Crowds_Implementing_a_Smart_Ranking_Algorithm">The Wisdom of Crowds: Implementing a Smart Ranking Algorithm</a> &#8212; November 9, 2009 11:02 AM</cite>
+                		    </div>
+        </li>
+                <li>
+            <a href="#comment-566" title="Permalink to this trackback"></a>
+            <p>Pingback from Twitter Trackbacks for The Wisdom of Crowds: Implementing a Smart Ranking Algorithm : LeeDumond.com [leedumond.com] on Topsy.com</p>
+
+            
+		    <div class="commentby">
+			    <cite><a href="http://topsy.com/tb/bit.ly/3jSReE">Twitter Trackbacks for The Wisdom of Crowds: Implementing a Smart Ranking Algorithm : LeeDumond.com [leedumond.com] on Topsy.com</a> &#8212; November 9, 2009 11:51 AM</cite>
+                		    </div>
+        </li>
+                <li>
+            <a href="#comment-568" title="Permalink to this trackback"></a>
+            <p>You are voted (great) - Trackback from WebDevVote.com</p>
+
+            
+		    <div class="commentby">
+			    <cite><a href="http://webdevvote.com/Tips_And_Tricks/The_Wisdom_of_Crowds_Implementing_a_Smart_Ranking_Algorithm">The Wisdom of Crowds: Implementing a Smart Ranking Algorithm</a> &#8212; November 10, 2009 12:37 PM</cite>
+                		    </div>
+        </li>
+                <li>
+            <a href="#comment-572" title="Permalink to this trackback"></a>
+            <p>Pingback from rofrol's status on Friday, 13-Nov-09 10:02:52 UTC - Identi.ca</p>
+
+            
+		    <div class="commentby">
+			    <cite><a href="http://identi.ca/notice/14547120">rofrol's status on Friday, 13-Nov-09 10:02:52 UTC - Identi.ca</a> &#8212; November 13, 2009 4:03 AM</cite>
+                		    </div>
+        </li>
+                <li>
+            <a href="#comment-573" title="Permalink to this trackback"></a>
+            <p>This post was mentioned on Twitter by jonsiu: RT @LeeDumond: Blogged! The Wisdom of Crowds: Implementing a Smart Ranking Algorithm <a target="_blank" href="http://bit.ly/3jSReE">http://bit.ly/3jSReE</a> ...very interesting!</p>
+
+            
+		    <div class="commentby">
+			    <cite><a href="http://www.ubervu.com/conversations/leedumond.com/blog/the-wisdom-of-crowds-implementing-a-smart-ranking-algorithm/">Social comments and analytics for this post</a> &#8212; November 13, 2009 6:49 AM</cite>
+                		    </div>
+        </li>
+        </ol>
+    	<div id="TrackbackUrl">
+	    Trackback link for this post:<br/>
+	    http://leedumond.com/trackback.ashx?id=80
+    </div>
+    </div>
+
+<div class="PostComments">
+    <a name="comments"></a>
+    <h3 class="commentsHeader">&#187; Comments</h3>
+    <ol class="commentlist">
+                <li>
+            <a href="#comment-567" title="Permalink to this comment"></a>
+            	        <div class="gravatar">
+    	        <img src="http://www.gravatar.com/avatar.php?gravatar_id=3d9857dbd6f804652cb1017d9541ce8c&amp;rating=G&amp;size=60&amp;default=http%3a%2f%2fleedumond.com%2f__utility%2fimg%2fIdenticonHandler.ashx%3fcode%3d-2039128741%26size%3d60"  width="60" height="60" alt="jbland avatar" />
+	        </div>
+            
+            <p>Great post. </p>
+<p>I've been planning on using the Wilson Confidence Interval</p>
+<p>(see  <a target="_blank" href="http://www.evanmiller.org/how-not-to-sort-by-average-rating.html">www.evanmiller.org/.../how-not-to-sort</a>  and <a target="_blank" href="http://www.derivante.com/2009/09/01/php-content-rating-confidence/">www.derivante.com/.../php-content-rat</a> )</p>
+<p>i'll have to add this to the toolkit</p>
+
+            
+		    <div class="commentby">
+			    <cite>jbland &#8212; November 9, 2009 12:26 PM</cite>
+                		    </div>
+        </li>
+                <li>
+            <a href="#comment-769" title="Permalink to this comment"></a>
+            	        <div class="gravatar">
+    	        <img src="http://www.gravatar.com/avatar.php?gravatar_id=fb5760942499c5a56b79bebeed16fd48&amp;rating=G&amp;size=60&amp;default=http%3a%2f%2fleedumond.com%2f__utility%2fimg%2fIdenticonHandler.ashx%3fcode%3d-255482298%26size%3d60"  width="60" height="60" alt="jeremy Sterritt avatar" />
+	        </div>
+            
+            <p>Hi.</p>
+<p>In addition to digesting hardcore mathematics, some history, and a practical lesson in programming into one concise and engaging piece of reading, your article also speaks directly to the problem I'm having.</p>
+<p>A popular Internet radio site recently introduced a rating system to chart the popularity/performance of tens of thousands of emerging artists. The top 5 each week are rewarded with promotion and perks.  The system compares artists using a simple average (positive response divided by # of plays). No distinction is made between averages based on 50 plays, 500 plays, 5000 plays. These averages, with no weighting or correction of any kind, represent the whole of the system. </p>
+<p>Is there any value to this system? Validity? Is it fair? Biased? Meaningless?</p>
+<p>If you would be so kind as to help me make sense out of this, I can be reached via email (provided) with any questions, comments, or for further info,</p>
+<p>Thank you very much...</p>
+<p>Jeremy Sterritt</p>
+
+            
+		    <div class="commentby">
+			    <cite>jeremy Sterritt &#8212; April 2, 2010 3:13 AM</cite>
+                		    </div>
+        </li>
+                <li class="CommentOwner">
+            <a href="#comment-770" title="Permalink to this comment"></a>
+            	        <div class="gravatar">
+    	        <img src="http://www.gravatar.com/avatar.php?gravatar_id=be5de631f92471033d5e93e246397f50&amp;rating=G&amp;size=60&amp;default=http%3a%2f%2fleedumond.com%2f__utility%2fimg%2fIdenticonHandler.ashx%3fcode%3d1820631274%26size%3d60"  width="60" height="60" alt="Lee Dumond avatar" />
+	        </div>
+            
+            <p>Jeremy,</p>
+<p>I think this would depend on what the “# of plays” represents. In other words, is it the number of plays that were actually rated, or ALL plays whether they were rated or not? It would also be influenced on whether raters were allowed to give either a positive or negative response (like Pandora’s thumbs-up/thumbs-down system), or positive responses only.</p>
+
+            
+		    <div class="commentby">
+			    <cite><a href="http://leedumond.com/">Lee Dumond</a> &#8212; April 2, 2010 8:50 AM</cite>
+                		    </div>
+        </li>
+                <li>
+            <a href="#comment-777" title="Permalink to this comment"></a>
+            	        <div class="gravatar">
+    	        <img src="http://www.gravatar.com/avatar.php?gravatar_id=fb5760942499c5a56b79bebeed16fd48&amp;rating=G&amp;size=60&amp;default=http%3a%2f%2fleedumond.com%2f__utility%2fimg%2fIdenticonHandler.ashx%3fcode%3d-255482298%26size%3d60"  width="60" height="60" alt="Jeremy Sterritt avatar" />
+	        </div>
+            
+            <p>Several million registered users listen for free to music by, and similar to, artists they select.  Emerging artists (bands) pay to have their music reach those listeners. Whenever a band's &quot;paid play&quot; starts playing on a listener's computer, an overlay appears on their screen prompting them to rate the song with a thumbs-up/-down. The vast majority of plays go unrated, but all are used as the divisor. Using a week's data, each band's performance is calculated as: positive actions minus negative actions divided by total paid plays (for that band). As I see it, this average indicates a band's popularity among those who had an opportunity to vote.</p>
+<p>Some bands have 5000 plays per week, some have 100 -- and everywhere in between. Regardless, all averages are sorted into the same list. The highest average is assigned a score of 100; all others are ranked on a scale of 0-100 relative to the top score.</p>
+<p>To me, this seems no different from rating MLB hitters by batting average...and the results are as you'd expect: each week's &quot;winners&quot; have the lowest # of at-bats.</p>
+<p>Thanks sooooooo much. Again, I really enjoyed your article and am enjoying learning more about Bayesian methods and applications.</p>
+<p>-Jeremy</p>
+
+            
+		    <div class="commentby">
+			    <cite>Jeremy Sterritt &#8212; April 3, 2010 4:12 AM</cite>
+                		    </div>
+        </li>
+                <li>
+            <a href="#comment-1166" title="Permalink to this comment"></a>
+            	        <div class="gravatar">
+    	        <img src="http://leedumond.com/__utility/img/IdenticonHandler.ashx?code=1833055627&size=60"  width="60" height="60" alt="Andr&#233; avatar" />
+	        </div>
+            
+            <p>Hey, thank you so much, the better article about Bayesian method in the internet.</p>
+<p>Best regards,</p>
+<p>Andr&#233;</p>
+
+            
+		    <div class="commentby">
+			    <cite>Andr&#233; &#8212; December 7, 2010 1:14 PM</cite>
+                		    </div>
+        </li>
+        </ol>
+</div>
+	
+<div id="commentform">
+	<h3 id="postcomment">
+    	    &#187; Leave a Comment
+    	</h3>
+    
+    	<form action="/blog/the-wisdom-of-crowds-implementing-a-smart-ranking-algorithm/" method="post" id="comment_form">
+	<dl>
+			<dt>
+    		<label for="author">Name</label>
+		</dt>
+		<dd>
+			<input class="textbox" type="text" name="author" id="author" value="" tabindex="1" />
+		</dd>
+
+		<dt>
+			<label for="email">Email <span style="font-size:smaller">(never shared - for displaying your <a href="http://gravatar.com/" target="_blank" title="Gravatar home page">Gravatar</a> only)</span></label>
+		</dt>
+		<dd>
+			<input class="textbox" type="text" name="email" id="email" value="" tabindex="2" />
+		</dd>
+
+		<dt>
+			<label for="url">Website</label>
+		</dt>
+		<dd>
+			<input class="textbox" type="text" name="url" id="url" value="" tabindex="3" />
+		</dd>
+			<dt>
+		    <label for="comment">Comment</label>
+	    </dt>
+		<dd>
+			<textarea name="comment" id="comment" rows="8" cols="50" tabindex="4"></textarea>
+		</dd>
+
+		<dt>
+			<input type="button"  class = "submit_button"  tabindex = "5"  value = "Submit"  id = "commentbutton"  onclick="Comments.submitComment('/ajax.ashx');" /> <div style="display:none;" id="comment_status"></div>
+			<input type="hidden" name="comment_post_ID" value="80" />
+		</dt>
+	</dl>
+	</form>
+	</div>
+
+
+
+		</div>
+		<div id="sidebar" class="sidenav" runat="server">
+			<div class="sidenavContent">
+			<div class="sidenavWide">
+<h2>Sponsor</h2>
+<div id="adzerk">
+<div id="adzerk_ad_div"><script type="text/javascript" src="http://engine.theloungenet.com/Server/DOTNETSP/DUMOND/NOCSS"></script></div>
+<p id="adzerk_by"><a href="http://theloungenet.com">Ads by The Lounge</a></p>
+</div></div>
+<div class="sidenavWide">
+<h2>RSS/Atom Feed</h2>
+<p>Hey, while you're here, why not <a class="feed" type="application/rss+xml" rel="alternate" href="http://feeds2.feedburner.com/leedumond">subscribe</a>?</p></div>
+<div class="sidenavWide">
+<h2>Subscribe by Email</h2>
+<form action="http://feedburner.google.com/fb/a/mailverify" method="post" target="popupwindow" onsubmit="window.open('http://feedburner.google.com/fb/a/mailverify?uri=leedumond', 'popupwindow', 'scrollbars=yes,width=550,height=520');return true" id="subscribeform">
+   <dl>
+      <dt>
+         Enter your email address: 
+      </dt>
+      <dd>
+         <input type="text" name="email" style="width: 200px;" title="enter your email address" class="textbox" />
+      </dd>
+   </dl>
+   <input type="hidden" value="leedumond" name="uri"/>
+   <input type="hidden" name="loc" value="en_US"/>
+   <input type="submit" value="Subscribe" />
+</form></div>
+<div class="sidenavWide">
+<div id="twitter_div">
+<h2 class="sidebar-title">Follow Me</h2>
+<a href="http://twitter.com/LeeDumond" id="twitter-link" title="Follow me on Twitter: @LeeDumond">
+<img src="http://leedumond.com/files/themes/leestheme/i/twitter-3a.png" />
+</a>
+<script type="text/javascript" language="javascript" src="http://twittercounter.com/embed/?username=LeeDumond&style=blue"></script>
+</div></div>
+<div class="sidenavWide">
+<h2>My Books</h2>
+<p>
+<a href="http://www.wrox.com/WileyCDA/WroxTitle/Robust-ASP-NET-Exception-Handling.productCd-047050367X.html" title="Robust ASP.NET Exception Handling">
+<img alt="Robust ASP.NET Exception Handling" height="129" src="http://leedumond.com/files/media/image/MyBooks/047050367X.jpg" title="Robust ASP.NET Exception Handling" width="100" /></a>
+&nbsp;
+<a href="http://www.wrox.com/WileyCDA/WroxTitle/LINQ-ifying-TheBeerHouse-An-N-Tier-LINQ-Web-Application-with-ASP-NET-2-0-Website-Programming-Problem-Design-Solution.productCd-047041569X.html" title="LINQ-ifying TheBeerHouse: An N-Tier LINQ Web Application with ASP.NET 2.0 Website Programming Problem Design Solution">
+<img alt="LINQ-ifying TheBeerHouse: An N-Tier LINQ Web Application with ASP.NET 2.0 Website Programming Problem Design Solution" height="129" src="http://leedumond.com/files/media/image/MyBooks/047041569X.jpg" title="LINQ-ifying TheBeerHouse: An N-Tier LINQ Web Application with ASP.NET 2.0 Website Programming Problem Design Solution" width="100" />
+</a></p>
+</div>
+<div class="sidenavWide">
+<h2>Most Popular Posts</h2>
+<ul><li><a href="/blog/the-controls-collection-cannot-be-modified-because-the-control-contains-code-blocks/">The Controls Collection Cannot Be Modified Because the Control Contains Code Blocks</a></li>
+<li><a href="/blog/singletons-vs-static-classes/">Singletons vs. Static Classes</a></li>
+<li><a href="/blog/sending-sms-text-messages-from-your-application-free/">Sending Free SMS Text Messages From Your Application</a></li>
+<li><a href="/blog/asp-net-profiles-in-web-application-projects/">ASP.NET Profiles in Web Application Projects</a></li>
+<li><a href="/blog/retrying-mail-operations-in-net/">If At First You Don’t Succeed - Retrying Mail Operations in .NET</a></li>
+</ul>
+</div>
+<div class="sidenavWide">
+<h2>Tags</h2>
+<div class="tagCloud"><a title="3 posts" style="font-size:medium" href="/tags/accessibility/">accessibility</a> <a title="1 posts" style="font-size:small" href="/tags/ajax/">ajax</a> <a title="1 posts" style="font-size:small" href="/tags/algorithm/">algorithm</a> <a title="1 posts" style="font-size:small" href="/tags/alt-net/">alt-net</a> <a title="1 posts" style="font-size:small" href="/tags/apple/">apple</a> <a title="5 posts" style="font-size:medium" href="/tags/architecture/">architecture</a> <a title="28 posts" style="font-size:xx-large" href="/tags/asp-net/">asp-net</a> <a title="10 posts" style="font-size:x-large" href="/tags/books/">books</a> <a title="3 posts" style="font-size:medium" href="/tags/css/">css</a> <a title="2 posts" style="font-size:small" href="/tags/cyclemania/">cyclemania</a> <a title="5 posts" style="font-size:medium" href="/tags/email/">email</a> <a title="3 posts" style="font-size:medium" href="/tags/entity-framework/">entity-framework</a> <a title="11 posts" style="font-size:x-large" href="/tags/exception/">exception</a> <a title="2 posts" style="font-size:small" href="/tags/google/">google</a> <a title="3 posts" style="font-size:medium" href="/tags/graffiti-cms/">graffiti-cms</a> <a title="1 posts" style="font-size:small" href="/tags/humor/">humor</a> <a title="1 posts" style="font-size:small" href="/tags/iphone/">iphone</a> <a title="3 posts" style="font-size:medium" href="/tags/linq-to-sql/">linq-to-sql</a> <a title="3 posts" style="font-size:medium" href="/tags/listview/">listview</a> <a title="3 posts" style="font-size:medium" href="/tags/microsoft/">microsoft</a> <a title="4 posts" style="font-size:medium" href="/tags/mvc/">mvc</a> <a title="7 posts" style="font-size:medium" href="/tags/net-3-5/">net-3-5</a> <a title="1 posts" style="font-size:small" href="/tags/net-4/">net-4</a> <a title="16 posts" style="font-size:xx-large" href="/tags/opinion/">opinion</a> <a title="4 posts" style="font-size:medium" href="/tags/performance/">performance</a> <a title="8 posts" style="font-size:large" href="/tags/personal/">personal</a> <a title="3 posts" style="font-size:medium" href="/tags/profiles/">profiles</a> <a title="6 posts" style="font-size:medium" href="/tags/review/">review</a> <a title="2 posts" style="font-size:small" href="/tags/semantics/">semantics</a> <a title="1 posts" style="font-size:small" href="/tags/seo/">seo</a> <a title="1 posts" style="font-size:small" href="/tags/sql/">sql</a> <a title="7 posts" style="font-size:medium" href="/tags/thebeerhouse/">thebeerhouse</a> <a title="1 posts" style="font-size:small" href="/tags/twitter/">twitter</a> <a title="3 posts" style="font-size:medium" href="/tags/visual-studio/">visual-studio</a> <a title="4 posts" style="font-size:medium" href="/tags/web/">web</a> <a title="2 posts" style="font-size:small" href="/tags/web-standards/">web-standards</a> <a title="10 posts" style="font-size:x-large" href="/tags/wrox/">wrox</a> </div>
+</div>
+<div class="sidenavWide">
+<h2>Archives</h2>
+<ul><li><a href=/archive/?year=2010&month=5>May 2010</a> (1)</li><li><a href=/archive/?year=2010&month=2>February 2010</a> (1)</li><li><a href=/archive/?year=2009&month=12>December 2009</a> (1)</li><li><a href=/archive/?year=2009&month=11>November 2009</a> (3)</li><li><a href=/archive/?year=2009&month=10>October 2009</a> (5)</li><li><a href=/archive/?year=2009&month=9>September 2009</a> (5)</li><li><a href=/archive/?year=2009&month=7>July 2009</a> (2)</li><li><a href=/archive/?year=2009&month=6>June 2009</a> (7)</li><li><a href=/archive/?year=2009&month=5>May 2009</a> (6)</li><li><a href=/archive/?year=2009&month=4>April 2009</a> (5)</li><li><a href=/archive/?year=2009&month=3>March 2009</a> (4)</li><li><a href=/archive/?year=2009&month=2>February 2009</a> (3)</li><li><a href=/olderitems/>Older stuff...</a></li></ul></div>
+
+			</div>
+		</div>
+
+		<div class="clearer"><span></span></div>
+	</div>
+
+	<div class="footer">
+		<div class="footerSectionWrapper" style="display: table; height: 80px; width: 100%; #position: relative; overflow: hidden;">
+		    <div class="footerSection" style="#position: absolute; #top: 50%;display: table-cell; vertical-align: middle; width: 100%;">
+		        <div class="footerSectionContent" style="#position: relative; #top: -50%; width: 100%;">
+		            <div id="footerLogo"><a href="http://graffiticms.com" target="_blank"><a title="Powered by Graffiti CMS" href="http://graffiticms.com"><img style="border: none;" id="graffiti_logo" alt="Powered by Graffiti CMS" src="/__utility/img/logo.png" /></a></a></div>
+		            <div id="footer_center_col">
+			            <span id="copyright">Site content &copy; <a href="http://www.leedumond.com">Lee Dumond</a> and licensed under a <a target="_blank" href="http://creativecommons.org/licenses/by-nc/3.0/us/">CC Attribution Non-Commercial License</a>.</span><br />
+			            <span id="credits">
+				            Theme by <a href="http://kevinharder.com" target="_blank">Kevin Harder</a>, 
+				            based on an <a href="http://arcsin.se" target="_blank">Arcsin</a> template
+			            </span>
+			        </div>
+		            		        </div>
+		    </div>
+		</div>
+	</div>
+</div>
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-7469257-1");
+pageTracker._trackPageview();
+} catch(err) {}</script>
+</body>
+</html>
