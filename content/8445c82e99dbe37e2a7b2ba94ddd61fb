@@ -1,0 +1,195 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		
+		<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+		<meta name="robots" content="index, follow" />
+		<meta name="revisit-after" content="1"/>
+		<meta name="Language" CONTENT="English"/>
+		<meta name="Distribution" CONTENT="Global"/>
+		<meta name="keywords" content="Impelsys, iPlatform, publishing technology, virtual pages, iplatform inspire, iplatform silver/gold, iplatform cd, iplatform adserver, iplatform warehouse, view inside, talking ebook, custom software development, Online content, Content Conversion, Search Engine Optimization, Online Marketing, Animation, Illustration, Learning Management, E-Learning, iTeam"/>
+		<meta name="keyphrases" content="Impelsys, iPlatform, publishing technology, virtual pages, iplatform inspire, iplatform silver/gold, iplatform cd, iplatform adserver, iplatform warehouse, view inside, talking ebook, custom software development, Online content, Content Conversion, Search Engine Optimization, Online Marketing, Animation, Illustration, Learning Management, E-Learning, iTeam"  />
+		<meta name="description" content="Impelsys technology and services enable publishers to go digital, monetize their content and build relationships with readers" />		
+	
+		<title>Impelsys | Inspiring the Future of Publishing</title>
+		<link rel="alternate" type="application/rss+xml" title="All Feeds" href="http://www.impelsys.com/rssFeed.php" />		
+		<link rel="stylesheet" type="text/css" href="http://www.impelsys.com/assets/styles/layout.css" charset="utf-8" media="all" />
+		<link rel="stylesheet" type="text/css" href="http://www.impelsys.com/assets/styles/master.css" charset="utf-8" media="all" />
+		<link rel="stylesheet" type="text/css" href="http://www.impelsys.com/assets/styles/ie6.css" charset="utf-8" media="all" />
+
+		<!-- ************ IE Specified Stylesheet Starts ********** -->
+		<!--[if IE 6]>
+			<link rel="stylesheet" type="text/css" href="assets/styles/ie6.css" charset="utf-8" media="all" />
+		<![endif]-->
+		<!-- ************ IE Specified Stylesheet Ends ************ -->
+		<!-- ************ Homepage Tabs Scripts Starts ************ -->
+				<script type="text/javascript">
+		<!--
+		function MM_swapImgRestore() { //v3.0
+		  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+		}
+		function MM_preloadImages() { //v3.0
+		  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+			var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+			if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+		}
+
+		function MM_findObj(n, d) { //v4.01
+		  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+			d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+		  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+		  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+		  if(!x && d.getElementById) x=d.getElementById(n); return x;
+		}
+
+		function MM_swapImage() { //v3.0
+		  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+		   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+		}
+		//-->
+		</script>
+	</head>	
+	<!--<body onload="MM_preloadImages('http://www.impelsys.com/assets/images/menu_home_a.gif','http://www.impelsys.com/assets/images/menu_solutions_a.gif','http://www.impelsys.com/assets/images/menu_technology_a.gif')">
+	!-->	
+	<body>
+		
+	<!-- ::START:: GLOBAL WRAPPER -->
+	<div id="global-wrapper">
+
+		<!-- ::START:: HEADER -->
+		<!-- ::START:: HEADER -->
+    <div id="header">
+    	
+        <!-- ::START:: LOGO -->
+    	<div id="logo">
+    		<h1 title="Impelsys | Inspiring the Future of Publishing"><a href="http://www.impelsys.com/index.php" title="Impelsys"><img src="http://www.impelsys.com/assets/images/logo.gif" border="0" alt="Impelsys" title="Impelsys" /></a></h1>
+        </div>
+        <!-- ::END:: LOGO -->
+        
+		 <!-- ::START:: HEADER LINKS -->
+        <div id="header-links">
+            <ul>
+            	<li><a href="http://www.impelsys.com/careers" title="Careers">Careers</a></li>
+                <li><a href="http://www.impelsys.com/contactus" title="Contact Us">Contact Us</a></li>
+                <li class="brdr-none"><a href="http://www.impelsys.com/sitemap" title="Sitemap">Sitemap</a></li>
+            </ul>
+        </div>
+        <!-- ::END:: HEADER LINKS -->
+		
+		
+        <!-- ::START:: TOP NAVIGATION -->
+		<div id="top-nav-block" class="float-r">            
+            <div class="top-nav">
+            	<div class="crv-lft">&nbsp;</div>
+                <ul>
+                    <li ><a href="http://www.impelsys.com/index.php" title="Home"><span class="pad-border">Home</span></a></li>
+                    
+					 <li ><a href="http://www.impelsys.com/aboutus" title="About"><span class="pad-border">About</span></a></li>
+					  
+					  <li ><a href="http://www.impelsys.com/iplatform" title="Technology"><span class="pad-border">Technology</span></a></li>
+					 
+					<li ><a href="http://www.impelsys.com/ipublish" title="Solutions"><span class="pad-border">Solutions</span></a></li>
+                   
+                    <li ><a href="http://www.impelsys.com/services" title="Services"><span class="pad-border">Services</span></a></li>
+                   
+                    <li ><a href="http://www.impelsys.com/news" title="News"><span class="pad-border">News</span></a></li>
+                    <li ><a href="http://www.impelsys.com/events" title="Events"><span class="pad-border">Events</span></a></li>					
+					 <li ><a href="/resources" title="Resources"><span class="pad-border">Resources</span></a></li>	
+					<li class="last-link"><a href="http://blog.ipublishcentral.com/" target="_blank" title="Blog"><span class="last">Blog</span></a></li>
+				</ul>
+            	<div class="crv-rgt">&nbsp;</div>
+            </div>            
+        </div>        
+        <!-- ::END:: TOP NAVIGATION -->
+		<!-- ::START:: SUB NAVIGATION -->        
+					<div class="sub-nav">
+				<ul>
+					
+										
+					<li><a href="http://www.impelsys.com/aboutus" title="About Us">About Us</a></li>
+										
+										
+					<li><a href="http://www.impelsys.com/values" title="Values">Values</a></li>
+										
+										
+					<li><a href="http://www.impelsys.com/management" title="Management Team">Management Team</a></li>
+										
+					
+										
+					<li><a href="http://www.impelsys.com/advantage" title="Impelsys Advantage">Impelsys Advantage</a></li>
+										
+										
+					<li><a href="http://www.impelsys.com/partners" title="Strategic Partners">Strategic Partners</a></li>
+										
+										
+					<li class="last-item"><a href="http://www.impelsys.com/clients" title="Clients">Clients</a></li>
+										
+				</ul>
+			</div>
+					<!-- ::END:: SUB NAVIGATION -->
+        
+    </div>
+    <!-- ::END:: HEADER -->		<!-- ::END:: HEADER -->
+		
+		<!-- ::START:: BODY -->
+		
+ <!-- ::START:: BANNER SECTION -->
+    <div id="banner-section">
+        <div id="events"><img src="assets/images/sesame_street.jpg" border="0" alt="Sesame" title="Sesame" /></div>
+    </div>
+    <!-- ::END:: BANNER SECTION -->
+    
+    <!-- ::START:: CONTENT -->
+    <div id="content">
+    
+    	<div id="single-column">
+		<br><br>
+    
+		
+		<div class="sesame_col" >            
+		<p>Sesame Workshop, the non-profit organization behind Sesame Street, has partnered with Impelsys to convert as many as 900 of over 5,000 published Sesame Street books into eBooks. Impelsys has empowered Sesame Workshop to offer a whole new reading experience to their readers through The <a href="http://ebooks.sesamestreet.org/" target="_blank">Sesame Street eBookstore</a>, which is run and managed by Impelsys.</p>
+		
+		<p>Leveraging iPublishCentral, Sesame Workshop now offers content in the most innovative, engaging and user friendly formats appealing to both children and their parents, as well as complements their ongoing print publishing titles. </p>
+		
+		<p>The online portal offers more than one hundred eBooks with new titles being added on a regular basis. The eBooks feature audio narration, interactivity and animation bringing popular Sesame Street characters to life. These digital versions aim at enhancing the reader experiences and aid in the understanding of life lessons and educational curriculum. As part of its non-profit venture Sesame Workshop also offers 5 free eBooks on its <a href="http://ebooks.sesamestreet.org/free/" target="_blank">Free eBook site</a>, available at any time to its fans.</p>
+		
+		<p>Through this strategic alliance, Impelsys and Sesame Workshop aim to provide engaging, educational media that will help children reach their highest potential.</p>
+		
+		
+		<a href="http://www.sesamestreet.org" target="_blank"><img src="assets/images/link1.jpg"/></a> &nbsp; <a href="http://ebooks.sesamestreet.org/" target="_blank"><img src="assets/images/link2.jpg" height="36" width="148"/></a>&nbsp; <a href="ipublish"><img src="assets/images/link3.jpg"/></a>&nbsp; <a href="pressrelease"><img src="assets/images/link4.jpg"/></a>		
+		</div>       
+   	  </div>        
+    </div> 	
+	<!-- ::END:: CONTENT -->		<!-- ::END:: BODY -->
+		
+		<!--<div class="clear-b">&nbsp;</div>-->
+
+		<!-- ::START:: FOOTER -->
+			<div class="clear-b">&nbsp;</div>
+			<p align="right">
+			<img src="assets/images/character.jpg"/>
+		</p>
+			<!-- ::START:: FOOTER -->
+    <div id="footer">
+      <a href="http://www.impelsys.com/index.php">Home</a> | <a href="http://www.impelsys.com/ipublish">Solutions</a> | <a href="http://www.impelsys.com/technology">Technology</a> | <a href="http://www.impelsys.com/services">Services</a> | <a href="http://www.impelsys.com/aboutus">About Us</a> | <a href="http://www.impelsys.com/careers">Careers</a> | <a href="http://www.impelsys.com/news">News</a> | <a href="http://www.impelsys.com/events">Events</a> | <a href="http://www.impelsys.com/resources">Resources</a>| <a href="http://www.impelsys.com/privacypolicy">Privacy Policy</a> | <a href="http://www.impelsys.com/termsandconditions">Terms and Conditions</a>| <a href="http://www.impelsys.com/contactus">Contact Us</a> | <a href="http://www.impelsys.com/sitemap">Site Map</a>       <span>Copyright &copy; 2009. Impelsys Inc. All rights reserved.</span>	</div>
+    	<center><font face="arial" color="black" size="2">"Sesame Workshop"&reg;, "Sesame Street"&reg;, and associated characters, trademarks, and design elements are owned and licensed by <br/>Sesame Workshop. &copy; 2010 Sesame Workshop. All Rights Reserved.</font></center>
+	   <!-- ::END:: FOOTER -->
+	
+			
+		<!-- ::END:: FOOTER -->
+	  
+	</div>
+	<!-- ::END:: GLOBAL WRAPPER -->
+	
+	<script type="text/javascript">
+		var woopra_id = '957098629';
+	</script>
+	<script src="http://static.woopra.com/js/woopra.js"></script>
+
+	</body>
+</html>
+<!-- 1292696167 --><SCRIPT LANGUAGE="JavaScript">
+<!--
+   var Mybic_livepath = "http://www.impelsys.com";
+//-->
+</SCRIPT>
