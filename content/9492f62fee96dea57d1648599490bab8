@@ -1,0 +1,369 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Icon Packs | Tutorial9</title>
+<link rel="stylesheet" type="text/css" href="http://www.tutorial9.net/wp-content/themes/tutorial9/style.css" />
+<link rel="stylesheet" type="text/css" href="http://www.tutorial9.net/wp-content/themes/tutorial9/css/jquery.fancybox-1.3.4.css" />
+<link rel="alternate" type="application/rss+xml" href="http://feeds.feedburner.com/tutorial9" title="Tutorial9 Daily RSS Feed" />
+<script type="text/javascript" src="http://code.jquery.com/jquery-1.4.2.min.js"></script>
+<script src="http://cdn.jquerytools.org/1.2.5/jquery.tools.min.js"></script>
+<script type="text/javascript" src="http://tutorial9.s3.amazonaws.com/wp-content/themes/tutorial9/js/fancybox/jquery.fancybox-1.3.4.pack.js"></script>
+<!--[if IE]>
+<style type="text/css">
+	.clearfix {
+    zoom:1;
+    }
+</style>
+<![endif]-->
+<link rel="alternate" type="application/rss+xml" title="Tutorial9 &raquo; Icon Packs Category Feed" href="http://www.tutorial9.net/category/downloads/icon-packs/feed/" />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://www.tutorial9.net/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://www.tutorial9.net/wp-includes/wlwmanifest.xml" /> 
+<link rel='index' title='Tutorial9' href='http://www.tutorial9.net/' />
+<meta name="generator" content="WordPress 3.0" />
+
+<!-- All in One SEO Pack 1.6.13 by Michael Torbert of Semper Fi Web Design[244,280] -->
+<meta name="description" content="Free Website Icon Packs for use in your personal and commercial projects. These high quality icons may be used however you wish without any attribution in most cases! Our professional icons have all the benefits of stock icons without the additional cost." />
+<link rel="canonical" href="http://www.tutorial9.net/category/downloads/icon-packs/" />
+<!-- /all in one seo pack -->
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-4045085-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+</head>
+<body>
+<!-- BuySellAds.com Ad Code -->
+<script type="text/javascript">
+(function(){
+  var bsa = document.createElement('script');
+     bsa.type = 'text/javascript';
+     bsa.async = true;
+     bsa.src = '//s3.buysellads.com/ac/bsa.js';
+  (document.getElementsByTagName('head')[0]||document.getElementsByTagName('body')[0]).appendChild(bsa);
+})();
+</script>
+<!-- End BuySellAds.com Ad Code -->
+<!-- Begin Masthead -->
+<div id="masthead" class="clearfix">
+	
+    <div class="wrapper">     
+        <!-- Begin Banner -->
+        <div id="banner">
+        	<h1><a class="banner" href="http://www.tutorial9.net" title="Tutorial9 Home"><span>Tutorial9</span></a></h1>
+        </div>
+        <!-- End Banner --> 
+        
+        <div id="user_utilities">
+                	<span class="member_heading">
+                <a href="http://www.tutorial9.net/login/">Sign In</a>
+                 &nbsp;|&nbsp; <a href="http://www.tutorial9.net/register/">Join Now</a>
+            </span>
+            <span class="message">Become a member to add links and start earning points!</span>
+                </div>
+        <!-- #user_utilities -->
+	
+    
+        <!-- Begin Primary Nav -->
+        <div id="primary_nav_container">
+            <ul id="primary_nav">
+                <li class="parent_menu">
+                    <a href="http://www.tutorial9.net/category/tutorials/" class="top_level">Tutorials</a>
+                    <ul class="sub_menu">
+                        <li><a href="http://www.tutorial9.net/category/tutorials/illustrator-tutorials/">Illustrator Tutorials</a></li>
+                        <li><a href="http://www.tutorial9.net/category/tutorials/photography-tutorials/">Photography Tutorials</a></li>
+                        <li><a href="http://www.tutorial9.net/category/tutorials/photoshop-tutorials/">Photoshop Tutorials</a></li>
+                        <li><a href="http://www.tutorial9.net/category/tutorials/web-tutorials/">Web Development</a></li>
+                    </ul>
+                </li>
+                
+                <li class="parent_menu">
+                    <a href="http://www.tutorial9.net/category/downloads/" class="top_level">Downloads</a>
+                    <ul class="sub_menu">
+                    	<li><a href="http://www.tutorial9.net/category/downloads/fonts/">Fonts</a></li>
+                        <li><a href="http://www.tutorial9.net/category/downloads/icon-packs/">Icon Packs</a></li>
+                        <li><a href="http://www.tutorial9.net/category/downloads/brushes/">Photoshop Brushes</a></li>
+                        <li><a href="http://www.tutorial9.net/category/downloads/psds/">PSD's</a></li>
+                        <li><a href="http://www.tutorial9.net/category/downloads/textures/">Texture Packs</a></li>
+                        <li><a href="http://www.tutorial9.net/category/downloads/vectors/">Vector Packs</a></li>
+                        <li><a href="http://www.tutorial9.net/category/downloads/website-templates/">Website Templates</a></li>
+                        <li><a href="http://www.tutorial9.net/category/downloads/wordpress-themes/">WordPress Themes</a></li>
+                    </ul>
+                </li>
+                
+                <li class="parent_menu">
+                    <a href="http://www.tutorial9.net/category/articles/" class="top_level">Articles &amp; Inspiration</a>
+                    <ul class="sub_menu">
+                        <li><a href="http://www.tutorial9.net/category/articles/design/">Design Articles</a></li>
+                        <li><a href="http://www.tutorial9.net/category/articles/roundups/">Showcases &amp; Roundups</a></li>
+                        <li><a href="http://www.tutorial9.net/category/articles/user-experience/">User Experience</a></li>
+                    </ul>
+                </li>  
+                
+                <li><a href="http://www.tutorial9.net/add-link/" class="top_level">Submit link +</a></li>
+                
+            </ul>
+        </div>
+        <!-- End Primary Nav -->
+        
+        <div id="search">
+            <form action="http://www.tutorial9.net/search/">
+                <input type="text" name="search" value="" />
+                <button>Search</button>
+            </form>
+        </div>
+        <!-- #search -->
+            
+                    
+    </div>
+    <!-- .wrapper -->
+    
+</div>
+<!-- End Masthead -->
+
+
+<!-- Begin Main Content -->
+<div id="main_content">
+	
+    <div class="wrapper">
+        
+        <!-- Begin Primary Content -->
+        <div id="primary_content">
+        	<!-- BuySellAds.com Zone Code -->
+            <div id="bsap_1255480" class="bsarocks bsap_02c405b82f981d87cc708acd26193752"></div>
+            <!-- End BuySellAds.com Zone Code -->
+        
+        	<h1 class="content_heading">Icon Packs</h1>
+            <div class="control_box clearfix">
+<form id="content_filter" class="filters" method="GET">
+	
+        
+    <div class="filter_group">
+        <label for="source_dropdown">Source:</label>
+        <select id="source_dropdown" name="source" onChange="document.getElementById('content_filter').submit();">
+            <option  value="all-sources">All Sources</option>
+            <option  value="tutorial9">Tutorial9</option>
+            <option  value="user-submitted">User Submitted</option>
+        </select>
+    </div>
+    
+    <div class="filter_group">
+        <label for="sort_dropdown">Sort By:</label>
+        <select id="sort_dropdown" name="sort" onChange="document.getElementById('content_filter').submit();">
+            <option  value="newest">Newest</option>
+            <option  value="oldest">Oldest</option>
+            <!--<option  value="popularity">Popularity</option>-->
+        </select>
+    </div>
+</form>
+</div>            
+        	<div id="post_listing">
+            
+            	<div id="post-id-65" class="post">
+    <div class="thumbnail"><img src="http://tutorial9.s3.amazonaws.com/wp-content/uploads/2010/12/massic-social-icon-set.png" width="60" height="60" /></div>
+    <div class="post_info">
+        <h1><a href="http://www.tutorial9.net/uncategorized/massive-social-icon-pack-from-iconshock/">Massive Social Icon Pack From Iconshock</a></h1>
+        <span class="meta_info">User Submitted <a href="http://www.iconshock.com/social-icons/" class="external"><span>http://www.iconshock.com/social-icons/</span></a> | Posted in <a href="http://www.tutorial9.net/category/icon-packs/">Icon Packs</a> by <a href="http://www.tutorial9.net/author/iconshock/">iconshock</a></span>
+        <div class="description">
+            <p>Icons for over 150 different social sites, including vectors, and PSD's for every icon. Four different color variations, and 9 different sizes for every icon. This is definitely one of the most complete sets available online.</p>
+        </div><!-- .description -->
+    </div><!-- .post_info -->
+</div><!-- .post --><div id="post-id-297" class="post">
+    <div class="thumbnail"><img src="http://tutorial9.s3.amazonaws.com/wp-content/uploads/2010/12/social-shift.png" width="60" height="60" /></div>
+    <div class="post_info">
+        <h1><a href="http://www.tutorial9.net/tutorials/photoshop-tutorials/socialshift-icon-set-246-free-social-networking-icons/">SocialShift Icon Set: 246 Free Social Networking Icons</a></h1>
+        <span class="meta_info">User Submitted <a href="http://www.instantshift.com/2010/12/07/socialshift-icon-set-246-free-social-networking-icons/" class="external"><span>http://www.instantshift.com/2010/12/07/socialshift-icon-set-246-free-social-networking-icons/</span></a> | Posted in <a href="http://www.tutorial9.net/category/icon-packs/">Icon Packs</a> by <a href="http://www.tutorial9.net/author/kewlkreator/">kewlkreator</a></span>
+        <div class="description">
+            <p>This set designed for instantShift contains 246 social networking icons. Each icon is available in 64x64, 32x32, and 16x16px. Very colorful, and lots of depth in this set!</p>
+        </div><!-- .description -->
+    </div><!-- .post_info -->
+</div><!-- .post --><div id="post-id-136" class="post">
+    <div class="thumbnail"><img src="http://tutorial9.s3.amazonaws.com/wp-content/uploads/2010/12/3d-shapes.png" width="60" height="60" /></div>
+    <div class="post_info">
+        <h1><a href="http://www.tutorial9.net/uncategorized/3d-basic-shapes-psd-icons-freebie/">3D Basic Shapes PSD &#038; Icons Freebie</a></h1>
+        <span class="meta_info">User Submitted <a href="http://www.graphicsfuel.com/2010/12/3d-shapes-psd-icons/" class="external"><span>http://www.graphicsfuel.com/2010/12/3d-shapes-psd-icons/</span></a> | Posted in <a href="http://www.tutorial9.net/category/icon-packs/">Icon Packs</a> by <a href="http://www.tutorial9.net/author/goian/">goian</a></span>
+        <div class="description">
+            <p>Download four super high resolution Basic 3D shape PSD's . Available in .png icon format too.</p>
+        </div><!-- .description -->
+    </div><!-- .post_info -->
+</div><!-- .post --><div id="post-id-42" class="post">
+    <div class="thumbnail"><img src="http://tutorial9.s3.amazonaws.com/wp-content/uploads/2010/12/christmas-icons.png" width="60" height="60" /></div>
+    <div class="post_info">
+        <h1><a href="http://www.tutorial9.net/uncategorized/christmas-themed-icon-set/">Christmas Themed Icon Set</a></h1>
+        <span class="meta_info">User Submitted <a href="http://www.instatuts.com/featured/awesome-christmas-icon-pack-freebie/" class="external"><span>http://www.instatuts.com/featured/awesome-christmas-icon-pack-freebie/</span></a> | Posted in <a href="http://www.tutorial9.net/category/icon-packs/">Icon Packs</a> by <a href="http://www.tutorial9.net/author/Crimz/">Cucu Tudor Ionel</a></span>
+        <div class="description">
+            <p>12 Christmas themed icons available for free download. Icon set includes 256x265, 128x128 and 64x64px .png icons.</p>
+        </div><!-- .description -->
+    </div><!-- .post_info -->
+</div><!-- .post --><div id="post-id-136" class="post">
+    <div class="thumbnail"><img src="http://tutorial9.s3.amazonaws.com/wp-content/uploads/2010/12/e-com-icons.png" width="60" height="60" /></div>
+    <div class="post_info">
+        <h1><a href="http://www.tutorial9.net/uncategorized/30-free-e-commerce-icons/">30 Free E-Commerce Icons</a></h1>
+        <span class="meta_info">User Submitted <a href="http://sixrevisions.com/freebies/icons/30-e-commerce-icons/" class="external"><span>http://sixrevisions.com/freebies/icons/30-e-commerce-icons/</span></a> | Posted in <a href="http://www.tutorial9.net/category/icon-packs/">Icon Packs</a> by <a href="http://www.tutorial9.net/author/goian/">goian</a></span>
+        <div class="description">
+            <p>Icon set is available for use in commercial and personal projects, but may not be redistributed. 128x128px icons, each with a PSD.</p>
+        </div><!-- .description -->
+    </div><!-- .post_info -->
+</div><!-- .post --><div id="post-id-147" class="post">
+    <div class="thumbnail"><img src="http://tutorial9.s3.amazonaws.com/wp-content/uploads/2010/12/60.png" width="60" height="60" /></div>
+    <div class="post_info">
+        <h1><a href="http://www.tutorial9.net/uncategorized/15-social-%e2%80%98designer-essentials%e2%80%99-icons/">15 Social ‘Designer Essentials’ Icons</a></h1>
+        <span class="meta_info">User Submitted <a href="http://icontoucan.com/15-designer-essential-social-icons/" class="external"><span>http://icontoucan.com/15-designer-essential-social-icons/</span></a> | Posted in <a href="http://www.tutorial9.net/category/icon-packs/">Icon Packs</a> by <a href="http://www.tutorial9.net/author/edoubleliot/">EdoubleLIOT</a></span>
+        <div class="description">
+            <p>Download 15 simple, matte themed social networking icons from the premium 104 Vector Social Icon pack. The full pack is available for $5. The free set comes in 64px, 128px and 256px sizes.</p>
+        </div><!-- .description -->
+    </div><!-- .post_info -->
+</div><!-- .post --><div id="post-id-156" class="post">
+    <div class="thumbnail"><img src="http://tutorial9.s3.amazonaws.com/wp-content/uploads/2010/12/pixelperfect.png" width="60" height="60" /></div>
+    <div class="post_info">
+        <h1><a href="http://www.tutorial9.net/uncategorized/48px-icon-pack-pixel-perfect-collection/">48px Icon Pack: Pixel Perfect Collection</a></h1>
+        <span class="meta_info">Tut9 Exclusive | Posted in <a href="http://www.tutorial9.net/category/icon-packs/">Icon Packs</a> by <a href="http://www.tutorial9.net/author/umar/">Umar</a></span>
+        <div class="description">
+            <p>This icon collection contains 33 icons available in 48x48px .png, .ico and .icns format.</p>
+        </div><!-- .description -->
+    </div><!-- .post_info -->
+</div><!-- .post --><div id="post-id-156" class="post">
+    <div class="thumbnail"><img src="http://tutorial9.s3.amazonaws.com/wp-content/uploads/2010/07/256-biz-th.jpg" width="60" height="60" /></div>
+    <div class="post_info">
+        <h1><a href="http://www.tutorial9.net/uncategorized/icon-pack-256x256-business-icons/">Icon Pack: 256×256 Business Icons</a></h1>
+        <span class="meta_info">Tut9 Exclusive | Posted in <a href="http://www.tutorial9.net/category/icon-packs/">Icon Packs</a> by <a href="http://www.tutorial9.net/author/umar/">Umar</a></span>
+        <div class="description">
+            <p>This icon set contains 26 Business themed icons. Each icon is available in 256x256 .png format.</p>
+        </div><!-- .description -->
+    </div><!-- .post_info -->
+</div><!-- .post --><div id="post-id-78" class="post">
+    <div class="thumbnail"><img src="http://tutorial9.s3.amazonaws.com/wp-content/uploads/2010/06/designer-th.jpg" width="60" height="60" /></div>
+    <div class="post_info">
+        <h1><a href="http://www.tutorial9.net/tutorials/photoshop-tutorials/designer-icons-professionally-hand-crafted-free-icon-set/">Designer Icons – Professionally Hand-Crafted Free Icon Set</a></h1>
+        <span class="meta_info">Tut9 Exclusive | Posted in <a href="http://www.tutorial9.net/category/icon-packs/">Icon Packs</a> by <a href="http://www.tutorial9.net/author/parthibanmohanraj/">Parthiban Mohanraj</a></span>
+        <div class="description">
+            <p>12 Professionally Hand-Crafted icons for designers and creatives. Each Icon is 32x32px with a transparent background.</p>
+        </div><!-- .description -->
+    </div><!-- .post_info -->
+</div><!-- .post --><div id="post-id-77" class="post">
+    <div class="thumbnail"><img src="http://tutorial9.s3.amazonaws.com/wp-content/uploads/2010/06/metallic-th.jpg" width="60" height="60" /></div>
+    <div class="post_info">
+        <h1><a href="http://www.tutorial9.net/uncategorized/metallic-adobe-cs-icons/">Metallic Adobe CS Icons</a></h1>
+        <span class="meta_info">Tut9 Exclusive | Posted in <a href="http://www.tutorial9.net/category/icon-packs/">Icon Packs</a> by <a href="http://www.tutorial9.net/author/AgentCosmic/">Dalton Tan</a></span>
+        <div class="description">
+            <p>Download this free icon set with 6 program icons from the Adobe Creative Suite.</p>
+        </div><!-- .description -->
+    </div><!-- .post_info -->
+</div><!-- .post --><div class="page_navigation"><a class="current" href="#">1</a> <a class="paginate" href="?page=2&ipp=10">2</a> <a class="paginate" href="?page=3&ipp=10">3</a> </div>                 
+
+            </div>        
+        </div>
+        <!-- End Primary Content -->
+        
+        <!-- Begin Secondary Content -->
+<div id="secondary_content">
+
+	 
+	
+    
+ 
+    
+    <div class="medium_rectangle_ad">
+    	<div class="medium_rectangle_ad_container">
+        <!-- BuySellAds.com Zone Code -->
+        <div id="bsap_1243575" class="bsarocks bsap_02c405b82f981d87cc708acd26193752"></div>
+        <!-- End BuySellAds.com Zone Code -->
+        </div>
+    </div>
+    
+    
+    
+    <div class="square_button_ads">
+    	<div class="container">
+            <!-- BuySellAds.com Zone Code -->
+            <div id="bsap_1234667" class="bsarocks bsap_02c405b82f981d87cc708acd26193752"></div>
+            <!-- End BuySellAds.com Zone Code -->
+        </div>
+    </div><!-- .square_button_ads -->
+    
+    <div class="medium_rectangle_ad">
+    	<div class="medium_rectangle_ad_container">
+            <!-- BuySellAds.com Zone Code -->
+            <div id="bsap_1234658" class="bsarocks bsap_02c405b82f981d87cc708acd26193752"></div>
+            <!-- End BuySellAds.com Zone Code -->
+        </div>
+    </div>
+    
+    <div id="facebook_box">
+<iframe src="http://www.facebook.com/plugins/likebox.php?href=http%3A%2F%2Fwww.facebook.com%2Ftutorial9&amp;width=312&amp;colorscheme=light&amp;connections=10&amp;stream=false&amp;header=true&amp;height=287" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:312px; height:287px;" allowTransparency="true"></iframe>
+</div><!-- #facebook_box -->
+    
+</div>
+
+<!-- End Secondary Content -->        
+    </div>
+    
+</div>
+<!-- End Main Content -->
+
+<div id="footer">
+	<div class="footer_content wrapper">
+        
+        
+        <div class="exciting_stuff">
+            <p class="lt"><a href="http://www.tutorial9.net">Home</a> | 
+            <a href="http://www.tutorial9.net/contact/">Contact us</a> | 
+            <a href="http://buysellads.com/buy/detail/707">Advertise</a> | 
+            <a href="http://www.tutorial9.net">Privacy Policy</a> | 
+            <a href="#">Terms of Use</a></p>
+            
+            <p class="rt">
+            19 queries. 0.606 seconds &copy; 2010 tutorial9
+            </p>
+        </div>
+    </div>
+</div>
+<!-- #footer -->
+
+<script type="text/javascript">
+$(document).ready(function() {
+	var notification_height = $('#notification_container').height();
+	var new_height = notification_height + 90;
+	$('#notification_container').css('display', 'block');
+	$('#notification_container').css('bottom', -notification_height);
+	$('#notification_container').css('left', + (.5 * $(window).width()) - 354 );
+	$("#notification_container").animate({
+		opacity: 1,
+		bottom: '+=' + new_height
+	}, {
+		duration:800
+	});
+	
+	$('#notification_container .close a').click(function() {
+		$('#notification_container').fadeOut(200, "swing")
+	});
+	
+});
+
+$(window).resize(function() {
+  $('#notification_container').css('left', + (.5 * $(window).width()) - 354 );
+});
+</script>
+
+
+
+
+</body>
+</html>
+<!-- Performance optimized by W3 Total Cache. Learn more: http://www.w3-edge.com/wordpress-plugins/
+
+Page Caching using apc
+Database Caching using apc
+Object Caching 334/382 objects using apc
+Content Delivery Network via Amazon Web Services: S3: tutorial9.s3.amazonaws.com
+
+Served from: www.tutorial9.net @ 2010-12-18 18:07:37 -->
