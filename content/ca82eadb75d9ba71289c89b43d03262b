@@ -1,0 +1,363 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en" xmlns:fb="http://www.facebook.com/2008/fbml">
+<head>
+<meta http-equiv="X-UA-Compatible" content="IE=7" />
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+<meta http-equiv="Content-Style-Type" content="text/css" />
+<meta http-equiv="Content-Script-Type" content="text/javascript" />
+<meta http-equiv="X-UA-Compatible" content="chrome=1" />
+<meta name="msapplication-task" content="name=Post Your Request;action-uri=/postrequest;icon-uri=/favicon.ico"/>
+<meta name="msapplication-task" content="name=Browse Services;action-uri=/services;icon-uri=/favicon.ico"/>
+<meta name="description" content="Thumbtack.com is your marketplace for local services.  We're changing the way people buy and sell services -- making it easier, safer, and more affordable to book local services online." />
+<title>thumbtack.com - Your Marketplace for Local Services</title>
+<link rel="icon" type="image/png" href="/favicon.png" />
+<link rel="shortcut icon" href="/favicon.ico" />
+<link type="text/css" href="http://cdn-1.thumbtackstatic.com/theme/styles/ui/jquery-ui-1.7.custom_8.css" rel="stylesheet" />
+<link type="text/css" rel="stylesheet" media="screen" href="http://cdn-1.thumbtackstatic.com/theme/styles/uni-form-profile_4.css" />
+<link type="text/css" rel="stylesheet" media="all" href="http://cdn-1.thumbtackstatic.com/theme/styles/thumbtack_4e77b3b3fcd900a5167ea128fa765daa2651bc52.css" title="thumbtack" />
+<!--[if lt IE 8]>
+<link type="text/css" href="http://cdn-1.thumbtackstatic.com/theme/styles/iehacks_e10432c08b43ed8957d61537e3cf0a538c9ce7dc.css" rel="stylesheet" />
+<![endif]-->
+<!--[if IE]>
+<link type="text/css" href="http://cdn-1.thumbtackstatic.com/theme/styles/ie_corners_431693a2ed8e506af6d0619e2b9032fbd23d292f.css" rel="stylesheet" />
+<![endif]-->
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js"></script>
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/swfobject/2.2/swfobject.js"></script>
+</head>
+<body id="homepage">
+<noscript>
+<div id="javascript-warning">
+<div>Your browser has Javascript disabled. Please enable Javascript for the best experience.</div>
+</div>
+</noscript>
+<div id="header" >
+<div id="ui-masthead">
+<a href="/" title="thumbtack.com" id="tt-logo" class="noBorder"><img src="http://cdn-1.thumbtackstatic.com/media/logo_thumbtack_2.png" alt="thumbtack.com" width="186" height="52" /></a>
+</div><!--End of #ui-masthead-->
+<div id="toolbar">
+<div class="wrapper">
+<a href="/login" id="login-link">Log In</a>
+</div>
+</div>
+</div><!--End of #header-->
+
+<div id="home-highlights"> 
+    <div class="wrapper">
+        <h1>Your Marketplace for Local Services</h1> 
+        <h3>Find. Compare. Book.</h3> 
+
+        <form id='search' name='search' action='http://www.thumbtack.com/services' class='' method='get' accept-charset='ISO-8859-1'><input type='hidden' id='pagenum' name='pagenum' value='1' />            <ul> 
+                <li> 
+                    <label for="input-service">I am looking for (ex. handyman, plumber)</label> 
+                    <input type="text" id="input-service" name="keyword" value="All Services" onfocus="if ($(this).val() == 'All Services') { $(this).val(''); }" /> 
+                </li> 
+                <li> 
+                    <label for="input-location">Near me (city, state, zipcode)</label> 
+                    <input type="text" id="input-location" name="location" value="14201" onfocus="if ($(this).val() == 'Enter City, State, or Zip') { $(this).val(''); }" /> 
+                </li> 
+                <li> 
+                <a href='#submit' onclick="(function(btn) { var frm = $(btn).parents('form'); if(frm.length == 1) { $(btn).replaceWith('<div class=loader>&nbsp;</div>');  frm.submit();}})(this); return false;" class='bttn blue large' tabindex=100><span>Search &raquo;</span></a><noscript><button type="submit">Submit</button></noscript><input type="submit" style="visibility:collapse;width:0;height:0;display:block;float:left;margin-left:-9999px;" name="__unused__submit__" value="">                </li> 
+            </ul> 
+        </form> 
+        
+        <div class="picture-box"> 
+        
+            <div id="galleria-container"></div> 
+            <div id="carousel-container">
+                <div id="carousel">
+                    <ul id="photo-gallery" class="galleria-unstyled"></ul>
+                </div>
+                <a href="javascript:void(0);" class="galleria-previous" onclick="jQuery.galleria.prev(); tt_allow_timer=false; return false;">Prev</a> 
+                <a href="javascript:void(0);" class="galleria-next" onclick="jQuery.galleria.next(); tt_allow_timer=false; return false;">Next</a> 
+            </div>
+            <div class="clear-block"></div>
+        </div> 
+    </div> 
+    <div id="cityscape"></div> 
+    <div id="hills"></div> 
+</div><!--End of #home-highlights--> 
+
+<div id="index-bullets"> 
+    <div class="top"></div> 
+    <div class="clear-block"> 
+        <div class="left-column"> 
+            <h2>Need a Job Done?</h2> 
+            <ul> 
+                <li>Let us search for you &ndash; for free</li> 
+                <li>We email you when someone bids on your job</li> 
+                <li>You save time and money</li> 
+            </ul> 
+            <a href="/postrequest" class="bttn blue medium"><span>Request a Service &raquo;</span></a> 
+        </div> 
+        
+        <div class="right-column"> 
+            <h2>Are You a Service Professional?</h2> 
+            <ul> 
+                <li>Get listed on Google</li> 
+                <li>Create a great-looking permanent profile</li> 
+                <li>Publish on Craiglist with one click</li> 
+            </ul> 
+            <a href="/postservice" class="bttn blue medium"><span>Post Your Service &raquo;</span></a> 
+        </div> 
+    </div> 
+    <div class="bottom"></div> 
+</div> 
+        
+<div id="ui-wrapper">
+    <div id="content-body">
+        <div class="clear-block"> 
+            <div id="states">
+                <h2>Services in</h2> 
+<ul><li><a href="/ak/">Alaska</a></li><li><a href="/al/">Alabama</a></li><li><a href="/ar/">Arkansas</a></li><li><a href="/az/">Arizona</a></li><li><a href="/ca/">California</a></li><li><a href="/co/">Colorado</a></li><li><a href="/ct/">Connecticut</a></li><li><a href="/dc/">District Of Columbia</a></li><li><a href="/de/">Delaware</a></li><li><a href="/fl/">Florida</a></li><li><a href="/ga/">Georgia</a></li><li><a href="/hi/">Hawaii</a></li><li><a href="/ia/">Iowa</a></li><li><a href="/id/">Idaho</a></li><li><a href="/il/">Illinois</a></li><li><a href="/in/">Indiana</a></li><li><a href="/ks/">Kansas</a></li><li><a href="/ky/">Kentucky</a></li><li><a href="/la/">Louisiana</a></li><li><a href="/ma/">Massachusetts</a></li><li><a href="/md/">Maryland</a></li><li><a href="/me/">Maine</a></li><li><a href="/mi/">Michigan</a></li><li><a href="/mn/">Minnesota</a></li><li><a href="/mo/">Missouri</a></li></ul><ul><li><a href="/ms/">Mississippi</a></li><li><a href="/mt/">Montana</a></li><li><a href="/nc/">North Carolina</a></li><li><a href="/nd/">North Dakota</a></li><li><a href="/ne/">Nebraska</a></li><li><a href="/nh/">New Hampshire</a></li><li><a href="/nj/">New Jersey</a></li><li><a href="/nm/">New Mexico</a></li><li><a href="/nv/">Nevada</a></li><li><a href="/ny/">New York</a></li><li><a href="/oh/">Ohio</a></li><li><a href="/ok/">Oklahoma</a></li><li><a href="/or/">Oregon</a></li><li><a href="/pa/">Pennsylvania</a></li><li><a href="/ri/">Rhode Island</a></li><li><a href="/sc/">South Carolina</a></li><li><a href="/sd/">South Dakota</a></li><li><a href="/tn/">Tennessee</a></li><li><a href="/tx/">Texas</a></li><li><a href="/ut/">Utah</a></li><li><a href="/va/">Virginia</a></li><li><a href="/vt/">Vermont</a></li><li><a href="/wa/">Washington</a></li><li><a href="/wi/">Wisconsin</a></li><li><a href="/wv/">West Virginia</a></li></ul>                
+            </div>
+        
+            <div id="activity-feed-container"></div> 
+        </div> 
+    </div> 
+    
+<script type="text/html" id="service-summary-template">
+    <div id="picture-info"> 
+        <div id="alpha-bg"></div> 
+        <a href="<%=o.url%>"><%=o.title%></a> <span>&ndash; <%=o.city_state%></span>
+        <p><%=o.summary%></p>
+    </div> 
+</script>
+
+<script type="text/javascript">
+    var tt_allow_timer = true;
+
+    $(document).ready(function() { 
+        var services = null;
+
+        var load_activity_feed = function() { 
+            $.get('/ajax/homepage_activity_feed', null, function(data) {
+                try { 
+                    $("#activity-feed-container").html(data);
+                    $(".timeago").timeago();
+                } catch(e) { }
+            });
+        };
+
+        load_activity_feed();
+        setInterval(load_activity_feed, 10*60*1000);
+
+        $.get('/ajax/homepage_pictures', null, function(data) { 
+            try { 
+                $("ul#photo-gallery").append(data.list_items);
+                services = data.metadata;
+                load_pictures();
+            } catch(e) {}
+        }, 'json');
+        
+        var load_pictures = function() { 
+            setInterval(function() { 
+                if (tt_allow_timer) { 
+                    jQuery.galleria.next();
+                }
+            }, 5000);
+
+            $("div#galleria-container img, ul#photo-gallery img").live("mousedown", function() { 
+                tt_allow_timer = false;
+            });
+
+            var use_opacity = !((jQuery.browser.mozilla && navigator.appVersion.indexOf("Win") != -1) || jQuery.browser.msie);
+
+            $("ul.galleria-unstyled").addClass("galleria").find("li").show(); 
+            $('ul.galleria').galleria({
+                history: false,
+                clickNext: false,
+                insert: "#galleria-container",
+                onImage: function(image, caption, thumb) { 
+                    if (use_opacity) { 
+                         image.css('opacity', .9).fadeTo('slow', 1);
+                    }
+                
+                    var _li = thumb.parents("li");
+                    _li.siblings().removeClass('selected');
+                    _li.addClass('selected');
+
+                    $("#galleria-container").trigger('img_change');
+
+                    var num = _li.prevAll().length;
+                    image.after(TT.tmpl("service-summary-template", services[num]));
+                    image.css('cursor','pointer');
+
+                    var url = image.next().find("a").attr("href");
+                    image.bind("click", function() { 
+                        window.location = url;
+                    });
+
+                    if (use_opacity) { 
+                        $("#picture-info").css({display:'none'}).fadeIn('slow');
+                    }
+                }
+            });
+
+            $('ul#photo-gallery').jcarousel({
+                scroll: 1,
+                initCallback: function(carousel) { 
+                    $('#galleria-container').bind('img_change',function() {
+                        var num = parseInt($('ul#photo-gallery li.active').attr('jcarouselindex')) - 1;
+                        carousel.scroll(num + 1);
+                        return false;
+                    });
+                }, 
+                forceWidth: 51,
+                buttonNextHTML: null,
+                buttonPrevHTML: null 
+            });
+        }
+    });
+</script>
+
+<ul id="ui-footer">				
+<li>&copy;2010 Thumbtack, Inc. All Rights Reserved.</li>
+<li><a href="/contact" title="Contact">Contact</a></li>
+<li><a href="/about" title="About">About</a></li>
+<li><a href="/jobs" title="Jobs">Jobs</a></li>
+<li><a href="/privacy" title="Privacy">Privacy</a></li>
+<li><a href="/terms" title="Terms of Use">Terms of Use</a></li>
+<li><a href="/blog" title="Blog">Blog</a></li>
+<li><a href="/dir/" title="Service Directory">Directory</a></li>
+</ul>
+</div>
+<div id="olark_tab"><a href="#"><img src="http://cdn-1.thumbtackstatic.com/media/olark_tab_3.png" width="80" height="20" alt="Feedback" /></a></div>
+<div id="feedback-pane" style="display:none;">		
+<h3>Send&nbsp;Feedback&nbsp;to&nbsp;Thumbtack!</h3>		
+<p>If you'd like to contact a service professional, click the blue "Contact Now" button on their profile. If you'd like to submit a friend review for a service professional click "be the first to write one" link on their profile. If you have any question at all about how Thumbtack works, you can probably find the answer in our <a href="http://support.thumbtack.com">customer support forums</a>. And if you want to send feedback to Thumbtack about what you like or what we can do better, you can do that here!</p>
+<form action="/" class="good-form">
+<input type="hidden" name="user_id" value="" />
+<input type="hidden" name="javascript" value="no" />
+<input type="hidden" name="can_set_cookies" value="" />
+<input type="hidden" name="screen_resolution" value="" />
+<input type="hidden" name="window_size" value="" />
+<input type="hidden" name="color_depth" value="" />
+<input type="hidden" name="flash_version" value="" />
+<fieldset>
+<ol>
+<li>
+<label for="feedback-name">Your Name:</label>
+<input type="text" value="" name="name" id="feedback-name" />
+</li>
+<li>
+<label for="feedback-email">Your email:</label>
+<input type="text" value="" name="email" id="feedback-email" />
+</li>
+<li>
+<label for="feedback-message">Message:</label>
+<textarea name="message" id="feedback-message"></textarea>
+</li>
+</ol>
+<a href="#" id="feedback-submit" class="bttn gray small"><span>Send Message &raquo;</span></a>
+or <a href="#close" id="feedback-close">Cancel</a>
+</fieldset>
+</form>
+</div>
+<div id="login_form" style="display:none;"> 
+<div id="new_user_header"> 
+<h3>Join Thumbtack <span id="lbx-toggle-register" class="login-header-link">or <a href="#login">Log In</a></span></h3> 
+<a onClick="TT.facebookLogin();" href="#"><img alt="Connect via Facebook" src="/media/btn_fbconnect_sm.png" id="fb_login_image"></a> 
+</div> 
+<div style="display: none;" id="old_user_header"> 
+<h3>Log In <span id="lbx-toggle-login" class="login-header-link">or <a href="#join">Join Thumbtack</a></span></h3> 
+<a onClick="TT.facebookLogin();" href="#"><img alt="Connect via Facebook" src="/media/btn_fbconnect_sm.png" id="fb_login_image"></a> 
+</div> 
+<br> 
+<div style="display: none;" id="login_form_container"> 
+<form accept-charset="ISO-8859-1" action="https://www.thumbtack.com/login_process" method="post" name="loginform" class="good-form" id="loginform"> 
+<fieldset> 
+<ol> 
+<li> 
+<label for="lbx_email">Email</label> 
+<input type="text" tabindex="1" id="lbx_email" name="lbx_email" /> 
+</li> 
+<li> 
+<label for="lbx_password">Password (<a href="/password-reset-1.php">forgot?</a>)</label> 
+<input type="password" tabindex="2" id="lbx_password" name="lbx_password" /> 
+</li> 
+</ol> 
+<div class="buttonholder">
+<a href="#submit" onclick="(function(btn) { if ($(btn).hasClass('disabled')) { return false; } var frm = $(btn).parents('form'); if(frm.length == 1){  frm.submit();}})(this); return false;" class="bttn blue medium   " ><span>Log In &raquo;</span></a>
+<noscript><button type="submit">Submit</button></noscript>
+<input type="submit" style="visibility:collapse;width:0;height:0;display:block;float:left;margin-left:-9999px;" name="__unused__submit__" value="">
+<input type="checkbox" tabindex="3" checked="checked" value="yes" id="lbx_setcookie" name="lbx_setcookie" /> 
+<label class="inline-label" for="lbx_setcookie">Remember me</label>					 
+</div> 
+</fieldset> 
+</form> 
+</div> 
+<div id="signupform"> 
+<form accept-charset="ISO-8859-1" action="https://www.thumbtack.com/register" method="post" name="register_lbx" class="good-form" id="register_lbx"> 
+<fieldset> 
+<ol> 
+<li class="inline-block"> 
+<label for="lbx_reg_usr_first_name">First Name</label> 
+<input type="text" tabindex="4" maxlength="255" class="textInput" size="20" value="" id="lbx_reg_usr_first_name" name="lbx_reg_usr_first_name"> 
+</li> 
+<li class="inline-block"> 
+<label for="lbx_reg_usr_last_name">Last Name</label> 
+<input type="text" tabindex="5" maxlength="255" class="textInput" size="20" value="" id="lbx_reg_usr_last_name" name="lbx_reg_usr_last_name"> 
+</li> 
+<li> 
+<label for="lbx_reg_usr_email">Email</label> 
+<input type="text" tabindex="6" maxlength="255" class="textInput" size="20" value="" id="lbx_reg_usr_email" name="lbx_reg_usr_email"> 
+</li>	
+<li> 
+<label for="lbx_reg_usr_password">Create Password</label> 
+<input type="password" tabindex="7" maxlength="255" class="textInput" size="20" value="" id="lbx_reg_usr_password" name="lbx_reg_usr_password"> 
+</li> 
+</ol>
+<small>We will never share your email address with third parties.  Thumbtack will send you job leads and job updates via email, and optionally our email newsletter and special offers. By clicking Join, you are indicating that you have read and agree to the <a target="_blank" href="/terms">Terms of Use</a> and <a target="_blank" href="/privacy">Privacy Policy</a>.</small> 
+<div class="buttonholder">
+<a href="#submit" onclick="(function(btn) { if ($(btn).hasClass('disabled')) { return false; } var frm = $(btn).parents('form'); if(frm.length == 1){  frm.submit();}})(this); return false;" class="bttn blue medium   " ><span>Join &raquo;</span></a>
+<noscript><button type="submit">Submit</button></noscript>
+<input type="submit" style="visibility:collapse;width:0;height:0;display:block;float:left;margin-left:-9999px;" name="__unused__submit__" value="">
+<input type="checkbox" tabindex="9" checked="checked" value="yes" id="lbx_reg_setcookie" name="lbx_reg_setcookie">
+<label class="inline-label" for="lbx_reg_setcookie">Remember me</label> 					 
+</div> 
+</fieldset> 
+</form>			
+</div>		
+</div> 
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.7.2/jquery-ui.min.js"></script>
+<script type="text/javascript" src="http://cdn-1.thumbtackstatic.com/theme/scripts/thumbtack.default_9cc37971f5a8722f19daf9b70a3eea59a1092255.js"></script>
+<script type="text/javascript">
+        $(document).ready(function() {
+            
+            TT.frameCheck();
+            TT.prepareLogin("/index.php", "67.252.164.28");
+            TT.initFeedback();
+            $("#input-service").attr("autocomplete","off");
+            $("#input-location").autocomplete("/ajax/location_suggestion_ajax", {
+                delay: 50,
+                cacheLength: 1,
+                selectFirst: true,
+                matchSubset: false,
+                matchContains: false,
+                scrollHeight: 240
+            });
+            
+        });
+    </script>
+<!-- Workaround to bug involving lazily loading the facebook API -->
+<div id="FB_HiddenContainer" style="position:absolute; top:-10000px;	width:0px; height:0px;" ></div>
+<script type="text/javascript">
+            var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+            document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+        </script>
+<script type="text/javascript">
+            try {
+                var pageTracker = _gat._getTracker("UA-6981433-1");
+                pageTracker._trackPageview();
+            } catch(err) {}
+        </script>
+<!-- Start Quantcast tag -->
+<script type="text/javascript"> _qoptions={ qacct:"p-3bSD3khub-agk" }; </script>
+<script type="text/javascript" src="http://edge.quantserve.com/quant.js"></script>
+<noscript>
+<img src="http://pixel.quantserve.com/pixel/p-3bSD3khub-agk.gif" style="display: none;" border="0" height="1" width="1" alt="Quantcast"/>
+</noscript>
+<!-- End Quantcast tag -->
+<div id="preload"></div>    
+</body>
+</html>
