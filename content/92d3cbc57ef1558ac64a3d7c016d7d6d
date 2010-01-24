@@ -1,0 +1,460 @@
+ <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Home | Konigi</title>
+  <link rel="schema.DC" href="http://purl.org/dc/elements/1.1/" />
+  <link rel="schema.DCTERMS" href="http://purl.org/dc/terms/" />
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta name="DC.title" content="konigi" />
+  <meta name="DC.creator" content="Michael Angeles" />
+  <meta name="DC.subject" content="user experience, information architecture, interaction design, visual design, interface design, uxd, ixd, ia, research, competitive analysis, competitive research, company information" />
+  <meta name="DC.publisher" content="Konigi" />
+  <meta name="DC.format" content="text/html; charset=utf-8" />
+  <meta name="DC.identifier" scheme="DCTERMS.URI" content="http://konigi.com" /> 
+  <meta name="keywords" content="user experience, information architecture, interaction design, visual design, interface design, uxd, ixd, ia, research, competitive analysis, competitive research, company information" />
+  <meta name="description" content="Knowledge management and competitive research community for user experience design on the web." />
+  <meta name="robots" content="all" />
+  <meta name="microid" content="mailto+http:sha1:a60b34090c47ab5249f4fb39ac7d6b28b3bc56b0" />
+  <link rel="alternate" type="application/rss+xml" title="Konigi - Complete Feed" href="http://feeds2.feedburner.com/konigi" />
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="shortcut icon" href="/sites/konigi.com/themes/konigi/favicon.ico" type="image/x-icon" />
+  <link type="text/css" rel="stylesheet" media="all" href="/files/konigi/css/css_39934469b3befb03ed50e17d60a37d7f.css" />
+  <link rel="stylesheet" href="/sites/konigi.com/themes/konigi-5-0/css/print.css" type="text/css" media="print" />
+  <link rel="stylesheet" href="/sites/konigi.com/themes/konigi-5-0/css/core.css" type="text/css" media="all" />
+<script type="text/javascript" src="/files/konigi/js/js_d5e4069d8a4f433deb7868afa1d5794a.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, { "basePath": "/", "cron": { "basePath": "/poormanscron", "runNext": 1292699101 } });
+//--><!]]>
+</script>
+  <script type="text/javascript" src="http://use.typekit.com/odd3dtq.js"></script>
+  <script type="text/javascript">try{Typekit.load();}catch(e){}</script> 
+</head>
+<body class="top konigi-5-0 home" id="home" >
+
+<div id="wrapper">
+
+<div id="header-wrapper">
+<div id="header" class="container">  
+  
+       
+  
+
+  <div id="main-menu" class="container clear">
+
+    <div id="logo" class="column span-4"><h1><a href="/">KONIGI</a></h1></div>
+  
+         
+    
+    <div id="nav" class="column span-20 last tright">
+    
+      
+      <div id="gnav">
+        <ul style="float: right;">
+          <li id="gnav-home"><a href="/" title="Home">Home</a></li>
+          <li id="gnav-notebook"><a href="/notebook/latest" title="Blog">Blog</a></li>
+          <li id="gnav-showcase"><a href="/showcase/latest" title="Showcase">Showcase</a></li>
+          <li id="gnav-tools"><a href="/tools/overview" title="Tools">Tools</a></li>
+          <li id="gnav-wiki"><a href="/wiki" title="Wiki">Wiki</a></li>
+          <li id="gnav-store" class="last"><a href="/store" title="Store">Store</a></li>
+          <li id="hdaccount"><a href="/user" id="umenu-tog">Account</a></li>
+          <li id="hdsearch"><a href="/search/google">Search</a></li>          
+          <li id="hdcart"><a href="https://www.e-junkie.com/ecom/gb.php?c=cart;cl=48049;ejc=2">Cart</a></li>
+                  </ul>
+      </div>
+      
+            
+    </div>
+    
+    <!-- 
+
+    <div id="nav-tools" class="column span-6 last">
+        <div id="site-search">
+                </div>
+    </div>
+    -->
+         
+      </div>      
+
+</div></div>
+
+
+
+
+<!-- #menu-login -->
+<div id="menu-login" class="menu">
+  <div class="container clear">
+  
+      <div class="column span-18 border">
+      <h3>Sign In</h3>
+      <form action="/user/login" method="post" id="user-login">
+        <span class="login_text">My username or email is</span> 
+        <input type="text" maxlength="60" name="name" id="edit-name"  size="15" value="" tabindex="1" class="form-text required" /></label>
+        <label for="edit-pass"><span class="login_text">and my password is </span>
+        <input type="password" maxlength="" name="pass" id="edit-pass"  size="15"  tabindex="2" class="form-text required" /></label>
+        <input type="hidden" name="form_id" id="edit-user-login" value="user_login"  />
+        <input type="submit" name="op" value="Sign me in"  tabindex="3" id="edit-submit" class="form-submit" />
+        <input type="hidden" name="destination" value="" />
+      </form>
+      <br clear="both" />    
+      <p class="small"><a href="/user/password">Forget your password?</a></p>
+    </div>
+    <div class="column span-5">
+      <div class="padlr10">
+      <h3>Don't have an account?</h3>
+      <p>Sign up is free and takes 30 seconds. <a href="/user/register">Sign up now.</a></p>
+      </div>
+    </div>
+    <div class="column span-1 last">
+      <div class="menu-close ico-x"></div>
+    </div>    
+    
+  </div>
+</div>
+<!-- /#menu-login -->
+
+
+
+
+  
+
+<!-- #main -->
+<div id="body-wrapper">
+<div id="body" class="container">
+
+   
+
+   
+
+    <div id="content"> 
+
+  <!-- #hero.container -->
+
+  <div id="hero" class="container clear relative">
+    <div class="inner">
+
+        <div id="hero1" class="column span-18"> 
+      <img src="/sites/konigi.com/hero/hero-xmas-1.png" />
+    </div>    
+
+        <div id="hero2" class="column span-6 last">
+    <div class="ad-sidebar">
+<script type="text/javascript">
+Vertical1236370 = false;
+ShowAdHereBanner1236370 = true;
+RepeatAll1236370 = false;
+NoFollowAll1236370 = false;
+BannerStyles1236370 = new Array(
+    "a{display:block;font-size:11px;color:#888;font-family:verdana,sans-serif;margin:0 4px 10px 0;text-align:center;text-decoration:none;overflow:hidden;}",
+    "img{border:0;clear:right;}",
+    "a.adhere{color:#666;font-weight:bold;font-size:12px;border:1px solid #ccc;background:#e7e7e7;text-align:center;}",
+    "a.adhere:hover{border:1px solid #999;background:#ddd;color:#333;}"
+);
+document.write(unescape("%3Cscript src='"+document.location.protocol+"//s3.buysellads.com/1236370/1236370.js?v="+Date.parse(new Date())+"' type='text/javascript'%3E%3C/script%3E"));
+</script></div>
+    </div>
+    
+    </div><!-- /.inner -->
+  
+  </div>
+
+  <!-- /#hero.container -->
+  
+  <hr />
+
+  <div id="content-main" class="container">
+
+    <div class="column span-24 last">
+
+       
+      
+        <!-- start main content --> 
+
+        <div class="view view-home view-id-home view-display-id-page_1 view-dom-id-1">
+    
+  
+  
+      <div class="view-content">
+        <div class="views-row views-row-1 views-row-odd views-row-first">
+    
+
+  <div class="screens-thumbs-index thumb-1">
+  <div class="thumb">
+  <a href="/notebook/html5-boilerplate-rock-solid-default-html5"><img id='bluga-thumbnail-2462' class='bluga-thumbnail medium2' src='http://konigi.com/files/konigi/bluga/wt4d0b8cded76b0_medium2.jpg'/></a><br /><div class="indexlink"><a href="/notebook/html5-boilerplate-rock-solid-default-html5" rel="bookmark">HTML5 Boilerplate: A rock-solid default for H ...</a><div class="nodetype"><a href="/notebook/latest" class="type">In Notebook</a></div></div>  </div><!-- /.thumb -->
+  </div>
+
+  
+  </div>
+  <div class="views-row views-row-2 views-row-even">
+    
+
+  <div class="screens-thumbs-index thumb-2">
+  <div class="thumb">
+  <div class="indexlink-big"><a href="/notebook/word-lens-translation-using-augmented-reality" rel="bookmark">Word Lens: Translation using Augmented Reality</a><br /><div class="nodetype"><a href="/notebook/latest" class="type">In Notebook</a></div></div>  </div><!-- /.thumb -->
+  </div>
+
+  
+  </div>
+  <div class="views-row views-row-3 views-row-odd">
+    
+
+  <div class="screens-thumbs-index thumb-3">
+  <div class="thumb">
+  <div class="indexlink-big"><a href="/notebook/mockups-20-symbols-release" rel="bookmark">Mockups 2.0: the Symbols release</a><br /><div class="nodetype"><a href="/notebook/latest" class="type">In Notebook</a></div></div>  </div><!-- /.thumb -->
+  </div>
+
+  
+  </div>
+  <div class="views-row views-row-4 views-row-even">
+    
+
+  <div class="screens-thumbs-index thumb-4">
+  <div class="thumb">
+  <div class="indexlink-big"><a href="/notebook/fourth-annual-blue-beanie-day" rel="bookmark">Fourth Annual Blue Beanie Day</a><br /><div class="nodetype"><a href="/notebook/latest" class="type">In Notebook</a></div></div>  </div><!-- /.thumb -->
+  </div>
+
+  
+  </div>
+  <div class="views-row views-row-5 views-row-odd">
+    
+
+  <div class="screens-thumbs-index thumb-5">
+  <div class="thumb">
+  <div class="indexlink-big"><a href="/notebook/hacking-iclooly-ipad-stylus" rel="bookmark">Hacking an iClooly iPad Stylus</a><br /><div class="nodetype"><a href="/notebook/latest" class="type">In Notebook</a></div></div>  </div><!-- /.thumb -->
+  </div>
+
+  
+  </div>
+  <div class="views-row views-row-6 views-row-even">
+    
+
+  <div class="screens-thumbs-index thumb-6">
+  <div class="thumb">
+  <a href="/notebook/moobileframes"><img id='bluga-thumbnail-2461' class='bluga-thumbnail medium2' src='http://konigi.com/files/konigi/bluga/wt4ce14b30b612e_medium2.jpg'/></a><br /><div class="indexlink"><a href="/notebook/moobileframes" rel="bookmark">MOObileFrames</a><div class="nodetype"><a href="/notebook/latest" class="type">In Notebook</a></div></div>  </div><!-- /.thumb -->
+  </div>
+
+  
+  </div>
+  <div class="views-row views-row-7 views-row-odd">
+    
+  <div class="screens-thumbs-index thumb-7">
+  <div class="thumb">
+  <a href="/tools/submissions/clue-5-second-test-service"><img id='bluga-thumbnail-2459' class='bluga-thumbnail medium2' src='http://konigi.com/files/konigi/bluga/wt4ce1452149990_medium2.jpg'/></a><br /><div class="indexlink"><a href="/tools/submissions/clue-5-second-test-service" rel="bookmark" title="Zurb's Clue is another great 5 second test service. They describe it as a fun and easy way to test what people remember on your website.
+
+To use, enter a URL for a page you'd like to test, they genera...">Clue: A 5 Second Test Service</a><div class="nodetype"><a href="/tools/overview" class="type">In Tools</a></div></div>  </div><!-- /.thumb -->
+  </div>
+
+  
+  </div>
+  <div class="views-row views-row-8 views-row-even">
+    
+  <div class="screens-thumbs-index thumb-8">
+  <div class="thumb">
+  <a href="/tools/submissions/uxpin-paper-prototyping-redesigned"><img id='bluga-thumbnail-2457' class='bluga-thumbnail medium2' src='http://konigi.com/files/konigi/bluga/wt4cdd9e033158b_medium2.jpg'/></a><br /><div class="indexlink"><a href="/tools/submissions/uxpin-paper-prototyping-redesigned" rel="bookmark" title="UXPin just made it a little easier for you to paper prototype. They've created a kit with sticky note interface elements (buttons, combo-boxes, check-boxes etc. – 50 each), universal elements (to ea...">UXPin: Paper prototyping redesigned</a><div class="nodetype"><a href="/tools/overview" class="type">In Tools</a></div></div>  </div><!-- /.thumb -->
+  </div>
+
+  
+  </div>
+  <div class="views-row views-row-9 views-row-odd">
+    
+
+  <div class="screens-thumbs-index thumb-9">
+  <div class="thumb">
+  <a href="/notebook/sarah-sampsel-designing-washington-post-ipad"><img id='bluga-thumbnail-2455' class='bluga-thumbnail medium2' src='http://konigi.com/files/konigi/bluga/wt4cdc1064e10d5_medium2.jpg'/></a><br /><div class="indexlink"><a href="/notebook/sarah-sampsel-designing-washington-post-ipad" rel="bookmark">Sarah Sampsel on Designing The Washington Pos ...</a><div class="nodetype"><a href="/notebook/latest" class="type">In Notebook</a></div></div>  </div><!-- /.thumb -->
+  </div>
+
+  
+  </div>
+  <div class="views-row views-row-10 views-row-even">
+    
+
+  <div class="screens-thumbs-index thumb-10">
+  <div class="thumb">
+  <div class="indexlink-big"><a href="/notebook/where-good-ideas-come-steven-johnson" rel="bookmark">Where Good Ideas Come From, by Steven Johnson</a><br /><div class="nodetype"><a href="/notebook/latest" class="type">In Notebook</a></div></div>  </div><!-- /.thumb -->
+  </div>
+
+  
+  </div>
+  <div class="views-row views-row-11 views-row-odd">
+    
+
+  <div class="screens-thumbs-index thumb-11">
+  <div class="thumb">
+  <a href="/notebook/note-table-ideo"><img src="http://media.konigi.com/notebook/ideo-table.png" /></a><br /><div class="indexlink"><a href="/notebook/note-table-ideo" rel="bookmark">Note Table at IDEO</a><div class="nodetype"><a href="/notebook/latest" class="type">In Notebook</a></div></div>  </div><!-- /.thumb -->
+  </div>
+
+  
+  </div>
+  <div class="views-row views-row-12 views-row-even views-row-last">
+    
+
+
+  <div class="screens-thumbs-index thumb-12">
+  <div class="thumb">
+  <a href="/tools/css-sticky-notes"><img src="http://media.konigi.com/tools/thumbs/css-sticky-notes.png" /></a><br /><div class="indexlink"><a href="/tools/css-sticky-notes" rel="bookmark" title="Permanent Link to CSS Sticky Notes">CSS Sticky Notes</a><div class="nodetype"><a href="/tools/overview" class="type">In Tools</a></div></div>  </div><!-- /.thumb -->
+  </div>
+
+
+  </div>
+    </div>
+  
+      <div class="item-list"><ul class="pager"><li class="pager-current first">1</li>
+<li class="pager-item"><a href="/home?page=1" title="Go to page 2" class="active">2</a></li>
+<li class="pager-item"><a href="/home?page=2" title="Go to page 3" class="active">3</a></li>
+<li class="pager-item"><a href="/home?page=3" title="Go to page 4" class="active">4</a></li>
+<li class="pager-item"><a href="/home?page=4" title="Go to page 5" class="active">5</a></li>
+<li class="pager-item"><a href="/home?page=5" title="Go to page 6" class="active">6</a></li>
+<li class="pager-item"><a href="/home?page=6" title="Go to page 7" class="active">7</a></li>
+<li class="pager-item"><a href="/home?page=7" title="Go to page 8" class="active">8</a></li>
+<li class="pager-item"><a href="/home?page=8" title="Go to page 9" class="active">9</a></li>
+<li class="pager-ellipsis">…</li>
+<li class="pager-next"><a href="/home?page=1" title="Go to next page" class="active">next ›</a></li>
+<li class="pager-last last"><a href="/home?page=150" title="Go to last page" class="active">last »</a></li>
+</ul></div>  
+  
+  
+  
+  
+</div>         <!-- end main content --> 
+        
+      <!--<div class="clear more-link"><a href="/home/gallery/latest">Explore the latest entries</a></div>-->
+
+       
+    </div>
+          
+  </div>
+  
+  </div>
+    
+  <script src="/sites/konigi.com/themes/konigi-5-0/js/jquery.parallax-0.2-min.js" type="text/javascript"></script>
+  <script type="text/javascript">
+  $('div#hero').parallax({
+    'elements': [
+      {
+        'selector': 'div#hero',
+        'properties': {
+            'x': {
+              'background-position-x': {
+                'initial': 0,
+                'multiplier': 0.1,
+                'invert': true
+            }
+          }
+        }
+      },    
+      {
+        'selector': 'div.inner',
+        'properties': {
+          'x': {
+            'background-position-x': {
+              'initial': 0,
+              'multiplier': 0.3,
+            }
+          }
+        }
+      }
+    ]
+  });  
+  </script>
+  <style type="text/css">
+  #hero {
+    position:relative; 
+    overflow:hidden; 
+    width:950px; height:255px; 
+    margin-bottom: 0 !important;
+width:950px; height:255px;background: transparent url('/sites/konigi.com/hero/hero-xmas-3.png') 50% 0 repeat-x;    
+  }
+  .inner {width:950px; height:255px;background: transparent url('/sites/konigi.com/hero/hero-xmas-2.png') 20% 0 repeat-x;}
+  </style>    
+  
+</div></div>
+
+  
+
+<!-- #footer -->
+<div id="footer-wrapper" class="clear">
+<div id="footer" class="container clear">
+  <div class="column span-12">
+    <span id="ftcopyright">&copy; 2010 <a href="/">Konigi</a></span> 
+    <a href="#" onclick="$('#wrapper').addClass('unicorns');$('body').addClass('unibg');">&middot;</a>
+        <a href="/page/about-site">About</a> 
+    &middot; 
+    <a href="/page/advertising">Advertising</a> 
+    &middot; 
+    <a href="/sitemap">Tags</a> 
+    &middot;
+    <a href="/a-z-index">A-Z</a>
+    &middot;
+    <a href="/muse">Muse</a>
+  </div>
+  <div class="column span-12 last txt-right">
+    <span id="phone">347-744-9880</span> &middot;
+    <span id="email">
+<script type="text/javascript">
+//<![CDATA[
+
+function hiveware_enkoder(){var i,j,x,y,x=
+"x=\"783d223738336432323336333433363636333633333337333533363634333633353336" +
+"36353337333433323635333733373337333233363339333733343336333533323338333233" +
+"32333336333336333133323330333633383337333233363335333633363333363433353633" +
+"33323332333636343336333133363339333636333337333433363636333336313336333833" +
+"36333533363633333636333336363633343330333636323336363633363635333633393336" +
+"33373336333933323635333633333336363633363634333336363337333333373335333633" +
+"32333636313336333533363333333733343333363433343336333633353336333533363334" +
+"33363332333633313336333333363632333233353333333233333330333533363336333933" +
+"36333133323335333333323333333033343632333636363336363533363339333633373336" +
+"33393332363533363333333636363336363433353633333233323337333433363339333733" +
+"34333636333336333533333634333536333332333233353333333633353336363533363334" +
+"33323330333633363336333533363335333633343336333233363331333633333336363233" +
+"32333033363332333733393332333033363335333636343336333133363339333636333335" +
+"36333332333233333635333433333336363633363635333733343336333133363333333733" +
+"34333336333332363633363331333336353332333233323339333336323333333033333632" +
+"32323362373933643237323733623636366637323238363933643330336236393363373832" +
+"65366336353665363737343638336236393262336433323239376237393262336437353665" +
+"36353733363336313730363532383237323532373262373832653733373536323733373437" +
+"32323836393263333232393239336237643739223b793d27273b666f7228693d303b693c78" +
+"2e6c656e6774683b692b3d32297b792b3d756e657363617065282725272b782e7375627374" +
+"7228692c3229293b7d79\";y='';for(i=0;i<x.length;i+=2){y+=unescape('%'+x.sub" +
+"str(i,2));}y";
+while(x=eval(x));}hiveware_enkoder();
+
+//]]>
+</script>
+    </span>
+    &middot;
+    <span id="fttwitter"><a href="http://twitter.com/konigi">Twitter</a></span> 
+    &middot;
+    <span id="ftemail"><a href="http://feedburner.google.com/fb/a/mailverify?uri=konigi&amp;loc=en_US">Subscribe by Email</a></span>
+    &middot;
+    <span id="ftrss"><a href="http://feeds2.feedburner.com/konigi">RSS</a></span>
+  </div>
+</div></div>
+
+
+<script type="text/javascript" src="/files/konigi/js/js_5a44675092e56f7bc97fbbd50b6cef99.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, { "googleCSE": { "language": "en" } });
+//--><!]]>
+</script>
+ 
+
+</div><!-- /#wrapper -->
+
+<div id="footer-links-wrapper" class="clear">
+  
+</div>
+
+<div id="stub"></div>
+
+<script type="text/javascript"> Cufon.now(); </script>
+<script src="http://www.google-analytics.com/urchin.js" type="text/javascript">
+</script>
+<script type="text/javascript">
+_uacct = "UA-308563-3";
+urchinTracker();
+</script>
+  </body>
+</html>
