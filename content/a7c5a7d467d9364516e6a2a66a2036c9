@@ -1,0 +1,618 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US" xml:lang="en-US">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+	<meta http-equiv="CACHE-CONTROL" content="NO-CACHE">	<meta http-equiv="PRAGMA" content="NO-CACHE">
+	<title>Pièces Automobiles Lecavalier - Lecavalier Auto Parts | Search For Products</title>
+	
+	<script type="text/javascript" src="/javascript/common/prototype.js"></script>
+	<script type="text/javascript" src="/javascript/common/smart.js"></script>
+	<script type="text/javascript" src="/javascript/common/b2bplatform.js"></script>
+	<script type="text/javascript" src="/javascript/common/ressources.js"></script>
+	<script type="text/javascript" src="/javascript/common/helpers.js"></script>
+	<script type="text/javascript" src="/javascript/b2bProcurement/catalog/search/CatalogSearchForm.js"></script>
+	<script type="text/javascript" src="/javascript/jscalendar-1.0/calendar.js"></script>
+	<script charset="ISO-8859-1" type="text/javascript" src="/javascript/jscalendar-1.0/lang/calendar-en.js"></script>
+	<script type="text/javascript" src="/javascript/jscalendar-1.0/calendar-setup.js"></script>
+	<script type="text/javascript">
+	var LOCALE = "en_US";
+	</script>
+	
+	<link type="text/css" href="/css/global.css" rel="stylesheet" media="screen,print">
+	<link type="text/css" href="/css/catalog.css" rel="stylesheet" media="screen">
+	<link type="text/css" href="/css/list.css" rel="stylesheet" media="screen">
+	<link type="text/css" href="/css/pagination.css" rel="stylesheet" media="screen">
+	<link type="text/css" href="/javascript/jscalendar-1.0/calendar-win2k-1.css" rel="stylesheet" media="screen">
+	<link type="text/css" href="/css/print.css" rel="stylesheet" media="print">
+	<!--[if IE 6]>
+	<link type="text/css" href="/css/ie6.css" rel="stylesheet" media="screen">
+	<![endif]-->
+	<!--[if IE 7]>
+	<link type="text/css" href="/css/ie7.css" rel="stylesheet" media="screen">
+	<style type="text/css" media="print">.poHeader {min-height: 1%;}</style>
+	<![endif]-->
+	<!--[if lte IE 6]>
+	<style type="text/css" media="screen">body {behavior:url(/css/csshover.htc);}</style>
+	<![endif]-->
+	<link type="text/css" href="/css/eng.css" rel="stylesheet" media="screen">
+</head>
+<body>
+<div id="logger" style="display: none;"></div>
+<div id="NoCssTools">
+	| <a href="#content">Go to Content</a> | <a href="#main">Go to Main Navigation</a> |
+	 <a href="#tools">Go to Tools Navigation</a> |
+</div>
+<hr/>
+
+<div id="Dialog" style="display: none;">
+	<div id="DialogOverlay" class="overlay"></div>
+	
+	<div id="DialogOpaque" class="opaque">
+		<input type="button" value="x" class="button close"
+			onclick="if(closeDialog) {closeDialog();} else {this.parentNode.parentNode.style.display='none';}return false;"/>
+		<div id="DialogContent">&nbsp;</div>
+	</div>
+</div>
+
+<div id="Container">
+	
+
+
+
+
+
+
+<div id="Header">
+	
+
+
+
+
+
+<div class="logo">
+	<div id="Logo"><img border="0" src="/_static/webUpload/33/182_1.jpg" alt=""/></div>
+	<H1 style="display:none;">Pièces Automobiles Lecavalier, leader canadien dans le recyclage de pièces automobiles (pièces usagées), permet l'achat en ligne de pièces recyclées (pièces usagées) et d'épargner minimum 50% sur le coût de la pièce neuve d'origine.  </H1>
+</div>
+
+	<div class="top">
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script type="text/javascript"><!--
+// Keep track of dynamically added Style Sheets
+var dynaLoadedStyleSheets = new Array();
+function openDialog() {
+	var params = null;
+	new SmartAjax.Request("/lecavalier/catalogShoppingCart.do;jsessionid=8kZLNM6GbrL8JHL4lNLYbVz8wk4SGJ4yn4VbLTLpQTGvzFjnFFFT!976219885", {
+		onComplete: function(request, obj) {
+			var dialog = document.getElementById("Dialog");
+			var content = document.getElementById("DialogContent");
+			
+			if (request.status == 200 /*OK*/) {
+				content.innerHTML = request.responseText;	/* get it as raw HTML */
+				
+				resizeDialog();
+				addEvent(window, "resize", resizeDialog, false);
+								
+				if (isIE6) {
+					// Hide all form controls because they are OS rendered: they appear over all elements
+					toggleFormControlsVisibility("none");
+				}
+				
+				loadStyleSheets();
+				dialog.style.display = "";
+			}
+		}, 
+		method: "get", 
+		parameters: params
+	}, null);
+}
+function closeDialog() {
+	removeEvent(window, "resize", resizeDialog, false);
+	removeStyleSheets();
+	if (isIE6) {
+		toggleFormControlsVisibility("");
+	}
+	document.getElementById("Dialog").style.display = "none";
+}
+function toggleFormControlsVisibility(value) {
+	value = value == null ? "" : value;
+	for (var i = 0; i < document.forms.length; i++) {
+		var f = document.forms[i];
+		for (var j = 0; j < f.elements.length; j++) {
+			var e = f.elements[j];
+			if (e.tagName == "SELECT") {
+				e.style.display = value;
+			}
+		}
+	}
+}
+function removeEvent(obj, evType, fn, useCapture) {
+	if (obj.removeEventListener) {
+		obj.removeEventListener(evType, fn, useCapture);
+		return true;
+	} else if (obj.detachEvent) {
+		try {
+			return obj.detachEvent("on"+evType, fn);
+		} catch(e) {}
+	} else {
+		return false;
+	}
+}
+function resizeDialog() {
+	var ch = document.documentElement.clientHeight;
+	document.getElementById("DialogOverlay").style.height = ch+"px";
+	
+	if (isIE6) {
+		var opaque = document.getElementById("DialogOpaque");
+		var top = ch/2;
+		if (top > (opaque.clientHeight/2)) {
+			opaque.style.top = top+"px"
+		}
+	}
+}
+function loadStyleSheets(sheets) {
+	var head = document.getElementsByTagName("head")[0];
+	var cal = findStyleSheet("jscalendar");
+	var sheets = ["/css/list.css"];
+	
+	for (var i = 0; i < sheets.length; i++) {
+		if (findStyleSheet(sheets[i]) == null) {
+			var link = createStyleSheet(sheets[i]);
+			head.insertBefore(link, cal);
+			dynaLoadedStyleSheets.push(link);
+		}
+	}
+}
+function removeStyleSheets() {
+	var head = document.getElementsByTagName("head")[0];
+	while (dynaLoadedStyleSheets.length > 0) {
+		head.removeChild(dynaLoadedStyleSheets.pop());
+	}
+}
+function createStyleSheet(uri) {
+	var link = document.createElement("link");
+	link.media = "screen";
+	link.rel = "stylesheet";
+	link.href = uri;
+	link.type = "text/css";
+	return link;
+}
+function findStyleSheet(pattern) {
+	var links = document.getElementsByTagName("link");
+	for (var i = 0; i < links.length; i++) {
+		var lk = links[i];
+		if (lk.rel == "stylesheet" && lk.href && lk.href.indexOf(pattern) > -1) {
+			return lk;
+		}
+	}
+	return null;
+}
+
+function onRadioClick(fieldNum, priceTypeIDValue, stylePriceValue) {
+	document.getElementById("style["+fieldNum+"].sku[0].priceTypeID").value = priceTypeIDValue;
+	document.getElementById("style["+fieldNum+"].sku[0].price").value = stylePriceValue;
+	document.getElementById("style["+fieldNum+"].sku[0].qty").value = 1;
+	document.getElementById("updatePrice").value = "update";
+	document.getElementById("styleFieldNum").value = fieldNum;
+	document.getElementById("catalogShoppingCartForm").submit();
+}
+function removeStyle(vendorID, styleID, poID, versionNo) {
+	if (confirm('Are you sure you want to delete the selected style from the order?')) {
+		var sessionID = getSessionID();
+		document.location.href = "/removePOStyle.do"+sessionID+"?vendorID="+
+			vendorID+"&styleID="+styleID+"&poID="+poID+"&versionNo="+versionNo;
+	}
+}
+//--></script>
+<div class="cart">
+	<div class="info">
+		<span class="link">
+			<img src="/lecavalier/images/shoppingCartIcon.gif;jsessionid=8kZLNM6GbrL8JHL4lNLYbVz8wk4SGJ4yn4VbLTLpQTGvzFjnFFFT!976219885" border="0" alt="" />
+			
+		</span>
+		<span class="items">
+			<strong>
+				
+				
+					0
+				
+			</strong>
+			item(s)
+		</span>
+		
+		
+		
+		
+	</div>
+</div> <!-- close ShoppingCartPlaceholder -->
+<hr/>
+<script type="text/javascript"><!--
+	var cartTotalQuantity = 0;
+	
+
+//--></script>
+<iframe id="promotionDesc" style="display:none;" class="popUpIframe" frameborder="0" src="about:blank" scrolling="auto"></iframe>
+
+
+
+	</div>
+	<div class="bottom">
+		
+
+
+
+
+
+
+
+
+
+
+
+	
+
+
+	</div>
+</div> <!-- close Header -->
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div id="MainNavigation">
+	
+		
+		
+			
+		
+
+		
+
+		<!-- Include /data2/cf7_websites/Lecavalier/frontEndComponents/jsLibrairies/ddMenus//ddMenus_1_eng.htm -->
+		
+				<ul class="nav" id="menu1,eng,fre">				
+				
+					<li id="lev1opt1"><a href="http://www.lecavalier.com" >home</a>
+						
+					</li>
+				
+					<li id="lev1opt2"><a href="/searchCatalog.do" >Parts</a>
+						
+					</li>
+				
+					<li id="lev1opt3"><a href="/searchTireCatalog.do" >Tires</a>
+						
+					</li>
+				
+					<li id="lev1opt4"><a href="/searchVehicleCatalog.do" >Vehicle</a>
+						
+					</li>
+				
+					<li id="lev1opt5"><a href="/cmsInclude.do?section=general&file=pedagogique.html" >Education & Industry</a>
+						
+					</li>
+				
+					<li id="lev1opt6"><a href="/cmsInclude.do?section=Marketing&file=marketing02.html" >Marketing & Warranty</a>
+						
+					</li>
+				
+					<li id="lev1opt7"><a href="/storeLocator.do" >Repair Shop Network</a>
+						
+							<ul class="level2">								
+							
+								<li><a href="/storeLocator.do" >Find an Installer near you</a>
+									
+								</li>
+							
+								<li><a href="/cmsInclude.do?section=Marketing&file=marketing03.html" >Installation Network to your service</a>
+									
+								</li>
+							
+							</ul>
+						
+					</li>
+				
+					<li id="lev1opt8"><a href="#" >1-888-444-3344</a>
+						
+					</li>
+				
+				</ul>
+				
+
+		
+		
+</div>
+
+
+	<hr>
+	<a name="content"></a>
+	<div id="DynamicContent" class="clearfix">
+		
+		
+		<div id="search_catalog_common" class="clearfix">
+			
+
+
+
+
+
+
+<div id="HomePageMiddle"><img border="0" src="/_static/webUpload/33/202_1.jpg" alt=""/></div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script type="text/javascript"><!--
+var cs = new CatalogSearch();
+function onCompleteCustom(parameters) {
+	var select = parameters.target;
+	if (select.options.length <= 1) {
+		parameters.form.submit();
+		return true;
+	}
+	if (select.parentNode.style.display == "none") {
+		select.parentNode.style.display = "";
+	}
+	if (parameters.level == parameters.max) {
+		select.selectedIndex = 0;
+	}
+}
+function onEmptyCustom(i, select, parameters) {
+	cs.clearSelect(select);
+	select.disabled = true;
+	if (parameters.emptyOpt != null) {
+		select.options[0] = new Option(parameters.emptyOpt.text, parameters.emptyOpt.value);
+	}
+	// Save selected value into hidden field for restoring
+	cs.saveSelectValue(select);
+	if (i > parameters.level - 1 && i > 4) {
+		// hide select elements with no option, except the 3 first
+		select.parentNode.style.display = "none";
+	}
+}
+function updateCategories(parameters) {
+    var selectedOption=document.getElementById("itemCategoryLevel"+(parameters.level-1)+"ID");
+	if(selectedOption.value=="--"){
+		selectedOption.value="";
+		if(parameters.parent="--"){
+			parameters.parent="";
+		}
+	}
+	parameters.url = "/lecavalier/searchCatalogCategories.do;jsessionid=8kZLNM6GbrL8JHL4lNLYbVz8wk4SGJ4yn4VbLTLpQTGvzFjnFFFT!976219885";
+	parameters.onComplete = onCompleteCustom;
+	parameters.onEmpty = onEmptyCustom;
+	parameters.max = 9;
+	parameters.emptyOpt = new Option("--", "", true);
+	cs.updateCategories(parameters);
+}
+addEvent(window, "load", function () {
+	cs.restoreCategories({
+		url: "/lecavalier/searchCatalogCategories.do;jsessionid=8kZLNM6GbrL8JHL4lNLYbVz8wk4SGJ4yn4VbLTLpQTGvzFjnFFFT!976219885",
+		onComplete: onCompleteCustom,
+		onEmpty: onEmptyCustom,
+		min: 2,
+		max: 5,
+		emptyOpt: new Option("--", "", true)
+	});
+}, false);
+//--></script>
+<div class="content">
+	<div class="parts">
+		<h2>Pieces</h2>
+		<form id="searchCatalogForm" method="post" action="/lecavalier/searchCatalog.do;jsessionid=8kZLNM6GbrL8JHL4lNLYbVz8wk4SGJ4yn4VbLTLpQTGvzFjnFFFT!976219885">
+			<input type="hidden" name="submitButton" value="true" />
+			
+				<input type="hidden" name="vendorID" value="1234593247" />
+			
+			<input type="hidden" name="resultType" value="0" />
+			<input type="hidden" name="productFamilyID" value="P" />
+			<input type="hidden" name="itemCategoryLevel1ID" value="44"/>
+			<input type="hidden" id="hid_itemCategoryLevel1ID" value="44"/>
+			
+			<div class="form catalog_search">
+				<fieldset>
+					<div class="fieldElement">
+						<label for="itemCategoryLevel2ID">Year</label>
+						<select name="itemCategoryLevel2ID" onkeyup="updateCategories({form: this.form, level: 3, parent: this.value});" onchange="updateCategories({form: this.form, level: 3, parent: this.value});" id="itemCategoryLevel2ID"><option value="--">--</option>
+							<option value="14685931">2010</option>
+<option value="14658917">2009</option>
+<option value="14658969">2008</option>
+<option value="14658962">2007</option>
+<option value="14658930">2006</option>
+<option value="14658923">2005</option>
+<option value="14658943">2004</option>
+<option value="14658884">2003</option>
+<option value="14658880">2002</option>
+<option value="14658896">2001</option>
+<option value="14658892">2000</option>
+<option value="14658888">1999</option>
+<option value="14659214">1998</option>
+<option value="14659115">1997</option>
+<option value="14659111">1996</option>
+<option value="14659107">1995</option>
+<option value="14659082">1994</option>
+<option value="14659010">1993</option>
+<option value="14659006">1992</option></select>
+						<input type="hidden" name="hid_itemCategoryLevel2ID" id="hid_itemCategoryLevel2ID" value=""/>
+						
+					</div>
+					<div class="fieldElement">
+						<label for="itemCategoryLevel3ID">Make &amp; Model</label>
+						<select name="itemCategoryLevel3ID" onkeyup="updateCategories({form: this.form, level: 4, parent: this.value});" onchange="updateCategories({form: this.form, level: 4, parent: this.value});" disabled="disabled" id="itemCategoryLevel3ID"></select>
+						<input type="hidden" name="hid_itemCategoryLevel3ID" id="hid_itemCategoryLevel3ID" value=""/>
+						
+					</div>
+				</fieldset>
+				<fieldset class="pieces">						
+					<div class="fieldElement">
+						<label for="itemCategoryLevel4ID">Part</label>
+						<select name="itemCategoryLevel4ID" onkeyup="updateCategories({form: this.form, level: 5, parent: this.value});" onchange="updateCategories({form: this.form, level: 5, parent: this.value});" disabled="disabled" id="itemCategoryLevel4ID"></select>
+						<input type="hidden" name="hid_itemCategoryLevel4ID" id="hid_itemCategoryLevel4ID" value=""/>
+						
+					</div>
+				</fieldset>
+				<fieldset class="options">
+					<div class="fieldElement" style="display: none;">
+						<label for="itemCategoryLevel5ID">Option</label>
+						<select name="itemCategoryLevel5ID" onkeyup="updateCategories({form: this.form, level: 6, parent: this.value});" onchange="updateCategories({form: this.form, level: 6, parent: this.value});" disabled="disabled" id="itemCategoryLevel5ID"></select>
+						<input type="hidden" name="hid_itemCategoryLevel5ID" id="hid_itemCategoryLevel5ID" value=""/>
+						
+					</div>
+					<div class="fieldElement" style="display: none;">
+						<label for="itemCategoryLevel6ID">Option 5</label>
+						<select name="itemCategoryLevel6ID" onkeyup="updateCategories({form: this.form, level: 7, parent: this.value});" onchange="updateCategories({form: this.form, level: 7, parent: this.value});" disabled="disabled" id="itemCategoryLevel6ID"></select>
+						<input type="hidden" name="hid_itemCategoryLevel6ID" id="hid_itemCategoryLevel6ID" value=""/>
+						
+					</div>
+					<div class="fieldElement" style="display: none;">
+						<label for="itemCategoryLevel7ID">Option 6</label>
+						<select name="itemCategoryLevel7ID" onkeyup="updateCategories({form: this.form, level: 8, parent: this.value});" onchange="updateCategories({form: this.form, level: 8, parent: this.value});" disabled="disabled" id="itemCategoryLevel7ID"></select>
+						<input type="hidden" name="hid_itemCategoryLevel7ID" id="hid_itemCategoryLevel7ID" value=""/>
+						
+					</div>
+					<div class="fieldElement" style="display: none;">
+						<label for="itemCategoryLevel8ID">Option 7</label>
+						<select name="itemCategoryLevel8ID" onkeyup="updateCategories({form: this.form, level: 9, parent: this.value});" onchange="updateCategories({form: this.form, level: 9, parent: this.value});" disabled="disabled" id="itemCategoryLevel8ID"></select>
+						<input type="hidden" name="hid_itemCategoryLevel8ID" id="hid_itemCategoryLevel8ID" value=""/>
+						
+					</div>
+				</fieldset>
+			</div>
+		</form>
+	</div>
+</div>
+<script type="text/javascript"><!--
+var yearSel = document.getElementById("itemCategoryLevel2ID");
+updateCategories({form: yearSel.form, level: 3, parent: yearSel.value});
+//--></script>
+
+
+		</div>
+	</div> <!-- close contentPlaceholder -->
+	<hr>
+	<div id="Footer">
+		
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="secondNavigation">
+	
+		
+
+			<a href="/lecavalier/cmsInclude.do;jsessionid=8kZLNM6GbrL8JHL4lNLYbVz8wk4SGJ4yn4VbLTLpQTGvzFjnFFFT!976219885?section=general&file=about.html">About Lecavalier</a>
+			 | 
+			<a href="/lecavalier/cmsInclude.do;jsessionid=8kZLNM6GbrL8JHL4lNLYbVz8wk4SGJ4yn4VbLTLpQTGvzFjnFFFT!976219885?section=general&file=contact.html">Contact Us</a>
+			 | 
+			<a href="/lecavalier/cmsInclude.do;jsessionid=8kZLNM6GbrL8JHL4lNLYbVz8wk4SGJ4yn4VbLTLpQTGvzFjnFFFT!976219885?section=general&file=career.html">Career</a>
+			 | 
+			<a href="/lecavalier/cmsInclude.do;jsessionid=8kZLNM6GbrL8JHL4lNLYbVz8wk4SGJ4yn4VbLTLpQTGvzFjnFFFT!976219885?section=news&file=news.html">News & Events</a>
+			 | 
+			<a href="/lecavalier/cmsInclude.do;jsessionid=8kZLNM6GbrL8JHL4lNLYbVz8wk4SGJ4yn4VbLTLpQTGvzFjnFFFT!976219885?section=legal&file=terms.html">Terms &amp; Conditions</a>
+			 | 
+		
+	
+	
+	
+		
+			
+
+			<a href="/lecavalier/searchCatalog.do;jsessionid=8kZLNM6GbrL8JHL4lNLYbVz8wk4SGJ4yn4VbLTLpQTGvzFjnFFFT!976219885?locale=fr">Français</a>
+		
+	
+</div>
+ 
+		
+
+
+
+
+<div class="copyright">
+	&copy; 2007 - All Rights Reserved | 
+	
+		<a href="http://www.icongo.com" target="_blank">Powered by iCongo</a>
+	
+	
+</div>
+
+	</div>
+</div> <!-- close Container -->
+
+<script type="text/javascript">
+	var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+	document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+	var pageTracker = _gat._getTracker("UA-7198640-1");
+	pageTracker._trackPageview();
+	if (typeof(ga_CheckOutConfirmation) == 'function') {
+		ga_CheckOutConfirmation(gaJsHost, pageTracker);
+	}
+</script>
+
+</body>
+</html>
