@@ -1,0 +1,1595 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html dir='ltr' xmlns='http://www.w3.org/1999/xhtml' xmlns:b='http://www.google.com/2005/gml/b' xmlns:data='http://www.google.com/2005/gml/data' xmlns:expr='http://www.google.com/2005/gml/expr'>
+<head>
+<meta content='text/html; charset=UTF-8' http-equiv='Content-Type'/>
+<script type="text/javascript">(function() { var a=window;function c(b){this.t={};this.tick=function(d,i,e){e=e?e:(new Date).getTime();this.t[d]=[e,i]};this.tick("start",null,b)}var f=new c;a.jstiming={Timer:c,load:f};try{var g=null;if(a.chrome&&a.chrome.csi)g=Math.floor(a.chrome.csi().pageT);if(g==null)if(a.gtbExternal)g=a.gtbExternal.pageT();if(g==null)if(a.external)g=a.external.pageT;if(g)a.jstiming.pt=g}catch(h){};a.tickAboveFold=function(b){b=b;var d=0;if(b.offsetParent){do d+=b.offsetTop;while(b=b.offsetParent)}b=d;b<=750&&a.jstiming.load.tick("aft")};var j=false;function k(){if(!j){j=true;a.jstiming.load.tick("firstScrollTime")}}a.addEventListener?a.addEventListener("scroll",k,false):a.attachEvent("onscroll",k);
+ })();</script>
+<meta content='true' name='MSSmartTagsPreventParsing'/>
+<meta content='blogger' name='generator'/>
+<link href='http://www.blogger.com/favicon.ico' rel='icon' type='image/vnd.microsoft.icon'/>
+<link href='http://rabblerule.blogspot.com/2009/08/detecting-swipe-in-webkit.html' rel='canonical'/>
+<link rel="alternate" type="application/atom+xml" title="rabble.rule - Atom" href="http://rabblerule.blogspot.com/feeds/posts/default" />
+<link rel="alternate" type="application/rss+xml" title="rabble.rule - RSS" href="http://rabblerule.blogspot.com/feeds/posts/default?alt=rss" />
+<link rel="service.post" type="application/atom+xml" title="rabble.rule - Atom" href="http://www.blogger.com/feeds/8622602204768865339/posts/default" />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://www.blogger.com/rsd.g?blogID=8622602204768865339" />
+<link rel="alternate" type="application/atom+xml" title="rabble.rule - Atom" href="http://rabblerule.blogspot.com/feeds/8722098137849211452/comments/default" />
+<!--[if IE]> <script> (function() { var html5 = ("abbr,article,aside,audio,canvas,datalist,details," + "figure,footer,header,hgroup,mark,menu,meter,nav,output," + "progress,section,time,video").split(','); for (var i = 0; i < html5.length; i++) { document.createElement(html5[i]); } })(); </script> <![endif]-->
+<title>rabble.rule: Detecting a swipe in WebKit</title>
+<link type='text/css' rel='stylesheet' href='http://www.blogger.com/static/v1/widgets/1743847221-widget_css_bundle.css' />
+ <link rel="stylesheet" type="text/css" href="http://www.blogger.com/dyn-css/authorization.css?targetBlogID=8622602204768865339&zx=aba84a1c-e0e9-48cb-a8e2-cdbeb1d10913"/>
+<style type="text/css">#navbar-iframe { display:block }
+</style>
+
+<style id='page-skin-1' type='text/css'><!--
+/*
+-----------------------------------------------
+Blogger Template Style
+Name:     Rounders 3
+Date:     27 Feb 2004
+Updated by: Blogger Team
+----------------------------------------------- */
+/* Variable definitions
+====================
+<Variable name="mainBgColor" description="Main Background Color"
+type="color" default="#eec">
+<Variable name="mainTextColor" description="Text Color" type="color"
+default="#333">
+<Variable name="postTitleColor" description="Post Title Color" type="color"
+default="#333">
+<Variable name="dateHeaderColor" description="Date Header Color"
+type="color" default="#586">
+<Variable name="borderColor" description="Post Border Color" type="color"
+default="#bbb">
+<Variable name="mainLinkColor" description="Link Color" type="color"
+default="#456">
+<Variable name="mainVisitedLinkColor" description="Visited Link Color"
+type="color" default="#234">
+<Variable name="titleBgColor" description="Page Header Background Color"
+type="color" default="#357">
+<Variable name="titleTextColor" description="Blog Title Color"
+type="color" default="#fff">
+<Variable name="topSidebarHeaderColor"
+description="Top Sidebar Title Color"
+type="color" default="#fff">
+<Variable name="topSidebarBgColor"
+description="Top Sidebar Background Color"
+type="color" default="#586">
+<Variable name="topSidebarTextColor" description="Top Sidebar Text Color"
+type="color" default="#fff">
+<Variable name="topSidebarLinkColor" description="Top Sidebar Link Color"
+type="color" default="#fff">
+<Variable name="topSidebarVisitedLinkColor"
+description="Top Sidebar Visited Link Color"
+type="color" default="#fff">
+<Variable name="bottomSidebarHeaderColor"
+description="Bottom Sidebar Title Color"
+type="color" default="#abc">
+<Variable name="bottomSidebarLinkColor"
+description="Bottom Sidebar Link Color"
+type="color" default="#99ddbb">
+<Variable name="bottomSidebarVisitedLinkColor"
+description="Bottom Sidebar Visited Link Color"
+type="color" default="#ffffff">
+<Variable name="bodyFont" description="Text Font" type="font"
+default="normal normal 100% 'Trebuchet MS',Verdana,Arial,Sans-serif">
+<Variable name="pageTitleFont" description="Blog Title Font" type="font"
+default="normal bold 200% 'Trebuchet MS',Verdana,Arial,Sans-serif">
+<Variable name="descriptionFont" description="Blog Description Font" type="font"
+default="normal normal 100% 'Trebuchet MS',Verdana,Arial,Sans-serif">
+<Variable name="headerFont" description="Sidebar Title Font" type="font"
+default="normal bold 100% 'Trebuchet MS',Verdana,Arial,Sans-serif">
+<Variable name="postTitleFont" description="Post Title Font" type="font"
+default="normal bold 135% 'Trebuchet MS',Verdana,Arial,Sans-serif">
+<Variable name="startSide" description="Start side in blog language"
+type="automatic" default="left">
+<Variable name="endSide" description="End side in blog language"
+type="automatic" default="right">
+*/
+body {
+background:#123;
+margin:0;
+text-align:center;
+line-height: 1.5em;
+font: x-small Trebuchet MS, Verdana, Arial, Sans-serif;
+color:#333333;
+font-size/* */:/**/small;
+font-size: /**/small;
+}
+/* Page Structure
+----------------------------------------------- */
+/* The images which help create rounded corners depend on the
+following widths and measurements. If you want to change
+these measurements, the images will also need to change.
+*/
+#outer-wrapper {
+width:960px;
+margin:0 auto;
+text-align:left;
+font: normal normal 100% 'Trebuchet MS',Verdana,Arial,Sans-serif;
+}
+#main-wrap1 {
+width:700px;
+float:left;
+background:#eeeecc url("http://www1.blogblog.com/rounders3/corners_main_bot.gif") no-repeat left bottom;
+margin:15px 0 0;
+padding:0 0 10px;
+color:#333333;
+font-size:97%;
+line-height:1.5em;
+word-wrap: break-word; /* fix for long text breaking sidebar float in IE */
+overflow: hidden;     /* fix for long non-text content breaking IE sidebar float */
+}
+#main-wrap2 {
+float:left;
+width:100%;
+/*background:url("http://www1.blogblog.com/rounders3/corners_main_top.gif") no-repeat left top;*/
+padding:10px 0 0;
+}
+#main {
+/*background:url("http://www.blogblog.com/rounders3/rails_main.gif") repeat-y left;*/
+padding:0;
+width:700px;
+}
+#sidebar-wrap {
+width:240px;
+float:right;
+margin:15px 0 0;
+font-size:97%;
+line-height:1.5em;
+word-wrap: break-word; /* fix for long text breaking sidebar float in IE */
+overflow: hidden;     /* fix for long non-text content breaking IE sidebar float */
+}
+.main .widget {
+margin-top: 4px;
+width: 683px;
+padding: 0 13px;
+}
+.main .Blog {
+margin: 0;
+padding: 0;
+width: 699px;
+}
+/* Links
+----------------------------------------------- */
+a:link {
+color: #445566;
+}
+a:visited {
+color: #223344;
+}
+a:hover {
+color: #223344;
+}
+a img {
+border-width:0;
+}
+/* Blog Header
+----------------------------------------------- */
+#header-wrapper {
+background:#335577 /*url("http://www2.blogblog.com/rounders3/corners_cap_top.gif") no-repeat left top*/;
+margin-top:22px;
+margin-right:0;
+margin-bottom:0;
+margin-left:0;
+padding-top:8px;
+padding-right:0;
+padding-bottom:0;
+padding-left:0;
+color:#ffffff;
+}
+#header {
+/*background:url("http://www.blogblog.com/rounders3/corners_cap_bot.gif") no-repeat left bottom;*/
+padding:0 15px 8px;
+}
+#header h1 {
+margin:0;
+padding:10px 30px 5px;
+line-height:1.2em;
+font: normal bold 200% 'Trebuchet MS',Verdana,Arial,Sans-serif;
+}
+#header a,
+#header a:visited {
+text-decoration:none;
+color: #ffffff;
+}
+#header .description {
+margin:0;
+padding:5px 30px 10px;
+line-height:1.5em;
+font: normal normal 100% 'Trebuchet MS',Verdana,Arial,Sans-serif;
+}
+/* Posts
+----------------------------------------------- */
+h2.date-header {
+margin-top:0;
+margin-right:28px;
+margin-bottom:0;
+margin-left:43px;
+font-size:85%;
+line-height:2em;
+text-transform:uppercase;
+letter-spacing:.2em;
+color:#558866;
+}
+.post {
+margin:.3em 0 25px;
+padding:0 13px;
+border:1px dotted #bbbbbb;
+border-width:1px 0;
+}
+.post h3 {
+margin:0;
+line-height:1.5em;
+background:url("http://www2.blogblog.com/rounders3/icon_arrow.gif") no-repeat 10px .5em;
+display:block;
+border:1px dotted #bbbbbb;
+border-width:0 1px 1px;
+padding-top:2px;
+padding-right:14px;
+padding-bottom:2px;
+padding-left:29px;
+color: #333333;
+font: normal bold 135% 'Trebuchet MS',Verdana,Arial,Sans-serif;
+}
+.post h3 a, .post h3 a:visited {
+text-decoration:none;
+color: #333333;
+}
+a.title-link:hover {
+background-color: #bbbbbb;
+color: #333333;
+}
+.post-body {
+border:1px dotted #bbbbbb;
+border-width:0 1px 1px;
+border-bottom-color:#eeeecc;
+padding-top:10px;
+padding-right:14px;
+padding-bottom:1px;
+padding-left:29px;
+}
+html>body .post-body {
+border-bottom-width:0;
+}
+.post-body {
+margin:0 0 .75em;
+}
+.post-body blockquote {
+line-height:1.3em;
+}
+.post-footer {
+background: #ffffff;
+margin:0;
+padding-top:2px;
+padding-right:14px;
+padding-bottom:2px;
+padding-left:29px;
+border:1px dotted #bbbbbb;
+border-width:1px;
+font-size:100%;
+line-height:1.5em;
+color: #666666;
+}
+/*
+The first line of the post footer might only have floated text, so we need to give it a height.
+The height comes from the post-footer line-height
+*/
+.post-footer-line-1 {
+min-height:1.5em;
+_height:1.5em;
+}
+.post-footer p {
+margin: 0;
+}
+html>body .post-footer {
+border-bottom-color:transparent;
+}
+.uncustomized-post-template .post-footer {
+text-align: right;
+}
+.uncustomized-post-template .post-author,
+.uncustomized-post-template .post-timestamp {
+display: block;
+float: left;
+text-align:left;
+margin-right: 4px;
+}
+.post-footer a {
+color: #456;
+}
+.post-footer a:hover {
+color: #234;
+}
+a.comment-link {
+/* IE5.0/Win doesn't apply padding to inline elements,
+so we hide these two declarations from it */
+background/* */:/**/url("http://www.blogblog.com/rounders/icon_comment_left.gif") no-repeat left 45%;
+padding-left:14px;
+}
+html>body a.comment-link {
+/* Respecified, for IE5/Mac's benefit */
+background:url("http://www.blogblog.com/rounders3/icon_comment_left.gif") no-repeat left 45%;
+padding-left:14px;
+}
+.post img {
+margin-top:0;
+margin-right:0;
+margin-bottom:5px;
+margin-left:0;
+padding:4px;
+border:1px solid #bbbbbb;
+}
+blockquote {
+margin:.75em 0;
+border:1px dotted #bbbbbb;
+border-width:1px 0;
+padding:5px 15px;
+color: #558866;
+}
+.post blockquote p {
+margin:.5em 0;
+}
+#blog-pager-newer-link {
+float: left;
+margin-left: 13px;
+}
+#blog-pager-older-link {
+float: right;
+margin-right: 13px;
+}
+#blog-pager {
+text-align: center;
+}
+.feed-links {
+clear: both;
+line-height: 2.5em;
+margin-left: 13px;
+}
+/* Comments
+----------------------------------------------- */
+#comments {
+margin:-25px 13px 0;
+border:1px dotted #bbbbbb;
+border-width:0 1px 1px;
+padding-top:20px;
+padding-right:0;
+padding-bottom:15px;
+padding-left:0;
+}
+#comments h4 {
+margin:0 0 10px;
+padding-top:0;
+padding-right:14px;
+padding-bottom:2px;
+padding-left:29px;
+border-bottom:1px dotted #bbbbbb;
+font-size:120%;
+line-height:1.4em;
+color:#333333;
+}
+#comments-block {
+margin-top:0;
+margin-right:15px;
+margin-bottom:0;
+margin-left:9px;
+}
+.comment-author {
+background:url("http://www.blogblog.com/rounders3/icon_comment_left.gif") no-repeat 2px .3em;
+margin:.5em 0;
+padding-top:0;
+padding-right:0;
+padding-bottom:0;
+padding-left:20px;
+font-weight:bold;
+}
+.comment-body {
+margin:0 0 1.25em;
+padding-top:0;
+padding-right:0;
+padding-bottom:0;
+padding-left:20px;
+}
+.comment-body p {
+margin:0 0 .5em;
+}
+.comment-footer {
+margin:0 0 .5em;
+padding-top:0;
+padding-right:0;
+padding-bottom:.75em;
+padding-left:20px;
+}
+.comment-footer a:link {
+color: #333;
+}
+.deleted-comment {
+font-style:italic;
+color:gray;
+}
+.comment-form {
+padding-left:20px;
+padding-right:5px;
+}
+#comments .comment-form h4 {
+padding-left:0px;
+}
+/* Profile
+----------------------------------------------- */
+.profile-img {
+float: left;
+margin-top: 5px;
+margin-right: 5px;
+margin-bottom: 5px;
+margin-left: 0;
+border: 4px solid #ffffff;
+}
+.profile-datablock {
+margin-top:0;
+margin-right:15px;
+margin-bottom:.5em;
+margin-left:0;
+padding-top:8px;
+}
+.profile-link {
+background:url("http://www.blogblog.com/rounders3/icon_profile_left.gif") no-repeat left .1em;
+padding-left:15px;
+font-weight:bold;
+}
+.profile-textblock {
+clear: both;
+margin: 0;
+}
+.sidebar .clear, .main .widget .clear {
+clear: both;
+}
+#sidebartop-wrap {
+background:#558866 url("http://www.blogblog.com/rounders3/corners_prof_bot.gif") no-repeat left bottom;
+margin:0px 0px 15px;
+padding:0px 0px 10px;
+color:#ffffff;
+}
+#sidebartop-wrap2 {
+background:url("http://www2.blogblog.com/rounders3/corners_prof_top.gif") no-repeat left top;
+padding: 10px 0 0;
+margin:0;
+border-width:0;
+}
+#sidebartop h2 {
+line-height:1.5em;
+color:#ffffff;
+border-bottom: 1px dotted #ffffff;
+font: normal bold 100% 'Trebuchet MS',Verdana,Arial,Sans-serif;
+margin-bottom: 0.5em;
+}
+#sidebartop a {
+color: #ffffff;
+}
+#sidebartop a:hover {
+color: #ffffff;
+}
+#sidebartop a:visited {
+color: #ffffff;
+}
+#sidebar a {
+color: #99ddbb;
+}
+#sidebar a:hover,
+#sidebar a:visited {
+color: #ffffff;
+}
+/* Sidebar Boxes
+----------------------------------------------- */
+.sidebar .widget {
+margin:.5em 13px 1.25em;
+padding:0 0px;
+}
+.widget-content {
+margin-top: 0.5em;
+}
+#sidebarbottom-wrap1 {
+background:#335577 url("http://www.blogblog.com/rounders3/corners_side_top.gif") no-repeat left top;
+margin:0 0 15px;
+padding:10px 0 0;
+color: #ffffff;
+}
+#sidebarbottom-wrap2 {
+background:url("http://www1.blogblog.com/rounders3/corners_side_bot.gif") no-repeat left bottom;
+padding:0 0 8px;
+}
+.sidebar h2 {
+margin-top:0;
+margin-right:0;
+margin-bottom:.5em;
+margin-left:0;
+padding:0 0 .2em;
+line-height:1.5em;
+font:normal bold 100% 'Trebuchet MS',Verdana,Arial,Sans-serif;
+}
+.sidebar ul {
+list-style:none;
+margin:0 0 1.25em;
+padding:0;
+}
+.sidebar ul li {
+background:url("http://www2.blogblog.com/rounders3/icon_arrow_sm.gif") no-repeat 2px .25em;
+margin:0;
+padding-top:0;
+padding-right:0;
+padding-bottom:3px;
+padding-left:16px;
+margin-bottom:3px;
+border-bottom:1px dotted #bbbbbb;
+line-height:1.4em;
+}
+.sidebar p {
+margin:0 0 .6em;
+}
+#sidebar h2 {
+color: #aabbcc;
+border-bottom: 1px dotted #aabbcc;
+}
+/* Footer
+----------------------------------------------- */
+#footer-wrap1 {
+clear:both;
+margin:0 0 10px;
+padding:15px 0 0;
+}
+#footer-wrap2 {
+background:#335577 url("http://www2.blogblog.com/rounders3/corners_cap_top.gif") no-repeat left top;
+color:#ffffff;
+}
+#footer {
+background:url("http://www.blogblog.com/rounders3/corners_cap_bot.gif") no-repeat left bottom;
+padding:8px 15px;
+}
+#footer hr {display:none;}
+#footer p {margin:0;}
+#footer a {color:#ffffff;}
+#footer .widget-content {
+margin:0;
+}
+/** Page structure tweaks for layout editor wireframe */
+body#layout #main-wrap1,
+body#layout #sidebar-wrap,
+body#layout #header-wrapper {
+margin-top: 0;
+}
+body#layout #header, body#layout #header-wrapper,
+body#layout #outer-wrapper {
+margin-left:0,
+margin-right: 0;
+padding: 0;
+}
+body#layout #outer-wrapper {
+width: 730px;
+}
+body#layout #footer-wrap1 {
+padding-top: 0;
+}
+
+--></style>
+<link href='http://www.logos.com/images/biblesearchbar/bigSearch.css' rel='stylesheet'/>
+<script type="text/javascript">
+if (window.jstiming) window.jstiming.load.tick('headEnd');
+</script></head>
+<body>
+<div class='navbar section' id='navbar'><div class='widget Navbar' id='Navbar1'><script type="text/javascript">
+    function setAttributeOnload(object, attribute, val) {
+      if(window.addEventListener) {
+        window.addEventListener("load",
+          function(){ object[attribute] = val; }, false);
+      } else {
+        window.attachEvent('onload', function(){ object[attribute] = val; });
+      }
+    }
+  </script>
+<iframe src="http://www.blogger.com/navbar.g?targetBlogID=8622602204768865339&amp;blogName=rabble.rule&amp;publishMode=PUBLISH_MODE_BLOGSPOT&amp;navbarType=BLUE&amp;layoutType=LAYOUTS&amp;searchRoot=http%3A%2F%2Frabblerule.blogspot.com%2Fsearch&amp;blogLocale=en_US&amp;homepageUrl=http%3A%2F%2Frabblerule.blogspot.com%2F&amp;targetPostID=8722098137849211452" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" height="30px" width="100%" id="navbar-iframe" allowtransparency="true" title="Blogger Navigation and Search"></iframe>
+<div></div></div></div>
+<div id='outer-wrapper'>
+<div id='header-wrapper'>
+<div class='header section' id='header'><div class='widget Header' id='Header1'>
+<div id='header-inner'>
+<div class='titlewrapper'>
+<h1 class='title'>
+<a href='http://rabblerule.blogspot.com/'>rabble.rule</a>
+</h1>
+</div>
+<div class='descriptionwrapper'>
+<p class='description'><span>Dave Dunkin's blog.</span></p>
+</div>
+</div>
+</div></div>
+</div>
+<div id='crosscol-wrapper' style='text-align:center'>
+<div class='crosscol section' id='crosscol'></div>
+</div>
+<div id='main-wrap1'><div id='main-wrap2'>
+<div class='main section' id='main'><div class='widget Blog' id='Blog1'>
+<div class='blog-posts hfeed'>
+<!-- google_ad_section_start(name=default) -->
+
+          <div class="date-outer">
+        
+<h2 class='date-header'><span>Wednesday, August 5, 2009</span></h2>
+
+          <div class="date-posts">
+        
+<div class='post-outer'>
+<div class='post hentry'>
+<a name='8722098137849211452'></a>
+<h3 class='post-title entry-title'>
+<a href='http://rabblerule.blogspot.com/2009/08/detecting-swipe-in-webkit.html'>Detecting a swipe in WebKit</a>
+</h3>
+<div class='post-header-line-1'></div>
+<div class='post-body entry-content'>
+I was a bit surprised that there wasn't a built-in swipe event for iPhone web apps or an easy to find library to detect one, so I wrote one based on the <a href="http://developer.apple.com/safari/library/documentation/AppleApplications/Reference/SafariWebContent/HandlingEvents/HandlingEvents.html">Mobile Safari documentation</a>.<br /><br />You may need to tweak the vertical threshold (15) or horizontal threshold (50).<br /><br /><pre><br />/**<br /> * You can identify a swipe gesture as follows:<br /> * 1. Begin gesture if you receive a touchstart event containing one target touch.<br /> * 2. Abort gesture if, at any time, you receive an event with >1 touches.<br /> * 3. Continue gesture if you receive a touchmove event mostly in the x-direction.<br /> * 4. Abort gesture if you receive a touchmove event mostly the y-direction.<br /> * 5. End gesture if you receive a touchend event.<br /> * <br /> * @author Dave Dunkin<br /> * @copyright public domain<br /> */<br />function addSwipeListener(el, listener)<br />{<br /> var startX;<br /> var dx;<br /> var direction;<br /> <br /> function cancelTouch()<br /> {<br />  el.removeEventListener('touchmove', onTouchMove);<br />  el.removeEventListener('touchend', onTouchEnd);<br />  startX = null;<br />  startY = null;<br />  direction = null;<br /> }<br /> <br /> function onTouchMove(e)<br /> {<br />  if (e.touches.length > 1)<br />  {<br />   cancelTouch();<br />  }<br />  else<br />  {<br />   dx = e.touches[0].pageX - startX;<br />   var dy = e.touches[0].pageY - startY;<br />   if (direction == null)<br />   {<br />    direction = dx;<br />    e.preventDefault();<br />   }<br />   else if ((direction < 0 && dx > 0) || (direction > 0 && dx < 0) || Math.abs(dy) > 15)<br />   {<br />    cancelTouch();<br />   }<br />  }<br /> }<br /><br /> function onTouchEnd(e)<br /> {<br />  cancelTouch();<br />  if (Math.abs(dx) > 50)<br />  {<br />   listener({ target: el, direction: dx > 0 ? 'right' : 'left' });<br />  }<br /> }<br /> <br /> function onTouchStart(e)<br /> {<br />  if (e.touches.length == 1)<br />  {<br />   startX = e.touches[0].pageX;<br />   startY = e.touches[0].pageY;<br />   el.addEventListener('touchmove', onTouchMove, false);<br />   el.addEventListener('touchend', onTouchEnd, false);<br />  }<br /> }<br /> <br /> el.addEventListener('touchstart', onTouchStart, false);<br />}<br /><br /></pre><br /><br />Use it like this:<br /><pre><br />addSwipeListener(document.body, function(e) { alert(e.direction); });<br /></pre>
+<div style='clear: both;'></div>
+<iframe allowTransparency='true' frameborder='0' scrolling='no' src='http://www.facebook.com/plugins/like.php?href=http://rabblerule.blogspot.com/2009/08/detecting-swipe-in-webkit.html&layout=standard&show_faces=false&width=100&action=like&font=arial&colorscheme=light' style='border:none; overflow:hidden; width:450px; height:40px;'></iframe>
+</div>
+<div class='post-footer'>
+<div class='post-footer-line post-footer-line-1'><span class='post-author vcard'>
+Posted by
+<span class='fn'>Dave Dunkin</span>
+</span>
+<span class='post-timestamp'>
+at
+<a class='timestamp-link' href='http://rabblerule.blogspot.com/2009/08/detecting-swipe-in-webkit.html' rel='bookmark' title='permanent link'><abbr class='published' title='2009-08-05T22:16:00-07:00'>10:16 PM</abbr></a>
+</span>
+<span class='post-comment-link'>
+</span>
+<span class='post-icons'>
+<span class='item-action'>
+<a href='http://www.blogger.com/email-post.g?blogID=8622602204768865339&postID=8722098137849211452' title='Email Post'>
+<img alt='' class='icon-action' height='13' src='http://www.blogger.com/img/icon18_email.gif' width='18'/>
+</a>
+</span>
+<span class='item-control blog-admin pid-780410867'>
+<a href='http://www.blogger.com/post-edit.g?blogID=8622602204768865339&postID=8722098137849211452' title='Edit Post'>
+<img alt='' class='icon-action' height='18' src='http://img2.blogblog.com/img/icon18_edit_allbkg.gif' width='18'/>
+</a>
+</span>
+</span>
+</div>
+<div class='post-footer-line post-footer-line-2'><span class='post-labels'>
+Labels:
+<a href='http://rabblerule.blogspot.com/search/label/iphone' rel='tag'>iphone</a>,
+<a href='http://rabblerule.blogspot.com/search/label/javascript' rel='tag'>javascript</a>,
+<a href='http://rabblerule.blogspot.com/search/label/programming' rel='tag'>programming</a>
+</span>
+</div>
+<div class='post-footer-line post-footer-line-3'></div>
+</div>
+</div>
+<div class='comments' id='comments'>
+<a name='comments'></a>
+<h4>
+7
+comments:
+        
+</h4>
+<div id='Blog1_comments-block-wrapper'>
+<dl class='avatar-comment-indent' id='comments-block'>
+<dt class='comment-author ' id='c1473697138560980960'>
+<a name='c1473697138560980960'></a>
+<div class="avatar-image-container vcard"><span dir="ltr"><a href="http://www.blogger.com/profile/02081719244388930980" rel="nofollow" onclick="" class="avatar-hovercard" id="av-0-02081719244388930980"><img src="http://img1.blogblog.com/img/blank.gif" width="35" height="35" alt="" class="delayLoad" style="display: none;" longdesc="http://4.bp.blogspot.com/_KseJCuAP5ww/SaJwWEf37PI/AAAAAAAAADU/0vYar3oivk4/S45/RingerT_Navywhite.jpg" title="A.V.Ebrahimi">
+
+<noscript><img src="http://4.bp.blogspot.com/_KseJCuAP5ww/SaJwWEf37PI/AAAAAAAAADU/0vYar3oivk4/S45/RingerT_Navywhite.jpg" width="35" height="35" class="photo" alt=""></noscript></a></span></div>
+<a href='http://www.blogger.com/profile/02081719244388930980' rel='nofollow'>A.V.Ebrahimi</a>
+said...
+</dt>
+<dd class='comment-body' id='Blog1_cmt-1473697138560980960'>
+<p>
+Thanks for code.
+</p>
+</dd>
+<dd class='comment-footer'>
+<span class='comment-timestamp'>
+<a href='http://rabblerule.blogspot.com/2009/08/detecting-swipe-in-webkit.html?showComment=1259854910492#c1473697138560980960' title='comment permalink'>
+December 3, 2009 7:41 AM
+</a>
+<span class='item-control blog-admin pid-499749822'>
+<a class='comment-delete' href='http://www.blogger.com/delete-comment.g?blogID=8622602204768865339&postID=1473697138560980960' title='Delete Comment'>
+<img src='//www.blogger.com/img/icon_delete13.gif'/>
+</a>
+</span>
+</span>
+</dd>
+<dt class='comment-author ' id='c2791752085077151273'>
+<a name='c2791752085077151273'></a>
+<div class="avatar-image-container avatar-stock"><span dir="ltr"><a href="http://www.blogger.com/profile/09537254971806473632" rel="nofollow" onclick="" class="avatar-hovercard" id="av-1-09537254971806473632"><img src="http://img2.blogblog.com/img/b16-rounded.gif" width="16" height="16" alt="" title="The Moose">
+
+</a></span></div>
+<a href='http://www.blogger.com/profile/09537254971806473632' rel='nofollow'>The Moose</a>
+said...
+</dt>
+<dd class='comment-body' id='Blog1_cmt-2791752085077151273'>
+<p>
+Hey there, so would this be detecting a swipe on a HTML site on iPhone? I&#39;ve been trying to track down a way to make a gallery that works like google image results does....?
+</p>
+</dd>
+<dd class='comment-footer'>
+<span class='comment-timestamp'>
+<a href='http://rabblerule.blogspot.com/2009/08/detecting-swipe-in-webkit.html?showComment=1263942173413#c2791752085077151273' title='comment permalink'>
+January 19, 2010 3:02 PM
+</a>
+<span class='item-control blog-admin pid-325748767'>
+<a class='comment-delete' href='http://www.blogger.com/delete-comment.g?blogID=8622602204768865339&postID=2791752085077151273' title='Delete Comment'>
+<img src='//www.blogger.com/img/icon_delete13.gif'/>
+</a>
+</span>
+</span>
+</dd>
+<dt class='comment-author ' id='c2991320746478224774'>
+<a name='c2991320746478224774'></a>
+<div class="avatar-image-container avatar-stock"><span dir="ltr"><a href="http://www.blogger.com/profile/03178299153241650008" rel="nofollow" onclick="" class="avatar-hovercard" id="av-2-03178299153241650008"><img src="http://img2.blogblog.com/img/b16-rounded.gif" width="16" height="16" alt="" title="doniguan">
+
+</a></span></div>
+<a href='http://www.blogger.com/profile/03178299153241650008' rel='nofollow'>doniguan</a>
+said...
+</dt>
+<dd class='comment-body' id='Blog1_cmt-2991320746478224774'>
+<p>
+Nice code, only problem I ran into is there&#39;s no easy way to remove the listener. I just rewrote the class a bit to move all the functions and objects outside the main function, so you can remove the listener if you need to.<br /><br />-andy
+</p>
+</dd>
+<dd class='comment-footer'>
+<span class='comment-timestamp'>
+<a href='http://rabblerule.blogspot.com/2009/08/detecting-swipe-in-webkit.html?showComment=1276711402592#c2991320746478224774' title='comment permalink'>
+June 16, 2010 11:03 AM
+</a>
+<span class='item-control blog-admin pid-253688712'>
+<a class='comment-delete' href='http://www.blogger.com/delete-comment.g?blogID=8622602204768865339&postID=2991320746478224774' title='Delete Comment'>
+<img src='//www.blogger.com/img/icon_delete13.gif'/>
+</a>
+</span>
+</span>
+</dd>
+<dt class='comment-author ' id='c8280012608483726165'>
+<a name='c8280012608483726165'></a>
+<div class="avatar-image-container vcard"><span dir="ltr"><a href="http://www.blogger.com/profile/09520081969344553313" rel="nofollow" onclick="" class="avatar-hovercard" id="av-3-09520081969344553313"><img src="http://img1.blogblog.com/img/blank.gif" width="35" height="35" alt="" class="delayLoad" style="display: none;" longdesc="http://2.bp.blogspot.com/__B8k4oM5sTc/Sexxi9YoJ8I/AAAAAAAAAA0/4qdIjvBRzHo/S45/james_200208_300x300.jpg" title="Phil Gyford">
+
+<noscript><img src="http://2.bp.blogspot.com/__B8k4oM5sTc/Sexxi9YoJ8I/AAAAAAAAAA0/4qdIjvBRzHo/S45/james_200208_300x300.jpg" width="35" height="35" class="photo" alt=""></noscript></a></span></div>
+<a href='http://www.blogger.com/profile/09520081969344553313' rel='nofollow'>Phil Gyford</a>
+said...
+</dt>
+<dd class='comment-body' id='Blog1_cmt-8280012608483726165'>
+<p>
+Thanks for this, it&#39;s nice and simple but works!<br /><br />One thing though. I have a site where I want the user to be able to swipe left/right to move between articles, but swiping up down should use the default scrolling action. (It&#39;s probably easier to <a href="http://guardian.gyford.com/" rel="nofollow">see than describe</a>.)<br /><br />This seems to work fine on an iPad, but on my iPhone 3G the vertical scrolling ends up being very jerky. Something is interrupting the default action from happening, but I can&#39;t work out what to tweak to fix this. Any ideas?
+</p>
+</dd>
+<dd class='comment-footer'>
+<span class='comment-timestamp'>
+<a href='http://rabblerule.blogspot.com/2009/08/detecting-swipe-in-webkit.html?showComment=1277200216925#c8280012608483726165' title='comment permalink'>
+June 22, 2010 2:50 AM
+</a>
+<span class='item-control blog-admin pid-2083882471'>
+<a class='comment-delete' href='http://www.blogger.com/delete-comment.g?blogID=8622602204768865339&postID=8280012608483726165' title='Delete Comment'>
+<img src='//www.blogger.com/img/icon_delete13.gif'/>
+</a>
+</span>
+</span>
+</dd>
+<dt class='comment-author ' id='c6422232010633176106'>
+<a name='c6422232010633176106'></a>
+<div class="avatar-image-container avatar-stock"><span dir="ltr"><a href="http://openid.aol.com/MillCreekPhil" rel="nofollow" onclick="" class="avatar-hovercard" id="av-4-00574165016748867580"><img src="http://img1.blogblog.com/img/openid16-rounded.gif" width="16" height="16" alt="" title="MillCreekPhil">
+
+</a></span></div>
+<a href='http://openid.aol.com/MillCreekPhil' rel='nofollow'>MillCreekPhil</a>
+said...
+</dt>
+<dd class='comment-body' id='Blog1_cmt-6422232010633176106'>
+<p>
+I had a similar issue as the other Phil, specific to iOS4 for some reason, but changing the e.preventDefault() in onTouchMove to e.stopPropagation() solved the issue for me.<br /><br />Thanks for the code!
+</p>
+</dd>
+<dd class='comment-footer'>
+<span class='comment-timestamp'>
+<a href='http://rabblerule.blogspot.com/2009/08/detecting-swipe-in-webkit.html?showComment=1277418392313#c6422232010633176106' title='comment permalink'>
+June 24, 2010 3:26 PM
+</a>
+<span class='item-control blog-admin pid-1308323277'>
+<a class='comment-delete' href='http://www.blogger.com/delete-comment.g?blogID=8622602204768865339&postID=6422232010633176106' title='Delete Comment'>
+<img src='//www.blogger.com/img/icon_delete13.gif'/>
+</a>
+</span>
+</span>
+</dd>
+<dt class='comment-author ' id='c6863456102711351482'>
+<a name='c6863456102711351482'></a>
+<div class="avatar-image-container avatar-stock"><span dir="ltr"><a href="http://www.blogger.com/profile/13119012396093062590" rel="nofollow" onclick="" class="avatar-hovercard" id="av-5-13119012396093062590"><img src="http://img2.blogblog.com/img/b16-rounded.gif" width="16" height="16" alt="" title="dnad">
+
+</a></span></div>
+<a href='http://www.blogger.com/profile/13119012396093062590' rel='nofollow'>dnad</a>
+said...
+</dt>
+<dd class='comment-body' id='Blog1_cmt-6863456102711351482'>
+<p>
+as doniguan said, you need to remove the listener.<br /><br />if you want to do this add these two lines immediately after the &quot;listener(...)&quot; line in the OnTouchEnd function.<br /><br />el.removeEventListener(&#39;touchstart&#39;, onTouchStart);<br />   addSwipeListener(el, listener);
+</p>
+</dd>
+<dd class='comment-footer'>
+<span class='comment-timestamp'>
+<a href='http://rabblerule.blogspot.com/2009/08/detecting-swipe-in-webkit.html?showComment=1280534422447#c6863456102711351482' title='comment permalink'>
+July 30, 2010 5:00 PM
+</a>
+<span class='item-control blog-admin pid-1907244650'>
+<a class='comment-delete' href='http://www.blogger.com/delete-comment.g?blogID=8622602204768865339&postID=6863456102711351482' title='Delete Comment'>
+<img src='//www.blogger.com/img/icon_delete13.gif'/>
+</a>
+</span>
+</span>
+</dd>
+<dt class='comment-author ' id='c1174764487384047521'>
+<a name='c1174764487384047521'></a>
+<div class="avatar-image-container avatar-stock"><span dir="ltr"><a href="http://www.blogger.com/profile/06875496519364108409" rel="nofollow" onclick="" class="avatar-hovercard" id="av-6-06875496519364108409"><img src="http://img2.blogblog.com/img/b16-rounded.gif" width="16" height="16" alt="" title="Zack">
+
+</a></span></div>
+<a href='http://www.blogger.com/profile/06875496519364108409' rel='nofollow'>Zack</a>
+said...
+</dt>
+<dd class='comment-body' id='Blog1_cmt-1174764487384047521'>
+<p>
+I think this is what I am looking for, but I&#39;m not sure if I&#39;m implementing it correctly, because I don&#39;t get any alert messages when I swipe. How exactly do I go about testing this?
+</p>
+</dd>
+<dd class='comment-footer'>
+<span class='comment-timestamp'>
+<a href='http://rabblerule.blogspot.com/2009/08/detecting-swipe-in-webkit.html?showComment=1281469872793#c1174764487384047521' title='comment permalink'>
+August 10, 2010 12:51 PM
+</a>
+<span class='item-control blog-admin pid-451816998'>
+<a class='comment-delete' href='http://www.blogger.com/delete-comment.g?blogID=8622602204768865339&postID=1174764487384047521' title='Delete Comment'>
+<img src='//www.blogger.com/img/icon_delete13.gif'/>
+</a>
+</span>
+</span>
+</dd>
+</dl>
+</div>
+<p class='comment-footer'>
+<a href='https://www.blogger.com/comment.g?blogID=8622602204768865339&postID=8722098137849211452' onclick=''>Post a Comment</a>
+</p>
+<div id='backlinks-container'>
+<div id='Blog1_backlinks-container'>
+</div>
+</div>
+</div>
+</div>
+<div id="latency-8722098137849211452"></div><script type="text/javascript">if (window['tickAboveFold']) {window['tickAboveFold'](document.getElementById("latency-8722098137849211452")); } </script>
+
+        </div></div>
+      
+<!-- google_ad_section_end -->
+</div>
+<div class='blog-pager' id='blog-pager'>
+<span id='blog-pager-newer-link'>
+<a class='blog-pager-newer-link' href='http://rabblerule.blogspot.com/2009/11/we-got-logos-iphone-app-through-on.html' id='Blog1_blog-pager-newer-link' title='Newer Post'>Newer Post</a>
+</span>
+<span id='blog-pager-older-link'>
+<a class='blog-pager-older-link' href='http://rabblerule.blogspot.com/2009/07/alens-notes-removing-httptempuriorg.html' id='Blog1_blog-pager-older-link' title='Older Post'>Older Post</a>
+</span>
+<a class='home-link' href='http://rabblerule.blogspot.com/'>Home</a>
+</div>
+<div class='clear'></div>
+<div class='post-feeds'>
+<div class='feed-links'>
+Subscribe to:
+<a class='feed-link' href='http://rabblerule.blogspot.com/feeds/8722098137849211452/comments/default' target='_blank' type='application/atom+xml'>Post Comments (Atom)</a>
+</div>
+</div>
+</div></div>
+</div></div>
+<div id='sidebar-wrap'>
+<div id='sidebartop-wrap'><div id='sidebartop-wrap2'>
+<div class='sidebar section' id='sidebartop'><div class='widget Label' id='Label1'>
+<h2>Labels</h2>
+<div class='widget-content list-label-widget-content'>
+<ul>
+<li>
+<a dir='ltr' href='http://rabblerule.blogspot.com/search/label/.net'>.net</a>
+<span dir='ltr'>(2)</span>
+</li>
+<li>
+<a dir='ltr' href='http://rabblerule.blogspot.com/search/label/apple'>apple</a>
+<span dir='ltr'>(4)</span>
+</li>
+<li>
+<a dir='ltr' href='http://rabblerule.blogspot.com/search/label/bible'>bible</a>
+<span dir='ltr'>(1)</span>
+</li>
+<li>
+<a dir='ltr' href='http://rabblerule.blogspot.com/search/label/bible%20study'>bible study</a>
+<span dir='ltr'>(1)</span>
+</li>
+<li>
+<a dir='ltr' href='http://rabblerule.blogspot.com/search/label/business'>business</a>
+<span dir='ltr'>(2)</span>
+</li>
+<li>
+<a dir='ltr' href='http://rabblerule.blogspot.com/search/label/concurrency'>concurrency</a>
+<span dir='ltr'>(1)</span>
+</li>
+<li>
+<a dir='ltr' href='http://rabblerule.blogspot.com/search/label/faith'>faith</a>
+<span dir='ltr'>(1)</span>
+</li>
+<li>
+<a dir='ltr' href='http://rabblerule.blogspot.com/search/label/family'>family</a>
+<span dir='ltr'>(1)</span>
+</li>
+<li>
+<a dir='ltr' href='http://rabblerule.blogspot.com/search/label/google'>google</a>
+<span dir='ltr'>(1)</span>
+</li>
+<li>
+<a dir='ltr' href='http://rabblerule.blogspot.com/search/label/groovy'>groovy</a>
+<span dir='ltr'>(3)</span>
+</li>
+<li>
+<a dir='ltr' href='http://rabblerule.blogspot.com/search/label/ipad'>ipad</a>
+<span dir='ltr'>(5)</span>
+</li>
+<li>
+<a dir='ltr' href='http://rabblerule.blogspot.com/search/label/iphone'>iphone</a>
+<span dir='ltr'>(4)</span>
+</li>
+<li>
+<a dir='ltr' href='http://rabblerule.blogspot.com/search/label/java'>java</a>
+<span dir='ltr'>(3)</span>
+</li>
+<li>
+<a dir='ltr' href='http://rabblerule.blogspot.com/search/label/javascript'>javascript</a>
+<span dir='ltr'>(1)</span>
+</li>
+<li>
+<a dir='ltr' href='http://rabblerule.blogspot.com/search/label/messaging'>messaging</a>
+<span dir='ltr'>(1)</span>
+</li>
+<li>
+<a dir='ltr' href='http://rabblerule.blogspot.com/search/label/mobile'>mobile</a>
+<span dir='ltr'>(5)</span>
+</li>
+<li>
+<a dir='ltr' href='http://rabblerule.blogspot.com/search/label/philosophy'>philosophy</a>
+<span dir='ltr'>(1)</span>
+</li>
+<li>
+<a dir='ltr' href='http://rabblerule.blogspot.com/search/label/photography'>photography</a>
+<span dir='ltr'>(1)</span>
+</li>
+<li>
+<a dir='ltr' href='http://rabblerule.blogspot.com/search/label/politics'>politics</a>
+<span dir='ltr'>(2)</span>
+</li>
+<li>
+<a dir='ltr' href='http://rabblerule.blogspot.com/search/label/programming'>programming</a>
+<span dir='ltr'>(12)</span>
+</li>
+<li>
+<a dir='ltr' href='http://rabblerule.blogspot.com/search/label/religion'>religion</a>
+<span dir='ltr'>(3)</span>
+</li>
+<li>
+<a dir='ltr' href='http://rabblerule.blogspot.com/search/label/science'>science</a>
+<span dir='ltr'>(2)</span>
+</li>
+<li>
+<a dir='ltr' href='http://rabblerule.blogspot.com/search/label/windows'>windows</a>
+<span dir='ltr'>(2)</span>
+</li>
+</ul>
+<div class='clear'></div>
+<span class='widget-item-control'>
+<span class='item-control blog-admin'>
+<a class='quickedit' href='http://www.blogger.com/rearrange?blogID=8622602204768865339&widgetType=Label&widgetId=Label1&action=editWidget' onclick='return _WidgetManager._PopupConfig(document.getElementById("Label1"));' target='configLabel1' title='Edit'>
+<img alt='' height='18' src='http://img1.blogblog.com/img/icon18_wrench_allbkg.png' width='18'/>
+</a>
+</span>
+</span>
+<div class='clear'></div>
+</div>
+</div><div class='widget BlogArchive' id='BlogArchive1'>
+<h2>Blog Archive</h2>
+<div class='widget-content'>
+<div id='ArchiveList'>
+<div id='BlogArchive1_ArchiveList'>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+          &#9658;&#160;
+        
+</span>
+</a>
+<a class='post-count-link' href='http://rabblerule.blogspot.com/search?updated-min=2010-01-01T00%3A00%3A00-08%3A00&updated-max=2011-01-01T00%3A00%3A00-08%3A00&max-results=14'>2010</a>
+<span class='post-count' dir='ltr'>(14)</span>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+          &#9658;&#160;
+        
+</span>
+</a>
+<a class='post-count-link' href='http://rabblerule.blogspot.com/2010_08_01_archive.html'>August</a>
+<span class='post-count' dir='ltr'>(3)</span>
+<ul class='posts'>
+<li><a href='http://rabblerule.blogspot.com/2010/08/worthless-comments.html'>Worthless Comments</a></li>
+<li><a href='http://rabblerule.blogspot.com/2010/08/more.html'>Misleading WCF MSMQ Binding Error</a></li>
+<li><a href='http://rabblerule.blogspot.com/2010/08/smartphone-install-base.html'>Smartphone Install Base</a></li>
+</ul>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+          &#9658;&#160;
+        
+</span>
+</a>
+<a class='post-count-link' href='http://rabblerule.blogspot.com/2010_07_01_archive.html'>July</a>
+<span class='post-count' dir='ltr'>(2)</span>
+<ul class='posts'>
+<li><a href='http://rabblerule.blogspot.com/2010/07/how-2-iphone-app-restored-my-love-for.html'>How a $2 iPhone app restored my love for photograp...</a></li>
+<li><a href='http://rabblerule.blogspot.com/2010/07/wcf-net-msmq-binding-urls.html'>WCF .NET MSMQ Binding URLs</a></li>
+</ul>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+          &#9658;&#160;
+        
+</span>
+</a>
+<a class='post-count-link' href='http://rabblerule.blogspot.com/2010_06_01_archive.html'>June</a>
+<span class='post-count' dir='ltr'>(2)</span>
+<ul class='posts'>
+<li><a href='http://rabblerule.blogspot.com/2010/06/5-device-categories.html'>5 Device Categories</a></li>
+<li><a href='http://rabblerule.blogspot.com/2010/06/how-to-make-horrible-infographic.html'>How to make a horrible Infographic</a></li>
+</ul>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+          &#9658;&#160;
+        
+</span>
+</a>
+<a class='post-count-link' href='http://rabblerule.blogspot.com/2010_03_01_archive.html'>March</a>
+<span class='post-count' dir='ltr'>(1)</span>
+<ul class='posts'>
+<li><a href='http://rabblerule.blogspot.com/2010/03/dewey-griffin-loses-customer-forever.html'>Dewey Griffin Loses a Customer Forever</a></li>
+</ul>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+          &#9658;&#160;
+        
+</span>
+</a>
+<a class='post-count-link' href='http://rabblerule.blogspot.com/2010_02_01_archive.html'>February</a>
+<span class='post-count' dir='ltr'>(3)</span>
+<ul class='posts'>
+<li><a href='http://rabblerule.blogspot.com/2010/02/how-will-ipads-success-be-defined.html'>How will the iPad&#39;s success be defined?</a></li>
+<li><a href='http://rabblerule.blogspot.com/2010/02/ipad-swivel-camera.html'>iPad Swivel Camera</a></li>
+<li><a href='http://rabblerule.blogspot.com/2010/02/throwaway-vote.html'>Throwaway Vote</a></li>
+</ul>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+          &#9658;&#160;
+        
+</span>
+</a>
+<a class='post-count-link' href='http://rabblerule.blogspot.com/2010_01_01_archive.html'>January</a>
+<span class='post-count' dir='ltr'>(3)</span>
+<ul class='posts'>
+<li><a href='http://rabblerule.blogspot.com/2010/01/ipad-fills-gap.html'>iPad Fills the Gap</a></li>
+<li><a href='http://rabblerule.blogspot.com/2010/01/apple-reinvents-yet-another-category.html'>Apple Reinvents Yet Another Category</a></li>
+<li><a href='http://rabblerule.blogspot.com/2010/01/iphone-bible-app-comparison.html'>iPhone Bible App Comparison</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate expanded'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy toggle-open'>&#9660;&#160;</span>
+</a>
+<a class='post-count-link' href='http://rabblerule.blogspot.com/search?updated-min=2009-01-01T00%3A00%3A00-08%3A00&updated-max=2010-01-01T00%3A00%3A00-08%3A00&max-results=12'>2009</a>
+<span class='post-count' dir='ltr'>(12)</span>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+          &#9658;&#160;
+        
+</span>
+</a>
+<a class='post-count-link' href='http://rabblerule.blogspot.com/2009_12_01_archive.html'>December</a>
+<span class='post-count' dir='ltr'>(1)</span>
+<ul class='posts'>
+<li><a href='http://rabblerule.blogspot.com/2009/12/christmas-party.html'>Christmas party</a></li>
+</ul>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+          &#9658;&#160;
+        
+</span>
+</a>
+<a class='post-count-link' href='http://rabblerule.blogspot.com/2009_11_01_archive.html'>November</a>
+<span class='post-count' dir='ltr'>(2)</span>
+<ul class='posts'>
+<li><a href='http://rabblerule.blogspot.com/2009/11/next-level-of-bible-study.html'>The Next Level of Bible Study</a></li>
+<li><a href='http://rabblerule.blogspot.com/2009/11/we-got-logos-iphone-app-through-on.html'>We got the Logos iPhone app through on the first t...</a></li>
+</ul>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate expanded'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy toggle-open'>&#9660;&#160;</span>
+</a>
+<a class='post-count-link' href='http://rabblerule.blogspot.com/2009_08_01_archive.html'>August</a>
+<span class='post-count' dir='ltr'>(1)</span>
+<ul class='posts'>
+<li><a href='http://rabblerule.blogspot.com/2009/08/detecting-swipe-in-webkit.html'>Detecting a swipe in WebKit</a></li>
+</ul>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+          &#9658;&#160;
+        
+</span>
+</a>
+<a class='post-count-link' href='http://rabblerule.blogspot.com/2009_07_01_archive.html'>July</a>
+<span class='post-count' dir='ltr'>(2)</span>
+<ul class='posts'>
+<li><a href='http://rabblerule.blogspot.com/2009/07/alens-notes-removing-httptempuriorg.html'>Alen&#39;s Notes: Removing http://tempuri.org Namespac...</a></li>
+<li><a href='http://rabblerule.blogspot.com/2009/07/logos-bible-giveaway.html'>Logos Bible Giveaway</a></li>
+</ul>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+          &#9658;&#160;
+        
+</span>
+</a>
+<a class='post-count-link' href='http://rabblerule.blogspot.com/2009_04_01_archive.html'>April</a>
+<span class='post-count' dir='ltr'>(3)</span>
+<ul class='posts'>
+<li><a href='http://rabblerule.blogspot.com/2009/04/global-search-and-replace-with-perl.html'>Global Search and Replace with Perl</a></li>
+<li><a href='http://rabblerule.blogspot.com/2009/04/do-you-chew-gum-you-find-on-street.html'>Do you chew gum you find on the street?</a></li>
+<li><a href='http://rabblerule.blogspot.com/2009/04/adventures-in-parenting.html'>Adventures in parenting</a></li>
+</ul>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+          &#9658;&#160;
+        
+</span>
+</a>
+<a class='post-count-link' href='http://rabblerule.blogspot.com/2009_03_01_archive.html'>March</a>
+<span class='post-count' dir='ltr'>(1)</span>
+<ul class='posts'>
+<li><a href='http://rabblerule.blogspot.com/2009/03/verse-of-day.html'>Verse of the day</a></li>
+</ul>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+          &#9658;&#160;
+        
+</span>
+</a>
+<a class='post-count-link' href='http://rabblerule.blogspot.com/2009_01_01_archive.html'>January</a>
+<span class='post-count' dir='ltr'>(2)</span>
+<ul class='posts'>
+<li><a href='http://rabblerule.blogspot.com/2009/01/quote-of-day.html'>Quote of the day</a></li>
+<li><a href='http://rabblerule.blogspot.com/2009/01/memory-management-resource-management.html'>Memory Management != Resource Management</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+          &#9658;&#160;
+        
+</span>
+</a>
+<a class='post-count-link' href='http://rabblerule.blogspot.com/search?updated-min=2008-01-01T00%3A00%3A00-08%3A00&updated-max=2009-01-01T00%3A00%3A00-08%3A00&max-results=19'>2008</a>
+<span class='post-count' dir='ltr'>(19)</span>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+          &#9658;&#160;
+        
+</span>
+</a>
+<a class='post-count-link' href='http://rabblerule.blogspot.com/2008_10_01_archive.html'>October</a>
+<span class='post-count' dir='ltr'>(3)</span>
+<ul class='posts'>
+<li><a href='http://rabblerule.blogspot.com/2008/10/its-girl.html'>It&#39;s a girl!</a></li>
+<li><a href='http://rabblerule.blogspot.com/2008/10/command-history-in-windows.html'>Command history in Windows</a></li>
+<li><a href='http://rabblerule.blogspot.com/2008/10/automatic-timestamping-for-entity.html'>Automatic Timestamping for Entity Framework</a></li>
+</ul>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+          &#9658;&#160;
+        
+</span>
+</a>
+<a class='post-count-link' href='http://rabblerule.blogspot.com/2008_09_01_archive.html'>September</a>
+<span class='post-count' dir='ltr'>(2)</span>
+<ul class='posts'>
+<li><a href='http://rabblerule.blogspot.com/2008/09/apparently-i-look-like-stoner.html'>Apparently I Look Like A Stoner</a></li>
+<li><a href='http://rabblerule.blogspot.com/2008/09/reftagger-bookmarklet.html'>RefTagger Bookmarklet</a></li>
+</ul>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+          &#9658;&#160;
+        
+</span>
+</a>
+<a class='post-count-link' href='http://rabblerule.blogspot.com/2008_08_01_archive.html'>August</a>
+<span class='post-count' dir='ltr'>(1)</span>
+<ul class='posts'>
+<li><a href='http://rabblerule.blogspot.com/2008/08/prov-day-20.html'>Prov-a-Day 2.0</a></li>
+</ul>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+          &#9658;&#160;
+        
+</span>
+</a>
+<a class='post-count-link' href='http://rabblerule.blogspot.com/2008_07_01_archive.html'>July</a>
+<span class='post-count' dir='ltr'>(1)</span>
+<ul class='posts'>
+<li><a href='http://rabblerule.blogspot.com/2008/07/big-changes.html'>Big Changes</a></li>
+</ul>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+          &#9658;&#160;
+        
+</span>
+</a>
+<a class='post-count-link' href='http://rabblerule.blogspot.com/2008_06_01_archive.html'>June</a>
+<span class='post-count' dir='ltr'>(6)</span>
+<ul class='posts'>
+<li><a href='http://rabblerule.blogspot.com/2008/06/reftagger.html'>RefTagger</a></li>
+<li><a href='http://rabblerule.blogspot.com/2008/06/open-source-software.html'>Open Source Software</a></li>
+<li><a href='http://rabblerule.blogspot.com/2008/06/events-and-threads.html'>Events and Threads</a></li>
+<li><a href='http://rabblerule.blogspot.com/2008/06/groovy-dombuilder-update.html'>Groovy DOMBuilder update</a></li>
+<li><a href='http://rabblerule.blogspot.com/2008/06/very-un-groovy.html'>Very un-groovy</a></li>
+<li><a href='http://rabblerule.blogspot.com/2008/06/google-io-thoughts.html'>Google I/O thoughts</a></li>
+</ul>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+          &#9658;&#160;
+        
+</span>
+</a>
+<a class='post-count-link' href='http://rabblerule.blogspot.com/2008_03_01_archive.html'>March</a>
+<span class='post-count' dir='ltr'>(1)</span>
+<ul class='posts'>
+<li><a href='http://rabblerule.blogspot.com/2008/03/wisdom-forgotten-context.html'>Wisdom: the forgotten context</a></li>
+</ul>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+          &#9658;&#160;
+        
+</span>
+</a>
+<a class='post-count-link' href='http://rabblerule.blogspot.com/2008_02_01_archive.html'>February</a>
+<span class='post-count' dir='ltr'>(3)</span>
+<ul class='posts'>
+<li><a href='http://rabblerule.blogspot.com/2008/02/faith-for-little-things.html'>Faith for the little things</a></li>
+<li><a href='http://rabblerule.blogspot.com/2008/02/no-wonder-church-isnt-effective.html'>No wonder the church isn&#39;t effective</a></li>
+<li><a href='http://rabblerule.blogspot.com/2008/02/groovy-dombuilder-namespace.html'>Groovy DOMBuilder namespace</a></li>
+</ul>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+          &#9658;&#160;
+        
+</span>
+</a>
+<a class='post-count-link' href='http://rabblerule.blogspot.com/2008_01_01_archive.html'>January</a>
+<span class='post-count' dir='ltr'>(2)</span>
+<ul class='posts'>
+<li><a href='http://rabblerule.blogspot.com/2008/01/peace-is-accident.html'>&quot;peace is an accident&quot;</a></li>
+<li><a href='http://rabblerule.blogspot.com/2008/01/xkcd-is-often-pretty-entertaining-but-i.html'>supernatural</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+<div class='clear'></div>
+<span class='widget-item-control'>
+<span class='item-control blog-admin'>
+<a class='quickedit' href='http://www.blogger.com/rearrange?blogID=8622602204768865339&widgetType=BlogArchive&widgetId=BlogArchive1&action=editWidget' onclick='return _WidgetManager._PopupConfig(document.getElementById("BlogArchive1"));' target='configBlogArchive1' title='Edit'>
+<img alt='' height='18' src='http://img1.blogblog.com/img/icon18_wrench_allbkg.png' width='18'/>
+</a>
+</span>
+</span>
+<div class='clear'></div>
+</div>
+</div><div class='widget Profile' id='Profile1'>
+<h2>About Me</h2>
+<div class='widget-content'>
+<a href='http://www.blogger.com/profile/13210798101484506505'><img alt='My Photo' class='profile-img' height='60' src='http://2.bp.blogspot.com/_BT9AUSVw5zQ/SleMH09Ji3I/AAAAAAAADSM/JIjcUNzkil0/S220/psychodelic.jpg' width='80'/></a>
+<dl class='profile-datablock'>
+<dt class='profile-data'>Dave Dunkin</dt>
+<dd class='profile-data'>Lynden, Washington, United States</dd>
+</dl>
+<a class='profile-link' href='http://www.blogger.com/profile/13210798101484506505'>View my complete profile</a>
+<div class='clear'></div>
+<span class='widget-item-control'>
+<span class='item-control blog-admin'>
+<a class='quickedit' href='http://www.blogger.com/rearrange?blogID=8622602204768865339&widgetType=Profile&widgetId=Profile1&action=editWidget' onclick='return _WidgetManager._PopupConfig(document.getElementById("Profile1"));' target='configProfile1' title='Edit'>
+<img alt='' height='18' src='http://img1.blogblog.com/img/icon18_wrench_allbkg.png' width='18'/>
+</a>
+</span>
+</span>
+<div class='clear'></div>
+</div>
+</div></div>
+</div></div>
+<div id='sidebarbottom-wrap1'><div id='sidebarbottom-wrap2'>
+<div class='sidebar section' id='sidebar'><div class='widget HTML' id='HTML6'>
+<h2 class='title'>Facebook Badge</h2>
+<div class='widget-content'>
+<!-- Facebook Badge START --><a style="font-family: &quot;lucida grande&quot;,tahoma,verdana,arial,sans-serif; font-size: 11px; font-variant: normal; font-style: normal; font-weight: normal; color: #3B5998; text-decoration: none;" href="http://www.facebook.com/dave.dunkin" target="_TOP" title="Dave Dunkin">Dave Dunkin</a><br/><a href="http://www.facebook.com/dave.dunkin" target="_TOP" title="Dave Dunkin"><img alt="Dave Dunkin" style="border: 0px;" src="http://badge.facebook.com/badge/1149120346.567.1796777158.png"/></a><br/><a style="font-family: &quot;lucida grande&quot;,tahoma,verdana,arial,sans-serif; font-size: 11px; font-variant: normal; font-style: normal; font-weight: normal; color: #3B5998; text-decoration: none;" href="http://www.facebook.com/badges.php" target="_TOP" title="Make your own badge!">Create Your Badge</a><!-- Facebook Badge END -->
+</div>
+<div class='clear'></div>
+<span class='widget-item-control'>
+<span class='item-control blog-admin'>
+<a class='quickedit' href='http://www.blogger.com/rearrange?blogID=8622602204768865339&widgetType=HTML&widgetId=HTML6&action=editWidget' onclick='return _WidgetManager._PopupConfig(document.getElementById("HTML6"));' target='configHTML6' title='Edit'>
+<img alt='' height='18' src='http://img1.blogblog.com/img/icon18_wrench_allbkg.png' width='18'/>
+</a>
+</span>
+</span>
+<div class='clear'></div>
+</div><div class='widget Feed' id='Feed1'>
+<h2>Twitter / ddunkin</h2>
+<div class='widget-content' id='Feed1_feedItemListDisplay'>
+<span style='filter: alpha(25); opacity: 0.25;'>
+<a href='http://twitter.com/statuses/user_timeline/20112848.rss'>Loading...</a>
+</span>
+</div>
+<div class='clear'></div>
+<span class='widget-item-control'>
+<span class='item-control blog-admin'>
+<a class='quickedit' href='http://www.blogger.com/rearrange?blogID=8622602204768865339&widgetType=Feed&widgetId=Feed1&action=editWidget' onclick='return _WidgetManager._PopupConfig(document.getElementById("Feed1"));' target='configFeed1' title='Edit'>
+<img alt='' height='18' src='http://img1.blogblog.com/img/icon18_wrench_allbkg.png' width='18'/>
+</a>
+</span>
+</span>
+<div class='clear'></div>
+</div><div class='widget HTML' id='HTML2'>
+<h2 class='title'>Interesting Stuff</h2>
+<div class='widget-content'>
+<script src="http://www.google.com/reader/ui/publisher-en.js" type="text/javascript"></script>
+<script src="http://www.google.com/reader/public/javascript/user/07032799270029939566/state/com.google/broadcast?n=5&callback=GRC_p(%7Bc%3A%22gray%22%2Cs%3A%22true%22%2Cb%3A%22false%22%7D)%3Bnew%20GRC" type="text/javascript"></script>
+</div>
+<div class='clear'></div>
+<span class='widget-item-control'>
+<span class='item-control blog-admin'>
+<a class='quickedit' href='http://www.blogger.com/rearrange?blogID=8622602204768865339&widgetType=HTML&widgetId=HTML2&action=editWidget' onclick='return _WidgetManager._PopupConfig(document.getElementById("HTML2"));' target='configHTML2' title='Edit'>
+<img alt='' height='18' src='http://img1.blogblog.com/img/icon18_wrench_allbkg.png' width='18'/>
+</a>
+</span>
+</span>
+<div class='clear'></div>
+</div><div class='widget HTML' id='HTML4'>
+<div class='widget-content'>
+
+<div id="lbxSearchContainer">
+  <div id="lbxSearchTitle"><a href="http://bible.logos.com"><img alt="Bible Search" src="http://www.logos.com/images/biblesearchbar/biblesearch.gif" longdesc="http://bible.logos.com"/></a></div>
+  <div id="lbxSearchField">
+    <form action="http://bible.logos.com/search/">
+      <input onfocus="Logos.Bible.onFocus(this)" class="lbxBlurred" value="Search the Bible" name="query" onblur="Logos.Bible.onBlur(this)" type="text"/>
+
+      <input id="go" src="http://www.logos.com/images/biblesearchbar/go.gif" value=" " type="image"/>
+    </form>
+  </div>
+  <div id="lbxSearchExamples">
+    <p>Verse:<br/>
+      <a href="http://bible.logos.com/#q=&amp;ref=Jn%203%3A16%2Chi%3DJn%203%3A16">John 3:16;</a> <a href="http://bible.logos.com/#q=&amp;ref=Jn%203%3A16%2Chi%3DJn%203%3A16">Jn 3:16;</a> <a href="http://bible.logos.com/search/?query=john+3&amp;x=0&amp;y=0">John 3</a></p>
+
+    <p>Keyword:<br/>
+      <a href="http://bible.logos.com/#q=salvation">Salvation,</a> <a href="http://bible.logos.com/#q=jesus">Jesus,</a> <a href="http://bible.logos.com/#q=gospel">Gospel</a></p>
+    <p>With Operators:<br/>
+      <span id="lbxSearchOperators">AND, OR, NOT, &ldquo; &rdquo;</span></p>
+
+  </div>
+  <div id="lbxSearchFooter"><a href="http://www.logos.com/demo?biblelbxSearchbox"><img border="0" alt="Logos Bible Software" src="http://www.logos.com/images/biblesearchbar/logo.gif" longdesc="http://www.logos.com/demo?biblelbxSearchbox"/></a>
+  <a href="http://bible.logos.com">Online Bible</a> by <a href="http://www.logos.com/demo?biblesearchbox">Logos</a></div>
+</div>
+  <script type="text/javascript">
+  var Logos = Logos ? Logos : {};
+  Logos.Bible = {
+    onFocus: function(el) {
+      if (el.value == 'Search the Bible')
+        el.value = '';
+      el.className = '';
+    },
+    onBlur: function(el) {
+      if (el.value == '')
+      {
+        el.value = 'Search the Bible';
+        el.className = 'lbxBlurred';
+      }
+    }
+  };
+
+  </script>
+</div>
+<div class='clear'></div>
+<span class='widget-item-control'>
+<span class='item-control blog-admin'>
+<a class='quickedit' href='http://www.blogger.com/rearrange?blogID=8622602204768865339&widgetType=HTML&widgetId=HTML4&action=editWidget' onclick='return _WidgetManager._PopupConfig(document.getElementById("HTML4"));' target='configHTML4' title='Edit'>
+<img alt='' height='18' src='http://img1.blogblog.com/img/icon18_wrench_allbkg.png' width='18'/>
+</a>
+</span>
+</span>
+<div class='clear'></div>
+</div><div class='widget HTML' id='HTML3'>
+<h2 class='title'>Prov-a-Day</h2>
+<div class='widget-content'>
+<script src="http://widgetserver.com/syndication/subscriber/InsertWidget.js?appId=f9853e91-706b-439d-af54-f719395fceb3" type="text/javascript"></script><noscript>Get the <a href="http://www.widgetbox.com/widget/provaday">Prov-a-Day</a> widget and many other great free widgets at <a href="http://www.widgetbox.com">Widgetbox</a>!</noscript><img border="0" style="visibility:hidden;width:0px;height:0px;" width="0" src="http://runtime.widgetbox.com/syndication/track/f9853e91-706b-439d-af54-f719395fceb3.gif" height="0"/>
+</div>
+<div class='clear'></div>
+<span class='widget-item-control'>
+<span class='item-control blog-admin'>
+<a class='quickedit' href='http://www.blogger.com/rearrange?blogID=8622602204768865339&widgetType=HTML&widgetId=HTML3&action=editWidget' onclick='return _WidgetManager._PopupConfig(document.getElementById("HTML3"));' target='configHTML3' title='Edit'>
+<img alt='' height='18' src='http://img1.blogblog.com/img/icon18_wrench_allbkg.png' width='18'/>
+</a>
+</span>
+</span>
+<div class='clear'></div>
+</div></div>
+</div></div>
+</div>
+<div id='footer-wrap1'><div id='footer-wrap2'>
+<div class='footer section' id='footer'><div class='widget HTML' id='HTML1'>
+<div class='widget-content'>
+<!-- RefTagger from Logos. Visit http://www.logos.com/reftagger. This code should appear directly before the </body> tag. -->
+<script type="text/javascript">
+document.write(unescape("%3Cscript src='" + document.location.protocol + "//bible.logos.com/jsapi/referencetagging.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+    Logos.ReferenceTagging.lbsBibleVersion = "ESV";
+    Logos.ReferenceTagging.lbsLinksOpenNewWindow = true;
+    Logos.ReferenceTagging.lbsLibronixLinkIcon = "dark";
+    Logos.ReferenceTagging.lbsNoSearchTagNames = [ "h1", "h2", "h3" ];
+    Logos.ReferenceTagging.tag();
+</script>
+
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-5502517-2");
+pageTracker._trackPageview();
+} catch(err) {}</script>
+</div>
+<div class='clear'></div>
+<span class='widget-item-control'>
+<span class='item-control blog-admin'>
+<a class='quickedit' href='http://www.blogger.com/rearrange?blogID=8622602204768865339&widgetType=HTML&widgetId=HTML1&action=editWidget' onclick='return _WidgetManager._PopupConfig(document.getElementById("HTML1"));' target='configHTML1' title='Edit'>
+<img alt='' height='18' src='http://img1.blogblog.com/img/icon18_wrench_allbkg.png' width='18'/>
+</a>
+</span>
+</span>
+<div class='clear'></div>
+</div></div>
+</div></div>
+</div>
+<script type="text/javascript">
+if (window.jstiming) window.jstiming.load.tick('widgetJsBefore');
+</script><script type="text/javascript" src="http://www.blogger.com/static/v1/widgets/512629240-widgets.js"></script>
+<script type='text/javascript'>
+if (typeof(BLOG_attachCsiOnload) != 'undefined' && BLOG_attachCsiOnload != null) { window['blogger_templates_experiment_id'] = "templatesV1";window['blogger_blog_id'] = '8622602204768865339';BLOG_attachCsiOnload('item_'); }_WidgetManager._Init('http://www.blogger.com/rearrange?blogID=8622602204768865339','http://rabblerule.blogspot.com/2009/08/detecting-swipe-in-webkit.html','8622602204768865339');
+_WidgetManager._SetPageActionUrl('http://www.blogger.com/display?blogID=8622602204768865339','M6TaHl4ForSvcZ_qB4aXbb_EHl8:1292619568570','AOuZoY7yL3maOf27WbR6Or4VIA7AzHGe7g:1292619568570');
+_WidgetManager._SetDataContext([{'name': 'blog', 'data': {'title': 'rabble.rule', 'pageType': 'item', 'url': 'http://rabblerule.blogspot.com/2009/08/detecting-swipe-in-webkit.html', 'canonicalUrl': 'http://rabblerule.blogspot.com/2009/08/detecting-swipe-in-webkit.html', 'homepageUrl': 'http://rabblerule.blogspot.com/', 'enabledCommentProfileImages': true, 'searchLabel': '', 'searchQuery': '', 'pageName': 'Detecting a swipe in WebKit', 'pageTitle': 'rabble.rule: Detecting a swipe in WebKit', 'encoding': 'UTF-8', 'locale': 'en-US', 'isPrivate': false, 'isMobile': false, 'mobileClass': '', 'languageDirection': 'ltr', 'feedLinks': '\74link rel\75\42alternate\42 type\75\42application/atom+xml\42 title\75\42rabble.rule - Atom\42 href\75\42http://rabblerule.blogspot.com/feeds/posts/default\42 /\76\n\74link rel\75\42alternate\42 type\75\42application/rss+xml\42 title\75\42rabble.rule - RSS\42 href\75\42http://rabblerule.blogspot.com/feeds/posts/default?alt\75rss\42 /\76\n\74link rel\75\42service.post\42 type\75\42application/atom+xml\42 title\75\42rabble.rule - Atom\42 href\75\42http://www.blogger.com/feeds/8622602204768865339/posts/default\42 /\76\n\74link rel\75\42EditURI\42 type\75\42application/rsd+xml\42 title\75\42RSD\42 href\75\42http://www.blogger.com/rsd.g?blogID\758622602204768865339\42 /\76\n\74link rel\75\42alternate\42 type\75\42application/atom+xml\42 title\75\42rabble.rule - Atom\42 href\75\42http://rabblerule.blogspot.com/feeds/8722098137849211452/comments/default\42 /\76\n', 'meTag': '', 'openIdOpTag': '', 'imageSrcTag': '', 'latencyHeadScript': '\74script type\75\42text/javascript\42\76(function() { var a\75window;function c(b){this.t\75{};this.tick\75function(d,i,e){e\75e?e:(new Date).getTime();this.t[d]\75[e,i]};this.tick(\42start\42,null,b)}var f\75new c;a.jstiming\75{Timer:c,load:f};try{var g\75null;if(a.chrome\46\46a.chrome.csi)g\75Math.floor(a.chrome.csi().pageT);if(g\75\75null)if(a.gtbExternal)g\75a.gtbExternal.pageT();if(g\75\75null)if(a.external)g\75a.external.pageT;if(g)a.jstiming.pt\75g}catch(h){};a.tickAboveFold\75function(b){b\75b;var d\0750;if(b.offsetParent){do d+\75b.offsetTop;while(b\75b.offsetParent)}b\75d;b\74\075750\46\46a.jstiming.load.tick(\42aft\42)};var j\75false;function k(){if(!j){j\75true;a.jstiming.load.tick(\42firstScrollTime\42)}}a.addEventListener?a.addEventListener(\42scroll\42,k,false):a.attachEvent(\42onscroll\42,k);\n })();\74/script\076', 'mobileHeadScript': ''}}]);
+_WidgetManager._RegisterWidget('_HTMLView', new _WidgetInfo('HTML1', 'footer', null, document.getElementById('HTML1'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_LabelView', new _WidgetInfo('Label1', 'sidebartop', null, document.getElementById('Label1'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_BlogArchiveView', new _WidgetInfo('BlogArchive1', 'sidebartop', null, document.getElementById('BlogArchive1'), {'languageDirection': 'ltr'}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_ProfileView', new _WidgetInfo('Profile1', 'sidebartop', null, document.getElementById('Profile1'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_HTMLView', new _WidgetInfo('HTML6', 'sidebar', null, document.getElementById('HTML6'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_FeedView', new _WidgetInfo('Feed1', 'sidebar', null, document.getElementById('Feed1'), {'title': 'Twitter / ddunkin', 'showItemDate': false, 'showItemAuthor': false, 'feedUrl': 'http://twitter.com/statuses/user_timeline/20112848.rss', 'numItemsShow': 5, 'loadingMsg': 'Loading...', 'openLinksInNewWindow': false}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_HTMLView', new _WidgetInfo('HTML2', 'sidebar', null, document.getElementById('HTML2'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_HTMLView', new _WidgetInfo('HTML4', 'sidebar', null, document.getElementById('HTML4'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_HTMLView', new _WidgetInfo('HTML3', 'sidebar', null, document.getElementById('HTML3'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_HeaderView', new _WidgetInfo('Header1', 'header'));
+_WidgetManager._RegisterWidget('_NavbarView', new _WidgetInfo('Navbar1', 'navbar'));
+_WidgetManager._RegisterWidget('_BlogView', new _WidgetInfo('Blog1', 'main', null, document.getElementById('Blog1'), {'cmtInteractionsEnabled': false, 'commentInteractionIframeUrl': 'http://www.blogger.com/comment-interaction-iframe.g?blogId\758622602204768865339', 'mobile': false}, 'displayModeFull'));
+</script>
+</body>
+</html>
