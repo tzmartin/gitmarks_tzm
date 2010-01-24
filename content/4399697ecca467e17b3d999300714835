@@ -1,0 +1,264 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="en-US">
+
+<head profile="http://gmpg.org/xfn/11">
+<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7" />  
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+<title>Twitter Advertising : Sponsored Tweets</title>
+<link rel="shortcut icon" href="http://sponsoredtweets.com/wp-content/themes/sponsoredtweets/img/favicon.ico" />
+
+<link rel="stylesheet" href="http://sponsoredtweets.com/wp-content/themes/sponsoredtweets/css/screen.css" type="text/css" media="screen" />
+<!--[if lt IE 8]>
+  <link href="http://sponsoredtweets.com/wp-content/themes/sponsoredtweets/css/ie.css" media="screen" rel="stylesheet" type="text/css" />
+<![endif]-->
+<!--[if IE 6]>
+  <link href="http://sponsoredtweets.com/wp-content/themes/sponsoredtweets/css/ie6.css" media="screen" rel="stylesheet" type="text/css" />
+<![endif]-->
+<!--[if IE 7]>
+  <link href="http://sponsoredtweets.com/wp-content/themes/sponsoredtweets/css/ie7.css" media="screen" rel="stylesheet" type="text/css" />
+<![endif]-->
+<!--[if IE 8]>
+  <link href="http://sponsoredtweets.com/wp-content/themes/sponsoredtweets/css/ie8.css" media="screen" rel="stylesheet" type="text/css" />
+<![endif]-->
+<script type="text/javascript" src="http://sponsoredtweets.com/wp-content/themes/sponsoredtweets/js/jquery-1.4.2.min.js"></script>
+<script type="text/javascript" src="http://sponsoredtweets.com/wp-content/themes/sponsoredtweets/js/superfish.js"></script>
+<script type="text/javascript" src="http://sponsoredtweets.com/wp-content/themes/sponsoredtweets/js/jquery.hoverIntent.min.js"></script>
+<script type="text/javascript" src="http://sponsoredtweets.com/wp-content/themes/sponsoredtweets/js/jquery.cycle.min.js"></script>
+<script type="text/javascript" src="http://sponsoredtweets.com/wp-content/themes/sponsoredtweets/js/main.js"></script>
+<link rel="pingback" href="http://sponsoredtweets.com/xmlrpc.php" />  
+<link rel="alternate" type="application/rss+xml" title="Sponsored Tweets &raquo; Feed" href="http://sponsoredtweets.com/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Sponsored Tweets &raquo; Comments Feed" href="http://sponsoredtweets.com/comments/feed/" />
+<link rel='stylesheet' id='contact-form-7-css'  href='http://sponsoredtweets.com/wp-content/plugins/contact-form-7/stylesheet.css?ver=2.0.5' type='text/css' media='all' />
+<link rel='stylesheet' id='sociable-front-css-css'  href='http://sponsoredtweets.com/wp-content/plugins/sociable/sociable.css?ver=3.0.1' type='text/css' media='all' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://sponsoredtweets.com/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://sponsoredtweets.com/wp-includes/wlwmanifest.xml" /> 
+<link rel='index' title='Sponsored Tweets' href='http://sponsoredtweets.com/' />
+<link rel='prev' title='About' href='http://sponsoredtweets.com/about/' />
+<link rel='next' title='Advertisers' href='http://sponsoredtweets.com/twitter_advertising/' />
+<meta name="generator" content="WordPress 3.0.1" />
+<link rel='canonical' href='http://sponsoredtweets.com/' />
+
+<!-- All in One SEO Pack 1.6.6.2 by Michael Torbert of Semper Fi Web Design[360,384] -->
+<meta name="description" content="Sponsored Tweets is marketplace that provides twitter advertising through twitter based sponsored conversations." />
+<meta name="keywords" content="twitter advertising, sponsored tweets, twitter marketing, tweet marketing" />
+<link rel="canonical" href="http://sponsoredtweets.com/" />
+<!-- /all in one seo pack -->
+<link type="text/css" rel="stylesheet" href="http://sponsoredtweets.com/wp-content/plugins/wordpress-simple-paypal-shopping-cart/wp_shopping_cart_style.css" />
+</head>
+<body class="home page page-id-5 page-template page-template-hometemplate-php" id="home">
+ <div id="wrap">
+  <div id="page">
+    <div id="header"> 
+        <div id="header_content">
+      <a href="#content" class="jumplink">skip to content</a>
+      <a id="logo" href="http://sponsoredtweets.com/">Sponsored Tweets</a>
+      
+      <ul id="nav">
+          <li class="page_item page-item-23"><a href="http://sponsoredtweets.com/twitter_advertising/">Advertisers</a>
+<ul class='children'>
+	<li class="page_item page-item-589"><a href="http://sponsoredtweets.com/twitter_advertising/how-it-works/">How it Works</a></li>
+	<li class="page_item page-item-907"><a href="https://app.sponsoredtweets.com/tweeters">Sponsor These Tweeters</a></li>
+	<li class="page_item page-item-519"><a href="http://sponsoredtweets.com/twitter_advertising/campaign-management/">Campaign Management</a></li>
+	<li class="page_item page-item-317"><a href="http://sponsoredtweets.com/twitter_advertising/our-network/">Our Network</a></li>
+	<li class="page_item page-item-125"><a href="http://sponsoredtweets.com/twitter_advertising/advertiser-faq/">Advertiser FAQ</a></li>
+	<li class="page_item page-item-200"><a href="http://sponsoredtweets.com/twitter_advertising/non-profit-causes/">Non-Profits</a></li>
+</ul>
+</li>
+<li class="page_item page-item-25"><a href="http://sponsoredtweets.com/tweeters/">Tweeters</a>
+<ul class='children'>
+	<li class="page_item page-item-32"><a href="http://sponsoredtweets.com/tweeters/celebrity-tweeters/">Celebrity Tweeters</a></li>
+	<li class="page_item page-item-866"><a href="http://sponsoredtweets.com/tweeters/referral-program/">Referral Program</a></li>
+	<li class="page_item page-item-47"><a href="http://sponsoredtweets.com/tweeters/frequenty-asked-questions/">Tweeter FAQ</a></li>
+	<li class="page_item page-item-1145"><a href="http://sponsoredtweets.com/tweeters/sponsored-tweetup/">Sponsored Tweetup</a></li>
+	<li class="page_item page-item-439"><a href="http://sponsoredtweets.com/tweeters/submit-a-profile/">Submit a Profile</a></li>
+</ul>
+</li>
+<li class="page_item page-item-11416"><a href="http://sponsoredtweets.com/partners/">Partners</a>
+<ul class='children'>
+	<li class="page_item page-item-1163"><a href="http://sponsoredtweets.com/partners/bonus-program/">Bonus Program</a></li>
+	<li class="page_item page-item-288"><a href="http://sponsoredtweets.com/partners/agencies/">Partner Contact</a></li>
+	<li class="page_item page-item-1177"><a href="http://sponsoredtweets.com/partners/api/">API</a></li>
+</ul>
+</li>
+<li class="page_item page-item-890"><a href="http://sponsoredtweets.com/blog/">Blog</a></li>
+<li class="page_item page-item-4"><a href="http://sponsoredtweets.com/about/">About</a>
+<ul class='children'>
+	<li class="page_item page-item-101"><a href="http://sponsoredtweets.com/about/press-center/">Press Center</a></li>
+	<li class="page_item page-item-30"><a href="http://sponsoredtweets.com/about/help/">Help</a></li>
+	<li class="page_item page-item-28"><a href="http://sponsoredtweets.com/about/ethics/">Ethics</a></li>
+</ul>
+</li>
+      </ul>
+      
+      <form action="/" method="get" id="search">
+          <fieldset>
+              <input type="text" name="s" id="query" value="site search" />
+              <input type="submit" name="submit" id="go" class="button small" value="go" />
+          </fieldset>
+      </form>
+      
+      <a href="https://app.sponsoredtweets.com/login" class="button" id="login">log in</a>
+      <div id="login_overlay">
+        <a href="#" class="close">close</a>
+        <h2>please log in here:</h2>
+        <h3>If you regstered with a <em>Twitter account</em> log in here:</h3>
+        <a href="https://app.sponsoredtweets.com/connect" class="twitter_sign_in">sign in with twitter</a>
+        <form action="https://app.sponsoredtweets.com/sessions" method="post">
+          <h3>Advertiser only</h3>
+          <h4>If you regstered with an <em>email address</em> log in here:</h4>
+          <fieldset>
+            <input type="text" name="session[email]" class="text_input" />
+            <input type="password" name="session[password]" class="text_input" />
+            <a href="https://app.sponsoredtweets.com/forgot_password">forgot password?</a>
+            <input type="checkbox" name="session[remember_me]" id="remember_me" />
+            <label for="remember_me">Remember me</label>
+            <input type="submit" value="log in as an advertiser" class="button" />
+          </fieldset>
+        </form>
+      </div>
+      
+                    <div id="latest_blog_post"><strong>Latest Blog Post:</strong> 12.14.10 by Adam Fortuna <a href="http://sponsoredtweets.com/advertiser-enhancements-for-opportunities/">Advertiser Opp Enhancements</a> <a href="http://sponsoredtweets.com/advertiser-enhancements-for-opportunities/" class="button small">view post</a></div>
+            </div> 
+    </div> 
+          <h1>Twitter Advertising</h1>
+        <div id="content">
+<div id="news">
+      <a name="content" href="http://app.sponsoredtweets.com/tweeters/kimkardashian" id="featured_story"><img src="http://sponsoredtweets.com/wp-content/uploads/2009/07/top_kimKardashian.png" alt="Kim Kardashian, Business woman, exec producer, fashion designer, perfumista and star of "Keeping up with the Kardashians."" /></a>
+    <div id="sign_up_today">
+    <h2>sign up today!</h2>
+    <p>Advertisers and Tweeters sign up to start using our marketplace.</p>
+    <ul>
+      <li id="tiser"><a href="https://app.sponsoredtweets.com/signup/advertiser">sign up as an advertiser</a></li>
+      <li id="tweeter"><a href="https://app.sponsoredtweets.com/signup/tweeter">sign up as a tweeter</a></li>
+    </ul>
+  </div>
+</div>
+<div id="overview">
+  <div id="what_we_do">
+    <h2>what we do</h2>
+    <p>Sponsored Tweets is a Twitter advertising platform that connects advertisers with tweeters. The site provides robust targeting and detailed analytics.</p>
+  </div>
+  <div id="featured_tweeters">
+    <h2>featured tweeters <a class="button small" href="https://app.sponsoredtweets.com/tweeters">view all</a></h2>
+    <ul>
+          <li ><a href="https://app.sponsoredtweets.com/tweeters/ninadobrev"><img src="/wp-content/themes/sponsoredtweets/img/featured_publishers/ninadobrev.png" alt="@ninadobrev" /></a></li>
+          <li ><a href="https://app.sponsoredtweets.com/tweeters/nickcannon"><img src="/wp-content/themes/sponsoredtweets/img/featured_publishers/nickcannon.png" alt="@nickcannon" /></a></li>
+          <li class="last"><a href="https://app.sponsoredtweets.com/tweeters/kimberlycole1"><img src="/wp-content/themes/sponsoredtweets/img/featured_publishers/kimberlycole1.png" alt="@kimberlycole1" /></a></li>
+        </ul>
+  </div>
+  <div id="our_tisers">
+    <h2>our advertisers</h2>
+    <ul id="brands_list">   
+              <li>
+         <a class="first" href="/twitter_advertising/">
+           <img src="/wp-content/themes/sponsoredtweets/img/brands/1800flowers.png" alt="1800flowers" />
+               </a>       
+         <a href="/twitter_advertising/">
+                      <img src="/wp-content/themes/sponsoredtweets/img/brands/boostmobile.png" alt="boostmobile" />
+          </a>       
+        </li>        
+              <li>
+         <a class="first" href="/twitter_advertising/">
+           <img src="/wp-content/themes/sponsoredtweets/img/brands/fox.png" alt="fox" />
+               </a>       
+         <a href="/twitter_advertising/">
+                      <img src="/wp-content/themes/sponsoredtweets/img/brands/kao.png" alt="kao" />
+          </a>       
+        </li>        
+              <li>
+         <a class="first" href="/twitter_advertising/">
+           <img src="/wp-content/themes/sponsoredtweets/img/brands/microsoft.png" alt="microsoft" />
+               </a>       
+         <a href="/twitter_advertising/">
+                      <img src="/wp-content/themes/sponsoredtweets/img/brands/projectRunway.png" alt="projectRunway" />
+          </a>       
+        </li>        
+              <li>
+         <a class="first" href="/twitter_advertising/">
+           <img src="/wp-content/themes/sponsoredtweets/img/brands/tonys.png" alt="tonys" />
+               </a>       
+         <a href="/twitter_advertising/">
+                      <img src="/wp-content/themes/sponsoredtweets/img/brands/volvo.png" alt="volvo" />
+          </a>       
+        </li>        
+         
+    </ul>
+  </div>
+</div>
+
+    </div>
+          <div id="contact">
+        <h2>toll free advertiser support:</h2> 
+        <p><strong>1-888-5-TWEETS</strong></p>
+        <h2>connect with us:</h2>
+        <ul>
+          <li id="twitter"><a href="http://twitter.com/spontwts">twitter</a></li>
+          <li id="facebook"><a href="http://www.facebook.com/pages/Sponsored-Tweets/115451648480566">facebook</a></li>
+        </ul>
+      </div>
+      <a href="#" class="live_chat" onclick="return SnapABug.startLink();"><img src="https://snapabug.appspot.com/statusImage?w=512823b9-65bb-4342-98f0-3cbdacd46744" border="0"></img></a>
+      </div>
+</div>
+<div id="footer">
+  <div id="footer_content">
+    <ul id="footer_nav">
+      <li class="page_item page-item-5 current_page_item"><a href="http://sponsoredtweets.com/">Home</a></li>
+<li class="page_item page-item-23"><a href="http://sponsoredtweets.com/twitter_advertising/">Advertisers</a></li>
+<li class="page_item page-item-25"><a href="http://sponsoredtweets.com/tweeters/">Tweeters</a></li>
+<li class="page_item page-item-11416"><a href="http://sponsoredtweets.com/partners/">Partners</a></li>
+<li class="page_item page-item-890"><a href="http://sponsoredtweets.com/blog/">Blog</a></li>
+<li class="page_item page-item-4"><a href="http://sponsoredtweets.com/about/">About</a></li>
+    </ul>
+    <a id="izea" href="http://izea.com">an IZEA innovation</a>
+    <p><span>&copy; 2010 IZEA <a href="http://izea.com">Social Media Marketing</a></span> <a href="http://sponsoredtweets.com/terms-of-service/">Terms &amp; Conditions</a> | <a href="/privacy-policy/">Privacy Policy</a></p>
+  </div>
+</div>
+
+	<script type="text/javascript">
+	<!--
+	//
+	function ReadForm (obj1, tst) 
+	{ 
+	    // Read the user form
+	    var i,j,pos;
+	    val_total="";val_combo="";		
+	
+	    for (i=0; i<obj1.length; i++) 
+	    {     
+	        // run entire form
+	        obj = obj1.elements[i];           // a form element
+	
+	        if (obj.type == "select-one") 
+	        {   // just selects
+	            if (obj.name == "quantity" ||
+	                obj.name == "amount") continue;
+		        pos = obj.selectedIndex;        // which option selected
+		        val = obj.options[pos].value;   // selected value
+		        val_combo = val_combo + "(" + val + ")";
+	        }
+	    }
+		// Now summarize everything we have processed above
+		val_total = obj1.product_tmp.value + val_combo;
+		obj1.product.value = val_total;
+	}
+	//-->
+	</script>
+<!-- Google Analytics -->
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-837121-35");
+pageTracker._trackPageview();
+} catch(err) {}</script>
+<script type="text/javascript">
+document.write(unescape("%3Cscript src='" + ((document.location.protocol=="https:")?"https:":"http:") + "//snapabug.appspot.com/snapabug.js' type='text/javascript'%3E%3C/script%3E"));</script><script type="text/javascript">
+SnapABug.init('512823b9-65bb-4342-98f0-3cbdacd46744');
+SnapABug.allowOffline(false);
+</script>
+
+</body>
+</html>
