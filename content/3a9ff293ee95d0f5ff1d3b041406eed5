@@ -1,0 +1,382 @@
+ <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>OmniGraffle Wireframe Stencils | Konigi</title>
+  <link rel="schema.DC" href="http://purl.org/dc/elements/1.1/" />
+  <link rel="schema.DCTERMS" href="http://purl.org/dc/terms/" />
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta name="DC.title" content="konigi" />
+  <meta name="DC.creator" content="Michael Angeles" />
+  <meta name="DC.subject" content="user experience, information architecture, interaction design, visual design, interface design, uxd, ixd, ia, research, competitive analysis, competitive research, company information" />
+  <meta name="DC.publisher" content="Konigi" />
+  <meta name="DC.format" content="text/html; charset=utf-8" />
+  <meta name="DC.identifier" scheme="DCTERMS.URI" content="http://konigi.com" /> 
+  <meta name="keywords" content="user experience, information architecture, interaction design, visual design, interface design, uxd, ixd, ia, research, competitive analysis, competitive research, company information" />
+  <meta name="description" content="Knowledge management and competitive research community for user experience design on the web." />
+  <meta name="robots" content="all" />
+  <meta name="microid" content="mailto+http:sha1:a60b34090c47ab5249f4fb39ac7d6b28b3bc56b0" />
+  <link rel="alternate" type="application/rss+xml" title="Konigi - Complete Feed" href="http://feeds2.feedburner.com/konigi" />
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="shortcut icon" href="/sites/konigi.com/themes/konigi/favicon.ico" type="image/x-icon" />
+  <link type="text/css" rel="stylesheet" media="all" href="/files/konigi/css/css_84f49e47fbbce44d98834252c85be601.css" />
+  <link rel="stylesheet" href="/sites/konigi.com/themes/konigi-5-0/css/print.css" type="text/css" media="print" />
+  <link rel="stylesheet" href="/sites/konigi.com/themes/konigi-5-0/css/core.css" type="text/css" media="all" />
+<script type="text/javascript" src="/files/konigi/js/js_84a7640e202023417e94eb5d50fa5f9b.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, { "basePath": "/", "cron": { "basePath": "/poormanscron", "runNext": 1292699101 } });
+//--><!]]>
+</script>
+  <script type="text/javascript" src="http://use.typekit.com/odd3dtq.js"></script>
+  <script type="text/javascript">try{Typekit.load();}catch(e){}</script> 
+</head>
+<body class="top konigi-5-0 tools" id="tools-omnigraffle-wireframe-stencils" >
+
+<div id="wrapper">
+
+<div id="header-wrapper">
+<div id="header" class="container">  
+  
+       
+  
+
+  <div id="main-menu" class="container clear">
+
+    <div id="logo" class="column span-4"><h1><a href="/">KONIGI</a></h1></div>
+  
+         
+    
+    <div id="nav" class="column span-20 last tright">
+    
+      
+      <div id="gnav">
+        <ul style="float: right;">
+          <li id="gnav-home"><a href="/" title="Home">Home</a></li>
+          <li id="gnav-notebook"><a href="/notebook/latest" title="Blog">Blog</a></li>
+          <li id="gnav-showcase"><a href="/showcase/latest" title="Showcase">Showcase</a></li>
+          <li id="gnav-tools"><a href="/tools/overview" title="Tools">Tools</a></li>
+          <li id="gnav-wiki"><a href="/wiki" title="Wiki">Wiki</a></li>
+          <li id="gnav-store" class="last"><a href="/store" title="Store">Store</a></li>
+          <li id="hdaccount"><a href="/user" id="umenu-tog">Account</a></li>
+          <li id="hdsearch"><a href="/search/google">Search</a></li>          
+          <li id="hdcart"><a href="https://www.e-junkie.com/ecom/gb.php?c=cart;cl=48049;ejc=2">Cart</a></li>
+                  </ul>
+      </div>
+      
+            
+    </div>
+    
+    <!-- 
+
+    <div id="nav-tools" class="column span-6 last">
+        <div id="site-search">
+                </div>
+    </div>
+    -->
+         
+      </div>      
+
+</div></div>
+
+
+
+
+<!-- #menu-login -->
+<div id="menu-login" class="menu">
+  <div class="container clear">
+  
+      <div class="column span-18 border">
+      <h3>Sign In</h3>
+      <form action="/user/login" method="post" id="user-login">
+        <span class="login_text">My username or email is</span> 
+        <input type="text" maxlength="60" name="name" id="edit-name"  size="15" value="" tabindex="1" class="form-text required" /></label>
+        <label for="edit-pass"><span class="login_text">and my password is </span>
+        <input type="password" maxlength="" name="pass" id="edit-pass"  size="15"  tabindex="2" class="form-text required" /></label>
+        <input type="hidden" name="form_id" id="edit-user-login" value="user_login"  />
+        <input type="submit" name="op" value="Sign me in"  tabindex="3" id="edit-submit" class="form-submit" />
+        <input type="hidden" name="destination" value="tools/omnigraffle-wireframe-stencils" />
+      </form>
+      <br clear="both" />    
+      <p class="small"><a href="/user/password">Forget your password?</a></p>
+    </div>
+    <div class="column span-5">
+      <div class="padlr10">
+      <h3>Don't have an account?</h3>
+      <p>Sign up is free and takes 30 seconds. <a href="/user/register">Sign up now.</a></p>
+      </div>
+    </div>
+    <div class="column span-1 last">
+      <div class="menu-close ico-x"></div>
+    </div>    
+    
+  </div>
+</div>
+<!-- /#menu-login -->
+
+
+
+
+  
+
+<!-- #main -->
+<div id="body-wrapper">
+<div id="body" class="container">
+
+   
+
+   
+
+          
+    <div id="title" class="container">
+          <h1 class="page-title">OmniGraffle Wireframe Stencils</h1>
+      </div>
+  
+  
+          
+    
+     
+  
+  <!-- #content -->
+  <div id="content"> 
+    
+    
+
+  <!-- #content-main -->
+  <div id="content-main" class="clear">
+
+      
+
+
+<div class="page-entry-container entry-1 node clear">
+
+  <div class="container border-bottom marbot2 clear">
+<div class="column span-8">
+<h2>About</h2>
+<p>This is a set of shapes for making wireframes (low-fidelity web page schematics) in <a href="http://www.omnigroup.com/applications/omnigraffle/">OmniGraffle</a> version 5.x (Mac OS X). It consists of most of the basic elements you'll need to create user interface specifications. The screenshots below show all of the stencils in this set.</p>
+</div>
+<div class="column span-8">
+<h2>Installation</h2>
+<p>1. <a href="http://media.konigi.com/tools/og-wireframe-stencil/Konigi-Wireframe-Stencils-v3-02.zip">Download</a> the stencils.<br />
+2. Move it to your ~/Library/Application Support/OmniGraffle/Stencils directory. The ~ represents your user "home" folder.</p>
+</div>
+<div class="column span-8 last">
+<h2>Download</h2>
+<p><strong><a href="http://media.konigi.com/tools/og-wireframe-stencil/Konigi-Wireframe-Stencils-v3-02.zip">Download Version 3.02 (4/2/10)</a></strong><br />
+<span class="t10">These stencils are free to use, but may not be distributed without permission. If you like these, a donation is appreciated.</span></p>
+<form action="https://www.paypal.com/cgi-bin/webscr" method="post" class="mar0 pad0">
+<input type="image" src="https://www.paypal.com/en_US/i/btn/btn_donate_SM.gif" border="0" name="submit" alt=""  class="mar0 pad0 paypal" style="background-color: #fff;" /><br />
+<input type="hidden" name="cmd" value="_s-xclick" class="mar0 pad0" /><br />
+<input type="hidden" name="hosted_button_id" value="2318535" class="mar0 pad0" /><br />
+<img alt="" border="0" src="https://www.paypal.com/en_US/i/scr/pixel.gif" width="1" height="1" class="mar0 pad0" /><br />
+</form>
+</div>
+</div>
+<div class="container border-bottom marbot2 padbot1 clear">
+<!-- thumbs --><!-- thumbs --><h3>UI Components</h3>
+<div class="container padbot1 clear">
+<div class="column span-8">
+<a href="http://media.konigi.com/tools/og-wireframe-stencil/png-v3/01-Base-Wireframe-Kit.png" class="group" rel="group"><img src="http://media.konigi.com/tools/og-wireframe-stencil/png-v3/01-Base-Wireframe-Kit-thumb.png" alt="" /></a>
+</div>
+<div class="column span-8">
+<a href="http://media.konigi.com/tools/og-wireframe-stencil/png-v3/02-Controls.png" class="group" rel="group"><img src="http://media.konigi.com/tools/og-wireframe-stencil/png-v3/02-Controls-thumb.png" alt="" /></a>
+</div>
+<div class="column span-8 last">
+<a href="http://media.konigi.com/tools/og-wireframe-stencil/png-v3/03-Forms.png" class="group" rel="group"><img src="http://media.konigi.com/tools/og-wireframe-stencil/png-v3/03-Forms-thumb.png" alt="" /></a>
+</div>
+</div>
+<div class="container padbot1 clear">
+<div class="column span-8">
+<a href="http://media.konigi.com/tools/og-wireframe-stencil/png-v3/04-Navigation.png" class="group" rel="group"><img src="http://media.konigi.com/tools/og-wireframe-stencil/png-v3/04-Navigation-thumb.png" alt="" /></a>
+</div>
+<div class="column span-8">
+<a href="http://media.konigi.com/tools/og-wireframe-stencil/png-v3/05-Audio-Video.png" class="group" rel="group"><img src="http://media.konigi.com/tools/og-wireframe-stencil/png-v3/05-Audio-Video-thumb.png" alt="" /></a>
+</div>
+<div class="column span-8 last">
+<a href="http://media.konigi.com/tools/og-wireframe-stencil/png-v3/07-Windows-Dialogs-and-Layers.png" class="group" rel="group"><img src="http://media.konigi.com/tools/og-wireframe-stencil/png-v3/07-Windows-Dialogs-and-Layers-thumb.png" alt="" /></a>
+</div>
+</div>
+<div class="container padbot1 clear">
+<div class="column span-8">
+<a href="http://media.konigi.com/tools/og-wireframe-stencil/png-v3/09-Social-Features.png" class="group" rel="group"><img src="http://media.konigi.com/tools/og-wireframe-stencil/png-v3/09-Social-Features-thumb.png" alt="" /></a>
+</div>
+<div class="column span-8">
+<a href="http://media.konigi.com/tools/og-wireframe-stencil/png-v3/06-Text.png" class="group" rel="group"><img src="http://media.konigi.com/tools/og-wireframe-stencil/png-v3/06-Text-thumb.png" alt="" /></a>
+</div>
+<div class="column span-8 last">
+<!--<a href="" class="group" rel="group"><img src="" alt="" /></a>--><!--<a href="" class="group" rel="group"><img src="" alt="" /></a>--></div>
+</div>
+<h3>Ad Units</h3>
+<div class="container padbot1 clear">
+<div class="column span-8">
+<a href="http://media.konigi.com/tools/og-wireframe-stencil/png-v3/08-Banners-Buttons.png" class="group" rel="group"><img src="http://media.konigi.com/tools/og-wireframe-stencil/png-v3/08-Banners-Buttons-thumb.png" alt="" /></a>
+</div>
+<div class="column span-8">
+<a href="http://media.konigi.com/tools/og-wireframe-stencil/png-v3/08-Rectangles.png" class="group" rel="group"><img src="http://media.konigi.com/tools/og-wireframe-stencil/png-v3/08-Rectangles-thumb.png" alt="" /></a>
+</div>
+<div class="column span-8 last">
+<a href="http://media.konigi.com/tools/og-wireframe-stencil/png-v3/08-Skyscrapers.png" class="group" rel="group"><img src="http://media.konigi.com/tools/og-wireframe-stencil/png-v3/08-Skyscrapers-thumb.png" alt="" /></a>
+</div>
+</div>
+<h3>Browser Chrome</h3>
+<div class="container padbot1 clear">
+<div class="column span-8">
+<a href="http://media.konigi.com/tools/og-wireframe-stencil/png-v3/10-Web-Browser.png" class="group" rel="group"><img src="http://media.konigi.com/tools/og-wireframe-stencil/png-v3/10-Web-Browser-thumb.png" alt="" /></a>
+</div>
+<div class="column span-8">
+<a href="http://media.konigi.com/tools/og-wireframe-stencil/png-v3/10-iPad.png" class="group" rel="group"><img src="http://media.konigi.com/tools/og-wireframe-stencil/png-v3/10-iPad-thumb.png" alt="" /></a>
+</div>
+<div class="column span-8 last">
+<a href="http://media.konigi.com/tools/og-wireframe-stencil/png-v3/10-iPhone.png" class="group" rel="group"><img src="http://media.konigi.com/tools/og-wireframe-stencil/png-v3/10-iPhone-thumb.png" alt="" /></a>
+</div>
+</div>
+</div>
+<!-- /thumbs --><!-- /thumbs --><div class="container border-bottom marbot2 padbot1 clear">
+<!-- version info --><!-- version info --><h2>Version Information</h2>
+<p><a href="javascript:void(0);" class="toggle">View version notes.</a></p>
+<div class="toggle-content hidden">
+<p>
+<strong>3.02 (4/2/10)</strong><br />
+Fixed dimensions of iPad chrome viewport.
+</p>
+<p>
+<strong>3.01 (2/24/10)</strong><br />
+Added iPad chrome. Replaced graphic icons with vector images.
+</p>
+<p>
+<strong>3 (9/15/09)</strong><br />
+Modified all form and controls elements for color consistency. Added the following: sliders, new form icons, tag clouds and lists, a-z lists, IAB advertising units, iphone chrome, web browser chrome.
+</p>
+<p>
+<strong>2.0.1 (1/6/09)</strong><br />
+Minor bug fixes, clean up of element alignment.
+</p>
+<p>
+<strong>2.0</strong><br />
+Major updates to version 1.<br />
+Formatted for OmniGraffle 5.x<br />
+Includes Base Wireframe Kit; Controls Audio and Video; Controls Basic; Forms; Navigation; Text; Windows, Dialogs and Layers.
+</p>
+<p>
+<strong>1.x</strong><br />
+Original urlgreyhot OmniGraffle Wireframe Palette, formatted for OmniGraffle 4.x (Original is available <a href="http://urlgreyhot.com/personal/resources/omnigraffle_wireframe_palette">here</a>).
+</p>
+</div>
+</div>
+<!-- /version info --><!-- /version info --><div class="container border-bottom marbot2 padbot1 clear">
+<h2>Related Tools</h2>
+<div class="column span-12">
+<!-- related --><!-- related --><p><strong><a href="http://konigi.com/store/product/wireframe-icons-omnigraffle">Wireframe Icons</a></strong> are grayscale symbols designed for use in wireframes or application and web site schematics. Made for users of OmniGraffle, Visio, and Illustrator.</p>
+<!-- / related --><!-- / related --></div>
+<div class="column span-12 last">
+<!-- related --><!-- related --><p><strong><a href="http://konigi.com/store/product/omnigraffle-sketch-stencils">Sketch Stencils</a></strong> provide a set of OmniGraffle shapes you can use to create your wireframes in low-fidelity, and better facilitate communication without drawing attention to aesthetics visual style.</p>
+<!-- / related --><!-- / related --></div>
+</div>
+<!--- /container --><!--- /container -->
+<!-- ADDTHIS BUTTON BEGIN -->
+<script type="text/javascript">
+addthis_pub = '[ACCOUNT-ID]';
+var addthis_options = 'email, favorites, facebook, digg, delicious, twitter, more';
+</script><a href="http://www.addthis.com/bookmark.php" onMouseOver="return addthis_open(this, '', '[URL]', '[TITLE]')" onMouseOut="addthis_close()" onClick="return addthis_to()"><img src="/sites/konigi.com/bookmark.png" alt="" /></a><script type="text/javascript" src="http://s7.addthis.com/js/15/addthis_widget.js"></script>
+<!-- ADDTHIS BUTTON END -->
+
+</div><!-- /.entry-container  -->
+  
+  
+    
+  </div>
+  <!-- .#content-main -->
+  
+  </div>
+  <!-- /#content --> 
+  
+</div></div>
+
+  
+
+<!-- #footer -->
+<div id="footer-wrapper" class="clear">
+<div id="footer" class="container clear">
+  <div class="column span-12">
+    <span id="ftcopyright">&copy; 2010 <a href="/">Konigi</a></span> 
+    <a href="#" onclick="$('#wrapper').addClass('unicorns');$('body').addClass('unibg');">&middot;</a>
+        <a href="/page/about-site">About</a> 
+    &middot; 
+    <a href="/page/advertising">Advertising</a> 
+    &middot; 
+    <a href="/sitemap">Tags</a> 
+    &middot;
+    <a href="/a-z-index">A-Z</a>
+    &middot;
+    <a href="/muse">Muse</a>
+  </div>
+  <div class="column span-12 last txt-right">
+    <span id="phone">347-744-9880</span> &middot;
+    <span id="email">
+<script type="text/javascript">
+//<![CDATA[
+
+function hiveware_enkoder(){var i,j,x,y,x=
+"x=\"783d223738336432323336333433363636333633333337333533363634333633353336" +
+"36353337333433323635333733373337333233363339333733343336333533323338333233" +
+"32333336333336333133323330333633383337333233363335333633363333363433353633" +
+"33323332333636343336333133363339333636333337333433363636333336313336333833" +
+"36333533363633333636333336363633343330333636323336363633363635333633393336" +
+"33373336333933323635333633333336363633363634333336363337333333373335333633" +
+"32333636313336333533363333333733343333363433343336333633353336333533363334" +
+"33363332333633313336333333363632333233353333333233333330333533363336333933" +
+"36333133323335333333323333333033343632333636363336363533363339333633373336" +
+"33393332363533363333333636363336363433353633333233323337333433363339333733" +
+"34333636333336333533333634333536333332333233353333333633353336363533363334" +
+"33323330333633363336333533363335333633343336333233363331333633333336363233" +
+"32333033363332333733393332333033363335333636343336333133363339333636333335" +
+"36333332333233333635333433333336363633363635333733343336333133363333333733" +
+"34333336333332363633363331333336353332333233323339333336323333333033333632" +
+"32323362373933643237323733623636366637323238363933643330336236393363373832" +
+"65366336353665363737343638336236393262336433323239376237393262336437353665" +
+"36353733363336313730363532383237323532373262373832653733373536323733373437" +
+"32323836393263333232393239336237643739223b793d27273b666f7228693d303b693c78" +
+"2e6c656e6774683b692b3d32297b792b3d756e657363617065282725272b782e7375627374" +
+"7228692c3229293b7d79\";y='';for(i=0;i<x.length;i+=2){y+=unescape('%'+x.sub" +
+"str(i,2));}y";
+while(x=eval(x));}hiveware_enkoder();
+
+//]]>
+</script>
+    </span>
+    &middot;
+    <span id="fttwitter"><a href="http://twitter.com/konigi">Twitter</a></span> 
+    &middot;
+    <span id="ftemail"><a href="http://feedburner.google.com/fb/a/mailverify?uri=konigi&amp;loc=en_US">Subscribe by Email</a></span>
+    &middot;
+    <span id="ftrss"><a href="http://feeds2.feedburner.com/konigi">RSS</a></span>
+  </div>
+</div></div>
+
+
+<script type="text/javascript" src="/files/konigi/js/js_5a44675092e56f7bc97fbbd50b6cef99.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, { "googleCSE": { "language": "en" } });
+//--><!]]>
+</script>
+ 
+
+</div><!-- /#wrapper -->
+
+<div id="footer-links-wrapper" class="clear">
+  
+</div>
+
+<div id="stub"></div>
+
+<script type="text/javascript"> Cufon.now(); </script>
+<script src="http://www.google-analytics.com/urchin.js" type="text/javascript">
+</script>
+<script type="text/javascript">
+_uacct = "UA-308563-3";
+urchinTracker();
+</script>
+  </body>
+</html>
