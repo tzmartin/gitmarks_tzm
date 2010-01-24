@@ -1,0 +1,1919 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html dir='ltr' xmlns='http://www.w3.org/1999/xhtml' xmlns:b='http://www.google.com/2005/gml/b' xmlns:data='http://www.google.com/2005/gml/data' xmlns:expr='http://www.google.com/2005/gml/expr'>
+<head>
+<script type='text/javascript'>var _sf_startpt=(new Date()).getTime()</script>
+<meta content='text/html; charset=UTF-8' http-equiv='Content-Type'/>
+<script type="text/javascript">(function() { var a=window;function c(b){this.t={};this.tick=function(d,i,e){e=e?e:(new Date).getTime();this.t[d]=[e,i]};this.tick("start",null,b)}var f=new c;a.jstiming={Timer:c,load:f};try{var g=null;if(a.chrome&&a.chrome.csi)g=Math.floor(a.chrome.csi().pageT);if(g==null)if(a.gtbExternal)g=a.gtbExternal.pageT();if(g==null)if(a.external)g=a.external.pageT;if(g)a.jstiming.pt=g}catch(h){};a.tickAboveFold=function(b){b=b;var d=0;if(b.offsetParent){do d+=b.offsetTop;while(b=b.offsetParent)}b=d;b<=750&&a.jstiming.load.tick("aft")};var j=false;function k(){if(!j){j=true;a.jstiming.load.tick("firstScrollTime")}}a.addEventListener?a.addEventListener("scroll",k,false):a.attachEvent("onscroll",k);
+ })();</script>
+<script type="text/javascript">var JSCompiler_inline_result$$1;var userAgent$$inline_3=navigator.userAgent;JSCompiler_inline_result$$1=userAgent$$inline_3.indexOf("Mobile")!=-1&&userAgent$$inline_3.indexOf("WebKit")!=-1&&userAgent$$inline_3.indexOf("iPad")==-1?true:false;
+if(JSCompiler_inline_result$$1)a:{var search$$inline_9=window.location.search;if(search$$inline_9){for(var params$$inline_10=window.location.search.split("&"),i$$inline_11=0;i$$inline_11<params$$inline_10.length;i$$inline_11++){var key$$inline_12=params$$inline_10.split("=")[0];if(key$$inline_12=="m")break a}window.location.search=search$$inline_9+"&m=1"}else window.location.search="m=1"};
+</script>
+<meta content='true' name='MSSmartTagsPreventParsing'/>
+<meta content='blogger' name='generator'/>
+<link href='http://www.blogger.com/favicon.ico' rel='icon' type='image/vnd.microsoft.icon'/>
+<link href='http://blog.louisgray.com/2009/10/proposed-salmon-protocol-aims-to-unify.html' rel='canonical'/>
+<link rel="alternate" type="application/atom+xml" title="louisgray.com - Atom" href="http://blog.louisgray.com/feeds/posts/default" />
+<link rel="alternate" type="application/rss+xml" title="louisgray.com - RSS" href="http://blog.louisgray.com/feeds/posts/default?alt=rss" />
+<link rel="service.post" type="application/atom+xml" title="louisgray.com - Atom" href="http://www.blogger.com/feeds/5457053325034642093/posts/default" />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://www.blogger.com/rsd.g?blogID=5457053325034642093" />
+<link rel="image_src" href="http://3.bp.blogspot.com/_rjZmFhS0LSw/S7Gx0s72FXI/AAAAAAAAAaA/79kc6GU-YC8/s72-c/salmon_2.png" />
+<!--[if IE]> <script> (function() { var html5 = ("abbr,article,aside,audio,canvas,datalist,details," + "figure,footer,header,hgroup,mark,menu,meter,nav,output," + "progress,section,time,video").split(','); for (var i = 0; i < html5.length; i++) { document.createElement(html5[i]); } })(); </script> <![endif]-->
+<script src='http://s15.sitemeter.com/js/counter.js?site=s15lgraycom' type='text/javascript'></script>
+<title>louisgray.com: Proposed Salmon Protocol Aims To Unify Conversations on the Web</title>
+<link href='http://pubsubhubbub.appspot.com' rel='hub'/>
+<link type='text/css' rel='stylesheet' href='http://www.blogger.com/static/v1/widgets/1743847221-widget_css_bundle.css' />
+ <link rel="stylesheet" type="text/css" href="http://www.blogger.com/dyn-css/authorization.css?targetBlogID=5457053325034642093&zx=eac60bac-205a-4771-ad18-21c50cabf3b8"/>
+<style type="text/css">#navbar-iframe { display:block }
+</style>
+
+<style id='page-skin-1' type='text/css'><!--
+/*
+-----------------------------------------------
+Blogger Template Style
+Name:     Rounders
+Designer: Douglas Bowman
+URL:      www.stopdesign.com
+Date:     27 Feb 2004
+Updated by: Blogger Team
+----------------------------------------------- */
+/* Variable definitions
+====================
+<Variable name="mainBgColor" description="Main Background Color"
+type="color" default="#fff">
+<Variable name="mainTextColor" description="Text Color" type="color"
+default="#333">
+<Variable name="postTitleColor" description="Post Title Color" type="color"
+default="#333">
+<Variable name="dateHeaderColor" description="Date Header Color"
+type="color" default="#357">
+<Variable name="borderColor" description="Post Border Color" type="color"
+default="#a25e51">
+<Variable name="mainLinkColor" description="Link Color" type="color"
+default="#258">
+<Variable name="mainVisitedLinkColor" description="Visited Link Color"
+type="color" default="#666">
+<Variable name="titleBgColor" description="Page Header Background Color"
+type="color" default="#fff">
+<Variable name="titleTextColor" description="Blog Title Color"
+type="color" default="#fff">
+<Variable name="topSidebarHeaderColor"
+description="Top Sidebar Title Color"
+type="color" default="#234">
+<Variable name="topSidebarBgColor"
+description="Top Sidebar Background Color"
+type="color" default="#fff">
+<Variable name="topSidebarTextColor" description="Top Sidebar Text Color"
+type="color" default="#345">
+<Variable name="topSidebarLinkColor" description="Top Sidebar Link Color"
+type="color" default="#258">
+<Variable name="topSidebarVisitedLinkColor"
+description="Top Sidebar Visited Link Color"
+type="color" default="#258">
+<Variable name="bodyFont" description="Text Font" type="font"
+default="normal normal 100% 'Trebuchet MS',Verdana,Arial,Sans-serif">
+<Variable name="pageTitleFont" description="Blog Title Font" type="font"
+default="normal bold 200% 'Trebuchet MS',Verdana,Arial,Sans-serif">
+<Variable name="descriptionFont" description="Blog Description Font" type="font"
+default="normal normal 100% 'Trebuchet MS',Verdana,Arial,Sans-serif">
+<Variable name="headerFont" description="Sidebar Title Font" type="font"
+default="normal bold 100% 'Trebuchet MS',Verdana,Arial,Sans-serif">
+<Variable name="postTitleFont" description="Post Title Font" type="font"
+default="normal bold 135% 'Trebuchet MS',Verdana,Arial,Sans-serif">
+<Variable name="startSide" description="Start side in blog language"
+type="automatic" default="left">
+<Variable name="endSide" description="End side in blog language"
+type="automatic" default="right">
+*/
+body {
+background:#59867b;
+margin:0;
+text-align:center;
+line-height: 1.5em;
+font:x-small Trebuchet MS, Verdana, Arial, Sans-serif;
+color:#333333;
+font-size/* */:/**/small;
+font-size: /**/small;
+}
+/* Page Structure
+----------------------------------------------- */
+/* The images which help create rounded corners depend on the
+following widths and measurements. If you want to change
+these measurements, the images will also need to change.
+*/
+#navbar {
+height: 0px;
+visibility: hidden;
+display: none;
+}
+#disqus_thread, #disqus_thread #dsq-content {
+width: 100%;
+}
+#outer-wrapper {
+width:890px;
+margin:0 auto;
+text-align:left;
+font: normal normal 100% 'Trebuchet MS',Verdana,Arial,Sans-serif;
+}
+#main-wrap1 {
+width:635px;
+float:left;
+background:#ffffff url("http://www.louisgray.com/graphics/corners_main_bot.gif") no-repeat left bottom;
+margin:15px 0 0;
+padding:0 0 10px;
+color:#333333;
+font-size:97%;
+line-height:1.5em;
+word-wrap: break-word; /* fix for long text breaking sidebar float in IE */
+overflow: hidden;     /* fix for long non-text content breaking IE sidebar float */
+}
+#main-wrap2 {
+float:left;
+width:100%;
+background:url("http://www.louisgray.com/graphics/corners_main_top.gif") no-repeat left top;
+padding:10px 0 0;
+}
+#main {
+background:url("http://www.louisgray.com/graphics/rails_main.gif") repeat-y left;
+padding:0;
+width:635px;
+}
+#sidebar-wrap {
+width:240px;
+float:right;
+margin:15px 0 0;
+font-size:97%;
+line-height:1.5em;
+word-wrap: break-word; /* fix for long text breaking sidebar float in IE */
+overflow: hidden;     /* fix for long non-text content breaking IE sidebar float */
+}
+.main .widget {
+margin-top: 4px;
+width: 635px;
+padding: 0 13px;
+}
+.main .Blog {
+margin: 0;
+padding: 0;
+width: 635px;
+}
+/* Links
+----------------------------------------------- */
+a:link {
+color: #225588;
+}
+a:visited {
+color: #666666;
+}
+a:hover {
+color: #666666;
+}
+a img {
+border-width:0;
+}
+/* Blog Header
+----------------------------------------------- */
+#header-wrapper {
+background:#ffffff url("http://www.louisgray.com/graphics/corners_cap_top.gif") no-repeat left top;
+margin-top:22px;
+margin-right:0;
+margin-bottom:0;
+margin-left:0;
+padding-top:8px;
+padding-right:0;
+padding-bottom:0;
+padding-left:0;
+color:#ffffff;
+}
+#header {
+background:url("http://www.louisgray.com/graphics/corners_cap_bot.gif") no-repeat left bottom;
+padding:0 15px 8px;
+}
+#header h1 {
+margin:0;
+padding:10px 30px 5px;
+line-height:1.2em;
+font: normal bold 200% 'Trebuchet MS',Verdana,Arial,Sans-serif;
+}
+#header a,
+#header a:visited {
+text-decoration:none;
+color: #ffffff;
+}
+#header .description {
+margin:0;
+padding:5px 30px 10px;
+line-height:1.5em;
+font: normal normal 100% 'Trebuchet MS',Verdana,Arial,Sans-serif;
+}
+/* Posts
+----------------------------------------------- */
+h2.date-header {
+margin-top:0;
+margin-right:28px;
+margin-bottom:0;
+margin-left:43px;
+font-size:85%;
+line-height:2em;
+text-transform:uppercase;
+letter-spacing:.2em;
+color:#335577;
+}
+.post {
+margin:.3em 0 25px;
+padding:0 13px;
+border:1px dotted #a25e51;
+border-width:1px 0;
+}
+.post h3 {
+margin:0;
+line-height:1.5em;
+background:url("http://www2.blogblog.com/rounders/icon_arrow.gif") no-repeat 10px .5em;
+display:block;
+border:1px dotted #a25e51;
+border-width:0 1px 1px;
+padding-top:2px;
+padding-right:14px;
+padding-bottom:2px;
+padding-left:29px;
+color: #333333;
+font: normal bold 135% 'Trebuchet MS',Verdana,Arial,Sans-serif;
+}
+.post h3 a, .post h3 a:visited {
+text-decoration:none;
+color: #333333;
+}
+a.title-link:hover {
+background-color: #a25e51;
+color: #333333;
+}
+.post-body {
+border:1px dotted #a25e51;
+border-width:0 1px 1px;
+border-bottom-color:#ffffff;
+padding-top:10px;
+padding-right:14px;
+padding-bottom:1px;
+padding-left:29px;
+}
+html>body .post-body {
+border-bottom-width:0;
+}
+.post-body {
+margin:0 0 .75em;
+}
+.post-body blockquote {
+line-height:1.3em;
+}
+.post-footer {
+background: #fff;
+margin:0;
+padding-top:2px;
+padding-right:14px;
+padding-bottom:2px;
+padding-left:29px;
+border:1px dotted #a25e51;
+border-width:1px;
+font-size:100%;
+line-height:1.5em;
+color: #666;
+}
+/*
+The first line of the post footer might only have floated text, so we need to give it a height.
+The height comes from the post-footer line-height
+*/
+.post-footer-line-1 {
+min-height:1.5em;
+_height:1.5em;
+}
+.post-footer p {
+margin: 0;
+}
+html>body .post-footer {
+border-bottom-color:transparent;
+}
+.uncustomized-post-template .post-footer {
+text-align: right;
+}
+.uncustomized-post-template .post-author,
+.uncustomized-post-template .post-timestamp {
+display: block;
+float: left;
+text-align:left;
+margin-right: 4px;
+}
+.post-footer a {
+color: #258;
+}
+.post-footer a:hover {
+color: #666;
+}
+a.comment-link {
+/* IE5.0/Win doesn't apply padding to inline elements,
+so we hide these two declarations from it */
+background/* */:/**/url("http://www.blogblog.com/rounders/icon_comment_left.gif") no-repeat left 45%;
+padding-left:14px;
+}
+html>body a.comment-link {
+/* Respecified, for IE5/Mac's benefit */
+background:url("http://www.blogblog.com/rounders/icon_comment_left.gif") no-repeat left 45%;
+padding-left:14px;
+}
+.post img {
+margin-top:0;
+margin-right:0;
+margin-bottom:5px;
+margin-left:0;
+padding:4px;
+border:0px solid #a25e51;
+}
+blockquote {
+margin:.75em 0;
+border:1px dotted #a25e51;
+border-width:1px 0;
+padding:5px 15px;
+color: #335577;
+}
+.post blockquote p {
+margin:.5em 0;
+}
+#blog-pager-newer-link {
+float: left;
+margin-left: 13px;
+}
+#blog-pager-older-link {
+float: right;
+margin-right: 13px;
+}
+#blog-pager {
+text-align: center;
+}
+.feed-links {
+clear: both;
+line-height: 2.5em;
+margin-left: 13px;
+}
+/* Comments
+----------------------------------------------- */
+#comments {
+margin:-25px 13px 0;
+border:1px dotted #a25e51;
+border-width:0 1px 1px;
+padding-top:20px;
+padding-right:0;
+padding-bottom:15px;
+padding-left:0;
+}
+#comments h4 {
+margin:0 0 10px;
+padding-top:0;
+padding-right:14px;
+padding-bottom:2px;
+padding-left:29px;
+border-bottom:1px dotted #a25e51;
+font-size:120%;
+line-height:1.4em;
+color:#333333;
+}
+#comments-block {
+margin-top:0;
+margin-right:15px;
+margin-bottom:0;
+margin-left:9px;
+}
+.comment-author {
+background:url("http://www.blogblog.com/rounders/icon_comment_left.gif") no-repeat 2px .3em;
+margin:.5em 0;
+padding-top:0;
+padding-right:0;
+padding-bottom:0;
+padding-left:20px;
+font-weight:bold;
+}
+.comment-body {
+margin:0 0 1.25em;
+padding-top:0;
+padding-right:0;
+padding-bottom:0;
+padding-left:20px;
+}
+.comment-body p {
+margin:0 0 .5em;
+}
+.comment-footer {
+margin:0 0 .5em;
+padding-top:0;
+padding-right:0;
+padding-bottom:.75em;
+padding-left:20px;
+}
+.comment-footer a:link {
+color: #333;
+}
+.deleted-comment {
+font-style:italic;
+color:gray;
+}
+.comment-form {
+padding-left:20px;
+padding-right:5px;
+}
+#comments .comment-form h4 {
+padding-left:0px;
+}
+/* Profile
+----------------------------------------------- */
+.profile-img {
+float: left;
+margin-top: 5px;
+margin-right: 5px;
+margin-bottom: 5px;
+margin-left: 0;
+border: 4px solid #334455;
+}
+.profile-datablock {
+margin-top:0;
+margin-right:15px;
+margin-bottom:.5em;
+margin-left:0;
+padding-top:8px;
+}
+.profile-link {
+background:url("http://www.blogblog.com/rounders/icon_profile_left.gif") no-repeat left .1em;
+padding-left:15px;
+font-weight:bold;
+}
+.profile-textblock {
+clear: both;
+margin: 0;
+}
+.sidebar .clear, .main .widget .clear {
+clear: both;
+}
+#sidebartop-wrap {
+background:#ffffff url("http://www.blogblog.com/rounders/corners_prof_bot.gif") no-repeat left bottom;
+margin:0px 0px 15px;
+padding:0px 0px 10px;
+color:#334455;
+}
+#sidebartop-wrap2 {
+background:url("http://www2.blogblog.com/rounders/corners_prof_top.gif") no-repeat left top;
+padding: 10px 0 0;
+margin:0;
+border-width:0;
+}
+#sidebartop h2 {
+line-height:1.5em;
+color:#223344;
+border-bottom: 1px dotted #223344;
+margin-bottom: 0.5em;
+font: normal bold 100% 'Trebuchet MS',Verdana,Arial,Sans-serif;
+}
+#sidebartop a {
+color: #225588;
+}
+#sidebartop a:hover {
+color: #225588;
+}
+#sidebartop a:visited {
+color: #225588;
+}
+/* Sidebar Boxes
+----------------------------------------------- */
+.sidebar .widget {
+margin:.5em 13px 1.25em;
+padding:0 0px;
+}
+.widget-content {
+margin-top: 0.5em;
+}
+#sidebarbottom-wrap1 {
+background:#ffffff url("http://www.blogblog.com/rounders/corners_side_top.gif") no-repeat left top;
+margin:0 0 15px;
+padding:10px 0 0;
+color: #333333;
+}
+#sidebarbottom-wrap2 {
+background:url("http://www1.blogblog.com/rounders/corners_side_bot.gif") no-repeat left bottom;
+padding:0 0 8px;
+}
+.sidebar h2 {
+margin:0;
+padding:0 0 .2em;
+line-height:1.5em;
+font:normal bold 100% 'Trebuchet MS',Verdana,Arial,Sans-serif;
+}
+.sidebar ul {
+list-style:none;
+margin:0 0 1.25em;
+padding:0;
+}
+.sidebar ul li {
+background:url("http://www2.blogblog.com/rounders/icon_arrow_sm.gif") no-repeat 2px .25em;
+margin:0;
+padding-top:0;
+padding-right:0;
+padding-bottom:3px;
+padding-left:16px;
+margin-bottom:3px;
+border-bottom:1px dotted #a25e51;
+line-height:1.4em;
+}
+.sidebar p {
+margin:0 0 .6em;
+}
+#sidebar h2 {
+color: #333333;
+border-bottom: 1px dotted #333333;
+}
+/* Footer
+----------------------------------------------- */
+#footer-wrap1 {
+clear:both;
+margin:0 0 10px;
+padding:15px 0 0;
+}
+#footer-wrap2 {
+background:#ffffff url("http://www.louisgray.com/graphics/corners_cap_top.gif") no-repeat left top;
+color:#ffffff;
+}
+#footer {
+background:url("http://www.louisgray.com/graphics/corners_cap_bot.gif") no-repeat left bottom;
+padding:8px 15px;
+}
+#footer hr {display:none;}
+#footer p {margin:0;}
+#footer a {color:#333333;}
+#footer .widget-content {
+margin:0;
+}
+/** Page structure tweaks for layout editor wireframe */
+body#layout #main-wrap1,
+body#layout #sidebar-wrap,
+body#layout #header-wrapper {
+margin-top: 0;
+}
+body#layout #header, body#layout #header-wrapper,
+body#layout #outer-wrapper {
+margin-left:0,
+margin-right: 0;
+padding: 0;
+}
+body#layout #outer-wrapper {
+width: 730px;
+}
+body#layout #footer-wrap1 {
+padding-top: 0;
+}
+
+--></style>
+<script type='text/javascript'>
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type='text/javascript'>
+var pageTracker = _gat._getTracker("UA-470381-4");
+pageTracker._initData();
+pageTracker._trackPageview();
+</script>
+<script type="text/javascript">
+if (window.jstiming) window.jstiming.load.tick('headEnd');
+</script></head>
+<!-- Start Quantcast tag -->
+<script type='text/javascript'>
+_qoptions={
+qacct:"p-52w2Qfqlj-e0M"
+};
+</script>
+<script src='http://edge.quantserve.com/quant.js' type='text/javascript'></script>
+<noscript>
+<img alt='Quantcast' border='0' height='1' src='http://pixel.quantserve.com/pixel/p-52w2Qfqlj-e0M.gif' style='display: none;' width='1'/>
+</noscript>
+<!-- End Quantcast tag -->
+<head>
+<script src='http://platform.twitter.com/anywhere.js?id=cscOTC8fqErmbOOvYMZhiA'>
+</script>
+<script type='text/javascript'>
+     twttr.anywhere(function(twitter) {
+              twitter.hovercards();
+     });
+  </script>
+</head>
+<body>
+<div class='navbar section' id='navbar'><div class='widget Navbar' id='Navbar1'><script type="text/javascript">
+    function setAttributeOnload(object, attribute, val) {
+      if(window.addEventListener) {
+        window.addEventListener("load",
+          function(){ object[attribute] = val; }, false);
+      } else {
+        window.attachEvent('onload', function(){ object[attribute] = val; });
+      }
+    }
+  </script>
+<iframe src="http://www.blogger.com/navbar.g?targetBlogID=5457053325034642093&amp;blogName=louisgray.com&amp;publishMode=PUBLISH_MODE_HOSTED&amp;navbarType=LIGHT&amp;layoutType=LAYOUTS&amp;searchRoot=http%3A%2F%2Fblog.louisgray.com%2Fsearch&amp;blogLocale=en_US&amp;homepageUrl=http%3A%2F%2Fblog.louisgray.com%2F&amp;targetPostID=1473770986111111622" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" height="30px" width="100%" id="navbar-iframe" allowtransparency="true" title="Blogger Navigation and Search"></iframe>
+<div></div></div></div>
+<div id='outer-wrapper'>
+<div id='header-wrapper'>
+<div class='header section' id='header'><div class='widget Header' id='Header1'>
+<div id='header-inner'>
+<a href='http://blog.louisgray.com/' style='display: block'>
+<img alt='louisgray.com' height='106px; ' id='Header1_headerimg' src='http://2.bp.blogspot.com/_rjZmFhS0LSw/SuAGxdFCNpI/AAAAAAAAAEk/pqtxdLrFQak/S1600-R/Screen+shot+2009-10-21+at+10.47.07+PM.jpg' style='display: block' width='867px; '/>
+</a>
+</div>
+</div></div>
+</div>
+<div id='crosscol-wrapper' style='text-align:center'>
+<div class='crosscol section' id='crosscol'></div>
+</div>
+<div id='main-wrap1'><div id='main-wrap2'>
+<div class='main section' id='main'><div class='widget Blog' id='Blog1'>
+<div class='blog-posts hfeed'>
+<!-- google_ad_section_start(name=default) -->
+
+          <div class="date-outer">
+        
+<h2 class='date-header'><span>Saturday, October 17, 2009</span></h2>
+
+          <div class="date-posts">
+        
+<div class='post-outer'>
+<div class='post hentry uncustomized-post-template'>
+<span id='tweetmeme-blogger-gadget' style='float: right; margin: 5px; vertical-align: middle; background: transparent;'><script type='text/javascript'>tweetmeme_url = 'http://blog.louisgray.com/2009/10/proposed-salmon-protocol-aims-to-unify.html';tweetmeme_style = 'compact';tweetmeme_source = 'louisgray';tweetmeme_service = 'bit.ly';</script><script src='http://tweetmeme.com/i/scripts/button.js' type='text/javascript'></script></span>
+<a name='1473770986111111622'></a>
+<h3 class='post-title entry-title'>
+<a href='http://blog.louisgray.com/2009/10/proposed-salmon-protocol-aims-to-unify.html'>Proposed Salmon Protocol Aims To Unify Conversations on the Web</a>
+</h3>
+<div class='post-header-line-1'></div>
+<div class='post-body entry-content'>
+<center></center><br />
+<div class="separator" style="clear: both; text-align: center;"><a href="http://3.bp.blogspot.com/_rjZmFhS0LSw/S7Gx0s72FXI/AAAAAAAAAaA/79kc6GU-YC8/s1600-h/salmon_2.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="68" src="http://3.bp.blogspot.com/_rjZmFhS0LSw/S7Gx0s72FXI/AAAAAAAAAaA/79kc6GU-YC8/s400/salmon_2.png" width="400" /></a></div><br />
+As comments on the Web become fragmented, conversations that occur on downstream aggregation sites often are taking place in a silo, disjointed from parallel discussions on the originating Web site. Over the last two years, many people have found this evolution controversial, hoping to unify the conversations in a central location - and some services, including <a href="http://js-kit.com/" target="new">JS-Kit's Echo</a> and <a href="http://js-kit.com/" target="new">Disqus</a>, have taken the first step by pulling external discussions to the source. But a brand new proposal, authored by <a href="http://www.abstractioneer.org/" target="new">John Panzer of Blogger</a>, called the <a href="http://www.salmon-protocol.org/" target="new">Salmon Protocol</a>, is looking to take advantage of <a href="http://pubsubhubbub.googlecode.com/" target="new">Pubsubhubbub</a> to unify the conversations in all places, both upstream and downstream. And yes... the name of Salmon comes because those fish manage to swim upstream, just like the comments.<br />
+<br />
+<br />
+<center><iframe frameborder="0" height="451" src="http://docs.google.com/present/embed?id=dfjqf7vg_5cc7c976f&amp;size=m" width="555"></iframe><br />
+An Initial Presentation on the Salmon Protocol</center><br />
+As discussed in Friday's panel at Blog World Expo on technology and the real-time Web, Pubsubhubbub essentially works as a middle-man conduit, taking information from a data's source passing along changed data to downstream destination sites. The proposed Salmon Protocol would similarly watch both source and destination sites for comments, and upon discovering new comments, it would send the new comments to the site which is lacking the full conversation. If multiple downstream destinations are designated, the Salmon Protocol will also populate these multiple sites.<br />
+<br />
+In conjunction with Pubsubhubbub, the Salmon Protocol leverages the newest iteration of <a href="http://code.google.com/p/webfinger/" target="new">webfinger</a>, enabling publishers to receive comments and verify subscribers - as a form of true identity recognition, similar to how both Disqus and JS-Kit have you register for individual accounts with either service. An additional side benefit to leveraging Webfinger would be to dramatically reduce the potential for spam, assuming each individual has a unique ID.<br />
+<br />
+The debate over fractured conversations has risen and fallen over the last two years. <a href="http://blog.louisgray.com/2009/09/i-dont-want-to-hear-about-distributed.html" target="new">In September, I essentially said I was done listening</a> to people complain about the issue after hearing complaints regarding Google SideWiki - as I believe people will want to have conversations where they are comfortable, and that they shouldn't be forced to come back to a single source. This is a point I have been hammering since the first major flareup back in April of 2008. (See: <a href="http://www.louisgray.com/live/2008/04/should-fractured-feed-reader-comments.html">Should Fractured Feed Reader Comments Raise Blog Owners' Ire?</a>)<br />
+<br />
+Many people believe that transporting comments from one site to another and making the conversations one could cause confusion, or even make potential commenters uncomfortable. With this in mind, John has suggested that users "be made aware of the publishing scope of the comments they leave," adding "For some aggregators, this may be implied (all data is public), for others a warning or a checkbox may be necessary." (See: Salmon Protocol <a href="http://www.salmon-protocol.org/salmon-protocol-summary">(Draft) Protocol Summary</a>)<br />
+<br />
+<br />
+<center><img hspace="5" src="http://www.louisgray.com/graphics/salmoncomment_550.jpg" vspace="5" /><br />
+A Test Comment from the Aggregator Via Salmon</center><br />
+<br />
+<center><img hspace="5" src="http://www.louisgray.com/graphics/salmoncomment_550b.jpg" vspace="5" /><br />
+The Resulting Comment Back On the Blog Via Salmon</center><br />
+<a href="http://salmon-playground.appspot.com/ros" target="new">There is a test playground</a> for the Salmon Protocol, and I can verify that it already works. If you want to test it, one option is to take a testbed Blogger account and point the Salmon Protocol your way. It occurs automatically, and comments that happen on the downstream aggregator will make it back to the blog immediately, thanks to Pubsubhubbub. Now, the quest becomes to turn this brand-new protocol into a new standard - one that could pose a serious challenge to services like JS-Kit Echo and Disqus, even including threaded replies. If done well, the long debate over unified conversations could soon be over.<br />
+<br />
+Learn more at: <a href="http://www.salmon-protocol.org/" target="new">http://www.salmon-protocol.org/</a>.
+<div style='clear: both;'></div>
+</div>
+<div class='post-footer'>
+<script charset='utf-8' src='http://feeds.feedburner.com/~s/LouisgraycomLive?i=http://blog.louisgray.com/2009/10/proposed-salmon-protocol-aims-to-unify.html' type='text/javascript'></script>
+<div class='post-footer-line post-footer-line-1'>
+<span class='post-author vcard'>
+Posted by
+<span class='fn'>Louis Gray</span>
+</span>
+<span class='post-timestamp'>
+at
+<a class='timestamp-link' href='http://blog.louisgray.com/2009/10/proposed-salmon-protocol-aims-to-unify.html' rel='bookmark' title='permanent link'><abbr class='published' title='2009-10-17T01:50:00-07:00'>1:50 AM</abbr></a>
+</span>
+<span class='reaction-buttons'>
+</span>
+<span class='star-ratings'>
+</span>
+<span class='post-comment-link'>
+</span>
+<span class='post-backlinks post-comment-link'>
+</span>
+<span class='post-icons'>
+</span>
+</div>
+<div class='post-footer-line post-footer-line-2'>
+<div class='post-share-buttons'>
+<a class='share-button sb-email' href='http://www.blogger.com/share-post.g?blogID=5457053325034642093&postID=1473770986111111622&target=email' target='_blank' title='Email This'>
+<span class='share-button-link-text'>Email This</span></a>
+<a class='share-button sb-blog' href='http://www.blogger.com/share-post.g?blogID=5457053325034642093&postID=1473770986111111622&target=blog' onclick='window.open(this.href, "_blank", "height=270,width=475"); return false;' target='_blank' title='BlogThis!'>
+<span class='share-button-link-text'>BlogThis!</span></a>
+<a class='share-button sb-twitter' href='http://www.blogger.com/share-post.g?blogID=5457053325034642093&postID=1473770986111111622&target=twitter' target='_blank' title='Share to Twitter'>
+<span class='share-button-link-text'>Share to Twitter</span></a>
+<a class='share-button sb-facebook' href='http://www.blogger.com/share-post.g?blogID=5457053325034642093&postID=1473770986111111622&target=facebook' onclick='window.open(this.href, "_blank", "height=430,width=640"); return false;' target='_blank' title='Share to Facebook'>
+<span class='share-button-link-text'>Share to Facebook</span></a>
+<a class='share-button sb-buzz' href='http://www.blogger.com/share-post.g?blogID=5457053325034642093&postID=1473770986111111622&target=buzz' onclick='window.open(this.href, "_blank", "height=415,width=690"); return false;' target='_blank' title='Share to Google Buzz'>
+<span class='share-button-link-text'>Share to Google Buzz</span></a>
+</div>
+</div>
+<div class='post-footer-line post-footer-line-3'>
+<span class='post-location'>
+</span>
+</div>
+</div>
+</div>
+<script src='http://scripts.dotspots.com/blogwidget.js' type='text/javascript'></script>
+<div class='comments' id='comments'>
+<a name='comments'></a>
+<div class='comments'>
+</div>
+<div id='disqus_thread'></div>
+<div id='disqus_post_title' style='display:none;'>Proposed Salmon Protocol Aims To Unify Conversations on the Web</div>
+<div id='disqus_post_message' style='display:none;'><center></center><br />
+<div class="separator" style="clear: both; text-align: center;"><a href="http://3.bp.blogspot.com/_rjZmFhS0LSw/S7Gx0s72FXI/AAAAAAAAAaA/79kc6GU-YC8/s1600-h/salmon_2.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="68" src="http://3.bp.blogspot.com/_rjZmFhS0LSw/S7Gx0s72FXI/AAAAAAAAAaA/79kc6GU-YC8/s400/salmon_2.png" width="400" /></a></div><br />
+As comments on the Web become fragmented, conversations that occur on downstream aggregation sites often are taking place in a silo, disjointed from parallel discussions on the originating Web site. Over the last two years, many people have found this evolution controversial, hoping to unify the conversations in a central location - and some services, including <a href="http://js-kit.com/" target="new">JS-Kit's Echo</a> and <a href="http://js-kit.com/" target="new">Disqus</a>, have taken the first step by pulling external discussions to the source. But a brand new proposal, authored by <a href="http://www.abstractioneer.org/" target="new">John Panzer of Blogger</a>, called the <a href="http://www.salmon-protocol.org/" target="new">Salmon Protocol</a>, is looking to take advantage of <a href="http://pubsubhubbub.googlecode.com/" target="new">Pubsubhubbub</a> to unify the conversations in all places, both upstream and downstream. And yes... the name of Salmon comes because those fish manage to swim upstream, just like the comments.<br />
+<br />
+<br />
+<center><iframe frameborder="0" height="451" src="http://docs.google.com/present/embed?id=dfjqf7vg_5cc7c976f&amp;size=m" width="555"></iframe><br />
+An Initial Presentation on the Salmon Protocol</center><br />
+As discussed in Friday's panel at Blog World Expo on technology and the real-time Web, Pubsubhubbub essentially works as a middle-man conduit, taking information from a data's source passing along changed data to downstream destination sites. The proposed Salmon Protocol would similarly watch both source and destination sites for comments, and upon discovering new comments, it would send the new comments to the site which is lacking the full conversation. If multiple downstream destinations are designated, the Salmon Protocol will also populate these multiple sites.<br />
+<br />
+In conjunction with Pubsubhubbub, the Salmon Protocol leverages the newest iteration of <a href="http://code.google.com/p/webfinger/" target="new">webfinger</a>, enabling publishers to receive comments and verify subscribers - as a form of true identity recognition, similar to how both Disqus and JS-Kit have you register for individual accounts with either service. An additional side benefit to leveraging Webfinger would be to dramatically reduce the potential for spam, assuming each individual has a unique ID.<br />
+<br />
+The debate over fractured conversations has risen and fallen over the last two years. <a href="http://blog.louisgray.com/2009/09/i-dont-want-to-hear-about-distributed.html" target="new">In September, I essentially said I was done listening</a> to people complain about the issue after hearing complaints regarding Google SideWiki - as I believe people will want to have conversations where they are comfortable, and that they shouldn't be forced to come back to a single source. This is a point I have been hammering since the first major flareup back in April of 2008. (See: <a href="http://www.louisgray.com/live/2008/04/should-fractured-feed-reader-comments.html">Should Fractured Feed Reader Comments Raise Blog Owners' Ire?</a>)<br />
+<br />
+Many people believe that transporting comments from one site to another and making the conversations one could cause confusion, or even make potential commenters uncomfortable. With this in mind, John has suggested that users "be made aware of the publishing scope of the comments they leave," adding "For some aggregators, this may be implied (all data is public), for others a warning or a checkbox may be necessary." (See: Salmon Protocol <a href="http://www.salmon-protocol.org/salmon-protocol-summary">(Draft) Protocol Summary</a>)<br />
+<br />
+<br />
+<center><img hspace="5" src="http://www.louisgray.com/graphics/salmoncomment_550.jpg" vspace="5" /><br />
+A Test Comment from the Aggregator Via Salmon</center><br />
+<br />
+<center><img hspace="5" src="http://www.louisgray.com/graphics/salmoncomment_550b.jpg" vspace="5" /><br />
+The Resulting Comment Back On the Blog Via Salmon</center><br />
+<a href="http://salmon-playground.appspot.com/ros" target="new">There is a test playground</a> for the Salmon Protocol, and I can verify that it already works. If you want to test it, one option is to take a testbed Blogger account and point the Salmon Protocol your way. It occurs automatically, and comments that happen on the downstream aggregator will make it back to the blog immediately, thanks to Pubsubhubbub. Now, the quest becomes to turn this brand-new protocol into a new standard - one that could pose a serious challenge to services like JS-Kit Echo and Disqus, even including threaded replies. If done well, the long debate over unified conversations could soon be over.<br />
+<br />
+Learn more at: <a href="http://www.salmon-protocol.org/" target="new">http://www.salmon-protocol.org/</a>.</div>
+<script type='text/javascript'>
+        var disqus_url = 'http://blog.louisgray.com/2009/10/proposed-salmon-protocol-aims-to-unify.html';
+        var disqus_title = document.getElementById('disqus_post_title').innerHTML;
+        var disqus_message = document.getElementById('disqus_post_message').innerHTML;
+      </script>
+<script src='http://disqus.com/forums/louisgray/embed.js' type='text/javascript'></script>
+<noscript><a href='http://louisgray.disqus.com/?url=http://blog.louisgray.com/2009/10/proposed-salmon-protocol-aims-to-unify.html'>View the entire comment thread.</a></noscript>
+<a class='dsq-brlink' href='http://disqus.com'>blog comments powered by <span class='logo-disqus'>Disqus</span></a>
+<div id='backlinks-container'>
+<div id='Blog1_backlinks-container'>
+</div>
+</div>
+</div>
+</div>
+<div id="latency-1473770986111111622"></div><script type="text/javascript">if (window['tickAboveFold']) {window['tickAboveFold'](document.getElementById("latency-1473770986111111622")); } </script>
+
+        </div></div>
+      
+<!-- google_ad_section_end -->
+</div>
+<div class='blog-pager' id='blog-pager'>
+<span id='blog-pager-newer-link'>
+<a class='blog-pager-newer-link' href='http://blog.louisgray.com/2009/10/gary-burd-exits-facebook-two-months.html' id='Blog1_blog-pager-newer-link' title='Newer Post'>Newer Post</a>
+</span>
+<span id='blog-pager-older-link'>
+<a class='blog-pager-older-link' href='http://blog.louisgray.com/2009/10/blogs-place-in-world-of-microblogging.html' id='Blog1_blog-pager-older-link' title='Older Post'>Older Post</a>
+</span>
+<a class='home-link' href='http://blog.louisgray.com/'>Home</a>
+</div>
+<div class='clear'></div>
+<div class='post-feeds'>
+</div>
+</div></div>
+</div></div>
+<div id='sidebar-wrap'>
+<div id='sidebartop-wrap'><div id='sidebartop-wrap2'>
+<div class='sidebar section' id='sidebartop'><div class='widget HTML' id='HTML6'>
+<div class='widget-content'>
+<table border="0" valign="middle" cellpadding="0" cellspacing="0" width="200" bgcolor="#A1A5A9" align="center">
+<tr valign="middle">
+<td height="72" bgcolor="#ffffff">
+<center><font color="#660000"><font color="#660000" size="4"><font face="helvetica, arial" color="#660000" size="4"><a href="http://louisgray.com/live/about.html">About LouisGray.com</a></font></font></font>
+<br/>
+<font face="helvetica, arial" color="#660000" size="2"><font face="helvetica, arial" color="#660000" size="1"><font face="helvetica, arial" color="#330099" size="1">c: 408 646 2759 / e: <a href="mailto:louisgray@gmail.com?Subject=louisgray.com">louisgray@gmail.com</a></font></font></font>
+</center>
+</td>
+</tr>
+</table>
+</div>
+<div class='clear'></div>
+<span class='widget-item-control'>
+<span class='item-control blog-admin'>
+<a class='quickedit' href='http://www.blogger.com/rearrange?blogID=5457053325034642093&widgetType=HTML&widgetId=HTML6&action=editWidget' onclick='return _WidgetManager._PopupConfig(document.getElementById("HTML6"));' target='configHTML6' title='Edit'>
+<img alt='' height='18' src='http://img1.blogblog.com/img/icon18_wrench_allbkg.png' width='18'/>
+</a>
+</span>
+</span>
+<div class='clear'></div>
+</div><div class='widget HTML' id='HTML2'>
+<div class='widget-content'>
+<center><!-- Google Custom Search Element -->
+<div id="cse" style="width:100%;">Loading</div>
+<script src="http://www.google.com/jsapi" type="text/javascript"></script>
+<script type="text/javascript">
+  google.load('search', '1');
+  google.setOnLoadCallback(function(){
+    new google.search.CustomSearchControl('008614718628027457457:11sowp4aqh8').draw('cse');
+  }, true);
+</script></center>
+</div>
+<script src='http://widgets.twimg.com/j/2/widget.js'></script>
+<script>
+new TWTR.Widget({
+  version: 2,
+  type: 'profile',
+  rpp: 3,
+  interval: 6000,
+  width: 'auto',
+  height: 300,
+  theme: {
+    shell: {
+      background: '#ffffff',
+      color: '#290b29'
+    },
+    tweets: {
+      background: '#ffffff',
+      color: '#000000',
+      links: '#1126b0'
+    }
+  },
+  features: {
+    scrollbar: false,
+    loop: false,
+    live: false,
+    hashtags: true,
+    timestamp: true,
+    avatars: false,
+    behavior: 'all'
+  }
+}).render().setUser('louisgray').start();
+</script>
+<div class='clear'></div>
+<span class='widget-item-control'>
+<span class='item-control blog-admin'>
+<a class='quickedit' href='http://www.blogger.com/rearrange?blogID=5457053325034642093&widgetType=HTML&widgetId=HTML2&action=editWidget' onclick='return _WidgetManager._PopupConfig(document.getElementById("HTML2"));' target='configHTML2' title='Edit'>
+<img alt='' height='18' src='http://img1.blogblog.com/img/icon18_wrench_allbkg.png' width='18'/>
+</a>
+</span>
+</span>
+<div class='clear'></div>
+</div><div class='widget HTML' id='HTML4'>
+<div class='widget-content'>
+<table border="0" valign="middle" cellpadding="0" cellspacing="0" width="170" bgcolor="#A1A5A9" align="center">
+<tr valign="middle">
+<td valign="middle" bgcolor="#FFFFFF" align="center">
+<a href="http://feeds2.feedburner.com/LouisgraycomLive" title="Subscribe to my feed">
+<img border="0" valign="middle" width="72" alt="rss" src="http://louisgray.com/graphics/rss_72.jpg" height="72" /></a>
+</td>
+<td height="72" bgcolor="#ffffff">
+<center>
+<b><font face="Arial,Helvetica,Geneva,Swiss,SunSans-Regular" color="#FF0000" size="2"><center><a href="http://feeds2.feedburner.com/LouisgraycomLive">RSS Feed</a><br /></center></font>
+<hr width="80%" />
+<font face="Arial,Helvetica,Geneva,Swiss,SunSans-Regular" color="#FF0000" size="1">
+<a href="http://feeds2.feedburner.com/LouisgraycomLive"><img width="88" style="border:0" alt="" src="http://feeds2.feedburner.com/~fc/LouisgraycomLive?bg=3333FF&amp;fg=ffffff&amp;anim=0" height="26" /></a>
+</font></b></center>
+<a href="http://www.feedblitz.com/f/?Sub=31382"><img border="0" src="http://www.feedblitz.com/i/60/31382.bmp" title="Subscribe by e-mail" /></a><br />
+</td></tr>
+<tr>
+<td colspan="2" bgcolor="#ffffff">
+<form action="http://www.feedblitz.com/f/f.fbz?AddNewUserDirect" method="POST">
+<font face="Arial,Helvetica,Geneva,Swiss,SunSans-Regular" color="#000000" size="1">
+Receive louisgray.com by e-mail:<br /><input maxlength="255" value="" name="EMAIL" size="20" type="text" /><br />
+<input value="31382" name="FEEDID" type="hidden" />
+<input value="293349" name="PUBLISHER" type="hidden" />
+<input value="Subscribe by e-mail" type="submit" /></font>
+</form></td>
+</tr>
+</table>
+</div>
+<div class='clear'></div>
+<span class='widget-item-control'>
+<span class='item-control blog-admin'>
+<a class='quickedit' href='http://www.blogger.com/rearrange?blogID=5457053325034642093&widgetType=HTML&widgetId=HTML4&action=editWidget' onclick='return _WidgetManager._PopupConfig(document.getElementById("HTML4"));' target='configHTML4' title='Edit'>
+<img alt='' height='18' src='http://img1.blogblog.com/img/icon18_wrench_allbkg.png' width='18'/>
+</a>
+</span>
+</span>
+<div class='clear'></div>
+</div><div class='widget HTML' id='HTML1'>
+<h2 class='title'>OneTrueFan</h2>
+<div class='widget-content'>
+<script type='text/javascript' src='http://e.onetruefan.com/js/widget.js'></script>
+</div>
+<div class='clear'></div>
+<span class='widget-item-control'>
+<span class='item-control blog-admin'>
+<a class='quickedit' href='http://www.blogger.com/rearrange?blogID=5457053325034642093&widgetType=HTML&widgetId=HTML1&action=editWidget' onclick='return _WidgetManager._PopupConfig(document.getElementById("HTML1"));' target='configHTML1' title='Edit'>
+<img alt='' height='18' src='http://img1.blogblog.com/img/icon18_wrench_allbkg.png' width='18'/>
+</a>
+</span>
+</span>
+<div class='clear'></div>
+</div><div class='widget BlogArchive' id='BlogArchive1'>
+<h2>Blog Archive</h2>
+<div class='widget-content'>
+<div id='ArchiveList'>
+<div id='BlogArchive1_ArchiveList'>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+          &#9658;&#160;
+        
+</span>
+</a>
+<a class='post-count-link' href='http://blog.louisgray.com/search?updated-min=2010-01-01T00%3A00%3A00-08%3A00&updated-max=2011-01-01T00%3A00%3A00-08%3A00&max-results=50'>2010</a>
+<span class='post-count' dir='ltr'>(359)</span>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+          &#9658;&#160;
+        
+</span>
+</a>
+<a class='post-count-link' href='http://blog.louisgray.com/2010_12_01_archive.html'>December</a>
+<span class='post-count' dir='ltr'>(14)</span>
+<ul class='posts'>
+<li><a href='http://blog.louisgray.com/2010/12/delicious-decline-already-evident-in.html'>Delicious&#39; Decline Already Evident In Traffic, Sha...</a></li>
+<li><a href='http://blog.louisgray.com/2010/12/googles-blogger-introduces-mobile.html'>Google&#39;s Blogger Introduces Mobile Templates In Be...</a></li>
+<li><a href='http://blog.louisgray.com/2010/12/onetruefan-adds-personalized-hot-news.html'>OneTrueFan Adds Personalized Hot News From Your Fr...</a></li>
+<li><a href='http://blog.louisgray.com/2010/12/gawkers-password-compromise-has.html'>Gawker&#39;s Password Compromise Has Significant After...</a></li>
+<li><a href='http://blog.louisgray.com/2010/12/flipboard-ceo-mike-mccue-mmccue-has.html'>Flipboard CEO Mike McCue (@mmccue) Has An Amazing ...</a></li>
+<li><a href='http://blog.louisgray.com/2010/12/like-pavlovs-dog-phone-number-online.html'>Online Phone Number Revelation Prompts Calls, Text...</a></li>
+<li><a href='http://blog.louisgray.com/2010/12/solving-privacy-on-web-be-smart-not.html'>Solving Privacy On the Web: Be Smart, Not Scared</a></li>
+<li><a href='http://blog.louisgray.com/2010/12/facebooks-new-friend-finder-biggest.html'>Facebook&#39;s Friend Finder: The Largest People Datab...</a></li>
+<li><a href='http://blog.louisgray.com/2010/12/not-on-googles-chrome-netbook-list-ebay.html'>Not On Google&#39;s Chrome Netbook List? There&#39;s Alway...</a></li>
+<li><a href='http://blog.louisgray.com/2010/12/android-handset-dreams-devour-defy-be.html'>Android Handset Dreams: Devour, Defy, Be a Magic L...</a></li>
+<li><a href='http://blog.louisgray.com/2010/12/real-valley-stories-my-first-interview.html'>Real Valley Stories: My First Interview for My Fir...</a></li>
+<li><a href='http://blog.louisgray.com/2010/12/follow-this-weekends-football-with-nfl.html'>Follow NFL Football With Game Center on Android</a></li>
+<li><a href='http://blog.louisgray.com/2010/12/rss-addicts-welcome-google-reader-to.html'>RSS Addicts Welcome Google Reader to Android</a></li>
+<li><a href='http://blog.louisgray.com/2010/12/onetruefan-gets-to-second-base-with.html'>OneTrueFan Reaches Second Base With New Site &amp; Bad...</a></li>
+</ul>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+          &#9658;&#160;
+        
+</span>
+</a>
+<a class='post-count-link' href='http://blog.louisgray.com/2010_11_01_archive.html'>November</a>
+<span class='post-count' dir='ltr'>(26)</span>
+<ul class='posts'>
+<li><a href='http://blog.louisgray.com/2010/11/unfriending-unfollowing-unsubscribing.html'>Unfriending, Unfollowing, Unsubscribing... Less Is...</a></li>
+<li><a href='http://blog.louisgray.com/2010/11/sparkbuy-launches-personalized-gadget.html'>Sparkbuy Launches Personalized Gadget Recommendati...</a></li>
+<li><a href='http://blog.louisgray.com/2010/11/apples-tyranny-in-fighting-android.html'>Apple&#39;s War On Android Escalates, But No Total War...</a></li>
+<li><a href='http://blog.louisgray.com/2010/11/ipad-tablet-competition-reacting-fast.html'>iPad Tablet Competition Reacting Fast, Expanding M...</a></li>
+<li><a href='http://blog.louisgray.com/2010/11/less-informed-analysts-dont-serve.html'>Less Informed Analysts Don&#39;t Serve the Public Good...</a></li>
+<li><a href='http://blog.louisgray.com/2010/11/my6sense-adds-posting-smart-widgets-to.html'>my6sense Adds Posting, Smart Widgets to Android Ap...</a></li>
+<li><a href='http://blog.louisgray.com/2010/11/founders-moving-on-from-social.html'>Founders Moving On from Social Aggregator Cliqset</a></li>
+<li><a href='http://blog.louisgray.com/2010/11/closed-to-open-downloading-your-data.html'>Closed to Open: Downloading Your Data from Faceboo...</a></li>
+<li><a href='http://blog.louisgray.com/2010/11/facebook-recruiting-video-promises.html'>Facebook Recruiting Video Promises Bold Vision, Po...</a></li>
+<li><a href='http://blog.louisgray.com/2010/11/google-hotpot-launches-for-recommended.html'>Google Hotpot Launches Social Place Reviews, Ratin...</a></li>
+<li><a href='http://blog.louisgray.com/2010/11/mylikes-passes-100k-influencers-hires-3.html'>MyLikes Passes 100k Influencers, Hires 3 More Ex-G...</a></li>
+<li><a href='http://blog.louisgray.com/2010/11/does-invisible-path-draw-intrigue-or.html'>Does an Invisible Path Draw Intrigue or Fatigue?</a></li>
+<li><a href='http://blog.louisgray.com/2010/11/under-newtwitter-blocked-users-cant-see.html'>Under #NewTwitter, Blocked Users Can&#39;t See Your Ti...</a></li>
+<li><a href='http://blog.louisgray.com/2010/11/lazyscope-rss-and-twitter-client-slims.html'>Lazyscope RSS and Twitter Client Slims Down, Speed...</a></li>
+<li><a href='http://blog.louisgray.com/2010/11/leak-corporate-data-get-caught-get.html'>Leak Corporate Data, Get Caught, Get Fired.</a></li>
+<li><a href='http://blog.louisgray.com/2010/11/blippy-pumps-profiles-with-personality.html'>Blippy Pumps Profiles With Personality, Adds Produ...</a></li>
+<li><a href='http://blog.louisgray.com/2010/11/android-keyboard-win-switching-to.html'>Android+Keyboard = Win: Switching to the Samsung E...</a></li>
+<li><a href='http://blog.louisgray.com/2010/11/rockmelts-social-hooks-put-users-in.html'>RockMelt&#39;s Social Hooks Put Users In Control Of In...</a></li>
+<li><a href='http://blog.louisgray.com/2010/11/crowded-mature-markets-dont-scare.html'>Crowded Mature Markets Don&#39;t Scare Blekko or RockM...</a></li>
+<li><a href='http://blog.louisgray.com/2010/11/third-wave-of-web-will-be-uniquely.html'>The Third Wave of the Web Will Be Uniquely Persona...</a></li>
+<li><a href='http://blog.louisgray.com/2010/11/buzzooka-iapp-enhances-google-buzz.html'>Buzzooka iApp Enhances Google Buzz Mobile Experien...</a></li>
+<li><a href='http://blog.louisgray.com/2010/11/sonos-wireless-dock-for-idevices-simple.html'>Sonos&#39; Wireless Dock for iDevices: Simple and Swee...</a></li>
+<li><a href='http://blog.louisgray.com/2010/11/lazyscope-launches-immersive-twitter.html'>Lazyscope: An Immersive Twitter Desktop News Exper...</a></li>
+<li><a href='http://blog.louisgray.com/2010/11/openid-finally-grabs-openid-twitter.html'>OpenID Foundation Finally Grabs @openid Twitter Ac...</a></li>
+<li><a href='http://blog.louisgray.com/2010/11/pretty-functional-frail-my-macbook-air.html'>Pretty. Functional. Frail. My Macbook Air Hinges F...</a></li>
+<li><a href='http://blog.louisgray.com/2010/11/addthis-stats-show-spike-in-google-buzz.html'>AddThis Stats Show Spike in Google Buzz Sharing</a></li>
+</ul>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+          &#9658;&#160;
+        
+</span>
+</a>
+<a class='post-count-link' href='http://blog.louisgray.com/2010_10_01_archive.html'>October</a>
+<span class='post-count' dir='ltr'>(21)</span>
+<ul class='posts'>
+<li><a href='http://blog.louisgray.com/2010/10/20-halloween-scares-to-put-fear-into_31.html'>20 Halloween Scares to Put Fear Into Every Twitter...</a></li>
+<li><a href='http://blog.louisgray.com/2010/10/20-halloween-scares-to-put-fear-into.html'>20 Halloween Scares to Put Fear Into Every Google ...</a></li>
+<li><a href='http://blog.louisgray.com/2010/10/halloween-tricks-twenty-scares-to-put.html'>20 Halloween Scares to Put Fear Into Every Apple F...</a></li>
+<li><a href='http://blog.louisgray.com/2010/10/podcast-with-joe-hackman-on-blogging.html'>Podcast With @hackmanj on Blogging, my6sense, Mark...</a></li>
+<li><a href='http://blog.louisgray.com/2010/10/credit-karma-eliminates-credit-score.html'>Credit Karma Eliminates Credit Score Mystery</a></li>
+<li><a href='http://blog.louisgray.com/2010/10/as-spotify-gains-momentum-tipster-pumps.html'>As Spotify Accelerates, Tipster Pumps False Apple ...</a></li>
+<li><a href='http://blog.louisgray.com/2010/10/following-injunction-limewire-says.html'>Following Injunction, LimeWire Says Illegal Acts A...</a></li>
+<li><a href='http://blog.louisgray.com/2010/10/new-google-campus-store-features-geek.html'>New Google Campus Store Features Geek Schwag Galor...</a></li>
+<li><a href='http://blog.louisgray.com/2010/10/information-streams-accelerating.html'>Information Streams Accelerating the Attention Cri...</a></li>
+<li><a href='http://blog.louisgray.com/2010/10/apple-and-google-agree-web-is-future-of.html'>Apple, Google Agree Web is Future of Software Deli...</a></li>
+</ul>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+          &#9658;&#160;
+        
+</span>
+</a>
+<a class='post-count-link' href='http://blog.louisgray.com/2010_09_01_archive.html'>September</a>
+<span class='post-count' dir='ltr'>(18)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+          &#9658;&#160;
+        
+</span>
+</a>
+<a class='post-count-link' href='http://blog.louisgray.com/2010_08_01_archive.html'>August</a>
+<span class='post-count' dir='ltr'>(25)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+          &#9658;&#160;
+        
+</span>
+</a>
+<a class='post-count-link' href='http://blog.louisgray.com/2010_07_01_archive.html'>July</a>
+<span class='post-count' dir='ltr'>(30)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+          &#9658;&#160;
+        
+</span>
+</a>
+<a class='post-count-link' href='http://blog.louisgray.com/2010_06_01_archive.html'>June</a>
+<span class='post-count' dir='ltr'>(29)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+          &#9658;&#160;
+        
+</span>
+</a>
+<a class='post-count-link' href='http://blog.louisgray.com/2010_05_01_archive.html'>May</a>
+<span class='post-count' dir='ltr'>(36)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+          &#9658;&#160;
+        
+</span>
+</a>
+<a class='post-count-link' href='http://blog.louisgray.com/2010_04_01_archive.html'>April</a>
+<span class='post-count' dir='ltr'>(35)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+          &#9658;&#160;
+        
+</span>
+</a>
+<a class='post-count-link' href='http://blog.louisgray.com/2010_03_01_archive.html'>March</a>
+<span class='post-count' dir='ltr'>(48)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+          &#9658;&#160;
+        
+</span>
+</a>
+<a class='post-count-link' href='http://blog.louisgray.com/2010_02_01_archive.html'>February</a>
+<span class='post-count' dir='ltr'>(38)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+          &#9658;&#160;
+        
+</span>
+</a>
+<a class='post-count-link' href='http://blog.louisgray.com/2010_01_01_archive.html'>January</a>
+<span class='post-count' dir='ltr'>(39)</span>
+</li>
+</ul>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate expanded'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy toggle-open'>&#9660;&#160;</span>
+</a>
+<a class='post-count-link' href='http://blog.louisgray.com/search?updated-min=2009-01-01T00%3A00%3A00-08%3A00&updated-max=2010-01-01T00%3A00%3A00-08%3A00&max-results=50'>2009</a>
+<span class='post-count' dir='ltr'>(531)</span>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+          &#9658;&#160;
+        
+</span>
+</a>
+<a class='post-count-link' href='http://blog.louisgray.com/2009_12_01_archive.html'>December</a>
+<span class='post-count' dir='ltr'>(33)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+          &#9658;&#160;
+        
+</span>
+</a>
+<a class='post-count-link' href='http://blog.louisgray.com/2009_11_01_archive.html'>November</a>
+<span class='post-count' dir='ltr'>(33)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate expanded'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy toggle-open'>&#9660;&#160;</span>
+</a>
+<a class='post-count-link' href='http://blog.louisgray.com/2009_10_01_archive.html'>October</a>
+<span class='post-count' dir='ltr'>(36)</span>
+<ul class='posts'>
+<li><a href='http://blog.louisgray.com/2009/10/tweetdeck-promises-to-integrate-twitter.html'>TweetDeck Promises to Add Twitter Lists Support So...</a></li>
+<li><a href='http://blog.louisgray.com/2009/10/blurry-picture-of-open-apis-standards.html'>The Blurry Picture of Open APIs, Standards, Data O...</a></li>
+<li><a href='http://blog.louisgray.com/2009/10/could-real-apple-fan-completely-go.html'>Could A Real Apple Fan Completely &quot;Go Google&quot;?</a></li>
+<li><a href='http://blog.louisgray.com/2009/10/cinchcast-puts-mini-podcasts-in-your.html'>Cinch Puts Simple Podcasts In Your Pocket</a></li>
+<li><a href='http://blog.louisgray.com/2009/10/twitter-snags-platform-manager-josh.html'>Twitter Snags Platform Manager Josh Elman From Fac...</a></li>
+<li><a href='http://blog.louisgray.com/2009/10/there-is-no-osborne-effect-in-web.html'>There Is No &quot;Osborne Effect&quot; In Web Services</a></li>
+<li><a href='http://blog.louisgray.com/2009/10/google-readers-magic-finds-personalized.html'>Google Reader&#39;s Magic Finds Personalized Highlight...</a></li>
+<li><a href='http://blog.louisgray.com/2009/10/video-leveraging-social-networks-to_21.html'>Video: Trends and the Future of Social Networks (W...</a></li>
+<li><a href='http://blog.louisgray.com/2009/10/video-leveraging-social-networks-to.html'>Video: Leveraging Social Networks to Build Web Tra...</a></li>
+<li><a href='http://blog.louisgray.com/2009/10/twitter-gives-bing-access-to-firehose.html'>Twitter Gives Bing Access to the Firehose, Promise...</a></li>
+<li><a href='http://blog.louisgray.com/2009/10/simler-open-to-public.html'>Simler, the Interest-Based Microblog Network, Open...</a></li>
+<li><a href='http://blog.louisgray.com/2009/10/can-twitter-replace-rss-for-sharing.html'>Can Twitter Replace RSS for Sharing the Best of th...</a></li>
+<li><a href='http://blog.louisgray.com/2009/10/blog-world-expo-presentation-technology.html'>Blog World Expo Presentation: Technology and the R...</a></li>
+<li><a href='http://blog.louisgray.com/2009/10/at-504-pm-on-october-17-1989-earth.html'>At 5:04 P.M. On October 17, 1989, The Earth Moved</a></li>
+<li><a href='http://blog.louisgray.com/2009/10/gary-burd-exits-facebook-two-months.html'>Gary Burd Exits Facebook Two Months After FriendFe...</a></li>
+<li><a href='http://blog.louisgray.com/2009/10/proposed-salmon-protocol-aims-to-unify.html'>Proposed Salmon Protocol Aims To Unify Conversatio...</a></li>
+<li><a href='http://blog.louisgray.com/2009/10/blogs-place-in-world-of-microblogging.html'>The Blog&#39;s Place In A World of Microblogging: Not ...</a></li>
+<li><a href='http://blog.louisgray.com/2009/10/cheezburger-network-scales-company-by.html'>Cheezburger Network Scales Company By Focusing On ...</a></li>
+<li><a href='http://blog.louisgray.com/2009/10/communicating-in-age-of-streams-with.html'>Communicating in the Age of Streams: Ubiquity, Mul...</a></li>
+<li><a href='http://blog.louisgray.com/2009/10/bwe09-how-to-rally-your-community.html'>How To Rally Your Community, Leveraging Social Med...</a></li>
+<li><a href='http://blog.louisgray.com/2009/10/do-you-trust-small-companies-with-your.html'>Do You Trust Small Companies With Your Data More, ...</a></li>
+<li><a href='http://blog.louisgray.com/2009/10/hey-bloggers-step-away-from-twitter-for.html'>Hey Bloggers, Step Away from the Twitter for a Sec...</a></li>
+<li><a href='http://blog.louisgray.com/2009/10/blogworld-expo-2009-state-of-technology.html'>BlogWorld Expo 2009: The State of Technology &amp; the...</a></li>
+<li><a href='http://blog.louisgray.com/2009/10/technorati-roars-back-to-life-after.html'>Technorati Roars Back To Life After Self-Imposed S...</a></li>
+<li><a href='http://blog.louisgray.com/2009/10/designing-perfect-twitter-client-is.html'>Designing the Perfect Twitter Client Is Impossible...</a></li>
+<li><a href='http://blog.louisgray.com/2009/10/era-of-faceless-giant-corporation-is.html'>The Era of the Faceless Giant Corporation Is Over</a></li>
+<li><a href='http://blog.louisgray.com/2009/10/searchtastic-aims-to-extend-twitter.html'>Searchtastic Aims To Extend Twitter Search Results...</a></li>
+<li><a href='http://blog.louisgray.com/2009/10/why-and-where-we-share-distributing.html'>Why And Where We Share: Distributing Quality With ...</a></li>
+<li><a href='http://blog.louisgray.com/2009/10/benchmark-capitals-twitter-gets-hacked.html'>Benchmark Capital&#39;s Twitter Gets Hacked to Hawk Pl...</a></li>
+<li><a href='http://blog.louisgray.com/2009/10/sitting-with-scobleizer-and-jesse-as.html'>Sitting With @Scobleizer and @Jesse As Part of a B...</a></li>
+<li><a href='http://blog.louisgray.com/2009/10/why-would-i-say-to-stop-talking-about.html'>Why Would I Say to &quot;Stop Talking About Social Medi...</a></li>
+<li><a href='http://blog.louisgray.com/2009/10/cancer-messed-with-wrong-dude-drew-is.html'>Cancer Messed With the Wrong Dude. Drew Is Making ...</a></li>
+<li><a href='http://blog.louisgray.com/2009/10/why-i-dont-think-ftcs-rules-on.html'>Why I Don&#39;t Think The FTC&#39;s Rules On Disclosure Wi...</a></li>
+<li><a href='http://blog.louisgray.com/2009/10/wanted-magical-tivo-with-sub-program.html'>Wanted: A Magical TiVo With Sub-Program Alerts</a></li>
+<li><a href='http://blog.louisgray.com/2009/10/its-twitters-world-second-parallel.html'>It&#39;s Twitter&#39;s World: The Second, Parallel, Intern...</a></li>
+<li><a href='http://blog.louisgray.com/2009/10/google-wave-hits-shore-flash-flood.html'>Google Wave Hits Shore. Flash Flood Warning In Eff...</a></li>
+</ul>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+          &#9658;&#160;
+        
+</span>
+</a>
+<a class='post-count-link' href='http://blog.louisgray.com/2009_09_01_archive.html'>September</a>
+<span class='post-count' dir='ltr'>(30)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+          &#9658;&#160;
+        
+</span>
+</a>
+<a class='post-count-link' href='http://blog.louisgray.com/2009_08_01_archive.html'>August</a>
+<span class='post-count' dir='ltr'>(40)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+          &#9658;&#160;
+        
+</span>
+</a>
+<a class='post-count-link' href='http://blog.louisgray.com/2009_07_01_archive.html'>July</a>
+<span class='post-count' dir='ltr'>(36)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+          &#9658;&#160;
+        
+</span>
+</a>
+<a class='post-count-link' href='http://blog.louisgray.com/2009_06_01_archive.html'>June</a>
+<span class='post-count' dir='ltr'>(37)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+          &#9658;&#160;
+        
+</span>
+</a>
+<a class='post-count-link' href='http://blog.louisgray.com/2009_05_01_archive.html'>May</a>
+<span class='post-count' dir='ltr'>(53)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+          &#9658;&#160;
+        
+</span>
+</a>
+<a class='post-count-link' href='http://blog.louisgray.com/2009_04_01_archive.html'>April</a>
+<span class='post-count' dir='ltr'>(47)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+          &#9658;&#160;
+        
+</span>
+</a>
+<a class='post-count-link' href='http://blog.louisgray.com/2009_03_01_archive.html'>March</a>
+<span class='post-count' dir='ltr'>(56)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+          &#9658;&#160;
+        
+</span>
+</a>
+<a class='post-count-link' href='http://blog.louisgray.com/2009_02_01_archive.html'>February</a>
+<span class='post-count' dir='ltr'>(57)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+          &#9658;&#160;
+        
+</span>
+</a>
+<a class='post-count-link' href='http://blog.louisgray.com/2009_01_01_archive.html'>January</a>
+<span class='post-count' dir='ltr'>(73)</span>
+</li>
+</ul>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+          &#9658;&#160;
+        
+</span>
+</a>
+<a class='post-count-link' href='http://blog.louisgray.com/search?updated-min=2008-01-01T00%3A00%3A00-08%3A00&updated-max=2009-01-01T00%3A00%3A00-08%3A00&max-results=50'>2008</a>
+<span class='post-count' dir='ltr'>(626)</span>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+          &#9658;&#160;
+        
+</span>
+</a>
+<a class='post-count-link' href='http://blog.louisgray.com/2008_12_01_archive.html'>December</a>
+<span class='post-count' dir='ltr'>(91)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+          &#9658;&#160;
+        
+</span>
+</a>
+<a class='post-count-link' href='http://blog.louisgray.com/2008_11_01_archive.html'>November</a>
+<span class='post-count' dir='ltr'>(57)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+          &#9658;&#160;
+        
+</span>
+</a>
+<a class='post-count-link' href='http://blog.louisgray.com/2008_10_01_archive.html'>October</a>
+<span class='post-count' dir='ltr'>(61)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+          &#9658;&#160;
+        
+</span>
+</a>
+<a class='post-count-link' href='http://blog.louisgray.com/2008_09_01_archive.html'>September</a>
+<span class='post-count' dir='ltr'>(52)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+          &#9658;&#160;
+        
+</span>
+</a>
+<a class='post-count-link' href='http://blog.louisgray.com/2008_08_01_archive.html'>August</a>
+<span class='post-count' dir='ltr'>(49)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+          &#9658;&#160;
+        
+</span>
+</a>
+<a class='post-count-link' href='http://blog.louisgray.com/2008_07_01_archive.html'>July</a>
+<span class='post-count' dir='ltr'>(55)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+          &#9658;&#160;
+        
+</span>
+</a>
+<a class='post-count-link' href='http://blog.louisgray.com/2008_06_01_archive.html'>June</a>
+<span class='post-count' dir='ltr'>(38)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+          &#9658;&#160;
+        
+</span>
+</a>
+<a class='post-count-link' href='http://blog.louisgray.com/2008_05_01_archive.html'>May</a>
+<span class='post-count' dir='ltr'>(47)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+          &#9658;&#160;
+        
+</span>
+</a>
+<a class='post-count-link' href='http://blog.louisgray.com/2008_04_01_archive.html'>April</a>
+<span class='post-count' dir='ltr'>(38)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+          &#9658;&#160;
+        
+</span>
+</a>
+<a class='post-count-link' href='http://blog.louisgray.com/2008_03_01_archive.html'>March</a>
+<span class='post-count' dir='ltr'>(38)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+          &#9658;&#160;
+        
+</span>
+</a>
+<a class='post-count-link' href='http://blog.louisgray.com/2008_02_01_archive.html'>February</a>
+<span class='post-count' dir='ltr'>(42)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+          &#9658;&#160;
+        
+</span>
+</a>
+<a class='post-count-link' href='http://blog.louisgray.com/2008_01_01_archive.html'>January</a>
+<span class='post-count' dir='ltr'>(58)</span>
+</li>
+</ul>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+          &#9658;&#160;
+        
+</span>
+</a>
+<a class='post-count-link' href='http://blog.louisgray.com/search?updated-min=2007-01-01T00%3A00%3A00-08%3A00&updated-max=2008-01-01T00%3A00%3A00-08%3A00&max-results=50'>2007</a>
+<span class='post-count' dir='ltr'>(515)</span>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+          &#9658;&#160;
+        
+</span>
+</a>
+<a class='post-count-link' href='http://blog.louisgray.com/2007_12_01_archive.html'>December</a>
+<span class='post-count' dir='ltr'>(55)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+          &#9658;&#160;
+        
+</span>
+</a>
+<a class='post-count-link' href='http://blog.louisgray.com/2007_11_01_archive.html'>November</a>
+<span class='post-count' dir='ltr'>(34)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+          &#9658;&#160;
+        
+</span>
+</a>
+<a class='post-count-link' href='http://blog.louisgray.com/2007_10_01_archive.html'>October</a>
+<span class='post-count' dir='ltr'>(56)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+          &#9658;&#160;
+        
+</span>
+</a>
+<a class='post-count-link' href='http://blog.louisgray.com/2007_09_01_archive.html'>September</a>
+<span class='post-count' dir='ltr'>(40)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+          &#9658;&#160;
+        
+</span>
+</a>
+<a class='post-count-link' href='http://blog.louisgray.com/2007_08_01_archive.html'>August</a>
+<span class='post-count' dir='ltr'>(38)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+          &#9658;&#160;
+        
+</span>
+</a>
+<a class='post-count-link' href='http://blog.louisgray.com/2007_07_01_archive.html'>July</a>
+<span class='post-count' dir='ltr'>(41)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+          &#9658;&#160;
+        
+</span>
+</a>
+<a class='post-count-link' href='http://blog.louisgray.com/2007_06_01_archive.html'>June</a>
+<span class='post-count' dir='ltr'>(48)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+          &#9658;&#160;
+        
+</span>
+</a>
+<a class='post-count-link' href='http://blog.louisgray.com/2007_05_01_archive.html'>May</a>
+<span class='post-count' dir='ltr'>(44)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+          &#9658;&#160;
+        
+</span>
+</a>
+<a class='post-count-link' href='http://blog.louisgray.com/2007_04_01_archive.html'>April</a>
+<span class='post-count' dir='ltr'>(32)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+          &#9658;&#160;
+        
+</span>
+</a>
+<a class='post-count-link' href='http://blog.louisgray.com/2007_03_01_archive.html'>March</a>
+<span class='post-count' dir='ltr'>(48)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+          &#9658;&#160;
+        
+</span>
+</a>
+<a class='post-count-link' href='http://blog.louisgray.com/2007_02_01_archive.html'>February</a>
+<span class='post-count' dir='ltr'>(29)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+          &#9658;&#160;
+        
+</span>
+</a>
+<a class='post-count-link' href='http://blog.louisgray.com/2007_01_01_archive.html'>January</a>
+<span class='post-count' dir='ltr'>(50)</span>
+</li>
+</ul>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+          &#9658;&#160;
+        
+</span>
+</a>
+<a class='post-count-link' href='http://blog.louisgray.com/search?updated-min=2006-01-01T00%3A00%3A00-08%3A00&updated-max=2007-01-01T00%3A00%3A00-08%3A00&max-results=50'>2006</a>
+<span class='post-count' dir='ltr'>(612)</span>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+          &#9658;&#160;
+        
+</span>
+</a>
+<a class='post-count-link' href='http://blog.louisgray.com/2006_12_01_archive.html'>December</a>
+<span class='post-count' dir='ltr'>(33)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+          &#9658;&#160;
+        
+</span>
+</a>
+<a class='post-count-link' href='http://blog.louisgray.com/2006_11_01_archive.html'>November</a>
+<span class='post-count' dir='ltr'>(47)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+          &#9658;&#160;
+        
+</span>
+</a>
+<a class='post-count-link' href='http://blog.louisgray.com/2006_10_01_archive.html'>October</a>
+<span class='post-count' dir='ltr'>(59)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+          &#9658;&#160;
+        
+</span>
+</a>
+<a class='post-count-link' href='http://blog.louisgray.com/2006_09_01_archive.html'>September</a>
+<span class='post-count' dir='ltr'>(56)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+          &#9658;&#160;
+        
+</span>
+</a>
+<a class='post-count-link' href='http://blog.louisgray.com/2006_08_01_archive.html'>August</a>
+<span class='post-count' dir='ltr'>(59)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+          &#9658;&#160;
+        
+</span>
+</a>
+<a class='post-count-link' href='http://blog.louisgray.com/2006_07_01_archive.html'>July</a>
+<span class='post-count' dir='ltr'>(44)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+          &#9658;&#160;
+        
+</span>
+</a>
+<a class='post-count-link' href='http://blog.louisgray.com/2006_06_01_archive.html'>June</a>
+<span class='post-count' dir='ltr'>(44)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+          &#9658;&#160;
+        
+</span>
+</a>
+<a class='post-count-link' href='http://blog.louisgray.com/2006_05_01_archive.html'>May</a>
+<span class='post-count' dir='ltr'>(50)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+          &#9658;&#160;
+        
+</span>
+</a>
+<a class='post-count-link' href='http://blog.louisgray.com/2006_04_01_archive.html'>April</a>
+<span class='post-count' dir='ltr'>(48)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+          &#9658;&#160;
+        
+</span>
+</a>
+<a class='post-count-link' href='http://blog.louisgray.com/2006_03_01_archive.html'>March</a>
+<span class='post-count' dir='ltr'>(78)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+          &#9658;&#160;
+        
+</span>
+</a>
+<a class='post-count-link' href='http://blog.louisgray.com/2006_02_01_archive.html'>February</a>
+<span class='post-count' dir='ltr'>(50)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+          &#9658;&#160;
+        
+</span>
+</a>
+<a class='post-count-link' href='http://blog.louisgray.com/2006_01_01_archive.html'>January</a>
+<span class='post-count' dir='ltr'>(44)</span>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+<div class='clear'></div>
+<span class='widget-item-control'>
+<span class='item-control blog-admin'>
+<a class='quickedit' href='http://www.blogger.com/rearrange?blogID=5457053325034642093&widgetType=BlogArchive&widgetId=BlogArchive1&action=editWidget' onclick='return _WidgetManager._PopupConfig(document.getElementById("BlogArchive1"));' target='configBlogArchive1' title='Edit'>
+<img alt='' height='18' src='http://img1.blogblog.com/img/icon18_wrench_allbkg.png' width='18'/>
+</a>
+</span>
+</span>
+<div class='clear'></div>
+</div>
+</div></div>
+</div></div>
+</div>
+<div id='footer-wrap1'><div id='footer-wrap2'>
+<div class='footer section' id='footer'><div class='widget HTML' id='HTML3'>
+<script language="JavaScript">var OB_platformType = 1; var OB_langJS = 'http://widgets.outbrain.com/lang_en.js'; var OBITm = '1292446316344';var OB_raterMode = 'none';var OB_recMode = 'strip';</script><script language="JavaScript"  src="http://widgets.outbrain.com/OutbrainRater.js"></script>
+</div><div class='widget HTML' id='HTML7'>
+<div class='widget-content'>
+<center><font color="#000000"><a href="http://louisgray.com/live/">louisgray.com</a> &copy; 2010 | <a href="mailto:louisgray@gmail.com">louisgray@gmail.com</a> | <a href="http://feeds2.feedburner.com/LouisgraycomLive">RSS Feed</a></font></center>
+</div>
+<div class='clear'></div>
+<span class='widget-item-control'>
+<span class='item-control blog-admin'>
+<a class='quickedit' href='http://www.blogger.com/rearrange?blogID=5457053325034642093&widgetType=HTML&widgetId=HTML7&action=editWidget' onclick='return _WidgetManager._PopupConfig(document.getElementById("HTML7"));' target='configHTML7' title='Edit'>
+<img alt='' height='18' src='http://img1.blogblog.com/img/icon18_wrench_allbkg.png' width='18'/>
+</a>
+</span>
+</span>
+<div class='clear'></div>
+</div></div>
+</div></div>
+</div>
+<!-- End #content -->
+<!-- +disqus -->
+<!-- -disqus -->
+<script type='text/javascript'>
+var _sf_async_config={uid:16072,domain:"blog.louisgray.com"};
+(function(){
+  function loadChartbeat() {
+    window._sf_endpt=(new Date()).getTime();
+    var e = document.createElement('script');
+    e.setAttribute('language', 'javascript');
+    e.setAttribute('type', 'text/javascript');
+    e.setAttribute('src',
+       (("https:" == document.location.protocol) ? "https://a248.e.akamai.net/chartbeat.download.akamai.com/102508/" : "http://static.chartbeat.com/") +
+       "js/chartbeat.js");
+    document.body.appendChild(e);
+  }
+  var oldonload = window.onload;
+  window.onload = (typeof window.onload != 'function') ?
+     loadChartbeat : function() { oldonload(); loadChartbeat(); };
+})();
+
+</script>
+<script type="text/javascript">
+if (window.jstiming) window.jstiming.load.tick('widgetJsBefore');
+</script><script type="text/javascript" src="http://www.blogger.com/static/v1/widgets/512629240-widgets.js"></script>
+<script type='text/javascript'>
+if (typeof(BLOG_attachCsiOnload) != 'undefined' && BLOG_attachCsiOnload != null) { window['blogger_templates_experiment_id'] = "templatesV1";window['blogger_blog_id'] = '5457053325034642093';BLOG_attachCsiOnload('item_'); }_WidgetManager._Init('http://www.blogger.com/rearrange?blogID=5457053325034642093','http://blog.louisgray.com/2009/10/proposed-salmon-protocol-aims-to-unify.html','5457053325034642093');
+_WidgetManager._SetPageActionUrl('http://www.blogger.com/display?blogID=5457053325034642093','Xzt5O1ZLNT4WU9BGSZL_JjpBRrk:1292634096271','AOuZoY5qhUlIiK2qBrjBfdL-hu1Hm6sxMQ:1292634096271');
+_WidgetManager._SetDataContext([{'name': 'blog', 'data': {'title': 'louisgray.com', 'pageType': 'item', 'url': 'http://blog.louisgray.com/2009/10/proposed-salmon-protocol-aims-to-unify.html', 'canonicalUrl': 'http://blog.louisgray.com/2009/10/proposed-salmon-protocol-aims-to-unify.html', 'homepageUrl': 'http://blog.louisgray.com/', 'enabledCommentProfileImages': true, 'searchLabel': '', 'searchQuery': '', 'pageName': 'Proposed Salmon Protocol Aims To Unify Conversations on the Web', 'pageTitle': 'louisgray.com: Proposed Salmon Protocol Aims To Unify Conversations on the Web', 'encoding': 'UTF-8', 'locale': 'en-US', 'isPrivate': false, 'isMobile': false, 'mobileClass': '', 'languageDirection': 'ltr', 'feedLinks': '\74link rel\75\42alternate\42 type\75\42application/atom+xml\42 title\75\42louisgray.com - Atom\42 href\75\42http://blog.louisgray.com/feeds/posts/default\42 /\76\n\74link rel\75\42alternate\42 type\75\42application/rss+xml\42 title\75\42louisgray.com - RSS\42 href\75\42http://blog.louisgray.com/feeds/posts/default?alt\75rss\42 /\76\n\74link rel\75\42service.post\42 type\75\42application/atom+xml\42 title\75\42louisgray.com - Atom\42 href\75\42http://www.blogger.com/feeds/5457053325034642093/posts/default\42 /\76\n\74link rel\75\42EditURI\42 type\75\42application/rsd+xml\42 title\75\42RSD\42 href\75\42http://www.blogger.com/rsd.g?blogID\0755457053325034642093\42 /\76\n', 'meTag': '', 'openIdOpTag': '', 'imageSrcTag': '\74link rel\75\42image_src\42 href\75\42http://3.bp.blogspot.com/_rjZmFhS0LSw/S7Gx0s72FXI/AAAAAAAAAaA/79kc6GU-YC8/s72-c/salmon_2.png\42 /\76\n', 'latencyHeadScript': '\74script type\75\42text/javascript\42\76(function() { var a\75window;function c(b){this.t\75{};this.tick\75function(d,i,e){e\75e?e:(new Date).getTime();this.t[d]\75[e,i]};this.tick(\42start\42,null,b)}var f\75new c;a.jstiming\75{Timer:c,load:f};try{var g\75null;if(a.chrome\46\46a.chrome.csi)g\75Math.floor(a.chrome.csi().pageT);if(g\75\75null)if(a.gtbExternal)g\75a.gtbExternal.pageT();if(g\75\75null)if(a.external)g\75a.external.pageT;if(g)a.jstiming.pt\75g}catch(h){};a.tickAboveFold\75function(b){b\75b;var d\0750;if(b.offsetParent){do d+\75b.offsetTop;while(b\75b.offsetParent)}b\75d;b\74\075750\46\46a.jstiming.load.tick(\42aft\42)};var j\75false;function k(){if(!j){j\75true;a.jstiming.load.tick(\42firstScrollTime\42)}}a.addEventListener?a.addEventListener(\42scroll\42,k,false):a.attachEvent(\42onscroll\42,k);\n })();\74/script\076', 'mobileHeadScript': '\74script type\75\42text/javascript\42\76var JSCompiler_inline_result$$1;var userAgent$$inline_3\75navigator.userAgent;JSCompiler_inline_result$$1\75userAgent$$inline_3.indexOf(\42Mobile\42)!\75-1\46\46userAgent$$inline_3.indexOf(\42WebKit\42)!\75-1\46\46userAgent$$inline_3.indexOf(\42iPad\42)\75\75-1?true:false;\nif(JSCompiler_inline_result$$1)a:{var search$$inline_9\75window.location.search;if(search$$inline_9){for(var params$$inline_10\75window.location.search.split(\42\46\42),i$$inline_11\0750;i$$inline_11\74params$$inline_10.length;i$$inline_11++){var key$$inline_12\75params$$inline_10.split(\42\75\42)[0];if(key$$inline_12\75\75\42m\42)break a}window.location.search\75search$$inline_9+\42\46m\0751\42}else window.location.search\75\42m\0751\42};\n\74/script\076'}}]);
+_WidgetManager._RegisterWidget('_HTMLView', new _WidgetInfo('HTML3', 'footer', null, document.getElementById('HTML3'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_HTMLView', new _WidgetInfo('HTML7', 'footer', null, document.getElementById('HTML7'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_HTMLView', new _WidgetInfo('HTML6', 'sidebartop', null, document.getElementById('HTML6'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_HTMLView', new _WidgetInfo('HTML2', 'sidebartop', null, document.getElementById('HTML2'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_HTMLView', new _WidgetInfo('HTML4', 'sidebartop', null, document.getElementById('HTML4'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_HTMLView', new _WidgetInfo('HTML1', 'sidebartop', null, document.getElementById('HTML1'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_BlogArchiveView', new _WidgetInfo('BlogArchive1', 'sidebartop', null, document.getElementById('BlogArchive1'), {'languageDirection': 'ltr'}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_HeaderView', new _WidgetInfo('Header1', 'header'));
+_WidgetManager._RegisterWidget('_NavbarView', new _WidgetInfo('Navbar1', 'navbar'));
+_WidgetManager._RegisterWidget('_BlogView', new _WidgetInfo('Blog1', 'main', null, document.getElementById('Blog1'), {'cmtInteractionsEnabled': false, 'commentInteractionIframeUrl': 'http://www.blogger.com/comment-interaction-iframe.g?blogId\0755457053325034642093', 'mobile': false}, 'displayModeFull'));
+</script>
+</body>
+</html>
