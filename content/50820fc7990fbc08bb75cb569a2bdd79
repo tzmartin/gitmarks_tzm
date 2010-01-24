@@ -1,0 +1,456 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head profile="http://gmpg.org/xfn/11">
+
+    <title>Page2Pub | Open Publishing Lab</title>
+    
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <link rel="shortcut icon" href="http://opl.rit.edu/wp-content/uploads/2010/04/opal_favicon.png" type="image/x-icon" />
+    <link rel="stylesheet" type="text/css" href="http://opl.rit.edu/wp-content/themes/metamorphosis/style.css" media="screen" />
+    <link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="http://opl.rit.edu/feed/" />
+    <link rel="pingback" href="http://opl.rit.edu/xmlrpc.php" />
+
+	<!-- IE7 emulation on IE8 for footer widgets to work properly -->
+	<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7" />
+       
+    <!--[if IE 6]>
+    <script type="text/javascript" src="http://opl.rit.edu/wp-content/themes/metamorphosis/includes/js/pngfix.js"></script>
+    <script type="text/javascript" src="http://opl.rit.edu/wp-content/themes/metamorphosis/includes/js/menu.js"></script>
+    <link rel="stylesheet" type="text/css" href="http://opl.rit.edu/wp-content/themes/metamorphosis/ie6.css" media="screen" />
+    <![endif]-->
+    
+    <!--[if lt IE 8]>
+    <style type="text/css">
+	.socialWrap {
+	    margin-left: -10px;
+	}        
+	    .socialLinks {
+		display: inline-block;
+		float: left;
+		margin-left: 10px;
+		padding: 0;
+	    }
+		.socialLinks a {
+		    text-decoration: none;
+		}
+	       .socialLinks img {
+		    border: none;
+		}
+    </style>
+    <![endif]-->
+
+
+    <script type="text/javascript" src="http://opl.rit.edu/wp-content/themes/metamorphosis/includes/js/cufon-yui.js"></script>
+    <script type="text/javascript" src="http://opl.rit.edu/wp-content/themes/metamorphosis/includes/js/external_links.js"></script>
+    <script type="text/javascript" src="http://opl.rit.edu/wp-content/themes/metamorphosis/includes/js/Delicious.font.js"></script>
+	<script type="text/javascript">
+    	Cufon.replace('h2');
+    	Cufon.replace('h3');
+    </script>
+    
+    
+       
+        				
+	<script type="text/javascript">//<![CDATA[
+	// Google Analytics for WordPress by Yoast v4.06 | http://yoast.com/wordpress/google-analytics/
+	var _gaq = _gaq || [];
+	_gaq.push(['_setAccount','UA-4364785-1']);
+	_gaq.push(['_trackPageview']);
+	(function() {
+		var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+		ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+		var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+	})();
+	// End of Google Analytics for WordPress by Yoast v4.0
+	//]]></script>
+	
+<link rel='stylesheet' id='wp-pagenavi-css'  href='http://opl.rit.edu/wp-content/plugins/wp-pagenavi/pagenavi-css.css?ver=2.70' type='text/css' media='' />
+<script type='text/javascript' src='http://opl.rit.edu/wp-content/plugins/myeasybackup/js/myeasybackup.js.php?ver=20100313'></script>
+<script type='text/javascript' src='http://opl.rit.edu/wp-content/plugins/myeasybackup/js/ajax_ro.js?ver=20100123'></script>
+<script type='text/javascript' src='http://opl.rit.edu/wp-includes/js/jquery/jquery.js?ver=1.3.2'></script>
+<script type='text/javascript' src='http://opl.rit.edu/wp-content/plugins/easily-navigate-pages-on-your-dashboard/easily-navigate-pages-on-dashboard.js?ver=2.9.2'></script>
+<script type='text/javascript' src='http://opl.rit.edu/wp-content/plugins/countdown-timer/js/fergcorp_countdownTimer_java.js?ver=2.4.2'></script>
+<script type='text/javascript' src='http://opl.rit.edu/wp-content/plugins/countdown-timer/js/webtoolkit.sprintf.js?ver=2.4.2'></script>
+<script type='text/javascript' src='http://opl.rit.edu/wp-content/themes/metamorphosis/includes/js/jquery.easing.min.js?ver=2.9.2'></script>
+<script type='text/javascript' src='http://opl.rit.edu/wp-content/themes/metamorphosis/includes/js/loopedSlider.js?ver=2.9.2'></script>
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://opl.rit.edu/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://opl.rit.edu/wp-includes/wlwmanifest.xml" /> 
+<link rel='index' title='Open Publishing Lab' href='http://opl.rit.edu' />
+<link rel='up' title='Projects' href='http://opl.rit.edu/projects/' />
+<meta name="generator" content="WordPress 2.9.2" />
+
+<!-- All in One SEO Pack 1.6.12.2 by Michael Torbert of Semper Fi Web Design[215,306] -->
+<link rel="canonical" href="http://opl.rit.edu/projects/page2pub/" />
+<!-- /all in one seo pack -->
+<meta name="generator" content="Meta-Morphosis 1.2.4" />
+<meta name="generator" content="Woo Framework Version 2.6.1" />
+<link href="http://opl.rit.edu/wp-content/themes/metamorphosis/styles/colors.css" rel="stylesheet" type="text/css" />
+<link href="http://opl.rit.edu/wp-content/themes/metamorphosis/custom.css" rel="stylesheet" type="text/css" />
+<meta name="google-site-verification" content="mn3qNuGVTdEHPwszeZWvZ9O4Q4NRUdKKophuRgvFa9s" />
+</head>
+
+<body class="custom">
+
+<div id="wrap">
+    <div id="top">
+
+        <!-- PAGE NAVIGATION -->
+   
+        <!-- Page Nav Ends -->
+        
+        <!-- HEADER -->
+        <div id="header">
+            <a href="http://opl.rit.edu" title="extend. enable. empower"><img class="title" src="http://oplstaging.cias.rit.edu/wp-content/uploads/2010/04/banner2.png" alt="Open Publishing Lab" /></a>
+            <h1><a href="http://opl.rit.edu">Open Publishing Lab</a></h1>
+            
+            <!-- TOP AD -->
+                        
+        </div>
+        <!-- end #header -->        
+
+        <!-- MAIN MENU -->
+		<div id="menu">
+        	<ul id="catnav"> <!-- used to be "catnav" -->
+				<li class="page_item page-item-3"><a href="http://opl.rit.edu" title=""></a></li>
+<li class="page_item page-item-68"><a href="http://opl.rit.edu/about/" title="About">About</a>
+<ul>
+	<li class="page_item page-item-974"><a href="http://opl.rit.edu/about/what-is-open-publishing/" title="What is Open Publishing?">What is Open Publishing?</a></li>
+</ul>
+</li>
+<li class="page_item page-item-50 current_page_parent"><a href="http://opl.rit.edu/projects/" title="Projects">Projects</a>
+<ul>
+	<li class="page_item page-item-149"><a href="http://opl.rit.edu/projects/drop2print/" title="Drop2Print">Drop2Print</a></li>
+	<li class="page_item page-item-151"><a href="http://opl.rit.edu/projects/innovation-news/" title="Innovation News">Innovation News</a></li>
+	<li class="page_item page-item-153"><a href="http://opl.rit.edu/projects/insight/" title="Insight">Insight</a></li>
+	<li class="page_item page-item-156"><a href="http://opl.rit.edu/projects/meetu/" title="Meetü">Meetü</a></li>
+	<li class="page_item page-item-158"><a href="http://opl.rit.edu/projects/open-publishing-guide/" title="Open Publishing Guide">Open Publishing Guide</a></li>
+	<li class="page_item page-item-160 current_page_item"><a href="http://opl.rit.edu/projects/page2pub/" title="Page2Pub">Page2Pub</a>
+	<ul>
+		<li class="page_item page-item-988"><a href="http://opl.rit.edu/projects/page2pub/download-page2pub/" title="Download Page2Pub">Download Page2Pub</a></li>
+	</ul>
+</li>
+</ul>
+</li>
+<li class="page_item page-item-523"><a href="http://opl.rit.edu/download/" title="Downloads">Downloads</a></li>
+<li class="page_item page-item-28"><a href="http://opl.rit.edu/researchers/" title="Researchers">Researchers</a>
+<ul>
+	<li class="page_item page-item-81"><a href="http://opl.rit.edu/researchers/faculty/" title="Faculty">Faculty</a>
+	<ul>
+		<li class="page_item page-item-145"><a href="http://opl.rit.edu/researchers/faculty/patricia-albanese/" title="Patricia Albanese">Patricia Albanese</a></li>
+		<li class="page_item page-item-89"><a href="http://opl.rit.edu/researchers/faculty/matthew-bernius/" title="Matthew Bernius">Matthew Bernius</a></li>
+		<li class="page_item page-item-147"><a href="http://opl.rit.edu/researchers/faculty/tona-henderson/" title="Tona Henderson">Tona Henderson</a></li>
+		<li class="page_item page-item-143"><a href="http://opl.rit.edu/researchers/faculty/michael-riordan/" title="Michael Riordan">Michael Riordan</a></li>
+	</ul>
+</li>
+	<li class="page_item page-item-93"><a href="http://opl.rit.edu/researchers/staff/" title="Staff">Staff</a>
+	<ul>
+		<li class="page_item page-item-95"><a href="http://opl.rit.edu/researchers/staff/rachael-gootnick/" title="Rachael Gootnick">Rachael Gootnick</a></li>
+	</ul>
+</li>
+	<li class="page_item page-item-85"><a href="http://opl.rit.edu/researchers/students/" title="Students">Students</a>
+	<ul>
+		<li class="page_item page-item-113"><a href="http://opl.rit.edu/researchers/students/jeanette-bredsten/" title="Jeanette Bredsten">Jeanette Bredsten</a></li>
+		<li class="page_item page-item-131"><a href="http://opl.rit.edu/researchers/students/sean-conklin/" title="Sean Conklin">Sean Conklin</a></li>
+		<li class="page_item page-item-116"><a href="http://opl.rit.edu/researchers/students/jesse-friedlander/" title="Jesse Friedlander">Jesse Friedlander</a></li>
+		<li class="page_item page-item-118"><a href="http://opl.rit.edu/researchers/students/john-karahalis/" title="John Karahalis">John Karahalis</a></li>
+		<li class="page_item page-item-127"><a href="http://opl.rit.edu/researchers/students/ryan-langille/" title="Ryan Langille">Ryan Langille</a></li>
+		<li class="page_item page-item-133"><a href="http://opl.rit.edu/researchers/students/steve-mancini/" title="Steve Mancini">Steve Mancini</a></li>
+		<li class="page_item page-item-125"><a href="http://opl.rit.edu/researchers/students/mike-norman/" title="Mike Norman">Mike Norman</a></li>
+		<li class="page_item page-item-461"><a href="http://opl.rit.edu/researchers/students/seppi-patoprsty/" title="Seppi Patoprsty">Seppi Patoprsty</a></li>
+		<li class="page_item page-item-75"><a href="http://opl.rit.edu/researchers/students/matt-rogers/" title="Matt Rogers">Matt Rogers</a></li>
+		<li class="page_item page-item-768"><a href="http://opl.rit.edu/researchers/students/patrul-sanwal/" title="Patrul Sanwal">Patrul Sanwal</a></li>
+		<li class="page_item page-item-129"><a href="http://opl.rit.edu/researchers/students/sam-shaffer/" title="Sam Shaffer">Sam Shaffer</a></li>
+		<li class="page_item page-item-102"><a href="http://opl.rit.edu/researchers/students/ben-vanderberg/" title="Ben Vanderberg">Ben Vanderberg</a></li>
+		<li class="page_item page-item-111"><a href="http://opl.rit.edu/researchers/students/jacob-weigand/" title="Jacob Weigand">Jacob Weigand</a></li>
+		<li class="page_item page-item-98"><a href="http://opl.rit.edu/researchers/students/alex-wright/" title="Alex Wright">Alex Wright</a></li>
+		<li class="page_item page-item-106"><a href="http://opl.rit.edu/researchers/students/haizhen-zhang/" title="Haizhen Zhang">Haizhen Zhang</a></li>
+	</ul>
+</li>
+</ul>
+</li>
+<li class="page_item page-item-441"><a href="http://opl.rit.edu/news/" title="News+">News+</a></li>
+<li class="page_item page-item-182"><a href="http://opl.rit.edu/affiliates/" title="Affiliates">Affiliates</a></li>
+<li class="page_item page-item-54"><a href="http://opl.rit.edu/contact/" title="Contact Us">Contact Us</a></li>
+            </ul>
+            
+             <!-- SEARCH -->  
+             <form method="get" id="searchform" action="http://opl.rit.edu/">                
+                <div id="search">
+                    <input type="text" value="search" onfocus="if (this.value == 'search') {this.value = '';}" onblur="if (this.value == '') {this.value = 'search';}" name="s" id="s" />
+                    <input name="" type="hidden" value="Go" class="btn"  />
+                </div>                                                
+            </form>
+            <!-- end search -->  
+
+        </div>
+        <!-- end #menu -->        
+                
+    </div>
+    <!-- end #top -->
+       
+    <!-- Content Starts -->
+    <div id="content" class="white">
+	
+	<div id="main-full">
+	    
+	    	                                                              
+		<!-- Post Starts -->
+		<div class="post wrap">
+		    <h1>
+			<a href="http://opl.rit.edu/projects/page2pub/" rel="bookmark" title="Page2Pub">Page2Pub</a>
+		    </h1>
+		    
+		    <p><strong>Project Lead: </strong><a href="researchers/students/manu-choudhury">Manu Choudhury</a><br />
+<strong>Faculty Lead: </strong><a href="researchers/faculty/patricia-albanese/">Patricia Albanese</a>,<strong> </strong> <a href="researchers/faculty/tona-henderson">Tona Henderson</a> <a href="researchers/faculty/patricia-albanese/"><br />
+</a><br />
+<strong>Collaborators: </strong>Frank Cost,<strong> </strong><a href="researchers/students/mike-norman">Mike Norman</a>,<strong> </strong><a href="researchers/students/Patrul-Sanwal">Patrul Sanwal</a><br />
+<strong>Past OPL Collaborators: </strong>Russell Baker, Matthew Bernius, Ryan Burst, Abdul Matsah, Mike Rubits, Ed Werner, Chetan Yalamanchili</p>
+<p><img src="http://oplstaging.cias.rit.edu/wp-content/uploads/2010/06/p2p.png" alt="" width="300px" /></p>
+<p><span style="font-size: medium;"><strong>Project Description</strong></span><em><br />
+</em>Page2Pub is a pair of applications that collect content from the web and reformats the content for publication across a wide range of medias.</p>
+<p><span style="font-size: medium;"><strong>Project History</strong></span><br />
+The project started in 2008, with a Innovation Grant from HP Labs under the original name BookIt. The purpose of this project was to enable users to gather pages of the wiki and create a book from the content. Later, the scope of the project was extended beyond wiki to content across the entire Web.</p>
+<p><span style="font-size: medium;"><strong>Project Purpose</strong></span><br />
+Today, with the proliferation of web 2.0 software (wikis, blogs, social networking applications, etc), more content is being created, by a wider range of people, than at any previous moment in history. However, much of that content is tied to the specific platform or structure that for which it was created. Extracting that information into a single document is problematic because there is a lack of efficient, easy systems to quickly aggregate content into well-formatted and unified publications. Thus, this current state prevents the smooth flow of information across media (i.e. web to paper or web to e-book reader).</p>
+<p>Page2Pub (P2P) focuses on creating a solution that harvests web content (text, images, links, tables, etc) and automatically formats, tags, and assembles the content into unified documents. The platform utilizes a modular workflow, in which content is gathered as the user browses the web pages. As it is gathered, the content is transformed into a master document. Finally, that master document is passed to a publishing module, where it rendered into print.</p>
+<p><span style="font-size: medium;"><strong>Project Goals</strong></span><br />
+The key goals of this project have been as follows:</p>
+<ul>
+<li>Produce      print output that is higher quality than just printing out a web page from      a web browser.</li>
+<li>Streamline      the process of content aggregation and re-flow to require as little user      supervision.</li>
+<li>Provide      a platform for future research into a bridge between print media and      web-based content.</li>
+</ul>
+<p><span style="font-size: medium;"><strong>Connection to Publishing</strong></span><br />
+The project allows users to gather all types of content from the web, format, tag, and assemble it into a unified open publishing format (E-Pub). The users can also edit the data that they have gathered, and thus the project allows users to easily publish e-pubs.</p>
+<p><span style="font-size: medium;"><strong>Technologies Utilized</strong></span></p>
+<ul>
+<li>Open EPub format</li>
+<li>XUL</li>
+<li>XML</li>
+<li>Adobe AIR &amp; Flash</li>
+<li>Java</li>
+<li>Javascript</li>
+</ul>
+<p><span style="font-size: medium;"><strong>Appearances and Instances</strong></span><br />
+Page2Pub has represented the OPL at several events both on campus as well as several conferences outside of RIT. The project was demonstrated at Imagine RIT festival (2009).  The project was presented during the TOC conference ’09, and IS&amp;T/SPIE Electronic Imaging 2010.</p>
+<p><span style="font-size: medium;"><strong>Outside Collaborators and Partners</strong></span></p>
+<ul>
+<li>HP Labs – 2008 Innovation Grant</li>
+<li>RIT Software Engineer Department – Senior Research</li>
+<li>Support from Fernando Nevada and Frank Cost</li>
+</ul>
+<p><span style="font-size: medium;"><strong>Using Page2Pub</strong></span><br />
+Optimized for harvesting content from wiki platforms, the beta version of <em>Page2Pub</em> lets you gather and transform web content into a print-ready PDF book in just five easy steps:</p>
+<ol>
+<li><strong>Install the <em>Page2Pub Firefox Add-On</em></strong></li>
+<li><strong>Browse the Web &amp; Gather Content</strong></li>
+<li><strong>Save the Content you gather in the EPub (Open eBook) Format</strong></li>
+<li><strong>Edit the Content (reorder and remove chapters, add metadata)<br />
+</strong></li>
+<li><strong>Export the EPub to the <em>Page2Pub Render System </em>&amp; Publish Your Book!</strong></li>
+</ol>
+<p>For more indepth information on how to use Page2Pub, visit the <a href='http://opl.rit.edu/projects/page2pub/Using Page2pub'  target="_blank">Using Page2Pub</a> section of this site.</p>
+<p><em>Page2Pub </em>consists of two pieces:</p>
+<ol>
+<li><em><strong>The Page2Pub Firefox Add-On</strong></em><br />
+This add on allows you to gather whole pages, and sections of web pages, as you are browsing the web. The application saves the content locally as an Open EPub document. The browser add-on also allows you to edit the contents of your EPUB.</li>
+<li><em><strong>The Page2Pub Render System</strong></em><br />
+Using Java and Adobe AIR, the render tool transforms the EPub into a locally saved print ready PDF book.</li>
+</ol>
+<p>The <em>Page2Pub</em> applications run on Windows XP, Vista, and 7 and also on 64-bit Intel processor Macs <em>(Core 2 series or later). </em>You can find complete system compatibility information on the <a href='http://opl.rit.edu/downloads'  target="_blank">download page</a>.<em> </em><br />
+<span style="font-size: medium;"><strong>Gathering and creating an EPUB</strong></span></p>
+<ol>
+<li><a title="[Download Page2Pub]" href='http://opl.rit.edu/projects/page2pub/download-page2pub' >Download and install the <em>Page2Pub software</em></a>.</li>
+<li>Open Firefox and click on the <em>Page2Pub </em>icon in the lower right corner of the browser window.</li>
+<li>Inside the Click <em>New</em> to create a new <em>Page2Pub</em> EPUB or <em>Open</em> to open an existing EPUB.
+<ul>
+<li>Tip: If you’re starting a new EPUB you can choose to skip this step. The first time you gather a page or a section, you’ll be automatically be prompted to create a new EPUB if one isn’t already started.</li>
+</ul>
+</li>
+<li>Navigate to a page that contains information that you’d like to capture.
+<ul>
+<li>Note: The current version of Page2Pub is optimized for gathering content from Wikis. Content gathered from other sites may not render well as an ePub or PDF.</li>
+</ul>
+</li>
+<li>Either gather the entire page using <em>Gather Page</em> from the <em>Gather</em> menu or select the content you’d like to gather and choose <em>Gather Selection</em> from the same menu. The name of the content you gathered will appear in the <em>Table of Contents</em> pane and the content’s related <em>Properties</em>, <em>Metadata</em>, and <em>Footnotes </em>will appear to the right.
+<ul>
+<li>Tip: You can speed up gathering by using the <em>Page2Pub </em>context menu that’s accessible when you “right-click” with your mouse inside the Firefox content window.</li>
+</ul>
+</li>
+</ol>
+<p>That’s it! To keep building your EPUB, just keep browsing and gathering.<br />
+<span style="font-size: medium;"><strong>Editing your EPUB</strong></span></p>
+<ul>
+<li><em>Reordering the contents</em><br />
+In the <em>Table of Contents</em> pane, click to select the content that you’d like to move and then click the <em>Up </em>and <em>Down Arrows</em> located to the right of the pane.</p>
+<ul>
+<li>Note: You can only move one piece of content at a time. And you must deselect content before selecting another piece of content to move.</li>
+</ul>
+</li>
+<li><em>Delete content</em><br />
+In the <em>Table of Contents</em> pane, click to select the content that you’d like to delete and then click the <em>Delete </em>tab above the pane.</li>
+<li><em>Edit Metadata</em><br />
+In the <em>Table of Contents</em> pane, click to select the content whose metadata you’d like to edit and click on the <em>Metadata</em> tab to the right. Use the <em>pulldown </em>to select the tag that you’d like to edit. All <em>Metadata </em>changes are automatically saved.</li>
+</ul>
+<p><span style="font-size: medium;"><strong>Creating a Print-Ready PDF Book from your EPUB</strong></span></p>
+<ol>
+<li>Open your file in the <em>Page2Pub Render System</em>
+<ul>
+<li>Option 1: With your EPUB open in the <em>Page2Pub Firefox Add-On</em>, select <em>Prepare EPUB for Print</em> from the <em>Tools </em>pull down. Provided that it’s installed, the Add-On will automatically launch the <em>Page2Pub Render System</em> and load your current EPUB in it.</li>
+</ul>
+<ul>
+<li>Option 2: Launch the<em> Page2Pub Render System</em> application and <em>Open </em>your file from the <em>File</em> menu.</li>
+</ul>
+</li>
+<li>When the EPUB loads you’ll see an html based approximation of what the final, print ready PDF will look like. You can experiment with different designs and form factors, by selecting different <em>Templates </em>from the <em>Display</em> menu.
+<ul>
+<li>Note: The current version of the <em>Render System</em> does not simulate page breaks.</li>
+</ul>
+</li>
+<li>After you’ve selected a template that you like, select <em>Output to PDF</em> from the <em>Output </em>menu. You will then be prompted to name the file and specify a location to save it. Once you hit <em>Save </em>the<em> Render System </em>will create the PDF and then automatically launch it in Acrobat once it is finished.</li>
+</ol>
+<p>For a more detailed overview of how to use Page2Pub, review the Page2Pub Readme (included with the application and <a title="[Page2Pub Readme]" href='http://cias-opl.rit.edu/wiki/index.php/Read_Me_for_the_Page2Pub_Feature_Preview_Release'  target="_blank">available online</a>).</p>
+		</div>
+		<!-- Post Ends -->
+	      
+		<!-- Side Bar Starts -->
+		<div id="sidebar">
+		    	<!-- start Widget slider -->
+    <div id="loopedSlider">
+        <div id="slider-top"></div>
+        <div id="slider-block">
+                        <div class="container">
+		
+                                        <div id="slide-1" class="slide">
+                    	<ul class="widget"><h3>Announcements</h3>			<div class="textwidget"><p>The new Meetü game platform is now available as RC2 <a href='http://drupal.org/project/meetu' onclick='javascript:_gaq.push(['_trackEvent','outbound-widget','drupal.org']);'>Download now! </a></p>
+<p>Download the 2010 OPL Year in Review! <a href='http://opl.rit.edu/wp-content/uploads/2010/03/OPL_Year_In_Review_2010.pdf' onclick='javascript:_gaq.push(['_trackEvent','download','opl.rit.edu/wp-content/uploads/2010/03/OPL_Year_In_Review_2010.pdf']);'>Get it here!</a></p></div>
+		<h3>Downloads</h3>			<div class="textwidget"><p><a href='http://drupal.org/project/meetu' onclick='javascript:_gaq.push(['_trackEvent','outbound-widget','drupal.org']);'>Meetü</a></p>
+<p><a href='http://oplstaging.cias.rit.edu/projects/page2pub/download-page2pub' onclick='javascript:_gaq.push(['_trackEvent','outbound-widget','oplstaging.cias.rit.edu']);'>Page2Pub</a></p>
+<p><a href='http://drupal.org/project/innovationnewsprofile' onclick='javascript:_gaq.push(['_trackEvent','outbound-widget','drupal.org']);'>Innovation News</a></p></div>
+		<h3>Social Media</h3>			<div class="textwidget"><ul class="socialWrap">
+
+        <li class="socialLinks"><a href='http://www.facebook.com/group.php?sid=d6990561b28aaa94cd4c11614938f555&gid=10325593186' onclick='javascript:_gaq.push(['_trackEvent','outbound-widget','www.facebook.com']);' rel="external"><img src="http://cias-opl.rit.edu/mainRedesign/wp-content/themes/metamorphosis/images/facebook_32.png" alt="facebook icon" /></a></li>
+
+        <li class="socialLinks"><a href='http://flickr.com/photos/ritopl/' onclick='javascript:_gaq.push(['_trackEvent','outbound-widget','flickr.com']);' rel="external"><img src="http://cias-opl.rit.edu/mainRedesign/wp-content/themes/metamorphosis/images/flickr_32.png" alt="flickr icon" /></a></li>
+        <li class="socialLinks"><a href='http://twitter.com/ritopl' onclick='javascript:_gaq.push(['_trackEvent','outbound-widget','twitter.com']);' rel="external"><img src="http://cias-opl.rit.edu/mainRedesign/wp-content/themes/metamorphosis/images/twitter_32.png" alt="twitter icon" /></a></li>
+        <li class="socialLinks"><a href='http://www.vimeo.com/user1295106/videos' onclick='javascript:_gaq.push(['_trackEvent','outbound-widget','www.vimeo.com']);' rel="external"><img src="http://cias-opl.rit.edu/mainRedesign/wp-content/themes/metamorphosis/images/vimeo_32.png" alt="vimeo icon" /></a></li>
+         <li class="socialLinks"><a href='http://youtube.com/ritopl' onclick='javascript:_gaq.push(['_trackEvent','outbound-widget','youtube.com']);' rel="external"><img src="http://cias-opl.rit.edu/mainRedesign/wp-content/themes/metamorphosis/images/youtube_32.png" alt="youtube icon" /></a></li>
+    </ul>
+
+<br />
+</div>
+		</ul>
+			
+						
+                    </div>
+                                                            		      
+                    
+            </div>
+        </div>
+        <div id="slider-bot"></div>
+    </div>    
+    <!-- end Widget slider -->
+
+	
+	
+</div>
+<script type='text/javascript' src='http://opl.rit.edu/wp-includes/js/jquery/ui.core.js?ver=1.7.1'></script>
+<script type='text/javascript' src='http://opl.rit.edu/wp-includes/js/jquery/ui.tabs.js?ver=1.7.1'></script>
+<script type="text/javascript">
+<!--
+var getOptions = new Array();
+getOptions['showYear'] = 1;
+getOptions['showMonth'] = 1;
+getOptions['showWeek'] = 0;
+getOptions['showDay'] = 1;
+getOptions['showHour'] = 1;
+getOptions['showMinute'] = 1;
+getOptions['showSecond'] = 0;
+getOptions['stripZero'] = 1;
+var fergcorp_countdownTimer_js_language = new Array();
+fergcorp_countdownTimer_js_language['year'] = '%d year, ';
+fergcorp_countdownTimer_js_language['years'] = '%d years, ';
+fergcorp_countdownTimer_js_language['month'] = '%d month, ';
+fergcorp_countdownTimer_js_language['months'] = '%d months, ';
+fergcorp_countdownTimer_js_language['week'] = '%d week, ';
+fergcorp_countdownTimer_js_language['weeks'] = '%d weeks, ';
+fergcorp_countdownTimer_js_language['day'] = '%d day, ';
+fergcorp_countdownTimer_js_language['days'] = '%d days, ';
+fergcorp_countdownTimer_js_language['hour'] = '%d hour, ';
+fergcorp_countdownTimer_js_language['hours'] = '%d hours, ';
+fergcorp_countdownTimer_js_language['minute'] = '%d minute, ';
+fergcorp_countdownTimer_js_language['minutes'] = '%d minutes, ';
+fergcorp_countdownTimer_js_language['second'] = '%d second, ';
+fergcorp_countdownTimer_js_language['seconds'] = '%d seconds, ';
+fergcorp_countdownTimer_js_language['ago'] = '%s ago';
+fergcorp_countdownTimer_js_language['in'] = 'in %s';
+var fergcorp_countdownTimer_js_events = new Array();
+fergcorp_countdownTimer_js();
+//-->
+</script>
+<div class='rpx_comment_hint' id='rpx_comment_hint' style='display:none;'><a href='http://opl.rit.edu/wp-login.php' class='rpxnow' id='rpx_comment_hint_link'>Leave a verified comment using</a> <span id='rpx_provider_wrap'><a href='http://opl.rit.edu/wp-login.php' class='rpxnow'><img src='http://opl.rit.edu/wp-content/plugins/rpx/images/aol.png' class='rpx_provider_image' style='padding:5px;padding-bottom:0;'/></a><a href='http://opl.rit.edu/wp-login.php' class='rpxnow'><img src='http://opl.rit.edu/wp-content/plugins/rpx/images/facebook.png' class='rpx_provider_image' style='padding:5px;padding-bottom:0;'/></a><a href='http://opl.rit.edu/wp-login.php' class='rpxnow'><img src='http://opl.rit.edu/wp-content/plugins/rpx/images/google.png' class='rpx_provider_image' style='padding:5px;padding-bottom:0;'/></a><a href='http://opl.rit.edu/wp-login.php' class='rpxnow'><img src='http://opl.rit.edu/wp-content/plugins/rpx/images/twitter.png' class='rpx_provider_image' style='padding:5px;padding-bottom:0;'/></a><a href='http://opl.rit.edu/wp-login.php' class='rpxnow'><img src='http://opl.rit.edu/wp-content/plugins/rpx/images/myspace.png' class='rpx_provider_image' style='padding:5px;padding-bottom:0;'/></a><a href='http://opl.rit.edu/wp-login.php' class='rpxnow'><img src='http://opl.rit.edu/wp-content/plugins/rpx/images/openid.png' class='rpx_provider_image' style='padding:5px;padding-bottom:0;'/></a><a href='http://opl.rit.edu/wp-login.php' class='rpxnow'><img src='http://opl.rit.edu/wp-content/plugins/rpx/images/live.png' class='rpx_provider_image' style='padding:5px;padding-bottom:0;'/></a><a href='http://opl.rit.edu/wp-login.php' class='rpxnow'><img src='http://opl.rit.edu/wp-content/plugins/rpx/images/yahoo.png' class='rpx_provider_image' style='padding:5px;padding-bottom:0;'/></a></span> </div><script src="https://rpxnow.com/openid/v2/widget" type="text/javascript"></script>
+<script type="text/javascript">
+RPXNOW.token_url = "http://opl.rit.edu/?rpx_response=1&redirect_to=http%3A%2F%2Fopl.rit.edu%2Fprojects%2Fpage2pub%2F";
+RPXNOW.realm = "opl-overlay-login.rpxnow.com";
+RPXNOW.overlay = true;
+RPXNOW.ssl = true;
+RPXNOW.language_preference = 'en';
+</script>
+<script type="text/javascript">
+var rpx_hint = document.getElementById("rpx_comment_hint");
+var respond_div = document.getElementById("commentformbox");
+if (!respond_div) {
+  respond_div = document.getElementById("respond");
+}
+
+if (respond_div) {
+  respond_div.innerHTML = "<h3>Leave a Reply</h3>";
+  respond_div.appendChild(rpx_hint);
+  rpx_hint.style.display='block';
+}
+</script><script type="text/javascript"> Cufon.now(); </script>
+
+<!-- rpx login here -->
+<script type="text/javascript">
+  var rpxJsHost = (("https:" == document.location.protocol) ? "https://" : "http://static.");
+  document.write(unescape("%3Cscript src='" + rpxJsHost +
+"rpxnow.com/js/lib/rpx.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+  RPXNOW.overlay = true;
+  RPXNOW.language_preference = 'en';
+</script>
+		</div>
+		<!-- Side Bar Ends -->  
+                                 
+	    	    
+            <div class="more_entries wrap">
+                            </div> 
+            
+        </div><!-- main-full ends -->
+	
+    </div>
+    
+    <div id="content-bot"></div>
+    
+    <!-- copyright notice -->
+    <!-- copyright notice -->
+     <div id="blackbox" class="footerBox">
+	<p>
+	    <a href="http://opl.rit.edu">Home</a> |
+	    <a href="http://cias.rit.edu/printmedia/" title="" target="_blank">School of Print Media</a> |
+	    <a class="rpxnow" onclick="return false;" href="https://opl-overlay-login.rpxnow.com/openid/v2/signin?token_url=http%3A%2F%2Fcias-opl.rit.edu%2FmainRedesign%2F">OPL Login</a> |
+	    <a href="http://www.rit.edu/" title="" target="_blank">Rochester Institute of Technology</a> | <a href="/contact" title="">Contact</a>
+	</p>
+	
+	<p>
+	    <a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/us/" target="_blank">
+		<img alt="Creative Commons License" style="border-width:0; margin: 0 auto;" src="http://i.creativecommons.org/l/by-sa/3.0/us/88x31.png" />
+	    </a> This work is licensed under a
+	    <a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/us/" target="_blank">Creative Commons Attribution-Share Alike 3.0 United States License</a>
+	</p>
+    </div>
+    
+    </body>
+    
+</html>
