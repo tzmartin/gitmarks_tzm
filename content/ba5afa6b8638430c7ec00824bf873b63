@@ -1,0 +1,167 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html lang="en-gb">
+
+<head>
+	<title>~~TOMSOFT~~ iPhone Flite Text-to-Speech engine</title>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8">
+
+	<meta name="robots" CONTENT="index,follow,noarchive">
+	<meta name="lastmodified" CONTENT="10/08/2008">
+	<meta http-equiv="content-language" content="en,en-us">
+
+	<meta name="Identifier-URL" CONTENT="http://www.tomsoft.co.uk">
+
+	<meta name="author" content="TOMSOFT - iPhone App Development - http://www.tomsoft.co.uk" />
+	<meta name="Category" content="iphone,ipod">
+	<meta name="Description" content="Browse our collection of iPhone and iPod Touch apps already in the App Store">
+	<meta name="Keywords" content="iPod games, iphone, ipod touch, app, apps, development, tap, i Phone, i-Phone, app development">
+
+
+	<meta name="expires" CONTENT="never">
+	<meta name="revisit-after" CONTENT="7 days">
+	<meta name="viewport" content="width=1024">
+
+	<!-- Favicon -->
+	<link rel="icon" href="http://www.tomsoft.co.uk/favicon.ico" type="image/x-icon">
+	<link rel="shortcut icon" href="http://www.tomsoft.co.uk/favicon.ico" type="image/x-icon">
+
+	<!-- CSS -->
+	<link rel="stylesheet" href="../css/base.css" type="text/css" charset="utf-8">
+	<link rel="stylesheet" href="../css/showcase.css" type="text/css" charset="utf-8">
+	<link rel="stylesheet" href="../css/stylesheet.css" media="screen,projection" type="text/css">
+
+
+
+	
+	
+</head>
+
+<body class="iphoneapps" id="iphoneapps">
+
+	<div id="navigation">
+		<div class="top-content">
+		
+		<div class="logo">
+			<h1>
+			<a href="http://www.tomsoft.co.uk" title="TOMSOFT iPhone App Development "><span style="margin-left:-1000px;color:#000000;">TOMSOFT Website Design & iPhone App Development</span></a>
+			</h1>
+		</div>
+		
+			<ol id="sitelinks">
+		<li class="iphoneapps"><a href="iphone-design.htm" title="iPhone Apps - Available in iTunes App Store"><span>iPhone Apps</span> <em>Now in the App Store</em></a></li>
+		<li class="iphonesupport" ><a href="iphone-support.htm" title="iPhone App Support - need help with one of our apps"><span>App Support</span> <em>Need help with our apps</em></a></li>
+		<li class="promo"><a href="../lists/?p=subscribe&id=1" title="Newsletter - Sign up and win free promo codes"><span>Newsletter</span> <em>Sign up and win free apps</em></a></li>
+		<li class="aboutus"><a href="../about-us.htm" title="About us - who we are and what we do"><span>About us</span> <em>Find out more about us</em></a></li>
+		<li class="contactus"><a href="../contact-us.php" title="Contact us - Need help or have an app idea?"><span>Contact us</span> <em>Got a project for us?</em></a></li>
+		</ol>
+		
+
+		<div id="productheader" style="height:15px;">
+			
+		</div>
+
+
+		<div id="main">
+				<div id="content">
+					<div id="productbanner">
+					<div  class="tts">
+					</div>
+					</div>
+					
+				<div class="col colleft">
+
+				
+			<h2>TOMSOFT Text-to-Speech Engine for just $99</h2>
+			
+			<p>
+			TOMSOFT Text-to-Speech engine is an advanced text-to-speech engine for iPhone and iPod Touch platforms. The engine is based on the open source Flite speech synthesizer developed at Carnegie Mellon University.
+			 </p>
+			 
+			 <p>
+			 The package includes all source code files for the TTS engine and the Xcode project for a working iPhone app currently selling in the iTunes App Store. The TOMSOFT Text-To-Speech engine will be digitally delivered once purchased through PayPal.
+			</p>
+			<br>
+			<br>
+			<p><b>KEY FEATURES</b></p>
+			<ul>
+			<li>
+			Easy to use and to integrate (written in C and compatible with the ARM Architecture).
+			</li>
+			<br>
+			<li>
+			Small, fast run-time synthesis engine - ideal for mobile devices such as the iPhone and iPod Touch.
+			</li>
+			<br>
+			<li>
+			Comes with 4 Voices (3 male and 1 female)
+			</li>
+			<br>
+			<li>
+			Additional voices can be easily be added (the engine provides support for compiling FestVox voices)
+			</li>
+			<br>
+			<li>
+			Output to file (.wav)
+			</li>
+			<br>
+			<li>
+			Sample source code included for the "vMail" app
+			</li>			
+			</ul>
+			
+			
+			<br>
+			<form action="https://www.paypal.com/cgi-bin/webscr" method="post"> <input type="hidden" name="cmd" value="_s-xclick"> <input type="hidden" name="hosted_button_id" value="8632434"> <input type="image" src="https://www.paypal.com/en_US/GB/i/btn/btn_buynowCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online."> <img alt="" border="0" src="https://www.paypal.com/en_GB/i/scr/pixel.gif" width="1" height="1"> </form> 
+			<br>
+			<br>
+			
+			
+
+</div>
+
+<div class="col colright">
+	<h2>Demo Application</h2>
+	<p>If you would like to see an example of the TOMSOFT Text-To-Speech engine then you can purchase vMail from the Apple App Store. The application is available from the App Store for just $0.99 and will allow you to hear the 4 voices available in the engine</p>
+	
+	<a href="http://itunes.apple.com/WebObjects/MZStore.woa/wa/viewSoftware?id=327624460&mt=8">Download vMail from the App Store now</a>
+
+	<br>
+	<img src="../images/vmail-iphone.jpg" height="480" width="320" style="margin-top:30px;">
+</div>
+				
+				
+				
+				
+				
+		</div>
+									
+				</div>
+		<div class="maincap bottom"></div>
+	</div>
+
+
+	
+	<div class="footer">
+		<div style="width: 1000px; margin: 0 auto;">
+		
+			<a href="http://www.tomsoft.co.uk/" class="siteBy"><span>TOMSOFT iPhone App Development and Website Design</span></a>
+			<p>&copy; TOMSOFT 2009  -  All rights reserved. <br>All iPhone artwork is used in conjunction and compliance with the iPhone App Store Artwork License Agreement.</p>
+		</div>
+		<!--	<p class="twitter"><a href="http://twitter.com/tomsoftnews" alt="Twitter Tomsoft"><img src="http://www.tomsoft.co.uk/images/twitter-button.png" alt="Twitter - Follow us"></a></p>
+-->
+		</div>
+	</div>
+	<!-- Start of StatCounter Code -->
+<script type="text/javascript">
+var sc_project=3940271; 
+var sc_invisible=1; 
+var sc_partition=47; 
+var sc_click_stat=1; 
+var sc_security="86382a11"; 
+</script>
+
+<script type="text/javascript" src="http://www.statcounter.com/counter/counter.js"></script><noscript><div class="statcounter"><a title="free hit counter" href="http://www.statcounter.com/free_hit_counter.html" target="_blank"><img class="statcounter" src="http://c.statcounter.com/3940271/0/86382a11/1/" alt="free hit counter" ></a></div></noscript>
+
+<!-- End of StatCounter Code -->
+
+</body></html>
