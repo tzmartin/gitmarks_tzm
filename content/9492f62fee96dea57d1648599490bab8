@@ -322,7 +322,7 @@
             <a href="#">Terms of Use</a></p>
             
             <p class="rt">
-            19 queries. 0.606 seconds &copy; 2010 tutorial9
+            19 queries. 0.421 seconds &copy; 2010 tutorial9
             </p>
         </div>
     </div>
@@ -366,4 +366,4 @@ Database Caching using apc
 Object Caching 334/382 objects using apc
 Content Delivery Network via Amazon Web Services: S3: tutorial9.s3.amazonaws.com
 
-Served from: www.tutorial9.net @ 2010-12-18 18:07:37 -->
+Served from: www.tutorial9.net @ 2010-12-18 18:52:33 -->
