@@ -1,0 +1,1581 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+        "http://www.w3.org/TR/html4/loose.dtd">
+
+<html lang="en">
+<head>
+	<meta http-equiv="content-type" content="text/html;charset=utf-8">
+	<meta http-equiv="Content-Language" content="en">
+	<title>TidBITS Macs & Mac OS X: Revealing Mac OS X's Hidden Single-Application Mode</title>
+	<link rel="canonical" href="/article/10624" />
+	<meta name="title" content="TidBITS Macs & Mac OS X: Revealing Mac OS X's Hidden Single-Application Mode">
+	<meta name="description" content="TidBITS is a free email and Web publication covering the Macintosh Internet community.">
+	<link rel="image_src" href="/images/tblogo9.gif" />
+	<meta name="keywords" content="Apple, Mac, Macintosh, Mac OS, Mac OS X, newsletter, Internet, analysis, reviews, technology, news, TidBITS, TidBITS Talk, Engst">
+	<link rel="Help" href="http://www.tidbits.com/about/about-tidbits.html" title="About TidBITS">
+	<link rel="Search" href="http://www.tidbits.com/search/" title="Search All TidBITS Content">
+	<link rel="Author" href="http://www.tidbits.com/about/contact-info.html" title="Contact Information">
+	<link rel="Contents" href="tb-issues/" title="TidBITS Issue Archive">
+	<link rel="alternate" type="application/rss+xml" href="http://db.tidbits.com/feeds/tidbits.rss" title="TidBITS Full Text Feed">
+	<link rel="alternate" type="application/rss+xml" href="http://db.tidbits.com/commentfeeds/firehose.xml" title="TidBITS Full Comments Feed">
+
+	<link rel="stylesheet" href="/tidbits_2010_001.css" type="text/css">
+	<LINK rel="stylesheet" type="text/css" media="print" href="/tb-new-print.css">
+	<script src="/javascript/tb.js" type="text/javascript" charset="utf-8"></script>
+	<meta name="viewport" content="width:940">
+	<script type='text/javascript' src='http://db.tidbits.com/ads/delivery/spcjs.php?id=2'></script>
+	<script src="/javascript/prototype.js" type="text/javascript"></script>
+<script src="/javascript/scriptaculous.js" type="text/javascript"></script>
+<script src="/js-global/FancyZoom.js" type="text/javascript"></script>
+<script src="/js-global/FancyZoomHTML.js" type="text/javascript"></script>
+<script type="text/javascript"  src="http://api.recaptcha.net/js/recaptcha_ajax.js"></script>
+
+</head>
+<body onLoad="setupZoom()">
+<!-- popup query -->
+<div id="big_ole_background" style="display:none">&nbsp;</div>
+<div id="tipbits_enclosure_preview" style="display:none">
+<div class="tearoffbox_wide_container">
+<div class="tearoffbox_wide_tips">
+
+<div class="tip_display">
+<div class="preview">
+<h6><span id="p_tips_title"></span></h6>
+<p id="p_tips_text"></p>
+<p>Visit <a href="javascript:void(0)" id="p_url"><span id="p_label"></span></a></p>
+<p class="credit">Submitted by <span id="p_reader"></span></p>
+<p><input type="submit" value="Back" name="preview_tip" onClick="preview_box('ts','tipbits_enclosure_preview'); return false;"></p>
+</div>
+</div>
+<div class="tearoffbox_wide_bottom_tips">
+</div>
+
+</div><!-- end tearoffbox_wide_tips -->
+</div><!-- end tearoffbox_wide_container for tips-->
+<!-- end tearoff box wide -->
+</div><!-- end enclosure -->
+
+<div class="popup_box_with_captcha" id="ts" style="display:none">
+	<div id="popup_box_thanks" style="display:none" onClick="close_popup_thanks('popup_box_thanks', 'ts')"><br>Thanks for submitting your tip! All submissions are moderated by an editor before appearing online. We've reset the form so you can enter another tip. Or you can close the tip submission box.	<div class="x_close" id="thanks_upper_right"><a href="javascript:void(0)" onmousedown="close_popup_thanks('popup_box_thanks', 'ts'); return true;">Close</a></div></div>
+	<div class="tip_box_format">
+	<div id="ts_innards" onClick="close_popup_thanks('popup_box_thanks', 'ts')">
+		<div class="tip_box_head">TipBITS Submission</div>
+		<div class="tip_box_form">		
+				
+			<div class="tbf_row" id="ts_message_box" style="display:none">
+				<div class="tbf_wide"><div class="tbf_alert" id="ts_top_message"></div></div>
+			</div>
+			<div class="spacer"></div>
+
+			<form action="foobar.cgi" method="get" name="submit_tip">
+
+			<div class="tbf_row"><div class="tbf_wide_extra_top not_bold">Please submit only technical tips that will help other TidBITS readers better use their Macs, iPhones, and related software and hardware. All product announcements should be sent to <a href="mailto:releases@tidbits.com">releases@tidbits.com</a>.</div></div>
+			<div class="spacer"></div>
+			<div class="tbf_row">
+				<div class="tbf_left">Tip title<span class="required_field">*</span></div><div class="tbf_right"><input type="text" value="" id="tip_title_id" name="tip_title" tabindex="1"></div>
+			</div>
+			<div class="spacer"></div>
+			<div class="tbf_row">
+				<div class="tbf_left">Your tip<span class="required_field">*</span></div><div class="tbf_right"><textarea name="tip_text" rows="3" cols="40" tabindex="2"></textarea></div>
+			</div>
+			<div class="spacer"></div>
+			<div class="tbf_row">
+				<div class="tbf_left">URL</div><div class="tbf_right"><input type="text" value="" name="tip_link_url" tabindex="3"><span class="tip_description"><br>Enter the URL to a Web page that supports your tip.</span></div>
+			</div>
+			<div class="spacer"></div>
+			<div class="tbf_row">
+				<div class="tbf_left">Linked text</div><div class="tbf_right"><input type="text" value="" name="tip_link_label" tabindex="4"><span class="tip_description"><br>Enter the name of the page linked above.</span></div>
+			</div>
+			<div class="spacer"></div>
+			<div class="tbf_row">
+				<div class="tbf_left">Your name<span class="required_field">*</span></div><div class="tbf_right"><input type="text" value="" name="tip_reader_name" tabindex="5"></div>
+			</div>
+			<div class="spacer"></div>
+			<div class="tbf_row">
+				<div class="tbf_left">Your email<span class="required_field">*</span></div><div class="tbf_right"><input type="text" value="" name="tip_reader_email" tabindex="6"></div>
+			</div>
+			<div class="spacer"></div>
+			<div class="spacer"></div>
+				<div class="tbf_wide"><span class="fine_print"><span class="required_field">* indicates required fields</span></span></div>
+			<div class="spacer"></div>
+			<div class="tbf_row">
+				<div class="tbf_wide_extra_top"><span class="fine_print">To help us avoid automated posts and spam, please enter the words below.</span></div>
+			</div>
+			<div class="spacer"></div>
+			<div class="tbf_row">
+				<div class="tbf_wide"><div id="ts_recaptcha"></div></div>
+			</div>
+			<div class="spacer"></div>
+			<div class="tbf_row">
+				<div class="tbf_wide"><input type="submit" value="Preview Your Tip" name="preview_tip" onClick="fill_preview('tipbits_enclosure_preview', 'ts', this.form); return false;" tabindex="7">&nbsp;<input type="submit" value="Send Us Your Tip!" name="submit_this_tip" onClick="handle_tip_submission('ts', '', this.form, 'tip'); return false;" tabindex="8"></div>
+			</div>
+			<div class="spacer"></div>
+			<div class="tbf_row">
+				<div class="tbf_wide"><span class="fine_print">When you submit a tip, you give us permission to use it. Read <a href="javascript:void(0)" onClick="generic_show_hide('tip_terms')">our terms</a> for more details. All submissions are reviewed before publication.</span></div>
+			</div>
+			
+			<div class="tbf_row" id="tip_terms" style="display: none">
+				<div class="tbf_wide"><span class="fine_print">Our terms: By submitting a tip, you agree to assign TidBITS Publishing Inc., a non-exclusive, worldwide, perpetual license to reproduce, publish, and distribute your tip in connection with the TidBITS Web site and associated products in any media. You agree that you created the content you submitted, and that you have the right to assign us this license. You give us permission to use your name, but your email address won't be publicly displayed or shared. We review all submissions before publication, and reserve the right to select which submissions we feel are appropriate for our readers and to edit those we publish.</span></div>
+			</div>
+			<div class="spacer"></div>
+			</form>
+		</div><!-- end tip_box_form -->
+	</div><!-- end tip box innards -->
+	</div><!-- end tip box format -->
+	
+	<div class="x_close" id="ts_upper_right"><a href="javascript:void(0)" onmousedown="HidePopupContent('ts', 'ts', ''); return true;">Close</a></div>
+	
+</div><!-- end tip_submit box-->
+
+<div class="popup_box_with_captcha" id="article_reference" style="display:none"><div class="article_ref_format"><textarea style="width:350px; height:100px;" name="article_ref" id="article_ref_box"></textarea></div>	<div class="x_close" id="article_reference_upper_right"><a href="javascript:void(0)" onmousedown="HidePopupContent('article_reference', 'article_reference', ''); return true;">Close</a></div>
+</div>
+
+<div class="popup_box_with_captcha" id="comm" style="display:none">
+	<div class="tip_box_format">
+	<div id="comment_thanks" style="display:none" onClick="close_popup_thanks('comment_thanks', 'comm')"><br>Thanks for submitting a comment! Please check your email for a link that, when clicked, will verify that you're a real person and cause your comment to appear immediately. <div class="x_close" id="comment_upper_right"><a href="javascript:void(0)" onmousedown="close_popup_thanks('comment_thanks', 'comm'); return true;">Close</a></div></div>
+	<div id="comm_innards" onClick="close_popup_thanks('comment_thanks', 'comm')">
+		<div class="tip_box_head" id="comm_headline">Post a Comment</div>
+		<div class="tip_box_form">		
+				
+			<div class="tbf_row" id="comm_message_box" style="display:none">
+				<div class="tbf_wide"><div class="tbf_alert" id="comm_top_message"></div></div>
+			</div>
+			<div class="spacer"></div>
+
+			<form action="foobar.cgi" method="get" name="post_comment" id="post_comment">
+			<input type="hidden" name="comment_nest" value=''>
+			<input type="hidden" name="comment_id" value=''>
+			<input type="hidden" name="article_id" value='9515'>
+			<input type="hidden" name="edit" value=''>
+			<div class="tbf_row">
+				<div class="tbf_left">In reply to</div>
+				<div class="tbf_right">
+					<div id="cb_quoted_row">
+						<div class='cb_open_quote'>&ldquo;</div>
+						<div id="cb_quoted"></div>
+						<div class='cb_close_quote'>&rdquo;</div>
+					</div>
+					<div class="spacer"></div>
+				</div>
+			</div>
+			<div class="spacer"></div>
+
+			<div class="tbf_row">
+				<div class="tbf_left" style="padding-top:0">Your comment</div>
+				<div class="tbf_right"><textarea tabindex="1" name="cb_item_add" id="cb_item_add" rows="4" cols="50" onKeyDown="count_insert('cb_item_add','cb_char_count')"></textarea><br><div class="cb_char_count" id="cb_add_count">Remaining characters: <span id="cb_char_count">0</span></div></div>
+			</div>
+			<div class="spacer"></div>			
+
+			<div class="tbf_row">
+				<div class="tbf_left">Your name</div><div class="tbf_right" style="margin-top:8px"><input tabindex="2" type="text" value="" name="cb_add_name" id="cb_add_name" style="margin-top: -4px"></div>
+			</div>
+			<div class="spacer"></div>
+			
+			<div class="tbf_row">
+				<div class="tbf_left">Your email</div><div class="tbf_right"><input tabindex="3" type="text" name="cb_add_email" id="cb_add_email"></div>
+			</div>
+			<div class="spacer"></div>
+			
+			<div class="tbf_row">
+				<div class="tbf_left">&nbsp;</div><div class="tbf_right"><input id="comm_post_comment" tabindex="4" type="submit" value="Post Comment" name="submit_this_comment" style="width:100px; float:right" onClick="cb_post_submit(); return false;"></div>
+			</div>
+			<div class="spacer"></div>
+			
+			<div class="tbf_row" id="comment_terms">
+				<div class="tbf_wide"><span class="fine_print">Our terms: We reserve the right to edit or delete any comment, so please post thoughtfully. We use your email address <i>only</i> to send you a one-time verification message confirming that you posted this comment. We also store your address to allow you to verify using other Web browsers in the future. For more info, see our <a href="http://db.tidbits.com/privacy.html">privacy policy</a>.</span></div>
+			</div>
+			<div class="spacer"></div>
+
+			</form>
+		</div><!-- end comm_form -->
+	</div><!-- end comm box innards -->
+	</div><!-- end comm box format -->
+	
+	<div class="x_close" id="comm_upper_right"><a href="javascript:void(0)" onmousedown="HidePopupContent('comm', 'comm', ''); return true;">Close</a></div>
+	
+</div><!-- end comm_submit box-->
+
+
+<!-- start mainbody -->
+<div id="mainbody">
+
+<!-- start header -->
+<div id="header">
+
+
+
+	<div id="tblogo">
+	<a href="/"><img src="/images/tblogo20_01.gif" alt="TidBITS: Apple News for the Rest of Us" width="177" height="84" border="0"></a>
+
+	</div><!-- end tblogo -->
+
+
+<!-- leaderboard ad -->
+<div id="top_banner">
+<script type='text/javascript'><!--// <![CDATA[
+    OA_show(3);
+// ]]> --></script><noscript><a target='_blank' href='http://db.tidbits.com/ads/delivery/ck.php?n=TBe5f7021'><img border='0' alt='' src='http://db.tidbits.com/ads/delivery/avw.php?zoneid=3&amp;n=TBe5f7021'></a></noscript>
+</div><!-- end top_banner style -->
+<!-- end leaderboard ad -->
+
+
+</div><!-- end header  -->
+
+
+<!-- start content_container -->
+<div id="content_container">
+
+
+<!-- begin leftcolumn -->
+<div id="leftcolumn">
+
+<!-- begin leftnav /left navigation -->
+<div>
+	<ul class="leftnav">
+		<!-- start search -->
+		<li class="topcorner">
+			<form action="http://db.tidbits.com" method="POST" name="search_form"><input type="hidden" name="advanced_search" value=''><input type="text" name="search_text" size="8" maxlength="70" value="Search" onFocus="this.value=''" onBlur="if (this.value == '') { this.value = 'Search'; }">&nbsp;<span style="margin: 0 5px 0 5px; vertical-align: -2px"><span style="vertical-align: -2px"><input type="image" name="submit_search" src="/images/go_search_button.gif"></span>&nbsp;&nbsp;<img src="/images/adv_search_button.gif" title="Click for Advanced Search" onClick="var f = document.search_form; f.search_text.value =''; f.advanced_search.value = '1'; f.submit();"></span></form>
+		</li>
+	</ul>
+</div>
+<!-- end search -->
+
+<!-- Get TidBITS box (temp) -->
+<div>
+	<ul class="leftnav">
+		<li class="gettb"><strong>Get TidBITS via...</strong></li>
+	
+		<li><a href="http://www.tidbits.com/list" title="Subscribe via email" class="gettb">Email&nbsp;<img src="/images/gettb_button_email.gif" width="12" height="12" border="0" class="nav_img" alt="Email subscription options"></a></li>
+		<li><a href="/feeds/tidbits.rss" title="Subscribe via RSS" class="gettb">RSS&nbsp;<img src="/images/feed-icon-12x12.gif" width="12" height="12" border="0" class="nav_img" alt="Subscribe via RSS"></a></li>
+		<li><a href="http://itunes.apple.com/WebObjects/MZStore.woa/wa/viewPodcast?id=276986548" title="Subscribe to the podcast" class="gettb">Podcast&nbsp;<img src="/images/feed-icon-12x12_podcast.gif" width="12" height="12" border="0" class="nav_img" alt="Subscribe to the postcast"></a></li>
+		<li><a href="http://www.twitter.com/TidBITS" title="Get Article Updates via Twitter" class="gettb">Twitter&nbsp;<img src="/images/feed_icon_12x12_twitter.png" width="12" height="12" border="0" class="nav_img" alt="Get Article Updates via Twitter"></a></li>
+		<li><a href="http://www.facebook.com/pages/TidBITS/195314925519" title="Go to the TidBITS Page at Facebook" class="gettb">Facebook&nbsp;<img src="/images/feed_icon_12x12_facebook.gif" width="12" height="12" border="0" class="nav_img" alt="Go to the TidBITS Page at Facebook"></a></li>
+		<li><a href="http://itunes.apple.com/us/app/tidbits-news/id348629441?mt=8" title="Download the free app for iPhone, iPad, and iPod touch" class="gettb">iPhone App&nbsp;<img src="/images/feed_icon_12x12_iosapp.gif" width="12" height="12" border="0" class="nav_img" alt="Download the free app for iPhone, iPad, and iPod touch"></a></li>
+	</ul>
+</div>
+<!-- end Get TidBITS box -->
+	
+	<ul class="leftnav">
+		<li><a href="/" class="tabhead">TidBITS Home</a></li>
+
+		<li><a href="javascript:void(0)" title="Sections" class="tabhead" onClick="return showhide('articleslist')">Sections&nbsp;<span id="articleslist_triangle"><img src="/images/nav_triangle_open.gif" width="9" height="9" border="0" class="navtriangle" id="articleslist_tri_image" alt="Click to show or hide the contents of this section."></span></a></li>
+	
+	
+	</ul>
+
+<div id="articleslist" style="display: none"><ul class="leftnav"><li><a href="/section/business" >Business Apps</a></li>
+<li><a href="/section/entertainment" >Entertainment</a></li>
+<li><a href="/section/links" >External Links</a></li>
+<li><a href="/section/home" >Home Macs</a></li>
+<li><a href="/section/inside" >Inside TidBITS</a></li>
+<li><a href="/section/iphone-ipad-ipod" >iPhone iPad iPod</a></li>
+<li><a href="/section/fun" >Just for Fun</a></li>
+<li><a href="/section/macs" class="active">Macs &amp; Mac OS X</a></li>
+<li><a href="/section/creative" >Media Creation</a></li>
+<li><a href="/section/net" >Networking</a></li>
+<li><a href="/section/opinion" >Opinion</a></li>
+<li><a href="/section/support" >Problem Solving</a></li>
+<li><a href="/section/security" >Safe Computing</a></li>
+<li><a href="/section/tech" >Tech News</a></li>
+<li><a href="/section/watchlist" >Watchlist</a></li>
+</ul></div>
+
+<div>
+<ul class="leftnav">
+	<li><a href="javascript:void(0)" onClick="return showhide('stafflist')" title="Staff" class="tabhead">Staff&nbsp;<span id="stafflist_triangle"><img src="/images/nav_triangle_closed.gif" width="9" height="9" border="0" class="navtriangle" id="stafflist_tri_image" alt="Click to show or hide the contents of this section."></span></a></li>
+</ul>
+</div>
+
+<div id="stafflist" style="display:block"><ul class="leftnav"><li><a href="/author/Adam+C+Engst" title="Adam Engst, Publisher">Adam Engst</a></li>
+	<li><a href="/author/Tonya+Engst" title="Tonya Engst, Editor in Chief">Tonya Engst</a></li>
+	<li><a href="/author/Jeff+Carlson" title="Jeff Carlson, Managing Editor">Jeff Carlson</a></li>
+	<li><a href="/author/Glenn+Fleishman" title="Glenn Fleishman, Senior Editor">Glenn Fleishman</a></li>
+	<li><a href="/author/Joe+Kissell" title="Joe Kissell, Senior Editor">Joe Kissell</a></li>
+	<li><a href="/author/Mark+Anbinder" title="Mark Anbinder, Contributing Editor">Mark H. Anbinder</a></li>
+	<li><a href="/author/Matt+Neuburg" title="Matt Neuburg, Contributing Editor">Matt Neuburg</a></li>
+	<li><a href="/author/Rich+Mogull" title="Rich Mogull, Contributing Editor">Rich Mogull</a></li>
+	<li><a href="/author/Michael+Cohen" title="Michael Cohen, Staff Writer">Michael Cohen</a></li>
+	<li><a href="/author/Lex+Friedman" title="Lex Friedman, Staff Writer">Lex Friedman</a></li>
+	</ul>
+	</div>
+
+<div>
+<ul class="leftnav">
+
+	<li><a href="javascript:void(0)" title="Issues" class="tabhead" onClick="return showhide('issuelist')">Weekly Issues&nbsp;<span id="issuelist_triangle"><img src="/images/nav_triangle_closed.gif" width="9" height="9" border="0" class="navtriangle" id="issuelist_tri_image" alt="Click to show or hide the contents of this section."></span></a></li>
+</ul>
+</div>
+
+<div id="issuelist" style="display:none"><ul class="leftnav"><li><div class="special"><form method="post" action="noaction.cgi" onsubmit="return false" id="issue_search_form" name="issue_search_form">Issue # <input type="text" onkeydown="if (event.keyCode == 13) { redirect_issue(this.form); }" id="issue_searchvalue" name="issue_number" style="width:35px; height: 10px">&nbsp;<input onclick="redirect_issue(this.form)" type="image" name="submit_search" src="/images/go_search_button_blk.gif"></form></div></li><li><A HREF="/issue/1003" >#1003, 09 Nov 09</A></li>
+<li><A HREF="/issue/1002" >#1002, 02 Nov 09</A></li>
+<li><A HREF="/issue/1001" >#1001, 26 Oct 09</A></li>
+<li><A HREF="/issue/1000" >#1000, 19 Oct 09</A></li>
+<li><A HREF="/issue/999" >#999, 12 Oct 09</A></li>
+<li><A HREF="/issue/998" >#998, 05 Oct 09</A></li>
+<li><A HREF="/issue/997" >#997, 28 Sep 09</A></li>
+<li><A HREF="/issue/996" >#996, 21 Sep 09</A></li>
+<li><A HREF="/issue/995" >#995, 14 Sep 09</A></li>
+
+
+<li><a href="/backissues">Back Issues</a></li></ul></div>
+
+
+<div>
+<ul class="leftnav">
+
+	<li><a href="/tidbitstalk" title="TidBITS Talk" class="tabhead">TidBITS Talk</a></li>
+</ul>
+</div>
+
+
+
+<div>	
+<ul class="leftnav">
+	<li><a href="javascript:void(0)" onClick="return showhide('abouttidbits')" title="About TidBITS" class="tabhead">About TidBITS&nbsp;<span id="abouttidbits_triangle"><img src="/images/nav_triangle_closed.gif" width="9" height="9" border="0" class="navtriangle" id="abouttidbits_tri_image" alt="Click to show or hide the contents of this section."></span></a></li>
+</ul>
+</div>
+
+<div id="abouttidbits" style="display:none">
+<ul class="leftnav"><li><a href="/about.html" title="About TidBITS">About Us</a></li><li><a href="/account.html" title="Account Help">Account Help</a></li><li><a href="/advertising.html" title="Advertise with TidBITS!">Advertise</a></li><li><a href="/contact.html" title="Contact Info">Contact</a></li><li><a href="/copyright.html" title="Copyright Terms">Copyright</a></li>
+</ul>
+</div>
+
+<div>
+<ul class="leftnav">
+<li class="bottom">&nbsp;</li>
+</ul>
+</div>
+<!-- end leftnav/left navigation -->
+
+<!-- making sure nav elements hide/show before page loads --><script type="text/javascript"><!--
+	showhide('articleslist','show'); 
+// --></script>
+
+<!-- begin sponsor_sidebox -->
+
+<div class="sponsor_sidebox">
+
+<ul>
+
+<li><a href="http://markspace.com/bits?source=tidbits">Mark/Space</a></li>
+
+<li><a href="http://www.webcrossing.com/">Web Crossing</a></li>
+
+<li><a href="http://www.belightsoft.com/labelsaddresses/">BeLight Software</a></li>
+
+<li><a href="http://www.barebones.com/products/yojimbo/">Bare Bones</a></li>
+
+<li><a href="http://www.tidbits.com/about/support/contributors.html">Readers Like You!</a></li>
+
+<li><a href="http://www.smilesoftware.com/">Smile</a></li>
+
+<li><a href="http://www.smithmicro.com/tidbits">Smith Micro</a></li>
+
+<li><a href="http://crashplan.com/ref/tidbits.html">CrashPlan</a></li>
+
+</ul><div class='sponsor_sidebox_bottom'>&nbsp;</div>
+</div>
+
+
+<!-- end sponsor_sidebox -->
+
+
+</div> <!-- end leftcolumn div -->
+
+<!-- end left column -->
+
+
+<!-- begin centercolumn_border -->
+
+<div id="centercolumn_border">
+
+<div class="center_top">Thoughtful, detailed coverage of the Mac, iPhone, and iPad, plus the best-selling <a href="http://www.takecontrolbooks.com/?pt=TB-TAGLINE" style="color:yellow">Take Control</a> ebooks.</div>
+
+<!-- begin centercolumn -->
+<div id="centercolumn">
+
+
+
+<!-- begin rightcolumn_container -->
+<div id="rightcolumn_container">
+
+<!-- begin rightcolumn -->
+	<!-- rightcolumn is embedded within centercolumn so featured text wraps around it -->
+	<div id="rightcolumn">
+
+<p class="top">&nbsp;</p>
+
+
+
+
+
+
+
+
+
+
+<!-- Watchlist items -->
+<div class="tearoffbox_wide_container">
+<div class="tearoffbox_wide_watchlist">
+<p class="tearoffbox_wide_top_watchlist">&nbsp;</p>
+
+<h6><a href="/section/watchlist">TidBITS Watchlist</a></h6>
+<ul>
+
+<LI><a href="/article/11848">Digital Camera Raw Compatibility Update 3.5</a></LI>
+
+<LI><a href="/article/11847">Opera 11</a></LI>
+
+<LI><a href="/article/11846">Raskin 1.2</a></LI>
+
+<LI><a href="/article/11842">Airfoil 4.0</a></LI>
+
+<LI><a href="/article/11841">Evernote 2.0</a></LI>
+
+<LI><a href="/article/11839">iTunes 10.1.1</a></LI>
+
+<LI><a href="/article/11838">LED Cinema Display Firmware Update 1.0</a></LI>
+
+<LI><a href="/article/11837">Canon (2.4.1), FujiXerox (2.1), and Lexmark (2.3.1) Printer Drivers</a></LI>
+
+<LI><a href="/article/11836">Rumpus 7</a></LI>
+
+<LI><a href="/article/11835">Sound Studio 4.0.1</a></LI>
+
+</ul>
+
+<div class="tearoffbox_wide_bottom_watchlist">&nbsp;</div>
+
+</div><!-- end tearoffbox_wide -->
+
+</div><!-- end tearoffbox_wide_container for watchlist items -->
+
+<!-- begin tearoff box wide -->
+
+<div class="tearoffbox_wide_container">
+<div class="tearoffbox_wide_tips">
+
+<div class="tip_display">
+<div class="tips_sponsor_logo">
+&nbsp;
+</div>
+<h6>Smarter Parental Controls</h6>
+<p><p>If you've been using the parental controls options in Mac OS X to lock your child out of using a particular computer late at night, but would like to employ a more clever technique to limit Internet access, turn to MAC address filtering on an Apple base station.</p><p>To do this, launch AirPort Utility, select your base station, and click Manual Setup. In the Access Control view, choose Time Access to turn on MAC filtering. You'll need to enter the MAC address of the particular computer, which (in 10.5 Leopard and 10.6 Snow Leopard) you can find in the Network System Preferences pane: click AirPort in the adapter list, and click Advanced. The AirPort ID is the MAC address.</p></p>
+
+</div>
+
+<div class="tearoffbox_wide_bottom_tips">
+<div style="padding-bottom:35px"><div class="tip_display" style="float:left"><p><br><a href="/tipbits/218">Link to this tip</a></p></div><div class="tip_display" style="float:right; width:150px">
+
+<p class="credit">Written by<br><a href="/author/Tonya%20Engst">Tonya Engst</a></p></div></div>
+
+</div>
+
+<div class="tearoffbox_wide_tips_submit">
+<form method="post" onsubmit="return false" id="tipbits_form" name="tipbits_form" action="noaction.cgi"><p><a href="javascript:void(0)" onmousedown="ShowTipBox('ts','ts_recaptcha', 50, 'tip_title_id'); return true;">Share your own tip!</a> | <a href="javascript:void(0)" onClick="generic_show_hide('search_tipbits'); document.tipbits_form.tipbits_searchvalue.focus()">Search TipBITS</a></p>
+<p style="display:none" id="search_tipbits"><input type="text" onkeydown="if (event.keyCode == 13) { search_tipbits('tipbits_searchvalue'); }" id="tipbits_searchvalue" name="tipbits_searchvalue">&nbsp;<a href="javascript:void(0)" onClick="search_tipbits('tipbits_searchvalue')">Search</a></p></form>
+</div>
+<div class="tearoffbox_wide_bottom_tips_submit">
+&nbsp;
+</div>
+
+</div><!-- end tearoffbox_wide_tips -->
+</div><!-- end tearoffbox_wide_container for tips-->
+<!-- end tearoff box wide -->
+
+
+
+<!-- begin 300 x 250 ad -->
+
+<div id="content_ad_square">
+<script type='text/javascript'><!--// <![CDATA[
+    OA_show(5);
+// ]]> --></script><noscript><a target='_blank' href='http://db.tidbits.com/ads/delivery/ck.php?n=TB7671f69'><img border='0' alt='' src='http://db.tidbits.com/ads/delivery/avw.php?zoneid=5&amp;n=TB7671f69'></a></noscript>
+</div><!-- end 300 x 250 ad -->
+
+<!-- TBTalk items -->
+<div class="tearoffbox_wide_container">
+
+<div class="tearoffbox_wide_p">
+<p class="tearoffbox_wide_top_p">&nbsp;</p>
+
+<h5>Recent TidBITS Talk Discussions</h5>
+<ul>
+
+<LI><a href="http://emperor.tidbits.com/webx?50@@.3cfa1ca8">Magic Trackpad behavior change?</a> (1 message)</LI>
+
+<LI><a href="http://emperor.tidbits.com/webx?50@@.3cfa1a48">Aging User Groups</a> (5 messages)</LI>
+
+<LI><a href="http://emperor.tidbits.com/webx?50@@.3cfa1a49">30&quot; Apple Cinema Display not waking from sleep</a> (3 messages)</LI>
+
+<LI><a href="http://emperor.tidbits.com/webx?50@@.3cfa18ea">Clone Wars, or How My Backups Ate My Photos</a> (4 messages)</LI>
+
+</ul>
+
+<div class="tearoffbox_wide_bottom_p">&nbsp;</div>
+
+</div><!-- end tearoffbox_wide -->
+
+</div><!-- end tearoffbox_wide_container for TBtalk items -->
+
+<!-- start takecontrol_ad -->
+<script type='text/javascript'><!--// <![CDATA[
+    OA_show(7);
+// ]]> --></script><noscript><a target='_blank' href='http://db.tidbits.com/ads/delivery/ck.php?n=TBe46d56f'><img border='0' alt='' src='http://db.tidbits.com/ads/delivery/avw.php?zoneid=7&amp;n=TBe46d56f'></a></noscript><!-- end takecontrol_ad -->
+
+
+
+
+
+
+
+
+
+<!-- begin tearoff box 1 -->
+
+<div class="tearoffbox_wide_container">
+
+<div class="tearoffbox_wide">
+<p class="tearoffbox_wide_top">&nbsp;</p>
+
+<h5>Published in <a href="/issue/999">TidBITS 999</a>.<br><a href="http://www.tidbits.com/list">Subscribe</a> to our weekly email edition.</h5>
+<ul>
+<li><A HREF="/article/10622">Vonage Releases Apps for International Calling</A></li>
+<li><A HREF="/article/10638">Cloud Data Blown Away for Sidekick Users</A></li>
+<li><A HREF="/article/10636">VoIP over Mobile Broadband a Smart Move for AT&T</A></li>
+<li><A HREF="/article/10631">Amazon Extends Kindle Beyond United States</A></li>
+<li><A HREF="/article/10626">Make Old Apple Printers Work in Snow Leopard</A></li>
+<li><A HREF="/article/10629">TidBITS Watchlist: Notable Software Updates through 12-Oct-09</A></li>
+<li><A HREF="/article/10640">Bonus Stories for 12-Oct-09</A></li>
+<li><A HREF="/article/10639">ExtraBITS for 12-Oct-09</A></li>
+<li><A HREF="/article/10641">Hot Topics in TidBITS Talk for 12-Oct-09</A></li>
+
+</ul>
+
+<p class="tearoffbox_wide_bottom">&nbsp;</p>
+
+</div><!-- end tearoffbox_wide -->
+</div><!-- end tearoffbox_wide_container -->
+
+<!-- end tearoff box 1 -->
+
+
+
+
+
+
+
+<div id="rightcolumn_bottom">
+&nbsp;
+</div>
+
+	</div><!-- end rightcolumn -->
+
+
+</div><!-- end rightcolumn_container -->
+
+
+
+<!-- featured articles -->
+
+<div id="center_ajax_sub" class="instapaper_body">
+
+<!-- google_ad_section_start -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- issue, article, or series -->
+
+	
+	
+	
+	
+	
+		
+	<!-- show article(s) -->
+	<div class="article"><a name="9515"></a>
+	
+<!-- comment initialization routine as needed -->
+<div class="popup_box_with_captcha" id="hc_9515" style="display: none">
+	<div class="tip_box_format">
+	<div id="hc_innards_alt_9515" style="display: none">
+			<div class="tbf_row">
+				<div class="tbf_wide_80" id="hc_small_response_9515"></div><div class="x_close_row" id="hc_upper_right1_9515"><a href="javascript:void(0)" onmousedown="HidePopupContent('hc_9515', 'hc', '9515'); return true;">Close</a></div>
+
+			</div>
+	</div>
+	<div id="hc_innards_9515">
+		<div class="tip_box_form">		
+			<form action="foobar.cgi" method="get" name="check_human_9515">
+			<div class="tbf_row">
+				<div class="tbf_wide_80" id="hc_rc_9515">To help us avoid automated posts and misuse of our site, please enter the words below.</div><div class="x_close_row" id="hc_upper_right2_9515"><a href="javascript:void(0)" onmousedown="HidePopupContent('hc_9515', 'hc', '9515'); return true;">Close</a></div>
+
+			</div>
+			<div class="spacer"></div>
+			<div class="tbf_row" id="hc_message_box_9515" style="display:none">
+				<div class="tbf_wide"><div class="tbf_alert" id="hc_top_message_9515"></div></div>
+			</div>
+			<div class="spacer"></div>
+			<div class="tbf_row">
+				<div class="tbf_wide"><div id="hc_recaptcha_9515"></div></div>
+			</div>
+			<div class="spacer"></div>
+			<div class="tbf_row">
+				<div class="tbf_wide"><input type="submit" value="Submit" name="submit_this_tip" onClick="handle_tip_submission('hc', '9515', this.form, this.form.submit_type.value); return false;"><input name="calling_routine" type="hidden"><input type="hidden" name="getbits" value="10624"><input type="hidden" name="author_id"><input type="hidden" name="submit_type" value=""></div>
+			</div>
+			<div class="spacer"></div>
+			</form>
+		</div><!-- end tip_box_form -->
+	</div><!-- end hum box innards -->
+	</div><!-- end tip box format -->
+</div><!-- end tip_submit box-->
+
+
+
+		
+		
+		<!-- specific article details here -->
+		
+		
+			
+		
+	
+		<article_link><script type="text/javascript">open_if_linked('')</script></article_link>
+		
+		<div class="featured_meta"><div class="meta_article"><a href="/index.cgi?tbcat=8" class="category">Macs & Mac OS X</a> <a href="javascript:void(0)" onClick='markdown_copy("Revealing Mac OS X\'s Hidden Single-Application Mode", "6 October 2009", "10624")'>|</a> 06 Oct 2009 | <a href="javascript:void(0)" onClick="open_podcast_window('http://db.tidbits.com/podcasts/10624.m4a')" title="Listen to an audio version of this article">Listen&nbsp;<span class="imglift"><img src="/images/listen_icon4.gif" width="12" height="10" border="0"></span></a> <a href="javascript:void(0)" onClick='markdown_copy("Revealing Mac OS X\'s Hidden Single-Application Mode", "6 October 2009", "10624")'>|</a> <a href="/article/10624?print_version=1">Print&nbsp;<span class="shift_up"><img src="/images/printer_icon.gif" alt="Printer-Friendly Version of This Article" border="0" width="9" height="10"></span></a> | <a href="#comments">Comment</a> (37)</div></div>
+
+		<H2>Revealing Mac OS X&#39;s Hidden Single-Application Mode</H2>
+
+		<p class="byline">by <a href="/author/Lewis%20Butler">Lewis Butler</a> <a href="javascript:void(0)" onClick="document.check_human_9515.submit_type.value='email'; document.check_human_9515.author_id.value='376'; ShowTipBox('hc_9515', 'hc_recaptcha_9515')"><span class="shift_down"><img src="/images/gettb_button_email.gif" height="12" width="12" border="0" alt="Send Email to Author"></span></a></P>
+
+		<!-- article text -->
+		
+		<div id="article_box_9515"><p>Having returned from an archeological dig into the dark history of Mac OS X, I've unearthed a feature that could change the way you interact with your applications, enabling you to focus on one or two more easily than in the past.</p> 
+ 
+<p>Back in 1999, when Steve Jobs first showed off the new Finder in Mac OS X, it ran in a single-application mode, where switching from one application to another caused the first application to minimize (this was the original demo of the Genie effect). This was intended to be the default behavior, but it was so widely reviled that Apple quickly changed the default to the familiar multi-application mode that shows multiple applications on the screen at the same time. </p> 
+ 
+<p>Mac OS X's multi-application mode differed from how previous versions of the Mac OS worked in that it interleaved all open windows without regard to which application they belonged to, a feature that annoyed a lot of long-time Mac users.</p> 
+ 
+<p>In Mac OS X 10.6 Snow Leopard, Apple has made significant improvements to the Dock, including improved Expose integration and minimizing windows invisibly, among much else. As a result, people who are starting to use the Dock seriously for the first time are discovering that clicking an icon in the Dock brings all its windows to the foreground. This interface behavior isn't new in Snow Leopard, of course, but it's an example of how Apple has never really given up the desire to make users focus on a single application at a time. </p> 
+ 
+<p>Single-application mode is how the iPhone works, of course, and on the Mac, almost all Apple applications - think about Mail, iTunes, and iPhoto - rely on a single window that can easily take over the entire screen. When an application needs a second window, such as for keywords or editing in iPhoto, it is generally a palette that disappears when the application is not in the foreground.</p> 
+ 
+<p>But it goes further. Lurking in the scary bowels of Mac OS X for all these years has been this little command, which brings back single-application mode. (Go ahead and try it - it's easily reversed.)</p> 
+ 
+<p><small><tt>defaults write com.apple.dock single-app -bool true 
+<BR /></small></tt></p> 
+ 
+<p>For single-application mode to take effect, you have to relaunch the Dock with this second command.</p> 
+ 
+<p><small><tt>killall Dock 
+<BR /></small></tt></p> 
+ 
+<p>That's right, the original single-application mode in pre-release versions of Mac OS X is still with us. Although it was always intended as a simple option for people who are not computer experts, it turns out to be an interesting option for the power user.</p> 
+ 
+<p>The most important fact to realize is that single-application mode is tied exclusively to the Dock. This means that if you click an application's icon in the Dock, it immediately hides all the other applications, including the Finder. </p> 
+ 
+<p>However, if you switch applications through any other method, including clicking another visible application's window and the Command-Tab application switcher, Mac OS X's normal multi-application approach remains in effect, and nothing will be hidden. </p> 
+ 
+<p>You can thus combine methods of switching between applications. Click Mail in the Dock, then use Command-Tab to switch to Safari, and you'll end up with both Mail and Safari on screen, and nothing else. If you later want to hide Safari again, click Mail's Dock icon (or just Option-click on Mail's window).</p> 
+ 
+<p>If you think about this for a minute, you'll start to see the possibilities. Enabling single-application mode means that you can quickly and easily build a custom list of visible applications, and that list is dynamic. In other words, you can achieve a lot of what you might use Spaces for, without having to switch between spaces or manage which applications show in which spaces.</p> 
+ 
+<p>The main advantage to this single-application mode is that clicking an application in the Dock has always, as I mentioned earlier, brought all that application's windows to the foreground. So, when I click Terminal's icon in the Dock, not only do all other applications immediately disappear from view, I see the window for my local shells, the window for the remote shells on my mail server, and the window for the remote shells on my primary DNS server. These windows are exactly where I want them on the screen and there are no other windows cluttering up the view. However, if I need to reference a Web page at the same time, I simply use Command-Tab to bring up Safari, giving me its window <EM>and</EM> Terminal's windows all on one 
+screen.</p> 
+ 
+<p>With Spaces, I kept all my Web browser windows in one space, but that meant a lot of swapping back and forth, or moving a browser window to another space temporarily. With single-application mode I always have the applications I want in the foreground visible and everything else is hidden from view.</p> 
+ 
+<p>The primary downside is that single-application mode doesn't play nicely with Expose. When you activate Expose, it shows only windows for visible applications. I was hoping that it would treat the hidden applications' windows as minimized windows, but that was not the case.</p> 
+ 
+<p>For me there is also an issue with full-screen video. If I am watching something with VLC or QuickTime Player on my second monitor and I click an icon in the Dock, the video is hidden from view. That's not surprising, but it's not what I want since I think that a full-screen video should stay full-screen no matter what. It's something to be aware of if you tend to watch video while doing other work, as I do.</p> 
+ 
+<p>There may be other issues I haven't encountered in the few days I've been using single-application mode, but getting back to the normal multi-application mode is easy. Just paste this first command into Terminal and then restart the Dock with the second command.</p> 
+ 
+<p><small><tt>defaults delete com.apple.dock single-app 
+<BR />killall Dock<BR /></small></tt></p> 
+ 
+<p>In the end, the main thing that I've noticed in the last few days is that it is much easier for me to concentrate on a single task when I can quickly hide all unrelated applications and show just the one or two that I need right now. I'm finding that this method works better for me than Spaces, and I am a big fan of Spaces. </p> 
+ 
+<p>[Lewis Butler is a longtime Unix system admin, postmaster and Mac geek. He is a frequent contributor to a large number of mailing lists under his "LuKreme" alias.]</p></div>
+		
+
+		<!-- end article text -->
+	
+		
+		
+<div id="social-media">
+<div class="sm-button" id="fb-button"><a name="fb_share" type="button_count" href="http://www.facebook.com/sharer.php">Share</a><script src="http://static.ak.fbcdn.net/connect.php/js/FB.Share" type="text/javascript"></script></div>
+<div class="sm-button" id="twitter-button"><a href="http://twitter.com/share" class="twitter-share-button" data-count="horizontal">Tweet</a>
+
+		<script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script>
+		</div>
+<div class="sm-button" id="stumble-button"><script src="http://www.stumbleupon.com/hostedbadge.php?s=1"></script>
+
+		</div>
+<div class="sm-button" id="reddit-button"><a href="http://reddit.com/submit" onclick="window.location = 'http://reddit.com/submit?url=' + encodeURIComponent(window.location); return false">
+		<img src="http://reddit.com/static/spreddit7.gif" alt="submit to reddit" border="0" />
+		</a>
+</div></div>
+		
+<p>&nbsp;</p><div class="sponsorbox">
+<div class="sponsortext"><A HREF="http://www.belightsoft.com/labelsaddresses/"><IMG SRC="http://db.tidbits.com/images/badges/belight-software.gif" ALT="" HEIGHT="50" WIDTH="50" BORDER="0" ALIGN="left"></A>BeLight Software. Sending out Christmas greeting cards this year?<br />Labels & Addresses imports your contacts from Address Book and <br />lets you print out mailing labels for everyone in a single batch.<br />Download trial at &lt;<a href="http://www.belightsoft.com/labelsaddresses/">http://www.belightsoft.com/labelsaddresses/</a>&gt;</div>
+</div>
+<div class="sponsorbox_bottom">&nbsp;</div>
+
+
+		<!-- comments section -->
+		
+		
+		<div class="cb_block">
+			<div class="cb_header">
+				<a name="comments"></a><div class="cb_title"><h2 style="color:#7c579d">Comments about <span style="color:black">Revealing Mac OS X&#39;s Hidden Single-Application Mode</span></h2></div>
+				
+				
+			</div><!-- end cb_header -->
+			<div id="insert_before_new"></div>
+
+			<div class="cb_body" id="cb_body_node"><a name="comments"></a>
+			
+				<a name="comments_1480"></a>
+				<div class="cb_indent_1" id="cb_item_1480">
+					<div class="cb_item_meta"><span class="cb_item_author" id="cb_item_author_edit_755_1480">Mac Mojo</span><span class="cb_item_date"><a href="/article/10624#comments_1480" title="link to comment 1480">2009-10-06 13:28</a></span> 
+					</div>
+
+					<div class="cb_item_text" id="cb_item_text_1480" style="padding-left: 10px;">You can somewhat emulate this mode with knowing the menu items "Hide [App]" and "Hide Others".<br><br>I use to use the Hide commands much more in the classic OSes, I think then only one had a keyboard shortcut.<br><br>Now you could use the Hide commands when you want to do focused work. Just a thought<br><br>None the less, cool find.
+					
+					</div>
+
+					<div class="cb_buttons_offset" style="padding-left: 10px;"></div><div class="spacer"></div>
+
+					
+
+
+				</div><!-- end insert indent -->
+
+				<div id="insert_before_1480"></div>
+				
+					
+			
+				<a name="comments_1482"></a>
+				<div class="cb_indent_1" id="cb_item_1482">
+					<div class="cb_item_meta"><span class="cb_item_author" id="cb_item_author_edit_756_1482">Charles</span><span class="cb_item_date"><a href="/article/10624#comments_1482" title="link to comment 1482">2009-10-06 14:02</a></span> 
+					</div>
+
+					<div class="cb_item_text" id="cb_item_text_1482" style="padding-left: 10px;">Very interesting, but sad that Apple kept that hidden... I personally use Isolator http://is.gd/414vG <br><br>I've also tried the hiding feature of DragThing, which as a "always visible" list, but I find Isolator does just what I need. I think by default it has a blur effect but it slows down window dragging, so I just use plain black with a bit of transparency so I can see where the other windows are.
+					
+					</div>
+
+					<div class="cb_buttons_offset" style="padding-left: 10px;"></div><div class="spacer"></div>
+
+					
+
+
+				</div><!-- end insert indent -->
+
+				<div id="insert_before_1482"></div>
+				
+					
+			
+				<a name="comments_1484"></a>
+				<div class="cb_indent_1" id="cb_item_1484">
+					<div class="cb_item_meta"><span class="cb_item_author" id="cb_item_author_edit_339_1484">Mark M.</span><span class="cb_item_date"><a href="/article/10624#comments_1484" title="link to comment 1484">2009-10-06 14:32</a></span> 
+					</div>
+
+					<div class="cb_item_text" id="cb_item_text_1484" style="padding-left: 10px;">This is not news. Utilities such as TransparentDock, MacPilot, and Secrets have had setting to enable "single application mode" since the dawn of OSX.
+					
+					</div>
+
+					<div class="cb_buttons_offset" style="padding-left: 10px;"></div><div class="spacer"></div>
+
+					
+
+
+				</div><!-- end insert indent -->
+
+				<div id="insert_before_1484"></div>
+				
+					
+			
+				<a name="comments_1486"></a>
+				<div class="cb_indent_1" id="cb_item_1486">
+					<div class="cb_item_meta"><span class="cb_item_author" id="cb_item_author_edit_158_1486">Steven Fisher</span><span class="cb_item_date"><a href="/article/10624#comments_1486" title="link to comment 1486">2009-10-06 14:38</a></span> 
+					</div>
+
+					<div class="cb_item_text" id="cb_item_text_1486" style="padding-left: 10px;">With this mode on, you can also option-click an application in the dock to NOT hide all the other apps. With it off, option clicking an app hides all other apps.<br><br>So basically, this mode just inverts the hide default on the dock.<br><br>Potentially useful.
+					
+					</div>
+
+					<div class="cb_buttons_offset" style="padding-left: 10px;"></div><div class="spacer"></div>
+
+					
+
+
+				</div><!-- end insert indent -->
+
+				<div id="insert_before_1486"></div>
+				
+					
+			
+				<a name="comments_1489"></a>
+				<div class="cb_indent_2" id="cb_item_1489">
+					<div class="cb_item_meta"><span class="cb_item_author" id="cb_item_author_edit_759_1489">robb</span><span class="cb_item_date"><a href="/article/10624#comments_1489" title="link to comment 1489">2009-10-06 15:27</a></span> 
+					</div>
+
+					<div class="cb_item_text" id="cb_item_text_1489" style="padding-left: 10px;">Option-click an application icon on the Dock actually only hides the application that is frontmost when the user performs the operation. Still, a novelty rather than a really useful feature IMHO. but it could help my mom.
+					
+					</div>
+
+					<div class="cb_buttons_offset" style="padding-left: 10px;"></div><div class="spacer"></div>
+
+					
+
+
+				</div><!-- end insert indent -->
+
+				<div id="insert_before_1489"></div>
+				
+					
+			
+				<a name="comments_1504"></a>
+				<div class="cb_indent_3" id="cb_item_1504">
+					<div class="cb_item_meta"><span class="cb_item_author" id="cb_item_author_edit_770_1504">vurlix</span><span class="cb_item_date"><a href="/article/10624#comments_1504" title="link to comment 1504">2009-10-06 17:25</a></span> 
+					</div>
+
+					<div class="cb_item_text" id="cb_item_text_1504" style="padding-left: 10px;">You're right. I tried some key combinations. Simply doing a option+click hides the active application only, while option+command+click does the single-app behavior exactly.
+					
+					</div>
+
+					<div class="cb_buttons_offset" style="padding-left: 10px;"></div><div class="spacer"></div>
+
+					
+
+
+				</div><!-- end insert indent -->
+
+				<div id="insert_before_1504"></div>
+				
+					
+			
+				<a name="comments_1490"></a>
+				<div class="cb_indent_1" id="cb_item_1490">
+					<div class="cb_item_meta"><span class="cb_item_author" id="cb_item_author_edit_760_1490">PalmerDeville</span><span class="cb_item_date"><a href="/article/10624#comments_1490" title="link to comment 1490">2009-10-06 15:43</a></span> 
+					</div>
+
+					<div class="cb_item_text" id="cb_item_text_1490" style="padding-left: 10px;">Isn't this the same result as performing command-option-click on an application icon in the dock.<br><br>Per Apple KB article at http://support.apple.com/kb/HT2307<br><br>Command-Option-click<br>Hides other open items, in addition to click action.
+					
+					</div>
+
+					<div class="cb_buttons_offset" style="padding-left: 10px;"></div><div class="spacer"></div>
+
+					
+
+
+				</div><!-- end insert indent -->
+
+				<div id="insert_before_1490"></div>
+				
+					
+			
+				<a name="comments_1517"></a>
+				<div class="cb_indent_2" id="cb_item_1517">
+					<div class="cb_item_meta"><span class="cb_item_author" id="cb_item_author_edit_782_1517">walter</span><span class="cb_item_date"><a href="/article/10624#comments_1517" title="link to comment 1517">2009-10-06 22:08</a></span> 
+					</div>
+
+					<div class="cb_item_text" id="cb_item_text_1517" style="padding-left: 10px;">w00t! so simple so elegant but it was big secret until now... many thanks!
+					
+					</div>
+
+					<div class="cb_buttons_offset" style="padding-left: 10px;"></div><div class="spacer"></div>
+
+					
+
+
+				</div><!-- end insert indent -->
+
+				<div id="insert_before_1517"></div>
+				
+					
+			
+				<a name="comments_1491"></a>
+				<div class="cb_indent_1" id="cb_item_1491">
+					<div class="cb_item_meta"><span class="cb_item_author" id="cb_item_author_edit_761_1491">Jessi Hance</span><span class="cb_item_date"><a href="/article/10624#comments_1491" title="link to comment 1491">2009-10-06 15:30</a></span> 
+					</div>
+
+					<div class="cb_item_text" id="cb_item_text_1491" style="padding-left: 10px;">I've been working this way for a long time, though without using this single-app mode. Instead, I option-click away from apps to hide them when I'm done with them for the moment. It's really hard-wired into my brain at this point.
+					
+					</div>
+
+					<div class="cb_buttons_offset" style="padding-left: 10px;"></div><div class="spacer"></div>
+
+					
+
+
+				</div><!-- end insert indent -->
+
+				<div id="insert_before_1491"></div>
+				
+					
+			
+				<a name="comments_1494"></a>
+				<div class="cb_indent_2" id="cb_item_1494">
+					<div class="cb_item_meta"><span class="cb_item_author" id="cb_item_author_edit_764_1494">Aaron</span><span class="cb_item_date"><a href="/article/10624#comments_1494" title="link to comment 1494">2009-10-06 15:46</a></span> 
+					</div>
+
+					<div class="cb_item_text" id="cb_item_text_1494" style="padding-left: 10px;">I've been doing the same thing for years except I have a Logitech mouse that I have command-option-click (I guess just option click works now?) programed into a button on the top.
+					
+					</div>
+
+					<div class="cb_buttons_offset" style="padding-left: 10px;"></div><div class="spacer"></div>
+
+					
+
+
+				</div><!-- end insert indent -->
+
+				<div id="insert_before_1494"></div>
+				
+					
+			
+				<a name="comments_1492"></a>
+				<div class="cb_indent_1" id="cb_item_1492">
+					<div class="cb_item_meta"><span class="cb_item_author" id="cb_item_author_edit_762_1492">Eddie Hargreaves</span><span class="cb_item_date"><a href="/article/10624#comments_1492" title="link to comment 1492">2009-10-06 15:37</a></span> 
+					</div>
+
+					<div class="cb_item_text" id="cb_item_text_1492" style="padding-left: 10px;">Command-Option-clicking on any Dock icon will achieve the same effect. No Terminal usage necessary.
+					
+					</div>
+
+					<div class="cb_buttons_offset" style="padding-left: 10px;"></div><div class="spacer"></div>
+
+					
+
+
+				</div><!-- end insert indent -->
+
+				<div id="insert_before_1492"></div>
+				
+					
+			
+				<a name="comments_1493"></a>
+				<div class="cb_indent_1" id="cb_item_1493">
+					<div class="cb_item_meta"><span class="cb_item_author" id="cb_item_author_edit_763_1493">John Lascurettes</span><span class="cb_item_date"><a href="/article/10624#comments_1493" title="link to comment 1493">2009-10-08 07:34</a></span> 
+					</div>
+
+					<div class="cb_item_text" id="cb_item_text_1493" style="padding-left: 10px;">Give Think! a try. It gives you most of this behavior and plays nice with Expose. <br><br>http://freeverse.com/mac/product/?id=7013
+					
+					</div>
+
+					<div class="cb_buttons_offset" style="padding-left: 10px;"></div><div class="spacer"></div>
+
+					
+
+
+				</div><!-- end insert indent -->
+
+				<div id="insert_before_1493"></div>
+				
+					
+			
+				<a name="comments_1495"></a>
+				<div class="cb_indent_1" id="cb_item_1495">
+					<div class="cb_item_meta"><span class="cb_item_author" id="cb_item_author_edit_765_1495">MB</span><span class="cb_item_date"><a href="/article/10624#comments_1495" title="link to comment 1495">2009-10-08 07:34</a></span> 
+					</div>
+
+					<div class="cb_item_text" id="cb_item_text_1495" style="padding-left: 10px;">Command-Option-H hides all applications other than the one you're currently using. I use it all the time.
+					
+					</div>
+
+					<div class="cb_buttons_offset" style="padding-left: 10px;"></div><div class="spacer"></div>
+
+					
+
+
+				</div><!-- end insert indent -->
+
+				<div id="insert_before_1495"></div>
+				
+					
+			
+				<a name="comments_1499"></a>
+				<div class="cb_indent_1" id="cb_item_1499">
+					<div class="cb_item_meta"><span class="cb_item_author" id="cb_item_author_edit_767_1499">sandifop</span><span class="cb_item_date"><a href="/article/10624#comments_1499" title="link to comment 1499">2009-10-06 15:56</a></span> 
+					</div>
+
+					<div class="cb_item_text" id="cb_item_text_1499" style="padding-left: 10px;">Love it! I have missed this since Beta; thank-you. Now, all I want for Christmas is "pop-up folders."
+					
+					</div>
+
+					<div class="cb_buttons_offset" style="padding-left: 10px;"></div><div class="spacer"></div>
+
+					
+
+
+				</div><!-- end insert indent -->
+
+				<div id="insert_before_1499"></div>
+				
+					
+			
+				<a name="comments_1500"></a>
+				<div class="cb_indent_1" id="cb_item_1500">
+					<div class="cb_item_meta"><span class="cb_item_author" id="cb_item_author_edit_563_1500">elspub</span><span class="cb_item_date"><a href="/article/10624#comments_1500" title="link to comment 1500">2009-10-06 16:27</a></span> 
+					</div>
+
+					<div class="cb_item_text" id="cb_item_text_1500" style="padding-left: 10px;">Check out Sprited Away. http://tr.im/AUP2<br>It accomplished similiar effects without some of the limitations of the dock's single-user mode
+					
+					</div>
+
+					<div class="cb_buttons_offset" style="padding-left: 10px;"></div><div class="spacer"></div>
+
+					
+
+
+				</div><!-- end insert indent -->
+
+				<div id="insert_before_1500"></div>
+				
+					
+			
+				<a name="comments_1501"></a>
+				<div class="cb_indent_1" id="cb_item_1501">
+					<div class="cb_item_meta"><span class="cb_item_author" id="cb_item_author_edit_387_1501">Craig Morgan</span><span class="cb_item_date"><a href="/article/10624#comments_1501" title="link to comment 1501">2009-10-06 16:38</a></span> 
+					</div>
+
+					<div class="cb_item_text" id="cb_item_text_1501" style="padding-left: 10px;">This functionality never went away, its been available as the "Simple Finder" mode that can be activated for less experienced user accounts (read children - although mine are probably more adept than me!) all the time in OSX.
+					
+					</div>
+
+					<div class="cb_buttons_offset" style="padding-left: 10px;"></div><div class="spacer"></div>
+
+					
+
+
+				</div><!-- end insert indent -->
+
+				<div id="insert_before_1501"></div>
+				
+					
+			
+				<a name="comments_1506"></a>
+				<div class="cb_indent_2" id="cb_item_1506">
+					<div class="cb_item_meta"><span class="cb_item_author" id="cb_item_author_edit_201_1506">Lewis</span><span class="cb_item_date"><a href="/article/10624#comments_1506" title="link to comment 1506">2009-10-06 18:11</a></span> 
+					</div>
+
+					<div class="cb_item_text" id="cb_item_text_1506" style="padding-left: 10px;">Sort of. The simple finder does use the single-app when switching apps, but it also does considerably more than that. It is not a usable option for real users, this is. I've been using it for a week and I find it very usable. Some people will prefer using command key combinations to hide and unhide applications, but frankly things like that tend to not get into my muscle memory. <br><br>I switch apps as normal, I get a mess of windows open, and that's fine because I work well that way. But then I want to concentrate on a couple of apps at a time, so I use the dock and a command-tab and everything distracting just goes away and I can focus on just BBEdit and the Terminal, or just Safari and the Terminal. Or just Safari and Mail.<br><br>Also, since I don't use the dock that much, my normal workflow is unaffected by this change. I have to decide, OK, now I need to work on this html ode, so let's go click BBEdit so I stop reading the twitter stream%u2026<br>
+					
+					</div>
+
+					<div class="cb_buttons_offset" style="padding-left: 10px;"></div><div class="spacer"></div>
+
+					
+
+
+				</div><!-- end insert indent -->
+
+				<div id="insert_before_1506"></div>
+				
+					
+			
+				<a name="comments_1505"></a>
+				<div class="cb_indent_1" id="cb_item_1505">
+					<div class="cb_item_meta"><span class="cb_item_author" id="cb_item_author_edit_771_1505">Darren Stone</span><span class="cb_item_date"><a href="/article/10624#comments_1505" title="link to comment 1505">2009-10-06 17:58</a></span> 
+					</div>
+
+					<div class="cb_item_text" id="cb_item_text_1505" style="padding-left: 10px;">You could always accomplish the same by holding Command and Option while switching apps.  It's features that's been around at least since System 7.0.  I use it all the time.
+					
+					</div>
+
+					<div class="cb_buttons_offset" style="padding-left: 10px;"></div><div class="spacer"></div>
+
+					
+
+
+				</div><!-- end insert indent -->
+
+				<div id="insert_before_1505"></div>
+				
+					
+			
+				<a name="comments_1508"></a>
+				<div class="cb_indent_1" id="cb_item_1508">
+					<div class="cb_item_meta"><span class="cb_item_author" id="cb_item_author_edit_773_1508">Rick</span><span class="cb_item_date"><a href="/article/10624#comments_1508" title="link to comment 1508">2009-10-06 19:02</a></span> 
+					</div>
+
+					<div class="cb_item_text" id="cb_item_text_1508" style="padding-left: 10px;">Interesting stuff, but the history is wrong. (Yes, I'm pedantic, but that bugs me.)<br><br>Apple first showed off things it called "Mac OS X" in 1999, but Single Window Mode didn't show up until the first demo of the Aqua UI at Macworld SF in January 2000.<br><br>The Finder was never mentioned in that demo, and came up only briefly as a source of image files for a Quartz demo. <br><br>Single Window Mode was introduced only at the end of the demo, following description of all the other features of the Dock, and it was explicitly turned on (by clicking a titlebar widget available in all windows), not enabled by default.
+					
+					</div>
+
+					<div class="cb_buttons_offset" style="padding-left: 10px;"></div><div class="spacer"></div>
+
+					
+
+
+				</div><!-- end insert indent -->
+
+				<div id="insert_before_1508"></div>
+				
+					
+			
+				<a name="comments_1510"></a>
+				<div class="cb_indent_1" id="cb_item_1510">
+					<div class="cb_item_meta"><span class="cb_item_author" id="cb_item_author_edit_775_1510">Brian</span><span class="cb_item_date"><a href="/article/10624#comments_1510" title="link to comment 1510">2009-10-06 19:45</a></span> 
+					</div>
+
+					<div class="cb_item_text" id="cb_item_text_1510" style="padding-left: 10px;">Check out Visor for keeping your terminal app always on and hidden but only a keystroke away: http://docs.blacktree.com/visor/visor
+					
+					</div>
+
+					<div class="cb_buttons_offset" style="padding-left: 10px;"></div><div class="spacer"></div>
+
+					
+
+
+				</div><!-- end insert indent -->
+
+				<div id="insert_before_1510"></div>
+				
+					
+			
+				<a name="comments_1514"></a>
+				<div class="cb_indent_1" id="cb_item_1514">
+					<div class="cb_item_meta"><span class="cb_item_author" id="cb_item_author_edit_779_1514">bloodnok</span><span class="cb_item_date"><a href="/article/10624#comments_1514" title="link to comment 1514">2009-10-06 21:00</a></span> 
+					</div>
+
+					<div class="cb_item_text" id="cb_item_text_1514" style="padding-left: 10px;">neat concept. decided to try it in my .profile as follows:<br><br>solo()<br>{<br>case "$1" in<br>""  ) defaults write com.apple.dock single-app -bool true; killall Dock;;<br>"n" ) defaults delete com.apple.dock single-app; killall Dock;; <br>*   ) echo "try solo [n]";;<br>esac<br>}<br><br>works a treat
+					
+					</div>
+
+					<div class="cb_buttons_offset" style="padding-left: 10px;"></div><div class="spacer"></div>
+
+					
+
+
+				</div><!-- end insert indent -->
+
+				<div id="insert_before_1514"></div>
+				
+					
+			
+				<a name="comments_1519"></a>
+				<div class="cb_indent_1" id="cb_item_1519">
+					<div class="cb_item_meta"><span class="cb_item_author" id="cb_item_author_edit_784_1519">patch</span><span class="cb_item_date"><a href="/article/10624#comments_1519" title="link to comment 1519">2009-10-07 02:03</a></span> 
+					</div>
+
+					<div class="cb_item_text" id="cb_item_text_1519" style="padding-left: 10px;">In playing around with key combinations and clicking apps on the dock I found another treat: command clicking an app opens a Finder window with that app selected. Neat! This will save me the few seconds it normally takes me to Spotlight-search for an app when I occasionally want to get to it in the Finder.
+					
+					</div>
+
+					<div class="cb_buttons_offset" style="padding-left: 10px;"></div><div class="spacer"></div>
+
+					
+
+
+				</div><!-- end insert indent -->
+
+				<div id="insert_before_1519"></div>
+				
+					
+			
+				<a name="comments_1520"></a>
+				<div class="cb_indent_1" id="cb_item_1520">
+					<div class="cb_item_meta"><span class="cb_item_author" id="cb_item_author_edit_31_1520">Tonya Engst</span><span class="cb_item_date"><a href="/article/10624#comments_1520" title="link to comment 1520">2009-10-07 04:26</a></span> 
+					</div>
+
+					<div class="cb_item_text" id="cb_item_text_1520" style="padding-left: 10px;">Thanks for this interesting article! I am also finding a bunch of the comments useful, since they are reminding me of tips for using the Dock that I've not integrated into my brain-finger wiring.
+					
+					</div>
+
+					<div class="cb_buttons_offset" style="padding-left: 10px;"></div><div class="spacer"></div>
+
+					
+
+
+				</div><!-- end insert indent -->
+
+				<div id="insert_before_1520"></div>
+				
+					
+			
+				<a name="comments_1522"></a>
+				<div class="cb_indent_1" id="cb_item_1522">
+					<div class="cb_item_meta"><span class="cb_item_author" id="cb_item_author_edit_785_1522">Don Bora</span><span class="cb_item_date"><a href="/article/10624#comments_1522" title="link to comment 1522">2009-10-08 07:35</a></span> 
+					</div>
+
+					<div class="cb_item_text" id="cb_item_text_1522" style="padding-left: 10px;">I recently condensed my work and home laptops to a single laptop.  The means that I must run VMWare Fusion (.Net).  and I have a heavy mix of work and home all the time.  I've found myself really missing that little purple button to the upper right corner of the window (yes, that's what used to trigger single application mode)<br>Thanks for the tip and well written article!
+					
+					</div>
+
+					<div class="cb_buttons_offset" style="padding-left: 10px;"></div><div class="spacer"></div>
+
+					
+
+
+				</div><!-- end insert indent -->
+
+				<div id="insert_before_1522"></div>
+				
+					
+			
+				<a name="comments_1542"></a>
+				<div class="cb_indent_1" id="cb_item_1542">
+					<div class="cb_item_meta"><span class="cb_item_author" id="cb_item_author_edit_798_1542">Moritz Zimmer</span><span class="cb_item_date"><a href="/article/10624#comments_1542" title="link to comment 1542">2009-10-08 06:09</a></span> 
+					</div>
+
+					<div class="cb_item_text" id="cb_item_text_1542" style="padding-left: 10px;">Inspired by this post i wrote a script to switch single-application mode on or off. Check my post(erous) at http://moritzz.posterous.com/applescript-to-switch-mac-os-xs-single-applic
+					
+					</div>
+
+					<div class="cb_buttons_offset" style="padding-left: 10px;"></div><div class="spacer"></div>
+
+					
+
+
+				</div><!-- end insert indent -->
+
+				<div id="insert_before_1542"></div>
+				
+					
+			
+				<a name="comments_1556"></a>
+				<div class="cb_indent_2" id="cb_item_1556">
+					<div class="cb_item_meta"><span class="cb_item_author" id="cb_item_author_edit_803_1556">Bla</span><span class="cb_item_date"><a href="/article/10624#comments_1556" title="link to comment 1556">2009-10-09 09:58</a></span> 
+					</div>
+
+					<div class="cb_item_text" id="cb_item_text_1556" style="padding-left: 10px;">Nice! Thanks.
+					
+					</div>
+
+					<div class="cb_buttons_offset" style="padding-left: 10px;"></div><div class="spacer"></div>
+
+					
+
+
+				</div><!-- end insert indent -->
+
+				<div id="insert_before_1556"></div>
+				
+					
+			
+				<a name="comments_1632"></a>
+				<div class="cb_indent_2" id="cb_item_1632">
+					<div class="cb_item_meta"><span class="cb_item_author" id="cb_item_author_edit_849_1632">Noel Chidwick</span><span class="cb_item_date"><a href="/article/10624#comments_1632" title="link to comment 1632">2009-10-15 02:55</a></span> 
+					</div>
+
+					<div class="cb_item_text" id="cb_item_text_1632" style="padding-left: 10px;">That's great. I've added this to my armoury already.<br><br>Thanks.
+					
+					</div>
+
+					<div class="cb_buttons_offset" style="padding-left: 10px;"></div><div class="spacer"></div>
+
+					
+
+
+				</div><!-- end insert indent -->
+
+				<div id="insert_before_1632"></div>
+				
+					
+			
+				<a name="comments_1565"></a>
+				<div class="cb_indent_1" id="cb_item_1565">
+					<div class="cb_item_meta"><span class="cb_item_author" id="cb_item_author_edit_807_1565">PUIZ Andrs</span><span class="cb_item_date"><a href="/article/10624#comments_1565" title="link to comment 1565">2009-10-10 15:58</a></span> 
+					</div>
+
+					<div class="cb_item_text" id="cb_item_text_1565" style="padding-left: 10px;">It also kicks in when you LAUNCH an app from the Dock, which is a dealbreaker.<br><br>The Mac could use a mode where only one app is visible. "Hide Others" should be a modifier key away when switching apps and elsewhere.
+					
+					</div>
+
+					<div class="cb_buttons_offset" style="padding-left: 10px;"></div><div class="spacer"></div>
+
+					
+
+
+				</div><!-- end insert indent -->
+
+				<div id="insert_before_1565"></div>
+				
+					
+			
+				<a name="comments_1594"></a>
+				<div class="cb_indent_1" id="cb_item_1594">
+					<div class="cb_item_meta"><span class="cb_item_author" id="cb_item_author_edit_647_1594">james</span><span class="cb_item_date"><a href="/article/10624#comments_1594" title="link to comment 1594">2009-10-13 00:23</a></span> 
+					</div>
+
+					<div class="cb_item_text" id="cb_item_text_1594" style="padding-left: 10px;">Yes I also try and do this using the :hide: and :hide others: function but this is a very interesting alternative and yes it is a pity such functionality has been obscured. I guess the idea is to the OS as straight forward and uncluttered as possible so as to avoid the keystoke days of DOS. OSX is obviously a GUI with a few useful bits and pieces still  hidden away in the back recesses.  Great article and well written
+					
+					</div>
+
+					<div class="cb_buttons_offset" style="padding-left: 10px;"></div><div class="spacer"></div>
+
+					
+
+
+				</div><!-- end insert indent -->
+
+				<div id="insert_before_1594"></div>
+				
+					
+			
+				<a name="comments_1597"></a>
+				<div class="cb_indent_1" id="cb_item_1597">
+					<div class="cb_item_meta"><span class="cb_item_author" id="cb_item_author_edit_823_1597">elander</span><span class="cb_item_date"><a href="/article/10624#comments_1597" title="link to comment 1597">2009-10-13 02:40</a></span> 
+					</div>
+
+					<div class="cb_item_text" id="cb_item_text_1597" style="padding-left: 10px;">In the "LiteSwitch X" preference pane you can switch to a "Single Application" setting on the "Window Layering" menu.
+					
+					</div>
+
+					<div class="cb_buttons_offset" style="padding-left: 10px;"></div><div class="spacer"></div>
+
+					
+
+
+				</div><!-- end insert indent -->
+
+				<div id="insert_before_1597"></div>
+				
+					
+			
+				<a name="comments_1600"></a>
+				<div class="cb_indent_1" id="cb_item_1600">
+					<div class="cb_item_meta"><span class="cb_item_author" id="cb_item_author_edit_824_1600">michael</span><span class="cb_item_date"><a href="/article/10624#comments_1600" title="link to comment 1600">2009-10-13 10:06</a></span> 
+					</div>
+
+					<div class="cb_item_text" id="cb_item_text_1600" style="padding-left: 10px;">Long before expose and spaces showed up, I was a single user mode addict. My friends would show me how they'd organize everything in each space and whirrr..off to next space...whirrr off to next space...frankly just made me dizzy.<br>Originally I used autohide...but then application wizard showed up and I have used it ever since.But I am really grateful for this article because anytime I can do what I like without having to go third party...that's golden. Thanks.
+					
+					</div>
+
+					<div class="cb_buttons_offset" style="padding-left: 10px;"></div><div class="spacer"></div>
+
+					
+
+
+				</div><!-- end insert indent -->
+
+				<div id="insert_before_1600"></div>
+				
+					
+			
+				<a name="comments_1671"></a>
+				<div class="cb_indent_1" id="cb_item_1671">
+					<div class="cb_item_meta"><span class="cb_item_author" id="cb_item_author_edit_862_1671">Norm Beazer</span><span class="cb_item_date"><a href="/article/10624#comments_1671" title="link to comment 1671">2009-10-21 06:18</a></span> 
+					</div>
+
+					<div class="cb_item_text" id="cb_item_text_1671" style="padding-left: 10px;">I have been using this feature for several weeks - I discovered it by accident almost.   I really like it, and I tend to use it all the time.<br><br>It is a setting in LaunchBar 5 [ Actions \ Options \ Hide other applications when opening an item.  Can turn it on and off at will.<br><br>I sometimes "park" a window using StickyWindows, and then call it up with the aid of the CMD key to temporarily show two application windows at once.<br><br>Simply reselecting the app of choice restores the single window focus again.<br><br>I also make extensive use of full screen mode for some apps - both Bean and Nisus for example - which gives one a nice focus even when there are many other windows open.
+					
+					</div>
+
+					<div class="cb_buttons_offset" style="padding-left: 10px;"></div><div class="spacer"></div>
+
+					
+
+
+				</div><!-- end insert indent -->
+
+				<div id="insert_before_1671"></div>
+				
+					
+			
+				<a name="comments_1724"></a>
+				<div class="cb_indent_1" id="cb_item_1724">
+					<div class="cb_item_meta"><span class="cb_item_author" id="cb_item_author_edit_893_1724">Abraham Vegh</span><span class="cb_item_date"><a href="/article/10624#comments_1724" title="link to comment 1724">2009-10-21 06:18</a></span> 
+					</div>
+
+					<div class="cb_item_text" id="cb_item_text_1724" style="padding-left: 10px;">You really don't need or want this - I tell you why not on my blog: http://avegh.com/1x
+					
+					</div>
+
+					<div class="cb_buttons_offset" style="padding-left: 10px;"></div><div class="spacer"></div>
+
+					
+
+
+				</div><!-- end insert indent -->
+
+				<div id="insert_before_1724"></div>
+				
+					
+			
+				<a name="comments_1734"></a>
+				<div class="cb_indent_2" id="cb_item_1734">
+					<div class="cb_item_meta"><span class="cb_item_author" id="cb_item_author_edit_201_1734">Lewis</span><span class="cb_item_date"><a href="/article/10624#comments_1734" title="link to comment 1734">2009-10-21 11:33</a></span> 
+					</div>
+
+					<div class="cb_item_text" id="cb_item_text_1734" style="padding-left: 10px;">I read your blog and while it is evident why YOU would not want this, it doesn't change the fact that I find this quite useful and have quickly integrated it into my day-to-day use. It appears other people have as well.<br><br>It is interesting, though not surprising, that Apple will not allow you to hide the only non-hidden application; that is something I hadn't run into.<br>
+					
+					</div>
+
+					<div class="cb_buttons_offset" style="padding-left: 10px;"></div><div class="spacer"></div>
+
+					
+
+
+				</div><!-- end insert indent -->
+
+				<div id="insert_before_1734"></div>
+				
+					
+			
+				<a name="comments_1749"></a>
+				<div class="cb_indent_3" id="cb_item_1749">
+					<div class="cb_item_meta"><span class="cb_item_author" id="cb_item_author_edit_893_1749">Abraham Vegh</span><span class="cb_item_date"><a href="/article/10624#comments_1749" title="link to comment 1749">2009-10-22 19:06</a></span> 
+					</div>
+
+					<div class="cb_item_text" id="cb_item_text_1749" style="padding-left: 10px;">Thanks for the response, Lewis.<br><br>I agree with you that there are some people who may find it useful, but as you read, I find it utterly useles.<br><br>To run into my deal-breaker issue, just click any application in the dock that isn't Finder, and then try to Cmd+H that app.
+					
+					</div>
+
+					<div class="cb_buttons_offset" style="padding-left: 10px;"></div><div class="spacer"></div>
+
+					
+
+
+				</div><!-- end insert indent -->
+
+				<div id="insert_before_1749"></div>
+				
+					
+			
+				<a name="comments_1752"></a>
+				<div class="cb_indent_4" id="cb_item_1752">
+					<div class="cb_item_meta"><span class="cb_item_author" id="cb_item_author_edit_201_1752">Lewis</span><span class="cb_item_date"><a href="/article/10624#comments_1752" title="link to comment 1752">2009-10-22 19:55</a></span> 
+					</div>
+
+					<div class="cb_item_text" id="cb_item_text_1752" style="padding-left: 10px;">I don't see the issue. What do you expect to happen, all applications to be hidden? Obviously this is not something that Apple decided was appropriate. I can't see how it would be appropriate either, for the record, nor why anyone would want to have ALL the applications hidden.<br><br>Shift-Control-Eject is the solution if you want everything hidden (it turns off the screen).<br>
+					
+					</div>
+
+					<div class="cb_buttons_offset" style="padding-left: 10px;"></div><div class="spacer"></div>
+
+					
+
+
+				</div><!-- end insert indent -->
+
+				<div id="insert_before_1752"></div>
+				
+					
+			
+				<a name="comments_1733"></a>
+				<div class="cb_indent_1" id="cb_item_1733">
+					<div class="cb_item_meta"><span class="cb_item_author" id="cb_item_author_edit_897_1733">Alan Bristow</span><span class="cb_item_date"><a href="/article/10624#comments_1733" title="link to comment 1733">2009-10-21 11:24</a></span> 
+					</div>
+
+					<div class="cb_item_text" id="cb_item_text_1733" style="padding-left: 10px;">Like Spirited away (earlier comment), I now use App hider: http://fluffdesign.com/x/u<br><br>Lets you choose apps to not hide on the fly, all else it hides after pre-determined, configurable time.
+					
+					</div>
+
+					<div class="cb_buttons_offset" style="padding-left: 10px;"></div><div class="spacer"></div>
+
+					
+
+
+				</div><!-- end insert indent -->
+
+				<div id="insert_before_1733"></div>
+				
+					
+			
+	
+			</div><!-- end cb_body -->
+				
+		</div><!-- end cb_block -->
+
+		<!-- end comment show-->
+		
+		<!-- end comments section -->
+
+
+		<!-- end article loop details -->
+		
+		
+
+		
+	</div><!-- end show article -->
+	
+	
+
+
+<!-- article_plus end -->
+<!--
+</DIV>
+--><!-- end main_column DIV -->
+
+
+<!-- google_ad_section_end -->
+
+</div><!-- end center AJAX insert -->
+
+<!-- TipBITS Search Results Lozenge -->
+<div id="tipbits_results_loz" style="display:none">
+<form method="post" onsubmit="return false" id="tipbits_form_loz" name="tipbits_form_loz" action="noaction.cgi">
+<div class="tip_footer">
+<p id="search_tipbits_loz"><input type="text" onkeydown="if (event.keyCode == 13) { search_tipbits('tipbits_searchvalue_loz', 'tipbits_results_loz'); }" id="tipbits_searchvalue_loz" name="tipbits_searchvalue_loz">&nbsp;<a href="javascript:void(0)" onClick="search_tipbits('tipbits_searchvalue_loz', 'tipbits_results_loz')">Search</a></p>
+</div>
+<div class="tip_footer_bottom">
+&nbsp;</div>
+</form>
+</div><!-- end TipBITS Search Results lozenge -->
+
+
+
+
+<!-- begin footer -->
+<div id="footer">
+
+<div id="qr_tag_right"><div id="qr_tag_image"><img src="http://chart.apis.google.com/chart?cht=qr&chs=90x90&chl=http%3A%2F%2Fdb.tidbits.com%2Farticle%2F10624&chld=L|0" title="QR Code for this page" alt="QR Code for this page"></div><div id="qr_tag_text"><a href="http://db.tidbits.com/article/10616">What's this image?</a></div></div>
+<p>Special thanks to <a href="http://www.forest.net/">digital.forest</a>, our
+Web and mailing list host.</p>
+<p>Unless otherwise noted, this article is copyright &copy; 2009 <a href="/author/Lewis%20Butler">Lewis Butler</a></p>
+<p>TidBITS is copyright &copy; 2010 TidBITS Publishing Inc.</p>
+<p>Reuse governed by <a href="http://www.tidbits.com/terms/">Creative Commons License</a>.</p>
+
+<p><a href="/about.html" title="About TidBITS">About TidBITS</a> | <a href="/account.html" title="Account Help">Account Help</a> | <a href="/advertising.html" title="Advertise with TidBITS!">Advertise with TidBITS!</a> | <a href="/contact.html" title="Contact Info">Contact Info</a> | <a href="/copyright.html" title="Copyright Terms">Copyright Terms</a></p>
+
+</div><!-- end footer -->
+
+
+</div> <!-- end centercolumn -->
+
+<div class="center_bottom">&nbsp;</div>
+
+</div> <!-- end centercolumn_border -->
+
+
+</div> <!-- end content_container -->
+
+</div> <!-- end mainbody -->
+
+
+<script src="http://www.google-analytics.com/urchin.js" type="text/javascript">
+</script>
+<script type="text/javascript">
+_uacct = "UA-276924-3";
+urchinTracker();
+</script>
+<script type="text/javascript"
+src="http://tidbitscom.skimlinks.com/api/skimlinks.js"></script>
+<script type="text/javascript">
+var skimlinks_pub_id = '2559X585851';
+var skimlinks_domain = 'go.tidbits.com';
+skimlinks();
+</script>
+</body>
+</html>
+
