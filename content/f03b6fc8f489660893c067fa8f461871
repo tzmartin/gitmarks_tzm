@@ -273,7 +273,7 @@ var pageTracker = _gat._getTracker("UA-260144-2");
 pageTracker._initData();
 pageTracker._trackPageview();
 </script>
-		<!-- Advertising Manager v3.4.19 (0.347 seconds.) -->
+		<!-- Advertising Manager v3.4.19 (0.346 seconds.) -->
 <script type="text/javascript"> 
     jQuery(document).ready(function(){ 
         jQuery("ul.menu").superfish(); 
