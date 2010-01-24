@@ -1,0 +1,328 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta name="google-site-verification" content="cbww5MXcsk9d2Wty8k9gIYxMS9Wyf8Ed8ntfzhpm9wQ" />
+	<script type="text/javascript">var _sf_startpt=(new Date()).getTime()</script>
+	
+	<meta name="verify-v1" content="G/tH0Vz9qq62XN1TID8TM3k6xacr6Wa4Yl8qgrGKk+c=" />
+		
+	<title>MockFlow: Online Wireframe Software</title>
+	
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />	
+	<meta name="description" content="MockFlow is an online wireframe tool for software and websites" /> 
+	<meta name="keywords" content="online mockups, wireframe,free, collaborate,software , websites, real,time,mockups,chat,mockstore,whiteboard,proofing,sketch board, desktop mockup editor, desktop wireframe, offline, offline sync,css layout designer" /> 
+	<meta name="resource-type" content="Document" /> 
+	<meta name="robots" content="ALL" /> 
+	
+	<meta name="distribution" content="Global" /> 
+	<meta name="copyright" content="Copyright 2008-2009, A Produle Systems (P) Limited" /> 
+	<meta name="author" content="Produle" /> 
+	<meta name="language" content="English" /> 
+	
+	<link rel="shortcut icon" href="images/favicon.ico" />
+	<link rel="stylesheet" type="text/css" href="css/jquery.lightbox-0.5.css" media="screen" />
+	
+	<style type="text/css" media="all" >@import "css/all.css";</style>
+	<style type="text/css" media="all" >@import "css/other.css";</style>
+	<style type="text/css" media="all" >@import "css/features.css";</style>
+	
+	<script type="text/javascript" src="badge/swfobject.js"></script> 
+	<script type="text/javascript" src="js/jquery-1.3.2.min.js"></script>
+	<script type="text/javascript" src="js/jquery.lightbox-0.5.js"></script>
+	<script type="text/javascript" src="js/process.js"></script>
+	
+	<script language="javascript" type="text/javascript">
+	
+		function popitup(url) {
+		
+			newwindow=window.open(url,'name','height=210,width=235');
+			if (window.focus) {newwindow.focus()}
+			return false;
+
+		}
+	</script>
+	
+	<script type="text/javascript">
+	
+		$(function() {
+			$('a.lightbox').lightBox(); // Select all links with lightbox class
+		});
+	</script>
+	
+</head>
+<body>
+<img src="http://ib.adnxs.com/seg?add=36747&amp;t=2" width="1" height="1" alt="" />
+
+	<div id="page">
+		<!-- header -->
+		<!-- header and top navigation -->
+		<div id="stretchHeader">
+			<div id="subHeader">
+				<div id="topnav">
+				
+					<a href="http://www.mockflow.com" ><img src="images/logo.png" alt="" /></a>
+				
+				</div>
+				
+				<div id="inav">
+				<span><a class="top"  href="samples">Samples</a></span>  &nbsp;  &nbsp;
+				<span><a class="top"  href="help">Help</a></span>  &nbsp;  &nbsp;  
+				<span><a  style="color: #3399FF; font-size: 15px;"  href="http://app.mockflow.com">Login</a></span>  &nbsp;  &nbsp;
+				<span><a style="color: #000000;"  href="signup">Signup</a></span>   &nbsp;  &nbsp;
+				<span ><a style="color: #333333;font-style: italic;"  href="desktop">Desktop</a></span>    &nbsp;  &nbsp;
+				<span style="background-color: #000; padding: 2px 4px 2px 4px; text-align: center;	"><a style="color: #FFF;font-style: italic;"  href="http://www.divcraft.com" target="_blank">DivCraft</a></span> 
+				
+				</div>
+			</div>
+		</div>
+<!-- Main Banner -->
+				
+<div id="stretchBanner">
+   <div id="banner">
+		<div id="bannerText">
+			<h1 class="bannerHeading">Super-easy Wireframing</h1>
+			Design, collaborate (in real-time) user interface mockups for your software and websites.
+			
+			<br/><br/><br/><br/><br/> 			
+			
+			<div style="width:100%">				
+				<div style="width:100%">
+					<img  name="signup" src="images/signup.png" width="330" height="40" border="0" id="signup" usemap="#m_signup" alt="" />
+					<map name="m_signup" id="m_signup">						
+						<area shape="rect" coords="3,0,191,40" href="http://www.mockflow.com/signup" alt="" />
+					</map>
+				</div>
+				
+			</div>									
+		</div>	
+		
+		<div id="bannerImage">
+			<a href="samples"><img  alt="" src="images/editor.png" /></a>
+		</div>		
+	</div>				
+</div>
+			
+<div id="stretchAd">
+   <div id="advertisement">					
+		<a target="_blank" href="http://www.mockflow.com/mockstore"><img  alt="" src="images/mockstoread.png" /></a>
+	</div>				
+</div>
+			
+<!-- Feature Banner -->
+<div id="indexContent">			
+	<div id="indexContentLeft">		
+		<br/>
+		<div class='featureRow'> 
+			<div class='feature'> 
+				<h2>Online/Offline</h2>
+				MockFlow is hybrid, so you can design seamlessly from anywhere &amp; even with <a href="desktop">No net-connection</a>
+			</div>
+		
+			<div class='featureBuffer'>&nbsp; </div>
+			
+			<div class='feature'> 
+				<h2>Interactive</h2>
+				 Organize pages with sitemaps and define links to present a clickable prototype.
+			</div>
+		</div>
+		
+		<div class='featureRow'> 
+			<div class='feature'> 
+				<h2>Components</h2>
+				Comes with numerous built-in components &amp; icons, For anything else there is <a href="http://www.mockflow.com/mockstore">MockStore</a> - design library.			
+			</div>
+		
+			<div class='featureBuffer'>&nbsp; </div>
+		
+			<div class='feature'> 
+				<h2>Collaborate</h2>
+					Work as a Team. Co-design, communicate and get feedback, As simple as sharing an URL.
+			</div>
+		</div>
+		
+		<font style="font-size: 16px;" ><strong>Wireframe Features</strong></font><br/><br/>
+		
+		<font style="font-size: 12px;" >We have designed MockFlow to make sure you have the best Wireframing experience.</font><br/><br/>
+		
+		
+		<font style="font-size: 14px;" ><strong><i>Editor</i></strong></font><br/>
+		
+		<ul class="uses"> 
+			<li class="uses">Easy-to-use and sophisticated interface</li> 
+			<li class="uses">Provides all the editing functions you need</li> 
+			<li class="uses">Presentation mode to test wireframe interactions </li> 			
+			<li class="uses"><a target="_blank" href='http://produle.posterous.com/mockflow-update-super-zoom-now-available-in-e'>Zoom</a> mockups with auto-size function</li> 
+			<li class="uses">SiteMap creator with pages and folders</li> 
+			<li class="uses">Interactive <a target="_blank" href="http://produle.posterous.com/mockflow-update-new-sitemap-visualization">visualization</a> of SiteMap</li> 	
+			<li class="uses"><a target="_blank" href="http://produle.posterous.com/mockflow-update-introducing-overlaid-mesh-gri">Graph, 960 grids</a> and Rulers are provided for layout</li> 
+			<li class="uses">Pages can be applied with multiple masters (recursive), to avoid rework</li> 												
+			<li class="uses">Support for manual and auto <a target="_blank" href="http://produle.posterous.com/mockflow-update-version-control-system-real-t">revisions</a> of mockup </li>						
+						
+		</ul>
+		
+		<br/><font style="font-size: 14px;" ><strong><i>Library</i></strong></font><br/>
+		
+		<ul class="uses"> 
+			<li class="uses">Large library of mockup components</li> 
+			<li class="uses"><a target='_blank' href='http://www.mockflow.com/mockstore'>MockStore</a> for eXtra elements &amp; templates </li> 
+			<li class="uses">Image Manager</li> 
+			<li class="uses">Built-in Icon library</li> 
+			<li class="uses"><a target="_blank" href="http://produle.posterous.com/mockflow-update-design-awesome-layouts-using">Layout Builder</a> for designing background layout designs</li> 															
+			<li class="uses"><a target="_blank"  href="http://produle.posterous.com/mockflow-update-introducing-stickers">Stickers:</a> Ready-made collection of images</li> 			
+			<li class="uses">Components for <a href='http://produle.posterous.com/mockflow-update-new-arrows-in-note-component' target='_blank'>annotating</a> your mockup</li> 
+		</ul>
+		
+		<br/><font style="font-size: 14px;" ><strong><i>Publishing</i></strong></font><br/>
+		
+		<ul class="uses"> 
+			<li class="uses">Multi page PDF document</li> 
+			<li class="uses">Microsoft Powerpoint Slides</li> 
+			<li class="uses">High-Quality PNG images</li> 
+			<li class="uses">Generate <a target="_blank" href="http://produle.posterous.com/mockflow-update-generate-specification-in-ms">Specification</a> in MS Word format</li> 
+			<li class="uses">Unique <a target="_blank" href="http://produle.posterous.com/mockflow-update-new-mac-expose-like-snapshot">Expose</a> Snapshot </li> 
+			<li class="uses">Convert SiteMap to <a target='_blank' href='http://produle.posterous.com/mockflow-update-export-sitemap-data-to-excel'>Excel</a> format</li> 
+			<li class="uses">Apply <a target='_blank' href='http://produle.posterous.com/introducing-filter-effects-for-export-graysca'>filter effects</a> like Sketch, Negative, GrayScale, Old Paper</li> 
+		
+		</ul>
+		
+		<br/><font style="font-size: 14px;" ><strong><i>Collaboration</i></strong></font><br/>
+		<ul class="uses"> 
+			<li class="uses"><a target="_blank" href="http://produle.posterous.com/mockflow-update-real-time-design-collaboratio">Real-Time Design Collaboration</a> with Team Chat</li> 						
+			<li class="uses">Sharing permissions include <a target="_blank" href="http://produle.posterous.com/mockflow-update-now-you-can-add-co-editors-fo">Reviewer &amp; Co-Editor</a></li> 
+			<li class="uses">Optional public URLs for wireframe projects</li> 
+			<li class="uses">Get <a target="_blank" href="http://produle.posterous.com/mockflow-new-feature-link-your-comments-in-th">annotated feedback</a> directly in the mockup</li> 			
+			<li class="uses"><a target="_blank" href="http://produle.posterous.com/mockflow-update-new-dashboard-with-project-lo">Track wireframe activities</a> and get updates from team members</li> 																					
+		</ul>
+		
+		<br/><font style="font-size: 14px;" ><strong><i>Business Features</i></strong></font><br/>
+		<ul class="uses"> 
+			<li class="uses"><a href='http://produle.posterous.com/mockflow-brings-wireframing-to-google-apps' target='_blank'>Google Apps</a> Integration</li> 		
+			<li class="uses">Self-serve <a target="_blank" href='http://produle.posterous.com/mockflow-update-self-serve-license-manager-up' >License Manager</a> - upgrade/downgrade team members in a click</li> 
+			<li class="uses">Team Contact manager</li> 
+			<li class="uses">Ownership of mockup can be changed</li> 
+			<li class="uses">Ability to Export mockup data</li> 
+		</ul>
+		
+		<br/><font style="font-size: 14px;" ><strong><i>Other</i></strong></font><br/>
+		<ul class="uses"> 
+			<li class="uses"><a target="_blank" href="http://produle.posterous.com/mockflow-big-feature-integrated-whiteboard-to">WhiteBoard tool</a> for drawing doodles on mockup</li> 
+			<li class="uses">View/Edit/Update your mockups <a target="_blank" href='http://www.mockflow.com/desktop'>offline</a></li> 
+			<li class="uses">Built-in <a target="_blank" href="http://produle.posterous.com/mockflow-update-new-web-snap-feature-for-the">Web Snap</a> function for capturing webpages</li> 													
+		</ul>
+	
+</div>		
+
+
+<div id="indexContentRight">
+	
+	<font style="font-size: 16px;" ><strong>Uses</strong></font><br/><br/>
+				
+	<ul class="uses2"> 
+		<li class="uses">Get your visual concept ready in minutes</li> 
+		<li class="uses">Faster than drawing/coding wireframes</li> 
+		<li class="uses">Instantly share your UI design with your clients</li> 				
+		<li class="uses">Strategize with the built-in <a target="_blank" href="http://produle.posterous.com/mockflow-update-sitemap-visualization-is-now">SiteMap Visualizer</a></li>
+		
+	</ul>
+
+	
+	<br/>
+	<font style="font-size: 16px;" ><strong>Video Demo</strong></font> &nbsp; (no audio)
+	<br/><br/>			
+	
+	<object width="300" height="169" type="application/x-shockwave-flash" data="http://vimeo.com/moogaloop.swf?clip_id=7178540&amp;server=vimeo.com&amp;show_title=1&amp;show_byline=0&amp;show_portrait=0&amp;color=FFFFFF&amp;fullscreen=1">
+		<param name="allowfullscreen" value="true" />
+		<param name="allowscriptaccess" value="always" />
+		<param name="movie" value="http://vimeo.com/moogaloop.swf?clip_id=7178540&amp;server=vimeo.com&amp;show_title=1&amp;show_byline=0&amp;show_portrait=0&amp;color=FFFFFF&amp;fullscreen=1" />
+	</object>
+	
+	<br/><br/>
+	<br/><br/>
+
+
+	</div>	
+			
+</div>
+
+			
+<div id="stretchSS" >
+	   <div id="ss">
+	   <br/><br/>
+			<a title="Full featured Editor" class="lightbox" href="images/ss/editor.jpg"><img class="ssthumb" src="images/ss/editor_thumb.jpg" width="110" height="110" alt="Editor interface" /></a> &nbsp; &nbsp;	&nbsp;			
+			<a title="Built-in Component set" class="lightbox" href="images/ss/components.jpg"><img class="ssthumb"  src="images/ss/components_thumb.jpg" width="110" height="110" alt="Components" /></a> &nbsp; &nbsp;	 &nbsp;									
+			<a title="Create, Visualize SiteMaps" class="lightbox" href="images/ss/visualize.jpg"><img class="ssthumb"  src="images/ss/visualize_thumb.jpg" width="110" height="110" alt="Create, Visualize SiteMaps" /></a> &nbsp; &nbsp; &nbsp;
+			<a title="Share with co-editors and reviewers or make it public" class="lightbox" href="images/ss/share.jpg"><img class="ssthumb"  src="images/ss/share_thumb.jpg" width="110" height="110" alt="Invite Co-editors and Reviewers" /></a> &nbsp; &nbsp; &nbsp;
+			<a title="Get annotated feedback" class="lightbox" href="images/ss/linkedcomments.jpg"><img class="ssthumb"  src="images/ss/linkedcomments_thumb.jpg" width="110" height="110" alt="Leave Annotated feedback" /></a> &nbsp; &nbsp; &nbsp;
+			<a title="Export to PDF with comments" class="lightbox" href="images/ss/pdfsnap.jpg"><img class="ssthumb" src="images/ss/pdfsnap_thumb.jpg" width="110" height="110" alt="Export to PDF with Comments" /></a>
+		</div>				
+</div>  
+			
+			
+			
+<!-- Home Page content -->
+
+	<!-- footer -->	
+	
+</div>
+	
+<div id="footer">
+		
+	<div class="holder">	    					
+		 <div class="footerRight">	
+			<a class="top" style="font-size: 12px;" href="http://www.mockflow.com/terms">Terms</a> &nbsp; | &nbsp; <a class="top" style="font-size: 12px;" href="http://www.mockflow.com/privacy_policy">Privacy Policy</a><br/> 			
+			<!--<a target="_blank" href="http://www.analyzepal.com" ><font style="color: #FF0000; font-size: 13px;">Get Free Analytics for your PayPal account!</font></a>-->
+		 </div>
+	
+		<div class="footerCenter">	
+			<a class="top" href="http://www.mockflow.com/blog">Blog</a> &nbsp; &nbsp;		
+			<a class="top" href="http://mockflow.com/contact">Contact</a> &nbsp; &nbsp;
+			
+			<br/>				
+			<font style="font-weight: normal; font-size: 10px;">Copyright &copy; 2009-2010 A Produle Systems (P) Limited </font>
+		</div>			 			 
+	</div>
+
+	
+	<br/>
+		
+</div>
+	
+<script type="text/javascript" src="http://include.reinvigorate.net/re_.js"></script>
+<script type="text/javascript">
+try {
+reinvigorate.track("eg890-2f728yeioe");
+} catch(err) {}
+</script>
+	
+<script type="text/javascript">
+	var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+	document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+	</script>
+	<script type="text/javascript">
+	try {
+	var pageTracker = _gat._getTracker("UA-7150295-9");
+	pageTracker._trackPageview();
+	} catch(err) {}
+</script>
+	
+<script type="text/javascript">
+	var _sf_async_config={uid:7464,domain:"mockflow.com"};
+	(function(){
+	  function loadChartbeat() {
+		window._sf_endpt=(new Date()).getTime();
+		var e = document.createElement('script');
+		e.setAttribute('language', 'javascript');
+		e.setAttribute('type', 'text/javascript');
+		e.setAttribute('src',
+		   (("https:" == document.location.protocol) ? "https://s3.amazonaws.com/" : "http://") +
+		   "static.chartbeat.com/js/chartbeat.js");
+		document.body.appendChild(e);
+	  }
+	  var oldonload = window.onload;
+	  window.onload = (typeof window.onload != 'function') ?
+		 loadChartbeat : function() { oldonload(); loadChartbeat(); };
+	})();
+</script>
+
+</body>
+</html>
