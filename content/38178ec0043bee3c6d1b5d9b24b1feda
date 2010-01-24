@@ -1,0 +1,685 @@
+
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html>
+<head>
+<meta name="keywords" content="ePub Creation,create ePub,convert ePub,convert into ePub format,make ePub,make ePub books">
+<title> .epub eBooks Tutorial</title>
+<link rel="stylesheet" type="text/css" href="../style.css">
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-17387462-2']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+</head>
+
+<body>
+
+<h2 align="center"><font color="#008000"><i>Jedisaber.com</i></font> </h2>
+
+<p align="center"><b>Original Content:</b>
+<a href="http://www.jedisaber.com">Home</a>
+| <a href="http://www.jedisaber.com/meskka/">Books</a>
+| <a href="http://www.jedisaber.com/eBooks/">eBooks</a>
+| <a href="http://www.jedisaber.com/Other/">Other</a>
+| <a href="http://www.jedisaber.com/links/">Links</a> 
+| <a href="http://www.jedisaber.com/updates">Updates</a>
+|&nbsp; <b>Fan Content:</b> 
+<a href="http://www.jedisaber.com/Andromeda/">Andromeda</a>
+| <a href="http://www.jedisaber.com/avatars/">Avatars</a>
+| <a href="http://www.jedisaber.com/Anime/">Anime</a>
+| <a href="http://www.jedisaber.com/Dark_Angel/">Dark Angel</a>
+| <a href="http://www.jedisaber.com/matrix/">Matrix</a>
+| <a href="http://www.jedisaber.com/Pern/">Pern</a>
+| <a href="http://www.jedisaber.com/SG/">Stargate</a>
+| <a href="http://www.jedisaber.com/ST/">Star Trek</a>
+| <a href="http://www.jedisaber.com/SW/">Star Wars</a>
+</p>
+
+<div id="jedisearch">
+<form action="http://www.jedisaber.com" id="cse-search-box">
+  <div>
+    <input type="hidden" name="cx" value="partner-pub-6329442091957906:2uxn0g-ri9x" />
+    <input type="hidden" name="cof" value="FORID:10" />
+    <input type="hidden" name="ie" value="ISO-8859-1" />
+    <input type="text" name="q" size="25" />
+    <input type="submit" name="sa" value="Search" />
+  </div>
+</form>
+<script type="text/javascript" src="http://www.google.com/cse/brand?form=cse-search-box&amp;lang=en"></script>
+
+<div id="cse-search-results"></div>
+<script type="text/javascript">
+  var googleSearchIframeName = "cse-search-results";
+  var googleSearchFormName = "cse-search-box";
+  var googleSearchFrameWidth = 800;
+  var googleSearchDomain = "www.google.com";
+  var googleSearchPath = "/cse";
+</script>
+<script type="text/javascript" src="http://www.google.com/afsonline/show_afs_search.js"></script>
+</div>
+
+<h1 align="center"><img border="0" src="images/epub_logo_color.jpg" alt="ePub" align="middle">.epub eBooks Tutorial</h1>
+
+<h3>Why should I use the ePub format?</h3>
+
+<p>
+Because it's a completely open and free standard.<br />
+The .epub format is a standard for eBooks created by the <a href="http://www.idpf.org/">International Digital Publishing Forum</a>.
+It consists of basic XHTML for the book content, XML for descriptions, and a re-named zip file to hold it all in.
+Anyone can make these eBooks, and since they're essentially just XHTML, anyone can read
+them.
+</p>
+
+<h3>
+How can I read ePub books?
+</h3>
+
+<p>
+There are a varity of hardware and software devices that can read books in the
+ePub format. You can read ePub books on anything from a blackberry or iPhone, to
+a computer, or a dedicated reading device such as the Sony Reader or the Nook. For a review of programs that can read ePub formatted
+books, <a href="Readers.asp">click here.</a>
+</p>
+
+<h3>
+What is the ePub format?
+</h3>
+
+<p>ePub (also know by: EPUB, .epub, or other variations on capitalization) is a
+free and open standard for for eBooks (electronic books) maintained by the
+International Digital Publishing Forum (IDPF). The ePub file format was designed
+to be open (anyone can use it or create it) and re-flowable (the text can be
+re-sized and re-arranged to suite whatever display it's being read on). Ideally,
+it will catch on as the standard for ebooks.
+</p>
+
+<p>
+For more on the history of the ePub format, see <a href="http://en.wikipedia.org/wiki/EPUB">Wikipedia's
+ePub page</a>, and of course, the <a href="http://www.idpf.org/">IDPF's page</a>.
+</p>
+
+<h3>Where to get ePub Books
+</h3>
+
+<p>
+Some books in the IDPF .epub format are available <a href="Books.asp">here</a>.
+(Along with links to other sites to get ePub books from.)
+</p>
+
+<h3>Automated Tools and <b>Software Programs for editing ePub files</b>
+</h3>
+
+<p>
+There are now several tools for automating the process of creating ePub books.
+See my <a href="Readers.asp"> ePub software review page</a> for full reviews of a variety of tools to
+create and edit ePub files. The abillities of these programs range from
+assisting in packaging your prepared content into the ePub format to providing a
+full WYSIWYG environment to create and edit in.
+</p>
+
+<hr>
+
+<h1 align="center">How to Make an ePub eBook by Hand</h1>
+
+<h2 align="center">Overview and Required Tools</h2>
+
+<p>
+If you're interested, I figured out the information in this guide by a combination of reverse engineering
+the Sherlock Holmes book from Adobe's site, reading through the specs at the IDPF web site, and trial
+and error until I got a working eBook to load properly in Digital Editions. (I figure it's OK to do
+that since Holmes is in the public domain now...)
+</p>
+
+<p>
+<b>Updated on: 7/7/2010</b>
+</p>
+
+<p>
+Since I originally posted this guide, the ePub standard has gone through a few
+revisions, making the hand made files I first created now throw out a bunch of
+errors when ran through tools like ePubCheck. Since various websites now offer
+books in the ePub format, I'm not going to go through and update every singe
+book I've made, but I am going to re-do this guide from scratch.
+</p>
+
+<p>As I stated above, this page is about making ePub files by hand. When the
+format first came out, there weren't any tools to make ePub files, so this was
+the only way to go. Now there are several (see the section above for reviews of
+some of them) and there really isn't a need to do this the hard way anymore.
+Nevertheless, I feel it's beneficial to know the guts of something, whether it's
+to fix a weird error, or to know what that program is really doing. Or you might
+just want to have a little more control over the process... or you might be
+really bored. ;)
+</p>
+
+<p><b>Updated on: 10/4/2010:</b>
+</p>
+
+<p>Added a note on adding the mimetype file to the container.
+</p>
+
+<p><b>Updated on: 11/27/2010:</b>
+</p>
+
+<p>Added more information on the TOC.NCX file. I also re-arranged the top part
+of this page to hopefully make things easier to find.
+</p>
+
+<p><b>Updated on: 12/10/2010:</b>
+</p>
+
+<p>Fixed formatting a little. Added some stuff on the navpoint tags in the NCX
+file.<br>
+Also, someone wrote and asked if I have this guide in ePub format so they could
+read it on an eReader while making a file on the computer. My first thought was
+&quot;Why didn't I have that?&quot;<br>
+So, there is now a link at the bottom of the page to download this guide in ePub
+format.
+</p>
+
+<h3>
+<b>Tools Needed:</b> </h3>
+<ul>
+  <li>A text editor. Anything that can edit text files, HTML, and XML. (Example: Notepad)</li>
+  <li>A .zip program. Anything that can create .zip files. (Example: Windows XP's built-in .zip support) <br />
+  </li>
+</ul>
+
+<h3>
+<b>Optional Tools:</b>
+</h3>
+
+<p>
+You can make ePub files with just the programs that came with your operating system, but here are some
+suggestions for tools that can make the process easier.
+</p>
+
+<p>
+For Windows:
+</p>
+
+<ul>
+  <li> <a href="http://www.editplus.com/">Edit Plus</a> (shareware)</li>
+  <li> <a href="http://notepad-plus.sourceforge.net/uk/site.htm">Notpad++</a></li>
+  <li> <a href="http://www.info-zip.org/Zip.html">Info-Zip</a><br />
+  </li>
+</ul>
+
+<p>
+For OS X:
+</p>
+
+<ul>
+  <li> <a href="http://www.barebones.com/products/textwrangler/">Text Wrangler</a></li>
+</ul>
+
+<p>
+Several people have written to tell me that OS X's built in zip support works
+just fine. Just layout your files, then compress the folder they're in
+(right-click, then click &quot;Compress&quot;). Others prefer the command line
+zip program.
+</p>
+
+<h3>
+<b>Tools for cleaning up source documents:</b>
+</h3>
+
+<p>
+Below are some tools for cleaning up the HTML/XHTML files often used for sources
+for ePub books.
+Cleaner source code will produce a better looking book. Most of the ePub readers right now only support
+basic tags and do strange and wonderful things when they see a tag they don't recognize.
+Whether you make an eBook by hand, or use a program to convert a text or HTML
+document to an ePub file, the cleaner the HTML looks, the nicer the final book
+will look. The fewer the tags in the source document, the better.
+</p>
+
+<ul>
+  <li>
+<a href="http://home.ccil.org/~cowan/XML/tagsoup/">Tag Soup</a> - cleans up HTML
+    tags</li>
+</ul>
+
+<p>
+I had a nice Windows program specifically to clean MS Word crap out of HTML pages... but I can't seem to find
+what I did with it. I'll keep looking and post a link here if I can find it again...
+</p>
+
+<p>
+&nbsp;
+</p>
+
+<h2 align="center">The process of making an ePub eBook
+</h2>
+
+<p>
+The process of making an ePub book can be broken down into three parts:
+</p>
+
+<ol>
+  <li> Prepare the content</li>
+  <li>Prepare the XML files</li>
+  <li> Put in in the container.</li>
+</ol>
+
+<p>
+First, let's go check out the official specs. Yes, it's very boring and hard to follow,
+but aren't they all?<br />
+These will come in handy later on though. After getting the basic structure of the file setup,
+the official specs are handy to reference for tags that aren't used very often, or if you can't
+remember what exactly goes in a certain tag.<br />
+Don't let them scare you though, we really only have to fiddle with two XML files, the rest is
+either straight XHTML, or files that you can copy from the sample file that we'll be looking at later.
+</p>
+
+<p><b>IDPF Specs:</b></p>
+<ul>
+  <li><a href="http://www.idpf.org/doc_library/epub/OPS_2.0.1_draft.htm">(Allowed Mark-up reference for included XHTML files)</a></li>
+  <li><a href="http://www.idpf.org/doc_library/epub/OPF_2.0.1_draft.htm">Structure</a></li>
+  <li><a href="http://www.idpf.org/ocf/ocf1.0/index.htm">Container</a></li>
+</ul>
+
+<h2 align="center">
+Step 1: Prepare the content</h2>
+
+<p>
+The first thing to do is prepare your content. Content will typically come in a
+.txt file or an .html file, if you get it from a public source such as Project
+Gutenberg. If you are turning your own work into an ePub eBook, it's probably in
+.doc or another word processor format.
+
+<p>
+Content for ePub books needs to be in HTML format. It's out of the scope of this
+guide to show how to create an HTML file. As a quick overview:
+
+<p>
+If your file is in .doc (MS Word) format, save it as HTML, then use a tool
+mentioned above to clean it up.
+
+<p>
+If your file is a text document, add the <a href="http://www.w3.org/TR/xhtml-modularization/">appropriate
+markup</a> to make it XHTML compliant.
+
+<p>
+Another thing to note: If you are creating these files in a text editor, be sure
+to save in UTF-8 format, not ANSI. (In notepad, this is an option under the
+&quot;save as&quot; box.)
+
+<h2 align="center">
+Step 2: Prepare the XML files</h2>
+
+<p>
+The XML files are all the other stuff in the ePub book that tells where your
+content is, and what to do with it.
+
+<p>
+Before we start preparing our own eBook, lets look inside a sample file.
+<ul>
+  <li>Download the <a href="books/sample.epub">sample file</a> to your hard drive</li>
+  <li>Rename the .epub extension to .zip</li>
+  <li>Open the Zip file</li>
+</ul>
+
+<p>
+Great. Now what is all this stuff?
+</p>
+
+<p>
+<img border="0" src="images/Tutori1.jpg"> <img border="0" src="images/Tutori2.jpg"> <img border="0" src="images/Tutori3.jpg"><br>
+The root of the zip
+file&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+The Meta-inf
+folder&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+the OEBPS folder
+</p>
+
+<p>
+A .epub file contains, at a bare minimum, the following files/folders:
+<ul>
+ <li>mimetype - tells a reader/operating system what's in here</li>
+ <li>META-INF folder - This folder contains, at minimum, the container.xml file, which
+     tells the reader software where in the zip file to find the book.</li>
+ <li>OEBPS folder - Recommended location for the books content. It contains:</li>
+    <ul>
+	   <li>images folder - images go here</li>
+       <li>Content.opf - XML file that lists what's in the zip file</li>
+       <li>toc.ncx - This is the table of Contents</li>
+	   <li>xhtml files - The book's contents are in these</li>
+	   <li>page-template.xpgt - This file isn't really needed, but it makes it
+        look pretty in Adobe Digital Editions</li>
+	</ul>
+</ul>
+
+<p>
+Lets look at each of these in more detail.<br />
+Feel free to extract these files and use them as a template...
+</p>
+
+<p>
+One thing to note before we get started: the filenames are case sensitive.<br />
+This means that if you have a file named &quot;Chapter1.xhtml&quot; and you refer to it as
+&quot;chapter1.xhtml&quot; in the .OPF file or .NCX file, the book will not display properly.
+</p>
+
+<p>
+<b>mimetype</b><br />
+This file is just a plain ASCII text file that contains the line:<br />
+&quot;<b>application/epub+zip</b>&quot; <br />
+The operating system can look at this file to figure out what a .epub
+file is instead of using the file extension.<br />
+This file must be the first file in the zip file, and must not be compressed.
+</p>
+
+<p>
+<b>META-INF</b> Folder<br />
+This contains the container.xml file, which points to the location of the 
+Content.opf file.<br />
+This folder is the same for every e-book, so you should be able to recycle the whole
+folder from the sample file without making changes.
+</p>
+
+<p>
+<b>OEBPS</b> Folder<br />
+Notes on the OEBPS folder:<br />
+This is the folder where the book content is stored. According to the IDPF spec, you don't have to
+put your book content in here, but it is recommended. I've come across at least two readers that won't read
+the book properly if the content isn't in this folder. (If you do put your book content somewhere else, make sure
+that you update container.xml to point to the correct location of the content.opf file.)
+</p>
+
+<p>
+- <b>images</b> Folder<br />
+If you have any images for your eBook, they go in here.
+</p>
+
+<p>
+Note: most reading systems support a variety of images, but according to the OPF
+spec, only PNG must be supported by reading system
+</p>
+
+<p>
+- <b>Content.opf</b><br />
+This file gives a list of all files in the .epub container, defines the order of files,
+and stores meta data (author, genre, publisher, etc.) information.<br />
+Note that this file can be named anything you want to call it, as long as the container.xml
+file mentioned above points to the correct filename.
+</p>
+
+<p>
+<a href="images/contentOPF.png" target="_blank"><img border="0" src="images/contentOPFtn.png"><br>
+(Click to enlarge)</a>
+</p>
+
+<p>
+Lots of stuff in this file. I'll go through each required tag here. Check the specs to see
+more information about optional meta data tags.
+</p>
+
+<p>
+dc:title - Title of the book<br />
+dc:language - Identifies the language used in the book content. The content has to comply
+   with <a href="http://www.ietf.org/rfc/rfc3066.txt">RFC 3066</a>. 
+   <a href="http://www.loc.gov/standards/iso639-2/php/code_list.php">List of language codes</a>.
+   (I'd just copy the language tag from the sample...)<br />
+dc:identifier - This is the book's unique ID. This has to be a unique identifier for every different e-book.
+The spec doesn't give any sort of recommendation for what to use, but an ISBN number would be a good bet.
+I used the name of my web site and the date and time.<br />
+One thing to note, because of how the file interacts with toc.ncx, just modify what's after the &quot;
+uuid:&quot; on this line.
+</p>
+
+<p>
+Next comes the manifest. This is just a listing of the files in the .epub
+container, and their file type.<br />
+Each item is also assigned an item ID that's used in the spine section of content.opf.
+This list does not have to be in any particular order. (But you'll be happier if
+it is. Also, see the section below on the NCX file for more information on the
+id attribute.)
+</p>
+
+<p>
+The spine section lists the reading order of the contents. The spine doesn't have to list every file in
+the manifest, just the reading order. For example, if the manifest lists images, they do not have
+to be listed in the spine, and in fact, can't be. Only content (i.e. the XHTML
+files) can be listed here.
+</p>
+
+<p>
+- <b>toc.ncx</b><br />
+This is the table of contents. This file controls what shows up
+in the left Table of Contents pane in Digital Editions
+</p>
+
+<p>
+<a href="images/NCX.png" target="_blank"><img border="0" src="images/NCXtn.png"><br>
+(Click to enlarge)</a>
+</p>
+
+<p>
+Things you need to change (if you copy and re-use the sample toc.ncx file):</p>
+<ul>
+  <li>Make sure the uid matches what you have in content.opf</li>
+  <li>doctitle: The text inside the text tag is what will show up as the books title in the reader software</li>
+  <li>The navpoint tag.</li>
+</ul>
+
+<p><b>The navPoint tag</b></p>
+<p>Each nav point is a chapter listing, the text is the chapter name, and the
+src is the file it links to.<br>
+If you copy a navpoint tag set to add chapters, make sure to update the id and
+playorder values.</p>
+<p>Let's look at our example file to clarify this:</p>
+<p><font face="Times New Roman">&lt;navPoint id=&quot;chapter01&quot; playOrder=&quot;1&quot;&gt;<br>
+&nbsp;&nbsp;&nbsp;&nbsp; &lt;navLable&gt;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;text&gt;Chapter
+1&lt;/text&gt;<br>
+&nbsp;&nbsp;&nbsp;&nbsp; &lt;/navLable&gt;<br>
+&nbsp;&nbsp;&nbsp;&nbsp; &lt;content src=&quot;chap01.xhtml&quot; /&gt;<br>
+&lt;/navPoint&gt;</font></p>
+<p><font face="Times New Roman">&nbsp;&nbsp;&nbsp; &lt;navPoint <b>id=&quot;chapter01&quot;</b>
+playOrder=&quot;1&quot;&gt;</font></p>
+<p>According to the spec, the id can be anything you want, but it's easier to
+keep track of things if you use the same id you used for that file in the .OPF
+file. Also, some readers won't properly display the Table of Contents if the ID
+doesn't match.</p>
+<p><font face="Times New Roman">&nbsp;&nbsp;&nbsp; &lt;navPoint
+id=&quot;chapter01&quot; <b>playOrder=&quot;1&quot;</b>&gt;</font></p>
+<p>The playOrder values have to be in order. (An item with playorder 1 will be
+before an item with playorder 2, etc.) They also have to be listed in order, and
+can't have any gaps. (You'll get an error if you jump from 1 to 20, etc)</p>
+<p><font face="Times New Roman">&nbsp;&nbsp;&nbsp; &lt;text&gt;Chapter
+1&lt;/text&gt;</font></p>
+<p>The stuff you type inside the text tag is what acutally shows up in the
+reading software's table of contents. This can be any text you want.</p>
+<p><font face="Times New Roman">&nbsp;&nbsp;&nbsp; &lt;content src=&quot;chap01.xhtml&quot;&gt;
+/&gt;</font></p>
+<p>The content tag links the table of contents item to the XHTML file it points
+to. If your id tag and text tag both point to chapter 1, and your content tag
+points to chapter 4, you'll go to chapter 4 when you click the link to chapter 1
+in the table of contents.</p>
+
+<p>
+<b>Notes on the toc.ncx:</b>
+</p>
+
+<p>
+You can't format the contents of the toc.ncx. This file is used by the reading
+software to display the table of contents. Each program will display the
+contents of toc.ncx differently. If you want to present a formatted table of
+contents to the reader, you need to make a XHTML file with the contents
+formatted however you want. (In fact, this is a good idea as there are still
+some ePub reading programs that don't use toc.ncx.)
+</p>
+
+<p>
+&nbsp;
+</p>
+
+<p>
+- <b>page-template.xpgt</b><br />
+This file isn't part of the IDPF spec, but Adobe Digital Editions uses it for formatting
+and setting column settings and whatnot. You don't need this file at all, but your book
+will look nicer in Digital Editions if you include it. Other readers should just ignore it.
+</p>
+
+<p>
+Note: You can use a .css style sheet file to layout styles for your book as well.
+Just make sure to list it in the manifest section of Content.opf<br />
+Also of note here, any styling should be done in a CSS stylesheet, and not in the document.
+</p>
+
+<p>
+- <b>Content .xhtml files</b><br />
+Content files should be XML 1.1 documents<br />
+If you're not familiar with XML, it's basically HTML with closing tags for every element, and several
+style tags are not supported.<br />
+As far as how to put the content, you can have it all in one document with bookmarks at each chapter, or
+each chapter in a separate .xhtml file. The latter looks nicer in most readers.
+</p>
+
+<p>&nbsp;</p>
+
+<h2 align="center">Step 3: Put it in the Container</h2>
+
+<p>
+Now we make the .epub container that all these files go in.
+</p>
+
+<ol>
+  <li>Create an empty .zip file with whatever name you like (See notes below for
+    creating the container in OS X)</li>
+  <li>Copy the mimetype file into the zip file (don't use compression on this file)</li>
+  <li>Copy the rest of the files and folders mentioned above into the zip file *</li>
+  <li>Re-name the .zip extension to .epub</li>
+</ol>
+
+<p>
+* The specification recommends that the books files go in an &quot;OEBPS&quot; folder
+inside the zip file. If you put them in another spot, be sure that container.xml in the META-INF folder points
+to the correct location of the *.opf file.
+</p>
+
+<p>
+The zip file layout should look something like this:
+</p>
+
+<pre>
+- mimetype
+META-INF
+   - container.xml
+OEBPS
+   images
+   - content.opf
+   - toc.ncx
+   - stylesheet.css
+   - content.xhtml
+</pre>
+
+<p>
+You should now be able to open your eBook in Adobe Digital Editions, or any other
+reader that supports the .epub format.
+</p>
+
+<p>One thing to note is that the ePub specification calls the mimetype file to
+be the first file in the container. If you are using a GUI zip program, this is
+done by making a blank zip file, then copying just the mimetype file into the
+zip file, then the rest of the files.<br>
+If you are using a command line zip utility, then you can either add the
+mimetype file first, or if your zip program of choice supports adding multiple
+files/folders at a time, make sure the mimetype file is the first one in the
+list.
+</p>
+
+<p>
+If you want to cheat, download the file below. It's a zip file that has empty chapter pages,
+and the content and toc files pre filled out, so all you have to do is copy and paste your content
+into the empty files, and modify the OPF and NCX files.<br />
+<a href="books/sample2.zip">Blank Sample file</a>
+</p>
+
+<p align="center"><b>Creating the Container in OS X</b>
+</p>
+
+<p>The way the built-in zip support in OS X works makes the process a tad different
+than on Windows or Linux.
+</p>
+
+<ol>
+  <li>Prepare your content like normal</li>
+  <li>Right-click the folder the files are in (ensure they are in their own file
+    first) and click &quot;Compress Folder&quot;</li>
+  <li>Change the &quot;zip&quot; extension to &quot;epub&quot;</li>
+</ol>
+<p>The problem with this method is that the mimetype file isn't necessarily
+added to the zip folder first.<br>
+A user at the mobileread forums has created a script file that will do the
+zipping for you, in the right order. You can get it here: <a href="http://www.mobileread.com/forums/showthread.php?t=55681" target="_blank">http://www.mobileread.com/forums/showthread.php?t=55681</a>
+</p>
+<p><b>Note:</b>
+</p>
+
+<p>I have heard reports of OS X copying metadata files into the container. It's
+not supposed to do that, but if it does you can do through and delete any folder
+or file with a period in front of the name.
+</p>
+
+<p>&nbsp;</p>
+
+<h3 align="center">Checking Your ePub file</h3>
+
+<p>
+  So you've made a sample ePub book, and it won't open, or it opens with an error, or looks funky. What now?
+</p>
+
+<p>
+ epubcheck is a program that will scan your ePub file and display any errors it finds in the book.<br />
+ You can download it <a href="http://code.google.com/p/epubcheck/">here</a> 
+</p>
+
+<p>You can also go to <a href="http://www.threepress.org/document/epub-validate/">threepress's</a> website to have it
+scanned online.
+</p>
+
+<hr>
+
+<h3>
+ Download this Guide
+</h3>
+
+<p><a href="books/ePubTutorial.epub">Download this guide as an ePub file</a>
+</p>
+
+<h3>
+ Comments? Questions?
+</h3>
+
+<p>
+ If you have any comments, notice any bugs, or have any questions on any of the steps
+ here, please e-mail me at: yoda47 (at) jedisaber (dot) com
+</p>
+
+<hr>
+
+<script type="text/javascript"><!--
+google_ad_client = "pub-6329442091957906";
+/* 728x90, created 3/31/09 */
+google_ad_slot = "2637632844";
+google_ad_width = 728;
+google_ad_height = 90;
+//-->
+</script>
+<script type="text/javascript"
+src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script>
+
+</body>
+</html>
