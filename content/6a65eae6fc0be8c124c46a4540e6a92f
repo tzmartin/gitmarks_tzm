@@ -1,0 +1,277 @@
+
+
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+
+
+
+<html>
+<head>
+<title>Tropo - Cloud API for Voice, SMS, and Instant Messaging Services</title>
+
+<meta name="description" content="description"></meta>
+<meta name="keywords" content="keywords"></meta>
+<meta name="robots" content="robots"></meta>
+<META NAME="Slurp" CONTENT="NOYDIR"></META>
+<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+<link rel="icon" href="/favicon.ico" type="image/x-icon">
+
+<link rel="stylesheet" type="text/css" href="/com.voxeo.fluffer.Fluffer/47798/css/tropo-all.css"></link>
+<script type="text/javascript" language="javascript" src="/com.voxeo.fluffer.Fluffer/47798/tropo-all.js"></script>
+<script type="text/javascript" language="javascript" src="/com.voxeo.fluffer.Fluffer/com.voxeo.fluffer.Fluffer.nocache.js"></script>
+
+<script type="text/javascript" language="javascript" src="/includes/js/jquery-1.4.3.min.js"></script>
+<script type='text/javascript' language='javascript' src='/includes/js/swfobject.js'></script>
+
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-119008-7']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+  SyntaxHighlighter.defaults["toolbar"]=false;
+
+</script> 
+
+</head>
+<body>
+<div class="hidden" id="jsessionid">E7DC71CBBEAE085AA1019B89E842669B.node1</div>
+<div class="hidden" id="sectionName">null</div>
+
+<div class="hidden" id="allow_logins_div"></div>
+<div class="hidden" id="show_messaging_div"></div>
+<div class="hidden" id="show_sms_div"></div>
+
+
+
+<div id="root_div">
+
+<center>
+
+<div id="page_container">
+
+
+
+
+
+<div id="content_top">	
+<div class="nav_holder">
+	
+	<a class="tryFree" title="Try it Free" href="/account/register.jsp">Tropo is FREE for development. Try it!</a>
+	
+	<div class="top-link-bar">
+		<div id="nav_top_login"></div>
+	</div>
+	<div class="tropo_logo"><a href="/" title="Tropo home"></a></div>
+	<div class="nav_table">
+	<table width="500" border="0" cellpadding="0" cellspacing="0">
+	<tr>
+		<td width="400" class="nav_top"><div id="nav_top_menu"></div></td>
+	</tr>
+	</table>
+	</div>
+</div>
+</div> <!--contentTop-->
+
+<div id="main_content_hldr">
+<!--  end template_start.jsp -->
+
+<div id="home_teaser">
+	<div class="home_banner_hldr">
+		<div class="video">
+			<embed src="https://blip.tv/play/hrZjgofsTQA" type="application/x-shockwave-flash" width="353" wmode="transparent" bgcolor="#000000" height="290" allowscriptaccess="always" allowfullscreen="true"></embed>
+		</div>
+		
+		<div class="home_banner"></div>
+		<div class="home_pitch">
+			<h2>Add Voice, SMS, Twitter, and IM to Your Applications</h2>
+			<p class="scoop">
+				Tropo is a powerful yet simple API that adds Voice, SMS, Twitter, and IM support to the programming languages you already know. 
+			</p>
+			
+			<p class="join">
+				<a href="/account/register.jsp" class="join-btn" title="Try it for Free">Try It Free!</a>
+			</p>
+			
+			<p class="joinInfo">**Always free for development**</p>	
+		</div>
+	</div>
+</div>
+<table width="975" border="0" cellpadding="0" cellspacing="0">
+<tr>
+	<td valign="top">
+		<div class="main-content">
+			<div class="home_top_row">
+				<div class="right">
+				<h4>Your App.  One API.  Many Uses.</h4>
+				<p>Here's a simple Tropo app that works via voice, SMS, and IM:</p>
+				<div class="code" style="margin: 10px 0 10px 0;">
+				<pre>
+answer();
+say("Yes, Tropo is this easy!");
+hangup();</pre>
+				</div>
+				<div class="demoBox">
+				
+				<h4 class="demoHeading">Call, text, or IM this application!</h4>
+				<div class="contact-method">
+					Phone/SMS: <span class="contact">+1.240.242.7909</span>
+				</div>
+				<div class="contact-method">
+					IM (Jabber/GTalk): <span class="contact">tropo-homepage@tropo.im</span>
+				</div>
+				<div class="contact-method">
+					Skype: <span class="contact"><a href="skype://+99000936 9991429732?call">Skype: +99000936 9991429732</a></span>
+				</div>
+				<div class="contact-method">
+					SIP: <span class="contact"><a href="sip:9991429732@sip.tropo.com">sip:9991429732@sip.tropo.com</a></span>
+				</div>
+				
+				</div>
+	
+				</div>
+				
+				<div class="left">
+					
+					<h4>
+						Why Tropo?
+					</h4>
+					<p class="bullet dollar">
+						<span class="strong">Develop for FREE - Pay when you're ready</span><br/>Tropo is completely free for developers.<br/>
+						Pay when you deploy and only for what you use.
+					</p>
+					<p class="bullet complete">
+						<span class="strong">Feature Complete</span>
+						<br/>Get all the features you want, today.<br/>
+						Speech input, IM, multi-language, and more.
+					</p>
+					<p class="bullet heart">
+						<span class="strong">Amazing Support</span>
+						<br/>Ask us questions 24 hours a day. 
+						Via the web or IRC.
+					</p>
+					<p class="bullet voxeo">
+						<span class="strong">Backed by Voxeo</span>
+						<br/>The worlds largest scalable, real-time app cloud.<br/>
+						Over 200,000 developers and thousands of apps.
+					</p>
+				</div>
+			<br style="clear:left;"/>
+			</div>
+		<br style="clear:left;"/>
+		</div>
+	</td>
+</tr>
+</table>
+
+<!--  begin template_end.jsp -->
+</div>
+<!-- OPTIONAL: include this if you want history support -->
+<iframe src="javascript:''" id="__gwt_historyFrame" tabIndex='-1' style="position:absolute;width:0;height:0;border:0"></iframe>
+<div id="foot">
+	<div class="links">
+	<div class="first" style="width:125px;">
+		<ul>
+			<li><a href="/">Home</a>
+			<li><a href="/how-it-works">How it Works</a>
+			<li><a href="/pricing">Pricing</a>
+			<li><a href="/docs/scripting/faq.htm">FAQs</a>
+		</ul>
+	</div>
+
+	<div class="column">
+		<ul>
+			<li><a href="/applications">Applications</a>
+			<li><a href="/account/update.jsp">Account</a>
+			<li><a href="/hosting">Hosted Files</a>
+			<li><a href="/debugger" target="_blank">Application Debugger</a>
+		</ul>
+	</div>
+
+	<div class="column" style="width:125px;">
+		<ul>
+			<li><a href="/forums">Forums</a>
+			<li><a href="/chat">IRC Chat</a>
+			<li><a href="http://blogs.voxeo.com/tropo">Blog</a>
+			<li><a href="/contact">Contact Us</a>
+		</ul>
+	</div>
+
+	<div class="last">
+		<ul>
+			<li><a href="/docs">Documentation Home</a>
+			<li><a href="/docs/scripting">Scripting Guide</a>
+			<li><a href="/docs/webapi">WebAPI Guide</a>
+		</ul>
+	</div>
+	</div>
+	
+	<div class="info">
+		<p>
+			<img src="/images/logo-sm-footer.png"/>
+		</p>
+		<p>
+			&copy;2010 Tropo.com<br/>
+			Brought to you by <a href="http://www.voxeo.com">Voxeo Corporation</a><br/>
+			<a href="/policies/home.jsp">Terms and Policies</a>
+		</p>
+	</div>
+</div>
+</div> 
+
+</center>
+
+<br/>
+
+</div> 
+
+<script type="text/javascript">
+
+	function isUserAgentIE6() {
+		var parts = navigator.userAgent.match( /.*MSIE\s+(\d)+\..*;.*/ );
+		if ( parts && parts.length >= 2 ) {
+			var majorVersion = parts[1];
+			if ( majorVersion == 6 ) {
+				return true;
+			}
+		}
+		return false;
+	}
+
+	function isUserAgentIE7() {
+		var parts = navigator.userAgent.match( /.*MSIE\s+(\d)+\..*;.*/ );
+		if ( parts && parts.length >= 2 ) {
+			var majorVersion = parts[1];
+			if ( majorVersion == 7 ) {
+				return true;
+			}
+		}
+		return false;
+	}
+
+	function isUserAgentIE() {
+		var parts = navigator.userAgent.match( /.*MSIE\s+(\d)+\..*;.*/ );
+		if ( parts && parts.length >= 2 ) {
+			return true;
+		}
+		return false;
+	}
+	if ( isUserAgentIE6() ) {
+		alert( "Tropo does not support IE6. Please use a newer browser like IE7 or Firefox 3.X." );
+	}
+	
+</script>
+
+</body>
+</html>
+<!--  end template_end.jsp -->
+
+
+
