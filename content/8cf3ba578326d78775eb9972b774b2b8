@@ -1,0 +1,135 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html lang="en-US" xml:lang="en-US" xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <title>Graffletopia</title>
+    <meta content="text/html; charset=utf-8" http-equiv="Content-type" />
+    <meta content="Stencil library for OmniGraffle with hundreds of free, clip-art stencil files" name="description" />
+    <meta content="width=850" name="viewport" />
+    <meta content="IE=7" http-equiv="X-UA-Compatible" />
+    <link href="/opensearch.xml" rel="search" title="iCalShare" type="application/opensearchdescription+xml" />
+    <link href="/stylesheets/application.css?1287857002" media="screen" rel="stylesheet" type="text/css" />
+    <link href="/stylesheets/stencils.css?1287857002" media="screen" rel="stylesheet" type="text/css" />
+    <link href="/stylesheets/iphone.css?1287857002" media="only screen and (max-device-width: 480px)" rel="stylesheet" type="text/css" />
+    <!--[if IE 7]><link href="/stylesheets/ie7.css?1287857002" media="screen" rel="stylesheet" type="text/css" /><![endif]-->
+    <!--[if IE 6]><link href="/stylesheets/ie6.css?1287857002" media="screen" rel="stylesheet" type="text/css" /><![endif]-->
+    <script src="http://ajax.googleapis.com/ajax/libs/prototype/1.6.0.2/prototype.js" type="text/javascript"></script>
+    <script src="/javascripts/application.js?1287856992" type="text/javascript"></script>
+    <link href="http://feeds.feedburner.com/graffletopia" rel="alternate" title="Graffletopia feed" type="application/atom+xml" />
+  </head>
+  <body>
+    <div id="template">
+      <div id="header">
+        <div id="slogan">
+          <img alt="Stencils_for" height="23" src="/images/application/stencils_for.png?1287856992" width="138" />
+          <a href="http://omnigroup.com/applications/OmniGraffle/"><img alt="Omnigraffle" height="23" src="/images/application/omnigraffle.png?1287856992" width="138" /></a>
+        </div>
+        <a href="/"><img alt="OmniGraffle icon" height="64" id="omnigraffle" src="/images/application/omnigraffle_icon.png?1287856992" width="64" /></a>
+        <a href="/"><img alt="Graffletopia logo" height="58" id="graffletopia" src="/images/application/graffletopia.png?1287856992" width="270" /></a>
+      </div>
+      <div id="content">
+        <div id="secondary">
+          <div id="prompt">
+            <a href="/login">Login</a>
+            or
+            <a href="/signup">Sign up</a>
+          </div>
+          <h3>Categories</h3>
+          <ul id="categories">
+          <li><a href="/categories/architecture">Architecture</a></li>
+          <li><a href="/categories/badges">Badges</a></li>
+          <li><a href="/categories/film-and-tv">Film &amp; TV</a></li>
+          <li><a href="/categories/iphone">iPhone</a></li>
+          <li><a href="/categories/macintosh">Macintosh</a></li>
+          <li><a href="/categories/maps">Maps</a></li>
+          <li><a href="/categories/miscellaneous">Miscellaneous</a></li>
+          <li><a href="/categories/networks">Networks</a></li>
+          <li><a href="/categories/programming">Programming</a></li>
+          <li><a href="/categories/science">Science</a></li>
+          <li><a href="/categories/symbols">Symbols</a></li>
+          <li><a href="/categories/user-interface">User Interface</a></li>
+          </ul>
+          <form action="/search/" id="search" method="post">
+            <fieldset>
+              <label for="keywords">Search</label>
+              <input id="keywords" maxlength="255" name="keywords" type="text" />
+              <input class="submit" name="commit" type="submit" value="Go" />
+            </fieldset>
+          </form>
+        </div>
+        <div id="primary">
+          <ul id="navigation">
+            <li><a href="/stencils/top_rated">Top Rated</a></li>
+            <li><a href="/stencils/most_downloads">Most Downloads</a></li>
+            <li><a href="/stencils/makers">Stencil Makers</a></li>
+            <li><a href="/stencils/tags">Tags</a></li>
+            <li><a href="/stencils/new">Add Stencil</a></li>
+            <li><a href="/faq">FAQ</a></li>
+            <li><a href="/about">About</a></li>
+          </ul>
+          
+          <div id="viral">
+            Over 1,000,000 stencils downloaded!
+            <a href="http://del.icio.us/post?url=http://graffletopia.com&amp;title=Stencils%20for%20OmniGraffle">Add to Del.icio.us</a>
+          </div>
+          <div class="stencil">
+            <a href="/stencils/668"><img alt="Audiogear 1.0a" class="thumb" src="/images/previews/668/thumb.png?1292460356" /></a>
+            <h2><a href="/stencils/668">Audiogear 1.0a</a></h2>
+            <p>Here's a stencil I've been using personally for a while for creating an overview of the audiogear I use at a local stage. There's a bunch of common microphones in there, along with rackmounted gear and simplified draw...</p>
+            <div class="meta">
+              December 15
+            </div>
+          </div>
+          <div class="stencil">
+            <a href="/stencils/667"><img alt="Touchscreen Gestures" class="thumb" src="/images/previews/667/thumb.png?1291977422" /></a>
+            <h2><a href="/stencils/667">Touchscreen Gestures</a></h2>
+            <p>
+              A set of simple icons to symbolise most common interaction gestures on touchscreen devices like iPhone, iPad, Android and any other multi-touch devices.
+              Symbols for:
+              
+              Tap, Double Tap, Tap and Hold
+              Pinch In and Out, Ro...
+            </p>
+            <div class="meta">
+              December 9
+            </div>
+          </div>
+          <div class="stencil">
+            <a href="/stencils/665"><img alt="TYPO3 FCE Forms" class="thumb" src="/images/previews/665/thumb.png?1290549878" /></a>
+            <h2><a href="/stencils/665">TYPO3 FCE Forms</a></h2>
+            <p>Elements for designing a FCE Forms for the TYPO3 BackEnd</p>
+            <div class="meta">
+              November 23
+            </div>
+          </div>
+          <div class="stencil">
+            <a href="/stencils/663"><img alt="Method Engineering" class="thumb" src="/images/previews/663/thumb.png?1290113603" /></a>
+            <h2><a href="/stencils/663">Method Engineering</a></h2>
+            <p>The Method Engineering stencil contains the shapes used in the method engineering approach of Utrecht University. For more information about (situational) method engineering check the wiki or search for Method Enginee...</p>
+            <div class="meta">
+              November 18
+            </div>
+          </div>
+          <div class="stencil">
+            <a href="/stencils/662"><img alt="MonotoneIcons" class="thumb" src="/images/previews/662/thumb.png?1289574312" /></a>
+            <h2><a href="/stencils/662">MonotoneIcons</a></h2>
+            <p>Simple Icons</p>
+            <div class="meta">
+              November 12
+            </div>
+          </div>
+          <div class="pagination"><span class="disabled prev_page">&laquo; Previous</span> <span class="current">1</span> <a href="/?page=2" rel="next">2</a> <a href="/?page=3">3</a> <a href="/?page=4">4</a> <a href="/?page=5">5</a> <a href="/?page=6">6</a> <a href="/?page=7">7</a> <a href="/?page=8">8</a> <a href="/?page=9">9</a> <span class="gap">&hellip;</span> <a href="/?page=89">89</a> <a href="/?page=90">90</a> <a href="/?page=2" class="next_page" rel="next">Next &raquo;</a></div>
+        </div>
+        <div id="footer"></div>
+      </div>
+    </div>
+    <script type="text/javascript">
+    var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+    document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+    </script>
+    <script type="text/javascript">
+    var pageTracker = _gat._getTracker("UA-421670-3");
+    pageTracker._initData();
+    pageTracker._trackPageview();
+    </script>
+  </body>
+</html>
