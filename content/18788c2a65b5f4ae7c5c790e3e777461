@@ -1,0 +1,226 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml"><!-- InstanceBegin template="/Templates/dnrmain-template.dwt" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+<!-- InstanceBeginEditable name="Title" -->
+<title>404 Error Page - DNR</title>
+
+<meta name="keywords" content="Air, Land, Water, Missouri River, Education, Pollution, Conservation, Cleanup, Land Reclamation, Mining, Emissions, Laboratory, Air Quality, Water Quality, Regional, Curriculum, Cultural Resources" />
+<meta name="description" content="Department of Natural Resources, environmental assistance, air, land and water quality." />
+
+
+ <!-- InstanceEndEditable -->
+
+<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+
+<style type="text/css" media="screen">
+	@import url("/styles/reset.css");
+	@import url("/styles/960.css");
+	@import url("/styles/core.css");
+	@import url("/styles/dnr.css");
+
+</style>
+
+<link rel="stylesheet" href="/styles/print.css" media="print" />
+
+<!--link to rss news feed-->
+<link rel="alternate" type="application/rss+xml" title="" href="" />
+
+<style type="text/css"></style>
+</head>
+<body>
+<div id="header">
+<div class="container_12" role="banner">
+<div class="hide"><a href="#menu">Skip to navigation</a> </div><!--end hide div-->
+
+  <div id="branding">
+    <h1 class="hide"><a href="/index.html"><em>Missouri Department of Natural Resources</em></a></h1>
+  </div><!--end branding div-->
+  
+  <div id="leadership">Jay Nixon, Governor<br />
+  Kip A. Stetzler, Acting Director</div>
+  
+  <div id="search" role="search">
+    <!-- Google Search Code -->
+    <form action="http://search.mo.gov/search" method="get">
+      <fieldset>
+        <legend><span class="hide">Search</span></legend>
+        <label for="siteQ" class="hide">Search <!--custom - Name of Agency --></label>
+        <input type="text" id="siteQ" name="q" style="width:210px;" />
+		<input type="image" id="btnG" value="Search" src="/img/search.png" alt="Search" />-->
+        <input type="hidden" name="site" value="dnr"/>
+        <input type="hidden" name="output" value="xml_no_dtd"/>
+        <input type="hidden" name="client" value="dnr"/>
+        <input type="hidden" name="num" value="10"/>
+        <input type="hidden" name="proxystylesheet" value="dnr"/>
+      </fieldset>
+    </form>
+  </div> <!--end search div-->
+ </div> <!--end containter_12-->
+</div><!--end header div-->
+
+
+<div id="content" class="container_12">
+  <div id="mainContent" role="main" class="grid_9">
+ <!--   <h2>Not sure what to put here?</h2> -->
+
+    <!-- InstanceBeginEditable name="Body" -->
+    <h3>The Page Cannot Be Found</h3>
+    <p>Sorry you are having difficulty finding a page that may have been online   before. </p>
+    <p>If you are trying to reach a fill-in form, we have converted all former Miscrosoft Word fill-in forms to PDF fill-in forms.&nbsp; With that we changed the file names.&nbsp; If you are using a Web address from older correspondence or a bookmark to a form and have reached this page, please use the Forms and Permits link to review all forms on our website.&nbsp; Once you find the updated form please replace your bookmark. </p>
+    <p>Please view our <a href="/directory.htm">Site Directory</a> to find a listing   of the divisions, programs, offices and special topics we have to offer. Please   update your Favorites/Bookmarks once you find what you are looking for.</p>
+    <form method="get" action="http://search.mo.gov/search">
+      <fieldset>
+        <legend>Search DNR </legend>
+        <img alt="Google" src="/shared/google-logo.gif" width="68" height="26" />
+        <input id="site2" tabindex="2" value="dnr" checked="checked" type="radio" name="site" />
+        <label for="site2">site</label>
+        <input id="state2" tabindex="4" value="default_collection" type="radio" name="site" />
+        <label for="state2">state</label>
+        <input accesskey="4" id="searchdnr" tabindex="1" maxlength="256" size="35" name="searchdnr" />
+        <input tabindex="5" value="Search" type="submit" name="btnG" />
+        <input value="dnr" type="hidden" name="client2" />
+        <input value="10" type="hidden" name="num2" />
+        <input value="xml_no_dtd" type="hidden" name="output2" />
+        <input value="dnr" type="hidden" name="proxystylesheet2" />
+      </fieldset>
+    </form>
+    <p>You may contact our <a href="mailto:lorisa.smith@dnr.mo.gov">communications   office</a> if you would like a copy of a newsletter or news release.</p>
+    <p>If you are unable to find what you want, simply use our <a href="/contacts.htm">Contact Us page</a>&nbsp;to send us a note. </p>
+    <!-- InstanceEndEditable --></div>
+
+  <div id="subNav" class="grid_3">
+    <h3>Department Links</h3> 
+<ul>
+  <li><a href="/air.htm">Air Information</a></li>
+  <li><a href="/broadcastlists.htm">Broadcast E-mail Lists</a></li>
+  <li><a href="/boards.htm">Commissions and Boards</a></li>
+  <li><a href="/program-events.htm">Commission Meetings and Events</a></li>
+  <li><a href="/contacts.htm">Contact Us</a></li>
+  <li><a href="/financial.htm">Grants and Loans</a></li>
+  <li><a href="/geology.htm">Land and Geology Information</a></li>
+  <li><a href="/newsrel/news-media.htm">News and Multimedia</a></li>
+  <li><a href="/shared/orgchart.htm">Organizational Chart</a></li>
+  <li><a href="/public-notices.htm">Public Notices-Public Comment</a></li>
+  <li><a href="/concern.htm">Report an Environmental Problem</a></li>
+  <li><a href="/regs/index.html">Rules in Development</a></li>
+  <li><a href="/directory.htm">Site Directory</a></li>
+  <li><a href="/waste.htm">Waste and Recycling</a></li>
+  <li><a href="/water.htm">Water Information</a></li>
+</ul>
+<h2>Contact</h2>
+<p>
+Department of Natural Resources<br />
+P.O. Box 176<br />
+Jefferson City, MO 65102<br />
+800-361-4827<br />
+573-751-3443<br />
+E-mail: <a href="mailto:contact@dnr.mo.gov">contact@dnr.mo.gov</a>
+  </div>
+  <div class="clearfix"></div>
+</div>
+<div id="footer">
+  <div class="container_12" role="contentinfo">
+    <div class="grid_3">
+      <h2>By Division</h2>
+      <ul>
+        <li><a href="/eiera/index.html">EIERA</a></li>
+        <li><a href="/energy/index.html">Energy</a></li>
+        <li><a href= "/env/index.html">Environmental Quality</a></li>
+        <li><a href="/geology/index.html">Geology and Land Survey</a></li>
+        <li><a href="http://mostateparks.com">State Parks and Historic Sites</a></li>
+        <li><a href="/env/wrc/index.html">Water Resources</a></li>
+        <li><a href="/env/swcp/index.html">Soil and Water Conservation</a></li>
+        <li><a href="/aboutus.htm">About Us</a></li>
+      </ul>
+    </div>
+    <div class="grid_3">
+    <h2 class="grid_6">Explore by Topic</h2>     
+      <ul>
+        <li><a href="/env/apcp/asbestos.htm">Asbestos Information</a></li>
+        <li><a href="/env/wpp/dw-index.htm">Drinking Water</a></li>
+        <li><a href="/education/index.html">Education and Interpretation</a></li>
+        <li><a href="/eservices.htm">Online Searchable Databases</a></li>
+        <li><a href="/env/wpp/opcert/oprtrain.htm">Operator Certification</a></li>
+        <li><a href="/regions/regions.htm">Regional Offices</a></li>
+        <li><a href="/energy/renewables/index.html">Renewable Energy</a></li>
+
+      </ul>
+    </div>
+    <div class="grid_3">
+
+     <p>&nbsp;</p>
+     <p>&nbsp;</p>
+  <ul>
+		<li><a href="/shpo/index.html">Historic Preservation</a></li>
+        <li><a href="/newsrel/news-media.htm">News and Multimedia</a></li>
+        <li><a href="/public-notices.htm">Public Notices - Public Comment</a></li>
+        <li><a href="/env/wrc/currentriverobservations.htm">River and Lake Levels</a></li>
+        <li><a href="/sunshinerequests.htm">Sunshine Law Requests</a></li>
+        <li><a href="/waste.htm">Waste and Recycling</a></li>
+		<li><a href="/env/wpp/srf/wastewater-assistance.htm">Wastewater </a></li>
+  </ul>
+  </div>
+
+    <div class="grid_3">
+      <h2>Site Links</h2>
+      <ul>
+        <li><a href="/contacts.htm">Contact Us</a></li>
+        <li><a href="/boards.htm">Boards and Commissions</a></li>          
+        <li><a href="/hr/index.html">Job Opportunities</a></li>
+        <li><a href="/directory.htm">Site Directory</a></li>
+        <li><a href="/air.htm">Air</a></li>
+        <li><a href="/geology.htm">Land and Geology</a></li>
+        <li><a href="/water.htm">Water</a></li>  
+        <li><a href="/help.htm">Help</a></li>  
+      </ul>
+    </div>
+  </div>
+  <!--end container_12-->
+  <div class="clear"></div>
+  <div id="finder">
+    <h2 class="hide">State of Missouri Navigation</h2>
+    <ul>
+      <li><a href="http://mo.gov/privacy-policy/" target="_blank">Privacy Policy</a></li>
+      <li><a href="http://mo.gov/accessibility/" target="_blank">Accessibility</a></li>
+      <li><a href="http://governor.mo.gov/" title="Governor Jay Nixon's website" target="_blank">Governor Jay Nixon</a> </li>
+      <li><a href="http://mo.gov/my-government/state-agencies/" title="Find a State Agency website" target="_blank">State Agencies</a> </li>
+      <li><a href="http://mo.gov/my-government/online-services/" title="Search Missouri.Gov online services" target="_blank">Online Services</a> </li>
+      <li><a href="http://mo.gov" target="_blank" class="mogov"><span class="hide">Mo.Gov</span></a></li>
+    </ul>
+  </div>
+  <!--end finder div-->
+</div>
+
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-11847653-6");
+pageTracker._trackPageview();
+} catch(err) {}</script>
+
+<!--end footer div-->
+
+
+<div id="menu" role="navigation">
+<h2 class="hide">Main Navigation</h2>
+  <ul>
+    <li><a href="/divisions.htm">Programs</a></li>
+    <li><a href="/forms/index.html">Forms and Permits</a></li>
+    <li><a href="/pubs/index.html">Publications</a></li>
+    <li><a href="/assistance/laws-regulations.htm">Laws and Regulations</a></li>
+    <li><a href="/eservices.htm">Online Data</a></li>
+    <li><a href="/calendar/search.do">Calendar of Events</a></li>
+  </ul>
+</div>
+<!--end menu div-->
+
+
+
+</body>
+<!-- InstanceEnd --></html>
