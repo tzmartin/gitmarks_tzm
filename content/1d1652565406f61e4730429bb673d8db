@@ -1,0 +1,760 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+
+<head profile="http://dublincore.org/documents/dcq-html/">
+   <title>Epub Format Construction Guide - HXA7241 - 2007</title>
+
+   <link rel="schema.DC"       href="http://purl.org/dc/elements/1.1/" />
+   <meta name="DC.title"       content="Epub Format Construction Guide" />
+   <meta name="DC.subject"     content="Epub, IDPF, ebook" />
+   <meta name="DC.description" content="A guide for making Epub ebooks/publications, sufficient for most purposes. It requires understanding of XHTML, CSS, XML." />
+   <meta name="DC.type"        content="technical article" />
+   <meta name="DC.type"        content="Text" />
+   <link rel="DC.relation"     href="http://www.hxa.name/" />
+   <meta name="DC.creator"     content="Harrison Ainsworth / HXA7241" />
+   <meta name="DC.publisher"   content="Harrison Ainsworth / HXA7241" />
+   <meta name="DC.rights"      content="Creative Commons BY-SA 3.0 License." />
+   <meta name="DC.date"        content="2007-12-28" />
+   <meta name="DC.date"        content="2010-08-27" />
+   <meta name="DC.format"      content="text/html" />
+   <meta name="DC.format"      content="css1" />
+   <meta name="DC.language"    content="en" />
+   <link rel="DC.identifier"   href="http://www.hxa.name/articles/content/epub-guide_hxa7241_2007.html" />
+
+   <meta name="keywords"       content="Epub, IDPF, ebook" />
+   <meta name="description"    content="A guide for making Epub ebooks/publications, sufficient for most purposes. It requires understanding of XHTML, CSS, XML." />
+   <meta name="document"       content="hxa7241article5" />
+   <meta name="license"        content="Creative Commons by-sa 3.0" />
+
+   <link rel="stylesheet" type="text/css" href="hxa7241-article.css" />
+
+   <script id="hxa7241-js" type="application/x-javascript" src="../../style/hxa7241.js"></script>
+</head>
+
+
+<body>
+<div class="edge" id="header"><div><a href="http://www.hxa.name/articles/">HXA articles</a></div></div>
+
+<div class="paper">
+
+
+<div id="heading">
+   <h1>Epub Format Construction Guide</h1>
+</div>
+
+
+<div id="colophon">
+<h4>Harrison Ainsworth</h4>
+
+   <p id="contact"><a href="http://www.hxa.name/">http://www.hxa.name/</a>
+   <br />hxa7241+articles <i>(&alpha;&tau;)</i> googlemail <i>(d&omicron;&tau;)</i> com</p>
+
+   <p id="timestamp">2010-08-27</p>
+</div>
+
+
+<div id="preface">
+   <div id="summary">
+      <h2>Summary</h2>
+      <p>A guide for making Epub ebooks/publications, sufficient for most purposes. It requires understanding of XHTML, CSS, XML. (1900 words)</p>
+
+      <p>Download an example publication &ndash; this document as Epub: <a href="http://www.hxa.name/articles/content/EpubGuide-hxa7241.epub">http://www.hxa.name/articles/content/EpubGuide-hxa7241.epub</a></p>
+   </div>
+</div>
+
+
+<div id="contents">
+   <h2>Contents</h2>
+   <ul>
+      <li><a href="#introduction">Introduction</a></li>
+      <li><a href="#xhtmldocuments">1: XHTML Documents</a></li>
+      <li><a href="#packageandcontainerfiles">2: Package And Container Files</a>
+         <ul>
+            <li><a href="#mimetype">mimetype</a></li>
+            <li><a href="#containerxml">container.xml</a></li>
+            <li><a href="#contentopf">content.opf</a></li>
+            <li><a href="#tocncx">toc.ncx</a></li>
+         </ul>
+      </li>
+      <li><a href="#adestylesheet">3: ADE stylesheet</a></li>
+      <li><a href="#containerstructure">4: Container Structure</a></li>
+      <li><a href="#specificationslist">Specifications List</a></li>
+   </ul>
+</div>
+
+
+<div id="text">
+
+<div class="section" id="introduction">
+<h2>Introduction</h2>
+
+   <p>This is a guide for making IDPF Epub ebooks/publications. It is mostly an annotated example: this document itself in Epub form.</p>
+   
+   <p>Not all details/variations are mentioned, but enough to obviate need of the specifications for normal use. And it is for making entirely conformant publications.</p>
+
+   <p>Included also is a description of optional extra styling for a particular reader (but still completely conformant).</p>
+
+   <p>You need an understanding of and ability to make XHTML/CSS and XML documents.</p>
+
+   <h3>IDPF</h3>
+
+   <p>&lsquo;Epub&rsquo; is a standard from the <a href="http://www.idpf.org/">International Digital Publishing Forum</a>. It is an arrangement of several other standards (mainly: XHTML, CSS, XML, NCX, DCMI). There are three parts, addressing: content, package metadata, and archive (<a href="#specificationslist">OPS, OPF, and OCF</a>). It is powerful, straightforward, and non-proprietary.</p>
+
+   <h3>Adobe Digital Editions</h3>
+
+   <p>&lsquo;<a href="http://www.adobe.com/products/digitaleditions/">ADE</a>&rsquo; is one of the first readers for Epub publications. It is very conformant with the standard. It can use an optional proprietary publication component: an extra stylesheet to adjust text-column appearance. (That is allowed by the standard.)</p>
+
+   <p>This guide was written using ADE version 1.0.467 .</p>
+</div>
+
+
+<div class="section" id="xhtmldocuments">
+<h2>1: XHTML Documents</h2>
+
+   <p>Make the main content with XHTML, CSS, and images.</p>
+
+   <p><i>Relevant <a href="#specificationslist">specifications: OPS, XHTML, CSS</a>.</i></p>
+
+   <h3>XHTML</h3>
+
+   <p>Use XHTML 1.1, but without the following modules:</p>
+   <ul>
+      <li>Forms</li>
+      <li>Server-side Image Map</li>
+      <li>Intrinsic Events</li>
+      <li>Scripting</li>
+   </ul>
+
+   <p>(XHTML 1.1 difference from XHTML 1 strict:</p>
+   <ul>
+      <li><code>lang</code> attribute not allowed (use <code>xml:lang</code> instead)</li>
+      <li><code>name</code> attribute on <code>a</code> and <code>map</code> elements not allowed (use <code>id</code> instead)</li>
+      <li>ruby annotations are allowed)</li>
+   </ul>
+
+   <p>Include XML declaration and XHTML doctype, at the top:</p>
+   <div class="blockquote">
+<pre><code>&lt;?xml version="1.0" encoding="UTF-8"?&gt;
+&lt;!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" 
+   "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd"&gt;</code></pre>
+   </div>
+
+   <p>and <code>xmlns</code> attribute in <code>html</code>:</p>
+   <div class="blockquote">
+<pre><code>&lt;html xmlns="http://www.w3.org/1999/xhtml"&gt;</code></pre>
+   </div>
+
+   <p>Any unicode character, in UTF-8 or UTF-16, is allowed. But readers may have limited rendering capabilities.</p>
+
+   <p><i>(ADE 1.0 doesn't support: &amp;shy; &amp;ensp; &amp;emsp; &amp;thinsp; &amp;zwnj; &amp;zwj; &amp;lrm; &amp;rlm; &amp;oline; &amp;lceil; &amp;rceil;  &amp;lfloor; &amp;rfloor;)</i></p>
+
+   <h3>CSS</h3>
+
+   <p>A subset of CSS 2.1 is supported. A brief summary is awkward to make. For details, see the <a href="http://www.idpf.org/2007/ops/OPS_2.0_final_spec.html#Section3.0">CSS part of the OPS specification</a>.</p>
+
+   <p>Be simple, and use CSS 1 without the following properties:</p>
+   <ul>
+      <li>background image related:
+         <ul>
+            <li><code>background-image</code></li>
+            <li><code>background-repeat</code></li>
+            <li><code>background-attachment</code></li>
+            <li><code>background-position</code></li>
+            <li><code>background</code></li>
+         </ul>
+      </li>
+      <li><code>word-spacing</code></li>
+      <li><code>letter-spacing</code></li>
+      <li><code>text-transform</code></li>
+      <li><code>list-style-image</code></li>
+   </ul>
+   <p>(There are also a few other minor details unsupported.) And don't use absolute positioning.</p>
+
+   <p>The CSS can be linked from the XHTML <code>head</code>, or put in <code>style</code> in <code>head</code>.</p>
+
+   <p><i>(ADE 1.0 doesn't support:</i></p>
+   <ul>
+      <li><i>pseudo-classes/elements</i></li>
+      <li><i><code>text-align: justify;</code></i></li>
+      <li><i><code>font-variant: small-caps;</code></i></li>
+      <li><i>OPS extras:</i>
+         <ul>
+            <li><i><code>display: oeb-page-head;</code></i></li>
+            <li><i><code>display: oeb-page-foot;</code></i></li>
+            <li><i><code>oeb-column-number: [integer];)</code></i></li>
+         </ul>
+      </li>
+   </ul>
+
+   <h3>Images</h3>
+
+   <p>The XHTML can have images of the following types:</p>
+   <ul>
+      <li><code>image/jpeg</code></li>
+      <li><code>image/png</code></li>
+      <li><code>image/gif</code></li>
+      <li><code>image/svg+xml</code></li>
+   </ul>
+
+   <h3>Fonts</h3>
+
+   <p>Use OpenType fonts. Reference them in the CSS with <code>@font-face</code>, eg.:</p>
+   <div class="blockquote">
+<pre><code>@font-face { font-family: "<span class="highlight">Minion Pro</span>"; src: url(<span class="highlight">MinionPro.otf</span>); }
+@font-face { font-family: "<span class="highlight">Minion Pro</span>"; <span class="highlight">font-style: italic;</span>
+   src: url(<span class="highlight">MinionPro-It.otf</span>); }</code></pre>
+   </div>
+   <p>Other descriptors allowed are: <code>font-variant</code>, <code>font-weight</code>, <code>font-size</code>.</p>
+</div>
+
+
+<div class="section" id="packageandcontainerfiles">
+<h2>2: Package And Container Files</h2>
+
+   <p>Make these four files, according to the following descriptions:</p>
+   <ul>
+      <li><a href="#mimetype"><code>mimetype</code></a></li>
+      <li><a href="#containerxml"><code>container.xml</code></a></li>
+      <li><a href="#contentopf"><code>content.opf</code></a></li>
+      <li><a href="#tocncx"><code>toc.ncx</code></a></li>
+   </ul>
+
+   <h3 id="mimetype">mimetype</h3>
+
+   <div class="blockquote">
+<pre><code>application/epub+zip</code></pre>
+   </div>
+
+   <p>It is ASCII, with no trailing end-of-line.</p>
+
+   <p><a href="#specificationslist"><i>Specification: OCF</i></a></p>
+
+   <h3 id="containerxml">container.xml</h3>
+
+   <div class="blockquote">
+<pre><code>&lt;?xml version="1.0"?&gt;
+&lt;container version="1.0" xmlns="urn:oasis:names:tc:opendocument:xmlns:container"&gt;
+   &lt;rootfiles&gt;
+      &lt;rootfile full-path="<span class="highlight">content.opf</span>"
+      media-type="application/oebps-package+xml"/&gt;
+   &lt;/rootfiles&gt;
+&lt;/container&gt;</code></pre>
+   </div>
+
+   <p>If you rename or put the <code>content.opf</code> file elsewhere than in this guide, change the <code>full-path</code> attribute to match.</p>
+
+   <p><a href="#specificationslist"><i>Specification: OCF</i></a></p>
+
+   <h3 id="contentopf">content.opf</h3>
+
+   <div class="blockquote">
+<pre><code>&lt;?xml version="1.0"?&gt;
+
+&lt;package xmlns="http://www.idpf.org/2007/opf" unique-identifier="dcidid" 
+   version="2.0"&gt;
+
+   &lt;metadata xmlns:dc="http://purl.org/dc/elements/1.1/"
+      xmlns:dcterms="http://purl.org/dc/terms/"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xmlns:opf="http://www.idpf.org/2007/opf"&gt;
+      &lt;dc:title&gt;<span class="highlight">Epub Format Construction Guide</span>&lt;/dc:title&gt;
+      &lt;dc:language xsi:type="dcterms:RFC3066"&gt;<span class="highlight">en</span>&lt;/dc:language&gt;
+      &lt;dc:identifier id="dcidid" opf:scheme="<span class="highlight">URI</span>"&gt;
+         <span class="highlight">http://www.hxa7241.org/articles/content/epup-guide_hxa7241_2007_2.epub</span>
+         &lt;/dc:identifier&gt;
+      <span class="highlight">&lt;dc:subject&gt;Non-fiction, technical article, tutorial, Epub, IDPF, ebook
+         &lt;/dc:subject&gt;</span>
+      <span class="highlight">&lt;dc:description&gt;A guide for making Epub ebooks/publications, sufficient
+         for most purposes. It requires understanding of XHTML, CSS, XML.
+         &lt;/dc:description&gt;</span>
+      <span class="highlight">&lt;dc:relation&gt;http://www.hxa.name/&lt;/dc:relation&gt;</span>
+      <span class="highlight">&lt;dc:creator&gt;Harrison Ainsworth / HXA7241&lt;/dc:creator&gt;</span>
+      <span class="highlight">&lt;dc:publisher&gt;Harrison Ainsworth / HXA7241&lt;/dc:publisher&gt;</span>
+      <span class="highlight">&lt;dc:date xsi:type="dcterms:W3CDTF"&gt;2007-12-28&lt;/dc:date&gt;</span>
+      <span class="highlight">&lt;dc:date xsi:type="dcterms:W3CDTF"&gt;2010-08-27&lt;/dc:date&gt;</span>
+      <span class="highlight">&lt;dc:rights&gt;Creative Commons BY-SA 3.0 License.&lt;/dc:rights&gt;</span>
+   &lt;/metadata&gt;
+
+   &lt;manifest&gt;
+      &lt;item id="ncx"      href="toc.ncx"                 
+         media-type="application/x-dtbncx+xml" /&gt;
+      &lt;item id="<span class="highlight">css</span>"      href="<span class="highlight">EpubGuide.css</span>"           
+         media-type="text/css" /&gt;
+      &lt;item id="<span class="highlight">logo</span>"     href="<span class="highlight">hxa7241-logo.svg</span>"         
+         media-type="image/svg+xml" /&gt;
+      &lt;item id="<span class="highlight">title</span>"    href="<span class="highlight">EpubGuide-title.html</span>"    
+         media-type="application/xhtml+xml" /&gt;
+      &lt;item id="<span class="highlight">contents</span>" href="<span class="highlight">EpubGuide-contents.html</span>" 
+         media-type="application/xhtml+xml" /&gt;
+      &lt;item id="<span class="highlight">intro</span>"    href="<span class="highlight">EpubGuide-intro.html</span>"    
+         media-type="application/xhtml+xml" /&gt;
+      &lt;item id="<span class="highlight">part1</span>"    href="<span class="highlight">EpubGuide-1.html</span>"        
+         media-type="application/xhtml+xml" /&gt;
+      &lt;item id="<span class="highlight">part2</span>"    href="<span class="highlight">EpubGuide-2.html</span>"        
+         media-type="application/xhtml+xml" /&gt;
+      &lt;item id="<span class="highlight">part3</span>"    href="<span class="highlight">EpubGuide-3.html</span>"        
+         media-type="application/xhtml+xml" /&gt;
+      &lt;item id="<span class="highlight">part4</span>"    href="<span class="highlight">EpubGuide-4.html</span>"        
+         media-type="application/xhtml+xml" /&gt;
+      &lt;item id="<span class="highlight">specs</span>"    href="<span class="highlight">EpubGuide-specs.html</span>"    
+         media-type="application/xhtml+xml" /&gt;
+   &lt;/manifest&gt;
+
+   &lt;spine toc="ncx"&gt;
+      &lt;itemref idref="<span class="highlight">title</span>" /&gt;
+      &lt;itemref idref="<span class="highlight">contents</span>" /&gt;
+      &lt;itemref idref="<span class="highlight">intro</span>" /&gt;
+      &lt;itemref idref="<span class="highlight">part1</span>" /&gt;
+      &lt;itemref idref="<span class="highlight">part2</span>" /&gt;
+      &lt;itemref idref="<span class="highlight">part3</span>" /&gt;
+      &lt;itemref idref="<span class="highlight">part4</span>" /&gt;
+      &lt;itemref idref="<span class="highlight">specs</span>" /&gt;
+   &lt;/spine&gt;
+
+   &lt;guide&gt;
+      &lt;reference type="<span class="highlight">title-page</span>" title="<span class="highlight">Title Page</span>"        
+         href="<span class="highlight">EpubGuide-title.html</span>" /&gt;
+      &lt;reference type="<span class="highlight">toc</span>"        title="<span class="highlight">Table of Contents</span>" 
+         href="<span class="highlight">EpubGuide-contents.html</span>" /&gt;
+      &lt;reference type="<span class="highlight">text</span>"       title="<span class="highlight">Text</span>"              
+         href="<span class="highlight">EpubGuide-intro.html</span>" /&gt;
+   &lt;/guide&gt;
+
+&lt;/package&gt;</code></pre>
+   </div>
+
+   <h4>metadata (publication information)</h4>
+
+   <p>Add publication information according to <a href="#specificationslist">DCMI</a> terms. Order is not significant, and duplicates are allowed.</p>
+
+   <p>Required terms:</p>
+   <ul>
+      <li><code>title</code></li>
+      <li><code>language</code> &mdash; use a RFC3066 language code</li>
+      <li><code>identifier</code> &mdash; use a probably unique string: URI or ISBN would be good</li>
+   </ul>
+
+   <p>Optional terms:</p>
+   <ul>
+      <li><code>creator</code></li>
+      <li><code>contributor</code></li>
+      <li><code>publisher</code></li>
+      <li><code>subject</code></li>
+      <li><code>description</code></li>
+      <li><code>date</code></li>
+      <li><code>type</code></li>
+      <li><code>format</code></li>
+      <li><code>source</code></li>
+      <li><code>relation</code></li>
+      <li><code>coverage</code></li>
+      <li><code>rights</code></li>
+   </ul>
+
+   <p>Some terms have optional attributes:</p>
+   <ul>
+      <li><code>creator, contributor</code>
+         <ul>
+            <li><code>opf:role</code> &mdash; see <a href="http://www.loc.gov/marc/relators/">http://www.loc.gov/marc/relators/</a> for values</li>
+         </ul>
+      </li>
+      <li><code>date</code>
+         <ul>
+            <li><code>opf:event</code> &mdash; unstandardised: use something reasonable</li>
+         </ul>
+      </li>
+      <li><code>identifier</code>
+         <ul>
+            <li><code>opf:scheme</code> &mdash; unstandardised: use something reasonable</li>
+         </ul>
+      </li>
+      <li><code>date, format, identifier, language, type</code>
+         <ul>
+            <li><code>xsi:type</code> &mdash; use an appropriate standard term (such as <code>W3CDTF</code> for <code>date</code>)</li>
+         </ul>
+      </li>
+      <li><code>contributor, coverage, creator, description, publisher, relation, rights, source, subject, title</code>
+         <ul>
+            <li><code>xml:lang</code> &mdash; use RFC-3066 format</li>
+         </ul>
+      </li>
+   </ul>
+
+   <h4>manifest (document file list)</h4>
+
+   <p>List every file that is part of the publication. But not: <code>mimetype</code>, <code>container.xml</code>, <code>content.opf</code> . The order is not significant.</p>
+
+   <p>Give correct mime-type in <code>media-type</code> attribute. <code>id</code>s are required and must be unique in the <code>content.opf</code> file.</p>
+
+   <h4>spine (reading order definition)</h4>
+
+   <p>List all XHTML documents in manifest (using the <code>idref</code>), and not anything else, and with no duplicates. The order is significant. (XHTML documents can be omitted, but then they must not be linked, referenced or reachable from any part of the publication.)</p>
+
+   <h4>guide (main parts of document)</h4>
+
+   <p>This section is optional.</p>
+
+   <p>Each item references a document file, and can have a fragment id. Allowed <code>type</code>s are:</p>
+
+   <ul>
+      <li>cover</li>
+      <li>title-page</li>
+      <li>toc (table of contents)</li>
+      <li>index</li>
+      <li>glossary</li>
+      <li>acknowledgements</li>
+      <li>bibliography</li>
+      <li>colophon</li>
+      <li>copyright-page</li>
+      <li>dedication</li>
+      <li>epigraph</li>
+      <li>foreword</li>
+      <li>loi (list of illustrations)</li>
+      <li>lot (list of tables)</li>
+      <li>notes</li>
+      <li>preface</li>
+      <li>text</li>
+      <li><p>other.[...]</p></li>
+   </ul>
+
+   <p><a href="#specificationslist"><i>Specifications: OPF, DCMI</i></a></p>
+
+   <h3 id="tocncx">toc.ncx</h3>
+
+   <div class="blockquote">
+<pre><code>&lt;?xml version="1.0"?&gt;
+&lt;!DOCTYPE ncx PUBLIC "-//NISO//DTD ncx 2005-1//EN" 
+   "http://www.daisy.org/z3986/2005/ncx-2005-1.dtd"&gt;
+
+&lt;ncx xmlns="http://www.daisy.org/z3986/2005/ncx/" version="2005-1"&gt;
+
+   &lt;head&gt;
+      &lt;meta name="dtb:uid" content="<span class="highlight">http://www.hxa7241.org/articles/content/epup-guide_hxa7241_2007_2.epub</span>"/&gt;
+      &lt;meta name="dtb:depth" content="<span class="highlight">2</span>"/&gt;
+      &lt;meta name="dtb:totalPageCount" content="0"/&gt;
+      &lt;meta name="dtb:maxPageNumber" content="0"/&gt;
+   &lt;/head&gt;
+
+   &lt;docTitle&gt;
+      &lt;text&gt;<span class="highlight">Epub Format Construction Guide</span>&lt;/text&gt;
+   &lt;/docTitle&gt;
+
+   &lt;navMap&gt;
+      &lt;navPoint id="<span class="highlight">navPoint-1</span>" playOrder="<span class="highlight">1</span>"&gt;
+         &lt;navLabel&gt;
+            &lt;text&gt;<span class="highlight">Title Page</span>&lt;/text&gt;
+         &lt;/navLabel&gt;
+         &lt;content src="<span class="highlight">EpubGuide-title.html</span>"/&gt;
+      &lt;/navPoint&gt;
+      &lt;navPoint id="<span class="highlight">navPoint-2</span>" playOrder="<span class="highlight">2</span>"&gt;
+         &lt;navLabel&gt;
+            &lt;text&gt;<span class="highlight">Table of Contents</span>&lt;/text&gt;
+         &lt;/navLabel&gt;
+         &lt;content src="<span class="highlight">EpubGuide-contents.html</span>"/&gt;
+      &lt;/navPoint&gt;
+      &lt;navPoint id="<span class="highlight">navPoint-3</span>" playOrder="<span class="highlight">3</span>"&gt;
+         &lt;navLabel&gt;
+            &lt;text&gt;<span class="highlight">Introduction</span>&lt;/text&gt;
+         &lt;/navLabel&gt;
+         &lt;content src="<span class="highlight">EpubGuide-intro.html</span>"/&gt;
+      &lt;/navPoint&gt;
+      &lt;navPoint id="<span class="highlight">navPoint-4</span>" playOrder="<span class="highlight">4</span>"&gt;
+         &lt;navLabel&gt;
+            &lt;text&gt;<span class="highlight">1: XHTML Documents</span>&lt;/text&gt;
+         &lt;/navLabel&gt;
+         &lt;content src="<span class="highlight">EpubGuide-1.html</span>"/&gt;
+      &lt;/navPoint&gt;
+      &lt;navPoint id="<span class="highlight">navPoint-5</span>" playOrder="<span class="highlight">5</span>"&gt;
+         &lt;navLabel&gt;
+            &lt;text&gt;<span class="highlight">2: Package And Container Files</span>&lt;/text&gt;
+         &lt;/navLabel&gt;
+         &lt;content src="<span class="highlight">EpubGuide-2.html</span>"/&gt;
+         &lt;navPoint id="<span class="highlight">navPoint-6</span>" playOrder="<span class="highlight">6</span>"&gt;
+            &lt;navLabel&gt;
+               &lt;text&gt;<span class="highlight">mimetype</span>&lt;/text&gt;
+            &lt;/navLabel&gt;
+            &lt;content src="<span class="highlight">EpubGuide-2.html#mimetype</span>"/&gt;
+         &lt;/navPoint&gt;
+         &lt;navPoint id="<span class="highlight">navPoint-7</span>" playOrder="<span class="highlight">7</span>"&gt;
+            &lt;navLabel&gt;
+               &lt;text&gt;<span class="highlight">container.xml</span>&lt;/text&gt;
+            &lt;/navLabel&gt;
+            &lt;content src="<span class="highlight">EpubGuide-2.html#containerxml</span>"/&gt;
+         &lt;/navPoint&gt;
+         &lt;navPoint id="<span class="highlight">navPoint-8</span>" playOrder="<span class="highlight">8</span>"&gt;
+            &lt;navLabel&gt;
+               &lt;text&gt;<span class="highlight">content.opf</span>&lt;/text&gt;
+            &lt;/navLabel&gt;
+            &lt;content src="<span class="highlight">EpubGuide-2.html#contentopf</span>"/&gt;
+         &lt;/navPoint&gt;
+         &lt;navPoint id="<span class="highlight">navPoint-9</span>" playOrder="<span class="highlight">9</span>"&gt;
+            &lt;navLabel&gt;
+               &lt;text&gt;<span class="highlight">toc.ncx</span>&lt;/text&gt;
+            &lt;/navLabel&gt;
+            &lt;content src="<span class="highlight">EpubGuide-2.html#tocncx</span>"/&gt;
+         &lt;/navPoint&gt;
+      &lt;/navPoint&gt;
+      &lt;navPoint id="<span class="highlight">navPoint-10</span>" playOrder="<span class="highlight">10</span>"&gt;
+         &lt;navLabel&gt;
+            &lt;text&gt;<span class="highlight">3: ADE stylesheet</span>&lt;/text&gt;
+         &lt;/navLabel&gt;
+         &lt;content src="<span class="highlight">EpubGuide-3.html</span>"/&gt;
+      &lt;/navPoint&gt;
+      &lt;navPoint id="<span class="highlight">navPoint-11</span>" playOrder="<span class="highlight">11</span>"&gt;
+         &lt;navLabel&gt;
+            &lt;text&gt;<span class="highlight">4: Container Structure</span>&lt;/text&gt;
+         &lt;/navLabel&gt;
+         &lt;content src="<span class="highlight">EpubGuide-4.html</span>"/&gt;
+      &lt;/navPoint&gt;
+      &lt;navPoint id="<span class="highlight">navPoint-12</span>" playOrder="<span class="highlight">12</span>"&gt;
+         &lt;navLabel&gt;
+            &lt;text&gt;<span class="highlight">Specifications List</span>&lt;/text&gt;
+         &lt;/navLabel&gt;
+         &lt;content src="<span class="highlight">EpubGuide-specs.html</span>"/&gt;
+      &lt;/navPoint&gt;
+   &lt;/navMap&gt;
+
+&lt;/ncx&gt;</code></pre>
+   </div>
+
+   <h4>head</h4>
+
+   <p>Set the following <code>meta</code> <code>content</code> attributes:</p>
+   <ul>
+      <li><code>uid</code> &mdash; to the unique identifier in <code>content.opf</code></li>
+      <li><code>depth</code> &mdash; to the depth of the contents tree (in <code>navMap</code>), integer, >= <code>1</code></li>
+      <li><code>totalPageCount</code> &mdash; to <code>0</code></li>
+      <li><code>maxPageNumber</code> &mdash; to <code>0</code></li>
+   </ul>
+
+   <h4>navMap</h4>
+
+   <p>Make a table of contents, optionally hierarchical. (<code>navMap</code> doesn't need to include all XHTML files, since the <code>content.opf</code> spine does.)</p>
+
+   <h4>navPoint</h4>
+
+   <p>Set both attributes:</p>
+   <ul>
+      <li><code>id</code> &mdash; to be unique in file</li>
+      <li><code>playOrder</code> &mdash; to an integer, ordered in <code>navMap</code>, starting at <code>1</code></li>
+   </ul>
+
+   <p>Set sub-parts:</p>
+   <ul>
+      <li>the content of <code>text</code> in <code>navLabel</code></li>
+      <li>the <code>src</code> attribute in <code>content</code> &mdash; to a URI of one of the XHTML files (fragment id allowed)</li>
+   </ul>
+
+   <p><code>navPoint</code>s nested in <code>navPoint</code>s are allowed.</p>
+
+   <p><i>(The Sony Reader, and perhaps others, have an extra restriction: fragment ids (in <code>src</code> attributes of <code>content</code>s.) are not allowed in top-level (non-nested) <code>navPoint</code>s.)</i></p>
+
+   <p><a href="#specificationslist"><i>Specification: NCX</i></a></p>
+</div>
+
+
+<div class="section" id="adestylesheet">
+<h2>3: ADE stylesheet</h2>
+
+   <p>Optionally, make this file if you want extra control of column appearance with ADE 1.0:</p>
+   <ul>
+      <li><code>page-template.xpgt</code></li>
+   </ul>
+
+   <p>Add a link in the head of XHTML files to be styled:</p>
+   <div class="blockquote">
+<pre><code>&lt;link rel="stylesheet" type="application/vnd.adobe-page-template+xml" 
+   href="<span class="highlight">page-template.xpgt</span>"/&gt;</code></pre>
+   </div>
+
+   <p><i>Will the publication then be non-conformant? Non-standard files can be included (like fonts), but must have proper fallback handling. The standard implies that all fallback behaviour is explicitly standardised (in IDPF or component standards). For stylesheets, HTML rules say readers should ignore unrecognized types. And that would very likely happen. So it seems conformant, and safe.</i></p>
+
+   <h3>page-template.xpgt</h3>
+
+   <div class="blockquote">
+<pre><code>&lt;ade:template xmlns="http://www.w3.org/1999/xhtml" 
+   xmlns:ade="http://ns.adobe.com/2006/ade" 
+   xmlns:fo="http://www.w3.org/1999/XSL/Format"&gt;
+
+   &lt;fo:layout-master-set&gt;
+      &lt;fo:simple-page-master master-name="single_column" margin-bottom="2em" 
+         margin-top="2em" margin-left="2em" margin-right="2em"&gt;
+         &lt;fo:region-body/&gt;
+      &lt;/fo:simple-page-master&gt;
+
+      &lt;fo:simple-page-master master-name="single_column_head" margin-bottom="2em" 
+         margin-top="2em" margin-left="2em" margin-right="2em"&gt;
+         &lt;fo:region-before extent="8em"/&gt;
+         &lt;fo:region-body margin-top="8em"/&gt;
+      &lt;/fo:simple-page-master&gt;
+
+      &lt;fo:simple-page-master master-name="two_column" margin-bottom="2em" 
+         margin-top="2em" margin-left="2em" margin-right="2em"&gt;
+         &lt;fo:region-body column-count="2" column-gap="3em"/&gt;
+      &lt;/fo:simple-page-master&gt;
+
+      &lt;fo:simple-page-master master-name="two_column_head" margin-bottom="2em" 
+         margin-top="2em" margin-left="2em" margin-right="2em"&gt;
+         &lt;fo:region-before extent="8em"/&gt;
+         &lt;fo:region-body column-count="2" margin-top="8em" column-gap="3em"/&gt;
+      &lt;/fo:simple-page-master&gt;
+
+      &lt;fo:simple-page-master master-name="three_column" margin-bottom="2em" 
+         margin-top="2em" margin-left="2em" margin-right="2em"&gt;
+         &lt;fo:region-body column-count="3" column-gap="3em"/&gt;
+      &lt;/fo:simple-page-master&gt;
+
+      &lt;fo:simple-page-master master-name="three_column_head" margin-bottom="2em" 
+         margin-top="2em" margin-left="2em" margin-right="2em"&gt;
+         &lt;fo:region-before extent="8em"/&gt;
+         &lt;fo:region-body column-count="3" margin-top="8em" column-gap="3em"/&gt;
+      &lt;/fo:simple-page-master&gt;
+
+      &lt;fo:page-sequence-master&gt;
+         &lt;fo:repeatable-page-master-alternatives&gt;
+            &lt;fo:conditional-page-master-reference 
+               master-reference="three_column_head" page-position="first" 
+               ade:min-page-width="80em"/&gt;
+            &lt;fo:conditional-page-master-reference 
+               master-reference="three_column" ade:min-page-width="80em"/&gt;
+            &lt;fo:conditional-page-master-reference 
+               master-reference="two_column_head" page-position="first" 
+               ade:min-page-width="50em"/&gt;
+            &lt;fo:conditional-page-master-reference 
+               master-reference="two_column" ade:min-page-width="50em"/&gt;
+            &lt;fo:conditional-page-master-reference 
+               master-reference="single_column_head" page-position="first"/&gt;
+            &lt;fo:conditional-page-master-reference 
+               master-reference="single_column"/&gt;
+         &lt;/fo:repeatable-page-master-alternatives&gt;
+      &lt;/fo:page-sequence-master&gt;
+   &lt;/fo:layout-master-set&gt;
+
+   &lt;ade:style&gt;
+      &lt;ade:styling-rule selector="<span class="highlight">#header</span>" display="adobe-other-region" 
+         adobe-region="xsl-region-before"/&gt;
+   &lt;/ade:style&gt;
+
+&lt;/ade:template&gt;</code></pre>
+   </div>
+
+   <p>The <code>selector</code> attribute in <code>ade:style</code>/<code>ade:styling-rule</code> refers to a CSS selector. There is more detail at: <a href="http://blogs.adobe.com/digitaleditions/template.html">http://blogs.adobe.com/digitaleditions/template.html</a></p>
+
+   <p><i>Specification: unknown</i></p>
+</div>
+
+
+<div class="section" id="containerstructure">
+<h2>4: Container Structure</h2>
+
+   <p>Arrange all files in the following directory structure:</p>
+   <div class="blockquote">
+<pre><code><span class="highlight">EpubGuide</span>
+   META-INF
+      container.xml
+   mimetype
+   content.opf
+   toc.ncx
+   <span class="highlight">EpubGuide.css</span>
+   <span class="highlight">hxa7241-logo.svg</span>
+   <span class="highlight">EpubGuide-title.html</span>
+   <span class="highlight">EpubGuide-contents.html</span>
+   <span class="highlight">EpubGuide-intro.html</span>
+   <span class="highlight">EpubGuide-1.html</span>
+   <span class="highlight">EpubGuide-2.html</span>
+   <span class="highlight">EpubGuide-3.html</span>
+   <span class="highlight">EpubGuide-4.html</span>
+   <span class="highlight">EpubGuide-specs.html</span></code></pre>
+   </div>
+
+   <p>(<code>META-INF</code> and its contents are special, but all other files can be arranged into any subdirectory structure. All references to them, in the various files, may have to be adjusted though.)</p>
+
+   <p>Then zip them into an archive with Zip. The filename extension should be &lsquo;epub&rsquo;, and the <code>mimetype</code> file must be first (and uncompressed), and extra file attributes must be excluded:</p>
+   <div class="blockquote">
+<pre><code>zip -X0 <span class="highlight">EpubGuide-hxa7241.epub</span> mimetype
+zip -Xur9D <span class="highlight">EpubGuide-hxa7241.epub</span> *</code></pre>
+<!-- sometimes fails to put mimetype file first: -->
+<!--<pre><code>zip -Xr9D <span class="highlight">EpubGuide-hxa7241.epub</span> mimetype *</code></pre>-->
+   </div>
+
+   <p>(Get Zip from: <a href="ftp://ftp.info-zip.org/pub/infozip/">ftp://ftp.info-zip.org/pub/infozip/</a> or <a href="http://www.info-zip.org/Zip.html">http://www.info-zip.org/Zip.html</a> .)</p>
+
+   <p>Other zip programs can probably be used, if they can do the same things.</p>
+
+   <p><i>(The Sony Reader, and perhaps others, have an extra requirement: each HTML file must be &lt; 300KB and &lt; 100KB when zipped.)</i></p>
+
+   <p><a href="#specificationslist"><i>Specification: OCF</i></a></p>
+</div>
+
+
+<div class="section" id="specificationslist">
+<h2>Specifications List</h2>
+
+   <dl>
+      <dt>IDPF</dt>
+         <dd>
+            <a href="http://www.idpf.org/specs.htm">http://www.idpf.org/specs.htm</a>
+            <dl>
+               <dt>Open Publication Structure (OPS) 2.0 v1.0</dt>
+                  <dd><a href="http://www.idpf.org/2007/ops/OPS_2.0_final_spec.html">http://www.idpf.org/2007/ops/OPS_2.0_final_spec.html</a></dd>
+               <dt>Open Packaging Format (OPF) 2.0 v1.0</dt>
+                  <dd><a href="http://www.idpf.org/2007/opf/OPF_2.0_final_spec.html">http://www.idpf.org/2007/opf/OPF_2.0_final_spec.html</a></dd>
+               <dt>OEBPS Container Format (OCF) v1.0</dt>
+                  <dd><a href="http://www.idpf.org/ocf/ocf1.0/download/ocf10.htm">http://www.idpf.org/ocf/ocf1.0/download/ocf10.htm</a></dd>
+            </dl>
+         </dd>
+      <dt>ANSI/NISO Z39.86 - 2005 Specifications for the Digital Talking Book, NCX part (NCX)</dt>
+         <dd><a href="http://www.niso.org/standards/resources/Z39-86-2005.html#NCX">http://www.niso.org/standards/resources/Z39-86-2005.html#NCX</a></dd>
+      <dt>DCMI Metadata Terms 2006-12-18 (DC)</dt>
+         <dd><a href="http://dublincore.org/documents/2006/12/18/dcmi-terms/">http://dublincore.org/documents/2006/12/18/dcmi-terms/</a></dd>
+      <dt>XHTML 1.1</dt>
+         <dd><a href="http://www.w3.org/TR/xhtml11/">http://www.w3.org/TR/xhtml11/</a></dd>
+      <dt>CSS 2.1</dt>
+         <dd><a href="http://www.w3.org/TR/CSS21/">http://www.w3.org/TR/CSS21/</a></dd>
+      <dt>XML 1.0</dt>
+         <dd><a href="http://www.w3.org/TR/xml/">http://www.w3.org/TR/xml/</a></dd>
+   </dl>
+</div>
+
+</div><!--text-->
+
+
+<div id="metadata">
+<h2>Metadata</h2>
+
+   <p><a href="http://www.hxa.name/txon/">(TXON)</a></p>
+
+<pre>DC:`
+   title:`Epub Format Construction Guide`
+   creator:`Harrison Ainsworth`
+
+   date:`2007-12-28`
+   date:`2010-08-27`
+
+   description:`A guide for making Epub ebooks/publications, sufficient for most purposes. It requires understanding of XHTML, CSS, XML.`
+   subject:`Epub, IDPF, ebook`
+
+   language:`en-GB`
+   type:`technical article`
+   relation:`http://www.hxa.name/`
+   identifier:`http://www.hxa.name/articles/content/epub-guide_hxa7241_2007.html`
+   rights:`Creative Commons BY-SA 3.0 License`
+`</pre>
+</div>
+
+
+</div><!--paper-->
+
+<div class="edge" id="footer"><div><a href="http://www.hxa.name/articles/">http://www.hxa.name/articles/</a></div></div>
+
+<script src="http://www.google-analytics.com/urchin.js" type="text/javascript">
+</script>
+<script type="text/javascript">
+_uacct = "UA-596081-1";
+urchinTracker();
+</script>
+
+</body>
+
+</html>
