@@ -1,0 +1,316 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="en-US">
+
+<head profile="http://gmpg.org/xfn/11">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+<title>Phoenix Twitter Desktop | Pyrogenic Media</title>
+
+<meta name="generator" content="WordPress 3.0.1" /> <!-- leave this for stats -->
+
+<link rel="stylesheet" href="http://www.pyrogenicmedia.com/wp-content/themes/BlackPower/BlackPower/style.css" type="text/css" media="screen" />
+<link rel="alternate" type="application/rss+xml" title="Pyrogenic Media RSS Feed" href="http://www.pyrogenicmedia.com/feed/" />
+<link rel="pingback" href="http://www.pyrogenicmedia.com/xmlrpc.php" />
+<!--[if IE]>
+<link rel="stylesheet" href="http://www.pyrogenicmedia.com/wp-content/themes/BlackPower/BlackPower/style-ie.css" type="text/css" media="screen" />
+<script type="text/javascript">
+	var png_blank = "http://www.pyrogenicmedia.com/wp-content/themes/BlackPower/BlackPower/images/transparent.gif";
+</script>
+<![endif]-->
+
+	<!-- Main Menu -->
+	<script type="text/javascript" src="http://www.pyrogenicmedia.com/wp-content/themes/BlackPower/BlackPower/js/jquery.min.1.2.6.js"></script>
+	<script type="text/javascript" src="http://www.pyrogenicmedia.com/wp-content/themes/BlackPower/BlackPower/js/jqueryslidemenu/jqueryslidemenu.js"></script>
+	<!-- /Main Menu -->
+	<script type="text/javascript" src="http://www.pyrogenicmedia.com/wp-content/themes/BlackPower/BlackPower/js/carousel/stepcarousel.js"></script>
+	<script type="text/javascript">
+	
+	stepcarousel.setup({
+		galleryid: 'board_carusel', //id of carousel DIV
+		beltclass: 'belt', //class of inner "belt" DIV containing all the panel DIVs
+		panelclass: 'board_item', //class of panel DIVs each holding content
+		autostep: {enable:true, moveby:1, pause:0},
+		panelbehavior: {speed:500, wraparound:false, persist:false},
+		defaultbuttons: {enable: false, moveby: 1, leftnav: ['http://i34.tinypic.com/317e0s5.gif', -5, 80], rightnav: ['http://i38.tinypic.com/33o7di8.gif', -20, 80]},
+		statusvars: ['statusA', 'statusB', 'statusC'], //register 3 variables that contain current panel (start), current panel (last), and total panels
+		contenttype: ['inline'] //content setting ['inline'] or ['external', 'path_to_external_file']
+	})
+	
+	</script>
+
+
+<link rel='stylesheet' id='contact-form-7-css'  href='http://www.pyrogenicmedia.com/wp-content/plugins/contact-form-7/styles.css?ver=2.4.1' type='text/css' media='all' />
+<link rel='stylesheet' id='sociable-front-css-css'  href='http://www.pyrogenicmedia.com/wp-content/plugins/sociable/sociable.css?ver=3.0.1' type='text/css' media='all' />
+<script type='text/javascript' src='http://www.pyrogenicmedia.com/wp-includes/js/jquery/jquery.js?ver=1.4.2'></script>
+<script type='text/javascript' src='http://www.pyrogenicmedia.com/wp-includes/js/hoverIntent.js?ver=3.0.1'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var cl_settings = {
+	name: "author",
+	url: "url",
+	comment: "comment",
+	email: "email",
+	prepend: "",
+	badge: "http://www.pyrogenicmedia.com/wp-content/plugins/commentluv/images/CL91_White.gif",
+	show_text: "CommentLuv Enabled",
+	badge_text: "",
+	heart_tip: "on",
+	default_on: "checked",
+	select_text: "choose a different post to show",
+	cl_version: "281.2",
+	images: "http://www.pyrogenicmedia.com/wp-content/plugins/commentluv/images/",
+	api_url: "http://api.comluv.com/cl_api/commentluvapi.php",
+	refer: "http://www.pyrogenicmedia.com/marketing-software/phoenix-twitter-desktop/",
+	infoback: "white",
+	usetemplate: ""
+};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://www.pyrogenicmedia.com/wp-content/plugins/commentluv/js/commentluv.js?ver=3.0.1'></script>
+<script type='text/javascript' src='http://www.pyrogenicmedia.com/wp-includes/js/comment-reply.js?ver=20090102'></script>
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://www.pyrogenicmedia.com/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://www.pyrogenicmedia.com/wp-includes/wlwmanifest.xml" /> 
+<link rel='index' title='Pyrogenic Media' href='http://www.pyrogenicmedia.com/' />
+<link rel='up' title='Marketing Software' href='http://www.pyrogenicmedia.com/marketing-software/' />
+<link rel='prev' title='Firebird Email Manager' href='http://www.pyrogenicmedia.com/depreciated/firebird-email-manager/' />
+<link rel='next' title='About' href='http://www.pyrogenicmedia.com/about/' />
+<meta name="generator" content="WordPress 3.0.1" />
+<link rel='canonical' href='http://www.pyrogenicmedia.com/marketing-software/phoenix-twitter-desktop/' />
+<link rel="stylesheet" href="http://www.pyrogenicmedia.com/wp-content/plugins/commentluv/style/cl_style.css" type="text/css" /><script type="text/javascript">
+//<![CDATA[
+var _wpcf7 = { cached: 1 };
+//]]>
+</script>
+<link rel="stylesheet" href="http://www.pyrogenicmedia.com/d2f7e88b9b7b2cb0f74ecdaf6a0cd042.css?t=1956325570" type="text/css" media="screen" />
+<!-- platinum seo pack 1.3.3 -->
+<meta name="robots" content="index,follow,noodp,noydir" />
+<meta name="description" content="Phoenix Twitter Desktop is a continuation of my project formally know as just Twitter Friend Adder. Essentially it has the exact same function, but many added features and many things to come. If you have ever used my Twitter Friend Adder then i recommend you download this immediately as it is a continuation of that." />
+<link rel="canonical" href="http://www.pyrogenicmedia.com/marketing-software/phoenix-twitter-desktop/" />
+<!-- /platinum one seo pack -->
+<link rel="stylesheet" type="text/css" media="screen" href="http://www.pyrogenicmedia.com/wp-content/plugins/wordtwit/css/style.css" />
+<link rel="stylesheet" href="http://www.pyrogenicmedia.com/wp-content/plugins/wp-syntax/wp-syntax.css" type="text/css" media="screen" />
+<!-- Wordpress Popular Posts v2.1.4 -->
+<script type="text/javascript" charset="utf-8">
+    /* <![CDATA[ */				
+	jQuery.post('http://www.pyrogenicmedia.com/wp-admin/admin-ajax.php', {action: 'wpp_update', token: '7929c153da', id: 130});
+    /* ]]> */
+</script>
+<!-- End Wordpress Popular Posts v2.1.4 -->
+            
+<!-- Wordpress Popular Posts v2.1.4 -->
+<link rel="stylesheet" href="http://www.pyrogenicmedia.com/wp-content/plugins/wordpress-popular-posts/style/wpp.css" type="text/css" media="screen" />
+<!-- End Wordpress Popular Posts v2.1.4 -->
+</head>
+
+<body>
+<div id="page">
+
+<div id="logo_twitter">
+	<a href="http://twitter.com/PyrogenicMedia"><img src="http://www.pyrogenicmedia.com/wp-content/themes/BlackPower/BlackPower/images/button_twitter.png" alt="" /></a>
+</div>
+<div id="menu">
+	<div id="mainmenu">
+		<ul>
+			<li class="first "><a href="http://www.pyrogenicmedia.com/">Home</a></li>
+			<li class="page_item page-item-161"><a href="http://www.pyrogenicmedia.com/about/" title="About">About</a></li>
+<li class="page_item page-item-686"><a href="http://www.pyrogenicmedia.com/contact/" title="Contact">Contact</a></li>
+<li class="page_item page-item-687 current_page_ancestor current_page_parent"><a href="http://www.pyrogenicmedia.com/marketing-software/" title="Marketing Software">Marketing Software</a>
+<ul class='children'>
+	<li class="page_item page-item-370"><a href="http://www.pyrogenicmedia.com/marketing-software/sponsored-tweeters-finder/" title="Sponsored Tweeters Finder">Sponsored Tweeters Finder</a></li>
+	<li class="page_item page-item-444"><a href="http://www.pyrogenicmedia.com/marketing-software/offer-mate/" title="Offer Mate">Offer Mate</a></li>
+	<li class="page_item page-item-130 current_page_item"><a href="http://www.pyrogenicmedia.com/marketing-software/phoenix-twitter-desktop/" title="Phoenix Twitter Desktop">Phoenix Twitter Desktop</a></li>
+</ul>
+</li>
+<li class="page_item page-item-876"><a href="http://www.pyrogenicmedia.com/new-website-wednesday/" title="New Website Wednesday">New Website Wednesday</a></li>
+<li class="page_item page-item-888"><a href="http://www.pyrogenicmedia.com/eiknujomorp-seo-competition/" title="Eiknujomorp">Eiknujomorp</a></li>
+<li class="page_item page-item-362"><a href="http://www.pyrogenicmedia.com/depreciated/" title="Depreciated">Depreciated</a>
+<ul class='children'>
+	<li class="page_item page-item-54"><a href="http://www.pyrogenicmedia.com/depreciated/qs-rewriter/" title="QS Rewriter">QS Rewriter</a></li>
+	<li class="page_item page-item-94"><a href="http://www.pyrogenicmedia.com/depreciated/firebird-email-manager/" title="Firebird Email Manager">Firebird Email Manager</a></li>
+</ul>
+</li>
+		</ul>
+	</div>
+</div>
+<div id="header">
+	<div id="logo"><a href="http://www.pyrogenicmedia.com/">Pyrogenic Media</a><span>Developing 100% Free Marketing Software Since 2009</span></div>
+	<div id="twitter_box">
+		<h2><span>Recent twitter entries...</span></h2>
+		<ul id="twitter_update_list"><li>&nbsp;</li></ul>
+	</div>
+</div>
+
+<div id="board">
+    <div id="main_search">
+        <form method="get" id="searchform_top" action="http://www.pyrogenicmedia.com/">
+            <div>
+                <input type="text" value="Type your search here..." name="s" id="searchform_top_text" onclick="this.value='';" />
+                <input type="image" src="http://www.pyrogenicmedia.com/wp-content/themes/BlackPower/BlackPower/images/button_go.gif" id="gosearch" />
+            </div>
+        </form>
+    </div>
+	<div id="main_rss"><a href="http://feeds.feedburner.com/PyrogenicMedia" title="Rss">Subscribe to RSS Feed :</a></div>
+</div>
+
+<div id="body">
+<div id="body_top">
+
+	<div id="body_left">
+    	<div id="body_left_content">
+	<div id="content" class="narrowcolumn">
+
+				<div class="post-page" id="post-130">
+		<h2 class="page_title">Phoenix Twitter Desktop</h2>
+			<div class="entry entry_page">
+				<div class="tweetmeme_button" style="float: right; margin-left: 10px;"><iframe src="http://api.tweetmeme.com/button.js?url=http%3A%2F%2Fwww.pyrogenicmedia.com%2Fmarketing-software%2Fphoenix-twitter-desktop%2F&amp;source=PyrogenicMedia&amp;style=normal&amp;service=bit.ly&amp;service_api=R_b5b4e279b82883779fe82f741649b815&amp;b=2" height="61" width="50" frameborder="0" scrolling="no"></iframe></div>
+<p>This application no longer functions. Read <a href="http://www.pyrogenicmedia.com/botting-twitter-coming-abrupt/" target="_blank">here</a> and <a href="http://www.pyrogenicmedia.com/oauth-twitter-killed-phoenix-twitter-desktop/" target="_blank">here</a>.</p>
+<p><a href="http://www.pyrogenicmedia.com/wp-content/uploads/2009/08/phoenixtwitterdesktop.JPG"><img class="size-full wp-image-138" title="phoenixtwitterdesktop" src="http://www.pyrogenicmedia.com/wp-content/uploads/2009/08/phoenixtwitterdesktop.JPG" alt="phoenixtwitterdesktop" width="592" height="378" /></a></p>
+<p style="text-align: center;">
+<p><strong>Download : </strong></p>
+<p>No Longer Working. Please read <a href="http://www.pyrogenicmedia.com/botting-twitter-coming-abrupt/" target="_blank">here</a> and <a href="http://www.pyrogenicmedia.com/oauth-twitter-killed-phoenix-twitter-desktop/" target="_blank">here</a>.</p>
+<p><strong>What Does It Do?</strong></p>
+<p>Phoenix Twitter Desktop is a continuation of my project formally know as just &#8220;Twitter Friend Adder&#8221;. Essentially it has the exact same function, but many added features and many things to come. If you have ever used my Twitter Friend Adder then i recommend you download this immediately as it is a continuation of that.</p>
+<p><strong>Features : </strong></p>
+<ul>
+<li>Add friends based on keywords</li>
+<li>Add friends of other users</li>
+<li>Schedule tweets from a txt file on your computer</li>
+<li>So much more to come!</li>
+</ul>
+<p><strong>About The Installer : </strong></p>
+<p>The setup is a simple install file that then downloads the files from the install directory on my server. The application also comes complete with an auto updater. Meaning that whenever you start the application on your computer it will check my server for updates. If there is updates then it will auto download/install and will continue on. I cannot see anything about your computer, nor can i edit the registry or your file system. If you are worried about it, dont download it and save us both the trouble.</p>
+<p>To uninstall just go to add/remove programs and remove it. It will remove all traces of the files <img src='http://www.pyrogenicmedia.com/wp-includes/images/smilies/icon_smile.gif' alt=':)' class='wp-smiley' /> .</p>
+<p><strong>Support : </strong></p>
+<p>You can email me at support [at] pyrogenicmedia.com, But please read the FAQ below first.</p>
+<p><strong>FAQ : </strong></p>
+<p>If you get <strong>ANY</strong> error, make sure you download the latest .net framework from <a href="http://www.microsoft.com/downloads/details.aspx?FamilyId=333325FD-AE52-4E35-B531-508D977D32A6&amp;displaylang=en" target="_blank">HERE</a></p>
+<p><strong>TOS : </strong></p>
+<p style="text-align: left;">When downloading this software you must agree not to package it within any ebook/offer what so ever. You can not offer it as a “bonus” with your ebook. You also can not offer it as an incentive of any kind. Anyone caught doing this will be trolled extensively and have their thread rampaged by me. You can direct people where to download it from, but you must not distribute it yourself. You also cannot upload to any paid uploader, this includes, but is not limited to, uploading.com and <a href="http://www.pyrogenicmedia.com/go/sharecashlink" style=""  rel="nofollow" onmouseover="self.status='http://www.pyrogenicmedia.com/go/sharecashlink';return true;" onmouseout="self.status=''">sharecash</a>.org. Use common sense. Dont try and profit off my work and you will be fine.</p>
+<p style="text-align: left;">If you know of anyone trying to sell this software off as their own, or you have bought a package that included this as a bonus or as a part of the package itself. Send me an email at support[at]pyrogenicmedia.com</p>
+
+<div class="sociable">
+<div class="sociable_tagline">
+<strong>Share and Enjoy:</strong>
+</div>
+<ul>
+	<li class="sociablefirst"><a rel="nofollow"  href="http://www.printfriendly.com/print?url=http%3A%2F%2Fwww.pyrogenicmedia.com%2Fmarketing-software%2Fphoenix-twitter-desktop%2F&amp;partner=sociable" title="Print"><img src="http://www.pyrogenicmedia.com/wp-content/plugins/sociable/images/services-sprite.gif" title="Print" alt="Print" style="width: 16px; height: 16px; background: transparent url(http://www.pyrogenicmedia.com/wp-content/plugins/sociable/images/services-sprite.png) no-repeat; background-position:-343px -37px" class="sociable-hovers" /></a></li>
+	<li><a rel="nofollow"  href="http://digg.com/submit?phase=2&amp;url=http%3A%2F%2Fwww.pyrogenicmedia.com%2Fmarketing-software%2Fphoenix-twitter-desktop%2F&amp;title=Phoenix%20Twitter%20Desktop&amp;bodytext=This%20application%20no%20longer%20functions.%20Read%20here%20and%20here.%0D%0A%0D%0A%0D%0A%0D%0ADownload%20%3A%20%0D%0A%0D%0ANo%20Longer%20Working.%20Please%20read%20here%20and%20here.%0D%0A%0D%0AWhat%20Does%20It%20Do%3F%0D%0A%0D%0APhoenix%20Twitter%20Desktop%20is%20a%20continuation%20of%20my%20project%20formally%20know%20as%20just%20%22Twitter%20Friend%20Adder%22." title="Digg"><img src="http://www.pyrogenicmedia.com/wp-content/plugins/sociable/images/services-sprite.gif" title="Digg" alt="Digg" style="width: 16px; height: 16px; background: transparent url(http://www.pyrogenicmedia.com/wp-content/plugins/sociable/images/services-sprite.png) no-repeat; background-position:-235px -1px" class="sociable-hovers" /></a></li>
+	<li><a rel="nofollow"  href="http://sphinn.com/index.php?c=post&amp;m=submit&amp;link=http%3A%2F%2Fwww.pyrogenicmedia.com%2Fmarketing-software%2Fphoenix-twitter-desktop%2F" title="Sphinn"><img src="http://www.pyrogenicmedia.com/wp-content/plugins/sociable/images/services-sprite.gif" title="Sphinn" alt="Sphinn" style="width: 16px; height: 16px; background: transparent url(http://www.pyrogenicmedia.com/wp-content/plugins/sociable/images/services-sprite.png) no-repeat; background-position:-199px -55px" class="sociable-hovers" /></a></li>
+	<li><a rel="nofollow"  href="http://delicious.com/post?url=http%3A%2F%2Fwww.pyrogenicmedia.com%2Fmarketing-software%2Fphoenix-twitter-desktop%2F&amp;title=Phoenix%20Twitter%20Desktop&amp;notes=This%20application%20no%20longer%20functions.%20Read%20here%20and%20here.%0D%0A%0D%0A%0D%0A%0D%0ADownload%20%3A%20%0D%0A%0D%0ANo%20Longer%20Working.%20Please%20read%20here%20and%20here.%0D%0A%0D%0AWhat%20Does%20It%20Do%3F%0D%0A%0D%0APhoenix%20Twitter%20Desktop%20is%20a%20continuation%20of%20my%20project%20formally%20know%20as%20just%20%22Twitter%20Friend%20Adder%22." title="del.icio.us"><img src="http://www.pyrogenicmedia.com/wp-content/plugins/sociable/images/services-sprite.gif" title="del.icio.us" alt="del.icio.us" style="width: 16px; height: 16px; background: transparent url(http://www.pyrogenicmedia.com/wp-content/plugins/sociable/images/services-sprite.png) no-repeat; background-position:-199px -1px" class="sociable-hovers" /></a></li>
+	<li><a rel="nofollow"  href="http://www.facebook.com/share.php?u=http%3A%2F%2Fwww.pyrogenicmedia.com%2Fmarketing-software%2Fphoenix-twitter-desktop%2F&amp;t=Phoenix%20Twitter%20Desktop" title="Facebook"><img src="http://www.pyrogenicmedia.com/wp-content/plugins/sociable/images/services-sprite.gif" title="Facebook" alt="Facebook" style="width: 16px; height: 16px; background: transparent url(http://www.pyrogenicmedia.com/wp-content/plugins/sociable/images/services-sprite.png) no-repeat; background-position:-343px -1px" class="sociable-hovers" /></a></li>
+	<li><a rel="nofollow"  href="http://www.mixx.com/submit?page_url=http%3A%2F%2Fwww.pyrogenicmedia.com%2Fmarketing-software%2Fphoenix-twitter-desktop%2F&amp;title=Phoenix%20Twitter%20Desktop" title="Mixx"><img src="http://www.pyrogenicmedia.com/wp-content/plugins/sociable/images/services-sprite.gif" title="Mixx" alt="Mixx" style="width: 16px; height: 16px; background: transparent url(http://www.pyrogenicmedia.com/wp-content/plugins/sociable/images/services-sprite.png) no-repeat; background-position:-91px -37px" class="sociable-hovers" /></a></li>
+	<li><a rel="nofollow"  href="http://www.google.com/bookmarks/mark?op=edit&amp;bkmk=http%3A%2F%2Fwww.pyrogenicmedia.com%2Fmarketing-software%2Fphoenix-twitter-desktop%2F&amp;title=Phoenix%20Twitter%20Desktop&amp;annotation=This%20application%20no%20longer%20functions.%20Read%20here%20and%20here.%0D%0A%0D%0A%0D%0A%0D%0ADownload%20%3A%20%0D%0A%0D%0ANo%20Longer%20Working.%20Please%20read%20here%20and%20here.%0D%0A%0D%0AWhat%20Does%20It%20Do%3F%0D%0A%0D%0APhoenix%20Twitter%20Desktop%20is%20a%20continuation%20of%20my%20project%20formally%20know%20as%20just%20%22Twitter%20Friend%20Adder%22." title="Google Bookmarks"><img src="http://www.pyrogenicmedia.com/wp-content/plugins/sociable/images/services-sprite.gif" title="Google Bookmarks" alt="Google Bookmarks" style="width: 16px; height: 16px; background: transparent url(http://www.pyrogenicmedia.com/wp-content/plugins/sociable/images/services-sprite.png) no-repeat; background-position:-91px -19px" class="sociable-hovers" /></a></li>
+	<li><a rel="nofollow"  href="http://www.diigo.com/post?url=http%3A%2F%2Fwww.pyrogenicmedia.com%2Fmarketing-software%2Fphoenix-twitter-desktop%2F&amp;title=Phoenix%20Twitter%20Desktop" title="Diigo"><img src="http://www.pyrogenicmedia.com/wp-content/plugins/sociable/images/services-sprite.gif" title="Diigo" alt="Diigo" style="width: 16px; height: 16px; background: transparent url(http://www.pyrogenicmedia.com/wp-content/plugins/sociable/images/services-sprite.png) no-repeat; background-position:-253px -1px" class="sociable-hovers" /></a></li>
+	<li><a rel="nofollow"  href="http://www.mister-wong.com/addurl/?bm_url=http%3A%2F%2Fwww.pyrogenicmedia.com%2Fmarketing-software%2Fphoenix-twitter-desktop%2F&amp;bm_description=Phoenix%20Twitter%20Desktop&amp;plugin=soc" title="MisterWong"><img src="http://www.pyrogenicmedia.com/wp-content/plugins/sociable/images/services-sprite.gif" title="MisterWong" alt="MisterWong" style="width: 16px; height: 16px; background: transparent url(http://www.pyrogenicmedia.com/wp-content/plugins/sociable/images/services-sprite.png) no-repeat; background-position:-73px -37px" class="sociable-hovers" /></a></li>
+	<li><a rel="nofollow"  href="http://www.myspace.com/Modules/PostTo/Pages/?u=http%3A%2F%2Fwww.pyrogenicmedia.com%2Fmarketing-software%2Fphoenix-twitter-desktop%2F&amp;t=Phoenix%20Twitter%20Desktop" title="MySpace"><img src="http://www.pyrogenicmedia.com/wp-content/plugins/sociable/images/services-sprite.gif" title="MySpace" alt="MySpace" style="width: 16px; height: 16px; background: transparent url(http://www.pyrogenicmedia.com/wp-content/plugins/sociable/images/services-sprite.png) no-repeat; background-position:-145px -37px" class="sociable-hovers" /></a></li>
+	<li><a rel="nofollow"  href="http://www.stumbleupon.com/submit?url=http%3A%2F%2Fwww.pyrogenicmedia.com%2Fmarketing-software%2Fphoenix-twitter-desktop%2F&amp;title=Phoenix%20Twitter%20Desktop" title="StumbleUpon"><img src="http://www.pyrogenicmedia.com/wp-content/plugins/sociable/images/services-sprite.gif" title="StumbleUpon" alt="StumbleUpon" style="width: 16px; height: 16px; background: transparent url(http://www.pyrogenicmedia.com/wp-content/plugins/sociable/images/services-sprite.png) no-repeat; background-position:-217px -55px" class="sociable-hovers" /></a></li>
+	<li class="sociablelast"><a rel="nofollow"  href="http://buzz.yahoo.com/submit/?submitUrl=http%3A%2F%2Fwww.pyrogenicmedia.com%2Fmarketing-software%2Fphoenix-twitter-desktop%2F&amp;submitHeadline=Phoenix%20Twitter%20Desktop&amp;submitSummary=This%20application%20no%20longer%20functions.%20Read%20here%20and%20here.%0D%0A%0D%0A%0D%0A%0D%0ADownload%20%3A%20%0D%0A%0D%0ANo%20Longer%20Working.%20Please%20read%20here%20and%20here.%0D%0A%0D%0AWhat%20Does%20It%20Do%3F%0D%0A%0D%0APhoenix%20Twitter%20Desktop%20is%20a%20continuation%20of%20my%20project%20formally%20know%20as%20just%20%22Twitter%20Friend%20Adder%22.&amp;submitCategory=science&amp;submitAssetType=text" title="Yahoo! Buzz"><img src="http://www.pyrogenicmedia.com/wp-content/plugins/sociable/images/services-sprite.gif" title="Yahoo! Buzz" alt="Yahoo! Buzz" style="width: 16px; height: 16px; background: transparent url(http://www.pyrogenicmedia.com/wp-content/plugins/sociable/images/services-sprite.png) no-repeat; background-position:-127px -73px" class="sociable-hovers" /></a></li>
+</ul>
+</div>
+<div id="twitthis_button" style="float: left; margin-right: 10px;">
+
+    <a href="http://twitthis.com/twit?url=http://www.pyrogenicmedia.com/marketing-software/phoenix-twitter-desktop/&title=Phoenix+Twitter+Desktop" ><img src="http://s3.chuug.com/chuug.twitthis.resources/twitthis_grey_72x22.gif"></a></div>
+				
+							</div>
+		</div>
+			</div>
+
+  </div>
+    </div>
+	<div id="body_right">
+        <div id="sidebar_ads"></div>
+		<div id="sidebars">
+				<div id="sidebar" class="sidebars">
+              <br />
+              <br />
+		<ul>
+		<li id="mcw_feedburner-5" class="widget MCW_FeedBurner"><h3><i>Subscribe</h3></i> <form style="border:1px solid #ccc;padding:3px;text-align:center;" action="http://feedburner.google.com/fb/a/mailverify" method="post" target="popupwindow" onsubmit="window.open('http://feedburner.google.com/fb/a/mailverify?uri=PyrogenicMedia', 'popupwindow', 'scrollbars=yes,width=550,height=520');return true"><p>Enter your email address:</p><p><input type="text" style="width:140px" name="email"/></p><input type="hidden" value="PyrogenicMedia" name="uri"/><input type="hidden" name="loc" value="en_US"/><input type="submit" value="Subscribe" /><p><br /><a href="http://feeds.feedburner.com/PyrogenicMedia"><img src="http://feeds.feedburner.com/~fc/PyrogenicMedia?bg=000000&fg=FFFFFF&anim=1" height="26" width="88" style="border:0" alt="" /></a></p></form></li><!-- Wordpress Popular Posts Plugin v2.1.4 [W] [all] [regular] -->
+<li id="wpp-3" class="widget popular-posts">
+<h3><i>Popular Posts</h3></i><ul>
+<li><a href="http://www.pyrogenicmedia.com/how-to-get-accepted-into-cpalead/" title="How To Get Accepted Into CPALead"><span class="wpp-post-title">How To Get Accepted Into CPALead</span></a> </li>
+<li><a href="http://www.pyrogenicmedia.com/free-cpa-gateway-code/" title="Free CPA Gateway Code"><span class="wpp-post-title">Free CPA Gateway Code</span></a> </li>
+<li><a href="http://www.pyrogenicmedia.com/botting-twitter-coming-abrupt/" title="Botting Twitter Coming To An Abrupt End"><span class="wpp-post-title">Botting Twitter Coming To An Abrupt End</span></a> </li>
+<li><a href="http://www.pyrogenicmedia.com/bye-bye-cpalead/" title="Bye Bye CPALead"><span class="wpp-post-title">Bye Bye CPALead</span></a> </li>
+<li><a href="http://www.pyrogenicmedia.com/cpalead-letting-blackhat-pass-by/" title="CPALead Letting Blackhat Pass By"><span class="wpp-post-title">CPALead Letting Blackhat Pass By</span></a> </li>
+
+</ul>
+</li>
+<!-- End Wordpress Popular Posts Plugin v2.1.4 -->
+<li id="categories-4" class="widget widget_categories"><h3><i>Categories</h3></i>		<ul>
+	<li class="cat-item cat-item-3"><a href="http://www.pyrogenicmedia.com/category/internet-marketing-and-seo/" title="View all posts filed under Internet Marketing And SEO">Internet Marketing And SEO</a>
+</li>
+	<li class="cat-item cat-item-16"><a href="http://www.pyrogenicmedia.com/category/new-website-wednesday/" title="View all posts filed under New Website Wednesday">New Website Wednesday</a>
+</li>
+	<li class="cat-item cat-item-4"><a href="http://www.pyrogenicmedia.com/category/personalthoughtsrants/" title="View all posts filed under Personal/Thoughts/Rants">Personal/Thoughts/Rants</a>
+</li>
+	<li class="cat-item cat-item-5"><a href="http://www.pyrogenicmedia.com/category/pyrogenic-media-software/" title="View all posts filed under Pyrogenic Media Software">Pyrogenic Media Software</a>
+</li>
+		</ul>
+</li>		<li id="recent-posts-4" class="widget widget_recent_entries">		<h3><i>Recent Posts</h3></i>		<ul>
+				<li><a href="http://www.pyrogenicmedia.com/moving-fading/" title="Moving On Or Fading Out">Moving On Or Fading Out</a></li>
+				<li><a href="http://www.pyrogenicmedia.com/fear-upsell-cross-sell/" title="The Fear Of The Upsell And Cross Sell">The Fear Of The Upsell And Cross Sell</a></li>
+				<li><a href="http://www.pyrogenicmedia.com/good-true-vps-servers/" title="Too Good To Be True VPS Servers">Too Good To Be True VPS Servers</a></li>
+				<li><a href="http://www.pyrogenicmedia.com/casino-rig-draw/" title="Did The Casino Rig The Draw?">Did The Casino Rig The Draw?</a></li>
+				<li><a href="http://www.pyrogenicmedia.com/convince-companies-sponsor-contestevent/" title="How To Convince Companies To Sponsor Your Contest/Event">How To Convince Companies To Sponsor Your Contest/Event</a></li>
+				</ul>
+		</li> <script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-3651691-23");
+pageTracker._trackPageview();
+} catch(err) {}</script><li id="mcw_twitter-5" class="widget MCW_Twitter"><h3><i>Pyrogenic Media Twitter</h3></i> <div id="twtr-profile-widget"></div>
+<script src="http://widgets.twimg.com/j/1/widget.js"></script>
+<link href="http://widgets.twimg.com/j/1/widget.css" type="text/css" rel="stylesheet">
+<script>
+new TWTR.Widget({
+  profile: true,
+  id: 'twtr-profile-widget',
+  loop: true,
+  width: 235,
+  height: 300,
+  theme: {
+    shell: {
+      background: '#DDDDDD',
+      color: '#ffffff'
+    },
+    tweets: {
+      background: '#ffffff',
+      color: '#444444',
+      links: '#1985b5'
+    }
+  }
+}).render().setProfile('Pyrogenicmedia').start();
+</script></li>			        </ul>
+	</div>
+
+		</div>
+	</div>
+
+</div>
+</div>
+<div id="footer">
+	<div id="footer_logo"><a href="http://www.pyrogenicmedia.com/">Pyrogenic Media</a></div>
+	<div id="footer_text">
+    	<p>&copy;  Best <a href="http://wordpressthemesforfree.com/" title="wordpress themes">wordpress themes</a> archive.</p>
+    </div>
+</div>
+</div>
+
+	<script type="text/javascript" src="http://twitter.com/javascripts/blogger.js"></script>
+
+	<script type="text/javascript" src="http://twitter.com/statuses/user_timeline/PyrogenicMedia.json?callback=twitterCallback2&count=1"></script>
+
+	<script type='text/javascript' src='http://www.pyrogenicmedia.com/wp-content/plugins/contact-form-7/jquery.form.js?ver=2.47'></script>
+<script type='text/javascript' src='http://www.pyrogenicmedia.com/wp-content/plugins/contact-form-7/scripts.js?ver=2.4.1'></script>
+
+<!--
+TPC! Memory Usage (http://webjawns.com)
+Memory Usage: 4263440Memory Peak Usage: 4463664WP Memory Limit: 64MPHP Memory Limit: 64MCheckpoints: 11-->
+
+</body>
+</html> 
+<!-- Dynamic page generated in 1.217 seconds. -->
+<!-- Cached page generated by WP-Super-Cache on 2010-12-18 18:09:16 -->
