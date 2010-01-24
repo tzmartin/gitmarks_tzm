@@ -39,7 +39,7 @@ jQuery.extend(Drupal.settings, { "basePath": "/", "lightbox2": { "rtl": 0, "file
   <div id="header-region" class="clear-block"><div id="block-block-15" class="clear-block block block-block">
 
 
-  <div class="content"><span style='display: block; color: #463C3C; text-align: center; margin-left: auto; margin-right: auto; font-size: 160%; font-family: garamond,Capitals,serif; text-decoration: none; font-weight: normal !important;'><b>Macworld</b>: Stanza: <em><a href='http://www.macworld.com/article/137793/bestiphoneapps_readerpicks.html'>Our Favorite iPhone Apps: Your turn</a></em></span></div>
+  <div class="content"><span style='display: block; color: #463C3C; text-align: center; margin-left: auto; margin-right: auto; font-size: 160%; font-family: garamond,Capitals,serif; text-decoration: none; font-weight: normal !important;'><b>The New York Times</b>: Stanza: &ldquo;The iPhone or iPod Touch can act as an electronic book reader.&rdquo; <br />&mdash; <em><a href='http://www.nytimes.com/2008/11/13/technology/personaltech/13askk-003.html'>Tip of the Week: Turn Your iPhone Into an e-Book</a></em></span></div>
 </div>
 </div>
 
@@ -1335,7 +1335,7 @@ qacct:"p-3fwFlbUsusaSw"
 </div>    </div>
     <input type="submit" name="op" id="edit-vote" value="Vote"  class="form-submit" />
   </div>
-    <input type="hidden" name="form_build_id" id="form-a3ccd418d540bd677ffb7230a926d6ac" value="form-a3ccd418d540bd677ffb7230a926d6ac"  />
+    <input type="hidden" name="form_build_id" id="form-e5f73b5e6b9137a11bd55bb2ca3564eb" value="form-e5f73b5e6b9137a11bd55bb2ca3564eb"  />
 <input type="hidden" name="form_id" id="edit-poll-view-voting" value="poll_view_voting"  />
 </div>
 
@@ -1362,11 +1362,11 @@ qacct:"p-3fwFlbUsusaSw"
 
   <h2>Random FAQs</h2>
 
-  <div class="content"><div class="item-list"><ul><li class="first"><a href="/faq/pdf_issues">I tried to read a PDF, and it is all messed up!</a></li>
-<li><a href="/node/88">Can Stanza Desktop share with Stanza iPhone if I have my firewall enabled?</a></li>
-<li><a href="/faq/bonjour_error_incompatible">I get an error saying &quot;DNS-SD Error -65551: INCOMPATIBLE&quot; when enabling sharing or launching Stanza Desktop</a></li>
-<li><a href="/faq/integrating_with_lexcycle_catalog">How can I integrate with Lexcycle&#039;s Online Catalog?</a></li>
-<li class="last"><a href="/node/58">Does Stanza run on 64-bit Macintosh?</a></li>
+  <div class="content"><div class="item-list"><ul><li class="first"><a href="/faq/where_to_get_books">Where can I find books to read with Stanza?</a></li>
+<li><a href="/faq/stanza_on_kindle">How do I save content to my Kindle?</a></li>
+<li><a href="/faq/how_to_get_books_onto_stanza_iphone">How do I transfer books from my computer to my iPhone or iPod Touch?</a></li>
+<li><a href="/node/201">Test FAQ</a></li>
+<li class="last"><a href="/faq/change_title_or_author">How do I change the title or author of my book when sharing it with Stanza iPhone?</a></li>
 </ul></div><a href="/faq">All FAQs</a></div>
 </div>
         </div>
