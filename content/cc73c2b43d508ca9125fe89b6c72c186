@@ -1,0 +1,229 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/transitional.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>BISAC Subject Headings, 2010 Edition | Book Industry Study Group</title> 
+
+<meta name="description" content="The BISAC Subject Headings list is a standard used by many companies throughout the supply chain to categorize books based on topical content. The Subject Heading applied to a book can determine where the work is shelved in a brick and mortar store or the genres under which it can be searched for in an internal database."> 
+
+<meta name="keywords" content="bisac subject headings 20010, bisac, subject headings"> 
+
+<meta name="robots" content="index,follow"> 
+
+<link href="/css/main.css" rel="stylesheet" type="text/css">
+<script type="text/javascript" src="/js/preload.js"></script>
+
+<!-- CALENDAR RENDERING -->
+<script type="text/javascript" src="/js/jquery-1.2.6.pack.js"></script>
+<script src="/js/jquery-events.js" type="text/javascript"></script>
+<!-- CALENDAR RENDERING -->
+
+<!-- FONT RENDERING -->
+<script src="/js/font/cufon-yui.js"></script>
+<script src="/js/font/Gotham.font.js"></script>
+<script src="/js/font/Gotham_bold.font.js"></script>
+<script src="/js/font/cufon-replace.js"></script>
+<!--<link rel="stylesheet" href="/css/font/stylesheet.css" type="text/css" charset="utf-8">-->
+<!-- FONT RENDERING --><script type="text/javascript" language="JavaScript" src="/claysite/cart/js/product.js"></script>
+
+<script type="text/javascript" language="JavaScript" src="/claysite/cart/js/photo_display.js"></script>
+</head>
+
+<body class="typeface-js">
+
+<!-- Site Wrap - DO NOT DELETE -->
+<div id="mainWrap" class="typeface-js">
+<!-- Site Wrap - DO NOT DELETE -->
+<script type="text/javascript">
+function searchSite(){
+	document.getElementById('searchForm').submit();
+}; 
+
+sfHover = function() {
+	var sfEls = document.getElementById("nav").getElementsByTagName("LI");
+	for (var i=0; i<sfEls.length; i++) {
+		sfEls[i].onmouseover=function() {
+			this.className+=" sfhover";
+		}
+		sfEls[i].onmouseout=function() {
+			this.className=this.className.replace(new RegExp(" sfhover\\b"), "");
+		}
+	}
+}
+if (window.attachEvent) window.attachEvent("onload", sfHover);
+
+</script>
+<div id="hdr">
+<div id="search">
+   <a href="javascript:searchSite()"><img src="/images/find-btn.gif" alt="find" title="find" align="right" /></a> <form action="/search.php" id="searchForm" name="searchForm"><input name="kw" id="kw" type="text" style="overflow:hidden;" value=""/><img src="/images/bg-search-end.gif" class="endcap" /> </form>
+  </div>
+<a href="/"><img src="/images/logo.gif" width="231" height="103" alt="BISG | Book Industry Study Group" title="BISG | Book Industry Study Group" align="left" /></a>
+
+<a href="/members-area/"><img src="/images/button-members.gif" alt="members" title="members" class="members-button" /></a>
+<div class="hdr-links"><a href="/">HOME</a> <a href="/rss/">RSS FEED</a> <a href="/contact/">CONTACT</a>
+
+   
+</div>
+<div class="icons"><a href="http://twitter.com/BISG" target="_blank"><img src="/images/icon-twitter.gif" height="25" /></a> <a href="/rss/index.php"><img src="/images/icon-rss.gif" height="25" /></a> <!--<a href="#"><img src="/images/icon-flicker.gif" /></a> <a href="#"><img src="/images/icon-dopplr.gif" /></a> <a href="#"><img src="/images/icon-delicious.gif" /></a>--></div>
+</div><div id="navTop">
+ 
+  <!-- -->
+<ul id="nav">
+
+<li><a href="/become-member/book-organization.php" onMouseOut="swapImgRestore()" onMouseOver="swapImage('become','','/images/nav/nav-become-a-member-hover.gif',1)"><img src="/images/nav/nav-become-a-member.gif" alt="Become a Member" name="become" border="0"></a>
+<ul>
+<li><a href="/become-member/book-suppliers.php">Benefits</a></li>
+<li><a href="/directory/">Member Directory</a></li>
+<li><a href="/become-member/testimonials.php">Testimonials</a></li>
+<li class="end"><a href="/become-member/application.php">Application</a></li>
+</ul>
+</li>
+
+<li><a href="/about/book-association.php" onMouseOut="swapImgRestore()" onMouseOver="swapImage('about','','/images/nav/nav-about-us-hover.gif',1)"><img src="/images/nav/nav-about-us.gif" alt="About Us" name="about" border="0"></a>
+<ul>
+<li><a href="/directory/">Member Directory</a></li>
+<li><a href="/about/book-publishing.php">History</a></li>
+<li><a href="/about/board.php">Board of Directors</a></li>
+<li><a href="/about/book-publishing-industry.php">Corporate Documents</a></li>
+<li><a href="/rss/">RSS Feed</a></li>
+<li class="end"><a href="/contact/">Contact Us</a></li>
+</ul>
+</li>
+
+<li><a href="/activities-programs/" onMouseOut="swapImgRestore()" onMouseOver="swapImage('what','','/images/nav/nav-what-we-do-hover.gif',1)"><img src="/images/nav/nav-what-we-do.gif" alt="What We Do" name="what" border="0"></a>
+<ul>
+<li ><a href="/what-we-do-cat-2-standards-best-practices.php">Standards & Best Practices</a></li><li ><a href="/what-we-do-cat-9-benchmarking.php">Benchmarking</a></li><li ><a href="/what-we-do-cat-3-certification.php">Certification</a></li><li class="end"><a href="/what-we-do-cat-4-policy-statements.php">Policy Statements</a></li></ul>
+</li>
+
+<li><a href="/committees/" onMouseOut="swapImgRestore()" onMouseOver="swapImage('committees','','/images/nav/nav-committees-hover.gif',1)"><img src="/images/nav/nav-committees.gif" alt="Committees" name="committees" border="0"></a>
+<ul>
+<li><a href="committee-cat-1-bisg-committees.php">BISG Committees</a></li>
+<li class="end"><a href="committee-cat-2-bisac-committees.php">BISAC Committees</a></li>
+</ul>
+</li>
+
+<li><a href="/publications/category.php?c=437" onMouseOut="swapImgRestore()" onMouseOver="swapImage('publications','','/images/nav/nav-publications-hover.gif',1)"><img src="/images/nav/nav-publications.gif" alt="Publications" name="publications" border="0"></a>
+<ul>
+<li class="end"><a href="/contentweb/">Discussion Papers</a></li>
+</ul>
+</li>
+</li>
+
+<li><a href="/resources/book-resources.php" onMouseOut="swapImgRestore()" onMouseOver="swapImage('resources','','/images/nav/nav-resources-hover.gif',1)"><img src="/images/nav/nav-resources.gif" alt="Resources" name="resources" border="0"></a>
+<ul>
+<li ><a href="/resources-0-20-book-trade-associations.php">Book Trade Associations</a></li><li class="end"><a href="/resources-0-22-research-statistics.php">Research & Statistics</a></li></ul>
+</li>
+
+<li><a href="/events/book-conference.php" onMouseOut="swapImgRestore()" onMouseOver="swapImage('events','','/images/nav/nav-events-hover.gif',1)"><img src="/images/nav/nav-events.gif" alt="Events" name="events" border="0"></a>
+<ul>
+<li ><a href="event-cat-1-committee-meetings.php">Committee Meetings</a></li><li ><a href="event-cat-3-annual-members-meeting.php">Annual Members Meeting</a></li><li ><a href="event-cat-4-making-information-pay.php">Making Information Pay</a></li><li ><a href="event-cat-5-other-industry-events.php">Other Industry Events</a></li><li class="end"><a href="event-cat-6-webcasts.php">Webcasts</a></li></ul>
+</li>
+
+<li><a href="/news/book-industry-news.php" onMouseOut="swapImgRestore()" onMouseOver="swapImage('news','','/images/nav/nav-news-hover.gif',1)"><img src="/images/nav/nav-news.gif" alt="News" name="news" border="0"></a>
+<ul>
+<li ><a href="/news-cat-2-bisg-in-the-news.php">BISG in the news </a></li><li ><a href="/news-cat-5-press-releases.php">Press Releases </a></li><li class="end"><a href="/news-cat-1-bisg-bulletins.php">BISG Bulletins </a></li></ul>
+</li>
+</ul>
+  
+  
+</div><div id="inTitle"><h1>Publications</h1></div>
+<table id="inBody">
+<tr>
+<td id="left">
+
+<div id="subnav">
+<ul>
+<li class='current'><a href='/publications/category.php?c=437'>Publications</a></li></ul>
+</div>
+<a href="/members-area/"><img src="/images/go-to-members-area.gif" alt="Go to Member\'s Area" title="Go to Member\'s Area" /></a></td>
+<td id="middle">
+<div class="middle">
+<div class="backtolist"><a href="javascript: history.go(-1)">< back to list</a></div>
+<div class="content publications-details">
+
+
+<a href="javascript:popPhotos(0)"><img src="/admin/uploads/bisac subject headings 2008 edition cover page_1_medium.jpg" id="pprimary" name="pprimary" alt="click to enlarge" title="click to enlarge" class="pub-details-photo"></a>
+				<input type="hidden" name="pactivephoto" id="pactivephoto" value="0" /><h1>BISAC Subject Headings, 2010 Edition</h1><div class='teaser'>A standard used throughout the supply chain to categorize books based on topical content <small>(&copy; 2010)</small></div><a href="#price" class="jumptoprice">Jump to Pricing</a><div style="clear:both"></div><h4>The BISAC Subject Headings List, also known as the BISAC Subject Codes List, is used to standardize the electronic transfer of subject information between trading partners.</h4>
+<br>
+<b><i><a href="http://www.bisg.org/events-6-613-bisg-webcastthe-new-bisac-subject-headings-list-connecting-books-to-readers.php" target="_blank"><img align="left" hspace="10" src="/images/button-download-archived.jpg"><br><br><br>Click here</a> for more information on the BISG Webcast "The NEW BISAC Subject Headings List: Connecting Books to Readers".</b></i><br><br>
+BISAC Subject Headings can determine where books are shelved in a brick and mortar store or the genre(s) under which they can be searched for in an internal database.
+<br><br>
+BISAC Subject Headings describe the <b>topical content</b> of a book and do not cover non-content-oriented ways of grouping titles (such as "gift books"). Other fields in BISAC communications formats (language, audience, age range, grade range, format/binding/packaging, supplementary format/binding/packaging, merchandising themes) are used to describe a book in ways not covered by the Subject Headings list. Since Merchandising Themes are closely related to Subject Headings, the Themes and codes used in this field are included at the end of the Subject Headings package (along with usage instructions).
+<br><br>
+<i><b>For the first time, the licensed package also includes a mapping between the BIC Subject Categories and BISAC Subject Headings List!</i></b>
+<br><br>
+<h3>Online Access</h3>The complete <a href="/activities-programs/activity.php?n=d&id=73&cid=20">BISAC Subject Headings</a> list is available free online for book-by-book look up.
+<br><br>
+<h3>Database Access</h3>For organizations that would like the versatility and capability of incorporating the BISAC Subject Headings list into their internal systems, BISG offers an End User License, FREE to BISG members. See below.
+<br><br>
+If you ARE NOT a BISG member, you can obtain an annual End User License by ordering below based on your organization's annual revenue.
+<br><br>
+<a href="/docs/BISAC_Subject_Codes_EULA_for_members _final.pdf">End User License Agreement for <b>BISG members</b></a>.
+<br>
+<a href="/docs/BISAC_Subject_Codes_EULA_for_non-members _final.pdf">End User License Agreement for <b>non-members</b></a>.<br><br>
+<i><b>&copy; 2010, the Book Industry Study Group, Inc.</i></b><a name=price></a><table id="PublicationsTable">
+						<tr class='header'>
+							<td colspan='3' class='heading'>*Member Pricing</td>
+		<tr class='row2'>
+			<td class='item'>Member - FREE OF CHARGE</td>
+			<td class='price'><span>$0.00</span></td><td class="buynow"><div class="btngrn"><form action='/publications/basket.php?action=add&c=437' method='POST' name='rcicart'><input type='hidden' name='pid' value='14' />
+			<input type='hidden' name='att_id' value='60' /><input type="submit" name="button" id="button" value="buy now"></form></div></td></tr>
+						</tr>
+					</table><table id="PublicationsTable">
+						<tr class='header'>
+							<td colspan='3' class='heading'>*Non-Member Pricing</td>
+		<tr class='row1'>
+			<td class='item'>Non-member - Small Org - Under $10 million</td>
+			<td class='price'><span>$195.00</span></td><td class="buynow"><div class="btngrn"><form action='/publications/basket.php?action=add&c=437' method='POST' name='rcicart'><input type='hidden' name='pid' value='14' />
+			<input type='hidden' name='att_id' value='61' /><input type="submit" name="button" id="button" value="buy now"></form></div></td></tr>
+		<tr class='row2'>
+			<td class='item'>Non-member - Large Org - $10 million or higher</td>
+			<td class='price'><span>$395.00</span></td><td class="buynow"><div class="btngrn"><form action='/publications/basket.php?action=add&c=437' method='POST' name='rcicart'><input type='hidden' name='pid' value='14' />
+			<input type='hidden' name='att_id' value='62' /><input type="submit" name="button" id="button" value="buy now"></form></div></td></tr>
+						</tr>
+					</table><br><a href="/publications/basket.php?action=addfav&pid=14&rd=prod">Add to Favorites</a><br><br><br><br>
+</div>
+</div>
+</td>
+<td id="right">
+<div class="info">RELATED INFO</div>
+<h4>LATEST IN</h4>
+<h3>News</h3>
+<ul><li class="lighter-bg"><a href="/news-1-597-bisg-bulletin---november-2010.php">BISG Bulletin - November 2010</a></li><li class="darker-bg"><a href="/news-2-598-e-book-buyers-are-buying-more-but-spending-less-says-bisg-study.php">E-Book Buyers are Buying More but Spending Less, says BISG Study</a></li><li class="lighter-bg"><a href="/news-2-600-e-book-buyers-are-buying-more-but-spending-less-says-bisg-study.php">E-Book Buyers are Buying More but Spending Less, says BISG Study </a></li></ul><a href="/news/book-industry-news.php" class="all-link">> view all</a>
+<br><br><br>
+<h3>What We Do</h3>
+<ul><li class="lighter-bg"><a href="/what-we-do-0-145-consumer-attitudes-toward-e-book-reading.php">Consumer Attitudes Toward E-Book Reading</a></li><li class="darker-bg"><a href="/what-we-do-0-144-supply-chain-edi-scedi-sales-reporting-working-group.php">Supply Chain EDI (SCEDI) Sales Reporting Working Group</a></li><li class="lighter-bg"><a href="/what-we-do-20-73-bisac-subject-headings-2010-edition.php">BISAC Subject Headings, 2010 Edition</a></li></ul><a href="/activities-programs/" class="all-link">> view all</a><br><br>
+				<div class="testimonial-feature">
+				<h4>TESTIMONIAL</h4><a href="/become-member/testimonials.php">"My company has found membership in BISG to be indispensable. BISG offers us...</a></div><a href="/become-member/testimonials.php" class="all-link">> view all</a></td>
+</tr>
+</table>
+
+
+<!-- Site Wrap - DO NOT DELETE -->
+</div>
+<!-- Site Wrap - DO NOT DELETE -->
+<div id="ftr">
+<div id="ftrContainer">
+
+<div class="copyright">Book Industry Study Group, Inc. &copy; 2010<br />
+&nbsp;<a href="http://www.redclayinteractive.com/website-design/web-design.php" target="_blank" class="claylink">Website Design by:</a> <a href="http://www.redclayinteractive.com/" target="_blank" class="claylink"> Red Clay Interactive</a></div>
+
+<a href="/sitemap.php">Site Map</a> <a href="/privacy.php">Privacy Policy</a> <a href="/contact/">Contact</a>
+
+</div>
+</div>
+<!--Begin Tracking Code-->
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-6647667-1");
+pageTracker._trackPageview();
+} catch(err) {}</script>
+<!--End Tracking Code-->
+</body>
+
+
+</html>
