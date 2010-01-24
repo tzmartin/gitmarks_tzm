@@ -1,0 +1,279 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-us" lang="en-us">
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" ></meta>    
+    <title>Testing your ePubs with Bookworm : Bookworm ePub reader</title>
+    <meta name="Description" content="Bookworm is the web-based ereader for ePub ebooks. Bookworm was developed by Liza Daly at threepress.org, a project to expand the reach of open source software in academic and trade publishing." />
+    <meta name="Keywords" content="ebook epub ereader bookworm threepress liza daly open source iphone" />
+
+    
+    <link rel="stylesheet" type="text/css" href="/static/base.css"></link>
+    <link rel="stylesheet" type="text/css" media="print" href="/static/print.css"></link>
+    
+      <link rel="stylesheet" type="text/css" href="/orm-media/css/oreilly.css" ></link>
+    
+    <link rel="stylesheet" type="text/css" href="/static/host.css" ></link>
+
+    
+    
+      <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.1/jquery.min.js"></script>
+    
+
+    
+<link rel="stylesheet" type="text/css" href="/static/about.css"></link>
+
+  </head>
+  <body>
+    
+      
+
+    
+    
+
+
+    <!-- Bookworm header -->
+    <div id="bw-header">
+      <div id="bw-header_logo">
+        <h1 class="bw-logo"><a href="/">bookworm </a></h1>
+        <h2 class="bw-motto"><a href="/">Online ePub ebook reading</a></h2>
+      </div>
+      <div id="bw-header_nav">
+        <p>
+          
+          <a href="http://blog.threepress.org">Blog</a>
+          <a href="/about/">About <span class="bw-logo">Bookworm</span></a>
+          <a href="http://threepress.org/about/">About Threepress</a>
+          <a href="/help/">Help</a>
+        </p>
+      </div>
+   </div>
+
+      <div id="bw-upload-box" style="display:none">
+        <form action="/upload/" method="post" enctype="multipart/form-data" name="upload">
+           <h3>Add a book:</h3> <input type="file" name="epub" id="id_epub" />
+          <input type="submit" value="add" name="submit-upload"/>
+          <a class="bw-help" href="/help/">help</a>
+        </form>
+      </div>
+
+    <table id="bw-subheader">
+      <tr>
+        <td width="50%">
+          <h1 class="bw-document_header">For publishers : Testing your ePubs with Bookworm</h1>
+        </td>
+        <td width="50%">
+
+          
+
+          
+            
+              <h3 class="bw-signed-out"><a href="/account/signin/">Sign in</a></h3>
+            
+          
+          
+          
+
+          
+
+          <div id="bw-printheader">
+            
+          </div>
+      </td></tr>
+    </table>
+
+
+    
+
+    <table id="bw-shell-table">
+      <tr><td valign="top" id="bw-shell-left">
+        <div id="bw-leftnav">
+          
+	  <!--
+          
+
+-->
+          
+
+          
+
+
+        </div>
+      </td>
+      <td valign="top" id="bw-shell-table-content">
+        <!-- Content -->
+        <div id="bw-main">
+          
+
+<div id="bw-content" class="bw-generic">
+
+  <p id="bw-about-description">
+    
+    Bookworm isn't just for readers.  Publishers can use it to test their ePub files
+    before distributing them, and to experiment with advanced features such as
+    stylesheets and SVG.    
+    
+  </p>
+  <div id="bw-tour-toc">
+    <a href="#validation">Validate <!-- trans: the ePub against the spec --></a>
+    ~ 
+    <a href="#checklist">Checklist <!-- trans: of things to check when producing an ePub --></a>
+    ~ 
+    <a href="#secure">Security</a>
+  </div>
+  <a name="validation"></a>
+  <h2>Be sure that your ePubs are correct</h2>
+  <p>
+    
+    <strong>Verify that your ePub is valid</strong>. Many tools creating ePubs
+    do not create them with all of the required attributes and files.
+    Some ePub readers are very loose in what they accept, so checking your
+    ePub in Adobe Digital Editions is not sufficient to be certain that your
+    ebook will be readable everywhere.
+    
+  </p>
+  <h3>Validating with EpubCheck <!-- trans: do not translate epubcheck --></h3>
+  <p>
+    
+    While developers can download and install their own copy of Adobe's <a href="http://code.google.com/p/epubcheck/">epubcheck</a>
+    tool, it may be easier to use Threepress's web-based <a href="http://www.threepress.org/document/epub-validate/">ePub validator</a>.
+    It uses epubcheck but wraps it in a convenient web form upload.
+    
+  </p>
+  <p>
+    
+    Although Bookworm will accept many kinds of ePubs which are not strictly
+    valid, it is always best to test them first.  Valid ePubs are much more likely
+    to work consistently with new ereaders that are developed in the future.
+    
+  </p>
+  <h2>How to test ePubs with Bookworm</h2>
+  <p>
+    
+    
+    
+    Like any other user, all you need to do to test ePubs with Bookworm
+    is to <a href="/account/signup/">sign up</a> and
+    <a href="/about/tour/#step1">add a book</a>.
+    
+  </p>
+  <p>
+    
+  
+    Once your book has been added, click around and make sure it looks
+    right. Here are some additional testing tips:
+    
+  </p>
+  <a name="checklist"></a>
+  <div id="bw-testing-checklist" class="bw-info-box">
+  <h2>Testing checklist</h2>
+  <ol>
+    <li> 
+    <strong>Is the metadata correct?</strong> You can view a book's
+    metadata on the <strong>Book information</strong> page available
+    from the table of contents of any book. 
+    
+    </li>
+    <li> 
+      
+      <strong>Is the copyright information in the metadata present and 
+      accurate?</strong>  Readers need to know if the book has full copyright
+      protection, is public domain, or is released with limited rights reserved
+      via Creative Commons.
+      
+    </li>
+    <li> 
+      
+      <strong>Is the table of contents correct and in the right order?</strong>
+      Bookworm uses the <code>playOrder</code> attribute of the NCX file
+      and the ordering of the items in the TOC.
+      
+    </li>
+    <li> 
+      
+      <strong>Are all images appearing?</strong> 
+      Bookworm can accommodate a wide
+      variety of link forms, from images linked directly from the TOC to
+      those found in anchor tags within content. The images <em>must</em> be 
+      listed in the OPF file to appear in Bookworm, as directed by the ePub specification.
+      
+
+    </li>
+    <li> 
+      
+      <strong>Are all special or foreign characters displaying correctly?</strong>
+      ePub books complying with the specification must be encoded with
+      either UTF-8 or UTF-16, but Bookworm supports only UTF-8.  (Bidirectional text is supported
+           but you will need to include that directive in the CSS.)
+      
+    </li>
+  </ol>
+  </div>
+  <a name="secure"></a>
+  <h2>Are ePub files on Bookworm secure?</h2>
+  <p>
+    
+    Although Bookworm is designed to prevent file sharing and
+    accidental release of books into the "wild," we accept no
+    liability for software failure which may result in an ebook 
+    becoming publicly viewable. 
+    
+  </p>
+  <p>
+    
+    However, Threepress can arrange for a private version of Bookworm
+    to be set up for large-scale testing or especially-sensitive
+    material. Contact <a
+    href="mailto:bookworm@oreilly.com">bookworm@oreilly.com</a>
+    for more details.
+    
+  </p>
+
+</div>
+
+          
+        </div>
+      </td>
+      <td valign="top" id="bw-shell-right">
+        <div id="bw-rightnav">
+          
+        </div>
+      </td>
+      </tr>
+    </table>
+
+
+
+    <!-- Footer -->
+    <div id="bw-footer">
+      
+
+      
+      <span style="float:left"><a href="/privacy/">Privacy policy</a> —
+      
+        Software by <a href="http://www.threepress.org">Threepress Consulting Inc.</a> and <a href="http://www.djangoproject.com">Django</a>
+      </span>
+
+      <span style="float:right;margin-right:50px;">
+	
+	  Licensed under the <a href="http://creativecommons.org/licenses/BSD/">BSD License</a>
+	</span>
+
+     
+    </div>
+    <script type="text/javascript" src="/static/bookworm.js" ></script>
+    
+
+    
+      <script type="text/javascript">
+        var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+        document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+      </script>
+      <script type="text/javascript">
+        var pageTracker = _gat._getTracker("UA-162955-4");
+        pageTracker._initData();
+        pageTracker._trackPageview();
+      </script>
+    
+  </body>
+</html>
