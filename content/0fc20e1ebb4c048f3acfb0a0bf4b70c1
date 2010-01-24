@@ -1,0 +1,834 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Andy Carvin: Klout Influence Summary</title>
+    <meta name="description" content="Klout is the standard for influence. Look up your Klout Report to find your influence level, user style, and content." />
+
+    <script type="text/javascript">var _sf_startpt=(new Date()).getTime()</script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js" type="text/javascript"></script>
+	<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.4/jquery-ui.js" type="text/javascript"></script>
+
+    <!-- supply ecma5 array functions if they are not present in the browser -->
+    <script type="text/javascript" src="/public/scripts/ecma5.js?v="></script>
+
+        <link rel="stylesheet" href='/public/min/?g=css&amp;1290035857' />
+    
+    <meta property="og:image" content="http://a3.twimg.com/profile_images/490942187/andy-recent_bigger.jpg" />
+
+<script type="text/javascript" src="/public/scripts/highcharts.js"></script>
+<script type='text/javascript' src='/public/min/?g=main_js&amp;1289256031'></script>
+<script type='text/javascript' src='/public/min/?g=profile_js&amp;1290023187'></script>
+
+<!--[if IE]>
+        <script type="text/javascript" src="/public/scripts/excanvas.compiled.js"></script>
+<![endif]-->
+
+<!-- facebook connect (share buttons) -->
+<script type="text/javascript" src="/public/scripts/fbconnect.js?v=c9ffa746d857d3b72ba048e2aff831e8"></script>
+<script type="text/javascript">
+    // set up the facebook connect code
+    window.fbAsyncInit = function() {
+        fbconnect.init({
+            fbAppID: 128085897213395,
+            currentUser: {"user":{"twitter_id":"778057","twitter_screen_name":"acarvin","score":{"kscore":66.28,"slope":0,"description":"generates actions and discussions with nearly every message","kclass_id":13,"kclass":"Thought Leader","kclass_description":"You are a thought leader in your industry. Your followers rely on you, not only to share the relevant news, but to give your opinion on the issues. People look to you to help them understand the day's developments. You understand what's important and what your audience values.","kscore_description":"acarvin has a low level of influence.","network_score":73.61,"amplification_score":50.86,"true_reach":9895}},"profile":{"user_full_name":"Andy Carvin","location":"iPhone: 38.902000,-77.020800","description":"Senior strategist at NPR. Online community organizer since 1994. Former director of the Digital Divide Network. Blogger. Photographer. Dad.","homeUrl":"http:\/\/www.andycarvin.com","picUrl":"http:\/\/a3.twimg.com\/profile_images\/490942187\/andy-recent_bigger.jpg"},"influencers":[{"user_full_name":"NPR News","location":"Washington, DC","description":"The top news stories from NPR.","homeUrl":"http:\/\/www.npr.org","picUrl":"http:\/\/a1.twimg.com\/profile_images\/977617677\/twitter_news_bigger.jpg"},{"user_full_name":"Alex de Carvalho","location":"Miami, FL","description":"Building a social network for physicians, teaching at UMiami, and organizing BarCampMiami, @smcsf, and The Startup Forum, among other things","homeUrl":"http:\/\/alexdc.org","picUrl":"http:\/\/a0.twimg.com\/profile_images\/652627128\/alexdc1_bigger.jpg"},{"user_full_name":"Chad Catacchio","location":"Santa Barbara, CA","description":"Itsy-bitsy-spider.","homeUrl":"http:\/\/www.chadcatacchio.com","picUrl":"http:\/\/a1.twimg.com\/profile_images\/1157477149\/dragon_bigger.gif"},{"user_full_name":"Alex Howard","location":"Washington, DC","description":"Gov 2.0 @Radar Correspondent, @OReillyMedia: alex@oreilly.com. Intrigued by technological change, taken with ideas, cooking, the outdoors, books, dogs and media","homeUrl":"http:\/\/radar.oreilly.com\/alexh","picUrl":"http:\/\/a3.twimg.com\/profile_images\/1109922235\/twitter-profile-pic-small_bigger.jpg"},{"user_full_name":"Jeff Jarvis","location":"new york","description":"blogger and j-school prof","homeUrl":"http:\/\/buzzmachine.com","picUrl":"http:\/\/a2.twimg.com\/profile_images\/41194122\/blogdaddy_bigger.jpg"}],"influencees":[{"user_full_name":"David Weinberger","location":"Boston, MA","description":"I mainly write about the effect of tech on our ideas","homeUrl":"http:\/\/www.johotheblog.com","picUrl":"http:\/\/a0.twimg.com\/profile_images\/1101269484\/twitter_with_leaves-small_bigger.png"},{"user_full_name":"John Taylor","location":"Reston, Virginia, USA","description":"Sprint's spokesman on public policy + contact for Metro DC & NC media. Email: john.b.taylor@sprint.com, Phone: 571.437.4685, Blog: http:\/\/bit.ly\/JohnTaylorTech","homeUrl":"http:\/\/bit.ly\/JohnTaylor","picUrl":"http:\/\/a2.twimg.com\/profile_images\/1107493878\/avatarcropped_bigger.jpg"},{"user_full_name":"Cyrus Farivar","location":"Bonn, Germany","description":"Iranian-American tech journalist. NPR, PRI, CBC. Wanderlust geek. Email me: cfarivar@cfarivar.org","homeUrl":"http:\/\/cyrusfarivar.com","picUrl":"http:\/\/a1.twimg.com\/profile_images\/21217802\/cyrus.cafe_bigger.jpg"},{"user_full_name":"Jacob Soboroff","location":"Los Angeles","description":"Working 2 fix USA's education system on @NBCSchoolPride, @AMCnews correspondent & @WhyTuesday exec dir. I contributed to @NPRWeekend & @WiredScience on @PBS.","homeUrl":"http:\/\/jacobsoboroff.com ","picUrl":"http:\/\/a3.twimg.com\/profile_images\/1124540095\/headshot2_2_bigger.jpg"},{"user_full_name":"Katie Kemple","location":"Arlington, VA","description":"Opportunity in all situations. Leadership, Public Media, Public Relations, Conservation, Organic food. Also Tweet for @pubmedia & co-host #pubmedia chat.","homeUrl":"","picUrl":"http:\/\/a2.twimg.com\/profile_images\/1048697794\/Photo_on_2010-07-03_at_13.01__2_bigger.jpg"}],"topics":["media","social media","technology","Journalism","Blogging","Washington DC"],"bitly_link":"http:\/\/klout.com\/acarvin"}
+        }) ;
+    } ;
+
+    $(document).ready(function() {
+        var src = document.location.protocol + '//connect.facebook.net/en_US/all.js' ;
+        $('<script/>').attr({ async: true, src: src }).appendTo($('#fb-root')) ;
+    }) ;
+</script>
+<!-- end facebook connect -->
+
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8">
+    <meta name="google-site-verification" content="1w-r3cxxTiOmj-LTIPpNCzTAE5kkHuX_dUi4qhFxKGY" />
+</head>
+
+<body class="profile"><!-- ClickTale Top part -->
+<script type="text/javascript">
+var WRInitTime=(new Date()).getTime();
+</script>
+<!-- ClickTale end of Top part -->
+
+<div id="main_nav" class="row">
+    <div class="column grid_11">
+        <span id="login"></span>
+        <a href="/kscore">how we measure</a>
+        <a href="/business">klout for business</a> 
+      	<a href="http://developer.klout.com">klout for developers</a>
+        <a href="/labs" class="labs">klout labs</a>
+    </div>
+    <div class="column grid_5 signin">
+        <a href="/blog">our blog</a>
+        <a href="/contact">contact us</a>
+	</div>
+</div>
+
+<!-- facebook connect (share buttons) -->
+<div id="fb-root"></div>
+
+<div id="container" class="row">
+    <div class="inner">
+        <div class="header">
+	<div class="signin searchbox">
+				   <a href="/auth/login?prev_page=/acarvin" >sign in</a> |
+		   <a href="/auth/login?prev_page=/acarvin">sign up</a>
+		   	</div>
+	<a href="/"><h1><span>Klout is </span>the Standard for Influence</h1></a>
+</div>        
+        
+                                <div id="ptabs_top" class="row">
+			<div class="profile_tabs">
+				<div class="searchbox">
+			        <form action="/search" method="GET" id="search_form">
+			        <img src="/public/images/icons/search.png" height="20" id='search_submit_btn'/>
+			        <input type="text" name="search_text" value="find twitter user" size="20" />
+			        </form>
+			    </div>
+			
+				<a id="summary-page-summary-top" class="track-button current" href="#">Klout Summary for Andy Carvin</a>
+				<a id="summary-page-score-top" href="/acarvin/score?ct=1">Score Analysis</a>
+				<!--a href="/acarvin/content">Content Analysis</a-->
+
+				<div class="clear"></div>
+			</div>
+		</div>
+        <div class="billboard lighter">
+            <div class="row">
+                <div class="column grid_2">
+                    <div class="thumb"><img src="http://a3.twimg.com/profile_images/490942187/andy-recent_bigger.jpg" /></div>
+                </div>
+                <div class="column grid_10">
+                    <h2>Andy Carvin</h2>
+                    <p class="bio">Senior strategist at NPR. Online community organizer since 1994. Former director of the Digital Divide Network. Blogger. Photographer. Dad.</p>
+                    <p><em>iPhone: 38.902000,-77.020800</em></p>
+                </div>
+                <div class="column grid_3 actions">
+                    <a id="summary-page-follow-button" href="http://twitter.com/acarvin" target="_blank" class="track-button button right">Follow</a>                </div>
+            </div>
+        </div>
+
+        <div class="section" id="summary_score">
+            <div class="head">
+                <div class="column grid_4">
+                    <h3>Klout Score</h3>
+                </div>
+                <p>Measurement of your overall online influence <a href="#" id="klout_score" class="more" title="Klout Score">Learn more</a></p>
+            </div>
+            <div id="klout_score_more" class="more_contents tray">
+                <h4><a href="#" class="close">[x] close</a>About Klout Score</h4>
+                <p>The Klout Score is the measurement of your overall online influence. The scores range from 1-100 with higher scores representing a wider and stronger sphere of influence.</p>
+				
+				<p>The Klout Score is a factor of over 35 variables broken into three categories; True Reach, Amplification Score and Network Score.</p>
+
+				<p>True Reach is the size of your engaged audience and is based on the followers and friends who actively listen and react to your messages. Amplification Score is the likelihood that your messages will generate actions (retweets, @messages, likes and comments) and is on a scale of 1 to 100. Network score indicates how influential your engaged audience is, also on a scale of 1 to 100. The Klout score is highly correlated to clicks, comments and retweets.</p>
+            </div>
+
+            <div class="content row">
+    <div class="column grid_4">
+        <h4>Score Summary</h4>
+        <a href="#" class="button embed">Embed</a>
+
+        <!-- share buttons -->
+        <a id="tw-summary-share-button"
+           class="tw-share-button share-btn"
+           href="http://twitter.com/home?status=According+to+%40Klout%2C+%40acarvin%27s+Klout+score+is+66.++How+influential+are+you%3F++http%3A%2F%2Fbit.ly%2Fbx1zln"
+           target="_blank">
+            <div class="share-tw"><span>Tweet</span></div>
+        </a>
+        <a id="fb-summary-share-button"
+           class="fb-share-button share-btn" 
+           href="#">
+            <div class="share-fb"><span>Share</span></div>
+        </a>
+        <!-- end share buttons -->
+
+    </div>
+    <div class="column grid_11">
+        <div class="skore primary" title="The Klout score is the measurement of your overall online influence"><a href="/acarvin/score">66<em>klout score</em></a></div>
+        <div class="skore operator">{</div>
+        <div class="skore secondary" title="True Reach is the size of your engaged audience"><a href="/acarvin/score#true_reach">10K<em>true reach</em></a></div>
+        <div class="skore bullet"></div>
+        <div class="skore secondary" title="Amplification is the likelihood that your content will be acted upon"><a href="/acarvin/score#amplification">51<em>amplification</em></a></div>
+        <div class="skore bullet"></div>
+        <div class="skore secondary" title="Network is the influence level of your engaged audience"><a href="/acarvin/score#network">74<em>network</em></a></div>
+        <div class="skore operator">}</div>
+        
+        
+        <!--div class="klout_profile_score">
+            <div style="margin-top:24px;margin-left:13px;">
+                <div class="klout_profile_inner">
+                    <div class="klout_profile_number">66</div>
+                </div>
+            </div>
+        </div>
+        <div class="score_breakdown">
+            <div class="score_legend">
+                <div class="score_title"></div>
+                <div>TRUE REACH<span>size of engaged audience</span></div>
+                <div>AMPLIFICATION<span>ability to drive actions</span></div>
+                <div>NETWORK<span>influence of engaged audience</span></div>
+            </div>
+            
+            <div class="score_tw">
+                <div class="score_title"><img src="/public/images/tw.png" /></div>
+                <div>10K</div>
+                <div>51</div>
+                <div>74</div>
+            </div>
+            
+            <div class="score_fb">
+                <div class="score_title"><img src="/public/images/fb.png" /></div>
+                <div>10K</div>
+                <div>51</div>
+                <div>74</div>
+            </div>
+            
+            <div style="clear:both"></div>
+        </div>
+        <div style="clear:both"></div-->
+    </div>
+</div>
+<script type="text/javascript">
+	$(document).ready(function() {
+		$(".column.grid_11 [title]").ktip();
+	});
+</script>
+
+
+            <div class="content row">
+    <div class="column grid_4">
+        <h4>Achievements</h4>
+        <a href="#" class="button embed">Embed</a>
+        <div>
+            <a id="tw-num-achievements-share-button" class="tw-share-button share-btn" href="http://twitter.com/home?status=According to @Klout, @acarvin has earned 7 achievements http://bit.ly/bx1zln" target="_blank">
+                <div class="share-tw"><span class="share-button-tweak">Tweet</span></div>
+            </a>
+            <a id="fb-num-achievements-share-button"
+               class="fb-share-button share-btn"
+               data-num-achievements="7"
+               data-fb-share-image-url="http://klout.com/public/images/badges/list_memberships_square.png"
+               href="#">
+                <div class="share-fb"><span class="share-button-tweak">Share</span></div>
+            </a>
+        </div>
+    </div>
+    <div class="column grid_11">
+        <div class="items thin">
+                    <div id="achievements-caption">Roll over individual achievements to share them.</div>
+                    <div>
+                <div style="clear: both"></div>
+                                <div class="achievement-box" title="Total lists that you are a member of">
+                <div class="achievement-contents-no-hover">
+                    <div class="achievement-metric">1K</div>
+                    <img src="/public/images/badges/list_memberships.png" />
+                    <div class="achievement-label">List<br />Memberships</div>
+                </div>
+                <div class="achievement-contents-hover">
+                    <div class="achievement-share-buttons">
+                    <a id="fb-share-achievement-list-memberships"
+                       class="fb-share-button share-btn"
+                       data-fb-share-message="Andy Carvin has earned the 1 thousand Twitter Lists achievement on Klout."
+                       data-fb-share-url="http://klout.com/acarvin"
+                       data-fb-share-image-url="http://klout.com/public/images/badges/list_memberships_square.png"
+                       href="#">
+                        <div class="share-fb"><span class="share-button-tweak">Share</span></div>
+                    </a>
+                    <a id="tw-share-achievement-list-memberships"
+                       class="tw-share-button share-btn"
+                       href="http://twitter.com/home?status=Do+you+have+%40klout%3F+%40acarvin+has+earned+the+1+thousand+Twitter+Lists+achievement+-+http%3A%2F%2Fbit.ly%2Fbx1zln"
+                       target="_blank">
+                        <div class="share-tw"><span class="share-button-tweak">Tweet</span></div>
+                    </a>
+                    </div>
+                    <div class="achievement-label achievement-label-hover">List<br />Memberships</div>
+                </div>
+                </div>
+                                <div class="achievement-box" title="Total reach for a single message">
+                <div class="achievement-contents-no-hover">
+                    <div class="achievement-metric">1M</div>
+                    <img src="/public/images/badges/message_reach.png" />
+                    <div class="achievement-label">Message<br />Reach</div>
+                </div>
+                <div class="achievement-contents-hover">
+                    <div class="achievement-share-buttons">
+                    <a id="fb-share-achievement-message-reach"
+                       class="fb-share-button share-btn"
+                       data-fb-share-message="Andy Carvin has had a message reach 1 million people and earned a Klout achievement."
+                       data-fb-share-url="http://klout.com/acarvin"
+                       data-fb-share-image-url="http://klout.com/public/images/badges/message_reach_square.png"
+                       href="#">
+                        <div class="share-fb"><span class="share-button-tweak">Share</span></div>
+                    </a>
+                    <a id="tw-share-achievement-message-reach"
+                       class="tw-share-button share-btn"
+                       href="http://twitter.com/home?status=Do+you+have+%40klout%3F+%40acarvin+has+had+a+message+reach+1+million+people+and+earned+an+achievement+-+http%3A%2F%2Fbit.ly%2Fbx1zln"
+                       target="_blank">
+                        <div class="share-tw"><span class="share-button-tweak">Tweet</span></div>
+                    </a>
+                    </div>
+                    <div class="achievement-label achievement-label-hover">Message<br />Reach</div>
+                </div>
+                </div>
+                                <div class="achievement-box" title="Total number of times you&#039;ve been retweeted">
+                <div class="achievement-contents-no-hover">
+                    <div class="achievement-metric">1K</div>
+                    <img src="/public/images/badges/total_retweets.png" />
+                    <div class="achievement-label">Total<br />Retweets</div>
+                </div>
+                <div class="achievement-contents-hover">
+                    <div class="achievement-share-buttons">
+                    <a id="fb-share-achievement-total-retweets"
+                       class="fb-share-button share-btn"
+                       data-fb-share-message="Andy Carvin has earned the 1 thousand Total Times Retweeted achievement on Klout."
+                       data-fb-share-url="http://klout.com/acarvin"
+                       data-fb-share-image-url="http://klout.com/public/images/badges/total_retweets_square.png"
+                       href="#">
+                        <div class="share-fb"><span class="share-button-tweak">Share</span></div>
+                    </a>
+                    <a id="tw-share-achievement-total-retweets"
+                       class="tw-share-button share-btn"
+                       href="http://twitter.com/home?status=Do+you+have+%40klout%3F+%40acarvin+has+earned+the+1+thousand+Total+Times+Retweeted+achievement+-+http%3A%2F%2Fbit.ly%2Fbx1zln"
+                       target="_blank">
+                        <div class="share-tw"><span class="share-button-tweak">Tweet</span></div>
+                    </a>
+                    </div>
+                    <div class="achievement-label achievement-label-hover">Total<br />Retweets</div>
+                </div>
+                </div>
+                                <div class="achievement-box" title="Total number of unique individuals who have retweeted one of your messages">
+                <div class="achievement-contents-no-hover">
+                    <div class="achievement-metric">1K</div>
+                    <img src="/public/images/badges/unique_retweeters.png" />
+                    <div class="achievement-label">Unique<br />Retweeters</div>
+                </div>
+                <div class="achievement-contents-hover">
+                    <div class="achievement-share-buttons">
+                    <a id="fb-share-achievement-unique-retweeters"
+                       class="fb-share-button share-btn"
+                       data-fb-share-message="Andy Carvin has been retweeted by 1 thousand people and earned a Klout achievement."
+                       data-fb-share-url="http://klout.com/acarvin"
+                       data-fb-share-image-url="http://klout.com/public/images/badges/unique_retweeters_square.png"
+                       href="#">
+                        <div class="share-fb"><span class="share-button-tweak">Share</span></div>
+                    </a>
+                    <a id="tw-share-achievement-unique-retweeters"
+                       class="tw-share-button share-btn"
+                       href="http://twitter.com/home?status=Do+you+have+%40klout%3F+%40acarvin+has+been+retweeted+by+1+thousand+people+and+earned+an+achievement+-+http%3A%2F%2Fbit.ly%2Fbx1zln"
+                       target="_blank">
+                        <div class="share-tw"><span class="share-button-tweak">Tweet</span></div>
+                    </a>
+                    </div>
+                    <div class="achievement-label achievement-label-hover">Unique<br />Retweeters</div>
+                </div>
+                </div>
+                                <div class="achievement-box" title="Total number of unique individuals who have mentioned you.">
+                <div class="achievement-contents-no-hover">
+                    <div class="achievement-metric">1K</div>
+                    <img src="/public/images/badges/unique_mentioners.png" />
+                    <div class="achievement-label">Unique<br />Mentioners</div>
+                </div>
+                <div class="achievement-contents-hover">
+                    <div class="achievement-share-buttons">
+                    <a id="fb-share-achievement-unique-mentioners"
+                       class="fb-share-button share-btn"
+                       data-fb-share-message="Andy Carvin has been  mentioned by 1 thousand people and earned a Klout achievement."
+                       data-fb-share-url="http://klout.com/acarvin"
+                       data-fb-share-image-url="http://klout.com/public/images/badges/unique_mentioners_square.png"
+                       href="#">
+                        <div class="share-fb"><span class="share-button-tweak">Share</span></div>
+                    </a>
+                    <a id="tw-share-achievement-unique-mentioners"
+                       class="tw-share-button share-btn"
+                       href="http://twitter.com/home?status=Do+you+have+%40klout%3F+%40acarvin+has+been+%40+mentioned+by+1+thousand+people+and+earned+an+achievement+-+http%3A%2F%2Fbit.ly%2Fbx1zln"
+                       target="_blank">
+                        <div class="share-tw"><span class="share-button-tweak">Tweet</span></div>
+                    </a>
+                    </div>
+                    <div class="achievement-label achievement-label-hover">Unique<br />Mentioners</div>
+                </div>
+                </div>
+                                <div class="achievement-box" title="Total number of unique messages retweeted by others">
+                <div class="achievement-contents-no-hover">
+                    <div class="achievement-metric">1K</div>
+                    <img src="/public/images/badges/messages_retweeted.png" />
+                    <div class="achievement-label">Unique Msgs<br />Retweeted</div>
+                </div>
+                <div class="achievement-contents-hover">
+                    <div class="achievement-share-buttons">
+                    <a id="fb-share-achievement-messages-retweeted"
+                       class="fb-share-button share-btn"
+                       data-fb-share-message="Andy Carvin has had 1 thousand messages retweeted and earned a Klout achievement."
+                       data-fb-share-url="http://klout.com/acarvin"
+                       data-fb-share-image-url="http://klout.com/public/images/badges/messages_retweeted_square.png"
+                       href="#">
+                        <div class="share-fb"><span class="share-button-tweak">Share</span></div>
+                    </a>
+                    <a id="tw-share-achievement-messages-retweeted"
+                       class="tw-share-button share-btn"
+                       href="http://twitter.com/home?status=Do+you+have+%40klout%3F+%40acarvin+has+had+1+thousand+messages+retweeted+and+earned+an+achievement+-+http%3A%2F%2Fbit.ly%2Fbx1zln"
+                       target="_blank">
+                        <div class="share-tw"><span class="share-button-tweak">Tweet</span></div>
+                    </a>
+                    </div>
+                    <div class="achievement-label achievement-label-hover">Unique Msgs<br />Retweeted</div>
+                </div>
+                </div>
+                                <div class="achievement-box" title="Total number of retweets for a specific message">
+                <div class="achievement-contents-no-hover">
+                    <div class="achievement-metric">250</div>
+                    <img src="/public/images/badges/message_retweeted.png" />
+                    <div class="achievement-label">Message<br />Retweeted</div>
+                </div>
+                <div class="achievement-contents-hover">
+                    <div class="achievement-share-buttons">
+                    <a id="fb-share-achievement-message-retweeted"
+                       class="fb-share-button share-btn"
+                       data-fb-share-message="Andy Carvin has had a single message retweeted 250 times and earned a Klout achievement."
+                       data-fb-share-url="http://klout.com/acarvin"
+                       data-fb-share-image-url="http://klout.com/public/images/badges/message_retweeted_square.png"
+                       href="#">
+                        <div class="share-fb"><span class="share-button-tweak">Share</span></div>
+                    </a>
+                    <a id="tw-share-achievement-message-retweeted"
+                       class="tw-share-button share-btn"
+                       href="http://twitter.com/home?status=Do+you+have+%40klout%3F+%40acarvin+has+had+a+single+message+retweeted+250+times+and+earned+an+achievement+-+http%3A%2F%2Fbit.ly%2Fbx1zln"
+                       target="_blank">
+                        <div class="share-tw"><span class="share-button-tweak">Tweet</span></div>
+                    </a>
+                    </div>
+                    <div class="achievement-label achievement-label-hover">Message<br />Retweeted</div>
+                </div>
+                </div>
+                                <div style="clear: both"></div>
+            </div>
+        </div>
+    </div>
+</div>
+
+        </div>
+
+        <div class="section" id="summary_classification">
+            <div class="head">
+                <div class="column grid_4">
+                    <h3>Influence Matrix</h3>
+                </div>
+                <p>Influence style and network <a href="#" id="influence_matrix" class="more" title="Influence Matrix">Learn more</a></p>
+            </div>
+            <div id="influence_matrix_more" class="more_contents tray">
+                <h4><a href="#" class="close">[x] close</a>About Influence Matrix</h4>
+                <p>The Klout Classification is a holistic look at your influence and how you use it. There are 16 possible classifications determined by factors such as how often you tweet, who you follow, who follows you, and how your audience interacts with your messages. Your Klout Class is like a personality test for your style of influence.</p>
+                <p>Your influence network shows who you influence and who influences you. Influence is determined by a variety of factors including retweets, @messages, follows, and lists.</p>
+            </div>
+
+			<div class="content row">
+    <div class="column grid_4">
+        <h4 style="margin-top:12px">Klout Classification</h4>
+        <a href="#" class="button embed">Embed</a>
+
+        <!-- share buttons -->
+        <a id="tw-classification-share-button"
+           class="tw-share-button share-btn"
+           href="http://twitter.com/home?status=According+to+%40Klout%2C+%40acarvin+is+a+Thought+Leader.+What%27s+your+influence+style%3F+http%3A%2F%2Fbit.ly%2Fbx1zln"
+           target="_blank">
+            <div class="share-tw"><span>Tweet</span></div>
+        </a>
+        <a id="fb-classification-share-button"
+           class="fb-share-button share-btn"
+           href="#">
+            <div class="share-fb"><span>Share</span></div>
+        </a>
+        <!-- end share buttons -->
+
+    </div>
+    <div class="column grid_4">
+        <div class="classifications">
+			<img src="/public/images/grid-labels-profile.png" alt="Grid Labels Profile">
+            <div class="quadrant">
+                <div id="kclass_6" class="subclass primary1" data-title="Curator" data-desc="You highlight the most interesting people and find the best content on the web and share it to a wide audience. You are a critical information source to your network.  You have an amazing ability to filter massive amounts of content to surface the nuggets that your audience truly care about.  Your hard work is very much appreciated."></div>
+                <div id="kclass_7" class="subclass primary2" data-title="Broadcaster" data-desc="You broadcast great content that spreads like wildfire. You are an essential information source in your industry. You have a large and diverse audience that values your content."></div>
+                <div id="kclass_5" class="subclass primary3" data-title="Syndicator" data-desc="You keep tabs on what's trending and who's important to watch. You share the best of this with your followers and save them from having to find what's hot on their own. You probably focus on a specific topic or cater to a defined audience."></div>
+                <div id="kclass_8" class="subclass primary4" data-title="Feeder" data-desc="Your audience relies on you for a steady flow of information about your industry or topic. Your audience is hooked on your updates and secretly can't live without them."></div>
+            </div>
+            <div class="quadrant">
+                <div id="kclass_15" class="subclass secondary1" data-title="Taste Maker" data-desc="You know what you like and your audience likes it too. You know what's trending, but you do more than just follow the crowd. You have your own opinion that earns respect from your network."></div>
+                <div id="kclass_16" class="subclass secondary2" data-title="Celebrity" data-desc="You can't get any more influential than this. People hang on your every word, and share your content like no other. You're probably famous in real life and your fans simply can't get enough."></div>
+                <div id="kclass_13" class="subclass secondary3" data-title="Thought Leader" data-desc="You are a thought leader in your industry. Your followers rely on you, not only to share the relevant news, but to give your opinion on the issues. People look to you to help them understand the day's developments. You understand what's important and what your audience values that."></div>
+                <div id="kclass_14" class="subclass secondary4" data-title="Pundit" data-desc="You don't just share news, you create the news. As a pundit, your opinions are wide-spread and highly trusted. You're regularly recognized as a leader in your industry. When you speak, people listen."></div>
+            </div>
+            <div class="quadrant">
+                <div id="kclass_2" class="subclass tertiary1" data-title="Dabbler" data-desc="You might just be starting out with the social web or maybe you're not that into it. If you want to grow your influence, try engaging with your audience and sharing more content."></div>
+                <div id="kclass_3" class="subclass tertiary2" data-title="Conversationalist" data-desc="You love to connect and always have the inside scoop. Good conversation is not just a skill, it’s an art. You might not know it, but when you are witty, your followers hang on every word."></div>
+                <div id="kclass_1" class="subclass tertiary3" data-title="Observer" data-desc="You don't share very much, but you follow the social web more than you let on. You may just enjoy observing more than sharing or you're checking this stuff out before jumping in full-force."></div>
+                <div id="kclass_4" class="subclass tertiary4" data-title="Explorer" data-desc="You actively engage in the social web, constantly trying out new ways to interact and network. You're exploring the ecosystem and making it work for you. Your level of activity and engagement shows that you &quot;get it&quot;, we predict you'll be moving up."></div>
+            </div>
+            <div class="quadrant">
+                <div id="kclass_10" class="subclass quarternary1" data-title="Socializer" data-desc="You are the hub of social scenes and people count on you to find out what's happening. You are quick to connect people and readily share your social savvy. Your followers appreciate your network and generosity."></div>
+                <div id="kclass_12" class="subclass quarternary2" data-title="Networker" data-desc="You know how to connect to the right people and share what's important to your audience. You generously share your network to help your followers. You have a high level of engagement and an influential audience."></div>
+                <div id="kclass_9" class="subclass quarternary3" data-title="Activist" data-desc="You've got an idea or cause you want to share with the world and you've found the perfect medium for it. Your audience counts on you to champion your cause."></div>
+                <div id="kclass_11" class="subclass quarternary4" data-title="Specialist" data-desc="You may not be a celebrity, but within your area of expertise your opinion is second to none. Your content is likely focused around a specific topic or industry with a focused, highly-engaged audience."></div>
+            </div>
+        </div>    
+    </div>
+    <div class="column grid_7">
+        <div class="classification">
+        	            <h5>Andy Carvin is a Thought Leader</h5>
+                        <p>You are a thought leader in your industry. Your followers rely on you, not only to share the relevant news, but to give your opinion on the issues. People look to you to help them understand the day&#039;s developments. You understand what&#039;s important and what your audience values.</p>
+        </div>
+    </div>
+</div>
+<script type="text/javascript">
+	$(document).ready(function() {
+					placeKClass( "Andy Carvin",13,'me' );
+			// setKClassDefault( 13 );
+							placeKClass( "nprnews",13.0,'by' );
+        			placeKClass( "alexdc",12.0,'by' );
+        			placeKClass( "chadcat",11.0,'by' );
+        			placeKClass( "digiphile",15,'by' );
+        			placeKClass( "jeffjarvis",14.0,'by' );
+        					placeKClass( "dweinberger",14.0,'of' );
+        			placeKClass( "jbtaylor",11.0,'of' );
+        			placeKClass( "cfarivar",13.0,'of' );
+        			placeKClass( "jacobsoboroff",13.0,'of' );
+        			placeKClass( "kkemple",4,'of' );
+        	});
+</script>
+
+
+            <div class="content row">
+    <div class="column grid_4">
+        <h4><div class="dot by"></div>Influenced By</h4>
+        <a href="#" class="button embed">Embed</a>
+
+                    <a id="tw-influenced-by-share-button"
+               class="tw-share-button share-btn"
+               href="http://twitter.com/home?status=According+to+%40klout%2C+I%27m+influenced+by%3A+%40nprnews+%40alexdc+%40chadcat+%40digiphile+%40jeffjarvis.+http%3A%2F%2Fbit.ly%2Fbx1zln"
+               target="_blank">
+                <div class="share-tw"><span>Tweet</span></div>
+            </a>
+            <a id="fb-influenced-by-share-button"
+               class="fb-share-button share-btn"
+               href="#" >
+                <div class="share-fb"><span>Share</span></div>
+            </a>
+        
+    </div>
+    <div class="column grid_11">
+        <div class="items thin">
+            <ul>
+                                <li>
+                    <a href="/nprnews" class="badge u_nprnews">
+                        <div class="thumb"><img src="nprnews/picture" /></div>
+                        <div class="username">nprnews</div>
+                        <div class="score">
+                            <img src="/public/images/klout_mini.png" /> 81
+                        </div>
+                    </a>
+                </li>
+                                <li>
+                    <a href="/alexdc" class="badge u_alexdc">
+                        <div class="thumb"><img src="alexdc/picture" /></div>
+                        <div class="username">alexdc</div>
+                        <div class="score">
+                            <img src="/public/images/klout_mini.png" /> 64
+                        </div>
+                    </a>
+                </li>
+                                <li>
+                    <a href="/chadcat" class="badge u_chadcat">
+                        <div class="thumb"><img src="chadcat/picture" /></div>
+                        <div class="username">chadcat</div>
+                        <div class="score">
+                            <img src="/public/images/klout_mini.png" /> 53
+                        </div>
+                    </a>
+                </li>
+                                <li>
+                    <a href="/digiphile" class="badge u_digiphile">
+                        <div class="thumb"><img src="digiphile/picture" /></div>
+                        <div class="username">digiphile</div>
+                        <div class="score">
+                            <img src="/public/images/klout_mini.png" /> 74
+                        </div>
+                    </a>
+                </li>
+                                <li>
+                    <a href="/jeffjarvis" class="badge u_jeffjarvis">
+                        <div class="thumb"><img src="jeffjarvis/picture" /></div>
+                        <div class="username">jeffjarvis</div>
+                        <div class="score">
+                            <img src="/public/images/klout_mini.png" /> 77
+                        </div>
+                    </a>
+                </li>
+                            </ul>
+        </div>
+    </div>
+</div>
+
+
+            <div class="content row">
+    <div class="column grid_4">
+        <h4><div class="dot of"></div>Influencer Of</h4>
+        <a href="#" class="button embed">Embed</a>
+
+                    <a id="tw-influencer-of-share-button"
+               class="tw-share-button share-btn"
+               href="http://twitter.com/home?status=According+to+%40klout%2C+I%27m+influential+to%3A+%40dweinberger+%40jbtaylor+%40cfarivar+%40jacobsoboroff+%40kkemple.+http%3A%2F%2Fbit.ly%2Fbx1zln"
+               target="_blank">
+                <div class="share-tw"><span>Tweet</span></div>
+            </a>
+            <a id="fb-influencer-of-share-button"
+               class="fb-share-button share-btn"
+               href="#" >
+                <div class="share-fb"><span>Share</span></div>
+            </a>
+        
+    </div>
+    <div class="column grid_11">
+        <div class="items thin">
+            <ul>
+                                <li>
+                    <a href="/dweinberger" class="badge u_dweinberger">
+                        <div class="thumb"><img src="dweinberger/picture" /></div>
+                        <div class="username">dweinberger</div>
+                        <div class="score">
+                            <img src="/public/images/klout_mini.png" /> 60
+                        </div>
+                    </a>
+                </li>
+                                <li>
+                    <a href="/jbtaylor" class="badge u_jbtaylor">
+                        <div class="thumb"><img src="jbtaylor/picture" /></div>
+                        <div class="username">jbtaylor</div>
+                        <div class="score">
+                            <img src="/public/images/klout_mini.png" /> 64
+                        </div>
+                    </a>
+                </li>
+                                <li>
+                    <a href="/cfarivar" class="badge u_cfarivar">
+                        <div class="thumb"><img src="cfarivar/picture" /></div>
+                        <div class="username">cfarivar</div>
+                        <div class="score">
+                            <img src="/public/images/klout_mini.png" /> 54
+                        </div>
+                    </a>
+                </li>
+                                <li>
+                    <a href="/jacobsoboroff" class="badge u_jacobsoboroff">
+                        <div class="thumb"><img src="jacobsoboroff/picture" /></div>
+                        <div class="username">jacobsoboroff</div>
+                        <div class="score">
+                            <img src="/public/images/klout_mini.png" /> 55
+                        </div>
+                    </a>
+                </li>
+                                <li>
+                    <a href="/kkemple" class="badge u_kkemple">
+                        <div class="thumb"><img src="kkemple/picture" /></div>
+                        <div class="username">kkemple</div>
+                        <div class="score">
+                            <img src="/public/images/klout_mini.png" /> 38
+                        </div>
+                    </a>
+                </li>
+                            </ul>
+        </div>
+    </div>
+</div>
+
+        </div>
+
+                    <div class="section" id="summary_topics">
+            <div class="head">
+                <div class="column grid_4">
+                    <h3><a href="/acarvin/content">Content Analysis</a></h3>
+                </div>
+                <p>Most influential topics <a href="#" id="content_analysis" class="more" title="Content Analysis">Learn more</a></p>
+            </div>
+            <div id="content_analysis_more" class="more_contents tray">
+                <h4><a href="#" class="close">[x] close</a>Content Analysis</h4>
+                <p>Klout semantically tags tweets and analyzes them for engagement and reach to find topics you are most influential on. Your most influential topics are those that you tweet about frequently and get you the highest engagement.</p>
+            </div>
+            <div class="content row">
+    <div class="column grid_4">
+        <h4>Topic Summary</h4>
+        <a href="#" class="button embed">Embed</a>
+
+        <!-- share buttons -->
+        <a id="tw-topics-share-button"
+           class="tw-share-button share-btn"
+           href="http://twitter.com/home?status=According+to+%40Klout%2C+%40acarvin+is+most+influential+about+media%2C+social+media%2C+technology%2C+Journalism%2C+and+Blogging+-+http%3A%2F%2Fbit.ly%2Fbx1zln"
+           target="_blank">
+            <div class="share-tw"><span>Tweet</span></div>
+        </a>
+        <a id="fb-topics-share-button"
+           class="fb-share-button share-btn" 
+           href="#">
+            <div class="share-fb"><span>Share</span></div>
+        </a>
+        <!-- end share buttons -->
+
+    </div>
+    <div class="column grid_11">
+        <ul class="topics">
+                        <li><div>media</div></li>
+                        <li><div>social media</div></li>
+                        <li><div>technology</div></li>
+                        <li><div>Journalism</div></li>
+                        <li><div>Blogging</div></li>
+                        <li><div>Washington DC</div></li>
+                    </ul>
+    </div>
+</div>
+
+        </div>
+            		<a id="summary-page-next" class="button orange next" href="/acarvin/score?ct=2">Next Page</a>
+    </div>
+</div>
+
+<div id="ptabs" class="row">
+    <div class="profile_tabs">
+        <a id="summary-page-summary-bottom" class="current track-button " href="#">Klout<br />Summary</a>
+        <a id="summary-page-score-bottom" href="/acarvin/score?ct=3">Score<br />Analysis</a>
+        <!--a href="/acarvin/content">Content<br />Analysis</a-->
+        <div class="clear"></div>
+    </div>
+</div>
+
+<div class="footer row">
+    <a href="http://blog.klout.com" target="_blank">Blog</a>
+    <a href="http://developer.klout.com">Developers</a>
+    <a href="/about">About</a>
+    <a href="/press">Press</a>
+    <a href="/contact">Contact</a>
+    <a href="/careers">Careers</a>
+    <a href="/terms">Terms</a>
+    <a href="/privacy">Privacy</a>
+</div>
+
+<!--[if IE]>
+<script type="text/javascript" src="/public/scripts/excanvas.compiled.js"></script>
+<![endif]-->
+
+<!-- mixpanel -->
+<script type="text/javascript" src="/public/scripts/mixpanel.js?v="></script>
+<script type='text/javascript'>
+try {
+	var mpmetrics = new MixpanelLib('21e9cbcda806ca1cb4fc6137486ad3eb') ;
+    } catch(e) {
+	var null_fn = function () {} ;
+	var mpmetrics = {
+        track: null_fn,
+        track_funnel:
+        null_fn,
+        register: null_fn,
+        register_once: null_fn,
+        register_funnel: null_fn
+    } ;
+}
+</script>
+<!-- end mixpanel -->
+
+<!-- click tracking -->
+<script type='text/javascript'>
+    // button tracking
+    $('body').delegate('.track-button', 'click', function() {
+        var id = $(this).attr('id') ;
+        mpmetrics.track(id + '-click') ;
+    }) ;
+
+    // twitter share button tracking
+    $('body').delegate('.tw-share-button', 'click', function() {
+        var id = $(this).attr('id') ;
+        mpmetrics.track('tw-share', { elementid: id }) ;
+    }) ;
+
+    // chart click tracking
+    $('.track-chart').click(function() {
+        var id = $(this).attr('id') ;
+        mpmetrics.track('score-page-chart-click', { elementid: id }) ;
+    }) ;
+</script>
+<!-- end click tracking -->
+
+<!-- google analytics -->
+<script type="text/javascript">
+    var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+    document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<!-- end google analytics -->
+
+<script type="text/javascript">
+    try {
+        var pageTracker = _gat._getTracker("UA-6468957-1");
+        pageTracker._setDomainName(".klout.com");
+        pageTracker._trackPageview();
+    } catch(e) {
+        // intentionally blank
+    }
+</script>
+
+<!-- chartbeat -->
+<script type="text/javascript">
+    var _sf_async_config={uid:2165,domain:"klout.com"};
+    (function(){
+        function loadChartbeat() {
+            window._sf_endpt=(new Date()).getTime();
+            var e = document.createElement('script');
+            e.setAttribute('language', 'javascript');
+            e.setAttribute('type', 'text/javascript');
+            e.setAttribute('src', "http://static.chartbeat.com/js/chartbeat.js") ;
+            document.body.appendChild(e);
+        }
+        var oldonload = window.onload;
+        window.onload = (typeof window.onload != 'function') ? loadChartbeat : function() { oldonload(); loadChartbeat(); };
+    })();
+</script>
+<!-- end chartbeat -->
+
+<!-- get satisfaction -->
+<script type="text/javascript" charset="utf-8">
+    var is_ssl = ("https:" == document.location.protocol);
+    var asset_host = is_ssl ? "https://s3.amazonaws.com/getsatisfaction.com/" : "http://s3.amazonaws.com/getsatisfaction.com/";
+    document.write(unescape("%3Cscript src='" + asset_host + "javascripts/feedback-v2.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<!-- end get satisfaction -->
+
+<script type="text/javascript" charset="utf-8">
+    var feedback_widget_options = {};
+    feedback_widget_options.display = "overlay";
+    feedback_widget_options.company = "klout";
+    feedback_widget_options.placement = "right";
+    feedback_widget_options.color = "#222";
+    feedback_widget_options.style = "idea";
+    var feedback_widget = new GSFN.feedback_widget(feedback_widget_options);
+</script>
+
+<!-- quantcast -->
+<script type="text/javascript">
+    _qoptions={
+        qacct:"p-aeKjlJXBiuePA"
+    };
+</script>
+<script type="text/javascript" src="http://edge.quantserve.com/quant.js"></script>
+<noscript>
+    <img src="http://pixel.quantserve.com/pixel/p-aeKjlJXBiuePA.gif" style="display: none;" border="0" height="1" width="1" alt="Quantcast"/>
+</noscript>
+<!-- end quantcast -->
+
+<!-- ClickTale Bottom part -->
+<div id="ClickTaleDiv" style="display: none;"></div>
+<script type="text/javascript">
+if(document.location.protocol!='https:')
+  document.write(unescape("%3Cscript%20src='http://s.clicktale.net/WRb6.js'%20type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+if(typeof ClickTale=='function') ClickTale(1569,0.25,"www07");
+</script>
+<!-- ClickTale end of Bottom part -->
+
+</body>
+</html>
