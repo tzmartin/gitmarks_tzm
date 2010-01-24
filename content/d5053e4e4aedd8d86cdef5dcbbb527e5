@@ -1,0 +1,143 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN">
+<html>
+   <head>
+      <title>VitalSource Technologies, Inc. - Digital solutions for textbooks and education materials</title>
+
+            <script type="text/javascript" src="/javascripts/base.js"></script>
+      <script type="text/javascript" src="/javascripts/validate_form.js"></script>
+      <script type="text/javascript" src="/javascripts/lightbox.js"></script>
+            <link rel="stylesheet" href="/stylesheets/screen.css" type="text/css" media="screen, projection" charset="utf-8" />
+      <link rel="stylesheet" href="/stylesheets/print.css" type="text/css" media="print" charset="utf-8" />
+      <link rel="stylesheet" href="/stylesheets/lightbox.css" type="text/css" media="screen, projection" charset="utf-8" />
+
+      
+      <meta name="keywords" content="book,books,ebooks,vitalbook,VitalSource,e-book, ebooks, textbooks, digital textbooks, digital books, college books, discount textbooks, digital study aids, VitalSource, Bookshelf, VitalBook, VitalSource products, VitalSource Library, Custom Digital Curriculum, free download, VitalSource Sales, Vital Source, Vital Book" />
+
+   
+
+   </head>
+
+   <body>
+      <div id="mainBox">
+
+         <a href="/"><img src="/images/vs_header_icon.png" style="float:left;"></a>
+<div id="navigation">
+  <ul id="main_nav">
+     <li><a href="/about/">About</a></li>
+     <li><a href="/software/products/">Products</a></li>
+     <li><a href="/about/support/">Support</a></li>
+     <li><a href="/software/bookshelf/downloads/">Downloads</a></li>
+  </ul>
+  <div style="clear:both;"></div>
+</div>
+
+         <div id="leftcol">
+            <h3><img src="/pix/computerman-banner8.jpg" /></h3>
+<h1>About VitalSource<sup>TM</sup></h1>
+
+<div id="bookshelf_left">
+   <h2>The business of digital publishing</h2>
+   <p>VitalSource<sup>TM</sup> was founded in 1994 with a vision for moving resource access into the digital age. For more than a decade, we have been helping
+      <a href="/about/publishers/">publishers</a> and <a href="/about/thenewstudent/">learners</a> find new, mutually beneficial business relationships.
+   </p>
+   <p>We concentrate on ways the computer can enhance learning, and particularly on how computers
+      can aid in the delivery and use of trusted, respected resources in the classroom.
+      To this end, we have developed the world's most successful downloadable digital book format: the <a href="/software/vbk/">VitalBook<sup>TM</sup></a>.
+   </p>
+</div>
+
+<div id="bookshelf_right">
+   <p>Today, VitalSource<sup>TM</sup> works with many of the largest and best known <a href="/about/publishers/">publishers</a>
+      in the world (as well as with some of the largest and best known computer manufacturers in the world) to
+      establish successful digital curriculum implementations. These implementations can currently be found in
+      K-12, Higher Ed, and Professional Education in countries around the globe.<br />
+   </p>
+   <p>Working closely with academic institutions, VitalSource<sup>TM</sup> has invested years of research and development to
+      create tools that 1) help learners be more successful, 2) save educators time and money, and 3) help
+      publishers secure new business in worldwide education's emerging digital market.<br />
+   </p>
+</div>
+
+<!-- i want to get rid of all these br -->
+<br />
+<br />
+
+<h2>For sales, business, or public relations information:</h2>
+<table id="companyinfo">
+   <tbody>
+      <tr>
+         <td valign="top">
+            Corporate Headquarters<br />
+            234 Fayetteville Street<br />
+            Suite 300<br />
+            Raleigh, NC 27601<br />
+         </td>
+
+         <td valign="top"><br />
+         </td>
+      </tr>
+      <tr>
+         <td valign="top">919.755.8100</td>
+         <td valign="top"><br /></td>
+      </tr>
+      <tr>
+         <td valign="top"><br /></td>
+         <td valign="top"><br /></td>
+      </tr>
+      <tr class="email">
+         <td><a href="mailto:sales@VitalSource.com">sales@VitalSource.com</a></td>
+         <td>For information pertaining to the purchase or sale of VitalSource<sup>TM</sup> products and services.<br /></td>
+      </tr>
+      <tr class="email">
+         <td><a href="mailto:info@VitalSource.com">info@VitalSource.com</a></td>
+         <td>For general business queries, journalists, reviewers, or other business development or public relations needs.<br /></td>
+      </tr>
+      <tr class="email">
+         <td><a href="mailto:support@VitalSource.com">support@VitalSource.com</a></td>
+         <td>For technical support assistance related to any VitalSource<sup>TM</sup> product or service.<br /></td>
+      </tr>
+   </tbody>
+</table>
+
+<!-- again, i want to eliminate these -->
+<br />
+         </div>
+      
+                  <div id="rightcol">
+         <div class="scm-sidebar">
+            <div class="scm-sidebar-body">
+               
+            </div>
+            </div>
+         </div>
+      
+         <div style="clear:both;" />
+         
+         <div id="footer">
+  <ul id="footer_nav">
+    <li><a href="/about/">» About</a></li>
+    <li><a href="/about/contact/">» Contact</a></li>
+    <li><a href="/legal/privacy/">» Privacy</a></li>
+    <li><a href="/legal/dmca/">» DMCA</a></li>
+    <li><a href="/about/careers/">» Careers</a></li>
+    <li><a href="/sitemap/">» Site Map</a></li>
+    <li><a href="/about/support/">» Support</a></li>
+    <li><a href="/news/vitalsource/">» News Room</a></li>
+  </ul>
+</div>
+         
+      </div><!-- end mainBox -->
+
+      <script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+var pageTracker = _gat._getTracker("UA-290214-1");
+pageTracker._initData();
+pageTracker._trackPageview();
+</script>
+
+   </body>
+</html>
+
