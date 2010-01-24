@@ -1,0 +1,147 @@
+
+<!-- AppStoreHQ:developer_claim_code:fc4633b1deec42f5700a09105d3726926ec458ea -->
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		
+		<title>Birdhouse &mdash; A notepad for Twitter</title>
+		<link rel="stylesheet" href="style.css" type="text/css" media="screen" />
+		
+		<meta name="description" content="Birdhouse is a Twitter notepad for the iPhone." />
+		<meta name="keywords" content="twitter apple iphone birdhouse design technology writing writers favrd lonelysandwich adam lisagor ylnt cameron hunt camh" />
+		
+				
+		<script src="/js/FancyZoom.js" type="text/javascript"></script>
+<script src="/js/FancyZoomHTML.js" type="text/javascript"></script>
+
+<!--[if lt IE 7]>
+	<script src="http://ie7-js.googlecode.com/svn/version/2.0(beta3)/IE7.js" type="text/javascript"></script>
+<![endif]-->
+
+<!--[if lt IE 8]>
+	<script src="http://ie7-js.googlecode.com/svn/version/2.0(beta3)/IE8.js" type="text/javascript"></script>
+<![endif]-->	</head>
+	<body class="wide home" onload="setupZoom()">
+		<div id="header">
+	<div class="inner">
+		<div id="title">
+			<h1><a href="/">Birdhouse</a></h1>
+			<span id="subtitle">A notepad for Twitter</span>
+		</div>
+		
+		<a href="http://click.linksynergy.com/fs-bin/stat?id=FtFLjAm0ClQ&offerid=146261&type=3&subid=0&tmpid=1826&RD_PARM1=http%253A%252F%252Fitunes.apple.com%252FWebObjects%252FMZStore.woa%252Fwa%252FviewSoftware%253Fid%253D309827985%2526mt%253D8%2526partnerId%253D30" title="Buy Birdhouse now" id="appstorelink">Available on the App Store</a>	</div><!-- /.inner -->
+</div><!-- /#header -->		
+		<div id="nav">
+	<ul>
+		<li id="home"><a href="/">Home</a></li>
+		<li id="blog"><a href="http://blog.birdhouseapp.com/">Blog</a></li>
+		<li id="faq"><a href="/faq">FAQ</a></li>
+		<li id="support"><a href="/support">Support</a></li>
+		<li id="praise"><a href="http://praise.birdhouseapp.com/">Praise</a></li>
+		<li id="twitter"><a href="http://twitter.com/birdhouseapp">@birdhouseapp on Twitter</a></li>
+	</ul>
+</div>		
+		<div id="content">
+			<div id="column1" class="column">
+				<span id="tagline">Capture your ideas, refine them later, publish when ready</span>
+				
+				<p>Ever think of something for your Twitter that you don't want to post right away? Birdhouse is the perfect place to put it.</p>
+				<p>Birdhouse won't replace your favorite iPhone Twitter client, it'll add to it. Put Birdhouse right next to your Twitter client and use them together.</p>
+				
+				<h3 id="features">Features</h3>
+				<ul>
+					<li>Quickly jot down your ideas, just like in Notes.</li>
+					<li>Count down to 140 characters, just like in Twitter.</li>
+					<li>Save as many as you want, revisit them later.</li>
+					<li>Capture your ideas offline, even in Airplane mode.</li>
+					<li>Rate drafts with stars and sort by best or by newest.</li>
+					<li>Manage and publish from multiple Twitter accounts.</li>
+					<li>Unpublish the bad ones just as easily.</li>
+					<li>Back everything up through email.</li>
+				</ul>
+			</div>
+			
+			<div id="column2" class="column">
+				<div id="video">
+										<object width="484" height="300"><param name="movie" value="http://www.youtube.com/v/S8yRaWY1xV8&hl=en&fs=1&rel=0&hd=1"></param><param name="allowFullScreen" value="true"></param><param name="allowscriptaccess" value="always"></param><embed src="http://www.youtube.com/v/S8yRaWY1xV8&hl=en&fs=1&rel=0&hd=1" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" wmode="opaque" width="484" height="300"></embed></object>
+									</div>
+				
+				<div id="screenshots">
+					<a href="screenshots/full-1.png" class="screenshot" title="Drafts"><img src="screenshots/thumb-1.png" /></a>
+					<a href="screenshots/full-2.png" class="screenshot" title="Multiple accounts"><img src="screenshots/thumb-2.png" /></a>
+					<a href="screenshots/full-3.png" class="screenshot" title="Write"><img src="screenshots/thumb-3.png" /></a>
+					<a href="screenshots/full-4.png" class="screenshot" title="Account picker"><img src="screenshots/thumb-4.png" /></a>
+					<a href="screenshots/full-5.png" class="screenshot last" title="Settings"><img src="screenshots/thumb-5.png" /></a>
+				</div>
+			</div>
+			
+			<br class="clear" />
+			
+			<h3 id="reviews"><span>Reviews</span></h3>
+			
+			<div id="quotes">
+				<div class="quote">
+					<span class="author">
+						<a href="http://twitter.com/hotdogsladies" class="avatar"><img src="/avatars/merlin.png" /></a>
+						<span class="name withsource"><a href="http://43folders.com">Merlin Mann<span class="source">43 Folders</span></a></span>
+					</span>
+					<p>&#8220;Indispensable for the auteur mobile smartypants who loves hitting the blue tweeter and scoring that red rooster.&#8221;</p>
+				</div>
+				
+				<div class="quote">
+					<span class="author">
+						<a href="http://twitter.com/gruber" class="avatar"><img src="/avatars/gruber.png" /></a>
+						<span class="name withsource"><a href="http://daringfireball.net/linked/2009/04/13/birdhouse">John Gruber<span class="source">Daring Fireball</span></a></span>
+					</span>
+					<p>&#8220;A fussy, precious concept, and the result is a wonderfully fussy and precious app.&#8221;</p>
+				</div>
+				
+				<div class="quote">
+					<span class="author">
+						<a href="http://twitter.com/jack" class="avatar"><img src="/avatars/jack.png" /></a>
+						<span class="name withsource"><a href="http://twitter.com/jack/statuses/1512186176">Jack Dorsey<span class="source">Founder, Twitter</span></a></span>
+					</span>
+					<p>&#8220;Very excited by @birdhouseapp. Another feature I've been wanting, done very well and simply.&#8221;</p>
+				</div>
+				
+				<div class="quote">
+					<span class="author">
+						<a href="http://twitter.com/fireland" class="avatar"><img src="/avatars/fireland.png" /></a>
+						<span class="name withsource"><a href="http://twitter.com/fireland">Joshua Allen<span class="source">@fireland</span></a></span>
+					</span>
+					<p>&#8220;Birdhouse makes me feel less crazy. Or in the company of likeminded crazy people, which is good, too.&#8221;</p>
+				</div>
+				
+				<div class="quote last">
+					<span class="author">
+						<a href="http://twitter.com/pbones" class="avatar"><img src="/avatars/pbones.jpeg" /></a>
+						<span class="name withsource"><a href="http://www.rogueamoeba.com/">Paul Kafasis<span class="source">CEO, Rogue Amoeba</span></a></span>
+					</span>
+					<p>&#8220;If you consider what you say on Twitter at all important, you owe it to yourself to download Birdhouse.&#8221;</p>
+				</div>
+				
+				<br class="clear" />
+			</div>
+			<a href="http://click.linksynergy.com/fs-bin/stat?id=FtFLjAm0ClQ&offerid=146261&type=3&subid=0&tmpid=1826&RD_PARM1=http%253A%252F%252Fitunes.apple.com%252FWebObjects%252FMZStore.woa%252Fwa%252FviewSoftware%253Fid%253D309827985%2526mt%253D8%2526partnerId%253D30" title="Download Birdhouse" id="downloadlink">Seen enough? Download on the iTunes App Store</a>		</div><!-- /#content -->
+		
+		<br class="clear"/>
+		
+<div id="footer">
+	<p id="copyright">Copyright 2008 - 2009 <a href="http://lonelysandwich.com">Adam Lisagor</a> &amp; <a href="http://cameron.io">Cameron Hunt</a>  <a id="muddy" href="images/muddbuddy.png">&#9889;</a></p>
+	<p id="credits"><strong>On the shoulders of giants:</strong> Birdhouse makes use of <a href="http://mattgemmell.com/source">MGTwitterEngine</a> by <a href="http://mattgemmell.com/">Matt Legend Gemmell</a>, <a href="http://www.flyingmeat.com/free/">FMDB by Gus Mueller</a>, space-truncation code by <a href="http://twitter.com/dwineman">Dan Wineman</a>, and <a href="http://blog.atebits.com/2008/12/fast-scrolling-in-tweetie-with-uitableview/">fast scrolling example code by Loren Brichter</a>. Spiritual guidance by <a href="http://twitter.com/PBones">Paul Kafasis</a>.</p>
+	<br class="clear" />
+</div><!-- /#footer -->
+
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-7964509-1");
+pageTracker._trackPageview();
+} catch(err) {}</script>	</body>
+</html>
