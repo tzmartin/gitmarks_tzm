@@ -1,0 +1,334 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="en-US">
+
+<head profile="http://gmpg.org/xfn/11">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+<title>The Search API is here. Full Conversation Search and Powerful Filtering among top features &laquo;  ContextVoice : Social comments API</title>
+<link rel="icon" href="http://contextvoice.com/favicon.ico" type="image/x-icon"/>
+<link rel="stylesheet" href="http://contextvoice.com/wp-content/themes/contextvoice/style.css" type="text/css" media="screen" />
+<link rel="alternate" type="application/rss+xml" title="ContextVoice : Social comments API RSS Feed" href="http://feeds.feedburner.com/ubervu" />
+<link rel="pingback" href="http://contextvoice.com/xmlrpc.php" />
+<script type="text/javascript" src="http://contextvoice.com/wp-content/themes/contextvoice/script.js"></script>
+
+<link rel="alternate" type="application/rss+xml" title="ContextVoice : Social comments API &raquo; The Search API is here. Full Conversation Search and Powerful Filtering among top features Comments Feed" href="http://contextvoice.com/2009/09/08/the-search-api-is-here-full-conversation-search-and-powerful-filtering-among-top-features/feed/" />
+<script type='text/javascript' src='http://contextvoice.com/wp-includes/js/comment-reply.js?ver=20090102'></script>
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://contextvoice.com/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://contextvoice.com/wp-includes/wlwmanifest.xml" /> 
+<link rel='index' title='ContextVoice : Social comments API' href='http://contextvoice.com' />
+<link rel='start' title='The Web is Distributed, Your Attention Shouldn&#8217;t Be' href='http://contextvoice.com/2008/01/18/the-web-is-distributed-your-attention-shouldnt-be/' />
+<link rel='prev' title='Threaded conversations and platforms update' href='http://contextvoice.com/2009/07/27/threded-conversations-and-platforms-update/' />
+<link rel='next' title='Context Voice adds language filtering' href='http://contextvoice.com/2009/10/26/context-voice-adds-language-filtering/' />
+<meta name="generator" content="WordPress 2.8" />
+<link rel="stylesheet" href="http://disqus.com/stylesheets/ubervu/disqus.css?v=2.0" type="text/css" media="screen" /></head>
+<body>
+<div id="header">
+  <div id="header_content">
+    <h1 id="logo"><a href="http://contextvoice.com"><img src="http://contextvoice.com/wp-content/themes/contextvoice/images/default.gif" alt="" /></a></h1>
+    <ul id="top_menu">
+      <li class="page_item page-item-6"><a href="http://contextvoice.com/service-description/overview/" title="Service description">Service description</a></li>
+<li class="page_item page-item-8"><a href="http://contextvoice.com/applications/" title="Applications">Applications</a></li>
+<li class="page_item page-item-10"><a href="http://developer.contextvoice.com" title="Developers">Developers</a></li>
+<li class="page_item page-item-12 current_page_parent"><a href="http://contextvoice.com/blog/" title="Blog">Blog</a></li>
+<li class="page_item page-item-2"><a href="http://www.contextvoice.com/about/company/" title="About">About</a></li>
+    </ul>
+  </div>
+</div>
+
+<div id="page_title_container">
+  <h1 id="page_title">The Blog</h1>
+  <form id="page_menu">
+    <input type="text" name="keyword" />
+    <input type="submit" value="search" />
+  </form>
+</div>
+
+<div class="content">
+  <div id="content_left">
+<div class="navigation">
+                        <div class="alignleft">&laquo; <a href="http://contextvoice.com/2009/07/27/threded-conversations-and-platforms-update/">Threaded conversations and platforms update</a></div>
+                        <div class="alignright"><a href="http://contextvoice.com/2009/10/26/context-voice-adds-language-filtering/">Context Voice adds language filtering</a> &raquo;</div>
+                </div>
+<div style="height: 10px; clear: both"></div>
+
+                
+<div claass="blogpost">
+      <div class="blogpost_title_container">
+        <h2 class="blogpost_title">The Search API is here. Full Conversation Search and Powerful Filtering among top features</h2>
+        <div class="blogpost_comments"></a><noscript><a href="http://ubervu.disqus.com/?url=http://contextvoice.com/2009/09/08/the-search-api-is-here-full-conversation-search-and-powerful-filtering-among-top-features/">View comments</a></noscript><a class="dsq-comment-count" href="http://contextvoice.com/2009/09/08/the-search-api-is-here-full-conversation-search-and-powerful-filtering-among-top-features/#disqus_thread" wpid="498">Comments</a></div>
+      </div>
+      <div class="blogpost_details">Posted in <a href="http://contextvoice.com/category/news/" title="View all posts in News" rel="category tag">News</a> |  by Dragos ILINCA | September 8th, 2009</div>
+<p>Today is party time at ContextVoice / uberVU as we’re officialy launching our <a href="http://developer.contextvoice.com/docs/api_methods_version_12/Search_for_a_keyword_or_a_URL">Search API</a> as part of the ContextVoice suite of APIs.</p>
+<h3>Why another Search API? Don’t we have blog search and Twitter search already?</h3>
+<p>Yes, we do. But we do something completely different. We do conversational search. A conversation is usually a story (blog post, news article) and all its related comments from all over the Web. So a blog post that has comments on Digg, has been retweeted by people and has got comments on FriendFeed is, for us, a single conversation.</p>
+<p>Blog search only indexes blog posts and leaves out comments of any kind. And it’s usually slow.</p>
+<p>Twitter indexes only tweets that contain the keyword you’re searching for. It’s close to real-time.</p>
+<p>We index both the story content and all the distributed comment content and we return as  a result complete conversations. And we’re close to real-time. The best of both worlds.</p>
+<h3>And this is useful because&#8230;?</h3>
+<p>The Web right now is all about conversations. However, until now, search engines have mostly returned results by relevance (Google), recency (Twitter) or some sort of combination (blog search). <strong>But out of those recent results, which one is more important? Where&#8217;s all the attention? What&#8217;s hot right now as opposed to what&#8217;s just fresh?<br />
+</strong><br />
+What’s very important to know is what Conversations (not blog posts) are HOT right now &#8211; so you can participate and make decisions in close to real-time. That’s what our API is focusing on.</p>
+<h3>What to expect from our search</h3>
+<p><strong>Full conversation search.</strong> Because we don’t index just page content but all the reactions and comments from all over the web our results offer a better understanding of the conversation than a regular blog search. The blog post may be about the Google OS, but the comments are mostly about Microsoft. Our <a href="http://developer.contextvoice.com/docs/api_methods_version_12/Search_for_a_keyword_or_a_URL">Search</a> makes that visible to you.</p>
+<p><strong>Close To Real-Time results.</strong> We monitor the top social media sites in realtime so if something happens there, you know instantly.</p>
+<p><strong>Filtering options.</strong> We can show you the most relevant, the newest  or the hottest conversations. We calculate the hotness based on conversation acceleration &#8211; how many reactions it got in the last time-frame. So a conversation with 10 reactions in the last minute may be hotter than one with 1500 reactions distributed over a month. <strong>But the hot conversation matters more, because that’s the one that has the attention and momentum.<br />
+</strong></p>
+<h3>What to build with the API</h3>
+<p>The <a href="http://developer.contextvoice.com/docs/api_methods_version_12/Search_for_a_keyword_or_a_URL">Search</a> we provide can be used in a lot of products and dashboards. <a href="http://www.ubervu.com">uberVU.com</a>, for example, is entirely built on top of this API. You should check it out as it’s a great starting point for what’s possible with the Search API.</p>
+<p><strong>Social media dashboards</strong> &#8211; want to search entire conversations for your brand of product and get an insight into what’s hot right now and where the attention is &#8211; whether on Twitter, FriendFeed or blogs? The <a href="http://developer.contextvoice.com/docs/api_methods_version_12/Search_for_a_keyword_or_a_URL">Search API</a> is a great place to start</p>
+<p><strong>Memetrackers</strong> &#8211; interested in building a meme site for the NFL or the latest gadgets? Just use the <a href="http://developer.contextvoice.com/docs/api_methods_version_12/Search_for_a_keyword_or_a_URL">Search API</a> and get the hottest conversations about that topic in close to real-time.</p>
+<p><strong>Community management projects</strong> &#8211; want to bring fresh content and community conversations from all over the Web to your site or community? Search for the topics you’re interested in with our <a href="http://developer.contextvoice.com/docs/api_methods_version_12/Search_for_a_keyword_or_a_URL">Search API</a> and expose the hottest conversations on your site. We don’t just get the stories, we get the comments. And the comments are the most important part of a community. People comment if other people have commented. That’s what you want.</p>
+<p><strong>Financial analytics</strong> &#8211; search for your favorite company and graph comments to the evolution of the stock quote. You may be intrigued at what you find.</p>
+<p>These are just some starting ideas, I’m sure there’s a lot more you can think of.</p>
+</div>
+
+			<div class="entry">
+				<p class="postmetadata alt">
+					<small>
+						This entry was posted
+												on Tuesday, September 8th, 2009 at 5:46 pm						and is filed under <a href="http://contextvoice.com/category/news/" title="View all posts in News" rel="category tag">News</a>.
+						You can follow any responses to this entry through the <a href='http://contextvoice.com/2009/09/08/the-search-api-is-here-full-conversation-search-and-powerful-filtering-among-top-features/feed/'>RSS 2.0</a> feed.
+
+													You can skip to the end and leave a response. Pinging is currently not allowed.
+
+						
+					</small>
+				</p>
+
+			</div>
+
+	
+<div id="disqus_thread">
+	<div id="dsq-content">
+		<ul id="dsq-comments">
+			<div id="comment-60616374"></div>
+
+			<li id="dsq-comment-60616374">
+				<div id="dsq-comment-header-60616374" class="dsq-comment-header">
+					<cite id="dsq-cite-60616374">
+						<a id="dsq-author-user-60616374" href="http://freelancewritingstyle.wordpress.com/" target="_blank" rel="nofollow">prospectsolutions</a>
+					</cite>
+				</div>
+				<div id="dsq-comment-body-60616374" class="dsq-comment-body">
+					<div id="dsq-comment-message-60616374" class="dsq-comment-message">With your site, there is always a <a href="http://college.monster.com/news/articles/1184-prospectsolutioncom-offers-freelance-writing-jobs-for-university-students" rel="nofollow">prospect solution</a> to everyday&#39;s challenges. thank you for making our lives easy.</div>
+				</div>
+			</li>
+			<div id="comment-60400283"></div>
+
+			<li id="dsq-comment-60400283">
+				<div id="dsq-comment-header-60400283" class="dsq-comment-header">
+					<cite id="dsq-cite-60400283">
+						<span id="dsq-author-user-60400283">Hedden786</span>
+					</cite>
+				</div>
+				<div id="dsq-comment-body-60400283" class="dsq-comment-body">
+					<div id="dsq-comment-message-60400283" class="dsq-comment-message"><a href="http://servetechnology.com" rel="nofollow">Serve Technology</a><br></div>
+				</div>
+			</li>
+			<div id="comment-53726541"></div>
+
+			<li id="dsq-comment-53726541">
+				<div id="dsq-comment-header-53726541" class="dsq-comment-header">
+					<cite id="dsq-cite-53726541">
+						<a id="dsq-author-user-53726541" href="http://www.jobspert.com" target="_blank" rel="nofollow">Lionel</a>
+					</cite>
+				</div>
+				<div id="dsq-comment-body-53726541" class="dsq-comment-body">
+					<div id="dsq-comment-message-53726541" class="dsq-comment-message">The practice of publishing APIs has allowed web communities to create an open architecture for sharing content and data between communities and applications. In this way, content that is created in one place can be dynamically posted and updated in multiple locations on the web<br>.<br>Photos can be shared from sites like Flickr and Photobucket to social network sites like Facebook and MySpace.<br><br>Content can be embedded, e.g. embedding a presentation from SlideShare on a LinkedIn profile.<br><br>Content can be dynamically posted. Sharing live comments made on Twitter with a Facebook account, for example, is enabled by their APIs.<br><br>Video content can be embedded on sites which are served by another host.<br><br>User information can be shared from web communities to outside applications, delivering new functionality to the web community that shares its user data via an open API. One of the best examples of this is the Facebook Application platform. Another is the Open Social platform.<br><br><a href="http://www.jobspert.com" rel="nofollow"> job vacancies </a></div>
+				</div>
+			</li>
+			<div id="comment-53144466"></div>
+
+			<li id="dsq-comment-53144466">
+				<div id="dsq-comment-header-53144466" class="dsq-comment-header">
+					<cite id="dsq-cite-53144466">
+						<a id="dsq-author-user-53144466" href="http://www.naturalk9supplies.com/Dog-Treats/baked-treats.aspx" target="_blank" rel="nofollow">Baked Dog Treats</a>
+					</cite>
+				</div>
+				<div id="dsq-comment-body-53144466" class="dsq-comment-body">
+					<div id="dsq-comment-message-53144466" class="dsq-comment-message">It is incomprehensible to me now, but in general, the usefulness and significance is overwhelming. Thanks again and good luck!</div>
+				</div>
+			</li>
+			<div id="comment-50116539"></div>
+
+			<li id="dsq-comment-50116539">
+				<div id="dsq-comment-header-50116539" class="dsq-comment-header">
+					<cite id="dsq-cite-50116539">
+						<a id="dsq-author-user-50116539" href="http://pusatbelanjaonline.com" target="_blank" rel="nofollow">Pusat</a>
+					</cite>
+				</div>
+				<div id="dsq-comment-body-50116539" class="dsq-comment-body">
+					<div id="dsq-comment-message-50116539" class="dsq-comment-message">very useful</div>
+				</div>
+			</li>
+			<div id="comment-48320487"></div>
+
+			<li id="dsq-comment-48320487">
+				<div id="dsq-comment-header-48320487" class="dsq-comment-header">
+					<cite id="dsq-cite-48320487">
+						<a id="dsq-author-user-48320487" href="http://www.flashpapers.com" target="_blank" rel="nofollow">Term Papers</a>
+					</cite>
+				</div>
+				<div id="dsq-comment-body-48320487" class="dsq-comment-body">
+					<div id="dsq-comment-message-48320487" class="dsq-comment-message">Nice information, many thanks to the author. It is incomprehensible to me now, but in general, the usefulness and significance is overwhelming. Thanks again and good luck!</div>
+				</div>
+			</li>
+			<div id="comment-46958872"></div>
+
+			<li id="dsq-comment-46958872">
+				<div id="dsq-comment-header-46958872" class="dsq-comment-header">
+					<cite id="dsq-cite-46958872">
+						<a id="dsq-author-user-46958872" href="http://pusatbelanjaonline.com" target="_blank" rel="nofollow">Pusat</a>
+					</cite>
+				</div>
+				<div id="dsq-comment-body-46958872" class="dsq-comment-body">
+					<div id="dsq-comment-message-46958872" class="dsq-comment-message">very useful</div>
+				</div>
+			</li>
+			<div id="comment-42533452"></div>
+
+			<li id="dsq-comment-42533452">
+				<div id="dsq-comment-header-42533452" class="dsq-comment-header">
+					<cite id="dsq-cite-42533452">
+						<a id="dsq-author-user-42533452" href="http://www.transferpod.com/" target="_blank" rel="nofollow">mac to ipod</a>
+					</cite>
+				</div>
+				<div id="dsq-comment-body-42533452" class="dsq-comment-body">
+					<div id="dsq-comment-message-42533452" class="dsq-comment-message">Its nice to know that you monitor the top social media sites in realtime so if something happens there, you know instantly. Congratulations for making this possible. Thanks for informing us anyway.</div>
+				</div>
+			</li>
+			<div id="comment-41348393"></div>
+
+			<li id="dsq-comment-41348393">
+				<div id="dsq-comment-header-41348393" class="dsq-comment-header">
+					<cite id="dsq-cite-41348393">
+						<a id="dsq-author-user-41348393" href="http://www.superiorpapers.com/" target="_blank" rel="nofollow">Essay writers</a>
+					</cite>
+				</div>
+				<div id="dsq-comment-body-41348393" class="dsq-comment-body">
+					<div id="dsq-comment-message-41348393" class="dsq-comment-message">Very useful search, mostly if you like a full conversion search and good thing they have filtering options.</div>
+				</div>
+			</li>
+		</ul>
+	</div>
+</div>
+
+<a href="http://disqus.com" class="dsq-brlink">blog comments powered by <span class="logo-disqus">Disqus</span></a>
+
+<script type="text/javascript" charset="utf-8">
+	var disqus_url = 'http://contextvoice.com/2009/09/08/the-search-api-is-here-full-conversation-search-and-powerful-filtering-among-top-features/ ';
+	var disqus_container_id = 'disqus_thread';
+	var facebookXdReceiverPath = 'http://contextvoice.com/wp-content/plugins/disqus-comment-system/xd_receiver.htm';
+</script>
+
+<script type="text/javascript" charset="utf-8">
+	var DsqLocal = {
+		'trackbacks': [
+		],
+		'trackback_url': 'http://contextvoice.com/2009/09/08/the-search-api-is-here-full-conversation-search-and-powerful-filtering-among-top-features/trackback/'
+	};
+</script>
+
+<script type="text/javascript" charset="utf-8" src="http://disqus.com/scripts/ubervu/disqus.js?v=2.0&slug=the_search_api_is_here_full_conversation_search_and_powerful_filtering_among_top_features&pname=wordpress&pver=2.11"></script>
+
+	
+	</div>
+   </div>
+  <!-- sidebar -->
+  <div id="content_right">
+    <div class="rightbox_container">
+      <div class="rightbox_title">SUBSCRIBE</div>
+      <div class="rightbox_content_container">
+        <div class="subscribe_item"><a style="background: url(http://contextvoice.com/wp-content/themes/contextvoice/images/rss.jpg) 0px 0px no-repeat;" href="http://feeds.feedburner.com/ubervu" rel="external" target="_blank">to posts</a></div>
+        <div class="subscribe_item"><a style="background: url(http://contextvoice.com/wp-content/themes/contextvoice/images/rss.jpg) 0px 0px no-repeat;" href="http://ubervu.disqus.com/latest.rss" rel="external" target="_blank">to comments</a></div>
+        <div style="clear: both;"></div>
+      </div>
+      <div class="rightbox_content_bottom"><img src="http://contextvoice.com/wp-content/themes/contextvoice/images/default.gif" alt="" /></div>
+    </div>
+    
+    <div class="rightbox_container">
+      <div class="rightbox_title">STAY UP TO DATE</div>
+      <div class="rightbox_content_container">
+        <div id="newsletter_text">We'll send you all the news and showcases. So you won't lose a thing:</div>
+        <form action="http://ubervu.list-manage.com/subscribe/post?u=c2e630d0baf7067c9043b86f8&amp;id=c2e907e3d5" method="post">
+          <div class="rightbox_content_whitebg">
+            <div class="form_row">
+              <div class="form_item_name">First name *</div>
+              <div class="form_item_input"><input type="text" name="FNAME" /></div>
+            </div>
+            <div class="form_row">
+              <div class="form_item_name">Last name</div>
+              <div class="form_item_input"><input type="text" name="LNAME" /></div>
+            </div>
+            <div class="form_row">
+              <div class="form_item_name">Your email *</div>
+              <div class="form_item_input"><input type="text" name="EMAIL" /></div>
+            </div>
+          </div>
+          <div id="newsletter_submit"><input type="submit" value="Sign me in" /></div>
+        </form>
+      </div>
+      <div class="rightbox_content_bottom"><img src="http://contextvoice.com/wp-content/themes/contextvoice/images/default.gif" alt="" /></div>
+    </div>
+
+    <div class="rightbox_container">
+      <div class="rightbox_title">WE WRITE ABOUT</div>
+      <div class="rightbox_content_container">
+	<div id="blogroll_links">
+        	<a href="http://contextvoice.com/category/attention-economy/" title="View all posts filed under Attention Economy">Attention Economy</a><br />
+	<a href="http://contextvoice.com/category/creative-destruction/" title="View all posts filed under Creative Destruction">Creative Destruction</a><br />
+	<a href="http://contextvoice.com/category/distribution/" title="View all posts filed under Distribution">Distribution</a><br />
+	<a href="http://contextvoice.com/category/expression/" title="View all posts filed under Expression">Expression</a><br />
+	<a href="http://contextvoice.com/category/uncategorized/" title="View all posts filed under General">General</a><br />
+	<a href="http://contextvoice.com/category/news/" title="View all posts filed under News">News</a><br />
+	<a href="http://contextvoice.com/category/reviews/" title="View all posts filed under Reviews">Reviews</a><br />
+	<a href="http://contextvoice.com/category/sneak-peak/" title="View all posts filed under Sneak peak">Sneak peak</a><br />
+	<a href="http://contextvoice.com/category/the-now-culture/" title="View all posts filed under The Now Culture">The Now Culture</a><br />
+	</div>
+        <div style="clear: both;"></div>
+      </div>
+      <div class="rightbox_content_bottom"><img src="http://contextvoice.com/wp-content/themes/contextvoice/images/default.gif" alt="" /></div>
+    </div>
+    
+    <div class="rightbox_container">
+      <div class="rightbox_title">FRIENDS</div>
+      <div class="rightbox_content_container">
+        <div id="blogroll_links">
+          <a href="http://andrewchenblog.com/" target="_blank">Andrew Chen</a><br />
+<a href="http://felicis.typepad.com/" target="_blank">Aydin Senkut</a><br />
+<a href="http://www.basekitblog.co.uk/" target="_blank">BaseKit</a><br />
+<a href="http://www.bobbyvoicu.ro/">Bobby Voicu</a><br />
+<a href="http://500hats.typepad.com/" target="_blank">Dave McClure</a><br />
+<a href="http://blog.lefora.com/" target="_blank">Lefora</a><br />
+<a href="http://blog.mobclix.com/" target="_blank">Mobclix</a><br />
+<a href="http://localglobe.blogspot.com/" target="_blank">Saul Klein</a><br />
+<a href="http://www.screditcrunch.com/" target="_blank">Scred</a><br />
+<a href="http://blog.seedcamp.com/" target="_blank">Seedcamp</a><br />
+<a href="http://updates.soup.io/" target="_blank">Soup</a><br />
+<a href="http://stupeflix.com/" target="_blank">Stupeflix</a><br />
+<a href="http://www.toddsampson.com/" target="_blank">Todd Sampson</a><br />
+<a href="http://blog.toksta.com/" target="_blank">Toksta</a><br />
+<a href="http://www.vladstan.com/" target="_blank">Vlad Stan</a><br />
+        </div>
+        <div style="clear: both;"></div>
+      </div>
+      <div class="rightbox_content_bottom"><img src="http://contextvoice.com/wp-content/themes/contextvoice/images/default.gif" alt="" /></div>
+    </div>
+    
+  </div>
+<!-- end sidebar -->
+</div>
+
+<div id="footer">&copy; Copyright 2008-2010 uberVU Ltd. All rights reserved.<br/><a href="http://contextvoice.com/terms-of-service/">Terms of service</a></div>
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-9276363-1");
+pageTracker._trackPageview();
+} catch(err) {}</script>
+</body>
+</html>
+
