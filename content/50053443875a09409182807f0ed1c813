@@ -1,0 +1,594 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<title>Auto Repair - Diagnostics, Estimates, Guides, Shops &amp; Mechanics | AutoMD</title>
+<meta name="description" content="Free auto repair advice from the best professional and DIY auto repair community online." />
+<meta name="keywords" content="auto repair" />
+<meta name="google-site-verification" content="nApDuQ5cq5UUDnYSYSglUJAZY4GvCHmUfSKJPcJT9cA" />
+<link rel="icon" href="/favicon.ico" type="image/x-icon">
+<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+<link rel="stylesheet" href="http://cdn.automd.com/function/combo?t=css&f=screen.css:m,style.css:m,containers.css:m,login.css:m,autocomplete.css:m,selectjob.css:m,header.css:m,search.css:m,home.css:m&v=1.14.1" type="text/css"charset="utf-8" />
+</head>   
+<body class="home">
+<div id="all">
+<div id="header">
+<div id="header-top">
+<a id="logo" href="/">AutoMD</a>
+<div class="dartleaderboard" >
+<iframe id="dart728x90" name="dart728x90" width="728" height="90" marginwidth="0" marginheight="0" frameborder="0" scrolling="no"></iframe>
+</div>	</div>
+<div id="header-nav" class="cfix">
+<div id="vehicle">
+<a href="javascript:;" id="toggle-vehicle-select" class="car-picker">select vehicle</a>
+<div id="vehicle-header">
+<div class="head no-vehicle"><a href="javascript:;" class="car-picker">Add Your Vehicle</a></div>
+</div>
+<div id="vehicle-header-sub">and see the latest TSBs, Recalls and more</div>
+</div>
+<ul id="nav">
+<li class="nav-item nav-pit-crew nav-item-first nav-item-new">
+<div class="nav-new">new</div>
+<a href="/pitcrew/">AutoMD Pit Crew</a>
+<div class="nav-item-divider"></div>
+</li>
+<li class="nav-item nav-diagnose"><a href="/diagnose/">Diagnose</a><div class="nav-item-divider"></div></li>
+<li class="nav-item nav-estimate-cost"><a href="/repaircost/">Estimate Cost</a><div class="nav-item-divider"></div></li>
+<li class="nav-item nav-find-shop"><a href="/shops/">Find a Shop</a><div class="nav-item-divider"></div></li>
+<li class="nav-item nav-how-to"><a href="/how-to/">How-To-Guides</a><div class="nav-item-divider"></div></li>
+<li class="nav-item nav-answers nav-item-last"><a href="/answers/">Auto Answers</a></li>
+</ul>
+</div>
+<div id="header-subnav" class="cfix">
+<div id="search">
+<form action="/search" method="get" accept-charset="utf-8" id="search-main-form">
+<input type="text" class="text" name="q" value="" id="search_main" /><input class="submit" id="btn-search" type="submit" value="" title="search" />
+<input type="hidden" name="gsearch" value="ys" />
+</form>
+</div>
+<ul id="subnav-list">
+<li class="subnav-list-item"><span class="subnav-list-intro">Welcome to AutoMD!</span> <a href="javascript:;" class="btn-login">Sign In</a></li>
+<li class="subnav-list-item subnav-list-item-last"><a href="javascript:;" class="btn-register">Register</a></li>
+</ul>
+</div>
+</div>
+<div id="hero">
+<div id="hero-c">
+<div class="slide slide-1">
+<img src="http://cdn.automd.com/images/hs-bg-n1.jpg" border="0" alt="hero shot">
+<a class="amd-iphone" href="/iphone-auto-repair/">AutoMD on iPhone!</a>
+<a class="diagnose" href="/diagnose/">Diagnose</a>
+<a class="estimate-costs" href="/repaircost/">Estimate Costs</a>
+<a class="find-a-shop" href="/shops/">Find a Shop</a>
+<a class="how-to" href="/how-to/">How To</a>
+<a class="answers" href="/answers/">Answers</a>
+<a href="#" class="tt">Tour AutoMD &raquo;</a>
+</div>
+<div class="slide slide-2" style="display: none;">
+<img src="http://cdn.automd.com/images/hs/hs-bg-diagnose.jpg" alt="diagnose">
+<a href="#" class="rt btn-estimate-costs"></a>
+<a href="#close" class="tour-close">Close</a>
+</div>
+<div class="slide slide-3" style="display: none;">
+<img src="http://cdn.automd.com/images/hs/hs-bg-estimate-costs.jpg" alt="estimate costs">
+<a href="#" class="rt btn-find-a-shop"></a>
+<a href="#close" class="tour-close">Close</a>
+</div>
+<div class="slide slide-4" style="display: none;">
+<img src="http://cdn.automd.com/images/hs/hs-bg-find-a-shop.jpg" alt="find a shop">
+<a href="#" class="rt btn-how-to"></a>
+<a href="#close" class="tour-close">Close</a>
+</div>
+<div class="slide slide-5" style="display: none;">
+<img src="http://cdn.automd.com/images/hs/hs-bg-how-to.jpg" alt="how-to">
+<a href="#" class="rt btn-answers"></a>
+<a href="#close" class="tour-close">Close</a>
+</div>
+<div class="slide slide-6 last" style="display: none;">
+<img src="http://cdn.automd.com/images/hs/hs-bg-answers.jpg" alt="answers">
+<a href="#" class="rt hm"></a>
+<a href="#close" class="tour-close">Close</a>
+</div>
+</div>
+</div>
+<div id="area">
+<div id="area-c">
+<div id="content">
+<form id="tsb-form" method="get" action="/recall-tsb/search/" class="tsb-widget-frm">
+<div id="ad-tsbs-recalls-home">
+<div class="select-ymm">
+<select id="tsb-year" class="select" name="year"><option>Select Year</option></select>
+<select id="tsb-make" class="select" name="make" disabled="disabled"><option>Select Make</option></select>
+<select id="tsb-model" class="select" name="model" disabled="disabled"><option>Select Model</option></select>
+</div>
+<div class="widget-go"><input type="submit" border="0" value="" class="btn-go"></div>
+</div>
+</form>			<div class="w split">
+<div class="left amd-cities" >
+<h3 class="grey-box"><span>Auto Answers</span></h3>
+<div id="container-answers">
+<div class="answers-heading">Get your repair questions answered.</div>
+<div class="answers-info">
+<div class="graytxt">1992 Chevrolet S10 Base 6Cyl 4.3L</div>
+<div class="ap1"></div><div class="user-question"><a href="/answers/how-iremove-broken-piece-frem-block-threaded_q40748/"" class="question">how do iremove broken piece frem block that is threaded in</a> <img border="0" src="/images/ap2.gif" alt="apos"></div>
+<div class="clear"></div>
+<div class="asked-by">Asked by <a rel="nofollow" href="/members/kev-leader_52533/"><strong>Kev Leader</strong> </a>- Last updated 15 minutes ago</div>
+</div>
+<div class="answers-questions">
+<div class="f-left w150"><a class="ask-question" href="/answers/ask/">Ask a Question &raquo;</a></div>
+<div align="right" class="f-left w150"><a class="ask-question" href="/answers/how-iremove-broken-piece-frem-block-threaded_q40748/">View Questions &raquo;</a></div>
+</div>
+</div>
+</div>
+<div class="right amd-cities" id="intro">
+<h3 class="grey-box"><span>AutoMD&rsquo;s Top 5 Easiest Repair Jobs</span></h3>
+<img src="http://cdn.automd.com/images/h-easiest-leave-expert-bg.png" border="0" class="summer-hs m0" alt="wrenches" />
+<div class="top-5s">
+<h2>5 Easy Jobs</h2>
+1. Replace Wiper Blades
+<br />2. Replace a Fuse
+<br />3. Replace a Light Bulb
+<br />4. Replace an Air Filter
+<br />5. Change Oil and Filter
+</div>
+<div class="top-5s-xp">
+<h2>5 Jobs for the Experts</h2>
+1. Replacing an Engine
+<br />2. Replacing a Transmission
+<br />3. Replacing a Clutch
+<br />4. Replacing A/C
+<br />5. Aligning Wheels
+</div>
+<br class="clear" />
+<p align="right"><a href="/About-AutoMD/Press/6-29-2010">See the Top 5&rsquo;s inside &raquo;</a>
+</div>
+</div>
+<div  class="top-howto">
+<h2 class="m0 bluetxt main-heading"><span>Auto Repair How-To Guides and Videos</span></h2>
+<div class="howto-cat">
+<h3 class="grey-box"><span>Categories</span></h3>
+<ul class="top-guides l-none">
+<li>
+<a href="javascript:;" class="f-left">
+<img src="http://cdn.automd.com/images/category-1.jpg" width="38" height="38" border="0" alt="category 1" /></a>
+<span class="f-left">
+<h3 class="bluetxt m0"><a href="/category/1/body-interior/">Body & Interior</a></h3>
+98 topics available
+</span>
+</li>
+<li>
+<a href="javascript:;" class="f-left">
+<img src="http://cdn.automd.com/images/category-6.jpg" width="38" height="38" border="0" alt="category 6" /></a>
+<span class="f-left">
+<h3 class="bluetxt m0"><a href="/category/6/engine/">Engine</a></h3>
+82 topics available
+</span>
+</li>
+<li>
+<a href="javascript:;" class="f-left">
+<img src="http://cdn.automd.com/images/category-12.jpg" width="38" height="38" border="0" alt="category 12" /></a>
+<span class="f-left">
+<h3 class="bluetxt m0"><a href="/category/12/transmissions-drivetrains/">Transmissions & Drivetrains</a></h3>
+30 topics available
+</span>
+</li>
+<li>
+<a href="javascript:;" class="f-left">
+<img src="http://cdn.automd.com/images/category-17.jpg" width="38" height="38" border="0" alt="category 17" /></a>
+<span class="f-left">
+<h3 class="bluetxt m0"><a href="/category/17/brakes/">Brakes</a></h3>
+27 topics available
+</span>
+</li>
+<li>
+<a href="javascript:;" class="f-left">
+<img src="http://cdn.automd.com/images/category-22.jpg" width="38" height="38" border="0" alt="category 22" /></a>
+<span class="f-left">
+<h3 class="bluetxt m0"><a href="/category/22/steering-suspension/">Steering & Suspension</a></h3>
+19 topics available
+</span>
+</li>
+<li>
+<a href="javascript:;" class="f-left">
+<img src="http://cdn.automd.com/images/category-25.jpg" width="38" height="38" border="0" alt="category 25" /></a>
+<span class="f-left">
+<h3 class="bluetxt m0"><a href="/category/25/preventive-maintenance/">Preventive Maintenance</a></h3>
+37 topics available
+</span>
+</li>
+</ul>
+<br class="clear" />
+<a href="http://www.automd.com/car-repair-guides-list/" class="f-right">See all Guides &rarr;</a>
+</div>
+<div class="howto-vids">
+<h3 class="grey-box"><span>Videos</span></h3>
+<h3 class="bluetxt m0">How to Adjust a Hood Release Latch</h3>
+<div class="f-video" id="f_player"></div>
+<a href="/how-to/adjust-a-hood-release-latch-video_7637/" title="How to Adjust a Hood Release Latch" class="f-right">See all Videos &rarr;</a>
+</div>
+</div>
+</div>
+<div id="right">
+<div class="ad-own-repair-shop"><a href="/user/shop_registration">Own a repair shop?</a></div>			<div>
+<div class="ad-h"><span>advertisement</span></div>
+<iframe id="dart300x250" name="dart300x250" width="300" height="250" marginwidth="0" marginheight="0" frameborder="0" scrolling="no"></iframe>
+</div>            <div id="hp-sidebar-container" class="mt">
+<h1 class="heading1">AutoMD in the News</h1>
+<p>
+<span class="aba f-right"><a href="http://www.stevieawards.com/aba/" rel="nofollow" target="_blank"><img src="http://cdn.automd.com/images/ABA10_Winner_Small.jpg" alt="" title="" style="height:100px"/></a></span>
+<strong>American Business Awards</strong><br />AutoMD Best Automotive Website
+</p>
+<br />
+<p><strong>CBS Early Show</strong><br />Is Your Mechanic Taking You for a Ride?</p>
+<p align="right"><a href="/About-AutoMD/News/" class="view-all">View All &raquo;</a></p>
+</div>
+</div>
+<div class="clear"></div>
+</div>
+</div>
+<div class="clear">&nbsp;</div>
+<div id="seo-links">
+<div class="seo-repair-make">
+<div class="repair-mmgsc">
+<ul>
+<li class="repair-h1">Repair by Make</li>
+<li><a href="/repair/chevrolet_m16/" id="chevrolet_m16">Chevrolet Repair</a></li>
+<li><a href="/repair/ford_m19/" id="ford_m19">Ford Repair</a></li>
+<li><a href="/repair/dodge_m24/" id="dodge_m24">Dodge Repair</a></li>
+<li><a href="/repair/toyota_m7/" id="toyota_m7">Toyota Repair</a></li>
+<li><a href="/repair/honda_m12/" id="honda_m12">Honda Repair</a></li>
+<li><a href="/repair/nissan_m15/" id="nissan_m12">Nissan Repair</a></li>
+<li><a href="/repair/pontiac_m26/" id="pontiac_m26">Pontiac Repair</a></li>
+<li><a href="/repair/jeep_m37/" id="jeep_m37">Jeep Repair</a></li>
+<li><a href="/repair/bmw_m17/" id="bmw_m17">BMW Repair</a></li>
+<li><a href="/repair/gmc_m36/" id="gmc_m36">GMC Repair</a></li>
+<li><a href="/repair/chrysler_m23" id="chrysler_m23">Chrysler Repair</a></li>
+<li><a href="/repair/mercedes-benz_m9/" id="mercedes-benz_m9">Mercedes Benz Repair</a></li>
+<li><a href="/repair/mazda_m20/" id="mazda_m20">Mazda Repair</a></li>
+<li><a href="/repair/volkswagen_m21/" id="volkswagen_m21">Volkswagen Repair</a></li>
+<li><a href="/repair/buick_m35/" id="buick_m35">Buick Repair</a></li>
+<li><a href="/repair/"><strong>View all Makes &raquo;</strong></a></li>
+</ul>
+</div>
+</div>
+<div class="seo-repair-model">
+<ul class="repair-mmgsc">
+<li class="repair-h1">Repair by Model</li>
+<li><a href="/repair/honda_m12/accord_mm54/" id="accord_mm54">Honda Accord Repair</a></li>
+<li><a href="/repair/ford_m19/f150_mm235/" id="f150_mm235">Ford F-150 Repair</a></li>
+<li><a href="/repair/toyota_m7/camry_mm44/" id="camry_mm44">Toyota Camry Repair</a></li>
+<li><a href="/repair/honda_m12/civic_mm55/" id="civic_mm55">Honda Civic Repair</a></li>
+<li><a href="/repair/jeep_m37/grand-cherokee_mm368/" id="grand-cherokee_mm368">Jeep Grand Cherokee Repair</a></li>
+<li><a href="/repair/ford_m19/explorer_mm361/" id="explorer_mm361">Ford Explorer Repair</a></li>
+<li><a href="/repair/nissan_m15/maxima_mm71/" id="maxima_mm71">Nissan Maxima Repair</a></li>
+<li><a href="/repair/ford_m19/taurus_mm356/" id="taurus_mm356">Ford Taurus Repair</a></li>
+<li><a href="/repair/ford_m19/ranger_mm137/" id="ranger_mm137">Ford Ranger Repair</a></li>
+<li><a href="/repair/chevrolet_m16/blazer_mm294/" id="blazer_mm294">Chevrolet Blazer Repair</a></li>
+<li><a href="/repair/dodge_m24/ram-1500_mm369/" id="ram-1500_mm369">Dodge Ram 1500 Repair</a></li>
+<li><a href="/repair/nissan_m15/altima_mm501/" id="altima_mm501">Nissan Altima Repair</a></li>
+<li><a href="/repair/pontiac_m26/grand-am_mm285/" id="grand-am_mm285">Pontiac Grand Am Repair</a></li>
+<li><a href="/repair/chevrolet_m16/s10_mm313/" id="s10_mm313">Chevrolet S10 Repair</a></li>
+<li><a href="/repair/toyota_m7/corolla_mm45/" id="corolla_mm45">Toyota Corolla Repair</a></li>
+<li><a href="/repair/"><strong>View all Models &raquo;</strong></a></li>
+</ul>
+</div>
+<div class="seo-repair-guide">
+<ul class="repair-mmgsc">
+<li class="repair-h1">Repair by Guide</li>
+<li><a href="/5/how-to-troubleshoot-a-check-engine-light/" id="diy_id_5">How to Troubleshoot a Check Engine Light</a></li>
+<li><a href="/171/how-to-replace-a-mirror/" id="diy_id_171">How to Replace a Mirror </a></li>
+<li><a href="/62/how-to-replace-a-fuel-pump/" id="diy_id_62">How to Replace a Fuel Pump</a></li>
+<li><a href="/153/how-to-replace-a-timing-belt/" id="diy_id_153">How to Replace a Timing Belt</a></li>
+<li><a href="/28/how-to-replace-brake-pads/" id="diy_id_28">How to Replace Brake Pads</a></li>
+<li><a href="/1/how-to-replace-a-fuel-filter/" id="diy_id_1">How to Replace a Fuel Filter</a></li>
+<li><a href="/429/how-to-replace-an-oxygen-sensor/" id="diy_id_429">How to Replace an Oxygen Sensor</a></li>
+<li><a href="/138/how-to-replace-a-water-pump/" id="diy_id_138">How to Replace a Water Pump</a></li>
+<li><a href="/14/how-to-replace-a-starter/" id="diy_id_14">How to Replace a Starter</a></li>
+<li><a href="/46/how-to-replace-a-serpentine-belt/" id="diy_id_46">How to Replace a Serpentine Belt</a></li>
+<li><a href="/190/how-to-replace-a-strut-assembly/" id="diy_id_190">How to Replace a Strut Assembly</a></li>
+<li><a href="/198/how-to-replace-a-brake-disc-rotor/" id="diy_id_198">How to Replace a Brake Disc (Rotor) </a></li>
+<li><a href="/266/how-to-replace-an-egr-valve/" id="diy_id_266">How to Replace an EGR Valve</a></li>
+<li><a href="/43/how-to-replace-a-cabin-air-filter/" id="diy_id_13">How to Replace a Cabin Air Filter</a></li>
+<li><a href="/48/how-to-check-and-replace-transfer-case-fluid/" id="diy_id_48">How to Check and Replace Transfer Case Fluid</a></li>
+<li><a href="/how-to/"><strong>View all Guides &raquo;</strong></a></li>
+</ul>
+</div>
+<div class="seo-repair-state">
+<ul class="repair-mmgsc">
+<li class="repair-h1">Repair by State</li>
+<li><a href="/shops/CA/" id="state_CA">California Auto Repair</a></li>
+<li><a href="/shops/TX/" id="state_TX">Texas Auto Repair</a></li>
+<li><a href="/shops/NY/" id="state_NY">New York Auto Repair</a></li>
+<li><a href="/shops/FL/" id="state_FL">Florida Auto Repair</a></li>
+<li><a href="/shops/IL/" id="state_IL">Illinois Auto Repair</a></li>
+<li><a href="/shops/PA/" id="state_PA">Pennsylvania Auto Repair</a></li>
+<li><a href="/shops/GA/" id="state_GA">Georgia Auto Repair</a></li>
+<li><a href="/shops/NJ/" id="state_NJ">New Jersey Auto Repair</a></li>
+<li><a href="/shops/OH/" id="state_OH">Ohio Auto Repair</a></li>
+<li><a href="/shops/NC/" id="state_NC">North Carolina Auto Repair</a></li>
+<li><a href="/shops/WA/" id="state_WA">Washington Auto Repair</a></li>
+<li><a href="/shops/VA/" id="state_VA">Virginia Auto Repair</a></li>
+<li><a href="/shops/MA/" id="state_MA">Massachusetts Auto Repair</a></li>
+<li><a href="/shops/MI/" id="state_MI">Michigan Auto Repair</a></li>
+<li><a href="/shops/AZ/" id="state_AZ">Arizona Auto Repair</a></li>
+<li><a href="/shops/"><strong>View all States &raquo;</strong></a></li>
+</ul>
+</div>
+<div class="seo-repair-city">
+<ul class="repair-mmgsc">
+<li class="repair-h1">Repair by City</li>
+<li><a href="/shops/NY/new-york/" id="city_new-york">New York Auto Repair Shops</a></li>
+<li><a href="/shops/CA/los-angeles/" id="city_los-angeles">Los Angeles Auto Repair Shops</a></li>
+<li><a href="/shops/GA/atlanta/" id="city_atlanta">Atlanta Auto Repair Shops</a></li>
+<li><a href="/shops/IL/chicago/" id="city_chicago">Chicago Auto Repair Shops</a></li>
+<li><a href="/shops/TX/houston/" id="city_houston">Houston Auto Repair Shops</a></li>
+<li><a href="/shops/PA/philadelphia/" id="city_philadelphia">Philadelphia Auto Repair Shops</a></li>
+<li><a href="/shops/FL/tampa/" id="city_tampa">Tampa Auto Repair Shops</a></li>
+<li><a href="/shops/TX/dallas/" id="city_dallas">Dallas Auto Repair Shops</a></li>
+<li><a href="/shops/FL/miami/" id="city_miami">Miami Auto Repair Shops</a></li>
+<li><a href="/shops/WA/seattle/" id="city_seattle">Seattle Auto Repair Shops</a></li>
+<li><a href="/shops/AZ/phoenix/" id="city_phoenix">Phoenix Auto Repair Shops</a></li>
+<li><a href="/shops/MA/boston/" id="city_boston">Boston Auto Repair Shops</a></li>
+<li><a href="/shops/CA/irvine/" id="city_irvine">Irvine Auto Repair Shops</a></li>
+<li><a href="/shops/CO/denver/" id="city_denver">Denver Auto Repair Shops</a></li>
+<li><a href="/shops/NJ/newark/" id="city_newark">Newark Auto Repair Shops</a></li>
+<li><a href="/shops/"><strong>View all Cities &raquo;</strong></a></li>
+</ul>
+</div>	
+</div>	<div id="follow-us" class="clear">
+<div class="follow-fb"><a target="_blank" href="/start/aHR0cDovL3d3dy5mYWNlYm9vay5jb20vaG9tZS5waHA/IyEvT2ZmaWNpYWxBdXRvTUQ=" id="follow-facebook" rel="nofollow">Facebook</a></div>
+<div class="follow-tw"><a target="_blank" href="/start/aHR0cDovL3R3aXR0ZXIuY29tL0F1dG9NRA==" id="follow-twitter" rel="nofollow">Twitter</a></div>
+<div class="latest-twit">
+<ul id="twitter_update_list"></ul>
+</div>
+</div>
+<div id="footer" >
+<div id="footer-c">
+<div>
+<ul>
+<li><a href="/"><span>Home</span></a></li>
+<li><a href="/diagnose/"><span>Diagnose</span></a></li>
+<li><a href="/repaircost/"><span>Estimate Costs</span></a></li>
+<li><a href="/shops/"><span>Find a Shop</span></a></li>
+<li><a href="/how-to/"><span>How-To</span></a></li>
+<li><a href="/answers/"><span>Auto Answers</span></a></li>		
+<li class="last"><a href="/recall-tsb/"><span>Recalls and TSBs</span></a></li>				
+</ul>
+<br class="clear" /> 
+</div> 			
+<div>
+<ul class="sec-level-list">
+<li class="sec-level"><a href="/repair/"><span>Car Repair</span></a></li>  			
+<li class="sec-level"><a href="/About-AutoMD/"><span>About AutoMD</span></a></li>
+<li class="sec-level"><a href="/About-AutoMD/Press/12-14-2010/"><span>Press</span></a></li>
+<li class="sec-level"><a href="/About-AutoMD/News/"><span>In the News</span></a></li>
+<li class="sec-level"><a href="javascript:void(0);" class="user-feedback"><span>Feedback</span></a></li>
+<li class="sec-level"><a href="/About-AutoMD/Employment/DM/"><span>Employment</span></a></li>				
+<li class="sec-level"><a href="/LinkToUs/"><span>Link to Us</span></a></li>				
+</ul>
+</div>  
+<h6 class="copyright-symbol"><a href="/"><img src="http://cdn.automd.com/images/footer-logo.gif" border="0" /></a></h6>			
+<p class="copyright"> <strong>&copy;<a href="/">AutoMD.com</a>, 2010.</strong><br /> Auto Repair content posted by AutoMD members are dedicated to the public domain.<br /> AutoMD, AutoMD.com, and other service names are trademarks of AutoMD.com. </p> 
+</div>
+<div class="clear">&nbsp;</div>
+</div>
+<div class="clear">&nbsp;</div>
+</div>
+<div id="overlay">&nbsp;</div><div id="clear-overlay">&nbsp;</div>
+<div id="vehicle-select" class="hidden">
+<div id="vehicle-select-head"></div>
+<div id="vehicle-select-body">
+<div id="garage-header"></div>
+<form method="post" action="/default/save_garage" id="garage-carpicker" class="change-vehicle">
+<div class="vs-list-item vs-list-item-first"><select name="year" id="garage-year" class="vs-select"><option value="">Select Year</option></select></div>
+<div class="vs-list-item"><select name="make" id="garage-make" class="vs-select"><option value="">Select Make</option></select></div>
+<div class="vs-list-item"><select name="model" id="garage-model" class="vs-select"><option value="">Select Model</option></select></div>
+<div class="vs-list-item"><select name="submodel" id="garage-submodel" class="vs-select" style="display:none"><option value="">Select Sub Model</option></select></div>
+<div class="vs-list-item"><select name="engine" id="garage-engine" class="vs-select" style="display:none"><option value="">Select Engine</option></select></div>
+<div class="vs-list-item cfix">
+<a href="javascript:;" id="btn-add" class="blue-btn">
+<span class="blue-btn-r"></span>
+<span class="blue-btn-l"></span>
+<span class="blue-btn-bd">add</span>
+</a>
+</div>
+<input type="hidden" name="redirect_to" value="http://www.automd.com/" />
+</form>
+</div>
+<div id="vehicle-select-foot"></div>
+</div><div id="ubox-feedback" style="display:none"> 
+<div id="l-feedback" class="popup">
+<div class="heading">
+<a class="f-right close" href="#" rel="ubox-close">Close</a>
+<h1>Feedback form</h1>       
+</div>
+<form method="post" action="/diagnose/user_feedback" id="frm-feed-back" onsubmit="submit_feedback(this);return false;">
+<fieldset class="fields">
+<p>
+<label for="form-username">Your Email Address: </label>
+<input class="text" type="text" name="email" id="form-email" />
+</p>
+<p>
+<label for="form-f1">Your comments/suggestions:</label>
+<textarea name="comment" cols="15" rows="5" class="text" id="form-f1"></textarea>
+</p>
+<p>
+<label>Enter the text in the image:</label>
+<input class="text required" type="text" name="captcha" id="feedback-captcha" tabindex="4" />
+<div class="captia"></div>
+</p> 
+</fieldset>
+<p class="submit">      	 
+<input class="btn-send" type="submit" value="" />                      
+</p>
+</form> 
+</div> 
+</div>    
+<div style="display:none" id="ubox-register"> 
+<div id="l-register" class="popup">
+<div class="body"> 
+<a class="f-right close" href="#" rel="ubox-close">Close</a>        
+<div id="error_container"></div>        
+<div class="clear"></div>        
+<div class="container">
+<h1>Join AutoMD</h1>
+<form method="post" action="/user/register" id="registerForm" onsubmit="submit_registration(this,event);return false;">
+<fieldset class="fields"> 
+<p>        
+<label for="form-username">Email Address</label>
+<input class="required text2 email_address" type="text2" name="username" id="reg-email" tabindex="1" />
+</p>
+<p>
+<label for="form-password">Password</label>
+<input name="password" type="password" class="required text2" id="reg-password" tabindex="2" />
+</p>
+<p>
+<label for="form-f1">Confirm Password</label>
+<input name="password2" type="password" class="required text2" id="reg-password2" tabindex="3" />
+</p>
+<p>
+<label for="form-displayname">Display Name</label>
+<input name="displayname" type="text2" class="required text2 displayname" id="reg-displayname" maxlength="255" tabindex="4" />
+</p>
+<p>
+<label>Enter text from Image</label>
+<input class="required captia-text" type="text2" name="captcha" id="reg-captcha" tabindex="5" autocomplete="off" />        
+<p>
+<div class="captia"></div>
+</p>
+</fieldset>
+<p class="submit"> 
+<input id="i_agree" name="i_agree" type="checkbox" tabindex="6" />
+<span class="tos-text">
+&nbsp; I agree to <a href="/default/tos/" target="_blank">Terms of Use</a> and <a href="/default/privacy_policy" target="_blank">Privacy Policy</a>. 
+</span> 
+<br /> 	
+<div align="center"><input class="submit signup" type="submit" value="" tabindex="7" /></center></div> 
+</p> 
+<input type="hidden" name="sc_page_name" id="reg_sc_page_name" value="" /> 
+</form>
+</div>
+<div class="separator">
+or
+<div align="center"><div class="separator-line"></div></div>
+</div>
+<div class="container">
+<h1>Sign in</h1>           
+<form method="post" action="/user/login" id="loginForm" onsubmit="submit_login(this,event);return false">    		
+<fieldset class="fields"> 
+<p>
+<label for="form-username">E-mail Address</label>
+<input name="username" type="text2" class="text2 required" id="login-username" value="" tabindex="8" />
+</p>
+<p>
+<label for="form-password">Password</label>
+<input class="text2" type="password" name="password" id="login-password" value="" tabindex="9" />
+</p> 
+</fieldset>
+<p class="submit">
+<input name="keep" type="checkbox" id="keep" value="yes" /> Remember me<br />                    
+<input class="submit login" type="submit" value="" tabindex="10" />
+</p>  
+<p><a href="javascript:void(0);" class="user-forgot" id="reset-password">Forgot password?</a>
+</form>
+</div>  
+</div> 
+</div> 
+</div>	<div id="lb-email-nf" class="popup l-email-nf">
+<div>
+<a href="javascript:;" class="close-enf" rel="ubox-close">Close</a>
+<br />
+The email you entered is not registered with AutoMD.
+<br />
+Please register or sign in with a different email.
+<br />
+<p>Thank You!</p>
+</div>
+<div>
+<span class="f-left"><a href="javascript:;" id="enf-signin" class="fine-font">Sign-in</a> instead.</span>
+<a id="email-nf-register" href="javascript:;"></a>
+</div>
+</div> 
+<script type="text/javascript" charset="utf-8">
+var AMD = {};
+AMD.use_cdn = true;
+AMD.redirect = false;
+AMD.email = true;
+AMD.logged_in = false;
+AMD.gc_id  = 1042522996;   	
+AMD.years  = {"years":[{"year_id":111,"year":2010},{"year_id":110,"year":2009},{"year_id":109,"year":2008},{"year_id":108,"year":2007},{"year_id":107,"year":2006},{"year_id":106,"year":2005},{"year_id":105,"year":2004},{"year_id":104,"year":2003},{"year_id":103,"year":2002},{"year_id":102,"year":2001},{"year_id":101,"year":2000},{"year_id":100,"year":1999},{"year_id":99,"year":1998},{"year_id":98,"year":1997},{"year_id":97,"year":1996},{"year_id":96,"year":1995},{"year_id":95,"year":1994},{"year_id":94,"year":1993},{"year_id":93,"year":1992},{"year_id":92,"year":1991},{"year_id":91,"year":1990},{"year_id":90,"year":1989},{"year_id":89,"year":1988},{"year_id":88,"year":1987},{"year_id":87,"year":1986},{"year_id":86,"year":1985},{"year_id":85,"year":1984},{"year_id":84,"year":1983},{"year_id":83,"year":1982},{"year_id":82,"year":1981},{"year_id":81,"year":1980}]};
+AMD.sm_fb = '/start/aHR0cDovL3d3dy5mYWNlYm9vay5jb20vaG9tZS5waHA/IyEvT2ZmaWNpYWxBdXRvTUQ=';
+AMD.sm_twitter = '/start/aHR0cDovL3R3aXR0ZXIuY29tL0F1dG9NRA==';
+</script>
+<script src="http://cdn.automd.com/function/combo?t=js&f=jquery-1.4.2.min.js,carpicker.v0.1.js:m,function.js:m,common.js:m,clearfocus.js:m,ubox.js:m,bubbletip.js:m,autocomplete.js,home.js:m,fpm.js:m,flowplayer-3.1.4.min.js,swfobject.js&v=1.14.1" type='text/javascript' charset="utf-8"></script>
+<script type="text/javascript"> 
+		$(function() {
+	$('#change-vehicle').unbind("click").click(function(){
+		$.ubox('http://www.automd.com/how_to/vehicle_select/?method=post&action=/default/save_garage/&title=&diy_id=&key=&diy_ids=');
+		return;
+	});
+});				var FP = new FPM({"mediaName":"How to Adjust a Hood Release Latch","mediaId":"f_player","file":"\/prod\/2e\/a4\/2ea436590bc564734c4ecf4e0a5179e67eaf7ae012804688764088","fPlayerURL":"http:\/\/cdn.automd.com\/player\/flowplayer-3.1.5.swf?","rtmpPlayerURL":"http:\/\/cdn.automd.com\/player\/flowplayer.rtmp-3.1.3.swf?","rtmpServer":"rtmp:\/\/usauto.fcod.llnwd.net\/a3823\/o37","autoplay":false,"thumb":"http:\/\/usauto.vo.llnwd.net\/o37\/prod\/2e\/a4\/2ea436590bc564734c4ecf4e0a5179e67eaf7ae012804688764088.jpg","thumbScale":"orig"});
+			</script> 
+<script src="http://cdn.automd.com/function/twitter_feeds/?v=1.14.1" type="text/javascript" charset="utf-8"></script>
+<script type="text/javascript">
+<!--
+var google_conversion_id = AMD.gc_id;
+var google_conversion_language = "en";
+var google_conversion_format = "2";
+var google_conversion_color = "ffffff";
+var google_conversion_label = "ZdisCL75vwEQ9MaO8QM";
+var google_conversion_value = 0;
+//-->
+</script>
+<script type="text/javascript" src="http://www.googleadservices.com/pagead/conversion.js">
+</script>
+<noscript>
+<div style="display:inline;">
+<img height="1" width="1" style="border-style:none;" alt="" src="http://www.googleadservices.com/pagead/conversion/1042522996/?label=ZdisCL75vwEQ9MaO8QM&amp;guid=ON&amp;script=0"/>
+</div>
+</noscript> 
+<script id="WebIQOptIn.v2" type="text/javascript" language="JavaScript" src="http://cdn.automd.com/scripts/webiq_automd_may_2010.js?v=1.14.1"></script>
+<!-- SiteCatalyst Begin -->
+<script type="text/javascript" language="JavaScript">
+<!--
+var s_account="usautomd"
+//-->
+</script>
+<script type="text/javascript" src="http://cdn.automd.com/scripts/automd_s_code.js?v=1.14.1"></script>
+<script type="text/javascript" language="JavaScript">
+s.pageName = "Home Page";
+s.channel = "Home Page";
+s.prop3 = "Home Page";
+s.prop34 = "No";
+s.eVar18 = "No";
+</script>
+<script type="text/javascript" language="JavaScript">
+/************* DO NOT ALTER ANYTHING BELOW THIS LINE ! **************/
+var s_code=s.t();if(s_code)document.write(s_code)//--></script>
+<script language="JavaScript" type="text/javascript"><!--
+if(navigator.appVersion.indexOf('MSIE')>=0)document.write(unescape('%3C')+'\!-'+'-')
+//--></script><noscript><a href="http://www.omniture.com" title="Web Analytics"><img
+src="http://www2.automd.com/b/ss/usautomd/1/H.20.3--NS/0?[AQB]&cdp=4&[AQE]"
+height="1" width="1" border="0" alt="" /></a></noscript><!--/DO NOT REMOVE/-->
+</script>
+<!-- SiteCatalyst End --><script language="JavaScript" type="text/javascript">
+$(window).load(function(){
+	if($("#dart300x250").length>0){
+		ord=Math.random()*10000000000000000;
+		document.getElementById('dart300x250').src = "http://ad.doubleclick.net/adi/auto.md/Home;pagetype=Home+Page;;sz=300x250;tile=1;ord=" + ord;
+	}
+	if($("#dart728x90").length>0){
+		ord=Math.random()*10000000000000000;
+		document.getElementById('dart728x90').src = "http://ad.doubleclick.net/adi/auto.md/Home;pagetype=Home+Page;;sz=728x90;tile=1;ord=" + ord;
+	}
+	if($("#dartbannerad").length>0){
+		ord=Math.random()*10000000000000000;
+		document.getElementById('dartbannerad').src = "http://ad.doubleclick.net/adi/auto.md/Home;pagetype=Home+Page;;sz=728x90;tile=1;ord=" + ord;
+	}
+	if($("#dart160x600").length>0){
+		ord=Math.random()*10000000000000000;
+		document.getElementById('dart160x600').src = "http://ad.doubleclick.net/adi/auto.md/Home;pagetype=Home+Page;;sz=160x600;tile=1;ord=" + ord;
+	}
+});
+</script></body>
+</html>
