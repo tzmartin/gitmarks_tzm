@@ -1,0 +1,920 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="en-US" xmlns:fb="http://www.facebook.com/2008/fbml" xmlns:og="http://opengraphprotocol.org/schema/" >
+
+
+<head profile="http://gmpg.org/xfn/11">
+<LINK rel="shortcut icon" href="http://www.ereads.com/images/favicon.ico">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+<title>E-Reads: Publishing In the 21st Century</title>
+
+<script type="text/javascript" src="ecms/autocomp/jquery.js"></script>
+<script type='text/javascript' src='ecms/autocomp/jquery.autocomplete.js'></script>
+<link rel="stylesheet" type="text/css" href="ecms/autocomp/jquery.autocomplete.css" />
+
+<script type="text/javascript">
+$().ready(function() {
+	$("#s").autocomplete("ecms/autocomp/get_course_list.php", {
+		width: 245,
+		matchContains: true,
+		//mustMatch: true,
+		//minChars: 0,
+		//multiple: true,
+		//highlight: false,
+		//multipleSeparator: ",",
+		selectFirst: false
+	});
+});
+</script>
+
+
+
+<meta name="generator" content="WordPress 2.9.2" />
+<link rel="stylesheet" href="http://ereads.com/wp-content/themes/e-reads/style.css" type="text/css" media="screen" />
+<link rel="alternate" type="application/rss+xml" title="Publishing In the 21st Century RSS Feed" href="http://ereads.com/feed" />
+<link rel="pingback" href="http://ereads.com/xmlrpc.php" />
+
+
+<script type='text/javascript' src='http://ereads.com/wp-includes/js/jquery/jquery.js?ver=1.3.2'></script>
+<script type='text/javascript' src='http://ereads.com/wp-content/plugins/collapsing-archives/collapsFunctions.js?ver=1.7'></script>
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://ereads.com/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://ereads.com/wp-includes/wlwmanifest.xml" /> 
+<link rel='index' title='Publishing In the 21st Century' href='http://ereads.com' />
+<meta name="generator" content="WordPress 2.9.2" />
+
+<!-- All in One SEO Pack 1.6.11 by Michael Torbert of Semper Fi Web Design[471,519] -->
+<meta name="description" content="E-Reads is a trail-blazing reprinter of out-of-print genre and general fiction and nonfiction by leading authors. Our books are available in all e-book formats and paperback. Read the latest publishing news and provocative blogs by top commentators in the traditional and digital publishing fields." />
+<meta name="keywords" content="Ebooks, Ereaders, Kindle, amazon, richard curtis, ereads" />
+<link rel="canonical" href="http://ereads.com/" />
+<!-- /all in one seo pack -->
+<style type='text/css'>
+    #sidebar li.collapsing.archives a {
+            display:block;
+            text-decoration:none;
+            margin:0;
+            padding:0;
+            }
+#sidebar li.collapsing.archives a:hover {
+            background:#CCC;
+            text-decoration:none;
+          }
+#sidebar span.collapsing.archives {
+        border:0;
+        padding:0; 
+        margin:0; 
+        cursor:pointer;
+}
+
+#sidebar li.collapsing.archives a.self {background:#CCC;
+                       font-weight:bold}
+#sidebar ul.collapsing.archives.list ul.collapsing.archives.list:before, 
+  #sidebar ul.collapsing.archives.list li.collapsing.archives:before,
+  #sidebar ul.collapsing.archives.list li.collapsing.archives.item:before {
+        content:'';
+  } 
+#sidebar ul.collapsing.archives.list li.collapsing.archives {list-style-type:none}
+#sidebar ul.collapsing.archives.list li.collapsItem {
+      }
+#sidebar ul.collapsing.archives.list li.collapsing.archives .sym {
+   font-size:1.2em;
+   font-family:Monaco, 'Andale Mono', 'FreeMono', 'Courier new', 'Courier', monospace;
+    float:left;
+    padding-right:5px;
+    cursor:pointer;
+}
+    </style>
+<meta name="description" content="Read the latest publishing news and provocative blogs by top commentators in the traditional and digital publishing fields."/><script type="text/javascript">
+<!--
+function MM_jumpMenu(targ,selObj,restore){ //v3.0
+  eval(targ+".location='"+selObj.options[selObj.selectedIndex].value+"'");
+  if (restore) selObj.selectedIndex=0;
+}
+//-->
+</script>
+
+
+
+</head>
+
+<body>
+
+<div id="pagecenter">
+
+<div id="header">
+<div class="logo">
+<a href="http://ereads.com"><img src="http://ereads.com/wp-content/themes/e-reads/images/logo.png" border="0" /></a>
+</div>
+<div class="nav_split">
+
+<a align="left" href="http://ereads.com" onMouseOver="document.image1.src='http://ereads.com/images/nav_roll_02.png'" onMouseOut="document.image1.src='http://ereads.com/images/nav__02.png'"><img src="http://ereads.com/images/nav__02.png" name="image1" border="0"></a><a align="left" href="http://www.fictionwise.com/ebooks/p3/E-Reads/?&si=0" target="_blank" onMouseOver="document.image2.src='http://ereads.com/images/nav_roll_03.png'" onMouseOut="document.image2.src='http://ereads.com/images/nav__03.png'"><img src="http://ereads.com/images/nav__03.png" name="image2" border="0"></a><a align="left" href="http://www.amazon.com/gp/search/ref=sr_adv_b/?search-alias=stripbooks&unfiltered=1&field-keywords=&field-author=&field-title=&field-isbn=&field-publisher=E-Reads&node=&url=&field-feature_browse-bin=&field-binding_browse-bin=&field-subject=&field-language=&field-dateop=&field-datemod=&field-dateyear=&sort=relevancerank&Adv-Srch-Books-Submit.x=0&Adv-Srch-Books-Submit.y=0" target="_blank" onMouseOver="document.image3.src='http://ereads.com/images/nav_roll_04.png'" onMouseOut="document.image3.src='http://ereads.com/images/nav__04.png'"><img src="http://ereads.com/images/nav__04.png" name="image3" border="0"></a><a align="left" href="http://ereads.com/category/e-reads-featured-books/" onMouseOver="document.image4.src='http://ereads.com/images/nav_roll_05.png'" onMouseOut="document.image4.src='http://ereads.com/images/nav__05.png'"><img src="http://ereads.com/images/nav__05.png" name="image4" border="0"></a><a align="left" href="http://ereads.com/ecms/faq.php" onMouseOver="document.image5.src='http://ereads.com/images/nav_roll_06.png'" onMouseOut="document.image5.src='http://ereads.com/images/nav__06.png'"><img src="http://ereads.com/images/nav__06.png" name="image5" border="0"></a>
+
+</div>
+
+<div class="nav_split">
+<img align="left" src="http://ereads.com/images/nav__07.png" /><a href="http://ereads.com/ecms/author.php" onMouseOver="document.image6.src='http://ereads.com/images/nav_roll_08.png'" onMouseOut="document.image6.src='http://ereads.com/images/nav__08.png'"><img align="left" src="http://ereads.com/images/nav__08.png" name="image6" border="0"></a><a href="http://ereads.com/ecms/titles.php" onMouseOver="document.image7.src='http://ereads.com/images/nav_roll_09.png'" onMouseOut="document.image7.src='http://ereads.com/images/nav__09.png'"><img align="left" src="http://ereads.com/images/nav__09.png" name="image7" border="0"></a><a href="http://ereads.com/ecms/genre.php" onMouseOver="document.image8.src='http://ereads.com/images/nav_roll_10.png'" onMouseOut="document.image8.src='http://ereads.com/images/nav__10.png'"><img align="left" src="http://ereads.com/images/nav__10.png" name="image8" border="0"></a>
+</div>
+
+</div>
+
+<div id="top-navi">
+<div class="read_drop">
+  <form name="form" id="form">
+    <select style="width:158px;" name="jumpMenu" id="jumpMenu" onchange="MM_jumpMenu('parent',this,0)">
+    <option style="width:160px;" value="#" selected>-- Select --</option>
+    <option style="width:160px;" value="http://ereads.com/ecms/genre.php?cat=1">Action/Adventure
+</option><option style="width:160px;" value="http://ereads.com/ecms/genre.php?cat=2">Biography</option><option style="width:160px;" value="http://ereads.com/ecms/genre.php?cat=3">Business</option><option style="width:160px;" value="http://ereads.com/ecms/genre.php?cat=4">Crime</option><option style="width:160px;" value="http://ereads.com/ecms/genre.php?cat=5">Erotic Literature</option><option style="width:160px;" value="http://ereads.com/ecms/genre.php?cat=6">Fantasy</option><option style="width:160px;" value="http://ereads.com/ecms/genre.php?cat=7">Fiction</option><option style="width:160px;" value="http://ereads.com/ecms/genre.php?cat=8">Health and Fitness</option><option style="width:160px;" value="http://ereads.com/ecms/genre.php?cat=9">Historical Fiction</option><option style="width:160px;" value="http://ereads.com/ecms/genre.php?cat=10">History
+</option><option style="width:160px;" value="http://ereads.com/ecms/genre.php?cat=11">Horror</option><option style="width:160px;" value="http://ereads.com/ecms/genre.php?cat=22">Humor</option><option style="width:160px;" value="http://ereads.com/ecms/genre.php?cat=12">Judaica</option><option style="width:160px;" value="http://ereads.com/ecms/genre.php?cat=13">Medical</option><option style="width:160px;" value="http://ereads.com/ecms/genre.php?cat=14">Mystery</option><option style="width:160px;" value="http://ereads.com/ecms/genre.php?cat=15">Non-Fiction</option><option style="width:160px;" value="http://ereads.com/ecms/genre.php?cat=16">Religion and Spirituality</option><option style="width:160px;" value="http://ereads.com/ecms/genre.php?cat=17">Romance</option><option style="width:160px;" value="http://ereads.com/ecms/genre.php?cat=18">Science Fiction</option><option style="width:160px;" value="http://ereads.com/ecms/genre.php?cat=19">Thriller/Suspense</option><option style="width:160px;" value="http://ereads.com/ecms/genre.php?cat=20">Western</option><option style="width:160px;" value="http://ereads.com/ecms/genre.php?cat=21">Young Adult</option>      
+    </select>
+  </form>
+</div>
+
+<div class="read_drop_mid">
+
+<div class="read_drop_search">
+ <form name="search_form" id="search_form" method="get" action="/index.php" autocomplete="off">
+ <input type="text" name="s" id="s" style="width:260px; position:absolute; top:2px; left:101px;" />
+ <input type="image" src="http://ereads.com/images/search_box_submit.jpg" value="Submit" alt="Submit" style="position:absolute; right:1px;">
+ </form>
+</div>
+
+</div>
+
+
+<a href="http://ereads.com/ecms/about.php"><img src="http://ereads.com/images/about.jpg" border="0" width="84" height="46" /></a>
+<a href="http://ereads.com/ecms/contact.php"><img src="http://ereads.com/images/contact.jpg" border="0" width="94" height="46" /></a>
+
+</div>
+<div class="left-navi-blog">
+
+	
+<div class="intro_title">
+E-Reads&trade; is
+</div>
+
+<div class="intro" >
+...a trail-blazing reprinter of out-of-print genre and general fiction and nonfiction by leading authors. Our books are available in all e-book formats and paperback. Read the latest publishing news and provocative blogs by top commentators in the traditional and digital publishing fields.
+</div> 
+<a href="http://twitter.com/ereads" ><img src="http://ereads.com/images/TwitterHeader.jpg" border="0" style="padding-top:10px; margin-top:0px; border-top-width: 1px; border-top-style: solid; border-top-color: #cccccc;"/></a>
+
+<ul id="ereads_twitter_updates"></ul>
+<script type="text/javascript" src="http://ereads.com/twitter-simple.js"></script>
+<script type="text/javascript"
+  src="http://twitter.com/statuses/user_timeline/ereads.json?callback=twitterCallback2&amp;count=4">
+</script>
+
+<img src="http://ereads.com/images/divider.jpg" width="188" height="3" style="margin-top:10px; margin-bottom:10px;" />
+
+<div class="title">
+<A href="http://ereads.com/ecms/recent_titles.php">LATEST ADDITIONS</A>
+</div>
+<div class="bblock">
+<a href="http://ereads.com/ecms/books.php?id=1540"><img src="http://www.ereads.com/images/thumbs/Dietz-Where-the-Ships-Die_thumb.jpg" align="right" border="0" style="margin-left:5px; float:right; border-bottom:1px; border-bottom-style:solid; border-bottom-color:#CCC; border-right:1px; border-right-style:solid; border-right-color:#CCC;" /></a><div style="float:left; width:100px; font-size:14px; font-style:italic; text-align:left;"> Where the Ships Die </div> <div style="text-align:justify; float:let; width:100px; font-size:13px; margin-bottom:4px; text-align:left;"> William C. Dietz </div>     Somewhere, deep in the vast blackness of space, a wormhole waits to be found. Dorn Voss needs to find it. But, the stakes are high and he isn’t the only one looking. 
+
+Natural occurring wormholes are the...
+</div>
+<img src="http://ereads.com/images/divider.jpg" width="188" height="3" style="margin-top:10px; margin-bottom:10px;" /><div class="bblock">
+<a href="http://ereads.com/ecms/books.php?id=1297"><img src="http://www.ereads.com/images/thumbs/Dietz-Mars-Prime_thumb.jpg" align="left" border="0" style="margin-right:5px; float:left; border-bottom:1px; border-bottom-style:solid; border-bottom-color:#CCC; border-right:1px; border-right-style:solid; border-right-color:#CCC;" /></a><div style="float:left; width:100px; font-size:14px; font-style:italic; text-align:left;"> Mars Prime </div> <div style="float:left; width:100px; font-size:13px; margin-bottom:4px; text-align:left;"> William C. Dietz </div>   Aboard the Outward Bound, there are thousands of colonists headed towards Mars. But, one person on the ship is different. Inside that crew member’s head, there are a half-dozen voices, a half-dozen personal...
+</div>
+<img src="http://ereads.com/images/divider.jpg" width="188" height="3" style="margin-top:10px; margin-bottom:10px;" />
+<div class="bblock">
+<a href="http://ereads.com/ecms/books.php?id=1317"><img src="http://www.ereads.com/images/thumbs/Garton-Murder-Was-My-Alibi_thumb.jpg" align="right" border="0" style="margin-left:5px; float:right; border-bottom:1px; border-bottom-style:solid; border-bottom-color:#CCC; border-right:1px; border-right-style:solid; border-right-color:#CCC;" /></a><div style="float:left; width:100px; font-size:14px; font-style:italic; text-align:left;"> Murder Was My Alibi </div> <div style="text-align:justify; float:let; width:100px; font-size:13px; margin-bottom:4px; text-align:left;"> Ray Garton </div>   “She walked into my office smelling like a meadow of flowers and looking like one long night of trouble.”
+
+Myron Foote is a private detective on the wrong side of the tracks who doesn’t like to be on t...
+</div>
+<img src="http://ereads.com/images/divider.jpg" width="188" height="3" style="margin-top:10px; margin-bottom:10px;" /><div class="bblock">
+<a href="http://ereads.com/ecms/books.php?id=1679"><img src="http://www.ereads.com/images/thumbs/ODay-Flannery-Here-and-Now_thumb.jpg" align="left" border="0" style="margin-right:5px; float:left; border-bottom:1px; border-bottom-style:solid; border-bottom-color:#CCC; border-right:1px; border-right-style:solid; border-right-color:#CCC;" /></a><div style="float:left; width:100px; font-size:14px; font-style:italic; text-align:left;"> Here and Now </div> <div style="float:left; width:100px; font-size:13px; margin-bottom:4px; text-align:left;"> Constance O'Day-Flannery </div>     Suzanne McDermott is a strong, modern woman. She’s fully prepared to face the world after her spoiled, philandering husband leaves her. But, as she awaits the arrival of her new baby, Fate brings her anot...
+</div>
+<img src="http://ereads.com/images/divider.jpg" width="188" height="3" style="margin-top:10px; margin-bottom:10px;" />
+<div class="bblock">
+<a href="http://ereads.com/ecms/books.php?id=1182"><img src="http://www.ereads.com/images/thumbs/Garton-The-Girl-in-the-Basement_thumb.jpg" align="right" border="0" style="margin-left:5px; float:right; border-bottom:1px; border-bottom-style:solid; border-bottom-color:#CCC; border-right:1px; border-right-style:solid; border-right-color:#CCC;" /></a><div style="float:left; width:100px; font-size:14px; font-style:italic; text-align:left;"> The Girl in the Basement  </div> <div style="text-align:justify; float:let; width:100px; font-size:13px; margin-bottom:4px; text-align:left;"> Ray Garton </div>      15-year-old Ryan Kettering has spent his young life in a series of mostly abusive foster homes. But his luck has changed. Now he’s in the Preston house, where he has a budding romance with fellow fosterch...
+</div>
+<img src="http://ereads.com/images/divider.jpg" width="188" height="3" style="margin-top:10px; margin-bottom:10px;" /><div class="bblock">
+<a href="http://ereads.com/ecms/books.php?id=1768"><img src="http://www.ereads.com/images/thumbs/Gerston-The-Costco-Experience_2011_thumb.jpg" align="left" border="0" style="margin-right:5px; float:left; border-bottom:1px; border-bottom-style:solid; border-bottom-color:#CCC; border-right:1px; border-right-style:solid; border-right-color:#CCC;" /></a><div style="float:left; width:100px; font-size:14px; font-style:italic; text-align:left;"> The Costco Experience 2011, Revised and Updated Edition </div> <div style="float:left; width:100px; font-size:13px; margin-bottom:4px; text-align:left;"> Larry Gerston </div>    THE COSTCO EXPERIENCE REVISED AND UPDATED EDITION!
+
+Ever wonder what it’s really like to be a kid in a candy store? Go to a nearby Costco and you’ll find out.
+
+THE COSTCO EXPERIENCE REVISED AND UPDAT...
+</div>
+<img src="http://ereads.com/images/divider.jpg" width="188" height="3" style="margin-top:10px; margin-bottom:10px;" />
+<div class="bblock">
+<a href="http://ereads.com/ecms/books.php?id=1294"><img src="http://www.ereads.com/images/thumbs/Warner-Maneater_thumb.jpg" align="right" border="0" style="margin-left:5px; float:right; border-bottom:1px; border-bottom-style:solid; border-bottom-color:#CCC; border-right:1px; border-right-style:solid; border-right-color:#CCC;" /></a><div style="float:left; width:100px; font-size:14px; font-style:italic; text-align:left;"> Maneater </div> <div style="text-align:justify; float:let; width:100px; font-size:13px; margin-bottom:4px; text-align:left;"> Jack Warner </div>    Most hunts end in a death. This hunt begins with one--Lanelle Jackson’s. A wild tiger has escaped its cargo truck and now roams the dense forests of the Appalachian Mountains. When deer and wild boar run ou...
+</div>
+<img src="http://ereads.com/images/divider.jpg" width="188" height="3" style="margin-top:10px; margin-bottom:10px;" /><div class="bblock">
+<a href="http://ereads.com/ecms/books.php?id=1069"><img src="http://www.ereads.com/images/thumbs/Wood-A-Clean-Kill_thumb.jpg" align="left" border="0" style="margin-right:5px; float:left; border-bottom:1px; border-bottom-style:solid; border-bottom-color:#CCC; border-right:1px; border-right-style:solid; border-right-color:#CCC;" /></a><div style="float:left; width:100px; font-size:14px; font-style:italic; text-align:left;"> A Clean Kill </div> <div style="float:left; width:100px; font-size:13px; margin-bottom:4px; text-align:left;"> Ted Wood </div>  There’s no rest tonight for Reid Bennett, police chief of tiny Murphy's Harbor in Canada. Not if he keeps getting phone calls, that is. The first comes in from Amy Wilson. She’s been raped on her arrival h...
+</div>
+<img src="http://ereads.com/images/divider.jpg" width="188" height="3" style="margin-top:10px; margin-bottom:10px;" />
+<div class="bblock">
+<a href="http://ereads.com/ecms/books.php?id=1164"><img src="http://www.ereads.com/images/thumbs/Wood-Fools-Gold_thumb.jpg" align="right" border="0" style="margin-left:5px; float:right; border-bottom:1px; border-bottom-style:solid; border-bottom-color:#CCC; border-right:1px; border-right-style:solid; border-right-color:#CCC;" /></a><div style="float:left; width:100px; font-size:14px; font-style:italic; text-align:left;"> Fool's Gold </div> <div style="text-align:justify; float:let; width:100px; font-size:13px; margin-bottom:4px; text-align:left;"> Ted Wood </div>    When gold is found in the mountains of Canada, it brings a rush of prospectors, pilots, and men looking to get rich quick. It also brings a slew of dead bodies. That’s when Reid Bennett, the lone cop of tin...
+</div>
+<img src="http://ereads.com/images/divider.jpg" width="188" height="3" style="margin-top:10px; margin-bottom:10px;" /><div class="bblock">
+<a href="http://ereads.com/ecms/books.php?id=1698"><img src="http://www.ereads.com/images/thumbs/Norman-Gor-29-Swordsmen-of-Gor-thumb.jpg" align="left" border="0" style="margin-right:5px; float:left; border-bottom:1px; border-bottom-style:solid; border-bottom-color:#CCC; border-right:1px; border-right-style:solid; border-right-color:#CCC;" /></a><div style="float:left; width:100px; font-size:14px; font-style:italic; text-align:left;"> Swordsmen of Gor </div> <div style="float:left; width:100px; font-size:13px; margin-bottom:4px; text-align:left;"> John Norman </div>   Fresh from his exploits in the Steel Worlds, home of the Kurii, a savage alien race intent on conquering Gor, Tarl Cabot has been returned to an isolated beach, at coordinates apparently specified by the Prie...
+</div>
+<img src="http://ereads.com/images/divider.jpg" width="188" height="3" style="margin-top:10px; margin-bottom:10px;" />
+
+<div class="title">
+FEATURED TITLES
+</div>
+<div class="bblock">
+<a href="http://ereads.com/ecms/books.php?id=947"><img src="http://www.ereads.com/images/thumbs/1004.jpg" align="left" border="0" style="margin-right:5px; float:left; border-bottom:1px; border-bottom-style:solid; border-bottom-color:#CCC; border-right:1px; border-right-style:solid; border-right-color:#CCC;" /></a><div style="float:left; width:100px; font-size:14px; font-style:italic; text-align:left;"> The Improbable Voyage  </div> <div style="float:left; width:100px; font-size:13px; margin-bottom:4px; text-align:left;"> Tristan Jones </div>   <i>The Improbable Voyage</i> is the account of master sailor and storyteller Tristan Jones' 2,307-mile voyage across Europe in an oceangoing trimaran, <i>Outward Leg</i>. Continuing his round-the-world journe...
+</div>
+<img src="http://ereads.com/images/divider.jpg" width="188" height="3" style="margin-top:10px; margin-bottom:10px;" />
+<div class="bblock">
+<a href="http://ereads.com/ecms/books.php?id=771"><img src="http://www.ereads.com/images/thumbs/822.jpg" align="right" border="0" style="margin-left:5px; float:right; border-bottom:1px; border-bottom-style:solid; border-bottom-color:#CCC; border-right:1px; border-right-style:solid; border-right-color:#CCC;" /></a><div style="float:left; width:100px; font-size:14px; font-style:italic; text-align:left;"> The Surfer </div> <div style="text-align:justify; float:let; width:100px; font-size:13px; margin-bottom:4px; text-align:left;"> Linda Cargill </div>   It was legendary in Jessie's town--the story of the beautiful girl who surfed out into the dangerous wave, only to disappear forever out in the stormy sea? Now there's a new beauty in town. Marina has a strang...
+</div>
+<img src="http://ereads.com/images/divider.jpg" width="188" height="3" style="margin-top:10px; margin-bottom:10px;" /><div class="bblock">
+<a href="http://ereads.com/ecms/books.php?id=1438"><img src="http://www.ereads.com/images/thumbs/Murphy-Digger-3-Smoked-Out-Thumb.jpg" align="left" border="0" style="margin-right:5px; float:left; border-bottom:1px; border-bottom-style:solid; border-bottom-color:#CCC; border-right:1px; border-right-style:solid; border-right-color:#CCC;" /></a><div style="float:left; width:100px; font-size:14px; font-style:italic; text-align:left;"> Smoked Out </div> <div style="float:left; width:100px; font-size:13px; margin-bottom:4px; text-align:left;"> Warren Murphy </div>   Digger is an insurance investigator who drinks, chases women, asks smartass questions and gets help from his part-time hooker girlfriend. A humorous crime adventure series by the author of The Destroyer.
+
+I...
+</div>
+<img src="http://ereads.com/images/divider.jpg" width="188" height="3" style="margin-top:10px; margin-bottom:10px;" />
+<div class="bblock">
+<a href="http://ereads.com/ecms/books.php?id=647"><img src="http://www.ereads.com/images/thumbs/697-1.jpg" align="right" border="0" style="margin-left:5px; float:right; border-bottom:1px; border-bottom-style:solid; border-bottom-color:#CCC; border-right:1px; border-right-style:solid; border-right-color:#CCC;" /></a><div style="float:left; width:100px; font-size:14px; font-style:italic; text-align:left;"> Shanji </div> <div style="text-align:justify; float:let; width:100px; font-size:13px; margin-bottom:4px; text-align:left;"> James C. Glass </div>     On the planet Shanji, a ruthless Emperor rules a subjugated people. Kati, raised by the lower caste Tumatsin, is taken captive by the Emperor's troops, but saved by The Searchers, who see her as the promised...
+</div>
+<img src="http://ereads.com/images/divider.jpg" width="188" height="3" style="margin-top:10px; margin-bottom:10px;" /><div class="bblock">
+<a href="http://ereads.com/ecms/books.php?id=983"><img src="http://www.ereads.com/images/thumbs/1040.jpg" align="left" border="0" style="margin-right:5px; float:left; border-bottom:1px; border-bottom-style:solid; border-bottom-color:#CCC; border-right:1px; border-right-style:solid; border-right-color:#CCC;" /></a><div style="float:left; width:100px; font-size:14px; font-style:italic; text-align:left;"> Starrigger </div> <div style="float:left; width:100px; font-size:13px; margin-bottom:4px; text-align:left;"> John DeChancie </div> Independent space trucker Jake McGraw, accompanied by his father Sam, who inhabits the body of the truck itself, his "starrig," picks up a beautiful hitchhiker, Darla, and a trailer-load of trouble. One of the ...
+</div>
+<img src="http://ereads.com/images/divider.jpg" width="188" height="3" style="margin-top:10px; margin-bottom:10px;" />
+<div class="bblock">
+<a href="http://ereads.com/ecms/books.php?id=1481"><img src="http://www.ereads.com/images/thumbs/Breggen-Talking Back To Prozac-Thumb.jpg" align="right" border="0" style="margin-left:5px; float:right; border-bottom:1px; border-bottom-style:solid; border-bottom-color:#CCC; border-right:1px; border-right-style:solid; border-right-color:#CCC;" /></a><div style="float:left; width:100px; font-size:14px; font-style:italic; text-align:left;"> Talking Back to Prozac </div> <div style="text-align:justify; float:let; width:100px; font-size:13px; margin-bottom:4px; text-align:left;"> Peter R. Breggin, M.D. </div>        Talking Back to Prozac: What Doctors Aren’t Telling You about today’s Most Controversial Drug With an Information Packed New Introduction
+
+Peter R. Breggin, M.D., Bestselling Author of Medication Ma...
+</div>
+<img src="http://ereads.com/images/divider.jpg" width="188" height="3" style="margin-top:10px; margin-bottom:10px;" /><div class="bblock">
+<a href="http://ereads.com/ecms/books.php?id=433"><img src="http://www.ereads.com/images/thumbs/464.jpg" align="left" border="0" style="margin-right:5px; float:left; border-bottom:1px; border-bottom-style:solid; border-bottom-color:#CCC; border-right:1px; border-right-style:solid; border-right-color:#CCC;" /></a><div style="float:left; width:100px; font-size:14px; font-style:italic; text-align:left;"> The Battle of Anzio </div> <div style="float:left; width:100px; font-size:13px; margin-bottom:4px; text-align:left;"> T.R. Fehrenbach </div>   The Battle of Anzio was among the most bloody of the World War II conflicts. T.R. Fehrenbach's accurate account stunningly depicts the reality of the Allied forces' fight for survival on an Italian beach as t...
+</div>
+<img src="http://ereads.com/images/divider.jpg" width="188" height="3" style="margin-top:10px; margin-bottom:10px;" />
+<div class="bblock">
+<a href="http://ereads.com/ecms/books.php?id=967"><img src="http://www.ereads.com/images/thumbs/1024.jpg" align="right" border="0" style="margin-left:5px; float:right; border-bottom:1px; border-bottom-style:solid; border-bottom-color:#CCC; border-right:1px; border-right-style:solid; border-right-color:#CCC;" /></a><div style="float:left; width:100px; font-size:14px; font-style:italic; text-align:left;"> Walker's Widow </div> <div style="text-align:justify; float:let; width:100px; font-size:13px; margin-bottom:4px; text-align:left;"> Heidi Betts </div>   Between Heaven and Hell lies Purgatory, Texas--a town with too few saints ... and too many sinners.<br><br>TO CATCH A THIEF<br><br>Clayton Walker had been sent to Purgatory…but it felt more like hell. Assign...
+</div>
+<img src="http://ereads.com/images/divider.jpg" width="188" height="3" style="margin-top:10px; margin-bottom:10px;" /><div class="bblock">
+<a href="http://ereads.com/ecms/books.php?id=131"><img src="http://www.ereads.com/images/thumbs/147.jpg" align="left" border="0" style="margin-right:5px; float:left; border-bottom:1px; border-bottom-style:solid; border-bottom-color:#CCC; border-right:1px; border-right-style:solid; border-right-color:#CCC;" /></a><div style="float:left; width:100px; font-size:14px; font-style:italic; text-align:left;"> Dirty Tricks </div> <div style="float:left; width:100px; font-size:13px; margin-bottom:4px; text-align:left;"> George Alec Effinger  </div>  In these eleven short stories by speculative fiction master George Alec Effinger, New York's populace must deal with the realities of a bi-polar existence; patients' brains are cut to tiny pieces in a clinical...
+</div>
+<img src="http://ereads.com/images/divider.jpg" width="188" height="3" style="margin-top:10px; margin-bottom:10px;" />
+<div class="bblock">
+<a href="http://ereads.com/ecms/books.php?id=919"><img src="http://www.ereads.com/images/thumbs/975.jpg" align="right" border="0" style="margin-left:5px; float:right; border-bottom:1px; border-bottom-style:solid; border-bottom-color:#CCC; border-right:1px; border-right-style:solid; border-right-color:#CCC;" /></a><div style="float:left; width:100px; font-size:14px; font-style:italic; text-align:left;"> The Third Eagle  </div> <div style="text-align:justify; float:let; width:100px; font-size:13px; margin-bottom:4px; text-align:left;"> R.A. MacAvoy </div>      Original and provocative science fiction from an author famed for her fantasy writings. Subtitle: Lessons Along a Minor String. When the warrior Wanbli came of age, he cast his lot among the stars and left ...
+</div>
+<img src="http://ereads.com/images/divider.jpg" width="188" height="3" style="margin-top:10px; margin-bottom:10px;" /><div class="bblock">
+<a href="http://ereads.com/ecms/books.php?id=435"><img src="http://www.ereads.com/images/thumbs/466.jpg" align="left" border="0" style="margin-right:5px; float:left; border-bottom:1px; border-bottom-style:solid; border-bottom-color:#CCC; border-right:1px; border-right-style:solid; border-right-color:#CCC;" /></a><div style="float:left; width:100px; font-size:14px; font-style:italic; text-align:left;"> The Beauty of the Beasts </div> <div style="float:left; width:100px; font-size:13px; margin-bottom:4px; text-align:left;"> Ralph Helfer </div>  They're major stars who don't speak a word on-screen, yet are world-famous for their compelling performances. Who are they? The animal stars of the big screen, of course! In THE BEAUTY OF THE BEASTS, Ralph Hel...
+</div>
+<img src="http://ereads.com/images/divider.jpg" width="188" height="3" style="margin-top:10px; margin-bottom:10px;" />
+<div class="bblock">
+<a href="http://ereads.com/ecms/books.php?id=468"><img src="http://www.ereads.com/images/thumbs/501.jpg" align="right" border="0" style="margin-left:5px; float:right; border-bottom:1px; border-bottom-style:solid; border-bottom-color:#CCC; border-right:1px; border-right-style:solid; border-right-color:#CCC;" /></a><div style="float:left; width:100px; font-size:14px; font-style:italic; text-align:left;"> The Hoax </div> <div style="text-align:justify; float:let; width:100px; font-size:13px; margin-bottom:4px; text-align:left;"> Clifford Irving </div>   The ultimate caper story, novelist Clifford Irving's no-holds-barred account of the literary hoax that stunned the publishing world, is the story of his faked “autobiography” of Howard Hughes. HOAX was fir...
+</div>
+<img src="http://ereads.com/images/divider.jpg" width="188" height="3" style="margin-top:10px; margin-bottom:10px;" /><div class="bblock">
+<a href="http://ereads.com/ecms/books.php?id=67"><img src="http://www.ereads.com/images/thumbs/77.jpg" align="left" border="0" style="margin-right:5px; float:left; border-bottom:1px; border-bottom-style:solid; border-bottom-color:#CCC; border-right:1px; border-right-style:solid; border-right-color:#CCC;" /></a><div style="float:left; width:100px; font-size:14px; font-style:italic; text-align:left;"> Castle for Rent </div> <div style="float:left; width:100px; font-size:13px; margin-bottom:4px; text-align:left;"> John DeChancie </div>    Who will claim the throne now that Lord Incarnadine, King of the Realms Perilous, is dead? Under a mysterious spell cast by a mischief-maker, all of Castle Perilous's 144,000 creatures of curiosity clamor fo...
+</div>
+<img src="http://ereads.com/images/divider.jpg" width="188" height="3" style="margin-top:10px; margin-bottom:10px;" />
+<div class="bblock">
+<a href="http://ereads.com/ecms/books.php?id=277"><img src="http://www.ereads.com/images/thumbs/Curtis-Mastering-the-Business-of-Writing-Thumb.jpg" align="right" border="0" style="margin-left:5px; float:right; border-bottom:1px; border-bottom-style:solid; border-bottom-color:#CCC; border-right:1px; border-right-style:solid; border-right-color:#CCC;" /></a><div style="float:left; width:100px; font-size:14px; font-style:italic; text-align:left;"> Mastering the Business of Writing </div> <div style="text-align:justify; float:let; width:100px; font-size:13px; margin-bottom:4px; text-align:left;"> Richard Curtis </div>    One of the most comprehensive guides currently on the market, MASTERING THE BUSINESS OF WRITING is an insider's guide to the business of being a professional writer. All aspects of the publishing industry are...
+</div>
+<img src="http://ereads.com/images/divider.jpg" width="188" height="3" style="margin-top:10px; margin-bottom:10px;" />
+
+
+
+
+
+
+
+
+
+    
+</div>
+
+<div class="center-blog">
+
+<iframe src ="http://ereads.com/slide/index.php" width="550" height="240" scrolling="no" frameborder="0"></iframe>
+
+<img src="images/blog_header.jpg"  style="margin-top:19px; padding-top:10px; padding-bottom:10px; margin-bottom:13px; border-top-width: 1px; border-top-style: solid; border-top-color: #cccccc;" />
+
+
+
+		        
+
+<div class="post-title">
+<div class="c-post-date"> Friday, December 17 </div>
+<div class="c-post-title"> <a id="post-9962" href="http://ereads.com/2010/12/how-to-survive-shopping-at-costco.html" rel="bookmark" title=" How to Survive Shopping at Costco">How to Survive Shopping at Costco</a> </div>
+
+                            
+</div>
+
+<div class="post-content">
+
+					<p><a href="http://ereads.com/ecms/books.php?id=1768"><img class="alignright" src="http://ereads.com/images/covers/Gerston-The-Costco-Experience_2011_web.jpg" alt="" width="150" height="230" /></a>Ever wonder what it’s really like to be a kid in a candy store? Go to a nearby Costco and you’ll find out. But before you do, arm yourself with Larry Gerston&#8217;s revised and updated 2011 edition of <em><a href="http://ereads.com/ecms/books.php?id=1768">The Costco Experience</a>. </em>It<em> </em>takes you to, in, through, and out of this amazing center of shopping frenzy and big-box economy. The book provides keen insight, valuable short-cuts, and common sense thinking on how to make warehouse shopping a successful endeavor.</p>
+<p>But there’s more! Beyond helping you conquer Costco, the 2011 edition provides organizational skills and techniques that you can use everywhere. Decision-making, prioritizing, negotiating, self-discipline, and other important attributes are applied to shopping at Costco in ways that help you live your life on your own terms. And the best part is that you transfer these skills to other parts of your daily routines. Costco is more than a warehouse store and shopping at Costco is more than a purchasing exercise. Read the book and you’ll see why the Costco experience can be fun and profitable. It’s almost therapy on the cheap, but a lot more entertaining.</p>
+<div id="pfButton"><a href="http://ereads.com/2010/12/how-to-survive-shopping-at-costco.html?pfstyle=wp" title="Print an optimized version of this web page"><img id="printfriendly" style="border:none; padding:0;" src="http://cdn.printfriendly.com/pf-button-both.gif" alt="Print"/></a></div>                    
+                    <br style="clear:both;" />
+                    <div class="main-meta">
+                     Tags: <a href="http://ereads.com/tag/costco" rel="tag">Costco</a>, <a href="http://ereads.com/tag/shopping" rel="tag">Shopping</a><br> 
+                    Posted in <a href="http://ereads.com/category/all" title="View all posts in All" rel="category tag">All</a>,  <a href="http://ereads.com/category/e-reads-featured-books" title="View all posts in E-Reads Featured Books" rel="category tag">E-Reads Featured Books</a> <strong>|</strong> <a href="http://ereads.com/2010/12/how-to-survive-shopping-at-costco.html#respond" title="Comment on How to Survive Shopping at Costco">0 Comments &#187;</a>  
+                    
+                    </div>
+                    <div class="clear"></div>
+</div>
+		
+		        
+
+<div class="post-title">
+<div class="c-post-date"> Friday, December 17 </div>
+<div class="c-post-title"> <a id="post-9764" href="http://ereads.com/2010/12/love-him-love-his-dog-police-detective-reid-bennett-and-his-canine-sidekick-sam.html" rel="bookmark" title=" Love Him, Love His Dog: Police Detective Reid Bennett and His Canine Sidekick Sam">Love Him, Love His Dog: Police Detective Reid Bennett and His Canine Sidekick Sam</a> </div>
+
+                            
+</div>
+
+<div class="post-content">
+
+					<p><a href="http://ereads.com/ecms/books.php?id=112" onblur="try {parent.deselectBloggerImageGracefully();} catch(e) {}"><img style="margin: 0pt 0pt 10px 10px; float: right; cursor: pointer; width: 150px;" src="http://www.ereads.com/graphics/covers/126.jpg" border="0" alt="" /></a>His life all but ruined because of a bad rap he took for murdering two guys to prevent a rape, Reid Bennett relocates in a quaint backwater town in Canada. Then the corpses show up. German shepherd Sam by his side, Bennett does what he has to do, and none of it is in the police officer&#8217;s manual.</p>
+<p><a href="http://ereads.com/ecms/books.php?id=112">Dead in the Water</a> launched Ted Wood&#8217;s mystery career and the fictional adventures of Reid Bennett.  But what brings readers back for book after book  is Sam, Reid&#8217;s German shepherd. <span style="font-style: italic;">Publisher&#8217;s Weekly</span> described Sam thus: &#8220;&#8230;a multitalented utility infielder who can &#8216;keep,&#8217; &#8216;track,&#8217; &#8217;seek,&#8217; &#8220;fight,&#8217; &#8216;guard,&#8217; sniff out cocaine and corpses, save lives and generally pinch-hit for a dozen patrolmen.&#8221;  Fans  plead, &#8220;Whatever happens to Reid Bennett, don&#8217;t touch a hair of that dog&#8217;s head!&#8221;</p>
+<p>E-Reads is in the process of releasing <a href="http://ereads.com/ecms/authors.php?id=203">all 10 titles in the Reid Bennett detective series.</a> You&#8217;ll have to read them all to find out if anyone touched a hair of Sam&#8217;s head.</p>
+<p><span style="font-style: italic;"> &#8211; Richard Curtis</span></p>
+<div id="pfButton"><a href="http://ereads.com/2010/12/love-him-love-his-dog-police-detective-reid-bennett-and-his-canine-sidekick-sam.html?pfstyle=wp" title="Print an optimized version of this web page"><img id="printfriendly" style="border:none; padding:0;" src="http://cdn.printfriendly.com/pf-button-both.gif" alt="Print"/></a></div>                    
+                    <br style="clear:both;" />
+                    <div class="main-meta">
+                     Tags: <a href="http://ereads.com/tag/mystery" rel="tag">Mystery</a>, <a href="http://ereads.com/tag/ted-wood" rel="tag">Ted Wood</a><br> 
+                    Posted in <a href="http://ereads.com/category/all" title="View all posts in All" rel="category tag">All</a>,  <a href="http://ereads.com/category/e-reads-featured-books" title="View all posts in E-Reads Featured Books" rel="category tag">E-Reads Featured Books</a> <strong>|</strong> <a href="http://ereads.com/2010/12/love-him-love-his-dog-police-detective-reid-bennett-and-his-canine-sidekick-sam.html#respond" title="Comment on Love Him, Love His Dog: Police Detective Reid Bennett and His Canine Sidekick Sam">0 Comments &#187;</a>  
+                    
+                    </div>
+                    <div class="clear"></div>
+</div>
+		
+		        
+
+<div class="post-title">
+<div class="c-post-date"> Thursday, December 16 </div>
+<div class="c-post-title"> <a id="post-9919" href="http://ereads.com/2010/12/agents-recount-author-queries-from-hell.html" rel="bookmark" title=" Agents Recount Author Queries from Hell">Agents Recount Author Queries from Hell</a> </div>
+
+                            
+</div>
+
+<div class="post-content">
+
+					<p><a href="http://ereads.com/wp-content/uploads/2010/12/submit.jpg"><img class="alignright size-medium wp-image-9922" title="submit" src="http://ereads.com/wp-content/uploads/2010/12/submit-300x200.jpg" alt="" width="300" height="200" /></a>A few weeks ago, a writer named Jeff Tohline emailed me asking a simple question: &#8220;What is the single biggest mistake writers make when querying you?&#8221;</p>
+<p>I didn&#8217;t hesitate.  &#8220;<em>Meets</em>&#8220;, I fired back at him. &#8220;As in The DaVinci Code <em>Meets</em> Genesis. As in Crime and Punishment <em>Meets</em> The Shining. As in Buffy <em>Meets</em> Dracula.&#8221; &#8220;Send me a &#8216;<em>Meets</em>&#8216; and you&#8217;re deleted,&#8221; I said. Perhaps I was a bit arbitrary, but that phrase, derived from Hollywood pitch lines that were clever in their day (the 20th century) but have become a stale convention in ours. So &#8211; writers beware.</p>
+<p>Tohline&#8217;s query was sent to some 100 of my agent colleagues and the comments by the 50 who responded are well worth every aspiring writer&#8217;s time.  I didn&#8217;t find anyone else who complained about &#8220;meets&#8221; but I did discover that&#8230;</p>
+<p>Three agents complained about &#8220;Go to my website for a sample of my work…&#8221;, four about pitching their book&#8217;s sequel, five about unproofread queries, nine about queries addressed to &#8220;Dear Agent&#8221;, and fourteen about authors who have no clue what the agency handles or what its submission guidelines are.</p>
+<p>Many agents amplified on their peeves.</p>
+<p>Michael Murphy of Max &amp; Co.: &#8220;The answer to your question is an easy one. The single biggest mistake writers make when querying me is sending  manuscripts for areas I do not represent. On my website, in all my  interviews, and I believe in most websites that list areas of interest  for each agent, it is quite clearly stated that I do not represent YA,  prescription (How To) nonfiction, nor genre fiction (SF, fantasy,  romance, thrillers). Yet almost half the queries I receive are for these  very categories.&#8221;</p>
+<p>Gina Panettieri: &#8220;Don&#8217;t try to cut corners by simply referring  agents to your website rather than writing a well-prepared query. It&#8217;s  great to let us know about your website and we can check it out to get  more info about you and your book, but we&#8217;ll only do that IF you&#8217;ve  intrigued us with your knock-out query!&#8221;</p>
+<p>Pam  Ahearn: &#8220;<em>&#8216;This will be a bestseller and make you very rich</em>.&#8217; Let&#8217;s start  with getting the agent to read 5 pages before you start thinking about  the fortune you’re going to help them make!&#8221;</p>
+<p>Heather Mitchell: &#8220;It all comes down to the writing. An  agent&#8217;s first peek at the quality of the writing comes from the query  letter. You would be amazed at the number of authors who write long,  drawn out, messy queries. A query letter should be a tease – a taste for  more to come. Don&#8217;t give it all away on the first date, and please,  show up clean and polished.&#8221;</p>
+<p>Want to know why your submissions come back from agents faster than a tennis serve? Read <a href="http://www.jmtohline.com/2010/12/biggest-mistakes-writers-make-when.html">The Biggest Mistakes Writers Make When Querying Literary Agents</a>.</p>
+<p>Richard Curtis</p>
+<div id="pfButton"><a href="http://ereads.com/2010/12/agents-recount-author-queries-from-hell.html?pfstyle=wp" title="Print an optimized version of this web page"><img id="printfriendly" style="border:none; padding:0;" src="http://cdn.printfriendly.com/pf-button-both.gif" alt="Print"/></a></div>                    
+                    <br style="clear:both;" />
+                    <div class="main-meta">
+                     Tags: <a href="http://ereads.com/tag/literary-agents" rel="tag">Literary Agents</a>, <a href="http://ereads.com/tag/writers" rel="tag">Writers</a><br> 
+                    Posted in <a href="http://ereads.com/category/advice-for-writers" title="View all posts in Advice for Writers" rel="category tag">Advice for Writers</a>,  <a href="http://ereads.com/category/all" title="View all posts in All" rel="category tag">All</a> <strong>|</strong> <a href="http://ereads.com/2010/12/agents-recount-author-queries-from-hell.html#comments" title="Comment on Agents Recount Author Queries from Hell">3 Comment &#187;</a>  
+                    
+                    </div>
+                    <div class="clear"></div>
+</div>
+		
+		        
+
+<div class="post-title">
+<div class="c-post-date"> Wednesday, December 15 </div>
+<div class="c-post-title"> <a id="post-9684" href="http://ereads.com/2010/12/e-books-drifting-vookward.html" rel="bookmark" title=" E-Books Drifting Vookward">E-Books Drifting Vookward</a> </div>
+
+                            
+</div>
+
+<div class="post-content">
+
+					<p><a href="http://ereads.com/wp-content/uploads/2010/11/Enhance-Me-Logo-300x116.jpg"><img class="alignright size-full wp-image-9685" title="Enhance-Me-Logo-300x116" src="http://ereads.com/wp-content/uploads/2010/11/Enhance-Me-Logo-300x116.jpg" alt="" width="300" height="116" /></a>&#8220;Enhanced e-books&#8221; was one of the most overused catchphrases in 2010. Publishers stampeded to load up conventional e-books with all manner of enhancements ranging from author out-takes to big-name intros to film and video clips. The idea was to justify boosting the price of their souped-up e-books.</p>
+<p>Some of these products were interesting, entertaining and attractive, But were they worth those extra bucks? Jeffrey A. Trachtenberg of the <em>Wall Street Journal </em>asked that very question in <a href="http://online.wsj.com/article/SB10001424052748703730304575632654146880096.html?mod=WSJ_hp_MIDDLENexttoWhatsNewsSecondv"><em>Testing Enhanced E-Books</em></a>.</p>
+<p>Ana  Maria Allessi, publisher of HarperMedia, says definitely yes. &#8220;When both digital editions are available, and consumers are given the  choice, in half the cases they&#8217;ll pay more for extra content,&#8221; she says. Sourcebooks&#8217; publisher Dominique Racca thinks so too: &#8220;I can imagine a product where you multiply by 100 percent because it has so much more value than the non-enhanced editions.&#8221;</p>
+<p>But a very different view was expressed by Tony Woodlief, oddly enough in the <em>Wall Street Journal </em>too. He had a one word explanation for why most enhanced e-books will flop.  Click <a href="http://ereads.com/2010/07/one-word-explanation-of-why-enhanced-e-books-wont-work.html">here</a> if you&#8217;d like to learn what it is.</p>
+<p>And if you&#8217;d like to hear it expressed poetically&#8230;<br />
+<em><br />
+Publishers expressed enchantment<br />
+With the notion of enhancement.<br />
+Audio, video, music, flix,<br />
+Bangles, baubles, Bar Mitzvah pix.<br />
+A tune or two was all it took<br />
+To constitute a mobile vook.<br />
+They tossed in every kind of crap<br />
+And designated it an app.*</em></p>
+<p>Richard Curtis</p>
+<p>* From <em>2010 (The App) </em>by Richard Curtis with permission of Publishers Weekly, PWxyz, (c) 2010 Richard Curtis</p>
+<p><em>Every Blogger owes a debt of gratitude to newspapers and magazines. This posting relies on original research and reporting performed by The Wall Street Journal.</em></p>
+<div id="pfButton"><a href="http://ereads.com/2010/12/e-books-drifting-vookward.html?pfstyle=wp" title="Print an optimized version of this web page"><img id="printfriendly" style="border:none; padding:0;" src="http://cdn.printfriendly.com/pf-button-both.gif" alt="Print"/></a></div>                    
+                    <br style="clear:both;" />
+                    <div class="main-meta">
+                     Tags: <a href="http://ereads.com/tag/enhanced-e-books" rel="tag">Enhanced E-books</a>, <a href="http://ereads.com/tag/richard-curtis" rel="tag">Richard Curtis</a>, <a href="http://ereads.com/tag/wall-street-journal" rel="tag">Wall Street Journal</a><br> 
+                    Posted in <a href="http://ereads.com/category/advice-for-writers" title="View all posts in Advice for Writers" rel="category tag">Advice for Writers</a>,  <a href="http://ereads.com/category/all" title="View all posts in All" rel="category tag">All</a>,  <a href="http://ereads.com/category/book-pricing-royalties" title="View all posts in Book Pricing &amp; royalties" rel="category tag">Book Pricing &amp; royalties</a>,  <a href="http://ereads.com/category/e-book-reader-technology" title="View all posts in E-Book Reader Technology" rel="category tag">E-Book Reader Technology</a>,  <a href="http://ereads.com/category/e-book-applications" title="View all posts in E-book Applications" rel="category tag">E-book Applications</a>,  <a href="http://ereads.com/category/e-books-business" title="View all posts in E-books (business)" rel="category tag">E-books (business)</a> <strong>|</strong> <a href="http://ereads.com/2010/12/e-books-drifting-vookward.html#respond" title="Comment on E-Books Drifting Vookward">0 Comments &#187;</a>  
+                    
+                    </div>
+                    <div class="clear"></div>
+</div>
+		
+		        
+
+<div class="post-title">
+<div class="c-post-date"> Tuesday, December 14 </div>
+<div class="c-post-title"> <a id="post-9671" href="http://ereads.com/2010/12/uncle-sam-cracks-down-on-music-and-movie-piracy-but-books-nope.html" rel="bookmark" title=" Uncle Sam Cracks Down on Music and Movie Piracy. But What&#8217;s with Books?">Uncle Sam Cracks Down on Music and Movie Piracy. But What&#8217;s with Books?</a> </div>
+
+                            
+</div>
+
+<div class="post-content">
+
+					<p><a href="http://ereads.com/wp-content/uploads/2010/11/Chopped-Liver.gif"><img class="alignright size-full wp-image-9673" title="Chopped Liver" src="http://ereads.com/wp-content/uploads/2010/11/Chopped-Liver.gif" alt="" width="353" height="138" /></a>Does anybody know a politician who cares about books?  Authors and publishers could sure use a lobbyist, but it looks like the movie and music industries have more money and clout to spend closing down illegal file-sharing websites.</p>
+<p>That&#8217;s the impression you get from reading a <a href="http://www.nytimes.com/2010/11/27/technology/27torrent.html?ref=technology"><em>New York Times</em> report </a>about a shutdown by the Federal government of  websites that facilitate facilitating illegal filesharing of music and movies.</p>
+<p>Oddly, the government office that seized the sites is Immigration and Customs Enforcement, a division of the Department of Homeland Security. The reason Immigration and Customs get involved is that some of the most flagrant sources of copyright larceny take place abroad.  “American  business is under assault from counterfeiters and pirates every day,  seven days a week,” an executive with the enforcement agency said.  “Criminals are stealing American  ideas and products and distributing them over the Internet.”</p>
+<p>To tell you the truth, we don&#8217;t much care if it&#8217;s the American Battle Monuments Commission, we just want someone in our government to kick book pirates in the ass. Ben Sisario of the <em>Times</em> tells us that &#8220;Some Among the domains seized were torrent-finder.com and those of three  sites that specialized in music: onsmash.com, rapgodfathers.com and  dajaz1.com. TorrentFreak, a news blog about BitTorrent — a file-sharing  system that has tended to elude the authorities because it is  decentralized — said that at least 70 other addresses had been seized,  most belonging to sites related to counterfeit clothing, DVDs and other  goods.&#8221;  But some of these sites carry e-books too, and besides, the same torrent file-sharing techniques used by music and movie pirates are used to steal book content, too.</p>
+<p>Aside from hiding in remote locations abroad, often under the protection of foreign governments, many sites steer just clear of the law by &#8220;fencing&#8221; &#8211; that is, serving simply as links to pirate sites. Kind of like head shops that sell drug paraphernalia but not the drugs themselves.  Fileshare sites  also reconstitute themselves as quickly as they&#8217;re taken down, challenging lawmakers to whac-a-mole them, as we recently described in <em><a href="../2010/11/freebie-booksite-taken-down-by-google-reappears-one-hour-later-is-your-book-being-given-away-here.html">Freebie Booksite Taken Down by Google Reappears One Hour Later</a></em>. Indeed, not long after the government shut his site down, one operator had it up at a different address.</p>
+<p>So? How about it, Congressperson? You want my vote?  Shut down the book-torrent sites.And while you&#8217;re at it, find a way to regulate fences.</p>
+<p>For a complete archive of E-Reads postings on piracy visit <a href="http://ereads.com/category/copyright-and-piracy">Pirate Central</a>.</p>
+<p>Richard Curtis<br />
+<em><br />
+Every Blogger owes a debt of gratitude to newspapers and magazines. This posting relies on original research and reporting performed by The New York Times.</em></p>
+<div id="pfButton"><a href="http://ereads.com/2010/12/uncle-sam-cracks-down-on-music-and-movie-piracy-but-books-nope.html?pfstyle=wp" title="Print an optimized version of this web page"><img id="printfriendly" style="border:none; padding:0;" src="http://cdn.printfriendly.com/pf-button-both.gif" alt="Print"/></a></div>                    
+                    <br style="clear:both;" />
+                    <div class="main-meta">
+                     Tags: <a href="http://ereads.com/tag/book-piracy" rel="tag">Book Piracy</a>, <a href="http://ereads.com/tag/file-sharing" rel="tag">File-Sharing</a><br> 
+                    Posted in <a href="http://ereads.com/category/all" title="View all posts in All" rel="category tag">All</a>,  <a href="http://ereads.com/category/copyright-and-piracy" title="View all posts in Copyright and Piracy" rel="category tag">Copyright and Piracy</a>,  <a href="http://ereads.com/category/e-book-reader-technology" title="View all posts in E-Book Reader Technology" rel="category tag">E-Book Reader Technology</a>,  <a href="http://ereads.com/category/e-book-industry-news" title="View all posts in E-book Industry (news)" rel="category tag">E-book Industry (news)</a>,  <a href="http://ereads.com/category/e-books-business" title="View all posts in E-books (business)" rel="category tag">E-books (business)</a>,  <a href="http://ereads.com/category/publishing-industry-2" title="View all posts in Publishing Industry" rel="category tag">Publishing Industry</a> <strong>|</strong> <a href="http://ereads.com/2010/12/uncle-sam-cracks-down-on-music-and-movie-piracy-but-books-nope.html#comments" title="Comment on Uncle Sam Cracks Down on Music and Movie Piracy. But What&#8217;s with Books?">1 Comment &#187;</a>  
+                    
+                    </div>
+                    <div class="clear"></div>
+</div>
+		
+		        
+
+<div class="post-title">
+<div class="c-post-date"> Monday, December 13 </div>
+<div class="c-post-title"> <a id="post-9865" href="http://ereads.com/2010/12/ads-on-google-ebooks-it-will-happen-says-forrester.html" rel="bookmark" title=" Ads on Google eBooks? &#8220;It Will Happen&#8221; says Forrester">Ads on Google eBooks? &#8220;It Will Happen&#8221; says Forrester</a> </div>
+
+                            
+</div>
+
+<div class="post-content">
+
+					<div id="attachment_9910" class="wp-caption alignright" style="width: 194px"><a href="http://ereads.com/wp-content/uploads/2010/12/Google-shirt1.jpg"><img class="size-full wp-image-9910" title="Google-shirt" src="http://ereads.com/wp-content/uploads/2010/12/Google-shirt1.jpg" alt="" width="184" height="273" /></a><p class="wp-caption-text">Your ad here</p></div>
+<p>&#8220;The ultimate effect of Google eBooks, if Google knows what&#8217;s good for  it, will be the creation of an ad-supported publishing model,&#8221; says blogger James McQuivey of Forrester, the prestigious technology and market research company. That&#8217;s a pretty unequivocal statement, but McQuivey is as certain about it as he is that there are two O&#8217;s in Google.</p>
+<p>He knows he&#8217;s playing with fire, too, because if there is one article of faith that authors swear by it&#8217;s <em>NO ADS IN MY BOOK!</em> But he&#8217;s done his homework, and it looks like authors may have to start swearing by the next article of faith on their list, because McQuivey has marshaled some pretty persuasive arguments:</p>
+<blockquote><p>First, books are the only medium left not significantly sponsored by  advertising. From the Android Angry Birds game app to Pandora music  streams to Hulu.com to the venerable NYT.com, advertising is essential  to the success of nearly all media &#8212; analog and digital. The only  reason book advertising has not happened is that the economics of  distributing books have required that people pay for them &#8212; in a way  they have never paid for the newspaper, magazines, or even music, where a  majority of listening has always been radio-based. If you make people  pay the full price of a book&#8217;s creation and distribution, you can hardly  expect them to endure advertising. Plus, books last for such a long  time that an ad placed twenty five years ago in my copy of  The Hunt For  Red October would be laughably irrelevant today.</p>
+<p>That has all changed now. Since Google intends to provide its books  from the cloud, it can deliver ads that are timely and targeted. And the  economics of publishing are swiftly moving away from an analog  production model&#8230;which  means that soon, we will no longer need to force the entire cost of a  book on the buyer of the book, but instead can extract value from the  reader of the book, in direct proportion to the value they get from it.  In other words, the more pages they read (the more value they get), the  more ads they see and the more value the publisher and author receive.</p></blockquote>
+<p>And that&#8217;s just his openers. &#8220;I have a hundred more justifications for why this is  the next logical step for the industry, why Google is perfectly poised  to do it,&#8221; he declares.</p>
+<p>Are ads in e-books one of those laws of unexpected consequences? If you believe that you also believe there is only one O in Google.</p>
+<p>Read <a href="http://blogs.forrester.com/james_mcquivey/10-12-06-google_ebooks_paves_the_way_for_ad_supported_publishing">Google eBooks Paves The Way For Ad-Supported Publishing</a>, then start sketching the ad campaign for your Google eBook.</p>
+<p>Richard Curtis</p>
+<div id="pfButton"><a href="http://ereads.com/2010/12/ads-on-google-ebooks-it-will-happen-says-forrester.html?pfstyle=wp" title="Print an optimized version of this web page"><img id="printfriendly" style="border:none; padding:0;" src="http://cdn.printfriendly.com/pf-button-both.gif" alt="Print"/></a></div>                    
+                    <br style="clear:both;" />
+                    <div class="main-meta">
+                     Tags: <a href="http://ereads.com/tag/adsense" rel="tag">AdSense</a>, <a href="http://ereads.com/tag/advertising" rel="tag">Advertising</a>, <a href="http://ereads.com/tag/google" rel="tag">Google</a>, <a href="http://ereads.com/tag/google-ebooks" rel="tag">Google eBooks</a><br> 
+                    Posted in <a href="http://ereads.com/category/all" title="View all posts in All" rel="category tag">All</a>,  <a href="http://ereads.com/category/e-book-reader-technology" title="View all posts in E-Book Reader Technology" rel="category tag">E-Book Reader Technology</a>,  <a href="http://ereads.com/category/e-book-applications" title="View all posts in E-book Applications" rel="category tag">E-book Applications</a>,  <a href="http://ereads.com/category/e-book-industry-news" title="View all posts in E-book Industry (news)" rel="category tag">E-book Industry (news)</a>,  <a href="http://ereads.com/category/e-books-business" title="View all posts in E-books (business)" rel="category tag">E-books (business)</a> <strong>|</strong> <a href="http://ereads.com/2010/12/ads-on-google-ebooks-it-will-happen-says-forrester.html#comments" title="Comment on Ads on Google eBooks? &#8220;It Will Happen&#8221; says Forrester">2 Comment &#187;</a>  
+                    
+                    </div>
+                    <div class="clear"></div>
+</div>
+		
+		        
+
+<div class="post-title">
+<div class="c-post-date"> Monday, December 13 </div>
+<div class="c-post-title"> <a id="post-9953" href="http://ereads.com/2010/12/sfwa-gives-dorchester-a-second-chance.html" rel="bookmark" title=" SFWA Puts Dorchester on Probation">SFWA Puts Dorchester on Probation</a> </div>
+
+                            
+</div>
+
+<div class="post-content">
+
+					<p><a href="http://ereads.com/wp-content/uploads/2010/12/probation.jpg"><img class="alignright size-medium wp-image-9958" title="probation" src="http://ereads.com/wp-content/uploads/2010/12/probation-300x225.jpg" alt="" width="300" height="225" /></a>After Dorchester Publishing came close to the rocks a few months ago the<a href="http://ereads.com/2010/10/mystery-writers-of-america-delists-dorchester.html"> Mystery Writers of America delisted it</a> from its roster of markets approved for submission by MWA members.  That also meant that Dorchester titles would no longer be eligible for Edgar® Award consideration nor would its authors be eligible for Active Status membership for any books published after October 6, 2010. The board made it clear to Dorchester that it is welcome to re-apply once these problems have been cleared up.</p>
+<p>The company&#8217;s CEO left and things were looking fairly bleak.  However, the new CEO, Robert Anthony, has been working hard and visibly to rehabilitate the company and its reputation. (See <em><a href="http://ereads.com/2010/11/new-dorchester-ceo-vows-strong-comeback.html">New Dorchester CEO Vows Strong Comeback</a></em>)</p>
+<p>That&#8217;s the background for this memo from the head of another writers organization. John Scalzi, President of the Science Fiction Writers of America, circulated a memo to its members informing them that SFWA has put Dorchester on probation for a year, placing the publisher on its list of qualified markets for members of the organization. However, &#8220;fiction published by Dorchester may not be used to apply for membership until after the probation is completed.&#8221;</p>
+<p>We&#8217;re not aware that Mystery Writers of America has modified its position on Dorchester.</p>
+<p>Here&#8217;s is the complete release from SFWA Scalzi:</p>
+<p>*************************</p>
+<p>Dear SFWA members:</p>
+<p>As many of you are aware, over the last year, Dorchester Publishing Co, inc, which publishes books by several SFWA members, has been undergoing a number of changes to its business and in how it publishes its authors. The board of SFWA has been following the developments as they’ve occurred, and had asked members with Dorchester contracts to make us aware of if there were any improprieties involving payment or regarding their rights.</p>
+<p>In the course of this inquiry, we became aware of several instances in which Dorchester acted against the contractual and legal interest of authors, specifically by not paying royalties when contractually specified, or distributing books in a medium for which it had not legally secured rights.</p>
+<p>Dorchester does not dispute these events, and when it became aware of our inquiry, it contacted SFWA to offer us information and background to help answer our questions.</p>
+<p>We feel this cooperation has been a positive first step by Dorchester and we look forward to its continuing efforts to rebuild their brand and their business, and to do well by our members and other writers with whom it works. That said, we cannot overlook the troubles the company has had, which have adversely affected our members.</p>
+<p>Thus, by vote of the board, Dorchester Publishing is on probation as a qualified Science Fiction and Fantasy Writers of America market for a period of one year, December 10, 2010 &#8211; December 10, 2011.</p>
+<p>In this case, &#8220;probation&#8221; means that although Dorchester would remain on our official list of qualified SFWA markets, during the term of probation, fiction published by Dorchester may not be used to apply for membership until after the probation is completed.</p>
+<p>If Dorchester successfully completes its one-year probation, fiction contracted during that term will be viewed as acceptable for qualification for SFWA membership. If it does not SFWA will remove it from the list of approved markets.</p>
+<p>Fiction contracted and paid for (by initial advance payment) before the term of probation will not be affected by Dorchester&#8217;s probationary status.</p>
+<p>After a conversation between the Board of Directors and Dorchester, SFWA asked Dorchester to meet a series of benchmarks as a measure of a good faith effort to return to a solid standing. During the period of probation, SFWA expects the following from Dorchester in order for it to remain on the qualifying list after its probation period:</p>
+<p>1. That it fulfills its contractual and financial obligations to the authors it has already published, including full and accurate accounting of royalties per contract, with scheduled payment of any royalties outstanding;<br />
+2. That it examine its catalog to ensure it is no longer offering fiction in formats for which it has not contracted rights, and makes whole those authors whose rights it has violated;<br />
+3. That there are no instances of contractual violations on the part of Dorchester against authors signed to publishing deals after the start of the probationary period;<br />
+4. That Dorchester assist those authors wishing to revert rights, consistent with the company&#8217;s existing policies regarding rights reversion.</p>
+<p>During the probationary period, and depending on member participation, SFWA will be in contact with its members known to have outstanding Dorchester contracts to assure Dorchester is fulfilling its contractual obligations to them, or is actively and affirmatively working to correct previous violations. If you have any concerns during this time, please let the board know by emailing dorchester@sfwa.org or by emailing me directly (president@sfwa.org).  Confidentiality is assured for any member who requests it.</p>
+<p>While SFWA may act at any time to deal with a member complaint against Dorchester, at or near the six month mark of the probationary period it will perform a formal review of Dorchester&#8217;s progress on tasks above, with the results to be provided to the members of SFWA via our normal means of member communication.</p>
+<p>Dorchester has pledged to work with SFWA during this probationary period. Dorchester Senior Editor Chris Keeslar has informed us that his company is “working to clean up every mistake that has been made, and we categorically affirm our desire to meet the criteria SFWA lists.”</p>
+<p>This pledge from Dorchester to improve its practices and to work with SFWA for the benefit of our members strongly encourages us that writers, our members among them, will soon once again find Dorchester a congenial market for their work.</p>
+<p>We look forward to working with them to make it so, and are hopeful that in a year’s time we will be able to retain Dorchester as a SFWA qualifying market.</p>
+<p>Yours,<br />
+John Scalzi<br />
+President, Science Fiction and Fantasy Writers of America</p>
+<p>***************</p>
+<p>NOTE: In my original posting I mixed MWA and SFWA up, and I thank SFWA&#8217;s Vice President Mary Robinette Kowal for straightening me out. I apologize for my confusion.</p>
+<div id="pfButton"><a href="http://ereads.com/2010/12/sfwa-gives-dorchester-a-second-chance.html?pfstyle=wp" title="Print an optimized version of this web page"><img id="printfriendly" style="border:none; padding:0;" src="http://cdn.printfriendly.com/pf-button-both.gif" alt="Print"/></a></div>                    
+                    <br style="clear:both;" />
+                    <div class="main-meta">
+                     Tags: <a href="http://ereads.com/tag/dorchester-books" rel="tag">Dorchester Books</a>, <a href="http://ereads.com/tag/science-fiction-writers-of-america" rel="tag">Science Fiction Writers of America</a><br> 
+                    Posted in <a href="http://ereads.com/category/advice-for-writers" title="View all posts in Advice for Writers" rel="category tag">Advice for Writers</a>,  <a href="http://ereads.com/category/publishing-industry-2" title="View all posts in Publishing Industry" rel="category tag">Publishing Industry</a> <strong>|</strong> <a href="http://ereads.com/2010/12/sfwa-gives-dorchester-a-second-chance.html#respond" title="Comment on SFWA Puts Dorchester on Probation">0 Comments &#187;</a>  
+                    
+                    </div>
+                    <div class="clear"></div>
+</div>
+		
+		        
+
+<div class="post-title">
+<div class="c-post-date"> Sunday, December 12 </div>
+<div class="c-post-title"> <a id="post-9846" href="http://ereads.com/2010/12/richard-curtis-verses-the-publishing-industry-2010.html" rel="bookmark" title=" Richard Curtis Verses the Publishing Industry, 2010">Richard Curtis Verses the Publishing Industry, 2010</a> </div>
+
+                            
+</div>
+
+<div class="post-content">
+
+					<p><a href="http://ereads.com/ecms/books.php?id=769"><img class="alignright" src="http://ereads.com/images/covers/820.jpg" alt="" width="150" height="230" /></a>Speculation has been running at fever pitch: What&#8217;s this year&#8217;s theme of literary agent Richard Curtis&#8217;s end-of-year poem? And which publishing executives has he singled out for poetic immortality?</p>
+<p>For seven or eight years in the mid 1980s and early &#8217;90s <span style="font-style: italic;">Publisher&#8217;s Weekly</span> ran Curtis&#8217;s annual summary, in tongue-in-cheek verse, of the highlights and lowlights of the year in the publishing industry. The annual rhymes carried such titles as, &#8220;Merger, He Wrote,&#8221; (1986), &#8220;Wedding Bells Are Breaking Up That Old Industry of Mine&#8221; (1989) and &#8220;Stop the Millennium, I Want to Get Off&#8221; (1990).</p>
+<p>After a hiatus of some fifteen years, the verse-atile agent returned to PW in 2007 with &#8220;<a href="http://www.publishersweekly.com/pw/by-topic/columns-and-blogs/soapbox/article/12004-the-year-of-the-platform-.html">The Year of the Platform</a>,&#8221; which boasted such lines as</p>
+<p><span style="font-style: italic;">Are our values turning asswards</span> <span style="font-style: italic;"><br />
+When opening books requires passwords? </span><em></em></p>
+<p class="MsoNormal" style="text-align: left;">2008&#8217;s effusion, &#8220;<a href="http://www.publishersweekly.com/pw/by-topic/columns-and-blogs/soapbox/article/16680-the-coming-of-the-pod-people-.html">The Coming of the POD People</a>,&#8221; had this memorable doggerel:</p>
+<p class="MsoNormal" style="text-align: left; font-style: italic;">Agents now submit their schlock<br />
+By means of email as dot-doc.</p>
+<p class="MsoNormal" style="text-align: left;">In 2009&#8217;s poem, &#8220;<a href="http://www.publishersweekly.com/pw/by-topic/columns-and-blogs/soapbox/article/41341-the-yr-of-the-tweet-.html"><em>The Yr of the Tweet</em></a>&#8220;, Curtis solidified his claim to a place in Westminster Abbey when he managed to devise a rhyme for &#8220;Shatzkin&#8221;.</p>
+<p>What delights will<em> 2010 (The App)</em> reveal?  How about this one:</p>
+<p><em>They tossed in every kind of crap<br />
+And designated it an app.</em></p>
+<p>Click <a href="http://www.publishersweekly.com/pw/print/20101213/45468-2010-the-app-.html">here</a> to read it in its entirety. Many of Curtis&#8217;s verses plus his prose spoofs are collected in<a href="http://ereads.com/ecms/books.php?id=769"> The Client From Hell and Other Publishing Satires</a>.</p>
+<div style="text-align: left;">
+<p>The only problem is that if you really enjoy his latest poem, you&#8217;ll have to wait a whole year before you get to read another.</p>
+<p><span style="font-style: italic;">John Douglas</span></p>
+<p><em>Poem excerpts (c) Richard Curtis reprinted from Publishers Weekly, December 31 2007, December 22 2008, December 21 2009 and December 13, 2010 PWxyz.</em></p>
+</div>
+<div id="pfButton"><a href="http://ereads.com/2010/12/richard-curtis-verses-the-publishing-industry-2010.html?pfstyle=wp" title="Print an optimized version of this web page"><img id="printfriendly" style="border:none; padding:0;" src="http://cdn.printfriendly.com/pf-button-both.gif" alt="Print"/></a></div>                    
+                    <br style="clear:both;" />
+                    <div class="main-meta">
+                     Tags: <a href="http://ereads.com/tag/publishers-weekly" rel="tag">Publishers Weekly</a>, <a href="http://ereads.com/tag/richard-curtis" rel="tag">Richard Curtis</a><br> 
+                    Posted in <a href="http://ereads.com/category/all" title="View all posts in All" rel="category tag">All</a>,  <a href="http://ereads.com/category/miscellaneous" title="View all posts in Miscellaneous" rel="category tag">Miscellaneous</a>,  <a href="http://ereads.com/category/publishing-industry-2" title="View all posts in Publishing Industry" rel="category tag">Publishing Industry</a> <strong>|</strong> <a href="http://ereads.com/2010/12/richard-curtis-verses-the-publishing-industry-2010.html#respond" title="Comment on Richard Curtis Verses the Publishing Industry, 2010">0 Comments &#187;</a>  
+                    
+                    </div>
+                    <div class="clear"></div>
+</div>
+		
+		        
+
+<div class="post-title">
+<div class="c-post-date"> Saturday, December 11 </div>
+<div class="c-post-title"> <a id="post-9602" href="http://ereads.com/2010/12/a-nation-under-siege-turns-for-salvation-to-a-young-prince.html" rel="bookmark" title=" A Nation Under Siege Turns for Salvation to a Young Prince">A Nation Under Siege Turns for Salvation to a Young Prince</a> </div>
+
+                            
+</div>
+
+<div class="post-content">
+
+					<p><a href="http://ereads.com/ecms/books.php?id=1532"><img class="alignright" src="http://ereads.com/images/covers/Lynn-Watchtower-web.jpg" alt="" width="150" height="230" /></a>In a land brought to life by warriors and lovers, war and honor, the legendary tower, Tornor Keep, is invaded by raiders. No longer the watchtower at the winter end of a summer land, Tornor turns to a young prince with the hopes that he might protect the future of the enchanting country.</p>
+<p>The <em>Chronicles of Tornor</em>, Elizabeth Lynn&#8217;s glorious fantasy trilogy cited for its feminist themes, commences with the World Fantasy award-winning <a href="http://ereads.com/ecms/books.php?id=1532"><em>Watchtower</em>,</a> hailed by an awesome cohort of fantasy and science fiction superstars. &#8220;A marvelous blend of fantasy&#8230; and realism in the characters and the  social interactions,&#8221; writes Marion Zimmer Bradley. &#8220;An unusual, powerful and beautiful book.&#8221; says John Varley.  &#8220;A  book of depth and vigor and surprises,&#8221; writes Robert Silverberg.</p>
+<p>One Amazon customer says &#8221; The first book of one of my favorite trilogies, it ranks with LeGuin&#8217;s <em>Earthsea</em> works.&#8221; Another reviewer awards five stars with this comment: &#8220;I have been reading and rereading the <em>Tornor Chronicles</em> for many years  now &#8211; about once a year for twenty years or so. They are a wonderful,  sometimes sad, sometimes uplifting and a very human read.&#8221;</p>
+<p>Visit Elizabeth Lynn&#8217;s E-Reads author page to learn about <a href="http://ereads.com/ecms/authors.php?id=51">the other books in the trilogy, <em>The Dancers of Arun</em> and<em> The Northern Girl</em>.</a></p>
+<p>In addition to E-Reads downloads, the<a href="http://www.amazon.com/s/ref=nb_sb_noss?url=search-alias%3Dstripbooks&amp;field-keywords=chronicles+of+tornor+&amp;x=0&amp;y=0"> Ace paperback editions may be bought here</a>.</p>
+<div id="pfButton"><a href="http://ereads.com/2010/12/a-nation-under-siege-turns-for-salvation-to-a-young-prince.html?pfstyle=wp" title="Print an optimized version of this web page"><img id="printfriendly" style="border:none; padding:0;" src="http://cdn.printfriendly.com/pf-button-both.gif" alt="Print"/></a></div>                    
+                    <br style="clear:both;" />
+                    <div class="main-meta">
+                     Tags: <a href="http://ereads.com/tag/elizabeth-lynn" rel="tag">Elizabeth Lynn</a>, <a href="http://ereads.com/tag/fantasy" rel="tag">Fantasy</a><br> 
+                    Posted in <a href="http://ereads.com/category/all" title="View all posts in All" rel="category tag">All</a>,  <a href="http://ereads.com/category/e-reads-featured-books" title="View all posts in E-Reads Featured Books" rel="category tag">E-Reads Featured Books</a> <strong>|</strong> <a href="http://ereads.com/2010/12/a-nation-under-siege-turns-for-salvation-to-a-young-prince.html#respond" title="Comment on A Nation Under Siege Turns for Salvation to a Young Prince">0 Comments &#187;</a>  
+                    
+                    </div>
+                    <div class="clear"></div>
+</div>
+		
+		        
+
+<div class="post-title">
+<div class="c-post-date"> Friday, December 10 </div>
+<div class="c-post-title"> <a id="post-9867" href="http://ereads.com/2010/12/dan-sherman.html" rel="bookmark" title=" A Brutal Killer Threatens to Scuttle the American Revolution">A Brutal Killer Threatens to Scuttle the American Revolution</a> </div>
+
+                            
+</div>
+
+<div class="post-content">
+
+					<p><a href="http://ereads.com/ecms/books.php?id=1725"><img class="alignright" src="http://ereads.com/images/covers/Sherman-The-Traitor_web.jpg" alt="" width="150" height="230" /></a>In a quiet room in the White Swan Inn, sunlight slowly breaks through the curtains revealing two young lovers&#8211;an American seamstress and an English Officer. They have been brutally, ritualistically murdered in their sleep. It’s a grisly scene that can only mean one thing: there’s a traitor within the American Revolution.</p>
+<p>Dan Sherman&#8217;s <a href="../ecms/books.php?id=1725"><em>The Traitor</em></a> launches E-Reads&#8217; reissue of the works of Dan Sherman, a novelist whose thrillers I had the pleasure to handle in the 1980s and have the pleasure to present to contemporary readers.  His novels have not lost any of their relevance or urgency.  As you pick up his books, note how he focuses on all the senses &#8211; sight, sound, smell, taste, touch &#8211; to evoke the milieu and the mood.</p>
+<p>And his choice of milieu is astonishingly broad.  From the American Revolution in <em>The Traitor</em> to China from 1949 through the 1960&#8217;s (<em>The White Mandarin</em>) to the 1950s and &#8217;60s (<em>The Prince of Berlin</em>) to World War I (<em>The Man Who Loved Mata Hari</em>) and others.  Watch <a href="http://ereads.com/ecms/authors.php?id=392">Sherman&#8217;s author page </a>for all of them.  I guess you&#8217;ve figured out that I&#8217;m a huge fan of Dan Sherman!</p>
+<p>Back to <em>The Traitor</em>:</p>
+<p>The year is 1779. General Washington, struggling to keep his army together, sends his best spymaster, Matty Grove, to investigate the killings. As Matty follows the trail of clues, he comes up against more questions. Who gave the killer his orders? How much does the mole know of the Revolution’s plans? Is this treason a matter of principle or simply profit?</p>
+<p>With <em>The Traitor</em> author Dan Sherman brings the political and economic maneuverings of the Revolution into vivid detail. The rising pace and complex characters in this stunning work of historical fiction will have history buffs and fans of modern espionage alike clamoring for more.</p>
+<p>RC</p>
+<div id="pfButton"><a href="http://ereads.com/2010/12/dan-sherman.html?pfstyle=wp" title="Print an optimized version of this web page"><img id="printfriendly" style="border:none; padding:0;" src="http://cdn.printfriendly.com/pf-button-both.gif" alt="Print"/></a></div>                    
+                    <br style="clear:both;" />
+                    <div class="main-meta">
+                     Tags: <a href="http://ereads.com/tag/dan-sherman" rel="tag">Dan Sherman</a>, <a href="http://ereads.com/tag/historical-fiction" rel="tag">Historical Fiction</a>, <a href="http://ereads.com/tag/history" rel="tag">History</a>, <a href="http://ereads.com/tag/spy-thrillers" rel="tag">Spy Thrillers</a>, <a href="http://ereads.com/tag/suspense-thriller" rel="tag">Suspense Thriller</a><br> 
+                    Posted in <a href="http://ereads.com/category/all" title="View all posts in All" rel="category tag">All</a>,  <a href="http://ereads.com/category/e-reads-featured-books" title="View all posts in E-Reads Featured Books" rel="category tag">E-Reads Featured Books</a> <strong>|</strong> <a href="http://ereads.com/2010/12/dan-sherman.html#respond" title="Comment on A Brutal Killer Threatens to Scuttle the American Revolution">0 Comments &#187;</a>  
+                    
+                    </div>
+                    <div class="clear"></div>
+</div>
+		
+		<div style=" padding-bottom:10px; float:left; width:200px;"><a href="http://ereads.com/page/2" >&laquo; View Older Posts</a> </div>
+<div style=" padding-bottom:10px; float:right; width:200px; text-align:right;"></div>
+		
+	
+	
+
+</div>
+
+<div class="right-navi-blog">
+
+	
+
+<div class="right-widget" target="_blank"><img src="http://ereads.com/images/444_01.jpg" border="0" /><a href="http://www.facebook.com/#/pages/New-York-NY/E-Reads/132755983445?ref=ts" target="_blank"><img src="http://ereads.com/images/444_02.jpg" border="0" /></a><a href="http://www.amazon.com/gp/search/ref=sr_adv_b/?search-alias=stripbooks&unfiltered=1&field-keywords=&field-author=&field-title=&field-isbn=&field-publisher=E-Reads&node=&url=&field-feature_browse-bin=&field-binding_browse-bin=&field-subject=&field-language=&field-dateop=&field-datemod=&field-dateyear=&sort=relevancerank&Adv-Srch-Books-Submit.x=0&Adv-Srch-Books-Submit.y=0" target="_blank"><img src="http://ereads.com/images/444_03.jpg" border="0" /></a><a href="http://twitter.com/ereads" target="_blank"><img src="http://ereads.com/images/444_04.jpg" border="0" /></a><a href="http://ebookstore.sony.com/" target="_blank"><img src="http://ereads.com/images/444_05.jpg" border="0" /></a><a href="http://www.ebooks.com" target="_blank"><img src="http://ereads.com/images/444_06.jpg" border="0" /></a><a href="http://productsearch.barnesandnoble.com/search/results.aspx?store=BOOK&WRD=ereads.com&box=ereads.com&pos=-1" target="_blank"><img src="http://ereads.com/images/444_07.jpg" border="0" /></a><a href="http://www.borders.com/online/store/SearchResults?keyword=ereads.com&type=1&simple=1" target="_blank"><img src="http://ereads.com/images/444_08.jpg" border="0" style="float:left"/></a><form method="POST" action="http://www.ereader.com/servlet/mw" style="width:94px; padding:0; margin:0; float:left;"><input type="hidden" name="t" value="searchresults_adv" /><input type="hidden" name="searchpublisher" value="3" /><input type="image" src="http://ereads.com/images/444_09.jpg" value="Submit" alt="Submit" /></form><a href="http://www.mobipocket.com/en/eBooks/searchebooks.asp?Language=EN&searchStr=E-Reads&searchType=Publisher&lang=EN&orderBy=best" target="_blank"><img src="http://ereads.com/images/444_10.jpg" border="0" /></a><a href="http://www.fictionwise.com/ebooks/p3/E-Reads/?" target="_blank"><img src="http://ereads.com/images/444_11.jpg" border="0" /></a><a href="http://www.youtube.com/user/curtisagency" target="_blank"><img src="http://ereads.com/images/444_12.jpg" border="0" /></a><a href="http://www.webscription.net/m-7-e-reads.aspx" target="_blank"><img src="http://ereads.com/images/444_13.jpg" border="0" /></a>
+<br />
+
+<div style="padding-top:1px; margin-top:18px; border-top-width: 1px; border-top-style: solid; border-top-color: #cccccc;"> &nbsp; </div>
+<div class="headlines">
+<img src="http://ereads.com/images/IndustryHeadlines.png" border="0"  style="border-bottom:2px #fd8e35 solid;"/>
+<div style="padding:5px 10px 5px 10px;">
+	<a href="http://publishingperspectives.com/2010/12/transmedia-storytelling-in-the-classroom/" target="_blank">PublishingPerspectives.com: “The Kids Get It, Even If You Don’t”: Transmedia Storytelling in the Classroom</a> <br> <span style="color:#bcbcbd; font-size:90%;"> December 17, 2010 </span> <br> <img src="http://ereads.com/images/dashed.png" style="padding:5px 0px 5px 0px;"><br><a href="http://www.nytimes.com/2010/12/17/books/17words.html?_r=2" target="_blank">NYTimes.com: In 500 Billion Words, New Window on Culture</a> <br> <span style="color:#bcbcbd; font-size:90%;"> December 17, 2010 </span> <br> <img src="http://ereads.com/images/dashed.png" style="padding:5px 0px 5px 0px;"><br><a href="http://www.huffingtonpost.com/peter-ginna/p-versus-ebooks-continued_b_797634.html" target="_blank">The Huffington Post: Print Books (and Bookstores) Aren't Dead, But the Book Business Is about to Change
+</a> <br> <span style="color:#bcbcbd; font-size:90%;"> December 17, 2010 </span> <br> <img src="http://ereads.com/images/dashed.png" style="padding:5px 0px 5px 0px;"><br><a href="http://abcnews.go.com/Business/wireStory?id=12413787" target="_blank">ABCNews.go.com: Analysis: Christmas to Be Decisive for Borders, Barnes & Noble</a> <br> <span style="color:#bcbcbd; font-size:90%;"> December 17, 2010 </span> <br> <img src="http://ereads.com/images/dashed.png" style="padding:5px 0px 5px 0px;"><br><a href="http://www.telegraph.co.uk/culture/books/booknews/8206978/Enid-Blyton-falls-out-of-childrens-favour.html" target="_blank">Telegraph.co.uk: Enid Blyton falls out of children's favour
+Enid Blyton has fallen out of the top ten list of children's authors for the first time in decades because youngsters cannot relate to her language.
+</a> <br> <span style="color:#bcbcbd; font-size:90%;"> December 17, 2010 </span> <br>         
+       <div class="view_more_now"> [ <a href="http://ereads.com/ecms/industry_headlines.php">ARCHIVE</a> ]</div>
+        </div>
+</div>
+
+<img src="http://ereads.com/images/blog_cats.jpg" style="padding-top:10px;" />
+
+<div class="arrows">
+<ul>
+	<li class="cat-item cat-item-714"><a href="http://ereads.com/category/advice-for-writers" title="View all posts filed under Advice for Writers">Advice for Writers</a>
+</li>
+	<li class="cat-item cat-item-722"><a href="http://ereads.com/category/book-pricing-royalties" title="View all posts filed under Book Pricing &amp; royalties">Book Pricing &amp; royalties</a>
+</li>
+	<li class="cat-item cat-item-716"><a href="http://ereads.com/category/copyright-and-piracy" title="View all posts filed under Copyright and Piracy">Copyright and Piracy</a>
+</li>
+	<li class="cat-item cat-item-719"><a href="http://ereads.com/category/e-book-applications" title="View all posts filed under E-book Applications">E-book Applications</a>
+</li>
+	<li class="cat-item cat-item-718"><a href="http://ereads.com/category/e-book-industry-news" title="View all posts filed under E-book Industry (news)">E-book Industry (news)</a>
+</li>
+	<li class="cat-item cat-item-724"><a href="http://ereads.com/category/e-book-reader-technology" title="View all posts filed under E-Book Reader Technology">E-Book Reader Technology</a>
+</li>
+	<li class="cat-item cat-item-717"><a href="http://ereads.com/category/e-books-business" title="View all posts filed under E-books (business)">E-books (business)</a>
+</li>
+	<li class="cat-item cat-item-721"><a href="http://ereads.com/category/magazines-and-newspapers" title="View all posts filed under Magazines and Newspapers">Magazines and Newspapers</a>
+</li>
+	<li class="cat-item cat-item-725"><a href="http://ereads.com/category/miscellaneous" title="Items of general interest that aren&#039;t necessarily related to books, e-books, publishing and the other major foci of comment on the site">Miscellaneous</a>
+</li>
+	<li class="cat-item cat-item-715"><a href="http://ereads.com/category/publishing-contracts" title="View all posts filed under Publishing Contracts">Publishing Contracts</a>
+</li>
+	<li class="cat-item cat-item-723"><a href="http://ereads.com/category/publishing-industry-2" title="View all posts filed under Publishing Industry">Publishing Industry</a>
+</li>
+</ul>
+</div>
+
+
+<img src="http://ereads.com/images/blogroll.jpg" />
+<div class="arrows">
+<ul>
+<li><a href="http://anthonydamasco.net/blog/">Anthony Damasco</a></li>
+<li><a href="http://www.bksp.org/">Backspace.org</a></li>
+<li><a href="http://www.baen.com/" target="_blank">Baen Books</a></li>
+<li><a href="http://www.blogcatalog.com/directory/business/">Blogcatalog</a></li>
+<li><a href="http://www.bookbrunch.co.uk/index.php?option=com_myblog&amp;Itemid=71">Book Brunch</a></li>
+<li><a href="http://booksquare.com/">Booksquare (Kassia Krozser)</a></li>
+<li><a href="http://craphound.com/">Cory Doctorow</a></li>
+<li><a href="http://blog.diesel-ebooks.com/">Diesel eBook Blog</a></li>
+<li><a href="http://www.digital-book-readers.com/" target="_blank">Digital Book Readers</a></li>
+<li><a href="http://www.mediabistro.com/galleycat/">Galley Cat</a></li>
+<li><a href="http://blog.writersdigest.com/norules/">Jane Friedman</a></li>
+<li><a href="http://www.locusmag.com/">Locus Magazine</a></li>
+<li><a href="http://www.idealog.com/blog/" target="_blank">Mike Shatzkin</a></li>
+<li><a href="http://www.orbitbooks.net/">Orbit Books</a></li>
+<li><a href="http://www.publishersmarketplace.com/">Publishers Lunch</a></li>
+<li><a href="http://www.publishersweekly.com/">Publishers Weekly</a></li>
+<li><a href="http://www.publishingtrends.com/">Publishing Trends</a></li>
+<li><a href="http://blogs.publishersweekly.com/blogs/PWxyz/">PWxyz</a></li>
+<li><a href="http://sffworld.com/">SFF World</a></li>
+<li><a href="http://www.teleread.org/">TeleRead</a></li>
+<li><a href="http://www.the-digital-reader.com">The Digital Reader</a></li>
+<li><a href="http://writersedgeinfo.blogspot.com/" target="_blank">Writer&#039;s Edge</a></li>
+</ul>
+</div>
+
+<img src="http://ereads.com/images/Blog-Archives.jpg"  />
+<div class="blog_archives">
+<ul>
+  <li class='collapsing archives'><span title='click to expand' class='collapsing archives expand' onclick='expandCollapse(event, "▶", "▼", 1,"collapsing archives"); return false' ><span class='sym'>▶</span></span><a href='http://ereads.com/2010'>2010  <span class="yearCount">(477)</span>
+</a>
+    <ul style='display:none' id='collapsArch-2010:1'>
+      <li class='collapsing archives'><a href='http://ereads.com/2010/12' title='December'>December </a>
+      </li> <!-- close month --> 
+      <li class='collapsing archives'><a href='http://ereads.com/2010/11' title='November'>November </a>
+      </li> <!-- close month --> 
+      <li class='collapsing archives'><a href='http://ereads.com/2010/10' title='October'>October </a>
+      </li> <!-- close month --> 
+      <li class='collapsing archives'><a href='http://ereads.com/2010/09' title='September'>September </a>
+      </li> <!-- close month --> 
+      <li class='collapsing archives'><a href='http://ereads.com/2010/08' title='August'>August </a>
+      </li> <!-- close month --> 
+      <li class='collapsing archives'><a href='http://ereads.com/2010/07' title='July'>July </a>
+      </li> <!-- close month --> 
+      <li class='collapsing archives'><a href='http://ereads.com/2010/06' title='June'>June </a>
+      </li> <!-- close month --> 
+      <li class='collapsing archives'><a href='http://ereads.com/2010/05' title='May'>May </a>
+      </li> <!-- close month --> 
+      <li class='collapsing archives'><a href='http://ereads.com/2010/04' title='April'>April </a>
+      </li> <!-- close month --> 
+      <li class='collapsing archives'><a href='http://ereads.com/2010/03' title='March'>March </a>
+      </li> <!-- close month --> 
+      <li class='collapsing archives'><a href='http://ereads.com/2010/02' title='February'>February </a>
+      </li> <!-- close month --> 
+      <li class='collapsing archives'><a href='http://ereads.com/2010/01' title='January'>January </a>
+      </li> <!-- close month --> 
+    </ul>
+  </li> <!-- end year -->
+  <li class='collapsing archives'><span title='click to expand' class='collapsing archives expand' onclick='expandCollapse(event, "▶", "▼", 1,"collapsing archives"); return false' ><span class='sym'>▶</span></span><a href='http://ereads.com/2009'>2009  <span class="yearCount">(608)</span>
+</a>
+    <ul style='display:none' id='collapsArch-2009:1'>
+      <li class='collapsing archives'><a href='http://ereads.com/2009/12' title='December'>December </a>
+      </li> <!-- close month --> 
+      <li class='collapsing archives'><a href='http://ereads.com/2009/11' title='November'>November </a>
+      </li> <!-- close month --> 
+      <li class='collapsing archives'><a href='http://ereads.com/2009/10' title='October'>October </a>
+      </li> <!-- close month --> 
+      <li class='collapsing archives'><a href='http://ereads.com/2009/09' title='September'>September </a>
+      </li> <!-- close month --> 
+      <li class='collapsing archives'><a href='http://ereads.com/2009/08' title='August'>August </a>
+      </li> <!-- close month --> 
+      <li class='collapsing archives'><a href='http://ereads.com/2009/07' title='July'>July </a>
+      </li> <!-- close month --> 
+      <li class='collapsing archives'><a href='http://ereads.com/2009/06' title='June'>June </a>
+      </li> <!-- close month --> 
+      <li class='collapsing archives'><a href='http://ereads.com/2009/05' title='May'>May </a>
+      </li> <!-- close month --> 
+      <li class='collapsing archives'><a href='http://ereads.com/2009/04' title='April'>April </a>
+      </li> <!-- close month --> 
+      <li class='collapsing archives'><a href='http://ereads.com/2009/03' title='March'>March </a>
+      </li> <!-- close month --> 
+      <li class='collapsing archives'><a href='http://ereads.com/2009/02' title='February'>February </a>
+      </li> <!-- close month --> 
+      <li class='collapsing archives'><a href='http://ereads.com/2009/01' title='January'>January </a>
+      </li> <!-- close month --> 
+    </ul>
+  </li> <!-- end year -->
+  <li class='collapsing archives'><span title='click to expand' class='collapsing archives expand' onclick='expandCollapse(event, "▶", "▼", 1,"collapsing archives"); return false' ><span class='sym'>▶</span></span><a href='http://ereads.com/2008'>2008  <span class="yearCount">(300)</span>
+</a>
+    <ul style='display:none' id='collapsArch-2008:1'>
+      <li class='collapsing archives'><a href='http://ereads.com/2008/12' title='December'>December </a>
+      </li> <!-- close month --> 
+      <li class='collapsing archives'><a href='http://ereads.com/2008/11' title='November'>November </a>
+      </li> <!-- close month --> 
+      <li class='collapsing archives'><a href='http://ereads.com/2008/10' title='October'>October </a>
+      </li> <!-- close month --> 
+      <li class='collapsing archives'><a href='http://ereads.com/2008/09' title='September'>September </a>
+      </li> <!-- close month --> 
+      <li class='collapsing archives'><a href='http://ereads.com/2008/08' title='August'>August </a>
+      </li> <!-- close month --> 
+      <li class='collapsing archives'><a href='http://ereads.com/2008/07' title='July'>July </a>
+      </li> <!-- close month --> 
+      <li class='collapsing archives'><a href='http://ereads.com/2008/06' title='June'>June </a>
+      </li> <!-- close month --> 
+      <li class='collapsing archives'><a href='http://ereads.com/2008/05' title='May'>May </a>
+      </li> <!-- close month --> 
+      <li class='collapsing archives'><a href='http://ereads.com/2008/04' title='April'>April </a>
+      </li> <!-- close month --> 
+      <li class='collapsing archives'><a href='http://ereads.com/2008/03' title='March'>March </a>
+      </li> <!-- close month --> 
+      <li class='collapsing archives'><a href='http://ereads.com/2008/02' title='February'>February </a>
+      </li> <!-- close month --> 
+      <li class='collapsing archives'><a href='http://ereads.com/2008/01' title='January'>January </a>
+      </li> <!-- close month --> 
+    </ul>
+  </li> <!-- end year -->
+  <li class='collapsing archives'><span title='click to expand' class='collapsing archives expand' onclick='expandCollapse(event, "▶", "▼", 1,"collapsing archives"); return false' ><span class='sym'>▶</span></span><a href='http://ereads.com/2007'>2007  <span class="yearCount">(70)</span>
+</a>
+    <ul style='display:none' id='collapsArch-2007:1'>
+      <li class='collapsing archives'><a href='http://ereads.com/2007/12' title='December'>December </a>
+      </li> <!-- close month --> 
+      <li class='collapsing archives'><a href='http://ereads.com/2007/11' title='November'>November </a>
+      </li> <!-- close month --> 
+      <li class='collapsing archives'><a href='http://ereads.com/2007/10' title='October'>October </a>
+      </li> <!-- close month --> 
+      <li class='collapsing archives'><a href='http://ereads.com/2007/09' title='September'>September </a>
+      </li> <!-- close month --> 
+      <li class='collapsing archives'><a href='http://ereads.com/2007/08' title='August'>August </a>
+      </li> <!-- close month --> 
+    </ul>
+  </li> <!-- end year -->
+  <li class='collapsing archives'><span title='click to expand' class='collapsing archives expand' onclick='expandCollapse(event, "▶", "▼", 1,"collapsing archives"); return false' ><span class='sym'>▶</span></span><a href='http://ereads.com/2004'>2004  <span class="yearCount">(3)</span>
+</a>
+    <ul style='display:none' id='collapsArch-2004:1'>
+      <li class='collapsing archives'><a href='http://ereads.com/2004/04' title='April'>April </a>
+      </li> <!-- close month --> 
+      <li class='collapsing archives'><a href='http://ereads.com/2004/03' title='March'>March </a>
+      </li> <!-- close month --> 
+      <li class='collapsing archives'><a href='http://ereads.com/2004/02' title='February'>February </a>
+  </li> <!-- close month --></ul><!-- close year -->
+</li> <!-- end of collapsing archives --><li style='display:none'><script type="text/javascript">
+// <![CDATA[
+/* These variables are part of the Collapsing Archives Plugin
+   * version: 1.3.1
+   * revision: $Id: collapsArch.php 256114 2010-06-22 18:18:45Z robfelty $
+   * Copyright 2008 Robert Felty (robfelty.com)
+           */
+var expandSym="<img src='/wp-content/plugins/collapsing-archives/img/expand.gif' alt='expand' />";
+var collapseSym="<img src='/wp-content/plugins/collapsing-archives/img/collapse.gif' alt='collapse' />";
+try { collapsItems['catTest'] = 'test'; } catch (err) { collapsItems = new Object(); }
+collapsItems['collapsArch-2010-12:1'] = '';
+collapsItems['collapsArch-2010-11:1'] = '';
+collapsItems['collapsArch-2010-10:1'] = '';
+collapsItems['collapsArch-2010-9:1'] = '';
+collapsItems['collapsArch-2010-8:1'] = '';
+collapsItems['collapsArch-2010-7:1'] = '';
+collapsItems['collapsArch-2010-6:1'] = '';
+collapsItems['collapsArch-2010-5:1'] = '';
+collapsItems['collapsArch-2010-4:1'] = '';
+collapsItems['collapsArch-2010-3:1'] = '';
+collapsItems['collapsArch-2010-2:1'] = '';
+collapsItems['collapsArch-2010-1:1'] = '';
+collapsItems['collapsArch-2009-12:1'] = '';
+collapsItems['collapsArch-2009-11:1'] = '';
+collapsItems['collapsArch-2009-10:1'] = '';
+collapsItems['collapsArch-2009-9:1'] = '';
+collapsItems['collapsArch-2009-8:1'] = '';
+collapsItems['collapsArch-2009-7:1'] = '';
+collapsItems['collapsArch-2009-6:1'] = '';
+collapsItems['collapsArch-2009-5:1'] = '';
+collapsItems['collapsArch-2009-4:1'] = '';
+collapsItems['collapsArch-2009-3:1'] = '';
+collapsItems['collapsArch-2009-2:1'] = '';
+collapsItems['collapsArch-2009-1:1'] = '';
+collapsItems['collapsArch-2008-12:1'] = '';
+collapsItems['collapsArch-2008-11:1'] = '';
+collapsItems['collapsArch-2008-10:1'] = '';
+collapsItems['collapsArch-2008-9:1'] = '';
+collapsItems['collapsArch-2008-8:1'] = '';
+collapsItems['collapsArch-2008-7:1'] = '';
+collapsItems['collapsArch-2008-6:1'] = '';
+collapsItems['collapsArch-2008-5:1'] = '';
+collapsItems['collapsArch-2008-4:1'] = '';
+collapsItems['collapsArch-2008-3:1'] = '';
+collapsItems['collapsArch-2008-2:1'] = '';
+collapsItems['collapsArch-2008-1:1'] = '';
+collapsItems['collapsArch-2007-12:1'] = '';
+collapsItems['collapsArch-2007-11:1'] = '';
+collapsItems['collapsArch-2007-10:1'] = '';
+collapsItems['collapsArch-2007-9:1'] = '';
+collapsItems['collapsArch-2007-8:1'] = '';
+collapsItems['collapsArch-2004-4:1'] = '';
+collapsItems['collapsArch-2004-3:1'] = '';
+collapsItems['collapsArch-2004-2:1'] = 'collapsArch-2004-2:1';
+// ]]>
+</script></li>
+</ul>
+</div>
+
+
+<a href="http://ereads.com/category/copyright-and-piracy"><img src="http://ereads.com/images/PirateBate.jpg" border="0"/></a>
+
+</div>
+
+
+
+
+
+    
+</div>
+
+
+<div class="clear"></div>
+<div id="footer">
+Use of this site constitutes acceptance of our <a href="#" target="_blank" style="color:#FFF; text-decoration:none; font-weight:bold;">Privacy Policy</a>. Copyright 1999-2010 E-Reads, Ltd. All rights reserved. E-Reads(TM) is a registered trademark of E-Rights/E-Reads Ltd. Powered by <a class="example7" href="http://anthonydamasco.net" target="_blank" style="color:#FFF; text-decoration:none; font-weight:bold;"> Adnet </a>
+
+<!-- Wordbooker code revision : 1.8.15.r00 -->
+</div>
+</div>
+
+<!-- Start of StatCounter Code -->
+<div style="height:0px; width:0px; overflow:hidden;">
+        <script type="text/javascript">
+var sc_project=2920288; 
+var sc_invisible=0; 
+var sc_partition=30; 
+var sc_security="cb4ae7d1"; 
+        </script>
+
+        <script type="text/javascript" src="http://www.statcounter.com/counter/counter_xhtml.js"></script>
+</div>
+
+<!-- End of StatCounter Code -->
+
+
+<!-- Google Analytics -->
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-4548254-6");
+pageTracker._trackPageview();
+} catch(err) {}</script>
+</body>
+</html>
+
