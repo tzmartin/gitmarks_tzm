@@ -1,0 +1,128 @@
+<br />
+<b>Notice</b>:  Undefined index:  REDIRECT_URL in <b>/srv/www/gamma.ipublishcentral.com/error.php</b> on line <b>3</b><br />
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>iPublishCentral</title>
+<style type="text/css">
+body, html { margin:0; padding:0; font-family:Verdana, Arial, Helvetica, sans-serif; background: #999; font-size:small; color:#000; }
+
+
+/**************** ROUND CORNER STYLES ********************/
+#rc_border {
+	background: none transparent scroll repeat 0% 0%; margin:0;  
+}
+.xtop {
+	display: block; font-size: 1px; background: none transparent scroll repeat 0% 0%
+}
+.xbottom {
+	display: block; font-size: 1px; background: none transparent scroll repeat 0% 0%
+}
+.xb1 {
+	display: block; overflow: hidden
+}
+.xb2 {
+	display: block; overflow: hidden
+}
+.xb3 {
+	display: block; overflow: hidden
+}
+.xb4 {
+	display: block; overflow: hidden
+}
+.xb1 {
+	height: 1px
+}
+.xb2 {
+	height: 1px
+}
+.xb3 {
+	height: 1px
+}
+.xb2 {
+	border-right: #8ac922 1px solid; background: #FFF; border-left: #8ac922 1px solid
+}
+.xb3 {
+	border-right: #8ac922 1px solid; background: #FFF; border-left: #8ac922 1px solid
+}
+.xb4 {
+	border-right: #8ac922 1px solid; background: #FFF; border-left: #8ac922 1px solid
+}
+.xb1 {
+	background: #8ac922; margin: 0px 5px
+}
+.xb2 {
+	border-top-width: 0px; border-left-width: 2px; border-bottom-width: 0px; margin: 0px 3px; border-right-width: 2px
+}
+.xb3 {
+	margin: 0px 2px
+}
+.xb4 {
+	margin: 0px 1px; height: 2px
+}
+.xboxcontent {
+	border-right: #8ac922 1px solid; border-top: #8ac922 0px solid; display: block; background: #FFF; border-left: #8ac922 1px solid; border-bottom: #8ac922 0px solid
+}
+
+.genericcontainer { width:755px;}
+.pad10 { margin:0; padding:10px;}
+
+/************* ERROR MESSAGE RC ********************/
+#rc_border_red { background: none transparent scroll repeat 0% 0%; margin:0; }
+.xtop_red { display: block; font-size: 1px; background: none transparent scroll repeat 0% 0% }
+.xbottom_red { display: block; font-size: 1px; background: none transparent scroll repeat 0% 0% }
+.xb1_red { background: #ff0000; margin: 0px 5px; height: 1px; display: block; overflow: hidden }
+.xb2_red { 	border-right: #ff0000 1px solid; background: #fffcae; border-left: #ff0000 1px solid; display: block; overflow: hidden; border-top-width: 0px; border-left-width: 2px; border-bottom-width: 0px; margin: 0px 3px; border-right-width: 2px; height: 1px; }
+.xb3_red { border-right: #ff0000 1px solid; background: #fffcae; border-left: #ff0000 1px solid; display: block; overflow: hidden; margin: 0px 2px; height: 1px; }
+.xb4_red { border-right: #ff0000 1px solid; background: #fffcae; border-left: #ff0000 1px solid; display: block; overflow: hidden; margin: 0px 1px; height: 2px; }
+.xboxcontent_red { border-right: #ff0000 1px solid; border-top: #ff0000 0px solid; display: block; background: #fffcae; border-left: #ff0000 1px solid; border-bottom: #ff0000 0px solid; font-weight:bold; color:#ff0000; }
+
+/**************** error msg ends ***************/
+
+</style>
+</head>
+
+<body>
+<div style="margin:6em auto; padding:10px; border:1px  outset #ccc; width:758px; _width:780px; background:#fff; position:relative;">
+ <img src="/public/images/ipc404.gif" width="187" height="71" border="0" alt="IPC Logo" /><br/><br/>
+ <!-- ERROR MESSAGE START -->
+        <div class="genericcontainer">
+        <div id="rc_border_red"><b class="xtop_red"><b class="xb1_red"></b><b class="xb2_red"></b><b class="xb3_red"></b><b class="xb4_red"></b></b><div class="xboxcontent_red">
+        	<div class="pad10">
+        		Page Not Found!
+        	</div>
+        </div><b class="xbottom_red"><b class="xb4_red"></b><b class="xb3_red"></b><b class="xb2_red"></b><b class="xb1_red"></b></b></div>
+        </div><!-- genericcontainer ends -->
+		<!-- ERROR MESSAGE ENDS  -->
+        <br/><br/>
+ <div class="genericcontainer">
+        <div id="rc_border">
+             <b class="xtop">
+               <b class="xb1"></b>
+                 <b class="xb2"></b>
+               <b class="xb3"></b>
+                 <b class="xb4"></b></b><!-- end of xtop -->
+                  <div class="xboxcontent">
+                 	<div class="pad10">
+                    <p>You tried to access the address http://www.ipublishcentral.com, which is currently unavailable. Please make sure that the Web address (URL) is correctly spelled and punctuated, then try reloading the page.
+					<ul>
+						<li>Make sure your Internet connection is active and check whether other applications that rely on the same connection are working.</li>
+    <li>Check that the setup of any Internet security software is correct and does not interfere with ordinary Web browsing.</li>
+    <li>If you are behind a firewall on a Local Area Network and think this may be causing problems, talk to your systems administrator.</li>
+    <li>Try pressing the F12 key on your keyboard and disabling proxy servers, unless you know that you are required to use a proxy to connect to the Internet. Reload the page.</li>
+						
+					</ul>
+					</p>
+					</div>
+                 </div><!-- end of xboxcontent -->
+                 <b class="xbottom">
+               <b class="xb4"></b>
+              <b class="xb3"></b>
+             <b class="xb2"></b>
+            <b class="xb1"></b></b><!-- end of xbottom -->
+            </div><!-- end of rc_border -->
+            </div>
+</div>
+</body>
+</html>
