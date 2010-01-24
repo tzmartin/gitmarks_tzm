@@ -1,0 +1,177 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />	<title>
+				Overview of ModelBaker, the Web App Creator			</title>
+	<script type="text/javascript" src="/js/jquery-1.2.6.min.js"></script>	<script type="text/javascript">
+		 var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+		 document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+	</script>
+	<script type="text/javascript">
+		 try {
+		 	var pageTracker = _gat._getTracker("UA-5662026-2");
+		 	pageTracker._trackPageview();
+		 	} catch(err) {}
+	</script>
+			
+	<link rel="stylesheet" type="text/css" href="/css/default.css" /><link href="/favicon.ico" type="image/x-icon" rel="icon" /><link href="/favicon.ico" type="image/x-icon" rel="shortcut icon" />	<!--[if IE]>
+	<style type="text/css">
+		@import url(/css/ie.css);
+	</style>
+	<![endif]-->
+	<meta name="verify-v1" content="6Shlae6O+CZXd7Nm2Mc/5+lFmwb2XzrYFTKyUs+Rqqo=" />
+			<link href="http://www.widgetpress.com/blog.rss" type="application/rss+xml" rel="alternate" title="Overview of ModelBaker, the Web App Creator"/>
+		<script type="text/javascript">
+		$(document).ready(function(){
+			if (document.all && !window.opera && !window.XMLHttpRequest && $.browser.msie) 
+			{
+				$('#container').prepend('<p style="background:#FFFFCC;color:red;padding:10px;border:1px solid red">Microsoft Internet Explorer 6 is no longer supported on our widgetpress.com website, please consider upgrading to Internet Explorer 7, Safari or FireFox. However, the generated code from ModelBaker fully supports Microsoft Internet Explorer 6</p>');
+			}
+		});
+	</script>
+	<meta name="Author" content="Widget Press Inc." />
+	<meta name="Category" content="products,macs,software" />
+	<meta name="Description" content="ModelBaker: The easy web app, iPhone, iPod touch and Google Android development tool with no programming required." />
+	<meta name="Keywords" content="models,controllers,views,plugins,templates,themes,vendors,web apps,iphone,ipod touch,extjs,ext js,cakephp,mysql" />
+	<meta name="viewport" content="width=1024" />
+	<meta name="robots" content="NOODP">
+</head>
+<body>
+	<div id="container">
+		<div id="navbar" class="modelbaker">
+			<ul>
+				<li id="nav-home"><a href="/">home</a></li>
+				<li id="nav-store"><a href="/store">store</a></li>
+				<li id="nav-formentry"><a href="/formentry">formentry</a></li>
+				<li id="nav-modelbaker"><a href="/modelbaker">modelbaker</a></li>
+				<li id="nav-support"><a href="/support">support</a></li>
+				<li id="nav-downloads"><a href="/downloads">downloads</a></li>
+				<li id="nav-contact"><a href="/company">company</a></li>
+			</ul>
+		</div>
+<div id="subnav" class="overview">
+	<div class="gradient">
+		<p class="splash">ModelBaker</p>
+	</div>
+	<a href="/store/modelbaker" class="buynow">buy_now</a>	<a href="/modelbaker/download" class="download">free_demo</a>	<ul>
+		<li class="overview"><a href="/modelbaker/">Overview</a></li>
+		<li class="features"><a href="/modelbaker/features">Features</a></li>
+		<li class="screencasts"><a href="/modelbaker/screencasts">Screencasts</a></li>
+		<li class="casestudies"><a href="/modelbaker/casestudies">Case Studies</a></li>
+		<li class="gallery"><a href="/modelbaker/gallery">Gallery</a></li>
+		<li class="techspecs"><a href="/modelbaker/techspecs">Tech Specs</a></li>
+	</ul>
+</div>
+<div id="main-full">
+	<div id="main-full-wrapper">
+		<div id="content" class="modelbaker-splash">
+			<h1>Rapid App Development.</h1>
+			<h2>The easiest, fastest way to develop your web app. No coding required.</h2>
+			<img src="/img/mb_landing_splash.jpg" alt="Rapid App Development. Introducing ModelBaker. The easiest,fastest way to join the Web 2.0 Revolution. No coding required." class="giant splash" />		</div>
+		<div>
+			<div class="users">
+				<h1>What do users of ModelBaker have to say?</h1>
+				<ul>
+	<li>
+		<blockquote>
+			<h2>"Modelbaker Rocks!!!"</h2>
+			<p>- Ryan H.</p>
+		</blockquote>
+		<blockquote>
+			<h2>"You guys rock."</h2>
+			<p>- Farhann M.</p>
+		</blockquote>
+		<blockquote>
+			<h2>"This is insanely awesome!"</h2>
+			<p>- Andrew F.</p>
+		</blockquote>
+		<blockquote>
+			<h2>"Awesome Jonathan thanks!"</h2>
+			<p>-Kevin H.</p>
+		</blockquote>
+		<blockquote>
+			<h2>"ModelBaker is a real gem!"</h2>
+			<p>-Cedric T.</p>
+		</blockquote>
+		<blockquote>
+			<h2>"ModelBaker Rocks!!"</h2>
+			<p>-Paul K.</p>
+		</blockquote>
+
+		<blockquote>
+			<h2>"...this is an amazing RAD tool"</h2>
+			<p>-Dennis P.</p>
+		</blockquote>
+		<blockquote>
+			<h2>"I would also like to thank your company"</h2>
+			<p>-Kevin A.</p>
+		</blockquote>
+		<blockquote>
+			<h2>"...an amazing tool."</h2>
+			<p>-Ariel P.</p>
+		</blockquote>
+	</li>
+	<li>
+		<blockquote>
+			<h2>"Keep the good work on your amazing product."</h2>
+			<p>-Jay S.</p>
+		</blockquote>
+		<blockquote>
+			<h2>"This is amazing."</h2>
+			<p>-Marcelo L.</p>
+		</blockquote>
+		<blockquote>
+			<h2>"Again, in a word: amazing!"</h2>
+			<p>-Christian T.</p>
+		</blockquote>
+
+		<blockquote>
+			<h2>"ModelBaker is really cool..."</h2>
+			<p>-Ryan H.</p>
+		</blockquote>
+		<blockquote>
+			<h2>"...really cool piece of software."</h2>
+			<p>-Mike A.</p>
+		</blockquote>
+		<blockquote>
+			<h2>"Thanks for this great product."</h2>
+			<p>-Vassilis P.</p>
+		</blockquote>
+		<blockquote>
+			<h2>"...blew my PC colleagues away!"</h2>
+			<p>-Luke B.</p>
+		</blockquote>
+		<blockquote>
+			<h2>"...a great product!"</h2>
+			<p>-Joseph P.</p>
+		</blockquote>
+		<blockquote>
+			<h2>"I will use extensively and sing your praises."</h2>
+			<p>-Trip. A</p>
+		</blockquote>
+	</li>
+</ul>			</div>
+			<div class="clear"></div>
+			<p class="modelbaker-desc">
+				<strong>ModelBaker</strong> - a remarkable application that delivers point and click development so you can do amazing things for your business, your customers, organization and school. Rapidly build a corporate intranet from scratch. Create custom client web applications based on templates you’ve created. Place your classroom online and offer your students mobile access from an iPhone, an iPod touch or a Google Android mobile. And build it all with a single mouse click.
+			</p>
+			<img src="/img/mb_overview_splash2.jpg" alt="ModelBaker Overview" class="giant splash" />			<img src="/img/mb_overview_splash.jpg" alt="ModelBaker Overview" class="giant splash" />		</div>
+	</div>
+</div>
+
+
+<div id="main-bottom"></div>
+		<div id="footer">
+			<ul>
+				<li>Copyright &copy; 2010 Widget Press, Inc. All rights reserved. </li>
+				<li><a href="/privacy">Privacy Policy</a></li>
+				<li><a href="/sitemap">Site Map</a></li>
+				<li><a href="/blog">Blog</a></li>
+				<li><a href="/company/news">In the News</a></li>
+				<li class="last"><a href="/contacts">Contact Us</a></li>
+			</ul>
+		</div>
+	</div>
+</body>
+</html>
