@@ -1,0 +1,560 @@
+<div id="container">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">  
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="en-US">  
+<head profile="http://gmpg.org/xfn/11">  
+<title>PixelPressIcons  &raquo; Icons</title>  
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />  
+<link rel="stylesheet" href="http://www.pixelpressicons.com/blog/wordpress/wp-content/themes/chiclet-beta/style.css" type="text/css" media="screen,projection" />  
+<link rel="alternate" type="application/rss+xml" title="PixelPressIcons RSS Feed" href="http://www.pixelpressicons.com/?feed=rss2" />
+<link rel="alternate" type="application/rss+xml" title="PixelPressIcons &raquo; Icons Category Feed" href="http://www.pixelpressicons.com/?feed=rss2&amp;cat=3" />
+<link rel='stylesheet' id='NextGEN-css'  href='http://www.pixelpressicons.com/blog/wordpress/wp-content/plugins/nextgen-gallery/css/nggallery.css?ver=1.0.0' type='text/css' media='screen' />
+<link rel='stylesheet' id='shutter-css'  href='http://www.pixelpressicons.com/blog/wordpress/wp-content/plugins/nextgen-gallery/shutter/shutter-reloaded.css?ver=1.3.0' type='text/css' media='screen' />
+<script type='text/javascript'>
+/* <![CDATA[ */
+var shutterSettings = {
+	msgLoading: "L O A D I N G",
+	msgClose: "Click to Close",
+	imageCount: "1"
+};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://www.pixelpressicons.com/blog/wordpress/wp-content/plugins/nextgen-gallery/shutter/shutter-reloaded.js?ver=1.3.0'></script>
+<script type='text/javascript' src='http://www.pixelpressicons.com/blog/wordpress/wp-includes/js/jquery/jquery.js?ver=1.4.2'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var ngg_ajax = {
+	path: "http://www.pixelpressicons.com/blog/wordpress/wp-content/plugins/nextgen-gallery/",
+	loading: "loading"
+};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://www.pixelpressicons.com/blog/wordpress/wp-content/plugins/nextgen-gallery/js/ngg.js?ver=3.0.1'></script>
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://www.pixelpressicons.com/blog/wordpress/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://www.pixelpressicons.com/blog/wordpress/wp-includes/wlwmanifest.xml" /> 
+<link rel='index' title='PixelPressIcons' href='http://www.pixelpressicons.com' />
+<meta name="generator" content="WordPress 3.0.1" />
+<style type='text/css'>img, div { behavior: url(http://www.pixelpressicons.com/blog/wordpress/wp-content/plugins/hits-pngfix/iepngfix.htc) }</style><script type="text/javascript" charset="utf-8" src="&amp;amp;type=wordpress2.8.4&amp;wp=3.0.1"></script><link rel="stylesheet" type="text/css" href="http://www.pixelpressicons.com/blog/wordpress/wp-content/plugins/thickbox/thickbox.php?thickbox_action=tcss&amp;url=http%3A%2F%2Fwww.pixelpressicons.com%2Fblog%2Fwordpress%2Fwp-content%2Fplugins%2Fthickbox%2Fthickbox%2Fimages%2F&amp;variant=default" />
+		
+	<script type="text/javascript" src="http://www.pixelpressicons.com/blog/wordpress/wp-content/plugins/wp-click-track/ajax.js"></script>
+	<script type="text/javascript">
+
+		var ajax = new Array();
+		function TrackClick(link,title) {
+
+			var index = ajax.length;
+			ajax[index] = new sack();		
+			ajax[index].requestFile = "http://www.pixelpressicons.com/blog/wordpress?wp_click_tracked="+link+"***"+title+"***";	
+			ajax[index].onCompletion = null;
+
+			//FireFox 3 is a bitch; it doesn't track links which open in "self"
+			var onunload_ran = 0;
+			window.onunload = function () {
+				onunload_ran = 1;
+				ajax[index].runAJAX();
+			}
+
+			if(onunload_ran == 0){
+				ajax[index].runAJAX();
+			}
+
+			return TRUE;
+		}
+
+	</script>
+<!-- wp-click-track Sidebar widget -->
+<link rel="stylesheet" href="http://www.pixelpressicons.com/blog/wordpress/wp-content/plugins/wp-click-track/wp_click_track_sidebar.css" type="text/css" media="screen" />
+<link id='MediaRSS' rel='alternate' type='application/rss+xml' title='NextGEN Gallery RSS Feed' href='http://www.pixelpressicons.com/blog/wordpress/wp-content/plugins/nextgen-gallery/xml/media-rss.php' />
+
+<!-- NextGeEN Gallery CoolIris/PicLens support -->
+<script type="text/javascript" src="http://lite.piclens.com/current/piclens_optimized.js"></script>
+<!-- /NextGEN Gallery CoolIris/PicLens support -->
+<meta name='NextGEN' content='1.3.5' />
+
+<!-- Javascript For Post And Image Borders -->
+<script type="text/javascript" src="http://www.pixelpressicons.com/blog/wordpress/wp-content/themes/chiclet-beta/scripts/cb.js"></script><script src="http://www.pixelpressicons.com/blog/wordpress/wp-content/themes/chiclet-beta/scripts/jquery.js" type="text/javascript"></script>
+<script src="http://www.pixelpressicons.com/blog/wordpress/wp-content/themes/chiclet-beta/scripts/main.js" type="text/javascript"></script> 
+ 
+</head>
+<html>  
+<body>  
+  
+		<!-- wrapper -->
+ 
+		<div id="header">  
+         
+		<!-- <p class="description"></p>  -->
+                
+		<h1><a href="http://www.pixelpressicons.com/">PixelPressIcons</a></h1>         
+		</div>  
+    
+  
+    
+</body>    <div id="wrapper">  
+    <div id="sidebars">
+
+<div id="sidebar_full">
+    <ul>
+     
+        
+    
+    <!-- navigation menu with icons -->
+    
+	<li><a href="index.php"><img src="http://www.pixelpressicons.com/blog/wordpress/wp-content/themes/chiclet-beta/images/cat-blog.png" alt="Blog" class="center" border="0" /><span>Read All Blog Posts</span></a></li>
+	<li><a href="?cat=3"><img src="http://www.pixelpressicons.com/blog/wordpress/wp-content/themes/chiclet-beta/images/cat-icon.png" alt="Icons" class="center" border="0" /><span>Posts About Free Icons</span></a></li>
+    <li><a href="?page_id=689"><img src="http://www.pixelpressicons.com/blog/wordpress/wp-content/themes/chiclet-beta/images/cat-shop.png" alt="Icon Shop" class="center" border="0" /><span>Shop For Icons</span></a></li>
+    <li><a href="?cat=4"><img src="http://www.pixelpressicons.com/blog/wordpress/wp-content/themes/chiclet-beta/images/cat-wall.png" alt="Wallpapers" class="center" border="0" /><span>Posts About Wallpapers</span></a></li>
+    <li><a href="?cat=6"><img src="http://www.pixelpressicons.com/blog/wordpress/wp-content/themes/chiclet-beta/images/cat-work.png" alt="Works" class="center" border="0" /><span>Posts About My Works</span></a></li>
+	<li><a href="?page_id=2"><img src="http://www.pixelpressicons.com/blog/wordpress/wp-content/themes/chiclet-beta/images/cat-abou.png" alt="About And Gallery" class="center" border="0" /><span>About Me And Portfolio Of Client Work</span></a></li> 
+    
+        
+    </ul>
+</div><!-- Closes Sidebar_full -->
+
+
+
+</div> <!-- Closes Sidebars -->        <div id="content">
+        
+              
+        
+         <!-- Counter for Ad Placement -->
+                <!-- Beginning -->
+                              
+                <!-- Display Ad if displaying second post only -->    
+                        
+                <div id="the_post"> 
+                <div class="cbb">
+                            
+                    <h2><a href="http://www.pixelpressicons.com/?p=472">Icons: Singing Bowl</a></h2>  
+                    <hr/>
+                          
+                    <p style="text-align: center;"><a href="http://www.pixelpressicons.com/downloads/PP-SingingBowl.zip" onclick="return TrackClick('http%3A%2F%2Fwww.pixelpressicons.com%2Fdownloads%2FPP-SingingBowl.zip','this+icon')" onclick="return TrackClick('http%3A%2F%2Fwww.pixelpressicons.com%2Fdownloads%2FPP-SingingBowl.zip','')" onclick="return TrackClick('http%3A%2F%2Fwww.pixelpressicons.com%2Fdownloads%2FPP-SingingBowl.zip','Singing+Bowl')"><img class="noborder" title="Singing Bowl" src="http://www.pixelpressicons.com/images/P-singingbowl.png" alt="Singing Bowl Icon" width="405" height="211" /></a></p>
+<p><a class="postdldark" href="http://www.pixelpressicons.com/downloads/PP-SingingBowl.zip" onclick="return TrackClick('http%3A%2F%2Fwww.pixelpressicons.com%2Fdownloads%2FPP-SingingBowl.zip','this+icon')" onclick="return TrackClick('http%3A%2F%2Fwww.pixelpressicons.com%2Fdownloads%2FPP-SingingBowl.zip','')" onclick="return TrackClick('http%3A%2F%2Fwww.pixelpressicons.com%2Fdownloads%2FPP-SingingBowl.zip','Singing+Bowl')"></a></p>
+<p style="text-align: left;">I made <a href="http://www.pixelpressicons.com/downloads/PP-SingingBowl.zip" onclick="return TrackClick('http%3A%2F%2Fwww.pixelpressicons.com%2Fdownloads%2FPP-SingingBowl.zip','this+icon')" onclick="return TrackClick('http%3A%2F%2Fwww.pixelpressicons.com%2Fdownloads%2FPP-SingingBowl.zip','')" onclick="return TrackClick('http%3A%2F%2Fwww.pixelpressicons.com%2Fdownloads%2FPP-SingingBowl.zip','Singing+Bowl')">this icon</a> in the spring but just finished it off today. You may detect that this looks a little different from my usual work and the reason would be that it is based on a render of a 3D model that I made. Usually any renders that I use are only for reference and completely re-drawn in Illustrator and Photoshop but most of the pixels in this icon came directly from the render.</p>
+<p style="text-align: left;">Click the image at the top of this post to download the icon. The download contains the icon in PNG, ICNs and Mac Folder format.</p>
+<p><img class="aligncenter" title="Singing Bowl Icon" src="http://www.pixelpressicons.com/images/512x-Singing-Bowl.png" alt="" width="512" height="512" /></p>
+<p><script type="text/javascript">SHARETHIS.addEntry({ title: "Icons: Singing Bowl", url: "http://www.pixelpressicons.com/?p=472" });</script></p>  
+                </div>                    
+                </div>
+            
+                    <div id="the_metadata">
+                    <!-- This code checks for each category and substitues an image for the category
+                    Icons = 3
+                    News = 8
+                    Wallpapers = 4
+                    Works = 6
+                    Uncategorized = 1 -->
+                    
+                    <ul>
+                    
+                                        <li><a href="?cat=3"><img src="http://www.pixelpressicons.com/blog/wordpress/wp-content/themes/chiclet-beta/images/meta-3.png" border="0" alt="Icons" /></a></li>
+                            
+                    <li>13 Aug 09</li>
+                    <li><a href="http://www.pixelpressicons.com/?p=472#comments" title="Comment on Icons: Singing Bowl">4 Comments</a></li>
+                    </ul>
+               
+               
+                    </div>  
+        
+                <!-- Counter for Ad Placement -->
+                                <!-- End --> 
+                                      
+                <!-- Display Ad if displaying second post only -->    
+                <div id="ad_banner">
+	<p><a href="http://www.pixelpressicons.com/?page_id=118"><img src="http://www.pixelpressicons.com/images/R-ad3.png" class="noborder" alt="Whitespace Stock Icon Collection" /></a></p></div>        
+                <div id="the_post"> 
+                <div class="cbb">
+                            
+                    <h2><a href="http://www.pixelpressicons.com/?p=353">Icons: Vintage Apple II &#038; Mac Classic</a></h2>  
+                    <hr/>
+                          
+                    <p><a href="http://www.pixelpressicons.com/downloads/PP-VintageAppleMac.zip" onclick="return TrackClick('http%3A%2F%2Fwww.pixelpressicons.com%2Fdownloads%2FPP-VintageAppleMac.zip','Download+them+here')" onclick="return TrackClick('http%3A%2F%2Fwww.pixelpressicons.com%2Fdownloads%2FPP-VintageAppleMac.zip','')" onclick="return TrackClick('http%3A%2F%2Fwww.pixelpressicons.com%2Fdownloads%2FPP-VintageAppleMac.zip','Vintage+Apple+II+and+Mac+Classic+Icons')"><img class="noborder" title="Vintage Apple II and Mac Classic Icons" src="http://www.pixelpressicons.com/images/P-macs.png" alt="" width="460" height="211" /></a><br />
+<a class="postdlwhite" href="http://www.pixelpressicons.com/downloads/PP-VintageAppleMac.zip" onclick="return TrackClick('http%3A%2F%2Fwww.pixelpressicons.com%2Fdownloads%2FPP-VintageAppleMac.zip','Download+them+here')" onclick="return TrackClick('http%3A%2F%2Fwww.pixelpressicons.com%2Fdownloads%2FPP-VintageAppleMac.zip','')" onclick="return TrackClick('http%3A%2F%2Fwww.pixelpressicons.com%2Fdownloads%2FPP-VintageAppleMac.zip','Vintage+Apple+II+and+Mac+Classic+Icons')"></a><br />
+These icons are the logical next step in my last few icon releases &#8211; vintage Apple computers! <a href="http://www.pixelpressicons.com/downloads/PP-VintageAppleMac.zip" onclick="return TrackClick('http%3A%2F%2Fwww.pixelpressicons.com%2Fdownloads%2FPP-VintageAppleMac.zip','Download+them+here')" onclick="return TrackClick('http%3A%2F%2Fwww.pixelpressicons.com%2Fdownloads%2FPP-VintageAppleMac.zip','')" onclick="return TrackClick('http%3A%2F%2Fwww.pixelpressicons.com%2Fdownloads%2FPP-VintageAppleMac.zip','Vintage+Apple+II+and+Mac+Classic+Icons')">Download them here</a>. Archive contains PNG, ICNs and Mac folders.</p>
+<p><img class="aligncenter" title="Apple IIc Plus" src="http://www.pixelpressicons.com/images/512x-Apple-IIc-Plus.png" alt="" width="512" height="512" /></p>
+<p><script type="text/javascript">SHARETHIS.addEntry({ title: "Icons: Vintage Apple II &#038; Mac Classic", url: "http://www.pixelpressicons.com/?p=353" });</script></p>  
+                </div>                    
+                </div>
+            
+                    <div id="the_metadata">
+                    <!-- This code checks for each category and substitues an image for the category
+                    Icons = 3
+                    News = 8
+                    Wallpapers = 4
+                    Works = 6
+                    Uncategorized = 1 -->
+                    
+                    <ul>
+                    
+                                        <li><a href="?cat=3"><img src="http://www.pixelpressicons.com/blog/wordpress/wp-content/themes/chiclet-beta/images/meta-3.png" border="0" alt="Icons" /></a></li>
+                            
+                    <li>3 Aug 09</li>
+                    <li><a href="http://www.pixelpressicons.com/?p=353#comments" title="Comment on Icons: Vintage Apple II &amp; Mac Classic">6 Comments</a></li>
+                    </ul>
+               
+               
+                    </div>  
+        
+                <!-- Counter for Ad Placement -->
+                                <!-- End --> 
+                                      
+                <!-- Display Ad if displaying second post only -->    
+                        
+                <div id="the_post"> 
+                <div class="cbb">
+                            
+                    <h2><a href="http://www.pixelpressicons.com/?p=345">Icons: Vintage Floppies And Drives</a></h2>  
+                    <hr/>
+                          
+                    <p style="text-align: left;"><a href="http://www.pixelpressicons.com/downloads/PP-VintageFloppiesAndDrives.zip" onclick="return TrackClick('http%3A%2F%2Fwww.pixelpressicons.com%2Fdownloads%2FPP-VintageFloppiesAndDrives.zip','These')" onclick="return TrackClick('http%3A%2F%2Fwww.pixelpressicons.com%2Fdownloads%2FPP-VintageFloppiesAndDrives.zip','')" onclick="return TrackClick('http%3A%2F%2Fwww.pixelpressicons.com%2Fdownloads%2FPP-VintageFloppiesAndDrives.zip','Vintage+Floppies+And+Drives')"><img class="noborder" title="Vintage Floppies And Drives" src="http://www.pixelpressicons.com/images/P-floppies.png" alt="Vintage Floppies And Drives" width="405" height="300" /></a><br />
+<a class="postdldark" href="http://www.pixelpressicons.com/downloads/PP-VintageFloppiesAndDrives.zip" onclick="return TrackClick('http%3A%2F%2Fwww.pixelpressicons.com%2Fdownloads%2FPP-VintageFloppiesAndDrives.zip','These')" onclick="return TrackClick('http%3A%2F%2Fwww.pixelpressicons.com%2Fdownloads%2FPP-VintageFloppiesAndDrives.zip','')" onclick="return TrackClick('http%3A%2F%2Fwww.pixelpressicons.com%2Fdownloads%2FPP-VintageFloppiesAndDrives.zip','Vintage+Floppies+And+Drives')"></a><br />
+<a href="http://www.pixelpressicons.com/downloads/PP-VintageFloppiesAndDrives.zip" onclick="return TrackClick('http%3A%2F%2Fwww.pixelpressicons.com%2Fdownloads%2FPP-VintageFloppiesAndDrives.zip','These')" onclick="return TrackClick('http%3A%2F%2Fwww.pixelpressicons.com%2Fdownloads%2FPP-VintageFloppiesAndDrives.zip','')" onclick="return TrackClick('http%3A%2F%2Fwww.pixelpressicons.com%2Fdownloads%2FPP-VintageFloppiesAndDrives.zip','Vintage+Floppies+And+Drives')">These</a> are not the most useful of icons but perhaps they will be of interest to the handful of people out there who have to get something off an old floppy once in a while &#8211; people like me! I have an Apple II and a Mac Classic in my basement and whenever I come across them while getting out the summer camping gear or putting away the Christmas decorations I remember, with great fondness, the early days of computing. Maybe I can share some of that with you, through these icons!
+</p>
+<p style="text-align: left;">If you like this then please <a href="http://www.pixelpressicons.com/?p=339" onclick="return TrackClick('http%3A%2F%2Fwww.pixelpressicons.com%2F%3Fp%3D339','check+out+the+desktop+pictures')">check out the desktop pictures</a> I made using the same artwork. Archive contains PNG, ICNs and Mac folders.</p>
+<p><img class="aligncenter" title="512x-3.5-Macintosh-Floppy.png" src="http://www.pixelpressicons.com/images/512x-3.5'-Macintosh-Floppy.png" alt="" width="512" height="512" /></p>
+<p style="text-align: center;"><img class="aligncenter" title="512x-Apple-II-Floppy-Drive.png" src="http://www.pixelpressicons.com/images/512x-Apple-II-Floppy-Drive.png" alt="" width="512" height="512" /></p>
+<p><script type="text/javascript">SHARETHIS.addEntry({ title: "Icons: Vintage Floppies And Drives", url: "http://www.pixelpressicons.com/?p=345" });</script></p>  
+                </div>                    
+                </div>
+            
+                    <div id="the_metadata">
+                    <!-- This code checks for each category and substitues an image for the category
+                    Icons = 3
+                    News = 8
+                    Wallpapers = 4
+                    Works = 6
+                    Uncategorized = 1 -->
+                    
+                    <ul>
+                    
+                                        <li><a href="?cat=3"><img src="http://www.pixelpressicons.com/blog/wordpress/wp-content/themes/chiclet-beta/images/meta-3.png" border="0" alt="Icons" /></a></li>
+                            
+                    <li>31 Jul 09</li>
+                    <li><span>Comments Off</span></li>
+                    </ul>
+               
+               
+                    </div>  
+        
+                <!-- Counter for Ad Placement -->
+                                <!-- End --> 
+                                      
+                <!-- Display Ad if displaying second post only -->    
+                        
+                <div id="the_post"> 
+                <div class="cbb">
+                            
+                    <h2><a href="http://www.pixelpressicons.com/?p=197">Icons: Typewriters</a></h2>  
+                    <hr/>
+                          
+                    <p><a href="http://www.pixelpressicons.com/downloads/PP-Typewriters.zip" onclick="return TrackClick('http%3A%2F%2Fwww.pixelpressicons.com%2Fdownloads%2FPP-Typewriters.zip','download')" onclick="return TrackClick('http%3A%2F%2Fwww.pixelpressicons.com%2Fdownloads%2FPP-Typewriters.zip','Typewriters')"><img class="aligncenter" title="Typewriters" src="http://www.pixelpressicons.com/images/P-typewriters.png" alt="" width="460" height="337" /></a>One of my many rejected designs for this website featured icons for each page on the site. One of those icons was a typewriter and I&#8217;d totally forgotten about it until today. Rather than let it collect anymore pixel dust I&#8217;ve polished it up, added some colors and posted it here. The <a href="http://www.pixelpressicons.com/downloads/PP-Typewriters.zip" onclick="return TrackClick('http%3A%2F%2Fwww.pixelpressicons.com%2Fdownloads%2FPP-Typewriters.zip','download')" onclick="return TrackClick('http%3A%2F%2Fwww.pixelpressicons.com%2Fdownloads%2FPP-Typewriters.zip','Typewriters')">download</a> includes PNGs, ICNs and Mac folders. I hope you like it!</p>
+<p>If you&#8217;d like to see the design it came from check out the screenshot by clicking on the preview below.</p>
+<p><a href="http://www.pixelpressicons.com/images/A-blogreject.png" onclick="return TrackClick('http%3A%2F%2Fwww.pixelpressicons.com%2Fimages%2FA-blogreject.png','Rejected+Blog+Design')" class="thickbox"><img class="aligncenter" title="Rejected Blog Design" src="http://www.pixelpressicons.com/images/A-blogreject-sm.png" alt="" width="460" height="187" /></a></p>
+<p><script type="text/javascript">SHARETHIS.addEntry({ title: "Icons: Typewriters", url: "http://www.pixelpressicons.com/?p=197" });</script></p>  
+                </div>                    
+                </div>
+            
+                    <div id="the_metadata">
+                    <!-- This code checks for each category and substitues an image for the category
+                    Icons = 3
+                    News = 8
+                    Wallpapers = 4
+                    Works = 6
+                    Uncategorized = 1 -->
+                    
+                    <ul>
+                    
+                                        <li><a href="?cat=3"><img src="http://www.pixelpressicons.com/blog/wordpress/wp-content/themes/chiclet-beta/images/meta-3.png" border="0" alt="Icons" /></a></li>
+                            
+                    <li>9 Jul 09</li>
+                    <li><span>Comments Off</span></li>
+                    </ul>
+               
+               
+                    </div>  
+        
+                <!-- Counter for Ad Placement -->
+                                <!-- End --> 
+                                      
+                <!-- Display Ad if displaying second post only -->    
+                        
+                <div id="the_post"> 
+                <div class="cbb">
+                            
+                    <h2><a href="http://www.pixelpressicons.com/?p=108">Icons: Free iPhone Toolbar Icons</a></h2>  
+                    <hr/>
+                          
+                    <p style="text-align: center;"><a href="http://www.pixelpressicons.com/downloads/PP-FreeiPhoneToolbar.zip" onclick="return TrackClick('http%3A%2F%2Fwww.pixelpressicons.com%2Fdownloads%2FPP-FreeiPhoneToolbar.zip','')" onclick="return TrackClick('http%3A%2F%2Fwww.pixelpressicons.com%2Fdownloads%2FPP-FreeiPhoneToolbar.zip','Free+iPhone+Toolbar+Icons')"><img class="noborder" title="Free iPhone Toolbar Icons" src="http://www.pixelpressicons.com/images/P-freeiphone.png" alt="Free iPhone Toolbar Icons 30x30 Pixels" width="460" height="481" /></a><a class="postdlwhite" href="http://www.pixelpressicons.com/downloads/PP-FreeiPhoneToolbar.zip" onclick="return TrackClick('http%3A%2F%2Fwww.pixelpressicons.com%2Fdownloads%2FPP-FreeiPhoneToolbar.zip','')" onclick="return TrackClick('http%3A%2F%2Fwww.pixelpressicons.com%2Fdownloads%2FPP-FreeiPhoneToolbar.zip','Free+iPhone+Toolbar+Icons')"></a></p>
+<p style="text-align: left;">
+<p style="text-align: left;">These are the first icons I&#8217;ve developed specifically for iPhone developers, and I&#8217;m giving them away for free for anyone to use commercially under the <img src="file:///Users/gary/Library/Caches/TemporaryItems/moz-screenshot.jpg" alt="" /><a href="http://creativecommons.org/licenses/by/2.5/ca/" onclick="return TrackClick('http%3A%2F%2Fcreativecommons.org%2Flicenses%2Fby%2F2.5%2Fca%2F','Creative+Commons+Attribution+2.5+Canada+license')" target="_blank">Creative Commons Attribution 2.5 Canada license</a>. You may use or modify these icons in any way as long as you credit www.pixelpressicons.com.</p>
+<p style="text-align: left;">If you have any suggestions for how I can make them better, please comment or send me an email &#8212; I&#8217;m very interested to hear how they work out. If you want more of these icons or need vector files please visit my <a href="http://www.pixelpressicons.com/?page_id=118" onclick="return TrackClick('http%3A%2F%2Fwww.pixelpressicons.com%2F%3Fpage_id%3D118','stock+iPhone+toolbar+icons+shop.')">stock iPhone toolbar icons shop.</a></p>
+<p style="text-align: left;"><strong>Update</strong>: This collection now includes 60&#215;60 pixel versions of the icons.</p>
+<p><script type="text/javascript">SHARETHIS.addEntry({ title: "Icons: Free iPhone Toolbar Icons", url: "http://www.pixelpressicons.com/?p=108" });</script></p>  
+                </div>                    
+                </div>
+            
+                    <div id="the_metadata">
+                    <!-- This code checks for each category and substitues an image for the category
+                    Icons = 3
+                    News = 8
+                    Wallpapers = 4
+                    Works = 6
+                    Uncategorized = 1 -->
+                    
+                    <ul>
+                    
+                                        <li><a href="?cat=3"><img src="http://www.pixelpressicons.com/blog/wordpress/wp-content/themes/chiclet-beta/images/meta-3.png" border="0" alt="Icons" /></a></li>
+                            
+                    <li>28 Jun 09</li>
+                    <li><a href="http://www.pixelpressicons.com/?p=108#comments" title="Comment on Icons: Free iPhone Toolbar Icons">4 Comments</a></li>
+                    </ul>
+               
+               
+                    </div>  
+        
+                <!-- Counter for Ad Placement -->
+                                <!-- End --> 
+                                      
+                <!-- Display Ad if displaying second post only -->    
+                        
+                <div id="the_post"> 
+                <div class="cbb">
+                            
+                    <h2><a href="http://www.pixelpressicons.com/?p=94">Icons: &#8220;Carbon&#8221; Replacement Icons for UnRarX</a></h2>  
+                    <hr/>
+                          
+                    <p style="text-align: center;"><a href="http://www.pixelpressicons.com/downloads/PP-CarbonUnRarX.zip" onclick="return TrackClick('http%3A%2F%2Fwww.pixelpressicons.com%2Fdownloads%2FPP-CarbonUnRarX.zip','make+over')" onclick="return TrackClick('http%3A%2F%2Fwww.pixelpressicons.com%2Fdownloads%2FPP-CarbonUnRarX.zip','')" onclick="return TrackClick('http%3A%2F%2Fwww.pixelpressicons.com%2Fdownloads%2FPP-CarbonUnRarX.zip','Replacement+UnRarX+Icons')"><img class="noborder" title="Replacement UnRarX Icons" src="http://www.pixelpressicons.com/images/P-unrarx.png" alt="Replacement UnRarX Icons" width="460" height="170" /></a></p>
+<p><a class="postdlwhite" href="http://www.pixelpressicons.com/downloads/PP-CarbonUnRarX.zip" onclick="return TrackClick('http%3A%2F%2Fwww.pixelpressicons.com%2Fdownloads%2FPP-CarbonUnRarX.zip','make+over')" onclick="return TrackClick('http%3A%2F%2Fwww.pixelpressicons.com%2Fdownloads%2FPP-CarbonUnRarX.zip','')" onclick="return TrackClick('http%3A%2F%2Fwww.pixelpressicons.com%2Fdownloads%2FPP-CarbonUnRarX.zip','Replacement+UnRarX+Icons')"></a></p>
+<p style="text-align: left;">There&#8217;s lots of archive managers for Mac OS X but there are times where the only one that will do the job I need is <a href="http://www.unrarx.com/" onclick="return TrackClick('http%3A%2F%2Fwww.unrarx.com%2F','UnRarX')">UnRarX</a>. I love the app but think the icons needed a little updating. Here&#8217;s my shot-from-the-hip <a href="http://www.pixelpressicons.com/downloads/PP-CarbonUnRarX.zip" onclick="return TrackClick('http%3A%2F%2Fwww.pixelpressicons.com%2Fdownloads%2FPP-CarbonUnRarX.zip','make+over')" onclick="return TrackClick('http%3A%2F%2Fwww.pixelpressicons.com%2Fdownloads%2FPP-CarbonUnRarX.zip','')" onclick="return TrackClick('http%3A%2F%2Fwww.pixelpressicons.com%2Fdownloads%2FPP-CarbonUnRarX.zip','Replacement+UnRarX+Icons')">make over</a> &#8211; color versions of the toolbar icons are in the works.</p>
+<p><script type="text/javascript">SHARETHIS.addEntry({ title: "Icons: &#8220;Carbon&#8221; Replacement Icons for UnRarX", url: "http://www.pixelpressicons.com/?p=94" });</script></p>  
+                </div>                    
+                </div>
+            
+                    <div id="the_metadata">
+                    <!-- This code checks for each category and substitues an image for the category
+                    Icons = 3
+                    News = 8
+                    Wallpapers = 4
+                    Works = 6
+                    Uncategorized = 1 -->
+                    
+                    <ul>
+                    
+                                        <li><a href="?cat=3"><img src="http://www.pixelpressicons.com/blog/wordpress/wp-content/themes/chiclet-beta/images/meta-3.png" border="0" alt="Icons" /></a></li>
+                            
+                    <li>17 Jun 09</li>
+                    <li><a href="http://www.pixelpressicons.com/?p=94#comments" title="Comment on Icons: &#8220;Carbon&#8221; Replacement Icons for UnRarX">1 Comment</a></li>
+                    </ul>
+               
+               
+                    </div>  
+        
+                <!-- Counter for Ad Placement -->
+                                <!-- End --> 
+                                      
+                <!-- Display Ad if displaying second post only -->    
+                        
+                <div id="the_post"> 
+                <div class="cbb">
+                            
+                    <h2><a href="http://www.pixelpressicons.com/?p=74">Icons: Album Icons</a></h2>  
+                    <hr/>
+                          
+                    <p style="text-align: center;"><a href="http://www.pixelpressicons.com/downloads/PP-AlbumIcons.zip" onclick="return TrackClick('http%3A%2F%2Fwww.pixelpressicons.com%2Fdownloads%2FPP-AlbumIcons.zip','This')" onclick="return TrackClick('http%3A%2F%2Fwww.pixelpressicons.com%2Fdownloads%2FPP-AlbumIcons.zip','Album+Icons')"><img class="aligncenter" title="Album Icons" src="http://www.pixelpressicons.com/images/P-album.png" alt="" width="405" height="432" /></a></p>
+<p style="text-align: left;">Everybody&#8217;s got some music in their collection that for whatever reason has no artwork. Maybe it&#8217;s something you recorded yourself, ripped off an old cassette or (*gasp*) bootlegged. Missing artwork was never a big deal before coverflow appeared in iTunes and apps like <a href="http://www.sophiestication.com/coversutra/" onclick="return TrackClick('http%3A%2F%2Fwww.sophiestication.com%2Fcoversutra%2F','CoverSutra')">CoverSutra</a> put album artwork right on your desktop.</p>
+<p><a href="http://www.pixelpressicons.com/downloads/PP-AlbumIcons.zip" onclick="return TrackClick('http%3A%2F%2Fwww.pixelpressicons.com%2Fdownloads%2FPP-AlbumIcons.zip','This')" onclick="return TrackClick('http%3A%2F%2Fwww.pixelpressicons.com%2Fdownloads%2FPP-AlbumIcons.zip','Album+Icons')">This</a> is a collection of artwork I made to adorn those blank albums in your collection. Even though these are definitely pixel works in appearance I think you&#8217;ll find they look good next to the rest of the albums in your library.</p>
+<p> <a href="http://www.pixelpressicons.com/?p=74#more-74" onclick="return TrackClick('http%3A%2F%2Fwww.pixelpressicons.com%2F%3Fp%3D74%23more-74','%28more...%29')" class="more-link">(more&#8230;)</a></p>
+<p><script type="text/javascript">SHARETHIS.addEntry({ title: "Icons: Album Icons", url: "http://www.pixelpressicons.com/?p=74" });</script></p>  
+                </div>                    
+                </div>
+            
+                    <div id="the_metadata">
+                    <!-- This code checks for each category and substitues an image for the category
+                    Icons = 3
+                    News = 8
+                    Wallpapers = 4
+                    Works = 6
+                    Uncategorized = 1 -->
+                    
+                    <ul>
+                    
+                                        <li><a href="?cat=3"><img src="http://www.pixelpressicons.com/blog/wordpress/wp-content/themes/chiclet-beta/images/meta-3.png" border="0" alt="Icons" /></a></li>
+                            
+                    <li>15 May 09</li>
+                    <li><span>Comments Off</span></li>
+                    </ul>
+               
+               
+                    </div>  
+        
+                <!-- Counter for Ad Placement -->
+                                <!-- End --> 
+                                      
+                <!-- Display Ad if displaying second post only -->    
+                        
+                <div id="the_post"> 
+                <div class="cbb">
+                            
+                    <h2><a href="http://www.pixelpressicons.com/?p=43">Icons: CoRD and Apple Remote Desktop Replacements</a></h2>  
+                    <hr/>
+                          
+                    <p style="text-align: center;"><a href="http://www.pixelpressicons.com/downloads/PP-CoRDARD.zip" onclick="return TrackClick('http%3A%2F%2Fwww.pixelpressicons.com%2Fdownloads%2FPP-CoRDARD.zip','CoRD+and+ARD+Replacement+Icons')"><img class="aligncenter" title="CoRD and ARD Replacement Icons" src="http://www.pixelpressicons.com/images/P-cordard.png" alt="" width="405" height="160" /></a></p>
+<p>One of my Macs is reserved for technical duties so the dock is full of utilities. Once I got the Terminal, Activity Monitor, <a href="http://www.apple.com/remotedesktop/" onclick="return TrackClick('http%3A%2F%2Fwww.apple.com%2Fremotedesktop%2F','ARD+Administrator')">ARD Administrator</a> and <a href="http://cord.sourceforge.net/" onclick="return TrackClick('http%3A%2F%2Fcord.sourceforge.net%2F','CoRD')">CoRD</a> side by side the differences in these icons began to really nag at me.</p>
+<p>So I made some icons for ARD and CoRD that will look like they belong with the Terminal and Activity Monitor, and thought I&#8217;d share them. Nothing special, obvious design. Click the above image to download the icons in ICNS, PNG and folder format.</p>
+<p><img class="aligncenter" title="ARD Replacement" src="http://www.pixelpressicons.com/images/P-ard.png" alt="" width="512" height="512" /></p>
+<p><img class="aligncenter" title="CoRD Replacement" src="http://www.pixelpressicons.com/images/P-cord.png" alt="" width="512" height="512" /></p>
+<p><script type="text/javascript">SHARETHIS.addEntry({ title: "Icons: CoRD and Apple Remote Desktop Replacements", url: "http://www.pixelpressicons.com/?p=43" });</script></p>  
+                </div>                    
+                </div>
+            
+                    <div id="the_metadata">
+                    <!-- This code checks for each category and substitues an image for the category
+                    Icons = 3
+                    News = 8
+                    Wallpapers = 4
+                    Works = 6
+                    Uncategorized = 1 -->
+                    
+                    <ul>
+                    
+                                        <li><a href="?cat=3"><img src="http://www.pixelpressicons.com/blog/wordpress/wp-content/themes/chiclet-beta/images/meta-3.png" border="0" alt="Icons" /></a></li>
+                            
+                    <li>2 May 09</li>
+                    <li><a href="http://www.pixelpressicons.com/?p=43#comments" title="Comment on Icons: CoRD and Apple Remote Desktop Replacements">5 Comments</a></li>
+                    </ul>
+               
+               
+                    </div>  
+        
+                <!-- Counter for Ad Placement -->
+                                <!-- End --> 
+                                      
+                <!-- Display Ad if displaying second post only -->    
+                        
+                <div id="the_post"> 
+                <div class="cbb">
+                            
+                    <h2><a href="http://www.pixelpressicons.com/?p=14">Old Icons: Pirates</a></h2>  
+                    <hr/>
+                          
+                    <p style="text-align: center;"><a href="http://pixelpressicons.com/downloads/PP-Pirates.dmg" onclick="return TrackClick('http%3A%2F%2Fpixelpressicons.com%2Fdownloads%2FPP-Pirates.dmg','')" onclick="return TrackClick('http%3A%2F%2Fpixelpressicons.com%2Fdownloads%2FPP-Pirates.dmg','Pirates+Icon+Set')"><img class="noborder" title="Pirates Icon Set" src="http://www.pixelpressicons.com/images/P-pirates.png" alt="Pirates Icon Set - mac, os x, dock, icons, pirates, anchor, flintlock pistol, ship's wheel, canon, pirate ship, jolly roger" width="460" height="314" /></a><a class="postdlwhite" href="http://pixelpressicons.com/downloads/PP-Pirates.dmg" onclick="return TrackClick('http%3A%2F%2Fpixelpressicons.com%2Fdownloads%2FPP-Pirates.dmg','')" onclick="return TrackClick('http%3A%2F%2Fpixelpressicons.com%2Fdownloads%2FPP-Pirates.dmg','Pirates+Icon+Set')"></a></p>
+</p>
+<p style="text-align: left;">One of my most popular icon sets of all time. Please remember: these icons are for personal desktop use only and cannot be used on a website or in a software program. Don&#8217;t even bother asking.</p>
+<p><script type="text/javascript">SHARETHIS.addEntry({ title: "Old Icons: Pirates", url: "http://www.pixelpressicons.com/?p=14" });</script></p>  
+                </div>                    
+                </div>
+            
+                    <div id="the_metadata">
+                    <!-- This code checks for each category and substitues an image for the category
+                    Icons = 3
+                    News = 8
+                    Wallpapers = 4
+                    Works = 6
+                    Uncategorized = 1 -->
+                    
+                    <ul>
+                    
+                                        <li><a href="?cat=3"><img src="http://www.pixelpressicons.com/blog/wordpress/wp-content/themes/chiclet-beta/images/meta-3.png" border="0" alt="Icons" /></a></li>
+                            
+                    <li>2 May 09</li>
+                    <li><a href="http://www.pixelpressicons.com/?p=14#comments" title="Comment on Old Icons: Pirates">5 Comments</a></li>
+                    </ul>
+               
+               
+                    </div>  
+        
+                <!-- Counter for Ad Placement -->
+                                <!-- End --> 
+                                      
+                <!-- Display Ad if displaying second post only -->    
+                        
+                <div id="the_post"> 
+                <div class="cbb">
+                            
+                    <h2><a href="http://www.pixelpressicons.com/?p=18">Old Icons: Pixel Feng Shui</a></h2>  
+                    <hr/>
+                          
+                    <p style="text-align: center;"><a href="http://www.pixelpressicons.com/downloads/PP-PixelFengShui.dmg" onclick="return TrackClick('http%3A%2F%2Fwww.pixelpressicons.com%2Fdownloads%2FPP-PixelFengShui.dmg','Pixel+Feng+Shui+Icon+Set')"><img class="aligncenter" title="Pixel Feng Shui Icon Set" src="http://pixelpressicons.com/images/P-fengshui.png" alt="Pixel Feng Shui Icon Set" width="405" height="300" /></a></p>
+<p>This icon set was my entrance into the <a href="http://www.iconfactory.com" onclick="return TrackClick('http%3A%2F%2Fwww.iconfactory.com','Iconfactory%22s')">Iconfactory&#8217;s</a> Pixelpalooza Contest 2002. I won the &#8220;People&#8217;s Choice Award&#8221; for this entry. Also, users of Apple&#8217;s iChat may be familiar with these icons because Apple has used some of them for iChat&#8217;s built-in buddy pictures.</p>
+<p><script type="text/javascript">SHARETHIS.addEntry({ title: "Old Icons: Pixel Feng Shui", url: "http://www.pixelpressicons.com/?p=18" });</script></p>  
+                </div>                    
+                </div>
+            
+                    <div id="the_metadata">
+                    <!-- This code checks for each category and substitues an image for the category
+                    Icons = 3
+                    News = 8
+                    Wallpapers = 4
+                    Works = 6
+                    Uncategorized = 1 -->
+                    
+                    <ul>
+                    
+                                        <li><a href="?cat=3"><img src="http://www.pixelpressicons.com/blog/wordpress/wp-content/themes/chiclet-beta/images/meta-3.png" border="0" alt="Icons" /></a></li>
+                            
+                    <li>2 May 09</li>
+                    <li><a href="http://www.pixelpressicons.com/?p=18#comments" title="Comment on Old Icons: Pixel Feng Shui">2 Comments</a></li>
+                    </ul>
+               
+               
+                    </div>  
+        
+                <!-- Counter for Ad Placement -->
+                                <!-- End --> 
+                 
+                
+                 
+            <div id="navigation">
+                                <div class="alignleft"></div>
+                <div class="alignright"><a href="http://www.pixelpressicons.com/?cat=3&#038;paged=2" ><img src=http://www.pixelpressicons.com/blog/wordpress/wp-content/themes/chiclet-beta/images/button-next.png border=0 /></a></div>
+            </div>
+                  
+        </div>  
+    
+    <div id="above_footer">
+<div class="cbb">
+	<div id="search">
+    	 
+<div id="search_form">
+<form method="get" id="searchform" action="http://www.pixelpressicons.com/">
+<fieldset class="search">
+	<input type="text" class="box" value="Search" name="s" id="s"  
+onblur="if (this.value == '') {this.value = 'Search';}"  
+onfocus="if (this.value == 'Search') {this.value = '';}" /> 
+<input type="hidden" id="searchsubmit" />
+	<button class="btn" title="Submit Search">Search</button>
+</fieldset>
+</form>
+</div>    </div>
+    <div id="emailme">
+    <p>Do you have a question or comment? <a href="mailto:gary@pixelpressicons.com">Email me.</a></p>
+    </div>
+</div>
+</div>
+
+<div id="footer">
+<div class="cbb"> 
+<h2>Copyright Notice</h2>
+<hr/>
+<p><small>The icons and images represented by these icons are Copyright &copy;2004-2009 PixelPress Media Design and/ or Gary W. Gehiere. The icons contained in these sets are intended for personal desktop use ONLY. These icons may not be re-used in other works (in part or in whole) or otherwise manipulated. These icons may not be redistributed, sold or exchanged for any goods or services whatsoever. By downloading file(s) you are agreeing to be bound by these terms of use. All artwork Copyright PixelPress Media Design and/ or <a href="mailto:gary@pixelpressicons.com">Gary W. Gehiere</a>. All rights reserved.</small></p>
+</div>
+
+<div id="outside_footer">
+<p>Powered by <a href="http://wordpress.org/">Wordpress</a> | 'Chiclet-Beta' theme designed by <a href="http://www.garygehiere.com">Gary W. Gehiere</a> &copy; 2009 PixelPressIcons | <a href="http://www.pixelpressicons.com/?feed=rss2">RSS Feed</a></p>   
+</div>
+</div>
+
+<script src="http://www.pixelpressicons.com/blog/wordpress/wp-content/plugins/thickbox/thickbox/jquery.js" type="text/javascript"></script>
+<script src="http://www.pixelpressicons.com/blog/wordpress/wp-content/plugins/thickbox/thickbox.php?thickbox_action=tjs&amp;url=http%3A%2F%2Fwww.pixelpressicons.com%2Fblog%2Fwordpress%2Fwp-content%2Fplugins%2Fthickbox%2Fthickbox%2Fimages%2F&amp;variant=default" type="text/javascript"></script>
+<div align="center"><font style="font-size: 10px;">Google Analytics integration offered by </font><a target="_blank" href="http://www.googleanalyticsplugin.com/" style="font-size: 9px;">Wordpress Google Analytics Plugin</a></div><!-- Here goes the code from google analytics added by Google Analytics Plugin --><script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-9707572-1");
+pageTracker._trackPageview();
+} catch(err) {}</script><!-- End of gooogle analytics code -->  
+</body>  
+</html>      
+    </div>
+</div>
