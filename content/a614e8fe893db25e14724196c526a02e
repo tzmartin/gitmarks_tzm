@@ -1,0 +1,318 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>WP Subscriber - Pay to Blog Paypal Subscriptions Plug-in for Wordpress MU</title>
+	<meta name="distribution" content="global" />
+	<meta name="description" content="Wordpress MU plug-in to manage blog owner payments using Paypal Subscription service. Affiliate system built in." />
+	<meta name="keywords" content="" />
+	<link href="http://www.summitmediaconcepts.com/includes/style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+
+<div id="body">
+
+	<div id="headerBar"></div>
+
+	<div id="headerLeft">
+
+		<img src="http://www.summitmediaconcepts.com/images/smc_logo_blue2.gif" alt="Summit Media Concepts LLC" />
+
+		<ul id="headerNav">
+	<li><a href="http://www.summitmediaconcepts.com/">Home <span>&gt;</span></a></li>
+	<li><a href="http://www.summitmediaconcepts.com/services">Services <span>&gt;</span></a></li>
+	<li><a href="http://www.summitmediaconcepts.com/wordpress_plugins">Wordpress Plug-ins <span>&gt;</span></a></li>
+	<li><a href="http://www.summitmediaconcepts.com/technology">Technology <span>&gt;</span></a></li>
+	<li><a href="http://www.summitmediaconcepts.com/clients">Clients <span>&gt;</span></a></li>
+	<li><a href="http://www.summitmediaconcepts.com/partners">Partners <span>&gt;</span></a></li>
+	<li><a href="http://www.summitmediaconcepts.com/about_us">About <span>&gt;</span></a></li>
+	<li><a href="http://www.summitmediaconcepts.com/contact">Contact <span>&gt;</span></a></li>
+	<li><a href="http://www.summitmediaconcepts.com/domain_names_for_sale">Domains for Sale <span>&gt;</span></a></li>
+</ul>
+	</div>
+
+	<div id="columnSingle">
+			<div id="columnSingle">
+		<div class="columnContent">
+			<h2>Paypal Subscriptions Plug-in for Wordpress MU - v2.0</h2>
+
+			<h3>Pay to Blog</h3>
+			<p>
+				Monetize your Wordpress MU website with this plug-in.  WP Subscriber allows you to charge
+				your blog owners subscription fees.  Simply create your Paypal subscription buttons at
+				the Paypal website and paste the code into the plug-in's admin forms.  Offer as many
+				subscription choices as you'd like.
+			</p>
+
+			<h3>Affiliate Management Built-in</h3>
+			<p>
+				Turn your subscribers into your best sales people.  You have the option of offering
+				flat or percentage affiliate commissions to subscribers that bring additional subscribers to your Wordpress
+				MU website.
+			</p>
+
+			<div id="media">
+				<div id="noUpdate">
+					<p>The Camtasia Studio video content presented here requires JavaScript to be enabled and the  latest version of the Macromedia Flash Player. If you are you using a browser with JavaScript disabled please enable it now. Otherwise, please update your version of the free Flash Player by <a href="http://www.macromedia.com/go/getflashplayer">downloading here</a>. </p>
+				</div>
+			</div>
+				<style type="text/css">
+					#media
+					{
+						margin-top: 20px;
+					}
+
+					#noUpdate
+					{
+						margin: 0 auto;
+						font-family:Arial, Helvetica, sans-serif;
+						font-size: x-small;
+						color: #cccccc;
+						text-align: left;
+						width: 210px;
+						height: 200px;
+						padding: 40px;
+					}
+				</style>
+				<script type="text/javascript" src="http://www.summitmediaconcepts.com/wp_subscriber/swfobject.js"></script>
+				<script type="text/javascript">
+				// <![CDATA[
+				var so = new SWFObject( "http://www.summitmediaconcepts.com/wp_subscriber/wp_subscriber.swf", "csSWF", "640", "498", "9.0.28", "#1a1a1a");
+				so.addParam( "quality", "best" );
+				so.addParam( "allowFullScreen", "true" );
+				so.addParam( "scale", "showall" );
+				so.addParam( "allowScriptAccess", "always" );
+				so.addVariable( "autostart", "false" );
+				so.write("media");
+				// ]]>
+				</script>
+
+			<h3>Features</h3>
+			<ul class="std_list">
+				<li>Uses Paypal subscription buttons</li>
+				<li>Add as many Paypal buttons as you like</li>
+				<li>Display the buttons in any order you like</li>
+				<li>Description text for each button</li>
+				<li>Activate/Deactivate specific buttons without having to delete them</li>
+				<li>All transactions visible per blog</li>
+				<li>Subscribers can be your affiliates</li>
+				<li>Offer flat or percentage commissions for affiliate referrals</li>
+				<li>Configure specific commissions per subscription button</li>
+				<li>Option to pay reoccurring commissions per button</li>
+				<li>Choice of paying affiliate commissions instantly, daily, weekly, and monthly</li>
+				<li>Configurable affiliate cookie lifespan</li>
+				<li>Configurable Paypal email address used for affiliate payouts if you want it different from your subscription buttons</li>
+				<li>Subscriber can change Paypal email address affiliate commissions</li>
+				<li>Supports sub-domain or sub-directory MU setups</li>
+				<li>Support for Paypal trial periods</li>
+				<li>Manual sign-up and payment entry.  This does not do Paypal payments, but it does allow you to give out trial memberships or grant access when payments are handled outside the system.</li>
+				<li>6 Levels of affiliate commisions.  Up to 6 affiliates can get paid a flat or percent rate when a new blog is signed up.</li>
+				<li>Allow/Deny specific plug-ins based on subscription level.</li>
+				<li>Allow/Deny specific themes based on subscription level.</li>
+				<li>When a blog owner's subscription has expired or has been cancelled, you now have the option of displaying a message to visitors of that blog or redirecting them to another web page.</li>
+				<li>Optional logging of all Paypal data direct to file so you can trace Paypal errors and plug-in integration issues.</li>
+				<li>Enable Paypal buttons based on start and end date/time</li>
+				<li>Affiliate reports</li>
+			</ul>
+
+			<h3>How it Works...</h3>
+			<ol class="std_list">
+				<li>When your Wordpress MU blog owners log-in to the admin area, they will be presented with a list of Paypal Subscribe buttons that you create.</li>
+				<li>After they return from their round-trip to Paypal to sign-up and pay, they will be brought back to the same page.</li>
+				<li>At the same time Paypal will notify a special script in your blog that they have paid, how much, and for how long the subscription will last.</li>
+				<li>Your blog owner will then be able to continue to the admin area.</li>
+				<li>In the admin area they will have a page that shows them their affiliate URL.</li>
+				<li>If or when their subscription has expired, they will be denied access to their admin area and will see your Paypal Subscribe buttons again.</li>
+			</ol>
+
+<!--
+			<h3>Coming Soon...</h3>
+			<ol class="std_list">
+				<li>Integration with other subscription payment services</li>
+				<li>More affiliate management reports/stats</li>
+				<li>Multi-lingual</li>
+			</ol>
+ -->
+
+			<h3>Screenshots</h3>
+			<table border="0" cellspacing="10">
+				<tr>
+					<td>
+						<a href="http://www.summitmediaconcepts.com/images/wordpress_plugins/subscriber/wp_subscribe_blogs.gif" target="_blank">
+							<img src="http://www.summitmediaconcepts.com/images/wordpress_plugins/subscriber/wp_subscribe_blogs.gif" width="150" alt="Blog List" />
+						</a><br />
+						Blog List
+					</td>
+					<td>
+						<a href="http://www.summitmediaconcepts.com/images/wordpress_plugins/subscriber/wp_subscribe_blog_detail.gif" target="_blank">
+							<img src="http://www.summitmediaconcepts.com/images/wordpress_plugins/subscriber/wp_subscribe_blog_detail.gif" width="150" alt="Blog Detail" />
+						</a><br />
+						Blog Detail
+					</td>
+					<td>
+						<a href="http://www.summitmediaconcepts.com/images/wordpress_plugins/subscriber/wp_subscribe_buttons.gif" target="_blank">
+							<img src="http://www.summitmediaconcepts.com/images/wordpress_plugins/subscriber/wp_subscribe_buttons.gif" width="150" alt="Buttons List" />
+						</a><br />
+						Buttons List
+					</td>
+				</tr>
+				<tr>
+					<td><br />
+						<a href="http://www.summitmediaconcepts.com/images/wordpress_plugins/subscriber/wp_subscribe_button_detail.gif" target="_blank">
+							<img src="http://www.summitmediaconcepts.com/images/wordpress_plugins/subscriber/wp_subscribe_button_detail.gif" width="150" alt="Button Detail" />
+						</a><br />
+						Button Detail
+					</td>
+					<td><br />
+						<a href="http://www.summitmediaconcepts.com/images/wordpress_plugins/subscriber/wp_subscribe_settings.gif" target="_blank">
+							<img src="http://www.summitmediaconcepts.com/images/wordpress_plugins/subscriber/wp_subscribe_settings.gif" width="150" alt="Plug-in Settings" />
+						</a><br />
+						Plug-in Settings
+					</td>
+					<td>
+					</td>
+				</tr>
+				<tr>
+					<td valign="top"><br />
+						<a href="http://www.summitmediaconcepts.com/images/wordpress_plugins/subscriber/wp_subscribe_subscription_info.gif" target="_blank">
+							<img src="http://www.summitmediaconcepts.com/images/wordpress_plugins/subscriber/wp_subscribe_subscription_info.gif" width="150" alt="Subscriber's Info View" />
+						</a><br />
+						Subscriber's Info View
+					</td>
+					<td><br />
+						<a href="http://www.summitmediaconcepts.com/images/wordpress_plugins/subscriber/wp_subscribe_signup.gif" target="_blank">
+							<img src="http://www.summitmediaconcepts.com/images/wordpress_plugins/subscriber/wp_subscribe_signup.gif" width="150" alt="Sign-up Screen" />
+						</a><br />
+						Subscriber Sign-up
+					</td>
+					<td>
+					</td>
+				</tr>
+			</table>
+
+			<b style="color: #B00;">
+			If you don't see a feature or configuration you need, please ask!  We're <br />
+			adding new features all the time and many more are planned in future releases.
+			</b>
+
+			<h3>Testimonials</h3>
+			<div style="border: 1px solid #DDD; margin: 0 20px; padding: 15px;">
+				<p>Wow! What more can I say? I've been looking for a plugin for Wordpress MU that allowed me to charge for blogs, using Paypal subscriptions, seemingly forever and I finally found one! Not only that but everybody that signs up also becomes an affiliate, what more could one ask for?</p>
+				<p>I've been using MU for a long time now and used many different plugins, so as you can imagine I was impressed after installing WP-Subscriber and saw the beautiful user interface, makes setting up this plugin a breeze! I've contacted the author of this plugin to personally thank him, not only was he quick to respond, but he let me in on a few of the features he has planned for future releases, again WOW! I'll be looking forward to any other plugins Gary publishes, that's for sure.</p>
+				-- <a href="http://thenacsp.com/" target="_blank">David Johnson</a>
+			</div>
+
+			<h3>Benefits</h3>
+			<ul class="std_list">
+				<li>Instant Download</li>
+				<li>Free updates for 1 year</li>
+				<li>Use on as many domains as you need</li>
+				<li>Installation and configuration support</li>
+				<li>Frequent feature additions and updates</li>
+			</ul>
+
+			<h3>Minimum Requirements</h3>
+			<ul class="std_list" style="color: #900; background-color: #FFA; font-size: 14px;">
+				<li><b>PHP v4 or v5</b></li>
+				<li><b>Wordpress MU v2.7.x or greater, works with 3.0</b></li>
+				<li><b>Paypal Account</b></li>
+			</ul>
+
+			<br />
+
+			<h2 style="border: 0; color: #B00;">Lifetime Membership &amp; Support: $50</h2>
+
+			<form action="https://www.paypal.com/cgi-bin/webscr" method="post">
+<input type="hidden" name="cmd" value="_s-xclick">
+<input type="hidden" name="hosted_button_id" value="3993421">
+<input type="image" src="https://www.paypal.com/en_US/i/btn/btn_buynowCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+<img alt="" border="0" src="https://www.paypal.com/en_US/i/scr/pixel.gif" width="1" height="1">
+</form>
+			<!--<br />
+			Unsubscribe any time.//-->
+			<br />
+			<br />
+			<br />
+
+			<h3>Support</h3>
+			For immediate installation and configuration instructions
+			<a href="http://www.summitmediaconcepts.com/wordpress_plugins/subscriber_help">
+				<b>Click here...</b>
+			</a>
+
+			<br />
+			<br />
+
+			Members, please use the forums for support and feature requests:<br />
+			<a href="http://www.summitmediaconcepts.com/forum/">
+				Click here to register for support...
+			</a>
+
+			<br />
+			<br />
+			<br />
+
+			<a name="contact"></a>
+<h2>Contact</h2>
+<form action="#contact" method="POST">
+<input type="hidden" name="action" value="contact_send" />
+<input type="hidden" name="form_vars[return]" value="http://www.summitmediaconcepts.com/wordpress_plugins/subscriber" />
+<table cellspacing="0" border="0" class="form_table">
+	<tr>
+		<td>
+			<b>Your Name</b><br />
+			<input type="text" name="form_vars[name]" value="" size="45" />
+		</td>
+	</tr>
+	<tr>
+		<td>
+			<b>Your Email</b><br />
+			<input type="text" name="form_vars[email]" value="" size="45" />
+		</td>
+	</tr>
+	<tr>
+		<td>
+			<b>Comments, Suggestions, Questions</b><br />
+			<textarea name="form_vars[message]" rows="8" cols="50"></textarea>
+		</td>
+	</tr>
+	<tr>
+		<td>
+			<b>Human test: 0 + 6 = </b><input type="text" name="form_vars[test]" value="" size="5" />
+		</td>
+	</tr>
+	<tr>
+		<td>
+			<input type="submit" value="Send Message" />
+		</td>
+	</tr>
+</table>
+</form>
+
+		</div>
+	</div>	</div>
+
+	<div class="clearBoth"></div>
+
+	<div id="footer">
+	<div id="footer_text"><strong>(814) 360-9986</strong> | info at summitmediaconcepts.com | &copy; Copyright 2007 Summit Media Concepts LLC. | State College, Pennsylvania</div>
+	<div class="clearBoth"></div>
+</div>
+
+</div>
+
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+var pageTracker = _gat._getTracker("UA-3316093-2");
+pageTracker._setDomainName("none");
+pageTracker._setAllowLinker(true);
+pageTracker._initData();
+pageTracker._trackPageview();
+</script>
+</body>
+
+</html>
