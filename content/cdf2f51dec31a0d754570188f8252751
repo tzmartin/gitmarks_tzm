@@ -1,0 +1,98 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="en-US">
+
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <meta name="author" content="IRONKEEP http://www.ironkeep.net"/>
+        <title>Global Book Shows - BOOKPUBLISHING.com</title>
+        <link rel="stylesheet" href="css/main.css" type="text/css" />
+        <script language="javascript">
+            var pageLoc = 'bm';
+        </script>
+        <script language="javascript" src="js/location.js"></script>
+    </head>
+
+    <body>
+        <div id="container">
+            <div id="header">
+                <div id="nav">
+                    <div><a href="index.php"><img src="images/navHome.png" /></a></div><div><a href="phone.php"><img src="images/navPhone.png" /></a></div><div><a href="email.php"><img src="images/navEmail.png" /></a></div><div><a href="info.php"><img src="images/navInfo.png" /></a></div><div class="last"><a href="http://www.jenkinsgroupinc.com/ixxo/" target="_blank"><img src="images/navShop.png" /></a></div>
+                </div>
+            </div>
+            <div id="content">
+                <div id="menu">
+                    <div id="bp" class="mItem" onmouseover="menuHover('bpIn')" onmouseout="menuOut('bpIn', 'bp')">
+                        <div class="mContent">
+                            <p>
+                                <a href="custom-book-publishing.php">Custom Book Publishing</a><br/>
+                                <a href="books-are-marketing-tools.php">Books Are Marketing Tools</a><br/>
+                                <a href="printellectual.php">Printellectual</a><br/>
+                            </p>
+                        </div>
+                        <div id="bpIn" class="mIndicator" style="background-color: #8e120f;">
+                            &nbsp;
+                        </div>
+                    </div>
+                    <div id="bm" class="mItem"  onmouseover="menuHover('bmIn')" onmouseout="menuOut('bmIn', 'bm')">
+                        <div class="mContent">
+                            <p>
+                                <a href="global-book-shows.php">Global Book Shows</a><br/>
+                                <a href="independent-publisher.php">Independent Publisher Magazine</a><br/>
+                                <a href="review-direct.php">Review Direct</a><br/>
+                                <a href="special-market-book-sales.php">Special Market Book Sales</a><br/>
+                                <a href="targeted-media-release.php">Targeted Media Release</a><br/>
+                                <a href="your-pub-site.php">Your Pub Site</a><br/>
+                                <a href="additional-marketing-services.php">Additional Marketing Services</a><br/>
+                            </p>
+                        </div>
+                        <div id="bmIn" class="mIndicator" style="background-color: #1c72b5;height:187px;display:inline">
+                            &nbsp;
+                        </div>
+                    </div>
+                    <div id="ba" class="mItem" onmouseover="menuHover('baIn')" onmouseout="menuOut('baIn', 'ba')">
+                        <div class="mContent">
+                            <p>
+                                <a href="axiom-business-book-awards.php">Axiom Business Book Awards</a><br/>
+                                <a href="independent-publisher-book-awards.php">Independent Publisher Book Awards</a><br/>
+                                <a href="living-now-book-awards.php">Living Now Book Awards</a><br/>
+                                <a href="moonbeam-childrens-book-awards.php">Moonbeam Children's Book Awards</a><br/>
+                            </p>
+                        </div>
+                        <div id="baIn" class="mIndicator" style="background-color: #e7742c;">
+                            &nbsp;
+                        </div>
+                    </div>
+                </div>
+                <div id="page">
+                    <img src="images/logos/globalbookshows.png" alt="Custom Book Publishing"/>
+<br/><br/>
+<p>
+    Here is your chance to display your books at the world’s premiere publishing and book selling events!  Now you can promote and exhibit your books alongside other authors and publishers in a variety of book exhibit’s being offered at incredible prices.  We’ve secured great spaces and are offering the best prices available.  No matter what type of book you have, we have a show for you.
+</p>
+<p>
+    These unique displays are located in high-traffic exhibit areas at each of the shows and are visited by thousands of visitors throughout the show weekends.  Staffed by Combined Book Exhibit personnel, the displays have proven to be a valuable marketing tool to share your title with the largest gathering of book buyers and professional, around the world.
+</p>
+<p>
+    Your participation includes shelf space to display your title with a full-facing cover as well as a listing in the Combined Book Exhibit feature catalog and database that includes all of your pertinent sales, company and contact information.
+</p>
+<p>
+    Learn more at <a href="http://www.globalbookshows.com" target="_blank">www.GlobalBookShows.com</a>
+</p>                </div>
+                <div style="clear:both"></div>
+            </div>
+            <div id="footer">
+                <div style="float:left">Jenkins Group 1129 Woodmere Ave. Suite B Traverse City, MI 49686</div>&copy; 2009 Jenkins Group
+            </div>
+        </div>
+        <script type="text/javascript">
+        var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+        document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+        </script>
+        <script type="text/javascript">
+        try {
+        var pageTracker = _gat._getTracker("UA-6363090-13");
+        pageTracker._trackPageview();
+        } catch(err) {}</script>
+    </body>
+  
+</html>
