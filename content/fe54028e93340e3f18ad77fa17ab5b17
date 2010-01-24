@@ -1,0 +1,733 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head profile="http://gmpg.org/xfn/11"><link rel="stylesheet" type="text/css" href="http://blog.sallarp.com/wp-content/w3tc/min/default.include.css" media="all" />
+<script type="text/javascript" src="http://blog.sallarp.com/wp-content/w3tc/min/default.include.js"></script>
+<title>Find the device orientation using the accelerometer | blog.sallarp.com</title>
+<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+<meta http-equiv="pragma" content="no-cache" />
+<meta http-equiv="cache-control" content="no-cache" />
+
+
+
+
+<link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="http://blog.sallarp.com/feed/" />
+<link rel="alternate" type="text/xml" title="RSS .92" href="http://blog.sallarp.com/feed/rss/" />
+<link rel="alternate" type="application/atom+xml" title="Atom 0.3" href="http://blog.sallarp.com/feed/atom/" />
+<link rel="pingback" href="http://blog.sallarp.com/xmlrpc.php" />
+
+<meta name="pagetags" content="Development, iPhone, Objective-C, "/>
+<link rel="alternate" type="application/rss+xml" title="blog.sallarp.com &raquo; iPhone accelerometer and device orientation Comments Feed" href="http://blog.sallarp.com/iphone-accelerometer-device-orientation/feed/" />
+
+
+
+
+
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://blog.sallarp.com/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://blog.sallarp.com/wp-includes/wlwmanifest.xml" /> 
+<link rel='index' title='blog.sallarp.com' href='http://blog.sallarp.com' />
+<link rel='start' title='First post, ever&#8230;' href='http://blog.sallarp.com/first-post-ever/' />
+<link rel='prev' title='iPhone OS 3.0 &#8211; Breaking changes to shouldAutorotateToInterfaceOrientation' href='http://blog.sallarp.com/iphone-shouldautorotatetointerfaceorientation-breaking-changes/' />
+<link rel='next' title='The war on IE6 &#8211; 3 months update' href='http://blog.sallarp.com/war-on-ie6-results/' />
+<meta name="generator" content="WordPress 2.9.1" />
+
+<!-- All in One SEO Pack 1.6.10.2 by Michael Torbert of Semper Fi Web Design[210,281] -->
+<meta name="description" content="Learn how you can get the device orienation by listening to accelerator events." />
+<meta name="keywords" content="iphone, accelerator, shouldautorotatetointerfaceorientation , objective-c, cocoa, rotate image" />
+<link rel="canonical" href="http://blog.sallarp.com/iphone-accelerometer-device-orientation/" />
+<!-- /all in one seo pack -->
+		
+        
+		
+
+</head>
+
+<body>
+<div id="bgcontainer">
+
+<!-- START Header -->
+<div class="Header">
+<div class="Logo">
+<div class="LogoText">
+ <h1><a href="http://blog.sallarp.com/">blog.sallarp.com</a></h1>
+</div>
+<p class="Desc">Code, Code, Revolution!</p>
+</div>
+
+<div class="Menu">
+   <ul>
+   <li><a href="http://blog.sallarp.com/"><span>Home</span></a></li>
+<li class="page_item page-item-2"><a href="http://blog.sallarp.com/about/" title="About this blog"><span>About this blog</span></a></li>
+<li class="page_item page-item-5"><a href="http://blog.sallarp.com/about-me/" title="About me"><span>About me</span></a></li>
+<li class="page_item page-item-972"><a href="http://blog.sallarp.com/mitt-saldo/" title="Mitt Saldo"><span>Mitt Saldo</span></a>
+<ul>
+	<li class="page_item page-item-1084"><a href="http://blog.sallarp.com/mitt-saldo/mitt-saldo-felrapportering/" title="Mitt Saldo &#8211; Felrapportering"><span>Mitt Saldo &#8211; Felrapportering</span></a></li>
+</ul>
+</li>
+  </ul> 
+</div>
+</div>
+<!-- END Header --><!-- Container -->
+<div class="CON">
+
+<!-- Start SC -->
+<div class="SC">
+
+
+<div class="Post" id="post-573" style="padding-bottom: 20px;">
+<div class="PostHead">
+<h2><a href="http://blog.sallarp.com/iphone-accelerometer-device-orientation/" rel="bookmark" title="Permanent Link to iPhone accelerometer and device orientation">iPhone accelerometer and device orientation</a></h2>
+<small class="PostTime">
+<strong class="day">7</strong><strong class="month">May</strong><strong class="year">2009</strong>
+</small>
+<small class="PostCat">Filed under: <a href="http://blog.sallarp.com/category/development/" title="View all posts in Development" rel="category tag">Development</a>,  <a href="http://blog.sallarp.com/category/development/iphonedevelopment/" title="View all posts in iPhone" rel="category tag">iPhone</a></small>
+<small class="PostAuthor">Author: Björn Sållarp</small>
+
+</div>
+  
+<div class="PostContent">
+<p>So Apple released a <a title="iPhone OS 3.0 beta 5 released!" href="http://www.engadget.com/2009/05/06/iphone-os-3-0-beta-5-now-available/" onclick="javascript:pageTracker._trackPageview('/outbound/article/http://www.engadget.com/2009/05/06/iphone-os-3-0-beta-5-now-available/');">new beta of iPhone OS 3.0</a> today. It&#8217;s the fifth beta and we&#8217;re getting closer to final release of 3.0. There were very few changes or additions to the API so it&#8217;s not likely we&#8217;ll see more changes at all. In February I published a quite lengthy solution  on <a title="rotate images without rotating the entire application" href="http://blog.sallarp.com/shouldautorotatetointerfaceorientation/" >how to rotate images without rotating the entire application</a> where I use shouldAutorotateToInterfaceOrientation.  Recently I wrote a post about the <a title="iPhone OS 3.0 - Breaking changes to shouldAutorotateToInterfaceOrientation" href="http://blog.sallarp.com/iphone-shouldautorotatetointerfaceorientation-breaking-changes/" >changes made to shouldAutorotateToInterfaceOrientation</a> which in my opinion breaks important functionality. As promised here&#8217;s how you can replace shouldAutorotateToInterfaceOrientation using the accelerometer.</p>
+<p><span style="color: #ff0000;">*UPDATE*<br />
+<span style="color: #000000;">Kyle was friendly enough to post a simple solution to how you can listed to the shouldAutorotateToInterfaceOrientation event. I&#8217;ve updated my previous post with his solution (or see his comment below): <a title="breaking changes to shouldautorotatetointerfaceorientation" href="http://blog.sallarp.com/iphone-shouldautorotatetointerfaceorientation-breaking-changes/" >breaking changes to shouldAutorotateToInterfaceOrientation</a>.</span></span></p>
+<p>The application is called DeviceOrientation and is just a proof-of-concept, not a full replacement for shouldAutorotateToInterfaceOrientation. Unfortunately the accelerometer cannot be simulated in the simulator, you will have to compile and run it on your iPhone to test. Here&#8217;s a dirty clip I recorded with the iSight camera in my iMac, it&#8217;s harder than you think to record a clip sitting behind the device and the screen itself adds a nasty glare in the iPhone. At least it&#8217;s pretty short, enjoy:</p>
+<p><object width="425" height="344" data="http://www.youtube.com/v/MU7bch2Sw-g&amp;hl=sv&amp;fs=1" type="application/x-shockwave-flash"><param name="allowFullScreen" value="true" /><param name="allowscriptaccess" value="always" /><param name="src" value="http://www.youtube.com/v/MU7bch2Sw-g&amp;hl=sv&amp;fs=1" /><param name="allowfullscreen" value="true" /></object><br />
+<span id="more-573"></span></p>
+<h3>Warning math and code head!</h3>
+<p>To calculate the angle from the accelerator you use atan2. Instead of trying to explain atan2 myself, here&#8217;s <a title="atan2 by wikipedia" href="http://en.wikipedia.org/wiki/Atan2" onclick="javascript:pageTracker._trackPageview('/outbound/article/http://en.wikipedia.org/wiki/Atan2');">wikipedias short explenation:</a></p>
+<blockquote><p>In trigonometry, the two-argument function <strong>atan2</strong> is a variation of the <a class="mw-redirect" title="Arctangent" href="http://en.wikipedia.org/wiki/Arctangent" onclick="javascript:pageTracker._trackPageview('/outbound/article/http://en.wikipedia.org/wiki/Arctangent');">arctangent</a> function. For any real arguments <em>x</em> and <em>y</em> not both equal to zero, atan2(<em>y</em>, <em>x</em>) is the angle in <a title="Radian" href="/wiki/Radian">radians</a> between the positive <em>x</em>-axis of a plane and the point given by the <a title="Cartesian coordinate system" href="http://en.wikipedia.org/wiki/Cartesian_coordinate_system" >coordinates</a> (<em>x</em>, <em>y</em>) on it. The angle is positive for counter-clockwise angles (upper half-plane, <em>y</em> &gt; 0), and negative for clockwise angles (lower half-plane, <em>y</em> &lt; 0).</p></blockquote>
+
+<div class="wp_syntax"><div class="code"><pre class="obj-c" style="font-family:monospace;">- (void)accelerometer:(UIAccelerometer *)accelerometer didAccelerate:(UIAcceleration *)acceleration
+{
+	// Get the current device angle
+	float xx = -[acceleration x];
+	float yy = [acceleration y];
+	float angle = atan2(yy, xx);
+}</pre></div></div>
+
+<p>I put some effort into creating a, hopefully, easy to understand visualization of how angles relate to the devices actual orientation. It&#8217;s easier if you hold the phone in front of you when you look at it and rotate it and compare it to the image:</p>
+<p><a href="http://blog.sallarp.com/wp-content/uploads/2009/05/angles-and-device-orientation.png" ><img class="size-medium wp-image-574" style="float:none" title="iPhone angles and device orientation" src="http://blog.sallarp.com/wp-content/uploads/2009/05/angles-and-device-orientation-300x225.png" alt="angles-and-device-orientation" width="300" height="225" /></a><br />
+<em>So many iPhones on a single picture, awesome! </em></p>
+<p>Knowing the angles of each orientation is obvious that between each orientation there difference is 1.5 and halfway between each orientation the offset is then 0.75. The following code changes the label text to the interface orientation but only when the orientation changes from one to another:</p>
+
+<div class="wp_syntax"><div class="code"><pre class="obj-c" style="font-family:monospace;">- (void)accelerometer:(UIAccelerometer *)accelerometer didAccelerate:(UIAcceleration *)acceleration
+{
+	// Get the current device angle
+	float xx = -[acceleration x];
+	float yy = [acceleration y];
+	float angle = atan2(yy, xx); 
+&nbsp;
+	// Add 1.5 to the angle to keep the label constantly horizontal to the viewer.
+	[interfaceOrientationLabel setTransform:CGAffineTransformMakeRotation(angle+1.5)]; 
+&nbsp;
+	// Read my blog for more details on the angles. It should be obvious that you
+	// could fire a custom shouldAutorotateToInterfaceOrientation-event here.
+	if(angle &gt;= -2.25 &amp;&amp; angle &lt;= -0.75)
+	{
+		if(deviceOrientation != UIInterfaceOrientationPortrait)
+		{
+			deviceOrientation = UIInterfaceOrientationPortrait;
+			[interfaceOrientationLabel setText:@&quot;UIInterfaceOrientationPortrait&quot;];
+		}
+	}
+	else if(angle &gt;= -0.75 &amp;&amp; angle &lt;= 0.75)
+	{
+		if(deviceOrientation != UIInterfaceOrientationLandscapeRight)
+		{
+			deviceOrientation = UIInterfaceOrientationLandscapeRight;
+			[interfaceOrientationLabel setText:@&quot;UIInterfaceOrientationLandscapeRight&quot;];
+		}
+	}
+	else if(angle &gt;= 0.75 &amp;&amp; angle &lt;= 2.25)
+	{
+		if(deviceOrientation != UIInterfaceOrientationPortraitUpsideDown)
+		{
+			deviceOrientation = UIInterfaceOrientationPortraitUpsideDown;
+			[interfaceOrientationLabel setText:@&quot;UIInterfaceOrientationPortraitUpsideDown&quot;];
+		}
+	}
+	else if(angle &lt;= -2.25 || angle &gt;= 2.25)
+	{
+		if(deviceOrientation != UIInterfaceOrientationLandscapeLeft)
+		{
+			deviceOrientation = UIInterfaceOrientationLandscapeLeft;
+			[interfaceOrientationLabel setText:@&quot;UIInterfaceOrientationLandscapeLeft&quot;];
+		}
+	}
+}</pre></div></div>
+
+<p>If you want a replacement to shouldAutorotateToInterfaceOrientation you can use this code and instead of changing the text of a label, you fire an event.</p>
+<h3>Download the code</h3>
+<p>As I wrote above (in case you skipped directly to the code), this application must be run on the device, the simulator unfortunately doesn&#8217;t simulate the accelerometer. The application will run, but it won&#8217;t do you much. As always the code is free to use any way you like. All code on this blog is free to use, even if the comments in some files say different.</p>
+<p><a title="Download device orientation application code" href="http://blog.sallarp.com/wp-content/uploads/2009/05/deviceorientation.zip">Download DeviceOrientation demo application (full source included)<br />
+</a></p>
+
+
+<!-- Begin SexyBookmarks Menu Code -->
+<div class="sexy-bookmarks sexy-bookmarks-expand" style="margin:20px 0 0 0 !important;
+padding:25px 0 0 10px !important;
+height:29px;/*the height of the icons (29px)*/
+display:block !important;
+clear:both !important;												">
+<ul class="socials">
+		<li class="sexy-delicious">
+			<a href="http://del.icio.us/post?url=http://blog.sallarp.com/iphone-accelerometer-device-orientation/&amp;title=iPhone+accelerometer+and+device+orientation" onclick="javascript:pageTracker._trackPageview('/outbound/article/http://del.icio.us/post?url=http://blog.sallarp.com/iphone-accelerometer-device-orientation/&amp;title=iPhone+accelerometer+and+device+orientation');" rel="nofollow" title="Share this on del.icio.us">Share this on del.icio.us</a>
+		</li>
+		<li class="sexy-digg">
+			<a href="http://digg.com/submit?phase=2&amp;url=http://blog.sallarp.com/iphone-accelerometer-device-orientation/&amp;title=iPhone+accelerometer+and+device+orientation" onclick="javascript:pageTracker._trackPageview('/outbound/article/http://digg.com/submit?phase=2&amp;url=http://blog.sallarp.com/iphone-accelerometer-device-orientation/&amp;title=iPhone+accelerometer+and+device+orientation');" rel="nofollow" title="Digg this!">Digg this!</a>
+		</li>
+		<li class="sexy-facebook">
+			<a href="http://www.facebook.com/share.php?v=4&amp;src=bm&amp;u=http://blog.sallarp.com/iphone-accelerometer-device-orientation/&amp;t=iPhone+accelerometer+and+device+orientation" onclick="javascript:pageTracker._trackPageview('/outbound/article/http://www.facebook.com/share.php?v=4&amp;src=bm&amp;u=http://blog.sallarp.com/iphone-accelerometer-device-orientation/&amp;t=iPhone+accelerometer+and+device+orientation');" rel="nofollow" title="Share this on Facebook">Share this on Facebook</a>
+		</li>
+		<li class="sexy-technorati">
+			<a href="http://technorati.com/faves?add=http://blog.sallarp.com/iphone-accelerometer-device-orientation/" onclick="javascript:pageTracker._trackPageview('/outbound/article/http://technorati.com/faves?add=http://blog.sallarp.com/iphone-accelerometer-device-orientation/');" rel="nofollow" title="Share this on Technorati">Share this on Technorati</a>
+		</li>
+		<li class="sexy-devmarks">
+			<a href="http://devmarks.com/index.php?posttext=So%20Apple%20released%20a%20new%20beta%20of%C2%A0iPhone%20OS%203.0%20today.%20It%27s%20the%20fifth%20beta%20and%20we%27re%20getting%20closer%20to%20final%20release%20of%203.0.%20There%20were%20very%20few%20changes%20or%20additions%20to%20the%20API%20so%20it%27s%20not%20likely%20we%27ll%20see%20more%20changes%20at%20all.%20In%20February%20I%20published%20a%20quite%20lengthy%20solution%C2%A0%20on%C2%A0how%20to%20rotate%20image&amp;posturl=http://blog.sallarp.com/iphone-accelerometer-device-orientation/&amp;posttitle=iPhone+accelerometer+and+device+orientation" onclick="javascript:pageTracker._trackPageview('/outbound/article/http://devmarks.com/index.php?posttext=So%20Apple%20released%20a%20new%20beta%20of%C2%A0iPhone%20OS%203.0%20today.%20It%27s%20the%20fifth%20beta%20and%20we%27re%20getting%20closer%20to%20final%20release%20of%203.0.%20There%20were%20very%20few%20changes%20or%20additions%20to%20the%20API%20so%20it%27s%20not%20likely%20we%27ll%20see%20more%20changes%20at%20all.%20In%20February%20I%20published%20a%20quite%20lengthy%20solution%C2%A0%20on%C2%A0how%20to%20rotate%20image&amp;posturl=http://blog.sallarp.com/iphone-accelerometer-device-orientation/&amp;posttitle=iPhone+accelerometer+and+device+orientation');" rel="nofollow" title="Share this on Devmarks">Share this on Devmarks</a>
+		</li>
+		<li class="sexy-google">
+			<a href="http://www.google.com/bookmarks/mark?op=add&amp;bkmk=http://blog.sallarp.com/iphone-accelerometer-device-orientation/&amp;title=iPhone+accelerometer+and+device+orientation" onclick="javascript:pageTracker._trackPageview('/outbound/article/http://www.google.com/bookmarks/mark?op=add&amp;bkmk=http://blog.sallarp.com/iphone-accelerometer-device-orientation/&amp;title=iPhone+accelerometer+and+device+orientation');" rel="nofollow" title="Add this to Google Bookmarks">Add this to Google Bookmarks</a>
+		</li>
+		<li class="sexy-linkedin">
+			<a href="http://www.linkedin.com/shareArticle?mini=true&amp;url=http://blog.sallarp.com/iphone-accelerometer-device-orientation/&amp;title=iPhone+accelerometer+and+device+orientation&amp;summary=So%20Apple%20released%20a%20new%20beta%20of%C2%A0iPhone%20OS%203.0%20today.%20It%27s%20the%20fifth%20beta%20and%20we%27re%20getting%20closer%20to%20final%20release%20of%203.0.%20There%20were%20very%20few%20changes%20or%20additions%20to%20the%20API%20so%20it%27s%20not%20likely%20we%27ll%20see%20more%20changes%20at%20all.%20In%20February%20I%20published%20a%20quite%20lengthy%20solution%C2%A0%20on%C2%A0how%20to%20rotate%20image&amp;source=blog.sallarp.com" onclick="javascript:pageTracker._trackPageview('/outbound/article/http://www.linkedin.com/shareArticle?mini=true&amp;url=http://blog.sallarp.com/iphone-accelerometer-device-orientation/&amp;title=iPhone+accelerometer+and+device+orientation&amp;summary=So%20Apple%20released%20a%20new%20beta%20of%C2%A0iPhone%20OS%203.0%20today.%20It%27s%20the%20fifth%20beta%20and%20we%27re%20getting%20closer%20to%20final%20release%20of%203.0.%20There%20were%20very%20few%20changes%20or%20additions%20to%20the%20API%20so%20it%27s%20not%20likely%20we%27ll%20see%20more%20changes%20at%20all.%20In%20February%20I%20published%20a%20quite%20lengthy%20solution%C2%A0%20on%C2%A0how%20to%20rotate%20image&amp;source=blog.sallarp.com');" rel="nofollow" title="Share this on Linkedin">Share this on Linkedin</a>
+		</li>
+</ul>
+<div style="clear:both;"></div>
+</div>
+<!-- End SexyBookmarks Menu Code -->
+
+<h3  class="related_post_title">Related posts</h3><ul class="related_post"><li><a href="http://blog.sallarp.com/mitt-saldo-a-real-iphone-application-for-swedbank-ica-banken-nordea-and-handelsbanken/" title="Mitt Saldo &#8211; A &#8220;real&#8221; iPhone application for Swedbank, ICA Banken, Nordea and Handelsbanken">Mitt Saldo &#8211; A &#8220;real&#8221; iPhone application for Swedbank, ICA Banken, Nordea and Handelsbanken</a></li><li><a href="http://blog.sallarp.com/android-style-unlock-screen-for-iphone-apps-using-quartz-2d/" title="Android style unlock screen for iPhone apps using Quartz 2D">Android style unlock screen for iPhone apps using Quartz 2D</a></li><li><a href="http://blog.sallarp.com/iphone-core-data-uitableview-drill-down/" title="iPhone &#8211; Core Data and UITableView. A drill-down application">iPhone &#8211; Core Data and UITableView. A drill-down application</a></li><li><a href="http://blog.sallarp.com/uiwebview-user-agent-weirdness-and-how-to-change-user-agent-value-programmatically/" title="UIWebView user-agent weirdness and how to change user-agent value programmatically">UIWebView user-agent weirdness and how to change user-agent value programmatically</a></li></ul></div>
+ <div class="PostCom"><ul><li class="Tags">Tags: <a href="http://blog.sallarp.com/tag/development/" rel="tag">Development</a>, <a href="http://blog.sallarp.com/tag/iphonedevelopment/" rel="tag">iPhone</a>, <a href="http://blog.sallarp.com/tag/objective-c/" rel="tag">Objective-C</a></li> </ul></div> </div>
+
+
+<span class="Note">
+You can follow any responses to this entry through the <a href='http://blog.sallarp.com/iphone-accelerometer-device-orientation/feed/'>RSS 2.0</a> feed.
+
+You can <a href="#respond">leave a response</a>, or <a href="http://blog.sallarp.com/iphone-accelerometer-device-orientation/trackback/" rel="trackback">trackback</a> from your own site.
+
+</span>
+
+<div>
+<h2>Donate!?</h2>
+<p>
+<form action="https://www.paypal.com/cgi-bin/webscr" method="post">
+<input type="hidden" name="cmd" value="_s-xclick">
+<input type="hidden" name="encrypted" value="-----BEGIN PKCS7-----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-----END PKCS7-----
+">
+<input type="image" src="https://www.paypal.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!" align="right">
+<img alt="" border="0" src="https://www.paypal.com/en_US/i/scr/pixel.gif" width="1" height="1" align="right">
+If you found this blog post useful, please consider donating a dollar or two. All donated money is invested at <a href="http://www.kiva.org" title="Help poor people all over the world by lending them money">Kiva</a>. Read more on <a href="/about">About this blog</a>. Thank you!
+</p>
+</form>
+</div>
+
+
+<div class="Comments">
+<div class="List">
+<!-- Start CommentsList-->
+
+<!-- You can start editing here. -->
+
+<h3 id="comments">15 Responses to &#8220;iPhone accelerometer and device orientation&#8221;</h3>
+
+<ol id="commentlist">
+
+
+<li id="comment-1033">
+
+<p class="LUsr"><strong><a href="http://www.iphonearch.com" onclick="javascript:pageTracker._trackPageview('/outbound/commentauthor/http://www.iphonearch.com');"  rel='external ' class='url'>iphone architect</a></strong><br />
+ <a href="#comment-1033" title="">May 11th, 2009 at 12:44 pm</a> </p>
+<small class="LGrav"><img src="http://www.gravatar.com/avatar.php?gravatar_id=b6158853fea6484e2839377b0e891f3d&amp;rating=X&amp;size=27&amp;default=http%3A%2F%2Fblog.sallarp.com%2Fwp-content%2Fthemes%2Fdilectio%2Fimages%2FAvatarReplace.png" alt="" />
+</small>
+<div class="LCon">
+<p>here is a tutorial about iphone accelerometer simulation without iphone</p>
+<p><a href="http://www.iphonearch.com/topic/6/iphone-accelerometer-simulator/" onclick="javascript:pageTracker._trackPageview('/outbound/comment/http://www.iphonearch.com/topic/6/iphone-accelerometer-simulator/');">http://www.iphonearch.com/topic/6/iphone-accelerometer-simulator/</a></p>
+</div>
+<small style="color:#FF0000;"></small>
+</li>
+
+
+<li id="comment-1152">
+
+<p class="LUsr"><strong>viktor</strong><br />
+ <a href="#comment-1152" title="">May 14th, 2009 at 8:15 am</a> </p>
+<small class="LGrav"><img src="http://www.gravatar.com/avatar.php?gravatar_id=2f37ee461d6a0d06d40b48eaba7e601b&amp;rating=X&amp;size=27&amp;default=http%3A%2F%2Fblog.sallarp.com%2Fwp-content%2Fthemes%2Fdilectio%2Fimages%2FAvatarReplace.png" alt="" />
+</small>
+<div class="LCon">
+<p>Nice to see you in so deep focus, (and also nice floating, change the text to a boat)</p>
+</div>
+<small style="color:#FF0000;"></small>
+</li>
+
+
+<li id="comment-1309">
+
+<p class="LUsr"><strong>Adrian Oldham</strong><br />
+ <a href="#comment-1309" title="">May 18th, 2009 at 12:16 pm</a> </p>
+<small class="LGrav"><img src="http://www.gravatar.com/avatar.php?gravatar_id=8af353bc52e0c3c2873e7e65b578d07a&amp;rating=X&amp;size=27&amp;default=http%3A%2F%2Fblog.sallarp.com%2Fwp-content%2Fthemes%2Fdilectio%2Fimages%2FAvatarReplace.png" alt="" />
+</small>
+<div class="LCon">
+<p>Correct me if I&#8217;m wrong, but I would think that the first &#8220;if&#8221; statement should have a value of -0.75 rather than -0.25.</p>
+<p>ie: if(angle &gt;= -2.25 &amp;&amp; angle &lt;= -0.75)</p>
+</div>
+<small style="color:#FF0000;"></small>
+</li>
+
+
+<li id="comment-1329">
+
+<p class="LUsr"><strong>Kyle</strong><br />
+ <a href="#comment-1329" title="">May 19th, 2009 at 5:19 am</a> </p>
+<small class="LGrav"><img src="http://www.gravatar.com/avatar.php?gravatar_id=6dea8213b9ac9b14b973ccbbc0e40b3a&amp;rating=X&amp;size=27&amp;default=http%3A%2F%2Fblog.sallarp.com%2Fwp-content%2Fthemes%2Fdilectio%2Fimages%2FAvatarReplace.png" alt="" />
+</small>
+<div class="LCon">
+<p>You should be able to listen for the system &#8220;UIDeviceOrientationDidChangeNotification&#8221; event and use  UIDeviceOrientation interfaceOrientation = [[UIDevice currentDevice] orientation]; to get the orientation changes in the notification function</p>
+</div>
+<small style="color:#FF0000;"></small>
+</li>
+
+
+<li id="comment-1330">
+
+<p class="LUsr"><strong>Kyle</strong><br />
+ <a href="#comment-1330" title="">May 19th, 2009 at 5:24 am</a> </p>
+<small class="LGrav"><img src="http://www.gravatar.com/avatar.php?gravatar_id=6dea8213b9ac9b14b973ccbbc0e40b3a&amp;rating=X&amp;size=27&amp;default=http%3A%2F%2Fblog.sallarp.com%2Fwp-content%2Fthemes%2Fdilectio%2Fimages%2FAvatarReplace.png" alt="" />
+</small>
+<div class="LCon">
+<p>Not sure if I am allow to post code but here&#8217;s some code for those who are curious:</p>
+<p>-(void) viewWillAppear: (BOOL) animated{</p>
+<p>[[UIDevice currentDevice] beginGeneratingDeviceOrientationNotifications];</p>
+<p>[[NSNotificationCenter defaultCenter] addObserver: self<br />
+   selector: @selector(receivedRotate:)<br />
+   name: UIDeviceOrientationDidChangeNotification<br />
+   object: nil];<br />
+&#8230;<br />
+}</p>
+<p>-(void) receivedRotate: (NSNotification*) notification<br />
+{<br />
+  UIDeviceOrientation interfaceOrientation = [[UIDevice currentDevice] orientation];<br />
+  if(interfaceOrientation == UIInterfaceOrientationLandscapeLeft)<br />
+  {<br />
+     &#8230;<br />
+   }<br />
+}</p>
+<p>-(void) viewWillDisappear: (BOOL) animated{<br />
+  [[NSNotificationCenter defaultCenter] removeObserver: self];<br />
+  [[UIDevice currentDevice] endGeneratingDeviceOrientationNotifications];<br />
+ &#8230;<br />
+}</p>
+</div>
+<small style="color:#FF0000;"></small>
+</li>
+
+
+<li id="comment-1334">
+
+<p class="LUsr"><strong>Björn Sållarp</strong><br />
+ <a href="#comment-1334" title="">May 19th, 2009 at 7:17 am</a> </p>
+<small class="LGrav"><img src="http://www.gravatar.com/avatar.php?gravatar_id=0a73f7357778d1435611405ebb8e6891&amp;rating=X&amp;size=27&amp;default=http%3A%2F%2Fblog.sallarp.com%2Fwp-content%2Fthemes%2Fdilectio%2Fimages%2FAvatarReplace.png" alt="" />
+</small>
+<div class="LCon">
+<p>Hey Kyle,</p>
+<p>Awesome code! That does give access to the shouldAutorotateToInterfaceOrientation event! Thanks a lot. I&#8217;ll update my other post later with your solution.</p>
+</div>
+<small style="color:#FF0000;"></small>
+</li>
+
+
+<li id="comment-1335">
+
+<p class="LUsr"><strong>Björn Sållarp</strong><br />
+ <a href="#comment-1335" title="">May 19th, 2009 at 7:18 am</a> </p>
+<small class="LGrav"><img src="http://www.gravatar.com/avatar.php?gravatar_id=0a73f7357778d1435611405ebb8e6891&amp;rating=X&amp;size=27&amp;default=http%3A%2F%2Fblog.sallarp.com%2Fwp-content%2Fthemes%2Fdilectio%2Fimages%2FAvatarReplace.png" alt="" />
+</small>
+<div class="LCon">
+<p>Adrian,</p>
+<p>Very true, I&#8217;ve updated the post. Thanks!</p>
+</div>
+<small style="color:#FF0000;"></small>
+</li>
+
+
+<li id="comment-2292">
+
+<p class="LUsr"><strong><a href="http://iphone.longearth.net/2009/05/10/os30%e3%81%aeshouldautorotateto-interfaceorientation%e3%81%8c%e3%81%8a%e3%81%8b%e3%81%97%e3%81%84%e4%bb%b6/" onclick="javascript:pageTracker._trackPageview('/outbound/commentauthor/http://iphone.longearth.net/2009/05/10/os30%e3%81%aeshouldautorotateto-interfaceorientation%e3%81%8c%e3%81%8a%e3%81%8b%e3%81%97%e3%81%84%e4%bb%b6/');"  rel='external ' class='url'>OS3.0のshouldAutorotateTo-InterfaceOrientationがおかしい件 | iphoneアプリで稼げるのか</a></strong><br />
+ <a href="#comment-2292" title="">June 18th, 2009 at 5:43 pm</a> </p>
+<small class="LGrav"><img src="http://www.gravatar.com/avatar.php?gravatar_id=d41d8cd98f00b204e9800998ecf8427e&amp;rating=X&amp;size=27&amp;default=http%3A%2F%2Fblog.sallarp.com%2Fwp-content%2Fthemes%2Fdilectio%2Fimages%2FAvatarReplace.png" alt="" />
+</small>
+<div class="LCon">
+<p>[...] 似たような現象に遭遇してる人がいたので、めちゃめちゃ参考にしてます。 iPhone OS 3.0 &#8211; Breaking changes to shouldAutorotateToInterfaceOrientation | blog.sallarp.com Find the device orientation using the accelerometer | blog.sallarp.com [...]</p>
+</div>
+<small style="color:#FF0000;"></small>
+</li>
+
+
+<li id="comment-2392">
+
+<p class="LUsr"><strong>Joel Morris</strong><br />
+ <a href="#comment-2392" title="">June 22nd, 2009 at 7:05 am</a> </p>
+<small class="LGrav"><img src="http://www.gravatar.com/avatar.php?gravatar_id=c0cf45793fbdeef5dc77799580f8139c&amp;rating=X&amp;size=27&amp;default=http%3A%2F%2Fblog.sallarp.com%2Fwp-content%2Fthemes%2Fdilectio%2Fimages%2FAvatarReplace.png" alt="" />
+</small>
+<div class="LCon">
+<p>Also, the file which defines atan2() also has a bunch of constants defined like M_PI  M_PI_2 (pi/2) and M_PI_4 (pi/4)  I think your code could be a tiny bit more accurate if you used these instead.</p>
+</div>
+<small style="color:#FF0000;"></small>
+</li>
+
+
+<li id="comment-4313">
+
+<p class="LUsr"><strong>Bo Gehring</strong><br />
+ <a href="#comment-4313" title="">October 2nd, 2009 at 2:00 pm</a> </p>
+<small class="LGrav"><img src="http://www.gravatar.com/avatar.php?gravatar_id=405f9f1ba3be9832e38f8c99bd9df5d0&amp;rating=X&amp;size=27&amp;default=http%3A%2F%2Fblog.sallarp.com%2Fwp-content%2Fthemes%2Fdilectio%2Fimages%2FAvatarReplace.png" alt="" />
+</small>
+<div class="LCon">
+<p>This is a great blog!  A question&#8230; these solutions appear to be for yaw only.  Is it possible to derive pitch and roll too?  That would fully describe the device&#8217;s orientation.</p>
+</div>
+<small style="color:#FF0000;"></small>
+</li>
+
+
+<li id="comment-7441">
+
+<p class="LUsr"><strong>Shawn Brinkman</strong><br />
+ <a href="#comment-7441" title="">February 5th, 2010 at 9:24 pm</a> </p>
+<small class="LGrav"><img src="http://www.gravatar.com/avatar.php?gravatar_id=162ee9e5a8a1c64b025ea11ff82e9173&amp;rating=X&amp;size=27&amp;default=http%3A%2F%2Fblog.sallarp.com%2Fwp-content%2Fthemes%2Fdilectio%2Fimages%2FAvatarReplace.png" alt="" />
+</small>
+<div class="LCon">
+<p>I get this build error when tring to run the project.<br />
+error: There is no SDK with the name or path &#8216;iphoneos2.0&#8242;</p>
+<p>Can you please help me .</p>
+<p>Thank you<br />
+Shawn</p>
+</div>
+<small style="color:#FF0000;"></small>
+</li>
+
+
+<li id="comment-7489">
+
+<p class="LUsr"><strong>Lars</strong><br />
+ <a href="#comment-7489" title="">February 9th, 2010 at 1:57 pm</a> </p>
+<small class="LGrav"><img src="http://www.gravatar.com/avatar.php?gravatar_id=e8760af32f82eff610c00993a20f4d0f&amp;rating=X&amp;size=27&amp;default=http%3A%2F%2Fblog.sallarp.com%2Fwp-content%2Fthemes%2Fdilectio%2Fimages%2FAvatarReplace.png" alt="" />
+</small>
+<div class="LCon">
+<p>Hei Björn, Takk skal du ha! (15 months in Norway, but this is pretty much all I can say in Norwegian, sorry <img src='http://blog.sallarp.com/wp-includes/images/smilies/icon_wink.gif' alt=';-)' class='wp-smiley' /> </p>
+<p>Thank you very much indeed for your excellent sample code and all the great examples which are extremely useful for iPhone development beginners like myself.</p>
+<p>As I can see from your sample code, the orientation determination always starts when the first view is already added to the window as a subview. Is there a way of starting earlier? Actually I do not like Apple&#8217;s approach to start all applications in Portrait Orientation first and only then switch to Landscape Orientation if necessary.</p>
+<p>If I hold my iPhone already in Landscape Orientation and start an app or safari (yes, I know, I shouldn&#8217;t), it will show Portrait Orientation first and switch directly to Landscape Orientation afterwards. I would like to prevent this animated orientation switch entirely and start right away with the &#8220;correct&#8221; orientation of the app accordingly to the device&#8217;s physical orientation (yes, I saw your discussion on flipping the whole app&#8217;s or just the view orientation of the image view).</p>
+<p>This is a minor issue with the iPhone since the UI of the springboard is not (yet) available in landscape orientation anyway, but rather soon it will be more important, because &#8211; even Apple admits &#8211; one cannot predict the &#8220;user preferred orientation&#8221; anymore when it comes to the iPad.</p>
+<p>So, can I already start with this accelerometer determination at the point of &#8220;applicationDidFinishLaunching&#8221;? I would like to determine the necessary view orientation first (accordingly to the physical orientation of the device) and only then add the respective (portrait or landscape) view controller and view as a subview to the window.</p>
+<p>How would I add a view controller dynamically then (sorry, I am still a beginner)?</p>
+<p>Since I do not love too much this animated rotation of the views, I would rather like to use something which is shown in Apple&#8217;s AlternateViews example and to have this quick and neat cross-dissolve effect instead.</p>
+<p>Thanks again for your helpful blog and those great insights.</p>
+<p>Kind regards from Berlin, Lars</p>
+</div>
+<small style="color:#FF0000;"></small>
+</li>
+
+
+<li id="comment-7491">
+
+<p class="LUsr"><strong>Lars</strong><br />
+ <a href="#comment-7491" title="">February 9th, 2010 at 2:51 pm</a> </p>
+<small class="LGrav"><img src="http://www.gravatar.com/avatar.php?gravatar_id=e8760af32f82eff610c00993a20f4d0f&amp;rating=X&amp;size=27&amp;default=http%3A%2F%2Fblog.sallarp.com%2Fwp-content%2Fthemes%2Fdilectio%2Fimages%2FAvatarReplace.png" alt="" />
+</small>
+<div class="LCon">
+<p>Aha, now after having a closer look at your &#8220;ScrollViewImageGallery&#8221; example, I see how to add a view controller dynamically! Thank you very much for all the comments, very useful.</p>
+<p>Kind regards, Lars</p>
+</div>
+<small style="color:#FF0000;"></small>
+</li>
+
+
+<li id="comment-8949">
+
+<p class="LUsr"><strong>Suman</strong><br />
+ <a href="#comment-8949" title="">March 29th, 2010 at 10:14 am</a> </p>
+<small class="LGrav"><img src="http://www.gravatar.com/avatar.php?gravatar_id=79e7aed232af7803e6f3853156d03442&amp;rating=X&amp;size=27&amp;default=http%3A%2F%2Fblog.sallarp.com%2Fwp-content%2Fthemes%2Fdilectio%2Fimages%2FAvatarReplace.png" alt="" />
+</small>
+<div class="LCon">
+<p>hi there, i am very much inspired by your &#8220;ScrollViewImageGallery&#8221; example. I would want to add 2 more functionalities &#8211; a tile based home page, where i have 16 buttons to press which will lead different groups. I want to create a scrap with lots of pictures.</p>
+<p>Second is to add Tab bar to this gallery. Can you guide me how to do this? Thanks a ton.</p>
+</div>
+<small style="color:#FF0000;"></small>
+</li>
+
+
+<li id="comment-13702">
+
+<p class="LUsr"><strong>Bob</strong><br />
+ <a href="#comment-13702" title="">September 26th, 2010 at 3:05 am</a> </p>
+<small class="LGrav"><img src="http://www.gravatar.com/avatar.php?gravatar_id=a0c394e31c9740376635c8878cf5889e&amp;rating=X&amp;size=27&amp;default=http%3A%2F%2Fblog.sallarp.com%2Fwp-content%2Fthemes%2Fdilectio%2Fimages%2FAvatarReplace.png" alt="" />
+</small>
+<div class="LCon">
+<p>You should definitely be adding M_PI_2 instead of 1.5 to the affine transformation angle, or the text isn&#8217;t level!</p>
+</div>
+<small style="color:#FF0000;"></small>
+</li>
+
+
+</ol>
+
+
+</div>
+
+
+
+<h3 id="respond">Leave a reply</h3> 
+<div class="Form"><div class="FormTop"></div>
+
+<form action="http://blog.sallarp.com/wp-comments-post.php" method="post" id="commentform">
+<p>
+<label for="author">
+<small>Name (<strong>*</strong>)</small>
+<input type="text" name="author" id="author" value="" tabindex="1" class="TextField Name" style="width: 384px; background: #e9f8ff url(http://blog.sallarp.com/wp-content/themes/dilectio/images/FormName.png) no-repeat left top" />
+</label>
+</p>
+		
+<p>
+<label for="email">
+<small>E-mail (<strong>*</strong>)</small>
+<input type="text" name="email" id="email" value="" tabindex="2" class="TextField"  style="width: 384px; background: #e9f8ff url(http://blog.sallarp.com/wp-content/themes/dilectio/images/FormEmail.png) no-repeat left top" />
+</label>
+</p>
+		
+<p>
+<label for="url">
+<small><abbr title="Uniform Resource Identifier">URI</abbr></small>
+<input type="text" name="url" id="url" value="" tabindex="3" class="TextField URI" style="width: 384px; background: #e9f8ff url(http://blog.sallarp.com/wp-content/themes/dilectio/images/FormURI.png) no-repeat left top" />
+</label>
+</p>
+<p>
+<label><small>Message</small>
+<textarea name="comment" id="comment" rows="6" tabindex="4" class="TextArea" style="width: 409px;" cols="7"></textarea>
+</label>
+</p>
+<p><input name="SubmitComment" type="image" class="SubmitComment" onmouseover="javascript:changeSty('SubmitCommentIE');" onmouseout="javascript:changeSty('SubmitComment');"  title="Post Your Comment" src="http://blog.sallarp.com/wp-content/themes/dilectio/images/ButtonTransparent.png" alt="Post Your Comment" />
+<input type="hidden" name="comment_post_ID" value="573" /></p>
+</form>
+</div>
+<div class="FormBottom"></div>
+
+</div>
+</div>
+<!-- End SC -->
+
+<div class="SR">
+
+<!-- Start SideBar1 -->
+<div class="SRL">
+
+
+<!-- Start Search -->
+<div class="Search">
+<form action="/index.php" method="post">
+<input type="text" name="s" class="keyword" />
+<div class="bt">
+<input name="submit" type="image" class="search" title="Search" src="http://blog.sallarp.com/wp-content/themes/dilectio/images/ButtonTransparent.png" alt="Search" />
+</div>
+</form>
+<div class="Syn">
+ <ul>
+  <li><a href="http://blog.sallarp.com/feed/">Entries</a> (RSS)</li>
+  <li><a href="http://blog.sallarp.com/comments/feed/">Comments</a> (RSS)</li>
+ </ul>
+</div>
+</div>
+<!-- End Search -->
+
+
+<!-- Start About This Blog -->
+<div class="About">
+<h2>About this blog</h2>
+<p>With this blog I try to provide useful tips and solutions for programming .NET, Objective-C and more. My name is Björn Sållarp, and I love writing code.</p>
+</div><!-- End About This Blog -->
+
+
+<!-- Start Recent Comments/Articles -->
+<div class="Recent">
+<ul class="TabMenu">
+ <li class="TabLink"><a href="#top" id="tab0" onclick="ShowTab(0)"><span>Recent Comments</span></a></li>
+ <li class="TabLink"><a href="#top" id="tab1" onclick="ShowTab(1)"><span>Recent Articles</span></a></li>
+ <li class="NavLinks" id="paging0"><div style="display:none"></div></li>
+ <li class="NavLinks" id="paging1"><div style="display:none"></div></li>
+</ul>
+<div class="TabContent" style="display:none" id="div0">
+ <ul>
+ <li>Lawin:  <a href="http://blog.sallarp.com/mitt-saldo/mitt-saldo-felrapportering/#comment-17160" title="View the entire comment by Lawin">Hej 
+Jag kan inte loga</a></li><li>Fredric:  <a href="http://blog.sallarp.com/mitt-saldo/#comment-16558" title="View the entire comment by Fredric">Sparbanken Öresund har vad jag</a></li><li>bicbac:  <a href="http://blog.sallarp.com/iphone-ipad-appstore-like-uiscrollview-with-paging-and-preview/#comment-16492" title="View the entire comment by bicbac">@ Emerson Malca, can you</a></li><li>Rotem:  <a href="http://blog.sallarp.com/asp-net-automatic-css-javascript-versioning/#comment-16356" title="View the entire comment by Rotem">You need to use lock</a></li><li>Björn Sållarp:  <a href="http://blog.sallarp.com/mitt-saldo/#comment-16283" title="View the entire comment by Björn Sållarp">@Peter,
+
+Jag skulle absolut kunna fixa</a></li><li>Peter:  <a href="http://blog.sallarp.com/mitt-saldo/#comment-16281" title="View the entire comment by Peter">Förlåt "mitt ica-kort" heter appen</a></li><li>Peter:  <a href="http://blog.sallarp.com/mitt-saldo/#comment-16280" title="View the entire comment by Peter">inga planer på att få</a></li><li>EPiServer 6 exam bookmarks &laquo; Jonathan Sewell:  <a href="http://blog.sallarp.com/episerver-cms-5-certified/#comment-16228" title="View the entire comment by EPiServer 6 exam bookmarks &laquo; Jonathan Sewell">[...] EPiServer CMS 5 Certified!,</a></li><li>UIWebView user-agent weirdness and how to change user-agent value programmatically | blog.sallarp.com:  <a href="http://blog.sallarp.com/iphone-ipad-get-user-agent-for-uiwebview/#comment-16184" title="View the entire comment by UIWebView user-agent weirdness and how to change user-agent value programmatically | blog.sallarp.com">[...] change between requests the</a></li><li>WSS User:  <a href="http://blog.sallarp.com/enable-auditing-in-wss-3/#comment-16152" title="View the entire comment by WSS User">So, maybe I'm missing something,</a></li> </ul>
+</div>
+<div class="TabContent" style="display: none" id="div1">	
+ <ul>
+  <li><a href="http://blog.sallarp.com/uiwebview-user-agent-weirdness-and-how-to-change-user-agent-value-programmatically/" rel="bookmark" title="Permanent Link: UIWebView user-agent weirdness and how to change user-agent value programmatically">UIWebView user-agent weirdness and how to change user-agent value programmatically</a></li><li><a href="http://blog.sallarp.com/mitt-saldo-a-real-iphone-application-for-swedbank-ica-banken-nordea-and-handelsbanken/" rel="bookmark" title="Permanent Link: Mitt Saldo - A &quot;real&quot; iPhone application for Swedbank, ICA Banken, Nordea and Handelsbanken">Mitt Saldo - A &quot;real&quot; iPhone application for Swedbank, ICA Banken, Nordea and Handelsbanken</a></li><li><a href="http://blog.sallarp.com/mitt-saldo/mitt-saldo-felrapportering/" rel="bookmark" title="Permanent Link: Mitt Saldo - Felrapportering">Mitt Saldo - Felrapportering</a></li><li><a href="http://blog.sallarp.com/mitt-saldo/" rel="bookmark" title="Permanent Link: Mitt Saldo">Mitt Saldo</a></li><li><a href="http://blog.sallarp.com/dnbnor-eiendom-release-major-update-of-finn-din-bolig/" rel="bookmark" title="Permanent Link: DnBNor Eiendom release major update of &quot;Finn Din Bolig&quot;">DnBNor Eiendom release major update of &quot;Finn Din Bolig&quot;</a></li><li><a href="http://blog.sallarp.com/iphone-ipad-appstore-like-uiscrollview-with-paging-and-preview/" rel="bookmark" title="Permanent Link: iPhone/iPad - AppStore like UIScrollView with paging and preview">iPhone/iPad - AppStore like UIScrollView with paging and preview</a></li><li><a href="http://blog.sallarp.com/iphone-ipad-wait-for-asynchronous-nsrunloop-task-to-complete/" rel="bookmark" title="Permanent Link: iPhone/iPad - Wait for asynchronous tasks to complete ">iPhone/iPad - Wait for asynchronous tasks to complete </a></li><li><a href="http://blog.sallarp.com/iphone-ipad-get-user-agent-for-uiwebview/" rel="bookmark" title="Permanent Link: iPhone/iPad - Get User-Agent for UIWebView">iPhone/iPad - Get User-Agent for UIWebView</a></li><li><a href="http://blog.sallarp.com/android-style-unlock-screen-for-iphone-apps-using-quartz-2d/" rel="bookmark" title="Permanent Link: Android style unlock screen for iPhone apps using Quartz 2D">Android style unlock screen for iPhone apps using Quartz 2D</a></li><li><a href="http://blog.sallarp.com/dnbnor-eiendom-joins-the-iphone-train-with-finn-din-bolig/" rel="bookmark" title="Permanent Link: DnBNor Eiendom joins the iPhone train with &quot;Finn din Bolig&quot;">DnBNor Eiendom joins the iPhone train with &quot;Finn din Bolig&quot;</a></li> </ul>
+</div>
+<script type="text/javascript">ShowTab(0);</script>
+</div>
+<!-- End Recent Comments/Articles -->
+<div>
+<h2>Download Mitt Saldo</h2>
+<p>
+<img src="http://blog.sallarp.com/wp-content/uploads/2010/10/Mitt-Saldo-icon.png" alt="Mitt Saldo" align="left" style="padding-right: 4px;" />
+<b>It's now available on AppStore. It's free and open source.</b> Read more about the app here: <a href="http://blog.sallarp.com/mitt-saldo/" title="Läs mer och ladda ner Mitt Saldo från AppStore">Swedish</a> / <a href="http://blog.sallarp.com/mitt-saldo-a-real-iphone-application-for-swedbank-ica-banken-nordea-and-handelsbanken/" title="Read about Mitt Saldo and download the source code">English</a></p>
+<br/>
+<b><a href="http://blog.sallarp.com/mittsaldoitunes" title="Download Mitt Saldo from AppStore">Download from AppStore!</a></b>
+</div>
+<br/>
+<div>
+<h2>Donate!?</h2>
+<p>
+<form action="https://www.paypal.com/cgi-bin/webscr" method="post">
+<input type="hidden" name="cmd" value="_s-xclick">
+<input type="hidden" name="encrypted" value="-----BEGIN PKCS7-----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-----END PKCS7-----
+">
+<input type="image" src="https://www.paypal.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!" align="right">
+<img alt="" border="0" src="https://www.paypal.com/en_US/i/scr/pixel.gif" width="1" height="1" align="right">
+If you found this blog post useful, please consider donating a dollar or two. All donated money is invested at <a href="http://www.kiva.org" title="Help poor people all over the world by lending them money">Kiva</a>. Read more on <a href="/about">About this blog</a>. Thank you!
+</p>
+</form>
+</div>
+<br clear="all" />
+
+		<div id="recent-posts-2" class="widget widget_recent_entries">		<h2 class="widgettitle">Recent Posts</h2>		<ul>
+				<li><a href="http://blog.sallarp.com/uiwebview-user-agent-weirdness-and-how-to-change-user-agent-value-programmatically/" title="UIWebView user-agent weirdness and how to change user-agent value programmatically">UIWebView user-agent weirdness and how to change user-agent value programmatically </a></li>
+				<li><a href="http://blog.sallarp.com/mitt-saldo-a-real-iphone-application-for-swedbank-ica-banken-nordea-and-handelsbanken/" title="Mitt Saldo &#8211; A &#8220;real&#8221; iPhone application for Swedbank, ICA Banken, Nordea and Handelsbanken">Mitt Saldo &#8211; A &#8220;real&#8221; iPhone application for Swedbank, ICA Banken, Nordea and Handelsbanken </a></li>
+				<li><a href="http://blog.sallarp.com/dnbnor-eiendom-release-major-update-of-finn-din-bolig/" title="DnBNor Eiendom release major update of &#8220;Finn Din Bolig&#8221;">DnBNor Eiendom release major update of &#8220;Finn Din Bolig&#8221; </a></li>
+				<li><a href="http://blog.sallarp.com/iphone-ipad-appstore-like-uiscrollview-with-paging-and-preview/" title="iPhone/iPad &#8211; AppStore like UIScrollView with paging and preview">iPhone/iPad &#8211; AppStore like UIScrollView with paging and preview </a></li>
+				<li><a href="http://blog.sallarp.com/iphone-ipad-wait-for-asynchronous-nsrunloop-task-to-complete/" title="iPhone/iPad &#8211; Wait for asynchronous tasks to complete">iPhone/iPad &#8211; Wait for asynchronous tasks to complete </a></li>
+				</ul>
+		</div><div id="tag_cloud-2" class="widget widget_tag_cloud"><h2 class="widgettitle">Tags</h2><div><a href='http://blog.sallarp.com/tag/net/' class='tag-link-10' title='6 topics' style='font-size: 14.062992126pt;'>.NET</a>
+<a href='http://blog.sallarp.com/tag/asp-net/' class='tag-link-33' title='1 topic' style='font-size: 8pt;'>ASP.NET</a>
+<a href='http://blog.sallarp.com/tag/cdn/' class='tag-link-36' title='2 topics' style='font-size: 9.9842519685pt;'>CDN</a>
+<a href='http://blog.sallarp.com/tag/development/' class='tag-link-7' title='12 topics' style='font-size: 16.9291338583pt;'>Development</a>
+<a href='http://blog.sallarp.com/tag/episerver/' class='tag-link-6' title='14 topics' style='font-size: 17.7007874016pt;'>EPiServer</a>
+<a href='http://blog.sallarp.com/tag/exchange-2010/' class='tag-link-30' title='2 topics' style='font-size: 9.9842519685pt;'>Exchange 2010</a>
+<a href='http://blog.sallarp.com/tag/google-app-engine/' class='tag-link-35' title='2 topics' style='font-size: 9.9842519685pt;'>Google App Engine</a>
+<a href='http://blog.sallarp.com/tag/google-maps/' class='tag-link-28' title='1 topic' style='font-size: 8pt;'>Google maps</a>
+<a href='http://blog.sallarp.com/tag/gsa/' class='tag-link-25' title='1 topic' style='font-size: 8pt;'>GSA</a>
+<a href='http://blog.sallarp.com/tag/ie6/' class='tag-link-24' title='2 topics' style='font-size: 9.9842519685pt;'>IE6</a>
+<a href='http://blog.sallarp.com/tag/iis/' class='tag-link-31' title='1 topic' style='font-size: 8pt;'>IIS</a>
+<a href='http://blog.sallarp.com/tag/imagevault/' class='tag-link-23' title='1 topic' style='font-size: 8pt;'>ImageVault</a>
+<a href='http://blog.sallarp.com/tag/ipad/' class='tag-link-32' title='6 topics' style='font-size: 14.062992126pt;'>iPad</a>
+<a href='http://blog.sallarp.com/tag/iphonedevelopment/' class='tag-link-3' title='36 topics' style='font-size: 22pt;'>iPhone</a>
+<a href='http://blog.sallarp.com/tag/mitt-saldo/' class='tag-link-38' title='2 topics' style='font-size: 9.9842519685pt;'>Mitt Saldo</a>
+<a href='http://blog.sallarp.com/tag/moss/' class='tag-link-12' title='4 topics' style='font-size: 12.4094488189pt;'>MOSS</a>
+<a href='http://blog.sallarp.com/tag/net-tv/' class='tag-link-29' title='3 topics' style='font-size: 11.3070866142pt;'>NET TV</a>
+<a href='http://blog.sallarp.com/tag/objective-c/' class='tag-link-9' title='13 topics' style='font-size: 17.3700787402pt;'>Objective-C</a>
+<a href='http://blog.sallarp.com/tag/ramblings/' class='tag-link-8' title='12 topics' style='font-size: 16.9291338583pt;'>Ramblings</a>
+<a href='http://blog.sallarp.com/tag/saml/' class='tag-link-26' title='2 topics' style='font-size: 9.9842519685pt;'>SAML</a>
+<a href='http://blog.sallarp.com/tag/sharepoint/' class='tag-link-5' title='8 topics' style='font-size: 15.1653543307pt;'>Sharepoint</a>
+<a href='http://blog.sallarp.com/tag/sql/' class='tag-link-11' title='2 topics' style='font-size: 9.9842519685pt;'>SQL</a>
+<a href='http://blog.sallarp.com/tag/sql-2005/' class='tag-link-17' title='1 topic' style='font-size: 8pt;'>SQL 2005</a>
+<a href='http://blog.sallarp.com/tag/sql-2008/' class='tag-link-16' title='2 topics' style='font-size: 9.9842519685pt;'>SQL 2008</a>
+<a href='http://blog.sallarp.com/tag/uiimage/' class='tag-link-21' title='2 topics' style='font-size: 9.9842519685pt;'>UIImage</a>
+<a href='http://blog.sallarp.com/tag/uiscrollview/' class='tag-link-39' title='4 topics' style='font-size: 12.4094488189pt;'>UIScrollView</a>
+<a href='http://blog.sallarp.com/tag/windows-7/' class='tag-link-27' title='2 topics' style='font-size: 9.9842519685pt;'>Windows 7</a>
+<a href='http://blog.sallarp.com/tag/wss-30/' class='tag-link-15' title='8 topics' style='font-size: 15.1653543307pt;'>WSS 3.0</a></div>
+</div><div>
+<div style="float: left; width: 215px;">
+<a href="http://stackoverflow.com/users/293615/merrimack">
+<img title="profile for Merrimack at Stack Overflow, Q&amp;A for professional and enthusiast programmers" src="http://stackoverflow.com/users/flair/293615.png" alt="profile for Merrimack at Stack Overflow, Q&amp;A for professional and enthusiast programmers" width="208" height="58" />
+</a><br/>
+<a href="http://www.avantime.se" title="Avantime - Strategic IT solutions"><img src="/wp-content/uploads/2010/05/avantime.png" border="0" alt="Avantime - Strategic IT solutions" /></a>
+</div>
+<div style="float: right">
+<img src="http://images.apple.com/about/webbadges/images/madeonamac20050720.gif" alt="All blogposts are written on a mac!" style="padding-bottom: 3px;" /><br/>
+<a href="http://www.bloggtoppen.se/" target="_blank" title="Blogg listad på Bloggtoppen.se" style="padding-bottom: 3px;"><img border="0" src="http://www.bloggtoppen.se/tracker.php?do=in&amp;id=82375" alt="Blogg listad på Bloggtoppen.se" /></a><br/>
+<a href="http://www.bloggportalen.se" target="_blank" style="padding-bottom: 3px;"><img src="http://bloggportalen.aftonbladet.se/BlogPortal/view/Statistics?id=61987" /></a><br/>
+<a href="http://www.blogrankers.com/Sverige/index.php?do=votes&amp;id=7934" target="_blank" style="padding-bottom: 3px;"><img border="0" src="http://www.blogrankers.com/Sverige/tracker.php?do=in&amp;id=7934/" alt="BlogRankers.com" /></a>
+</div>
+<div style="clear: both;"></div>
+</div>
+<br/><br/>
+<iframe src="http://www.facebook.com/plugins/likebox.php?href=http%3A%2F%2Fwww.facebook.com%2Fpages%2FMitt-saldo%2F162159837150522&amp;width=292&amp;colorscheme=light&amp;connections=10&amp;stream=true&amp;header=true&amp;height=587" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:292px; height:587px;" allowTransparency="true"></iframe>
+
+</div>
+
+<!-- End SideBar1 -->
+
+
+<!-- Start SideBar2 -->
+<div class="SRR">
+<div id="categories-379178551" class="widget widget_categories"><h2 class="widgettitle">Categories</h2>		<ul>
+	<li class="cat-item cat-item-33"><a href="http://blog.sallarp.com/category/development/asp-net/" title="View all posts filed under ASP.NET">ASP.NET</a>
+</li>
+	<li class="cat-item cat-item-7"><a href="http://blog.sallarp.com/category/development/" title="View all posts filed under Development">Development</a>
+</li>
+	<li class="cat-item cat-item-6"><a href="http://blog.sallarp.com/category/development/episerver/" title="View all posts filed under EPiServer">EPiServer</a>
+</li>
+	<li class="cat-item cat-item-35"><a href="http://blog.sallarp.com/category/google-app-engine/" title="View all posts filed under Google App Engine">Google App Engine</a>
+</li>
+	<li class="cat-item cat-item-32"><a href="http://blog.sallarp.com/category/development/ipad/" title="View all posts filed under iPad">iPad</a>
+</li>
+	<li class="cat-item cat-item-3"><a href="http://blog.sallarp.com/category/development/iphonedevelopment/" title="View all posts filed under iPhone">iPhone</a>
+</li>
+	<li class="cat-item cat-item-38"><a href="http://blog.sallarp.com/category/mitt-saldo/" title="View all posts filed under Mitt Saldo">Mitt Saldo</a>
+</li>
+	<li class="cat-item cat-item-8"><a href="http://blog.sallarp.com/category/ramblings/" title="View all posts filed under Ramblings">Ramblings</a>
+</li>
+	<li class="cat-item cat-item-5"><a href="http://blog.sallarp.com/category/development/sharepoint/" title="View all posts filed under Sharepoint">Sharepoint</a>
+</li>
+	<li class="cat-item cat-item-11"><a href="http://blog.sallarp.com/category/development/sql/" title="View all posts filed under SQL">SQL</a>
+</li>
+		</ul>
+</div><div id="linkcat-2" class="widget widget_links"><h2 class="widgettitle">Blogroll</h2>
+	<ul class='xoxo blogroll'>
+<li><a href="http://blog.iphone-dev.org" rel="&quot; onclick=&quot;javascript:pageTracker._trackPageview(&#039;/outbound/blogroll/http://blog.iphone-dev.org&#039;);">iPhone dev team</a></li>
+<li><a href="http://www.joinsimon.se/" rel="&quot; onclick=&quot;javascript:pageTracker._trackPageview(&#039;/outbound/blogroll/http://www.joinsimon.se/&#039;);" title="Sökmotoroptimering &amp; internetmarknadsföring från Simon Sundén">Join Simon</a></li>
+<li><a href="http://www.mkse.com" rel="&quot; onclick=&quot;javascript:pageTracker._trackPageview(&#039;/outbound/blogroll/http://www.mkse.com&#039;);" title="MKSE blogs about what&#8217;s going on in the Swedish CMS scene">MKSE &#8211; Might know something else</a></li>
+<li><a href="http://webbstatistiksystem.se" rel="&quot; onclick=&quot;javascript:pageTracker._trackPageview(&#039;/outbound/blogroll/http://webbstatistiksystem.se&#039;);" title="webbstatistiksystem.se drivs av min kollega Erik Nettelbrandt">webbstatistiksystem.se</a></li>
+
+	</ul>
+</div>
+<div id="linkcat-4" class="widget widget_links"><h2 class="widgettitle">Links</h2>
+	<ul class='xoxo blogroll'>
+<li><a href="http://www.avantime.se" rel="&quot; onclick=&quot;javascript:pageTracker._trackPageview(&#039;/outbound/blogroll/http://www.avantime.se&#039;);">Avantime AB</a></li>
+<li><a href="http://channel9.msdn.com" rel="&quot; onclick=&quot;javascript:pageTracker._trackPageview(&#039;/outbound/blogroll/http://channel9.msdn.com&#039;);">Channel9</a></li>
+<li><a href="http://www.episerver.com" rel="&quot; onclick=&quot;javascript:pageTracker._trackPageview(&#039;/outbound/blogroll/http://www.episerver.com&#039;);">EPiServer CMS</a></li>
+
+	</ul>
+</div>
+<div id="rss-379242111" class="widget widget_rss"><h2 class="widgettitle"><a class='rsswidget' href='http://channel9.msdn.com/shows/10-4/RSS/' title='Syndicate this content'><img style='background:orange;color:white;border:none;' width='14' height='14' src='http://blog.sallarp.com/wp-includes/images/rss.png' alt='RSS' /></a> <a class='rsswidget' href='http://channel9.msdn.com/Shows/10-4' title='10-4 is a weekly video podcast which gives you a look at what&#039;s coming in Visual Studio 2010 and the .NET Framework 4.0. Over and out!!'>Visual Studio 10 news</a></h2><ul><li><a class='rsswidget' href='http://channel9.msdn.com/Shows/10-4/10-4-Episode-41-Downloading-and-Installing-the-Visual-Studio-2010-Release-Candidate' title='In this episode of 10-4, Brian Keller takes us through downloading and installing the Visual Studio 2010 Ultimate and Visual Studio Team Foundation Server 2010 Release Candidate. This time-compressed video will take you through all of the key things you need to know to get up and running quickly with the Release Candidate.This video references several import [&hellip;]'>10-4 Episode 41: Downloading and Installing the Visual Studio 2010 Release Candidate</a> <span class="rss-date">February 17, 2010</span></li><li><a class='rsswidget' href='http://channel9.msdn.com/Shows/10-4/10-4-Episode-40-The-New-WCF-Routing-Service' title='People often ask me, &quot;What&#039;s new in WCF 4?&quot; Today on 10-4 we are going to look at one of the exciting new capabilities of WCF in .NET 4, the WCF Routing Service. As you will see in this episode, with the WCF  Routing Service you can now Bridge Protocols Do content based routing Provide server-side failover with backup lists For the very latest [&hellip;]'>10-4 Episode 40: The New WCF Routing Service</a> <span class="rss-date">February 11, 2010</span></li><li><a class='rsswidget' href='http://channel9.msdn.com/Shows/10-4/10-4-Episode-39-CLR-4-Security-and-Sandboxing' title='In this episode of 10-4, Jason Olson takes a quick dive into CLR 4. Specifically, we dive into security improvements in CLR 4, especially around the concept of the sandboxing of a host and add-ins. For more information on Visual Studio 2010 and .NET Framework 4, make sure to download and check out the latest release of the Visual Studio 2010 Training Kit alo [&hellip;]'>10-4 Episode 39: CLR 4 Security and Sandboxing</a> <span class="rss-date">January 20, 2010</span></li><li><a class='rsswidget' href='http://channel9.msdn.com/Shows/10-4/10-4-Episode-38-Whats-New-with-WCF4-Simplified-Config' title='One of the best new things about WCF in .NET 4 is what is what you won&#039;t see when you open your web.config file.  We made it easier and simpler to get your service up and running.  In this episode I&#039;ll show you how it works. [&hellip;]'>10-4 Episode 38: What&#039;s New with WCF4 - Simplified Config</a> <span class="rss-date">January 18, 2010</span></li><li><a class='rsswidget' href='http://channel9.msdn.com/Shows/10-4/10-4-Episode-37-Leveraging-Model-Metadata-and-Validation-with-ASPNET-MVC2' title='In this episode of 10-4, we discuss a new feature coming in the next release of ASP.NET MVC: model metadata and validation. This allows you to associate validation rules and metadata with your model and have the runtime perform validation automatically. In addition, you can also have JavaScript emitted that will provide client-side validation as well, making [&hellip;]'>10-4 Episode 37: Leveraging Model Metadata and Validation with ASP.NET MVC2</a> <span class="rss-date">January 7, 2010</span></li><li><a class='rsswidget' href='http://channel9.msdn.com/Shows/10-4/10-4-Episode-36-Windows-Server-AppFabric-and-Workflow-Services-Lab' title='Have you heard about the new Windows Server AppFabric?  In this episode we take you through the new Beta 2 version of the Introduction to Workflow Services Hands On Lab in .NET 4 which now includes a look at portions of Windows Server Application Fabric.Look for this lab in the next update to the Visual Studio 2010 training kit and Visual Studio 2010 learnin [&hellip;]'>10-4 Episode 36: Windows Server AppFabric and Workflow Services Lab</a> <span class="rss-date">November 23, 2009</span></li></ul></div><div id="rss-384824891" class="widget widget_rss"><h2 class="widgettitle"><a class='rsswidget' href='http://labs.episerver.com/en/Blogs/?feed=RSS' title='Syndicate this content'><img style='background:orange;color:white;border:none;' width='14' height='14' src='http://blog.sallarp.com/wp-includes/images/rss.png' alt='RSS' /></a> <a class='rsswidget' href='http://labs.episerver.com/' title=''>Latest from EPiServer labs</a></h2><ul><li><a class='rsswidget' href='http://world.episerver.com/Blogs/Paul-Smith/Dates1/2010/11/Dear-EPiServer-Community-Developers/' title='We love you all very much and really want to be with you. That is why we invited you out on a date on Thursday 9th December in this post . We thought that’s what you wanted as you told us so before on previous dates. It appears you don’t love us a... [&hellip;]'>Dear EPiServer Community Developers</a> <span class="rss-date">November 17, 2010</span></li><li><a class='rsswidget' href='http://world.episerver.com/Blogs/Paul-Smith/Dates1/2010/11/Adding-Social-Shopping-Features-to-EPiServer-Commerce-with-EPiServer-Community/' title='Adding Social Shopping Features to EPiServer Commerce with EPiServer Community At the recent EPiServer Tech Forum in Stockholm, I showed an example of how to build a social shopping feature in EPiServer Commerce. The feature enabled a logged-in us... [&hellip;]'>Adding Social Shopping Features to EPiServer Commerce with EPiServer Community</a> <span class="rss-date">November 9, 2010</span></li><li><a class='rsswidget' href='http://www.frederikvig.com/?p=1354' title='EPiCode.Extensions is a library with over 75 extension methods that are really useful for us as EPiServer developers. The project has grown rapidly in short time, with new extension methods being added every week. The goal of the library is to hel... [&hellip;]'>Guide to EPiCode.Extensions</a> <span class="rss-date">October 2, 2010</span></li><li><a class='rsswidget' href='http://www.frederikvig.com/?p=1348' title='A couple of weeks back I added a new EPiServer plugin to EPiCode, oEmbed. The plugin is really simple, but does some cool things. Imagine your editors have some content on YouTube, Amazon, Flickr etc, and they’d like to add it to their EPiServer... [&hellip;]'>Introducing oEmbed for EPiServer</a> <span class="rss-date">September 29, 2010</span></li><li><a class='rsswidget' href='http://feedproxy.google.com/~r/episerver/~3/bfHHqZKIFnI/' title='One way to create more dynamic page templates in EPiServer is to use dynamic content. Here&#039;s an example of how to create dynamic content including dynamic content settings. [&hellip;]'>Create new dynamic content in EPiServer</a> <span class="rss-date">September 29, 2010</span></li></ul></div><div id="rss-384824892" class="widget widget_rss"><h2 class="widgettitle"><a class='rsswidget' href='http://www.avantime.se/feed/' title='Syndicate this content'><img style='background:orange;color:white;border:none;' width='14' height='14' src='http://blog.sallarp.com/wp-includes/images/rss.png' alt='RSS' /></a> <a class='rsswidget' href='http://www.avantime.se' title='En WordPressblogg till'>Latest from Avantime</a></h2><ul><li><a class='rsswidget' href='http://www.avantime.se/unik-facebook-sida-med-julkampanj-och-facebook-app/' title='Avantime står bakom strategi, koncept, design, utveckling och marknadsföring av DnB NOR Eiendoms nylanserade Facebooksida och julkampanj med Facebook-app. Avantimes uppdrag är att tydligt sätta DnB NOR Eiendom på Facebook-kartan samt skapa en plattform för kommande strategisk och taktisk marknadsföring av bostäder på den norska marknaden. En modern webbupple [&hellip;]'>Unik Facebook-sida med julkampanj och Facebook-app</a> <span class="rss-date">December 10, 2010</span></li><li><a class='rsswidget' href='http://www.avantime.se/avantime-ar-gasell-2010/' title='Vi har svårt att dölja hur stolta vi är, över att Avantime för fjärde året i rad är rankad som Di GASELL. Under året som gått har Avantime även etablerat en tydlig närvaro på den norska marknaden med kontor i Oslo. Under hösten har vi även etablerat kontor i Luleå och den 15 december slår [...] [&hellip;]'>Avantime är Di GASELL 2010</a> <span class="rss-date">December 2, 2010</span></li><li><a class='rsswidget' href='http://www.avantime.se/avantime-uppgraderar-tyreso-kommuns-intranat-till-episerver-6/' title='Avantime har fått äran att under hösten 2010 redesigna, uppgradera och vidareutveckla Tyresö kommuns intranät. I uppdraget ingår att implementera populära funktioner såsom nyhetslistningar och evenemangskalender som finns på Tyresö kommuns framgångsrika webbplats (Bästa kommunwebbplats, SKL 2009) . Avantime står för en genomgående redesign och utveckling av  [&hellip;]'>Avantime uppgraderar Tyresö kommuns intranät till EPiServer 6</a> <span class="rss-date">November 22, 2010</span></li><li><a class='rsswidget' href='http://www.avantime.se/vi-har-gjort-sveriges-basta-partisajt-2010/' title='Idag är vi stolta, mycket stolta! Igår var vi nämligen på Internetworlds event ”Sveriges 100 bästa sajter 2010” tillsammans med vår kund Socialdemokraterna. Även om vi vann ”Sveriges bästa partisajt” även 2009 så är vi förstås extra stolta över att Socialdemokraterna.se lyckades hoppa från en 76:e plats 2009 till en fantastisk 24:e plats i år. [...] [&hellip;]'>Vi har gjort Sveriges bästa partisajt 2010!</a> <span class="rss-date">November 17, 2010</span></li><li><a class='rsswidget' href='http://www.avantime.se/det-gar-bra-nu-darfor-vill-vi-bli-fler/' title='Avantime har under de senaste månaderna sett en stark utveckling i affärer hos befintliga och även hos nya uppdragsgivare. Vi arbetar för tillfället mycket aktivt med våra uppdragsgivare, bland dessa märks t.ex. Svensk Fastighetsförmedling, DnB NOR Eiendom och Electrolux. På grund av denna starka utveckling i affärer hos våra uppdragsgivare söker vi nu dig s [&hellip;]'>Det går bra nu, därför vill vi bli fler!</a> <span class="rss-date">November 12, 2010</span></li><li><a class='rsswidget' href='http://www.avantime.se/iphone-och-android-ger-affarsnytta-at-dnb-nor/' title='Med den senaste tekniken gör Avantime bostadssökandet engagerande och lekande lätt samtidigt som det skapas konkret affärsnytta och tydliga konkurrensfördelar för DnB NOR Eiendom. Förutom konceptutveckling och framtagande av appar, står Avantime Marketing för digital marknadsföring av det nya konceptet för att leta bostäder. Google AdWords och Facebook-annon [&hellip;]'>iPhone och Android ger affärsnytta åt DnB NOR</a> <span class="rss-date">November 9, 2010</span></li><li><a class='rsswidget' href='http://www.avantime.se/avantime-utvecklar-integrerad-webbstrategi-at-vti/' title='Avantime har fått uppdraget att ta fram en integrerad webbstrategi åt VTI (Statens väg- och transportforskningsinstitut). Projektet syftar till att tydliggöra VTIs samlade erbjudande och kompetens. VTI är ett internationellt framstående forskningsinstitut inom transportsektorn. Med omkring 190 medarbetare är man den största aktören inom transportforskning i  [&hellip;]'>Avantime utvecklar integrerad webbstrategi åt VTI</a> <span class="rss-date">August 27, 2010</span></li><li><a class='rsswidget' href='http://www.avantime.se/avantime-levererar-nytt-intranat-i-sharepoint-2010-till-myresjohus-och-smalandsvillan/' title='Avantime har fått uppdraget att utveckla ett helt nytt intranät till BWG Homes-koncernen där både Myresjöhus och Smålandsvillan ingår. Affärsutveckling, processhantering i kombination med interninformation kommer ytterligare stärka koncernens effektivitet samt skapa nya konkurrensfördelar. - Det känns roligt att leverera ännu ett intranät i SharePoint 2010.  [&hellip;]'>Avantime levererar nytt intranät i Sharepoint 2010 till Myresjöhus och Smålandsvillan</a> <span class="rss-date">August 16, 2010</span></li><li><a class='rsswidget' href='http://www.avantime.se/avantime-och-ksss-gor-segling-synlig-pa-natet/' title='  Avantime blir digital partner till Kungliga Svenska Segel Sällskapet, KSSS. Genom att utveckla och integrera KSSS samtliga verksamhetssystem skapar vi en digital kommunikationsplattform som lanseras i samband med Sandhamn Race Week den 2-10 juli 2010. – Vi hjälper KSSS att knyta samman tävlande, publik och kommersiella intressen, säger Avantimes grundare E [&hellip;]'>Avantime och KSSS gör segling synlig på nätet</a> <span class="rss-date">June 24, 2010</span></li><li><a class='rsswidget' href='http://www.avantime.se/avantime-marketing-nu-helt-google-adwords-certifierade/' title='Som ett av endast två företag i Sverige har Avantime Marketing nu tagit samtliga AdWords-certifieringar som erbjuds av Google Sverige via programmet Google AdWords Certified Partner. Den senaste certifieringen täckte in avancerade analyser och rapporter i AdWords. För att bli certifierad inom avancerade analyser och rapporter krävs mycket goda kunskaper inom [&hellip;]'>Avantime Marketing nu helt Google AdWords-certifierade</a> <span class="rss-date">June 24, 2010</span></li></ul></div></div>
+<!-- End SideBar2 -->
+</div></div>
+<!-- End CON -->
+
+</div>
+
+<div class="FBG">
+<div class="Footer">
+<p><strong>Copyright &copy; 2007 - blog.sallarp.com - is proudly powered by <a style="text-decoration: none;" href="http://www.wordpress.com/">WordPress</a></strong> <br />
+Dilectio Theme is created by: <a href="http://designdisease.com/" title="Professional Blog Design">Design Disease</a> brought to you by Smashingmagazine.com</p> 
+</div>
+</div>
+
+<!-- Google Analytics for WordPress | http://yoast.com/wordpress/google-analytics/ -->
+<script type="text/javascript">
+	var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+	document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+	try {
+		var pageTracker = _gat._getTracker("UA-5782813-2");
+	} catch(err) {}
+</script>
+<script src="http://blog.sallarp.com/wp-content/plugins/google-analytics-for-wordpress/custom_se.js" type="text/javascript"></script>
+<script type="text/javascript">
+	try {
+		// Cookied already: 
+		pageTracker._trackPageview();
+	} catch(err) {}
+</script>
+<!-- End of Google Analytics code -->
+<div id='highlight_info'><a href='http://www.linksback.org/downloads/' title='Wordpress Plugins'>WP-Highlight</a></div></body>
+</html>
+
+<!-- Performance optimized by W3 Total Cache. Learn more: http://www.w3-edge.com/wordpress-plugins/
+
+Minified using disk
+Page Caching using disk (enhanced)
+
+Served from: blog.sallarp.com @ 2010-12-18 18:13:06 -->
