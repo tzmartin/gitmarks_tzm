@@ -1,0 +1,791 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+    <head>
+                <meta name="verify-v1" content="RebhOpUlThetsH2YAKc+VKN3GjFkPbLvUbJtxDYCkUM=" />
+        <link href="/static/img/swlogo57x57.png" rel="apple-touch-icon" type="image/png" />
+
+        
+        <meta name="robots" content="index, follow" />
+
+        
+        <link rel="shortcut icon" href="/static/img/favicon.gif" type="image/vnd.microsoft.icon" />
+
+                <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+        <!-- Feeds -->
+        
+        <!-- Stylesheets -->
+        <link href="https://www.smashwords.com/static/combinator.php?type=css" rel="stylesheet" type="text/css" />
+                <!--[if IE 6]>
+          <script src="https://www.smashwords.com/static/js/excanvas.js" type="text/javascript"></script>
+          <link href="https://www.smashwords.com/static/combinator.php?type=css&ie=6" rel="stylesheet" type="text/css" />
+        <![endif]-->
+        <!--[if IE 7]>
+          <script src="https://www.smashwords.com/static/js/excanvas.js" type="text/javascript"></script>
+          <link href="https://www.smashwords.com/static/combinator.php?type=css&ie=7" rel="stylesheet" type="text/css" />
+        <![endif]-->
+
+        <!-- JavaScript -->
+        <script src="https://www.smashwords.com/static/combinator.php?type=javascript" type="text/javascript"></script>
+        <script type="text/javascript">
+            $(function(){
+                AllSmashwordRules();
+                            });
+        </script> 
+         
+        
+                        
+
+        
+        <title>Smashwords - Authors who Tweet on Twitter</title>
+
+                  <script type="text/javascript">
+            var _gaq = _gaq || [];
+            _gaq.push(['_setAccount', 'UA-886172-7']);
+            _gaq.push(['_trackPageview']);
+            (function() {
+              var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+              ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+              var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+            })();
+          </script>
+            </head>
+    <body>
+        <div id="wrap">
+
+           <div id="commentLink">
+             <a href="#comment" id="show">Comments/questions/customer support? Click here!</a>
+             <form action="https://www.smashwords.com/comments/post" method="post"><div><input type="hidden" name="secToken" value="" /></div>                <div id="commentBox">
+                    <table style="width: 100%;"><tr>
+                      <td valign="top">
+                        <h2 style="color: #fff; font-face: Helvetica, sans; font-weight: bold;">FOR FASTER ANSWERS, CHECK THESE LINKS <i>BEFORE</i> YOU EMAIL US:</h2>
+                        <table style="width: 100%;">
+                          <tr>
+                            <td valign="top">
+                              <h3><strong>Authors/Publishers</strong></h3>
+                              <ul>
+                                <li><a href="https://www.smashwords.com/about/how_to_publish_on_smashwords">How to publish on Smashwords</a>
+                                   <ul>
+                                   <li><a href="https://www.smashwords.com/about/how_to_publish_ipad_ebooks">iPad publishing checklist</a></li>
+                                                                        <li><a href="https://www.smashwords.com/signup/login/dashboard">Where are my ebooks?</a></li>
+                                                                      </ul>
+                                </li>
+                                <li>How to format ebooks
+                                    <ul>
+                                    <li><a href="http://www.smashwords.com/books/view/52">Smashwords Style Guide</a></li>
+                                    <li><a href="http://www.smashwords.com/about/supportfaq#trouble">Troubleshooting</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="http://www.smashwords.com/about/supportfaq#Uploading">Problem uploading</a></li>
+                                <li><a href="http://www.smashwords.com/about/supportfaq#isbn">ISBNs</a>
+                                                                    </li>
+                                <li><a href="https://www.smashwords.com/distribution">Distributing via Smashwords</a>
+                                    <ul>
+                                    <li><a href="http://www.smashwords.com/about/supportfaq#Distributing">Distribution FAQs</a></li>
+                                    <li><a href="https://www.smashwords.com/distribution">How the Premium Catalog works</a></li>
+                                                                        </ul>
+                                </li>
+                                <li><a href="http://www.smashwords.com/about/supportfaq#Royalties">Royalties &amp; payment schedules</a></li>
+                              </ul>
+                            </td>
+                            <td valign="top">
+                              <h3><strong>Readers</strong></h3>
+                              <ul>
+                                                                        <li><a href="http://www.smashwords.com/about/supportfaq#Reading">Benefits of registering</a></li>
+                                      <li><a href="https://www.smashwords.com/signup/login/library">Where are my ebooks?</a></li>
+                                                                    <li><a href="http://www.smashwords.com/about/supportfaq#Reading">How to purchase ebooks</a></li>
+                                  <li><a href="http://www.smashwords.com/about/supportfaq#Reading">How to read ebooks</a>
+                                      <ul>
+                                      <li><a href="http://www.smashwords.com/about/supportfaq#Kindle">Downloading to Kindle</a></li>
+                                      <li><a href="http://www.smashwords.com/about/supportfaq#iphone">Downloading to iPhone/iPod Touch</a></li>
+                                      <li><a href="http://www.smashwords.com/about/supportfaq#sonynook">Downloading to B&amp;N nook</a></li>
+                                      <li><a href="http://www.smashwords.com/about/supportfaq#sonynook">Downloading to Sony Reader</a></li>
+                                      </ul>
+                                  </li>
+                              </ul>
+                            </td>
+                          </tr>
+                        </table>
+                      </td>
+                      <td valign="top">
+                        <input type="hidden" name="url" id="url" value="" /> 
+                        <label for="commentemail">Your Email:</label> <input type="text" name="email" id="commentemail" value="" /><br/>
+                        <textarea name="comment" id="comment" cols="40" rows="4"></textarea><br/>
+                        <input id="btnSend" type="button" value="Send" />
+                        <input id="btnCancel" type="button" value="Cancel" />
+                        <br/><br/>
+                        <div style="width: 30em;">
+                          HAVE A QUESTION not already answered in the links at left or on our main
+                          <a href="https://www.smashwords.com/about/supportfaq"><strong>FAQ PAGE</strong></a>?
+                          Ask it above.
+                        </div>
+                      </td>
+                    </tr></table>
+                  </div>             </form>
+           </div>        
+        <div id="header">
+            <div class="siteLogo">
+                <a href="https://www.smashwords.com/">
+                    <img src="https://www.smashwords.com/static/img/swlogo.png" width="250" height="67" alt="Smashwords" />
+                </a>
+            </div>           
+             
+                            <div class="authInfo" style="line-height:100%; padding-top:1.2em; margin-top:0px; font-size:80%;">
+                    
+<form action="https://www.smashwords.com/auth/index" method="post"><div><input type="hidden" name="secToken" value="" /></div><div style="width:35em; text-align:right;" id="regularLoginDiv">
+                <label for="email">Email Address: </label> 
+        <input style="background-color:#8bc4ff;" type="text" name="email" id="email"  size="20"
+            value="" /><br/>
+        
+        <label for="password">Password: </label> 
+        <input style="background-color:#8bc4ff;" type="password" name="password" id="password" size="20" /><br/>
+        
+        <br/>
+                <span class="subnote">(<a href="https://www.smashwords.com/passwordretrieval/emailreset">Forgot Your Password?</a>)</span>
+        <input type="submit" value="Login" />
+</div>
+</form>
+                 </div>                 
+                                   
+             
+            
+            
+        </div>        <div id="pageBody">
+            <div id="navMenu">
+                 
+<ul>
+    <li><a href="http://www.smashwords.com/" title="Browse books by categories, or view our authors">Home</a></li>
+    <li><a href="http://www.smashwords.com/about" title="Learn more about publishing and reading ebooks on Smashwords">About</a></li>
+    <li><a href="http://www.smashwords.com/about/how_to_publish_on_smashwords" title="Learn how to publish your ebook on Smashwords">How to Publish on Smashwords</a></li>
+    <li><a href="http://www.smashwords.com/about/affiliate" title="Sign up or log-in and become a Smashwords affiliate">Become a Smashwords Affiliate</a></li>
+    <li class="last"><a href="http://www.smashwords.com/signup" title="Sign up with Smashwords">Join</a></li>
+</ul>
+
+
+<form action="http://www.smashwords.com/books/search" method="get">
+<div style="float: right; margin: 0.125em 0 0 0; padding: 0.125em 0 0 0; vertical-align:text-bottom;">
+<input type="text" name="query" size="15"/><input type="submit" value="Search" style="margin-left: 0.5em; background: #4181c3; color: #fff; font-weight:bold; font-family:Arial, Helvetica, sans-serif;" />
+</div>
+</form>
+
+            </div>
+            <div id="contentArea">
+                <span class="user">
+                </span>
+               
+ 
+                <div class="leftSideBox">
+<a href="http://www.smashwords.com/twitterbuzz">&lt;&nbsp;Back to Twitterbuzz</a><br/><br/>
+<a href="http://www.smashwords.com/twitterbuzz/smashwords_on_twitter">View recent Smashwords tweets on Twitter</a>&nbsp;&gt;<br/><br/>
+<a href="http://www.smashwords.com/twitterbuzz/smashwords_authors_on_twitter">View all Smashwords Members on Twitter</a>&nbsp;&gt;<br/><br/>
+</div>
+<div id="pageContent">
+
+<h2><strong>Twitterbuzz: Directory of Smashwords Users on Twitter</strong></h2>
+
+<a href="http://www.smashwords.com/twitterbuzz">&lt; View Smashwords' Twitterbuzz.</a><br/>
+
+
+<div class="drilldowns2">
+<span class="descript">Sort By:</span>
+<div class="act">Recently Joined</div><div class="inact"><a href="http://www.smashwords.com/twitterbuzz/smashwords_authors_on_twitter/latestbook">Recently Published</a></div><div class="inact"><a href="http://www.smashwords.com/twitterbuzz/smashwords_authors_on_twitter/name">By Name</a></div><div class="inact"><a href="http://www.smashwords.com/twitterbuzz/smashwords_authors_on_twitter/user">By Twitter Username</a></div></div>
+
+<div id="pageCenterContent">
+
+
+<div style="border: 1px solid #ddd; padding: 4px;">
+
+
+<span style="float: left; margin-right: 1em; margin-bottom: 1em;">
+
+<a href="http://www.smashwords.com/profile/view/enzostoini">
+<img src="https://dwtr67e3ikfml.cloudfront.net/avatars/enzostoini-profpicsmall" width="48" height="48" alt="" border="0">
+</a>
+
+</span>
+
+<span style="min-height: 50px; margin-bottom: 2em;">
+
+<span style="float: right;">
+Follow me on Twitter at &nbsp;<a href="http://www.twitter.com/enzostoini"><strong>enzostoini</strong></a></span>
+
+<a href="http://www.smashwords.com/profile/view/enzostoini"><strong>Enzo Stoini</strong></a><br/>
+I am a 33 year old male, born and raised in Auckland, New Zealand. I am currently back in New Zealand after living in overseas for a while. As of yet I am unpublished (well no papery things tied up with string), until now I didn’t have any great dreams of being an author. However after using this program myself I felt that I should share the system that worked so well for me. I also felt I could lend something new to this category of writing. I did a fair amount of research before writing this book and found nothing along a similar line to what I was planning to write. There was no hard talking, comedic book that was easy to read and wasn’t padded with pages and pages of useless information. I believe all t ... <a href="http://www.smashwords.com/profile/view/enzostoini">read more</a><br/>
+Latest book:
+<a href="http://www.smashwords.com/books/view/20976">One Seat on the Plane</a><br/>
+
+</span>
+
+</div><br/>
+
+
+<div style="border: 1px solid #ddd; padding: 4px;">
+
+
+<span style="float: left; margin-right: 1em; margin-bottom: 1em;">
+
+<a href="http://www.smashwords.com/profile/view/penwit">
+<img src="https://dwtr67e3ikfml.cloudfront.net/avatars/penwit-profpicsmall" width="48" height="48" alt="" border="0">
+</a>
+
+</span>
+
+<span style="min-height: 50px; margin-bottom: 2em;">
+
+<span style="float: right;">
+Follow me on Twitter at &nbsp;<a href="http://www.twitter.com/penwit"><strong>penwit</strong></a></span>
+
+<a href="http://www.smashwords.com/profile/view/penwit"><strong>C. Edward Miller</strong></a><br/>
+City Born:Chicago, Illinois
+High School: Tilden Technical H.S. Chicago
+B.A. Chicago State University Music & Business education
+
+M.A. Governors State University--Mass Media Communications--Television Production--produced talk show--ASK MARY--Continental Cable-Elmhurst Illinois
+
+M.A. Chicago State University--Educational Administration--teacher, assistant principal.
+
+Experience: Chicago Public Schools 1972-2004<br/>
+Latest book:
+<a href="http://www.smashwords.com/books/view/21129">America's Secret Weapon and the Emergence of Mr.Barack Obama</a><br/>
+
+</span>
+
+</div><br/>
+
+
+<div style="border: 1px solid #ddd; padding: 4px;">
+
+
+<span style="float: left; margin-right: 1em; margin-bottom: 1em;">
+
+<a href="http://www.smashwords.com/profile/view/toddnettleton">
+<img src="https://dwtr67e3ikfml.cloudfront.net/avatars/toddnettleton-profpicsmall" width="48" height="48" alt="" border="0">
+</a>
+
+</span>
+
+<span style="min-height: 50px; margin-bottom: 2em;">
+
+<span style="float: right;">
+Follow me on Twitter at &nbsp;<a href="http://www.twitter.com/todd_nett"><strong>todd_nett</strong></a></span>
+
+<a href="http://www.smashwords.com/profile/view/toddnettleton"><strong>Todd Nettleton</strong></a><br/>
+Todd Nettleton is the Director of Media Development for an international non-profit organization. He regularly writes for the organization's newsletter, which is read monthly in more than 500,000 homes. During more than twelve years of service, he has documented human rights and religious freedom abuses and interviewed victims in Sudan, China, Egypt, Turkey, Eritrea, Vietnam, Pakistan, Indonesia, Uzbekistan, Tajikistan, Bangladesh, Ethiopia, Myanmar, Colombia, Iraq, India and Azerbaijan. He has been interviewed more than 1500 times by various media outlets, including the Associated Press, Los Angeles Times, BBC, Moody Broadcast Network, Christian Broadcasting Network, Newsweek, The Voice of America and Trinity  ... <a href="http://www.smashwords.com/profile/view/toddnettleton">read more</a><br/>
+Latest book:
+<a href="http://www.smashwords.com/books/view/20956">Justice For All</a><br/>
+
+</span>
+
+</div><br/>
+
+
+<div style="border: 1px solid #ddd; padding: 4px;">
+
+
+<span style="float: left; margin-right: 1em; margin-bottom: 1em;">
+
+<a href="http://www.smashwords.com/profile/view/maureenmullis">
+<img src="https://dwtr67e3ikfml.cloudfront.net/avatars/maureenmullis-profpicsmall" width="48" height="48" alt="" border="0">
+</a>
+
+</span>
+
+<span style="min-height: 50px; margin-bottom: 2em;">
+
+<span style="float: right;">
+Follow me on Twitter at &nbsp;<a href="http://www.twitter.com/maureenmullis"><strong>maureenmullis</strong></a></span>
+
+<a href="http://www.smashwords.com/profile/view/maureenmullis"><strong>Maureen Mullis</strong></a><br/>
+Maureen Mullis studied journalism at Brigham Young University.  After a couple of years working as a reporter and columnist for a small weekly newspaper she worked for awhile as a freelance writer.
+
+During her years as a stay-at-home mom she continued her writing, this time venturing into fiction.  After a brief stint as a library tech in elementary and high schools, she and her family moved from California to Colorado where most of her stories take place.
+
+She lives with her husband, two sons, two dogs and a motley collection of birds and fish in Colorado Springs, CO where she is currently at work on her next novel.
+<br/>
+Latest book:
+<a href="http://www.smashwords.com/books/view/20925">What Would Nancy Do?</a><br/>
+
+</span>
+
+</div><br/>
+
+
+<div style="border: 1px solid #ddd; padding: 4px;">
+
+
+<span style="float: left; margin-right: 1em; margin-bottom: 1em;">
+
+<a href="http://www.smashwords.com/profile/view/ifogo">
+<img src="https://dwtr67e3ikfml.cloudfront.net/avatars/ifogo-profpicsmall" width="48" height="48" alt="" border="0">
+</a>
+
+</span>
+
+<span style="min-height: 50px; margin-bottom: 2em;">
+
+<span style="float: right;">
+Follow me on Twitter at &nbsp;<a href="http://www.twitter.com/GeneCartwright"><strong>GeneCartwright</strong></a></span>
+
+<a href="http://www.smashwords.com/profile/view/ifogo"><strong>Gene Cartwright</strong></a><br/>
+Gene Cartwright, a native of Texas, was born in Baytown, a small, Gulf Coast town 20 miles east of Houston. He often says it was his great fortune to be born at the right address— the home of Elmer and Marie Cartwright—his parents.
+
+He is the eldest son and second of eight children; his love of writing, and learning was sparked by his mother who taught him to read when he was barely four. He was fascinated, captured by the freedom reading afforded. Gene read and was inspired to put his own words to paper. He has always enjoyed both technical and literary pursuits. He wrote his first novel at 12. (90 pages longhand.)
+
+Also, at age 12, Gene began working with a local electrician, actually wiring new homes and ... <a href="http://www.smashwords.com/profile/view/ifogo">read more</a><br/>
+Latest book:
+<a href="http://www.smashwords.com/books/view/30923">A Family Gathering</a><br/>
+
+</span>
+
+</div><br/>
+
+
+<div style="border: 1px solid #ddd; padding: 4px;">
+
+
+<span style="float: left; margin-right: 1em; margin-bottom: 1em;">
+
+<a href="http://www.smashwords.com/profile/view/iammeramraj">
+<img src="https://dwtr67e3ikfml.cloudfront.net/avatars/iammeramraj-profpicsmall" width="48" height="48" alt="" border="0">
+</a>
+
+</span>
+
+<span style="min-height: 50px; margin-bottom: 2em;">
+
+<span style="float: right;">
+Follow me on Twitter at &nbsp;<a href="http://www.twitter.com/http://twitter.com/iamme_ramraj"><strong>http://twitter.com/iamme_ramraj</strong></a></span>
+
+<a href="http://www.smashwords.com/profile/view/iammeramraj"><strong>Ramraj Raghuvanshi</strong></a><br/>
+Author |
+Psychologist |
+Philosopher |
+Blogger |
+Technical Trainer |
+Desktop Application Developer |
+Web Application Developer |
+Mobile Application Developer |
+Web Designer |
+Sun Certified Java Programmer<br/>
+Latest book:
+<a href="http://www.smashwords.com/books/view/20895">Love is Toxic</a><br/>
+
+</span>
+
+</div><br/>
+
+
+<div style="border: 1px solid #ddd; padding: 4px;">
+
+
+<span style="float: left; margin-right: 1em; margin-bottom: 1em;">
+
+<a href="http://www.smashwords.com/profile/view/lsears">
+<img src="https://dwtr67e3ikfml.cloudfront.net/avatars/lsears-profpicsmall" width="48" height="48" alt="" border="0">
+</a>
+
+</span>
+
+<span style="min-height: 50px; margin-bottom: 2em;">
+
+<span style="float: right;">
+Follow me on Twitter at &nbsp;<a href="http://www.twitter.com/redlorry75"><strong>redlorry75</strong></a></span>
+
+<a href="http://www.smashwords.com/profile/view/lsears"><strong>Lorraine Sears</strong></a><br/>
+Lorraine Sears has always been blessed with a fertile imagination.  As a young child, unable to control how far she strayed within the boundaries of her own mind, she often scared herself seeing 
+faces in the curtains that hung in her bedroom.  Then, as a teenager, many local people feared for her sanity, when she was regularly witnessed talking to herself when out walking her dog.  What they didn't know is that in her mind Lorraine was in fact a hardened New York 
+detective out stalking criminals with her weapon stashed safely in the waistband of her jeans.  Reports would later confirm this weapon to be 
+a harmless, empty water pistol.
+
+Now in her mid-thirties, but trying to fight the relentless tide of aging  ... <a href="http://www.smashwords.com/profile/view/lsears">read more</a><br/>
+Latest book:
+<a href="http://www.smashwords.com/books/view/20883">A Daughter's Love</a><br/>
+
+</span>
+
+</div><br/>
+
+
+<div style="border: 1px solid #ddd; padding: 4px;">
+
+
+<span style="float: left; margin-right: 1em; margin-bottom: 1em;">
+
+<a href="http://www.smashwords.com/profile/view/travelgeoff">
+<img src="https://dwtr67e3ikfml.cloudfront.net/avatars/travelgeoff-profpicsmall" width="48" height="48" alt="" border="0">
+</a>
+
+</span>
+
+<span style="min-height: 50px; margin-bottom: 2em;">
+
+<span style="float: right;">
+Follow me on Twitter at &nbsp;<a href="http://www.twitter.com/NoSpinTravel"><strong>NoSpinTravel</strong></a></span>
+
+<a href="http://www.smashwords.com/profile/view/travelgeoff"><strong>Geoff Edwards</strong></a><br/>
+<br/>
+Latest book:
+<a href="http://www.smashwords.com/books/view/25092">Going All The Way</a><br/>
+
+</span>
+
+</div><br/>
+
+
+<div style="border: 1px solid #ddd; padding: 4px;">
+
+
+<span style="float: left; margin-right: 1em; margin-bottom: 1em;">
+
+<a href="http://www.smashwords.com/profile/view/novusmarkets">
+<img src="https://dwtr67e3ikfml.cloudfront.net/avatars/novusmarkets-profpicsmall" width="48" height="48" alt="" border="0">
+</a>
+
+</span>
+
+<span style="min-height: 50px; margin-bottom: 2em;">
+
+<span style="float: right;">
+Follow me on Twitter at &nbsp;<a href="http://www.twitter.com/jdantell"><strong>jdantell</strong></a></span>
+
+<a href="http://www.smashwords.com/profile/view/novusmarkets"><strong>J.D. Antell</strong></a><br/>
+Dog walking pioneer, J.D. Antell, owned and operated one of the north shore's most successful dog walking business for over seven years. He is the founder of DogZanny.com a comprehensive online resource devoted to helping professional dog walkers and businesses owners get started and operate successfully. He is an honors graduate of Rochester Institute of Technology with a BS in Film & Television production. He spent his early career producing and directing award-winning national TV commercials, shows, and videos in the Denver area before returning to New England.
+
+After giving the television industry its due, J.D. decided to embark on an entrepreneurial journey, opening one of the first dog walking businesses  ... <a href="http://www.smashwords.com/profile/view/novusmarkets">read more</a><br/>
+Latest book:
+<a href="http://www.smashwords.com/books/view/21098">The Dog Walker's Startup Guide: Create Your Own Lucrative Dog Walking Business in 12 Easy Steps</a><br/>
+
+</span>
+
+</div><br/>
+
+
+<div style="border: 1px solid #ddd; padding: 4px;">
+
+
+<span style="float: left; margin-right: 1em; margin-bottom: 1em;">
+
+<a href="http://www.smashwords.com/profile/view/robsuarez">
+<img src="https://dwtr67e3ikfml.cloudfront.net/avatars/robsuarez-profpicsmall" width="48" height="48" alt="" border="0">
+</a>
+
+</span>
+
+<span style="min-height: 50px; margin-bottom: 2em;">
+
+<span style="float: right;">
+Follow me on Twitter at &nbsp;<a href="http://www.twitter.com/robsuarez"><strong>robsuarez</strong></a></span>
+
+<a href="http://www.smashwords.com/profile/view/robsuarez"><strong>Rob Suarez</strong></a><br/>
+Born and raised in New Orleans, Louisiana, Rob Suarez draws from his rich and varied experiences to bring you entertaining and engaging thriller and mystery fiction in the tradition of Robert Ludlum, Ian Flemming, and Tom Clancy. Rob is actively pursuing the marketing and distribution of his written works through the use of new media avenues, which he sees as having tremendous potential for an explosion of creativity.<br/>
+Latest book:
+<a href="http://www.smashwords.com/books/view/21099">Murder by Design</a><br/>
+
+</span>
+
+</div><br/>
+
+
+<div style="border: 1px solid #ddd; padding: 4px;">
+
+
+<span style="float: left; margin-right: 1em; margin-bottom: 1em;">
+
+<a href="http://www.smashwords.com/profile/view/eddiegubbins">
+<img src="https://dwtr67e3ikfml.cloudfront.net/avatars/eddiegubbins-profpicsmall" width="48" height="48" alt="" border="0">
+</a>
+
+</span>
+
+<span style="min-height: 50px; margin-bottom: 2em;">
+
+<span style="float: right;">
+Follow me on Twitter at &nbsp;<a href="http://www.twitter.com/Captaingubs"><strong>Captaingubs</strong></a></span>
+
+<a href="http://www.smashwords.com/profile/view/eddiegubbins"><strong>Edmund Gubbins</strong></a><br/>
+I left school at sixteen and became a cadet with he Shell Tanker Company. In all, I spent 12 years as a ships officer in the British Merchant navy. That is where my Tales from the Sea posted on www.theoldun.blogspot.com come from. Actually I used to put what happened while I was at sea in some sort of literary context while walking up and down the bridge of ships in the middle of the night. Though it can sound exciting travelling the world’s oceans, at times it can be very boring spendin four hours staring at the sea. I never wrote these stories down at the time just composed them in my head. 
+After leaving the sea, I graduated and became a university lecturer in Transport management. I had my first taste of  ... <a href="http://www.smashwords.com/profile/view/eddiegubbins">read more</a><br/>
+Latest book:
+<a href="http://www.smashwords.com/books/view/20872">Brotherly Love</a><br/>
+
+</span>
+
+</div><br/>
+
+
+<div style="border: 1px solid #ddd; padding: 4px;">
+
+
+<span style="float: left; margin-right: 1em; margin-bottom: 1em;">
+
+<a href="http://www.smashwords.com/profile/view/doranna">
+<img src="https://dwtr67e3ikfml.cloudfront.net/avatars/doranna-profpicsmall" width="48" height="48" alt="" border="0">
+</a>
+
+</span>
+
+<span style="min-height: 50px; margin-bottom: 2em;">
+
+<span style="float: right;">
+Follow me on Twitter at &nbsp;<a href="http://www.twitter.com/dorannadurgin"><strong>dorannadurgin</strong></a></span>
+
+<a href="http://www.smashwords.com/profile/view/doranna"><strong>Doranna Durgin</strong></a><br/>
+Doranna responded to all early injunctions to "put down that book/notebook and go outside to play" by climbing trees to read & write. Such quirkiness of spirit has led to an eclectic publishing journey, spanning genres and form to include mystery, SF/F, action-romance, paranormal, franchise, and a slew of essays and short stories. 
+
+But after all that, mostly she still prefers to hang around outside her New Mexico mountain home with the animals, riding dressage on her Lipizzan and training for performance sports with the dogs. She doesn't believe so much in mastering the beast within, but in channeling its power. For good or bad has yet to be decided...<br/>
+Latest book:
+<a href="http://www.smashwords.com/books/view/20869">A Feral Darkness</a><br/>
+
+</span>
+
+</div><br/>
+
+
+<div style="border: 1px solid #ddd; padding: 4px;">
+
+
+<span style="float: left; margin-right: 1em; margin-bottom: 1em;">
+
+<a href="http://www.smashwords.com/profile/view/dwt">
+<img src="https://dwtr67e3ikfml.cloudfront.net/avatars/dwt-profpicsmall" width="48" height="48" alt="" border="0">
+</a>
+
+</span>
+
+<span style="min-height: 50px; margin-bottom: 2em;">
+
+<span style="float: right;">
+Follow me on Twitter at &nbsp;<a href="http://www.twitter.com/williamtheaux"><strong>williamtheaux</strong></a></span>
+
+<a href="http://www.smashwords.com/profile/view/dwt"><strong>William Theaux</strong></a><br/>
+<br/>
+Latest book:
+<a href="http://www.smashwords.com/books/view/21608">La Sainte Ethique</a><br/>
+
+</span>
+
+</div><br/>
+
+
+<div style="border: 1px solid #ddd; padding: 4px;">
+
+
+<span style="float: left; margin-right: 1em; margin-bottom: 1em;">
+
+<a href="http://www.smashwords.com/profile/view/michaelwest">
+<img src="https://dwtr67e3ikfml.cloudfront.net/avatars/michaelwest-profpicsmall" width="48" height="48" alt="" border="0">
+</a>
+
+</span>
+
+<span style="min-height: 50px; margin-bottom: 2em;">
+
+<span style="float: right;">
+Follow me on Twitter at &nbsp;<a href="http://www.twitter.com/byMichaelWest"><strong>byMichaelWest</strong></a></span>
+
+<a href="http://www.smashwords.com/profile/view/michaelwest"><strong>Michael West</strong></a><br/>
+Michael West is a member of the Horror Writers Association and served as President of its local chapter, Indiana Horror Writers. He lives and works in the Indianapolis area with his wife, their two children, their bird, Rodan, and turtle, Gamera. 
+ 
+His children are convinced that spirits move through the woods near their home. 
+<br/>
+Latest book:
+<a href="http://www.smashwords.com/books/view/20848">Skull Full of Kisses</a><br/>
+
+</span>
+
+</div><br/>
+
+
+<div style="border: 1px solid #ddd; padding: 4px;">
+
+
+<span style="float: left; margin-right: 1em; margin-bottom: 1em;">
+
+<a href="http://www.smashwords.com/profile/view/thegoodhealer">
+<img src="https://dwtr67e3ikfml.cloudfront.net/avatars/thegoodhealer-profpicsmall" width="48" height="48" alt="" border="0">
+</a>
+
+</span>
+
+<span style="min-height: 50px; margin-bottom: 2em;">
+
+<span style="float: right;">
+Follow me on Twitter at &nbsp;<a href="http://www.twitter.com/thegoodhealer"><strong>thegoodhealer</strong></a></span>
+
+<a href="http://www.smashwords.com/profile/view/thegoodhealer"><strong>Dimitrije Medenica</strong></a><br/>
+Dimitrije Medenica is a Swiss-born architect by training and the debut author of The Good Healer, a work of medieval historical fiction, which employs his extensive knowledge of architectural history, mercantilism, and  natural medicine facts.  With 11 years of architecture and real estate development experience, a large part of which was devoted to the relationship between healthcare architecture and its effects on patients, he continues to work as a developer, freelance architectural illustrator, and French Professor.
+
+Mr. Medenica concentrated on a large number of clinics, hospitals, retirement communities, and nursing homes in the Tri-State area and the world, including the new Jersey City Hospital, a state ... <a href="http://www.smashwords.com/profile/view/thegoodhealer">read more</a><br/>
+Latest book:
+<a href="http://www.smashwords.com/books/view/20867">The Good Healer</a><br/>
+
+</span>
+
+</div><br/>
+
+
+<div style="border: 1px solid #ddd; padding: 4px;">
+
+
+<span style="float: left; margin-right: 1em; margin-bottom: 1em;">
+
+<a href="http://www.smashwords.com/profile/view/segueblue">
+<img src="https://dwtr67e3ikfml.cloudfront.net/avatars/segueblue-profpicsmall" width="48" height="48" alt="" border="0">
+</a>
+
+</span>
+
+<span style="min-height: 50px; margin-bottom: 2em;">
+
+<span style="float: right;">
+Follow me on Twitter at &nbsp;<a href="http://www.twitter.com/johnherrick"><strong>johnherrick</strong></a></span>
+
+<a href="http://www.smashwords.com/profile/view/segueblue"><strong>John Herrick</strong></a><br/>
+John Herrick is a writer with a passion for the human heart. His desire is not merely to entertain, but to uplift and impact readers, encouraging them to pursue their dreams. Discover a rising author with a voice of purpose.<br/>
+Latest book:
+<a href="http://www.smashwords.com/books/view/20800">From The Dead</a><br/>
+
+</span>
+
+</div><br/>
+
+
+<div style="border: 1px solid #ddd; padding: 4px;">
+
+
+<span style="float: left; margin-right: 1em; margin-bottom: 1em;">
+
+<a href="http://www.smashwords.com/profile/view/LegacyBooks">
+<img src="https://dwtr67e3ikfml.cloudfront.net/avatars/LegacyBooks-profpicsmall" width="48" height="48" alt="" border="0">
+</a>
+
+</span>
+
+<span style="min-height: 50px; margin-bottom: 2em;">
+
+<span style="float: right;">
+Follow me on Twitter at &nbsp;<a href="http://www.twitter.com/stenar"><strong>stenar</strong></a></span>
+
+<a href="http://www.smashwords.com/profile/view/LegacyBooks"><strong>Robert Alexander Jones</strong></a><br/>
+<br/>
+Latest book:
+<a href="http://www.smashwords.com/books/view/20798">Blood Brothers</a><br/>
+
+</span>
+
+</div><br/>
+
+
+<div style="border: 1px solid #ddd; padding: 4px;">
+
+
+<span style="float: left; margin-right: 1em; margin-bottom: 1em;">
+
+<a href="http://www.smashwords.com/profile/view/SensualFusionEssentials">
+<img src="https://dwtr67e3ikfml.cloudfront.net/avatars/SensualFusionEssentials-profpicsmall" width="48" height="48" alt="" border="0">
+</a>
+
+</span>
+
+<span style="min-height: 50px; margin-bottom: 2em;">
+
+<span style="float: right;">
+Follow me on Twitter at &nbsp;<a href="http://www.twitter.com/YvonneFulbright"><strong>YvonneFulbright</strong></a></span>
+
+<a href="http://www.smashwords.com/profile/view/SensualFusionEssentials"><strong>Yvonne Fulbright</strong></a><br/>
+Originally from Iceland, sexologist, author, relationship expert, advice columnist, and television and radio personality Dr. Yvonne Kristín Fulbright has been featured in hundreds of media outlets around the globe, including Fox’s Morning Show with Mike and Juliet, CNN’s Paula Zahn NOW, NBC’s Today show, USA Today, The New York Times, Men’s Health UK, Cosmopolitan, and the Austrian Broadcasting Company.
+
+Armed with a master’s degree in human sexuality education from the University of Pennsylvania, Yvonne is the author of Touch Me There! A Hands-On Guide to Your Orgasmic Hot Spots, Sultry Sex Talk to Seduce Any Lover: Lust-Inducing Lingo & Titillating Tactics to Maximize Your Pleasure, Sex with Your E ... <a href="http://www.smashwords.com/profile/view/SensualFusionEssentials">read more</a><br/>
+Latest book:
+<a href="http://www.smashwords.com/books/view/20768">Sensual Fusion Essentials: Energy Plus Breath Equal Bliss</a><br/>
+
+</span>
+
+</div><br/>
+
+
+<div style="border: 1px solid #ddd; padding: 4px;">
+
+
+<span style="float: left; margin-right: 1em; margin-bottom: 1em;">
+
+<a href="http://www.smashwords.com/profile/view/sommersalner">
+<img src="https://dwtr67e3ikfml.cloudfront.net/avatars/sommersalner-profpicsmall" width="48" height="48" alt="" border="0">
+</a>
+
+</span>
+
+<span style="min-height: 50px; margin-bottom: 2em;">
+
+<span style="float: right;">
+Follow me on Twitter at &nbsp;<a href="http://www.twitter.com/somsal"><strong>somsal</strong></a></span>
+
+<a href="http://www.smashwords.com/profile/view/sommersalner"><strong>Roland Sommer Salner</strong></a><br/>
+Roland Sommer Salner, im Juli 1969 in Olten geboren, wechselte nach seiner Lehre im Detailhandel in die Tourismusbranche
+und arbeitet heute in einem Unternehmen, dass Jugendlichen in der Schweiz zu besseren Chancen auf dem Lehrstellenmarkt verhilft.
+Seit seinen frühen Jugendjahren war der Autor immer wieder auf Reisen und hatte auf diese Weise Gelegenheit, verschiedenste Menschen aus allen Teilen der Welt kennenzulernen.
+Diese eindrücklichen Begegnungen hat er in Tagebuchform festgehalten und so mit dem Schreiben begonnen. Auch seine Radtouren in der freien Natur liefern dem passionierten Hobbysportler viele Ideen für seine Geschichten.
+Er lebt heute mit seiner Frau in Basel und ist stolzer Vater von drei Ki ... <a href="http://www.smashwords.com/profile/view/sommersalner">read more</a><br/>
+Latest book:
+<a href="http://www.smashwords.com/books/view/27436">Der Fluch der Schwarzen Natter - Hoffen auf Gerechtigkeit (Teil 2)</a><br/>
+
+</span>
+
+</div><br/>
+
+
+<div style="border: 1px solid #ddd; padding: 4px;">
+
+
+<span style="float: left; margin-right: 1em; margin-bottom: 1em;">
+
+<a href="http://www.smashwords.com/profile/view/oraffa">
+<img src="https://dwtr67e3ikfml.cloudfront.net/avatars/oraffa-profpicsmall" width="48" height="48" alt="" border="0">
+</a>
+
+</span>
+
+<span style="min-height: 50px; margin-bottom: 2em;">
+
+<span style="float: right;">
+Follow me on Twitter at &nbsp;<a href="http://www.twitter.com/oraffa"><strong>oraffa</strong></a></span>
+
+<a href="http://www.smashwords.com/profile/view/oraffa"><strong>Rafael Kempfer</strong></a><br/>
+Sou eu<br/>
+Latest book:
+<a href="http://www.smashwords.com/books/view/22576">Integração Sistemas Legado, o Retorno</a><br/>
+
+</span>
+
+</div><br/>
+
+
+<div class="pagination">
+<a href="https://www.smashwords.com/twitterbuzz/smashwords_authors_on_twitter/latest/">&lsaquo; First</a>&nbsp;&nbsp;<a href="https://www.smashwords.com/twitterbuzz/smashwords_authors_on_twitter/latest/1020">&lt; Prev.</a>&nbsp;<a href="https://www.smashwords.com/twitterbuzz/smashwords_authors_on_twitter/latest/960">[49]</a>&nbsp;<a href="https://www.smashwords.com/twitterbuzz/smashwords_authors_on_twitter/latest/980">[50]</a>&nbsp;<a href="https://www.smashwords.com/twitterbuzz/smashwords_authors_on_twitter/latest/1000">[51]</a>&nbsp;<a href="https://www.smashwords.com/twitterbuzz/smashwords_authors_on_twitter/latest/1020">[52]</a>&nbsp;<b>53</b>&nbsp;<a href="https://www.smashwords.com/twitterbuzz/smashwords_authors_on_twitter/latest/1060">[54]</a>&nbsp;<a href="https://www.smashwords.com/twitterbuzz/smashwords_authors_on_twitter/latest/1080">[55]</a>&nbsp;<a href="https://www.smashwords.com/twitterbuzz/smashwords_authors_on_twitter/latest/1100">[56]</a>&nbsp;<a href="https://www.smashwords.com/twitterbuzz/smashwords_authors_on_twitter/latest/1120">[57]</a>&nbsp;<a href="https://www.smashwords.com/twitterbuzz/smashwords_authors_on_twitter/latest/1060">Next &gt;</a>&nbsp;&nbsp;<a href="https://www.smashwords.com/twitterbuzz/smashwords_authors_on_twitter/latest/3640">Last &rsaquo;</a></div>
+<br/>
+
+
+</div>
+
+</div>
+            </div>
+        </div>
+        <div style="clear:both;"></div>
+        <div id="footer">
+            Copyright &copy; 2010 Smashwords, Inc. All rights reserved.<br/>
+
+            
+            
+            <a href="http://www.smashwords.com/about">About</a> | 
+            <a href="http://www.smashwords.com/press">Press Room</a> | 
+            <a href="http://blog.smashwords.com">Blog</a> |
+            <a href="http://www.smashwords.com/labs">Labs</a> |
+                            <a href="http://www.smashwords.com/about/affiliate">Affiliates</a> |
+                        <a href="http://www.smashwords.com/about/supportfaq">Support</a> |
+            <a href="http://www.smashwords.com/about/privacy">Privacy Statement</a> |
+            <a href="http://www.smashwords.com/about/tos">Terms of Service</a> |
+                            <a href="http://www.smashwords.com/signup">Join Now for Free</a>
+                                </div>
+     </div>
+    </body>
+</html>
