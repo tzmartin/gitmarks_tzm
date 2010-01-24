@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta HTTP-EQUIV="Pragma" CONTENT="no-cache">
+    <meta HTTP-EQUIV="Expires" CONTENT="-1">
+
+    <title>codepad</title>
+
+    
+
+    <link href="/main.css" media="screen" rel="stylesheet" type="text/css" />
+    <style type="text/css">
+    
+
+    </style>
+
+</head>
+
+
+    <body >
+
+
+        <table width="100%" cellpadding="0" cellspacing="0" style="border-bottom: 1px solid #ccc; margin: 0; width: 100%; padding: 8px 8px 4px 8px;"><tr>
+        <td style="text-align: left">
+        <span class="logo"><a href="/">codepad</a></span>
+        </td>
+        <td style="text-align: right">
+        <nobr>
+          <span class="menu">
+          <a href="/login">login</a>
+          </span>
+        <span class="menu">|</span>
+        <span class="menu"><a href="/about">about</a></span>
+        </nobr>
+        </td>
+        
+        </tr></table>
+
+<div style="margin: 8px 8px 8px 8px">
+
+        
+
+
+
+
+
+<p>
+<center>
+<table border="0" cellpadding="0" cellspacing="0" width="1%">
+<tr>
+<td style="vertical-align: top" width="1%">
+
+  <div
+   class="editor"
+   id="editor"
+  >
+  <form action="/" method="post">
+  <table cellpadding="10" width="1%">
+    <tr>
+    <td colspan="2">
+    <span class="label">codepad is an online compiler/interpreter,
+    and a simple collaboration tool.<br/>  Paste your code below, and
+    codepad will run it and give you a short URL you can use to share
+    it in chat or email.
+    </span>
+    </td>
+    </tr>
+
+  <tr>
+    <td style="vertical-align: top"><span style="vertical-align:middle" class="label">Language:</span>
+   <br/>
+
+    <nobr><label><input style="vertical-align:middle" type="radio" name="lang" value="C" checked="checked"/><span style="vertical-align:middle" class="label">C</span></label></nobr><br/>
+    <nobr><label><input style="vertical-align:middle" type="radio" name="lang" value="C++"/><span style="vertical-align:middle" class="label">C++</span></label></nobr><br/>
+    <nobr><label><input style="vertical-align:middle" type="radio" name="lang" value="D"/><span style="vertical-align:middle" class="label">D</span></label></nobr><br/>
+    <nobr><label><input style="vertical-align:middle" type="radio" name="lang" value="Haskell"/><span style="vertical-align:middle" class="label">Haskell</span></label></nobr><br/>
+    <nobr><label><input style="vertical-align:middle" type="radio" name="lang" value="Lua"/><span style="vertical-align:middle" class="label">Lua</span></label></nobr><br/>
+    <nobr><label><input style="vertical-align:middle" type="radio" name="lang" value="OCaml"/><span style="vertical-align:middle" class="label">OCaml</span></label></nobr><br/>
+    <nobr><label><input style="vertical-align:middle" type="radio" name="lang" value="PHP"/><span style="vertical-align:middle" class="label">PHP</span></label></nobr><br/>
+    <nobr><label><input style="vertical-align:middle" type="radio" name="lang" value="Perl"/><span style="vertical-align:middle" class="label">Perl</span></label></nobr><br/>
+    <nobr><label><input style="vertical-align:middle" type="radio" name="lang" value="Plain Text"/><span style="vertical-align:middle" class="label">Plain Text</span></label></nobr><br/>
+    <nobr><label><input style="vertical-align:middle" type="radio" name="lang" value="Python"/><span style="vertical-align:middle" class="label">Python</span></label></nobr><br/>
+    <nobr><label><input style="vertical-align:middle" type="radio" name="lang" value="Ruby"/><span style="vertical-align:middle" class="label">Ruby</span></label></nobr><br/>
+    <nobr><label><input style="vertical-align:middle" type="radio" name="lang" value="Scheme"/><span style="vertical-align:middle" class="label">Scheme</span></label></nobr><br/>
+    <nobr><label><input style="vertical-align:middle" type="radio" name="lang" value="Tcl"/><span style="vertical-align:middle" class="label">Tcl</span></label></nobr><br/>
+    </td>
+    <td style="vertical-align: middle"><textarea id="textarea" name="code" cols="80" rows="15" wrap="off"></textarea></td>
+  </tr>
+  <tr>
+    <td colspan="2" style="vertical-align: middle; text-align: right">
+      <table cellspacing="0" cellpadding="0" width="100%"><tr>
+      <td style="text-align: right;">
+      <div style="float: right">
+      <table><tr>
+      <td>
+      <label style="margin-right:1em">
+        <input style="vertical-align:middle"
+          type="checkbox" name="private" value="True"
+        /><span style="vertical-align:middle" class="label">Private</span>
+              <span class="label" style="font-size:75%;">[<a href="/help/private-pastes" onClick="window.open(this.href, 'new_window', 'height=300, width=400'); return false;">?</a>]</span>
+      </label>
+      </td>
+      <td>
+      <label style="margin-right:1em">
+        <input style="vertical-align:middle"
+          type="checkbox" name="run" value="True"
+            checked="True"
+        /><span style="vertical-align:middle" class="label">Run code</span>
+      </label>
+      </td>
+      <td style="text-align: right">
+      <input type="submit" name="submit" value="Submit"/>
+      </td>
+      </tr></table>
+      </div>
+      </td></tr></table>
+    </td>
+  </tr>
+  </table>
+  </form>
+  </div>
+
+</td>
+
+<td style="text-align: right; vertical-align: top">
+<div class="front-menu">
+<table cellpadding="10">
+<tr><td style="text-align: center">
+<span class="label">
+<nobr>
+<a href="/recent">Recent Pastes</a>
+</nobr>
+</span><br/>
+<span class="label">
+<nobr>
+<a href="/mkproj">Get a Project Page</a>
+</nobr>
+</span><br/>
+<span class="label">
+<nobr>
+<a href="/hello-world">Hello World Examples</a>
+</nobr>
+</span><br/>
+<span class="label">
+<nobr>
+<a href="/fizzbuzz">FizzBuzz</a>
+</nobr>
+</span><br/>
+<span class="label">
+<nobr>
+<a href="http://www.vim.org/scripts/script.php?script_id=2298">Vim Plugin</a>
+</nobr>
+</span><br/>
+<span class="label">
+<nobr>
+<a href="http://github.com/ruediger/emacs-codepad">Emacs Integration</a>
+</nobr>
+</span>
+</td></tr>
+</table>
+</div>
+
+<div style="text-align: left; margin-left: 1em; margin-top: 1em; font-family: ariel,sans-serif;">
+codepad was created by Steven Hazel, one of the founders of
+<a href="http://saucelabs.com/">Sauce Labs</a>.
+
+<p>
+Sauce Labs provides a cloud service for
+<a href="http://saucelabs.com/ondemand">cross browser testing</a> with Selenium.  Our API lets you remote-control web browsers using many of the codepad languages.
+</div>
+
+</td></tr>
+</table>
+
+</table>
+</center>
+</div>
+
+<script src="/js/prototype-ajax-only.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+var pageTracker = _gat._getTracker("UA-447571-2");
+pageTracker._initData();
+pageTracker._trackPageview();
+</script>
+    </body>
+</html>
+
+
+
+
+
