@@ -1,0 +1,506 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xml:lang="en-US" lang="en-US" xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head"><meta content="text/html; charset=UTF-8" http-equiv="Content-Type" /><meta content="text/javascript" http-equiv="Content-Script-Type" /><meta content="text/css" http-equiv="Content-Style-Type" /><meta id="MetaDescription" name="DESCRIPTION" content="Home" /><meta id="MetaCopyright" name="COPYRIGHT" content="Copyright (c) 2010 by NACS" /><meta id="MetaAuthor" name="AUTHOR" content="NACS" /><meta name="RESOURCE-TYPE" content="DOCUMENT" /><meta name="DISTRIBUTION" content="GLOBAL" /><meta id="MetaRobots" name="ROBOTS" content="INDEX, FOLLOW" /><meta name="REVISIT-AFTER" content="1 DAYS" /><meta name="RATING" content="GENERAL" /><meta http-equiv="PAGE-ENTER" content="RevealTrans(Duration=0,Transition=1)" /><style id="StylePlaceholder" type="text/css"></style><link id="APortals__default_" rel="stylesheet" type="text/css" href="/Portals/_default/default.css" /><link id="APortals_NACS_Skins_Home_Page_" rel="stylesheet" type="text/css" href="/Portals/NACS/Skins/Home_Page/skin.css" /><link id="APortals_NACS_Skins_Home_Page_Default_css" rel="stylesheet" type="text/css" href="/Portals/NACS/Skins/Home_Page/Default.css" /><link id="APortals_NACS_Containers_Home_Page_" rel="stylesheet" type="text/css" href="/Portals/NACS/Containers/Home_Page/container.css" /><link id="APortals_NACS_" rel="stylesheet" type="text/css" href="/Portals/NACS/portal.css" /><script type="text/javascript" src="/Resources/Shared/Scripts/jquery/jquery.min.js" ></script><title>
+	National Association of College Stores (NACS)
+</title></head>
+<body id="Body">
+    <form name="Form" method="post" action="/Default.aspx" id="Form" enctype="multipart/form-data">
+<div>
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUKMTYwNjM1MDk3Mg9kFgZmDxYCHgRUZXh0BXk8IURPQ1RZUEUgaHRtbCBQVUJMSUMgIi0vL1czQy8vRFREIFhIVE1MIDEuMCBUcmFuc2l0aW9uYWwvL0VOIiAiaHR0cDovL3d3dy53My5vcmcvVFIveGh0bWwxL0RURC94aHRtbDEtdHJhbnNpdGlvbmFsLmR0ZCI+ZAIBD2QWDgIEDxYCHgdWaXNpYmxlaGQCBQ8WAh4HY29udGVudAUESG9tZWQCBg8WBB8CZB8BaGQCBw8WAh8CBRpDb3B5cmlnaHQgKGMpIDIwMTAgYnkgTkFDU2QCCA8WBB8CZB8BaGQCCQ8WAh8CBQROQUNTZAIMDxYCHwIFDUlOREVYLCBGT0xMT1dkAgIPZBYCAgEPZBYCAgQPZBYCZg9kFg4CAQ9kFgICAQ9kFgJmDxYCHwFoFgJmD2QWAmYPZBYGAgMPEGRkFgBkAg8PZBYCZg8PFgYeCEltYWdlVXJsBRQvaW1hZ2VzL2NvbGxhcHNlLmdpZh4NQWx0ZXJuYXRlVGV4dAUITWluaW1pemUeB1Rvb2xUaXAFCE1pbmltaXplZGQCEQ9kFgICAQ9kFgICAQ9kFhACAQ8QZGQWAGQCBQ8QZGQWAGQCBw8QZGQWAGQCCw8QZGQWAGQCDw8QZGQWAGQCFQ8QZGQWAGQCGQ8QZGQWAWZkAh0PEGRkFgBkAgMPZBYGZg9kFghmDxYCHwFoZAIBDxAPFgIfAWhkZBYAZAICDxYCHwFoZAIDDxYCHwFoZAICD2QWCGYPDxYCHwFnZBYEAgMPDxYCHgtOYXZpZ2F0ZVVybAUlaHR0cDovL3d3dy5uYWNzLm9yZy9SZWdpc3RyYXRpb24uYXNweGRkAgkPD2QWAh4FdmFsdWVlZAICD2QWAgIBD2QWAmYPDxYGHghDc3NDbGFzcwUEdXNlch8ABQhSZWdpc3Rlch4EXyFTQgICZGQCAw8WAh4HT25DbGljawWoC3siQW5pbWF0aW9uTmFtZSI6IlNlcXVlbmNlIiwiQW5pbWF0aW9uQ2hpbGRyZW4iOlt7IkFuaW1hdGlvbk5hbWUiOiJFbmFibGVBY3Rpb24iLCJFbmFibGVkIjoiZmFsc2UiLCJBbmltYXRpb25DaGlsZHJlbiI6W119LHsiQW5pbWF0aW9uTmFtZSI6IlNjcmlwdEFjdGlvbiIsIlNjcmlwdCI6IkNvdmVyKCRnZXQoXHUwMDI3ZG5uX25hY3NIZWFkZXJfbmFjc0xvZ2luX2J0bkxvZ2luXHUwMDI3KSwgJGdldChcdTAwMjdmbHlvdXRcdTAwMjcpKTsiLCJBbmltYXRpb25DaGlsZHJlbiI6W119LHsiQW5pbWF0aW9uTmFtZSI6IlN0eWxlQWN0aW9uIiwiQW5pbWF0aW9uVGFyZ2V0IjoiZmx5b3V0IiwiQXR0cmlidXRlIjoiZGlzcGxheSIsIlZhbHVlIjoiYmxvY2siLCJBbmltYXRpb25DaGlsZHJlbiI6W119LHsiQW5pbWF0aW9uTmFtZSI6IlBhcmFsbGVsIiwiQW5pbWF0aW9uVGFyZ2V0IjoiZmx5b3V0IiwiRHVyYXRpb24iOiIuMyIsIkZwcyI6IjI1IiwiQW5pbWF0aW9uQ2hpbGRyZW4iOlt7IkFuaW1hdGlvbk5hbWUiOiJNb3ZlIiwiSG9yaXpvbnRhbCI6Ii0xNTAiLCJWZXJ0aWNhbCI6Ii0yMCIsIkFuaW1hdGlvbkNoaWxkcmVuIjpbXX0seyJBbmltYXRpb25OYW1lIjoiUmVzaXplIiwiV2lkdGgiOiIyMTAiLCJIZWlnaHQiOiIxNTAiLCJBbmltYXRpb25DaGlsZHJlbiI6W119LHsiQW5pbWF0aW9uTmFtZSI6IkNvbG9yIiwiUHJvcGVydHlLZXkiOiJiYWNrZ3JvdW5kQ29sb3IiLCJTdGFydFZhbHVlIjoiI0FBQUFBQSIsIkVuZFZhbHVlIjoiI0ZGRkZGRiIsIkFuaW1hdGlvbkNoaWxkcmVuIjpbXX1dfSx7IkFuaW1hdGlvbk5hbWUiOiJTY3JpcHRBY3Rpb24iLCJTY3JpcHQiOiJDb3ZlcigkZ2V0KFx1MDAyN2ZseW91dFx1MDAyNyksICRnZXQoXHUwMDI3aW5mb1x1MDAyNyksIHRydWUpOyIsIkFuaW1hdGlvbkNoaWxkcmVuIjpbXX0seyJBbmltYXRpb25OYW1lIjoiU3R5bGVBY3Rpb24iLCJBbmltYXRpb25UYXJnZXQiOiJpbmZvIiwiQXR0cmlidXRlIjoiZGlzcGxheSIsIlZhbHVlIjoiYmxvY2siLCJBbmltYXRpb25DaGlsZHJlbiI6W119LHsiQW5pbWF0aW9uTmFtZSI6IkZhZGVJbiIsIkFuaW1hdGlvblRhcmdldCI6ImluZm8iLCJEdXJhdGlvbiI6Ii4xIiwiQW5pbWF0aW9uQ2hpbGRyZW4iOltdfSx7IkFuaW1hdGlvbk5hbWUiOiJTdHlsZUFjdGlvbiIsIkFuaW1hdGlvblRhcmdldCI6ImZseW91dCIsIkF0dHJpYnV0ZSI6ImRpc3BsYXkiLCJWYWx1ZSI6Im5vbmUiLCJBbmltYXRpb25DaGlsZHJlbiI6W119LHsiQW5pbWF0aW9uTmFtZSI6IlBhcmFsbGVsIiwiQW5pbWF0aW9uVGFyZ2V0IjoiaW5mbyIsIkR1cmF0aW9uIjoiLjUiLCJBbmltYXRpb25DaGlsZHJlbiI6W3siQW5pbWF0aW9uTmFtZSI6IkZhZGVJbiIsIkFuaW1hdGlvblRhcmdldCI6ImJ0bkNsb3NlUGFyZW50IiwiTWF4aW11bU9wYWNpdHkiOiIuOSIsIkFuaW1hdGlvbkNoaWxkcmVuIjpbXX1dfV19ZAIFD2QWBAIBDxYCHwFoFgICAQ9kFgJmDxYCHgNmb3IFI2Rubl9uYWNzSGVhZGVyX25hY3NMb2dpbl9jdGxDYXB0Y2hhZAIDDxYCHwFoFgICAQ8UKwADZAUGSHdMRjZQZGQCAw9kFgYCAQ8PZBYCHglvbmtleWRvd24F1gFyZXR1cm4gX19kbm5fS2V5RG93bignMTMnLCAnamF2YXNjcmlwdDpfX2RvUG9zdEJhY2soJTI3ZG5uJG5hY3NIZWFkZXIkTkFDU1NlYXJjaCRjbWRHbyUyNywlMjclMjcpJywgZXZlbnQpO3JldHVybiBfX2Rubl9LZXlEb3duKCcxMycsICdqYXZhc2NyaXB0Ol9fZG9Qb3N0QmFjayglMjdkbm4kbmFjc0hlYWRlciROQUNTU2VhcmNoJGltZ0dvJTI3LCUyNyUyNyknLCBldmVudCk7ZAIDDw8WAh8ABQZTRUFSQ0hkZAIFDw8WBh8EBQZTZWFyY2gfAwUzfi9EZXNrdG9wTW9kdWxlcy9YU1NlYXJjaElucHV0L2ltYWdlcy9zZWFyY2hfZ28uZ2lmHwFoZGQCDQ9kFgICAQ9kFgQCAQ8PFgIfAWhkZAIDD2QWAgIBDw9kFgIeBWNsYXNzBQ9ETk5fSFRNTENvbnRlbnRkAg8PZBYCAgEPZBYGAgEPDxYCHwFoZGQCAw9kFgICAg8WAh8BaGQCBQ9kFgICAQ8PZBYCHw0FD0ROTl9IVE1MQ29udGVudGQCEQ9kFgICAQ9kFgYCAQ8PFgIfAWhkZAIDD2QWAgICDxYCHwFoZAIFD2QWAgIBDw9kFgIfDQUPRE5OX0hUTUxDb250ZW50ZAITD2QWAgIBD2QWBgIBDw8WAh8BaGRkAgMPZBYCAgIPFgIfAWhkAgUPZBYCAgEPD2QWAh8NBQ9ETk5fSFRNTENvbnRlbnRkAhUPZBYCAgEPZBYGAgEPDxYCHwFoZGQCAw9kFgICAg8WAh8BaGQCBQ9kFgICAQ8PZBYCHw0FD0ROTl9IVE1MQ29udGVudGQYAQUeX19Db250cm9sc1JlcXVpcmVQb3N0QmFja0tleV9fFgIFImRubiRuYWNzSGVhZGVyJG5hY3NMb2dpbiRjaGtDb29raWUFIGRubiRuYWNzTWFpbk5hdiRkbm5OQVYkY3RsZG5uTkFWWtoew4ul2cuOZGxPuRn2d9Gc4Ok=" />
+</div>
+
+
+<script src="/js/dnncore.js" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=SAgV5BGH1xKGj5_ykyO7t1Oel0ugJUssFN5UODs72UWEP-mg026hzFKrzmh70HnwJq2KEEzinrACEKSbi17uKmKZ91awOPY7QulZ6CsJR9q1XOnDWFXLAZS3kEx29EufQ83vRQ8EoHcoWOGt2vZyGcT3kP41&amp;t=7e7391d0" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=A-GFL9TwrMVWxx6rK_thohqYDGT3NcxzDKX5FtcGIEwjzjyLLqG-RcL1o7mKs1saownWdjC7PK8iI073-_mMm1RCGSVAGoAtRVsxI04q0CHJ6IojiUovelhPYUzGy-4Sv758EwnaS31D1tTg0&amp;t=1ca0b894" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=LGxZ7T9vp_wStS1JW-9HQGKcXMxzLzCx1QWyd9sbyX0P4pPTW6YHZXayjd_ie31QrK7AXKB76mOgdY35JhTsfZm78Xxgvk2UglGiXQKdVC8Ra5s_TAqGpwOJaPrSAZ4hty42DMSUEOLy7OO60&amp;t=1ca0b894" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=XaiRfIhemTYGdAM4blauo8IeCsG4Suqk0aRno48UZ_pjQkEp_IwSanlVR1YAiprifWKAS793U9boK2w0zgtTRTnscw4xskInuEDetEfIrcftVyrNl5Rn1MHOqOR3aEwwBKdYTlwry8HSPEnv0&amp;t=1ca0b894" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=epPNtk1qiaTKIsboalFXov5f8b07F63WmrKN5Ke3x1MyRIEXA0Yy-BAmxugThXKgQtOm_ZNNCh62emX6-lFP99lOcHCt0bUfhaxVObouVumG2c8jd1QTajCdk1NM56zn4j7YRhX030EZKvk-K_jGHs7oojs1&amp;t=1ca0b894" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=ergXbNWLIeX8a3Wld71F_Dw7E4qpFtWaLtMSwgYz80wXi-hG2qeiXVj0PHjLG0ieZXTO3aohCFXorUPNi--Mlt_IuphYGaV8gLLJ-x6k6RTmyR5MODj1cc1mZKsGSN249iiuJCUabe1APe4bcU1VCkYZgE41&amp;t=1ca0b894" type="text/javascript"></script>
+        
+        
+<div>
+    <div class="template_style">
+        <div class="cpanel_left">
+            <div class="cpanel_right">
+                <div id="dnn_ControlPanel">
+                
+</div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Start NACS content -->
+<div id="nacscontent">
+    <div class="headerwrapper">
+        
+
+<!-- Header -->
+
+    <script type="text/javascript" src="/Portals/NACS/Skins/_Shared_Resources/scripts/global.js"></script>
+
+    <!-- Main banner -->
+    <div class="nacsbanner">
+        <a href="default.aspx" id="dnn_nacsHeader_aHome" title="National Association of College Stores">
+            <img src="/Portals/NACS/Skins/_Shared_Resources/images/nacs_banner.gif" width="714" height="130" alt="National Association of College Stores" />
+        </a>
+    </div>
+    <!-- End main banner -->
+
+
+    <!-- Login and search area -->
+    <div class="nacsbanner">
+        <div class="bannerright">
+            <!-- NACS Exclude Begin -->
+            <div id="dnn_nacsHeader_nacsLogin_pnlLogInControls" class="logincontrols">
+	
+
+    <!-- Login -->
+    <div class="logincontrols">
+    
+        <div class="fixedloginlinks">
+            <div class="loginimagebutton">
+                <input type="submit" name="dnn$nacsHeader$nacsLogin$btnLogin" value="LOGIN" onclick="return false;" id="dnn_nacsHeader_nacsLogin_btnLogin" class="buttondark" />
+            </div>
+            <div class="loginlinks">
+                <p>
+                    <a id="dnn_nacsHeader_nacsLogin_lnkRegistration" href="http://www.nacs.org/Registration.aspx" style="display:inline-block;width:100%;">&nbsp;Need a Login?</a>
+                </p>
+            </div>            
+        </div>
+    
+        <!-- Login flyout -->
+        <div class="flyoutwrapper">
+            <div id="flyout" class="flyout">
+            </div>
+                
+            <div id="info" class="infoflyout">
+                <div id="btnCloseParent" class="flyoutclosebutton">
+                    <a onclick="return false;" id="dnn_nacsHeader_nacsLogin_btnClose" title="Close" class="flyoutbutton" href="javascript:__doPostBack('dnn$nacsHeader$nacsLogin$btnClose','')">X</a>
+                </div>
+                
+                <div class="loginboxes">
+                    <div>
+                        User Name <input name="dnn$nacsHeader$nacsLogin$txtUsername" type="text" id="dnn_nacsHeader_nacsLogin_txtUsername" class="bannerinput" />
+                    </div>
+
+                    <div>
+                        Password <input name="dnn$nacsHeader$nacsLogin$txtPassword" type="password" id="dnn_nacsHeader_nacsLogin_txtPassword" class="bannerinput" value="" />
+                    </div>
+                    <div>
+                        <input type="submit" name="dnn$nacsHeader$nacsLogin$cmdLogin" value="Login" id="dnn_nacsHeader_nacsLogin_cmdLogin" class="buttondark" />
+                    </div>
+
+                    <div class="clearfloat"></div>
+                </div>
+                <div class="loginlinks">
+                    <div>
+                        <span class="checkbox"><input id="dnn_nacsHeader_nacsLogin_chkCookie" type="checkbox" name="dnn$nacsHeader$nacsLogin$chkCookie" /></span>
+                    </div>
+                </div>
+                
+                <div class="loginlinks">
+                    <p>
+                        <label id="dnn_nacsHeader_nacsLogin_lblCookie" for="chkRememberMe">Remember Me</label>
+                        | <a id="dnn_nacsHeader_nacsLogin_lbPassword" href="javascript:__doPostBack('dnn$nacsHeader$nacsLogin$lbPassword','')">Forgot Password</a>
+                    </p>
+                </div>
+                <div class="clearfloat"></div>
+            </div>
+       </div>
+        <!-- End login flyout -->
+    </div>
+    <!-- End login -->
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+ 
+            <!-- NACS Exclude End -->
+            
+
+<div class="quicksearch">
+    <div class="floatleft">
+        <input name="dnn$nacsHeader$NACSSearch$txtSearch" type="text" maxlength="200" id="dnn_nacsHeader_NACSSearch_txtSearch" class="bannerinput" onkeydown="return __dnn_KeyDown('13', 'javascript:__doPostBack(%27dnn$nacsHeader$NACSSearch$cmdGo%27,%27%27)', event);return __dnn_KeyDown('13', 'javascript:__doPostBack(%27dnn$nacsHeader$NACSSearch$imgGo%27,%27%27)', event);" />
+    </div>
+    <div class="floatleft">
+        <input type="submit" name="dnn$nacsHeader$NACSSearch$cmdGo" value="SEARCH" id="dnn_nacsHeader_NACSSearch_cmdGo" class="buttonlight" />
+        
+    </div>
+</div>
+<div class="clearright"></div>
+<div class="advancedsearch">
+    <a href="AdvancedSearch.aspx">Advanced Search</a>
+</div>
+
+        </div>
+    </div>
+    
+    <div class="hr"></div>
+    <!-- End login and search area -->
+
+    <div class="div_loginfailed">
+        
+    </div>
+<!-- End header -->
+     
+        
+<!--
+    <div class="breadcrumbwrapper">
+        <span id="dnn_nacsHeader_dnnTEXT_lblText" class="breadcrumb_text"></span>
+
+        <span id="dnn_nacsHeader_dnnBREADCRUMB_lblBreadCrumb"><a href="http://www.nacs.org/home.aspx" class="Breadcrumb">Home</a></span>
+
+    </div> 
+    -->
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+    <div class="bodywrapper">
+        <div class="mainnavwrapper">
+               
+<div style="float: left;width:90px;">
+    <div>
+	<ul class="" id="dnn_nacsMainNav_dnnNAV_ctldnnNAV">
+		<li id="dnn_nacsMainNav_dnnNAV_ctldnnNAVctr56"><a href="http://www.nacs.org/about.aspx"><span>About NACS</span><img src="/images/spacer.gif" style="border-width:0px;" /></a><ul id="dnn_nacsMainNav_dnnNAV_ctldnnNAVsub56">
+			<li id="dnn_nacsMainNav_dnnNAV_ctldnnNAVctr97"><a href="http://www.nacs.org/about/overview.aspx"><span>Overview</span></a></li><li id="dnn_nacsMainNav_dnnNAV_ctldnnNAVctr98"><a href="http://www.nacs.org/about/strategicpriorities.aspx"><span>Strategic Priorities</span></a></li><li id="dnn_nacsMainNav_dnnNAV_ctldnnNAVctr99"><a href="http://www.nacs.org/about/factsinfo.aspx"><span>Facts & Information</span><img src="/images/breadcrumb.gif" style="border-width:0px;" /></a><ul id="dnn_nacsMainNav_dnnNAV_ctldnnNAVsub99">
+				<li id="dnn_nacsMainNav_dnnNAV_ctldnnNAVctr1607"><a href="http://www.nacs.org/about/factsinfo/reports.aspx"><span>Annual Reports</span></a></li><li id="dnn_nacsMainNav_dnnNAV_ctldnnNAVctr1434"><a href="/LinkClick.aspx?fileticket=MKt_CKYJf4A%3d&amp;tabid=1434"><span>NACS Bylaws (PDF | 210 KB)</span></a></li><li id="dnn_nacsMainNav_dnnNAV_ctldnnNAVctr1433"><a href="/LinkClick.aspx?fileticket=z-VKQ1DwV7o%3d&amp;tabid=1433"><span>Electoral Map (PDF | 348 KB)</span></a></li>
+			</ul></li><li id="dnn_nacsMainNav_dnnNAV_ctldnnNAVctr84"><a href="http://www.nacs.org/about/leadership.aspx"><span>Leadership</span><img src="/images/breadcrumb.gif" style="border-width:0px;" /></a><ul id="dnn_nacsMainNav_dnnNAV_ctldnnNAVsub84">
+				<li id="dnn_nacsMainNav_dnnNAV_ctldnnNAVctr85"><a href="http://www.nacs.org/about/leadership/nacsboard.aspx"><span>NACS Board of Trustees</span></a></li><li id="dnn_nacsMainNav_dnnNAV_ctldnnNAVctr87"><a href="http://www.nacs.org/about/leadership/foundationboard.aspx"><span>NACS Foundation Board of Directors</span></a></li><li id="dnn_nacsMainNav_dnnNAV_ctldnnNAVctr88"><a href="http://www.nacs.org/about/leadership/nmsboard.aspx"><span>NACS Media Solutions Board of Directors</span></a></li><li id="dnn_nacsMainNav_dnnNAV_ctldnnNAVctr89"><a href="http://www.nacs.org/about/leadership/nacscorpboard.aspx"><span>NACSCORP Board of Directors</span></a></li><li id="dnn_nacsMainNav_dnnNAV_ctldnnNAVctr90"><a href="http://www.nacs.org/about/leadership/partnership.aspx"><span>PartnerShip Board of Directors</span></a></li>
+			</ul></li><li id="dnn_nacsMainNav_dnnNAV_ctldnnNAVctr1460"><a href="http://www.nacs.org/about/staffdirectory.aspx"><span>Staff Directory</span></a></li><li id="dnn_nacsMainNav_dnnNAV_ctldnnNAVctr160"><a href="http://www.nacs.org/mcs/becomemember.aspx"><span>Membership</span><img src="/images/breadcrumb.gif" style="border-width:0px;" /></a><ul id="dnn_nacsMainNav_dnnNAV_ctldnnNAVsub160">
+				<li id="dnn_nacsMainNav_dnnNAV_ctldnnNAVctr161"><a href="http://www.nacs.org/mcs/becomemember.aspx"><span>Become A Member</span><img src="/images/breadcrumb.gif" style="border-width:0px;" /></a><ul id="dnn_nacsMainNav_dnnNAV_ctldnnNAVsub161">
+					<li id="dnn_nacsMainNav_dnnNAV_ctldnnNAVctr1731"><a href="http://www.nacs.org/AboutNACS/Membership/BecomeMember/StoreMembership.aspx"><span>Store Membership</span></a></li><li id="dnn_nacsMainNav_dnnNAV_ctldnnNAVctr1732"><a href="http://www.nacs.org/AboutNACS/Membership/BecomeMember/AssociateMembership.aspx"><span>Associate Membership</span></a></li><li id="dnn_nacsMainNav_dnnNAV_ctldnnNAVctr1748"><a href="http://www.nacs.org/AboutNACS/Membership/BecomeMember/AssociateRepresentativeMember.aspx"><span>Associate Representative Member</span></a></li><li id="dnn_nacsMainNav_dnnNAV_ctldnnNAVctr1755"><a href="http://www.nacs.org/AboutNACS/Membership/BecomeMember/AffiliateMembership.aspx"><span>Affiliate Membership</span></a></li><li id="dnn_nacsMainNav_dnnNAV_ctldnnNAVctr1757"><a href="http://www.nacs.org/AboutNACS/Membership/BecomeMember/IndividualMembership.aspx"><span>Individual Membership</span></a></li><li id="dnn_nacsMainNav_dnnNAV_ctldnnNAVctr1756"><a href="http://www.nacs.org/AboutNACS/Membership/BecomeMember/ProfessionalMembership.aspx"><span>Professional Membership</span></a></li><li id="dnn_nacsMainNav_dnnNAV_ctldnnNAVctr1734"><a href="http://www.nacs.org/AboutNACS/Membership/BecomeMember/NACSABASubscriberMembership.aspx"><span>NACS/ABA Subscriber Membership</span></a></li>
+				</ul></li><li id="dnn_nacsMainNav_dnnNAV_ctldnnNAVctr163"><a href="http://www.nacs.org/mcs/categoriesbenefits.aspx"><span>Member Categories & Benefits</span></a></li><li id="dnn_nacsMainNav_dnnNAV_ctldnnNAVctr1486"><a href="http://www.nacs.org/about/membership/NACSStore.aspx"><span>Shop at Concierge Services—NACS Store</span></a></li>
+			</ul></li><li id="dnn_nacsMainNav_dnnNAV_ctldnnNAVctr1458"><a href="http://www.nacs.org/about/careers.aspx"><span>Career Opportunities</span></a></li><li id="dnn_nacsMainNav_dnnNAV_ctldnnNAVctr91"><a href="http://www.nacs.org/about/subsidiaries.aspx"><span>Subsidiaries</span><img src="/images/breadcrumb.gif" style="border-width:0px;" /></a><ul id="dnn_nacsMainNav_dnnNAV_ctldnnNAVsub91">
+				<li id="dnn_nacsMainNav_dnnNAV_ctldnnNAVctr95"><a href="http://www.nacscorp.com"><span>NACSCORP</span></a></li><li id="dnn_nacsMainNav_dnnNAV_ctldnnNAVctr93"><a href="http://www.nacsfoundation.org"><span>NACS Foundation</span></a></li><li id="dnn_nacsMainNav_dnnNAV_ctldnnNAVctr94"><a href="http://www.nacsmediasolutions.com"><span>NACS Media Solutions, LLC</span></a></li><li id="dnn_nacsMainNav_dnnNAV_ctldnnNAVctr96"><a href="http://www.partnership.com"><span>PartnerShip</span></a></li>
+			</ul></li><li id="dnn_nacsMainNav_dnnNAV_ctldnnNAVctr1435"><a href="http://www.nacs.org/about/specialinterestgroups.aspx"><span>Special Interest Groups</span><img src="/images/breadcrumb.gif" style="border-width:0px;" /></a><ul id="dnn_nacsMainNav_dnnNAV_ctldnnNAVsub1435">
+				<li id="dnn_nacsMainNav_dnnNAV_ctldnnNAVctr1436"><a href="http://www.ccra.org"><span>CCRA: Campus Computer Resellers Alliance</span></a></li>
+			</ul></li><li id="dnn_nacsMainNav_dnnNAV_ctldnnNAVctr2071"><a href="http://www.nacs.org/about/relatedorganizations.aspx"><span>Related Organizations</span></a></li>
+		</ul></li><li id="dnn_nacsMainNav_dnnNAV_ctldnnNAVctr72"><a href="http://www.nacs.org/educationevents.aspx"><span>Education & Events</span><img src="/images/spacer.gif" style="border-width:0px;" /></a><ul id="dnn_nacsMainNav_dnnNAV_ctldnnNAVsub72">
+			<li id="dnn_nacsMainNav_dnnNAV_ctldnnNAVctr1461"><a href="http://www.nacs.org/educationevents/calendar.aspx"><span>Event Calendar</span></a></li><li id="dnn_nacsMainNav_dnnNAV_ctldnnNAVctr1559"><a href="http://www.camex.org"><span>CAMEX: Campus Market Expo</span></a></li><li id="dnn_nacsMainNav_dnnNAV_ctldnnNAVctr1560"><a href="http://www.ccra.org/conference"><span>CCRA Conference & Expo</span></a></li><li id="dnn_nacsMainNav_dnnNAV_ctldnnNAVctr1867"><a href="http://www.nacs.org/educationevents/ccssummit.aspx"><span>Community College Stores Summit</span></a></li><li id="dnn_nacsMainNav_dnnNAV_ctldnnNAVctr1370"><a href="http://www.nacs.org/educationevents/privatestoresconference.aspx"><span>Private Stores Conference</span></a></li><li id="dnn_nacsMainNav_dnnNAV_ctldnnNAVctr1870"><a href="http://www.nacs.org/educationevents/leadershipconference.aspx"><span>State & Regional Association Leadership Conference</span></a></li><li id="dnn_nacsMainNav_dnnNAV_ctldnnNAVctr1523"><a href="http://www.nacs.org/educationevents/xtreme.aspx"><span>Xtreme! Retailing Seminar</span></a></li><li id="dnn_nacsMainNav_dnnNAV_ctldnnNAVctr101"><a href="http://www.nacs.org/educationevents/online.aspx"><span>Online Courses & Webinars</span><img src="/images/breadcrumb.gif" style="border-width:0px;" /></a><ul id="dnn_nacsMainNav_dnnNAV_ctldnnNAVsub101">
+				<li id="dnn_nacsMainNav_dnnNAV_ctldnnNAVctr134"><a href="http://www.nacs.org/educationevents/online/oneweek.aspx"><span>One-week Courses</span><img src="/images/breadcrumb.gif" style="border-width:0px;" /></a><ul id="dnn_nacsMainNav_dnnNAV_ctldnnNAVsub134">
+					<li id="dnn_nacsMainNav_dnnNAV_ctldnnNAVctr2392"><a href="http://www.nacs.org/educationevents/online/oneweek/2015.aspx"><span>Charting Your Course to 2015 and Beyond</span></a></li><li id="dnn_nacsMainNav_dnnNAV_ctldnnNAVctr136"><a href="http://www.nacs.org/educationevents/online/oneweek/trp.aspx"><span>Developing a Textbook Rental Program</span></a></li><li id="dnn_nacsMainNav_dnnNAV_ctldnnNAVctr1889"><a href="http://www.nacs.org/educationevents/online/oneweek/sm.aspx"><span>Launching Your Social Media Presence</span></a></li><li id="dnn_nacsMainNav_dnnNAV_ctldnnNAVctr2078"><a href="http://www.nacs.org/educationevents/online/oneweek/st.aspx"><span>Selling Technology</span></a></li>
+				</ul></li><li id="dnn_nacsMainNav_dnnNAV_ctldnnNAVctr135"><a href="http://www.nacs.org/educationevents/online/fiveweek.aspx"><span>Five-week Courses</span><img src="/images/breadcrumb.gif" style="border-width:0px;" /></a><ul id="dnn_nacsMainNav_dnnNAV_ctldnnNAVsub135">
+					<li id="dnn_nacsMainNav_dnnNAV_ctldnnNAVctr102"><a href="http://www.nacs.org/educationevents/online/fiveweek/ism.aspx"><span>In-store Marketing and Visual Merchandising</span></a></li><li id="dnn_nacsMainNav_dnnNAV_ctldnnNAVctr114"><a href="http://www.nacs.org/educationevents/online/fiveweek/gm.aspx"><span>Making Sense of General Merchandise</span></a></li><li id="dnn_nacsMainNav_dnnNAV_ctldnnNAVctr119"><a href="http://www.nacs.org/educationevents/online/fiveweek/otb.aspx"><span>Mastering Open-to-buy</span></a></li><li id="dnn_nacsMainNav_dnnNAV_ctldnnNAVctr124"><a href="http://www.nacs.org/educationevents/online/fiveweek/pcsm.aspx"><span>The Principles of College Store Management </span></a></li><li id="dnn_nacsMainNav_dnnNAV_ctldnnNAVctr129"><a href="http://www.nacs.org/educationevents/online/fiveweek/pcmm.aspx"><span>The Principles of Course Materials Management</span></a></li>
+				</ul></li><li id="dnn_nacsMainNav_dnnNAV_ctldnnNAVctr166"><a href="http://www.nacs.org/educationevents/online/webinars.aspx"><span>Webinars</span></a></li>
+			</ul></li><li id="dnn_nacsMainNav_dnnNAV_ctldnnNAVctr165"><a href="http://www.nacs.org/educationevents/audiowebcasts.aspx"><span>Audio & Webcasts</span></a></li><li id="dnn_nacsMainNav_dnnNAV_ctldnnNAVctr1810"><a href="http://www.nacs.org/educationevents/quicktakes.aspx"><span>Quick Takes</span><img src="/images/breadcrumb.gif" style="border-width:0px;" /></a><ul id="dnn_nacsMainNav_dnnNAV_ctldnnNAVsub1810">
+				<li id="dnn_nacsMainNav_dnnNAV_ctldnnNAVctr1811"><a href="http://www.nacs.org/educationevents/quicktakes/copyrightbasics.aspx"><span>Copyright Basics for the College Store</span></a></li><li id="dnn_nacsMainNav_dnnNAV_ctldnnNAVctr1813"><a href="http://www.nacs.org/educationevents/quicktakes/textbookquantities.aspx"><span>Determining Textbook Order Quantities</span></a></li><li id="dnn_nacsMainNav_dnnNAV_ctldnnNAVctr1814"><a href="http://www.nacs.org/educationevents/quicktakes/retailmath.aspx"><span>Practical Retail Math</span></a></li>
+			</ul></li><li id="dnn_nacsMainNav_dnnNAV_ctldnnNAVctr1566"><a href="http://www.nacsfoundation.org/grants.aspx"><span>Financial Aid: NACS Foundation Grants</span></a></li>
+		</ul></li><li id="dnn_nacsMainNav_dnnNAV_ctldnnNAVctr73"><a href="http://www.nacs.org/mcs.aspx"><span>Member Concierge Services</span><img src="/images/spacer.gif" style="border-width:0px;" /></a><ul id="dnn_nacsMainNav_dnnNAV_ctldnnNAVsub73">
+			<li id="dnn_nacsMainNav_dnnNAV_ctldnnNAVctr1353"><a href="http://www.nacs.org/store.aspx"><span>Shop at Concierge Services - NACS Store</span></a></li><li id="dnn_nacsMainNav_dnnNAV_ctldnnNAVctr147"><a href="http://www.nacs.org/mcs/becomemember.aspx"><span>Become a Member</span><img src="/images/breadcrumb.gif" style="border-width:0px;" /></a><ul id="dnn_nacsMainNav_dnnNAV_ctldnnNAVsub147">
+				<li id="dnn_nacsMainNav_dnnNAV_ctldnnNAVctr1717"><a href="http://www.nacs.org/mcs/becomemember/StoreMembership.aspx"><span>Store Membership</span></a></li><li id="dnn_nacsMainNav_dnnNAV_ctldnnNAVctr1719"><a href="http://www.nacs.org/mcs/becomemember/AssociateMembership.aspx"><span>Associate Membership</span></a></li><li id="dnn_nacsMainNav_dnnNAV_ctldnnNAVctr1739"><a href="http://www.nacs.org/mcs/becomemember/AssociateRepresentativeMembership.aspx"><span>Associate Representative Membership</span></a></li><li id="dnn_nacsMainNav_dnnNAV_ctldnnNAVctr1740"><a href="http://www.nacs.org/mcs/becomemember/AffiliateMembership.aspx"><span>Affiliate Membership</span></a></li><li id="dnn_nacsMainNav_dnnNAV_ctldnnNAVctr1742"><a href="http://www.nacs.org/mcs/becomemember/IndividualMembership.aspx"><span>Individual Membership</span></a></li><li id="dnn_nacsMainNav_dnnNAV_ctldnnNAVctr1741"><a href="http://www.nacs.org/mcs/becomemember/ProfessionalMembership.aspx"><span>Professional Membership</span></a></li><li id="dnn_nacsMainNav_dnnNAV_ctldnnNAVctr1720"><a href="http://www.nacs.org/mcs/becomemember/ABASubscriberMembership.aspx"><span>NACS/ABA Subscriber Membership</span></a></li>
+			</ul></li><li id="dnn_nacsMainNav_dnnNAV_ctldnnNAVctr162"><a href="http://www.nacs.org/mcs/categoriesbenefits.aspx"><span>Member Categories & Benefits</span><img src="/images/breadcrumb.gif" style="border-width:0px;" /></a><ul id="dnn_nacsMainNav_dnnNAV_ctldnnNAVsub162">
+				<li id="dnn_nacsMainNav_dnnNAV_ctldnnNAVctr1509"><a href="http://www.nacs.org/mcs/categoriesbenefits/store.aspx"><span>Store Membership</span></a></li><li id="dnn_nacsMainNav_dnnNAV_ctldnnNAVctr1510"><a href="http://www.nacs.org/mcs/categoriesbenefits/associate.aspx"><span>Associate Membership</span></a></li><li id="dnn_nacsMainNav_dnnNAV_ctldnnNAVctr1511"><a href="http://www.nacs.org/mcs/categoriesbenefits/assocrep.aspx"><span>Associate Representative Membership</span></a></li><li id="dnn_nacsMainNav_dnnNAV_ctldnnNAVctr1512"><a href="http://www.nacs.org/mcs/categoriesbenefits/affiliate.aspx"><span>Affiliate Membership</span></a></li><li id="dnn_nacsMainNav_dnnNAV_ctldnnNAVctr1513"><a href="http://www.nacs.org/mcs/categoriesbenefits/individual.aspx"><span>Individual Membership</span></a></li><li id="dnn_nacsMainNav_dnnNAV_ctldnnNAVctr1514"><a href="http://www.nacs.org/mcs/categoriesbenefits/professional.aspx"><span>Professional Membership</span></a></li>
+			</ul></li><li id="dnn_nacsMainNav_dnnNAV_ctldnnNAVctr1481"><a href="http://www.nacs.org/mcs/nacsaba.aspx"><span>NACS & ABA Joint Membership Program</span></a></li><li id="dnn_nacsMainNav_dnnNAV_ctldnnNAVctr1483"><a href="http://www.nacs.org/mcs/renew.aspx"><span>Renew Your Membership</span></a></li><li id="dnn_nacsMainNav_dnnNAV_ctldnnNAVctr1311"><a href="http://www.nacs.org/mcs/findmember.aspx"><span>Find a Member</span><img src="/images/breadcrumb.gif" style="border-width:0px;" /></a><ul id="dnn_nacsMainNav_dnnNAV_ctldnnNAVsub1311">
+				<li id="dnn_nacsMainNav_dnnNAV_ctldnnNAVctr1448"><a href="http://www.nacs.org/mcs/findmember/storemembersearch.aspx"><span>Store Member Search</span></a></li><li id="dnn_nacsMainNav_dnnNAV_ctldnnNAVctr1449"><a href="http://www.nacs.org/mcs/findmember/buyersguide.aspx"><span>Vendor Member Directory: Buyers' Guide </span></a></li><li id="dnn_nacsMainNav_dnnNAV_ctldnnNAVctr1459"><a href="http://www.nacs.org/mcs/findmember/volunteerdirectory.aspx"><span>Volunteer Directory</span></a></li>
+			</ul></li><li id="dnn_nacsMainNav_dnnNAV_ctldnnNAVctr1492"><a href="http://www.nacs.org/mcs/partnerprograms.aspx"><span>Money Saving Member Partner Programs</span><img src="/images/breadcrumb.gif" style="border-width:0px;" /></a><ul id="dnn_nacsMainNav_dnnNAV_ctldnnNAVsub1492">
+				<li id="dnn_nacsMainNav_dnnNAV_ctldnnNAVctr1546"><a href="http://www.nacs.org/mcs/partnerprograms/dcn.aspx"><span>Digital College Network</span></a></li><li id="dnn_nacsMainNav_dnnNAV_ctldnnNAVctr1543"><a href="http://www.nacs.org/mcs/partnerprograms/massmarketing.aspx"><span>Mass Marketing Insurance Consultants Inc.</span></a></li><li id="dnn_nacsMainNav_dnnNAV_ctldnnNAVctr1542"><a href="http://www.nacs.org/mcs/partnerprograms/partnership.aspx"><span>PartnerShip</span></a></li><li id="dnn_nacsMainNav_dnnNAV_ctldnnNAVctr1545"><a href="http://www.nacs.org/mcs/partnerprograms/retailers.aspx"><span>Retailers Processing Network</span></a></li><li id="dnn_nacsMainNav_dnnNAV_ctldnnNAVctr1544"><a href="http://www.nacs.org/mcs/partnerprograms/sentry.aspx"><span>Sentry Technology Corporation</span></a></li><li id="dnn_nacsMainNav_dnnNAV_ctldnnNAVctr2289"><a href="http://www.nacs.org/mcs/partnerprograms/vendoropportunities.aspx"><span>Vendor/Associate Opportunities</span></a></li>
+			</ul></li><li id="dnn_nacsMainNav_dnnNAV_ctldnnNAVctr2220"><a href="http://www.nacs.org/mcs/strategicbusinessalliance.aspx"><span>Strategic Business Alliance</span></a></li><li id="dnn_nacsMainNav_dnnNAV_ctldnnNAVctr1312"><a href="http://www.nacs.org/mcs/directory.aspx"><span>2010 Directory of Colleges & College Stores</span></a></li><li id="dnn_nacsMainNav_dnnNAV_ctldnnNAVctr1802"><a href="http://www.nacs.org/mcs/NACSMemberUpdate.aspx"><span>NACS Member Update</span></a></li><li id="dnn_nacsMainNav_dnnNAV_ctldnnNAVctr1713"><a href="http://www.nacs.org/mcs/logos.aspx"><span>NACS Member Logos</span></a></li>
+		</ul></li><li id="dnn_nacsMainNav_dnnNAV_ctldnnNAVctr2396"><a href="http://www.nacs.org/govrelationsadvocacy.aspx"><span>Government Relations & Advocacy</span><img src="/images/spacer.gif" style="border-width:0px;" /></a><ul id="dnn_nacsMainNav_dnnNAV_ctldnnNAVsub2396">
+			<li id="dnn_nacsMainNav_dnnNAV_ctldnnNAVctr2397"><a href="http://www.nacs.org/govrelationsadvocacy/publicpolicy.aspx"><span>Public Policy</span><img src="/images/breadcrumb.gif" style="border-width:0px;" /></a><ul id="dnn_nacsMainNav_dnnNAV_ctldnnNAVsub2397">
+				<li id="dnn_nacsMainNav_dnnNAV_ctldnnNAVctr1598"><a href="http://www.nacs.org/govrelationsadvocacy/publicpolicy/coursematerialstudies.aspx"><span>Course Material Affordability Policy Studies</span></a></li><li id="dnn_nacsMainNav_dnnNAV_ctldnnNAVctr1596"><a href="http://www.nacs.org/govrelationsadvocacy/publicpolicy/heoa.aspx"><span>Higher Education Opportunity Act of 2008 Resources</span></a></li><li id="dnn_nacsMainNav_dnnNAV_ctldnnNAVctr1597"><a href="http://www.nacs.org/govrelationsadvocacy/publicpolicy/cpsi.aspx"><span>Consumer Product Safety Improvement Act Info</span></a></li><li id="dnn_nacsMainNav_dnnNAV_ctldnnNAVctr1599"><a href="http://www.nacs.org/govrelationsadvocacy/publicpolicy/taxes.aspx"><span>Sales and Use Taxes Charged on Textbooks</span></a></li><li id="dnn_nacsMainNav_dnnNAV_ctldnnNAVctr2491"><a href="http://www.nacs.org/govrelationsadvocacy/publicpolicy/casestudies.aspx"><span>Campus Relations Toolkit Case Studies</span></a></li>
+			</ul></li><li id="dnn_nacsMainNav_dnnNAV_ctldnnNAVctr2398"><a href="http://www.nacs.org/govrelationsadvocacy/advocacy.aspx"><span>Advocacy</span><img src="/images/breadcrumb.gif" style="border-width:0px;" /></a><ul id="dnn_nacsMainNav_dnnNAV_ctldnnNAVsub2398">
+				<li id="dnn_nacsMainNav_dnnNAV_ctldnnNAVctr152"><a href="http://www.nacs.org/govrelationsadvocacy/advocacy/legislativeactioncenter.aspx"><span>Legislative Action Center</span></a></li><li id="dnn_nacsMainNav_dnnNAV_ctldnnNAVctr1594"><a href="http://www.nacs.org/govrelationsadvocacy/advocacy/billtracking.aspx"><span>State & Federal Bill Tracking</span></a></li><li id="dnn_nacsMainNav_dnnNAV_ctldnnNAVctr150"><a href="http://www.nacs.org/govrelationsadvocacy/advocacy/textbookaid.aspx"><span>American Opportunity Tax Credit Resources</span></a></li><li id="dnn_nacsMainNav_dnnNAV_ctldnnNAVctr2400"><a href="http://www.nacs.org/govrelationsadvocacy/advocacy/publicaffairstools.aspx"><span>Public Affairs Materials</span></a></li><li id="dnn_nacsMainNav_dnnNAV_ctldnnNAVctr154"><a href="http://www.nacs.org/govrelationsadvocacy/advocacy/grassrootsguide.aspx"><span>Grassroots Guide: Connecting With Your Legislators</span></a></li><li id="dnn_nacsMainNav_dnnNAV_ctldnnNAVctr2402"><a href="http://www.nacs.org/govrelationsadvocacy/advocacy/correspondencetestimony.aspx"><span>Correspondence & Testimony</span></a></li>
+			</ul></li>
+		</ul></li><li id="dnn_nacsMainNav_dnnNAV_ctldnnNAVctr74"><a href="http://www.nacs.org/peoplegroups.aspx"><span>People & Groups</span><img src="/images/spacer.gif" style="border-width:0px;" /></a><ul id="dnn_nacsMainNav_dnnNAV_ctldnnNAVsub74">
+			<li id="dnn_nacsMainNav_dnnNAV_ctldnnNAVctr1339"><a href="http://www.nacs.org/PeopleGroups/FindMember.aspx"><span>Find a Member</span><img src="/images/breadcrumb.gif" style="border-width:0px;" /></a><ul id="dnn_nacsMainNav_dnnNAV_ctldnnNAVsub1339">
+				<li id="dnn_nacsMainNav_dnnNAV_ctldnnNAVctr1493"><a href="http://www.nacs.org/mcs/findmember/storemembersearch.aspx"><span>Store Member Search</span></a></li><li id="dnn_nacsMainNav_dnnNAV_ctldnnNAVctr1491"><a href="http://www.nacs.org/mcs/findmember/buyersguide.aspx"><span>Vendor Member Directory: Buyers' Guide</span></a></li><li id="dnn_nacsMainNav_dnnNAV_ctldnnNAVctr1521"><a href="http://www.nacs.org/mcs/findmember/volunteerdirectory.aspx"><span>Volunteer Directory</span></a></li>
+			</ul></li><li id="dnn_nacsMainNav_dnnNAV_ctldnnNAVctr159"><a href="http://www.nacs.org/peoplegroups/volunteering.aspx"><span>Get Involved: Volunteering</span></a></li><li id="dnn_nacsMainNav_dnnNAV_ctldnnNAVctr1335"><a href="http://www.nacs.org/peoplegroups/awards.aspx"><span>Awards & Recognition</span><img src="/images/breadcrumb.gif" style="border-width:0px;" /></a><ul id="dnn_nacsMainNav_dnnNAV_ctldnnNAVsub1335">
+				<li id="dnn_nacsMainNav_dnnNAV_ctldnnNAVctr1336"><a href="http://www.nacs.org/peoplegroups/awards/eagle.aspx"><span>Order Of The NACS Eagle Award</span></a></li><li id="dnn_nacsMainNav_dnnNAV_ctldnnNAVctr1337"><a href="http://www.nacs.org/peoplegroups/awards/humanitarian.aspx"><span>Humanitarian Award</span></a></li><li id="dnn_nacsMainNav_dnnNAV_ctldnnNAVctr1338"><a href="http://www.nacs.org/peoplegroups/awards/kintner.aspx"><span>Kintner Award</span></a></li><li id="dnn_nacsMainNav_dnnNAV_ctldnnNAVctr1344"><a href="http://www.nacs.org/peoplegroups/awards/aspen.aspx"><span>Aspen Award</span></a></li><li id="dnn_nacsMainNav_dnnNAV_ctldnnNAVctr1779"><a href="http://www.nacs.org/peoplegroups/awards/foundationdistinguishedservice.aspx"><span>NACS Foundation Distinguished Service Award</span></a></li><li id="dnn_nacsMainNav_dnnNAV_ctldnnNAVctr1816"><a href="http://www.nacsfoundation.org/retaileraward.aspx"><span>NACS Foundation Collegiate Retailer Award</span></a></li><li id="dnn_nacsMainNav_dnnNAV_ctldnnNAVctr1818"><a href="http://www.nacsfoundation.org/iaa.aspx"><span>NACS Foundation Innovation Achievement Award</span></a></li>
+			</ul></li><li id="dnn_nacsMainNav_dnnNAV_ctldnnNAVctr1340"><a href="http://www.nacs.org/peoplegroups/discussionlists.aspx"><span>Topical E-mail Discussion Lists</span></a></li><li id="dnn_nacsMainNav_dnnNAV_ctldnnNAVctr1341"><a href="http://www.nacs.org/peoplegroups/socialnetworks.aspx"><span>Social Networks</span></a></li><li id="dnn_nacsMainNav_dnnNAV_ctldnnNAVctr1342"><a href="http://www.nacs.org/peoplegroups/stateregional.aspx"><span>State & Regional College Store Associations</span><img src="/images/breadcrumb.gif" style="border-width:0px;" /></a><ul id="dnn_nacsMainNav_dnnNAV_ctldnnNAVsub1342">
+				<li id="dnn_nacsMainNav_dnnNAV_ctldnnNAVctr1608"><a href="http://www.nacs.org/educationevents/leadershipconference.aspx"><span>Leadership Conference</span></a></li><li id="dnn_nacsMainNav_dnnNAV_ctldnnNAVctr1609"><a href="http://www.nacs.org/peoplegroups/stateregional/contact.aspx"><span>Contact Information</span></a></li><li id="dnn_nacsMainNav_dnnNAV_ctldnnNAVctr1610"><a href="http://www.nacs.org/peoplegroups/stateregional/calendar.aspx"><span>Meeting Calendar</span></a></li><li id="dnn_nacsMainNav_dnnNAV_ctldnnNAVctr1611"><a href="http://www.nacs.org/peoplegroups/stateregional/resources.aspx"><span>Resources</span></a></li><li id="dnn_nacsMainNav_dnnNAV_ctldnnNAVctr164"><a href="http://www.nacs.org/peoplegroups/stateregional/facilitated.aspx"><span>Facilitator-led Programs</span></a></li><li id="dnn_nacsMainNav_dnnNAV_ctldnnNAVctr1843"><a href="http://www.nacs.org/peoplegroups/stateregional/grantapplication.aspx"><span>State & Regional College Store Grant Application</span></a></li>
+			</ul></li>
+		</ul></li><li id="dnn_nacsMainNav_dnnNAV_ctldnnNAVctr75"><a href="http://www.nacs.org/publications.aspx"><span>Publications</span><img src="/images/spacer.gif" style="border-width:0px;" /></a><ul id="dnn_nacsMainNav_dnnNAV_ctldnnNAVsub75">
+			<li id="dnn_nacsMainNav_dnnNAV_ctldnnNAVctr144"><a href="http://www.nacs.org/publications/thecollegestoremagazine.aspx"><span>The College Store Magazine</span><img src="/images/breadcrumb.gif" style="border-width:0px;" /></a><ul id="dnn_nacsMainNav_dnnNAV_ctldnnNAVsub144">
+				<li id="dnn_nacsMainNav_dnnNAV_ctldnnNAVctr1415"><a href="http://www.nacs.org/Publications/TheCollegeStoreMagazine/submittingitems.aspx"><span>Submitting Items</span></a></li><li id="dnn_nacsMainNav_dnnNAV_ctldnnNAVctr1416"><a href="http://www.nacs.org/Publications/TheCollegeStoreMagazine/guidelines.aspx"><span>Guidelines for Writers</span></a></li><li id="dnn_nacsMainNav_dnnNAV_ctldnnNAVctr173"><a href="http://www.nacs.org/publications/thecollegestoremagazine/BackIssues.aspx"><span>Back Issues</span></a></li><li id="dnn_nacsMainNav_dnnNAV_ctldnnNAVctr1888"><a href="http://www.nacs.org/publications/thecollegestoremagazine/featuredvendors.aspx"><span>Featured Vendors</span></a></li>
+			</ul></li><li id="dnn_nacsMainNav_dnnNAV_ctldnnNAVctr1419"><a href="http://www.nacs.org/publications/campusmarketplace.aspx"><span>Campus Marketplace e-Newsletter</span><img src="/images/breadcrumb.gif" style="border-width:0px;" /></a><ul id="dnn_nacsMainNav_dnnNAV_ctldnnNAVsub1419">
+				<li id="dnn_nacsMainNav_dnnNAV_ctldnnNAVctr1768"><a href="http://www.nacs.org/publications/campusmarketplace/booknews.aspx"><span>Book News</span></a></li><li id="dnn_nacsMainNav_dnnNAV_ctldnnNAVctr1769"><a href="http://www.nacs.org/publications/campusmarketplace/membernews.aspx"><span>Member News</span></a></li><li id="dnn_nacsMainNav_dnnNAV_ctldnnNAVctr1420"><a href="http://www.nacs.org/publications/campusmarketplace/backissues.aspx"><span>Back Issues</span></a></li>
+			</ul></li><li id="dnn_nacsMainNav_dnnNAV_ctldnnNAVctr1424"><a href="http://www.nacsfoundation.org/news.aspx"><span>Torchlight NACS Foundation e-Newsletter</span></a></li><li id="dnn_nacsMainNav_dnnNAV_ctldnnNAVctr1425"><a href="http://www.nacs.org/publications/blogs.aspx"><span>Blogs</span><img src="/images/breadcrumb.gif" style="border-width:0px;" /></a><ul id="dnn_nacsMainNav_dnnNAV_ctldnnNAVsub1425">
+				<li id="dnn_nacsMainNav_dnnNAV_ctldnnNAVctr1428"><a href="http://thecite.blogspot.com/"><span>The CITE</span></a></li><li id="dnn_nacsMainNav_dnnNAV_ctldnnNAVctr1429"><a href="http://theretailmuse.blogspot.com/"><span>The Retail Muse</span></a></li>
+			</ul></li><li id="dnn_nacsMainNav_dnnNAV_ctldnnNAVctr1426"><a href="http://www.nacs.org/publications/whitepapers.aspx"><span>White Papers</span></a></li><li id="dnn_nacsMainNav_dnnNAV_ctldnnNAVctr1427"><a href="http://www.nacs.org/publications/advertise.aspx"><span>Advertising Opportunities & Media Kit</span></a></li>
+		</ul></li><li id="dnn_nacsMainNav_dnnNAV_ctldnnNAVctr76"><a href="http://www.nacs.org/research.aspx"><span>Research</span><img src="/images/spacer.gif" style="border-width:0px;" /></a><ul id="dnn_nacsMainNav_dnnNAV_ctldnnNAVsub76">
+			<li id="dnn_nacsMainNav_dnnNAV_ctldnnNAVctr167"><a href="http://www.nacs.org/research/industrystatistics.aspx"><span>Industry Statistics</span><img src="/images/breadcrumb.gif" style="border-width:0px;" /></a><ul id="dnn_nacsMainNav_dnnNAV_ctldnnNAVsub167">
+				<li id="dnn_nacsMainNav_dnnNAV_ctldnnNAVctr168"><a href="http://www.nacs.org/research/industrystatistics/higheredfactsfigures.aspx"><span>Higher Ed Retail Market Facts & Figures</span></a></li><li id="dnn_nacsMainNav_dnnNAV_ctldnnNAVctr169"><a href="http://www.nacs.org/research/industrystatistics/collegestoremargins.aspx"><span>College Store Margins</span></a></li><li id="dnn_nacsMainNav_dnnNAV_ctldnnNAVctr1343"><a href="/LinkClick.aspx?fileticket=_Jz-tFOW7oM%3d&amp;tabid=1343"><span>Where the New Textbook Dollar Goes (PDF)</span></a></li><li id="dnn_nacsMainNav_dnnNAV_ctldnnNAVctr1348"><a href="http://www.nacs.org/research/industrystatistics/flashreports.aspx"><span>Industry Flash Reports</span></a></li><li id="dnn_nacsMainNav_dnnNAV_ctldnnNAVctr2471"><a href="http://www.nacs.org/research/industrystatistics/oncampusresearchbriefs.aspx"><span>OnCampus Research Briefs</span></a></li>
+			</ul></li><li id="dnn_nacsMainNav_dnnNAV_ctldnnNAVctr170"><a href="http://www.nacs.org/research/surveyservices.aspx"><span>Campus Survey Services</span><img src="/images/breadcrumb.gif" style="border-width:0px;" /></a><ul id="dnn_nacsMainNav_dnnNAV_ctldnnNAVsub170">
+				<li id="dnn_nacsMainNav_dnnNAV_ctldnnNAVctr1450"><a href="http://www.nacs.org/research/surveyservices/customer.aspx"><span>Customer Satisfaction Surveys</span></a></li><li id="dnn_nacsMainNav_dnnNAV_ctldnnNAVctr1452"><a href="http://www.nacs.org/research/surveyservices/faculty.aspx"><span>Faculty Satisfaction Surveys</span></a></li><li id="dnn_nacsMainNav_dnnNAV_ctldnnNAVctr1454"><a href="http://www.nacs.org/research/surveyservices/technology.aspx"><span>Technology Satisfaction Surveys</span></a></li><li id="dnn_nacsMainNav_dnnNAV_ctldnnNAVctr1455"><a href="http://www.nacs.org/research/surveyservices/auxiliary.aspx"><span>Auxiliary Satisfaction Surveys</span></a></li><li id="dnn_nacsMainNav_dnnNAV_ctldnnNAVctr1728"><a href="http://www.nacs.org/research/surveyservices/custom.aspx"><span>Customized Market Research</span></a></li>
+			</ul></li><li id="dnn_nacsMainNav_dnnNAV_ctldnnNAVctr1349"><a href="http://www.OnCampusResearch.org"><span>OnCampus Research (Student Research Services)</span></a></li><li id="dnn_nacsMainNav_dnnNAV_ctldnnNAVctr171"><a href="http://www.nacs.org/research/financialsurvey.aspx"><span>College Store Industry Financial Survey & Report</span><img src="/images/breadcrumb.gif" style="border-width:0px;" /></a><ul id="dnn_nacsMainNav_dnnNAV_ctldnnNAVsub171">
+				<li id="dnn_nacsMainNav_dnnNAV_ctldnnNAVctr1472"><a href="http://www.nacs.org/research/financialsurvey/financialsurvey.aspx"><span>College Store Industry Financial Survey</span></a></li><li id="dnn_nacsMainNav_dnnNAV_ctldnnNAVctr1473"><a href="http://www.nacs.org/research/financialsurvey/financialreport.aspx"><span>College Store Industry Financial Report</span></a></li><li id="dnn_nacsMainNav_dnnNAV_ctldnnNAVctr1474"><a href="http://www.nacs.org/research/financialsurvey/benchmarkingtemplates.aspx"><span>Financial Data Benchmarking Templates</span></a></li>
+			</ul></li><li id="dnn_nacsMainNav_dnnNAV_ctldnnNAVctr172"><a href="http://www.nacs.org/research/salarybenefitssurvey.aspx"><span>College Stores Salary & Benefits Survey</span></a></li><li id="dnn_nacsMainNav_dnnNAV_ctldnnNAVctr1550"><a href="http://www.nacs.org/research/studentwatch.aspx"><span>Student Watch: Campus Market Research</span></a></li><li id="dnn_nacsMainNav_dnnNAV_ctldnnNAVctr1351"><a href="http://www.nacs.org/research/studentpanel.aspx"><span>Student Opportunities: Student Panel</span></a></li>
+		</ul></li><li id="dnn_nacsMainNav_dnnNAV_ctldnnNAVctr86"><a href="http://www.nacs.org/toolsresources.aspx"><span>Tools & Resources</span><img src="/images/spacer.gif" style="border-width:0px;" /></a><ul id="dnn_nacsMainNav_dnnNAV_ctldnnNAVsub86">
+			<li id="dnn_nacsMainNav_dnnNAV_ctldnnNAVctr1847"><a href="http://www.nacs.org/toolsresources/2015.aspx"><span>College Store of 2015</span></a></li><li id="dnn_nacsMainNav_dnnNAV_ctldnnNAVctr1377"><a href="http://www.nacs.org/toolsresources/cso.aspx"><span>College Store Operations (CSO)</span><img src="/images/breadcrumb.gif" style="border-width:0px;" /></a><ul id="dnn_nacsMainNav_dnnNAV_ctldnnNAVsub1377">
+				<li id="dnn_nacsMainNav_dnnNAV_ctldnnNAVctr1399"><a href="http://www.nacs.org/toolsresources/cso/communicatingstoresvalue.aspx"><span>Communicating Your Store's Value: Tools & Ideas</span><img src="/images/breadcrumb.gif" style="border-width:0px;" /></a><ul id="dnn_nacsMainNav_dnnNAV_ctldnnNAVsub1399">
+					<li id="dnn_nacsMainNav_dnnNAV_ctldnnNAVctr1417"><a href="http://www.nacs.org/toolsresources/cso/communicatingstoresvalue/communicateyourvalue.aspx"><span>Ways to Communicate Your Value</span></a></li><li id="dnn_nacsMainNav_dnnNAV_ctldnnNAVctr1430"><a href="http://www.nacs.org/toolsresources/cso/communicatingstoresvalue/evaluationmeasurementbenchmarking.aspx"><span>Store Evaluation, Measurement, and Benchmarking</span></a></li><li id="dnn_nacsMainNav_dnnNAV_ctldnnNAVctr1431"><a href="http://www.nacs.org/toolsresources/cso/communicatingstoresvalue/communicationscampusstakeholders.aspx"><span>Communications to Campus Stakeholders</span></a></li><li id="dnn_nacsMainNav_dnnNAV_ctldnnNAVctr1432"><a href="http://www.nacs.org/toolsresources/cso/communicatingstoresvalue/buildingrelationships.aspx"><span>Building Relationships on Campus</span></a></li>
+				</ul></li><li id="dnn_nacsMainNav_dnnNAV_ctldnnNAVctr1405"><a href="http://www.nacs.org/toolsresources/cso/cas.aspx"><span>CAS Standards and Guidelines for Auxiliary Service</span></a></li><li id="dnn_nacsMainNav_dnnNAV_ctldnnNAVctr1406"><a href="http://www.nacs.org/toolsresources/cso/storealignmenttool.aspx"><span>Store Alignment Tool</span></a></li><li id="dnn_nacsMainNav_dnnNAV_ctldnnNAVctr1819"><a href="http://www.nacs.org/toolsresources/cso/benchmarkingtemplates.aspx"><span>Financial Data Benchmarking Templates</span></a></li><li id="dnn_nacsMainNav_dnnNAV_ctldnnNAVctr1884"><a href="http://www.nacs.org/toolsresources/cso/retailmath.aspx"><span>Quick Takes: Practical Retail Math</span></a></li>
+			</ul></li><li id="dnn_nacsMainNav_dnnNAV_ctldnnNAVctr1378"><a href="http://www.nacs.org/toolsresources/cmip.aspx"><span>Course Materials & Intellectual Property (CMIP)</span><img src="/images/breadcrumb.gif" style="border-width:0px;" /></a><ul id="dnn_nacsMainNav_dnnNAV_ctldnnNAVsub1378">
+				<li id="dnn_nacsMainNav_dnnNAV_ctldnnNAVctr1633"><a href="http://www.nacs.org/toolsresources/cmip/copyright.aspx"><span>Copyright Resources</span></a></li><li id="dnn_nacsMainNav_dnnNAV_ctldnnNAVctr1631"><a href="http://www.nacs.org/toolsresources/cmip/digital.aspx"><span>Digital Content</span></a></li><li id="dnn_nacsMainNav_dnnNAV_ctldnnNAVctr1630"><a href="http://www.nacs.org/toolsresources/cmip/legislation.aspx"><span>Legislation & NACS Resolutions</span></a></li><li id="dnn_nacsMainNav_dnnNAV_ctldnnNAVctr2053"><a href="http://www.nacs.org/toolsresources/cmip/trpr.aspx"><span>Textbook Rental Program Resources</span></a></li><li id="dnn_nacsMainNav_dnnNAV_ctldnnNAVctr1410"><a href="http://www.nacs.org/toolsresources/cmip/sellthrough.aspx"><span>Textbook Sell-through Tools & Resources</span></a></li><li id="dnn_nacsMainNav_dnnNAV_ctldnnNAVctr1625"><a href="http://www.nacs.org/toolsresources/cmip/faq.aspx"><span>Frequently Asked Questions (FAQs)</span></a></li>
+			</ul></li><li id="dnn_nacsMainNav_dnnNAV_ctldnnNAVctr1379"><a href="http://www.nacs.org/toolsresources/lhr.aspx"><span>Leadership & Human Resources (LHR)</span><img src="/images/breadcrumb.gif" style="border-width:0px;" /></a><ul id="dnn_nacsMainNav_dnnNAV_ctldnnNAVsub1379">
+				<li id="dnn_nacsMainNav_dnnNAV_ctldnnNAVctr1507"><a href="http://www.nacs.org/toolsresources/lhr/leadingstoreofthefuture.aspx"><span>Leading the Store of the Future</span></a></li><li id="dnn_nacsMainNav_dnnNAV_ctldnnNAVctr1502"><a href="http://www.nacs.org/toolsresources/lhr/RecruitingHiring.aspx"><span>Recruiting and Hiring</span></a></li><li id="dnn_nacsMainNav_dnnNAV_ctldnnNAVctr1503"><a href="http://www.nacs.org/toolsresources/lhr/OrientationTraining.aspx"><span>Orientation and Training</span></a></li><li id="dnn_nacsMainNav_dnnNAV_ctldnnNAVctr1504"><a href="http://www.nacs.org/toolsresources/lhr/performancemanagement.aspx"><span>Performance Management</span></a></li><li id="dnn_nacsMainNav_dnnNAV_ctldnnNAVctr1505"><a href="http://www.nacs.org/toolsresources/lhr/JobLibrary.aspx"><span>Job Description Library</span></a></li>
+			</ul></li><li id="dnn_nacsMainNav_dnnNAV_ctldnnNAVctr1380"><a href="http://www.nacs.org/toolsresources/mcr.aspx"><span>Marketing & Campus Relations (MCR)</span><img src="/images/breadcrumb.gif" style="border-width:0px;" /></a><ul id="dnn_nacsMainNav_dnnNAV_ctldnnNAVsub1380">
+				<li id="dnn_nacsMainNav_dnnNAV_ctldnnNAVctr1467"><a href="http://www.nacs.org/toolsresources/mcr/campusrelationstoolkit.aspx"><span>Campus Relations Toolkit</span></a></li><li id="dnn_nacsMainNav_dnnNAV_ctldnnNAVctr1468"><a href="http://www.nacs.org/toolsresources/mcr/coolideascontest.aspx"><span>Cool Ideas Contest</span></a></li><li id="dnn_nacsMainNav_dnnNAV_ctldnnNAVctr1469"><a href="http://www.nacs.org/toolsresources/mcr/industryawarenessadcampaigns.aspx"><span>Industry Awareness Ad Campaigns</span></a></li><li id="dnn_nacsMainNav_dnnNAV_ctldnnNAVctr1395"><a href="http://www.nacs.org/toolsresources/mcr/marketingtools.aspx"><span>Marketing Tools</span><img src="/images/breadcrumb.gif" style="border-width:0px;" /></a><ul id="dnn_nacsMainNav_dnnNAV_ctldnnNAVsub1395">
+					<li id="dnn_nacsMainNav_dnnNAV_ctldnnNAVctr1396"><a href="http://www.nacs.org/toolsresources/mcr/marketingtools/marketingkits.aspx"><span>Marketing Kits</span></a></li><li id="dnn_nacsMainNav_dnnNAV_ctldnnNAVctr1471"><a href="http://www.nacs.org/toolsresources/mcr/marketingtools/FacultyAds.aspx"><span>Faculty Ads</span></a></li>
+				</ul></li>
+			</ul></li><li id="dnn_nacsMainNav_dnnNAV_ctldnnNAVctr1381"><a href="http://www.nacs.org/toolsresources/retailing.aspx"><span>Retailing (R)</span><img src="/images/breadcrumb.gif" style="border-width:0px;" /></a><ul id="dnn_nacsMainNav_dnnNAV_ctldnnNAVsub1381">
+				<li id="dnn_nacsMainNav_dnnNAV_ctldnnNAVctr1538"><a href="http://www.nacs.org/toolsresources/retailing/dynamicdisplayscontest.aspx"><span>Dynamic Displays Contest</span></a></li><li id="dnn_nacsMainNav_dnnNAV_ctldnnNAVctr1616"><a href="http://www.nacs.org/toolsresources/retailing/4percent.aspx"><span>The 4% Challenge</span></a></li><li id="dnn_nacsMainNav_dnnNAV_ctldnnNAVctr1805"><a href="http://www.nacs.org/toolsresources/retailing/buyersguide.aspx"><span>Buyer's Guide: Find a Vendor/Supplier</span></a></li><li id="dnn_nacsMainNav_dnnNAV_ctldnnNAVctr1806"><a href="/LinkClick.aspx?fileticket=I-L56iiPzSE%3d&amp;tabid=1806"><span>NACS Buying Ethics (PDF)</span></a></li><li id="dnn_nacsMainNav_dnnNAV_ctldnnNAVctr1807"><a href="http://www.pantone.com/downloads/articles/pdfs/PANTONE_Fashion_Color_Report_Fall_2010.pdf"><span>Pantone Fashion Color Report Fall 2010 (PDF)</span></a></li><li id="dnn_nacsMainNav_dnnNAV_ctldnnNAVctr1883"><a href="http://www.nacs.org/toolsresources/retailing/retailmath.aspx"><span>Quick Takes: Practical Retail Math</span></a></li>
+			</ul></li><li id="dnn_nacsMainNav_dnnNAV_ctldnnNAVctr1382"><a href="http://www.nacs.org/toolsresources/business.aspx"><span>Business Stewardship (B)</span></a></li>
+		</ul></li><li id="dnn_nacsMainNav_dnnNAV_ctldnnNAVctr77"><a href="http://www.nacs.org/yourcareer.aspx"><span>Your Career</span><img src="/images/spacer.gif" style="border-width:0px;" /></a><ul id="dnn_nacsMainNav_dnnNAV_ctldnnNAVsub77">
+			<li id="dnn_nacsMainNav_dnnNAV_ctldnnNAVctr1313"><a href="http://www.nacs.org/yourcareer/opportunities.aspx"><span>Career Opportunities</span></a></li><li id="dnn_nacsMainNav_dnnNAV_ctldnnNAVctr1515"><a href="http://www.nacs.org/yourcareer/ccr.aspx"><span>Certified Collegiate Retailer (CCR) Program</span><img src="/images/breadcrumb.gif" style="border-width:0px;" /></a><ul id="dnn_nacsMainNav_dnnNAV_ctldnnNAVsub1515">
+				<li id="dnn_nacsMainNav_dnnNAV_ctldnnNAVctr1615"><a href="http://www.nacs.org/yourcareer/ccr/details.aspx"><span>Program Details</span></a></li><li id="dnn_nacsMainNav_dnnNAV_ctldnnNAVctr1612"><a href="http://www.nacs.org/yourcareer/ccr/dates.aspx"><span>Exam Dates and Locations </span></a></li><li id="dnn_nacsMainNav_dnnNAV_ctldnnNAVctr1613"><a href="http://www.nacs.org/yourcareer/ccr/outline.aspx"><span>Examination Content Outline</span></a></li><li id="dnn_nacsMainNav_dnnNAV_ctldnnNAVctr1614"><a href="http://www.nacs.org/yourcareer/ccr/reading.aspx"><span>Recommended Reading List </span></a></li>
+			</ul></li><li id="dnn_nacsMainNav_dnnNAV_ctldnnNAVctr1517"><a href="http://www.nacs.org/yourcareer/competencymodel.aspx"><span>NACS College Store Competency Model</span></a></li><li id="dnn_nacsMainNav_dnnNAV_ctldnnNAVctr1572"><a href="http://www.nacs.org/yourcareer/volunteeropps.aspx"><span>Volunteer Opportunities: Get Involved</span></a></li><li id="dnn_nacsMainNav_dnnNAV_ctldnnNAVctr1522"><a href="http://www.nacs.org/yourcareer/FoundationGrants.aspx"><span>Financial Aid: NACS Foundation Grants</span></a></li>
+		</ul></li><li id="dnn_nacsMainNav_dnnNAV_ctldnnNAVctr71"><a href="http://www.nacs.org/advocacynewsmedia.aspx"><span>Media Room</span><img src="/images/spacer.gif" style="border-width:0px;" /></a><ul id="dnn_nacsMainNav_dnnNAV_ctldnnNAVsub71">
+			<li id="dnn_nacsMainNav_dnnNAV_ctldnnNAVctr2399"><a href="http://www.nacs.org/advocacynewsmedia/overview.aspx"><span>NACS Overview</span></a></li><li id="dnn_nacsMainNav_dnnNAV_ctldnnNAVctr1578"><a href="http://www.nacs.org/research/industrystatistics.aspx"><span>Industry Statistics</span></a></li><li id="dnn_nacsMainNav_dnnNAV_ctldnnNAVctr1579"><a href="http://www.nacs.org/advocacynewsmedia/pressreleases.aspx"><span>Press Releases</span></a></li><li id="dnn_nacsMainNav_dnnNAV_ctldnnNAVctr1587"><a href="http://www.nacs.org/advocacynewsmedia/consumertips.aspx"><span>Consumer Tips for Buying Textbooks</span></a></li><li id="dnn_nacsMainNav_dnnNAV_ctldnnNAVctr1357"><a href="http://www.nacs.org/advocacynewsmedia/mediaregistration.aspx"><span>Media Registration Form</span></a></li><li id="dnn_nacsMainNav_dnnNAV_ctldnnNAVctr153"><a href="http://www.nacs.org/advocacynewsmedia/faqs.aspx"><span>FAQs</span><img src="/images/breadcrumb.gif" style="border-width:0px;" /></a><ul id="dnn_nacsMainNav_dnnNAV_ctldnnNAVsub153">
+				<li id="dnn_nacsMainNav_dnnNAV_ctldnnNAVctr155"><a href="http://www.nacs.org/advocacynewsmedia/faqs/faqontextbooks.aspx"><span>FAQ on Textbooks</span></a></li><li id="dnn_nacsMainNav_dnnNAV_ctldnnNAVctr156"><a href="http://www.nacs.org/advocacynewsmedia/faqs/faqonbundles.aspx"><span>FAQ on Bundles</span></a></li><li id="dnn_nacsMainNav_dnnNAV_ctldnnNAVctr157"><a href="http://www.nacs.org/advocacynewsmedia/faqs/faqonusedbooks.aspx"><span>FAQ on Used Books</span></a></li><li id="dnn_nacsMainNav_dnnNAV_ctldnnNAVctr158"><a href="http://www.nacs.org/advocacynewsmedia/faqs/faqontextbookrentalprograms.aspx"><span>FAQ on Textbook Rental Programs</span></a></li>
+			</ul></li>
+		</ul></li>
+	</ul>
+</div>
+  </div> 
+        
+<div class="floatleft">
+    <div style="margin-top: 5px;margin-bottom: 5px;"><a id="dnn_nacsMainNav_lnkNACSStore" title="The NACS Store" href="https://www.nacs.org/store.aspx"><img title="The NACS Store" src="/Portals/NACS/Skins/_Shared_Resources/images/NACSstore.gif" alt="The NACS Store" style="border-width:0px;" /></a></div>
+</div>        
+            <div>
+                <a href="mailto:membership@nacs.org">
+                    <img id="dnn_imgConceirge" src="/Portals/NACS/Uploaded_Images/home_page/concierge_sidebar.gif" style="height:180px;width:148px;border-width:0px;padding-top: 10px;padding-bottom: 10px;" /></a></div>
+            <div>
+                <a id="dnn_lnkFacebook" title="Find us on Facebook" href="http://www.facebook.com/pages/NACS/47397957008" target="_blank"><img title="Find us on Facebook" src="/Portals/NACS/Skins/_Shared_Resources/images/Facebook.gif" alt="Find us on Facebook" style="border-width:0px;" /></a></div>
+            <div>
+                <a id="dnn_lnkDonate" title="Donate to the NACS Foundation" href="http://www.nacsfoundation.org/Giving/donationform.aspx" target="_blank"><img title="Donate to the NACS Foundation" src="/Portals/NACS/Skins/_Shared_Resources/images/DonateFlame.gif" alt="Donate to the NACS Foundation" style="border-width:0px;" /></a></div>
+        </div>
+
+        <div class="bodycontentandfooterwrapper">
+            <div class="bodycontentwrapper">
+                <div class="homepagewrapper">
+                    <div class="topcontent">
+                        <div class="mainimage">
+                            <div id="dnn_MainImage"><a name="569"></a>
+
+<div class="containerwrapper">
+    <div class="containeractionstop">
+        
+    </div>
+    <div class="containercontentwrapper">
+        <div id="dnn_ctr569_ContentPane"><!-- Start_Module_569 --><div id="dnn_ctr569_ModuleContent" class="DNN_HTMLContent">
+	<div id="dnn_ctr569_HtmlModule_lblContent" class="Normal">
+	<p><a href="http://www.nacs.org/yourcareer/ccr/details.aspx"><img alt="Prove Yourself with a Certified Collegiate Retailer (CCR) Designation." width="503" height="300" src="/Portals/NACS/Uploaded_Images/home_page/MKT-029-09-10CCRdesignation.gif" /></a></p>
+</div>
+
+</div><!-- End_Module_569 --></div>
+    </div>
+    <div class="clearfloat"></div>
+</div></div>
+                        </div>
+                        <div class="toprightpanewrapper">
+                            <div class="toprightpanetopborder"></div>
+                            <div class="toprightpanecontentwrapper">
+                                <div id="dnn_TopRightPane"><a name="570"></a>
+
+<div class="containerwrapper">
+    <div class="containeractionstop">
+        
+    </div>
+    <div class="containercontentwrapper">
+        <h1 class="homepageheader">
+			<span id="dnn_ctr570_dnnTITLE_lblTitle" class="boxtitle">what's happening</span>
+
+
+				
+		</h1>
+        <div id="dnn_ctr570_ContentPane"><!-- Start_Module_570 --><div id="dnn_ctr570_ModuleContent" class="DNN_HTMLContent">
+	<div id="dnn_ctr570_HtmlModule_lblContent" class="Normal">
+	<ul>
+    <li>No waiting at CAMEX for badges if you pre-reg by Jan. 11! Get yours in the mail. <a href="http://www.camex.org/buyer/registrationhousing/registration.aspx">Register today!</a></li>
+    <li>Tools for a Textbook Rental Program: <a href="http://www.nacs.org/toolsresources/cmip/trpr.aspx">resources</a> and <a href="http://www.nacs.org/toolsresources/mcr/marketingtools/marketingkits/2010summer.aspx">marketing kits</a>.</li>
+    <li>Build customer loyalty. Get their opinions with <a href="http://www.nacs.org/research/surveyservices.aspx">OnCampus Research Satisfaction Survey Services</a>.</li>
+    <li>Be the Resource for your Students: <a href="http://www.nacs.org/govrelationsadvocacy/advocacy/textbookaid.aspx">Tax Credit tools</a> available.</li>
+</ul>
+</div>
+
+</div><!-- End_Module_570 --></div>
+    </div>
+    <div class="clearfloat"></div>
+</div></div>
+                            </div>
+                            <div class="toprightpanebottomborder"></div>
+                        </div>
+                        <div class="clearfloat"></div>
+                    </div>
+
+                    <div class="bottomcontent">
+                    
+                        <div class="bottompanewrapper">
+                            <div class="bottomleftpanetopborder"></div>
+                                <div class="bottomleftpanecontentwrapper">
+                                    <div class="bottompanecontentwrapper">
+                                        <div id="dnn_BottomLeftPane"><a name="571"></a>
+
+<div class="containerwrapper">
+    <div class="containeractionstop">
+        
+    </div>
+    <div class="containercontentwrapper">
+        <h1 class="homepageheader">
+			<span id="dnn_ctr571_dnnTITLE_lblTitle" class="boxtitle">featured story</span>
+
+
+				
+		</h1>
+        <div id="dnn_ctr571_ContentPane"><!-- Start_Module_571 --><div id="dnn_ctr571_ModuleContent" class="DNN_HTMLContent">
+	<div id="dnn_ctr571_HtmlModule_lblContent" class="Normal">
+	<p><strong>Tuyen Tran, textbook buyer</strong>, NCSU Bookstores, North Carolina State University, Raleigh, developed an easy way for students to see and purchase course materials required for each class directly from the store web site. <a href="http://www.nacs.org/publications/campusmarketplace/news/121010tran.aspx?id=cm">More</a> in Campus Marketplace.</p>
+</div>
+
+</div><!-- End_Module_571 --></div>
+    </div>
+    <div class="clearfloat"></div>
+</div></div>
+                                    </div>
+                                </div>
+                            <div class="bottomleftpanebottomborder"></div>
+                        </div>
+                    
+                        <div class="bottompanewrapper">
+                            <div class="bottomcenterpanetopborder"></div>
+                                <div class="bottomcenterpanecontentwrapper">
+                                    <div class="bottompanecontentwrapper">
+                                        <div id="dnn_BottomCenterPane"><a name="572"></a>
+
+<div class="containerwrapper">
+    <div class="containeractionstop">
+        
+    </div>
+    <div class="containercontentwrapper">
+        <h1 class="homepageheader">
+			<span id="dnn_ctr572_dnnTITLE_lblTitle" class="boxtitle">tools for success</span>
+
+
+				
+		</h1>
+        <div id="dnn_ctr572_ContentPane"><!-- Start_Module_572 --><div id="dnn_ctr572_ModuleContent" class="DNN_HTMLContent">
+	<div id="dnn_ctr572_HtmlModule_lblContent" class="Normal">
+	<p><b>The perfect time to promote!</b> What better time to advertise than when your store’s crawling with students at <b>buyback</b>. NACS has just the thing: check out and download our free, customizable <a href="http://www.nacs.org/toolsresources/mcr/marketingtools/marketingkits.aspx">Marketing Kits</a>!</p>
+</div>
+
+</div><!-- End_Module_572 --></div>
+    </div>
+    <div class="clearfloat"></div>
+</div></div>
+                                    </div>
+                                </div>
+                            <div class="bottomcenterpanebottomborder"></div>
+                        </div>
+                        
+                        <div class="bottompanewrapper">
+                            <div class="bottomrightpanetopborder"></div>
+                                <div class="bottomrightpanecontentwrapper">
+                                    <div class="bottompanecontentwrapper">
+                                        <div id="dnn_BottomRightPane"><a name="573"></a>
+
+<div class="containerwrapper">
+    <div class="containeractionstop">
+        
+    </div>
+    <div class="containercontentwrapper">
+        <h1 class="homepageheader">
+			<span id="dnn_ctr573_dnnTITLE_lblTitle" class="boxtitle">did u know?</span>
+
+
+				
+		</h1>
+        <div id="dnn_ctr573_ContentPane"><!-- Start_Module_573 --><div id="dnn_ctr573_ModuleContent" class="DNN_HTMLContent">
+	<div id="dnn_ctr573_HtmlModule_lblContent" class="Normal">
+	<p><strong>Number of the Week: 77%</strong></p>
+<p>The percentage of college students who recently purchased an e-book that stated they use a laptop or Netbook to read e-books. For more on college students and E-books, check out the latest OnCampus Research Report <a href="/LinkClick.aspx?link=2471&tabid=38&mid=573">here</a>.  </p>
+</div>
+
+</div><!-- End_Module_573 --></div>
+    </div>
+    <div class="clearfloat"></div>
+</div></div>
+                                    </div>
+                                </div>
+                            <div class="bottomrightpanebottomborder"></div>
+                        </div>
+                        
+                    </div>
+                    <div class="clearfloat"></div>
+                </div>
+            </div>
+            <div class="clearfloat"></div>
+            <div class="footerwrapper">
+                
+
+<div class="bottomnav" style="text-align:center;">
+    <div class="footerlogo"><span id="dnn_FooterLogos_lblSubsidiaries">NACS subsidiaries:</span></div>
+    <div class="footerlogo"><a id="dnn_FooterLogos_lnkNACSCORP" title="NACSCORP" href="http://www.nacscorp.com" target="_blank"><img title="NACSCORP" src="/Portals/NACS/Skins/_Shared_Resources/images/corp_logo.gif" alt="NACSCORP" style="border-width:0px;" /></a></div>
+    <div class="footerlogo"><a id="dnn_FooterLogos_lnkFoundation" title="NACS Foundation" href="http://www.nacsfoundation.org" target="_blank"><img title="NACS Foundation" src="/Portals/NACS/Skins/_Shared_Resources/images/foundation_logo.gif" alt="NACS Foundation" style="border-width:0px;" /></a></div>
+    <div class="footerlogo"><a id="dnn_FooterLogos_lnkNMS" title="NACS Media Solutions" href="http://www.nacsmediasolutions.com" target="_blank"><img title="NACS Media Solutions" src="/Portals/NACS/Uploaded_Images/system/nms_logo.gif" alt="NACS Media Solutions" style="border-width:0px;" /></a></div>
+    <div class="footerlogo"><a id="dnn_FooterLogos_lnkPartnerShip" title="PartnerShip" href="http://www.partnership.com" target="_blank"><img title="PartnerShip" src="/Portals/NACS/Skins/_Shared_Resources/images/partnership_logo.gif" alt="PartnerShip" style="border-width:0px;" /></a></div>
+</div>
+
+
+                
+<!--<span id="dnn_nacsFooter_dnnLINKS_lblLinks"><a class="SkinObject" href="http://www.nacs.org/home.aspx">Home</a><span class="SkinObject">   |   </span><a class="SkinObject" href="http://www.nacs.org/renew.aspx">Redirect renew</a></span>
+-->
+    
+<!--<img id="dnn_nacsFooter_imgMapLogoStrip" src="/Portals/NACS/Skins/_Shared_Resources/images/footer_logos.jpg" style="border-width:0px;" />-->
+<div class="tandc">
+    The National Association of College Stores | 500 E. Lorain St. | Oberlin, OH 44074 | phone (800) 622-7498 | fax (440) 775-4769<br />
+    <a href="terms.aspx">Terms of Use</a> | <a href="privacy.aspx">Privacy Policy</a> | <a href="http://www.facebook.com/pages/NACS/47397957008" target=_blank">Find Us on Facebook</a> | <a href="mailto:webteam@nacs.org">webteam@nacs.org</a>
+</div>
+
+
+            </div>
+        </div>
+        <div class="clearfloat"></div>
+    </div>
+</div>
+
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-10133629-3");
+pageTracker._trackPageview();
+} catch(err) {}</script>
+        <input name="ScrollTop" type="hidden" id="ScrollTop" />
+        <input name="__dnnVariable" type="hidden" id="__dnnVariable" />
+    
+<script type="text/javascript" src="/Resources/Shared/scripts/initWidgets.js" ></script>
+<script type="text/javascript">
+//<![CDATA[
+Sys.Application.initialize();
+Sys.Application.add_init(function() {
+    $create(AjaxControlToolkit.Animation.AnimationBehavior, {"OnClick":"{\"AnimationName\":\"Sequence\",\"AnimationChildren\":[{\"AnimationName\":\"EnableAction\",\"Enabled\":\"false\",\"AnimationChildren\":[]},{\"AnimationName\":\"ScriptAction\",\"Script\":\"Cover($get(\\u0027dnn_nacsHeader_nacsLogin_btnLogin\\u0027), $get(\\u0027flyout\\u0027));\",\"AnimationChildren\":[]},{\"AnimationName\":\"StyleAction\",\"AnimationTarget\":\"flyout\",\"Attribute\":\"display\",\"Value\":\"block\",\"AnimationChildren\":[]},{\"AnimationName\":\"Parallel\",\"AnimationTarget\":\"flyout\",\"Duration\":\".3\",\"Fps\":\"25\",\"AnimationChildren\":[{\"AnimationName\":\"Move\",\"Horizontal\":\"-150\",\"Vertical\":\"-20\",\"AnimationChildren\":[]},{\"AnimationName\":\"Resize\",\"Width\":\"210\",\"Height\":\"150\",\"AnimationChildren\":[]},{\"AnimationName\":\"Color\",\"PropertyKey\":\"backgroundColor\",\"StartValue\":\"#AAAAAA\",\"EndValue\":\"#FFFFFF\",\"AnimationChildren\":[]}]},{\"AnimationName\":\"ScriptAction\",\"Script\":\"Cover($get(\\u0027flyout\\u0027), $get(\\u0027info\\u0027), true);\",\"AnimationChildren\":[]},{\"AnimationName\":\"StyleAction\",\"AnimationTarget\":\"info\",\"Attribute\":\"display\",\"Value\":\"block\",\"AnimationChildren\":[]},{\"AnimationName\":\"FadeIn\",\"AnimationTarget\":\"info\",\"Duration\":\".1\",\"AnimationChildren\":[]},{\"AnimationName\":\"StyleAction\",\"AnimationTarget\":\"flyout\",\"Attribute\":\"display\",\"Value\":\"none\",\"AnimationChildren\":[]},{\"AnimationName\":\"Parallel\",\"AnimationTarget\":\"info\",\"Duration\":\".5\",\"AnimationChildren\":[{\"AnimationName\":\"FadeIn\",\"AnimationTarget\":\"btnCloseParent\",\"MaximumOpacity\":\".9\",\"AnimationChildren\":[]}]}]}","id":"dnn_nacsHeader_nacsLogin_OpenAnimation"}, null, null, $get("dnn_nacsHeader_nacsLogin_btnLogin"));
+});
+Sys.Application.add_init(function() {
+    $create(AjaxControlToolkit.Animation.AnimationBehavior, {"OnClick":"{\"AnimationName\":\"Sequence\",\"AnimationTarget\":\"info\",\"AnimationChildren\":[{\"AnimationName\":\"StyleAction\",\"Attribute\":\"overflow\",\"Value\":\"hidden\",\"AnimationChildren\":[]},{\"AnimationName\":\"Parallel\",\"Duration\":\".3\",\"Fps\":\"15\",\"AnimationChildren\":[{\"AnimationName\":\"Scale\",\"ScaleFactor\":\"0.05\",\"Center\":\"true\",\"ScaleFont\":\"true\",\"FontUnit\":\"px\",\"AnimationChildren\":[]},{\"AnimationName\":\"FadeOut\",\"AnimationChildren\":[]}]},{\"AnimationName\":\"StyleAction\",\"Attribute\":\"display\",\"Value\":\"none\",\"AnimationChildren\":[]},{\"AnimationName\":\"StyleAction\",\"Attribute\":\"width\",\"Value\":\"210px\",\"AnimationChildren\":[]},{\"AnimationName\":\"StyleAction\",\"Attribute\":\"height\",\"Value\":\"\",\"AnimationChildren\":[]},{\"AnimationName\":\"StyleAction\",\"Attribute\":\"fontSize\",\"Value\":\"1em\",\"AnimationChildren\":[]},{\"AnimationName\":\"OpacityAction\",\"AnimationTarget\":\"btnCloseParent\",\"Opacity\":\"0\",\"AnimationChildren\":[]},{\"AnimationName\":\"EnableAction\",\"AnimationTarget\":\"dnn_nacsHeader_nacsLogin_btnLogin\",\"Enabled\":\"true\",\"AnimationChildren\":[]}]}","OnMouseOut":"{\"AnimationName\":\"Color\",\"Duration\":\".2\",\"PropertyKey\":\"color\",\"StartValue\":\"#0000FF\",\"EndValue\":\"#FFFFFF\",\"AnimationChildren\":[]}","OnMouseOver":"{\"AnimationName\":\"Color\",\"Duration\":\".2\",\"PropertyKey\":\"color\",\"StartValue\":\"#FFFFFF\",\"EndValue\":\"#0000FF\",\"AnimationChildren\":[]}","id":"dnn_nacsHeader_nacsLogin_CloseAnimation"}, null, null, $get("dnn_nacsHeader_nacsLogin_btnClose"));
+});
+//]]>
+</script>
+</form>
+</body>
+</html>
