@@ -1,0 +1,751 @@
+
+<!DOCTYPE html 
+    PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+  	<title>Blurb partners. We like these guys. | Blurb </title>
+	<meta http-equiv="X-UA-Compatible" content="IE=8,chrome=1" />
+  
+  
+  
+  
+
+  <link href="/stylesheets/cache/bundle.cssz?1292352261" media="screen" rel="stylesheet" type="text/css" /><script src="/javascripts/cache/bundle.jsz?1292352267" type="text/javascript"></script>
+  <link href="http://assets3.blurb.com/stylesheets/print.css?1292352170" media="print" rel="stylesheet" type="text/css" />
+	            
+	<script type="text/javascript">
+		  var gaJsHost = (("https:" == document.location.protocol) ?
+		  "https://ssl." : "http://www.");
+		  document.write(unescape("%3Cscript src='" + gaJsHost +
+		  "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+		</script>
+	    <script type="text/javascript">
+	    	var blurb_uacct = "UA-283660-1";
+
+		   var pageTracker = _gat._getTracker(blurb_uacct);
+
+		   pageTracker._setDomainName(".blurb.com");
+		   /*pageTracker._setAllowLinker(true);
+		   pageTracker._setAllowHash(false);*/
+		   pageTracker._trackPageview();        
+
+		// Use this to track clicks to specific links
+		// the passed in value will be used as the url stored in GA
+		function track_link_click(url){
+			try{
+				pageTracker._trackPageview(url);
+			}catch (e) {};
+		}
+
+		// Use this to track a page without parameters so
+		// we can count it in GA
+		function track_page_count(url){
+			try{
+				//alert(" in track page count " + url);
+				pageTracker._trackPageview(url);
+			}catch (e) {};
+		}
+
+		function track_event(category, action, optional_label, optional_value) {
+			try {
+				//alert(" in track event " + category + " action " + action + " opt label " + optional_label + " opt val " + optional_value);
+				pageTracker._trackEvent(category, action, optional_label, optional_value);
+			}catch (e) {};
+		}
+
+    </script>
+
+
+    
+        <link href="http://assets0.blurb.com/stylesheets/slicklayout.css?1292352170" media="screen" rel="stylesheet" type="text/css" />
+<link href="http://assets1.blurb.com/stylesheets/reciprocal.css?1292352170" media="screen" rel="stylesheet" type="text/css" />
+    
+    
+    
+
+    
+    
+    
+</head>
+
+<body class="en">
+
+
+  <div id="promo">
+    <div>
+      <strong><img alt="Ornament" src="http://assets2.blurb.com/images/gifts/ornament.png?1292352170" />&nbsp;&nbsp;&nbsp;&nbsp;Get your book there on time &ndash; <a href="http://www.blurb.com/gifts">Holiday shipping dates</a></strong>
+    </div>
+  </div>
+
+
+<div id="flash_downtime" class="noticeMessage downtimeMessage" style="display:none;"></div>
+    <div id="contentArea" class="clearfix">
+        <div id="contentPane" class="contentTopLeft clearfix">
+            <div id="headerCurl">
+                <img alt="" class="curl" src="http://assets3.blurb.com/images/curl.png?1292352170" />
+                <div class="curlFill">&nbsp;</div>
+            </div>
+            <div id="headerArea">
+                <div id="logo">
+                    
+                    <a href="/"><img alt="Blurb.com - Take me to the homepage" height="55" src="http://assets0.blurb.com/images/blurb_logo_small.gif?1292352170" width="57" /></a>
+                    
+                </div>
+
+                
+                <h1>Blurb partners. We like these guys.</h1>
+                
+
+                
+                <div id="flash_notice" class="noticeMessage" style="display:none;"></div>
+                <div id="flash_error" class="errorMessage" style="display:none;"></div>
+                <script type="text/javascript">
+                Flash.transferFromCookies();
+                Flash.writeDataTo('error', $('flash_error'));
+                Flash.writeDataTo('notice', $('flash_notice'));
+                Flash.writeDataTo('downtime', $('flash_downtime'));
+                if($('flash_downtime').innerHTML != ''){                  
+                 $j('#flash_downtime a').click(function(){$j('#flash_downtime').hide()})
+                }
+                
+                
+                </script>
+
+                
+
+
+
+
+<span class="robots-nocontent authenticated" rel="dm">
+<div id="slick-drop">
+  <ul class="clearfix" id="logged-in">
+    <li id="nav-home" class="">
+      <a href="http://www.blurb.com" class="menu-item">Home</a>
+    </li>
+    <li class="top-level ">
+          <div class="menu-arrow"><!-- // --></div>
+          <a href="http://www.blurb.com/make" class="menu-item">Make Books</a>
+          <ul class="submenu">
+            <li><a href="http://www.blurb.com/learn_more/books">Bookstore-Quality Books</a></li>
+            <li class="separate"><!-- // --></li>
+            <li><a href="http://www.blurb.com/make">Make Your Book</a></li>
+            <li><a href="http://www.blurb.com/make/booksmart">&nbsp;&nbsp;Blurb BookSmart&reg;</a></li>
+            <li><a href="http://www.blurb.com/make/bookify">&nbsp;&nbsp;Bookify&trade; Online</a></li>
+            <li><a href="http://www.blurb.com/make/pdf_to_book">&nbsp;&nbsp;PDF To Book</a></li>
+            <li><a href="http://www.blurb.com/blurbforgood">&nbsp;&nbsp;Blurb for Good</a></li>
+            <li><a href="http://www.blurb.com/blurbnation/directory">&nbsp;&nbsp;Hire an Expert</a></li>
+            <li class="separate"><!-- // --></li>
+            <li><a href="http://www.blurb.com/make/flip">Book Ideas</a></li>
+          
+            <li><a href="http://www.blurb.com/gifts">Holiday Gifts</a></li>
+          
+            <li class="separate"><!-- // --></li>
+            <li><a href="http://www.blurb.com/blurbnation/apply">Join BlurbNation</a></li>
+            <li class="separate"><!-- // --></li>
+            <li><a href="http://www.blurb.com/create/book/download">Download BookSmart</a></li>
+            <li class="separate"><!-- // --></li>
+            <li><a href="http://blog.blurb.com/">Blurberati Blog</a></li>
+            <li><a href="http://www.blurb.com/events">Events</a></li>
+            <li class="last"><!-- // --></li>
+          </ul>
+        </li>
+        <li class="top-level ">
+          <div class="menu-arrow"><!-- // --></div>
+          <a href="http://www.blurb.com/make/share" class="menu-item">Share or Sell</a>
+          <ul class="submenu">
+            <li><a href="http://www.blurb.com/make/share">Share, Promote, Sell</a></li>
+            <li><a href="http://www.blurb.com/my/seller/info">Set Your Price</a></li>
+            <li><a href="http://www.blurb.com/make/bookshow">Blurb BookShow™</a></li><li class="last"><!-- // --></li>
+          </ul>
+        </li>
+      <li class="top-level ">
+        <div class="menu-arrow"><!-- // --></div>
+        <a href="http://www.blurb.com/create/book/pricing" class="menu-item">Pricing</a>
+        <ul class="submenu">
+          <li><a href="http://www.blurb.com/create/book/pricing">Book Pricing</a></li>
+          <li><a href="http://www.blurb.com/create/book/shipping">Shipping Information</a></li>
+          <li><a href="http://www.blurb.com/shipping_calculator">Shipping Calculator</a></li>
+          <li><a href="http://www.blurb.com/help/volume_orders">Volume Orders</a></li>
+          <li><a href="http://www.blurb.com/about/returns">Return Policy</a></li><li class="last"><!-- // --></li>
+        </ul>
+      </li>
+      <li class="top-level ">
+        <div class="menu-arrow"><!-- // --></div>
+        <a href="http://www.blurb.com/bookstore" class="menu-item">Bookstore</a>
+        <ul class="submenu">
+          <li><a href="http://www.blurb.com/bookstore/new">Just Published</a></li>
+          <li><a href="http://www.blurb.com/bookstore/featured">Staff Picks</a></li>
+          <li><a href="http://www.blurb.com/bookstore/popular">Best Sellers</a></li>
+          <li><a href="http://www.blurb.com/bookstore/pbn">Photography Book Now</a></li>
+          <li><a href="http://www.blurb.com/bookstore/blurbforgood">Blurb for Good</a></li>
+          <li class="separate"><!-- // --></li>
+          <li><a href="http://www.blurb.com/bookstore/category/Arts%20and%20Photography">Arts and Photography</a></li>
+          <li><a href="http://www.blurb.com/bookstore/category/Travel">Travel</a></li>
+          <li><a href="http://www.blurb.com/bookstore/category/Wedding">Wedding</a></li>
+          <li><a href="http://www.blurb.com/bookstore/category/Fine%20Art%20Photography">Fine Art Photography</a></li>
+          <li><a href="http://www.blurb.com/bookstore/category/Children">Children</a></li>
+          <li><a href="http://www.blurb.com/bookstore/category">All Categories...</a></li>
+          <li class="separate"><!-- // --></li>
+          <li><a href="http://www.blurb.com/gift_cards">Gift Cards</a></li>
+          <li class="last"><!-- // --></li>
+        </ul>
+      </li>
+      <li class="top-level ">
+        <div class="menu-arrow"><!-- // --></div>
+        <a href="http://blurb.custhelp.com/cgi-bin/blurb.cfg/php/enduser/home_std_alp.php" class="menu-item" onclick="try{pageTracker._link(this.href);}catch(e){}; return true;">Help</a>
+        <ul class="submenu">
+          <li><a href="http://blurb.custhelp.com" onclick="try{pageTracker._link(this.href);}catch(e){}; return true;">Search FAQs</a></li>
+          <li><a href="http://blurb.custhelp.com/cgi-bin/blurb.cfg/php/enduser/home_std_alp.php">Customer Support</a></li>
+          
+          <li class="separate"><!-- // --></li>
+          <li><a href="http://forums.blurb.com">Blurb Forums</a></li>
+          
+          <li class="separate"><!-- // --></li>
+          <li><a href="http://www.blurb.com/webinars">Webinars</a></li>
+          <li><a href="http://www.blurb.com/help/tutorials">Tips and Tutorials</a></li>
+          <li><a href="http://www.blurb.com/resources/color_management">Color Management</a></li>
+          <li><a href="http://www.blurb.com/educators">Educator Resources</a></li>
+          <li><a href="http://developer.blurb.com">Developers</a></li>
+          <li class="last"><!-- // --></li>
+        </ul>
+      </li>
+    <!-- Logged In-->
+    <li class="top-level ">
+      <div class="menu-logged-in">
+          <div class="menu-arrow"><!-- // --></div>
+          <a href="http://www.blurb.com/my/account" class="menu-item">My Account</a>
+          <ul class="submenu">
+              <li><a href="http://www.blurb.com/my/account">Account Info</a></li>
+              <li><a href="http://www.blurb.com/my/account/address_book">Address Book</a></li>
+              <li class="separate"><!-- // --></li>
+              <li><a href="http://www.blurb.com/my/account/order_history">Order History</a></li>
+              <li class="separate"><!-- // --></li>
+              <li><a href="http://www.blurb.com/my/account/profile">Profile</a></li>
+              <li class="separate"><!-- // --></li>
+              <span class="syp" rel="dm">
+                  <li><a href="http://www.blurb.com/my/seller/book_activity">Metrics</a></li>
+                  <li><a href="http://www.blurb.com/my/seller/book_sales">Sales</a></li>
+                  <li><a href="http://www.blurb.com/my/seller/info">Set Your Price</a></li>
+              </span>
+              <span class="noSyp" rel="dm">
+                  <li><a href="http://www.blurb.com/my/seller/info">Set Your Price</a></li>
+              </span>
+              <li class="last"><!-- // --></li>
+          </ul>
+      </div>
+    </li>
+      <li class="top-level ">
+        <div class="menu-logged-in">
+        <div class="menu-arrow"><!-- // --></div>
+        <a href="http://www.blurb.com/my/store" class="menu-item">My Books</a>
+        <ul class="submenu">
+          <li><a href="http://www.blurb.com/my/store">All Books</a></li>
+		  <li><a href="http://www.blurb.com/my/book/widgets">Share and Promote</a></li>
+		  <li></li>
+		  <li></li>
+		  <li><a href="http://www.blurb.com/my/book/badges">Book Badges</a></li>
+          <li class="separate"><!-- // --></li>
+		  <li><a href="http://www.blurb.com/my/seller/book_activity">Book Metrics</a></li>
+		  <li><a href="http://www.blurb.com/my/metrics/widgets">BookShow Metrics</a></li>
+		  <li><a href="http://www.blurb.com/my/seller/book_sales">Book Sales</a></li>
+          <li class="last"><!-- // --></li>
+        </ul>
+        </div>
+      </li>
+    </ul>
+</div>
+</span>
+
+
+
+<span class="robots-nocontent notAuthenticated" rel="dm">
+
+<div id="slick-drop">
+  <ul class="clearfix">
+    <li id="nav-home" class="">
+      <a href="http://www.blurb.com" class="menu-item">Home</a>
+    </li>
+      <li class="top-level ">
+          <div class="menu-arrow"><!-- // --></div>
+          <a href="http://www.blurb.com/make" class="menu-item" title="Make Books">Make Books</a>
+          <ul class="submenu">
+            <li><a href="http://www.blurb.com/learn_more/books" title="Print on Demand">Bookstore-Quality Books</a></li>
+            <li class="separate"><!-- // --></li>
+            <li><a href="http://www.blurb.com/make" title="Make Your Book">Make Your Book</a></li>
+            <li><a href="http://www.blurb.com/make/booksmart" title="Photobook">&nbsp;&nbsp;Blurb BookSmart&reg;</a></li>
+            <li><a href="http://www.blurb.com/make/bookify" title="Photobook">&nbsp;&nbsp;Bookify&trade; Online</a></li>
+            <li><a href="http://www.blurb.com/make/pdf_to_book" title="Book Printing">&nbsp;&nbsp;PDF To Book</a></li>
+            <li><a href="http://www.blurb.com/blurbforgood" title="Blurb for Good">&nbsp;&nbsp;Blurb for Good</a></li>
+            <li><a href="http://www.blurb.com/blurbnation/directory" title="Book Maker">&nbsp;&nbsp;Hire an Expert</a></li>
+            <li class="separate"><!-- // --></li>
+            <li><a href="http://www.blurb.com/learn_more/flip" title="Photo Ideas">Book Ideas</a></li>
+          
+            <li><a href="http://www.blurb.com/gifts" title="Make Books as Gifts">Holiday Gifts</a></li>
+          
+            <li class="separate"><!-- // --></li>
+            <li><a href="http://www.blurb.com/blurbnation/apply" title="Join BlurbNation">Join BlurbNation</a></li>
+            <li class="separate"><!-- // --></li>
+            <li><a href="http://www.blurb.com/create/book/download" title="Photo Book Software">Download BookSmart</a></li>
+            <li class="separate"><!-- // --></li>
+            <li><a href="http://blog.blurb.com/" title="Blurberati Blog">Blurberati Blog</a></li>
+            <li><a href="http://www.blurb.com/events">Events</a></li>
+            <li class="last"><!-- // --></li>
+          </ul>
+        </li>
+        
+        <li class="top-level ">
+          <div class="menu-arrow"><!-- // --></div>
+          <a href="http://www.blurb.com/make/share" class="menu-item" title="Share, Promote, Sell">Share or Sell</a>
+          <ul class="submenu">
+            <li><a href="http://www.blurb.com/make/share" title="Share, Promote, Sell">Share, Promote, Sell</a></li>
+            <li><a href="http://www.blurb.com/my/seller/info" title="Set Your Price">Set Your Price</a></li>
+            <li><a href="http://www.blurb.com/make/bookshow" title="Blurb BookShow™">Blurb BookShow™</a></li><li class="last"><!-- // --></li>
+          </ul>
+        </li>
+
+      <li class="top-level ">
+        <div class="menu-arrow"><!-- // --></div>
+        <a href="http://www.blurb.com/create/book/pricing" class="menu-item" title="Book Pricing">Pricing</a>
+        <ul class="submenu">
+          <li><a href="http://www.blurb.com/create/book/pricing" title="Book Pricing">Book Pricing</a></li>
+          <li><a href="http://www.blurb.com/create/book/shipping" title="Shipping Information">Shipping Information</a></li>
+          <li><a href="http://www.blurb.com/shipping_calculator" title="Shipping Calculator">Shipping Calculator</a></li>
+		  <li><a href="http://www.blurb.com/help/volume_orders" title="Volume Orders">Volume Orders</a></li>
+          <li><a href="http://www.blurb.com/about/returns" title="Return Policy">Return Policy</a></li><li class="last"><!-- // --></li>
+        </ul>
+      </li>
+      <li class="top-level ">
+        <div class="menu-arrow"><!-- // --></div>
+        <a href="http://www.blurb.com/bookstore" class="menu-item" title="Bookstore">Bookstore</a>
+        <ul class="submenu">
+          <li><a href="http://www.blurb.com/bookstore/new" title="Just Published Books">Just Published</a></li>
+          <li><a href="http://www.blurb.com/bookstore/featured" title="Staff Pick Books">Staff Picks</a></li>
+          <li><a href="http://www.blurb.com/bookstore/popular" title="Best Selling Books">Best Sellers</a></li>
+          <li><a href="http://www.blurb.com/bookstore/pbn" title="Photography Competition">Photography Book Now</a></li>
+          <li><a href="http://www.blurb.com/bookstore/blurbforgood" title="Blurb for Good">Blurb for Good</a></li>
+          <li class="separate"><!-- // --></li>
+          <li><a href="http://www.blurb.com/bookstore/category/Arts%20and%20Photography" title="Photography Books">Arts and Photography</a></li>
+          <li><a href="http://www.blurb.com/bookstore/category/Travel" title="Travel Books">Travel</a></li>
+          <li><a href="http://www.blurb.com/bookstore/category/Wedding" title="Wedding Photo Books">Wedding</a></li>
+          <li><a href="http://www.blurb.com/bookstore/category/Fine%20Art%20Photography" title="Fine Art Photography Books">Fine Art Photography</a></li>
+          <li><a href="http://www.blurb.com/bookstore/category/Children" title="Children Books">Children</a></li>
+          <li><a href="http://www.blurb.com/bookstore/category" title="Online Book Shop">All Categories...</a></li>
+          <li class="separate"><!-- // --></li>
+          <li><a href="http://www.blurb.com/gift_cards" title="Gift Cards">Gift Cards</a></li>
+          <li class="last"><!-- // --></li>
+        </ul>
+      </li>
+      <li class="top-level ">
+        <div class="menu-arrow"><!-- // --></div>
+        <a href="http://blurb.custhelp.com/cgi-bin/blurb.cfg/php/enduser/home_std_alp.php" class="menu-item" onclick="try{pageTracker._link(this.href);}catch(e){}; return true;" title="Help">Help</a>
+        <ul class="submenu">
+          <li><a href="http://blurb.custhelp.com" onclick="js_for_no_3rd_party_referrals" title="Search FAQs">Search FAQs</a></li>
+          <li><a href="http://blurb.custhelp.com/cgi-bin/blurb.cfg/php/enduser/home_std_alp.php" title="Customer Support">Customer Support</a></li>
+          
+          <li class="separate"><!-- // --></li>
+          <li><a href="http://forums.blurb.com" title="Blurb Forums">Blurb Forums</a></li>
+          
+          <li class="separate"><!-- // --></li>
+          <li><a href="http://www.blurb.com/webinars" title="Webinars">Webinars</a></li>
+          <li><a href="http://www.blurb.com/help/tutorials" title="Tips and Tutorials">Tips and Tutorials</a></li>
+          <li><a href="http://www.blurb.com/resources/color_management">Color Management</a></li>
+          <li><a href="http://www.blurb.com/educators" title="Educator Resources">Educator Resources</a></li>
+          <li><a href="http://developer.blurb.com">Developers</a></li>
+          <li class="last"><!-- // --></li>
+        </ul>
+      </li>
+  </ul>
+</div>
+</span>
+
+
+
+<script type="text/javascript" charset="utf-8">
+  Blurb.SlickDrop.init();
+</script>
+
+
+                
+                <!--<div id="burst"><a href="http://pbn.blurb.com"><img alt="Photography.Book.Now" class="png" height="66" src="http://assets1.blurb.com/images/pbn_2008/pbn_burst.png?1292352170" width="168" /></a></div>-->
+                
+                <div id="partnerLogo">
+                    
+                </div>
+                
+                
+<div id="welcomeUser" rel="dm">
+    <span class="authenticated" rel="dm">
+        Welcome <span class="dot-it" id="username" rel="dv"></span>
+        <a href="http://www.blurb.com/my/account/logout">Sign out</a>
+    </span>
+    <span class="authenticated" rel="dm">
+        
+        <span class="with_orders" rel="dm" >
+            
+        </span>
+    </span>
+    <span class="notAuthenticated" rel="dm">
+        <span id="joinBtn">
+			<a href="http://www.blurb.com/my/account/register" class="btn-dot-it">Join us today</a>
+		</span>
+        <a href="http://www.blurb.com/my/account/login">Sign In</a>
+
+    </span>
+
+    <span class="hasCart" rel="dm" >
+        <a href="http://www.blurb.com/bookstore/cart" class="dot-it front-dot">Shopping Cart </a>
+		<span id="cart_count" rel="dv"></span>
+	</span>
+    <span id="support_tools" rel="dv"></span>
+    
+    <span class="authenticated" style="border-left: 1px dotted; margin-left: 5px; padding-left: 5px" rel="dm">
+        
+        <a href="http://fr.blurb.com/about/blurb_partners" onclick="javascript:return Blurb.setLanguage( 'fr', 'http://fr.blurb.com/about/blurb_partners', true )">Fran&#231;ais</a> 
+        
+    </span>
+    <span class="notAuthenticated" style="border-left: 1px dotted; margin-left: 5px; padding-left: 5px" rel="dm">
+        
+        <a href="http://fr.blurb.com/about/blurb_partners" onclick="javascript:return Blurb.setLanguage( 'fr', 'http://fr.blurb.com/about/blurb_partners', false )">Fran&#231;ais</a> 
+        
+    </span>
+    
+</div>
+
+<div id="menu-site-search">
+    <form action="http://www.blurb.com/search/site_search" id="top-search" method="get">
+    <div class="slicksearch clearfix" >
+        <label for="bookstore_search" id="bookstore-search-label" onclick="$('bookstore_search').focus()">Search Blurb</label>
+        <input class="textfield" id="bookstore_search" name="search" onblur="if (this.value=='') { $('bookstore-search-label').show() }" onfocus="$('bookstore-search-label').hide();" type="text" value="" />
+
+        <input id="filter" name="filter" type="hidden" value="all" />
+
+        <input class="submit" id="bookstore_search_submit" name="commit" type="submit" value="Search" />
+    </div>
+    </form>
+    <script type="text/javascript" charset="utf-8">
+    $('bookstore-search-label').addClassName('ghost-label');
+    if($('bookstore_search').value != ''){$('bookstore-search-label').hide()}
+    </script>
+</div>
+
+
+            </div>
+            
+            <div id="contentMainWrap">
+                <div class="content-spacer" style="height: 20px; display: block; overflow: hidden;"></div>
+                <div id="contentMainArea">
+                    
+
+<div class="slickwrap full">
+  <div id="cork_header">
+    <img alt="Cork_header" src="http://assets0.blurb.com/images/partner/reciprocal/cork_header.jpg?1292352170" />
+  </div>
+  
+  <div id="intro">
+    <h2 class="nospace">Real Stuff. Made by you.</h2>
+    <p>Mass-produced? Please. You can put you own spin on almost anything with Blurb&rsquo;s creative partners.</p>
+  </div>
+  
+  <div id="partner_boxes" class="clearfix">
+    <div class="partner_box odd" id="flickr">
+      <div class="slickshadow">
+        <a href="http://www.flickr.com/tour/makestuff/">
+          <img alt="Flickr" height="130" src="http://assets1.blurb.com/images/partner/reciprocal/flickr.jpg?1292352170" width="310" />
+          <p>Flickr makes it easy to upload, organize, and share your photos. Edit your images, stay in touch with family, or create your own groups for friends and colleagues.</p>
+        </a>
+      </div>
+    </div>
+    <div class="partner_box" id="istockphoto">
+      <div class="slickshadow">
+        <a href="http://www.istockphoto.com/blurbbookify.php">
+          <img alt="Istockphoto" height="130" src="http://assets2.blurb.com/images/partner/reciprocal/istockphoto.jpg?1292352170" width="310" />
+          <p>Make your book really pop with brilliant images from iStockphoto. Plus, as a Blurb customer, you save 20% off purchases over $50. iStockphoto is the original royalty-free stock provider, with a collection of more than 7 million photos.</p>
+        </a>
+      </div>
+    </div>
+    <div class="partner_box odd" id="moo">
+      <div class="slickshadow">
+        <a href="http://www.moo.com/partner/blurb?utm_source=blurb&utm_medium=partner&utm_campaign=partnership_page">
+          <img alt="Moo2" height="130" src="http://assets3.blurb.com/images/partner/reciprocal/moo2.png?1292352170" width="310" />
+          <p>MOO helps you stand out in a crowd - create personalized Business Cards, MiniCards, Postcards (and more) to showcase your images or designs.</p>
+        </a>
+      </div>
+    </div>
+    <div class="partner_box" id="smugmug">
+      <div class="slickshadow">
+        <a href="http://www.smugmug.com">
+          <img alt="Smugmug" height="130" src="http://assets0.blurb.com/images/partner/reciprocal/smugmug.jpg?1292352170" width="310" />
+          <p>SmugMug offers secure and unlimited photo storage at multiple datacenters, as well as gorgeous, personalized online albums that make your photos come alive.</p>
+        </a>
+      </div>
+    </div>
+    <div class="partner_box odd" id="tinyprints">
+      <div class="slickshadow">
+        <a href="http://www.tinyprints.com/promo/blurb.htm">
+          <img alt="Tinyprints" height="130" src="http://assets1.blurb.com/images/partner/reciprocal/tinyprints.jpg?1292352170" width="310" />
+          <p>Tiny Prints helps you celebrate in style with chic, customized wedding invitations, photo birth announcements, birthday party invitations and more!</p>
+        </a>
+      </div>
+    </div>
+    <div class="partner_box" id="sixapart">
+      <div class="slickshadow">
+        <a href="http://www.typepad.com?s=99">
+          <img alt="Typepad" height="130" src="http://assets2.blurb.com/images/partner/reciprocal/typePad.jpg?1292352170" width="310" />
+          <p>Build the blog you want in minutes with TypePad. Easily add content and pictures. Select a professionally designed template or create your own custom design.</p>
+        </a>
+      </div>
+    </div>
+  </div>
+</div>  
+
+                </div>
+                
+                
+                <div id="sideBarModule" style="vertical-align: top;">
+                    
+                    
+<div class="robots-nocontent sideBarCollapsableMenu">
+    
+        
+            <h2 class="sideBarSubNav">About Blurb</h2>
+        
+    
+
+        
+        <div>
+                        
+            <div id="_243313180" class="sideBarItems" >
+                
+                    
+                        <a href="/about" class="sideBarItem " rel="tag" style="">Overview</a>
+                    
+                    
+                        <a href="/about/team" class="sideBarItem " rel="tag" style="">Executive Team</a>
+                    
+                    
+                        <a href="/about/news" class="sideBarItem " rel="tag" style="">Blurb in the News</a>
+                    
+                    
+                        <a href="/about/releases" class="sideBarItem " rel="tag" style="">Press Releases</a>
+                    
+                    
+                        <a href="/about/ceo" class="sideBarItem " rel="tag" style="">Letter from the CEO</a>
+                    
+                    
+                        <a href="/about/blurb_partners" class="sideBarItem selected" rel="tag" style="">Blurb Partners</a>
+                    
+                    
+                        <a href="/join_us" class="sideBarItem " rel="tag" style="">Work at Blurb</a>
+                    
+                    
+                        <a href="/events" class="sideBarItem " rel="tag" style="">Events</a>
+                    
+                    
+                        <a href="/about/contact" class="sideBarItem " rel="tag" style="border-bottom: 1px solid #8eb667;">Contact Us</a>
+                    
+            </div>
+        </div>
+
+
+</div>
+
+                    <div class="sideBarSpacer"> </div>
+                    
+                    <!-- make sure there's enough room for bottom sidebar modules -->
+
+                    <div class="sideBarBottomContainer">
+
+                    </div>
+                </div>
+                
+                
+
+
+                
+                <div class="content-spacer" style="height: 20px; display: block; overflow: hidden;"></div>
+                
+				
+				
+				
+
+<div id="superfooter" class="clearfix">
+  <ul class="clearfix">
+    <li class="supertop clearfix">
+      <ul class="supersub">
+        <li class="heading"><a href="http://www.blurb.com/learn_more">Make Books</a></li>
+        <li><a href="http://www.blurb.com/learn_more/books">Bookstore-Quality Books</a></li>
+        <li><a href="http://www.blurb.com/learn_more/booksmart">Blurb BookSmart</a></li>
+        <li><a href="http://www.blurb.com/learn_more/bookify">Bookify&trade; Online</a></li>
+        <li><a href="http://www.blurb.com/learn_more/share">Share, Promote, Sell</a></li>
+        <li><a href="http://www.blurb.com/learn_more/flip">Book Ideas</a></li>
+        <li><a href="http://www.blurb.com/create/book/download">Download BookSmart</a></li>
+        <li><a href="http://blog.blurb.com/">Blurberati Blog</a></li>
+	      <li><a href="http://www.blurb.com/events">Blurb Events</a></li>
+      </ul>
+    </li>
+
+    <li class="supertop clearfix">
+      <ul class="supersub">
+        <li class="heading"><a href="http://www.blurb.com/book/pricing">Pricing</a></li>
+        <li><a href="http://www.blurb.com/create/book/pricing">Book Pricing</a></li>
+        <li><a href="http://www.blurb.com/create/book/shipping">Shipping Information</a></li>
+        <li><a href="http://www.blurb.com/shipping_calculator">Shipping Calculator</a></li>
+        <li><a href="http://www.blurb.com/about/returns">Return Policy</a></li>
+        <li><a href="http://www.blurb.com/help/volume_orders">Volume Orders</a></li>
+      </ul>
+    </li>
+
+
+    <li class="supertop clearfix wide">        
+      <ul class="supersub">
+        <li class="heading"><a href="http://www.blurb.com/learn_more/flip">Learn More</a></li>
+        <li><a href="http://www.blurb.com/learn_more/flip">Get Inspired</a></li>
+        <li><a href="http://www.blurb.com/create/book/photobook" title="Photo Books">Photo Books</a></li>
+        <li><a href="http://www.blurb.com/create/book/textandpictures" title="Real Book">Text and Pictures</a></li>
+        <li><a href="http://www.blurb.com/create/book/wedding_books">Wedding Books</a></li>
+        <li><a href="http://www.blurb.com/create/book/portfolio">Portfolios</a></li>
+        <li><a href="http://www.blurb.com/create/book/blogbook">Blog Books</a></li>
+        <li><a href="http://www.blurb.com/create/book/cookbook">Cookbooks</a></li>
+      </ul>
+    </li>
+
+    <li class="supertop clearfix wide">
+      <ul class="supersub">
+        <li class="heading"><a href="http://www.blurb.com/bookstore">Blurb Bookstore</a></li>
+         <li><a href="http://www.blurb.com/bookstore/new">Just Published</a></li>
+          <li><a href="http://www.blurb.com/bookstore/pbn">Photography Book Now</a></li>        
+          <li><a href="http://www.blurb.com/bookstore/featured">Staff Picks</a></li>
+          <li><a href="http://www.blurb.com/bookstore/popular">Best Sellers</a></li>
+          <li><a href="http://www.blurb.com/bookstore/category/Arts%20and%20Photography">Arts and Photography</a></li>
+          <li><a href="http://www.blurb.com/bookstore/category/Travel">Travel</a></li>
+          <li><a href="http://www.blurb.com/bookstore/category/Wedding">Wedding</a></li>
+          <li><a href="http://www.blurb.com/bookstore/category/Fine%20Art%20Photography">Fine Art Photography</a></li>
+          <li><a href="http://www.blurb.com/bookstore/category/Children">Children</a></li>
+          <li><a href="http://www.blurb.com/bookstore/category">All Categories...</a></li>
+          <li><a href="http://www.blurb.com/gift_cards">Gift Cards</a></li>
+      </ul>
+    </li>
+    
+    <li class="supertop clearfix wide last">
+      <ul class="supersub">
+        <li class="heading"><a href="http://www.blurb.com/help">Help</a></li>
+        <li><a href="http://blurb.custhelp.com" onclick="try{pageTracker._link(this.href);}catch(e){}; return true;">Search FAQs</a></li>
+        <li><a href="http://blurb.custhelp.com/cgi-bin/blurb.cfg/php/enduser/home_std_alp.php#cs">Customer Support</a></li>
+        <li><a href="http://forums.blurb.com">Blurb Forums</a></li>
+        <li><a href="http://www.blurb.com/webinars">Webinars</a></li>
+        <li><a href="http://www.blurb.com/help/tutorials">Tips and Tutorials</a></li>
+        <li><a href="http://www.blurb.com/educators">Educator Resources</a></li>
+        <li><a href="http://www.blurb.com/blurbnation/">BlurbNation</a></li>
+		<li><a href="http://www.blurb.com/resources/color_management">Color Management</a></li>
+		<li><a href="http://developer.blurb.com">Developers</a></li>
+      </ul>
+    </li>
+    
+  </ul>
+</div>
+
+<script type="text/javascript">
+    $j(function() {
+        var body = $j('body');
+        
+        body.append(unescape('%3C') + 'script src="http://blrb.netmng.com/?aid=226" type="text/javascript" defer="defer">' + unescape('%3C') + '/script>');
+        
+        
+            
+                body.append('<img src="http://media.fastclick.net/w/tre?ad_id=22884;evt=15644;cat1=18679;cat2=18680" width="1" height="1" border="0" />\
+                <img src="http://leadback.advertising.com/adcedge/lb?site=695501&srvc=1&betr=visited_blurb_cs=1&betq=11664=423411" width="1" height="1" border="0" />');
+            
+        
+    });
+</script>
+
+
+
+
+                <div style="clear:both;"></div>
+            </div>
+        </div>
+        <!-- contentPane -->
+				
+        <div id="bottomPane">
+            
+<div id="bottomPaneNavigation" class="clearfix">
+    <div id="bottomPaneCopyright">&copy; 2010 Blurb</div>
+
+    <div id="bottomPaneMenu">
+      &nbsp; <a href="http://www.blurb.com/corporate/about" class="dot-it">About Blurb</a>
+      <a href="http://www.blurb.com/join_us" class="dot-it">Work at Blurb</a>
+      <a href="http://www.blurb.com/book/pricing" class="dot-it">Pricing and Shipping</a>
+      <a href="http://www.blurb.com/corporate/legal" class="dot-it">Privacy Policy and Legal</a>
+      <a href="http://blurb.custhelp.com/cgi-bin/blurb.cfg/php/enduser/home_std_alp.php" onclick="try{pageTracker._link(this.href);}catch(e){}; return true;">Help</a>
+        
+        <a class="dot-it front-dot" href="#" onclick="window.open('/about/blurb_partners?printable=true','new_window','height=800,width=600,scrollbars=yes');return false;">Print</a>
+      
+      
+    </div>
+
+    <div id="bottomPaneSocial">
+        Follow us:&nbsp;
+        <a href="http://www.facebook.com/BlurbBooks"><img alt="Facebook_16" src="http://assets2.blurb.com/images/icons/facebook_16.png?1292352170" /></a>
+        <a href="http://www.facebook.com/BlurbBooks" class="dot-it">Facebook</a>
+        <a href="http://twitter.com/blurbbooks"><img alt="Twitter_16" src="http://assets3.blurb.com/images/icons/twitter_16.png?1292352170" /></a>
+        <a href="http://twitter.com/blurbbooks" class="dot-it">Twitter</a>
+        <a href="http://blog.blurb.com/">Blurberati Blog</a>
+    </div>
+</div>
+
+
+        </div> <!-- bottomPane -->
+				
+    </div> <!-- contentArea -->
+
+    
+    
+    
+
+
+
+    
+
+    
+<script language="javascript">
+    setTimeout(" \
+            new Effect.Fade('flash_error',  { duration: 2 }); \
+            new Effect.Fade('flash_notice', { duration: 2 });", 7000);
+</script>
+
+
+	<script>
+		var page_translated = true;
+		
+		$j(document).ready(function() {
+
+			if (!page_translated) {			
+				$j.ajax({
+					url: "/about/not_translated"
+				})
+			}
+
+		});
+	</script>
+
+    
+    
+    <script type="text/javascript" charset="utf-8">
+    // <![CDATA[
+    Blurb.GA.normalizeReferrals();
+    // ]]>
+    </script>
+    
+
+    
+
+        
+        
+    </body>
+    </html>
+
+
