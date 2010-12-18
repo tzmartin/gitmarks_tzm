@@ -4,5 +4,5 @@ TZM's Gitmarks
 
 A web bookmark manager built on git and designed for github.  For each URL, gitmarks will pull the content and store it under the 'content' directory. It stores the metadata under each tag in the 'tags' directory.
 
-Developed by Hillary Mason.
+Developed by Hilary Mason.
 https://github.com/hmason/gitmarks
