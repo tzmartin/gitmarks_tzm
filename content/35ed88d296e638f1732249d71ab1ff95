@@ -1,0 +1,440 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head profile="http://gmpg.org/xfn/11">
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+	<title>hilarymason.com &#8211; Hilary Mason</title>
+
+	<meta name="generator" content="WordPress 3.0.1" />
+
+	<link rel="stylesheet" href="http://www.hilarymason.com/wp-content/themes/neoclassical/style.css" type="text/css" media="screen" />
+	<link rel="stylesheet" href="http://www.hilarymason.com/wp-content/themes/neoclassical/custom.css" type="text/css" media="screen" />
+	<!--[if lte IE 7]>
+	<link rel="stylesheet" type="text/css" href="http://www.hilarymason.com/wp-content/themes/neoclassical/ie7.css" />
+	<![endif]-->
+	<!--[if lte IE 6]>
+	<link rel="stylesheet" type="text/css" href="http://www.hilarymason.com/wp-content/themes/neoclassical/ie6.css" />
+	<![endif]-->
+	<link rel="alternate" type="application/rss+xml" title="hilarymason.com &#8211; Hilary Mason RSS Feed" href="http://www.hilarymason.com/feed/" />
+	<link rel="pingback" href="http://www.hilarymason.com/xmlrpc.php" />
+
+	<link rel='stylesheet' id='contact-form-7-css'  href='http://www.hilarymason.com/wp-content/plugins/contact-form-7/styles.css?ver=2.4.2' type='text/css' media='all' />
+<script type='text/javascript' src='http://www.hilarymason.com/wp-includes/js/jquery/jquery.js?ver=1.4.2'></script>
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://www.hilarymason.com/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://www.hilarymason.com/wp-includes/wlwmanifest.xml" /> 
+<link rel='index' title='hilarymason.com &#8211; Hilary Mason' href='http://www.hilarymason.com/' />
+<meta name="generator" content="WordPress 3.0.1" />
+<link rel='shortlink' href='http://wp.me/rr23' />
+<script type="text/javascript">
+//<![CDATA[
+var _wpcf7 = { cached: 1 };
+//]]>
+</script>
+
+<link rel="stylesheet" href="http://www.hilarymason.com/wp-content/plugins/wp-syntax/wp-syntax.css" type="text/css" media="screen" />
+	<style type="text/css">.recentcomments a{display:inline !important;padding:0 !important;margin:0 !important;}</style>
+</head>
+<body class="custom">
+
+<div id="container">
+<div id="page">
+	<div id="masthead">
+		<div id="rss_subscribe"><a href="http://www.hilarymason.com/feed/" rel="nofollow">Subscribe via RSS</a></div>
+		<div id="logo"><a href="http://www.hilarymason.com" rel="nofollow"><span class="greeting">Hi.</span> I'm Hilary Mason.</a></div>
+		<h1>I&#039;m a computer science professor, data scientist, and web geek.</h1>		
+	</div>
+	<!-- div id="rotating_image">
+				<img src="http://www.hilarymason.com/wp-content/themes/neoclassical/headers/header_5.jpg" alt="Random header image... Refresh for more!" />	</div -->
+
+	<div id="content_box">
+	
+		<div id="left_box">
+
+			<div id="content">
+<div id="content_inner">
+<p class="format_text">Welcome! Scroll down for the latest <a href="blog">blog</a> posts, find out a bit <a href="about/">about me</a>, or check out my <a href="projects/">projects</a>.</p>
+<br />
+		
+				
+
+					<h2 class="top"><a href="http://www.hilarymason.com/blog/machine-learning-a-love-story/" rel="bookmark" title="Permanent Link to Machine Learning: A Love Story">Machine Learning: A Love Story</a></h2>
+					<p class="post_author"><em>by</em> Hilary Mason</p>
+					<div class="format_text">
+<p>The video from my keynote at <a href="http://strangeloop2010.com/">Strange Loop 2010</a> is up!
+<p>You can watch the video here: <a href="http://www.infoq.com/presentations/Machine-Learning">Machine Learning: A Love Story</a></p>
+<p>The original abstract:</p>
+<blockquote><p>
+Machine learning has come a long way in recent years &#8212; from a long-marginalized field so old it still has the word &#8220;machine&#8221; in the name, to the last, best hope for making sense of our massive flows of data.</p>
+<p>The art of &#8216;data science&#8217; is asking the right questions; the answers are generally trivial or impossible. This talk will focus more on questions than on answers. I&#8217;ll give a brief history of the field with a focus on the fundamental math and algorithmic tools that we use to address these kinds of problems, then walk through several descriptive and predictive scenarios.</p>
+<p>Finally, I&#8217;ll show one example system using bit.ly data in-depth, from the backend infrastructure through the algorithms and data processing layer to show a functioning product.</p>
+<p>Attendees should expect to hear some good stories of data gone right and data gone awry, and walk away with a few new clever tricks.
+</p></blockquote>
+<p>The presentation was calibrated for the audience in the room, but I&#8217;ll be happy to answer any questions in the comments below!</p>
+					</div>	
+					<p class="to_comments"><span class="date">November 10, 2010</span> &nbsp; <span class="num_comments"><a href="http://www.hilarymason.com/blog/machine-learning-a-love-story/#comments" title="Comment on Machine Learning: A Love Story">7 Comments</a></span></p>
+
+					<h2><a href="http://www.hilarymason.com/blog/twitter-succeeds-because-it-fails/" rel="bookmark" title="Permanent Link to Twitter Succeeds Because it Fails">Twitter Succeeds Because it Fails</a></h2>
+					<p class="post_author"><em>by</em> Hilary Mason</p>
+					<div class="format_text">
+<p>How can twitter be so popular and successful if it&#8217;s down <em><a href="http://techcrunch.com/2010/08/05/twitter-down/">all the time</a></em>?</p>
+<p>We base statements like this on the assumption that quality of a web application maps linearly to the application&#8217;s stability. This is obviously true for most sites most of the time, but things get interesting at the edge where rare, unpredictable failure actually enables more complex human interactions around the service.</p>
+<p>Unlike e-mail, twitter etiquette doesn&#8217;t demand that you read or reply to every message from every person you follow (or who follows you). Combine that lightweight social touch with occasional technical issues and human communication patterns, and we start to see some interesting behavior.</p>
+<p><strong>Twitter&#8217;s lack of reliability as a platform allows us to use the technical failings to mask our own social imperfections</strong>. How often have you heard or said something like &#8220;I was sure I was following you&#8221; or &#8220;I must not have gotten that DM&#8221; or even &#8220;I think I tweeted that&#8230;&#8221;? Even just a small percent of users behaving this way changes the social expectations.</p>
+<p>I&#8217;d love to construct an experiment to figure out whether this idea has merit, and if so, what the optimal amount of unavailable operations for social deniability is. Should 1 in 100 actions fail? 1 in 10,000? 1 in 1,000,000? Does it matter if <em>any</em> fail, as long as we believe that every so often failure occurs? (How often do things really get <a href="http://www.google.com/#hl=en&#038;source=hp&#038;q=%22lost+in+the+mail%22&#038;">lost in the mail</a>, anyway?)</p>
+<p>It&#8217;s amusing to conceive of a system that succeeds socially because it often fails technically.</p>
+					</div>	
+					<p class="to_comments"><span class="date">September 4, 2010</span> &nbsp; <span class="num_comments"><a href="http://www.hilarymason.com/blog/twitter-succeeds-because-it-fails/#comments" title="Comment on Twitter Succeeds Because it Fails">5 Comments</a></span></p>
+
+					<h2><a href="http://www.hilarymason.com/blog/should-you-attend-hadoop-world-yes/" rel="bookmark" title="Permanent Link to Should you attend Hadoop World? Yes.">Should you attend Hadoop World? Yes.</a></h2>
+					<p class="post_author"><em>by</em> Hilary Mason</p>
+					<div class="format_text">
+<p>I received this e-mail via my <a href="http://www.hilarymason.com/about/">contact form</a>:</p>
+<blockquote><p>
+I just discovered you via a Google search because I&#8217;m highly considering attending this year&#8217;s upcoming Hadoop World in NYC. I appreciate your page that you wrote up after attending last year&#8217;s event. I&#8217;m wondering if you feel that Hadoop has enough momentum and support to be a &#8220;here to stay&#8221; technology worth investing one&#8217;s time and education into, or is it possible it might fade and be deprecated by something else as the need for big data analysis continues to grow? &#8230;
+</p></blockquote>
+<p>I&#8217;ve had a few similar conversation with people lately, and I thought posting my response might help others making similar decisions. The e-mail is referencing my post from <a href="http://www.hilarymason.com/blog/hadoop-world-nyc/">last year&#8217;s hadoop world NYC</a>.</p>
+<blockquote><p>
+Thanks for reaching out. There are several questions in your message<br />
+and I hope that this will address them all.</p>
+<p>This IS an extremely exciting time to be alive and working with data.<br />
+We now have the capacity to learn thing about our systems, people in<br />
+general, and the world that we simply couldn&#8217;t know before &#8212; the<br />
+field is only going to keep growing.</p>
+<p>Hadoop is currently the primary tool framework for this kind of data<br />
+analysis. It&#8217;s certainly worth learning now, especially since Amazon&#8217;s<br />
+elastic mapreduce makes it very easy for individuals and small team to<br />
+get started without a large investment.</p>
+<p>I&#8217;m also not a huge fan of Java and I wish more resources were going<br />
+into non-Java alternatives. Fortunately, you can use hadoop via the<br />
+streaming API in most any language you choose.</p>
+<p>I do think it&#8217;s important to separate the discussion of tools from the<br />
+larger philosophical discussion of open problems, algorithms, and<br />
+techniques. You can learn the tools from books and blogs. The real<br />
+reason to go to a conference like Hadoop World is to meet the people<br />
+who go to conferences like Hadoop World and get into those deeper<br />
+conversations.
+</p></blockquote>
+<p>I do hope this year&#8217;s conference will highlight the difference between tools and methods, and will also provide plenty of space for those casual hallways conversations.</p>
+					</div>	
+					<p class="to_comments"><span class="date">August 15, 2010</span> &nbsp; <span class="num_comments"><a href="http://www.hilarymason.com/blog/should-you-attend-hadoop-world-yes/#comments" title="Comment on Should you attend Hadoop World? Yes.">1 Comment</a></span></p>
+
+					<h2><a href="http://www.hilarymason.com/blog/a-quick-twitter-bot-bc_l/" rel="bookmark" title="Permanent Link to A quick twitter bot, @bc_l">A quick twitter bot, @bc_l</a></h2>
+					<p class="post_author"><em>by</em> Hilary Mason</p>
+					<div class="format_text">
+<p><a href="http://twitter.com/bc_l"><img src="http://www.hilarymason.com/wp-content/uploads/2010/04/icon.png" alt="" title="bc_l_icon" width="48" height="48" class="alignleft size-full wp-image-461" style="float:left;margin:10px;" /></a></p>
+<p>Several months ago, on a whim inspired by an off-hand comment from <a href="http://twitter.com/chrishwiggins">Chris</a>, I created a bot to bring the wonders of the <a href="http://en.wikipedia.org/wiki/Bc_programming_language">Unix bc language</a> to twitter.</p>
+<p><span style="font-family:Courier, monotype;">bc</span> is a command-line calculator that&#8217;s fast and has the capacity to do some fairly complex math.</p>
+<p>Try it out on the command line:</p>
+
+<div class="wp_syntax"><div class="code"><pre class="c" style="font-family:monospace;">echo <span style="color: #ff0000;">'100 / 10'</span> <span style="color: #339933;">|</span> bc <span style="color: #339933;">-</span>l</pre></div></div>
+
+<p>&#8230;Or by <a href="http://twitter.com/direct_messages/create/bc_l">sending a direct message to bc_l</a> (if you follow <a href="http://twitter.com/bc_l">bc_l</a> it will follow you back within a few hours).</p>
+<p>I released the code under GPL, and it&#8217;s available on github: <a href="http://github.com/hmason/tweetbc">http://github.com/hmason/tweetbc</a>.</p>
+<p>John Cook mentions the bot and makes some great observations in his post <a href="http://www.johndcook.com/blog/2010/07/14/bc-math-library/">three surprises with bc</a>.</p>
+					</div>	
+					<p class="to_comments"><span class="date">July 26, 2010</span> &nbsp; <span class="num_comments"><a href="http://www.hilarymason.com/blog/a-quick-twitter-bot-bc_l/#comments" title="Comment on A quick twitter bot, @bc_l">3 Comments</a></span></p>
+
+					<h2><a href="http://www.hilarymason.com/blog/conference-web2-expo-sf/" rel="bookmark" title="Permanent Link to Conference: Web2 Expo SF">Conference: Web2 Expo SF</a></h2>
+					<p class="post_author"><em>by</em> Hilary Mason</p>
+					<div class="format_text">
+<p>I gave a talk called <a href="http://www.web2expo.com/webexsf2010/public/schedule/detail/14399">A Data-driven Look at the Realtime Web Ecosystem</a> at the <a href="http://www.web2expo.com/webexsf2010/">Web2Expo SF</a> conference in May in San Francisco. I attempted to highlight some of the interesting facets of the bit.ly data set, and it appeared to be well-received (showing up on <a href="http://techcrunch.com/2010/05/06/bitly-data/">TechCrunch</a>, <a href="http://www.zdnet.com/blog/btl/web-20-expo-behind-the-scenes-at-bitly/34166">ZDNet</a>, and a few other places).</p>
+<p>I attended the full conference, and it was great. The attendees were extremely international and I met a ton of fascinating people.</p>
+<p>I&#8217;m still getting a couple of e-mail requests per week for my slides and materials, so they&#8217;re posted below for posterity.</p>
+<p>The slides:</p>
+<div style="width:425px" id="__ss_3996113"><strong style="display:block;margin:12px 0 4px"><a href="http://www.slideshare.net/hmason/a-datadriven-look-at-the-realtime-web-3996113" title="A Data-driven Look at the Realtime Web">A Data-driven Look at the Realtime Web</a></strong><object id="__sse3996113" width="425" height="355"><param name="movie" value="http://static.slidesharecdn.com/swf/ssplayer2.swf?doc=hilarymasonw2e-100506111147-phpapp01&#038;stripped_title=a-datadriven-look-at-the-realtime-web-3996113" /><param name="allowFullScreen" value="true"/><param name="allowScriptAccess" value="always"/><embed name="__sse3996113" src="http://static.slidesharecdn.com/swf/ssplayer2.swf?doc=hilarymasonw2e-100506111147-phpapp01&#038;stripped_title=a-datadriven-look-at-the-realtime-web-3996113" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" width="425" height="355"></embed></object>
+<div style="padding:5px 0 12px">View more <a href="http://www.slideshare.net/">presentations</a> from <a href="http://www.slideshare.net/hmason">Hilary Mason</a>.</div>
+</div>
+<p>And the video:</p>
+<p><object width="560" height="340"><param name="movie" value="http://www.youtube.com/v/CBulEcBwl6s&#038;hl=en_US&#038;fs=1&#038;rel=0"></param><param name="allowFullScreen" value="true"></param><param name="allowscriptaccess" value="always"></param><embed src="http://www.youtube.com/v/CBulEcBwl6s&#038;hl=en_US&#038;fs=1&#038;rel=0" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" width="560" height="340"></embed></object></p>
+<p>As always, I welcome your questions or comments.</p>
+					</div>	
+					<p class="to_comments"><span class="date">June 24, 2010</span> &nbsp; <span class="num_comments"><a href="http://www.hilarymason.com/blog/conference-web2-expo-sf/#comments" title="Comment on Conference: Web2 Expo SF">6 Comments</a></span></p>
+
+					<h2><a href="http://www.hilarymason.com/blog/e-mail-automation-questions-and-answers/" rel="bookmark" title="Permanent Link to E-mail automation, questions and answers">E-mail automation, questions and answers</a></h2>
+					<p class="post_author"><em>by</em> Hilary Mason</p>
+					<div class="format_text">
+<p>Welcome! I&#8217;ve gotten several hundred e-mails about my e-mail management code. I do want to share it as soon as possible. Here are the answers to the most common questions.</p>
+<h3>Why separate scripts?</h3>
+<p>My philosophy is based on the unix command-line tool model; Each script should be simple and useful alone, but when combined together they become extremely powerful.</p>
+<h3>Why don&#8217;t we have the code yet?!</h3>
+<p>I had no idea the talk would be shared beyond the couple hundred people in the audience or that it would be so popular! I started my position at <a href="http://bit.ly/pages/about/">bit.ly</a> the same day I gave that IgniteNYC presentation, and I also have some <a href="http://www.nycresistor.com">other</a> <a href="http://hackny.org">awesome</a> <a href="http://www.headlampresearch.com">projects</a> that are competing for time.</p>
+<p>I have to admit that the trained classifiers are all based on my personal data and were also trained mostly through tweaking in ipython. I need to finish a generic framework for people to train their own filters before I can publish that piece of the system. I promise, I&#8217;m working on it.</p>
+<p>Keep nagging me &#8212; nagging works!</p>
+<h3>Are you going to commercialize your scripts / can I invest?</h3>
+<p>I have certainly thought about commercializing the application, but I&#8217;m uncomfortable asking people to give me access to their personal e-mail data (even if there are very interesting things to be learned by aggregate analysis).</p>
+<p>Just imagine how much more creative, interesting work could be done if we could partially free the world from the e-mail workload&#8230; that alone is worth making the code open.</p>
+<h3>How does it work? What tech are you using?</h3>
+<p>The scripts run on my gmail account through IMAP (and should work with any IMAP interface, though I&#8217;m sure there is debugging to be done). They live on a <a href="http://www.linode.com">Linode VPS</a> and run individually via cron jobs.</p>
+<p>Most of the scripts are in Python. I use <a href="http://www.nltk.org">NLTK</a> and <a href="http://www.csie.ntu.edu.tw/~cjlin/libsvm/">libsvm</a> (in addition to my own code) for the data analysis.</p>
+<p>I primarily use the gmail web interface (though I&#8217;ve flipflopped between Mail.app and Thunderbird for a while), and the only cost is that I have to manually reload the page to see new labels and new drafts appear.</p>
+<h3>Do your scripts go mad with power and e-mail inappropriately? Are you some kinda robot?</h3>
+<p>I have all of the scripts deposit suggested responses in the draft folder, and then I use the gmail &#8220;multiple inboxes&#8221; feature to keep the draft folder up in the UI. It&#8217;s very easy to go through and modify or delete responses <em>before</em> they are sent.</p>
+<p>Of course, I only thought of that after one of the script DID go a bit mad. I&#8217;m still sorry about that, Mom.</p>
+<p>I&#8217;m not a robot, though of course I would say that anyway! The point of the automation is to remove the stupid parts of e-mail and leave me free to personally address the interesting messages.</p>
+<h3>If you&#8217;ve read this far, there are a few things I would love your feedback on:</h3>
+<p>What&#8217;s a kickass name for this project?</p>
+<p>More important, which features/scripts are you most interested in seeing first? The nag script is about ready to go, but I&#8217;d like to know where to focus my time.</p>
+<p>THANK YOU!</p>
+					</div>	
+					<p class="to_comments"><span class="date">May 27, 2010</span> &nbsp; <span class="num_comments"><a href="http://www.hilarymason.com/blog/e-mail-automation-questions-and-answers/#comments" title="Comment on E-mail automation, questions and answers">50 Comments</a></span></p>
+
+					<h2><a href="http://www.hilarymason.com/blog/stop-talking-start-coding/" rel="bookmark" title="Permanent Link to Stop talking, start coding">Stop talking, start coding</a></h2>
+					<p class="post_author"><em>by</em> Hilary Mason</p>
+					<div class="format_text">
+<p>I read <a href="http://www.nytimes.com/2010/04/18/technology/18women.html?hpw=&amp;pagewanted=all">Out of the Loop in Silicon Valley</a> in the NYTimes today, which explores how and why women are under-repesented in tech startups. From the number of retweets I saw and the clicks through <a href="http://bit.ly">bit.ly</a> links (12,579 at the time of this posting), it&#8217;s been getting a lot of attention.</p>
+<p>There are some very strong, compelling themes in this article. Computer science and engineering to have an &#8220;image problem&#8221;; the way we teach math to elementary school students is horrible and turns way too many away.</p>
+<p>I don&#8217;t want to nitpick the article, but there are a few statements that reinforce the very damaging stereotypes that the article sets out to dispel.</p>
+<blockquote>
+<p>&#8220;When women take on the challenges of an engineering or computer science education in college, some studies suggest that they struggle against a distinct set of personal, psycho-social issues&#8230; Even women who soldier though [<em>sic</em>] demanding computer science and engineering programs in college&#8230;&#8221;</p>
+</blockquote>
+<p>I&#8217;ve been both a computer science student and a computer science professor. I have not seen any evidence that the average undergraduate computer science education is harder than physics, math, chemistry, biology, or many other &#8216;hard&#8217; disciplines with a much stronger gender balance. Implying that women are unwilling to meet the intellectual challenges of the discipline is bullshit.</p>
+<blockquote>
+<p>“Girls have certain family goals they want to accomplish,” she says. “Working 60 hours a week is difficult because it requires a life sacrifice.”</p>
+</blockquote>
+<p>The men that I know and work with also have wonderful personal lives. Working 60 hour weeks is a sacrifice for them, too.</p>
+<p>Please read the whole article. Let me know what you think when you see the material in context.</p>
+<p>I&#8217;m going to make the assumption that we all believe that having more women in technology is a Good Thing<sup>tm</sup>.</p>
+<p>Many groups have popped up that support women in technology, like <a href="http://girlsintech.net/">Girls in Tech</a>, <a href="http://www.shesgeeky.org/">She&#8217;s Geeky</a>, and many others (enumerated in Digiphile&#8217;s thoughtful post <a href="http://digiphile.wordpress.com/2010/04/18/why-including-women-matters-for-the-future-of-technology-and-society/">Why Including women matters for the future of technology and society</a>). More often than not, <strong>these groups are the canned food drives of the women in technology movement</strong>. They make you feel better, they might do a little good, but they offer no fundamental change to the system that created the problem in the first place.</p>
+<p>The <a href="http://gracehopper.org/2010/">Grace Hopper Celebration of Women in Computing</a> does this well. GHC invites women to come to one place, be together, and <em>do science together</em>.</p>
+<p>We don&#8217;t need affirmative action for women in tech. We need to create experiences that nurture women and men so that more people are inspired to can create beautiful, technical things together.</p>
+					</div>	
+					<p class="to_comments"><span class="date">April 18, 2010</span> &nbsp; <span class="num_comments"><a href="http://www.hilarymason.com/blog/stop-talking-start-coding/#comments" title="Comment on Stop talking, start coding">62 Comments</a></span></p>
+
+					<h2><a href="http://www.hilarymason.com/blog/art-and-technology-seven-on-seven/" rel="bookmark" title="Permanent Link to Art and Technology: Seven on Seven">Art and Technology: Seven on Seven</a></h2>
+					<p class="post_author"><em>by</em> Hilary Mason</p>
+					<div class="format_text">
+<p><a href="http://www.rhizome.org/sevenonseven/"><img alt="" src="http://media.tumblr.com/tumblr_kytgiaIScs1qzr9jt.png" title="Seven on Seven" class="alignnone" width="426" height="252" /></a></p>
+<p>I&#8217;m honored and excited to be participating in Rhizome&#8217;s new conference <a href="http://www.rhizome.org/sevenonseven/">Seven on Seven</a>, where technologists and artists are paired up to create a completely new project in 24-hours.</p>
+<p>The formal description:</p>
+<blockquote><p>Seven on Seven will pair seven leading artists with seven game-changing technologists in teams of two, and challenge them to develop something new &#8211;be it an application, social media, artwork, product, or whatever they imagine&#8211; over the course of a single day. The seven teams will unveil their ideas at a one-day event at the New Museum on April 17th.</p></blockquote>
+<p>I really love this idea because the time constraints and the inherent discomfort of the situation (working in an unfamiliar space with an unfamiliar person) makes it likely that we&#8217;ll be able to accomplish something creative and unexpected. Or else it will go completely awry, which will still be amusing for the audience.</p>
+<p>I&#8217;ve had a lot of fun and been able to work on some interesting projects at hackathons <a href="http://www.hilarymason.com/blog/yahoo-openhacknyc-the-del-icio-us-cake/">in the past</a>, and I hope this one will be even better.</p>
+<p>The event has been covered by an amazing assortment of blogs, including <a href="http://techcrunch.com/2010/03/13/seven-on-seven-new-museum/">TechCrunch</a>, <a href="http://www.boingboing.net/2010/03/08/rhizomes-7-on-7-7-ge.html">BoingBoing</a>, <a href="http://www.artfagcity.com/2010/02/10/seven-on-seven-where-art-and-technology-actually-meet/">Art Fag City</a>, <a href="http://trueslant.com/stoweboyd/2010/03/05/technology-meets-art/">Stowe Boyd</a> and <a href="http://thegongshow.tumblr.com/post/430247785/seven-on-seven-april-17th">Andrew Parker</a>.</p>
+					</div>	
+					<p class="to_comments"><span class="date">March 14, 2010</span> &nbsp; <span class="num_comments"><a href="http://www.hilarymason.com/blog/art-and-technology-seven-on-seven/#comments" title="Comment on Art and Technology: Seven on Seven">1 Comment</a></span></p>
+
+					<h2><a href="http://www.hilarymason.com/blog/conference-search-and-social-media-2010/" rel="bookmark" title="Permanent Link to Conference: Search and Social Media 2010">Conference: Search and Social Media 2010</a></h2>
+					<p class="post_author"><em>by</em> Hilary Mason</p>
+					<div class="format_text">
+<div style="float: left; margin: 10px;">
+<div class="mceTemp">
+<dl class="wp-caption alignleft" style="width: 190px;">
+<dt class="wp-caption-dt"><a href="http://www.flickr.com/photos/hmason/4354122706/"><img title="Dimensions of Social Search Data, from Jan Pederson's Keynote presentation" src="http://farm5.static.flickr.com/4037/4354122706_e06128d272_m.jpg" alt="" width="180" height="240" /></a></dt>
+<dd class="wp-caption-dd"></dd>
+</dl>
+</div>
+</div>
+<p>I recently attended the <a href="http://ir.mathcs.emory.edu/SSM2010/">Third Annual Workshop on Search and Social Media</a>, an academic workshop with very strong industry participation. The workshop was packed, and had some of the most informative and interesting panel discussions I&#8217;ve seen (not counting the one I spoke on!).</p>
+<p><a href="http://www.thenoisychannel.com">Daniel Tunkelang</a> did a great job of writing up the specific presentations on his site and <a href="http://cacm.acm.org/blogs/blog-cacm/71444-third-workshop-on-search-and-social-media-ssm-2010/fulltext">on the ACM blog</a>, so I won&#8217;t attempt to re-create the presentations line by line at this late date. Rather, I&#8217;d like to highlight a few open problems and research questions that came out of the discussions that I hope to see developed in the next year.</p>
+<p>Social search consists of a set of problems including (but hardly limited to) search of social content like status updates, real-time search, generating, labeling, and finding user-generated content,  &#8216;long-tail&#8217; events and interests, finding vs re-finding, and trend identification.</p>
+<p>What data is available to social search? There are many kinds of social data, from e-mail (private) to blogs (public) and tweets (mostly public) &#8212; what is and should be searchable? How do we handle issues of privacy and identity management?</p>
+<p>How do we compute relevance, taking into account freshness, accuracy, and degrees of social separation?</p>
+<p>Will the architecture of these search engines look like the search engines we&#8217;re currently familiar with? </p>
+<p>How do we evaluate accuracy and <em>truthiness</em> of social data?  </p>
+<p>How do we characterize social connections, around concepts like strong vs weak ties, and friend-of-a-friend vs friend-of-a-friend&#8217;s-friend? Can we converge on a single social graph representation?</p>
+<p>How do we best filter social data to lead to accurate recommendations for content discovery? How do we accommodate the fact that as we move beyond static factual data, two people using the same query may be looking for very different results?</p>
+<p>Finally, how do we deal with the chasm between the industry participants (who have LOTS of data) and the academic participants, who suffer from a lack of public (and publishable) data?</p>
+<p>Thanks again to the organizers &#8211; <a href="http://www.mathcs.emory.edu/%7Eeugene/">Eugene Agichtein</a>, <a href="http://people.ischool.berkeley.edu/%7Ehearst/">Marti Hearst</a>, <a href="http://trec.nist.gov/">Ian Soboroff</a>, and <a href="http://www.thenoisychannel.com">Daniel Tunkelang</a> &#8211; who put together a fantastic event.</p>
+<p>For more on this and a cool demo, check out <a href="http://www.fxpal.com/?p=gene">Gene Golovchinsky</a>&#8216;s look at the <a href="http://palblog.fxpal.com/?p=2948">SSM2010 twitter coverage</a>.</p>
+					</div>	
+					<p class="to_comments"><span class="date">February 16, 2010</span> &nbsp; <span class="num_comments"><a href="http://www.hilarymason.com/blog/conference-search-and-social-media-2010/#comments" title="Comment on Conference: Search and Social Media 2010">2 Comments</a></span></p>
+
+					<h2><a href="http://www.hilarymason.com/blog/sms-to-e-mail-gateway-the-sms-doorbell/" rel="bookmark" title="Permanent Link to SMS to e-mail gateway: The SMS doorbell">SMS to e-mail gateway: The SMS doorbell</a></h2>
+					<p class="post_author"><em>by</em> Hilary Mason</p>
+					<div class="format_text">
+<p>Over at <a href="http://www.nycresistor.com">NYC Resistor</a>, it was getting cold, and we needed a doorbell so visitors wouldn&#8217;t be stranded outside when the building was locked. A standard wireless model didn&#8217;t work reliably (the space is on the fifth floor, just out of range), so various members generally resorted to writing their phone numbers on a sign on the front door when they were expecting guests.</p>
+<p>Since almost everyone has a mobile phone already, and SMS-based solution seemed appropriate. In order to implement this we need two things:</p>
+<ol>
+<li>An SMS shortcode</li>
+<li>A system to notify when the shortcode is triggered</li>
+</ol>
+<p>It&#8217;s irritating and expensive to acquire your own shortcode, but there are several services that will allow you to use one in exchange for a small fee or advertisements in your messages. <a href="http://www.textmarks.com">TextMarks</a> is my favorite (I used TextMarks for my <a href="http://www.hilarymason.com/blog/mobile-app-whereami/">WhereAmI</a> project). While TextMarks markets their service as a system for mobile mailing lists, they allow you to reserve a keyword and define a behavior (that can include pulling data from a URL!) to occur when that keyword is triggered.</p>
+<h3>Configuring TextMarks</h3>
+<p><img class="alignleft size-full wp-image-407" title="textmarks_configuration" src="http://www.hilarymason.com/wp-content/uploads/2010/01/textmarks_configuration1.png" alt="textmarks_configuration" width="424" height="338" />Sign up for <a href="http://www.textmarks.com">TextMarks</a> and choose a keyword. Configure the keyword to respond with the &#8220;First 120 characters on web page&#8221;, and point it at the future home of your script (you can always come back and modify this later).</p>
+<p>Note the <span class="code">\0</span> as the value of the <span class="code">msg</span> parameter &#8212; this instructs TextMarks to send along any additional message contents as the value of that parameter. That means if someone were to text 41411 &#8220;doorbell hi this is hilary&#8221;, TextMarks would call the script with the param msg=hi this is hilary. This can be quite useful.</p>
+<h3>The Script</h3>
+<p>This script is written in Python, but you can use any scripting language you like. This particular script just sends an e-mail to an account when the &#8216;doorbell&#8217; is rung, but you could have it do pretty much anything up to and including ringing a real bell (which may be coming soon!).</p>
+
+<div class="wp_syntax"><div class="code"><pre class="python" style="font-family:monospace;"><span style="color: #808080; font-style: italic;">#!/usr/bin/env python</span>
+<span style="color: #808080; font-style: italic;"># encoding: utf-8</span>
+<span style="color: #483d8b;">&quot;&quot;&quot;
+doorbell.py
+Created by Hilary Mason, feel free to use this code in your own projects.
+&quot;&quot;&quot;</span>
+&nbsp;
+<span style="color: #ff7700;font-weight:bold;">import</span> <span style="color: #dc143c;">sys</span>, <span style="color: #dc143c;">os</span>
+<span style="color: #ff7700;font-weight:bold;">import</span> <span style="color: #dc143c;">smtplib</span>
+<span style="color: #ff7700;font-weight:bold;">import</span> <span style="color: #dc143c;">cgi</span>
+<span style="color: #ff7700;font-weight:bold;">import</span> <span style="color: #dc143c;">cgitb</span><span style="color: #66cc66;">;</span> <span style="color: #dc143c;">cgitb</span>.<span style="color: black;">enable</span><span style="color: black;">&#40;</span><span style="color: black;">&#41;</span>
+&nbsp;
+<span style="color: #ff7700;font-weight:bold;">class</span> Doorbell<span style="color: black;">&#40;</span><span style="color: #008000;">object</span><span style="color: black;">&#41;</span>:
+	GMAIL_USERNAME = <span style="color: #483d8b;">'YOURGMAILACCOUNT@gmail.com'</span>
+	GMAIL_PASSWORD = <span style="color: #483d8b;">'YOURPASSWORD'</span>
+&nbsp;
+	<span style="color: #ff7700;font-weight:bold;">def</span> <span style="color: #0000cd;">__init__</span><span style="color: black;">&#40;</span><span style="color: #008000;">self</span>, msg<span style="color: black;">&#41;</span>:
+		message = <span style="color: #483d8b;">&quot;&quot;&quot;<span style="color: #000099; font-weight: bold;">\</span>
+From: YOURGMAILACCOUNT@gmail.com
+To: YOURGMAILACCOUNT@gmail.com
+Subject: KNOCK KNOCK, someone is at the door!
+&nbsp;
+%s
+		&quot;&quot;&quot;</span> <span style="color: #66cc66;">%</span> msg
+&nbsp;
+		server = <span style="color: #dc143c;">smtplib</span>.<span style="color: black;">SMTP</span><span style="color: black;">&#40;</span><span style="color: #483d8b;">'smtp.gmail.com:587'</span><span style="color: black;">&#41;</span>
+		server.<span style="color: black;">ehlo</span><span style="color: black;">&#40;</span><span style="color: black;">&#41;</span>
+		server.<span style="color: black;">starttls</span><span style="color: black;">&#40;</span><span style="color: black;">&#41;</span>
+		server.<span style="color: black;">ehlo</span><span style="color: black;">&#40;</span><span style="color: black;">&#41;</span>
+		server.<span style="color: black;">login</span><span style="color: black;">&#40;</span><span style="color: #008000;">self</span>.<span style="color: black;">GMAIL_USERNAME</span>, <span style="color: #008000;">self</span>.<span style="color: black;">GMAIL_PASSWORD</span><span style="color: black;">&#41;</span>
+		server.<span style="color: black;">sendmail</span><span style="color: black;">&#40;</span><span style="color: #483d8b;">'YOURGMAILACCOUNT@gmail.com'</span>, <span style="color: black;">&#91;</span><span style="color: #483d8b;">'YOURGMAILACCOUNT@gmail.com'</span><span style="color: black;">&#93;</span>, message<span style="color: black;">&#41;</span>
+		server.<span style="color: black;">quit</span><span style="color: black;">&#40;</span><span style="color: black;">&#41;</span>
+&nbsp;
+		<span style="color: #ff7700;font-weight:bold;">print</span> <span style="color: #483d8b;">&quot;You knocked! You can also call us at 347-586-9270. &lt;3, NYC Resistor&quot;</span>
+&nbsp;
+&nbsp;
+<span style="color: #ff7700;font-weight:bold;">if</span> __name__ == <span style="color: #483d8b;">'__main__'</span>:
+	<span style="color: #ff7700;font-weight:bold;">print</span> <span style="color: #483d8b;">&quot;Content-Type: text/plain<span style="color: #000099; font-weight: bold;">\n</span><span style="color: #000099; font-weight: bold;">\n</span>&quot;</span>
+&nbsp;
+	form = <span style="color: #dc143c;">cgi</span>.<span style="color: black;">FieldStorage</span><span style="color: black;">&#40;</span><span style="color: black;">&#41;</span>
+	<span style="color: #ff7700;font-weight:bold;">if</span> <span style="color: #483d8b;">'msg'</span> <span style="color: #ff7700;font-weight:bold;">in</span> form:
+		w = Doorbell<span style="color: black;">&#40;</span>form<span style="color: black;">&#91;</span><span style="color: #483d8b;">'msg'</span><span style="color: black;">&#93;</span>.<span style="color: black;">value</span><span style="color: black;">&#41;</span>
+	<span style="color: #ff7700;font-weight:bold;">else</span>:
+		w = Doorbell<span style="color: black;">&#40;</span><span style="color: #483d8b;">'There is an anonymous monkey at the door.'</span><span style="color: black;">&#41;</span></pre></div></div>
+
+<p>And that&#8217;s it! Provided you have your keyword configured to point at your script, and the script living at an accessible address, you&#8217;ll get an e-mail whenever your SMS doorbell is rung and the person who sent the message will get back a cute response confirming their action.</p>
+<h3>Finally&#8230;</h3>
+<p>This setup can be easily extended such that a message containing &#8216;doorbell hilary&#8217; could e-mail only me, or be forwarded to my phone.  </p>
+<p>I&#8217;m curious to see if having a remotely accessible &#8216;doorbell&#8217; will encourage pranksters &#8212; we might need to add a password.</p>
+					</div>	
+					<p class="to_comments"><span class="date">January 3, 2010</span> &nbsp; <span class="num_comments"><a href="http://www.hilarymason.com/blog/sms-to-e-mail-gateway-the-sms-doorbell/#comments" title="Comment on SMS to e-mail gateway: The SMS doorbell">5 Comments</a></span></p>
+				
+				</div>
+			
+				
+<div class="navigation">
+	<p><span class="older"><a href="http://www.hilarymason.com/page/2/" >&larr; Previous Entries</a></span></p>
+</div>
+
+	
+			</div>
+		
+			<div id="left_bar" class="sidebar">
+	<ul class="sidebar_list">
+		<li class="widget">
+			<h2>Navigation</h2>
+			<ul>
+<li><a href="http://www.hilarymason.com" rel="nofollow">Home</a></li>
+<li><a href="http://www.hilarymason.com/about/" rel="nofollow">About Me</a></li>
+<li><a href="http://www.hilarymason.com/projects/" rel="nofollow">Projects</a></li>
+<li><a href="http://www.hilarymason.com/blog/" rel="nofollow">Blog</a></li>
+<li><a href="http://www.hilarymason.com/academics/" rel="nofollow">Academics</a></li>
+<li><a href="http://www.hilarymason.com/onthetubes/" rel="nofollow">OnTheInternet</a></li>
+			</ul>
+		</li>
+		<!-- li class="widget">
+			<h2>Latest Blog Entries</h2>
+			<ul>
+				<li><a href="http://www.hilarymason.com/blog/machine-learning-a-love-story/">Machine Learning: A Love Story</a></li>
+				<li><a href="http://www.hilarymason.com/blog/twitter-succeeds-because-it-fails/">Twitter Succeeds Because it Fails</a></li>
+				<li><a href="http://www.hilarymason.com/blog/should-you-attend-hadoop-world-yes/">Should you attend Hadoop World? Yes.</a></li>
+				<li><a href="http://www.hilarymason.com/blog/a-quick-twitter-bot-bc_l/">A quick twitter bot, @bc_l</a></li>
+				<li><a href="http://www.hilarymason.com/blog/conference-web2-expo-sf/">Conference: Web2 Expo SF</a></li>
+				<li><a href="http://www.hilarymason.com/blog/e-mail-automation-questions-and-answers/">E-mail automation, questions and answers</a></li>
+				<li><a href="http://www.hilarymason.com/blog/stop-talking-start-coding/">Stop talking, start coding</a></li>
+				<li><a href="http://www.hilarymason.com/blog/art-and-technology-seven-on-seven/">Art and Technology: Seven on Seven</a></li>
+				<li><a href="http://www.hilarymason.com/blog/conference-search-and-social-media-2010/">Conference: Search and Social Media 2010</a></li>
+				<li><a href="http://www.hilarymason.com/blog/sms-to-e-mail-gateway-the-sms-doorbell/">SMS to e-mail gateway: The SMS doorbell</a></li>
+			</ul>
+		</li -->
+                <li class="widget">
+                        <h2>Latest Updates</h2>
+                        <ul class='newsfeed'>
+<li><a href="http://twitter.com/hmason/statuses/15842658744279041"><img src='http://www.hilarymason.com/wp-content/plugins/hm_friendfeed/twitter.png' alt='twitter' /></a> RT @jgv: currently importing all my #delicious bookmarks to @github with @hmason's awesome gitmarks project <a href="http://bit.ly/fjVJpT" rel="nofollow">http://bit.ly/fjVJpT</a> (<a href="http://twitter.com/hmason/statuses/15842658744279041">link</a>) </li>
+<li><a href="http://twitter.com/hmason/statuses/15654839669231616"><img src='http://www.hilarymason.com/wp-content/plugins/hm_friendfeed/twitter.png' alt='twitter' /></a> I made a github-based social bookmarking tool (w/ delicious import). <a href="http://bit.ly/fjVJpT" rel="nofollow">http://bit.ly/fjVJpT</a> my bookmarks: <a href="http://bit.ly/fOWKEB" rel="nofollow">http://bit.ly/fOWKEB</a> (<a href="http://twitter.com/hmason/statuses/15654839669231616">link</a>) </li>
+<li><a href="http://twitter.com/hmason/statuses/15096171068391424"><img src='http://www.hilarymason.com/wp-content/plugins/hm_friendfeed/twitter.png' alt='twitter' /></a> I voted for @evankorth for #NYTM board. He speaks academia, code, students, startups, and tech. <a href="http://vote.nytm.org/" rel="nofollow">http://vote.nytm.org/</a> (<a href="http://twitter.com/hmason/statuses/15096171068391424">link</a>) </li>
+<li><a href="http://twitter.com/hmason/statuses/15095660969730048"><img src='http://www.hilarymason.com/wp-content/plugins/hm_friendfeed/twitter.png' alt='twitter' /></a> bit.ly just deployed some snow! Happy Winter! <a href="http://bit.ly" rel="nofollow">http://bit.ly</a> (log out to see it) (<a href="http://twitter.com/hmason/statuses/15095660969730048">link</a>) </li>
+<li><a href="http://www.flickr.com/photos/hmason/5258532363/"><img src='http://www.hilarymason.com/wp-content/plugins/hm_friendfeed/flickr.png' alt='flickr' /></a> Birthday at bit.ly (<a href="http://www.flickr.com/photos/hmason/5258532363/">link</a>) </li>
+<li><a href="http://twitter.com/hmason/statuses/14343800474304513"><img src='http://www.hilarymason.com/wp-content/plugins/hm_friendfeed/twitter.png' alt='twitter' /></a> Hah! @phooky wrote a cron job script to e-mail me itself, with code comments reminding me to have a happy birthday. #nerdfriendsftw (<a href="http://twitter.com/hmason/statuses/14343800474304513">link</a>) </li>
+<li><a href="http://www.flickr.com/photos/hmason/5256358107/"><img src='http://www.hilarymason.com/wp-content/plugins/hm_friendfeed/flickr.png' alt='flickr' /></a> misty sunrise (<a href="http://www.flickr.com/photos/hmason/5256358107/">link</a>) </li>
+<li><a href="http://info.iet.unipi.it/~luigi/kindle/"><img src='http://www.hilarymason.com/wp-content/plugins/hm_friendfeed/delicious.png' alt='delicious' /></a> <a href="http://info.iet.unipi.it/~luigi/kindle/" rel="nofollow">http://info.iet.unipi.it/~luigi/kindle/</a> (<a href="http://info.iet.unipi.it/~luigi/kindle/">link</a>) </li>
+<li><a href="http://twitter.com/hmason/statuses/14051673961930754"><img src='http://www.hilarymason.com/wp-content/plugins/hm_friendfeed/twitter.png' alt='twitter' /></a> <a href="http://accentuate.us" rel="nofollow">http://accentuate.us</a> by @michaelschade is using ML to make it easier to communicate online in non-English languages. Cool. (<a href="http://twitter.com/hmason/statuses/14051673961930754">link</a>) </li>
+<li><a href="http://twitter.com/hmason/statuses/14044778341605376"><img src='http://www.hilarymason.com/wp-content/plugins/hm_friendfeed/twitter.png' alt='twitter' /></a> Figuring out your friends from photo metadata: <a href="http://bit.ly/i6xfId" rel="nofollow">http://bit.ly/i6xfId</a> (via @edd) (<a href="http://twitter.com/hmason/statuses/14044778341605376">link</a>) </li>
+<li><a href="http://blog.urfix.com/25-%E2%80%93-sick-linux-commands/"><img src='http://www.hilarymason.com/wp-content/plugins/hm_friendfeed/delicious.png' alt='delicious' /></a> 25 Even More – Sick Linux Commands (<a href="http://blog.urfix.com/25-%E2%80%93-sick-linux-commands/">link</a>) </li>
+<li><a href="http://twitter.com/hmason/statuses/13210542067941376"><img src='http://www.hilarymason.com/wp-content/plugins/hm_friendfeed/twitter.png' alt='twitter' /></a> Ranking the popularity of programming languages by @drewconway and @johnmyleswhite <a href="http://bit.ly/i9W6K5" rel="nofollow">http://bit.ly/i9W6K5</a> (via @dataists) (<a href="http://twitter.com/hmason/statuses/13210542067941376">link</a>) </li>
+<li><a href="http://www.flickr.com/photos/hmason/5248331934/"><img src='http://www.hilarymason.com/wp-content/plugins/hm_friendfeed/flickr.png' alt='flickr' /></a> Traditional Japanese Dinner (before) (<a href="http://www.flickr.com/photos/hmason/5248331934/">link</a>) </li>
+<li><a href="http://twitter.com/hmason/statuses/13014141245591553"><img src='http://www.hilarymason.com/wp-content/plugins/hm_friendfeed/twitter.png' alt='twitter' /></a> I agree with @toddml, this is the most exciting news this week: One step closer to private manned space flight. <a href="http://engt.co/fAvxOt" rel="nofollow">http://engt.co/fAvxOt</a> (<a href="http://twitter.com/hmason/statuses/13014141245591553">link</a>) </li>
+<li><a href="http://twitter.com/hmason/statuses/11966470439313408"><img src='http://www.hilarymason.com/wp-content/plugins/hm_friendfeed/twitter.png' alt='twitter' /></a> Awesome! @drewconway made NYC Data Mafia shirts. Join us: <a href="http://bit.ly/e42oGA" rel="nofollow">http://bit.ly/e42oGA</a> (<a href="http://twitter.com/hmason/statuses/11966470439313408">link</a>) </li>
+<li><a href="http://www.flickr.com/photos/littlegreenfroggy/5220140006/"><img src='http://www.hilarymason.com/wp-content/plugins/hm_friendfeed/flickr.png' alt='flickr' /></a> When Hilary got home, she said this: (<a href="http://www.flickr.com/photos/littlegreenfroggy/5220140006/">link</a>) </li>
+<li><a href="http://twitter.com/hmason/statuses/11493381309997056"><img src='http://www.hilarymason.com/wp-content/plugins/hm_friendfeed/twitter.png' alt='twitter' /></a> RT @hackny Hey students: applications are due by midnight TONIGHT for the hackNY 2011 summer fellowship program! <a href="http://bit.ly/hackny2011" rel="nofollow">http://bit.ly/hackny2011</a> (<a href="http://twitter.com/hmason/statuses/11493381309997056">link</a>) </li>
+<li><a href="http://twitter.com/hmason/statuses/11488075897110528"><img src='http://www.hilarymason.com/wp-content/plugins/hm_friendfeed/twitter.png' alt='twitter' /></a> That *was* an earthquake! <a href="http://bit.ly/f9OpMW" rel="nofollow">http://bit.ly/f9OpMW</a> (via @earthquake_jp) (<a href="http://twitter.com/hmason/statuses/11488075897110528">link</a>) </li>
+<li><a href="http://www.flickr.com/photos/hmason/5232876855/"><img src='http://www.hilarymason.com/wp-content/plugins/hm_friendfeed/flickr.png' alt='flickr' /></a> Spider (<a href="http://www.flickr.com/photos/hmason/5232876855/">link</a>) </li>
+<li><a href="http://www.flickr.com/photos/hmason/5231452884/"><img src='http://www.hilarymason.com/wp-content/plugins/hm_friendfeed/flickr.png' alt='flickr' /></a> hackNY hackathon demos (<a href="http://www.flickr.com/photos/hmason/5231452884/">link</a>) </li>
+</ul>
+<p>See more on <a href="http://friendfeed.com/hmason">FriendFeed</a>!</p>                </li>
+	</ul>
+        
+</div>
+		
+		</div>
+
+                <div id="right_bar" class="sidebar">
+	<ul class="sidebar_list">
+<li class="widget">
+    <img src="http://www.hilarymason.com/wp-content/themes/neoclassical/images/me_square.jpg" alt="hilary mason" />
+</li>
+<li id="search" class="widget widget_search">
+ <h2 class="widgettitle" align="left">Search This Site</h2>
+ <form id="search_form" action="http://www.hilarymason.com/" method="get">
+ <input id="s" class="search_input" type="text" onblur="if (this.value == '') {this.value = 'To search, type and hit enter';}" onfocus="if (this.value == 'To search, type and hit enter') {this.value = '';}" name="s" value="To search, type and hit enter"/>
+ <input id="searchsubmit" type="hidden" value="Search"/>
+ </form>
+</li>
+
+<li id="recent-comments-2" class="widget widget_recent_comments"><h2 class="widgettitle">Recent Comments</h2>
+<ul id="recentcomments"><li class="recentcomments">Mike on <a href="http://www.hilarymason.com/blog/machine-learning-a-love-story/comment-page-1/#comment-1233">Machine Learning: A Love Story</a></li><li class="recentcomments">Knives Hartle on <a href="http://www.hilarymason.com/blog/autoscript-creates-lsl-scripts-without-code/comment-page-3/#comment-1232">Autoscript Creates LSL Scripts Without Code</a></li><li class="recentcomments"><a href='http://space.nirak.net/2010/04/19/a-rant-about-humans/' rel='external nofollow' class='url'>A rant about humans | space</a> on <a href="http://www.hilarymason.com/blog/stop-talking-start-coding/comment-page-2/#comment-1231">Stop talking, start coding</a></li><li class="recentcomments">Amit C on <a href="http://www.hilarymason.com/blog/machine-learning-a-love-story/comment-page-1/#comment-1227">Machine Learning: A Love Story</a></li><li class="recentcomments">Amit C on <a href="http://www.hilarymason.com/blog/machine-learning-a-love-story/comment-page-1/#comment-1226">Machine Learning: A Love Story</a></li></ul></li>
+		<li id="recent-posts-2" class="widget widget_recent_entries">		<h2 class="widgettitle">Recent Posts</h2>
+		<ul>
+				<li><a href="http://www.hilarymason.com/blog/machine-learning-a-love-story/" title="Machine Learning: A Love Story">Machine Learning: A Love Story</a></li>
+				<li><a href="http://www.hilarymason.com/blog/twitter-succeeds-because-it-fails/" title="Twitter Succeeds Because it Fails">Twitter Succeeds Because it Fails</a></li>
+				<li><a href="http://www.hilarymason.com/blog/should-you-attend-hadoop-world-yes/" title="Should you attend Hadoop World? Yes.">Should you attend Hadoop World? Yes.</a></li>
+				<li><a href="http://www.hilarymason.com/blog/a-quick-twitter-bot-bc_l/" title="A quick twitter bot, @bc_l">A quick twitter bot, @bc_l</a></li>
+				<li><a href="http://www.hilarymason.com/blog/conference-web2-expo-sf/" title="Conference: Web2 Expo SF">Conference: Web2 Expo SF</a></li>
+				</ul>
+		</li>
+	</ul>
+</div>		
+	</div>
+
+	<div id="footer">
+		<p>Support <a href="http://www.openeducation.net/about/">open education</a> with the Neoclassical Theme.</p>
+		<script type='text/javascript' src='http://www.hilarymason.com/wp-content/plugins/contact-form-7/jquery.form.js?ver=2.47'></script>
+<script type='text/javascript' src='http://www.hilarymason.com/wp-content/plugins/contact-form-7/scripts.js?ver=2.4.2'></script>
+<!--stats_footer_test--><script src="http://stats.wordpress.com/e-201050.js" type="text/javascript"></script>
+<script type="text/javascript">
+st_go({blog:'6538771',v:'ext',post:'0'});
+var load_cmc = function(){linktracker_init(6538771,0,2);};
+if ( typeof addLoadEvent != 'undefined' ) addLoadEvent(load_cmc);
+else load_cmc();
+</script>
+	</div>
+</div>
+</div>
+<!--[if lte IE 7]>
+<div id="ie_clear"></div>
+<![endif]-->
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+var pageTracker = _gat._getTracker("UA-1489244-3");
+pageTracker._initData();
+pageTracker._trackPageview();
+</script>
+</body>
+</html>
+
+<!-- Dynamic page generated in 0.716 seconds. -->
+<!-- Cached page generated by WP-Super-Cache on 2010-12-18 12:45:49 -->
+<!-- super cache -->
